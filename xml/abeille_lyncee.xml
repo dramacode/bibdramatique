@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Lyncee_integral_V2" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -2187,8 +2186,8 @@
         <head>LYNCÉE<note n="43" place="bottom">Sur l’édition originale, un accent aigu semble avoir
             été ajouté à la main sur le premier « E ».</note></head>
         <head>TRAGÉDIE.</head>
-        <pb/>
         <div>
+          <pb/>
           <pb/>
           <head>ACTEURS<note n="46" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, le terme
               d’ACTEURS désigne les personnages en réalité.</note></head>
@@ -2227,11 +2226,10 @@
               <roleDesc>Confidente d’Erigone.</roleDesc>
             </castItem>
           </castList>
-          <stage rend="b">
-            <p>La Scène est à Nauplie<note n="49" place="bottom">L’auteur choisit de placer la scène
+          <stage rend="b">La Scène est à Nauplie<note n="49" place="bottom">L’auteur choisit de placer la scène
                 non pas à Argos comme on pourrait s’y attendre, mais à Nauplie, port peu éloigné
                 d’Argos, qu’il destine à Hipermestre.</note> ville maritime du Peloponese dans une
-              salle du Palais Royal.</p>
+              salle du Palais Royal.
           </stage>
         </div>
         <div type="acte">
