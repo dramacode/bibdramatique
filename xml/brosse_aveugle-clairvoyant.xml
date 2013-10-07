@@ -450,9 +450,9 @@
             <role>MELICE</role>
             <roleDesc>Amoureuse de Thelame.</roleDesc>
           </castItem>
-          <castItem xml:id="thelame">
+          <castItem>
             <role>THELAME</role>
-            <roleDesc><ref target="#cavalier">Cavalier*</ref>, Amoureux de Melice.</roleDesc>
+            <roleDesc><ref target="#cavalier" xml:id="thelame">Cavalier*</ref>, Amoureux de Melice.</roleDesc>
           </castItem>
           <castItem>
             <role>NERINE</role>
@@ -2509,7 +2509,7 @@
             <head>Scène VI                        <pb n="78"/></head>
             <stage>Melice, Lucille.</stage>
             <sp who="lucille">
-              <speaker xml:id="didascalie_1171">LUCILLE <hi rend="i"><ref target="#amasser">amassant*</ref> la lettre.</hi></speaker>
+              <speaker>LUCILLE <stage><ref xml:id="didascalie_1171" target="#amasser">amassant*</ref> la lettre.</stage></speaker>
               <l n="1171" xml:id="l1171">Madame la voici, ne vous tourmentez plus,</l>
               <l n="1172" xml:id="l1172">Vostre pere &amp; Sylvestre avoient les pieds dessus.</l>
               <l n="1173" xml:id="l1173">Mais l’un estant aveugle, &amp; de bonne <ref target="#aventure3">aventure*</ref></l>
