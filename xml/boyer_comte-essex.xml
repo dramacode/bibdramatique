@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Boyer_Comte_Essex" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LE COMTE D'ESSEX. TRAGÉDIE</title>
-        <author born="1618" born_location="Albi" death="1698" death_location="Paris">BOYER, Claude</author>
+        <title>Le Comte d'Essex. Tragédie</title>
+        <author key="Boyer, Claude (1618-1698)" born_location="Albi" death_location="Paris">BOYER, Claude</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par RÉGNIER Fabienne dans le cadre d'un mémoire de
@@ -516,7 +515,7 @@
           <p>: verso blanc.</p>
           <p>(3-5) : au lecteur</p>
           <p>(6) : <hi rend="i">Extait du Privilege du Roy.</hi> (avec l’achevé d’imprimer en date du 20 avril 1678)</p>
-          <p>(7) : <hi rend="i"><hi rend="sc i">errata.</hi></hi> (9 corrections)</p>
+          <p>(7) : <hi rend="i"><hi rend="sc">errata.</hi></hi> (9 corrections)</p>
           <p>(8) : <hi rend="i"><hi rend="sc">acteurs.</hi></hi></p>
           <p><hi rend="b"></hi> 74 pages : le texte de la pièce, précédé d’un rappel du titre en haut de la première page (en dessous d’un bandeau gravé sur bois).</p>
           <div>
@@ -589,9 +588,7 @@
             <role>SUITE.</role>
           </castItem>
           </castList>
-          <stage rend="b">
-            <p>La Scene est à Londres dans le Palais Royal.</p>
-          </stage>
+          <stage rend="bold">La Scene est à Londres dans le Palais Royal.</stage>
           <pb/>
         </div>
       </div>
@@ -3365,8 +3362,8 @@
             <xr>« Mais quittons l’un et l’autre un discours qui nous gesne. » (v. <ref target="#l451">451</ref>).</xr>
             <def>Coban demande à Essex d’abandonner un discours qui les fait souffrir l’un et l’autre et qui prend l’allure d’une torture morale.</def>
           </entryFree>
-          <entryFree>
-            <form xml:id="insulter">Insulter</form>
+          <entryFree xml:id="insulter">
+            <form>Insulter</form>
             <def>Au XVII<hi rend="sup">e</hi> siècle, insulter peut se construire suivi de la préposition « à ».</def>
             <def>Ici, insulter signifie : « Affliger quelqu’un qui est desja affligé, lui reprocher sa misere, et s’en réjouir […] un homme qui voit son ennemi en prison, en disgrace, luy insulte, et se resjouit de son infortune. » (Furetière).</def>
             <xr>« Vous venez insulter au malheur qui m’accable » (v. <ref target="#l407">407</ref>)</xr>
@@ -3421,8 +3418,8 @@
           <p>* présence muette du personnage.</p>
           <p>** présence muette du personnage et non signalée.</p>
           <div>
-            <table rows="12" cols="11">
-              <head>Présence dans l’acte I</head>
+            <head>Présence dans l’acte I</head>
+            <table>
               <row>
                 <cell/>
                 <cell>sc 1</cell>
@@ -3582,8 +3579,8 @@
             </table>
           </div>
           <div>
-            <table rows="12" cols="7">
-              <head>Présence dans l’acte II</head>
+            <head>Présence dans l’acte II</head>
+            <table>
               <row>
                 <cell/>
                 <cell>sc 1</cell>
@@ -3695,8 +3692,8 @@
             </table>
           </div>
           <div>
-            <table rows="12" cols="9">
-              <head>Présence dans l’acte III</head>
+            <head>Présence dans l’acte III</head>
+            <table>
               <row>
                 <cell/>
                 <cell>sc 1</cell>
@@ -3832,8 +3829,8 @@
             </table>
           </div>
           <div>
-            <table rows="12" cols="9">
-              <head>Présence dans l’acte IV</head>
+            <head>Présence dans l’acte IV</head>
+            <table>
               <row>
                 <cell/>
                 <cell>sc 1</cell>
@@ -3969,8 +3966,8 @@
             </table>
           </div>
           <div>
-            <table rows="12" cols="13">
-              <head>Présence dans l’acte V</head>
+            <head>Présence dans l’acte V</head>
+            <table>
               <row>
                 <cell/>
                 <cell>SC 1</cell>

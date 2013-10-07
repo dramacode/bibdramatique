@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Boyer_Artaxerce" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>ARTAXERCE. TRAGÉDIE</title>
-        <author born="1618" born_location="Albi" death="1698" death_location="Paris">BOYER, Claude</author>
+        <title>Artaxerce. Tragédie</title>
+        <author key="Boyer, Claude (1618-1698)" born_location="Albi" death_location="Paris">BOYER, Claude</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par SUIGNARD Cécile dans le cadre d'un mémoire de
@@ -329,7 +328,7 @@
                 <l>Ce malheureux Amant dans nos derniers Combats</l>
                 <l>Blessé mortellement, et tombant dans mes bras ;</l>
                 <l>Darius, me dit-il, reçois avec ma vie</l>
-                <l>Ces soûpirs que je donne à l<hi rend="b">’</hi>aimable Aspasie. (v. 51-55)</l>
+                <l>Ces soûpirs que je donne à l<hi rend="i">’</hi>aimable Aspasie. (v. 51-55)</l>
               </quote>
               <p>A la fin de cette scène l’action est prête à être lancée et Darius commence à s’entretenir avec Tiribaze pour gagner son soutien auprès du Roy.</p>
               <p>Ainsi, la scène 1 contenant l’essentiel de l’exposition, la suite de l’acte repose sur un mélange d’exposition et d’action. La présentation des personnages secondaires, Tiribaze et Nitocris, est approfondie car ils paraissent sur scène. Tiribaze évoque son passé, son rôle de favori et la part qu’il prend dans le choix du successeur du Roy, Nitocris se révèle être aussi ambitieuse que son père. Les portraits d’Aspasie et du Roy sont aussi complétés par les discours de Tiribaze et de Nitocris notamment l’influence exercée par Aspasie, en dépit de son statut d’étrangère, sur les choix du Roy, indécis et lassé du trône<note n="102" place="bottom">Voir pour plus de détails, notre étude des caractères.</note>. L’acte I développe essentiellement l’intrigue secondaire, il nous montre les deux ambitieux choisissant Darius comme époux pour Nitocris et projetant de gagner les faveurs d’Aspasie en crédit auprès du Roy, pour mener à bien leur projet. Concernant l’intrigue principale, le spectateur reste dans l’expectative quant à la véritable nature des liens qui unissent Aspasie et le Roy.</p>
@@ -425,7 +424,7 @@
                 <l><space/><space/>ASPASIE.</l>
                 <l> […] Mais le Roy vient icy.Que luy diray-je ? Helas !</l>
                 <l>Mon amour… mon dépit…Evitons sa présence.</l>
-                <l><space/><space/><hi rend="b">SCENE IV.</hi> </l>
+                <l><space/><space/><hi rend="i">SCENE IV.</hi> </l>
                 <l><space/><space/>LE ROY.</l>
                 <l>Me fuyez-vous ? A qui puis-je avec assurance</l>
                 <l>Confier mieux qu’à vous les troubles de mon coeur</l>
@@ -756,12 +755,12 @@
           </div>
           <div>
             <head>Liste des abréviations utilisées en note de bas de page et dans le glossaire</head>
-            <bibl>– ACADÉMIE FRANÇAISE, <title>Dictionnaire</title>, Paris, J.-B. Coignard, 1694 (2 vol.) : <hi rend="b">(Acad.94).</hi></bibl>
-            <bibl>– FURETIÈRE, Antoine, <title>Dictionnaire universel contenant généralement tous les mots françois tant vieux que modernes et les termes de toutes les sciences et les arts</title>, La Haye et Rotterdam, Arnout et Reiner Leers ; réed. Paris, SNL-Le Robert, 1978 (3vol.) : <hi rend="b">(Furet.)</hi></bibl>
-            <bibl>– RICHELET, P., <title>Dictionnaire françois contenant les mots et les choses, plusieurs nouvelles remarques sur la langue françoise… avec les termes les plus connus des arts et des sciences</title>, Genève, J.-H. Widerhold, 1680 (2 vol.). : <hi rend="b">(Rich.).</hi></bibl>
-            <bibl>– CAYROU, Gaston, <title>Le Français classique. Lexique de la langue du XVIIe siècle</title>, Paris, Didier, 1923 : <hi rend="b">(Cay.).</hi></bibl>
-            <bibl>– HAASE, A., <title>Syntaxe française du XVIIe siècle</title>, Paris, Delagrave, 1935 : <hi rend="b">(Ha.).</hi></bibl>
-            <bibl>– SANCIER-CHÂTEAU, Anne, <title>Introduction à la langue française du XVIIe siècle</title>, Paris, Nathan, 1993, (2 vol.) : <hi rend="b">(Sancier).</hi></bibl>
+            <bibl>– ACADÉMIE FRANÇAISE, <title>Dictionnaire</title>, Paris, J.-B. Coignard, 1694 (2 vol.) : <hi rend="i">(Acad.94).</hi></bibl>
+            <bibl>– FURETIÈRE, Antoine, <title>Dictionnaire universel contenant généralement tous les mots françois tant vieux que modernes et les termes de toutes les sciences et les arts</title>, La Haye et Rotterdam, Arnout et Reiner Leers ; réed. Paris, SNL-Le Robert, 1978 (3vol.) : <hi rend="i">(Furet.)</hi></bibl>
+            <bibl>– RICHELET, P., <title>Dictionnaire françois contenant les mots et les choses, plusieurs nouvelles remarques sur la langue françoise… avec les termes les plus connus des arts et des sciences</title>, Genève, J.-H. Widerhold, 1680 (2 vol.). : <hi rend="i">(Rich.).</hi></bibl>
+            <bibl>– CAYROU, Gaston, <title>Le Français classique. Lexique de la langue du XVIIe siècle</title>, Paris, Didier, 1923 : <hi rend="i">(Cay.).</hi></bibl>
+            <bibl>– HAASE, A., <title>Syntaxe française du XVIIe siècle</title>, Paris, Delagrave, 1935 : <hi rend="i">(Ha.).</hi></bibl>
+            <bibl>– SANCIER-CHÂTEAU, Anne, <title>Introduction à la langue française du XVIIe siècle</title>, Paris, Nathan, 1993, (2 vol.) : <hi rend="i">(Sancier).</hi></bibl>
           </div>
         </div>
       </div>
@@ -769,9 +768,9 @@
     <body>
       <div>
         <head>ARTAXERCE, <lb/>TRAGÉDIE. <lb/>AVEC SA CRITIQUE.</head>
-        <div>
+        <div xml:id="preface">
           <pb/>
-          <head xml:id="preface">Préface</head>
+          <head>Préface</head>
           <p>/ [IV] / Il ne suffit pas toûjours aux Pieces de Théatre d’estre bonnes, pour estre <ref target="#heureux1">heureuses*</ref> ; beaucoup de choses, comme les Acteurs, la saison, le goût du siecle, la disposition des Spéctateurs, contribuënt à faire valoir, ou à faire tomber cette sorte d’Ouvrages ; ainsi chaque Autheur est en droit de justifier le sien, quand il se croit en état de le pouvoir faire. Jusqu’icy j’ay negligé ce secours, que je devois peut-estre à la justification de quelqu’un<note n="208" place="bottom"><hi rend="i">Quelqu’un</hi> mis pour « quelques uns ».</note> de mes Ouvrages, quand ils n’ont pas réüssy. Je n’estois pas assez convaincu de leur mérite, pour me plaindre publiquement de leur malheur. Mais à l’égard d’Artaxerce, le moyen de se taire<note n="209" place="bottom">Omission de l’adjectif interrogatif : il s’agit ici non d’une véritable question, mais plutôt d’une réaction d’indignation, celle-ci étant signifiée par la seule intonation montante, sans caractéristiques syntaxiques.</note> ? Le jugement des Personnes fort éclairées, et dont le nom est respecté de l’<ref target="#envie1">envie*</ref> mesme, les applaudissemens que cette Piece reçeut dans les premieres Représentations, me répondoient d’un succés infaillible.Un chûte si prompte, et si surprenante, / [V] / peut-elle estre naturelle ? Et ne doit-on pas l’imputer à quelque cause extraordinaire ? Toutefois me laissant aller à ma coûtume, et à mon inclination, satisfait du témoignage de beaucoup d’<ref target="#honneste">honnestes*</ref> Gens, et de l’indignation du Public, qui n’a pû dissimuler une injustice si manifeste, je mettois Artaxerce au nombre des Ouvrages malheureux, et je fusse demeuré dans un profond silence, si ceux qui se croyent intéressez dans la réputation de mon Ouvrage pour l’honneur de leur jugement, ne m’eussent retiré de l’assoupissement où j’estois. Je ne dis pas cecy par cette fausse modestie, qu’affectent ordinairement les Autheurs qui veulent déguiser la demangeaison qu’ils ont de se faire imprimer. Pour justifier mes intentions, il suffit qu’on sçache que je n’ignore pas ce déchaînement de critique qui regne aujourd’huy, qui fait trembler tous ceux qui se meslent d’écrire, et qui sans-doute est un des plus grands malheurs qu’on puisse reprocher à notre siecle. Ce seroit une temérité inexcusable, de se livrer volontairement à cette <ref target="#fureur1">fureur*</ref> contagieuse qui a infecté la Cour et la Ville. Ne sçais-je pas ce qui est arrivé à un de mes Amis, qui ayant donné au public un Ouvrage<note n="210" place="bottom">Le Festin des Dieux.</note> plein / [VI] / d’esprit et d’invention, l’a veu déchirer impitoyablement dans toutes ses parties, jusques-là qu’on a pas épargné un des plus beaux Vers qu’on ait jamais fait à la loüange du Roy ?</p>
           <p rend="i">Le Modelle des Roys, et l’Image des Dieux,</p>
           <p>Quel Vers eut jamais eu<note n="211" place="bottom">Mis pour « a jamais eu ».</note> un plus beau sens, et a donné une plus glorieuse idée du plus grand des Roys ? Quelle expression peut estre plus noble et plus <ref target="#heureux2">heureuse*</ref>, et peut faire tant d’honneur à nostre Héros et à nostre Langue ? J’ose défier les Poëtes Grecs et Latins, de nous fournir dans tout ce qu’ils ont fait de plus beau pour leurs plus fameux Héros, une loüange plus exquise et plus relevée, et qui ait à mesme temps<note n="212" place="bottom"> Vaugelas ne fait pas de différence entre <hi rend="i">à même temps</hi> et <hi rend="i">en même temps.</hi> (<hi rend="i">Remarques nouvelles sur la langue française</hi>, 1647, tome II, p. 190). Voir aussi ligne 187.</note> tant de <ref target="#justesse1">justesse*</ref>, et tant de grandeur. Cependant on a voulu tourner en ridicule un Eloge si <ref target="#juste">juste*</ref> et si magnifique, et l’on a demandé si ce Modele estoit de bois, ou de pierre, et si cette Image estoit de plastre ou de cire. Une si méchante plaisanterie ne mérite pas une réponse sérieuse, et je diray seulement à l’Autheur de ce beau Vers, qui a esté si indignement critiqué, ce qu’il m’a dit luy-mesme en pareille occasion, mais avec moins de justice, et ce qu’on peut dire à tous les bons / [VII] / Autheurs qui ne sont pas toûjours <ref target="#heureux1">heureux*</ref>, que dans les plus beaux siecles, il y a eu toûjours des ces prétendus Connoisseurs qui ont fait la guerre au mérite, et qui entraînoient quelquefois le commun du Peuple avec eux.</p>
@@ -850,11 +849,10 @@
             <role>SUITE.</role>
           </castItem>
           </castList>
-          <stage rend="b">
-            <p>La Scene est à Babilonne, dans le Palais d’Artaxerce.</p>
-          </stage>
+          <stage rend="bold">La Scene est à Babilonne, dans le Palais d’Artaxerce.</stage>
           <pb/>
         </div>
+      </div>
         <div type="acte">
           <head>ACTE PREMIER</head>
           <p rend="center"><title>Artaxerce</title>,    <pb n="[1; A]"/> <lb/>TRAGEDIE.</p>
@@ -951,7 +949,7 @@
               <l n="52" xml:id="l52">Ce malheureux <ref target="#amant">Amant*</ref>dans nos derniers Combats</l>
               <l n="53" xml:id="l53">Blessé mortellement, et tombant dans mes bras ;</l>
               <l n="54" xml:id="l54">Darius<note n="268" place="bottom"> Le nom <hi rend="i">Darius</hi> se prononce avec la diérèse tout au long de notre pièce.</note>, me dit-il, reçois avec ma vie</l>
-              <l n="55" xml:id="l55">Ces <ref target="#souspirer2">soûpirs*</ref> que je donne à l<hi rend="b">’</hi>aimable Aspasie.</l>
+              <l n="55" xml:id="l55">Ces <ref target="#souspirer2">soûpirs*</ref> que je donne à l<hi rend="i">’</hi>aimable Aspasie.</l>
               <l n="56" xml:id="l56"><ref target="#transport">Transporté*</ref> de douleur, par un dernier effort,</l>
               <l n="57" xml:id="l57">Je presse ma victoire, et je vange sa mort<note n="269" place="bottom">Boyer ici ne conserve de chez Plutarque que le nom d’Arsame mais ne respecte pas la chronologie. En effet, chez Plutarque, il s’agit d’un fils bâtard d’Artaxerce, évincé lui aussi du trône par Ochos bien après que Darius soit mort. </note>.</l>
               <l n="58" xml:id="l58">Je reviens, et tout plein de mon impatience,</l>
@@ -1190,7 +1188,7 @@
               <l n="207" xml:id="l207">Assurons à mon sang la grandeur souveraine ;</l>
               <l n="208" xml:id="l208">Que ton front couronné console mes vieux ans,</l>
               <l n="209" xml:id="l209">Et que je regne en toy pour régner plus longtemps.</l>
-              <l n="210" xml:id="l210">Le Roy pour Darius fortement s<hi rend="b">’</hi><ref target="#interesser">intéresse*</ref>,</l>
+              <l n="210" xml:id="l210">Le Roy pour Darius fortement s’<ref target="#interesser">intéresse*</ref>,</l>
               <l n="211" xml:id="l211">Mais j’ay sçeu pour son Frere exciter sa tendresse,</l>
               <l n="212" xml:id="l212">Et parlant pour tous deux, j’ay suspendu sa voix,</l>
               <l n="213" xml:id="l213">Pour devenir enfin l’Arbitre de son choix.</l>
@@ -1209,7 +1207,7 @@
               <l n="226" xml:id="l226">Il revient triomphant, et fier de sa victoire,</l>
               <l n="227" xml:id="l227">Il montre moins d’amour, occupé de sa gloire.</l>
               <l n="228" xml:id="l228">L’amour d’Ariarathe est digne de pitié ;</l>
-              <l n="229" xml:id="l229">Mais doit-on écouter l’amour et l<hi rend="b">’</hi>amitié,</l>
+              <l n="229" xml:id="l229">Mais doit-on écouter l’amour et l’amitié,</l>
               <l n="230" xml:id="l230">Quand un grand intérest veut qu’on les sacrifie ?</l>
               <l n="231" xml:id="l231">La Fortune nous rit<note n="283" place="bottom"> Il faut comprendre : « La fortune nous sourit, nous est favorable » (Cay.).</note>, elle nous justifie.</l>
             </sp>
@@ -1287,7 +1285,7 @@
             </sp>
             <sp who="nitocris">
               <speaker>NITOCRIS.</speaker>
-              <l n="280" xml:id="l280">Croy<note n="292" place="bottom"> Si au XVII<hi rend="sup">e</hi>, on omet déjà le <hi rend="i">s</hi> à l’impératif des verbes de la première conjugaison, l’usage reste incertain pour les autres verbes comme en témoigne ici la forme <hi rend="i">croy</hi>. Voir aussi <hi rend="i">pren</hi> vers 397, <hi rend="i">soûtien</hi> vers 1234<hi rend="b">, </hi><hi rend="i">croy</hi> vers 1174, <hi rend="i">fay</hi> vers 914, 1061, et <hi rend="i">voy</hi> vers 936, 1365, 1366.</note> ce que tu voudras, je ne te dy plus rien ;</l>
+              <l n="280" xml:id="l280">Croy<note n="292" place="bottom"> Si au XVII<hi rend="sup">e</hi>, on omet déjà le <hi rend="i">s</hi> à l’impératif des verbes de la première conjugaison, l’usage reste incertain pour les autres verbes comme en témoigne ici la forme <hi rend="i">croy</hi>. Voir aussi <hi rend="i">pren</hi> vers 397, <hi rend="i">soûtien</hi> vers 1234, <hi rend="i">croy</hi> vers 1174, <hi rend="i">fay</hi> vers 914, 1061, et <hi rend="i">voy</hi> vers 936, 1365, 1366.</note> ce que tu voudras, je ne te dy plus rien ;</l>
               <l n="281" xml:id="l281">Mais enfin les grands cœurs sont faits comme le mien.</l>
               <l n="282" xml:id="l282">Ainsi pour Darius, lors que je m’<ref target="#interesser">intéresse*</ref>,</l>
               <l n="283" xml:id="l283">Darius ne doit point ce choix à ma tendresse ;</l>
@@ -1683,8 +1681,8 @@
               <l n="517" xml:id="l517">Le choix d’un Successeur seroit trop hazardeux.</l>
               <l n="518" xml:id="l518">Fier des titres du Trône, il peut tout entreprendre.</l>
               <l n="519" xml:id="l519">Tiribaze qui veut l’obtenir pour son Gendre,</l>
-              <l n="520" xml:id="l520">Pourroit l<hi rend="b">’</hi>instruire un jour à ne rien épargner.</l>
-              <l n="521" xml:id="l521">Ostez ce grand prétexte à l<hi rend="b">’</hi>ardeur de régner,</l>
+              <l n="520" xml:id="l520">Pourroit l’instruire un jour à ne rien épargner.</l>
+              <l n="521" xml:id="l521">Ostez ce grand prétexte à l’ardeur de régner,</l>
               <l n="522" xml:id="l522">Et qu’aucun ne prétende à cette préference</l>
               <l n="523" xml:id="l523">Que par de longs respects, et par sa patience.</l>
               <l n="524" xml:id="l524">Songez que nous parler de faire un Successeur,</l>
@@ -1897,7 +1895,7 @@
               <l n="655" xml:id="l655">De quelque illustre rang que le Roy vous honore,</l>
               <l n="656" xml:id="l656">Je vous mettray si haut, et si proche de moy,</l>
               <l n="657" xml:id="l657">Que l’Etat doutera qui de nous sera Roy.<note n="327" place="bottom"><hi rend="i">Douter</hi> peut se construire au XVII<hi rend="sup">e</hi> avec une proposition interrogative indirecte et signifie : « se demander, ne pas savoir » (Cay.).</note></l>
-              <l n="658" xml:id="l658">Mais comme il court un bruit qu’on commence de croire<note n="328" place="bottom"> Selon Haase : sur l’emploi de la préposition <hi rend="i">de</hi> les grammairiens divergent. Vaugelas exige toujours <hi rend="b">à</hi> après le verbe <hi rend="i">commencer</hi>, mais l’académie veut qu’on remplace <hi rend="i">à</hi> par <hi rend="i">de</hi> quand l’euphonie le demande. Ici, l’emploi de <hi rend="i">de</hi> permet surtout d’éviter l’élision et de satisfaire au compte syllabique.</note>,</l>
+              <l n="658" xml:id="l658">Mais comme il court un bruit qu’on commence de croire<note n="328" place="bottom"> Selon Haase : sur l’emploi de la préposition <hi rend="i">de</hi> les grammairiens divergent. Vaugelas exige toujours <hi rend="i">à</hi> après le verbe <hi rend="i">commencer</hi>, mais l’académie veut qu’on remplace <hi rend="i">à</hi> par <hi rend="i">de</hi> quand l’euphonie le demande. Ici, l’emploi de <hi rend="i">de</hi> permet surtout d’éviter l’élision et de satisfaire au compte syllabique.</note>,</l>
               <l n="659" xml:id="l659">Que Rival de mon Frere, et jaloux de sa gloire,</l>
               <l n="660" xml:id="l660">J’aspire au mesme <ref target="#objet">Objet*</ref> dont son cœur est <ref target="#charme">charmé*</ref>,</l>
               <l n="661" xml:id="l661">Je viens détruire un bruit dont je suis allarmé.</l>
@@ -3464,7 +3462,6 @@
             </sp>
           </div>
         </div>
-      </div>
     </body>
     <back>
       <div>
@@ -3495,21 +3492,21 @@
           </entryFree>
           <entryFree xml:id="charme">
             <form>Charme, charmes</form>
-            <def>« F.m. Se dit figurément de ce qui nous plaist extraordinairement, qui nous ravit en admiration » (Furet.). Donc, en matière d’amour, attraits envoûtants, de même pour le verbe <hi rend="b">charmer</hi> (proche d’envoûter).</def>
+            <def>« F.m. Se dit figurément de ce qui nous plaist extraordinairement, qui nous ravit en admiration » (Furet.). Donc, en matière d’amour, attraits envoûtants, de même pour le verbe <hi rend="i">charmer</hi> (proche d’envoûter).</def>
             <xr>V. <ref target="#l44">44</ref>, <ref target="#l367">367</ref>, <ref target="#l586">586</ref>, <ref target="#l835">835</ref>, <ref target="#l1106">1106</ref>, <ref target="#l1484">1484</ref>, <ref target="#l1503">1503</ref></xr>
             <xr>Charmer v. <ref target="#l301">301</ref>, <ref target="#l306">306</ref>, <ref target="#l660">660</ref>, <ref target="#l784">784</ref>, <ref target="#l844">844</ref>, <ref target="#l1244">1244</ref>, <ref target="#l1366">1366</ref></xr>
           </entryFree>
           <entryFree>
             <form>Confondre</form>
-            <def xml:id="confondre1">«  Se dit aussi de ceux qu’on surprend en quelque action honteuse qui les fait rougir » (Furet.) <hi rend="b">confusion</hi>, qui en ce sens signifie « honte ».</def>
+            <def xml:id="confondre1">«  Se dit aussi de ceux qu’on surprend en quelque action honteuse qui les fait rougir » (Furet.) <hi rend="i">confusion</hi>, qui en ce sens signifie « honte ».</def>
             <xr><ref target="#preface">Préface</ref> et v. <ref target="#l612">612</ref></xr>
             <xr>Confusion v. <ref target="#l760">760</ref></xr>
-            <def xml:id="confondre2">« C’est un composé de fondre, qui ne se dit point au propre mais au figuré. Il signifie, Mesler deux ou plusieurs choses ensemble » (Furet.), et <hi rend="b">confusion</hi> (vers 1236), qui en ce sens signifie « embrouillement, desordre qui se trouve dans une famille, un Estat » (Furet.).</def>
+            <def xml:id="confondre2">« C’est un composé de fondre, qui ne se dit point au propre mais au figuré. Il signifie, Mesler deux ou plusieurs choses ensemble » (Furet.), et <hi rend="i">confusion</hi> (vers 1236), qui en ce sens signifie « embrouillement, desordre qui se trouve dans une famille, un Estat » (Furet.).</def>
             <xr>V. <ref target="#l633">633</ref>, <ref target="#l1171">1171</ref></xr>
           </entryFree>
           <entryFree>
             <form>Cruel, elle</form>
-            <def xml:id="cruel1">« Adj. Inhumain, impitoyable, qui aime le sang, qui prend plaisir à faire du mal aux autres » (Acad. 94). Donc le sens est très fort au XVIIe avec l’idée de sang issue de <hi rend="b">cruor, oris</hi> en latin, c’est-à-dire « sang rouge, sang qui coule » (Dictionnaire Latin Français de F. Gaffiot), et <hi rend="b">cruauté</hi> (ligne 149), dans le sens de « inclination à voir respandre le sang », et <hi rend="b">cruellement</hi>.</def>
+            <def xml:id="cruel1">« Adj. Inhumain, impitoyable, qui aime le sang, qui prend plaisir à faire du mal aux autres » (Acad. 94). Donc le sens est très fort au XVIIe avec l’idée de sang issue de <hi rend="i">cruor, oris</hi> en latin, c’est-à-dire « sang rouge, sang qui coule » (Dictionnaire Latin Français de F. Gaffiot), et <hi rend="i">cruauté</hi> (ligne 149), dans le sens de « inclination à voir respandre le sang », et <hi rend="i">cruellement</hi>.</def>
             <xr>V. <ref target="#l511">511</ref>, <ref target="#l549">549</ref>, <ref target="#l550">550</ref>, <ref target="#l714">714</ref>, <ref target="#l1359">1359</ref></xr>
             <def xml:id="cruel2">« Qui n’a point de bonté, qui est dur, qui ne fait aucune grace » (Rich.).</def>
             <xr>V. <ref target="#l846">846</ref>, <ref target="#l1075">1075</ref>, <ref target="#l1173">1173</ref>, <ref target="#l1463">1463</ref></xr>
@@ -3518,7 +3515,7 @@
           </entryFree>
           <entryFree xml:id="courage">
             <form>Courage</form>
-            <def>« Signifie quelque fois Ardeur, affection » (Furet.). On trouve au XVIIe le sens de « cœur » pour <hi rend="b">courage</hi> qui est son dérivé. <hi rend="b">Coeur</hi> et <hi rend="b">courage</hi> sont encore interchangeables en français classique.</def>
+            <def>« Signifie quelque fois Ardeur, affection » (Furet.). On trouve au XVIIe le sens de « cœur » pour <hi rend="i">courage</hi> qui est son dérivé. <hi rend="i">Coeur</hi> et <hi rend="i">courage</hi> sont encore interchangeables en français classique.</def>
             <xr><ref target="#preface">Préface</ref> et v. <ref target="#l163">163</ref>, <ref target="#l887">887</ref></xr>
           </entryFree>
           <entryFree>
@@ -3578,7 +3575,7 @@
           <entryFree xml:id="genereux">
             <form>Genereux, euse</form>
             <def>« Adj. Qui a l’ame grande et noble et qui prefere l’honneur à tout autre interest » (Furet.)</def>
-            <def>(Rq : les accents sont mis de façon assez aléatoire dans notre pièce. On trouve : <hi rend="b">genereux</hi> l. 175 /<hi rend="b">genéreux</hi> v. 969 /<hi rend="b">généreux</hi> v. 162.)</def>
+            <def>(Rq : les accents sont mis de façon assez aléatoire dans notre pièce. On trouve : <hi rend="i">genereux</hi> l. 175 /<hi rend="i">genéreux</hi> v. 969 /<hi rend="i">généreux</hi> v. 162.)</def>
             <xr><ref target="#preface">Préface</ref> et v. <ref target="#l162">162</ref>, <ref target="#l969">969</ref>, <ref target="#l1485">1485</ref>, <ref target="#l1506">1506</ref>, <ref target="#l1569">1569</ref></xr>
             <xr>Genérosité (vers <ref target="#l1516">1516</ref>).</xr>
           </entryFree>
@@ -3620,13 +3617,13 @@
             <form>Justesse</form>
             <def xml:id="justesse1">Exactitude.</def>
             <xr><ref target="#preface">Préface</ref></xr>
-            <def xml:id="justesse2">« Signifie aussi qui est selon les loix et l’équité naturelle » (Furet.), donc <hi rend="b">juste</hi> peut aussi s’employer dans le sens de justifié, fondé, légitime, et <hi rend="b">justement</hi>. On trouve aussi son contraire, <hi rend="b">injuste</hi>, dans le sens de injustifié, d’illégitime. </def>
+            <def xml:id="justesse2">« Signifie aussi qui est selon les loix et l’équité naturelle » (Furet.), donc <hi rend="i">juste</hi> peut aussi s’employer dans le sens de justifié, fondé, légitime, et <hi rend="i">justement</hi>. On trouve aussi son contraire, <hi rend="i">injuste</hi>, dans le sens de injustifié, d’illégitime. </def>
             <xr>V. <ref target="#l569">569</ref>, <ref target="#l640">640</ref>, <ref target="#l839">839</ref>, <ref target="#l875">875</ref>, <ref target="#l1159">1159</ref>, <ref target="#l1450">1450</ref></xr>
           </entryFree>
           <entryFree xml:id="liberalite">
             <form>Liberalité</form>
             <def>« Subst. fem. Vertu morale qui tient le milieu entre la prodigalité et l’avarice ; vertu de celuy qui sçait donner quand il faut, et sans interest. » (Furet). La libéralité a donc un sens bien précis au XVIIe, elle suppose une attitude mesurée et réfléchie.</def>
-            <def>(Rq : Les accents sont mis de façon assez aléatoire dans notre pièce : <hi rend="b">liberalité</hi> l. 135 / <hi rend="b">libéralité</hi> l. 80).</def>
+            <def>(Rq : Les accents sont mis de façon assez aléatoire dans notre pièce : <hi rend="i">liberalité</hi> l. 135 / <hi rend="i">libéralité</hi> l. 80).</def>
             <xr><ref target="#preface">Préface</ref></xr>
             <xr>Liberal (vers <ref target="#l360">360</ref>).</xr>
           </entryFree>
@@ -3653,7 +3650,7 @@
           <entryFree xml:id="orgueil">
             <form>Orgueil</form>
             <def>« La grandeur inspire un noble orgueil qui empêche de faire des bassesses » (Furet.), le mot désigne ici l’orgueil lié à la noblesse de sang, et a donc un sens positif différent de notre sens moderne. </def>
-            <def>(Rq : Le mot est présent dans notre pièce sous deux orthographes différentes : <hi rend="b">orgueï</hi>l, dans la <hi rend="i">Préface)</hi> / <hi rend="b">orgueil, dans</hi> la pièce proprement dite.)</def>
+            <def>(Rq : Le mot est présent dans notre pièce sous deux orthographes différentes : <hi rend="i">orgueï</hi>l, dans la <hi rend="i">Préface)</hi> / <hi rend="i">orgueil, dans</hi> la pièce proprement dite.)</def>
             <xr>V. <ref target="#l84">84</ref>, <ref target="#l162">162</ref>, <ref target="#l195">195</ref>, <ref target="#l199">199</ref>, <ref target="#l214">214</ref>, <ref target="#l272">272</ref>, <ref target="#l300">300</ref>, <ref target="#l314">314</ref>, <ref target="#l1184">1184</ref></xr>
           </entryFree>
           <entryFree xml:id="paier">
@@ -3668,7 +3665,7 @@
             <def xml:id="prevenir2">« Signifie aussi, Remedier aux maux qu’on a preveus, les empêcher, s’en garantir » (Furet.).</def>
             <xr>V. <ref target="#l1559">1559</ref></xr>
             <def xml:id="prevenir3">« Signifie aussi, Préoccuper l’esprit, luy donner les premières impressions » (Furet.)</def>
-            <def>(Rq : les accents sont mis de façon assez aléatoire dans notre pièce, <hi rend="b">prévenir</hi> ligne 65 / <hi rend="b">preveni</hi>r ligne 245).</def>
+            <def>(Rq : les accents sont mis de façon assez aléatoire dans notre pièce, <hi rend="i">prévenir</hi> ligne 65 / <hi rend="i">preveni</hi>r ligne 245).</def>
             <xr><ref target="#preface">Préface</ref></xr>
             <xr>Prévention : <ref target="#preface">préface</ref>, dans le sens de préoccupation d’esprit, préjugé.</xr>
           </entryFree>
@@ -3676,7 +3673,7 @@
             <form>Soin</form>
             <def xml:id="soin1">Dans le vocabulaire galant, désigne les hommages que l’on rend à la femme aimée.</def>
             <xr>V. <ref target="#l293">293</ref>, <ref target="#l305">305</ref>, <ref target="#l601">601</ref>, <ref target="#l868">868</ref>, <ref target="#l895">895</ref>, <ref target="#l1064">1064</ref></xr>
-            <def xml:id="soin2">« Se dit aussi des soucis, des inquietudes qui émeuvent, qui troublent l’ame » (Furet.). Donc ici, <hi rend="b">soin</hi> pour souci.</def>
+            <def xml:id="soin2">« Se dit aussi des soucis, des inquietudes qui émeuvent, qui troublent l’ame » (Furet.). Donc ici, <hi rend="i">soin</hi> pour souci.</def>
             <xr>V. <ref target="#l489">489</ref>, <ref target="#l652">652</ref></xr>
           </entryFree>
           <entryFree>
@@ -3684,7 +3681,7 @@
             <def xml:id="souffrir1">« V. act. Se dit aussi en Morale, des afflictions de l’esprit, des émotions de l’ame par les passions » (Furet.).</def>
             <xr>V. <ref target="#l102">102</ref>, <ref target="#l348">348</ref>, <ref target="#l536">536</ref>, <ref target="#l1275">1275</ref></xr>
             <def xml:id="souffrir2">« Signifie aussi ne pas opposer à une chose, y consentir tacitement » (Furet.). Donc ici, sens de tolérer, supporter. </def>
-            <def>(Rq : Le mot est présent sous deux orthographes différentes dans notre texte : <hi rend="b">souffrir</hi> v. 102/ <hi rend="b">soufrir</hi> v. 1030.)</def>
+            <def>(Rq : Le mot est présent sous deux orthographes différentes dans notre texte : <hi rend="i">souffrir</hi> v. 102/ <hi rend="i">soufrir</hi> v. 1030.)</def>
             <xr>V. <ref target="#l202">202</ref>, <ref target="#l1030">1030</ref>, <ref target="#l1272">1272</ref>, <ref target="#l1376">1376</ref></xr>
           </entryFree>
           <entryFree>
@@ -3705,7 +3702,7 @@
           <entryFree xml:id="sufrage">
             <form>Sufrage</form>
             <def>« F.m. Voix qu’on donne dans les délibérations et en matiere d’élection qu’on fait de certaines personnes (…) Donner son sufrage à quelqu’un » (Rich.).</def>
-            <def>(Rq : le mot est présent dans notre pièce sous deux orthographes différentes : <hi rend="b">sufrage</hi> vers 15/ <hi rend="b">suffrage</hi> vers 194).</def>
+            <def>(Rq : le mot est présent dans notre pièce sous deux orthographes différentes : <hi rend="i">sufrage</hi> vers 15/ <hi rend="i">suffrage</hi> vers 194).</def>
             <xr>V. <ref target="#l15">15</ref>, <ref target="#l194">194</ref>, <ref target="#l611">611</ref>, <ref target="#l755">755</ref></xr>
           </entryFree>
           <entryFree xml:id="superbe">
@@ -3715,7 +3712,7 @@
           </entryFree>
           <entryFree xml:id="surprendre">
             <form>Surprendre</form>
-            <def>« Signifie aussi, Tromper quelqu’un, lui faire faire une chose trop à la haste, ou en luy exposant faux » (Furet.), se laisser <hi rend="b">surprendre</hi> pour se laisser prendre. </def>
+            <def>« Signifie aussi, Tromper quelqu’un, lui faire faire une chose trop à la haste, ou en luy exposant faux » (Furet.), se laisser <hi rend="i">surprendre</hi> pour se laisser prendre. </def>
             <xr>V. <ref target="#l218">218</ref>, <ref target="#l1195">1195</ref>, <ref target="#l1338">1338</ref></xr>
           </entryFree>
           <entryFree xml:id="timide">

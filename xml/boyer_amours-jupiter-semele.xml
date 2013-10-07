@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Amours-Jupiter_Semele" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LES AMOURS DE JUPITER ET SÉMÉLÉ. TRAGÉDIE.</title>
-        <author born="1618" born_location="Albi" death="1698" death_location="Paris">BOYER, Claude</author>
+        <title>Les Amours de Jupiter et Sémélé. Tragédie.</title>
+        <author key="Boyer, Claude (1618-1698)" born_location="Albi" death_location="Paris">BOYER, Claude</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par COLLINET Évelyne dans le cadre d'un mémoire de
@@ -87,15 +86,14 @@
           </quote>
           <p>La pièce fut représentée au théâtre de l’Hôtel de Bourgogne et selon l’abbé Genest, elle « enleva tout Paris ». Ainsi admis dans les cercles de la vie mondaine, il se lia d’amitié avec Jean Chapelain, une des plus hautes autorités littéraires de l’époque dont il devint peu à peu le protégé. Il enchaîna alors la publication de plusieurs pièces comme <hi rend="i">Porus ou la Générosité d’Alexandre</hi>  et <hi rend="i">Aristodème</hi> – une tragi-comédie – en 1648 mais qui ne remportèrent pas le succès de la première. L’année suivante, il s’essaya au genre de la tragi-comédie à machines avec <hi rend="i">Ulysse dans l’isle de Circé ou Euriloche foudroyé.</hi> En 1649, la période de la Fronde interrompit la carrière de Boyer. À ce moment, le public faisait preuve d’un engouement particulier pour la comédie au détriment de la tragédie et de la tragi-comédie. Il s’ensuivit un silence de onze ans pendant lequel la vie du dramaturge nous est très mal connue.</p>
           <p>Boyer revint au théâtre en 1659 et il dédia la plupart de ses pièces à des personnes hautement placées dans la société : Clotilde (1659) à Fouquet, <hi rend="i">Frédéric</hi> (1659) au duc de Guise, <hi rend="i">La mort de Démétrius</hi> (1660) au chancelier Séguier, <hi rend="i">Oropaste ou le faux Tonaxare</hi> (1662) au duc d’Epernon, <hi rend="i">Policrite</hi> (1662) au comte Martel de Claire. Ces pièces ne remportèrent pas vraiment un vif succès même s’il précisait dans ses préfaces la satisfaction du public. C’est à partir des années 1660 que Boyer reçut plusieurs marques de reconnaissance de la part de ses compatriotes :</p>
-          <list>
-            <item>– En 1662, Claude Boyer se voit loué par son ami Jean Chapelain qui, à la demande de Colbert, établit une liste de gens de lettres recensant les auteurs qui recevront une pension royale. Chapelain lui dédia l’article suivant :
+           <p>– En 1662, Claude Boyer se voit loué par son ami Jean Chapelain qui, à la demande de Colbert, établit une liste de gens de lettres recensant les auteurs qui recevront une pension royale. Chapelain lui dédia l’article suivant :
               <quote><p>Boyer est un poète de théâtre, qui ne cède qu’au seul Corneille en cette profession, sans que les défauts qu’on remarque dans le dessein de ses pièces rabattent de son prix ; car les autres n’étant pas plus réguliers que lui en cette partie, cela ne luy fait point de tort à leur égard. Il pense fortement dans le détail, et s’exprime de même. Ses vers ne se sentent point du vice de son pays, il ne travaille guère en prose.<note n="4" place="bottom"> Chapelain, <hi rend="i">Liste de quelques gens de lettres français vivants en 1662</hi>, [in] <hi rend="i">Opuscules critiques</hi>, éd. A. Hunter, Paris, Droz, 1936, p. 343.</note></p>
-            </quote>Il recevait alors huit cents livres, et son nom réapparut chaque année sur la liste des gratifications royales, excepté en 1667.</item>
-            <item>– Corneille fit aussi l’éloge de son mérite, dans une lettre d’avril 1662. Le Théâtre du Marais était alors dans une situation critique et Corneille fit appel à Boyer, Quinault et Lulli afin d’assurer le devenir du théâtre :
+            </quote>Il recevait alors huit cents livres, et son nom réapparut chaque année sur la liste des gratifications royales, excepté en 1667.</p>
+            <p>– Corneille fit aussi l’éloge de son mérite, dans une lettre d’avril 1662. Le Théâtre du Marais était alors dans une situation critique et Corneille fit appel à Boyer, Quinault et Lulli afin d’assurer le devenir du théâtre :
               <quote><p>Ainsi si ses M[essieu] rs [Boyer et Quinault] ne les secourent ainsi que moi il n’y a pas d’apparence que le Marais se rétablisse, et quand la machine qui est aux abois sera tout à fait défunte, je trouve que ce théâtre ne sera pas en trop bonne posture<note n="5" place="bottom"><hi rend="i">P. Corneille à l’abbé de Pure, lettre de 25 avril 1662</hi>, [in] Pierre Corneille, <hi rend="i">Œuvres Complètes</hi>, éd. G. Couton, Bibliothèque de la Pléiade, Paris, Gallimard, vol. III, 1987, p. 10.</note>.</p>
             </quote>
-            </item>
-            <item>– En 1666, l’ascension de Boyer est alors à son apogée puisqu’il est élu à l’Académie Française par ses pairs :
+            </p>
+            <p>– En 1666, l’ascension de Boyer est alors à son apogée puisqu’il est élu à l’Académie Française par ses pairs :
               <quote>
                 <l>Ces jours passez, le sieur Boyer,</l>
                 <l>Digne d’un immortel loyer,</l>
@@ -113,8 +111,7 @@
                 <l>De l’avoir dans ses hauts mystères</l>
                 <l>Pour l’un des braves confrères.<note n="6" place="bottom"> Robinet, <hi rend="i">Lettres en vers à Madame, datée du 19 septembre 1666</hi>, [in] <hi rend="i">Les Continuateurs de Loret</hi>, II, p. 307-308.</note></l>
               </quote>
-            </item>
-          </list>
+            </p>
           <p>La même année, Boyer revint à la pièce à machines. <hi rend="i">Les Amours de Jupiter et de Sémélé</hi>  remportèrent un grand succès dans une période où le public était avide de représentations d’ordre spectaculaire. Il dédia la pièce à Louis XIV qui assista à l’une des représentations au Théâtre du Marais. Christian Delmas souligne le succès de Boyer dans cette nouvelle voie :</p>
           <quote>
             <p>Boyer qui avait modestement tâté du genre à l’époque des balbutiements, est ainsi l’auteur original d’une remarquable tragédie des <hi rend="i">Amours de Jupiter et de Sémélé</hi>, reprise en 1666-1667, et 1667-1668, puis d’une <hi rend="i">Feste de Vénus</hi> en 1669.<note n="7" place="bottom"> Delmas Christian, <hi rend="i">Recueil de tragédies à machines sous Louis XIV</hi>, Toulouse, Centre de recherches « Idées, thèmes et formes 1580-1660 », 1985, <hi rend="i">Présentation</hi> du recueil.</note></p>
@@ -1493,8 +1490,9 @@
             <pb/>
           </div>
         </div>
+      </div>
         <div type="acte">
-          <p><title>LES AMOURS DE JUPITER ET DE SEMELE, TRAGEDIE</title>    <pb n="A1"/></p>
+          <head>LES AMOURS DE JUPITER ET DE SEMELE, TRAGEDIE   <pb n="A1"/></head>
           <div type="scene">
           <head>PROLOGUE.</head>
           <stage>L’Ouverture du Théatre fait voir de front le Mont-Parnasse<note n="76" place="bottom">Le Parnasse est un massif montagneux au Nord-Est de Delphes. Il était considéré comme le séjour traditionnel du dieu Apollon et des neuf Muses. C’est donc d’emblée mettre en scène le lieu privilégié de la création poétique et ainsi légitimer le sujet du Prologue, à savoir la question de la nature des trois arts qui seront réunis et représentés sur la scène. </note> qui s’éleve du fonds du Théatre jusques aux nuës, avec des allées de Cyprez entremeslées de statuës de Roys &amp; de Heros, &amp; l’on entend à mesme temps<note n="77" place="bottom"> Selon Haase, <hi rend="i">à</hi> marque un rapport de temps. Cependant, Vaugelas ne différencie pas l’emploi de <hi rend="i">à mesme temps</hi>  et  <hi rend="i">en mesme temps</hi> ; il est utilisé pour désigner un moment précis.</note> des Trompettes &amp; des Clairons.</stage>
@@ -4963,7 +4961,7 @@
           <p rend="i">Registré sur le livre de la Communauté le 2. Mars 1666. Signé PIGET Syndic. </p>
           <p rend="i">Achevé d’imprimer le 15. Mars 1666. </p>
         </div>
-      </div>
+      
     </body>
     <back>
       <div>
@@ -5094,7 +5092,7 @@
           </entryFree>
           <entryFree xml:id="cruel">
             <form>Cruel, elle</form>
-            <def>« Le sens premier est très fort au XVIIe avec l’idée de sang issue de <hi rend="b">cruo</hi>r, <hi rend="b">oris</hi> en latin, c’est-à-dire « sang rouge, sang qui coule » (Dictionnaire Latin-Français de F. Gaffiot).</def>
+            <def>« Le sens premier est très fort au XVIIe avec l’idée de sang issue de <hi rend="i">cruo</hi>r, <hi rend="i">oris</hi> en latin, c’est-à-dire « sang rouge, sang qui coule » (Dictionnaire Latin-Français de F. Gaffiot).</def>
             <def>« Se dit aussi des choses qui sont simplement fascheuses. Les amans (…) disent que leur maistresse est cruelle quand elle ne satisfait pas à tous leurs désirs » (Furet.).</def>
             <xr>V. <ref target="#l1461">1461</ref>, <ref target="#l1605">1605</ref>, <ref target="#l1721">1721</ref></xr>
             <def>« Qui n’a point de bonté, qui est dur, qui ne fait aucune grâce » (Rich.).</def>
@@ -5409,7 +5407,7 @@
             <p>REPRESENTEE SUR LE THEATRE ROYAL DU MARAIS.</p>
             <p>inventé par le Sieur BUFFEQUIN, Machiniste.</p>
             <p>A PARIS, Chez PIERRE PROME, Ruë de la Bouclerie, Proche de la rue de la Huchette, A la Charité.</p>
-            <docDate>M.DC.LXVI.</docDate>
+            <p>M.DC.LXVI.</p>
           </div>
           <div>
             <pb/>
@@ -5540,7 +5538,7 @@
           <head>Appendice II – Tableaux des apparitions des personnages.</head>
           <div>
             <head>Personnages du Prologue</head>
-            <table rows="5" cols="7">
+            <table>
               <row>
                 <cell/>
                 <cell>SCENE I</cell>
@@ -5590,7 +5588,7 @@
           </div>
           <div>
             <head>Personnages de la pièce</head>
-            <table rows="21" cols="17">
+            <table>
               <row>
                 <cell/>
                 <cell cols="5">ACTE I (dans l’ordre scènes 1 ; 2 ; 3 ; 4 ; 5)</cell>
@@ -5978,7 +5976,7 @@
                 <cell/>
               </row>
             </table>
-            <table rows="21" cols="21">
+            <table>
               <row>
                 <cell></cell>
                 <cell cols="10">ACTE IV (dans l’ordre scènes 1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7 ; 8 ; 9 ; 10)</cell>
@@ -6445,7 +6443,7 @@
                 <cell/>
               </row>
             </table>
-            <table rows="21" cols="3">
+            <table>
               <row>
                 <cell/>
                 <cell rend="b">Total sur 36 scènes</cell>

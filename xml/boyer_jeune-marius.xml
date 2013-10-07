@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Jeune-Marius_stylé" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LE JEUNE MARIUS. TRAGÉDIE.</title>
-        <author born="1618" born_location="Albi" death="1698" death_location="Paris">BOYER, Claude</author>
+        <title>Le Jeune Marius. Tragédie.</title>
+        <author key="Boyer, Claude (1618-1698)" born_location="Albi" death_location="Paris">BOYER, Claude</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par GÉRARD Isabelle dans le cadre d'un mémoire de
@@ -715,8 +714,7 @@
       </div>
     </front>
     <body>
-      <div>
-        <pb/>
+        <div>
         <head>LE JEUNE MARIUS. TRAGEDIE.</head>
         <div>
           <pb/>
@@ -774,9 +772,9 @@
             <role>OCTAVE.</role>
           </castItem>
           </castList>
-          <stage rend="b">
-            <p>La Scene est à Preneste<note n="32" place="bottom">. Préneste : Ville d’Italie, actuel Palestrina, au sud-est de Rome, à proximité de la Via Latina, lieu historique d’une bataille entre Marius le Jeune et Sylla et de la mort de Marius. Marius, tenant la ville, y avait transféré le trésor de l’État et en avait renforcé les fortifications naturelles.</note>, dans le Palais de Marius.</p>
+          <stage rend="bold">La Scene est à Preneste<note n="32" place="bottom">. Préneste : Ville d’Italie, actuel Palestrina, au sud-est de Rome, à proximité de la Via Latina, lieu historique d’une bataille entre Marius le Jeune et Sylla et de la mort de Marius. Marius, tenant la ville, y avait transféré le trésor de l’État et en avait renforcé les fortifications naturelles.</note>, dans le Palais de Marius.
           </stage>
+        </div>
         </div>
         <div type="acte">
           <head>ACTE I.             <pb n="1"/></head>
@@ -3526,7 +3524,7 @@
           <p>A. SOUBRON, Syndic.</p>
           <p>Achevé d’imprimer pour la premiere fois le 28.Mars 1669.</p>
         </div>
-      </div>
+      
     </body>
     <back>
       <div>

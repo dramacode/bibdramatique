@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Ombre_Molière" xml:lang="FR">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>L'OMBRE DE MOLIÈRE. COMÉDIE.</title>
-        <author born="1638" born_location="Paris" death="1685" death_location="Paris">Guillaume de
+        <author key="Marcoureau, Guillaume (de, sieur de Brécourt) (1638-1685)" born_location="Paris" death_location="Paris">Guillaume de
           Marcoureau, sieur de Brécourt</author>
       </titleStmt>
       <editionStmt>
@@ -53,8 +52,10 @@
           <titlePart>L'OMBRE DE MOLIÈRE</titlePart>
           <titlePart>COMÉDIE</titlePart>
         </docTitle>
-        <docAuthor>Guillaume de Marcoureau, sieur de Brécourt</docAuthor>
-        <docDate>1674</docDate>
+        <docAuthor>[Par le sieur de Brécourt]</docAuthor>
+        <docImprint>A PARIS, Chez CLAUDE BARBIN, sur le Second Perron de la S.
+          Chapelle.</docImprint>
+        <docDate>M. DC. LXXIV. <hi rend="i">AVEC PRIVILEGE DU ROY.</hi></docDate>
         <docEdition>Édition critique établie par Marie-Astrid Lechat sous la direction de Georges
           Forestier (2006)</docEdition>
       </titlePage>
@@ -1126,10 +1127,6 @@
         <pb/>
         <head>L’OMBRE DE MOLIERE.</head>
         <head>COMEDIE.</head>
-        <docAuthor>[Par le sieur de Brécourt]</docAuthor>
-        <docImprint>A PARIS, Chez CLAUDE BARBIN, sur le Second Perron de la S.
-          Chapelle.</docImprint>
-        <docDate>M. DC. LXXIV. <hi rend="i">AVEC PRIVILEGE DU ROY.</hi></docDate>
         <div>
           <pb/>
           <head>À SON ALTESSE SERENISSIME MONSEIGNEUR LE DUC D’ENGUIEN<note n="43" place="bottom">Il
@@ -1160,8 +1157,8 @@
           <p>BRECOURT.</p>
         </div>
         <div>
+          <head>ACTEURS.            <pb n="VIII"/></head>
           <castList>
-            <head>ACTEURS.            <pb n="VIII"/></head>
             <castItem>
               <role>DEUX OMBRES.</role>
             </castItem>
@@ -1216,10 +1213,9 @@
               <role>L’ENVIE.</role>
             </castItem>
           </castList>
-          <stage rend="b">
-            <p>La Scène est dans les Champs Elysées.</p>
-          </stage>
+          <stage rend="bold">La Scène est dans les Champs Elysées.</stage>
         </div>
+      </div>
         <div type="acte">
           <pb/>
           <head>PROLOGUE DE L’OMBRE DE MOLIERE    <pb n="A ; 1"/></head>
@@ -1306,7 +1302,7 @@
             <p>Comment avez-vous sçeu cela ?</p>
           </sp>
           <sp who="cleante">
-            <speaker><seg rend="style1_car"><hi rend="sc">Cleante</hi></seg>. </speaker>
+            <speaker><hi rend="sc">Cleante</hi>. </speaker>
             <p>Ah ! comment je l’ay sçeu ? Que me donnerez-vous, et je vous le diray ?</p>
           </sp>
           <sp who="oronte">
@@ -2121,13 +2117,13 @@
               <speaker>Nicole.</speaker>
               <p>Moy ? Par ma figue, je n’ay <pb n="57"/> rien à dire contre luy, c’est une bonne
                 Ombre ; et tenez, Monsieur Pluton, c’est peut-estre la meilleure Piece de vostre
-                  Sac<note n="64" place="bottom"><pb/>« <hi rend="i">Piece</hi>, en termes de
+                  Sac<note n="64" place="bottom">« <hi rend="i">Piece</hi>, en termes de
                     Palais, se dit de tout ce qu’on écrit et produit en un procès pour le mettre en
                     état, et justifier de son droit. On fait un inventaire de production pour
-                    l’induction et la conservation de ses pièces ».<note>« <hi rend="i"
+                    l’induction et la conservation de ses pièces ». « <hi rend="i"
                       >Sac</hi>, en termes de Palais, se dit de celui où l’on met les papiers d’un
                     procès. Cette partie a chargé un tel Avocat de son sac ».
-                Idem.</note></note>.</p>
+                Idem.</note>.</p>
             </sp>
             <sp who="pluton">
               <speaker>Pluton.</speaker>
@@ -2800,7 +2796,7 @@
           <p rend="i">Achevé d’imprimé pour la premiere fois </p>
           <p rend="i">le 2 May 1674. </p>
         </div>
-      </div>
+      
     </body>
     <back>
         <div>

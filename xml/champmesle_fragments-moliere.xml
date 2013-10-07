@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Fragments_Molière" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LES FRAGMENS DE MOLIÈRE. COMÉDIE.</title>
-        <author born="1642" born_location="Paris" death="1701" death_location="Paris">Charles
+        <title>Les Fragmens de Molière. Comédie.</title>
+        <author key="Chevillet, Charles (sieur de Champmeslé) (1642-1701)" born_location="Paris" death_location="Paris">Charles
           Chevillet, sieur de Champmeslé</author>
       </titleStmt>
       <editionStmt>
@@ -1002,12 +1001,10 @@
       </div>
     </front>
     <body>
-      <div>
-        <head>LES FRAGMENS DE MOLIERE.</head>
-        <head>COMEDIE.</head>
+      <head>LES FRAGMENS DE MOLIERE. <lb/>COMEDIE.</head>
         <div>
+          <head>PERSONNAGES.[III]</head>
           <castList>
-            <head>PERSONNAGES.[III]</head>
             <castItem>
               <role>Lignon.</role>
             </castItem>
@@ -2717,7 +2714,7 @@
             </sp>
           </div>
         </div>
-      </div>
+      
     </body>
     <back>
       <div>

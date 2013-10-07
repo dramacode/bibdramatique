@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Boyer_Fédéric" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>FÉDÉRIC. TRAGI-COMÉDIE</title>
-        <author born="1618" born_location="Albi" death="1698" death_location="Paris">BOYER, Claude</author>
+        <title>Fédéric. Tragi-comédie</title>
+        <author key="Boyer, Claude (1618-1698)" born_location="Albi" death_location="Paris">BOYER, Claude</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par NEVEU Catherine dans le cadre d'un mémoire de
@@ -1173,7 +1172,6 @@
     <body>
       <div>
         <head>FÉDÉRIC. TRAGI-COMÉDIE</head>
-        <pb/>
         <div>
           <pb/>
           <head>A MONSEIGNEUR LE DUC DE GUYSE<note n="75" place="bottom">Il s’agit de Henri II, duc de Guise. Grand amateur d’art, il était mécène et se produisit aux côtés de Louis XIV alors que celui-ci, adolescent, se montrait sur scène dans des ballets. En 1662, il apparut au cours du grand Carrousel où il conduisait le groupe des sauvages. Il protégea aussi Corneille qui s’installa même dans l’Hôtel de Guise (l’actuel palais Soubise) la même année. Il meurt sans descendance le 2 juin 1664 et Corneille adresse à son successeur et neveu, âgé de quize ans, un sonnet où il rend hommage au défunt : « Un grand prince vous laisse un grand nom à remplir / Et ce que se promit sa valeur sans seconde, / C’est pour vous que le ciel réserve à l’accomplir. » Mais le sonnet, même s’il émanait de Corneille, resta apparemment sans écho : le successeur de Henri avait pour tutrice Mlle de Guise qui était bien déterminée à restaurer l’intégrité du patrimoine des Guise et qui, du reste, était davantage intéressée par la musique que par le théâtre puisqu’elle fut la protectrice de Marc-Antoine Charpentier.</note>.</head>
@@ -1224,11 +1222,11 @@
             <role>SUITE.</role>
           </castItem>
           </castList>
-          <stage rend="b">
-            <p>La Scene est à Messine dans le Palais Royal<note n="76" place="bottom">Faux : le palais royal de Sicile se trouvait à Palerme. Boyer situe la pièce à Messine car ce port est à l’extrême nord-est de l’île pour rapprocher le lieu de l’action de Naples au large de laquelle se déroulera la bataille navale dont dépend l’intrigue, et ceci dans un souci de vraisemblance, Palerme étant beaucoup plus à l’ouest. </note>.</p>
+          <stage rend="bold">La Scene est à Messine dans le Palais Royal<note n="76" place="bottom">Faux : le palais royal de Sicile se trouvait à Palerme. Boyer situe la pièce à Messine car ce port est à l’extrême nord-est de l’île pour rapprocher le lieu de l’action de Naples au large de laquelle se déroulera la bataille navale dont dépend l’intrigue, et ceci dans un souci de vraisemblance, Palerme étant beaucoup plus à l’ouest. </note>.
           </stage>
           <pb/>
         </div>
+      </div>
         <div type="acte">
           <head>ACTE I</head>
           <p><title>FEDERIC. TRAGICOMEDIE <pb n="1" xml:id="p1"/></title></p>
@@ -4420,7 +4418,7 @@
           <p>Errata</p>
           <p>P. 48 v.2 veu. <hi rend="i">Lis</hi> crû. P. 52 v.15 grandeu. <hi rend="i">lis.</hi> Grandeurs. P. 53 flatez, <hi rend="i">lis.</hi> Flatiez. P. 41 v.18 dessein, <hi rend="i">lis.</hi> Destin.</p>
         </div>
-      </div>
+      
     </body>
     <back>
       <div>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Boyer_Judith" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>JUDITH. TRAGÉDIE</title>
-        <author born="1618" born_location="Albi" death="1698" death_location="Paris">BOYER, Claude</author>
+        <title>Judith. Tragédie</title>
+        <author key="Boyer, Claude (1618-1698)" born_location="Albi" death_location="Paris">BOYER, Claude</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par MARLAT Thomas dans le cadre d'un mémoire de
@@ -56,8 +55,9 @@
           <titlePart>JUDITH</titlePart>
           <titlePart>TRAGÉDIE</titlePart>
         </docTitle>
-        <docAuthor>Claude Boyer</docAuthor>
-        <docDate>1695</docDate>
+        <docAuthor>Par Mr.  BOYER, de l’Académie Françoise.</docAuthor>
+        <docImprint>A PARIS, Chez MICHEL BRUNET, à l’entrée de la Grande Salle du Palais, au Mercure Galant.</docImprint>
+        <docDate>M DC. XCV. <hi rend="i">AVEC PRIVILEGE DU ROY.</hi></docDate>
         <docEdition>Édition critique établie par Thomas Marlat sous la direction de Georges Forestier (1998)</docEdition>
       </titlePage>
       <div>
@@ -759,11 +759,7 @@
     </front>
     <body>
       <div>
-        <pb/>
         <head>JUDITH TRAGEDIE.</head>
-        <docAuthor>Par Mr.  BOYER, de l’Académie Françoise.</docAuthor>
-        <docImprint>A PARIS, Chez MICHEL BRUNET, à l’entrée de la Grande Salle du Palais, au Mercure Galant.</docImprint>
-        <docDate>M DC. XCV. <hi rend="i">AVEC PRIVILEGE DU ROY.</hi></docDate>
         <div>
           <pb/>
           <head>PREFACE</head>
@@ -815,11 +811,10 @@
             <role>CHOEUR D’ASSYRIENS.</role>
           </castItem>
           </castList>
-          <stage rend="b">
-            <p>La Scene est à Betulie et au Camp des Assyriens.</p>
-          </stage>
+          <stage rend="bold">La Scene est à Betulie et au Camp des Assyriens.</stage>
           <pb/>
         </div>
+      </div>
         <div type="acte">
           <head>ACTE PREMIER</head>
           <p><title>JUDITH TRAGÉDIE</title></p>
@@ -3369,7 +3364,6 @@
           <p>Et ledit sieur Boyer a cedé ses droits de Privilege pour la Tragédie de Judith, à Jean Baptiste Coignard Imprimeur du Roi, et à Michel Brunet Libraire à Paris, suivant l’acord fait entr’eux.</p>
           <p><hi rend="i">Achevé d’imprimer pour la premiere fois le 23. Avril</hi><note n="193" place="bottom"> Coquille dans J1 (<hi rend="i">Avil</hi>) corrigée dans J2.</note><hi rend="i">1695.</hi> </p>
         </div>
-      </div>
     </body>
     <back>
       <div>

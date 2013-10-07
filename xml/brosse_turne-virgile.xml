@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="brosse_turne-virgile" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LE TURNE DE VIRGILE. TRAGÉDIE</title>
-        <author>LA BROSSE</author>
+        <title>Le Turne de Virgile. Tragédie.</title>
+        <author key="Brosse">LA BROSSE</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par POUCH Aurélia dans le cadre d'un mémoire de
@@ -362,9 +361,9 @@
       <div>
         <head>LE TURNE DE VIRGILE.</head>
         <head>TRAGEDIE.</head>
-        <div>
+        <div  xml:id="epitre">
           <pb/>
-          <head xml:id="epitre">EPISTRE<note n="61" place="bottom">La forme figure dans les titres courants des pages [IV] et [V]. </note></head>
+          <head>EPISTRE<note n="61" place="bottom">La forme figure dans les titres courants des pages [IV] et [V]. </note></head>
           <head rend="center">A</head>
           <head rend="center">TRES-HAUT</head>
           <head rend="center">ET</head>
@@ -428,13 +427,13 @@
             <role>TROUPE des Troyens.</role>
           </castItem>
           </castList>
-          <stage rend="b">
-            <p>La Scene est à Lavinium, ville du Latium, contrée
+          <stage rend="bold">La Scene est à Lavinium, ville du Latium, contrée
 <lb/>d’Italie, maintenant appellée le territoire de
-<lb/>Rome, ou campagna di Roma.<note n="75" place="bottom">L’unité de lieu était encore relativement souple : c’est le cas ici, puisqu’on nous mentionne la ville de Lavinium, mais la pièce se déroule successivement dans le palais du Roi ou sur le champ de bataille. D’où l’utilisation de décors à compartiments.</note></p>
+<lb/>Rome, ou campagna di Roma.<note n="75" place="bottom">L’unité de lieu était encore relativement souple : c’est le cas ici, puisqu’on nous mentionne la ville de Lavinium, mais la pièce se déroule successivement dans le palais du Roi ou sur le champ de bataille. D’où l’utilisation de décors à compartiments.</note>
           </stage>
           <pb/>
         </div>
+      </div>
         <div type="acte">
           <head>ACTE I.</head>
           <head>
@@ -2959,7 +2958,7 @@
           <p rend="center">Fautes survenuës à l’impression.</p>
           <p>Act. 2. Sc. I. vers 14. belles, lisez nobles. Sc. 2. vers I. belle, lisez bonne. Vers 21, en, lisez est. Sc. 3. vers 36. sa. lisez la. Sc 4. vers 44. son sang, lisez le Ciel. Acte 3. Sc. 2. vers 43. respects, lisez motifs. Sc. 3. vers. 30. mon lisez le. Sc. 4. vers 33. ardeur lisez d’abord. Acte IV. Sc. 1. ce lisez le.</p>
         </div>
-      </div>
+      
     </body>
     <back>
       <div>

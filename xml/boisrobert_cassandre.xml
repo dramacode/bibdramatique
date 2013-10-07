@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Boisrobert_Cassandre" xml:lang="FR">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CASSANDRE, COMTESSE DE BARCELONE. TRAGE-COMÉDIE</title>
-        <author born="1592" born_location="Caen" death="1662" death_location="Paris">LE MÉTEL DE
+        <title>Cassandre, comtesse de Barcelone. Trage-comédie</title>
+        <author key="Boisrobert, François (Le Métel de) (1592-1662)" born_location="Caen" death_location="Paris">LE MÉTEL DE
           BOISROBERT, François</author>
       </titleStmt>
       <editionStmt>
@@ -1793,8 +1792,7 @@
       </div>
 </front>
     <body>
-    <div>
-        <pb/>
+      <div>
         <head type="main">CASSANDRE, COMTESSE DE BARCELONE.</head>
         <head type="sub">TRAGE-COMEDIE.</head>
         <div>
@@ -1902,9 +1900,8 @@
             les profuſions de l’Autheur, que ma petite <ref target="#économie">Œconomie*</ref>.</p>
         </div>
         <div>
-          <pb/>
-          <castList>
           <head>LES NOMS DES ACTEVRS.</head>
+          <castList>
           <castItem>
             <role>CASSANDRE,</role>
             <roleDesc>Comteſſe de Barcelone. </roleDesc>
@@ -1942,10 +1939,9 @@
             <roleDesc>Gouuerneur de la Princeſſe.</roleDesc>
           </castItem>
           </castList>
-          <stage rend="b">
-            <p>La Scene eſt à Barcelone.</p>
-          </stage>
+          <stage rend="bold">La Scene eſt à Barcelone.</stage>
         </div>
+      </div>
         <div type="acte">
           <pb/>
           <head>ACTE PREMIER.<pb n="1, A"/></head>
@@ -5685,7 +5681,7 @@
           <p rend="center i">quinziéme iour du Mars 1654.</p>
           <p rend="center">Les Exemplaires ont eſté fournis.</p>
         </div>
-      </div>
+      
     </body>
     <back>
     <div>
@@ -5699,7 +5695,8 @@
             qui correspondent à la adaptation française faite par Boisrobert dans sa <hi rend="i"
               >Cassandre</hi>.</p>
           <div>
-          <table rows="46" cols="2">
+            <head>Tableau 1</head>
+          <table>
             <row>
                 <cell>Cassandre, comtesse de Barcelone</cell>
               <cell>La mentirosa verdad o el marido de su hermana</cell>
@@ -6274,7 +6271,7 @@
                 <p>casamiento suficiente. (v. 34-36)</p>
                 <p><hi rend="i">Duq</hi>. Carlos, de ti me confio,</p>
                 <p><hi rend="i">Carlos</hi>. En que puedo seruir ?</p>
-                <p rend="footer"><hi rend="i">Duq</hi>. No la puedo persuadir</p>
+                <p><hi rend="i">Duq</hi>. No la puedo persuadir</p>
                 <p>al casarse, aunque porfio. (v. 13,14)</p>
                 <p>Tu eres prudente, y discreto,</p>
                 <p>juntos os aueys criado, (v. 27,28)</p>
@@ -6288,7 +6285,7 @@
                 <p><hi rend="i">D.Ia.</hi> Tomad, y boluedme a ver. (v. 176)</p>
                 <p rend="b">(5)</p>
                 <p><hi rend="i">Bel</hi>. Por Dios que es donoso cuento,</p>
-                <p rend="footer">tengolos de dar, o no ;</p>
+                <p>tengolos de dar, o no ;</p>
                 <p>mas que puedo auenturar ? (v. 199-202)</p>
                 <p rend="center i">Sale Carlos.</p>
                 <p><hi rend="i">Bel</hi>. Ninguno tiene</p>
@@ -6308,7 +6305,7 @@
                 <p>y sus dueños me han pedido,</p>
                 <p>que a la Condesa se den. (v. 225)</p>
                 <p><hi rend="i">Car</hi>. E de abrirlos, ay de mi :</p>
-                <p rend="footer">nobles y galanes son,</p>
+                <p>nobles y galanes son,</p>
                 <p>de Mondaca, y de Aragon, (v. 228,229)</p>
                 <p>sangre ilustre, oy me perdi,</p>
                 <p>que quien a escriuir se atreue,</p>
@@ -6328,8 +6325,8 @@
                 <p><hi rend="i">Vio</hi>. Carlos en otro cuydado</p>
                 <p>tambien a mi me condena,</p>
                 <p>hermano, pues de tu pena,</p>
-                <p rend="footer">tan grande parte me alcança. (v. 316-318)</p>
-                <p rend="footer"><hi rend="i">Car</hi>. De don Iayme de Aragon</p>
+                <p>tan grande parte me alcança. (v. 316-318)</p>
+                <p><hi rend="i">Car</hi>. De don Iayme de Aragon</p>
                 <p>otro papel tengo aqui,</p>
                 <p>pero ya no ay fuerça en mi</p>
                 <p>para tan gran sinrazon.</p>
@@ -6343,15 +6340,15 @@
                   <num>.</num>
                 </p>
                 <p rend="b">(2)</p>
-                <p rend="footer"><hi rend="i">Viol</hi>. Adonde se fue tu hermano ? (v. 323)</p>
+                <p><hi rend="i">Viol</hi>. Adonde se fue tu hermano ? (v. 323)</p>
                 <p><hi rend="i">Isa</hi>. Esso preguntas agora,</p>
                 <p>quando ocasiones le has dado,</p>
-                <p rend="footer">para que pierda el sentido. (v. 326,327)</p>
+                <p>para que pierda el sentido. (v. 326,327)</p>
                 <p><hi rend="i">Viol</hi>. Que dizes ? estàs burlando ;</p>
                 <p>antes Isabel, se và,</p>
                 <p>porque se siente culpado :</p>
-                <p rend="footer">y tiene de mi verguença. (v. 329-332)</p>
-                <p rend="footer"><hi rend="i">Isa</hi>. De que tal digas me espanto. (v. 339)</p>
+                <p>y tiene de mi verguença. (v. 329-332)</p>
+                <p><hi rend="i">Isa</hi>. De que tal digas me espanto. (v. 339)</p>
                 <p rend="center">
                   <hi rend="i">Sientase</hi>
                   <num>.</num>
@@ -6359,51 +6356,51 @@
                 <p>Ya sabes que desde niña,</p>
                 <p>Isabel, quise a don Carlos,</p>
                 <p>y que de ti solamente</p>
-                <p rend="footer">este secreto è fiado. (v. 333-335)</p>
+                <p>este secreto è fiado. (v. 333-335)</p>
                 <p>... pues que boluiendo</p>
                 <p>despues, le hallè embelesado</p>
-                <p rend="footer">leyendo aqueste papel,</p>
-                <p rend="footer">testigo de que es ingrato. (v. 341-344)</p>
-                <p rend="footer">Tomèle el papel, leile. (v. 341)</p>
+                <p>leyendo aqueste papel,</p>
+                <p>testigo de que es ingrato. (v. 341-344)</p>
+                <p>Tomèle el papel, leile. (v. 341)</p>
                 <p><hi rend="i">Viol</hi>. Pensandolo mas de espacio,</p>
                 <p>sabreys por êl la aficion</p>
                 <p>(dixo Ramon al dexarnos)</p>
-                <p rend="footer">de mi noble proceder. (v. 359/372-374)</p>
+                <p>de mi noble proceder. (v. 359/372-374)</p>
                 <p><hi rend="i">Viol</hi>. Cuento gallardo,</p>
                 <p>ay Isabel, con mas veras,</p>
                 <p>ya que veo el desengaño,</p>
-                <p rend="footer">le adoro. (v. 361)</p>
-                <p rend="footer"><hi rend="i">Viol</hi>. Donde està ? verle deseo. (v. 380)</p>
+                <p>le adoro. (v. 361)</p>
+                <p><hi rend="i">Viol</hi>. Donde està ? verle deseo. (v. 380)</p>
                 <p><hi rend="i">Viol</hi>. A mi don Ramon se atreue ? (v. 370)</p>
                 <p><hi rend="i">Isa</hi>. Otro villete me ha dado</p>
                 <p>de don Iayme de Aragon,</p>
                 <p>pero no me dixo al darlo,</p>
-                <p rend="footer">que era para ti. (v. 383-385)</p>
+                <p>que era para ti. (v. 383-385)</p>
                 <p><hi rend="i">Lee Isa</hi>. Dize assi : Si la fortuna</p>
-                <p rend="footer b">(4)</p>
+                <p rend="bold">(4)</p>
                 <p><hi rend="i">Duq</hi>. hablastela por ventura</p>
-                <p rend="footer">en esto del casamiento ? (v. 513-515)</p>
+                <p>en esto del casamiento ? (v. 513-515)</p>
                 <p><hi rend="i">Car</hi>. Si señor. (v. 518)</p>
-                <p rend="footer"><hi rend="i">Duq</hi>. Y que es su intento ? (v. 516)</p>
+                <p><hi rend="i">Duq</hi>. Y que es su intento ? (v. 516)</p>
                 <p><hi rend="i">Car</hi>. Sus pensamientos estàn</p>
-                <p rend="footer">lejos de lo que à passado. (v. 519,520)</p>
-                <p rend="footer"><hi rend="i">Duq</hi>. Quiere casarse ? (v. 517)</p>
+                <p>lejos de lo que à passado. (v. 519,520)</p>
+                <p><hi rend="i">Duq</hi>. Quiere casarse ? (v. 517)</p>
                 <p><hi rend="i">Car</hi>. Si quiere,</p>
-                <p rend="footer">pero no con estrangero. (v. 521)</p>
+                <p>pero no con estrangero. (v. 521)</p>
                 <p><hi rend="i">Duq</hi>. Los estoruos considero</p>
                 <p>si en Barcelona prefiere</p>
-                <p rend="footer">a alguno. (v. 536,537)</p>
+                <p>a alguno. (v. 536,537)</p>
                 <p><hi rend="i">Car</hi>. No ay caualleros</p>
-                <p rend="footer">que la puedan merecer ? (v. 538,529)</p>
-                <p rend="footer">no es calidad el poder ? (v. 540, 541)</p>
+                <p>que la puedan merecer ? (v. 538,529)</p>
+                <p>no es calidad el poder ? (v. 540, 541)</p>
                 <p>Si sus hermosos luzeros</p>
                 <p>(pongo por caso) eligieran</p>
                 <p>a tu hijo, que perdia</p>
-                <p rend="footer">tu sangre ? (v. 542,543)</p>
+                <p>tu sangre ? (v. 542,543)</p>
                 <p><hi rend="i">Duq</hi>. Nada ; en la mia</p>
                 <p>altas glorias reuerueran ;</p>
-                <p rend="footer">mas esso no puede ser. (v. 546-550)</p>
-                <p rend="footer"><hi rend="i">Car</hi>. Que pienso que yo. (v. 550)</p>
+                <p>mas esso no puede ser. (v. 546-550)</p>
+                <p><hi rend="i">Car</hi>. Que pienso que yo. (v. 550)</p>
                 <p><hi rend="i">Duq</hi>. Hijo, pensar no es saber. (v. 551,552)</p>
                 <p><hi rend="i">Car</hi>. Pues yo sè que me à mirado</p>
                 <p>su Alteza con aficion. (v. 553,554)</p>
@@ -6411,63 +6408,63 @@
                 <p>a aueros juntos criado ? (v. 555-557)</p>
                 <p><hi rend="i">Car</hi>. Ay mas. (v. 558)</p>
                 <p><hi rend="i">Duq</hi>. Que mas ? (v. 558)</p>
-                <p rend="footer"><hi rend="i">Car</hi>. Mil fauores. (v. 558)</p>
+                <p><hi rend="i">Car</hi>. Mil fauores. (v. 558)</p>
                 <p><hi rend="i">Car</hi>. Señor palabra me à dado,</p>
-                <p rend="footer">de ser mi esposa. (v. 559)</p>
+                <p>de ser mi esposa. (v. 559)</p>
                 <p><hi rend="i">Duq</hi>. Ay de mi !</p>
                 <p>Carlos, Carlos, cesse ay</p>
                 <p>lo que teneys empeçado ;</p>
                 <p>palabras daldas al viento,</p>
-                <p rend="footer">lo demas no puede ser. (v. 560,561)</p>
+                <p>lo demas no puede ser. (v. 560,561)</p>
                 <p><hi rend="i">Car</hi>. Como no, si es mi muger,</p>
-                <p rend="footer">sin que baste impedimento ? (v. 563)</p>
-                <p rend="footer"><hi rend="i">Duq</hi>. Como ? (v.564)</p>
+                <p>sin que baste impedimento ? (v. 563)</p>
+                <p><hi rend="i">Duq</hi>. Como ? (v.564)</p>
                 <p><hi rend="i">Car</hi>. No es bien te assombre.</p>
-                <p rend="footer"><hi rend="i">Duq</hi>. Viose mayor confusion ? (v. 565)</p>
+                <p><hi rend="i">Duq</hi>. Viose mayor confusion ? (v. 565)</p>
                 <p><hi rend="i">Duq</hi>. Que escuches digo. (v. 566)</p>
                 <p>El Conde de Barcelona,</p>
                 <p>que Dios en su gloria tenga,</p>
                 <p>en la mitad de los años</p>
-                <p rend="footer">le dio el mio. (v. 645,646)</p>
+                <p>le dio el mio. (v. 645,646)</p>
                 <p><hi rend="i">D.Ra</hi>. Puede ser,</p>
                 <p>pero conuiene saber</p>
                 <p>si fue accion de la fortuna,</p>
-                <p rend="footer">o falta de su lealtad, (v. 647)</p>
-                <p rend="footer">la necia temeridad</p>
+                <p>o falta de su lealtad, (v. 647)</p>
+                <p>la necia temeridad</p>
                 <p>no intente algun desatino</p>
-                <p rend="footer">dando muerte a este criado. (v. 648)</p>
+                <p>dando muerte a este criado. (v. 648)</p>
                 <p><hi rend="i">D.Iay</hi>. de la suerte que le dimos</p>
                 <p>los papeles, aguardemos, (v. 649)</p>
                 <p>y de su boca sabremos</p>
-                <p rend="footer">la duda con que viuimos. (v. 650)</p>
-                <p rend="footer"><hi rend="i">D.Ra</hi>. No nos vea</p>
-                <p rend="footer">assi juntos a los dos. (v. 654)</p>
+                <p>la duda con que viuimos. (v. 650)</p>
+                <p><hi rend="i">D.Ra</hi>. No nos vea</p>
+                <p>assi juntos a los dos. (v. 654)</p>
                 <p rend="center">
                   <hi rend="i">Sale Beltran</hi>
                   <num>.</num>
                 </p>
-                <p rend="footer b">(2)</p>
-                <p rend="footer"><hi rend="i">Bel</hi>. Iamas me vi tan dudoso, (v. 650)</p>
+                <p rend="bold">(2)</p>
+                <p><hi rend="i">Bel</hi>. Iamas me vi tan dudoso, (v. 650)</p>
                 <p>Que yo se le di a Isabel,</p>
                 <p>desabrida le leyò,</p>
                 <p>el tomarle me culpò,</p>
                 <p>mostròse esquiua y cruel,</p>
                 <p>y enojada, es caso llano,</p>
-                <p rend="footer">que para que su razon</p>
-                <p rend="footer">impida la pretension</p>
+                <p>que para que su razon</p>
+                <p>impida la pretension</p>
                 <p>vuestra, se le dio a su hermano.(v. 662-669)</p>
                 <p>De mi no esteys ofendido,</p>
                 <p>porque no tendreys razon,</p>
                 <p>culpad a Isabel, Ramon,</p>
-                <p rend="footer">de quien soys aborrecido. (v. 671-673)</p>
+                <p>de quien soys aborrecido. (v. 671-673)</p>
                 <p><hi rend="i">D.Ra</hi>. Pienso que dezys verdad,</p>
                 <p>porque sino se enojara</p>
                 <p>Isabel, Carlos mostrara,</p>
                 <p>sabiendo mi calidad,</p>
                 <p>y que merezco a su hermana,</p>
-                <p rend="footer">menos enojo conmigo. (v. 674-677)</p>
-                <p rend="footer"><hi rend="i">D.Ra</hi>. Contigo el furor se allana, (v. 679)</p>
-                <p rend="footer"><hi rend="i">Bel</hi>. Otra maquina và armada. (v. 683)</p>
+                <p>menos enojo conmigo. (v. 674-677)</p>
+                <p><hi rend="i">D.Ra</hi>. Contigo el furor se allana, (v. 679)</p>
+                <p><hi rend="i">Bel</hi>. Otra maquina và armada. (v. 683)</p>
                 <p rend="center">
                   <hi rend="i">Escondese</hi>
                   <num>.</num>
@@ -6482,22 +6479,22 @@
                 <p><hi rend="i">Bel</hi>. Si señor, (v. 688)</p>
                 <p>y que os tiene algun amor</p>
                 <p>en su rostro conoci,</p>
-                <p rend="footer b">(5) </p>
+                <p rend="bold">(5) </p>
                 <p rend="center i">Sale Isabel con manto, y Beltran</p>
                 <p rend="center i">con ella.</p>
-                <p rend="footer"><hi rend="i">Isa</hi>. El que quiero se desuia</p>
-                <p rend="footer">y se acerca el que no quiero ; (v. 748,749)</p>
-                <p rend="footer">antes que os quedeys, os pido,</p>
-                <p rend="footer">que vuestro intento è sabido,</p>
-                <p rend="footer">y escusar la nota quiero :</p>
-                <p rend="footer">no aueys de passar de aqui. (v. 750,751)</p>
-                <p rend="footer"><hi rend="i">Isa</hi>. Vn papel vuestro lei,</p>
-                <p rend="footer">y solo auerlo leido</p>
-                <p rend="footer">os doy por respuesta (v. 752, 753)</p>
-                <p rend="footer"><hi rend="i">Bel.</hi> Mira agora si è mentido. (v. 756)</p>
-                <p rend="footer"><hi rend="i">D.Ia.</hi> Deuote mi vida. (v. 755)</p>
-                <p rend="footer"><hi rend="i">D.Ra.</hi> Cielos,</p>
-                <p rend="footer">ciertas mis desdichas son,</p>
+                <p><hi rend="i">Isa</hi>. El que quiero se desuia</p>
+                <p>y se acerca el que no quiero ; (v. 748,749)</p>
+                <p>antes que os quedeys, os pido,</p>
+                <p>que vuestro intento è sabido,</p>
+                <p>y escusar la nota quiero :</p>
+                <p>no aueys de passar de aqui. (v. 750,751)</p>
+                <p><hi rend="i">Isa</hi>. Vn papel vuestro lei,</p>
+                <p>y solo auerlo leido</p>
+                <p>os doy por respuesta (v. 752, 753)</p>
+                <p><hi rend="i">Bel.</hi> Mira agora si è mentido. (v. 756)</p>
+                <p><hi rend="i">D.Ia.</hi> Deuote mi vida. (v. 755)</p>
+                <p><hi rend="i">D.Ra.</hi> Cielos,</p>
+                <p>ciertas mis desdichas son,</p>
                 <p>ya don Iayme de Aragon <space> </space></p>
                 <p>me da muerte con sus zelos :</p>
                 <p>no me atreuo a hablar, ni puedo. (v. 761)</p>
@@ -6518,7 +6515,7 @@
                 <p>en otro amor, que le enfada</p>
                 <p>que muestra tanta lealtad. (v. 790-792)</p>
                 <p>Bien puede mudar de intento,</p>
-                <p rend="footer">y poner en otra dama</p>
+                <p>y poner en otra dama</p>
                 <p>que le estima, y que le ama,</p>
                 <p>el gusto, y el pensamiento. (v. 793-795)</p>
                 <p>quedese V. Señoria. (v. 796)<hi rend="i">Vase</hi>.</p>
@@ -6527,34 +6524,34 @@
                 <p><hi rend="i">D.Iay.</hi> Que ventura !</p>
                 <p>ya conoceys vuestro daño (v. 804,805)</p>
                 <p>don Ramon, sabed la dama</p>
-                <p rend="footer">que os promete tal firmeza,</p>
+                <p>que os promete tal firmeza,</p>
                 <p>quizà con otra belleza</p>
                 <p>templareys la ardiente llama</p>
-                <p rend="footer"><hi rend="i">D.Ra.</hi> Ya don Iayme te texo</p>
-                <p rend="footer">a Isabel, sin tratar de competencia,</p>
-                <p rend="footer">y sigo su consejo,</p>
-                <p rend="footer">despues podrè saber con euidencia</p>
-                <p rend="footer">del amor de Violante,868, 869) <space> </space></p>
-                <p rend="footer">quien ja gazado gloria semejante ? (v. 865/</p>
-                <p rend="footer"><hi rend="i">Viol.</hi> Mas ay Carlos que à vn siglo que no os veo. (v. 824)</p>
+                <p><hi rend="i">D.Ra.</hi> Ya don Iayme te texo</p>
+                <p>a Isabel, sin tratar de competencia,</p>
+                <p>y sigo su consejo,</p>
+                <p>despues podrè saber con euidencia</p>
+                <p>del amor de Violante,868, 869) <space> </space></p>
+                <p>quien ja gazado gloria semejante ? (v. 865/</p>
+                <p><hi rend="i">Viol.</hi> Mas ay Carlos que à vn siglo que no os veo. (v. 824)</p>
                 <p rend="center i">Sale Carlos de camino.</p>
-                <p rend="footer b">(8)</p>
+                <p rend="bold">(8)</p>
                 <p><hi rend="i">Viol</hi>. Carlos esposo,</p>
                 <p>que es esso ? Que trage eliges</p>
                 <p>para nuestras bodas ? como</p>
                 <p>muestras de ausencia te vistes ?</p>
-                <p rend="footer">Con essa gala te adornas</p>
+                <p>Con essa gala te adornas</p>
                 <p>que mi muerte pronostique ?</p>
                 <p>al talamo con espulas,</p>
-                <p rend="footer">que disfrazes apercibes ? (v. 872-875)</p>
+                <p>que disfrazes apercibes ? (v. 872-875)</p>
                 <p><hi rend="i">Car</hi>. A lo que parece vengo,</p>
                 <p>mi Violante, bien dixiste,</p>
                 <p>porque en la noche de ausencia</p>
-                <p rend="footer">la luz de tu Sol me eclipse. (v. 910,911)</p>
-                <p rend="footer">Quexaràste de mi amor,</p>
+                <p>la luz de tu Sol me eclipse. (v. 910,911)</p>
+                <p>Quexaràste de mi amor,</p>
                 <p>diràs que engañarte quise,</p>
-                <p rend="footer">quando sè que serà fuerça <space> </space>/907)</p>
-                <p rend="footer">que muera antes que te oluide. (v. 900,901</p>
+                <p>quando sè que serà fuerça <space> </space>/907)</p>
+                <p>que muera antes que te oluide. (v. 900,901</p>
                 <p>Pues si te adoro, y soy dueño</p>
                 <p>de tu honor, y tengo de irme</p>
                 <p>sin que puedan detenerme</p>
@@ -6562,39 +6559,39 @@
                 <p>Mira si es noble el caso,</p>
                 <p>y porque a espacio lo mires,</p>
                 <p>a Dios hasta que mis penas</p>
-                <p rend="footer">hallen en la muerte fines. (v. 922,923)</p>
-                <p rend="footer b">(9)</p>
+                <p>hallen en la muerte fines. (v. 922,923)</p>
+                <p rend="bold">(9)</p>
                 <p><hi rend="i">Viol</hi>. Fuesse, suspiros, seguilde,</p>
                 <p>agrauios, ofensas, zelos,</p>
                 <p>al amor vengança pide,</p>
                 <p>si los suspiros no bastan</p>
-                <p rend="footer">mayores fuerças embien</p>
+                <p>mayores fuerças embien</p>
                 <p>mis temores, y mis quexas,</p>
                 <p>ya no ay respeto que mire :</p>
-                <p rend="footer">ola criados. (v. 930-935)</p>
+                <p>ola criados. (v. 930-935)</p>
                 <p rend="center">
                   <hi rend="i">Sale vn Criado</hi>
                   <num>.</num>
                 </p>
-                <p rend="footer"><hi rend="i">Criado</hi>. Señora. (v. 935)</p>
+                <p><hi rend="i">Criado</hi>. Señora. (v. 935)</p>
                 <p><hi rend="i">Viol</hi>. Yd presto, llamadme a Enrique,</p>
-                <p rend="footer">que importa que venga luego. (v. 965)</p>
+                <p>que importa que venga luego. (v. 965)</p>
                 <p><hi rend="i">Viol</hi>. Pues necia fuyste,</p>
                 <p>publican que me quereys,</p>
-                <p rend="footer">y que ay vna alma en los dos ; (v.1015,1016)</p>
-                <p rend="footer"><hi rend="i">Viol.</hi> No es vuestro aqueste papel ? (v.1027)</p>
+                <p>y que ay vna alma en los dos ; (v.1015,1016)</p>
+                <p><hi rend="i">Viol.</hi> No es vuestro aqueste papel ? (v.1027)</p>
                 <p rend="center">
                   <hi rend="i">Enseñasele</hi>
                   <num>.</num>
                 </p>
                 <p><hi rend="i">D.Ra.</hi> Si señora. (v. 1028)</p>
                 <p><hi rend="i">Viol</hi>. Pues en èl</p>
-                <p rend="footer">dad vuestra esperança al viento. (v. 1029)</p>
+                <p>dad vuestra esperança al viento. (v. 1029)</p>
                 <p><hi rend="i">D.Ra</hi>. En aquesto con prudencia</p>
                 <p>darme a entender à querido,</p>
                 <p>que de que a Isabel oluido</p>
-                <p rend="footer">harà primero experiencia. (v. 1030-1034)</p>
-                <p rend="footer b">(5)</p>
+                <p>harà primero experiencia. (v. 1030-1034)</p>
+                <p rend="bold">(5)</p>
                 <p rend="center">
                   <hi rend="i">Salen el criado y el Duque</hi>
                   <num>.</num>
@@ -6602,38 +6599,38 @@
                 <p><hi rend="i">Viol</hi>. Hablaros a solas quiero,</p>
                 <p>pero no puedo empeçar</p>
                 <p>sin que embieys a llamar</p>
-                <p rend="footer">a vuestro hijo primero. (v. 1037/1040,1041)</p>
+                <p>a vuestro hijo primero. (v. 1037/1040,1041)</p>
                 <p><hi rend="i">Duq</hi>. Ya señora se à partido. (v. 1042)</p>
-                <p rend="footer"><hi rend="i">Viol</hi>. No aurà. (v. 1043)</p>
-                <p rend="footer"><hi rend="i">Viol</hi>. Sentaos pues estamos solos. (v. 1052)</p>
-                <p rend="footer"><hi rend="i">Duq</hi>. Essa merced no merezco. (<hi rend="i"
+                <p><hi rend="i">Viol</hi>. No aurà. (v. 1043)</p>
+                <p><hi rend="i">Viol</hi>. Sentaos pues estamos solos. (v. 1052)</p>
+                <p><hi rend="i">Duq</hi>. Essa merced no merezco. (<hi rend="i"
                     >Didascalie</hi>)</p>
-                <p rend="footer"><hi rend="i">Viol</hi>. Sentaos Duque, y escuchadme,</p>
-                <p rend="footer">(v. 1054)</p>
+                <p><hi rend="i">Viol</hi>. Sentaos Duque, y escuchadme,</p>
+                <p>(v. 1054)</p>
                 <p>Duque no me aueys criado ?</p>
-                <p rend="footer">por ayo, y padre no os tengo ? (v.1055,1056)</p>
+                <p>por ayo, y padre no os tengo ? (v.1055,1056)</p>
                 <p><hi rend="i">Duq</hi>. Yo os confiesso gran señora</p>
-                <p rend="footer">que como a mi hija os quiero. (v. 1060)</p>
+                <p>que como a mi hija os quiero. (v. 1060)</p>
                 <p><hi rend="i">Viol</hi>. Por muerte de mis padres</p>
-                <p rend="footer">este Condado no heredo ? (v. 1062-1064)</p>
+                <p>este Condado no heredo ? (v. 1062-1064)</p>
                 <p><hi rend="i">Duq</hi>. Por mi natural señora</p>
                 <p>os obedezco y respeto. (v. 1057)</p>
                 <p><hi rend="i">Viol</hi>. Defender a las mugeres</p>
-                <p rend="footer">no es accion de caualleros ? (v. 1070-1072)</p>
+                <p>no es accion de caualleros ? (v. 1070-1072)</p>
                 <p><hi rend="i">Duq</hi>. Con el alma, y con la vida</p>
-                <p rend="footer">las amparo, y las defiendo. (v. 1073)</p>
+                <p>las amparo, y las defiendo. (v. 1073)</p>
                 <p><hi rend="i">Viol</hi>. Sabreys vengarme de vn hombre</p>
-                <p rend="footer">con valor y con secreto ? (v. 1074/1077)</p>
+                <p>con valor y con secreto ? (v. 1074/1077)</p>
                 <p><hi rend="i">Duq</hi>. Por la Cruz de aquesta espada</p>
-                <p rend="footer">juro señora, de hazerlo. (v. 1078,1079)</p>
+                <p>juro señora, de hazerlo. (v. 1078,1079)</p>
                 <p><hi rend="i">Viol</hi>. Pues Enrique de Cardona,</p>
                 <p>desde los años primeros</p>
                 <p>de mi edad, a vuestro hijo</p>
-                <p rend="footer">hize de mi alma dueño. (v. 1096-1098)</p>
-                <p rend="footer">Fingio que mi fè pagaua,</p>
-                <p rend="footer">y fue con la edad creciendo</p>
+                <p>hize de mi alma dueño. (v. 1096-1098)</p>
+                <p>Fingio que mi fè pagaua,</p>
+                <p>y fue con la edad creciendo</p>
                 <p>de manera, que imagino</p>
-                <p rend="footer">que tuuo sombras de eterno. (v. 1110-1113)</p>
+                <p>que tuuo sombras de eterno. (v. 1110-1113)</p>
                 <p rend="b">(6)</p>
                 <p rend="center">
                   <hi rend="i">Sale Carlos</hi>
@@ -6654,34 +6651,34 @@
                 <p><hi rend="i">Viol</hi>. estè en vna torre preso,</p>
                 <p>donde se vengue mi agrauio. (v. 1216)</p>
                 <p><hi rend="i">Duq</hi>. Bien dizes, lleuenle luego. (v. 1217)</p>
-                <p rend="footer"><hi rend="i">Viol</hi>. Ponelde guardas. (v. 1222)</p>
+                <p><hi rend="i">Viol</hi>. Ponelde guardas. (v. 1222)</p>
                 <p><hi rend="i">Viol</hi>. Antes que le lleuen Duque</p>
-                <p rend="footer">hablarle a solas desseo. (v. 1232,1233)</p>
-                <p rend="footer"><hi rend="i">Duq</hi>. Aqui se descubre todo. (v. 1236,1237)</p>
+                <p>hablarle a solas desseo. (v. 1232,1233)</p>
+                <p><hi rend="i">Duq</hi>. Aqui se descubre todo. (v. 1236,1237)</p>
                 <p><hi rend="i">Viol</hi>. que è mandado, que en sabiendo</p>
                 <p>Barcelona tu delito,</p>
                 <p>por no mostrar que te ruego,</p>
-                <p rend="footer">aunque tu quieras despues,</p>
+                <p>aunque tu quieras despues,</p>
                 <p>as de morir viue el cielo. (v. 1248/1251-1255)</p>
                 <p>Que no ha de dezir el mundo,</p>
                 <p>que tu hiziste menosprecio</p>
                 <p>de mi, sin que te costasse</p>
-                <p rend="footer">la vida el ser tan ligero ; (v. 1258-1261)</p>
+                <p>la vida el ser tan ligero ; (v. 1258-1261)</p>
                 <p><hi rend="i">Car</hi>. Si mi padre</p>
                 <p>quiere, yo casarme quiero. (v. 1262)</p>
-                <p rend="footer"><hi rend="i">Viol</hi>. Pues no à de querer ? (v. 1263)</p>
+                <p><hi rend="i">Viol</hi>. Pues no à de querer ? (v. 1263)</p>
                 <p><hi rend="i">Car</hi>. No sè,</p>
-                <p rend="footer">diselo. (v. 1263)</p>
+                <p>diselo. (v. 1263)</p>
                 <p><hi rend="i">Viol</hi>. Duque yo creo</p>
-                <p rend="footer">que entre los dos me engañays. (v. 1271)</p>
+                <p>que entre los dos me engañays. (v. 1271)</p>
                 <p><hi rend="i">Viol</hi>. Que es esto ?</p>
                 <p>Carlos dize que si quieres</p>
-                <p rend="footer">està a casarse dispuesto. (v. 1273)</p>
-                <p rend="footer"><hi rend="i">Duq</hi>. Esso ha dicho ? (v. 1275)</p>
-                <p rend="footer"><hi rend="i">Duq</hi>. Malicias son de su pecho. (v. 1274)</p>
-                <p rend="footer"><hi rend="i">Car</hi>. Ya no sabes que le tengo ? (v. 1291)</p>
+                <p>està a casarse dispuesto. (v. 1273)</p>
+                <p><hi rend="i">Duq</hi>. Esso ha dicho ? (v. 1275)</p>
+                <p><hi rend="i">Duq</hi>. Malicias son de su pecho. (v. 1274)</p>
+                <p><hi rend="i">Car</hi>. Ya no sabes que le tengo ? (v. 1291)</p>
                 <p><hi rend="i">Duq</hi>. De que ? que no casarte ;</p>
-                <p rend="footer">esso dizes ? Yo lo creo ; (v. 1294,1295)</p>
+                <p>esso dizes ? Yo lo creo ; (v. 1294,1295)</p>
                 <p><hi rend="i">Car</hi>. No dexas</p>
                 <p>que diga yo lo que siento ? (v. 1305)</p>
                 <p>y pues vos fuisteys tan necio</p>
@@ -6692,15 +6689,15 @@
                 <p>y el deshonor de mi casa.</p>
                 <p>Partid luego, y ecriuidme</p>
                 <p>luego que llegueys a Francia ;1352)</p>
-                <p rend="footer">vuestro padre el Duque. Cielos, (v. 1338-</p>
+                <p>vuestro padre el Duque. Cielos, (v. 1338-</p>
                 <p>ya los sentidos me faltan. (v. 1353,1354)</p>
                 <p><hi rend="i">Lee</hi>. Bien sabeys que es impossible</p>
-                <p rend="footer">casaros con vuestra hermana : (v. 1366)</p>
+                <p>casaros con vuestra hermana : (v. 1366)</p>
                 <p><hi rend="i">Lee</hi>. Y ella libre se rindio : (v. 1363)</p>
                 <p>cielos dadme la vengança</p>
                 <p>de dos hermanos aleues,1359)</p>
-                <p rend="footer">que me ofenden y me agrauian. (v. 1358,</p>
-                <p rend="footer b">(2)</p>
+                <p>que me ofenden y me agrauian. (v. 1358,</p>
+                <p rend="bold">(2)</p>
                 <p><hi rend="i">Viol</hi>. Lloras ? (v. 1381,1382)</p>
                 <p><hi rend="i">Isa</hi>. Siento tu desgracia. (v. 1378)</p>
                 <p><hi rend="i">Viol</hi>. Mira si sientes la tuya,</p>
@@ -6711,21 +6708,21 @@
                 <p>no encubras mas tu delito ;</p>
                 <p>pero pues fuyste liuiana,</p>
                 <p>de ti sola forma quexas. (v. 1386-1393)</p>
-                <p rend="footer"><hi rend="i">Isa</hi>. Que es lo que dizes ? aguarda. (v. 1394)</p>
-                <p rend="footer"><hi rend="i">Is</hi>. No te entiendo, con quien hablas ?</p>
-                <p rend="footer">(v. 1396)</p>
-                <p rend="footer"><hi rend="i">Viol</hi>. No conoces esta letra ? (v. 1398)</p>
-                <p rend="footer"><hi rend="i">Isa</hi>. Esta es de mi padre. (v. 1398)</p>
+                <p><hi rend="i">Isa</hi>. Que es lo que dizes ? aguarda. (v. 1394)</p>
+                <p><hi rend="i">Is</hi>. No te entiendo, con quien hablas ?</p>
+                <p>(v. 1396)</p>
+                <p><hi rend="i">Viol</hi>. No conoces esta letra ? (v. 1398)</p>
+                <p><hi rend="i">Isa</hi>. Esta es de mi padre. (v. 1398)</p>
                 <p><hi rend="i">Viol</hi>. Espera,</p>
                 <p>esto que no importa passa.</p>
                 <p><hi rend="i">Lee</hi>. Bien sabeys que es impossible,</p>
                 <p>casaros con vuestra hermana,</p>
                 <p>y pues vos fuistes tan necio</p>
                 <p>que le rendisteys el alma,</p>
-                <p rend="footer">y ella libre se rindio : (v. 1401-1404)</p>
+                <p>y ella libre se rindio : (v. 1401-1404)</p>
                 <p><hi rend="i">Isa</hi>. Estoy turbada ;</p>
                 <p>su letra, y su firma es esta ? (v. 1405)</p>
-                <p rend="footer b">(3)</p>
+                <p rend="bold">(3)</p>
                 <p rend="center">
                   <hi rend="i">Sale el Duque</hi>
                   <num>.</num>
@@ -6733,22 +6730,22 @@
                 <p><hi rend="i">Duq</hi>. Mandad señora que luego</p>
                 <p>algunos tras Carlos vayan,</p>
                 <p>que rompiendo la prision,</p>
-                <p rend="footer">oy a la risas del alua. (v. 1408,1409)</p>
-                <p rend="footer">Siganle, trayganle, muera,</p>
+                <p>oy a la risas del alua. (v. 1408,1409)</p>
+                <p>Siganle, trayganle, muera,</p>
                 <p>que el Duque no me casara,</p>
                 <p>pues si ambicion le incitara,</p>
                 <p>Conde a su hijo no hiziera ?</p>
                 <p>esta razon considera,</p>
-                <p rend="footer">que me condena, y te abona. (v. 1489-1492)</p>
+                <p>que me condena, y te abona. (v. 1489-1492)</p>
                 <p><hi rend="i">Viol</hi>. Oy mi fortuna cruel</p>
                 <p>hazerte quiere Isabel,</p>
                 <p>Condesa de Barcelona.</p>
                 <p>Ya determinada estoy,</p>
                 <p>porque en tantos pareceres,</p>
                 <p>aun no siendo yo quien eres,</p>
-                <p rend="footer">subes a ser lo que soy. (v. 1505-1508)</p>
-                <p rend="footer b">(4)</p>
-                <p rend="footer">Oy el estado te doy, (v. 1511)</p>
+                <p>subes a ser lo que soy. (v. 1505-1508)</p>
+                <p rend="bold">(4)</p>
+                <p>Oy el estado te doy, (v. 1511)</p>
                 <p>vaya mi nobleza assi,</p>
                 <p>que no quiero para mi <space> </space></p>
                 <p>mas qu’vn humilde Conuento.(v.1513,1514)</p>
@@ -6761,7 +6758,7 @@
                 <p>zelos, pero es cosa llana</p>
                 <p>que es la disculpa bastante,</p>
                 <p>que à mucho que soy su amante,</p>
-                <p rend="footer">y poco que soy su hermana. (v. 1535-1538)</p>
+                <p>y poco que soy su hermana. (v. 1535-1538)</p>
                 <p><hi rend="i">Isa</hi>. Mas quiero ser tu criada,</p>
                 <p>que el estado que me das. (v. 1526)</p>
                 <p>Pues en possession estàs,</p>
@@ -6771,24 +6768,24 @@
                 <p>mudar costumbre, serà</p>
                 <p>mudar de naturaleza. (v. 1515-1520)</p>
                 <p>De las dos queda excluido</p>
-                <p rend="footer">Carlos, afligeste en vano,</p>
+                <p>Carlos, afligeste en vano,</p>
                 <p>de ti porque es ya tu hermano,</p>
                 <p>y de mi porque lo à sido</p>
                 <p>y lo tengo tan creydo,</p>
                 <p>que imagino que ofendiera</p>
-                <p rend="footer">al cielo, si lo quisiera. (v. 1541-1544)</p>
+                <p>al cielo, si lo quisiera. (v. 1541-1544)</p>
                 <p><hi rend="i">Viol</hi>. En esso del casamiento,</p>
                 <p>Isabel haràs tu gusto,</p>
-                <p rend="footer">si a Ramon quieres, no es justo</p>
-                <p rend="footer">que contradiga tu intento. (v. 1545-1548)</p>
+                <p>si a Ramon quieres, no es justo</p>
+                <p>que contradiga tu intento. (v. 1545-1548)</p>
                 <p><hi rend="i">Viol</hi>. Entre delante</p>
-                <p rend="footer">que es aquesto, donde os vays ?</p>
-                <p rend="footer">ocupad Violante hermosa</p>
-                <p rend="footer">esse assiento, y gouernad</p>
-                <p rend="footer">el estado que os adora. (v. 1612-1615)</p>
+                <p>que es aquesto, donde os vays ?</p>
+                <p>ocupad Violante hermosa</p>
+                <p>esse assiento, y gouernad</p>
+                <p>el estado que os adora. (v. 1612-1615)</p>
                 <p><hi rend="i">Viol</hi>. Como sino no es mio ya ?</p>
-                <p rend="footer">yo no soy hija del Duque ? (v. 1620)</p>
-                <p rend="footer"><hi rend="i">Duq</hi>. Que dezys ? (v. 1617)</p>
+                <p>yo no soy hija del Duque ? (v. 1620)</p>
+                <p><hi rend="i">Duq</hi>. Que dezys ? (v. 1617)</p>
                 <p><hi rend="i">D.Ber</hi>. No me mandaste</p>
                 <p>que lo hiziesse ? no hize mas</p>
                 <p>que conocer su salud,</p>
@@ -6796,7 +6793,7 @@
                 <p><hi rend="i">Car</hi>. Conuenserla prometo, (v. 57)</p>
                 <p><hi rend="i">Duq</hi>. Si tiene su boda efeto</p>
                 <p>todo mi descanso empieça ;</p>
-                <p rend="footer">tenga dueño su belleza,</p>
+                <p>tenga dueño su belleza,</p>
                 <p>que importa. (v. 49-53)</p>
                 <p><hi rend="i">Car</hi>. Los nobles de Cataluña (v. 53)</p>
                 <p>quieren, mi bien, sugetarte</p>
@@ -6812,7 +6809,7 @@
                 <p>y porque siento su ausencia,</p>
                 <p>venga luego a visitarme. (v. 67)</p>
                 <p><hi rend="i">Car</hi>. Ni aun responderme siquiera,</p>
-                <p rend="footer">à condiciones mudables</p>
+                <p>à condiciones mudables</p>
                 <p>mal aya : (v. 71)</p>
                 <p rend="center i">Vase Violante, y sale don Ramon, y don</p>
                 <p rend="center i">Iaime.</p>
@@ -6827,7 +6824,7 @@
                 <p>si gustays le demos parte <space> </space>77-80)</p>
                 <p><hi rend="i">Don Jaime</hi>. Don Ramon bien me parece.(v.</p>
                 <p rend="center i">Sale Beltran</p>
-                <p rend="footer b">(4)</p>
+                <p rend="bold">(4)</p>
                 <p><hi rend="i">D.Ra</hi>. Huelgome que disculpeys</p>
                 <p>mi amoroso atreuimiento,</p>
                 <p>pues solamente es mi intento</p>
@@ -6838,18 +6835,18 @@
                 <p><hi rend="i">D.Ra.</hi> Auertid,</p>
                 <p>que es estilo cortesano.</p>
                 <p><hi rend="i">Bel</hi>. No quiero ser descortes,</p>
-                <p rend="footer">necio sino porfiado. (v. 177-184)</p>
-                <p rend="footer"><hi rend="i">Bel</hi>. Que os sirua en todo es razon,</p>
+                <p>necio sino porfiado. (v. 177-184)</p>
+                <p><hi rend="i">Bel</hi>. Que os sirua en todo es razon,</p>
                 <p>deue de ocupar su empleo. (v. 247)</p>
                 <p><hi rend="i">Viol</hi>. Mal zelosa me asseguro. (v. 267)</p>
-                <p rend="footer"><hi rend="i">Lee</hi>. Solo que sepais procuro</p>
-                <p rend="footer">mi amor si puedes premiarlo. (v. 244)</p>
-                <p rend="footer"><hi rend="i">Viol</hi>. Quitarele de sus manos. (<hi rend="i"
+                <p><hi rend="i">Lee</hi>. Solo que sepais procuro</p>
+                <p>mi amor si puedes premiarlo. (v. 244)</p>
+                <p><hi rend="i">Viol</hi>. Quitarele de sus manos. (<hi rend="i"
                     >Didascalie</hi>)</p>
                 <p><hi rend="i">Viol</hi>. Dexad Carlos el papel,</p>
-                <p rend="footer">que no se si es para vos. (v. 250,251)</p>
+                <p>que no se si es para vos. (v. 250,251)</p>
                 <p><hi rend="i">Car</hi>. Sin duda que à conocido</p>
-                <p rend="footer">su letra, y me lo à quitado,</p>
+                <p>su letra, y me lo à quitado,</p>
                 <p>pues Moncada se à nombrado</p>
                 <p>el de Ramon he leido. (v. 245,146)</p>
                 <p><hi rend="i">Viol</hi>. Turbado Carlos està,</p>
@@ -6857,110 +6854,110 @@
                 <p>alguna dama le escriue,</p>
                 <p>que ya cuydados me dà. (v. 247-249)</p>
                 <p><hi rend="i">D.Ra</hi>. Enojado està sin duda</p>
-                <p rend="footer">porque a su hermana escriui. (v. 260-262)</p>
+                <p>porque a su hermana escriui. (v. 260-262)</p>
                 <p><hi rend="i">Car.</hi> Que a don Ramon à estimado</p>
-                <p rend="footer">me dize ya claramente. (v. 272)</p>
+                <p>me dize ya claramente. (v. 272)</p>
                 <p><hi rend="i">Viol</hi>. De espacio pretendo ver</p>
-                <p rend="footer">el papel, a Dios Ramon. (v. 269/276)</p>
+                <p>el papel, a Dios Ramon. (v. 269/276)</p>
                 <p><hi rend="i">D.Ra</hi>. Sabreys por èl la aficion</p>
-                <p rend="footer">de mi noble proceder. (v. 270)</p>
-                <p rend="footer b">(8)</p>
+                <p>de mi noble proceder. (v. 270)</p>
+                <p rend="bold">(8)</p>
                 <p><hi rend="i">Car</hi>. Conmigo se han declarado</p>
                 <p>ya los cielos enemigos : (v. 276)</p>
                 <p>para hazeros oluidar</p>
-                <p rend="footer">vuestra injusta pretension. (v. 279,280)</p>
+                <p>vuestra injusta pretension. (v. 279,280)</p>
                 <p><hi rend="i">D.Ra</hi>. En que ofende mi aficion, (v. 285)</p>
-                <p rend="footer">si me pretendo casar, (v. 284)</p>
+                <p>si me pretendo casar, (v. 284)</p>
                 <p><hi rend="i">Car</hi>. Si darme gusto quereys,</p>
                 <p>os pido que lo dexeys,</p>
-                <p rend="footer">don Ramon, si soys mi amigo. (v. 285-287)</p>
-                <p rend="footer b">(II, 1)</p>
+                <p>don Ramon, si soys mi amigo. (v. 285-287)</p>
+                <p rend="bold">(II, 1)</p>
                 <p rend="center">
                   <hi rend="i">Salen Beltran, y Isabel</hi>
                   <num>.</num>
                 </p>
                 <p><hi rend="i">Isa</hi>. Estàs triste ? (v. 307)</p>
                 <p><hi rend="i">Car</hi>. Por estremo. (v. 308)</p>
-                <p rend="footer"><hi rend="i">Isa</hi>. No me diràs la ocasion ? (v. 307)</p>
+                <p><hi rend="i">Isa</hi>. No me diràs la ocasion ? (v. 307)</p>
                 <p><hi rend="i">Isa</hi>. Que tienes hermano ? (v. 311)</p>
                 <p><hi rend="i">Car</hi>. Hermana,</p>
-                <p rend="footer">paga injusta a mucha fè. (v. 312)</p>
+                <p>paga injusta a mucha fè. (v. 312)</p>
                 <p><hi rend="i">Car</hi>. De don Ramon de Moncada</p>
                 <p>solicitada, y querida,</p>
-                <p rend="footer">le corresponde, y me oluida. (v. 313-314)</p>
+                <p>le corresponde, y me oluida. (v. 313-314)</p>
                 <p><hi rend="i">Isa</hi>. Que dizes ? Ay desdichada,</p>
-                <p rend="footer">que aunque è callado, le tengo</p>
-                <p rend="footer">amor; miralo mejor. (v. 315)</p>
+                <p>que aunque è callado, le tengo</p>
+                <p>amor; miralo mejor. (v. 315)</p>
                 <p><hi rend="i">Isa</hi>. Esta mundança</p>
                 <p>fauorece a los ossados,</p>
                 <p>de tan grande atreuimiento</p>
                 <p>felize sucesso aguardo;</p>
                 <p>no puede Isabel hermosa</p>
-                <p rend="footer">encubrirte el fuego tanto. (v. 386, 387)</p>
-                <p rend="footer"><hi rend="i">Viol</hi>. Esse es para ti. (v. 390)</p>
-                <p rend="footer"><hi rend="i">Isa</hi>. Que es esto,</p>
-                <p rend="footer">es mi tercero, ò mi hermano ? (v. 393)</p>
+                <p>encubrirte el fuego tanto. (v. 386, 387)</p>
+                <p><hi rend="i">Viol</hi>. Esse es para ti. (v. 390)</p>
+                <p><hi rend="i">Isa</hi>. Que es esto,</p>
+                <p>es mi tercero, ò mi hermano ? (v. 393)</p>
                 <p><hi rend="i">Lee</hi>. No perdeys nada en ser mia,</p>
                 <p>pues mi sangre se la à dado</p>
-                <p rend="footer">a los Reyes de Aragon : (v. 388,389)</p>
-                <p rend="footer"><hi rend="i">Isa</hi>. Calla, que viene don Carlos. (v. 398)</p>
+                <p>a los Reyes de Aragon : (v. 388,389)</p>
+                <p><hi rend="i">Isa</hi>. Calla, que viene don Carlos. (v. 398)</p>
                 <p rend="center">
                   <hi rend="i">Sale Carlos</hi>
                   <num>.</num>
                 </p>
-                <p rend="footer b">(3)</p>
+                <p rend="bold">(3)</p>
                 <p><hi rend="i">Car</hi>. Ya nada aguardo,</p>
                 <p>que pueda darme la vida. (v. 398,399)</p>
                 <p><hi rend="i">Car</hi>. Quien no los tiene,</p>
-                <p rend="footer">dezid, como à de animarlos ? (v. 403,404)</p>
+                <p>dezid, como à de animarlos ? (v. 403,404)</p>
                 <p><hi rend="i">Car</hi>. Si tuue, y me los an quitado. (v. 405)</p>
                 <p><hi rend="i">Car</hi>. No cobran los desdichados.</p>
                 <p><hi rend="i">Viol</hi>. Y soys lo vos ?</p>
-                <p rend="footer"><hi rend="i">Car</hi>. No lo veys ? (v. 406,407)</p>
-                <p rend="footer"><hi rend="i">Isa</hi>. Linda flema, lindo espacio. (v. 410)</p>
+                <p><hi rend="i">Car</hi>. No lo veys ? (v. 406,407)</p>
+                <p><hi rend="i">Isa</hi>. Linda flema, lindo espacio. (v. 410)</p>
                 <p><hi rend="i">Viol</hi>. Contentareysos ?</p>
                 <p><hi rend="i">Car</hi>. Con que?424-426)</p>
-                <p rend="footer"><hi rend="i">Vio</hi>. Con mi mano, y con mis braços. (v.</p>
+                <p><hi rend="i">Vio</hi>. Con mi mano, y con mis braços. (v.</p>
                 <p><hi rend="i">Car</hi>. Dexad que glorioso en ellos</p>
                 <p>diga mi penas. (v. 430,431)</p>
                 <p><hi rend="i">Isa</hi>. En vano</p>
-                <p rend="footer">son, si Violante te adora. (v. 448)</p>
+                <p>son, si Violante te adora. (v. 448)</p>
                 <p><hi rend="i">Viol</hi>. Ya trato</p>
                 <p>de que a Barcelona rijas</p>
                 <p>con su Condesa casado, (v. 428,428)</p>
-                <p rend="footer">declarate con tu padre. (v. 451,452)</p>
+                <p>declarate con tu padre. (v. 451,452)</p>
                 <p><hi rend="i">Car</hi>. El como leal vasallo,</p>
                 <p>mas que todos, a mi gusto</p>
-                <p rend="footer">à de mostrarse contrario, (v. 457-461)</p>
+                <p>à de mostrarse contrario, (v. 457-461)</p>
                 <p>porque no digan que fue</p>
-                <p rend="footer">el criarte, el ser tu amparo,</p>
-                <p rend="footer">gouernando en nombre tuyo,</p>
+                <p>el criarte, el ser tu amparo,</p>
+                <p>gouernando en nombre tuyo,</p>
                 <p>para que tras hechos tantos</p>
-                <p rend="footer">hiziesses Duque a su hijo. (v. 486-489)</p>
+                <p>hiziesses Duque a su hijo. (v. 486-489)</p>
                 <p><hi rend="i">Car</hi>. No mi bien, animo es este,</p>
-                <p rend="footer">necios son los temerarios ; (v. 501,502)</p>
+                <p>necios son los temerarios ; (v. 501,502)</p>
                 <p><hi rend="i">Viol</hi>. Turbada voy. (v. 507)</p>
                 <p><hi rend="i">Car</hi>. Fauor cielos,</p>
-                <p rend="footer">pues ocasion me aueys dado. (v. 508-511)</p>
+                <p>pues ocasion me aueys dado. (v. 508-511)</p>
                 <p rend="center">
                   <hi rend="i">Sale Carlos.</hi>
                 </p>
-                <p rend="footer">tuuo con los Moros guerra. (v. 572,573)</p>
+                <p>tuuo con los Moros guerra. (v. 572,573)</p>
                 <p>a tiempo que la Condesa,</p>
                 <p>ya para parir estaua</p>
-                <p rend="footer">preñada la vez primera. (v. 575-577)</p>
+                <p>preñada la vez primera. (v. 575-577)</p>
                 <p>... La Duquesa</p>
                 <p>estaba tambien preñada,</p>
-                <p rend="footer">y tambien al parto cerca. (v. 598,599)</p>
+                <p>y tambien al parto cerca. (v. 598,599)</p>
                 <p>... y en la batalla sangrienta</p>
-                <p rend="footer">priuò de la vida al Rey (v. 590)</p>
-                <p rend="footer">buelue Bernardo, y me cuenta</p>
-                <p rend="footer">que ya vna hija tenia,</p>
+                <p>priuò de la vida al Rey (v. 590)</p>
+                <p>buelue Bernardo, y me cuenta</p>
+                <p>que ya vna hija tenia,</p>
                 <p>dile en albricias promessas. (v. 598,599)</p>
                 <p>En este punto espirò</p>
-                <p rend="footer">en el parto la Condesa,</p>
+                <p>en el parto la Condesa,</p>
                 <p>tras de parir vna niña</p>
-                <p rend="footer">medio viua, y medio muerta. (v. 592-594)</p>
+                <p>medio viua, y medio muerta. (v. 592-594)</p>
                 <p>... con presteza</p>
                 <p>(porque el faltar heredero</p>
                 <p>no alboratasse la tierra)</p>
@@ -6969,24 +6966,24 @@
                 <p>mi hija con tal secreto,</p>
                 <p>tal industria y sutileza,</p>
                 <p>que Dios, y los dos no mas</p>
-                <p rend="footer">supimos esta cautela : (v. 596-603)</p>
+                <p>supimos esta cautela : (v. 596-603)</p>
                 <p>viendo al pueblo alborotado ;</p>
                 <p>ciudadanos que os altera</p>
                 <p>les dixe, aqui està en mis braços</p>
-                <p rend="footer">la que vuestro estado hereda. (v. 603,604)</p>
+                <p>la que vuestro estado hereda. (v. 603,604)</p>
                 <p>Mostrad la lealtad heroyca,</p>
                 <p>aquesta lastima os mueua,</p>
                 <p>amparad esta justicia,</p>
-                <p rend="footer">defended esta inocencia. (v. 606-609)</p>
-                <p rend="footer">no destroquè las dos niñas, (v. 615)</p>
+                <p>defended esta inocencia. (v. 606-609)</p>
+                <p>no destroquè las dos niñas, (v. 615)</p>
                 <p>vuestra hermana es la Condesa,</p>
                 <p>la que teneys por hermana</p>
-                <p rend="footer">es ligitima heredera. (v. 568/621)</p>
+                <p>es ligitima heredera. (v. 568/621)</p>
                 <p><hi rend="i">Duq</hi>. Larga ausencia. (v. 626,632)</p>
                 <p><hi rend="i">Car</hi>. Sin el alma ? (v. 634)</p>
                 <p><hi rend="i">Duq</hi>. Si la hablays</p>
-                <p rend="footer">es forçoso que se pierda. (v. 632)</p>
-                <p rend="footer b">(III, 1)</p>
+                <p>es forçoso que se pierda. (v. 632)</p>
+                <p rend="bold">(III, 1)</p>
                 <p rend="center">
                   <hi rend="i">Salen don Ramon, y don Iayme</hi>
                   <num>.</num>
@@ -7010,13 +7007,13 @@
                 <p>algo ? (v. 690,691)</p>
                 <p><hi rend="i">D.Iay</hi>. Dessa nouedad</p>
                 <p>y dessa dicha me admiro,</p>
-                <p rend="footer">que yo crey : (v. 694,995)</p>
+                <p>que yo crey : (v. 694,995)</p>
                 <p><hi rend="i">D.Iay</hi>. Algo enojado lleguè,</p>
                 <p>y de suerte me atajays</p>
                 <p>con nueua tan amorosa,</p>
                 <p>que estoy en vez de enojado,</p>
                 <p>a seruiros obligado,</p>
-                <p rend="footer">si no es traycion cautelosa. (v. 710-713)</p>
+                <p>si no es traycion cautelosa. (v. 710-713)</p>
                 <p><hi rend="i">Bel</hi>. Valgame Dios, como engaña</p>
                 <p>el despojo y desenfado. (v. 716,717)</p>
                 <p rend="center">
@@ -7028,25 +7025,25 @@
                 <p><hi rend="i">D.Iay</hi>. Que à recibido</p>
                 <p>mi papel Isabel bella,</p>
                 <p>y que à conocido en ella</p>
-                <p rend="footer">que es mi desseo admitido : (v. 722-724)</p>
+                <p>que es mi desseo admitido : (v. 722-724)</p>
                 <p><hi rend="i">D.Ra</hi>. y que soy menospreciado</p>
-                <p rend="footer">de mi dueño. (v. 721)</p>
+                <p>de mi dueño. (v. 721)</p>
                 <p><hi rend="i">D.Ra</hi>. Es de suerte que imagina,</p>
                 <p>que ella le entregò a su hermano</p>
-                <p rend="footer">mi papel. (v. 736)</p>
+                <p>mi papel. (v. 736)</p>
                 <p><hi rend="i">D.Iay</hi>. Es caso llano ;</p>
                 <p>mirad lo que determina</p>
                 <p>vuestro engañado desseo,</p>
-                <p rend="footer">quando mi fauor empieça. (v. 725)</p>
+                <p>quando mi fauor empieça. (v. 725)</p>
                 <p><hi rend="i">D.Ra</hi>. Hasta tener mas certeza,</p>
-                <p rend="footer">ni me aflixo, ni lo creo ;</p>
+                <p>ni me aflixo, ni lo creo ;</p>
                 <p>tan facil es de oluidar</p>
-                <p rend="footer">lo que se quiere ? (v. 730-733)</p>
-                <p rend="footer">... hasta que amanezca el dia (v. 739)</p>
-                <p rend="footer"><hi rend="i">D.Iay</hi>. A vuestra amistad no ofendo (v. 742)</p>
+                <p>lo que se quiere ? (v. 730-733)</p>
+                <p>... hasta que amanezca el dia (v. 739)</p>
+                <p><hi rend="i">D.Iay</hi>. A vuestra amistad no ofendo (v. 742)</p>
                 <p><hi rend="i">D.Ra</hi>. Ay de mi. (v. 742)</p>
                 <p><hi rend="i">D.Iay</hi>. Aueys de esperarla ? (v. 744)</p>
-                <p rend="footer"><hi rend="i">D.Ra</hi>. Si. (v. 745)</p>
+                <p><hi rend="i">D.Ra</hi>. Si. (v. 745)</p>
                 <p>del disfauor de Isabel, (v. 807-809)</p>
                 <p><hi rend="i">D.Ra.</hi> Donde va mi desseo</p>
                 <p>perdido tras vn bien que me assegura ?</p>
@@ -7060,76 +7057,76 @@
                 <p><hi rend="i">Viol.</hi> Solo espero que Enrique</p>
                 <p>aprueue mi eleccion, y que piadoso</p>
                 <p>mis bienes multiplique,827-829)</p>
-                <p rend="footer">dandome en Carlos desseado esposo. (v.</p>
-                <p rend="footer"><hi rend="i">D.Ra.</hi> Varias dudas padezco. (v. 834)
+                <p>dandome en Carlos desseado esposo. (v.</p>
+                <p><hi rend="i">D.Ra.</hi> Varias dudas padezco. (v. 834)
                     <space> </space></p>
-                <p rend="footer"><hi rend="i">Viol.</hi> Este me quiere bien, que le aborrezco. (v.
+                <p><hi rend="i">Viol.</hi> Este me quiere bien, que le aborrezco. (v.
                   835)</p>
-                <p rend="footer"><hi rend="i">Viol.</hi> Ya sè vuestra nobleza,</p>
-                <p rend="footer">pero quisiera veros mas couarde,</p>
-                <p rend="footer">que es accion mas valiente <space> </space>839)</p>
-                <p rend="footer">no mar tan confiado y libremente. (v. 837-</p>
-                <p rend="footer">No se embian papeles</p>
-                <p rend="footer">don Ramon, auer primero auido</p>
-                <p rend="footer">mas ocasion. (v. 840,841)</p>
-                <p rend="footer"><hi rend="i">D.Ra.</hi> Crueles <space> </space>845,846)</p>
-                <p rend="footer">hados a este desprecio me han traydo, (v.</p>
-                <p rend="footer">amar a quien sin causa le aborrece.</p>
-                <p rend="footer">Lo que es honesto intento</p>
-                <p rend="footer">no ofende. (v. 847,848)</p>
-                <p rend="footer"><hi rend="i">Viol.</hi> Dezis bien, mas incitada</p>
-                <p rend="footer">con otro pensamiento,</p>
-                <p rend="footer">por la que aueis querido,851)</p>
-                <p rend="footer">dad vuestras esperanças al oluido. (v. 849-</p>
-                <p rend="footer">Y pues que soys discreto</p>
-                <p rend="footer">hazedme nueua eleccion, pues os anima</p>
-                <p rend="footer">vn diuino sujeto,</p>
-                <p rend="footer">que sè que os quiere bien, y que os anima</p>
-                <p rend="footer">con amorosas veras. (v. 853-855)</p>
-                <p rend="footer"><hi rend="i">Viol.</hi> Andareys muy discreto <space
+                <p><hi rend="i">Viol.</hi> Ya sè vuestra nobleza,</p>
+                <p>pero quisiera veros mas couarde,</p>
+                <p>que es accion mas valiente <space> </space>839)</p>
+                <p>no mar tan confiado y libremente. (v. 837-</p>
+                <p>No se embian papeles</p>
+                <p>don Ramon, auer primero auido</p>
+                <p>mas ocasion. (v. 840,841)</p>
+                <p><hi rend="i">D.Ra.</hi> Crueles <space> </space>845,846)</p>
+                <p>hados a este desprecio me han traydo, (v.</p>
+                <p>amar a quien sin causa le aborrece.</p>
+                <p>Lo que es honesto intento</p>
+                <p>no ofende. (v. 847,848)</p>
+                <p><hi rend="i">Viol.</hi> Dezis bien, mas incitada</p>
+                <p>con otro pensamiento,</p>
+                <p>por la que aueis querido,851)</p>
+                <p>dad vuestras esperanças al oluido. (v. 849-</p>
+                <p>Y pues que soys discreto</p>
+                <p>hazedme nueua eleccion, pues os anima</p>
+                <p>vn diuino sujeto,</p>
+                <p>que sè que os quiere bien, y que os anima</p>
+                <p>con amorosas veras. (v. 853-855)</p>
+                <p><hi rend="i">Viol.</hi> Andareys muy discreto <space
                   > </space>856)</p>
-                <p rend="footer">en no seguir, Ramon a quien os huye, (v.</p>
-                <p rend="footer"><hi rend="i">D.Ra.</hi> Pues desde aqui os prometo</p>
-                <p rend="footer">si el premer pensamiento se concluye,</p>
-                <p rend="footer">que a quien me quiere quiero. (v. 858-860)</p>
-                <p rend="footer"><hi rend="i">Viol.</hi> Hazeys como prudente cauallero.</p>
-                <p rend="footer">(v. 859)</p>
-                <p rend="footer"><hi rend="i">D.Ra</hi>. Por esto no à querido</p>
-                <p rend="footer">dar a estrangero Principe la mano (v. 870)</p>
-                <p rend="footer"><hi rend="i">Viol</hi>. Id en buena hora Conde. (v. 866)</p>
-                <p rend="footer">Condesa, paguen tus ojos</p>
+                <p>en no seguir, Ramon a quien os huye, (v.</p>
+                <p><hi rend="i">D.Ra.</hi> Pues desde aqui os prometo</p>
+                <p>si el premer pensamiento se concluye,</p>
+                <p>que a quien me quiere quiero. (v. 858-860)</p>
+                <p><hi rend="i">Viol.</hi> Hazeys como prudente cauallero.</p>
+                <p>(v. 859)</p>
+                <p><hi rend="i">D.Ra</hi>. Por esto no à querido</p>
+                <p>dar a estrangero Principe la mano (v. 870)</p>
+                <p><hi rend="i">Viol</hi>. Id en buena hora Conde. (v. 866)</p>
+                <p>Condesa, paguen tus ojos</p>
                 <p>atreuimientos tan viles,</p>
-                <p rend="footer">que quien tan facil se rinde,</p>
+                <p>que quien tan facil se rinde,</p>
                 <p>razon es que los hombres no la</p>
-                <p rend="footer">estimen. (v. 938-943)</p>
-                <p rend="footer b">(IV,1)</p>
+                <p>estimen. (v. 938-943)</p>
+                <p rend="bold">(IV,1)</p>
                 <p rend="center i">Sale Carlos.</p>
                 <p><hi rend="i">Duq</hi>. Sabe Dios quanto siento que se <space> </space>ausente,
                     <space> </space>966)</p>
-                <p rend="footer">mas en fin lo que importa considero : (v.</p>
-                <p rend="footer">Voy a cerrar las cartas. (v. 971)</p>
-                <p rend="footer b">(2)</p>
+                <p>mas en fin lo que importa considero : (v.</p>
+                <p>Voy a cerrar las cartas. (v. 971)</p>
+                <p rend="bold">(2)</p>
                 <p rend="center">
                   <hi rend="i">Sale vn criado.</hi>
                 </p>
                 <p><hi rend="i">Cria</hi>. La Condesa, 972)</p>
-                <p rend="footer">por V. Excelencia presurosa embia. (v.</p>
-                <p rend="footer"><hi rend="i">Duq</hi>. Podreme detener a cierta empresa ?
+                <p>por V. Excelencia presurosa embia. (v.</p>
+                <p><hi rend="i">Duq</hi>. Podreme detener a cierta empresa ?
                   (v. 974)</p>
-                <p rend="footer"><hi rend="i">Cria</hi>. La breuedad de mi cuydado fia.</p>
-                <p rend="footer">(v. 975)</p>
-                <p rend="footer"><hi rend="i">Duq</hi>. yo voy, aqui aguardad por vida mia. (v.
+                <p><hi rend="i">Cria</hi>. La breuedad de mi cuydado fia.</p>
+                <p>(v. 975)</p>
+                <p><hi rend="i">Duq</hi>. yo voy, aqui aguardad por vida mia. (v.
                   977)</p>
-                <p rend="footer b">(3)</p>
+                <p rend="bold">(3)</p>
                 <p rend="center">
                   <hi rend="i">Sale don Ramon</hi>
                   <num>.</num>
                 </p>
-                <p rend="footer"><hi rend="i">D.Ra.</hi> A que aguarda mi temor (v. 878)</p>
+                <p><hi rend="i">D.Ra.</hi> A que aguarda mi temor (v. 878)</p>
                 <p>entre duda semejante ?</p>
-                <p rend="footer">auiendo visto en Violante</p>
-                <p rend="footer">claras muestras de su amor. (v. 985-987)</p>
-                <p rend="footer b">(4)</p>
+                <p>auiendo visto en Violante</p>
+                <p>claras muestras de su amor. (v. 985-987)</p>
+                <p rend="bold">(4)</p>
                 <p rend="center">
                   <hi rend="i">Sale Violante</hi>
                   <num>.</num>
@@ -7143,36 +7140,36 @@
                 <p>dad vozes, para que assi</p>
                 <p>os procuren remediar,</p>
                 <p>pues no podeys con callar</p>
-                <p rend="footer">cobrar el bien que perdi. (v. 990-995)</p>
+                <p>cobrar el bien que perdi. (v. 990-995)</p>
                 <p><hi rend="i">D.Ra</hi>. De sus quexas è aduertido</p>
                 <p>que su passion es mortal,</p>
                 <p>si yo è causado su mal</p>
-                <p rend="footer">el remedio le è traido. (v. 996)</p>
+                <p>el remedio le è traido. (v. 996)</p>
                 <p><hi rend="i">Viol</hi>. Conde. (v. 1002)</p>
                 <p><hi rend="i">D.Ra</hi>. Vuestros ojos, cielos claros,</p>
                 <p>publiquen con voz serena,</p>
                 <p>la ley a que amor condena</p>
-                <p rend="footer">el mio y vuestro cuidado. (v. 1007-1010)</p>
+                <p>el mio y vuestro cuidado. (v. 1007-1010)</p>
                 <p><hi rend="i">D.Ra</hi>. Las muestras que è visto en vos</p>
                 <p>y confiada di luego (v. 1120)</p>
                 <p>la possession de mi honor, (v. 1131)</p>
                 <p>con que mi nobleza ofendo. (v. 1127)</p>
                 <p>Vuestra hija fue testigo</p>
                 <p>de nuestro injusto concierto,</p>
-                <p rend="footer">ella dirà la verdad. (v. 1130)</p>
+                <p>ella dirà la verdad. (v. 1130)</p>
                 <p><hi rend="i">Viol</hi>. Siendo vos el que obligastes</p>
                 <p>tan leal a todo el pueblo</p>
-                <p rend="footer">a mi obediencia, esperando,</p>
+                <p>a mi obediencia, esperando,</p>
                 <p>gouernando tanto tiempo,</p>
                 <p>a que yo tiuiesse edad, (v. 1140-1143)</p>
-                <p rend="footer">podeys dar consentimiento</p>
+                <p>podeys dar consentimiento</p>
                 <p>a que me lleue el honor,1145)</p>
-                <p rend="footer">y la vida vn hijo vuestro ? (v. 1138/1144,</p>
+                <p>y la vida vn hijo vuestro ? (v. 1138/1144,</p>
                 <p>El ampararme era justo</p>
                 <p>por muger, y assi os aduierto</p>
                 <p>que os remito aquesta causa,</p>
                 <p>a vuestro cargo la dexo. (v. 1146-1148)</p>
-                <p rend="footer">Hazedme justicia Duque,</p>
+                <p>Hazedme justicia Duque,</p>
                 <p>poned a mi mal remedio, (v. 1150)</p>
                 <p>ò desdorareys agora</p>
                 <p>el blason de vuestros hechos. (v. 1157)</p>
@@ -7194,39 +7191,39 @@
                 <p>Pluguiera a Dios, que a mis ojos</p>
                 <p>me le presentaran muerto, (v. 1168)</p>
                 <p>Pero lo que importa agora,</p>
-                <p rend="footer">es señora que trazemos</p>
+                <p>es señora que trazemos</p>
                 <p>vuestra vengança. (v. 1171-1173)</p>
                 <p><hi rend="i">Viol</hi>. Esso pido,</p>
                 <p>mas si acaso. (v. 1176)</p>
                 <p><hi rend="i">Duq</hi>. Ya os entiendo,</p>
                 <p>direys que si arrepentido</p>
                 <p>como prudente y discreto,</p>
-                <p rend="footer">quiere casarse, que os case. (v. 1178-1180)</p>
+                <p>quiere casarse, que os case. (v. 1178-1180)</p>
                 <p><hi rend="i">Duq</hi>. Si señora, ya le prendo ;</p>
-                <p rend="footer">lleualde. (v. 1302)</p>
+                <p>lleualde. (v. 1302)</p>
                 <p><hi rend="i">Car</hi>. Viue Dios,</p>
-                <p rend="footer">que es marmol mi sufrimiento. (v. 1302)</p>
+                <p>que es marmol mi sufrimiento. (v. 1302)</p>
                 <p><hi rend="i">Duq</hi>. No causarà mas enredos,</p>
-                <p rend="footer">lleualde preso, que hazeys ? (v. 1306-1308)</p>
-                <p rend="footer b">(V,1)</p>
+                <p>lleualde preso, que hazeys ? (v. 1306-1308)</p>
+                <p rend="bold">(V,1)</p>
                 <p rend="center">
                   <hi rend="i">Sale Beltran.</hi>
                 </p>
                 <p><hi rend="i">Bel</hi>. Carlos desde su prision</p>
                 <p>te embia:</p>
                 <p><hi rend="i">Viol</hi>. Que embia ?</p>
-                <p rend="footer"><hi rend="i">Bel</hi>. Aqueste papel. (v. 1316-1319)</p>
+                <p><hi rend="i">Bel</hi>. Aqueste papel. (v. 1316-1319)</p>
                 <p rend="center">
                   <hi rend="i">Daselo</hi>
                   <num>.</num>
                 </p>
                 <p><hi rend="i">Viol.</hi> llama tu mientras le leo,</p>
                 <p>Beltran, a doña Isabel.</p>
-                <p rend="footer">Otro papel viene dentro, (v. 1326-1319)</p>
+                <p>Otro papel viene dentro, (v. 1326-1319)</p>
                 <p>el suyo leo. Oy acaban,</p>
                 <p>Violante del alma mia,</p>
                 <p>mis altiuas esperanças.</p>
-                <p rend="footer">Yo me parto donde nunca,</p>
+                <p>Yo me parto donde nunca,</p>
                 <p>de tus soles que me abrasan</p>
                 <p>vea las luzes que al cielo</p>
                 <p>mas viuamente retratan.</p>
@@ -7237,14 +7234,14 @@
                 <p>disculpan la que te di :</p>
                 <p>con mas veras, con mas ansias</p>
                 <p>te adoro agora que nunca,</p>
-                <p rend="footer">mi padre de ti me aparta,1335) <space> </space></p>
-                <p rend="footer">dèl te informa, y Dios te guarde. (v. 1329-</p>
-                <p rend="footer">Ay cielos, mis ansias vayan</p>
-                <p rend="footer">tras èl, ola. (v. 1322,1323)</p>
+                <p>mi padre de ti me aparta,1335) <space> </space></p>
+                <p>dèl te informa, y Dios te guarde. (v. 1329-</p>
+                <p>Ay cielos, mis ansias vayan</p>
+                <p>tras èl, ola. (v. 1322,1323)</p>
                 <p><hi rend="i">Lee</hi>. Hijo don Carlos, yo os puse</p>
                 <p>con sagaz industria, y traza</p>
                 <p>en essa torre que tiene</p>
-                <p rend="footer">vn postigo a la muralla.</p>
+                <p>vn postigo a la muralla.</p>
                 <p>Por donde podeys salir</p>
                 <p>sin que lo sientan las guardas,</p>
                 <p>para Napoles, y Roma</p>
@@ -7259,25 +7256,25 @@
                 <p>porque no creays de mi</p>
                 <p>alguna engañosa traça. (v. 1411,1412)</p>
                 <p><hi rend="i">Viol</hi>. No le siga nadie Duque,</p>
-                <p rend="footer">que no serà de importancia, (v. 1413,1414)</p>
+                <p>que no serà de importancia, (v. 1413,1414)</p>
                 <p>... tomad Enrique,</p>
                 <p>quando escriua desde Francia</p>
-                <p rend="footer">Carlos, aqueste papel</p>
+                <p>Carlos, aqueste papel</p>
                 <p>que me embiò esta mañana</p>
                 <p>le bolued ò entregad luego</p>
-                <p rend="footer">esse secreto a la llamas. (v. 1415-1417)</p>
+                <p>esse secreto a la llamas. (v. 1415-1417)</p>
                 <p><hi rend="i">Duq</hi>. Pues si ya sabeys señora,</p>
-                <p rend="footer">su delito y mi desgracia, (v. 1418,1419)</p>
-                <p rend="footer">consolaos en esta ausencia. (v. 1422)</p>
+                <p>su delito y mi desgracia, (v. 1418,1419)</p>
+                <p>consolaos en esta ausencia. (v. 1422)</p>
                 <p><hi rend="i">Viol</hi>. A mi no me digays nada,</p>
-                <p rend="footer">consolad a vuestra hija. (v. 1423,1424)</p>
+                <p>consolad a vuestra hija. (v. 1423,1424)</p>
                 <p><hi rend="i">Isa</hi>. Señor, mi deshonra ataja,</p>
                 <p>que es aquesto que as escrito ?</p>
                 <p>de mi hermano enamorada</p>
                 <p>yo ? desengaña a Violante,</p>
-                <p rend="footer">declara aqui lo que passa. (v. 1425-1428)</p>
-                <p rend="footer"><hi rend="i">Duq</hi>. Verdad digo en lo que escriuo.</p>
-                <p rend="footer">(v. 1429)</p>
+                <p>declara aqui lo que passa. (v. 1425-1428)</p>
+                <p><hi rend="i">Duq</hi>. Verdad digo en lo que escriuo.</p>
+                <p>(v. 1429)</p>
                 <p><hi rend="i">Isa</hi>. A mi me gozò mi hermano ? (v. 1430)</p>
                 <p><hi rend="i">Duq</hi>. No Isabel, sino a su hermana,</p>
                 <p>que es Violante, hija mia. (v. 1431,1434)</p>
@@ -7292,26 +7289,26 @@
                 <p>estauan ciertas las guerras.</p>
                 <p>Hize que a las dos trocara</p>
                 <p>vn criado con secreto,</p>
-                <p rend="footer">porque casi muerta estaua</p>
+                <p>porque casi muerta estaua</p>
                 <p>la hija de la Condesa, (v. 1457-1466)</p>
                 <p>viuio, criòse en mi casa,</p>
-                <p rend="footer">siendo entre tantos testigos</p>
-                <p rend="footer">impossible destrocarlas. (v. 1467,1468)</p>
+                <p>siendo entre tantos testigos</p>
+                <p>impossible destrocarlas. (v. 1467,1468)</p>
                 <p>Que yo afligido de ver</p>
                 <p>que fuy deste daño causa,</p>
                 <p>me retirarè a Cardona,</p>
-                <p rend="footer">que ya el gouierno me cansa. (v. 1474-1476)</p>
+                <p>que ya el gouierno me cansa. (v. 1474-1476)</p>
                 <p><hi rend="i">Viol</hi>. Sin alma quedo. (v. 1477)</p>
                 <p><hi rend="i">Viol</hi>. Que otra cosa hazer pudiera</p>
-                <p rend="footer">pues es justo, vuestra Alteza. (v. 1554)</p>
-                <p rend="footer b">(5)</p>
+                <p>pues es justo, vuestra Alteza. (v. 1554)</p>
+                <p rend="bold">(5)</p>
                 <p rend="center">
                   <hi rend="i">Sale Beltran.</hi>
                 </p>
-                <p rend="footer"><hi rend="i">Bel</hi>. Mi diligencia estima, pues à sido</p>
-                <p rend="footer">causa de que don Carlos aya buelto,</p>
-                <p rend="footer">(v. 1555)</p>
-                <p rend="footer b">(8)</p>
+                <p><hi rend="i">Bel</hi>. Mi diligencia estima, pues à sido</p>
+                <p>causa de que don Carlos aya buelto,</p>
+                <p>(v. 1555)</p>
+                <p rend="bold">(8)</p>
                 <p rend="center i">Salen don Carlos, y don Ramon, y don Iayme,</p>
                 <p rend="center">
                   <hi rend="i">y toda la compañia</hi>
@@ -7331,7 +7328,7 @@
                 <p><hi rend="i">Viol</hi>. Leuanta Carlos,</p>
                 <p>de doña Isabel seràs,</p>
                 <p>y Conde de Barcelona,</p>
-                <p rend="footer">que es quanto te puedo dar. (v. 1594-1596)</p>
+                <p>que es quanto te puedo dar. (v. 1594-1596)</p>
                 <p><hi rend="i">Viol</hi>. El Conde de Barcelona,</p>
                 <p>que en assiento de cristal</p>
                 <p>(quedando muerto en la guerra)</p>
@@ -7356,19 +7353,19 @@
                 <p>con secreto, y con lealtad</p>
                 <p>a la hija de los Condes,</p>
                 <p>y la troquè, sin que mas</p>
-                <p rend="footer">que el cielo, y yo lo supiesse.(v. 1632-1635)</p>
-                <p rend="footer"><hi rend="i">D.Ber</hi>. Teneos</p>
-                <p rend="footer">y boluerla al destrocar. (v. 1622-1624)</p>
-                <p rend="footer"><hi rend="i">D.Ber</hi>. en vna carta escriui ;</p>
+                <p>que el cielo, y yo lo supiesse.(v. 1632-1635)</p>
+                <p><hi rend="i">D.Ber</hi>. Teneos</p>
+                <p>y boluerla al destrocar. (v. 1622-1624)</p>
+                <p><hi rend="i">D.Ber</hi>. en vna carta escriui ;</p>
                 <p>quanto me mandaste està</p>
-                <p rend="footer">hecho, no tengas cuydado. (v. 1675,1676)</p>
-                <p rend="footer b">(Scène derniere)</p>
+                <p>hecho, no tengas cuydado. (v. 1675,1676)</p>
+                <p rend="bold">(Scène derniere)</p>
                 <p><hi rend="i">Viol</hi>. Dad vos la mano a Isabel,</p>
                 <p>don Ramon, y assi tendrà</p>
                 <p>con aquestas bodas juntas,</p>
-                <p rend="footer">alegre fin tanto mal. (v. 1693-1695)</p>
-                <p rend="footer"><hi rend="i">D.Ra</hi>. Dichoso soy. (v. 1701,1702)</p>
-                <p rend="footer b">FIN</p>
+                <p>alegre fin tanto mal. (v. 1693-1695)</p>
+                <p><hi rend="i">D.Ra</hi>. Dichoso soy. (v. 1701,1702)</p>
+                <p rend="bold">FIN</p>
           </div>
         </div>
         <div>
@@ -7819,7 +7816,7 @@
           </entryFree>
           <entryFree xml:id="garantir">
             <form>Garantir</form>
-            <def>Préserver de quelque mal ou accident. (<hi rend="b">Garentir</hi> chez <hi rend="i"
+            <def>Préserver de quelque mal ou accident. (<hi rend="i">Garentir</hi> chez <hi rend="i"
                 >F</hi>.)</def>
             <xr>V. <ref target="#l1627">1627</ref></xr>
           </entryFree>

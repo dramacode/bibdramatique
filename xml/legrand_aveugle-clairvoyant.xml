@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="legrand_aveugle-clairvoyant" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>L'AVEUGLE CLAIR-VOYANT. COMÉDOE</title>
-        <author born="1675" born_location="Paris" death="1728" >LE GRAND, Marc-Antoine</author>
+        <title>L'Aveugle clair-voyant. Comédie</title>
+        <author key="Le Grand, Marc-Antoine (1675-1728)" born_location="Paris" death="1728" >LE GRAND, Marc-Antoine</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par NAUDIN Sonia dans le cadre d'un mémoire de
@@ -55,7 +54,7 @@
         <titlePart>L'AVEUGLE CLAIR-VOYANT</titlePart>
         <titlePart>COMÉDIE EN UN ACTE ET EN VERS</titlePart>
         <docAuthor>DE LE GRAND</docAuthor>
-        <docDate>Représentée, pour la premiere fois, le 18 septembre 1716<note n="1" place="bottom"><pb/><p>Reproduction d’après l’exemplaire figurant dans le <hi rend="i">Répertoire du théâtre françois</hi> par M. Petitot, tome vingtième, Paris, Foucault, 1818. Dans cette édition, la comédie est précédée d’une notice sur la vie de Marc-Antoine Legrand et suivie d’un examen de la pièce effectué par M. Petitot.</p></note>.</docDate>
+        <docDate>Représentée, pour la premiere fois, le 18 septembre 1716<note n="1" place="bottom"><p>Reproduction d’après l’exemplaire figurant dans le <hi rend="i">Répertoire du théâtre françois</hi> par M. Petitot, tome vingtième, Paris, Foucault, 1818. Dans cette édition, la comédie est précédée d’une notice sur la vie de Marc-Antoine Legrand et suivie d’un examen de la pièce effectué par M. Petitot.</p></note>.</docDate>
         <docEdition>Édition critique établie par Sonia Naudin</docEdition>
       </titlePage>
       <div>
@@ -69,7 +68,6 @@
       </div>
     </front>
     <body>
-      <div>
         <head>L'AVEUGLE <lb/>CLAIRVOYANT, <lb/>COMÉDIE<lb/></head>
         <div>
           <pb/>
@@ -107,8 +105,7 @@
             <role>UN NOTAIRE.</role>
           </castItem>
           </castList>
-          <stage rend="b">
-            <p>La scène est à Paris, dans la maison de Damon.</p>
+          <stage rend="bold">La scène est à Paris, dans la maison de Damon.
           </stage>
           <pb/>
         </div>
@@ -2234,7 +2231,7 @@
           </sp>
           <p rend="center">FIN DE L'AVEUGLE CLAIRVOYANT.</p>
         </div>
-      </div>
+      
     </body>
     <back>
       <div>

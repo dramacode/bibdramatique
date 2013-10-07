@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Boyer_Ulysse" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>ULYSSE DANS L'ÎLE DE CIRCÉ OU EURYLOCHE FOUDROYÉ</title>
-        <author born="1618" born_location="Albi" death="1698" death_location="Paris">BOYER, Claude</author>
+        <title>Ulysse dans l'île de Circé ou Euryloche foudroyé</title>
+        <author key="Boyer, Claude (1618-1698)" born_location="Albi" death_location="Paris">BOYER, Claude</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par DEBIENNE Pauline dans le cadre d'un mémoire de
@@ -680,9 +679,9 @@
             <div>
               <head>Dans l’épître</head>
               <p>Cet Uylsse : Cet Ulysse (page III)</p>
+            </div>
               <div>
                 <head>Dans le texte</head>
-              </div>
               <div>
                 <head>Acte I</head>
                 <p>v. 30 : Eut : Eût</p>
@@ -812,7 +811,6 @@
     </front>
     <body>
       <div>
-        <pb/>
         <head>ULYSSE DANS L’ISLE DE CIRCÉ, OU EURYLOCHE FOUDROYÉ. <hi rend="i">TRAGICOMEDIE</hi>,</head>
         <p rend="center i">Representée sur le Theatre des Machines du Marais.</p>
         <p rend="center">DEDIEE A MONSEIGNEUR LE PRINCE DE CONTY.</p>
@@ -875,11 +873,10 @@
             <roleDesc>accompagné des Dieux.</roleDesc>
           </castItem>
           </castList>
-          <stage rend="b">
-            <p>La Scene est differente, selon les divers changemens des Machines.</p>
-          </stage>
+          <stage rend="bold">La Scene est differente, selon les divers changemens des Machines.</stage>
           <pb/>
         </div>
+      </div>
         <div type="acte">
           <head>ACTE I.</head>
           <head>ULISSE<note n="71" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, y et i sont des lettres concurrentes, dans la suite du texte le « i » est privilégié, excepté aux vers 833, 1110 et 1660 où l’ont trouve « Ulysse » . Le même flottement s’opère dans tout le texte dès qu’un terme possède la lettre i.</note> DANS L’ISLE DE CIRCÉ</head>
@@ -1104,7 +1101,7 @@
               <l n="143" xml:id="l143">Retrace avec douleur l’image de mon crime,</l>
               <l n="144" xml:id="l144">M’en presente l’horreur, et me rend en ce jour</l>
               <l n="145" xml:id="l145">Ma premiere innocence, et ma premiere amour<note n="97" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, « amour » au singulier pouvait être aussi bien féminin que masculin tandis qu’au pluriel il est toujours féminin, aujourd’hui encore.</note>.</l>
-              <l n="146" xml:id="l146"><hi>L’estat où me reduit ce soupçon odieux</hi> <pb n="10"/></l>
+              <l n="146" xml:id="l146">L’estat où me reduit ce soupçon odieux <pb n="10"/></l>
               <l n="147" xml:id="l147">Pousse dans le tombeau Telemaque &amp; Laërte ;</l>
               <l n="148" xml:id="l148">Viens empescher leur perte,</l>
               <l part="Y">Ou nous fermer les yeux.</l>
@@ -4326,7 +4323,7 @@
           <p rend="center i">premier Decembre 1649.</p>
           <p rend="center">Les exemplaires ont esté fournis.</p>
         </div>
-      </div>
+      
     </body>
     <back>
       <div>
@@ -4773,7 +4770,7 @@
             <bibl>CORNEILLE Pierre, <title>Œuvres Complètes</title>, éd. G. Couton, Bibliothèque de la Pléiade, Paris, Gallimard, 1987.</bibl>
             <bibl>DURVAL Jean Gillebert, <title>Les travaux d’Ulysse</title>, Paris, Pierre Ménard, 1631, in-8°.</bibl>
             <bibl>HOMERE, <title>Odyssée</title>, trad. De V. Bérard, introduction de P.Demont, Index, notes et notices de Marie-Pierre Noël, Paris, Le Livre de Poche (n°602).</bibl>
-            <bibl>LA BRUYERE, <emph>Caractères</emph>, Paris, Le Livre de Poche, 1995. </bibl>
+            <bibl>LA BRUYERE, <title>Caractères</title>, Paris, Le Livre de Poche, 1995. </bibl>
             <bibl>OVIDE, <title>Les Métamorphoses</title>, Paris, Folio classique, 2001.</bibl>
             <bibl>TALLEMANT des REAUX Gédéon, <title>Historiettes</title>, Paris, A, Levasseur, 6 vol., 1834-1835, in-8° ; Antoine Adam éd., Bibliothèque de la Pléiade, Paris, Gallimard, 2 vol., 1960.</bibl>
           </div>
@@ -4808,7 +4805,7 @@
             <bibl>FURETIÈRE, <title>Recueil des Factums d’Antoine Furetière</title>, éd. Charles Asselineau, Paris, Poulet-Malassis et de Boise, 1859, (2 vol.), in-16, d’après l’édition de 1694.</bibl>
             <bibl>FURETIERE Antoine, <title>Couches de l’Académie ou Poëme allegorique, &amp; burlesque</title>, Amsterdam, Henry Desbordes, 1688.</bibl>
             <bibl>GUICHEMERRE Roger, <title>La Tragi-comédie</title>, Paris, PUF, 1981.</bibl>
-            <bibl>GUTIERREZ LAFFOND Aurore, <title>Théâtre et magie dans la littérature dramatique du XVII<hi rend="super">e</hi> en France</title>, Presses universitaires du Septentrion, 2000.</bibl>
+            <bibl>GUTIERREZ LAFFOND Aurore, <title>Théâtre et magie dans la littérature dramatique du XVII<hi rend="sup">e</hi> en France</title>, Presses universitaires du Septentrion, 2000.</bibl>
             <bibl>HOWATSON M.C., <title>Dictionnaire de l’Antiquité, mythologie, littérature, civilisation</title>, (Université d’Oxford), Laffont, collection « Bouquins », 1993.</bibl>
             <bibl>KLAPP Otto puis KLAPP-LEHRMANN Astrid, <title>Bibliographie d’histoire littéraire française</title>, Francfort, Klostermann, 1956-2006.</bibl>
             <bibl>LAGRANGE Charles Varlet de, <title>Registre</title>, éd. Bert et Grace Young, Genève, Slatkine Reprints, 1977.</bibl>
@@ -4818,7 +4815,7 @@
             <bibl>LORET, <title>La Muze historique ou Recueil des lettres en vers contenant les nouvelles du temps, écrites a son altesse Mademoizelle de Longueville, depuis Duchesse de Nemours (1650-1665)</title>, Bibliothèque de l’Arsenal [8° N.F.81754].</bibl>
             <bibl>LES CONTINUATEURS DE LORET <title>Lettres en vers de La Gravette de Mayolas, Robinet, Boursault, Perdou de Subligny, Laurent et autres (1665-1689)</title>, Paris, 1881, édition Damascène Morgand et Charles Fatout, tome I, Bibliothèque Arsenal, [Rj:786].</bibl>
             <bibl>MELESE Pierre, <title>Le Théâtre et le public à Paris sous Louis XIV (1659-1715)</title>, Paris, Droz, 1934.</bibl>
-            <bibl>MOREL Jacques, <title>Agréables Mensonges. Essais sur le théâtre français du XVII<hi rend="super">e</hi> siècle</title>, Paris, Klincksieck, coll. « Bibliothèque de l’âge classique, 1991.</bibl>
+            <bibl>MOREL Jacques, <title>Agréables Mensonges. Essais sur le théâtre français du XVII<hi rend="sup">e</hi> siècle</title>, Paris, Klincksieck, coll. « Bibliothèque de l’âge classique, 1991.</bibl>
             <bibl><title>Mythe et Histoire dans le Théâtre Classique : hommage à Christian Delmas</title>, édité par Fanny NEPOTE-DESMARRES avec la collaboration de Jean-Philippe GROSPERRIN, Toulouse, Société de Littérature Classiques, 2002.</bibl>
             <bibl>NAUDEIX Laura, <title>Dramaturgie de la tragédie en musique (1673-1764)</title>, Paris, Honoré Champion, 2004.</bibl>
             <bibl>PARFAICT, Frères, <title>Histoire du théâtre français des origines jusqu’à présent</title>, Paris, Le Mercier-Saillant, 1735-1749 (15 vol.), tomes VII, X, XII.</bibl>
@@ -4853,10 +4850,10 @@
           </div>
           <div>
             <head>Ouvrages de grammaire, syntaxe et stylistique</head>
-            <bibl>HAASE A., <title>Syntaxe française du XVII<hi rend="super">e</hi> siècle</title>, Paris, Delagrave, 1935.</bibl>
+            <bibl>HAASE A., <title>Syntaxe française du XVII<hi rend="sup">e</hi> siècle</title>, Paris, Delagrave, 1935.</bibl>
             <bibl>MOLINIE Georges., <title>Dictionnaire de rhétorique</title>, Paris, Livre de Poche, 1991.</bibl>
-            <bibl>SANCIER-CHÂTEAU Anne, <title>Introduction à la langue française du XVII<hi rend="super">e</hi> siècle</title>, Paris, Nathan, 1993, (2 vol.).</bibl>
-            <bibl>SPILLEBOUT Gabriel, <title>Grammaire de la langue française du XVII<hi rend="super">e</hi> siècle</title>, Paris, Picard, 1985.</bibl>
+            <bibl>SANCIER-CHÂTEAU Anne, <title>Introduction à la langue française du XVII<hi rend="sup">e</hi> siècle</title>, Paris, Nathan, 1993, (2 vol.).</bibl>
+            <bibl>SPILLEBOUT Gabriel, <title>Grammaire de la langue française du XVII<hi rend="sup">e</hi> siècle</title>, Paris, Picard, 1985.</bibl>
           </div>
         </div>
       </div>

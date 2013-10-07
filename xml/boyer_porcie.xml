@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Boyer_Porcie-romaine" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LA PORCIE ROMAINE. TRAGÉDIE</title>
-        <author born="1618" born_location="Albi" death="1698" death_location="Paris">BOYER, Claude</author>
+        <title>La Porcie romaine. Tragédie</title>
+        <author key="Boyer, Claude (1618-1698)" born_location="Albi" death_location="Paris">BOYER, Claude</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par ROUX Marie dans le cadre d'un mémoire de
@@ -501,8 +500,6 @@
       </div>
     </front>
     <body>
-      <div>
-        <pb/>
         <head>LA PORCIE ROMAINE. TRAGEDIE.</head>
         <div>
           <pb/>
@@ -2666,7 +2663,6 @@
             </sp>
           </div>
         </div>
-      </div>
     </body>
     <back>
       <div>

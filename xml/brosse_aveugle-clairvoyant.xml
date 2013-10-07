@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="brosse_aveugle-clairvoyant" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>L'AVEUGLE CLAIR-VOYANT. COMÉDIE</title>
-        <author>BROSSE</author>
+        <title>L'Aveugle clair-voyant. Comédie</title>
+        <author key="Brosse">BROSSE</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par NAUDIN Sonia dans le cadre d'un mémoire de
@@ -415,9 +414,9 @@
         <head>L’AVEUGLE CLAIR-VOYANT,</head>
         <head>COMEDIE.</head>
         <p>Representée sur le Theatre Royal devant leurs Majestez.</p>
-        <div>
+        <div xml:id="epitre">
           <pb/>
-          <head xml:id="epitre">A MONSEIGNEUR</head>
+          <head>A MONSEIGNEUR</head>
           <p>MONSEIGNEUR</p>
           <p>LE COMTE</p>
           <p>DU DAUGNION<note n="121" place="bottom"> Louis Foucault de Saint-Germain-Beaupré, comte du Daugnon, dit le maréchal (1616-Paris, 1659). « Issu d’une ancienne lignée noble de la Marche, Foucault fut d’abord page du cardinal de Richelieu. Ce dernier le fit entrer dans la marine, où il reçut bientôt le titre de vice-amiral ». Puis il fut nommé gouverneur de Brouage, l’un des principaux ports du royaume au XVII<hi rend="sup">e</hi> siècle, par Mazarin. Il se révolta pendant la Fronde et ne renonça à la rebellion qu’en mars 1653 en échange notamment du bâton de maréchal et d’une promesse d’amnistie. Il ne semble toutefois pas avoir été le courageux soldat que dépeint Brosse dans son épître puisqu’en 1646, après la mort du jeune amiral Maillé-Brezé qu’il secondait au cours de la bataille d’Orbitello, « il crut opportun de ramener sans tarder la flotte à Toulon, sans se préoccuper du petit corps expéditionnaire demeuré à terre. » (Voir le <hi rend="i">Dictionnaire du Grand Siècle</hi>, sous la direction de François Bluche, p. 612.)</note>,</p>
@@ -468,11 +467,10 @@
             <roleDesc>Valet de Cleanthe.</roleDesc>
           </castItem>
           </castList>
-          <stage rend="b">
-            <p>La Scene est à Blois dans la maison de Cleanthe.</p>
-          </stage>
+          <stage rend="bold">La Scene est à Blois dans la maison de Cleanthe.</stage>
           <pb/>
         </div>
+      </div>
         <div type="acte">
           <head>Acte I</head>
           <head>L’AVEUGLE CLAIR-VOYANT. COMEDIE.</head>
@@ -650,8 +648,8 @@
               <l n="120" xml:id="l120">Mais c’est luy que je voy qui s’avance à grand pas.</l>
             </sp>
           </div>
-            <pb/>
           <div type="scene">
+            <pb/>
             <head>Scène II</head>
             <stage>Lidamas, Olimpe, Nerine.</stage>
             <sp who="lidamas">
@@ -3520,7 +3518,7 @@
           <p rend="b"><hi rend="i">2. Mars 1650.</hi> </p>
           <p rend="b">Les exemplaires ont esté fournis.</p>
         </div>
-      </div>
+      
     </body>
     <back>
       <div>

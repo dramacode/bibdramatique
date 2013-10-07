@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="BOURSAULT_Deux-freres" xml:lang="FR">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LES DEUX FRÈRES GÉMEAUX OU LES MENTEURS QUI NE MENTENT POINT. COMÉDIE</title>
-        <author born="1638" born_location="Mussy l'Évêque" death="1701" death_location="Montluçon"
+        <title>Les Deux Frères gémeaux ou les menteurs qui ne mentent point. Comédie</title>
+        <author key="Boursault, Edme (1638-1701)" born_location="Mussy l'Évêque" death_location="Montluçon"
           >BOURSAULT, Edme</author>
       </titleStmt>
       <editionStmt>
@@ -58,6 +57,8 @@
           <titlePart>COMÉDIE</titlePart>
         </docTitle>
         <docAuthor>Edme Boursault</docAuthor>
+        <docImprint>A PARIS, Chez THOMAS JOLLY, au Palais, dans la petite Salle des Merciers, à la Palme &amp; aux Armes d’Hollande.</docImprint>
+        <docDate>M. DC. LXV. AVEC PRIVILEGE DU ROY.</docDate>
         <docEdition>Édition critique établie par Vanessa Viola sous la direction de Georges
           Forestier (2003-2004)</docEdition>
       </titlePage>
@@ -1606,12 +1607,9 @@
       </div>
     </front>
     <body>
-      <div>
-        <pb/>
+<div>
         <head type="main">LES DEUX FRERES GEMEAUX, OU LES MENTEURS QUI NE MENTENT POINT.</head>
         <head type="sub">COMEDIE.</head>
-        <docImprint>A PARIS, Chez THOMAS JOLLY, au Palais, dans la petite Salle des Merciers, à la Palme &amp; aux Armes d’Hollande.</docImprint>
-        <docDate>M. DC. LXV. AVEC PRIVILEGE DU ROY.</docDate>
         <div>
           <head>PERSONNAGES.</head>
           <castList>
@@ -1641,8 +1639,7 @@
             </castItem>
             <castItem>
               <role>Le second NICANDRE,</role>
-              <roleDesc>Amant d’Ismène.</roleDesc>
-              <roleDesc>Freres <ref target="#gémeaux">Gemeaux*</ref>, qui se ressemblent si fort, qu’on les prend à tous moments
+              <roleDesc>Amant d’Ismène. <lb/>Freres <ref target="#gémeaux">Gemeaux*</ref>, qui se ressemblent si fort, qu’on les prend à tous moments
                 l’un pour l’autre, &amp; qui se rencontrent fortuitement à Paris, sans que l’un ny
                 l’autre le sçache ; où ils s’habillent par hazard tous deux d’une mesme
                 façon.</roleDesc>
@@ -1666,12 +1663,11 @@
               <role>DES ARCHERS muëts.</role>
             </castItem>
           </castList>
-          <stage rend="b">
-            <p>La Scene est en Prison<note n="51" place="bottom">Il y a ici une incohérence car les
+          <stage rend="bold">La Scene est en Prison<note n="51" place="bottom">Il y a ici une incohérence car les
                 quatre premiers actes se déroulent au carrefour de plusieurs rues parisiennes,
-                devant la maison d’Hipolite.</note>.</p>
-          </stage>
+                devant la maison d’Hipolite.</note>.</stage>
         </div>
+</div>
         <div type="acte">
           <pb/>
           <head>ACTE PREMIER.<pb n="A, 1"/></head>
@@ -4479,8 +4475,8 @@
               <speaker>JACINTE.</speaker>
               <l part="Y">Tenez ferme, &amp; ne le laschez pas ;</l>
               <l n="757" xml:id="l757">Son <ref target="#filou">filou*</ref> de cacquet m’a sceu rendre ébloüye.</l>
-              <pb/>
             </sp>
+            <pb/>
           </div>
           <div type="scene">
             <pb/>
@@ -4683,8 +4679,8 @@
               <l n="810" xml:id="l810">A la premiere porte attrapons un azile,</l>
               <l n="811" xml:id="l811">Fuyons.</l>
               <stage>(Il entre aussi chez Hipolite.)</stage>
-              <pb/>
             </sp>
+            <pb/>
           </div>
           <div type="scene">
             <pb/>
@@ -7411,7 +7407,7 @@
           <p rend="center i">Le 5. Decembre 1664.</p>
           <p rend="center i">Les Exemplaires ont esté fournis.</p>
         </div>
-      </div>
+      
     </body>
     <back>
       <div>

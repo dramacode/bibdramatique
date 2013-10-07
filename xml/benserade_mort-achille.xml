@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Benserade_integral" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LA MORT D'ACHILLE, TRAGÉDIE</title>
-        <author born="1612" born_location="Lyons-la-Forêt" death="1691" death_location="Gentilly">BENSERADE, Isaac de</author>
+        <title>La Mort d'Achille</title>
+        <author key="Benserade, Isaac (de) (1612-1691)" born_location="Lyons-la-Forêt" death_location="Gentilly">BENSERADE, Isaac de</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par TORTEL Sandra dans le cadre d'un mémoire de master 1 sous la direction de Georges Forestier (1998)</edition>
@@ -171,12 +170,9 @@
       </div>
     </front>
     <body>
-    <div>
-        <pb/>
+      <div>
         <head>LA MORT D’ACHILLE</head>
         <head>TRAGEDIE.</head>
-        <docDate>1636</docDate>
-        <docAuthor>Isaac de Benserade</docAuthor>
         <div>
           <pb/>
           <head>Epistre</head>
@@ -249,6 +245,7 @@
           </castItem>
          </castList> 
         </div>
+      </div>
         <div type="acte">
           <pb/>
           <head>ACTE PREMIER.</head>
@@ -2913,7 +2910,7 @@
           <p>Par grace et Privilege du Roy donné à Roye, en datte du dernier Septembre, 1636. Et Signé, Par le Roy en son Conseil. DE MONSSEAUX, Il est permis à ANTOINE DE SOMMAVILLE, Marchand Libraire à Paris, d’imprimer ou faire imprimer, vendre et distribuer une piece de Theatre, intitulée, <hi rend="u"><hi rend="i">La Mort d’Achille et la dispute de ses armes</hi>, <hi rend="i">Tragedie</hi></hi>, durant le temps et espace de sept ans, à compter du jour qu’elle sera achevée d’imprimer. Et deffences sont faictes à tous Imprimeurs, Libraires, et autres, de contrefaire la dite piece, ny en vendre ou exposer en vente de contrefaicte, à peine de trois mille livres d’amende, de tous ses depens, dommages et interests ; ainsi qu’il est plus amplement porté par lesdites Lettres qui sont en vertu du present Extraict tenuës pour bien et deuëment signifiées, à ce qu’aucun n’en pretende cause d’ignorance.</p>
           <p>Achevé d’imprimer le 30. Octobre 1636.</p>
         </div>
-      </div>
+      
     </body>
     <back>
     <div>
@@ -2984,7 +2981,7 @@
           </entryFree>
           <entryFree xml:id="gesne">
             <form>Gesne</form>
-            <def>Peine (<hi rend="b">donner la gesne</hi> : tourmenter).</def>
+            <def>Peine (<hi rend="i">donner la gesne</hi> : tourmenter).</def>
             <xr>V. <ref target="#l547">547</ref>.</xr>
           </entryFree>
           <entryFree xml:id="hymen">
