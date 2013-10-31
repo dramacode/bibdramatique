@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="chevreau_avocat-duppe" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">L'Advocat duppé. Comédie</title>
-        <author>Urbain Chevreau</author>
+        <title>L'Advocat duppé. Comédie</title>
+        <author key="Chevreau, Urbain (1613-Loudun ; 1701)">Urbain Chevreau</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par MARATRA Audrey dans le cadre d'un mémoire de
@@ -818,7 +817,6 @@
       </div>
     </front>
     <body>
-        <pb/>
         <head>L’ADVOCAT DUPPÉ. COMEDIE.<pb n="I"/></head>
         <div>
           <pb/>
@@ -1425,9 +1423,7 @@
               <l n="354" xml:id="l354">Je la voi tous les jours, ma Sœur est sa servante.</l>
             </sp>
             <sp who="polydas">
-              <speaker>
-                <seg rend="titre4car">POLYDAS</seg>
-              </speaker>
+              <speaker>POLYDAS</speaker>
               <stage>à sa Sœur.</stage>
               <l n="355" xml:id="l355">Tirons-nous à l’écart.</l>
             </sp>
@@ -1892,7 +1888,7 @@
             <sp who="polydas">
               <speaker>POLYDAS</speaker>
               <stage>dans son cabinet, où il lit sur sa table ces vers qu’il a fait pour Atalante.</stage>
-              <lg rend="center">
+              <lg>
               <l n="629" xml:id="l629">Astre qui conservez ma vie,</l>
               <l n="630" xml:id="l630">Ange à qui mes sens font la Cour,</l>
               <l n="631" xml:id="l631">Objet digne de mon envie,</l>
@@ -1901,7 +1897,7 @@
               <l n="634" xml:id="l634">Adorable <ref target="#ennemi">ennemi*</ref>, doux et juste vainqueur,</l>
               <l n="635" xml:id="l635">Puis qu’il est temps que je rende les armes,</l>
               <l n="636" xml:id="l636">Gardez ces vers aussi bien que mon cœur.</l>
-                <lb/>
+              <l></l>
               <l n="637" xml:id="l637">Tout est contrêre à mon attente,</l>
               <l n="638" xml:id="l638">Je croiois sortir de prison ;</l>
               <l n="639" xml:id="l639">Mais vos beautez chere Atalante     <pb n="46"/></l>
@@ -1910,7 +1906,7 @@
               <l n="642" xml:id="l642">Et si vous en doutez considerez un peu</l>
               <l n="643" xml:id="l643">Que desormais loing de prendre la plume,</l>
               <l n="644" xml:id="l644">Mon propre sang vous signera mon <ref target="#feu">feu*</ref>.</l>
-                <lb/>
+                <l></l>
               <l n="645" xml:id="l645">Divin sujet de mon martire</l>
               <l n="646" xml:id="l646">Qui savez si bien triompher,</l>
               <l n="647" xml:id="l647">Si la <ref target="#flamme">flâme*</ref> pouvoit s’escrire</l>
@@ -1919,7 +1915,7 @@
               <l n="650" xml:id="l650">C’est trop t’<ref target="#entretenir">entretenir*</ref>, je crains pour mon malheur,</l>
               <l n="651" xml:id="l651">Qu’elle ne semble à ces glaces ardantes</l>
               <l n="652" xml:id="l652">Qui brûlent tout, et n’ont point de chaleur.</l>
-                <lb/>
+                <l></l>
               <l n="653" xml:id="l653">Mais je sens que ma mort s’aproche,</l>
               <l n="654" xml:id="l654">Mon destin ne se peut gauchir ;</l>
               <l n="655" xml:id="l655">Comme elle porte un cœur de roche,</l>
@@ -1928,7 +1924,7 @@
               <l n="658" xml:id="l658">Me voiant soûpirer et pleurer si souvent,</l>
               <l n="659" xml:id="l659">Poura juger qu’au lieu d’estre de flâme</l>
               <l n="660" xml:id="l660">Je ne suis plus que de l’onde et du vent.</l>
-                <lb/>
+                <l></l>
               <l n="661" xml:id="l661">Mais pour en faire une autre épreuve,    <pb n="47"/></l>
               <l n="662" xml:id="l662">Et rendre mon destin plus beau,</l>
               <l n="663" xml:id="l663">Je veux que tout le monde treuve</l>
@@ -2510,9 +2506,7 @@
               <l n="981" xml:id="l981">Adieu ne sortez point.</l>
             </sp>
             <sp who="polydas">
-              <speaker>
-                <seg rend="titre4car">POLYDAS</seg>
-              </speaker>
+              <speaker>POLYDAS</speaker>
               <stage>la conduisant.</stage>
               <l part="Y"><space/><space/>J’aurois l’ame brutale,</l>
               <l n="982" xml:id="l982">Si vous m’estes Procris je vous serai Cephale<note n="118" place="bottom"><hi rend="i">Procris et Céphale</hi> : Céphale, fils d’Hermès, épouse Procris appartenant à la famille royale d’Athènes. Mais Eôs/Aurore vient semer la discorde dans le ménage, en s’éprenant de Céphale ; elle le métamorphose en un autre beau jeune homme pour éprouver perfidement la vertu de Procris qui succombe. Chassée, cette dernière se réfugie en Crète, à la Cour du roi Minos. Mais les deux époux se réconcilient finalement. Procris, minée cependant par la jalousie, pense que Céphale rencontre toujours secrètement Eôs, elle se cache dans un buisson alors qu’il chasse avec un javelot qui atteint toujours son but : la prenant pour du gibier, il la tue accidentellement. Deux versions perdurent, l’une est que Céphale se serait suicidé et l’autre est qu’au contraire, il se serait installé dans l’île Ionienne de Céphallénie.</note>.</l>
