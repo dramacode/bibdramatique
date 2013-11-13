@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="chevreau_lucrece" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">La Lucresse romaine. Tragédie</title>
-        <author>Urbain Chevreau</author>
+        <title>La Lucresse romaine. Tragédie</title>
+        <author key="Chevreau, Urbain (1613-1701)">Urbain Chevreau</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par DEHER Coralie dans le cadre d'un mémoire de
@@ -428,7 +427,7 @@
                   <l>Enfin l’Aigle assisté de vos jeunes courages</l>
                   <l>Chez les peuples mutins a trouvé des passages,</l>
                   <l>Et la rébellion étouffée en ses forts,</l>
-                  <l>Ne peut plus résister à vos moindres efforts <note n="111" place="bottom"> Jean de Rotrou, <hi rend="i">Crisante</hi>, texte établi et présenté par Alice Duroux, <hi rend="i">in Théâtre complet 4</hi>, Georges Forestier (éd.), coll. « Édition de textes dramatiques du XVII<hi rend="sup">e</hi> siècle », Paris, <hi rend=" color_333333">Société des textes français modernes, </hi>2001.</note>; (Cr, I, 1, v. 1-4)</l>
+                  <l>Ne peut plus résister à vos moindres efforts <note n="111" place="bottom"> Jean de Rotrou, <hi rend="i">Crisante</hi>, texte établi et présenté par Alice Duroux, <hi rend="i">in Théâtre complet 4</hi>, Georges Forestier (éd.), coll. « Édition de textes dramatiques du XVII<hi rend="sup">e</hi> siècle », Paris, Société des textes français modernes, 2001.</note>; (Cr, I, 1, v. 1-4)</l>
                 </quote>
                 <p>Cette scène n’est pas sans rappeler la scène 1 de l’acte I de Chevreau, où Tarquin devant le siège d’Ardée galvanise ses soldats. Dans cette guerre, Manilie fait de Crisante, femme du chef vaincu, sa captive. Devant s’absenter il confie la protection de cette prisonnière à son lieutenant Cassie. Mais c’était sans compter avec les pensées perfides du jeune homme. Comme dans la pièce de Chevreau, le général Manilie à l’image de Tarquin, le plus sage et le plus clairvoyant d’entre tous <hi rend="i">normalement</hi>, abandonne la victime à son futur bourreau. La deuxième partie de la scène 1 de l’acte I de Rotrou fait également écho à la scène 2 de l’acte I de Chevreau. Cassie dévoile à Cléodore son confident, ce qu’il ressent pour Crisante comme Sexte révèle à Maxime sa passion pour Lucrèce : (I, 2, v. 213-220).</p>
                 <quote>
@@ -3710,9 +3709,9 @@
             <def xml:id="forcer3">Vigueur, santé du corps qui lui donne les moyens de porter de grands fardeaux, ou d’abattre et de renverser ce qui lui résiste</def>
             <xr>V. <ref target="#l478">478</ref> ; <ref target="#l530">530</ref></xr>
             <def xml:id="forcer4">Violer une femme, la prendre par force pour lui ravir son honneur (F.90)</def>
-            <xr><ref target="#argument4">Argument acte IV</ref> ; v. <ref target="#l1074">1074</ref> ; <ref target="#l1220">1220</ref> (<ref target="#l1">1</ref><hi rend="sup">re</hi> occurrence) ; <ref target="#l1221">1221</ref></xr>
+            <xr><ref target="#argument4">Argument acte IV</ref> ; v. <ref target="#l1074">1074</ref> ; <ref target="#l1220">1220</ref> (première occurrence) ; <ref target="#l1221">1221</ref></xr>
             <def xml:id="forcer5">Contraindre</def>
-            <xr>V. <ref target="#l576">576</ref> ; <ref target="#l738">738</ref> ; <ref target="#l1220">1220</ref> (<ref target="#l2">2</ref><hi rend="sup">e</hi> occurrence)</xr>
+            <xr>V. <ref target="#l576">576</ref> ; <ref target="#l738">738</ref> ; <ref target="#l1220">1220</ref> (deuxième occurrence)</xr>
           </entryFree>
           <entryFree>
             <form>Fortune</form>
@@ -3869,7 +3868,7 @@
           </entryFree>
           <entryFree>
             <form>Tristesse</form>
-            <def xml:id="tristesse1">Le sens du nom dérive de celui de l’adjectif <hi rend="b">triste</hi> : sombre, lugubre, funeste en parlant des choses.</def>
+            <def xml:id="tristesse1">Le sens du nom dérive de celui de l’adjectif triste : sombre, lugubre, funeste en parlant des choses.</def>
             <xr>V. <ref target="#l82">82</ref> ; <ref target="#l393">393</ref> ; <ref target="#l415">415</ref> ; <ref target="#l467">467</ref> ; <ref target="#l601">601</ref> ; <ref target="#l654">654</ref> ;  <ref target="#l1044">1044</ref> ; <ref target="#l1093">1093</ref> ; <ref target="#l1570">1570</ref></xr>
             <def xml:id="tristesse2">Le nom <hi rend="i">tristesse</hi> exprime cette même nuance et se dit de la gravité austère, de la sévérité.</def>
             <xr>V. <ref target="#l219">219</ref> ; <ref target="#l272">272</ref> ; <ref target="#l859">859</ref> ; <ref target="#l1135">1135</ref> ; <ref target="#l1403">1403</ref> ; <ref target="#l1503">1503</ref> ; <ref target="#l1539">1539</ref></xr>
@@ -3959,7 +3958,7 @@
             <head>Pièces de théâtre</head>
             <bibl>Corneille, <title>Le Cid</title>, Georges Forestier (éd.), Folio, 1995.</bibl>
             <bibl>Du Ryer, <title>Lucrèce</title>, James Gaines et Perry Gethner (éd.), Genève, Droz, 1994.</bibl>
-            <bibl>Rotrou Jean (de), <title>Crisante, texte établi et présenté par Alice Duroux</title>, in <title>Théâtre complet</title> 4, Georges Forestier (éd.), coll. « Édition de textes dramatiques du XVII<hi rend="sup">e</hi> siècle », Paris, <hi rend=" color_333333">Société des textes français modernes, </hi>2001.</bibl>
+            <bibl>Rotrou Jean (de), <title>Crisante, texte établi et présenté par Alice Duroux</title>, in <title>Théâtre complet</title> 4, Georges Forestier (éd.), coll. « Édition de textes dramatiques du XVII<hi rend="sup">e</hi> siècle », Paris, Société des textes français modernes, 2001.</bibl>
             <bibl>Tristan L’Hermite, <title>La Mariane</title>, Guillaume Pereux (éd.), GF Flammarion, 2003.</bibl>
           </div>
           <div>
