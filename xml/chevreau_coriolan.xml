@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="chevreau_coriolan" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Coriolan. Tragédie</title>
-        <author>Urbain Chevreau</author>
+        <author key="Chevreau, Urbain (1613-1701)">Urbain Chevreau</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par SPROGIS Frédéric dans le cadre d'un mémoire de
@@ -128,7 +127,7 @@
               <quote>
                 <p>Il était plus savant que les savants de son temps, qui étaient si savants ; il était plus lettré que les lettrés ; il faisait des vers qui valaient les meilleurs vers, et de la prose si pleine, si abondante et si facile, qu’on croit l’entendre quand on le lit. […] On l’oublia tellement de son temps qu’il ne fut pas de l’Académie ; mais la haine l’avait laissé en paix comme la faveur<note n="21" place="bottom"> Charles Nodier, cité par Dominique Moncond’huy, « Urbain Chevreau, une plume sans histoire », <hi rend="i">Actualités Poitou-Charentes</hi>, nº 77, juillet 2007.</note>.</p>
               </quote>
-              <p rend="paragraphedeliste">Les biographes de Chevreau aiment à dépeindre une fin de vie paisible dans sa maison de Loudun, entre ses livres, ses amis et ses fleurs. Car au même titre que sa bibliothèque, le jardin de Chevreau était aussi célèbre pour les fleurs rares qu’il y cultivait. Henri Rousseau conclut ainsi sa communication<note n="22" place="bottom"> Henri Rousseau, « Urbain Chevreau, loudunais », <hi rend="i">Bulletin de la société des antiquaires de l’Ouest et des musées de Poitiers</hi>, 4<hi rend="sup">e</hi> série, t. 2, Poitiers, 1952.</note> sur Urbain Chevreau :</p>
+              <p>Les biographes de Chevreau aiment à dépeindre une fin de vie paisible dans sa maison de Loudun, entre ses livres, ses amis et ses fleurs. Car au même titre que sa bibliothèque, le jardin de Chevreau était aussi célèbre pour les fleurs rares qu’il y cultivait. Henri Rousseau conclut ainsi sa communication<note n="22" place="bottom"> Henri Rousseau, « Urbain Chevreau, loudunais », <hi rend="i">Bulletin de la société des antiquaires de l’Ouest et des musées de Poitiers</hi>, 4<hi rend="sup">e</hi> série, t. 2, Poitiers, 1952.</note> sur Urbain Chevreau :</p>
               <quote>
                 <p>Il avait beaucoup travaillé. Il avait réussi et longuement joui en ce monde de la paix promise aux hommes de bonne volonté. Il s’éteignit dans sa maison, parmi ses livres, ses oiseaux et ses fleurs renaissantes, le 15 février 1701. Il fut enterré le lendemain dans l’église Saint-Pierre-du-Marché.</p>
               </quote>
@@ -488,8 +487,8 @@
                     <l>Le Ciel qui les punit a rougi de leur crime.  (v. 109-112)</l>
                   </quote>
                   <p>Il est aussi le confident qui pose les questions, lorsque Coriolan semble montrer des signes d’hésitation, mais également qui donne ses propres conseils :</p>
-                  <p rend="citationintense">Donc si vous m’en croyez, triomphons promptement</p>
-                  <p rend="citationintense">Pour ne luy pas laisser un soupçon seulement.  (v. 545-546)</p>
+                  <p>Donc si vous m’en croyez, triomphons promptement</p>
+                  <p>Pour ne luy pas laisser un soupçon seulement.  (v. 545-546)</p>
                   <p>Sancine n’est pas seulement confident mais joue aussi le rôle de conseiller politique. Lorsque Coriolan n’est pas là (notamment lors de l’entretien avec sa femme et sa mère), c’est lui qui parlemente avec Aufidie et qui lui assure que Coriolan va aller au bout de son projet :</p>
                   <quote>
                     <l>Je m’en tiens assuré, j’en répons de ma teste,</l>
@@ -1163,7 +1162,7 @@
                 <l>Je te rendray l’honneur des siecles à venir. (v. 859-868)</l>
               </quote>
               <p>La transition avec la suite de la pièce se fait finement, puisque Chevreau a pensé à terminer chacune de ses strophes par deux alexandrins, ce qui lui permet d’en ajouter un, afin que Coriolan appelle son ami Sancine et que le dialogue normal reprenne :</p>
-              <p rend="citationintense">Sancine vient icy, que luy pourray-je dire ! (v. 869)</p>
+              <p>Sancine vient icy, que luy pourray-je dire ! (v. 869)</p>
               <p>Les strophes, moment-clef de la pièce, permettent de découvrir un Coriolan en pleine autoscopie. L’action générale de la pièce, plutôt lente comme on l’a vu, n’a pourtant cessé de montrer le général romain en proie à sa fureur, à une <hi rend="i">hybris</hi> de la vengeance. Les stances voient Coriolan abandonner ce trait de caractère : il ne fera plus preuve d’une détermination inébranlable, comme le montre le dernier vers de la pièce. À la scène suivante, ce n’est que sur l’injonction de Sancine qu’il confirmera l’attaque de Rome à Aufidie. Mais dès la rencontre suivante avec les femmes, ses doutes l’emportent, et il redeviendra fidèle aux liens du sang et de la patrie. Abandonné par Coriolan, le discours patriotique devient alors l’apanage des femmes.</p>
             </div>
             <div>
@@ -1232,10 +1231,10 @@
                   <l>J’en avois atendu moy-mesme des merveilles. (v. 1038-1046)</l>
                 </quote>
                 <p>Le dernier pas est franchi avec l’utilisation du pronom de la première personne du pluriel, et le dernier constat dépité de Velumnie est clair :</p>
-                <p rend="citationintense">Cependant ton esprit trop subtil à nous nuire,</p>
-                <p rend="citationintense">Cherche nos ennemis afin de nous détruire,</p>
-                <p rend="citationintense">Fait son party du leur, &amp; se joint avec eux,</p>
-                <p rend="citationintense">Excite leur vangeance, &amp; rallume leurs feux. (v. 1049-1052)</p>
+                <p>Cependant ton esprit trop subtil à nous nuire,</p>
+                <p>Cherche nos ennemis afin de nous détruire,</p>
+                <p>Fait son party du leur, &amp; se joint avec eux,</p>
+                <p>Excite leur vangeance, &amp; rallume leurs feux. (v. 1049-1052)</p>
                 <p>C’est bien au nom du peuple romain, autant que comme mère, que parle Velumnie ici. Le lien entre les relations filiales et la relation patriotique entre l’homme et la Cité est particulièrement marqué. Ainsi Chevreau peint-il un tableau particulièrement original de la supplique de la mère par rapport à ses prédécesseurs, car le rôle endossé ici par Velumnie ne se retrouve nulle part ailleurs. Chevreau seul en fait ce que la tradition baroque a appelé une « femme forte ». Par sa force de persuasion, par sa colère et ses sentiments élevés, Velumnie est celle qui peut se mesurer au jeune héros, chef militaire de surcroît. Le poids dramaturgique des femmes est donc d’une importance plus décisive au regard de leur présence en scène que dans toute autre adaptation de l’histoire de Coriolan, car elles investissent un espace qui ne leur est normalement pas destiné, celui de la politique, qui, on le voit, tisse des liens très étroits avec les relations personnelles. Car Chevreau n’oublie pas l’amour et les passions, dont le public habitué à la tragi-comédie était si friand.</p>
               </div>
             </div>
