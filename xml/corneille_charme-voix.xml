@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="corneille_charme-voix" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Le Charme de la voix. Comédie</title>
-        <author>Thomas Corneille</author>
+        <title>Le Charme de la voix. Comédie</title>
+        <author key="Corneille, Thomas (1625-1709)">Thomas Corneille</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par PIOT Coline dans le cadre d'un mémoire de
@@ -147,7 +146,6 @@
           <div>
             <head><hi rend="i">Lo que puede la aprehension de Moreto</hi> et <hi rend="i">Le Charme de la Voix</hi> de Thomas Corneille : plagiat ou réécriture ?</head>
             <p>Thomas Corneille semble avoir recyclé sans presque toute la pièce de Moreto, comme il s’en vante dans son épître à « Monsieur ». Ses efforts pour adapter la pièce espagnole au goût français, travail propre à toute réécriture, seront observés plus loin. Pour l’heure, un tableau synthétique qui met en regard les deux pièces permet de voir à quel point les deux structures de la pièce se ressemblent, et de mieux souligner les suppressions et les modifications apportées par l’auteur. Pour une meilleure lecture de ce tableau, nous avons utilisé les italiques chaque fois que Thomas Corneille a opéré des modifications ; nous avons repris mot pour mot le descriptif des scènes chaque fois que deux scènes étaient identiques ; nous avons enfin utilisé des caractères gras lorsque nous avons jugé nécessaire de faire un commentaire particulier. L’analyse des nuances et des tendances plus globales succède au tableau. Enfin, nous avons sélectionné des passages précis s’apparentant à de la pure traduction, qui sont consultables en annexe.</p>
-            <div>
               <div>
                 <head>Tableau synthétique de la structure de l’œuvre</head>
                 <table>
@@ -419,10 +417,8 @@
                     <cell>- la Duquesa rencontre le Duque. Elle reste froide face à ses protestations, et lui demande de façon explicite s’il est épris de sa beauté ou de sa voix. Le Duc parvient à répondre avec habileté. Lorsque la Duquesa lui signale qu’il est déjà marié avec la Duquesa, le Duque répond, sans s’en douter, de manière très désobligeante pour son interlocutrice. Elle exige qu’il voie la Duquesa avant de préférer Fenisa mais le Duc dénigre la beauté supposée de la Duquesa, croyant ainsi mieux faire sa cour. Colmillo, pris à témoin, dit que les deux femmes sont également belles. Après une longue tirade dans laquelle s’épanouit son orgueil, la Duquesa se retire, laissant le Duque pantois ; elle se promet d’épouser Carlos une fois vengée du Duque.</cell>
                     <cell>Scène II :</cell>
                     <cell>
-                      <list>
-                        <item>- la Duchesse rencontre le Duc. Elle reste froide face à ses protestations, et lui demande de façon explicite s’il est épris de sa beauté ou de sa voix. Le Duc parvient à répondre avec habileté. Lorsque la Duchesse lui signale qu’il est déjà marié avec la Duchesse, le Duque répond, sans s’en douter, de manière très désobligeante pour son interlocutrice. Elle exige qu’il voie la Duchesse avant de préférer Fénise mais le Duc dénigre la beauté supposée de la Duchesse, croyant ainsi mieux faire sa cour. Après une longue tirade dans laquelle s’épanouit son orgueil, la Duquesa se retire, laissant le Duque pantois.</item>
-                        <item>- suppression de l’intervention du valet, puisque Fabrice n’est pas dans la confidence dans la pièce française. On ne connaît pas non plus dans la version française, l’intention de la Duchesse d’épouser Carlos.</item>
-                      </list>
+- la Duchesse rencontre le Duc. Elle reste froide face à ses protestations, et lui demande de façon explicite s’il est épris de sa beauté ou de sa voix. Le Duc parvient à répondre avec habileté. Lorsque la Duchesse lui signale qu’il est déjà marié avec la Duchesse, le Duque répond, sans s’en douter, de manière très désobligeante pour son interlocutrice. Elle exige qu’il voie la Duchesse avant de préférer Fénise mais le Duc dénigre la beauté supposée de la Duchesse, croyant ainsi mieux faire sa cour. Après une longue tirade dans laquelle s’épanouit son orgueil, la Duquesa se retire, laissant le Duque pantois.
+<lb/>- suppression de l’intervention du valet, puisque Fabrice n’est pas dans la confidence dans la pièce française. On ne connaît pas non plus dans la version française, l’intention de la Duchesse d’épouser Carlos.
                     </cell>
                   </row>
                   <row>
@@ -704,7 +700,7 @@
                   <p>il me semble en effet que l’échec de la pièce tient moins, en réalité, à la différence invoquée des goûts des nations qu’à la différence de nature générique : par sa minceur, par la fragilité et la subtilité de ses ressorts, un tel sujet ne pouvait donner sa pleine mesure qu’au sein d’un roman. »<note n="25" place="bottom">Bénédicte Louvat-Molozay, dans la conférence prononcée à Rouen le 26 septembre 2009, dans le cadre de la commémoration du tricentenaire de la mort de Thomas Corneille au musée départemental de Petit-Couronne.</note>.</p>
                 </quote>
               </div>
-            </div>
+            
           </div>
         </div>
         <div>
@@ -5458,7 +5454,7 @@
               <def>Le terme présente son sens courant actuel de « énergie volontaire » au vers 686.</def>
             </entryFree>
             <entryFree xml:id="arreste">
-              <form>Arresté: participe-passé de <hi rend="i">arrester</hi></form>
+              <form>Arresté: participe-passé de arrester</form>
               <def>Convenir des conditions, (R)</def>
               <xr>V. <ref target="#l48">48</ref>, <ref target="#l661">661</ref> ; au sens de : décider au vers <ref target="#l1715">1715</ref>.</xr>
             </entryFree>
@@ -5566,7 +5562,7 @@
               <def>Partout ailleurs, le terme présente son sens courant de « cacher », et il est suivi d’un complement d’objet direct.</def>
             </entryFree>
             <entryFree xml:id="diviser">
-              <form>Divisé du verbe diviser : <hi rend="i">sens</hi> figuré.</form>
+              <form>Divisé du verbe diviser : sens figuré.</form>
               <def>Desunir, mettre en discorde, (DA)</def>
               <xr>V. <ref target="#l319">319</ref>.</xr>
             </entryFree>
