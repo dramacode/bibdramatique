@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="corneille_antiochus" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Antiochus. Tragi-comédie</title>
-        <author>Thomas Corneille</author>
+        <title>Antiochus. Tragi-comédie</title>
+        <author key="Corneille, Thomas (1625-1709)">Thomas Corneille</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par RAMZAN Khanam dans le cadre d'un mémoire de
@@ -466,8 +465,7 @@
       </div>
 </front>
     <body>
-        <head>ANTIOCHUS,</head>
-        <head>TRAGI-COMEDIE.</head>
+      <head>ANTIOCHUS, <lb/>TRAGI-COMEDIE.</head>
         <div xml:id="privilege" n="1" type="set">
           <pb/>
           <head>Extrait du Privilege du Roy.</head>
@@ -479,8 +477,8 @@
         </div>
         <div xml:id="acteurs" n="2" type="set">
           <pb/>
-          <castList>
           <head>ACTEURS.</head>
+          <castList>
           <castItem>
             <role>SELEUCUS,</role>
             <roleDesc>Roy de Syrie.</roleDesc>

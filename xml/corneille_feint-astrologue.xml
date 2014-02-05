@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="chevreau_avocat-duppe" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Le Feint astrologue. Comédie</title>
-        <author>Thomas Corneille</author>
+        <title>Le Feint astrologue. Comédie</title>
+        <author key="Corneille, Thomas (1625-1709)">Thomas Corneille</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par CONAN Nathalie dans le cadre d'un mémoire de
@@ -1218,7 +1217,6 @@
       </div>
 </front>
     <body>
-        <pb/>
         <head>LE FEINT ASTROLOGUE COMEDIE.</head>
         <div n="1" type="set" xml:id="dedicace">
           <head>A MONSIEUR B. Q. R. I.<note n="215" place="bottom">Il semble s’agir d’un dédicataire fictif (voir à ce propos la présentation de la pièce). À partir de l’édition (a), l’épître est adressé « A MONSIEUR *** » et à partir de l’édition (b), le texte présente une nouvelle version de cette épître (voir l’annexe 2). </note>                <pb n="III"/></head>
@@ -1229,8 +1227,8 @@
         </div>
       <div n="2" type="set" xml:id="liste-personnages">
           <pb/>
-        <castList>
           <head>ACTEURS.</head>
+        <castList>
           <castItem>
             <role>LEONARD</role>
             <roleDesc>pere de Lucrece.</roleDesc>
@@ -3119,7 +3117,7 @@
               <speaker>D. FERNAND.</speaker>
               <l n="751" xml:id="l751">Je cognois mesme encor le <ref target="#zenith">Zenith**</ref>, l’<ref target="#ecliptique">Ecliptique**</ref>,</l>
               <l n="752" xml:id="l752">Le Tropique du <ref target="#cancre">Cancre**</ref>, et le Pole Antarctique,</l>
-              <l n="753" xml:id="l753">Ces termes de <ref target="#jupin"><hi rend="i">Jupin</hi>**</ref> <hi rend="i">s’opposant à <ref target="#venus">Venus**</ref></hi>,</l>
+              <l n="753" xml:id="l753" rend="i"><hi rend="n">Ces termes de </hi><ref target="#jupin">Jupin**</ref> s’opposant à <ref target="#venus">Venus**</ref>,</l>
               <l n="754" xml:id="l754">Grace à mon <ref target="#almanach">Almanach**</ref>, ne m’épouvantent plus,</l>
               <l n="755" xml:id="l755">Et mesme en un besoin par quelque préambule</l>
               <l n="756" xml:id="l756">Je broüillerois l’esprit d’une femme credule.</l>
@@ -3158,7 +3156,7 @@
               <l n="786" xml:id="l786">M’interrompant soudain avec <ref target="#emotion">émotion*</ref>,</l>
               <l n="787" xml:id="l787"><hi rend="i">Je dis ce que j’ay veu</hi>, m’a-t’il dit, <hi rend="i">et peut-estre</hi></l>
               <l n="788" xml:id="l788">Vous en parlez ainsi faute de le cognoistre,</l>
-              <l n="789" xml:id="l789"><hi rend="i">Ou vous portez envie  aux hommes de <ref target="#vertu1">vertu*</ref></hi> ;</l>
+              <l n="789" xml:id="l789" rend="i">Ou vous portez envie  aux hommes de <ref target="#vertu1">vertu*</ref> ;</l>
               <l n="790" xml:id="l790">Et moy sur ce ton-là craignant d’estre battu,</l>
               <l n="791" xml:id="l791">Je me suis retiré pour en rire à mon aise.</l>
             </sp>

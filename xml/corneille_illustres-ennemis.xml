@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="corneille_illustres-ennemis" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Les Illustres ennemis. Comédie</title>
-        <author>Thomas Corneille</author>
+        <title>Les Illustres ennemis. Comédie</title>
+        <author key="Corneille, Thomas (1625-1709)">Thomas Corneille</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par TUNC Nathalie dans le cadre d'un mémoire de
@@ -279,7 +278,7 @@
                 <cell/>
                 <cell/>
                 <cell/>
-                <cell>Imprimé à Rouen par L. Haurry, vendu à Paris chez Courbet <hi rend="bg_c0c0c0">et chez de Luynes</hi></cell>
+                <cell>Imprimé à Rouen par L. Haurry, vendu à Paris chez Courbet et chez de Luynes</cell>
               </row>
               <row>
                 <cell>1661 (Poèmes dramatiques, vol II)</cell>
@@ -415,8 +414,7 @@
       </div>
 </front>
 <body>
-        <head>LES ILLUSTRES ENNEMIS,</head>
-        <head><hi rend="i">COMEDIE.</hi></head>
+  <head>LES ILLUSTRES ENNEMIS, <lb/>COMEDIE.</head>
         <div xml:id="epitre" type="page_preliminaire" n="1">
           <pb/>
           <head>A MADAME LA COMTESSE DE FIESQUE.<note n="20" place="bottom">Gillone d’Harcourt, veuve de Louis de Brouilli, marquis de Pienne, fille de Jacques d’Harcourt, marquis de Beuvron, et de Léonor Chabot-Jarnac, comtesse de Cosnac, a épousé en 1643 Charles Léon, comte de Fiesque. Elle meurt en 1649. (dictionnaire de Mémori). Dame d’atours de la reine, précieuse déclarée.</note></head>

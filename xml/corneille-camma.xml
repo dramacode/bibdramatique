@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="corneille-camma" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Camma, reine de Galatie. Tragédie</title>
-        <author>Thomas Corneille</author>
+        <title>Camma, reine de Galatie. Tragédie</title>
+        <author key="Corneille, Thomas (1625-1709)">Thomas Corneille</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par PISANESCHI Josépha dans le cadre d'un mémoire de
@@ -919,8 +918,7 @@
       </div>
 </front>
     <body>
-        <head>CAMMA <lb/>REINE DE GALATIE</head>
-        <head>TRAGEDIE</head>
+      <head>CAMMA <lb/>REINE DE GALATIE <lb/>TRAGEDIE</head>
         <div type="page_preliminaire" n="1" xml:id="epitre">
           <pb/>
           <head>Espitre</head>
@@ -3457,7 +3455,7 @@
               <l n="1587" xml:id="l1587">C’est à vostre amour seul qui s’offre à redouter.</l>
               <l n="1588" xml:id="l1588">La Princesse tantost a voulu s’emporter ;</l>
               <l n="1589" xml:id="l1589" rend="i">Contre l’ambition d’une Reine infidelle,                        <pb n="68"/></l>
-              <l n="1590" xml:id="l1590"><hi rend="i">Peuple</hi>, a-t’elle crié, <hi rend="i">prendras-tu ma <ref target="#querelle">querelle*</ref></hi> ?</l>
+              <l n="1590" xml:id="l1590" rend="i">Peuple, <hi rend="n">a-t’elle crié,</hi> prendras-tu ma <ref target="#querelle">querelle*</ref> ?</l>
               <l n="1591" xml:id="l1591" rend="i">C’est pour la couronner que me manquant de <ref target="#foy2">foy*</ref></l>
               <l n="1592" xml:id="l1592" rend="i">Un Tyran a trahy la Fille de ton Roy.</l>
               <l n="1593" xml:id="l1593">Par ces mots pleins d’ardeur allant de place en place</l>
@@ -3495,7 +3493,7 @@
               <l n="1613" xml:id="l1613">Où si tost qu’il paroist, se voyant sans Rivale,</l>
               <l n="1614" xml:id="l1614">Elle fait apporter la Coupe Nuptiale<note n="331" place="bottom"> « la coupe nuptiale » est un élément important dans la cérémonie, un rituel pour sacraliser une union.  Voir aussi <hi rend="i">Rodogune</hi> (1644) de Pierre Corneille (<hi rend="i">Œuvres Complètes</hi>, éd. G. Couton, Paris, Gallimard, Pléiade, 1984, vol. 2) où la coupe est un objet important à la toute fin de la pièce : Cléôpatre a feint de céder le pouvoir à ses fils alors qu’elle s’accroche farouchement au trône. Elle tente de diviser les deux frères en offrant le pouvoir à l’un au détriment de l’autre. Elle le donne d’abord à Séleucus et ensuite elle le tue. Puis, alors qu’elle tente de poursuivre sa comédie de réconciliation avec Antiochus et Rodogune afin de pouvoir les empoisonner au cœur de la cérémonie de couronnement, elle est prise à son propre piège, car elle est contrainte de boire la première dans la coupe empoisonnée. Comme dans <hi rend="i">Camma</hi>, la coupe est objet de séparation au cœur d’une union, d’une consécration. Elle n’est pas coupe nuptiale ; elle est mortelle. <space/></note>,</l>
               <l n="1615" xml:id="l1615">Baise le sacré Vase<note n="332" place="bottom">Il a déjà été fait mention du « Vase nuptial » dans la pièce à la scène 3 de l’acte I, lorsque Camma raconte qu’au moment où Sinatus et elle se mariaient, le vase nuptial s’était brisé. </note>, et s’approchant du Roy,</l>
-              <l n="1616" xml:id="l1616"><hi rend="i">Dieux</hi>, dit-elle, <hi rend="i">soyez les témoins de ma <ref target="#foy4">foy*</ref></hi>.</l>
+              <l n="1616" xml:id="l1616" rend="i">Dieux, <hi rend="n">dit-elle,</hi> soyez les témoins de ma <ref target="#foy4">foy*</ref>.</l>
               <l n="1617" xml:id="l1617">Là pour suivre nos loix le portant à la bouche,                     <pb n="69" xml:id="p69"/></l>
               <l n="1618" xml:id="l1618">On lit dedans ses yeux<note n="333" place="bottom"><hi rend="i">Var. 1692</hi> : On connoit dans ses yeux</note> le plaisir qui la touche,</l>
               <l n="1619" xml:id="l1619">Et le Roy que possede un transport* éclatant,</l>
@@ -4623,7 +4621,7 @@
           <head>Œuvres de Thomas Corneille de l’Isle</head>
           <p><hi rend="i">Les Engagements du hasard</hi>, comédie</p>
           <p><hi rend="i">Le Feint astrologue</hi>, comédie</p>
-          <p>1651, Mai<title><space>   </space>Bertrand de Cigarral</title>, comédie</p>
+          <p>1651, Mai, <title>Bertrand de Cigarral</title>, comédie</p>
           <p>1651, <hi rend="i">L’Amour à la mode</hi>, comédie</p>
           <p>1652, <hi rend="i">Le Berger extravagant</hi>, comédie</p>
           <p>1655, <hi rend="i">Les Illustres ennemis</hi>, comédie</p>
