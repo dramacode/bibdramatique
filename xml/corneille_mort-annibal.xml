@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="corneille_mort-annibal" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">La Mort d'Annibal. Tragédie.</title>
-        <author>Thomas Corneille</author>
+        <title>La Mort d'Annibal. Tragédie.</title>
+        <author key="Corneille, Thomas (1625-1709)">Thomas Corneille</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par TUNC Nathalie dans le cadre d'un mémoire de
@@ -1149,8 +1148,8 @@
               <speaker>PRUSIAS</speaker>
               <l part="Y">Lors qu’il s’agit de voir nos <ref target="#voeux">vœux*</ref> contents,</l>
               <l n="396" xml:id="l396">Promettons tout, Araxe, et laissons faire au temps.</l>
-              <p rend="center i">Fin du premier Acte.</p>
             </sp>
+            <label rend="center i">Fin du premier Acte.</label>
           </div>
         </div>
         <div type="acte">
@@ -1855,8 +1854,8 @@
               <l n="826" xml:id="l826">J’ai parlé contre un Fils, parlons-lui contre Attale,</l>
               <l n="827" xml:id="l827">Et ménageons si bien l’éclat de son couroux,</l>
               <l n="828" xml:id="l828">Qu’Annibal soit reduit à n’esperer qu’en nous.</l>
-              <p rend="i">Fin du second Acte.</p>
             </sp>
+            <label rend="i">Fin du second Acte.</label>
           </div>
         </div>
         <div type="acte">
@@ -2521,8 +2520,8 @@
             <sp who="flaminius">
               <speaker>FLAMINIUS</speaker>
               <l part="Y"><space/><space/>Allons, il le faut écouter.</l>
-              <p rend="i">Fin du troisiéme Acte.</p>
             </sp>
+            <label rend="i">Fin du troisiéme Acte.</label>
           </div>
         </div>
         <div type="acte">
@@ -3216,8 +3215,8 @@
               <speaker>ELISE</speaker>
               <l n="1583" xml:id="l1583">Pour vous quitter, Seigneur, je sçay trop mon devoir.</l>
               <l n="1584" xml:id="l1584">L’exemple sera grand, je vay le recevoir.</l>
-              <p rend="i">Fin du quatriéme Acte.</p>
             </sp>
+            <label rend="i">Fin du quatriéme Acte.</label>
           </div>
         </div>
         <div type="acte">
@@ -3826,8 +3825,8 @@
               <l n="1918" xml:id="l1918">Que d’<ref target="#ennui">ennuis*</ref> à la fois s’emparent de mon ame !</l>
               <l n="1919" xml:id="l1919">Allons en Bithynie, et pour nous soulager</l>
               <l n="1920" xml:id="l1920">Faisons-y tout servir au soin de nous vanger<note resp="editor"> Cette réplique trouvera son écho avec celle de Xipharès dans <hi rend="i">Mithridate</hi> : « Ah, Madame ! Unissons nos douleurs, / Et par tout l’Univers cherchons-lui des Vengeurs » (RACINE J., <hi rend="i">Mithridate</hi>, V, 5, v. 1709-1710 (première numérotation), in éd. cit., p. 686).</note>.</l>
-              <p rend="i">FIN.</p>
             </sp>
+            <label rend="i">FIN.</label>
           </div>
         </div>
         <div xml:id="privilege" type="page_liminaire" n="1">
