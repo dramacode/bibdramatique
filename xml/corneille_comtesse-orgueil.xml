@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="corneille_comtesse-orgueil" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">La Comtesse d'orgueil. Comédie</title>
-        <author>Thomas Corneille</author>
+        <title>La Comtesse d'orgueil. Comédie</title>
+        <author key="Corneille, Thomas (1625-1709)">Thomas Corneille</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par SIMONCELLO Thierry dans le cadre d'un mémoire de
@@ -616,8 +615,7 @@
       </div>
 </front>
     <body>
-        <head>LA COMTESSE D’ORGUEIL</head>
-        <head>COMEDIE.</head>
+      <head>LA COMTESSE D’ORGUEIL <lb/>COMEDIE.</head>
         <div type="set" xml:id="dedicace" n="1">
           <pb/>
           <head>A MONSIEUR DE ***.</head>
@@ -769,7 +767,7 @@
             </sp>
             <sp who="lyse">
               <speaker>LYSE.</speaker>
-              <l part="Y"><space/>Ah, point de brusquerie<note n="106" place="bottom"> Brusquerie :<hi rend="color_344663"> « </hi>Action prompte et inconsiderée. Il faut excuser les paroles offençantes, quand on ne le dit que par <hi rend="i">brusquerie</hi> et promptitude » (F).</note>.</l>
+              <l part="Y"><space/>Ah, point de brusquerie<note n="106" place="bottom"> Brusquerie : « Action prompte et inconsiderée. Il faut excuser les paroles offençantes, quand on ne le dit que par <hi rend="i">brusquerie</hi> et promptitude » (F).</note>.</l>
               <l n="23" xml:id="l23">Et que diroit Virgine à qui tu t’es promis.</l>
             </sp>
             <sp who="carlin">
@@ -6726,7 +6724,7 @@
           </entryFree>
           <entryFree xml:id="galimatias">
             <form>Galimatias</form>
-            <def>« Discours embrouillé et confus qui semble dire quelque chose et ne dit rien » <space> </space>(Ac).</def>
+            <def>« Discours embrouillé et confus qui semble dire quelque chose et ne dit rien » (Ac).</def>
             <xr>V. <ref target="#l1691">1691</ref></xr>
           </entryFree>
           <entryFree xml:id="garantir">
