@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="corneille_theodat" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Théodat. Tragédie</title>
-        <author>Thomas Corneille</author>
+        <title>Théodat. Tragédie</title>
+        <author key="Corneille, Thomas (1625-1709)">Thomas Corneille</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par LEROUX Olivia dans le cadre d'un mémoire de
@@ -403,8 +402,7 @@
       </div>
 </front>
     <body>
-        <head>Théodat</head>
-        <head>TRAGEDIE</head>
+      <head>Théodat <lb/>TRAGEDIE</head>
         <div type="set" n="1" xml:id="au-lecteur">
           <head>AU LECTEUR.</head>
           <p>Théodat fut associé à l’Empire des Gots par Amalasonte, &amp; traita cette malheureuse Princesse avec tant d’indignité, qu’un peu après qu’elle l’eut élevé au Trône, il eut la bassesse de l’exiler. Quelques-uns adjoustent qu’il donna ordre qu’on l’emprisonnast dans une Isle où il l’avoist releguée. Ce caractere d’ingratitude m’a paru avoir quelque chose de trop odieux pour pouvoir estre souffert au Theatre. Ainsi j’ay tasché de conserver ce qui regarde la disgrace d’Amalasonte, sans en rendre Théodat coupable, &amp; je me suis conformé pour le genre de sa mort, à ce qu’en écrit Blondus. Il nous apprend dans le troisième Livre de la premiere Décade, que Théodat consentit que les Enfans de quelques seigneurs Gots, à qui cette Reyne avoit fait couper la teste, vangeassent le Sang de leurs Peres en la faisant périr elle-même dans le lieu de son exil. Je ne sçay si en la peignant vindicative dans tout cet Ouvrage, j’ay affoibly les grandes qualitez que les Historiens luy donnent, mais il semble assez naturel qu’une Reyne à qui une illustre naissance à deû donner beaucoup de fierté, ne se puisse voir méprisée d’un Sujet qui abuse de la connaissance qu’elle luy a donnée de son amour, sans s’en faire outrage d’autant plus sensible, qu’après l’avoir fait arrester inutilement, elle connoist qu’elle ne sçauroit plus esperer d’authorité qu’autant qu’il luy en voudra souffrir. Ce sont des Crimes que les Maximes d’Estat ne permettent point de pardonner, &amp; peut-estre Amalasonte eust-elle été condamnable, si ne se voyant plus Reyne que de nom, elle eust fait scrupule de chercher sa seureté par la perte de celuy qui estoit la seule cause de son infortune.</p>
