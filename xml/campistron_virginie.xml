@@ -372,9 +372,8 @@
       </div>
     </front>
     <body>
-      <div type="set">
         <head>VIRGINIE. TRAGEDIE</head>
-        <div>
+        <div xml:id="dedicace" type="dedication">
           <pb/>
           <head>A MONSEIGNEUR DE FIEUBET<note n="140" place="bottom">Gaspard de Fieubet fut président du Parlement de Toulouse entre 1653 et 1687.</note>, PREMIER PRESIDENT DU PARLEMENT DE TOULOUSE.</head>
           <p>Monseigneur,</p>
@@ -384,47 +383,47 @@
           <p rend="right">tres-obeïssant serviteur</p>
           <p rend="right">C * * *</p>
         </div>
-        <div type="set">
+        <div type="set" xml:id="acteurs">
           <pb/>
           <head>Acteurs.</head>
           <castList>
-          <castItem>
+          <castItem xml:id="appius">
             <role><hi rend="sc">Appius</hi>,</role>
             <roleDesc>l’un des Decemvirs<note n="141" place="bottom">Magistrature romaine extraordinaire créée à l’origine pour doter la cité de lois. Le deuxième décemvirat dirigé par Appius Clodius se changera en une tyrannie collégiale des dix décemvirs.</note> de la ville de Rome.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="icile">
             <role><hi rend="sc">Icile</hi>,</role>
             <roleDesc>Chevalier Romain accordé avec Virginie.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="clodius">
             <role><hi rend="sc">Clodius</hi>,</role>
             <roleDesc>Chevalier Romain.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="plautie">
             <role><hi rend="sc">Plautie</hi>,</role>
             <roleDesc>Mere de Virginie, et femme de Virginius.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="virginie">
             <role><hi rend="sc">Virginie</hi>,</role>
             <roleDesc>fille de Virginius, et de Plautie.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="camille">
             <role><hi rend="sc">Camille</hi>,</role>
             <roleDesc>confidente de Virginie.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="fulvie">
             <role><hi rend="sc">Fulvie</hi>,</role>
             <roleDesc>confidente de Plautie.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="severe">
             <role><hi rend="sc">Severe</hi>,</role>
             <roleDesc>affranchy d’Icile.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="fabian">
             <role><hi rend="sc">Fabian</hi>,</role>
             <roleDesc>affranchy d’Appius.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="pison">
             <role><hi rend="sc">Pison</hi>,</role>
             <roleDesc>capitaine des Gardes d’Appius.</roleDesc>
           </castItem>
@@ -435,7 +434,7 @@
           <stage>La Scene est à Rome dans le Palais d’Appius.</stage>
           <pb/>
         </div>
-      </div>
+      
         <div type="acte" xml:id="acte1">
           <head>Acte I.</head>
           <head>Virginie. <hi rend="sc">Tragedie.</hi> <pb n="1" xml:id="A1"/></head>
@@ -2904,7 +2903,7 @@
             <label rend="i">Fin.</label>
           </div>
         </div>
-        <div>
+        <div type="appendix" xml:id="privilege">
           <pb/>
           <head>EXTRAIT DU PRIVILEGE Du Roy.</head>
           <p>Par grace et Privilege du Roy, donné à Paris le 29. Mars 1683. Signé, Par le Roy en son Conseil, <hi rend="sc">Du Gone</hi> : et Scellé. Il est permis à Estienne Lucas, Marchand Libraire à Paris, de faire imprimer une Tragedie, intitulée <hi rend="i">Virginie</hi>, composée par le Sieur * * * : Et deffenses sont faites à toutes sortes de personnes de l’imprimer, vendre ny debiter pendant le temps de six années, à commencer du jour qu’elle sera achevée d’imprimer, à peine d’amende arbitraire, et autres peines portées par ledit Privilege.</p>

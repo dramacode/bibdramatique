@@ -364,10 +364,8 @@
       </div>
 </front>
     <body>
-      <div type="set">
-        <head>LE TURNE DE VIRGILE.</head>
-        <head>TRAGEDIE.</head>
-        <div  xml:id="epitre">
+      <head>LE TURNE DE VIRGILE. <lb/>TRAGEDIE.</head>
+        <div type="dedication" xml:id="epitre">
           <pb/>
           <head>EPISTRE<note n="61" place="bottom">La forme figure dans les titres courants des pages [IV] et [V]. </note></head>
           <head rend="center">A</head>
@@ -382,47 +380,47 @@
           <p rend="right">Vostre tres-humble, et tres-obeïssant serviteur.</p>
           <p rend="right">LA BROSSE<note n="70" place="bottom">Dans toutes ses autres pièces, l’auteur signe Brosse.</note>.</p>
         </div>
-        <div>
+        <div xml:id="au-lecteur" type="set">
           <pb/>
           <head>AU LECTEUR.</head>
           <p>Remarque s’il te plaist qu’au poinct* que les Latins excitez par la harangue de Juturne, chargent les Troyens ; on doit abaisser une toile<note n="71" place="bottom"> Lorsque plusieurs lieux étaient représentés sur la scène, comme il était fréquent dans la première moitié du XVII<hi rend="sup">e</hi> siècle, on utilisait des décors à compartiments : des tapisseries étaient levées ou abaissées selon le compartiment où se déroulait l’action. Dans notre pièce, la « toile » devait être baissée pendant l’entracte qui sépare les actes III et IV, ce qui nous montre qu’il n’y avait pas encore de rideau de scène à l’époque de Brosse. </note>, derriere laquelle ils se battent avec quelque bruit d’armes. Cette observation devoit estre mise en marge, sur la fin du troisiesme Acte ; mais l’imprimeur l’ayant obmise, j’ai bien voulu la placer icy, afin de prevenir ta censure<note n="72" place="bottom">Brosse souligne qu’il respecte les bienséances.</note> qui m’auroit pû reprendre<note n="73" place="bottom">Signifie « reprocher ».</note> d’ensanglanter la Scéne, et d’imiter hors de temps les rudes spectacles des Colleges<note n="74" place="bottom">Les pièces représentées dans les Collèges traitaient souvent de martyres, et étaient donc connues pour être particulièrement sanglantes. </note>. Je n’ay plus rien à te faire remarquer, si ce n’est quelques fautes survenuës à l’impression, dont voicy les plus importantes.</p>
         </div>
-        <div>
+        <div xml:id="acteurs" type="set">
           <pb/>
           <head>LES ACTEURS.</head>
           <castList>
-          <castItem>
+          <castItem xml:id="latinus">
             <role>LATINUS,</role>
             <roleDesc>Roy des Latins.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="amata">
             <role>AMATA,</role>
             <roleDesc>femme de Latinus.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="lavinie">
             <role>LAVINIE,</role>
             <roleDesc>fille de Latinus.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="turne">
             <role>TURNE,</role>
             <roleDesc>fils du Roy Daunus, Amant de Lavinie.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="juturne">
             <role>JUTURNE,</role>
             <roleDesc>sœur de Turne.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="sidon">
             <role>SIDON,</role>
           </castItem>
-          <castItem>
+          <castItem xml:id="tyrene">
             <role>TYRENE,</role>
             <roleDesc>Gentils hommes Latins.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="enee">
             <role>ÆNEE,</role>
             <roleDesc>Prince Troyen.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="acate">
             <role>ACATE,</role>
             <roleDesc>amy d’Ænée.</roleDesc>
           </castItem>
@@ -439,7 +437,7 @@
           </stage>
           <pb/>
         </div>
-      </div>
+      
         <div type="acte">
           <head>ACTE I.</head>
           <head>
@@ -2957,7 +2955,7 @@
             <label rend="center b">FIN.</label>
           </div>
         </div>
-        <div>
+        <div xml:id="privilege" type="appendix">
           <pb/>
           <head>PERMISION.</head>
           <p>Il est permis à la vefve Nicolas de Sercy, d’imprimer ou faire imprimer, la Tragedie, <hi rend="i">Intitulée le Turne, de Virgile</hi>, par le Sieur de la Brosse, fait ce II. Aoust.1646.</p>

@@ -616,7 +616,7 @@
 </front>
     <body>
       <head>LA COMTESSE D’ORGUEIL <lb/>COMEDIE.</head>
-        <div type="set" xml:id="dedicace" n="1">
+        <div type="dedication" xml:id="dedicace">
           <pb/>
           <head>A MONSIEUR DE ***.</head>
           <p>MONSIEUR,</p>
@@ -653,7 +653,7 @@
           <p rend="center i">Vostre tres-humble, &amp; tres-obligé serviteur,</p>
           <p rend="center">T. CORNEILLE.</p>
         </div>
-        <div type="set" xml:id="privilege" n="2">
+        <div type="set" xml:id="privilege" n="1">
           <pb/>
           <head>Extrait du Privilege du Roy.</head>
           <p>Par Grace et Privilege du Roy donné à Paris le 21 Janvier 1671. Signé Par le Roy en son Conseil, VILLET. Il est permis au sieur THOMAS CORNEILLE de faire imprimer une Piece de Theatre de sa composition, intitulée <hi rend="i">La Comtesse d’Orgueil</hi>, pendant cinq années ; Et défences sont faites à tous autres de l’imprimer sans le consentement dudit sieur de Corneille, à peine de Cinq cens livres d’amende, de tous dépens, dommages et interests, comme il est plus amplement porté par lesdites Lettres.</p>
@@ -663,42 +663,42 @@
           <p>Registré sur le Livre de la Communauté des Imprimeurs et Marchands Libraires de la ville de Paris.</p>
           <p>Signé LOUIS SEVESTRE, Syndic.</p>
         </div>
-        <div type="set" n="3" xml:id="acteurs">
+        <div type="set" n="2" xml:id="acteurs">
           <pb/>
           <head>ACTEURS.</head>
           <castList>
-          <castItem>
+          <castItem xml:id="marquis">
             <role>LE MARQUIS de Lorgnac.</role>
           </castItem>
-          <castItem>
+          <castItem xml:id="chevalier">
             <role>LE CHEVALIER,</role>
             <roleDesc>Frere du Marquis, <ref target="#amant">Amant*</ref> d’Olympe.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="oronte">
             <role>ORONTE</role>
             <roleDesc><ref target="#amant">Amant*</ref> de Lucrece.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="anselme">
             <role>ANSELME</role>
             <roleDesc>Frere d’Olympe, et <ref target="#tuteur">Tuteur*</ref> de Lucrece.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="olympe">
             <role>OLYMPE</role>
             <roleDesc>Fille d’Anselme.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="lucrece">
             <role>LUCRECE</role>
             <roleDesc>Niece d’Anselme.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="virgine">
             <role>VIRGINE</role>
             <roleDesc>Suivante d’Olympe.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="lyse">
             <role>LYSE</role>
             <roleDesc>Suivante de la Comtesse d’Orgueil.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="carlin">
             <role>CARLIN</role>
             <roleDesc>Valet du Marquis.</roleDesc>
           </castItem>
@@ -912,7 +912,7 @@
             <pb/>
             <head>SCENE II.</head>
             <stage>LE MARQUIS, CARLIN, <lb/>LYSE.</stage>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS  <hi rend="i">à Carlin montrant Lyse.</hi></speaker>
               <l n="80" xml:id="l80">C’est de moy qu’on te parle ?</l>
             </sp>
@@ -920,7 +920,7 @@
               <speaker>CARLIN.</speaker>
               <l part="Y"><space/><space/>Ouy, Monsieur.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Bon, Laquais,</l>
               <l n="81" xml:id="l81">A ce prochain<note n="121" place="bottom">Prochain : qui est proche (Ac).</note> détour<note n="122" place="bottom">Détour : « Tournant de ruë » (R).</note> que faisoit cette Belle<note n="123" place="bottom"> Il est courant dans le langage du XVII<hi rend="sup">e</hi> siècle de parler d’une <hi rend="i">Belle</hi> pour désigner une belle femme. Cette réplique du marquis ne désigne pas Lyse mais une femme que le marquis vient de voir passer juste avant son arrivée.</note> ?</l>
@@ -929,7 +929,7 @@
               <speaker>CARLIN.</speaker>
               <l n="82" xml:id="l82"><space/><space/>Elle vous regardoit, Monsieur.                            <pb n="6"/></l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Tant pis pour elle.</l>
             </sp>
@@ -937,7 +937,7 @@
               <speaker>CARLIN.</speaker>
               <l n="83" xml:id="l83">Elle s’en souviendra.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je le croy. Celle-cy,</l>
               <l n="84" xml:id="l84">Qui de loin m’envisage, a l’œil bien radoucy<note n="124" place="bottom">Comprendre : Celle-ci qui, de loin, regarde mon visage, a le regard bien tendre.</note>.</l>
@@ -946,7 +946,7 @@
               <speaker>CARLIN.</speaker>
               <l n="85" xml:id="l85">Elle vient de la part de certaine Comtesse…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="86" xml:id="l86">Diable, il faut l’écouter. Tu nommes ta Maitresse ?<note n="125" place="bottom"> Ce type d’interrogations construites sur le modèle de la phrase assertive est courant à l’époque. La valeur interrogative de la phrase est portée par l’intonation dite non conclusive dont le point d’interrogation est le marqueur. Ce schéma phrastique est utilisé lors d’une remis en cause tardive de l’assertion qui peut s’accompagner de valeurs telles que la demande de confirmation, la contestation, la discussion d’une hypothèse etc.  Il s’agit d’un phénomène fréquent sur lequel nous ne reviendrons pas.</note></l>
             </sp>
@@ -954,7 +954,7 @@
               <speaker>LYSE.</speaker>
               <l n="87" xml:id="l87">La Comtesse d’Orgueil.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>D’Orgueil ! le nom est grand.</l>
               <l n="88" xml:id="l88">Vieille ou jeune ?</l>
@@ -963,7 +963,7 @@
               <speaker>LYSE.</speaker>
               <l part="Y"><space/><space/>Elle n’a que vingt ans.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Bien luy prend.</l>
               <l n="89" xml:id="l89">La jeunesse est mon goust, sans cela point de <ref target="#tendre">tendre*</ref><note n="126" place="bottom">Comprendre : il n’y a pas d’amour possible sans cela.</note>.</l>
@@ -974,7 +974,7 @@
               <speaker>LYSE.</speaker>
               <l part="Y"><space/><space/>Elle est veuve.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/> Tant mieux.</l>
               <l n="92" xml:id="l92">Les Veuves, la plupart, sont mets delicieux.</l>
@@ -990,7 +990,7 @@
               <l part="Y"><space/><space/>Qui pourroit n’aimer pas<note n="130" place="bottom"> Il est fréquent à l’époque que le discordantiel et le forclusif de la négation encadrent le groupe infinitif. N. Fournier précise que la construction moderne du type <hi rend="i">ne pas +verbe</hi> reste rare.</note> à vous plaire ?</l>
               <l n="99" xml:id="l99">Un Marquis qu’on fait gloire en tous lieux d’admirer<note n="131" place="bottom">Comprendre : Un marquis que chacun se vante partout d’admirer.</note> ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="100" xml:id="l100">J’écarte assez la foule afin de respirer,</l>
               <l n="101" xml:id="l101">Mais toujours malgré moy j’ay quelque <ref target="#soupirante">soûpirante*</ref>.</l>
@@ -1000,7 +1000,7 @@
               <speaker>LYSE.</speaker>
               <l part="Y"><space/><space/>Elle est vostre Servante.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="103" xml:id="l103">C'est-à-dire, son cœur en tient déjà pour moy<note n="132" place="bottom">Comprendre : C’est-à-dire : est-elle déjà amoureuse de moi ?</note> ?</l>
             </sp>
@@ -1008,7 +1008,7 @@
               <speaker>LYSE.</speaker>
               <l n="104" xml:id="l104">Eh, vous pouvez penser…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/> J’en ay pitié, ma foy.</l>
               <l n="105" xml:id="l105">Vint ans, veusve, &amp; languir ! Viens, conduy moy chez elle</l>
@@ -1019,7 +1019,7 @@
               <l n="107" xml:id="l107">Elle a dans Orleans tout fait mourir d’amour,</l>
               <l n="108" xml:id="l108">Mais vous en jugerez, Monsieur, à son retour.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="109" xml:id="l109">Elle n’est pas icy ?</l>
             </sp>
@@ -1036,7 +1036,7 @@
               <l n="117" xml:id="l117">Sa <ref target="#flame">flâme*</ref> impatiente en ces lieux la rappelle,</l>
               <l n="118" xml:id="l118">Vous la verrez demain.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je me souviendray d’elle.</l>
               <l n="119" xml:id="l119">Seulement du retour prens <ref target="#soin1">soin*</ref> de m’avertir.</l>
@@ -1045,7 +1045,7 @@
               <speaker>LYSE.</speaker>
               <l n="120" xml:id="l120">Vous viendrez donc ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Oüy, va ; je puis m’en divertir</l>
               <l n="121" xml:id="l121">Et selon… mais je voy mon impertinent frere.</l>
@@ -1067,87 +1067,87 @@
             <pb/>
             <head>SCENE III.</head>
             <stage>LE MARQUIS, LE CHEVALIER, <lb/>CARLIN</stage>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="124" xml:id="l124">Peut-estre que je viens mal à propos<note n="135" place="bottom">À propos : « Dans l’ocasion, le moment et le tems favorable. D’une maniere juste et qui quadre avec quelque chose dont il est question » (R). Nous retrouvons l’expression au vers 1432. </note> ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Tant pis.</l>
               <l n="125" xml:id="l125">Qui vous force à venir ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Vous voyant dans la rüe,    </l>
               <l n="126" xml:id="l126">Passeray-je tout droit sans que je vous salüe ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.     <pb n="9"/></speaker>
               <l n="127" xml:id="l127">Salüez-moy de loin, &amp; ne me dites mot.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="128" xml:id="l128">Mais ceux qui me verront…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Vous prendront pour un <ref target="#sot">sot*</ref>,</l>
               <l n="129" xml:id="l129">Que m’importe ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Toûjours injure sur injure ?</l>
               <l n="130" xml:id="l130">Vous estes mon aisné, je me tais, et j’endure.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="131" xml:id="l131">Et bien, n’endurez point, qu’est-ce que vous ferez ?</l>
               <l n="132" xml:id="l132">Vous me chanterez poüille<note n="136" place="bottom">Poüille : « Injure grossiere » (Ac).</note>, et vous retirerez,</l>
               <l n="133" xml:id="l133">C’est-là ce que je veux.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Grace à vostre injustice,</l>
               <l n="134" xml:id="l134">Me voir et me parler est pour vous un suplice,</l>
               <l n="135" xml:id="l135">J’en suis trop convaincu.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ne l’ignorez donc pas.</l>
               <l n="136" xml:id="l136">J’en suis content.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Ma peine a pour vous des <ref target="#appas">appas*</ref>,</l>
               <l n="137" xml:id="l137">Et plus vous connoissez que le malheur m’accable…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="138" xml:id="l138">Il est vray, vostre vie est <ref target="#gueux">gueuse*</ref> et miserable,</l>
               <l n="139" xml:id="l139">Mais enfin sans appuy, sans resource<note n="137" place="bottom"> Il semble que l’orthographe de <hi rend="i">ressource</hi> ait évolué durant le siècle. Ainsi, <hi rend="i">resource</hi> est une rémanence archaïque du début du XVII<hi rend="sup">e</hi> siècle.</note>, sans bien,</l>
               <l n="140" xml:id="l140">Vous devriez mourir, et vous n’en faites rien.</l>
               <l n="141" xml:id="l141">Est-ce ma faute ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Au moins, si par le droit d’aînesse<note n="138" place="bottom"> Droit d’aînesse : « Avantage qu’on a d’être l’aîné » (R), le <hi rend="i">droit d’aînesse</hi> « donne aux aînez des Ducs et des Grands l’avantage de succeder à leurs principales Terres sans aucun partage avec les Cadets » (Th. Corneille)</note>,</l>
               <l n="142" xml:id="l142">Vous avez de grands bien, j’ay la mesme Noblesse.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.     <pb n="10"/></speaker>
               <l n="143" xml:id="l143">Vous estes Chevalier, mais quand il faut manger,</l>
               <l n="144" xml:id="l144">Vostre Chevalerie est un mets bien leger,</l>
               <l n="145" xml:id="l145">Et souvent la machoire est fort mal occupée,</l>
               <l n="146" xml:id="l146">A qui n’a comme vous que la cape et l’épée.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="147" xml:id="l147">Et la cape et l’épée auront toûjours dequoy</l>
               <l n="148" xml:id="l148">Faire <ref target="#considerer">considerer*</ref> des <ref target="#gens1">gens*</ref> faits comme moy.</l>
               <l n="149" xml:id="l149">Joüissez<note n="139" place="bottom">Diérèse : le mot « joüissez » compte pour trois syllabes. Même phénomène au vers 1560 dans « réjoüis » et 1697 dans « oüy ».</note> de vos droits, l’aînesse vous les donne,</l>
               <l n="150" xml:id="l150">Je n’y demande rien.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Vous me la baillez bonne<note n="140" place="bottom">Bailler bonne : dire une bourde. Ici, l’usage que fait le Marquis de cette expression est ironique.</note>.</l>
               <l n="151" xml:id="l151">Si dans vostre chaumiere<note n="141" place="bottom">Chaumiere : « On le dit figurément, et par exaggeration, quand on veut parler modestement de quelque maison de campagne qui n’est pas fort superbe » (F)</note>  il vous eust plû rester,</l>
@@ -1158,12 +1158,12 @@
               <l n="156" xml:id="l156">D’estre Franc Parasite<note n="142" place="bottom">Parasite : « qui va disner à la table d’autruy sans y estre invité […] Originairement ce mot signifioit seulement un valet ou domestique qui vivoit à la table ou aux dépens de son Maistre » (F).</note>, ou de ne disner point.</l>
               <l n="157" xml:id="l157"><ref target="#gueuser">Gueusez*</ref>, servez, volez, ce n’est point mon affaire.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="158" xml:id="l158">J’ay fait quelque dépence, et crû la devoir faire,</l>
               <l n="159" xml:id="l159">Ma gloire estant la vostre, il vous doit estre doux…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="160" xml:id="l160">Mais Carlin que voicy, mouroit de faim chez vous,</l>
               <l n="161" xml:id="l161">Et s’il n’eust avec moy cherché ses avantages,</l>
@@ -1173,16 +1173,16 @@
               <speaker>CARLIN.</speaker>
               <l n="163" xml:id="l163">Sans Monsieur le Marquis j’estois sec<note n="143" place="bottom">Comprendre : Sans Monsieur le Marquis, j’étais ruiné, ou presque.</note>, autant vaut.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="164" xml:id="l164">Oyez.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/>Mon peu de bien vous semble un grand defaut,</l>
               <l n="165" xml:id="l165">Toûjours sur ce reproche ; et ne peut-il pas estre…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="166" xml:id="l166">Mon nom vous fait honneur, on me l’a fait connoistre,</l>
               <l n="167" xml:id="l167"><space/><space/>Il pourra vous servir à duper un Bourgeois.                    <pb n="11"/></l>
@@ -1192,7 +1192,7 @@
               <l n="171" xml:id="l171">Pour qui n’a pas de pain à mettre sous les dents,</l>
               <l n="172" xml:id="l172">C’est un trait de beauté des plus <ref target="#accomodant2">accommodants*</ref>.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="173" xml:id="l173">Puis que malgré moy mesme on a lû dans mon ame,</l>
               <l n="174" xml:id="l174">Il est vray, mon <ref target="#dessein">dessein*</ref> est de prendre une Femme,</l>
@@ -1200,19 +1200,19 @@
               <l n="176" xml:id="l176">Ma naissance m’a fait esperer tout de luy.</l>
               <l n="177" xml:id="l177">La sienne, je l’avouë, est basse et fort commune.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="178" xml:id="l178">Ce n’estoit qu’un <ref target="#maraut">maraut*</ref>, mais il a fait fortune,</l>
               <l n="179" xml:id="l179">Puis qu’il a du douzain<note n="144" place="bottom">Douzain : « Monnoye de cuivre avec quelque alliage d’argent vallant un sou » (F).</note>, il est démaraudé<note n="145" place="bottom"> Le terme n’est pas attesté dans les dictionnaires du XVII<hi rend="sup">e</hi> siècle. Il s’agit probablement d’un néologisme formé sur la base du substantif <hi rend="i">maraut</hi> auquel s’ajoute le préfixe privatif –dé. Ainsi, il désigne la condition social d’Anselme qui ne serait plus un maraut du fait de ses revenus.</note> ?</l>
               <l n="180" xml:id="l180">Sçait-il vostre amour ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Non, c’est un secret gardé,</l>
               <l n="181" xml:id="l181">Mais quand il l’apprendra, vueillez ne pas me nuire,</l>
               <l n="182" xml:id="l182">Forcez-vous…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Laissez moy cette affaire à conduire<note n="146" place="bottom">Conduire : « Commander, gouverner. » (F).</note>.</l>
               <l n="183" xml:id="l183">Moy parlant, moy faisant la demande pour vous,</l>
@@ -1221,12 +1221,12 @@
               <l n="186" xml:id="l186">D’un Cadet de Marquis devenir le Beau-père,</l>
               <l n="187" xml:id="l187">S’allier<note n="149" place="bottom">Diérèse : le mot « allier » compte pour trois syllabes. Même phénomène aux vers 293 dans « mandiée », 294 dans « mariée », 295 dans « mariée », 311 dans « marier », 508 dans « marier », 510 dans « mariez », 639 dans « étudié », 640 dans « mandié », 758 dans « inquiétez », 941 dans « inquietude », 977 dans « nier », 1122 dans « inquietude », 1171 dans « inquieté », 1609 dans « remedier » et 1708 dans « marier ».</note> des Lorgnacs, <ref target="#peste2">peste*</ref> !</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>M’offrir vos <ref target="#soin2">soins*</ref>,</l>
               <l n="188" xml:id="l188">Vous à qui je déplais !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>M’en déplaisez-vous moins ?</l>
               <l n="189" xml:id="l189">Je vous décrierois bien, mais si je vous décrie</l>
@@ -1238,46 +1238,46 @@
               <l n="195" xml:id="l195">S’il s’informe du bien, je suis preste à mentir,</l>
               <l n="196" xml:id="l196">Reposez-vous sur moy.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Mais…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Mais sans repartir.</l>
               <l n="197" xml:id="l197">J’agis de là. La fille est de vous fort éprise ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="198" xml:id="l198">J’ignore encor pour moy quelle estime elle a prise,</l>
               <l n="199" xml:id="l199">Mais vingt fois dans sa ruë elle m’a remarqué.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="200" xml:id="l200">Vostre amour autrement ne s’est point expliqué ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="201" xml:id="l201">Le Père estant pour nous, il nous répondra d’elle<note n="150" place="bottom">Comprendre : Le père étant de notre côté, il s’engagera pour elle.</note>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="202" xml:id="l202">Je vous entens, l’argent vous plaist mieux que la Belle,</l>
               <l n="203" xml:id="l203">Et pourvû qu’il vous soit bien et deuëment compté,</l>
               <l n="204" xml:id="l204">Peu vous chaut du reste<note n="151" place="bottom">Comprendre : le reste vous importe peu.</note>.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Ah !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Dites la verité ;</l>
               <l n="205" xml:id="l205">Franchement aimez-vous ? car à moins que l’on aime,</l>
               <l n="206" xml:id="l206">Taster du Mariage<note n="152" place="bottom">Diérèse : le mot « mariage » compte pour trois syllabes. Même phénomène aux vers 253 dans « mariage », 994 dans « mariage », 1270 dans « diaphanes », 1368 dans « mariage », 1487 dans « nuptial » et 1553 dans « amiable », 1691 dans « galimatias ».</note> est la misere mesme<note n="153" place="bottom">Le terme « taster » renvoie, selon Furetière, à « Essayer […] quelque chose, pour en connoistre la saveur et la qualité. ». </note>,</l>
               <l n="207" xml:id="l207">Et je ne voudrois pas qu’une Fille eust sujet…</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="208" xml:id="l208">Non, Olympe est pour moy le plus <ref target="#charmant">charmant*</ref> objet.</l>
               <l n="209" xml:id="l209"><space/><space/>Jamais rien de si beau ne s’offrit à ma veuë,                    <pb n="B, 13"/></l>
@@ -1285,18 +1285,18 @@
               <l n="211" xml:id="l211">Que sa seule conqueste asseurant mon repos,</l>
               <l n="212" xml:id="l212">N’eust-elle aucune dot<note n="154" place="bottom">Le terme juridique « dot » renvoie aux « biens qu’apporte une femme en se mariant » (Rey).</note>, je…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Voyla de mes <ref target="#sot">sots*</ref>.</l>
               <l n="213" xml:id="l213">Pour trois jours de douceur trente ans de <ref target="#gueuserie">gueuserie*</ref>,</l>
               <l n="214" xml:id="l214">Mais si vous l’épousez, dites-moy, je vous prie,</l>
               <l n="215" xml:id="l215">Cadet, prétendez-vous avoir beaucoup d’enfans ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="216" xml:id="l216">Peut-on…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Point de peut-on, car je vous le défens.</l>
               <l n="217" xml:id="l217">La cause est qu’il n’est point de famille nombreuse</l>
@@ -1304,11 +1304,11 @@
               <l n="219" xml:id="l219">Et quand l’Oncle est Marquis et des plus apparents<note n="155" place="bottom">Apparent : « se dit aussi parmi les bourgeois d’une ville, de ceux qui sont les plus riches, qui sont distingués des autres par leurs emplois, ou par leur merite » (F).</note>,</l>
               <l n="220" xml:id="l220">Serviteur aux Neveux<note n="156" place="bottom">Serviteur à quelqu’un : « avoir du dévouement pour quelqu’un » (Rey).</note> qui sont degenerants.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="221" xml:id="l221">J’auray <ref target="#soin1">soin*</ref> que jamais aucune plainte à faire…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="222" xml:id="l222">Fort bien, et là-dessus je vay voir le Beaupere.</l>
               <l n="223" xml:id="l223">Carlin.</l>
@@ -1319,7 +1319,7 @@
               <stage>Il luy parle à l’oreille.</stage>
               <l part="Y"><space/><space/>J’entens.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Va,  cours, le temps m’est cher.</l>
               <l n="224" xml:id="l224"><space/><space/>Si la Marquise vient, qu’on me fasse chercher.                    <pb n="14"/></l>
@@ -1329,7 +1329,7 @@
             <pb/>
             <head>SCENE IV.</head>
             <stage>LE CHEVALIER, CARLIN.</stage>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="225" xml:id="l225">C’est encor un message à faire à quelque belle ?</l>
             </sp>
@@ -1338,7 +1338,7 @@
               <l n="226" xml:id="l226">Grand mystere toûjours, et toûjours bagatelle.</l>
               <l n="227" xml:id="l227">Mais où diable a-t’il sçeu vostre amoureux secret ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="228" xml:id="l228">Un <ref target="#amant">Amant*</ref> bien épris est toûjours indiscret.</l>
               <l n="229" xml:id="l229">J’ay trop parlé d’Olympe, il aura pû l’<ref target="#apprendre1">apprendre*</ref>,</l>
@@ -1350,7 +1350,7 @@
               <speaker>CARLIN.</speaker>
               <l n="233" xml:id="l233">J’en doute, il n’eut jamais pour vous que de la haine.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="234" xml:id="l234">Ouy, mais me voir sans bien luy donne quelque peine,</l>
               <l n="235" xml:id="l235">Et craignant d’en avoir un jour de l’embarras,</l>
@@ -1367,7 +1367,7 @@
               <l n="243" xml:id="l243">Mais vous m’avez fait taire, et tout estoit perdu</l>
               <l n="244" xml:id="l244">Si j’eusse osé…</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.    <pb n="15"/></speaker>
               <l part="Y"><space/><space/>Je voy que j’ay trop attendu,</l>
               <l n="245" xml:id="l245">Qu’il seroit bon qu’Olympe eust approuvé ma flame*,</l>
@@ -1380,7 +1380,7 @@
               <l part="Y"><space/><space/>Pour ou contre, il va faire grand bruit,</l>
               <l n="249" xml:id="l249">Et le Vieillard…</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Tay-toy, je voy venir Oronte.</l>
             </sp>
@@ -1389,7 +1389,7 @@
             <pb/>
             <head>SCENE V.</head>
             <stage>LE CHEVALIER, ORONTE, <lb/>CARLIN.</stage>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="250" xml:id="l250">Enfin donc il n’est rien que l’amour ne surmonte,</l>
               <l n="251" xml:id="l251">Lucrece a pris sur vous un pouvoir absolu,</l>
@@ -1402,7 +1402,7 @@
               <l n="255" xml:id="l255">C’est une marché <ref target="#terrible1">terrible*</ref>, et qui doit estonner,</l>
               <l n="256" xml:id="l256">Cependant au torrent je me laisse entraîner.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="257" xml:id="l257">Le peril en est beau.</l>
             </sp>
@@ -1410,7 +1410,7 @@
               <speaker>ORONTE.</speaker>
               <l part="Y"><space/><space/>Telle est ma destinée.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="258" xml:id="l258">L’ordre vous en est doux, mais à quand l’hymenée ?</l>
               <l n="259" xml:id="l259">Lucrece vous aimant…</l>
@@ -1423,7 +1423,7 @@
               <l n="262" xml:id="l262">Qu’il faut pour plus d’éclat qu’elle honore la feste,</l>
               <l n="263" xml:id="l263">Sans cela point de <ref target="#nopce">nopce*</ref>.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/> Il aime à<note n="158" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, le verbe <hi rend="i">aimer</hi> accepte trois constructions différentes, à savoir : <hi rend="i">aimer</hi> + infinitif, <hi rend="i">aimer à</hi> + infinitif et <hi rend="i">aimer de</hi> + infinitif. On retrouve la même construction au vers 1008.</note> faire bruit.</l>
             </sp>
@@ -1431,7 +1431,7 @@
               <speaker>ORONTE.</speaker>
               <l n="264" xml:id="l264">A trois jours seulement le delay se réduit.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="265" xml:id="l265">Vous croyez donc bien-tost voir icy la Comtesse ?</l>
             </sp>
@@ -1441,7 +1441,7 @@
               <l n="267" xml:id="l267">De grace, pardonnez aux transports* d’un <ref target="#amant">Amant*</ref>,</l>
               <l n="268" xml:id="l268">Si je cours où m’appelle un Objet si <ref target="#charmant">charmant*</ref>.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="269" xml:id="l269">Sur tout autre devoir l’amour toûjours l’emporte.</l>
             </sp>
@@ -1449,7 +1449,7 @@
               <speaker>CARLIN <hi rend="i">au Chevalier.</hi></speaker>
               <l n="270" xml:id="l270">Olympe est avec elle.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Eloignons-nous, n’importe,</l>
               <l n="271" xml:id="l271">Je ne luy veux parler<note n="159" place="bottom">La montée du complément d’objet devant le verbe recteur d’un infinitif s’observe fréquemment dans la langue classique (ceci est aussi valable pour tous les pronoms conjoints). Il s’agit de la construction concurrente de celle dans laquelle le complément se place après le verbe recteur que l’on utilise aussi en français moderne. Elle s’applique avec les modaux et les verbes qui régissent un infinitif direct ou indirect. Le choix de l’une de ces constructions n’influe pas sur l’interprétation de la phrase : il est donc libre. Dans notre cas, seules des raisons métriques peuvent justifier son emploi. La construction étant fréquente, nous n’y reviendrons pas.</note> qu’après que j’auray sceu</l>
@@ -1734,7 +1734,7 @@
           <div type="scene">
             <head>SCENE PREMIERE.</head>
             <stage>LE MARQUIS, ANSELME.</stage>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="381" xml:id="l381">N’allez-pas plus avant, Beau-père, il fait trop sombre,</l>
               <l n="382" xml:id="l382">Et quoy que de la nuit mes yeux incaguent<note n="175" place="bottom">Incaguer : ne pas craindre.</note> l’ombre<note n="176" place="bottom">Ombre : l’obscurité.</note>,</l>
@@ -1750,7 +1750,7 @@
               <l n="389" xml:id="l389">Dés mes plus jeunes ans un Chevalier de Malte</l>
               <l n="390" xml:id="l390">M’aprit que quand l’honneur qu’on daigne nous faire…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Alte<note n="178" place="bottom">Le terme « alte » est une variante de « halte » utilisé actuellement. La différence orthographique s’explique par la double origine du mot.</note>.</l>
               <l n="391" xml:id="l391">Votre caducité de trop loin se souvient ;</l>
@@ -1764,7 +1764,7 @@
               <l n="396" xml:id="l396">Les Quadrains de Pybrac<note n="179" place="bottom"> Quadrains : « Couplet de quatre vers. Le Seigneur de Pybrac est plus connu par ses <hi rend="i">Quatrains</hi> de Morale qu’il a faits, que par les Ambassades et grandes affaires qu’il a negotiées sous le Roy Henry III » (F).</note> ont donné le bon ply.</l>
               <l n="397" xml:id="l397">Elle les sçavoit tous, sur chacun, bonne <ref target="#glose">glose*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="398" xml:id="l398">Les Quadrains de Pybrac ne font rien à la chose,</l>
               <l n="399" xml:id="l399">Et vostre Fille, estant ce que je me la peins,</l>
@@ -1775,7 +1775,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/>Autant qu’une fille peut l’estre.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="402" xml:id="l402">Je vous eusse prié de la faire paroître,</l>
               <l n="403" xml:id="l403">Mais j’ay craint, en suivant ma curiosité<note n="180" place="bottom">Diérèse : le mot compte pour cinq syllabes.</note>,</l>
@@ -1788,7 +1788,7 @@
               <l n="406" xml:id="l406">Plus de cent mille escus dont elle seule herite,</l>
               <l n="407" xml:id="l407">Tant en maisons, effets, comme en argent comptant…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="408" xml:id="l408">Ma terre de Lorgnac en vaut deux fois autant.</l>
               <l n="409" xml:id="l409">Qu’elle est belle ! grands parcs pour vaches, bœufs, genices,</l>
@@ -1802,7 +1802,7 @@
               <l n="414" xml:id="l414">D’estre sorty de <ref target="#gens1">Gens*</ref> renommez dans l’Histoire,</l>
               <l n="415" xml:id="l415"><space/><space/>Mon choix seroit pour vous, et ne regardant qu’eux…                <pb n="C, 25"/></l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="416" xml:id="l416">Ah, que tous les Lorgnacs ont esté belliqueux !</l>
             </sp>
@@ -1810,7 +1810,7 @@
               <speaker>ANSELME.</speaker>
               <l n="417" xml:id="l417">La Race<note n="183" place="bottom">Race : « Lignée, lignage, extraction, tous ceux qui viennent d’une mesme famille » (Ac).</note> en est celebre, et <ref target="#d-abord">d’abord qu'*</ref>on la nomme…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="418" xml:id="l418">Beau-père, ainsi je croy que je suis <ref target="#gentilhomme">gentilhomme*</ref>,</l>
               <l n="419" xml:id="l419">Hem ?</l>
@@ -1819,7 +1819,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/>De vostre Noblesse on n’est guere en soucy.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="420" xml:id="l420">Vous avez pensé voir un amoureux transy<note n="184" place="bottom"> « On dit par raillerie, <hi rend="i">Un amoureux transi</hi>, pour dire, Un amant respectueux et timide jusqu’à l’excez » (Ac). Même phénomène au vers 1239.</note>,</l>
               <l n="421" xml:id="l421">Mon Cadet qui sans moy, plein d’une <ref target="#sot">sote*</ref> <ref target="#flame">flâme*</ref>,</l>
@@ -1830,7 +1830,7 @@
               <l n="423" xml:id="l423">Vous touchant de si prés, il m’auroit fait honneur,</l>
               <l n="424" xml:id="l424">Et l’on tiendra toûjours sa recherche à bonheur.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="425" xml:id="l425">Il est <ref target="#gueux">gueux*</ref>, archigueux.</l>
             </sp>
@@ -1840,7 +1840,7 @@
               <l n="426" xml:id="l426">Et par tout sa vertu luy donne tant de lustre<note n="185" place="bottom">Comprendre : Sa vertu lui confère tant d’éclat, que sur ce qu’on en dit…</note>,</l>
               <l n="427" xml:id="l427">Que sur ce qu’on en dit…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Monsieur, on, est un <ref target="#sot">sot*</ref>.</l>
               <l n="428" xml:id="l428">Mon Frere fait le doux, le <ref target="#benin">benin*</ref>, le cagot<note n="186" place="bottom">Cagot : hypocrite.</note>,</l>
@@ -1854,7 +1854,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/>Il n’importe.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="434" xml:id="l434">Non, à ce qu’il paroît aux <ref target="#gens1">gens*</ref> de vostre sorte<note n="191" place="bottom">Sorte : qualité, condition sociale.</note>,</l>
               <l n="435" xml:id="l435"><space/><space/>Mais parmy le beau monde où l’on parle correct,                <pb n="26"/></l>
@@ -1865,7 +1865,7 @@
               <speaker>ANSELME.</speaker>
               <l n="438" xml:id="l438">Chacun le croit.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Est-il de ruë, ou de ruelle ?</l>
             </sp>
@@ -1873,7 +1873,7 @@
               <speaker>ANSELME.</speaker>
               <l n="439" xml:id="l439">Qu’appellez-vous de ruë ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Un esprit trop bourgeois,</l>
               <l n="440" xml:id="l440">Un esprit dandinant<note n="193" place="bottom">Esprit dandinant: esprit niais.</note>, de ces Filles sans poids<note n="194" place="bottom">Poids : importance, considération.</note>,</l>
@@ -1886,7 +1886,7 @@
               <l n="444" xml:id="l444">Sur quoy qu’on luy propose elle sçait raisonner,</l>
               <l n="445" xml:id="l445">Jamais de bagatelle, ou c’est la faire taire.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="446" xml:id="l446">Et vous l’auriez donnée à mon <ref target="#drille">drille*</ref> de Frere ?</l>
               <l n="447" xml:id="l447">Quel dommage ! à demain, je verray ce que c’est,</l>
@@ -1901,7 +1901,7 @@
               <l n="453" xml:id="l453">Du reste, un peu de temps est assez necessaire</l>
               <l n="454" xml:id="l454">A qui tout à la fois a deux <ref target="#nopce">nopces*</ref> à faire.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="455" xml:id="l455">Deux <ref target="#nopce">nopces*</ref> !</l>
             </sp>
@@ -1911,7 +1911,7 @@
               <l n="456" xml:id="l456">Pour l’épouser, Oronte attend icy sa Sœur,</l>
               <l n="457" xml:id="l457">Demain elle y doit estre.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.    <pb n="27"/></speaker>
               <l part="Y"><space/><space/>Il differe pour elle ?</l>
             </sp>
@@ -1919,7 +1919,7 @@
               <speaker>ANSELME.</speaker>
               <l n="458" xml:id="l458">On luy doit cét honneur.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Et cette Sœur s’appelle ?</l>
             </sp>
@@ -1927,7 +1927,7 @@
               <speaker>ANSELME.</speaker>
               <l n="459" xml:id="l459">La Comtesse d’Orgueil.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>La Comtesse ! ma foy…</l>
             </sp>
@@ -1935,7 +1935,7 @@
               <speaker>ANSELME.</speaker>
               <l n="460" xml:id="l460">Quoy ? vous la connoissez ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ah, si je la connoy ?</l>
               <l n="461" xml:id="l461">C’est une jeune veufve, aimable, alerte, druë<note n="195" place="bottom">Comprendre : c’est une jeune veuve aimable, vive, pleine d’entrain.</note>.</l>
@@ -1944,7 +1944,7 @@
               <speaker>ANSELME.</speaker>
               <l n="462" xml:id="l462">On le dit, car pour moy je ne l’ay jamais veuë.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="463" xml:id="l463">Nous la gouvernerons<note n="196" place="bottom">Comprendre : Nous aurons du crédit sur son esprit.</note>. Elle est riche ?</l>
             </sp>
@@ -1956,7 +1956,7 @@
               <l n="466" xml:id="l466">Avec luy sa fortune à faire fust aisée,</l>
               <l n="467" xml:id="l467">Son revenu, du moins, monte à dix mille escus.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="468" xml:id="l468">Dix mille escus de rente !</l>
             </sp>
@@ -1964,7 +1964,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/>Et peut-estre encor plus.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="469" xml:id="l469">On fait florés à moins<note n="197" place="bottom">Comprendre : on fait des merveilles avec moins que cela.</note>. <ref target="#peste2">Peste*</ref>, quelle Commere !</l>
             </sp>
@@ -1972,7 +1972,7 @@
               <speaker>ANSELME.</speaker>
               <l n="470" xml:id="l470">Un Duc aussi, dit-on, cherche fort à luy plaire.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="471" xml:id="l471">Un Duc ?</l>
             </sp>
@@ -1980,7 +1980,7 @@
               <speaker>ANSELME.     <pb n="28"/></speaker>
               <l part="Y"><space/>Ouy, qui voudroit…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je croy qu’il voudroit, mais…</l>
             </sp>
@@ -1988,7 +1988,7 @@
               <speaker>ANSELME.</speaker>
               <l n="472" xml:id="l472">Elle en est peu touchée.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Il ne l’aura jamais.</l>
             </sp>
@@ -1996,7 +1996,7 @@
               <speaker>ANSELME.</speaker>
               <l n="473" xml:id="l473">Le temps…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Eh, je sçay trop où luy tient  l’encloueure<note n="198" place="bottom">Encloueure : obstacle, difficulté.</note>.</l>
             </sp>
@@ -2009,7 +2009,7 @@
               <speaker>CARLIN <hi rend="i">au Marquis.</hi></speaker>
               <l n="474" xml:id="l474">Quatre mots à quartier<note n="199" place="bottom">A quartier : à part.</note>, Monsieur.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Anselme.</hi></speaker>
               <l part="Y"><space/><space/>Par avanture<note n="200" place="bottom">Par avanture : adverbe vieilli qui signifie « peut-être ». (R)</note>,</l>
               <l n="475" xml:id="l475">Beau-pere, vous sçavez comme on rentre chez vous ?</l>
@@ -2018,7 +2018,7 @@
               <speaker>ANSELME.</speaker>
               <l n="476" xml:id="l476">Si je nuis…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Preste<note n="201" place="bottom"> Selon l’Académie, <hi rend="i">Preste</hi> est un adverbe d’exhortation qui signifie vite, promptement.</note> ; icy vous gagneriez la toux,</l>
               <l n="477" xml:id="l477"><space/><space/>Bon soir.                                     <pb n="29"/></l>
@@ -2028,7 +2028,7 @@
             <pb/>
             <head>SCENE III.</head>
             <stage>LE MARQUIS, CARLIN.</stage>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Combien as-tu de poulets<note n="202" place="bottom">Poulet : « Billet galant, billet amoureux. Petite lettre d’amour qui doit étre tendre, ou galante et agréablement tournée » (R).</note> à me rendre ?</l>
             </sp>
@@ -2042,7 +2042,7 @@
               <l n="483" xml:id="l483">J’aurois pû me resoudre à ne l’écouter plus,</l>
               <l n="484" xml:id="l484">Mais…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Ces diables d’Abbez la pluspart sont courus<note n="204" place="bottom">Courus : Recherchés. (Ac)</note>.</l>
             </sp>
@@ -2055,7 +2055,7 @@
               <l n="489" xml:id="l489">L’argent ne couste rien ; mais pour vostre Marquise,</l>
               <l n="490" xml:id="l490">Que faire ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Une douceur la rendra plus soûmise.</l>
             </sp>
@@ -2063,7 +2063,7 @@
               <speaker>CARLIN.</speaker>
               <l n="491" xml:id="l491">Je le croy.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ce Vieillard qui vient de me quitter,</l>
               <l n="492" xml:id="l492">Tout Chahütan qu’il est, m’a-t’il pû resister ?</l>
@@ -2074,7 +2074,7 @@
               <l part="Y"><space/><space/>Il se résout à prendre,</l>
               <l n="494" xml:id="l494">Sur vostre bonne foy, le Chevalier pour Gendre ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="495" xml:id="l495">Il m’a tout accordé.</l>
             </sp>
@@ -2085,7 +2085,7 @@
               <l n="497" xml:id="l497">Il l’eust falu nourrir, c’est toûjours vostre Frere,</l>
               <l n="498" xml:id="l498">Que diable auriez-vous fait ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ce que je prétens faire,</l>
               <l n="499" xml:id="l499">Ne le pas secourir du moindre verre d’eau.</l>
@@ -2094,7 +2094,7 @@
               <speaker>CARLIN.</speaker>
               <l n="500" xml:id="l500">Olympe y supléera.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Tu l’entens. Quel cerveau !</l>
               <l n="501" xml:id="l501">J’aurois parlé pour luy ?</l>
@@ -2103,7 +2103,7 @@
               <speaker>CARLIN.</speaker>
               <l part="Y"><space/><space/>Pour qui donc ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Pour moy-mesme.</l>
             </sp>
@@ -2111,7 +2111,7 @@
               <speaker>CARLIN.</speaker>
               <l n="502" xml:id="l502">Ah, le traître ! Quoy donc vous aimez ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Moy, si j’aime ?</l>
               <l n="503" xml:id="l503">Point du tout, mais mon Frere ayant ce vilain<note n="208" place="bottom">Vilain : ce qui n’est pas agréable.</note> mal,</l>
@@ -2130,7 +2130,7 @@
               <l n="513" xml:id="l513">Que résolu sur l’heure à vous mettre en ménage,</l>
               <l n="514" xml:id="l514">Il vous plaist d’enrager de crainte qu’il n’enrage.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="515" xml:id="l515">Pauvre ignorant ! aprens un tour d’homme d’esprit.</l>
               <l n="516" xml:id="l516">J’ay sceu contraindre Anselme à signer un <ref target="#dedit">Dédit*</ref>,</l>
@@ -2141,7 +2141,7 @@
               <speaker>CARLIN.</speaker>
               <l n="519" xml:id="l519">Rien que cela ? bon, bon, vous voyla garroté<note n="214" place="bottom">Garroté : lié fortement. (F)</note>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="520" xml:id="l520">Contre le Chevalier c’est-là ma seureté.</l>
               <l n="521" xml:id="l521">Par ces dix mille écus où son seing<note n="215" place="bottom">Seing : « Marque qui est au bas d’un acte, d’un écrit, qui en confirme la teneur par l’apposition du nom écrit de la main de celuy qui en consent l’execution, ou de la personne publique preposée pour en rendre témoignage » (F). Ici, le terme désigne la signature d’Anselme sur l’acte de mariage du Marquis et d’Olympe.</note> le condamne,</l>
@@ -2151,7 +2151,7 @@
               <speaker>CARLIN.</speaker>
               <l n="523" xml:id="l523">Vous connoit-elle ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Non, l’entreveuë à demain,</l>
               <l n="524" xml:id="l524">J’y diray de bons mots si je me mets en train ;</l>
@@ -2162,7 +2162,7 @@
               <speaker>CARLIN.</speaker>
               <l n="527" xml:id="l527">Mais vous l’épouserez ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ouy, si le cœur<note n="218" place="bottom">Cœur : esprit, état de l’âme.</note> m’en dit.</l>
             </sp>
@@ -2170,7 +2170,7 @@
               <speaker>CARLIN.</speaker>
               <l n="528" xml:id="l528">Comment ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Vivent, Carlin, vivent les <ref target="#gens1">gens*</ref> d’esprit.</l>
               <l n="529" xml:id="l529">Sans tenir jamais rien je promettray sans cesse,</l>
@@ -2184,7 +2184,7 @@
               <l n="534" xml:id="l534">Ils ont tort, mais pour luy, que voulez-vous qu’on die<note n="222" place="bottom"> La forme du verbe <hi rend="i">dire</hi> a été modifiée volontairement par Thomas Corneille de <hi rend="i">dise</hi> en <hi rend="i">die</hi> afin de créer la rime avec le vers précédent.</note> ?</l>
               <l n="535" xml:id="l535">C’est l’ordre, chacun vit le plus long-temps qu’il peut.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="536" xml:id="l536">Tay toy, l’on vient à nous. Jour et nuit on m’en veut,</l>
               <l n="537" xml:id="l537">C’est quelque Belle encor.</l>
@@ -2211,7 +2211,7 @@
               <l part="Y"><space/><space/>Ouy, qui cherche ton Maistre.</l>
               <l n="539" xml:id="l539">Vous puis-je dire un mot, Monsieur ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Quatre au lieu d’un.</l>
               <l n="540" xml:id="l540">La honte vous fait donc choisir le moment brun<note n="223" place="bottom">Moment brun : la nuit.</note>,</l>
@@ -2223,7 +2223,7 @@
               <l n="543" xml:id="l543">Du moins je vous apporte un <ref target="#avis2">advis*</ref> important,</l>
               <l n="544" xml:id="l544">Ce soir à la fenestre Olympe vous attends.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.    <pb n=" 33"/></speaker>
               <l n="545" xml:id="l545">Quoy, la Fille d’Anselme ?</l>
             </sp>
@@ -2231,7 +2231,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/><space/>Elle mesme.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>La chate !</l>
               <l n="546" xml:id="l546">L’honneur de m’épouser terriblement la flate ;</l>
@@ -2242,7 +2242,7 @@
               <l n="548" xml:id="l548">Vous voyez le balcon, y peut-elle venir ?</l>
               <l n="549" xml:id="l549">La nuict se fait obscure.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Obscure, ou non, qu’importe ?</l>
               <l n="550" xml:id="l550">Cours assembler mes <ref target="#gens2">Gens*</ref> pour me servir d’escorte,</l>
@@ -2252,7 +2252,7 @@
               <speaker>CARLIN</speaker>
               <l n="552" xml:id="l552">On vous demande seul.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Quelque badaut<note n="226" place="bottom">Badaut : « Sot, niais, ignorant » (F).</note>, ma foy.</l>
               <l n="553" xml:id="l553">Tiens-moy preste sur tout cette cotte de maille<note n="227" place="bottom">Cotte de maille : « armure faite en forme de chemise, et tissuë de plusieurs petits anneaux de fer » (F).</note></l>
@@ -2265,7 +2265,7 @@
             <pb/>
             <head>SCENE V.</head>
             <stage>LE MARQUIS, VIRGINE.</stage>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Au rendez-vous je sçauray me trouver.</l>
             </sp>
@@ -2274,7 +2274,7 @@
               <l n="557" xml:id="l557">Ne vous éloignez point, Monsieur ; à la fenestre</l>
               <l n="558" xml:id="l558">Avec moy tout à l’heure Olympe va paroistre.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.    <pb n=" 34"/></speaker>
               <l n="559" xml:id="l559">Tu la peux advertir, je reviens sur mes pas.</l>
               <l n="560" xml:id="l560">Si<note n="229" place="bottom"> Comprendre : Cependant, me connaît-elle ? Le terme <hi rend="i">si</hi> a une valeur adversative dans le cas d’une interrogation.</note> elle me connoit ?</l>
@@ -2284,7 +2284,7 @@
               <l part="Y"><space/><space/>Qui ne vous connoit pas ?</l>
               <l n="561" xml:id="l561">Un homme dont par tout on parle avec éloge ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="562" xml:id="l562">Il est vray qu’il faudroit estre pis qu’Allobroge.</l>
               <l n="563" xml:id="l563">Je fais bruit<note n="230" place="bottom"> La suppression du mot atone <hi rend="i">du</hi> est un artifice pour faire correspondre la réplique avec l’alexandrin.</note> si jamais aucun Marquis en fit.</l>
@@ -2293,7 +2293,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="564" xml:id="l564">Vous estes beau, <ref target="#galant1">galant*</ref>, gratieux<note n="231" place="bottom">Gratieux : « Qui a de l’agréement, de la politesse, de la douceur, de la civilité » (F).</note>, plein d’esprit.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="565" xml:id="l565">Tu te connois en <ref target="#gens1">gens*</ref>. Pour l’esprit, d’ordinaire,</l>
               <l n="566" xml:id="l566">J’en cache la moitié dont je ne sçay que faire,</l>
@@ -2305,7 +2305,7 @@
               <l n="569" xml:id="l569">Vous pouvez pratiquer le haut <ref target="#stile">stile*</ref> avec elle,</l>
               <l n="570" xml:id="l570">Luy parler serieux, d’un ton <ref target="#grave">grave*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Est-tu belle,</l>
               <l n="571" xml:id="l571">Car dans l’obscurité je ne sçaurois sçavoir</l>
@@ -2315,7 +2315,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="573" xml:id="l573">Vous estes curieux.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Tu me parois <ref target="#friponne1">friponne*</ref>,</l>
               <l n="574" xml:id="l574">Et comme en certains temps volontiers on raisonne,</l>
@@ -2330,26 +2330,26 @@
             <pb/>
             <head>SCENE VI.</head>
             <stage>LE MARQUIS, LE CHEVALIER.</stage>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Qui vient m’importuner ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="577" xml:id="l577">Je vous ay par hazard apperceu dans la ruë,</l>
               <l n="578" xml:id="l578">Je m’en allois chez vous.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Vous avez bonne veuë,</l>
               <l n="579" xml:id="l579">Je ne vous voyois pas, moy.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>L’amour est pressant,</l>
               <l n="580" xml:id="l580">Et me fait vous…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Autant en un mot comme en cent.</l>
               <l n="581" xml:id="l581">Vous venez demander l’effet de ma harangue<note n="232" place="bottom"> Harangue : « Discours fait à une Assemblée, à un Prince ou à quelque autre personne élevée en dignité, ou à un peuple assemblé » (Ac). Le terme <hi rend="i">harangue</hi> désigne ici la demande faite par le Marquis à Anselme en ce qui concerne sa fille. Le texte recense aussi la forme verbale <hi rend="i">haranguer</hi> au vers 960.</note> ?</l>
@@ -2357,64 +2357,64 @@
               <l n="583" xml:id="l583">Et j’ay si bien presché<note n="233" place="bottom">Prescher : Le verbe ne comporte pas de connotation religieuse ici ; il renvoie simplement au fait de « vanter une personne, faire valoir une chose, soustenir quelque maxime » (Ac).</note>, qu’à l’éclat de mon nom</l>
               <l n="584" xml:id="l584">Le bon homme éblouy<note n="234" place="bottom">Eblouy : impressionné.</note> n’a pû me dire, non.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="585" xml:id="l585">Il me donne sa fille ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Elle sera Lorgnaque.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="586" xml:id="l586">Quelle gloire !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/> Pour vaincre, il suffit que j’attaque.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.     <pb n="36"/></speaker>
               <l n="587" xml:id="l587">Que ne vous dois-je point !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Mon Dieu, je le sçay bien.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="588" xml:id="l588">Si mon <ref target="#sang1">sang*</ref>…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Laissons-là vos compliments de chien<note n="235" place="bottom">Chien : « se dit aussi par injure, et pour reprocher à quelqu’un ses défauts » (F). Le Marquis utilise ce terme pour rappeler la condition sociale de son frère et ainsi préciser qu’il ne veut plus être considérer comme du même sang que lui.</note>,</l>
               <l n="589" xml:id="l589">Je n’en veux point.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Il faut me taire, mais sans doute…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS</speaker>
               <l n="590" xml:id="l590">Eloignons-nous d’icy de peur qu’on nous écoute.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="591" xml:id="l591">Puisque mes <ref target="#feu1">feux*</ref> d’Olympe ont merité la main,</l>
               <l n="592" xml:id="l592">Je voudrois…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Et bien, quoy ? jaser jusqu’à demain ?</l>
               <l n="593" xml:id="l593">Venez, pour satisfaire à vostre impatience,</l>
               <l n="594" xml:id="l594">Jusqu’au prochain détour je vous donne audience.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER <hi rend="i">bas.</hi></speaker>
               <l n="595" xml:id="l595">Ne vois-je pas quelqu’un qui s’avance au balcon ?</l>
               <l n="596" xml:id="l596">Si c’est Olympe ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Enfin me suivez-vous, ou non ?                    <pb n="D, 37"/></l>
             </sp>
@@ -2486,7 +2486,7 @@
             <pb/>
             <head>SCENE IX.</head>
             <stage>LE CHEVALIER, OLYMPE, <lb/>VIRGINE.</stage>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER <hi rend="i">bas.</hi></speaker>
               <l n="617" xml:id="l617">J’ay quitté mon Brutal pour chercher ce que j’aime.</l>
             </sp>
@@ -2506,7 +2506,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/><space/>L’amour l’a fait voler.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="620" xml:id="l620">Mes vœux estant receus je puis enfin parler.</l>
               <l n="621" xml:id="l621">Est-ce vous, belle Olympe ?</l>
@@ -2515,7 +2515,7 @@
               <speaker>OLYMPE.    <pb n=" 39"/></speaker>
               <l part="Y"><space/><space/> Ouy, parlez bas de grace.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="622" xml:id="l622">Un Père de ma <ref target="#flame">flame*</ref> authorise l’audace,</l>
               <l n="623" xml:id="l623">Et fort de son adveu je pourrois m’applaudir</l>
@@ -2547,7 +2547,7 @@
               <l n="643" xml:id="l643">N’importe, c’est beaucoup pour flater vostre espoir,</l>
               <l n="644" xml:id="l644">Sa parole est donnée, et je sçay mon devoir.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="645" xml:id="l645">Si je m’en prévalois vous pourriez vous en plaindre ;</l>
               <l n="646" xml:id="l646">Mais quoy qu’il m’ait promis, vous n’avez rien à craindre.</l>
@@ -2567,7 +2567,7 @@
               <l n="657" xml:id="l657">Ce n’est pas grand effort que de se rendre maistre</l>
               <l n="658" xml:id="l658">D’un amour qui ne fait que commencer à naistre.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="659" xml:id="l659">Que commencer à naistre ? Ah, ne le croyez pas.</l>
               <l n="660" xml:id="l660">Je brûle dés long-temps pour vos divins <ref target="#appas">appas*</ref>,</l>
@@ -2586,7 +2586,7 @@
               <l n="670" xml:id="l670">De me trouver sensible aux <ref target="#soin3">soins*</ref> qu’elle vous coûte,</l>
               <l n="671" xml:id="l671">Mais ma mémoire en <ref target="#vain">vain*</ref> vous cherche sur mes pas.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="672" xml:id="l672">Vous ne m’avez point veu ?</l>
             </sp>
@@ -2594,7 +2594,7 @@
               <speaker>OLYMPE.</speaker>
               <l part="Y"><space/><space/>Je ne m’en souviens pas.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="673" xml:id="l673">Je m’en estois flaté ; pour moy je vous ay veuë,</l>
               <l n="674" xml:id="l674">Mais cent fois, mais toûjours de tant d’attraits* pourveuë,</l>
@@ -2627,7 +2627,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/><space/>Il n’avoit point d’esprit.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="685" xml:id="l685">Vous consultez ensemble, helas, qu’en dois-je croire ?</l>
               <l n="686" xml:id="l686">Parlez, resolvez-vous ou ma perte, ou ma gloire ?</l>
@@ -2638,7 +2638,7 @@
               <l n="688" xml:id="l688">Et quiconque aime ainsi merite d’estre aimé.</l>
               <l n="689" xml:id="l689">Mais si d’un autre amour j’étois préoccupée ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="690" xml:id="l690">Ah, quel desespoir j’aurois l’ame frapée !</l>
               <l n="691" xml:id="l691">J’en mourrois de douleur, mais dans mes déplaisirs<note n="241" place="bottom">Déplaisirs : « Fâcherie, chagrin, tristesse » (R).</note></l>
@@ -2660,7 +2660,7 @@
               <l n="704" xml:id="l704">Je voudrois vous donner et ma main et mon cœur.</l>
               <l n="705" xml:id="l705">Ny le rang de Marquis, ny tous vos droits d’aînesse…</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER <hi rend="i">bas.</hi></speaker>
               <l n="706" xml:id="l706">Elle croit que je sois le Marquis ? Ah Dieux !</l>
             </sp>
@@ -2669,7 +2669,7 @@
               <l part="Y"><space/><space/>Qu’est-ce ?</l>
               <l n="707" xml:id="l707">Nous vient-on écouter ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Non, Madame, achevez.</l>
               <l n="708" xml:id="l708">Voylà les derniers coups qu’il m’avoit reservez,</l>
@@ -2681,7 +2681,7 @@
               <l n="711" xml:id="l711">Et pour gagner mes vœux sur le choix d’un Epoux,</l>
               <l n="712" xml:id="l712">Vos <ref target="#soin3">soins*</ref> n’avoient besoin seulement que de vous.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="713" xml:id="l713">Donc à ce que j’aprens vous connoissez mon Frere ?</l>
             </sp>
@@ -2691,7 +2691,7 @@
               <l n="715" xml:id="l715">Et je croy qu’il est bon de vous en advertir</l>
               <l n="716" xml:id="l716">Bien moins par vanité que pour vous divertir.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="717" xml:id="l717">Vous le voyez souvent ?</l>
             </sp>
@@ -2702,7 +2702,7 @@
               <l n="719" xml:id="l719"><space/><space/>Jour et nuit fait la ronde, et je m’étonne bien                    <pb n="43"/></l>
               <l n="720" xml:id="l720">Qu’il n’est déja venu troubler nostre entretien.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="721" xml:id="l721">Et ses <ref target="#empressements">empressements*</ref> ne font que vous déplaire ?</l>
             </sp>
@@ -2710,7 +2710,7 @@
               <speaker>OLYMPE.</speaker>
               <l n="722" xml:id="l722">Je le dois épargner estant né vostre Frere.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="723" xml:id="l723">Non, vous m’obligerez de ne me point cacher</l>
               <l n="724" xml:id="l724">D’où vient que tant de <ref target="#soin3">soins*</ref> ne vous ont pû toucher ?</l>
@@ -2729,7 +2729,7 @@
               <l n="733" xml:id="l733">J’irois jusqu’à l’éclat plutost que m’y resoudre<note n="242" place="bottom"> Comprendre : Sa personne est bien faite ; / à en croire ses amis, dans le monde on l’estime, / mais, puisqu’il faut dire de lui la vérité, / il me paraît stupide. / Et comme le cœur à ses secrètes inclinations, même s’il avait eu vos biens et vos avantages,  / même si mon père lui donnait l’assurance de m’épouser, / mon devoir serait très dur ; j’irais jusqu’à m’emporter de colère plutôt que de me résoudre à me marier avec lui.</note>.</l>
               <l n="734" xml:id="l734">Vous ne me dites rien ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER <hi rend="i">bas.</hi></speaker>
               <l part="Y"><space/><space/>Ah, Dieux ! quel coup de foudre !</l>
             </sp>
@@ -2742,7 +2742,7 @@
             <pb/>
             <head>SCENE X.</head>
             <stage>LE MARQUIS, OLYMPE, <lb/>LE CHEVALIER, VIRGINE, <lb/>CARLIN.</stage>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Carlin.</hi></speaker>
               <l part="Y"><space/><space/>Allons ?</l>
               <l n="736" xml:id="l736">Pour m’entendre jaser tiens-toy sur mes talons.</l>
@@ -2753,7 +2753,7 @@
               <speaker>CARLIN.</speaker>
               <l part="Y"><space/><space/>Ils sont-là.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Qu’ils s’y tiennent<note n="244" place="bottom">Comprendre : Qu’ils y restent.</note>.</l>
             </sp>
@@ -2761,7 +2761,7 @@
               <speaker>OLYMPE <hi rend="i">au Chevalier.</hi></speaker>
               <l n="739" xml:id="l739">Quelqu’un s’avance, adieu, Marquis separons-nous.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER <hi rend="i">à Olympe.</hi></speaker>
               <l n="740" xml:id="l740">C’est mon Frere.</l>
             </sp>
@@ -2770,23 +2770,23 @@
               <l part="Y"><space/><space/>Je crains l’insulte<note n="245" place="bottom">Insulte : « se dit aussi d’un assaut qu’on donne à une place brusquement et à découvert sans l’assieger par les formes » (F).</note> d’un jaloux,</l>
               <l n="741" xml:id="l741">Je vous l’avois bien dit, qu’il passoit à toute heure.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="742" xml:id="l742">Qui va là ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/>Moy.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Qui ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Moy.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.    <pb n=" 45"/></speaker>
               <l part="Y"><space/><space/> C’est mon Frere, où je meure,</l>
               <l n="743" xml:id="l743">Carlin.</l>
@@ -2795,7 +2795,7 @@
               <speaker>CARLIN.</speaker>
               <l part="Y"><space/>Qu’il se retire.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Et s’il fait le <ref target="#mutin">mutin*</ref> ?</l>
             </sp>
@@ -2803,34 +2803,34 @@
               <speaker>OLYMPE.</speaker>
               <l n="744" xml:id="l744">Ah, Dieux !</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Ne craignez rien.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Jusqu’à demain matin,</l>
               <l n="745" xml:id="l745">Je veux estre icy seul, qu’on déloge.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Quoy, traistre,</l>
               <l n="746" xml:id="l746">Tu prétens avec moy parler toûjours en maître ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="747" xml:id="l747">Mes <ref target="#gens2">Gens*</ref>.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/>Tu m’a fourbé<note n="246" place="bottom">Fourber : voir la note du vers 73.</note>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Viste, mes <ref target="#gens2">Gens*</ref>, à moy,</l>
               <l n="748" xml:id="l748">Main basse<note n="247" place="bottom"> Main basse : « terme de Guerre, qui signifie, Point de quartier, qu’il faut passer tout au fil de l’épée ». L’emploi de l’expression est justifié par le fait que le Marquis prend peur de l’arrivée de son frère car elle va lui faire découvrir sa traitrise au sujet d’Olympe. Il appelle donc ses gens à son secours. Au vers suivant, le Chevalier demande à son frère de se défendre seul et non de faire appelle aux autres ; c’est ce qui explique un nouvel emploi de <hi rend="i">main basse</hi>.</note>.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Quoy, main basse ? Avance, et songe à toy.</l>
               <l n="749" xml:id="l749">Tu recules, infame<note n="248" place="bottom">Infame : « Qui est sans honneur, qui ne merite aucune estime dans le monde » (F). Notons que son emploi en apostrophe fait du terme un substantif.</note>.</l>
@@ -3143,7 +3143,7 @@
             <pb/>
             <head>SCENE V.                         <pb n="53"/></head>
             <stage>LE CHEVALIER, OLYMPE, <lb/>LUCRECE.</stage>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="853" xml:id="l853">Madame, j’ay douté si ce seroit vous plaire</l>
               <l n="854" xml:id="l854">Que venir prendre part au bonheur de mon Frere,</l>
@@ -3169,7 +3169,7 @@
               <l n="871" xml:id="l871">Mais j’ay quelque lumiere, et sans rien éxiger,</l>
               <l n="872" xml:id="l872">Je sçay ce que je dois à qui veut m’obliger<note n="261" place="bottom">Obliger : « Faire plaisir, rendre de bons offices à quelqu’un » (Ac).</note>.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="873" xml:id="l873">Ah, vous ne devez rien, et quoy qu’on puisse faire,</l>
               <l n="874" xml:id="l874">On en est trop payé par l’honneur de vous plaire.</l>
@@ -3193,7 +3193,7 @@
               <l n="884" xml:id="l884">Des éloges conceus en des termes si doux,</l>
               <l n="885" xml:id="l885">Je les trouve un peu forts.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>S’ils n’ont rien qui vous touche,</l>
               <l n="886" xml:id="l886">C’est qu’ils perdent leur grace en passant par ma bouche ;</l>
@@ -3204,7 +3204,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="889" xml:id="l889">Vous nous abandonnez ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Paris m’est trop contraire,</l>
               <l n="890" xml:id="l890">Le Ciel depuis long-temps m’y voit d’un œil severe,</l>
@@ -3214,7 +3214,7 @@
               <speaker>OLYMPE.</speaker>
               <l n="892" xml:id="l892">Quel malheur assez grand vous éloigne de nous ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="893" xml:id="l893">Celuy de trop aimer, et de ne sçavoir plaire.</l>
             </sp>
@@ -3222,7 +3222,7 @@
               <speaker>OLYMPE.</speaker>
               <l n="894" xml:id="l894">La Dame est bien cruelle.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Ah Dieux, qu’elle m’est chere !</l>
               <l n="895" xml:id="l895"><space/><space/>Quoy que ses durs mépris me causent mille maux,                <pb n="55"/></l>
@@ -3234,7 +3234,7 @@
               <l n="898" xml:id="l898">Il n’est point de rigueur que le temps ne fléchisse,</l>
               <l n="899" xml:id="l899">Voyez, parlez, pressez, pourquoy vous rebuter.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="900" xml:id="l900">Que je presse ! non, non, rien n’est plus à tenter.</l>
               <l n="901" xml:id="l901">L’amour plus de cent fois m’a fait chercher sa veuë,</l>
@@ -3253,7 +3253,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="909" xml:id="l909">Que je luy veux de mal !</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Ah, non, quoy qui m’arrive,</l>
               <l n="910" xml:id="l910">Qu’elle ait tout le bonheur dont sa rigueur me prive,</l>
@@ -3264,7 +3264,7 @@
               <speaker>OLYMPE.</speaker>
               <l n="913" xml:id="l913">Tant de respect gardé fait voir…</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Adieu, Madame,</l>
               <l n="914" xml:id="l914">A trop d’<ref target="#emportement">emportement*</ref> j’abandonne ma <ref target="#flame">flame*</ref>,</l>
@@ -3388,7 +3388,7 @@
             <pb/>
             <head>SCENE VIII.                         <pb n="58"/></head>
             <stage>LE MARQUIS, OLYMPE, <lb/>LUCRECE, CARLIN.</stage>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Carlin.</hi></speaker>
               <l n="940" xml:id="l940">C’est celle-cy ?</l>
               <stage>à Olympe.</stage>
@@ -3400,7 +3400,7 @@
               <l n="942" xml:id="l942">Où d’un malheur qu’on craint plonge l’incertitude.</l>
               <l n="943" xml:id="l943">Ce combat impréveu…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Vous parlez d’hier au soir ?</l>
               <l n="944" xml:id="l944">Ce n’est rien, en courant j’eus belle peur de choir.</l>
@@ -3410,7 +3410,7 @@
               <speaker>OLYMPE.</speaker>
               <l n="946" xml:id="l946">De nuit les plus vaillants son sujets à la chute.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="947" xml:id="l947">Comment aurois-je fait pour n’estre point vaillant ?</l>
               <l n="948" xml:id="l948">Ce n’est que feu par tout, j’ay le <ref target="#sang2">sang*</ref> pétillant.</l>
@@ -3422,7 +3422,7 @@
               <l part="Y"><space/><space/>D’où vient qu’il fait le ridicule ?</l>
               <l n="951" xml:id="l951">Me veut-il éprouver ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je croy qu’en cét instant</l>
               <l n="952" xml:id="l952">Vous avez à me voir le cœur bien palpitant.</l>
@@ -3432,7 +3432,7 @@
               <speaker>OLYMPE.     <pb n="59"/></speaker>
               <l part="Y"><space/><space/>Ah, grands Dieux !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">montrant Lucrece.</hi></speaker>
               <l part="Y"><space/><space/>C’est-là vostre Cousine ?</l>
             </sp>
@@ -3440,7 +3440,7 @@
               <speaker>OLYMPE.</speaker>
               <l n="954" xml:id="l954">Pourquoy le demander ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>On le voit à sa mine.</l>
               <l n="955" xml:id="l955">Elle a le front ouvert, la bouche à l’avenant,</l>
@@ -3455,7 +3455,7 @@
               <l part="Y"><space/><space/>Ne me dy rien. J’enrage.</l>
               <l n="958" xml:id="l958">Se peut-il faire…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Encor un mot de cousinage.</l>
               <l n="959" xml:id="l959">Tout à l’heure en entrant j’ay trouvé deux blondins</l>
@@ -3467,7 +3467,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="963" xml:id="l963">Ils meritoient de vous plus de <ref target="#civilite1">civilité*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="964" xml:id="l964">Je hay ces compliments à droit de parenté<note n="269" place="bottom"> Comprendre : Je hais ces compliments dus au droit de parenté.  Le droit de parenté est une loi qui permet à quelqu’un de recueillir l’héritage d’une personne de sa famille.</note>,</l>
               <l n="965" xml:id="l965">Cent devoirs dans l’abord de peur qu’on <ref target="#mutiner">se mutine*</ref>,</l>
@@ -3477,7 +3477,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="967" xml:id="l967">Quoy, vous serez jaloux ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ouy, si je deviens fou.</l>
               <l n="968" xml:id="l968">Jaloux ! Je ne voy pas ny comment ny par ou.</l>
@@ -3492,7 +3492,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="973" xml:id="l973">Vous nous déconcertez, cela se doit-il dire ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="974" xml:id="l974">Doive ou non, je m’en ris.</l>
             </sp>
@@ -3501,7 +3501,7 @@
               <l part="Y"><space/><space/>Mais pourquoy vous en rire ?</l>
               <l n="975" xml:id="l975">Puis qu’enfin vous l’aimez…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>C’est-là la question,</l>
               <l n="976" xml:id="l976">L’amour me cause encor peu d’indigestion<note n="270" place="bottom">Comprendre : L’amour ne m’inquiète guère, et j’ai le cœur…</note>,</l>
@@ -3516,7 +3516,7 @@
               <l n="978" xml:id="l978">Il m’en faut éclaircir, sans doute on m’a joüée.</l>
               <l n="979" xml:id="l979">Estes-vous le Marquis ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>La buse<note n="271" place="bottom">Buse : Sotte, niaise.</note> !</l>
             </sp>
@@ -3524,7 +3524,7 @@
               <speaker>OLYMPE.</speaker>
               <l part="Y"><space/><space/>Répondez.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="980" xml:id="l980">Vous mesme sçavez-vous ce que vous demandez ?</l>
             </sp>
@@ -3536,7 +3536,7 @@
               <speaker>LUCRECE.</speaker>
               <l part="Y"><space/><space/>Elle seroit bien forte.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="982" xml:id="l982">Si je suis le Marquis ? Ouy, le Diable m’emporte,</l>
               <l n="983" xml:id="l983">Je le suis.</l>
@@ -3545,7 +3545,7 @@
               <speaker>OLYMPE.</speaker>
               <l part="Y"><space/>Quoy, celuy qu’en <ref target="#qualite2">qualité*</ref> d’Epoux…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.    <pb n="F, 61"/></speaker>
               <l n="984" xml:id="l984">Celuy qui cette nuit avoit le rendez-vous.</l>
               <l n="985" xml:id="l985">Quel rendez-vous ! jamais je n’eus frayeur semblable,</l>
@@ -3562,7 +3562,7 @@
               <l n="990" xml:id="l990">A la fin je commence à percer le mystere,</l>
               <l n="991" xml:id="l991">Vous n’avez pû me voir ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Il m’avoit <ref target="#prevenir">prévenu*</ref>.</l>
               <l n="992" xml:id="l992">Mais dites, l’avez-vous long-temps entretenu ?</l>
@@ -3588,7 +3588,7 @@
               <l n="1002" xml:id="l1002">Celuy dont je t’ay tant élevé le merite,</l>
               <l n="1003" xml:id="l1003">Que j’ay crû le Marquis, c’estoit le Chevalier.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1004" xml:id="l1004">Vous donnez toutes deux dans le particulier,</l>
               <l n="1005" xml:id="l1005">Parlez haut, si l’amour à l’envy vous talonne,</l>
@@ -3600,7 +3600,7 @@
               <speaker>OLYMPE.</speaker>
               <l part="Y"><space/>Rien ne presse.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Et je veux presser, moy.</l>
             </sp>
@@ -3608,7 +3608,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="1009" xml:id="l1009">Un <ref target="#amant">Amant*</ref> prend toûjours l’ordre d’une <ref target="#maitresse2">maîtresse*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1010" xml:id="l1010">Bon pour les non marquis.</l>
             </sp>
@@ -3617,7 +3617,7 @@
               <l part="Y"><space/><space/>Ah, ma chere Lucrece,</l>
               <l n="1011" xml:id="l1011">Quel malheur est le mien ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Lucrece est un beau nom,</l>
               <l n="1012" xml:id="l1012">Est-ce par chasteté que vous l’avez pris ? non,</l>
@@ -3627,7 +3627,7 @@
               <speaker>LUCRECE.</speaker>
               <l part="Y"><space/><space/>Que me voulez-vous dire,</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1014" xml:id="l1014">Qu’une Lucrece en vous… regardez-moy sans rire.</l>
               <l n="1015" xml:id="l1015">Si, comme il est encor des Tarquins, par hazard</l>
@@ -3637,7 +3637,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="1017" xml:id="l1017">Je ne vous entens point.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Vous avez lû l’Histoire,</l>
               <l n="1018" xml:id="l1018">Coquine, vous riez.</l>
@@ -3646,7 +3646,7 @@
               <speaker>OLYMPE.</speaker>
               <l part="Y"><space/><space/>Qui l’eust jamais pû croire ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Olympe.</hi></speaker>
               <l n="1019" xml:id="l1019">Mais vous ne riez point, vous ?</l>
             </sp>
@@ -3654,7 +3654,7 @@
               <speaker>OLYMPE.</speaker>
               <l part="Y"><space/><space/>Moy rire ? et dequoy ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.    <pb n=" 63"/></speaker>
               <l n="1020" xml:id="l1020">De la voir rire. Elle est grassette.</l>
             </sp>
@@ -3662,7 +3662,7 @@
               <speaker>OLYMPE.</speaker>
               <l part="Y"><space/><space/>Laissez-moy.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1021" xml:id="l1021">Je veux…</l>
             </sp>
@@ -3670,7 +3670,7 @@
               <speaker>OLYMPE.</speaker>
               <l part="Y"><space/>Ne veuillez rien.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ah, petite doduë<note n="274" place="bottom">Dodüe : Grasse.</note>,</l>
               <l n="1022" xml:id="l1022">Pour un peu d’embonpoint vous faites l’entenduë<note n="275" place="bottom">Le marquis détourne l’expression « faire l’entendu », qui signifie qu’une personne « a une grande vanité » (F), de manière comique puisqu’ici Olympe aurait pour motif de vanité son « embonpoint ».</note> !</l>
@@ -3687,7 +3687,7 @@
               <l part="Y"><space/><space/> Où peut estre mon Père ?</l>
               <l n="1026" xml:id="l1026">Il le faut appeller.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Nous n’en avons que faire,</l>
               <l n="1027" xml:id="l1027">Ces bouquins<note n="276" place="bottom"> Bouquin : Le marquis utilise ici le terme de <hi rend="i">bouquin</hi> pour désigner Anselme par analogie avec son sens de « vieux livre qui n’est guere estimé » (Ac) afin d’insister sur l’âge avancé de ce dernier et de le tourner en dérision. Le terme est aussi utilisé au vers 1029, et ce dans le même sens.</note> du vieux temps ne sont propres à rien.</l>
@@ -3696,7 +3696,7 @@
               <speaker>OLYMPE.</speaker>
               <l n="1028" xml:id="l1028">Vous le traitez si mal…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je le traite assez bien.</l>
               <l n="1029" xml:id="l1029">Si le nom de bouquin est un nom qui le choque,</l>
@@ -3706,7 +3706,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="1031" xml:id="l1031">Mais quand vous vieillirez…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Pourquoy vieillir ? les ans</l>
               <l n="1032" xml:id="l1032">Ne sont faits proprement que pour les <ref target="#sot">sotes*</ref> <ref target="#gens1">gens*</ref>.</l>
@@ -3719,7 +3719,7 @@
               <speaker>OLYMPE.</speaker>
               <l part="Y"><space/><space/>Rien de vous ne me plaist.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1037" xml:id="l1037">Rien de moy ne vous plaist ? la laide, la mauvaise.</l>
             </sp>
@@ -3727,7 +3727,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="1038" xml:id="l1038">L’injurier !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Je veux que mon habit luy plaise,</l>
               <l n="1039" xml:id="l1039">Il est bien entendu, chamarré<note n="277" place="bottom">Chamarré : Orné de broderies, galons etc.</note> haut et bas,</l>
@@ -3737,7 +3737,7 @@
               <speaker>OLYMPE.</speaker>
               <l n="1041" xml:id="l1041">Qu’il me donne la main ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Vous ostant à mon frere,</l>
               <l n="1042" xml:id="l1042">J’étois fort résolu de n’en vouloir rien faire,</l>
@@ -3748,7 +3748,7 @@
               <speaker>OLYMPE.</speaker>
               <l n="1045" xml:id="l1045">M’épouser ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Dés demain.</l>
             </sp>
@@ -3756,15 +3756,15 @@
               <speaker>LUCRECE.</speaker>
               <l part="Y"><space/><space/>Oüy, si…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Point de replique.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1046" xml:id="l1046">Est-elle…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Contre vous gardez que je me pique<note n="278" place="bottom">Se piquer : « Se fâcher, se mettre en colère » (R).</note>,</l>
               <l n="1047" xml:id="l1047">Je vous épouserois toutes deux.</l>
@@ -3773,7 +3773,7 @@
               <speaker>LUCRECE.    <pb n=" 65"/></speaker>
               <l part="Y"><space/><space/>Bon cela.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Olympe.</hi></speaker>
               <l n="1048" xml:id="l1048">Oh, oh, ma Reine, donc vous en voulez par là.</l>
               <l n="1049" xml:id="l1049">J’en vay danser de joye.</l>
@@ -3783,7 +3783,7 @@
             <pb/>
             <head>SCENE IX.</head>
             <stage>LE MARQUIS, ANSELME, <lb/>OLYMPE, LUCRECE.</stage>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ah, vous voila, Beaupere.</l>
               <l n="1050" xml:id="l1050">Je croy qu’en vostre temps vous étiez un bon Frere.</l>
@@ -3794,7 +3794,7 @@
               <l part="Y"><space/><space/>Mais vieux,</l>
               <l n="1052" xml:id="l1052">Et c’est…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Courrez-vous point quelque fois les bons lieux ?</l>
               <l n="1053" xml:id="l1053">Vous en avez la mine, et tout vieux que vous estes…</l>
@@ -3812,7 +3812,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1057" xml:id="l1057">C’est qu’il est gay, ma fille.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Et gay seul plus que trente.</l>
               <l n="1058" xml:id="l1058">Je ne vois point icy paroistre de suivante.</l>
@@ -3822,7 +3822,7 @@
               <l n="1059" xml:id="l1059">Ma Fille en avoit une, il l’a falu chasser.</l>
               <l n="1060" xml:id="l1060">Certains tours trop rusez…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je veux la remplacer,</l>
               <l n="1061" xml:id="l1061">Vous en choisir moy-mesme une drôle, follete,</l>
@@ -3834,7 +3834,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1065" xml:id="l1065">Ma Fille aura toûjours si grand <ref target="#soin1">soin*</ref> de vous plaire…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1066" xml:id="l1066">Est-ce depuis long-temps que vous estes son Père ?</l>
             </sp>
@@ -3842,7 +3842,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1067" xml:id="l1067">Que répondre à cela ? je l’ay toûjours esté.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1068" xml:id="l1068">Toûjours ? quoy mesme avant vostre nativité ?</l>
               <l n="1069" xml:id="l1069">Le stupide !</l>
@@ -3851,7 +3851,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/>J’entens depuis qu’elle est au monde.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1070" xml:id="l1070">C’est aussi là-dessus que je veux qu’on réponde.</l>
               <l n="1071" xml:id="l1071">Quel âge a-t’elle ?</l>
@@ -3868,7 +3868,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1072" xml:id="l1072">Elle <ref target="#railler">raille*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Pourtant son teint n’est pas trop frais<note n="281" place="bottom">Frais : « Sain, robuste, reposé » (F).</note>.</l>
               <l n="1073" xml:id="l1073">Le laict de sa nourrice estoit-il bon ?</l>
@@ -3877,7 +3877,7 @@
               <speaker>LUCRECE.</speaker>
               <l part="Y"><space/><space/>Courage.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.     <pb n="67"/></speaker>
               <l n="1074" xml:id="l1074">Pas là l’humeur des <ref target="#gens1">gens*</ref>…</l>
             </sp>
@@ -3885,7 +3885,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/>N’en ayez point d’<ref target="#ombrage">ombrage*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1075" xml:id="l1075">Et sa Mere ? soit dit sans vous desobliger<note n="282" place="bottom">Desobliger : « Faire quelque desplaisir à quelqu’un, quelque incivilité, luy rendre de mauvais offices » (F).</note>,</l>
               <l n="1076" xml:id="l1076">Vous faisoit-elle point quelquefois enrager ?</l>
@@ -3896,7 +3896,7 @@
               <l n="1078" xml:id="l1078">De la Mere il ira jusqu’à la Bisayeule<note n="283" place="bottom">Bisayeule : arrière grand-mère.</note>,</l>
               <l n="1079" xml:id="l1079">Et si vous l’écoutez, vous courez grand hazard…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Olympe.</hi></speaker>
               <l n="1080" xml:id="l1080">Dequoy vous mélez-vous ?</l>
             </sp>
@@ -3905,7 +3905,7 @@
               <l part="Y"><space/><space/>Je dois y prendre part,                1080</l>
               <l n="1081" xml:id="l1081">Et ne pas endurer…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Vous devriez vous taire,</l>
               <l n="1082" xml:id="l1082">Voyez, elle fera la leçon à son Père.</l>
@@ -3916,7 +3916,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/> Il est juste.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/> A demain.</l>
             </sp>
@@ -3925,7 +3925,7 @@
               <l n="1085" xml:id="l1085">La comtesse d’Orgueil qu’on attend à toute heure</l>
               <l n="1086" xml:id="l1086">Réglera…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>J’ay reglé, l’un rit quand l’autre pleure,</l>
               <l n="1087" xml:id="l1087">Si vostre Fille est <ref target="#sot">sote*</ref>, à son Dam<note n="284" place="bottom">Dam : Perte, dommage.</note>.</l>
@@ -3941,7 +3941,7 @@
               <l part="Y"><space/><space/>J’ay de l’âge,</l>
               <l n="1090" xml:id="l1090">Taisez-vous.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Bon, voilà parler en homme sage.</l>
             </sp>
@@ -3949,7 +3949,7 @@
               <speaker>OLYMPE.</speaker>
               <l n="1091" xml:id="l1091">Plûtost que me resoudre…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Anselme.</hi></speaker>
               <l part="Y"><space/><space/>A croire son dépit</l>
               <l n="1092" xml:id="l1092">J’aurois dix mille écus portez par le <ref target="#dedit">dédit*</ref>,</l>
@@ -3960,7 +3960,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1095" xml:id="l1095">C’est un fruit de l’<ref target="#hymen">hymen*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je vous en déferay,</l>
               <l n="1096" xml:id="l1096">Elle a la teste creuse, et j’y remedieray.</l>
@@ -3975,7 +3975,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/> Encore un coup, taisez-vous.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Olympe.</hi></speaker>
               <l part="Y"><space/><space/>Je vous prie,</l>
               <l n="1099" xml:id="l1099">Finirez-vous bien-tost vos lamentables tons ?</l>
@@ -3984,7 +3984,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="1100" xml:id="l1100">Mais, mon Oncle, souffrez…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Voicy l’autre. Sortons,</l>
               <l n="1101" xml:id="l1101">Beaupere, mon carrosse est là bas, et je pense</l>
@@ -3994,7 +3994,7 @@
               <speaker>ANSELME.    <pb n=" 69"/></speaker>
               <l n="1103" xml:id="l1103">Il vaut mieux qu’icy seul…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Vous viendrez avec moy.</l>
             </sp>
@@ -4002,7 +4002,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1104" xml:id="l1104">J’aurois <ref target="#soin1">soin*</ref> de calmer…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Vous y viendrez, ma foy,</l>
               <l n="1105" xml:id="l1105">Je ne m’étonne pas si la Fille est testuë.</l>
@@ -4012,7 +4012,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/>Ah !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">le poussant.</hi></speaker>
               <l part="Y"><space/><space/>Marchez donc, là, quel pas de tortuë !</l>
             </sp>
@@ -4020,7 +4020,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1107" xml:id="l1107">Sortiray-je avant vous ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ouy : le maudit Vieillard !</l>
               <l n="1108" xml:id="l1108">Qu’il aime à contester ! Les Belles, Dieu vous gard.</l>
@@ -4154,7 +4154,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="1141" xml:id="l1141">Estes-vous satisfait ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Quelle aimable surprise !</l>
               <l n="1142" xml:id="l1142">Quoy, Madame, à l’espoir Olympe m’authorise ?</l>
@@ -4203,7 +4203,7 @@
               <l n="1166" xml:id="l1166">Carlin à son Marquis me fist faire message,</l>
               <l n="1167" xml:id="l1167">Ainsi tout ira bien.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/> Mais par où me flater</l>
               <l n="1168" xml:id="l1168">Qu’Anselme à son defaut<note n="291" place="bottom">Au defaut de quelqu’un: « à la place de » (F).</note> daignera m’écouter ?</l>
@@ -4222,7 +4222,7 @@
               <l n="1178" xml:id="l1178">Peut forcer le Marquis à rompre de luy-mesme.</l>
               <l n="1179" xml:id="l1179">C’est dequoy divertir Oronte à son retour.                     <pb n="74"/></l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="1180" xml:id="l1180">Vous aurez cette joye avant la fin du jour.</l>
             </sp>
@@ -4230,7 +4230,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="1181" xml:id="l1181">Il ne part point ?</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Chez vous vous le verrez se rendre.</l>
               <l n="1182" xml:id="l1182">Les ordres sont changez, on vient de me l’<ref target="#apprendre1">apprendre*</ref>.</l>
@@ -4243,7 +4243,7 @@
               <l n="1186" xml:id="l1186">A voir qu’on se servit du nom de la Comtesse,</l>
               <l n="1187" xml:id="l1187">Ainsi jusqu’au succez cachez-luy ce <ref target="#dessein">dessein*</ref>.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="1188" xml:id="l1188">Mais pour joüer ce rôle…</l>
             </sp>
@@ -4330,7 +4330,7 @@
             <pb/>
             <head>SCENE III.</head>
             <stage>LUCRECE, LE CHEVALIER, <lb/>VIRGINE, LYSE, CARLIN.</stage>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>Et bien ?</l>
             </sp>
@@ -4377,7 +4377,7 @@
             <pb/>
             <head>SCENE IV.</head>
             <stage>LE MARQUIS, LYSE, <lb/>CARLIN.</stage>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Lyse.</hi></speaker>
               <l n="1226" xml:id="l1226">Qu’en dis-tu ? Suis-je exact ? J’ay promis, je m’acquite.</l>
               <l n="1227" xml:id="l1227">La Comtesse ?</l>
@@ -4387,7 +4387,7 @@
               <l part="Y"><space/><space/>Je vay l’avertir de ce pas.</l>
               <l n="1228" xml:id="l1228">Qu’elle en aura de joye !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ah, je n’en doute pas.</l>
               <l n="1229" xml:id="l1229">J’ay quité sans mot dire un Trio de Marquises</l>
@@ -4400,7 +4400,7 @@
               <speaker>LYSE.</speaker>
               <l n="1234" xml:id="l1234">Vous en serez payé largement.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je le pense.                    <pb n="78"/></l>
             </sp>
@@ -4409,7 +4409,7 @@
             <pb/>
             <head>SCENE V.</head>
             <stage>LE MARQUIS, CARLIN.</stage>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1235" xml:id="l1235">Cette maison est belle.</l>
             </sp>
@@ -4417,7 +4417,7 @@
               <speaker>CARLIN.</speaker>
               <l part="Y"><space/><space/>Et le meuble ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Encor plus.</l>
             </sp>
@@ -4426,7 +4426,7 @@
               <l n="1236" xml:id="l1236">La Comtesse a pris <ref target="#soin1">soins*</ref> d’amasser des escus ;</l>
               <l n="1237" xml:id="l1237">Il la faut mitonner<note n="299" place="bottom">Mitonner : « Caresser, choyer une personne, la traiter favorablement, pour gagner ou pour conserver ses bonnes graces » (F).</note>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Grace à ma destinée,</l>
               <l n="1238" xml:id="l1238">Je la tiens déjà prise, et toute mitonnée.</l>
@@ -4438,7 +4438,7 @@
               <l n="1240" xml:id="l1240">Les Veusves d’ordinaire aiment le radoucy<note n="300" place="bottom"> Comprendre : Faites bien le distant/ Les Veuves d’ordinaire aiment l’appaisé. En effet, le terme <hi rend="i">transy</hi> renvoie selon Furetière à celui « qui demeure froid et timide au plus fort d’une passion qui devroit l’eschauffer et l’enhardir » (voir aussi la note du vers 420).</note>.</l>
               <l n="1241" xml:id="l1241">C’est par là qu’on les prend.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Pour peu qu’elle m’entende,</l>
               <l n="1242" xml:id="l1242">A moins que d’estre beste il faut qu’elle se rende.</l>
@@ -4449,7 +4449,7 @@
               <l n="1244" xml:id="l1244">Il est toûjours en l’air, et ne va que par bonds.</l>
               <l n="1245" xml:id="l1245">Vous en serez charmé.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>S’il a ces avantages,</l>
               <l n="1246" xml:id="l1246">Nous pourrons elle et moy faire de grands voyages.</l>
@@ -4459,7 +4459,7 @@
               <speaker>CARLIN.    <pb n=" 79"/></speaker>
               <l part="Y"><space/><space/>La voicy.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>L’air m’en plaist.</l>
             </sp>
@@ -4472,7 +4472,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1248" xml:id="l1248">Rentrez page.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Carlin.</hi></speaker>
               <l part="Y"><space/><space/>Du reste il faut voir ce que c’est.</l>
             </sp>
@@ -4480,7 +4480,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1249" xml:id="l1249">Qu’aujourd’huy mon étoile est heureuse !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Madame,</l>
               <l n="1250" xml:id="l1250">Je m’étois fait de vous un portrait…Sur mon ame,</l>
@@ -4497,7 +4497,7 @@
               <l n="1258" xml:id="l1258">Leur clarté doit pourtant estre bien endormie.</l>
               <l n="1259" xml:id="l1259">Les Veilles, la fatigue…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ah, je suis enchanté.</l>
               <l n="1260" xml:id="l1260">Que des yeux, la fatigue endorme la clarté.</l>
@@ -4507,7 +4507,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1262" xml:id="l1262">L’enfleure de l’esprit paroist dans le haut <ref target="#stile">stile*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Carlin.</hi></speaker>
               <l n="1263" xml:id="l1263">L’Enfleure !</l>
             </sp>
@@ -4515,7 +4515,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/><space/>Qu’avec vous je ferois de profit !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1264" xml:id="l1264">Ah !</l>
             </sp>
@@ -4523,7 +4523,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/>Vous ne dites rien qui ne soit si bien dit…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1265" xml:id="l1265">Qu’on me donne deux mois, et je vay vous <ref target="#apprendre2">apprendre*</ref></l>
               <l n="1266" xml:id="l1266">Ce qu’un autre en dix ans ne seroit pas comprendre.</l>
@@ -4536,7 +4536,7 @@
               <l n="1270" xml:id="l1270">Il est, je l’avouëray, peu d’esprits diaphanes<note n="307" place="bottom">Diaphane : Transparent. Le terme est utilisé ici de façon métaphorique pour exprimer le fait que les esprits dont le Marquis et Virgine sont souvent peu clairs et ignorants.</note>,</l>
               <l n="1271" xml:id="l1271">De ces esprits, à jour bien ouverts.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>C’est pitié !</l>
               <l n="1272" xml:id="l1272">Aussi<note n="308" place="bottom">Il semble que « aussi » serve ici « à marquer la conformité de la proposition qui suit, avec celle qui precede » et ainsi, il signifie « C’est pourquoy » (Ac).</note> pour la plus part j’en rabats de moitié. </l>
@@ -4546,7 +4546,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/><space/>Que vous estes à plaindre !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1274" xml:id="l1274">Si je le suis ? bien plus qu’on ne croit, sans rien feindre</l>
               <l n="1275" xml:id="l1275">De cent Belles à qui je parois en conter,</l>
@@ -4559,7 +4559,7 @@
               <speaker>VIRGINE.     <pb n="81"/></speaker>
               <l part="Y"><space/><space/>Pourquoy les voyez-vous ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1280" xml:id="l1280">Qui donc voir ? il faut bien hurler avec les loups<note n="309" place="bottom">Comprendre : il faut bien faire comme les autres.</note>.</l>
               <l n="1281" xml:id="l1281">On me cherche, on me court, je suis bon, comment faire ?</l>
@@ -4568,7 +4568,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1282" xml:id="l1282">Vous soufrez bien, je pense, à force de trop plaire.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1283" xml:id="l1283">Si je voulois tenir papier de tous les cœurs…</l>
             </sp>
@@ -4577,7 +4577,7 @@
               <l n="1284" xml:id="l1284">Qu’on vous fait chaque jour paroîstre de langueurs !</l>
               <l n="1285" xml:id="l1285">Que d’amoureux transports* qui s’échapent !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je meure,</l>
               <l n="1286" xml:id="l1286">Je suis sourd des soûpirs* que j’entens à toute heure.</l>
@@ -4587,7 +4587,7 @@
               <l n="1287" xml:id="l1287">Il en est qui pour vous auroient pû s’enhardir,</l>
               <l n="1288" xml:id="l1288">Mais puis que l’on connoit que c’est vous assourdir…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1289" xml:id="l1289">M’assourdir ? non pas vous.</l>
             </sp>
@@ -4595,7 +4595,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/><space/>Ah !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ma belle Comtesse,</l>
               <l n="1290" xml:id="l1290"><ref target="#soupirer">Soûpirez*</ref> à vôtre aise, et que rien ne vous presse.</l>
@@ -4613,7 +4613,7 @@
               <l n="1295" xml:id="l1295">L’assaut que sa langueur me livre à l’impourvû<note n="310" place="bottom">A l’impourvû : A l’improviste (R).</note>…                <pb n="82"/></l>
               <l n="1296" xml:id="l1296">Ah, Monsieur le Marquis, pourquoy vous ay-je vû ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1297" xml:id="l1297">Ne vous repentez point, Comtesse de mon ame,</l>
               <l n="1298" xml:id="l1298">Si vous estes en <ref target="#feu1">feu*</ref>, je me sents tout en <ref target="#flame">flâme*</ref>,</l>
@@ -4625,7 +4625,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/>Monsieur le Marquis, voulez-vous que je meure ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1302" xml:id="l1302">Non, pourquoy tant souffrir ? guerissez-vous sur l’heure</l>
               <l n="1303" xml:id="l1303">Et sans mettre avec moy cent <ref target="#soupirs">soûpirs*</ref> bout à bout,</l>
@@ -4636,7 +4636,7 @@
               <l n="1305" xml:id="l1305">La Comtesse d’Orgueil seroit assez heureuse</l>
               <l n="1306" xml:id="l1306">Pour meriter le choix…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ouy, ma belle Orgueilleuse,</l>
               <l n="1307" xml:id="l1307">Mon cœur de tous les cœurs l’inévitable écueil,</l>
@@ -4646,7 +4646,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1309" xml:id="l1309">Je pourrois vous avoir tout à moy, sans partage ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1310" xml:id="l1310">Tout.</l>
             </sp>
@@ -4658,7 +4658,7 @@
               <l n="1313" xml:id="l1313">L’<ref target="#hymen">hymen*</ref> peut dés demain nous unir l’un à l’autre.</l>
               <l n="1314" xml:id="l1314">Ordonnez du Contract, tout mon bien est le vôtre.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">bas à Carlin.</hi></speaker>
               <l n="1315" xml:id="l1315">Carlin, si je conclus, après le mot lâché</l>
               <l n="1316" xml:id="l1316">Tu diras que de moy je fais trop bon marché ?</l>
@@ -4668,7 +4668,7 @@
               <l n="1317" xml:id="l1317">Sans les meubles elle a dix mille écus de rente.</l>
               <l n="1318" xml:id="l1318">Vous pourriez trouver mieux.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>J’en trouverois cinquante.</l>
               <l n="1319" xml:id="l1319">Mais l’esprit ?</l>
@@ -4677,7 +4677,7 @@
               <speaker>CARLIN.</speaker>
               <l part="Y"><space/><space/>C’est à vous, Monsieur, à vous sonder.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1320" xml:id="l1320">Les autres avec moy semblent guoguenarder<note n="312" place="bottom">Guoguenarder : « Railler, plaisanter, dire des mots pour rire. » (F).</note>.</l>
               <l n="1321" xml:id="l1321">Celle-cy parle juste, est <ref target="#accorte">accorte*</ref>, et sçait vivre.</l>
@@ -4689,7 +4689,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1324" xml:id="l1324">Mon cher Marquis.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Carlin.</hi></speaker>
               <l part="Y"><space/><space/> De joye elle se pâmera.</l>
             </sp>
@@ -4697,7 +4697,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1325" xml:id="l1325">Qu’au brillant de mon astre on va porter envie !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1326" xml:id="l1326">J’en sçay qui creveront.</l>
             </sp>
@@ -4705,7 +4705,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/><space/>Que j’en seray ravie !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1327" xml:id="l1327">Garde aussi le poison, si l’on sçait que mon choix…</l>
             </sp>
@@ -4725,7 +4725,7 @@
               <speaker>LYSE.    <pb n=" 84"/></speaker>
               <l n="1330" xml:id="l1330">On a suivy vôtre ordre.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Il vous trouve mignonne,</l>
               <l n="1331" xml:id="l1331">Ce Duc ?</l>
@@ -4734,7 +4734,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/>Malgré l’ardeur de son <ref target="#empressements">empressement*</ref>…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1332" xml:id="l1332">Vous en voudroit-il concubinalement ?</l>
             </sp>
@@ -4742,7 +4742,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1333" xml:id="l1333">Concubinalement.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Sans couroux, ma Comtesse.</l>
               <l n="1334" xml:id="l1334">Vous sçavez que Nature est un peu larronnesse,</l>
@@ -4753,7 +4753,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1337" xml:id="l1337">Le Duc est grand amy de mon frere.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>D’Oronte ?</l>
             </sp>
@@ -4761,7 +4761,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1338" xml:id="l1338">Quoy, vous le cognoissez ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ah !</l>
             </sp>
@@ -4769,7 +4769,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/><space/>Que j’en ay de honte !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1339" xml:id="l1339">A certaine Lucrece…</l>
             </sp>
@@ -4783,7 +4783,7 @@
               <l n="1344" xml:id="l1344">Cette Lucrece est roche, et c’est ce qui l’a pris.</l>
               <l n="1345" xml:id="l1345">Est-elle belle ?                                <pb n="H, 85"/></l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Non, c’est un nez…une bouche…</l>
               <l n="1346" xml:id="l1346">Des yeux…un teinte…Enfin elle n’a rien qui touche,</l>
@@ -4794,7 +4794,7 @@
               <l part="Y"><space/><space/>Trop tost, j’en meurs déjà de peur,</l>
               <l n="1348" xml:id="l1348">Car enfin le bourgeois me fait si mal au cœur…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1349" xml:id="l1349">Aussi fait-il à moy.</l>
             </sp>
@@ -4804,7 +4804,7 @@
               <l n="1350" xml:id="l1350">Son bien repare assez le manque de Noblesse,</l>
               <l n="1351" xml:id="l1351">Mais il est une Olympe…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Et bien ?</l>
             </sp>
@@ -4820,7 +4820,7 @@
               <l n="1354" xml:id="l1354">Est si <ref target="#sot">sot*</ref> que d’Anselme il épouse la Fille.</l>
               <l n="1355" xml:id="l1355">Le Voyla bien logé<note n="313" place="bottom">On utilise cette expression pour « celuy qui s’opiniastre dans quelque sentiment peu raisonnable » (F).</note>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Comment ?</l>
             </sp>
@@ -4828,7 +4828,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/><space/>Elle n’a rien.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1356" xml:id="l1356">Ne dit-on pas qu’Anselme…</l>
             </sp>
@@ -4840,7 +4840,7 @@
               <l n="1359" xml:id="l1359"><space/>Des grands deniers<note n="314" place="bottom"> Denier : « Argent, somme d’argent » (Ac) ; à l’origine, le terme <hi rend="i">denier</hi> désigne une « espece de monnoye de cuivre, valant la douziesme partie d’un sol » (Ac).</note> qu’il touche il ébloüit les yeux,                <pb n="86"/></l>
               <l n="1360" xml:id="l1360">Une Dupe à trouver…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/><space/>On en trouve en tous lieux,</l>
               <l n="1361" xml:id="l1361">Ne nous vantons point, Carlin.</l>
@@ -4854,7 +4854,7 @@
               <l n="1362" xml:id="l1362">Cette Olympe a d’ailleurs la tache de sa Mere,</l>
               <l n="1363" xml:id="l1363">Qui tombant du haut mal…<note n="315" place="bottom"> Tomber du haut mal : faire une crise d’épilepsie, autrefois appelée le <hi rend="i">haut mal</hi> ou populairement le mal de Saint Jean.</note></l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Du haut mal ? j’en dit fy.</l>
             </sp>
@@ -4881,7 +4881,7 @@
               <l n="1372" xml:id="l1372">Mais les dix mille écus, Anselme a vostre fait,</l>
               <l n="1373" xml:id="l1373">Comment le retirer ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Il faut pourtant le faire.</l>
             </sp>
@@ -4905,7 +4905,7 @@
               <speaker>LYSE.</speaker>
               <l part="Y"><space/><space/>Il monte ; promptement.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1376" xml:id="l1376">Et quand il la verroit ?</l>
             </sp>
@@ -4918,7 +4918,7 @@
               <speaker>LYSE <hi rend="i">au Marquis</hi> ;</speaker>
               <l n="1378" xml:id="l1378">Suivez viste.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Il faut donc aussi que je me cache ?</l>
             </sp>
@@ -4926,7 +4926,7 @@
               <speaker>LYSE.</speaker>
               <l n="1379" xml:id="l1379">Entrez.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Il n’est plus temps, il m’a vû, le voicy.</l>
             </sp>
@@ -4939,7 +4939,7 @@
               <speaker>ORONTE.</speaker>
               <l n="1380" xml:id="l1380">Ah, Monsieur le Marquis, que faites vous icy ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1381" xml:id="l1381">Je venois m’informer si la belle Comtesse…</l>
             </sp>
@@ -4963,7 +4963,7 @@
               <l n="1387" xml:id="l1387">Il vient icy sans cesse, et pour m’en <ref target="#garantir">garantir*</ref></l>
               <l n="1388" xml:id="l1388">Je fais dire souvent que je viens de sortir<note n="317" place="bottom">Comprendre : Le Duc et ses domestiques m’importunent par leurs demandes ; il (le Duc) vient ici sans cesse, donc pour me préserver de lui, je fais souvent dire que je viens de sortir.</note>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1389" xml:id="l1389">Ce Duc n’a pas le goust dépravé ; la Comtesse</l>
               <l n="1390" xml:id="l1390">Fait bien enrager ceux qui n’aiment pas la presse.</l>
@@ -4973,7 +4973,7 @@
               <speaker>ORONTE.</speaker>
               <l part="Y"><space/><space/>Le Duc lui fait honneur.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1392" xml:id="l1392">Lui fait honneur ? là là.</l>
             </sp>
@@ -4986,7 +4986,7 @@
               <speaker>ORONTE.</speaker>
               <l n="1394" xml:id="l1394">C’est un fou toûjours prest à dire une <ref target="#sottise">sottise*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1395" xml:id="l1395">La Comtesse par tout emportera le prix.</l>
               <l n="1396" xml:id="l1396">Dans sa petite taille elle a l’air si bien pris…</l>
@@ -5003,7 +5003,7 @@
               <speaker>ORONTE.</speaker>
               <l part="Y"><space/><space/>En est-il de plus grandes ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1398" xml:id="l1398">Ou diable a-t’il les yeux ? s’il en est ? et par bandes.</l>
             </sp>
@@ -5011,7 +5011,7 @@
               <speaker>ORONTE.</speaker>
               <l n="1399" xml:id="l1399">Pour vous, estant Geante, elle auroit plus d’<ref target="#appas">appas*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1400" xml:id="l1400">Geante !</l>
             </sp>
@@ -5019,7 +5019,7 @@
               <speaker>ORONTE <hi rend="i">à Lyse.</hi><pb n=" 89"/></speaker>
               <l part="Y"><space/>Il parle d’elle, et ne la connoit pas.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1401" xml:id="l1401">Je ne la connois pas dites vous ? par exemple,</l>
               <l n="1402" xml:id="l1402">Elle a les cheveux bruns, le nez court, le front ample,</l>
@@ -5032,7 +5032,7 @@
               <l part="Y"><space/>Ce portrait est le plus beau du monde,</l>
               <l n="1406" xml:id="l1406">Mais si je vous disois que la Comtesse est blonde ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1407" xml:id="l1407">Et si je vous disois que j’ay l’œil de travers,</l>
               <l n="1408" xml:id="l1408">Le visage de singe, et la mine à l’envers,</l>
@@ -5048,7 +5048,7 @@
               <l part="Y"><space/><space/>Je le voy,</l>
               <l n="1412" xml:id="l1412">Ma sœur vous est du moins connuë autant qu’à moy.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1413" xml:id="l1413">Sçay-je peindre ?</l>
             </sp>
@@ -5057,7 +5057,7 @@
               <l part="Y"><space/><space/>On n’en peut conserver mieux l’idée,</l>
               <l n="1414" xml:id="l1414">Mais où l’avez-vous veuë ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Où je l’ay regardée.</l>
             </sp>
@@ -5065,7 +5065,7 @@
               <speaker>ORONTE.</speaker>
               <l n="1415" xml:id="l1415">Encor, quelle rencontre…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Il n’importe comment.</l>
               <l n="1416" xml:id="l1416">Ces Freres curieux parlent si lentement.</l>
@@ -5075,7 +5075,7 @@
               <speaker>ORONTE.    <pb n=" 90"/></speaker>
               <l n="1418" xml:id="l1418">J’admire…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Admirez donc, vous en verrez bien d’autres.</l>
             </sp>
@@ -5092,7 +5092,7 @@
               <speaker>ORONTE.</speaker>
               <l part="Y"><space/><space/>Ah, Monsieur.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Carlin.</hi></speaker>
               <l part="Y"><space/><space/>Où va-t’il ?</l>
               <l n="1420" xml:id="l1420">Ce diable de Beaupere a l’odorat subtil ?</l>
@@ -5132,7 +5132,7 @@
               <l part="Y"><space/><space/>Lyse, retire toy.</l>
               <l n="1433" xml:id="l1433">Vous pouvez tout icy.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Carlin.</hi></speaker>
               <l part="Y"><space/><space/>Le Beaupere demeure.</l>
             </sp>
@@ -5140,7 +5140,7 @@
               <speaker>LYSE <hi rend="i">au Marquis.</hi></speaker>
               <l n="1434" xml:id="l1434">Monsieur, défaites-nous du Vieillard.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Tout à l’heure<note n="320" place="bottom">Tout à l’heure : tout de suite.</note>.</l>
               <l n="1435" xml:id="l1435">Carlin, s’il va parler ?</l>
@@ -5155,7 +5155,7 @@
               <l part="Y"><space/><space/>Comme on ne peut trop tost</l>
               <l n="1436" xml:id="l1436">Appaiser les debats qui…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Le reste à tantost,</l>
               <l n="1437" xml:id="l1437">Serviteur.</l>
@@ -5164,7 +5164,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/>Quatre mots.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>En maison étrangere,</l>
               <l n="1438" xml:id="l1438">N’en eust-on qu’un à dire, il est bon de se taire.</l>
@@ -5173,7 +5173,7 @@
               <speaker>ANSELME.     <pb n="92"/></speaker>
               <l n="1439" xml:id="l1439">Puisqu’on sçait que pour vous ma Fille…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/> On ne sçait rien,</l>
               <l n="1440" xml:id="l1440">Décampez.</l>
@@ -5182,7 +5182,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/> A quoy bon me pousser ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je sais bien,</l>
               <l n="1441" xml:id="l1441">A quoy bon m’étourdir, vous ?</l>
@@ -5191,7 +5191,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/>L’<ref target="#avis2">avis*</ref> est utile.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1442" xml:id="l1442">Je ne veux point d’<ref target="#avis2">avis*</ref>.</l>
             </sp>
@@ -5199,7 +5199,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/>Ecoutez.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>L’imbecille !</l>
               <l n="1443" xml:id="l1443">Faire écoutez les <ref target="#gens1">Gens*</ref>.</l>
@@ -5209,7 +5209,7 @@
               <l part="Y"><space/><space/>N’entrez point en couroux ;</l>
               <l n="1444" xml:id="l1444">Si vous sçaviez…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Tantost j’iray sçavoir chez vous,</l>
               <l n="1445" xml:id="l1445">Ne vous suffit-il pas ?</l>
@@ -5218,7 +5218,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/>Peut-estre…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Allez m’attendre.</l>
             </sp>
@@ -5226,7 +5226,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1446" xml:id="l1446">Vous estant tout de mesme offert à moy pour Gendre…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1447" xml:id="l1447">Tu ne te tairas point, vieux loup-garou<note n="321" place="bottom">Loup-garou : « se dit figurément d’un homme bourru et fantasque, qui vit seul et esloigné de toute compagnie » (F). Le terme vient compléter une série d’injures adressées à Anselme au sujet de son âge et de sa position sociale.</note> ?</l>
             </sp>
@@ -5236,7 +5236,7 @@
               <l n="1448" xml:id="l1448">Vous ne vous moquerez d’Olympe ny de moy,</l>
               <l n="1449" xml:id="l1449">Je ne suis que Bourgeois, mais…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Qui te le conteste ?</l>
             </sp>
@@ -5249,7 +5249,7 @@
               <speaker>CARLIN <hi rend="i">au Marquis</hi> ;</speaker>
               <l part="Y"><space/>Qu’il est <ref target="#mutin">mutin*</ref> !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Le traistre m’a perdu.</l>
             </sp>
@@ -5257,7 +5257,7 @@
               <speaker>CARLIN.</speaker>
               <l n="1452" xml:id="l1452">Je croy que la Comtesse aura tout entendu.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1453" xml:id="l1453">J’enrage.</l>
             </sp>
@@ -5274,7 +5274,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1454" xml:id="l1454">Ah, Monsieur le Marquis, je suis desesperée.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1455" xml:id="l1455">Ma Reine, un peu de cœur.</l>
             </sp>
@@ -5282,7 +5282,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/><space/>Non, laissez-moy mourir.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1456" xml:id="l1456">Ne vous pressez point tant, j’ay dequoy vous guerir.</l>
             </sp>
@@ -5290,7 +5290,7 @@
               <speaker>VIRGINE.     <pb n="94"/></speaker>
               <l n="1457" xml:id="l1457">Vous ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Moy.</l>
             </sp>
@@ -5300,7 +5300,7 @@
               <l n="1458" xml:id="l1458">Olympe…Ah non fatal, que me viens-tu d’<ref target="#apprendre1">apprendre*</ref> ?</l>
               <l n="1459" xml:id="l1459">C’estoit donc vous…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>En <ref target="#vain">vain*</ref> je l’ay dissimulé,</l>
               <l n="1460" xml:id="l1460">Je suis le <ref target="#campagnard">Campagnard*</ref> dont on vous a parlé,</l>
@@ -5311,7 +5311,7 @@
               <l part="Y"><space/><space/>Olympe a sceu vous plaire ?</l>
               <l n="1462" xml:id="l1462">Ah !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Je n’ay fait le <ref target="#sot">sot*</ref> que pour berner mon Frere,</l>
               <l n="1463" xml:id="l1463">Certain Cadet qu’au monde on voit mince et leger<note n="323" place="bottom">Mince et leger : peu considéré.</note>,</l>
@@ -5327,7 +5327,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1471" xml:id="l1471">C’est là mon desespoir, qu’une Bourgeoise…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Non.</l>
               <l n="1472" xml:id="l1472">En m’offrant au Veillard parlois-je tout de bon ?</l>
@@ -5336,7 +5336,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1473" xml:id="l1473">Mais le <ref target="#dedit">dédit*</ref> signé…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Quitte à l’aller reprendre,</l>
               <l n="1474" xml:id="l1474">Deux mots, et trop heureux encor de me le rendre.</l>
@@ -5360,7 +5360,7 @@
               <l part="Y"><space/><space/>Quoy, Lyse,</l>
               <l n="1483" xml:id="l1483">Tu veux donc <ref target="#hazarder">hazarder*</ref>…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Que <ref target="#hazarder">hazarderez*</ref>-vous ?</l>
             </sp>
@@ -5369,7 +5369,7 @@
               <l n="1484" xml:id="l1484">L’amour n’est guere fort quand il n’est point jaloux.</l>
               <l n="1485" xml:id="l1485">Olympe vous voyant essayera de vous plaire.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1486" xml:id="l1486">Je sçay sa tache, il faut y rembarquer<note n="324" place="bottom">Rembarquer : Rengager.</note> mon Frere.</l>
               <l n="1487" xml:id="l1487">Ma foy, je riray bien si pour don nuptial</l>
@@ -5379,7 +5379,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1489" xml:id="l1489">Mais ne peut-elle pas vous paroistre si belle…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1490" xml:id="l1490">Rien n’est plus laid.</l>
             </sp>
@@ -5387,7 +5387,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/><space/>Enfin vous me serez fidele ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1491" xml:id="l1491">Le <ref target="#dedit">dédit*</ref> rendu nul, je suis à vous ce soir,</l>
               <l n="1492" xml:id="l1492">Touchez, foy de Marquis.</l>
@@ -5397,7 +5397,7 @@
               <l part="Y"><space/><space/>Je vis sur cét espoir,</l>
               <l n="1493" xml:id="l1493">Mais si vous me trompez…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.    <pb n=" 96"/></speaker>
               <l part="Y"><space/><space/>Vous tromper ! je n’ay garde.</l>
             </sp>
@@ -5406,7 +5406,7 @@
               <l n="1494" xml:id="l1494">Craignez tout, il n’est rien où je me <ref target="#hazarder">hazarde*</ref>.</l>
               <l n="1495" xml:id="l1495">Eclat, <ref target="#emportement">emportement*</ref>, fer, poison.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>J’auroy <ref target="#soin1">soin*</ref></l>
               <l n="1496" xml:id="l1496">En pressant mon retour qu’il n’en soir pas besoin.</l>
@@ -5689,7 +5689,7 @@
             <pb/>
             <head>SCENE V.</head>
             <stage>LE MARQUIS, VIRGINE, <lb/>CARLIN.</stage>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à un domestique d’Anselme.</hi></speaker>
               <l part="Y"><space/>Cours dire au vieillard qu’il me vienne trouver,</l>
               <l n="1597" xml:id="l1597">Que je pretens icy m’expliquer teste à teste.</l>
@@ -5703,7 +5703,7 @@
               <l part="Y"><space/><space/>Ne fay pas la beste<note n="335" place="bottom">Faire la beste : « Faire quelque chose mal à propos, et contre son devoir ou contre la bienseance » (Ac). L’emploi de l’expression s’explique par le fait que Virgine perde son sang froid en voyant arriver le Marquis ; Carlin le lui reproche.</note>,</l>
               <l n="1599" xml:id="l1599">Il se faut comme on peut tirer d’un mauvais pas.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1600" xml:id="l1600">Me trompay-je, Carlin ?</l>
             </sp>
@@ -5712,7 +5712,7 @@
               <l part="Y"><space/><space/>Ne me découvrez pas,</l>
               <l n="1601" xml:id="l1601">Marquis.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>C’est la Comtesse. Ah, ma chere.</l>
             </sp>
@@ -5720,7 +5720,7 @@
               <speaker>CARLIN <hi rend="i">à Virgine.</hi></speaker>
               <l part="Y"><space/><space/>Courage.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1602" xml:id="l1602">Vous trouvez chez Anselme, et dans cét équipage<note n="336" place="bottom">Equipage : habit.</note> !</l>
             </sp>
@@ -5750,7 +5750,7 @@
               <l n="1618" xml:id="l1618">Les bontez que déjà vous m’avez fait paroistre,</l>
               <l n="1619" xml:id="l1619">Voyant ce que je fais vous me prefererez.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1620" xml:id="l1620">J’ay de ravissement<note n="337" place="bottom">Ravissement : « mouvement de l’esprit lors qu’il est transporté de joye, d’admiration » (Ac).</note> les sens tous égarez.</l>
               <l n="1621" xml:id="l1621">Carlin, ay-je le don de charmer les mieux faites ?</l>
@@ -5764,7 +5764,7 @@
               <l part="Y"><space/><space/>Ay-je l’<ref target="#heur">heur*</ref> de vous plaire</l>
               <l n="1626" xml:id="l1626">Par ce que vous voyez que l’amour m’a fait faire ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1627" xml:id="l1627">Il vous a fait choisir un employ des plus bas,</l>
               <l n="1628" xml:id="l1628">Mais enfin c’est pour moy, vous ne le perdrez pas.</l>
@@ -5773,7 +5773,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1629" xml:id="l1629">Pourvû que vous rompiez, et qu’Olympe ait la honte…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1630" xml:id="l1630">Laissez faire, à present la Bourgeoise à son compte,</l>
               <l n="1631" xml:id="l1631">Mais pour la faire rire, et vous mettre en repos,                     <pb n="105"/></l>
@@ -5785,7 +5785,7 @@
               <l part="Y"><space/><space/>Sur tout sans plus attendre</l>
               <l n="1634" xml:id="l1634">Déchirons le <ref target="#dedit">dédit*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je sçay par où m’y prendre :</l>
               <l n="1635" xml:id="l1635">Mais pour m’encourager…</l>
@@ -5794,7 +5794,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/><space/>Ah, point d’<ref target="#emportement">emportement*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1636" xml:id="l1636">Ma Comtesse.</l>
             </sp>
@@ -5802,7 +5802,7 @@
               <speaker>VIRGINE.</speaker>
               <l part="Y"><space/><space/>Arrestez.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Un baiser seulement,</l>
               <l n="1637" xml:id="l1637">Je vous en tiendray compte, et…</l>
@@ -5817,7 +5817,7 @@
               <l part="Y"><space/><space/>La piece est <ref target="#galante">galante*</ref>,</l>
               <l n="1638" xml:id="l1638">Vous fuyez la Maistresse, et courez la suivante ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1639" xml:id="l1639">J’en veux par là. Cassé<note n="339" place="bottom">Cassé : « Infirme » (R).</note>, vieux, et prest à mourir,</l>
               <l n="1640" xml:id="l1640">Vous enragez assez de ne pouvoir courir.</l>
@@ -5834,7 +5834,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/>Tay-toy.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Pourquoy se tayre ?</l>
               <l n="1643" xml:id="l1643">Je veux qu’elle raisonne, et quand il me plaira</l>
@@ -5844,7 +5844,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1645" xml:id="l1645">Vous prenez son party d’un air…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je veux le prendre,</l>
               <l n="1646" xml:id="l1646">Qu’en est-il ?</l>
@@ -5860,7 +5860,7 @@
               <l n="1648" xml:id="l1648">Et déjà…c’est assez, n’en sois point en soucy.</l>
               <l n="1649" xml:id="l1649">Rentre.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Pourquoy rentrer ?</l>
             </sp>
@@ -5868,7 +5868,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/>Rentre te dis-je.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ventre.</l>
               <l n="1650" xml:id="l1650">Gardez de m’échaufer, je ne veux pas qu’elle entre.</l>
@@ -5877,7 +5877,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1651" xml:id="l1651">Quoy, toûjours vos je veux ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ma foy, j’en suis d’<ref target="#avis1">avis*</ref></l>
               <l n="1652" xml:id="l1652">Qu’un pied plat<note n="341" place="bottom">Pied plat : « Terme de mespris qui se dit d’un paysan, d’un gros lourdaut, d’un campagnard grossier » (Ac).</note> comme vous <ref target="#gloser">glose*</ref> sur un Marquis.</l>
@@ -5889,7 +5889,7 @@
               <l n="1655" xml:id="l1655">Son <ref target="#hymen">hymen*</ref> avec vous n’est-il pas résolu ?</l>
               <l n="1656" xml:id="l1656">Vous le vouliez tantost</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je veux l’avoir voulu,</l>
               <l n="1657" xml:id="l1657">Bon pour lors, à présent il me plaist de m’en rire.</l>
@@ -5899,7 +5899,7 @@
               <l n="1658" xml:id="l1658">Mais dans ma Fille encor que trouvez-vous à dire ?</l>
               <l n="1659" xml:id="l1659">N’est-elle pas…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Elle est tout ce qu’il vous plaira,</l>
               <l n="1660" xml:id="l1660">Je n’en veux point.</l>
@@ -5908,7 +5908,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/>Demain cette humeur passera.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1661" xml:id="l1661">Point. Comme il parle doux !</l>
             </sp>
@@ -5916,7 +5916,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/>L’affaire est donc concluë ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1662" xml:id="l1662">Ouy, plaignez-vous, <ref target="#pester">pestez*</ref>.</l>
             </sp>
@@ -5932,7 +5932,7 @@
               <speaker>VIRGINE <hi rend="i">au Marquis.</hi></speaker>
               <l n="1667" xml:id="l1667">L’occasion est belle, au <ref target="#dedit">dédit*</ref>, promptement.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1668" xml:id="l1668">Je vous sçay fort bon gré d’enrager doucement.</l>
               <l n="1669" xml:id="l1669"><space/>Sus<note n="342" place="bottom">Sus : il s’agit d’une interjection dont on se sert pour exhorter, pour inciter. (Ac)</note>, rendez-moy mon fait, voicy le vostre ; viste.                 <pb n="108"/></l>
@@ -5943,7 +5943,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1672" xml:id="l1672">Pour rester quitte à quitte on n’en a pas besoin.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1673" xml:id="l1673">Non, ce vous semble ; va, fay venir ta Maitresse,</l>
               <l n="1674" xml:id="l1674">Dépesche.</l>
@@ -5960,7 +5960,7 @@
             <pb/>
             <head>SCENE VII.</head>
             <stage>LE MARQUIS, ANSELME, <lb/>CARLIN.</stage>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1677" xml:id="l1677">Ce coup inopiné vous rabatra la hupe.</l>
               <l n="1678" xml:id="l1678">Franchement vous pensiez que je fusse une dupe,</l>
@@ -5971,7 +5971,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1681" xml:id="l1681">Quand vous m’auriez tenu…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Je sçay de vos nouvelles.</l>
               <l n="1682" xml:id="l1682">Diable, quel maistre Sire avecque ses <ref target="#tutelle">tutelles*</ref> !</l>
@@ -5982,7 +5982,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1685" xml:id="l1685">De quoy me parlez-vous ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.     <pb n="K, 109"/></speaker>
               <l part="Y"><space/><space/>On m’a dit le mystere.</l>
               <l n="1686" xml:id="l1686">Pour la Fille, elle a trop herité de sa Mere.</l>
@@ -5993,7 +5993,7 @@
               <l n="1688" xml:id="l1688">Est-ce donc que ses yeux ne luy servent à rien ?</l>
               <l n="1689" xml:id="l1689">Tomber !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Ce vilain mal, puisqu’il faut qu’on s’explique,</l>
               <l n="1690" xml:id="l1690">En quel temps devient-il plus ou moins domestique ?</l>
@@ -6007,7 +6007,7 @@
               <speaker>CARLIN <hi rend="i">Au Marquis.</hi></speaker>
               <l n="1692" xml:id="l1692">Ne voulant point entendre, il ne répondra pas.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1693" xml:id="l1693">Voicy sa Geniture<note n="344" place="bottom">Geniture : progéniture, descendance.</note>.</l>
             </sp>
@@ -6016,7 +6016,7 @@
             <pb/>
             <head>SCENE VIII.</head>
             <stage>LE MARQUIS, ANSELME, <lb/>OLYMPE, VIRGINE, CARLIN.</stage>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Approchez, nostre <ref target="#prude">Prude*</ref>.</l>
             </sp>
@@ -6026,7 +6026,7 @@
               <l n="1695" xml:id="l1695">Vous en estes choqué, mais si vous estiez prest</l>
               <l n="1696" xml:id="l1696">A recevoir l’excuse…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Alte-là, s’il vous plaist,</l>
               <l n="1697" xml:id="l1697">Tantost, faute d’avoir oüy de moy <ref target="#fleurette">fleuretes*</ref>,                     <pb n="110"/></l>
@@ -6052,7 +6052,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/>Vous ne pouviez mieux dire.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1710" xml:id="l1710">Qu’elle m’en dise autant, je n’en feray que rire.</l>
               <l n="1711" xml:id="l1711">On me connoit.</l>
@@ -6061,7 +6061,7 @@
               <speaker>OLYMPE.</speaker>
               <l part="Y"><space/><space/>Autant ! à vous le beau des beaux !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1712" xml:id="l1712">Afin de m’adoucir vous direz mots nouveaux,</l>
               <l n="1713" xml:id="l1713">Point de rapatriement ; cela vaut fait, rupture.</l>
@@ -6070,7 +6070,7 @@
               <speaker>VIRGINE <hi rend="i">bas au Marquis.</hi></speaker>
               <l n="1714" xml:id="l1714">Viste.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>Pour déchirer déployons l’écriture.</l>
               <l n="1715" xml:id="l1715">Allons, vieux Roquentin<note n="345" place="bottom">Roquentin : vieux militaire en retraite.</note>, les armes à la main.</l>
@@ -6079,7 +6079,7 @@
               <speaker>VIRGINE <hi rend="i">Prenant le billet du Marquis qu’elle déchire.</hi></speaker>
               <l n="1716" xml:id="l1716">Donnez-moy, vous seriez d’icy jusqu’à demain.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.    <pb n="111"/></speaker>
               <l n="1717" xml:id="l1717">Bon, voyla ton <ref target="#dedit">dédit*</ref>, Bourgeois.</l>
             </sp>
@@ -6088,7 +6088,7 @@
               <l part="Y"><space/><space/>Et voyla comme</l>
               <l n="1718" xml:id="l1718">Je fais estat du tien, Monsieur le <ref target="#gentilhomme">Gentilhomme*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1719" xml:id="l1719">La colere vous prend, ne vous contraignez pas,</l>
               <l n="1720" xml:id="l1720">Enragez à vostre aise, et faites du fracas.</l>
@@ -6107,7 +6107,7 @@
               <l n="1728" xml:id="l1728">D’en aller choisir une aux petites maisons<note n="346" place="bottom">Petites maisons : « C’est un hopital pour les fous et pour certains pauvres de Paris » (R).</note>.</l>
               <l n="1729" xml:id="l1729">Vous avez le cerveau…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Tout doux, ma Colombelle,</l>
               <l n="1730" xml:id="l1730">Je sçay que je vous fais une injure mortelle,</l>
@@ -6123,7 +6123,7 @@
               <l part="Y"><space/>J’ay sans vous un Gendre tout trouvé,</l>
               <l n="1737" xml:id="l1737">Qu’on le fasse venir.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Ah, voyons donc ce Gendre.</l>
               <l n="1738" xml:id="l1738">Trois jours après l’<ref target="#hymen">hymen*</ref> c’est un homme à se pendre.</l>
@@ -6135,7 +6135,7 @@
               <l part="Y"><space/><space/>Vous met-elle en soucy ?</l>
               <l n="1741" xml:id="l1741">Virgine, promptement.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Vous l’appellez Virgine ?</l>
             </sp>
@@ -6143,7 +6143,7 @@
               <speaker>OLYMPE.</speaker>
               <l n="1742" xml:id="l1742">Pour Monsieur le Marquis adverty ma Cousine.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">arrétant Virgine.</hi></speaker>
               <l n="1743" xml:id="l1743">Elle l’advertira si je veux. Demeurez.</l>
               <l n="1744" xml:id="l1744">Vous vous faites servir, ma foy ; vous en aurez</l>
@@ -6154,7 +6154,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1747" xml:id="l1747">Il est fort pour Virgine<note n="348" place="bottom">Être pour : « vouloir adherer » (Rey).</note>, et ne sçauroit <ref target="#souffrir">souffrir*</ref>…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1748" xml:id="l1748">Demain, vous en pourrez tout au long discourir.</l>
               <l n="1749" xml:id="l1749">Bouche close aujourd’huy, Compere.</l>
@@ -6165,7 +6165,7 @@
               <l n="1750" xml:id="l1750">Et tandis que ma Fille est <ref target="#sot">sote*</ref>, vieille, <ref target="#gueux">gueuse*</ref>,</l>
               <l n="1751" xml:id="l1751">C’est pour elle un sujet d’orgueil…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Voyla le point,</l>
               <l n="1752" xml:id="l1752">Vous y touchez du doigt, et ne l’entendez point,</l>
@@ -6186,22 +6186,22 @@
               <l n="1756" xml:id="l1756">J’ay repris ma parole, et ma Fille est à vous.</l>
               <l n="1757" xml:id="l1757">Donnez-luy vostre main.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l part="Y"><space/><space/>L’aurois-je pû prétendre<note n="349" place="bottom">Prétendre : « Aspirer à une chose » (F).</note> ?</l>
               <l n="1758" xml:id="l1758">Quel <ref target="#heur">heur*</ref> !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/>C’est mon Cadet, bon jour, Monsieur le Gendre,</l>
               <l n="1759" xml:id="l1759">Je suis ravy du choix, quand je la régalois<note n="350" place="bottom">Régaler : Réjouir.</note></l>
               <l n="1760" xml:id="l1760">De l’offre d’un <ref target="#amant">Amant*</ref>, c’est luy dont je parlois.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="1761" xml:id="l1761">A l’obtenir pour moy vous avez eu grand <ref target="#zele">zele*</ref>.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1762" xml:id="l1762">Trop heureux de l’avoir quand je ne veux plus d’elle.</l>
               <l n="1763" xml:id="l1763">Te voila bien, Cadet, tiens-y-toy.</l>
@@ -6212,7 +6212,7 @@
               <l n="1764" xml:id="l1764">Que tous trois nous auront sujet d’estre contents,</l>
               <l n="1765" xml:id="l1765">Et qu’entre nous jamais ny discorde ny guerre…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Anselme.</hi></speaker>
               <l n="1766" xml:id="l1766">Et quand il la verra se debatre par terre,</l>
               <l n="1767" xml:id="l1767">Faire des cris, hurler, rira-t’il bien ?</l>
@@ -6221,7 +6221,7 @@
               <speaker>ANSELME.    <pb n="114"/></speaker>
               <l part="Y"><space/><space/>Dequoy ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1768" xml:id="l1768">Dequoy ? Le <ref target="#fin">fin*</ref> Renard.</l>
             </sp>
@@ -6229,7 +6229,7 @@
               <speaker>ANSELME.</speaker>
               <l part="Y"><space/><space/>C’est de l’Hebreu pour moy.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1769" xml:id="l1769">Ne craignez rien, je sçay ce qu’il faut qu’on luy cache,</l>
               <l n="1770" xml:id="l1770">Ils sont bien assortis, chacun d’eux a sa tache.</l>
@@ -6242,7 +6242,7 @@
               <l n="1773" xml:id="l1773">Si quelque <ref target="#qualite3">qualité*</ref> peut en luy me déplaire,</l>
               <l n="1774" xml:id="l1774">Puis qu’il faut parler franc, c’est qu’il est vostre frere.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1775" xml:id="l1775">S’il ne tient qu’à cela, pour vous rendre content</l>
               <l n="1776" xml:id="l1776">Je me défraternise<note n="351" place="bottom">Comprendre : je ne me considère plus comme son frère. Néologisme.</note>, il en peut faire autant,</l>
@@ -6259,7 +6259,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="1783" xml:id="l1783">Vous me croyez peut-estre encor plus folle qu’eux ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1784" xml:id="l1784">Vous croire folle ? Ah non, c’est bien assez de deux,</l>
               <l n="1785" xml:id="l1785">Et d’ailleurs j’ay pour vous…</l>
@@ -6270,7 +6270,7 @@
               <l n="1786" xml:id="l1786">On m’a dit que je dois vous estre quelque chose</l>
               <l n="1787" xml:id="l1787">Que vous épouserez la Comtesse.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.     <pb n="115"/></speaker>
               <l part="Y"><space/><space/>Comment,</l>
               <l n="1788" xml:id="l1788">Qui vous l’a dit ?</l>
@@ -6279,7 +6279,7 @@
               <speaker>LUCRECE.</speaker>
               <l part="Y"><space/><space/>Qu’importe à quand l’<ref target="#hymen">hymen*</ref> ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Vrayement ?</l>
               <l n="1789" xml:id="l1789">La Comtesse ! c’est bien mon amour qu’elle brigue<note n="352" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, le verbe « briguer » a déjà le sens de « tâcher d’avoir ». Cependant, il ne comporte pas ici la connotation péjorative qu’il peut avoir actuellement.</note>.</l>
@@ -6288,7 +6288,7 @@
               <speaker>LUCRECE.</speaker>
               <l n="1790" xml:id="l1790">Pourquoy non ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Demande à nostre vieux Rodrigue</l>
               <l n="1791" xml:id="l1791">Si la plus miserable accepteroit mon cœur.</l>
@@ -6300,7 +6300,7 @@
               <l n="1794" xml:id="l1794">Virgine que voilà qui n’est qu’une Suivante,</l>
               <l n="1795" xml:id="l1795">Quand vous la voudriez…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Il est bon, sur ma foy,</l>
               <l n="1796" xml:id="l1796">Virgine ! le moyen qu’elle voulust de moy ?</l>
@@ -6336,7 +6336,7 @@
               <l n="1805" xml:id="l1805">S’il daignoit honorer ma Sœur d’une visite,</l>
               <l n="1806" xml:id="l1806">Elle est civile<note n="353" place="bottom">Civile : « Honête, poli, qui a de la civilité » (R).</note>, douce, et connoit son merite.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1807" xml:id="l1807">Vous ne m’apprenez rien, n’en soyez point jaloux,</l>
               <l n="1808" xml:id="l1808">Je l’ay veuë, et sçavois son retour avant vous.</l>
@@ -6345,7 +6345,7 @@
               <speaker>ORONTE.</speaker>
               <l n="1809" xml:id="l1809">Vous l’avez veuë ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Hola, qu’on appelle Virgine.</l>
               <l n="1810" xml:id="l1810">Que j’en vay voir icy qui feront grise mine !</l>
@@ -6354,7 +6354,7 @@
               <speaker>VIRGINE.    <pb n="117"/></speaker>
               <l n="1811" xml:id="l1811">On a besoin de moy, qu’est-ce ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Oronte.</hi></speaker>
               <l part="Y"><space/><space/>Ne dites mot.</l>
             </sp>
@@ -6362,7 +6362,7 @@
               <speaker>ORONTE.</speaker>
               <l n="1812" xml:id="l1812">D’où vient que…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Oronte.</hi></speaker>
               <l part="Y"><space/><space/>Nous verrons qui de nous est le <ref target="#sot">sot*</ref>.</l>
               <l n="1813" xml:id="l1813">Motus.</l>
@@ -6371,7 +6371,7 @@
               <speaker>CARLIN <hi rend="i">au Chevalier.</hi></speaker>
               <l part="Y"><space/>Garde mon dos, ce n’est plus <ref target="#raillerie">raillerie*</ref>.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="1814" xml:id="l1814">Va, ne crains rien.</l>
             </sp>
@@ -6392,7 +6392,7 @@
               <speaker>VIRGINE.</speaker>
               <l n="1817" xml:id="l1817">J’ay promis en secret, puis-je tenir parole ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1818" xml:id="l1818">Vous allez voir à qui.</l>
             </sp>
@@ -6405,7 +6405,7 @@
               <speaker>CARLIN.</speaker>
               <l part="Y"><space/><space/>Mon tout, ma Virgine !</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/><ref target="#maraut">Maraut*</ref>.</l>
               <stage>A Oronte.</stage>
@@ -6417,7 +6417,7 @@
               <l n="1821" xml:id="l1821"><space/><space/>Si pourtant vous pouviez vouloir d’une Suivante,                    <pb n="118"/></l>
               <l n="1822" xml:id="l1822">Je suis vostre tres-humble et tres-tendre Servante.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1823" xml:id="l1823">La Suivante m’a pleu, me plaist, et me plaira.</l>
             </sp>
@@ -6425,7 +6425,7 @@
               <speaker>ANSELME.</speaker>
               <l n="1824" xml:id="l1824">Quel est donc ce mystere ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l part="Y"><space/><space/>Oronte le dira.</l>
             </sp>
@@ -6433,7 +6433,7 @@
               <speaker>ORONTE  <hi rend="i">à Anselme.</hi></speaker>
               <l n="1825" xml:id="l1825">Je m’y perds comme vous.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS <hi rend="i">à Anselme.</hi></speaker>
               <l part="Y"><space/><space/>Il veut pousser la piece,</l>
               <l n="1826" xml:id="l1826">La Virgine est sa sœur, Madame la Comtesse.</l>
@@ -6449,7 +6449,7 @@
               <l n="1829" xml:id="l1829">Après l’avoir chassée on vient de la reprendre,</l>
               <l n="1830" xml:id="l1830">Et c’est une Comtesse ! y peut-on rien comprendre ?</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1831" xml:id="l1831">Carlin.</l>
             </sp>
@@ -6466,7 +6466,7 @@
               <l n="1835" xml:id="l1835">Et par là luy faisant pour moy tout oublier</l>
               <l n="1836" xml:id="l1836">J’ay levé tout obstacle aux vœux du Chevalier.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1837" xml:id="l1837">M’avoir fourbé ?</l>
             </sp>
@@ -6474,7 +6474,7 @@
               <speaker>VIRGINE.    <pb n="119"/></speaker>
               <l part="Y"><space/><space/>J’ay tort ; mais Carlin qui me gaste…</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1838" xml:id="l1838">Ah, coquin<note n="355" place="bottom">Coquin : « On le dit encore par injure, d’Un homme infame et lasche, qui fait des bassesses et des perfidies, et autres actions indignes d’un homme de cœur et d’honneur » (Ac).</note>, tu mourras.</l>
             </sp>
@@ -6482,11 +6482,11 @@
               <speaker>CARLIN.</speaker>
               <l part="Y"><space/><space/>Moy ? je n’ay point de <ref target="#haste">haste*</ref>.</l>
             </sp>
-            <sp who="le chevalier">
+            <sp who="chevalier">
               <speaker>LE CHEVALIER.</speaker>
               <l n="1839" xml:id="l1839">Ce Valet est  à moy, point de bruit, s’il vous plaist.</l>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>LE MARQUIS.</speaker>
               <l n="1840" xml:id="l1840">D’un gibier de bourreau tu prens donc l’interest,</l>
               <l n="1841" xml:id="l1841">Cadet maudit ; et toy rieuse<note n="356" place="bottom">Rieuse : moqueuse.</note> ridicule,</l>

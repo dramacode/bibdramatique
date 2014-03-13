@@ -762,9 +762,8 @@
       </div>
     </front>
     <body>
-      <div type="set">
         <head>JUDITH TRAGEDIE.</head>
-        <div>
+        <div type="preface" xml:id="preface">
           <pb/>
           <head>PREFACE</head>
           <p>C’est une erreur qui a infecté beaucoup d’esprits, qu’il étoit presque impossible d’accommoder heureusement au Theatre les Sujets qui sont tirez de l’Ecriture Sainte, et de l’Histoire Chrétienne. Indigné contre une opinion si fausse et si pernicieuse, je crus d’abord qu’elle n’étoit fondée que sur la prévention qui n’examine rien, et dont la force impérieuse entraîne ordinairement la multitude ; mais aprés avoir creusé jusques dans la source de cette erreur, je vis qu’elle venait de l’ignorance de l’art, de la foiblesse du genie, de la sterilité des inventions, et fur tout du peu de gout et de sensibilité qu’on a pour les choses de la Religion<note n="33" place="bottom"> Coquille dans J1 (<hi rend="i">Religon</hi>.) corrigée dans J2.</note>.</p>
@@ -776,49 +775,49 @@
           <p>Je ne diray rien de l’Episode de Misael, il a paru si naturel et a esté si heureux, que ce seroit me rendre indigne de l’approbation qu’il a eüe, si je voulois la justifier. Je ne répondray point aux objections qu’on m’a faites par un jugement precipité, qui n’a pas examiné ce qui precede, et ce qui suit les endroits qu’on a condamnés. Je répondray encore moins à la critique qui est fondée sur le goût et non pas sur la regle.</p>
           <p>Mais je ne sçaurois me taire sur l’étrange critique qui s’est répandüe contre les pieces saintes. Ce bruit est devenu un scandale public, et semble nous faire entendre qu’il faudroit proscrire la pieté et la bannir du Theatre, comme si nous estions encore dans ce siecle barbare et ignorant, où les spectacles publics representoient nos plus sacrez mysteres d’une maniere qui rendoit ridicule ce qui devoit estre le sujet de l’attention la plus serieuse et de la plus profonde veneration. Veut-on consacrer le Theatre aux matieres profanes, aux évenemens les plus horribles, aux parricides, aux empoisonnemens, aux passions outrées, aux amours incestueuses. J’avouë que les sujets les plus extraordinaires peuvent instruire et divertir quand ils sont maniez par des mains sçavantes et heureuses ; mais peut-on douter que les matieres Saintes quand elles tombent en de pareilles mains, puissent recevoir un tour assez agreable pour plaire et mieux encore pour édifier le Spectateur Chrestien. Nous avons un illustre exemple dans Polieucte, et puisque Judith dont l’Histoire est si delicate et si difficile à traiter, n’a pas dépleu dans la forme que je luy ay donnée, que ne peut-on pas attendre de ceux qui avec une Muse plus forte que la mienne, voudront entreprendre de semblables ouvrages, et leur donner tous les ornemens de la Scene. Puissent-ils confondre l’envie, ou plûtôt s’attirer cette critique qui s’est déchaînée sur ce qui fait tant d’honneur à Judith.</p>
         </div>
-        <div type="set">
+        <div type="set" xml:id="acteurs">
           <pb/>
           <head>ACTEURS.</head>
           <castList>
-          <castItem>
+          <castItem xml:id="judith">
             <role>JUDITH,</role>
             <roleDesc>Veuve de Manassés.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="misael">
             <role>MISAEL,</role>
             <roleDesc>Betulien, Amoureux de Judith.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="ozias">
             <role>OZIAS,</role>
             <roleDesc>Chef du Peuple.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="achior">
             <role>ACHIOR,</role>
             <roleDesc>Chef des Ammonites.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="abra">
             <role>ABRA,</role>
             <roleDesc>Suivante de Judith.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="betulien">
             <role>CHOEUR DE BETULIENS.</role>
           </castItem>
-          <castItem>
+          <castItem xml:id="holoferne">
             <role>HOLOFERNE,</role>
             <roleDesc>Prince d’Assyrie, General des Assyriens.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="vagao">
             <role>VAGAO,</role>
             <roleDesc>Un des Officiers de sa Chambre.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="assyrien">
             <role>CHOEUR D’ASSYRIENS.</role>
           </castItem>
           </castList>
           <stage>La Scene est à Betulie et au Camp des Assyriens.</stage>
           <pb/>
         </div>
-      </div>
+      
         <div type="acte">
           <head>ACTE PREMIER</head>
           <p><title>JUDITH TRAGÉDIE</title></p>
@@ -832,7 +831,7 @@
               <l n="4" xml:id="l4">Et soyez malheureux sans être criminels.</l>
               <l n="5" xml:id="l5">Retirez-vous.</l>
             </sp>
-            <sp who="un betulien">
+            <sp who="betulien">
               <speaker>UN BETULIEN</speaker>
               <l part="Y"><space/><space/>Craignez que ces peuples rebelles...</l>
             </sp>
@@ -840,7 +839,7 @@
               <speaker>OZIAS</speaker>
               <l n="6" xml:id="l6">Ne m’importunez plus par des plaintes nouvelles.<note n="36" place="bottom">Var. : nouvelles.</note>                <pb n="p. 2"/></l>
             </sp>
-            <sp who="un betulien">
+            <sp who="betulien">
               <speaker>UN BETULIEN</speaker>
               <l n="7" xml:id="l7">Holoferne a par tout semé tant de terreur...</l>
             </sp>
@@ -854,7 +853,7 @@
               <l n="13" xml:id="l13">Plus de replique ; allez, que son obeïssance</l>
               <l n="14" xml:id="l14">Fasse un dernier effort sur son <ref target="#impatience1">impatience*</ref>.</l>
             </sp>
-            <sp who="un betulien">
+            <sp who="betulien">
               <speaker>UN BETULIEN</speaker>
               <l n="15" xml:id="l15">Mais <ref target="#instruire">instruit*</ref> de nos maux et si longs et si grands,</l>
               <l n="16" xml:id="l16">Quel tems demandez-vous à des Peuples mourans ?</l>
@@ -886,7 +885,7 @@
               <l n="39" xml:id="l39">Je l’ai fait avertir, elle m’a fait sçavoir</l>
               <l n="40" xml:id="l40">Qu’elle seroit bien-tôt en état de me voir.<note n="45" place="bottom">C’est-à-dire « disposée à me voir ».</note></l>
             </sp>
-            <sp who="un betulien">
+            <sp who="betulien">
               <speaker>UN BETULIEN</speaker>
               <l n="41" xml:id="l41">Cet ordre me surprend, et c’est vous faire injure.</l>
             </sp>
@@ -915,7 +914,7 @@
               <speaker>OZIAS</speaker>
               <l n="47" xml:id="l47">Pourquoy ce prompt retour ?</l>
             </sp>
-            <sp who="un betulien">
+            <sp who="betulien">
               <speaker>UN BETULIEN</speaker>
               <l part="Y"><space/><space/>Je reviens <ref target="#etonne">étonné*</ref></l>
               <l n="48" xml:id="l48">De voir par des soldats Achior emmené :</l>
@@ -929,7 +928,7 @@
               <l n="52" xml:id="l52">Un si fameux guerrier trahy par son malheur                    <pb n="p. 5"/></l>
               <l n="53" xml:id="l53">A la garde du camp s’est-il laissé surprendre ?</l>
             </sp>
-            <sp who="un betulien">
+            <sp who="betulien">
               <speaker>UN BETULIEN</speaker>
               <l n="54" xml:id="l54">Le voicy.</l>
             </sp>
@@ -2000,7 +1999,7 @@
             <pb/>
             <head>SCENE II                <pb n="p. 44"/></head>
             <stage>UN OFFICIER ASSYRIEN, HOLOFERNE, etc.</stage>
-            <sp who="officier">
+            <sp who="assyrien">
               <speaker>OFFICIER</speaker>
               <l part="Y"><space/><space/>Nos ennemis, Seigneur,</l>
               <l n="686" xml:id="l686">Ont fait une sortie avec tant de vigueur,<note n="129" place="bottom"> L’idée d’une sortie des assiégés repoussée, absente du <hi rend="i">Livre de Judith</hi>, semble être reprise de <hi rend="i">Scevole</hi> (I, 2), dans lequel on trouve ces vers : « Les Romains animés d’un reste de vertu / Ont fait une sortie et l’on a combatu. » Ce combat ajoute une dimension épique à <hi rend="i">Judith</hi> et permet de mettre davantage en valeur la victoire de la faible Judith. Par ailleurs, l’attitude d’Achior conduisant cet assaut désespéré est elle aussi semblable au courage d’Horace (Horatius Cocles) dans <hi rend="i">Scevole</hi>.</note></l>
@@ -2034,7 +2033,7 @@
             <pb/>
             <head>SCENE III</head>
             <stage>HOLOFERNE, UN AUTRE OFFICIER ASSYRIEN</stage>
-            <sp who="officier assyrien">
+            <sp who="assyrien">
               <speaker>UN OFFICIER ASSYRIEN</speaker>
               <l n="707" xml:id="l707">Achior est défait, et sa troupe affoiblie</l>
               <l n="708" xml:id="l708">Aprés un long combat rentre dans Betulie :</l>
@@ -2157,7 +2156,7 @@
             <pb/>
             <head>SCENE V</head>
             <stage>UN OFFICIER ASSYRIEN, HOLOFERNE, MISAEL</stage>
-            <sp who="officier assyrien">
+            <sp who="assyrien">
               <speaker>L’OFFICIER ASSYRIEN</speaker>
               <l n="791" xml:id="l791">Un prodige <ref target="#etonne">étonnant*</ref> vient de frapper ma veuë.</l>
               <l n="792" xml:id="l792">Une femme, Seigneur, <ref target="#superbe2">superbement*</ref> vétuë</l>
@@ -2168,7 +2167,7 @@
               <speaker>HOLOFERNE</speaker>
               <l n="795" xml:id="l795">Qu’on la fasse venir.                                 <pb n="p. 51"/></l>
             </sp>
-            <sp who="officier assyrien">
+            <sp who="assyrien">
               <speaker>L’OFFICIER</speaker>
               <l part="Y"><space/><space/>Seigneur, je l’ai laissée</l>
               <l n="796" xml:id="l796">Qui marchoit au milieu d’une foule empressée.</l>
@@ -2969,7 +2968,7 @@
           <div type="scene">
             <head>SCENE PREMIERE</head>
             <stage>OZIAS, UN BETULIEN</stage>
-            <sp who="un betulien">
+            <sp who="betulien">
               <speaker>UN BETULIEN</speaker>
               <l n="1255" xml:id="l1255">A peine on voit briller la lumiere naissante,</l>
               <l n="1256" xml:id="l1256">Qu’impatient, et l’ame incertaine et tremblante,</l>
@@ -3231,7 +3230,7 @@
             <pb/>
             <head>SCENE V</head>
             <stage>ABRA, MISAEL, OZIAS, UN BETULIEN</stage>
-            <sp who="un betulien">
+            <sp who="betulien">
               <speaker>UN BETULIEN</speaker>
               <l n="1427" xml:id="l1427">Un succés <ref target="#gloire3">glorieux*</ref> a rempli notre attente.</l>
               <l n="1428" xml:id="l1428">La tête d’Holoferne encor toute sanglante,</l>
@@ -3359,7 +3358,7 @@
             <label rend="center b">FIN</label>
           </div>
         </div>
-        <div>
+        <div xml:id="privilege">
           <pb/>
           <head>EXTRAIT DU PRIVILEGE du Roy.</head>
           <p>PAR grace et Privilege du Roy donné à Paris le neuviéme jour d’Avril 1691. Signé par le Roy en son Conseil, BOUCHER : il est permis au sieur Claude Boyer de l’Académie Françoise, de faire imprimer plusieurs Pieces de Poësie de sa composition pendant le temps de huit années, avec défenses à tous autres d’imprimer ny contrefaire aucunes desdites Pieces sur les peines portées à l’original dudit Privilege.</p>

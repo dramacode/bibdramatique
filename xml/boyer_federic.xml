@@ -1174,9 +1174,8 @@
       </div>
     </front>
     <body>
-      <div type="set">
         <head>FÉDÉRIC. TRAGI-COMÉDIE</head>
-        <div>
+        <div xml:id="dedicace" n="1" type="set">
           <pb/>
           <head>A MONSEIGNEUR LE DUC DE GUYSE<note n="75" place="bottom">Il s’agit de Henri II, duc de Guise. Grand amateur d’art, il était mécène et se produisit aux côtés de Louis XIV alors que celui-ci, adolescent, se montrait sur scène dans des ballets. En 1662, il apparut au cours du grand Carrousel où il conduisait le groupe des sauvages. Il protégea aussi Corneille qui s’installa même dans l’Hôtel de Guise (l’actuel palais Soubise) la même année. Il meurt sans descendance le 2 juin 1664 et Corneille adresse à son successeur et neveu, âgé de quize ans, un sonnet où il rend hommage au défunt : « Un grand prince vous laisse un grand nom à remplir / Et ce que se promit sa valeur sans seconde, / C’est pour vous que le ciel réserve à l’accomplir. » Mais le sonnet, même s’il émanait de Corneille, resta apparemment sans écho : le successeur de Henri avait pour tutrice Mlle de Guise qui était bien déterminée à restaurer l’intégrité du patrimoine des Guise et qui, du reste, était davantage intéressée par la musique que par le théâtre puisqu’elle fut la protectrice de Marc-Antoine Charpentier.</note>.</head>
           <p rend="i">MONSEIGNEUR,</p>
@@ -1186,39 +1185,39 @@
           <p>Le très-humble, et très obeissant</p>
           <p>Serviteur, <hi rend="b">BOYER.</hi></p>
         </div>
-        <div>
+        <div xml:id="acteurs" n="1" type="set">
           <pb/>
           <head>ACTEURS</head>
           <castList>
-          <castItem>
+          <castItem xml:id="yoland">
             <role>YOLAND,</role>
             <roleDesc>Princesse de Sicile, déguisée en Roy, sous le nom de Manfrede.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="federic">
             <role>FEDERIC,</role>
             <roleDesc>Admiral de Sicile, amoureux d’Yoland.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="camille">
             <role>CAMILLE,</role>
             <roleDesc>Reyne de Naples, réfugiée en Sicile.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="valere">
             <role>VALERE,</role>
             <roleDesc>Fils de Federic, Favory du Roy.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="fabrice">
             <role>FABRICE,</role>
             <roleDesc>Fils de Federic, amoureux de Camille.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="marcellin">
             <role>MARCELLIN,</role>
             <roleDesc>Confident d’Yoland.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="octave">
             <role>OCTAVE,</role>
             <roleDesc>Escuyer de Federic.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="florise">
             <role>FLORISE,</role>
             <roleDesc>Confidente de Camille.</roleDesc>
           </castItem>
@@ -1230,7 +1229,7 @@
           </stage>
           <pb/>
         </div>
-      </div>
+      
         <div type="acte">
           <head>ACTE I</head>
           <p><title>FEDERIC. TRAGICOMEDIE <pb n="1" xml:id="p1"/></title></p>
@@ -1244,7 +1243,7 @@
               <l n="3" xml:id="l3">Et de son Protecteur va faire son Epoux ;</l>
               <l n="4" xml:id="l4">Quels sont vos <ref target="#deplaisir">déplaisirs*</ref> dequoy vous plaignez-vous ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="5" xml:id="l5">J’ay bien d’autres soucis que ceux de l’Hymenée,</l>
               <l n="6" xml:id="l6">Quand mille maux secrets troublent ma destinée,</l>
@@ -1267,7 +1266,7 @@
               <l n="20" xml:id="l20">Me fit craindre pour vous, mais n’en dit pas assez,</l>
               <l n="21" xml:id="l21">Pour pouvoir m’éclaircir cet important mystere.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE ROY</speaker>
               <l n="22" xml:id="l22">Ta Femme, Marcellin , fut ma seconde Mere ;</l>
               <l n="23" xml:id="l23">Et si sa prompte mort t’a ravy ce secret,</l>
@@ -1282,7 +1281,7 @@
               <speaker>MARCELLIN</speaker>
               <l n="30" xml:id="l30">Ah! Seigneur.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE ROY</speaker>
               <l part="Y"><space/><space/>Je suis tel, si je me fais connaistre.</l>
             </sp>
@@ -1290,7 +1289,7 @@
               <speaker>MARCELLIN</speaker>
               <l n="31" xml:id="l31">Expliquez vous, Seigneur, parlez plus clairement.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="32" xml:id="l32">Tu vas voir tout entier cet affreux changement.</l>
               <l n="33" xml:id="l33">Tu sçais que par les Loix de ce Peuple indocile,                     <pb n="3" xml:id="p3"/></l>
@@ -1304,7 +1303,7 @@
               <speaker>MARCELLIN</speaker>
               <l n="39" xml:id="l39">Seigneur, qu’a cette Loy de commun avec vous ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE ROY</speaker>
               <l n="40" xml:id="l40">Escoute, Marcellin. Apres qu’aux yeux de tous</l>
               <l n="41" xml:id="l41">Tous mes Freres mourans eurent laissé mon Pere</l>
@@ -1324,7 +1323,7 @@
               <speaker>MARCELLIN</speaker>
               <l n="53" xml:id="l53">Ciel! que me dites-vous ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE ROY</speaker>
               <l part="Y"><space/><space/>L’horreur d’une injustice</l>
               <l n="54" xml:id="l54">Força le Roy mon Pere à ce grand artifice,</l>
@@ -1361,7 +1360,7 @@
               <l n="82" xml:id="l82">Caché jusques icy cet <ref target="#étrange">étrange*</ref> artifice ?</l>
               <l n="83" xml:id="l83">Quel <ref target="#charmes">charme*</ref> a si longtemps trompé toute la Cour ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="84" xml:id="l84">Ce <ref target="#charmes">charme*</ref> dureroit encor sans mon amour.</l>
               <l n="85" xml:id="l85">Oüy j’aime, je l’avouë, (à cet <ref target="#aveu">aveu*</ref> si lâche</l>
@@ -1393,7 +1392,7 @@
               <speaker>MARCELLIN</speaker>
               <l n="109" xml:id="l109">Quoy! cesser de regner. Que faites-vous, Madame ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="110" xml:id="l110">Laisse agir, Marcellin, les transports de ma flame,</l>
               <l n="111" xml:id="l111">Donne toy tout entier à servir mon ardeur,</l>
@@ -1406,7 +1405,7 @@
             <pb/>
             <head>SCENE II</head>
             <stage>LE ROY, CAMILLE, MARCELLIN, FLORISE</stage>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY  <hi rend="i">continuë.</hi></speaker>
               <l part="Y"><space/><space/>Pardonnez, grande Reyne,</l>
               <l n="115" xml:id="l115">Si je m’acquite mal de ce que je vous doy ;             <pb n="6" xml:id="p6"/></l>
@@ -1443,7 +1442,7 @@
               <l n="143" xml:id="l143">Il m’est indiferent de tenir cet espoir</l>
               <l n="144" xml:id="l144">Des <ref target="#soin">soins*</ref> de vostre amour,ou de vostre devoir.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="145" xml:id="l145">Je ne me defens point d’une si juste plainte :</l>
               <l n="146" xml:id="l146">Mais si vous connoissiez avec quelle contrainte</l>
@@ -1463,7 +1462,7 @@
               <l n="157" xml:id="l157">Est-ce d’un Pere mort la récente memoire,</l>
               <l n="158" xml:id="l158">Qui peut troubler encor tant d’<ref target="#heur">heur*</ref>, et tant de gloire ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="159" xml:id="l159">Non, non ; et si j’osois ouvrir mon sentiment,</l>
               <l n="160" xml:id="l160">Vous sçauriez que ce coup me toucha foiblement,</l>
@@ -1504,7 +1503,7 @@
               <l n="192" xml:id="l192">Viendront jusqu’en ces lieux <ref target="#prevenir">prévenir*</ref> vos efforts,</l>
               <l n="193" xml:id="l193">Et vous feront rougir de tant de negligence.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="194" xml:id="l194">Nous sçaurons prévenir*une telle insolence ;</l>
               <l n="195" xml:id="l195">Et vous sçaurez  peut-estre avant la fin du jour,</l>
@@ -1522,7 +1521,7 @@
             <pb/>
             <head>SCENE III            <pb n="9" xml:id="p9"/></head>
             <stage>FEDERIC, LE ROY, MARCELLIN<note n="98" place="bottom">La leçon originale donne comme rubrique de scène : « FEDERIC, LE ROY, MARCELLIN, FLORISE ». Nous corrigeons car la présence du personnage de Florise dans cette scène ne peut être qu’une erreur. En effet, Florise étant la confidente de Camille, elle ne saurait en aucun cas être présente dans une scène où la véritable identité du « roi » n’est pas dissimulée. </note></stage>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="201" xml:id="l201">Hé bien, cher Federic, qu’avez-vous à me dire ?</l>
               <l n="202" xml:id="l202">Vous dois-je mon repos, ma gloire, et mon empire ?</l>
@@ -1533,7 +1532,7 @@
               <l n="204" xml:id="l204">Qui ne souffre en ces lieux que le regne d’un Roy<note n="99" place="bottom">Boyer ne fait pas allusion ici à une loi précise similaire à la loi salique française interdisant le pouvoir aux femmes mais à une coutume ayant force de loi. </note>,</l>
               <l n="205" xml:id="l205">S’en va tomber par terre aux yeux de tout le monde.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="206" xml:id="l206">Apprenez moy sur quoy ce grand espoir se fonde.</l>
             </sp>
@@ -1566,7 +1565,7 @@
               <l n="231" xml:id="l231">Qui dans un autre temps surpris, épouvanté,</l>
               <l n="232" xml:id="l232">S’ebranleroit sans doute à cette nouveauté.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="233" xml:id="l233">Donc je ne puis garder la supréme puissance</l>
               <l n="234" xml:id="l234">Que par la seule force<note n="100" place="bottom"> C’est-à-dire « la force seule » : inversion de l’adjectif et du substantif pour respecter la régularité de l’alexandrin : placé en fin d’hémistiche, « seule » serait suivi d’un mot commençant par une voyelle et le –<hi rend="i">e</hi> ­final serait caduc d’où disparition d’une syllabe.</note>,ou par la violence.</l>
@@ -1588,7 +1587,7 @@
               <l n="247" xml:id="l247">Quand le Ciel l’a souffert, quand le Sort l’a voulu,</l>
               <l n="248" xml:id="l248">C’est assez pour garder le pouvoir absolu<note n="101" place="bottom"> En 1662, Boyer fait prononcer au personnage éponyme de sa tragédie <hi rend="i">Oropaste ou le faux Tonaxare</hi> les vers suivants : « Suffit d’avoir régné : / Le Trône a des clartez qui me l’ont enseigné./ Meurs, indigne terreur, meurs, dans cette avanture / Mon rang est affermi par la seule imposture ; / Je garderay par elle et ma Couronne et moi ; / Pour l’estre, il me suffit d’avoir passé pour Roy. » (v.779-784) Boyer développe donc avec continuité sa propre conception de l’identité royale : un roi est roi parce qu’il <hi rend="i">paraît</hi> roi et non pas parce qu’il l’est en réalité, conception propre à Boyer, en effet, car elle se situe à l’exact opposé de la conception cornélienne de l’identité royale. Pour Corneille, seul celui qui <hi rend="i">est</hi> roi peut paraître roi. Récurrence donc de la thématique de l’identité royale dans les deux pièces de Boyer et similitude du dénouement, puisque <hi rend="i">Oropaste</hi> se clôt par la mort réelle du héros et que <hi rend="i">Fédéric</hi> aboutit à la mort symbolique de celui-ci avec le dévoilement du travestissement. </note>.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="249" xml:id="l249">Mais icy vostre Sexe a seul droict à l’Empire.</l>
             </sp>
@@ -1610,7 +1609,7 @@
               <l n="263" xml:id="l263">Et l’effort amoureux de ces charmes*puissans</l>
               <l n="264" xml:id="l264">Est un regne visible étably sur nos sens.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="265" xml:id="l265">Ton zele, Federic, emporte la victoire ;</l>
               <l n="266" xml:id="l266">Couronne promptement et mon Sexe, et ma gloire,</l>
@@ -1628,7 +1627,7 @@
               <l n="275" xml:id="l275">De l’estat des mutins instruits par son rapport,</l>
               <l n="276" xml:id="l276">De Camille, et de vous, nous reglerons le sort.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="277" xml:id="l277">Haste donc ce beau jour, et sçache …</l>
             </sp>
@@ -1637,7 +1636,7 @@
               <l part="Y"><space/><space/>Quoy, Madame.</l>
               <l n="278" xml:id="l278">Quel trouble …</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY.<pb n="12" xml:id="p12"/></speaker>
               <l part="Y"><space/><space/>Ignore encor le secret de mon ame.</l>
             </sp>
@@ -1645,7 +1644,7 @@
               <speaker>FEDERIC</speaker>
               <l part="Y"><space/><space/>Quel secret!</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY <hi rend="i">bas</hi>.</speaker>
               <l n="279" xml:id="l279">Ah!Valere.Adieu ; mais souviens-toy,</l>
               <l n="280" xml:id="l280">Si je regne en ces lieux, que je me dois un Roy.</l>
@@ -2349,7 +2348,7 @@
             <pb/>
             <head>SCENE VII</head>
             <stage>LE  ROY, VALERE, FABRICE, MARCELLIN</stage>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l part="Y"><space/><space/>Quels differens s’agitent entre vous ?</l>
             </sp>
@@ -2359,7 +2358,7 @@
               <l n="683" xml:id="l683">Est devenu si fier par la faveur d’un Pere,</l>
               <l n="684" xml:id="l684">Qu’il m’ose disputer tout le bien que j’espere.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="685" xml:id="l685">Fabrice, sçavez-vous jusqu’où va la fureur,</l>
               <l n="686" xml:id="l686">Qui s’en prend à l’objet de toute ma faveur ?</l>
@@ -2387,7 +2386,7 @@
               <l n="705" xml:id="l705">Et cherchant sur le Trône un peu plus de grandeur,</l>
               <l n="706" xml:id="l706">Il se veut dérober à toute sa faveur.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="707" xml:id="l707">Est-ce par ce motif que Valere s’emporte ?</l>
               <l n="708" xml:id="l708">Cherche-t’il à regner, et d’une ardeur si forte,</l>
@@ -2410,7 +2409,7 @@
               <l n="722" xml:id="l722">Laisser à mon esprit échaper tant d’honneur ?</l>
               <l n="723" xml:id="l723">Seigneur, est-ce m’aimer ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l part="Y"><space/><space/>Ah! Valere , je t’aime,</l>
               <l n="724" xml:id="l724">J’en atteste le Ciel beaucoup plus que moy-méme.</l>
@@ -2424,7 +2423,7 @@
               <speaker>VALERE</speaker>
               <l n="730" xml:id="l730">Aimer moins mon Rival, et me laisser regner.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="731" xml:id="l731">Je le voy bien ingrat, vous adorez Camille ;</l>
               <l n="732" xml:id="l732">Les beautez, les grandeurs de la Cour de Sicile,</l>
@@ -2452,7 +2451,7 @@
               <l n="751" xml:id="l751">Puis-je estimer l’honneur d’une si haute place,</l>
               <l n="752" xml:id="l752">Et croire que l’on m’aime apres cette disgrace ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="753" xml:id="l753">Hé bien, ambitieux, abandonnez ma Cour ;</l>
               <l n="754" xml:id="l754">Fuyez vostre bonheur, mes yeux, et mon amour.</l>
@@ -2464,7 +2463,7 @@
               <speaker>FABRICE</speaker>
               <l n="758" xml:id="l758">Ah! Seigneur.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l part="Y"><space/><space/>C’est assez. Vous cessez de me voir,</l>
               <l n="759" xml:id="l759">Je ne veux plus rougir de vostre ingratitude.</l>
@@ -2474,7 +2473,7 @@
             <pb/>
             <head>SCENE VIII</head>
             <stage>LE  ROY, MARCELLIN</stage>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE ROY</speaker>
               <l n="760" xml:id="l760">Il fuit, et m’abandonne à mon inquietude.</l>
             </sp>
@@ -2482,7 +2481,7 @@
               <speaker>MARCELLIN</speaker>
               <l n="761" xml:id="l761">Et vous l’allez reduire au dernier desespoir.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="762" xml:id="l762">Que ne se resout-il à faire son devoir ?</l>
             </sp>
@@ -2491,7 +2490,7 @@
               <l n="763" xml:id="l763">Madame, est-ce  y manquer, quand son grand cœur l’entraine</l>
               <l n="764" xml:id="l764">Au glorieux espoir d’acquerir une Reyne ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY. <pb n="33" xml:id="p33"/></speaker>
               <l n="765" xml:id="l765">Je souffre à ce grand cœur le desir de regner ;</l>
               <l n="766" xml:id="l766">Mais ce cœur à l’Amour se peut laisser gagner ;</l>
@@ -2507,7 +2506,7 @@
               <l n="773" xml:id="l773">Moy, que j’aille à ses yeux trahir vostre secret ?</l>
               <l n="774" xml:id="l774"><ref target="#hazarder">Hazardez*</ref> vostre rang.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY </speaker>
               <l part="Y"><space/><space/>Non, Valere est discret.</l>
             </sp>
@@ -2515,7 +2514,7 @@
               <speaker>MARCELLIN</speaker>
               <l n="775" xml:id="l775">Mais enfin ce secret peut sortir de son ame.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="776" xml:id="l776">Il peut aimer Camille en ignorant ma flame.</l>
               <l n="777" xml:id="l777"><ref target="#hazarder">Hazarde*</ref> ma fortune, et mets ma flame au jour ;</l>
@@ -2525,7 +2524,7 @@
               <speaker>MARCELLIN</speaker>
               <l n="779" xml:id="l779">Mais sans Trône avez-vous dequoy <ref target="#charmes">charmer*</ref> Valere ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="780" xml:id="l780">Helas! pour mon amour enfin que faut-il faire ?</l>
             </sp>
@@ -2534,7 +2533,7 @@
               <l n="781" xml:id="l781">Consultez Federic, Madame, c’est à luy</l>
               <l n="782" xml:id="l782">D’estre de vostre sort et l’arbitre et l’appuy.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="783" xml:id="l783">Va donc à Federic ouvrir toute mon ame.</l>
               <l n="784" xml:id="l784">Qu’on ne ménage rien pour secourir ma flame ;</l>
@@ -2546,7 +2545,7 @@
               <l n="787" xml:id="l787">Federic fait pour vous une brigue puissante ;                 <pb n="34" xml:id="p34"/></l>
               <l n="788" xml:id="l788">Craignez le contretemps d’une ardeur trop pressante.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="789" xml:id="l789">Pour les périls du rang cesse de m’<ref target="#alarme">alarmer*</ref>;</l>
               <l n="790" xml:id="l790">S’il est doux de regner, il est plus doux d’aimer.</l>
@@ -2877,7 +2876,7 @@
               <speaker>VALERE</speaker>
               <l n="938" xml:id="l938">Ah! Seigneur, se peut-il …</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l part="Y"><space/>Excuse ma colere,</l>
               <l n="939" xml:id="l939">J’ay crû que satisfait de toute ma faveur,</l>
@@ -2910,7 +2909,7 @@
               <l n="963" xml:id="l963">Et quand j’ose pousser d’ambitieux soûpirs,</l>
               <l n="964" xml:id="l964">Je sens qu’elle rabat le vol de mes desirs.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="965" xml:id="l965">Vous n’aviez pas tantost ces scrupules dans l’ame ;</l>
               <l n="966" xml:id="l966">Vous avez crû pouvoir justement, et sans blâme,</l>
@@ -2924,7 +2923,7 @@
               <l n="971" xml:id="l971">Soûtenu par mon Pere, et par vous, mon espoir</l>
               <l n="972" xml:id="l972">Frappé d’un si haut rang, n’ose se faire voir.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="973" xml:id="l973">Valere a donc appris le secret de son Pere ;</l>
               <l n="974" xml:id="l974">Parlez enfin, parlez ; expliquez-vous, Valere.</l>
@@ -2933,7 +2932,7 @@
               <speaker>VALERE</speaker>
               <l n="975" xml:id="l975">Mais, Seigneur …</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l part="Y">Ah! c’est trop se contraindre tous deux,</l>
               <l n="976" xml:id="l976">Vous sçavez qui je suis, et je connois vos vœux.</l>
@@ -2942,7 +2941,7 @@
               <speaker>VALERE</speaker>
               <l n="977" xml:id="l977">Mais ne sçavez-vous pas que mon audace extréme …</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="978" xml:id="l978">Esperez tout de moy, d’un Pere, et de vous-méme.</l>
             </sp>
@@ -2953,7 +2952,7 @@
               <l n="981" xml:id="l981">N’est-ce point me <ref target="#flatter">flater*</ref> d’un espoir inutile,</l>
               <l n="982" xml:id="l982">De pretendre au bonheur d’estre aimé de Camille ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY. <pb n="44" xml:id="p44"/></speaker>
               <l n="983" xml:id="l983">Quoy, vous aimez Camille ?</l>
             </sp>
@@ -2961,7 +2960,7 @@
               <speaker>VALERE</speaker>
               <l part="Y"><space/>Oüy, je l’aime, Seigneur.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="984" xml:id="l984">O d’un espoir trompé trop sensible douleur!</l>
             </sp>
@@ -2969,7 +2968,7 @@
               <speaker>VALERE</speaker>
               <l n="985" xml:id="l985">Seigneur.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l part="Y">Allez, ingrat, indigne de ma grace.</l>
               <l n="986" xml:id="l986">Ambitieux, <ref target="#amant">Amant*</ref>, vous avez mesme audace.</l>
@@ -2981,7 +2980,7 @@
               <l n="989" xml:id="l989">Aspire hardiment à l’amour d’une Reyne,</l>
               <l n="990" xml:id="l990">Ces mots m’ont-ils <ref target="#flatter">flaté*</ref> d’une esperance vaine ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="991" xml:id="l991">Oüy, lors que vous rendez tout mon espoir confus,</l>
               <l n="992" xml:id="l992">Si ce billet fut vray, sçachez qu’il ne l’est plus<note n="131" place="bottom"> « Si ce billet fut vrai, Seigneur, il ne l’est plus. », <hi rend="i">Héraclius</hi> (1647), v. 1246.</note>.</l>
@@ -2995,7 +2994,7 @@
               <l n="997" xml:id="l997">Quoy, mon amour est-il digne de tant de haine ?</l>
               <l n="998" xml:id="l998">Ne m’ordonniez-vous pas d’esperer une Reyne ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="999" xml:id="l999">Non, je vous le deffens ; et mon juste transport</l>
               <l n="1000" xml:id="l1000">Hait vostre ingratitude à l’égal de la mort.</l>
@@ -3004,7 +3003,7 @@
               <speaker>VALERE</speaker>
               <l n="1001" xml:id="l1001">Pour vous plaire, Seigneur, que faut-il que je fasse ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1002" xml:id="l1002">Renoncer à Camille, et meriter ma grace.</l>
             </sp>
@@ -3012,7 +3011,7 @@
               <speaker>VALERE. <pb n="45" xml:id="p45"/></speaker>
               <l n="1003" xml:id="l1003">Aimez-vous la Beauté dont mes yeux sont <ref target="#charmes">charmez*</ref>?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1004" xml:id="l1004">Je la hay, je vous hays autant que vous l’aimez<note n="132" place="bottom"> La forme du présent de l’indicatif « je hay » côtoie la forme moderne « je hais ». Vaugelas note dans ses <hi rend="i">Remarques</hi> (p.132) que « l’Usage de nostre langue » ne permet l’absence du <hi rend="i">s</hi> « qu’à la première personne du présent de l’indicatif ». </note>.</l>
             </sp>
@@ -3020,7 +3019,7 @@
               <speaker>VALERE</speaker>
               <l n="1005" xml:id="l1005">Quel est donc ce transport que je ne puis comprendre ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1006" xml:id="l1006">Cruel, c’est ton amour qui ne veut pas l’entendre :</l>
               <l n="1007" xml:id="l1007">Mais pour confondre enfin ton ingrate froideur,</l>
@@ -3031,7 +3030,7 @@
               <speaker>MARCELLIN</speaker>
               <l part="Y"><space/>Helas! qu’allez-vous faire ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY <hi rend="i">à Valere.</hi></speaker>
               <l n="1010" xml:id="l1010">Tu ne le sçais que trop ; sors, et fuis ma colere.</l>
             </sp>
@@ -3039,7 +3038,7 @@
               <speaker>VALERE</speaker>
               <l n="1011" xml:id="l1011">Seigneur, écoutez moy.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l part="Y"><space/>Non, je n’écoute rien.</l>
               <l n="1012" xml:id="l1012">Laissez-moy.</l>
@@ -3053,7 +3052,7 @@
             <pb/>
             <head>SCENE VII</head>
             <stage>LE ROY, MARCELLIN</stage>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE ROY</speaker>
               <l n="1013" xml:id="l1013">Voy quel est de mon sort l’injurieux caprice ;</l>
               <l n="1014" xml:id="l1014">Ce billet que j’ay crû me rendre un bon office,</l>
@@ -3064,7 +3063,7 @@
               <l n="1016" xml:id="l1016">Pour l’entendre sçait-il tout ce qu’il faut sçavoir ?</l>
               <l n="1017" xml:id="l1017">Peut-estre Federic cache encor ce mystere.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1018" xml:id="l1018">Tu m’as dit qu’il devoit l’expliquer à Valere.</l>
               <l n="1019" xml:id="l1019">Sans doute qu’il le sçait, et feint de l’ignorer,</l>
@@ -3078,7 +3077,7 @@
               <l n="1024" xml:id="l1024">C’est avec vostre rang exposer vostre amour :</l>
               <l n="1025" xml:id="l1025">Vostre Trône en péril, vous <ref target="#hazarder">hazardez*</ref> Valere.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1026" xml:id="l1026">Quoy, tousjours se cacher, soûpirer, et se taire ?</l>
               <l n="1027" xml:id="l1027">C’estoit peu que mon rang contraignit mes soûpirs,</l>
@@ -3091,7 +3090,7 @@
             <pb/>
             <head>SCENE VIII</head>
             <stage>LE  ROY, CAMILLE, MARCELLIN, FLORISE</stage>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1031" xml:id="l1031">Venez, venez vanter le pouvoir de vos yeux,</l>
               <l n="1032" xml:id="l1032">Valere a ressenty leurs traits victorieux.</l>
@@ -3110,7 +3109,7 @@
               <speaker>MARCELLIN</speaker>
               <l n="1043" xml:id="l1043">Vous parlez en <ref target="#amant">Amante*</ref> au lieu d’agir en Roy.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1044" xml:id="l1044">Les transports de mon Sexe échapent malgré moy :</l>
               <l n="1045" xml:id="l1045">Mais forçons la fureur dont mon ame est saisie.</l>
@@ -3120,7 +3119,7 @@
               <l n="1046" xml:id="l1046">Le Roy m’aimeroit-il ? tu vois sa jalousie.</l>
               <l n="1047" xml:id="l1047">Feignant d’aimer Valere, irritons son amour.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1048" xml:id="l1048">Madame, triomphez au milieu de ma Cour :</l>
               <l n="1049" xml:id="l1049">Joüissez de ma peine, et de vostre victoire ;</l>
@@ -3135,7 +3134,7 @@
               <l n="1055" xml:id="l1055">Vous sembloit racheter la gloire de regner.</l>
               <l n="1056" xml:id="l1056">Vous paroist-il si-tost un choix à dédaigner ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1057" xml:id="l1057">J’ay d’abord oublié l’orgueil du Diadéme,</l>
               <l n="1058" xml:id="l1058">Ce que je dois au Trône, à ma gloire, à vous-méme :</l>
@@ -3165,7 +3164,7 @@
               <l n="1079" xml:id="l1079">Et j’aime mieux un choix, à qui l’on sert d’appuy,</l>
               <l n="1080" xml:id="l1080">Que s’il falloit monter pour aller jusqu’à luy.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1081" xml:id="l1081">Si vous vantez si fort cette belle victoire,</l>
               <l n="1082" xml:id="l1082">Vous vous ferez sans doute envier tant de gloire.</l>
@@ -3174,7 +3173,7 @@
               <speaker>CAMILLE</speaker>
               <l n="1083" xml:id="l1083">On peut me l’envier, mais non pas me l’oster.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1084" xml:id="l1084">Une Reyne s’appreste à vous la disputer.</l>
             </sp>
@@ -3182,7 +3181,7 @@
               <speaker>CAMILLE</speaker>
               <l n="1085" xml:id="l1085">Cette Rivale encore ne nous est pas connuë.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1086" xml:id="l1086">Vous la verrez bien-tost forcer sa retenuë,</l>
               <l n="1087" xml:id="l1087">Et contre vos appas essayer son pouvoir.</l>
@@ -3191,7 +3190,7 @@
               <speaker>CAMILLE</speaker>
               <l n="1088" xml:id="l1088">Mais il est temps enfin qu’elle se fasse voir.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1089" xml:id="l1089">Elle se<note n="134" place="bottom"> Correction<hi rend="i">(Elle.se).</hi></note> fera voir trop tost pour vostre gloire.</l>
             </sp>
@@ -3200,7 +3199,7 @@
               <l n="1090" xml:id="l1090">Si vous la secondez à m’oster ma victoire,</l>
               <l n="1091" xml:id="l1091">J’ay du moins la douceur de rendre un Roy jaloux.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1092" xml:id="l1092">Je le suis, il est vray, mais ce n’est pas de vous.</l>
               <l n="1093" xml:id="l1093">Je suis jaloux d’un Homme à l’Estat necessaire ;</l>
@@ -3240,7 +3239,7 @@
               <l n="1116" xml:id="l1116">A Valere irrité vous pourrez vous montrer :</l>
               <l n="1117" xml:id="l1117">Pour gagner son amour ce moyen est facile.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1118" xml:id="l1118">Soyons donc la Rivale, et l’<ref target="#amant">Amant*</ref> de Camille,</l>
               <l n="1119" xml:id="l1119">Servons un feu caché par de fausses amours.</l>
@@ -3495,7 +3494,7 @@
             <pb/>
             <head>SCENE VI</head>
             <stage>LE  ROY, CAMILLE, FLORISE<note n="141" place="bottom">La leçon de l’édition originale donne : « LE ROY , CAMILLE . » Or, nous voyons Camille s’adresser à Florise au vers 1285.</note></stage>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1271" xml:id="l1271">Madame, je reviens ou toucher  vostre cœur,</l>
               <l n="1272" xml:id="l1272">Ou mourir à vos pieds d’amour et de douleur.</l>
@@ -3516,7 +3515,7 @@
               <speaker>CAMILLE</speaker>
               <l n="1285" xml:id="l1285">Florise, j’aurois tort de douter de sa flame.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1286" xml:id="l1286">Ah! si vous connoissiez les tourmens de mon ame,</l>
               <l n="1287" xml:id="l1287">Vous ne laisseriez pas, malgré tout mon pouvoir,</l>
@@ -3534,7 +3533,7 @@
               <l n="1295" xml:id="l1295">Il n’est pas malaisé d’expliquer mes desirs,</l>
               <l n="1296" xml:id="l1296">Si j’ose en ma faveur expliquer vos soûpirs.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1297" xml:id="l1297">En vain d’un doux espoir vous me <ref target="#flatter">flatez*</ref>, Madame,</l>
               <l n="1298" xml:id="l1298">Si Valere ose encor pretendre à vostre flame ;</l>
@@ -3556,7 +3555,7 @@
               <l n="1311" xml:id="l1311">Je vay par tant d’orgueil rabatre ses soûpirs,</l>
               <l n="1312" xml:id="l1312">Qu’il pourra vous venger de tous vos <ref target="#deplaisir">déplaisirs*</ref>.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1313" xml:id="l1313">Allez, Madame, allez ; et moy plein d’esperance,</l>
               <l n="1314" xml:id="l1314">Je vay d’un prompt effort haster vostre vengeance.</l>
@@ -3565,7 +3564,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE VII</head>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE ROY <hi rend="i">seul.</hi></speaker>
               <l n="1315" xml:id="l1315">Pardonne, cher Valere, à ce déguisement<note n="143" place="bottom">A interpréter ici dans le sens de « artifice, feinte ».</note> ;</l>
               <l n="1316" xml:id="l1316">Je t’arrache une Reyne, ambitieux <ref target="#amant">Amant*</ref>:</l>
@@ -3581,7 +3580,7 @@
             <pb/>
             <head>SCENE VIII</head>
             <stage>LE ROY, MARCELLIN</stage>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1323" xml:id="l1323">Marcellin, c’en est fait ; et Camille est pour moy ;</l>
               <l n="1324" xml:id="l1324">Valere est dans son cœur trop foible contre un Roy ;</l>
@@ -3594,7 +3593,7 @@
               <l n="1328" xml:id="l1328">Mais vous sçavez quel est son zele, et son credit ;</l>
               <l n="1329" xml:id="l1329">Federic est pour vous ; cessez d’estre surprise.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1330" xml:id="l1330">Quoy, sans m’en advertir, presser cette entreprise ?</l>
               <l n="1331" xml:id="l1331">J’ay crû qu’on s’assembloit pour le prochain combat.</l>
@@ -3603,7 +3602,7 @@
               <speaker>MARCELLIN</speaker>
               <l n="1332" xml:id="l1332">Il a trouvé le temps propre à ce grand éclat.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1333" xml:id="l1333">Son zele m’est connu ; cessons, cessons de craindre ;</l>
               <l n="1334" xml:id="l1334">Regnons sans imposture, aimons sans nous contraindre ;</l>
@@ -3615,7 +3614,7 @@
               <speaker>MARCELLIN</speaker>
               <l n="1338" xml:id="l1338">Qu’est-ce qui vous retient ? que<note n="144" place="bottom">« Pourquoi ».</note> tardez-vous, Madame ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1339" xml:id="l1339">Je sens je suis Reyne en ce fatal instant ;</l>
               <l n="1340" xml:id="l1340">Et me voyant enfin sur ce Trône éclatant,</l>
@@ -3642,7 +3641,7 @@
               <speaker>MARCELLIN</speaker>
               <l n="1359" xml:id="l1359">Mais vaincrez-vous un feu si long-temps combatu ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1360" xml:id="l1360">Je ne te répons pas de ma foible <ref target="#vertu">vertu*</ref>;</l>
               <l n="1361" xml:id="l1361">J’en auray pour le moins pour garder le silence.</l>
@@ -3652,7 +3651,7 @@
               <l n="1362" xml:id="l1362">A Valere déja j’en ay fait confidence ;</l>
               <l n="1363" xml:id="l1363">J’ay crû vous obliger par ce zele indiscret.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1364" xml:id="l1364">Qu’as-tu fait ? A Valere ouvrir ce grand secret ?</l>
             </sp>
@@ -3662,7 +3661,7 @@
               <l n="1366" xml:id="l1366">Mais si je l’ay <ref target="#flatter">flaté*</ref> d’un bien imaginaire,</l>
               <l n="1367" xml:id="l1367">Je vay le détromper.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l part="Y">Arreste, Marcellin,</l>
               <l n="1368" xml:id="l1368">Je voy bien qu’il faudra se rendre à mon destin<note n="145" place="bottom"> Correction (<hi rend="i">dessein</hi> signalé en <hi rend="i">errata</hi>)</note>,</l>
@@ -3687,7 +3686,7 @@
               <l n="1379" xml:id="l1379">Et mon ambition, par un <ref target="#change">change*</ref> bien doux,</l>
               <l n="1380" xml:id="l1380">Va retrouver ailleurs plus qu’il ne perd en vous.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1381" xml:id="l1381">Ah! tout mon cœur s’émeut à l’<ref target="#aspect">aspect*</ref> de Valere.</l>
             </sp>
@@ -3701,7 +3700,7 @@
               <l n="1387" xml:id="l1387">Mais puis-je encor douter, voyant briller en vous</l>
               <l n="1388" xml:id="l1388">Tout ce que le beau Sexe a de <ref target="#charmes">charmes*</ref> pour nous ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1389" xml:id="l1389">Il n’en faut plus douter, ma bouche vous l’assure.</l>
             </sp>
@@ -3713,7 +3712,7 @@
               <l n="1393" xml:id="l1393">Un <ref target="#merveille">merveilleux*</ref> transport suit cette connoissance ;</l>
               <l n="1394" xml:id="l1394">J’en prens … mais mon <ref target="#respect">respect*</ref> me condamne au silence.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1395" xml:id="l1395">Parlez, parlez, Valere, et me faites sçavoir</l>
               <l n="1396" xml:id="l1396">Si Camille tousjours est vostre unique espoir.</l>
@@ -3734,7 +3733,7 @@
               <l n="1408" xml:id="l1408">Des transports qu’en secret j’ay déja condamnez.</l>
               <l n="1409" xml:id="l1409">Ah! cruel Marcellin, est-ce ainsi qu’on me joue ?</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1410" xml:id="l1410">Non, Valere; et bien loin que je le desavouë,</l>
               <l n="1411" xml:id="l1411">Il m’épargne un <ref target="#aveu">aveu*</ref> qui m’auroit trop cousté ;</l>
@@ -3769,7 +3768,7 @@
             <pb/>
             <head>SCENE X</head>
             <stage>LE  ROY, OCTAVE, VALERE, MARCELLIN</stage>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE ROY</speaker>
               <l n="1434" xml:id="l1434">Quel est ce trouble, Octave ?</l>
             </sp>
@@ -3785,7 +3784,7 @@
               <speaker>OCTAVE</speaker>
               <l part="Y"><space/>Ah! Seigneur.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l part="Y"><space/>Qu’est-ce enfin ?</l>
             </sp>
@@ -3793,7 +3792,7 @@
               <speaker>OCTAVE</speaker>
               <l n="1436" xml:id="l1436">Vous cessez de regner en changeant de destin.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1437" xml:id="l1437">O Ciel!</l>
             </sp>
@@ -3816,7 +3815,7 @@
               <speaker>OCTAVE</speaker>
               <l n="1442" xml:id="l1442">Il a perdu ses <ref target="#soin">soins*</ref>, son credit, et son zele.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1443" xml:id="l1443">Le Sort qui vous <ref target="#flatter">flatoit*</ref>, s’obstine à vous trahir ;</l>
               <l n="1444" xml:id="l1444">Valere, et vostre espoir, vient de s’évanoüir.</l>
@@ -3864,7 +3863,7 @@
               <l n="1477" xml:id="l1477">Et de ce bras vengeur du Trône de Camille,</l>
               <l n="1478" xml:id="l1478">Je reviens vous placer dans celuy de Sicile.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1479" xml:id="l1479">Je prise peu ce rang, si Valere est pour moy ;</l>
               <l n="1480" xml:id="l1480">Mais Valere perd tout, à moins que d’estre Roy.</l>
@@ -3873,7 +3872,7 @@
               <speaker>VALERE</speaker>
               <l n="1481" xml:id="l1481">C’est pour vous seulement que j’en cherche la gloire.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1482" xml:id="l1482">Camille pour regner n’attend qu’une victoire.</l>
             </sp>
@@ -3882,7 +3881,7 @@
               <l n="1483" xml:id="l1483">Camille en me quittant est trop à dédaigner ;</l>
               <l n="1484" xml:id="l1484">Et je vay la servir, pour vous faire regner.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1485" xml:id="l1485">Mais ayez soin*des jours plus chers que mon Empire.</l>
             </sp>
@@ -3890,7 +3889,7 @@
               <speaker>VALERE</speaker>
               <l n="1486" xml:id="l1486">Mes jours me sont moins chers que le bien où j’aspire.</l>
             </sp>
-            <sp who="le roy">
+            <sp who="yoland">
               <speaker>LE  ROY</speaker>
               <l n="1487" xml:id="l1487">De vos seuls interests tout mon cœur est jaloux.</l>
             </sp>
@@ -4408,7 +4407,7 @@
             <label rend="center b">FIN.</label>
           </div>
         </div>
-        <div>
+        <div n="1" type="contents" xml:id="privilege">
           <pb/>
           <head>Extrait du Privilege du Roy.</head>
           <p>Par Grâce et Privilège du Roy, Donné à Paris le 15. Fevrier 1660. Signé, Par le Roy en son Conseil, IVSTEL ; Il est permis à Charles de Sercy Marchand à Paris, d’imprimer, vendre et débiter une Pièce de Théâtre imtitulée, FEDERIC, en telle marge et en tel caractère que bon luy semblera, et ce durant le temps de sept ans. Et defenses sont faites à tous autres de l’imprimer ou faire imprimer, sans le consentement de l’exposant, à confiscation des exemplaires contrefaits, et de tous despens, dommages et interests, ainsi que plus au long il est porté audit Privilege.</p>

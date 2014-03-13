@@ -814,11 +814,8 @@
       </div>
     </front>
     <body>
-      <div type="set">
-        <head>ULYSSE DANS L’ISLE DE CIRCÉ, OU EURYLOCHE FOUDROYÉ. <hi rend="i">TRAGICOMEDIE</hi>,</head>
-        <p rend="center i">Representée sur le Theatre des Machines du Marais.</p>
-        <p rend="center">DEDIEE A MONSEIGNEUR LE PRINCE DE CONTY.</p>
-        <div>
+      <head>ULYSSE DANS L’ISLE DE CIRCÉ, OU EURYLOCHE FOUDROYÉ. <hi rend="i">TRAGICOMEDIE</hi>, <lb/>Representée sur le Theatre des Machines du Marais. <lb/>DEDIEE A MONSEIGNEUR LE PRINCE DE CONTY.</head>
+        <div type="dedication" xml:id="epitre">
           <pb/>
           <head>EPISTRE. A MONSEIGNEUR MONSEIGNEUR LE PRINCE DE CONTY<note n="66" place="bottom">Le Prince de Conti (1629-1666), connu aussi sous le nom d’Armand de Bourbon était le frère du Grand Condé. Ses parents le destinaient à l’état ecclésiastique et il fut formé par les Jésuites au collège de Clermont. Le 6 août 1643, il obtient son diplôme de maître ès arts et, en 1646, celui de bachelier en théologie de l’université de Bourges. En janvier1649, il prend parti pour la Fronde parlementaire, dont il devient le commandant en chef. Il est arrêté avec son frère en janvier 1650 et emprisonné au château de Vincennes et au fort du Havre. Conti est libéré en février et se réconcilie avec Mazarin en 1653, année où il exprime sa soumission au roi. Rien n’indique, à part une formation commune chez les jésuites, quels ont pu être les liens entre Boyer et le Prince de Conti. Toutefois l’épître laisse à penser que le Prince de Conti a assisté à l’une des représentations d’<hi rend="i">Ulysse</hi> qu’il aurait apprécié, Boyer lui dédierait sa pièce pour le remercier et lui demander le même soutien pour le texte imprimé.</note>.</head>
           <p>MONSEIGNEUR ;</p>
@@ -827,52 +824,52 @@
           <p rend="right">Le tres humble, tres obeissant &amp; tres-</p>
           <p rend="right">passionné serviteur,  BOYER.</p>
         </div>
-        <div>
+        <div xml:id="acteurs" type="set">
           <pb/>
           <head>ACTEURS.</head>
           <castList>
-          <castItem>
+          <castItem xml:id="ulisse">
             <role>ULYSSE.</role>
           </castItem>
-          <castItem>
+          <castItem xml:id="euriloche">
             <role>EURILOCHE. </role>
             <roleDesc>Compagnons d’Ulysse.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="elpenor">
             <role>ELPENOR.</role>
           </castItem>
-          <castItem>
+          <castItem xml:id="circe">
             <role>CIRCÉ.</role>
           </castItem>
-          <castItem>
+          <castItem xml:id="phaetuse">
             <role>PHAETUSE. </role>
             <roleDesc>Sœurs de Circé.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="leucosie">
             <role>LEUCOSIE. </role>
           </castItem>
-          <castItem>
+          <castItem xml:id="perimede">
             <role>PERIMEDE,</role>
             <roleDesc>envoyé d’Itaque par Penelope pour chercher Ulysse.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="melante">
             <role>MELANTE,</role>
             <roleDesc>Suivant de Circé.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="suite-ulysse">
             <role>Suite d’Ulysse &amp; de Circé.</role>
           </castItem>
-          <castItem>
+          <castItem xml:id="eole">
             <role>ÆOLE</role>
             <roleDesc>accompagné des Vents.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="sommeil">
             <role>Le Sommeil.</role>
           </castItem>
-          <castItem>
+          <castItem xml:id="soleil">
             <role>LE SOLEIL.</role>
           </castItem>
-          <castItem>
+          <castItem xml:id="jupiter">
             <role>JUPITER</role>
             <roleDesc>accompagné des Dieux.</roleDesc>
           </castItem>
@@ -880,7 +877,7 @@
           <stage>La Scene est differente, selon les divers changemens des Machines.</stage>
           <pb/>
         </div>
-      </div>
+      
         <div type="acte">
           <head>ACTE I.</head>
           <head>ULISSE<note n="71" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, y et i sont des lettres concurrentes, dans la suite du texte le « i » est privilégié, excepté aux vers 833, 1110 et 1660 où l’ont trouve « Ulysse » . Le même flottement s’opère dans tout le texte dès qu’un terme possède la lettre i.</note> DANS L’ISLE DE CIRCÉ</head>
@@ -2270,7 +2267,7 @@
               <l n="847" xml:id="l847">Fais-la luy voir <ref target="#perfide">perfide*</ref>, et que par cette erreur</l>
               <l n="848" xml:id="l848">Je m’en puisse vanger mieux que par ma <ref target="#fureur">fureur*</ref>.</l>
             </sp>
-            <sp who="le sommeil">
+            <sp who="sommeil">
               <speaker>Le sommeil.    <pb n="52"/></speaker>
               <l n="849" xml:id="l849">Vous pouvez icy tout, Nymphe que faut-il faire ?</l>
               <l n="850" xml:id="l850">Commandez, et Morphée aura soin de vous plaire.</l>
@@ -2859,7 +2856,7 @@
           <div type="scene">
             <head>SCENE PREMIERE.</head>
             <stage>La Scene est dans l’Enfer.</stage>
-            <sp who="siziphe">
+            <sp who="suite-ulysse">
               <speaker>SIZIPHE <hi rend="i">seul.</hi></speaker>
               <l n="1213" xml:id="l1213">Des<note n="176" place="bottom"> Le texte de l’édition originale commence ainsi : « de plus profonds cachots », l’emploi du « de » est fautif et nous l’avons rectifié par « des » qui semblent plus cohérent. Notons de plus que pour les deux premiers vers de l’acte IV Boyer s’est fortement inspiré de deux vers des <hi rend="i">Travaux d’Ulysse</hi> écrit par Durval : « Des cachots plus prochains du centre de la terre, / J’ay roulé jusqu’icy ceste masse de pierre. » </note> plus profonds cachots du centre de la terre</l>
               <l n="1214" xml:id="l1214">Je roule incessamment cette masse de pierre<note n="177" place="bottom"> Sisyphe, par le supplice qui lui est infligé, fait partie des criminels les plus connus des Enfers. Parce qu’il aurait trahi le secret des dieux et se serait adonné au brigandage, il est  condamné à pousser une lourde pierre jusqu’au sommet d’une montagne mais, une fois parvenu au faîte, elle tombe à chaque fois, rendant son travail interminable et sa peine éternelle.</note> ;</l>
@@ -2912,7 +2909,7 @@
             <pb/>
             <head>SCENE III.                        <pb n="77"/></head>
             <stage>SIZIPHE, ULISSE.</stage>
-            <sp who="siziphe">
+            <sp who="suite-ulysse">
               <speaker>SIZIPHE.</speaker>
               <l n="1251" xml:id="l1251">Rocher qu’en vain tousjours je tasche à remonter.</l>
             </sp>
@@ -2920,7 +2917,7 @@
               <speaker>ULISSE.</speaker>
               <l n="1252" xml:id="l1252">Quel est ce malheureux ?</l>
             </sp>
-            <sp who="siziphe">
+            <sp who="suite-ulysse">
               <speaker>SIZIPHE.</speaker>
               <l part="Y"><space/><space/>Ne puis-je l’arrester ?</l>
             </sp>
@@ -2928,7 +2925,7 @@
               <speaker>ULISSE.</speaker>
               <l n="1253" xml:id="l1253">C’est Siziphe ; luy mesme.</l>
             </sp>
-            <sp who="siziphe">
+            <sp who="suite-ulysse">
               <speaker>SIZIPHE.</speaker>
               <l part="Y"><space/><space/>O ! rigoureux suplice !</l>
             </sp>
@@ -2937,7 +2934,7 @@
               <l n="1254" xml:id="l1254">Spectacle insuportable au malheureux Ulisse !</l>
               <l n="1255" xml:id="l1255">N’importe... En ma faveur quittes pour aujourd’huy.<note n="182" place="bottom">Sisyphe prend la parole et interrompt Ulysse. La phrase est donc suspendue et appelerait des points de suspension.</note></l>
             </sp>
-            <sp who="siziphe">
+            <sp who="suite-ulysse">
               <speaker>SIZIPHE.</speaker>
               <l n="1256" xml:id="l1256">Ulisse chez les morts !</l>
             </sp>
@@ -2945,7 +2942,7 @@
               <speaker>ULISSE.</speaker>
               <l part="Y"><space/><space/>Ouy, Siziphe, c’est luy.</l>
             </sp>
-            <sp who="siziphe">
+            <sp who="suite-ulysse">
               <speaker>SIZIPHE.</speaker>
               <l n="1257" xml:id="l1257">Que veux tu malheureux ? Quel estrange caprice</l>
               <l n="1258" xml:id="l1258">Te fait venir icy redoubler mon supplice ?</l>
@@ -2987,7 +2984,7 @@
               <l n="1291" xml:id="l1291">Mais non, n’en faites rien, dans un coup si <ref target="#fatal">fatal*</ref></l>
               <l n="1292" xml:id="l1292">Je sens quelque douceur à douter de mon <ref target="#mal">mal*</ref>.</l>
             </sp>
-            <sp who="siziphe">
+            <sp who="suite-ulysse">
               <speaker>SIZIPHE.    <pb n="80"/></speaker>
               <l n="1293" xml:id="l1293">Par les mains de ton fils elle est morte infidelle,</l>
               <l n="1294" xml:id="l1294">Au lieu de tant d’<ref target="#amant">amants*</ref> qui soupiroient pour elle,</l>
@@ -3020,7 +3017,7 @@
               <speaker>ULISSE.</speaker>
               <l n="1319" xml:id="l1319">Ah ! Penelope ! ô ! Dieux ! O ! <ref target="#cruel">cruel*</ref> changement.</l>
             </sp>
-            <sp who="siziphe">
+            <sp who="suite-ulysse">
               <speaker>SIZIPHE.</speaker>
               <l n="1320" xml:id="l1320">Va ne la cherche point dans cet appartement,</l>
               <l n="1321" xml:id="l1321">Son crime estant plus grand, et plus noir que les nostres,</l>
@@ -3034,17 +3031,17 @@
             <pb/>
             <head>SCENE IV.</head>
             <stage>TYRESIE<note n="189" place="bottom"> Plus connu sous le nom de Tirésias, éminent devin de Thèbes qu’Ulysse consulta aux Enfers dans l’<hi rend="i">Odyssée.</hi> C’est d’ailleurs afin qu’il puisse apprendre son destin par le biais du devin que Circé l’avait fait descendre aux Enfers.</note>, SIZIPHE, ULISSE.</stage>
-            <sp who="tyresie">
+            <sp who="suite-ulysse">
               <speaker>TYRESIE.</speaker>
               <l n="1326" xml:id="l1326">Cher Ulisse, arrestez, que vous dit cet infame ?</l>
               <l n="1327" xml:id="l1327">Ce dernier deshonneur de vos braves ayeux,</l>
               <l n="1328" xml:id="l1328">La honte et le rebut d’un sang si glorieux.</l>
             </sp>
-            <sp who="siziphe">
+            <sp who="suite-ulysse">
               <speaker>SIZIPHE.    <pb n="82"/></speaker>
               <l n="1329" xml:id="l1329">Qu’il me laisse en repos.</l>
             </sp>
-            <sp who="tyresie">
+            <sp who="suite-ulysse">
               <speaker>TYRESIE.</speaker>
               <l part="Y"><space/><space/>Cache-toy <ref target="#miserable">miserable*</ref>,</l>
               <l n="1330" xml:id="l1330">Et delivre nos yeux d’un objet <ref target="#effroyable">effroyable*</ref>.</l>
@@ -3061,7 +3058,7 @@
               <l n="1333" xml:id="l1333">Venez vous contenter ma douleur ou ma haine ?</l>
               <l n="1334" xml:id="l1334">Ou me voir vanger d’elle, ou regretter sa <ref target="#peine">peine*</ref> ?</l>
             </sp>
-            <sp who="tyresie">
+            <sp who="suite-ulysse">
               <speaker>TYRESIE.</speaker>
               <l n="1335" xml:id="l1335">D’où vient ce desespoir, ces plaintes, ces malheurs.<note n="190" place="bottom">Tirésias pose une vraie question à Ulysse si bien que le point d’interrogation est attendu.</note></l>
             </sp>
@@ -3078,7 +3075,7 @@
               <l n="1344" xml:id="l1344">Que je meure à ses yeux de rage ou de pitié,</l>
               <l n="1345" xml:id="l1345">Donnez cette allegeance au malheureux Ulisse.</l>
             </sp>
-            <sp who="tyresie">
+            <sp who="suite-ulysse">
               <speaker>TYRESIE.</speaker>
               <l n="1346" xml:id="l1346">Ulisse ouvre les yeux, et cognoy l’<ref target="#artifice">artifice*</ref></l>
               <l n="1347" xml:id="l1347">Dont l’infame Siziphe <ref target="#abuser">abusoit*</ref> ton amour,</l>
@@ -3091,7 +3088,7 @@
               <l n="1351" xml:id="l1351">Dieux ! elle vit encor, mais peut-estre elle vit,</l>
               <l n="1352" xml:id="l1352">Pour soüiller en vivant et ma gloire et mon lit.</l>
             </sp>
-            <sp who="tyresie">
+            <sp who="suite-ulysse">
               <speaker>TYRESIE.</speaker>
               <l n="1353" xml:id="l1353">Reviens, et pers enfin un soubçon, qui l’offense,</l>
               <l n="1354" xml:id="l1354">Non que je sois surpris de cette defiance :                    <pb n="84"/></l>
@@ -3133,7 +3130,7 @@
               <l n="1387" xml:id="l1387">Par un chemin facile abregez ses <ref target="#travail">travaux*</ref>,</l>
               <l n="1388" xml:id="l1388">Et derobez Ulisse à des <ref target="#charme">charmes*</ref> nouveaux.</l>
             </sp>
-            <sp who="tyresie">
+            <sp who="suite-ulysse">
               <speaker>TYRESIE.</speaker>
               <l n="1389" xml:id="l1389">Ulisse je ne puis respondre à vostre attente,</l>
               <l n="1390" xml:id="l1390">Le <ref target="#charme">charme*</ref> de Circé rend ma main impuissante ;</l>
@@ -3147,7 +3144,7 @@
               <l n="1395" xml:id="l1395">Faut-il revoir encor ces dangereux <ref target="#climat">climats*</ref> ?</l>
               <l n="1396" xml:id="l1396">Et doy-je m’apprester à de nouveaux combats ?</l>
             </sp>
-            <sp who="tyresie">
+            <sp who="suite-ulysse">
               <speaker>TYRESIE.</speaker>
               <l n="1397" xml:id="l1397">Il le faut, cher Ulisse, et desja l’heure presse ;</l>
               <l n="1398" xml:id="l1398">Mais malgré ses <ref target="#effort">efforts*</ref>, espere en ton adresse ;                     <pb n="86"/></l>
@@ -4108,7 +4105,7 @@
               <l n="1947" xml:id="l1947">Je descends jusqu’à toy pour ouyr ta priere ;</l>
               <l n="1948" xml:id="l1948">Mon fils<note n="222" place="bottom">Jupiter est le premier dieu, le « dieu-père », selon les mythologies le Soleil désigne Apollon, dieu né des amours de Jupiter avec Léto. Toutefois certaines autres versions de la mythologie distinguent le Soleil (ou Hélios) d’Apollon et le disent fils d’Hypérion et de Basilée.</note>, parle.</l>
             </sp>
-            <sp who="le soleil">
+            <sp who="soleil">
               <speaker>LE SOLEIL.</speaker>
               <l part="Y"><space/><space/>Asseuré des <ref target="#bonte">bontez*</ref> de mon pere</l>
               <l n="1949" xml:id="l1949">Je parle, et quoy qu’instruit que ses <ref target="#soin">soins*</ref> paternels                <pb n="123"/></l>
@@ -4157,7 +4154,7 @@
               <l n="1989" xml:id="l1989">Je me sers de ces bruits, qui precedent mes coups</l>
               <l n="1990" xml:id="l1990">Pour instruire la terre à craindre mon courroux.</l>
             </sp>
-            <sp who="le soleil">
+            <sp who="soleil">
               <speaker>LE SOLEIL.</speaker>
               <l n="1991" xml:id="l1991">Soit pour son interest, ou celuy de ma fille</l>
               <l n="1992" xml:id="l1992">Vangez sans plus tarder l’honneur de ma famille ;</l>
@@ -4319,7 +4316,7 @@
             <label rend="center">FIN.</label>
           </div>
         </div>
-        <div>
+        <div type="appendix" xml:id="privilege">
           <pb/>
           <head>Extraict du Privilege du Roy.</head>
           <p>Par grace &amp; privilege du Roy donné à Paris le 10. jour de Novembre 1648. Signé, Par le Roy en son Conseil, Le Brun. Il est permis à Toussainct Quinet Marchand Libraire à Paris, d’imprimer ou faire imprimer, vendre &amp; distribuer une pièce de Theatre intitulée <hi rend="i">Ulysse dans l’isle de Circé, ou Euriloche foudroyé, par le sieur Boyer</hi>, durant le temps &amp; espace de cinq ans, à compter du jour qu’il sera achevé d’imprimer : Et defenses sont faites à tous Imprimeurs, Libraires &amp; autres de contrefaire ledit Livre, ny le vendre ou exposer en vente d’autre impression que de celle qu’il a fait faire, à peine de trois mil livres d’amende, &amp; de tous despens, dommages &amp; interests, ainsi qu’il est plus amplement porté par lesdites Lettres, qui sont en vertu du present extrait tenuës pour bien &amp; deuëment signifiees, à ce qu’aucun n’en pretende cause d’ignorance.</p>

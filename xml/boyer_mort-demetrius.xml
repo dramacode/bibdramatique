@@ -862,9 +862,8 @@
       </div>
     </front>
     <body>
-      <div type="set">
         <head>LA MORT DE DÉMÉTRIUS, ou le rétablissement d’Alexandre roy d’Epire. TRAGÉDIE</head>
-        <div>
+        <div type="set" n="1" xml:id="epitre">
           <pb/>
           <head>
             <hi rend="b">EPISTRE A Monseigneur le CHANCELIER</hi>
@@ -878,7 +877,7 @@
           <p>serviteur,</p>
           <p>BOYER.</p>
         </div>
-        <div>
+        <div xml:id="sonnet" type="set" n="2">
           <pb/>
           <head>A MONSEIGNEUR LE CHANCELIER, SONNET.</head>
           <l>J’Ay beau pour ta loüange animer tout mon zéle,</l>
@@ -896,43 +895,43 @@
           <l>Mais avec tant d’orgueil la France desespere,</l>
           <l>D’avoir un Successeur qui soit digne de Toy.</l>
         </div>
-        <div>
+        <div xml:id="acteurs" n="3" type="set">
           <pb/>
           <head>ACTEURS</head>
           <castList>
-          <castItem>
+          <castItem xml:id="demetrius">
             <role>DEMETRIUS,</role>
             <roleDesc>Roy d’Epire.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="arsinoe">
             <role>ARSINOÉ,</role>
             <roleDesc>Reine d’Epire.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="alexandre">
             <role>ALEXANDRE,</role>
             <roleDesc>Fils de Pyrrus, legitime heritier de la Couronne d’Epire.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="ismenie">
             <role>ISMENIE,</role>
             <roleDesc>Princesse d’Epire.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="milon">
             <role>MILON,</role>
             <roleDesc>Favory de Démétrius.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="seleucus">
             <role>SELEUCUS,</role>
             <roleDesc>Seigneur d’Epire.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="telamon">
             <role>TELAMON,</role>
             <roleDesc>Capitaine des Gardes de Démétrius.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="laodice">
             <role>LAODICE,</role>
             <roleDesc>Confidente d’Isménie.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="diocles">
             <role>DIOCLES,</role>
             <roleDesc>de la suite d’Alexandre.</roleDesc>
           </castItem>
@@ -942,7 +941,7 @@
           </castList>
           <stage>La Scène est à Dodone<note n="29" place="bottom">. Dodone est la capitale du royaume d’Epire.</note> dans le Palais Royal.</stage>
         </div>
-        </div>
+        
         <div type="acte">
           <head>ACTE I.</head>
           <p><title>LA MORT DE DEMETRIUS OU LE RETABLISSEMENT  D’ALEXANDRE ROY D’EPIRE. TRAGÉDIE.</title>    <pb n="1"/></p>
@@ -4215,7 +4214,7 @@
             <label rend="center b">FIN</label>
           </div>
         </div>
-        <div>
+        <div type="appendix" n="1" xml:id="privilege">
           <pb/>
           <head>Extrait du Privilège du Roy.</head>
           <p>Par grace ; Privilege du Roy, donné à Paris le 10 septembre 1660. Signé, Par le Roy en son Conseil, FOURNIER, Il est permis au sieur Boyer, de faire imprimer, vendre  ; debiter une Piece de Theatre qu’il a composée, intitulée <hi rend="i">Démétrius</hi>, en telle marge  ; en tel caractere que bon luy semblera,  ; ce durant l’espace de cinq ans : Et deffences sont faites à tous autres de l’imprimer ou faire imprimer, vendre ou debiter sans le consentement de l’Exposant, à peine de mil livres d’amende, confiscation des Exemplaires contrefaits,  ; de tous dépens, dommages  ; interests, ainsi que plus au long il est porté par ledit Privilege.</p>

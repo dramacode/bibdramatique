@@ -74,39 +74,39 @@
     </front>
     <body>
         <head>L'AVEUGLE <lb/>CLAIRVOYANT, <lb/>COMÉDIE<lb/></head>
-        <div type="set">
+        <div type="set" xml:id="auteurs">
           <pb/>
           <head>ACTEURS.</head>
           <castList>
-          <castItem>
+          <castItem xml:id="damon">
             <role>DAMON,</role>
             <roleDesc>officier de marine, aveugle clairvoyant.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="leonor">
             <role>LÉONOR,</role>
             <roleDesc>jeune veuve promise à Damon.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="tante">
             <role>LA VIEILLE LÉONOR,</role>
             <roleDesc>tante de Léonor, amoureuse de Damon.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="leandre">
             <role>LÉANDRE,</role>
             <roleDesc>neveu de Damon, amant de Léonor.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="lempese">
             <role>LEMPESÉ,</role>
             <roleDesc>médecin, amoureux de Léonor.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="lisette">
             <role>LISETTE,</role>
             <roleDesc>suivante de Léonor.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="marin">
             <role>MARIN,</role>
             <roleDesc>valet de Damon.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="notaire">
             <role>UN NOTAIRE.</role>
           </castItem>
           </castList>
@@ -167,7 +167,7 @@
             <l n="26" xml:id="l26">Nous le renvoie aveugle ? Eh quoi ! cette raison</l>
             <l n="27" xml:id="l27">Vous doit-elle empêcher de conclure ?</l>
           </sp>
-          <sp who="i">
+          <sp who="leonor">
             <speaker>I.ÉONOR.</speaker>
             <l part="Y"><space/><space/>Sans doute.</l>
           </sp>
@@ -403,7 +403,7 @@
             <speaker>MARIN.</speaker>
             <l part="Y"><space/><space/>Eh ! madame, bonjour.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l n="123" xml:id="l123">Qu'ai-je appris, cher Marin ? Quel accident terrible !</l>
             <l n="124" xml:id="l124">Damon revient aveugle ? O ciel ! est-il possible ?</l>
@@ -412,7 +412,7 @@
             <speaker>MARIN.</speaker>
             <l n="125" xml:id="l125">Madame, il est trop vrai.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l part="Y"><space/><space/>Que je le plains ! hélas !</l>
             <l n="126" xml:id="l126">Quoiqu’il n’ait pas rendu justice à mes appas,</l>
@@ -424,7 +424,7 @@
             <l n="129" xml:id="l129">Vous le plaignez, ma tante ? Ah ! ne plaignez que moi</l>
             <l n="130" xml:id="l130">Je me vois dans l’état le plus cruel...</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l part="Y"><space/><space/>Pourquoi ?</l>
           </sp>
@@ -433,7 +433,7 @@
             <l n="131" xml:id="l131">Epouser un aveugle ! Ah ! cette seule idée</l>
             <l n="132" xml:id="l132">Me fait frémir d’horreur.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l part="Y"><space/><space/>J'en suis persuadée :</l>
             <l n="133" xml:id="l133">Cependant aujourd’hui la disette d’amans</l>
@@ -443,7 +443,7 @@
             <speaker>MARIN.</speaker>
             <l n="135" xml:id="l135">Oui, l’espèce est si rare.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l part="Y"><space/><space/>On est belles, bien faites,</l>
             <l n="136" xml:id="l136">Et l’on passe ses jours sans ouïr de fleurettes.</l>
@@ -496,7 +496,7 @@
             <l part="Y"><space/><space/>Comment !</l>
             <l n="154" xml:id="l154">Pourrois-tu là-dessus balancer un moment ?</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l n="155" xml:id="l155">Ne cherchez pas plus loin ; j’ai trouvé votre affaire,</l>
             <l n="156" xml:id="l156">Une belle personne, et qui saura lui plaire,</l>
@@ -507,7 +507,7 @@
             <speaker>LISETTE.</speaker>
             <l n="159" xml:id="l159">Fi donc, madame, fi !</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l part="Y"><space/><space/>Pourquoi donc, je vous prie ?</l>
             <l n="160" xml:id="l160">Qui vous fait récrier de la sorte, ma mie ?</l>
@@ -516,7 +516,7 @@
             <speaker>LISETTE.</speaker>
             <l n="161" xml:id="l161">Par ma foi, c’est votre âge.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l part="Y"><space/><space/>Eh ! n’ayez point de peur :</l>
             <l n="162" xml:id="l162">De ma nièce toujours j’ai passé pour la sœur ;</l>
@@ -528,7 +528,7 @@
             <l part="Y"><space/><space/>Bon ! belle conséquence !</l>
             <l n="165" xml:id="l165">Quarante-cinq à quinze.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l part="Y"><space/><space/>Enfin, quoi qu’il en soit,</l>
             <l n="166" xml:id="l166">Je jouerai bien mon rôle et mieux que l’on ne croit.</l>
@@ -544,7 +544,7 @@
             <speaker>LEONOR.</speaker>
             <l n="171" xml:id="l171">Ma tante, je crains bien...</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l part="Y"><space/><space/>Ne te mets point en peine :</l>
             <l n="172" xml:id="l172">Je suis ta belle-mère et même ta marraine,</l>
@@ -558,7 +558,7 @@
             <l n="177" xml:id="l177">Et que quand à l’abord il donneroit dedans,</l>
             <l n="178" xml:id="l178">Il pourroit dans la suite...</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l part="Y"><space/><space/>Et c’est où je l’attends :</l>
             <l n="179" xml:id="l179">Quand il reconnoîtra cette aimable imposture,</l>
@@ -602,7 +602,7 @@
             <speaker>LISETTE.</speaker>
             <l n="191" xml:id="l191">Ah ! j’entends Lempesé.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l part="Y"><space/><space/>L'incommode visite !</l>
             <l n="192" xml:id="l192">Je ne le puis souffrir, défais-t’en au plus vîte</l>
@@ -1069,7 +1069,7 @@
             <l part="Y"><space/><space/>Attendez, ce n’est pas par ici.</l>
             <l n="323" xml:id="l323">Où diable allez-vous donc parler à cette porte ?</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE, <hi rend="i">contrefaisant la voix de Léonor.</hi></speaker>
             <l n="324" xml:id="l324">Ah ! Damon, quel chagrin de vous voir de la sorte !</l>
           </sp>
@@ -1086,7 +1086,7 @@
             <speaker>DAMON.</speaker>
             <l n="327" xml:id="l327">N'importe, elle a toujours pour moi les mêmes charmes.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l n="328" xml:id="l328">Ciel ! que votre accident m’a fait verser de larmes !</l>
             <l n="329" xml:id="l329">Si vous saviez mon cher.</l>
@@ -1095,7 +1095,7 @@
             <speaker>DAMON.</speaker>
             <l part="Y"><space/><space/>Ah ! je n’en doute pas.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l n="330" xml:id="l330">Je ne saurois parler, et mes soupirs... Hélas !</l>
             <l n="331" xml:id="l331">Je ne sais pas comment je suis encore en vie.</l>
@@ -1123,7 +1123,7 @@
             <l n="341" xml:id="l341">Vous devez donc, monsieur, ne vous chagriner point ;</l>
             <l n="342" xml:id="l342">La beauté de madame est bizarre à tel point…</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l n="343" xml:id="l343">Enfin de ma beauté quoi que vous puissiez croire,</l>
             <l n="344" xml:id="l344">Sur bien d’autres on peut me donner la victoire ;</l>
@@ -1134,7 +1134,7 @@
             <speaker>DAMON.</speaker>
             <l n="347" xml:id="l347">Ah ! madame, on sait trop que c’est une merveille.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l n="348" xml:id="l348">De mille doux propos remplissant votre oreille,</l>
             <l n="349" xml:id="l349">Je vous consolerai d’avoir perdu les yeux ;</l>
@@ -1149,7 +1149,7 @@
             <l n="355" xml:id="l355">J'ai mes raisons qui sont de peu de conséquence :</l>
             <l n="356" xml:id="l356">Pour vous, signez toujours, et faites diligence.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l n="357" xml:id="l357">J'y vais, et dans l’instant je serai de retour.</l>
           </sp>
@@ -1158,7 +1158,7 @@
             <l n="358" xml:id="l358">Prenez quelque notaire éloigné du carfour,</l>
             <l n="359" xml:id="l359">Et qui ne puisse ici reconnoître personne.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE, <hi rend="i">bas, à Marin.</hi></speaker>
             <l n="360" xml:id="l360">C'est fort bien avisé, la prévoyance est bonne.</l>
             <l n="361" xml:id="l361">Lorsque j’aurai signé, j’enverrai le contrat,</l>
@@ -1172,7 +1172,7 @@
             <l n="366" xml:id="l366">A mon cœur amoureux est un nouveau tourment ;</l>
             <l n="367" xml:id="l367">Répondez, Léonor, à mon ardeur extrême.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l n="368" xml:id="l368">J'y vais, j’y cours, j’y vole, et je reviens de même.</l>
           </sp>
@@ -1649,7 +1649,7 @@
           <pb/>
           <head>SCENE XVIII.</head>
           <stage>DAMON, LEMPESÉ, LE NOTAIRE.</stage>
-          <sp who="le notaire">
+          <sp who="notaire">
             <speaker>LE NOTAIRE.</speaker>
             <l n="511" xml:id="l511">A tous présens salut. Jamais dans mon étude</l>
             <l n="512" xml:id="l512">Avec tant de justesse et tant de promptitude</l>
@@ -1659,7 +1659,7 @@
             <speaker>DAMON.</speaker>
             <l n="514" xml:id="l514">Enfin, quoi qu’il en soit, tout est-il en état ?</l>
           </sp>
-          <sp who="le notaire">
+          <sp who="notaire">
             <speaker>LE NOTAIRE.</speaker>
             <l n="515" xml:id="l515">Oui, monsieur : il ne faut seulement que m’apprendre</l>
             <l n="516" xml:id="l516">Le nom, les qualités que le futur veut prendre.</l>
@@ -1670,7 +1670,7 @@
             <speaker>LEMPESÉ.</speaker>
             <l part="Y"><space/><space/>C'est moi.</l>
           </sp>
-          <sp who="le notaire">
+          <sp who="notaire">
             <speaker>LE NOTAIRE.</speaker>
             <l n="519" xml:id="l519">O ciel ! qui l’auroit cru ? c’est vraiment grand dommage.</l>
           </sp>
@@ -1678,7 +1678,7 @@
             <speaker>LEMPESÉ.</speaker>
             <l n="520" xml:id="l520">Il est vrai ; mais signons sans tarder davantage.</l>
           </sp>
-          <sp who="le notaire">
+          <sp who="notaire">
             <speaker>LE NOTAIRE.</speaker>
             <l n="521" xml:id="l521">Il faut lire du moins le contrat.</l>
           </sp>
@@ -1687,7 +1687,7 @@
             <l part="Y"><space/><space/>Nullement.</l>
             <l n="522" xml:id="l522">Léonor l’a signé, je signe aveuglément.</l>
           </sp>
-          <sp who="le notaire">
+          <sp who="notaire">
             <speaker>LE NOTAIRE.</speaker>
             <l n="523" xml:id="l523">La future est pressante, et vous encor plus qu’elle.</l>
             <l n="524" xml:id="l524">Signez donc : c’est, je crois, Damon qu’on vous appelle.</l>
@@ -1698,7 +1698,7 @@
             <stage>(Lempesé signe le contrat, et le Notaire lui conduit la main le croyant aveugle.)</stage>
             <l n="526" xml:id="l526">Mais je signe toujours Damien Lempesé.</l>
           </sp>
-          <sp who="le notaire">
+          <sp who="notaire">
             <speaker>LE NOTAIRE, <hi rend="i">écrit</hi>.</speaker>
             <l n="527" xml:id="l527">Vos qualités ?</l>
           </sp>
@@ -1713,7 +1713,7 @@
             <l n="530" xml:id="l530">Adieu, monsieur, tantôt on vous satisfera ;</l>
             <l n="531" xml:id="l531">On aura même égard à votre diligence.</l>
           </sp>
-          <sp who="le notaire">
+          <sp who="notaire">
             <speaker>LE NOTAIRE.</speaker>
             <l n="532" xml:id="l532">Je ne demande rien, je suis payé d’avance ;</l>
             <l n="533" xml:id="l533">Madame Léonor a su prendre ce soin.</l>
@@ -2088,7 +2088,7 @@
             <l n="644" xml:id="l644"><space/><space/>Ah ! ah ! c’est notre Tante.</l>
             <l n="645" xml:id="l645">Eh quoi ? la bonne femme est encore vivante ?</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l n="646" xml:id="l646">Que veut dire cela, monsieur ? vous voyez clair ?</l>
           </sp>
@@ -2096,7 +2096,7 @@
             <speaker>DAMON.</speaker>
             <l n="647" xml:id="l647">Un peu trop clair pour vous, je le vois à votre air.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l n="648" xml:id="l648">Si vous voyez si clair, regardez votre femme ;</l>
             <l n="649" xml:id="l649">J'ai signé le contrat pour ma nièce.</l>
@@ -2105,7 +2105,7 @@
             <speaker>DAMON.</speaker>
             <l part="Y"><space/><space/>Ah ? madame.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l n="650" xml:id="l650">Cela vous fâche un peu ?</l>
           </sp>
@@ -2115,7 +2115,7 @@
             <l n="651" xml:id="l651">C'est monsieur Lempesé qui l’a signé pour moi ;</l>
             <l n="652" xml:id="l652">Regardez votre époux.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l part="Y"><space/><space/>Vous vous moquez, je pense.</l>
           </sp>
@@ -2141,7 +2141,7 @@
             <speaker>LEMPESÉ.</speaker>
             <l n="657" xml:id="l657">Une vieille !</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l part="Y"><space/><space/>Un benêt !</l>
           </sp>
@@ -2149,7 +2149,7 @@
             <speaker>LEMPESÉ.</speaker>
             <l part="Y"><space/><space/>Une folle !</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l part="Y"><space/><space/>Un Jocrisse.</l>
           </sp>
@@ -2158,7 +2158,7 @@
             <l n="658" xml:id="l658">Fort bien, continuez, c’est à des noms si doux</l>
             <l n="659" xml:id="l659">Qu'on reconnoît déjà que vous êtes époux.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l n="660" xml:id="l660">Pour me venger de vous, oui, je serai sa femme,</l>
             <l n="661" xml:id="l661">Et je vous ferai voir...</l>
@@ -2167,7 +2167,7 @@
             <speaker>LEMPESÉ.</speaker>
             <l part="Y"><space/><space/>Non, s’il vous plaît, madame.</l>
           </sp>
-          <sp who="la tante">
+          <sp who="tante">
             <speaker>LA TANTE.</speaker>
             <l n="662" xml:id="l662">Tout comme il vous plaira, monsieur, arrangez vous ;</l>
             <l n="663" xml:id="l663">Il faut qu’il me revienne à bon compte un époux.</l>
@@ -2234,9 +2234,8 @@
             <speaker>MARIN.</speaker>
             <l n="687" xml:id="l687">Voilà le véritable aveugle clairvoyant.</l>
           </sp>
-          <p rend="center">FIN DE L'AVEUGLE CLAIRVOYANT.</p>
+          <label>FIN DE L'AVEUGLE CLAIRVOYANT.</label>
         </div>
-      
     </body>
     <back>
       <div>

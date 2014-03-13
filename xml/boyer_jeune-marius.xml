@@ -718,9 +718,8 @@
       </div>
     </front>
     <body>
-        <div type="set">
         <head>LE JEUNE MARIUS. TRAGEDIE.</head>
-        <div>
+        <div type="set" n="1" xml:id="dedicace">
           <pb/>
           <head>A Monseigneur <hi rend="b">colbert.</hi> Ministre et secretaire d’<hi rend="sc">Estat</hi><note n="23" place="bottom">. COLBERT (Jean-Baptiste) 1619-1683 Il fut ministre de Louis XIV dès 1661 aux Finances, à l’économie nationale, aux bâtiments royaux, aux travaux publics. Il fut contrôleur général des Finances en 1665 puis secrétaire d’État à la Marine et à la Maison du Roi (deux des quatre secrétariats d’État existants) en 1669. Il conserva ces fonctions jusqu’à sa mort.</note>.</head>
           <p><hi rend="i">Monseigneur</hi>,</p>
@@ -737,49 +736,49 @@
           <p>et tres obligé serviteur,</p>
           <p>BOYER.</p>
         </div>
-        <div>
+        <div xml:id="acteurs" n="2" type="set">
           <pb/>
           <head>Acteurs.</head>
           <castList>
-          <castItem>
+          <castItem xml:id="marius">
             <role>MARIUS.</role>
             <roleDesc>Consul Romain, fils de C. Marius<note n="28" place="bottom">. Selon Appien, Marius est son neveu (ch. 10, §. 87) , selon Plutarque, (<hi rend="i">Vie de Marius</hi>, LXXXIX) ; Tite Live, (<hi rend="i">Abrégé du Livre 86</hi>) et même Appien, ch. 7, §. 60-62) , c’est bien son fils. Caius Marius père (157-86) élu par le parti populaire, fut sept fois consul romain de 107 à 86, il consolida l’État par de nouvelles institutions, entreprit la réforme du recrutement de l’armée qui devint ouverte à tous, participa à la guerre contre Jugurtha (112-105) , à la guerre sociale (voir note 18) contre les Cimbres et les Samnites, à la guerre civile qui l’opposa à Sylla de 88 à 86 dans une lutte pour le pouvoir consulaire. Marius fils est consul depuis 88 ou 82 selon les historiens.</note>.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="sylla">
             <role>SYLLA.</role>
             <roleDesc>General de l’armée Romaine<note n="29" place="bottom">. (138-78) D’abord légat de Marius, combattant à ses côtés contre Jugurtha (qui lui fut livré en 105) , et dans la guerre sociale, il s’opposa ensuite à lui, puis à son fils, dans la guerre civile. Consul en 88, il prit le titre de dictateur en 82, et quitta le pouvoir en 79.</note>.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="pompee">
             <role>POMPEE.</role>
             <roleDesc>Lieutenant de Sylla<note n="30" place="bottom">. (106-48) Fils de Cnaeus Pompeius Strabo (général) et de Lucilia (descendante d’une famille de sénateurs) il fut surnommé plus tard Pompée le Grand. Allié de Sylla contre Marius, il devint consul après la mort de celui-ci en 78, il fut vainqueur, entre autres, de Mithridate, participa au premier triumvir avec César et Cassius en 61, fut consul unique en 52, avant de s’opposer en une guerre civile à César. il mourut en Égypte, où il s’était réfugié après sa défaite à Pharsale en 48.</note>.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="cecilie">
             <role>CECILIE.</role>
             <roleDesc>Fille de Sylla<note n="31" place="bottom">. Cécilie n’existe pas, mais sous ce nom transparaît Æmilia, fille de Metella et de Emilius Scaurus Glabrio. Metella était alors la femme de Sylla (la cinquième) et se prénommait Cæcilia. Sur ce point, voir aussi Plutarque, (<hi rend="i">Vie de Sylla,</hi> XIV) . </note>.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="pison">
             <role>PISON.</role>
             <roleDesc>Amy de Sylla.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="maxime">
             <role>MAXIME.</role>
             <roleDesc>Amy de Marius.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="marcelle">
             <role>MARCELLE.</role>
             <roleDesc>Confidentes de Cecilie. </roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="sabine">
             <role>SABINE.</role>
           </castItem>
-          <castItem>
+          <castItem xml:id="octave">
             <role>OCTAVE.</role>
           </castItem>
           </castList>
           <stage>La Scene est à Preneste<note n="32" place="bottom">. Préneste : Ville d’Italie, actuel Palestrina, au sud-est de Rome, à proximité de la Via Latina, lieu historique d’une bataille entre Marius le Jeune et Sylla et de la mort de Marius. Marius, tenant la ville, y avait transféré le trésor de l’État et en avait renforcé les fortifications naturelles.</note>, dans le Palais de Marius.
           </stage>
         </div>
-        </div>
+        
         <div type="acte">
           <head>ACTE I.             <pb n="1"/></head>
           <div type="scene">
@@ -2193,7 +2192,7 @@
               <speaker>POMPEE.</speaker>
               <l n="960" xml:id="l960">Rome et vostre <hi rend="sup">*</hi><ref target="#fortune">fortune</ref> ont vaincu par ma main.</l>
             </sp>
-            <sp who="silla">
+            <sp who="sylla">
               <speaker>SILLA.</speaker>
               <l n="961" xml:id="l961">Mais un si grand succés ne sçauroit se comprendre.</l>
             </sp>
@@ -2219,7 +2218,7 @@
               <l n="979" xml:id="l979">Un ennemy triomphe et de Rome et de nous,</l>
               <l n="980" xml:id="l980">Quand nous venons de vaincre et pour Rome et pour vous.</l>
             </sp>
-            <sp who="silla">
+            <sp who="sylla">
               <speaker>SILLA.</speaker>
               <l n="981" xml:id="l981">Seigneur, cette obligeante et noble jalousie</l>
               <l n="982" xml:id="l982">Que nos illustres Chefs font voir pour Cecilie,</l>
@@ -2241,7 +2240,7 @@
               <l n="995" xml:id="l995">Vous sçavez quel espoir flatoit tous vos amis :</l>
               <l n="996" xml:id="l996">Mais j’ay tort de me plaindre, et tout vous est permis.</l>
             </sp>
-            <sp who="silla">
+            <sp who="sylla">
               <speaker>SILLA.</speaker>
               <l n="997" xml:id="l997">Non, vous aurez raison de vous plaindre sans cesse</l>
               <l n="998" xml:id="l998">D’une paix que j’ay faite avec trop de foiblesse,</l>
@@ -2260,7 +2259,7 @@
               <speaker>POMPEE.</speaker>
               <l n="1009" xml:id="l1009">Le nom de Dictateur ?</l>
             </sp>
-            <sp who="silla">
+            <sp who="sylla">
               <speaker>SILLA.</speaker>
               <l part="Y"><space/><space/>Quoy ce nom vous étonne ?</l>
             </sp>
@@ -2270,7 +2269,7 @@
               <l n="1011" xml:id="l1011">Et lors que Marius s’unit à vostre sang,                         <pb n=" 44"/></l>
               <l n="1012" xml:id="l1012">Nul ne peut desormais vous disputer ce rang.</l>
             </sp>
-            <sp who="silla">
+            <sp who="sylla">
               <speaker>SILLA.</speaker>
               <l n="1013" xml:id="l1013">Ainsi, si Marius ne devient pas mon gendre,</l>
               <l n="1014" xml:id="l1014">On me peut disputer le nom que je veux prendre.</l>
@@ -2521,7 +2520,7 @@
             <pb/>
             <head>SCENE III.            <pb n="52"/></head>
             <stage>SYLLA. CECILIE. PISON.</stage>
-            <sp who="silla">
+            <sp who="sylla">
               <speaker>SILLA.</speaker>
               <l n="1153" xml:id="l1153">Quoy, ma fille, Pompée évite ma presence ?</l>
             </sp>
@@ -2548,7 +2547,7 @@
               <l n="1165" xml:id="l1165">Lorsque pour Marius sa vertu s’interesse<note n="105" place="bottom">. Au sens de : prendre intérêt pour quelqu’un.</note>,</l>
               <l n="1166" xml:id="l1166">Soupçonnez-vous, Seigneur, cette noble tendresse ?</l>
             </sp>
-            <sp who="silla">
+            <sp who="sylla">
               <speaker>SILLA.</speaker>
               <l n="1167" xml:id="l1167">Quoy, vous loüez Pompée et souffrez ses refus ?</l>
               <l n="1168" xml:id="l1168">Moy j’abhorre et je crains l’amy de Marius,                      <pb n="53"/></l>
@@ -2576,7 +2575,7 @@
               <l n="1187" xml:id="l1187">Et ne croyant que vous sur cet horrible choix,</l>
               <l n="1188" xml:id="l1188">Sauvez moy du forfait de vous prester ma voix.</l>
             </sp>
-            <sp who="silla">
+            <sp who="sylla">
               <speaker>SILLA.</speaker>
               <l n="1189" xml:id="l1189">Non, non, je t’aime trop, et n’osant seul resoudre</l>
               <l n="1190" xml:id="l1190">Sur quel de tes <hi rend="sup">*</hi>Amans doit tomber cette foudre.</l>
@@ -2585,7 +2584,7 @@
               <speaker>CECILIE.</speaker>
               <l n="1191" xml:id="l1191">Vous m’aimez et voulez du crime le plus noir...</l>
             </sp>
-            <sp who="silla">
+            <sp who="sylla">
               <speaker>SILLA.</speaker>
               <l n="1192" xml:id="l1192">Cesse de m’interrompre, et connois mon devoir ;                  <pb n="54"/></l>
               <l n="1193" xml:id="l1193">Ne m’embarrasse point d’une vaine tendresse,</l>
@@ -2633,7 +2632,7 @@
               <l n="1226" xml:id="l1226">Ou ne m’imposez pas un choix abominable,</l>
               <l n="1227" xml:id="l1227">Pere cruel.</l>
             </sp>
-            <sp who="silla">
+            <sp who="sylla">
               <speaker>SILLA.</speaker>
               <l part="Y"><space/><space/>Gardez de trahir mon secret</l>
               <l n="1228" xml:id="l1228">Par les emportemens d’un scrupule indiscret.</l>
@@ -2684,7 +2683,7 @@
               <speaker>MARIUS.</speaker>
               <l n="1250" xml:id="l1250">Quoy, Seigneur...</l>
             </sp>
-            <sp who="silla">
+            <sp who="sylla">
               <speaker>SILLA.</speaker>
               <l part="Y"><space/><space/>Je connois vostre malheur extréme ;</l>
               <l n="1251" xml:id="l1251">Je le voy, je le sens, et vous pouvez penser</l>
@@ -3223,7 +3222,7 @@
             <pb/>
             <head>SCENE V.                    <pb n="74"/></head>
             <stage>SYLLA. POMPEE. CECILIE. SABINE.</stage>
-            <sp who="silla">
+            <sp who="sylla">
               <speaker>SILLA.</speaker>
               <l part="Y"><space/>Peut-on sçavoir qui sera vostre Epoux ?</l>
               <l n="1624" xml:id="l1624">Mais j’entens vostre choix, Pompée est avec vous.</l>
@@ -3242,7 +3241,7 @@
               <l part="Y"><space/>Et j’ay dû répondre en cette occasion,</l>
               <l n="1628" xml:id="l1628">Plus à vostre devoir qu’à vostre intention.</l>
             </sp>
-            <sp who="silla">
+            <sp who="sylla">
               <speaker>SILLA.</speaker>
               <l n="1629" xml:id="l1629">Vous avez concerté ce beau choix l’un et l’autre,</l>
               <l n="1630" xml:id="l1630">Et vous avez reglé mon devoir sur le vostre :</l>
@@ -3520,7 +3519,7 @@
             </sp>
           </div>
         </div>
-        <div>
+        <div n="1" xml:id="privilege">
           <pb/>
           <head>extrait du privilege du roy.</head>
           <p>Par Grace et Privilege du Roy, donné à Paris le 24. jour de Mars 1669. Signé, DALANCE, il est permis à G QUINET, de faire imprimer, vendre et debiter un Livre intitulé <hi rend="i">le Jeune Marius, Tragedie</hi>, durant le temps et espace de sept années, entieres et accomplies, à compter du jour qu’il sera achevé d’imprimer pour la premiere fois, en vertu du present Privilege. Et defenses sont faites à tous autres, de quelque qualité et condition qu’ils soient, d’imprimer ou faire imprimer ladite Piece, sur peine de confiscation des Exemplaires, et de tous dépens, dommages et interests, ainsi qu’il est plus amplement porté par ledit Privilege.</p>
@@ -3528,7 +3527,6 @@
           <p>A. SOUBRON, Syndic.</p>
           <p>Achevé d’imprimer pour la premiere fois le 28.Mars 1669.</p>
         </div>
-      
     </body>
     <back>
       <div>

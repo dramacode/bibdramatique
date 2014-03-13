@@ -416,11 +416,8 @@
       </div>
     </front>
     <body>
-      <div type="set">
-        <head>L’AVEUGLE CLAIR-VOYANT,</head>
-        <head>COMEDIE.</head>
-        <p>Representée sur le Theatre Royal devant leurs Majestez.</p>
-        <div xml:id="epitre">
+      <head>L’AVEUGLE CLAIR-VOYANT, <lb/>COMEDIE. <lb/>Representée sur le Theatre Royal devant leurs Majestez.</head>
+        <div type="dedication" xml:id="epitre">
           <pb/>
           <head>A MONSEIGNEUR</head>
           <p>MONSEIGNEUR</p>
@@ -434,41 +431,41 @@
           <p rend="right">Vostre tres-humble, tres-obeissant</p>
           <p rend="right">&amp; tres-<ref target="#obliger4">obligé*</ref> <ref target="#serviteur2">serviteur*</ref>, BROSSE.</p>
         </div>
-        <div>
+        <div xml:id="acteurs">
           <pb/>
           <head>
             <hi rend="b">LES ACTEURS.</hi>
           </head>
           <castList>
-          <castItem>
+          <castItem xml:id="cleanthe">
             <role>CLEANTHE</role>
             <roleDesc>Pere de Lidamas &amp; de Melice, Amoureux d’Olimpe.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="olimpe">
             <role>OLIMPE</role>
             <roleDesc>Jeune veufve, Amoureuse de Lidamas.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="lidamas">
             <role>LIDAMAS</role>
             <roleDesc>Amoureux d’Olimpe.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="melice">
             <role>MELICE</role>
             <roleDesc>Amoureuse de Thelame.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="thelame">
             <role>THELAME</role>
-            <roleDesc><ref target="#cavalier" xml:id="thelame">Cavalier*</ref>, Amoureux de Melice.</roleDesc>
+            <roleDesc><ref target="#cavalier">Cavalier*</ref>, Amoureux de Melice.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="nerine">
             <role>NERINE</role>
             <roleDesc>Suivante d’Olimpe.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="lucille">
             <role>LUCILLE</role>
             <roleDesc>Suivante de Melice.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="sylvestre">
             <role>SYLVESTRE</role>
             <roleDesc>Valet de Cleanthe.</roleDesc>
           </castItem>
@@ -476,7 +473,7 @@
           <stage>La Scene est à Blois dans la maison de Cleanthe.</stage>
           <pb/>
         </div>
-      </div>
+      
         <div type="acte">
           <head>Acte I</head>
           <head>L’AVEUGLE CLAIR-VOYANT. COMEDIE.</head>
@@ -3516,7 +3513,7 @@
             <label>Fin</label>
           </div>
         </div>
-        <div>
+        <div type="appendix" xml:id="privilege">
           <pb/>
           <head>Extraict du Privilege du Roy.</head>
           <p>Par grace &amp; privilege du Roy donné à Paris le 10. jour de Novembre 1649. Signé, Par le Roy en son Conseil, Le Brun. Il est permis à Toussainct Quinet Marchand Libraire à Paris, d’imprimer ou faire imprimer, vendre &amp; distribuer une piece de Theatre intitulée, <hi rend="i">L’Aveugle Clair-voyant, Comedie, du sieur Brosse</hi>, pendant le temps de cinq ans entiers &amp; accomplis. Et defenses sont faites à tous Imprimeurs, Libraires &amp; autres, de contrefaire le dit Livre, ny le vendre ou exposer en vente d’autre impression que de celle qu’il a fait faire, à peine de trois mil livres d’amende, &amp; de tous despens, dommages &amp; interests, ainsi qu’il est plus amplement porté par lesdites Lettres, qui sont en <ref target="#vertu3">vertu</ref> du present extrait tenuës pour bien &amp; deuëment signifiees, à ce qu’aucun<note n="293" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, « <hi rend="i">aucun</hi>, pronom substantif sans antécédent, s’emploie dans le sens de <hi rend="i">personne</hi> dans une proposition négative. Cf. <hi rend="i">Que chacun se retire et qu’</hi><hi rend="b">aucun</hi> <hi rend="i">n’entre ici.</hi> (Corn., <hi rend="i">Cinna</hi>, II, 1, 355.) – <hi rend="i">Deux jours s’étoient passés sans qu’</hi><hi rend="b">aucun</hi> <hi rend="i">vînt au puits.</hi> (La Font., <hi rend="i">Fables</hi>, XI, 6, 25.) » (Haase, § 50, B, Rem. II, p. 107).</note> n’en pretende cause d’ignorance.</p>

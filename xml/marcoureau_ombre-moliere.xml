@@ -1131,7 +1131,7 @@
         <pb/>
         <head>L’OMBRE DE MOLIERE.</head>
         <head>COMEDIE.</head>
-        <div>
+        <div xml:id="dedicace" type="dedication">
           <pb/>
           <head>À SON ALTESSE SERENISSIME MONSEIGNEUR LE DUC D’ENGUIEN<note n="43" place="bottom">Il
               s’agit de Louis II, prince de Condé, dit le Grand Condé (1621-1686) qui se rendit
@@ -1160,28 +1160,28 @@
           <p>Le tres-humble et tres-obeïssant Serviteur,</p>
           <p>BRECOURT.</p>
         </div>
-        <div type="set">
+        <div type="set" xml:id="acteurs">
           <head>ACTEURS.            <pb n="VIII"/></head>
           <castList>
-            <castItem>
+            <castItem xml:id="ombre">
               <role>DEUX OMBRES.</role>
             </castItem>
-            <castItem>
+            <castItem xml:id="caron">
               <role>CARON.</role>
             </castItem>
             <castItem>
               <role>LE POETE.</role>
             </castItem>
-            <castItem>
+            <castItem xml:id="pluton">
               <role>PLUTON.</role>
             </castItem>
-            <castItem>
+            <castItem xml:id="radamante">
               <role>RADAMANTE.</role>
             </castItem>
-            <castItem>
+            <castItem xml:id="minos">
               <role>MINOS.</role>
             </castItem>
-            <castItem>
+            <castItem xml:id="moliere">
               <role>MOLIERE,</role>
               <roleDesc>Poëte Comique.</roleDesc>
             </castItem>
@@ -1209,7 +1209,7 @@
               <role>MADAME JOURDAIN,</role>
               <roleDesc>du Bourgeois Gentilhomme.</roleDesc>
             </castItem>
-            <castItem>
+            <castItem xml:id="medecins">
               <role>QUATRE MEDECINS,</role>
               <roleDesc>de la Comedie des Medecins.</roleDesc>
             </castItem>
@@ -1391,43 +1391,43 @@
             <stage>Le Theatre s’ouvre par DEUX OMBRES, qui, en dançant, apportent chacune un morceau
               de tout ce qui peut former un Tribunal ; et apres l’avoir dressé, elles se disputent
               un Balay pour nettoyer ce lieu, où Pluton se doit venir rendre bientost.</stage>
-            <sp who="1e ombre">
+            <sp who="ombre">
               <speaker>1<hi rend="sup">e</hi> ombre.</speaker>
               <p>Donne, donne-moy ce Balay.</p>
             </sp>
-            <sp who="2e ombre">
+            <sp who="ombre">
               <speaker>2<hi rend="sup">e</hi> ombre.</speaker>
               <p>Je n’en feray rien, c’est à <pb n="14"/> moy à balayer icy : Pluton y va venir, et
                 je veux que tout soit net, et propre comme il faut.</p>
             </sp>
-            <sp who="1e ombre">
+            <sp who="ombre">
               <speaker>1<hi rend="sup">e</hi> ombre.</speaker>
               <p>Oüy, mais je te dispute cet honneur ; cela m’appartient mieux qu’à toy.</p>
             </sp>
-            <sp who="2e ombre">
+            <sp who="ombre">
               <speaker>2<hi rend="sup">e</hi> ombre.</speaker>
               <p>Et par quelle raison ?</p>
             </sp>
-            <sp who="1e ombre">
+            <sp who="ombre">
               <speaker>1<hi rend="sup">e</hi> ombre.</speaker>
               <p>Par la raison que quand j’estois dans l’autre Monde, je me suis si bien acquitté de
                 mon Employ, que je mérite bien en celuy-cy l’honneur de l’exercer encore.</p>
             </sp>
-            <sp who="2e ombre">
+            <sp who="ombre">
               <speaker>2<hi rend="sup">e</hi> ombre.</speaker>
               <p>Et quel mérite avois-tu plus <pb n="15"/> que moy en l’autre Monde ? N’estions-nous
                 pas Laquais tous deux ?</p>
             </sp>
-            <sp who="1e ombre">
+            <sp who="ombre">
               <speaker>1<hi rend="sup">e</hi> ombre.</speaker>
               <p>Oüy, mais il y a Laquais, et Laquais.</p>
             </sp>
-            <sp who="2e ombre">
+            <sp who="ombre">
               <speaker>2<hi rend="sup">e</hi> ombre.</speaker>
               <p>Et qu’as-tu à me reprocher ? N’ay-je pas fidellement servy tous les Maistres à qui
                 j’ay esté ?</p>
             </sp>
-            <sp who="1e ombre">
+            <sp who="ombre">
               <speaker>1<hi rend="sup">e</hi> ombre.</speaker>
               <p>Ay-je manqué en rien, moy, à tout ce que les miens m’ont commandé ? Et quand je
                 servois, par exemple, cet illustre et fameux Tailleur, m’a-t-on jamais veu luy
@@ -1438,7 +1438,7 @@
                     universel</hi> d’Antoine Furetière.</note> la moindre guenille des choses qu’il
                 déroboit ?</p>
             </sp>
-            <sp who="2e ombre">
+            <sp who="ombre">
               <speaker>2<hi rend="sup">e</hi> ombre.<pb n="16"/></speaker>
               <p>Et quand je servois, moy, mon petit Grison de Procureur, m’a-t-on jamais veu abuser
                 des secrets qu’il me confioit, ny revéler aucune des friponneries qu’il faisoit à
@@ -1448,13 +1448,13 @@
                   intervenantes sont celles qui s’y joignent par quelque intérêt, ou qui y sont
                   appelées en assistance de cause ». Idem.</note> ?</p>
             </sp>
-            <sp who="1e ombre">
+            <sp who="ombre">
               <speaker>1<hi rend="sup">e</hi> ombre.</speaker>
               <p>M’a-t-on veu manquer jamais à la fidélité que j’ay dûë à une Maistresse coquette
                 que je servois, ny avertir son mary que je portois tous les jours des Billets-doux à
                 ses Galans ?</p>
             </sp>
-            <sp who="2e ombre">
+            <sp who="ombre">
               <speaker>2<hi rend="sup">e</hi> ombre.</speaker>
               <p>Et, durant les quatre années que j’ay servy ce fameux Empirique<note n="50"
                   place="bottom"><hi rend="i">Empirique</hi> : « Terme de médecine. Celui qui tient
@@ -1465,7 +1465,7 @@
                 toutes les vies qu’il vendoit par ce moyen au plus offrant et dernier
                 encherisseur ?</p>
             </sp>
-            <sp who="1e ombre">
+            <sp who="ombre">
               <speaker>1<hi rend="sup">e</hi> ombre.</speaker>
               <p>Tout-beau ; Le secret de faire mourir les Gens a quelque rapport avec la Medecine,
                 et nous ne serions pas bien venus à enfiler ce discours. Nous nous échaperions
@@ -1477,12 +1477,12 @@
                 colere jusques sur nous, pour n’avoir pas parlé d’eux avec tout le respect qu’ils
                 attendent. C’est pourquoy nous ferons mieux de nous taire.</p>
             </sp>
-            <sp who="2e ombre">
+            <sp who="ombre">
               <speaker>2<hi rend="sup">e</hi> ombre.</speaker>
               <p>A propos, c’est donc pour ces Messieurs que la Feste se fait, et que nous venons
                 tout préparer icy ?</p>
             </sp>
-            <sp who="1e ombre">
+            <sp who="ombre">
               <speaker>1<hi rend="sup">e</hi> ombre.</speaker>
               <p>Je ne sçay si c’est pour d’au- <pb n="19"/> tres, ou pour eux ; mais je sçay bien
                 que Pluton s’y doit rendre bientost pour juger une grande Affaire. C’est pourquoy,
@@ -1490,11 +1490,11 @@
                 prendrons chacun un Balay, et nous nettoyerons ensemble, pour avoir plutost fait.
                 Aussi-bien je voy trop d’ordures icy pour un seul Balayeur.</p>
             </sp>
-            <sp who="2e ombre">
+            <sp who="ombre">
               <speaker>2<hi rend="sup">e</hi> ombre.</speaker>
               <p>Tu as raison ; mais j’entens du bruit ; Seroit-ce déja Pluton ?</p>
             </sp>
-            <sp who="1e ombre">
+            <sp who="ombre">
               <speaker>1<hi rend="sup">e</hi> ombre.</speaker>
               <p>Attens : Non, non ce n’est pas luy encore ; c’est Caron <pb n="20 "/>avec le Génie
                 du Poëte Doucet<note n="51" place="bottom">Le <hi rend="i">Poëte Doucet</hi> est une
@@ -1503,11 +1503,11 @@
                   L’intertextualité dans <hi rend="i">L’Ombre de Moliere</hi>.</note>. Je croy
                 qu’ils n’auront jamais finy leur querelle.</p>
             </sp>
-            <sp who="2e ombre">
+            <sp who="ombre">
               <speaker>2<hi rend="sup">e</hi> ombre.</speaker>
               <p>A qui en a Caron aussy, de tourmenter incessamment ce pauvre Génie ?</p>
             </sp>
-            <sp who="1e ombre">
+            <sp who="ombre">
               <speaker>1<hi rend="sup">e</hi> ombre.</speaker>
               <p>Il faut bien qu’il luy ait fait quelque chose.</p>
             </sp>
@@ -1520,7 +1520,7 @@
               <speaker>Caron.</speaker>
               <p>Que font là ces Coquins ? Allons, tout est-il net ?</p>
             </sp>
-            <sp who="1e ombre">
+            <sp who="ombre">
               <speaker>1<hi rend="sup">e</hi> ombre.</speaker>
               <p>Oüy, Messieurs, et vous pouvez quereller icy fort proprement.</p>
             </sp>
@@ -2475,12 +2475,12 @@
                 de tout vos bons et fidelles services, je ne pretens pas vous rien refuser. Demandez
                 seulement.</p>
             </sp>
-            <sp who="1e medecin">
+            <sp who="medecins">
               <speaker>1<hi rend="sup">e</hi> Medecin.</speaker>
               <p>Grand Monarque des Morts, vous voyez icy la fleur de vos plus fidelles
                 Pensionnaires.</p>
             </sp>
-            <sp who="2e medecin">
+            <sp who="medecins">
               <speaker>2<hi rend="sup">e</hi> Medecin <hi rend="i">bredoüillant.</hi></speaker>
               <p>Jamais nous n’avons laissé échaper la moindre occasion de vous donner des marques
                 de nostre obeïssance et fidelité.</p>
@@ -2494,7 +2494,7 @@
                     Universel</hi> d’Antoine Furetière.</note>, et la Saignée, m’ont rendu
                 témoignage que vous m’avez fidellement servy.</p>
             </sp>
-            <sp who="3e medecin">
+            <sp who="medecins">
               <speaker>3<hi rend="sup">e</hi> Medecin.</speaker>
               <p>Nous avons fait nostre devoir.</p>
             </sp>
@@ -2502,7 +2502,7 @@
               <speaker>Pluton</speaker>
               <p>Beaucoup de Gens sont venus icy de vostre part, qui m’en ont assuré.</p>
             </sp>
-            <sp who="4e medecin">
+            <sp who="medecins">
               <speaker>4<hi rend="sup">e</hi> Medecin.</speaker>
               <p>C’est avec plaisir que l’on sert un si grand Monarque.</p>
             </sp>
@@ -2516,7 +2516,7 @@
                 Morts de leurs Amis, qui en avoient fait une experience fort raisonnable. Mais que
                 souhaitez-vous de moy ?</p>
             </sp>
-            <sp who="3e medecin">
+            <sp who="medecins">
               <speaker>3<hi rend="sup">e</hi> Medecin.</speaker>
               <p>Nous venons vous demander justice d’un Téméraire qui prétend traitter la Medecine
                 d’imposture, et de Charlatanerie.</p>
@@ -2525,7 +2525,7 @@
               <speaker>Pluton    <pb n="79"/></speaker>
               <p>C’est donc quelqu’un qui la connoît ?</p>
             </sp>
-            <sp who="4e medecin">
+            <sp who="medecins">
               <speaker>4<hi rend="sup">e</hi> Medecin.</speaker>
               <p>C’est une rage sans fondement, une simple avidité de tout satyrizer, et une
                 animosité envenimée par la seule envie d’écrire, et de former des Cabales contre
@@ -2535,7 +2535,7 @@
               <speaker>Moliere <hi rend="i">à part.</hi></speaker>
               <p>Je vous confondray dans peu, superbes Imposteurs.</p>
             </sp>
-            <sp who="3e medecin">
+            <sp who="medecins">
               <speaker>3<hi rend="sup">e</hi> Medecin.</speaker>
               <p>Il s’est mesme déjà glissé jusques dans ces Lieux une médisance secrette qui nous
                 regarde. Tous les Morts semblent se liguer contre nous ; <pb n="80"/> Il leur échape
@@ -2551,7 +2551,7 @@
                 l’impudence d’aller gaster vostre Mestier ? <pb n="81 "/>Nommez, nommez-les moy ;
                 J’en veux faire un bon exemple.</p>
             </sp>
-            <sp who="4e medecin">
+            <sp who="medecins">
               <speaker>4<hi rend="sup">e</hi> Medecin.</speaker>
               <p>C’est un nombre infiny de petits Esprits qui se sont laissez emporter au torrent,
                 et qui n’ont poussé leur Plainte que comme les Echos qui répetent les peines des

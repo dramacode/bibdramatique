@@ -1452,7 +1452,7 @@
 </front>
     <body>
         <head>CORIOLAN <lb/>TRAGEDIE.</head>
-        <div n="1" xml:id="epitre" type="set">
+        <div n="1" xml:id="epitre" type="dedication">
           <pb/>
           <head><hi rend="b">A MONSIEUR DE BAUTRU, BARON DE SERRANT</hi><note n="128" place="bottom"> Guillaume de Bautru (1588-1665), conseiller du Roi et diplomate, était également baron de Segre, Seigneur de Louvaines et du Percher, dans l’actuelle Maine-et-Loire, d’après la dédicace de la <hi rend="i">Troisième centurie des questions traitées aux conférences du Bureau d’Adresse, depuis le 18 février 1636 jusques au 17 janvier 1639</hi>, par Théophraste Renaudot. Il était régulièrement envoyé du Roi en province et à l’étranger pour des missions diplomatiques, comme le 22 juillet 1637, où il fut envoyé à Sedan afin de donner personnellement les instructions au Comte de Soissons pour la campagne menée par le Roi (<hi rend="i">Gazette de France</hi>, juillet 1637). Il a été élu à l’Académie Française dès sa création, « quoi qu’il n’eût jamais rien écrit » rappelle ironiquement Guillaume Reynal dans les <hi rend="i">Anecdotes littéraires</hi>, Paris, Durand et Pissot, 1752.</note>, <hi rend="b">CONSEILLER ORDINAIRE DU ROY EN SES CONSEILS DESTAT ET PRIVE, &amp;c.</hi></head>
           <p rend="b">MONSIEUR,</p>
@@ -1480,43 +1480,43 @@
           <pb/>
           <head>LES ACTEURS.</head>
           <castList>
-          <castItem>
+          <castItem xml:id="coriolan">
             <role>CORIOLAN.</role>
           </castItem>
-          <castItem>
+          <castItem xml:id="senateur">
             <role>LES SENATEURS.</role>
           </castItem>
-          <castItem>
+          <castItem xml:id="sicinie">
             <role>SICINIE,</role>
             <roleDesc>Tribun du peuple.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="sancine">
             <role>SANCINE,</role>
             <roleDesc>amy de Coriolan.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="aufidie">
             <role>AUFIDIE,</role>
             <roleDesc>Capitaine des Volsques.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="verginie">
             <role>VERGINIE,</role>
             <roleDesc>fame de Coriolan.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="velumnie">
             <role>VELUMNIE,</role>
             <roleDesc>mere de Coriolan.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="camille">
             <role>CAMILLE,</role>
             <roleDesc>suivante de Verginie.</roleDesc>
           </castItem>
-          <castItem>
+          <castItem xml:id="lieutenant-volsque">
             <role>UN LIEUTENANT DES VOLSQUES.</role>
           </castItem>
           <castItem>
             <role>UN AUTRE LIEUTENANT DES VOLSQUES.</role>
           </castItem>
-          <castItem>
+          <castItem xml:id="soldat-volsque">
             <role>UN SOLDAT DES VOLSQUES.</role>
           </castItem>
           </castList>
@@ -1527,7 +1527,7 @@
           <head>ACTE PREMIER.</head>
           <div type="scene">
             <head>SCENE PREMIERE.</head>
-            <sp who="un senateur">
+            <sp who="senateur">
               <speaker>UN SENATEUR.</speaker>
               <l n="1" xml:id="l1">Nous nous sommes punis en le voulant punir,</l>
               <l n="2" xml:id="l2">Nous fismes nostre perte en le pensant bannir<note n="137" place="bottom"> Le Sénateur évoque, dès les premiers vers de la pièce, les événements précédents de l’histoire de Coriolan : le général romain a déjà été « banni », condamnation précise évoquée par Plutarque (<hi rend="i">Vie de Coriolan</hi>, 20 : « la peine prononcée fut le bannissement perpétuel » ), alors que Tite-Live indique que son exil fut volontaire, puisqu’il n’était pas présent lors de son procès (II, XXXV : « <hi rend="i">Ipse cum die dicta non adesset</hi> » ). Par cette simple mention, Chevreau précise qu’il suit de plus près la source grecque que la source latine.</note> ;</l>
@@ -1556,7 +1556,7 @@
               <l n="25" xml:id="l25"><space/>Et je treuve qu’en fin vous l’avez <ref target="#obliger2">obligé*</ref>    </l>
               <l n="26" xml:id="l26">De<note n="146" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, les deux constructions de l’infinitif complément indirect <hi rend="i">à + Inf / de + Inf</hi> coexistent sans que l’une ou l’autre ne prenne le pas sur sa concurrente, voir aussi au vers 689.</note> vanger un affront qu’il n’avoit pas vangé<note n="147" place="bottom">Le sénateur fait ici une référence à la fronde du peuple menée par les tribuns qui empêcha la candidature de Coriolan au consulat. Plutarque note que « cet échec affecta péniblement le sénat, qui le regarda comme un affront fait à lui-même plutôt qu’à Marcius » (15, 4)</note>.</l>
             </sp>
-            <sp who="un autre senateur">
+            <sp who="senateur">
               <speaker>UN AUTRE SENATEUR.</speaker>
               <l n="27" xml:id="l27">Tout nous presse pourtant dans cét estat <ref target="#funeste1">funeste*</ref>,</l>
               <l n="28" xml:id="l28">Nous sommes combatus de famine &amp; de peste<note n="148" place="bottom">Etonnante confusion ici : la famine est bien signalée à Rome par Plutarque et Tite-Live, mais cela avant la campagne vengeresse de Coriolan ; c’est même à propos du prix du blé, dont les importations ont repris, que le patricien entra en conflit ouvert avec le peuple, qui voulait en abaisser le prix : « Marcius s’étant levé attaqua violemment ceux qui voulaient complaire à la multitude, les traitant de démagogues et de traîtres à la noblesse. » (Plutarque, 16, 4). Quant à la peste, la seule mention de la maladie chez les auteurs antiques concerne en fait les Volsques (ex : Tite-Live, II, XXXIV, 5), touchés par la peste lors de l’attaque romaine menée par Marcius, soit bien avant le début de l’action dans la pièce de Chevreau. Celui-ci regroupe sans doute les deux éléments pour accentuer la dimension pathétique de la supplique.</note> :</l>
@@ -1907,7 +1907,7 @@
           <head>ACTE II.                <pb n="18"/></head>
           <div type="scene">
             <head>SCENE PREMIERE.</head>
-            <sp who="un senateur">
+            <sp who="senateur">
               <speaker>UN SENATEUR.</speaker>
               <l n="295" xml:id="l295">Sicinie est-il vray ? seroit-il bien croyable</l>
               <l n="296" xml:id="l296">Que l’ingrat à nos maux parust <ref target="#impitoyable">impitoyable*</ref> ?</l>
@@ -1927,7 +1927,7 @@
               <l n="307" xml:id="l307">N’atendons jamais rien du secours de nos larmes,</l>
               <l n="308" xml:id="l308">Esperons tout du Ciel, &amp; du succez des armes.</l>
             </sp>
-            <sp who="un second senateur">
+            <sp who="senateur">
               <speaker>UN SECOND SENATEUR.</speaker>
               <l n="309" xml:id="l309">Nos Sacrificateurs ont senty son courous,</l>
               <l n="310" xml:id="l310">Et ne l’ont pas treuvé plus <ref target="#sensible1">sensible*</ref> que vous.</l>
@@ -1998,7 +1998,7 @@
               <l n="371" xml:id="l371">On me loüa tout haut d’une telle <ref target="#entreprise">entreprise*</ref>,</l>
               <l n="372" xml:id="l372">Où je n’eus d’<ref target="#interest1">interest*</ref> que pour nostre <ref target="#franc">franchise*</ref><note n="217" place="bottom"> Comprendre ici : <hi rend="i">« dans laquelle je n’ai cherché qu’à sauver notre liberté ».</hi></note>.</l>
             </sp>
-            <sp who="un autre senateur">
+            <sp who="senateur">
               <speaker>UN AUTRE SENATEUR.     <pb n="22"/></speaker>
               <l n="373" xml:id="l373">Mais lors qu’on veut punir un puissant ennemy,</l>
               <l n="374" xml:id="l374">On ne le doit choquer ny punir à demy.</l>
@@ -2042,7 +2042,7 @@
               <l n="409" xml:id="l409">Et contre un qui vouloit la qualité de Roy<note n="223" place="bottom">Dans cette Rome républicaine, qui abhorre le souvenir de la royauté tyrannique dont les événements sanglants sont tous rappelés par Sicinie, cette accusation est une des pires imaginables, et l’occasion de se placer dans la lignée légendaire de Brutus.</note></l>
               <l n="410" xml:id="l410">J’ay tenté ce que Brute a tenté devant moy.</l>
             </sp>
-            <sp who="un senateur">
+            <sp who="senateur">
               <speaker>UN SENATEUR.</speaker>
               <l n="411" xml:id="l411">Lors qu’ils furent chassez tout estoit legitime,</l>
               <l n="412" xml:id="l412">Tarquin nous haïssoit, le fils commit un crime<note n="224" place="bottom">Le viol de Lucrèce.</note>,</l>
@@ -3092,7 +3092,7 @@
               <l n="1183" xml:id="l1183">Et qu’avant que le jour vienne fraper nos yeux,</l>
               <l n="1184" xml:id="l1184">Il doit lever le siege, &amp; sortir de ces lieux.</l>
             </sp>
-            <sp who="un senateur">
+            <sp who="senateur">
               <speaker>UN SENATEUR.</speaker>
               <l n="1185" xml:id="l1185">Nos Sacrificateurs ont moins fait que vous autres<note n="311" place="bottom">Voir la note au vers 32.</note>,</l>
               <l n="1186" xml:id="l1186">Et vos pleurs en éfet ont essuyé les nostres.</l>
@@ -3320,7 +3320,7 @@
               <l n="1339" xml:id="l1339">Et nous ne devons pas aujourd’huy negliger</l>
               <l n="1340" xml:id="l1340">Le temps de le convaincre &amp; de nous bien vanger.</l>
             </sp>
-            <sp who="lieutenant des volsques">
+            <sp who="lieutenant-volsque">
               <speaker>LIEUTENANT DES VOLSQUES.</speaker>
               <l n="1341" xml:id="l1341">De tant de lâchetez ce sera la derniere.</l>
               <l n="1342" xml:id="l1342">Pour nous avoir trahis, il perdra la lumiere.</l>
@@ -3344,7 +3344,7 @@
               <l n="1357" xml:id="l1357">Et par des trahisons qu’il sçait mettre en pratique,</l>
               <l n="1358" xml:id="l1358">Il pouroit eviter une fin si tragique.</l>
             </sp>
-            <sp who="un autre lieutenant des volsques">
+            <sp who="lieutenant-volsque">
               <speaker>UN AUTRE LIEUTENANT des Volsques.</speaker>
               <l n="1359" xml:id="l1359">Apres sa trahison il peut bien s’excuser :</l>
               <l n="1360" xml:id="l1360">Mais il est mal-aisé* qu’il nous puisse abuser :</l>
@@ -3357,7 +3357,7 @@
               <l n="1364" xml:id="l1364">L’afaire est importante, &amp; nous sommes pressez. </l>
               <l n="1365" xml:id="l1365">Courez-y sans regret, rien ne vous épouvante<note n="329" place="bottom">Le verbe est ici conjugué au subjonctif présent, et a valeur optative.</note>.</l>
             </sp>
-            <sp who="un soldat des volsques">
+            <sp who="soldat-volsque">
               <speaker>UN SOLDAT DES VOLSQUES.</speaker>
               <l n="1366" xml:id="l1366">Vostre ame en un moment se treuvera contente.</l>
               <l n="1367" xml:id="l1367">Nous nous pouvons vanger avec juste raison                     <pb n="87"/></l>
@@ -3462,7 +3462,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE SIXIESME.                 <pb n="92"/></head>
-            <sp who="un lieutenant des volsques">
+            <sp who="lieutenant-volsque">
               <speaker>UN LIEUTENANT des Volsques.</speaker>
               <l n="1437" xml:id="l1437">Il est tout à propos, nostre <ref target="#entreprise">entreprise*</ref> est belle</l>
               <l n="1438" xml:id="l1438">Suivez moy seulement je vous seray <ref target="#fidelle1">fidelle*</ref>,</l>
@@ -3482,7 +3482,7 @@
               <stage>Ils se jettent sür Coriolan</stage>
               <l n="1448" xml:id="l1448">O Dieux ! je suis blessé, je tombe, je suis mort !</l>
             </sp>
-            <sp who="un volsque">
+            <sp who="soldat-volsque">
               <speaker>UN VOLSQUE.     <pb n="93"/></speaker>
               <l n="1449" xml:id="l1449">Encore un coup, perfide ; il est mort l’<ref target="#infidelle">infidelle*</ref>,</l>
               <l n="1450" xml:id="l1450">L’Enfer va recevoir son ame criminelle.</l>
