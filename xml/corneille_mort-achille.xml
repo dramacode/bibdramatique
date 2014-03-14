@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="corneille_mort-achille" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">La Mort d'Achille. Tragédie</title>
-        <author>Thomas Corneille</author>
+        <title>La Mort d'Achille. Tragédie</title>
+        <author key="Corneille, Thomas (1625-1709)">Thomas Corneille</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par MAHIEUX Étienne dans le cadre d'un mémoire de
@@ -1108,7 +1107,7 @@
               <l n="268" xml:id="l268">Que sur ce <ref target="#triste">triste*</ref> <ref target="#hymen">hymen*</ref><note n="206" place="bottom">1682 : Hymen</note> <ref target="#penetrer">penetrant*</ref> l’avenir,</l>
               <l n="269" xml:id="l269">Fuy Polixene, fuy l’impitoyable Achille,</l>
               <l n="270" xml:id="l270">Me dit-elle, <hi rend="i">tu prens un espoir inutile</hi>,<note n="207" place="bottom"> 1692-1709 : <hi rend="i">inutile.</hi></note></l>
-              <l n="271" xml:id="l271"><hi rend="i">Vouloir donner ta <ref target="#main1">main*</ref></hi>,<note n="208" place="bottom"> 1682 : <hi rend="i">main</hi></note><hi rend="i">c’est courir au tombeau</hi>,<note n="209" place="bottom"> 1692, 1701, 1709 : <hi rend="i">tombeau.</hi></note></l>
+              <l n="271" xml:id="l271" rend="i">Vouloir donner ta <ref target="#main1">main*</ref>,<note n="208" place="bottom"> 1682 : <hi rend="i">main</hi></note><hi rend="i">c’est courir au tombeau</hi>,<note n="209" place="bottom"> 1692, 1701, 1709 : <hi rend="i">tombeau.</hi></note></l>
               <l n="272" xml:id="l272">Achille est destiné pour estre ton bourreau.</l>
               <l n="273" xml:id="l273">Jugez, Prince, jugez aprés cette menace</l>
               <l n="274" xml:id="l274">Si mon coeur sans sujet se trouble, s’embarasse,</l>
