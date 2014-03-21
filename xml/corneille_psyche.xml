@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corneille_psyche" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Psyché. Tragédie</title>
-        <author>Thomas Corneille</author>
+        <author key="Corneille, Thomas (1625-1709)">Thomas Corneille</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par ARNASON Luke dans le cadre d'un mémoire de
@@ -328,7 +327,7 @@
 </front>
     <body>
       <head>PSYCHÉ, <lb/>TRAGEDIE.</head>
-        <div type="dedication" xml:base="dedicace">
+        <div type="dedication" xml:id="dedicace">
           <pb/>
           <head>L’ACADEMIE ROYALE DE MUSIQUE AU ROY<note n="70" place="bottom"> La création de <hi rend="i">Psyché</hi> eut lieu au lendemain de la fin de la guerre de Hollande qui s’était conclue après la prise de Gand et d’Ypres respectivement le 12 et le 25 mars 1678. </note>.</head>
           <l>Grand ROY, quand l’Univers apprend avec surprise</l>
@@ -595,7 +594,7 @@
             <roleDesc>[basse]</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="dieu-fleuve">LE DIEU D’UN FLEUVE.</role>
+            <role xml:id="fleuve">LE DIEU D’UN FLEUVE.</role>
             <roleDesc>[basse]</roleDesc>
           </castItem>
           <castItem>
@@ -608,11 +607,12 @@
             <roleDesc>[dessus]</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="nymphe-acheron">DEUX NYMPHES de l’ACHERON.</role>
+            <role xml:id="nymphes-acheron">DEUX NYMPHES de l’ACHERON.</role>
             <roleDesc>[dessus]</roleDesc>
           </castItem>
           <castItem>
             <role xml:id="trois-furies">LES TROIS FURIES. </role>
+            <role xml:id="furie"/>
             <roleDesc>[haute-contre, taille, basse]</roleDesc>
           </castItem>
           <castItem>
@@ -632,8 +632,7 @@
             <roleDesc>[haute-contre]</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="muse1">[LES MUSES (x2).]</role>
-            <role xml:id="muse2"/>
+            <role xml:id="muses">[LES MUSES (x2).]</role>
             <roleDesc>[dessus]</roleDesc>
           </castItem>
           <castItem>
@@ -651,7 +650,10 @@
             <castItem>
               <role xml:id="femme-affligee"/>
               <role xml:id="homme-afflige1"/>
-              <role xml:id="homme-affligee2"/>
+              <role xml:id="homme-afflige2"/>
+            </castItem>
+            <castItem>
+              <role xml:id="trio"/>
             </castItem>
           </castList>
           <label>PSYCHE’, TRAGEDIE.                    <pb n="1, A"/></label>
@@ -1798,7 +1800,7 @@
               <l n="632" xml:id="l632">M’offrent celuy que je dois prendre.</l>
               <stage>Psyché estant preste à se precipiter dans les flots, le Fleuve paroist assis sur son Urne, &amp; tout environné de Roseaux.</stage>
             </sp>
-            <label>* <space/>* <space/>*                                    <pb n="37"/></label>
+            <label>* * *                                    <pb n="37"/></label>
           </div>
           <div type="scene">
             <pb/>
@@ -2595,9 +2597,7 @@
           </entryFree>
           <entryFree>
             <form>Ennui.</form>
-          </entryFree>
-          <p>Chagrin.</p>
-          <entryFree>
+            <def>Chagrin.</def>
             <xr>V. </xr>
           </entryFree>
           <entryFree>
