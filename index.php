@@ -16,30 +16,33 @@ $themeHref=$pot->baseHref.'teipot/';
 <html>
   <head>
     <meta charset="UTF-8" />
-    <?php echo $doc['head']; ?>
+    <?php 
+if(isset($doc['head'])) echo $doc['head'];
+else echo '<title>Bibliothèque dramatique</title>';
+    ?>
     <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>html.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>teipot.css" />
   </head>
-  <body>
-    <header id="header">
-      <h1>
-        <a href="<?php echo $pot->baseHref; ?>">CRHT, prototype</a>
-      </h1>
-      <?php // liens de téléchargements
-        // if ($doc['downloads']) echo "\n".'<nav id="downloads"><small>Télécharger :</small> '.$doc['downloads'].'</nav>';
-      ?>
-    </header>
+  <body class="fixed">
     <div id="center">
+      <header id="header">
+        <h1>
+          <a href="<?php echo $pot->baseHref; ?>">CRHT, prototype</a>
+        </h1>
+        <?php // liens de téléchargements
+          // if ($doc['downloads']) echo "\n".'<nav id="downloads"><small>Télécharger :</small> '.$doc['downloads'].'</nav>';
+        ?>
+      </header>
       <nav id="toolbar">
         <?php 
-        echo '<a href="',$pot->baseHref,'">CRHT</a> » ';
+echo '<a href="',$pot->baseHref,'">CRHT</a> » ';
         // nous avons un livre, glisser aussi les liens de téléchargement
-        echo $doc['breadcrumb']; 
+if (isset($doc['breadcrumb'])) echo $doc['breadcrumb']; 
         ?>
       </nav>
-      <div id="main">
+      <div id="article">
       <?php
-if ($doc['body']) {
+if (isset($doc['body'])) {
   echo $doc['body'];
   // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
   if ($pot->q && (!$doc['artName'] || $doc['artName']=='index')) echo $pot->concBook($doc['bookId']);
@@ -53,7 +56,7 @@ else {
   // présentation bibliographique des résultats
   echo $pot->biblio(array('author','title','date'));
   // concordance s’il y a recherche plein texte
-  echo $pot->conc();
+  echo $pot->concByBook();
 }
       ?>
       </div>
@@ -61,7 +64,7 @@ else {
         <p> </p>
           <?php
 // livre
-if ($doc['bookId']) {
+if (isset($doc['bookId'])) {
   echo "\n<nav>";
   // auteur, titre, date
   if ($doc['byline']) $doc['byline']=$doc['byline'].'<br/>';
