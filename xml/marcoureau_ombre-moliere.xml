@@ -1163,58 +1163,67 @@
         <div type="set" xml:id="acteurs">
           <head>ACTEURS.            <pb n="VIII"/></head>
           <castList>
-            <castItem xml:id="ombre">
-              <role>DEUX OMBRES.</role>
-            </castItem>
-            <castItem xml:id="caron">
-              <role>CARON.</role>
+            <castItem>
+              <role xml:id="ombre">DEUX OMBRES.</role>
             </castItem>
             <castItem>
-              <role>LE POETE.</role>
+              <role xml:id="caron">CARON.</role>
             </castItem>
-            <castItem xml:id="pluton">
-              <role>PLUTON.</role>
+            <castItem>
+              <role xml:id="poete">LE POETE.</role>
             </castItem>
-            <castItem xml:id="radamante">
-              <role>RADAMANTE.</role>
+            <castItem>
+              <role xml:id="pluton">PLUTON.</role>
             </castItem>
-            <castItem xml:id="minos">
-              <role>MINOS.</role>
+            <castItem>
+              <role xml:id="radamante">RADAMANTE.</role>
             </castItem>
-            <castItem xml:id="moliere">
-              <role>MOLIERE,</role>
+            <castItem>
+              <role xml:id="minos">MINOS.</role>
+            </castItem>
+            <castItem>
+              <role xml:id="moliere">MOLIERE,</role>
               <roleDesc>Poëte Comique.</roleDesc>
             </castItem>
             <castItem>
-              <role>LA PRETIEUSE,</role>
+              <role xml:id="la-pretieuse">LA PRETIEUSE,</role>
               <roleDesc>de la Comedie des Prétieuses.</roleDesc>
             </castItem>
             <castItem>
-              <role>LE MARQUIS DE MASCARILLE,</role>
+              <role xml:id="marquis">LE MARQUIS DE MASCARILLE,</role>
               <roleDesc>de la mesme Comedie.</roleDesc>
             </castItem>
             <castItem>
-              <role>LE COCU,</role>
+              <role xml:id="cocu">LE COCU,</role>
               <roleDesc>du Cocu Imaginaire.</roleDesc>
             </castItem>
             <castItem>
-              <role>NICOLE,</role>
+              <role xml:id="nicole">NICOLE,</role>
               <roleDesc>du Bourgeois Gentilhomme.</roleDesc>
             </castItem>
             <castItem>
-              <role>POURCEAUGNAC,</role>
+              <role xml:id="pourceaugnac">POURCEAUGNAC,</role>
               <roleDesc>de la Comedie de Pourceaugnac.</roleDesc>
             </castItem>
             <castItem>
-              <role>MADAME JOURDAIN,</role>
+              <role xml:id="mme-jourdain">MADAME JOURDAIN,</role>
               <roleDesc>du Bourgeois Gentilhomme.</roleDesc>
             </castItem>
-            <castItem xml:id="medecins">
-              <role>QUATRE MEDECINS,</role>
+            <castItem>
+              <role xml:id="medecins">QUATRE MEDECINS,</role>
               <roleDesc>de la Comedie des Medecins.</roleDesc>
             </castItem>
             <castItem>
-              <role>L’ENVIE.</role>
+              <role xml:id="envie">L’ENVIE.</role>
+            </castItem>
+            <castItem>
+              <role xml:id="oronte"></role>
+            </castItem>
+            <castItem>
+              <role xml:id="cleante"></role>
+            </castItem>
+            <castItem>
+              <role xml:id="ames"></role>
             </castItem>
           </castList>
           <stage>La Scène est dans les Champs Elysées.</stage>
@@ -1528,16 +1537,16 @@
               <speaker>Caron.</speaker>
               <p>Quoy ! tu ne me laisseras pas en repos ? Veux-tu te retirer ?</p>
             </sp>
-            <sp who="le poete">
+            <sp who="poete">
               <speaker>Le Poete.</speaker>
               <p>Helas, Caron ! helas !</p>
             </sp>
-            <sp who="caron le raillant sur le mesme ton">
+            <sp who="caron">
               <speaker>Caron <hi rend="i">le raillant sur le mesme ton.</hi>
                 <pb n="22"/></speaker>
               <p>Helas, Caron ! helas ! A qui diable en as-tu avec tes piteux helas ?</p>
             </sp>
-            <sp who="le poete">
+            <sp who="poete">
               <speaker>Le Poete.</speaker>
               <p>Quoy ! me laisser secher ainsy dans les Champs Elysées ! N’as-tu point quelque
                 endroit à me mettre, et doy-je rester parmy les Ombres errantes ?</p>
@@ -1552,7 +1561,7 @@
                   sur la scène ». <hi rend="i">Dictionnaire Universel</hi> d’Antoine
                   Furetière.</note>, pour croire qu’ils s’accommodassent de toy.</p>
             </sp>
-            <sp who="le poete">
+            <sp who="poete">
               <speaker>Le Poete.</speaker>
               <p>Et quel outrage leur ay-je fait ?</p>
             </sp>
@@ -1562,7 +1571,7 @@
                 principalement les Héros Grecs ont grand sujet de se loüer de toy. Tu les as si bien
                 barboüillez, qu’ils n’ont plus besoin de masques de Carnaval pour se déguiser.</p>
             </sp>
-            <sp who="le poete">
+            <sp who="poete">
               <speaker>Le Poete.</speaker>
               <p>Que tu fais le plaisant mal à propos !</p>
             </sp>
@@ -1576,7 +1585,7 @@
                 Animal, je ne dis que des sottises. Il me prend envie de te mettre aux mains avec
                 Virgile, il t’ap-<pb n="C ; 25 "/>prendra à me connoistre.</p>
             </sp>
-            <sp who="le poete">
+            <sp who="poete">
               <speaker>Le Poete.</speaker>
               <p>Helas, Caron ! helas !</p>
             </sp>
@@ -1584,7 +1593,7 @@
               <speaker>Caron.</speaker>
               <p>Encore ? Ma foy, je te bailleray de ma Rame sur les oreilles.</p>
             </sp>
-            <sp who="le poete">
+            <sp who="poete">
               <speaker>Le Poete.</speaker>
               <p>Peux-tu traitter avec tant de rigueur un Génie qui a passé pour la douceur
                 mesme ?</p>
@@ -1596,7 +1605,7 @@
                 te promener. Ne va pas gâter nos belles <pb n="26"/> Allées au moins, ny t’amuser à
                 cueillir nos Lauriers. Ce n’est pas viande pour tes Oyseaux.</p>
             </sp>
-            <sp who="le poete">
+            <sp who="poete">
               <speaker>Le Poete.</speaker>
               <p>Où veux-tu donc que j’aille ?</p>
             </sp>
@@ -1605,7 +1614,7 @@
               <p>Promene-toy sur l’Egoust ; et si la faim te prend, on te permet de manger quelques
                 Chardons pour te rafraîchir la bouche.</p>
             </sp>
-            <sp who="le poete">
+            <sp who="poete">
               <speaker>Le Poete.</speaker>
               <p>Helas, Car…</p>
             </sp>
@@ -1714,7 +1723,7 @@
               <p>Je n’y puis plus tenir ; Jamais il ne s’est veu tant d’Ombres en un jour ; et la
                 Porte va rompre si vous n’y donnez ordre.</p>
             </sp>
-            <sp who="toutes les ames">
+            <sp who="ames">
               <speaker>Toutes les ames</speaker>
               <p>Caron…</p>
             </sp>
@@ -1723,7 +1732,7 @@
               <p>Entendez-vous comme on m’appelle ? Dés qu’ils ont veu <pb n="34"/> que je faisois
                 entrer cette Ombre, ils ont pensé me dévorer.</p>
             </sp>
-            <sp who="toutes les ames">
+            <sp who="ames">
               <speaker>Toutes les ames</speaker>
               <p>Caron…</p>
             </sp>
@@ -1731,7 +1740,7 @@
               <speaker>Caron.</speaker>
               <p>On y va. Ordonnez donc ce que vous voulez que je laisse entrer.</p>
             </sp>
-            <sp who="toutes les ames">
+            <sp who="ames">
               <speaker>Toutes les ames</speaker>
               <p>Caron…</p>
             </sp>
@@ -1776,7 +1785,7 @@
               <speaker>Caron.</speaker>
               <p>Vous l’allez reconnoître à son langage.</p>
             </sp>
-            <sp who="la pretieuse">
+            <sp who="la-pretieuse">
               <speaker>La Pretieuse.</speaker>
               <p>Grand Monarque des sombres Habitations, plaise aux Destins que vous prestiez
                 attentivement le sens auriculaire de vostre Justice aux éloquentes articulations de
@@ -1795,7 +1804,7 @@
               <speaker>Pluton.</speaker>
               <p>Voila un beau jargon, vrayment. Ecoutons.</p>
             </sp>
-            <sp who="la pretieuse">
+            <sp who="la-pretieuse">
               <speaker>La Pretieuse.</speaker>
               <p>La surprenante horreur de nostre accablement coûtera, sans-doute, quelque égarement
                 à la grandeur de vostre ame. Vous voyez à vos genoux une Addition de Pretieuses qui
@@ -1809,7 +1818,7 @@
               <speaker>Pluton.</speaker>
               <p>Ma foy, je n’y entens goute.</p>
             </sp>
-            <sp who="la pretieuse">
+            <sp who="la-pretieuse">
               <speaker>La Pretieuse.</speaker>
               <p>La férocité de cet Esprit sauvage a si bien donné la chasse au Gibier de nostre
                 éloquence, que l’indigestion de nos pensées n’ose plus [39] trouver le suplément de
@@ -1824,7 +1833,7 @@
                 langage. Dites un peu naturellement vostre affaire, car foy de Dieu d’icy-bas je n’y
                 ay rien compris encore.</p>
             </sp>
-            <sp who="la pretieuse">
+            <sp who="la-pretieuse">
               <speaker>La Pretieuse.    <pb n="40"/></speaker>
               <p>Se peut-il faire que vostre noire Majesté ait la forme si enfoncée dans la
                 matiere ?</p>
@@ -1833,7 +1842,7 @@
               <speaker>Pluton.</speaker>
               <p>Ma foy, je ne vous entens pas.</p>
             </sp>
-            <sp who="la pretieuse">
+            <sp who="la-pretieuse">
               <speaker>La Pretieuse.</speaker>
               <p>Quoy ! la dureté de vostre Compréhension ne peut estre amolie par le concert
                 éclatant des rares qualitez de vos vertus sublimes ?</p>
@@ -1843,7 +1852,7 @@
               <p>Je ne sçay ce que c’est que tout cela, mais j’auray soin de vous rendre justice.
                 Passez sur les aîles de mon Trône.</p>
             </sp>
-            <sp who="la pretieuse">
+            <sp who="la-pretieuse">
               <speaker>La Pretieuse.    <pb n="D ; 41"/></speaker>
               <p>Quoy, Monarque enfumé ! vous répandrez de vos propres bontez sur le gemissement de
                 nos altercations ?</p>
@@ -1879,7 +1888,7 @@
               <speaker>Pluton.</speaker>
               <p>Ça, qui est celuy-cy ?</p>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>Le Marquis <hi rend="i">à Moliere sur un ton de faucet.</hi></speaker>
               <p>Ah parbleu ! mon petit Monsieur, je suis bien-aise <pb n="43"/> de vous trouver
                 icy.</p>
@@ -1888,7 +1897,7 @@
               <speaker>Moliere.</speaker>
               <p>Qui es-tu, toy, pour me parler ainsy ?</p>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>Le Marquis.</speaker>
               <p>Je suis un de ces Marquis, mon Amy, que vous tournez en ridicule.</p>
             </sp>
@@ -1908,7 +1917,7 @@
               <speaker>Pluton.</speaker>
               <p>Çà, que demandez-vous ?</p>
             </sp>
-            <sp who="le marquis">
+            <sp who="marquis">
               <speaker>Le Marquis.</speaker>
               <p>Je demande justice pour <pb n="44 "/>mes Rubans, mes Plumes, ma Perruque, ma
                 Caleche, et mon Faucet, qu’il a joüez publiquement.</p>
@@ -1917,7 +1926,7 @@
               <speaker>Pluton.</speaker>
               <p>Que répons-tu ?</p>
             </sp>
-            <sp who="moliere chagrin">
+            <sp who="moliere">
               <speaker>Moliere <hi rend="i">chagrin.</hi></speaker>
               <p>Rien.</p>
             </sp>
@@ -1974,7 +1983,7 @@
             <pb/>
             <head>SCENE VII.</head>
             <stage>LE COCU IMAGINAIRE, MOLIERE, PLUTON, CARON, MINOS, RADAMANTE.</stage>
-            <sp who="le cocu">
+            <sp who="cocu">
               <speaker>Le Cocu.</speaker>
               <p>Vous voyez en ma seule Ombre tout le Corps des Cocus ; Vous les voyez icy en moy,
                 dis-je, affligez, outragez, et tout contrits des affronts publics que ce grand Corps
@@ -2300,7 +2309,7 @@
             <pb/>
             <head>SCENE XI.            [67]</head>
             <stage>MADAME JOURDAIN, PLUTON, MOLIERE, CARON, RADAM. MINOS.</stage>
-            <sp who="me jourdain">
+            <sp who="mme-jourdain">
               <speaker>M<hi rend="sup">e</hi> Jourdain <hi rend="i">tout ésouflée.</hi></speaker>
               <p>Justice, justice, justice, justice, justice.</p>
             </sp>
@@ -2318,7 +2327,7 @@
               <p>Pren donc bien garde aux autres, et qu’il n’en entre plus. Je n’ay jamais veu tant
                 de Canailles en un jour. Çà, que demandez-vous ?</p>
             </sp>
-            <sp who="me jourdain">
+            <sp who="mme-jourdain">
               <speaker>M<hi rend="sup">e</hi> Jourdain <hi rend="i">d’un air chagrin et
                   brusque.</hi></speaker>
               <p>Ce que je n’auray pas.</p>
@@ -2327,7 +2336,7 @@
               <speaker>Pluton.</speaker>
               <p>Que vous faut il ? hé ?</p>
             </sp>
-            <sp who="me jourdain">
+            <sp who="mme-jourdain">
               <speaker>M<hi rend="sup">e</hi> Jourdain.</speaker>
               <p>Il me faut ce qui me manque.</p>
             </sp>
@@ -2336,7 +2345,7 @@
               <p>Quelle nouvelle espece est-ce encore icy ? Dites-nous <pb n="69 "/>donc ce que vous
                 avez ?</p>
             </sp>
-            <sp who="me jourdain">
+            <sp who="mme-jourdain">
               <speaker>M<hi rend="sup">e</hi> Jourdain.</speaker>
               <p>J’ay la teste plus grosse que le poing, et si<note n="69" place="bottom"><hi
                     rend="i">Et si</hi> a une valeur concessive : comprendre : et cependant. </note>
@@ -2347,7 +2356,7 @@
               <p>Ah ! c’est Madame Jourdain, je la reconnoy : Et comment estes-vous icy, Madame
                 Jourdain ?</p>
             </sp>
-            <sp who="me jourdain">
+            <sp who="mme-jourdain">
               <speaker>M<hi rend="sup">e</hi> Jourdain.</speaker>
               <p>Sur mes pieds comme une Oye.</p>
             </sp>
@@ -2359,7 +2368,7 @@
               <speaker>Moliere.</speaker>
               <p>Vous venez vous plaindre de moy, n’est-ce pas, Madame Jourdain ?</p>
             </sp>
-            <sp who="me jourdain">
+            <sp who="mme-jourdain">
               <speaker>M<hi rend="sup">e</hi> Jourdain.    <pb n="70"/></speaker>
               <p>Ça non ; j’aurois beau me plaindre, beau me plaindre j’aurois.</p>
             </sp>
@@ -2371,7 +2380,7 @@
               <speaker>Moliere.</speaker>
               <p>Madame Jourdain est un peu en courroux.</p>
             </sp>
-            <sp who="me jourdain">
+            <sp who="mme-jourdain">
               <speaker>M<hi rend="sup">e</hi> Jourdain.</speaker>
               <p>Oüy, Jean Ridoux.</p>
             </sp>
@@ -2379,7 +2388,7 @@
               <speaker>Pluton.</speaker>
               <p>Courage. Hé bien, qu’avez-vous à me dire ?</p>
             </sp>
-            <sp who="me jourdain">
+            <sp who="mme-jourdain">
               <speaker>M<hi rend="sup">e</hi> Jourdain.</speaker>
               <p>Oüy, qu’avez-vous à me frire ?</p>
             </sp>
@@ -2738,7 +2747,7 @@
                 />térests, et consentir que vous m’en envoyiez quelques millions de Morts moins qu’à
                 vostre ordinaire.</p>
             </sp>
-            <sp who="les medecins">
+            <sp who="medecins">
               <speaker>Les Medecins.</speaker>
               <p>Quoy ! nostre Ennemy juré ? Non, non…</p>
             </sp>
@@ -2748,7 +2757,7 @@
                 vous, et si<note n="77" place="bottom">Cf. note 1 p. 53.</note> je ne me plains
                 pas.</p>
             </sp>
-            <sp who="les medecins">
+            <sp who="medecins">
               <speaker>Les Medecins.</speaker>
               <p>Quoy, Pluton…</p>
             </sp>
@@ -2757,7 +2766,7 @@
               <p>Quoy ! vos Ombres teméraires m’osent repliquer, moy, qui puis vous faire évanoüir
                 d’un souffle seulement ?</p>
             </sp>
-            <sp who="les medecins">
+            <sp who="medecins">
               <speaker>Les Medecins.    <pb n="I ; 97"/></speaker>
               <p>Nous demandons justice, justice.</p>
             </sp>
