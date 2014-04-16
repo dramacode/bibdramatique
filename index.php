@@ -27,7 +27,7 @@ else echo '<title>Bibliothèque dramatique</title>';
     <div id="center">
       <header id="header">
         <h1>
-          <a href="<?php echo $pot->baseHref; ?>">CRHT, prototype</a>
+          <a href="<?php echo $pot->baseHref; ?>">Bibliothèque dramatique, prototype</a>
         </h1>
         <?php // liens de téléchargements
           // if ($doc['downloads']) echo "\n".'<nav id="downloads"><small>Télécharger :</small> '.$doc['downloads'].'</nav>';
@@ -35,7 +35,7 @@ else echo '<title>Bibliothèque dramatique</title>';
       </header>
       <nav id="toolbar">
         <?php 
-echo '<a href="',$pot->baseHref,'">CRHT</a> » ';
+echo '<a href="',$pot->baseHref,'">Bibliothèque dramatique</a> » ';
         // nous avons un livre, glisser aussi les liens de téléchargement
 if (isset($doc['breadcrumb'])) echo $doc['breadcrumb']; 
         ?>
@@ -86,7 +86,7 @@ else {
       </aside>
     </div>
     <footer id="footer">
-      Prototype d'application TEI
+      
     </footer>
     <script type="text/javascript" src="<?php echo $themeHref; ?>Tree.js">//</script>
     <script type="text/javascript" src="<?php echo $themeHref; ?>Sortable.js">//</script>
