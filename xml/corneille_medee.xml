@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="corneille_medee" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -678,7 +677,7 @@
             <l n="88" xml:id="l88-prologue">Mais voir souvent ce que l’on aime,</l>
             <l n="89" xml:id="l89-prologue">C’est encore un plaisir plus doux.</l>
           </sp>
-          <sp who="Chœur">
+          <sp who="choeur">
             <speaker>LE CHŒUR. </speaker>
             <l n="90" xml:id="l90-prologue"><space/><space/>Le bruit des tambours, des trompettes,</l>
             <l n="91" xml:id="l91-prologue">Ne viendra plus troubler nos jeux.</l>
@@ -743,11 +742,18 @@
           <castItem>
             <role xml:id="captifs">Troupe de Captifs de l’Amour.</role>
             <role xml:id="captif"></role>
+            <role xml:id="captive"></role>
+            <role xml:id="trois-captifs"></role>
           </castItem>
           <castItem>
             <role xml:id="demons">Troupe de Demons. </role>
             <role xml:id="demon"></role>
           </castItem>
+            <castItem>
+              <role xml:id="phantomes">[Phantomes]</role>
+              <role xml:id="phantome"></role>
+              <role xml:id="deux-phantomes"></role>
+            </castItem>
           </castList>
           <label>Medée,                                     <pb n="11"/>tragedie.</label>
         </div>
@@ -831,7 +837,7 @@
               <l n="43" xml:id="l43">On perd la plus seure vengeance<note n="96" place="bottom">Vengeance s’orthographie indifféremment vangeance ou vengeance. On trouve d’ailleurs la deuxième orthographe trois vers plus loin, lors de la reprise de cet air en duo par Nérine et Médée. </note></l>
               <l n="44" xml:id="l44"><space/><space/>Si l’on ne sçait dissimuler.                             <pb n="14"/></l>
             </sp>
-            <sp who="medee &amp; nerine">
+            <sp who="medee nerine">
               <speaker>Medée &amp; Nerine.</speaker>
               <l n="45" xml:id="l45">Forçons nos / forcez vos <ref target="#ennui">ennuis*</ref> au silence,</l>
               <l n="46" xml:id="l46">Un <ref target="#courroux">couroux*</ref> violent ne doit jamais parler.</l>
@@ -907,7 +913,7 @@
               <l n="71" xml:id="l71">Que ne puis-je faire paroître</l>
               <l n="72" xml:id="l72">Ce que mon cœur pour vous sera jusqu’au trépas !</l>
             </sp>
-            <sp who="medee &amp; jason">
+            <sp who="medee jason">
               <speaker>Medée &amp; Jason.</speaker>
               <l n="73" xml:id="l73">Que de tristes <ref target="#souci">soucis*</ref>, malgré ses doux <ref target="#appas">appas*</ref>,</l>
               <l n="74" xml:id="l74">Dans un cœur bien touché l’injuste amour fait naistre !</l>
@@ -1003,7 +1009,7 @@
               <l n="129" xml:id="l129">Que me peut demander la Gloire,</l>
               <l n="130" xml:id="l130">Quand l’Amour s’est rendu le maître de mon cœur ?</l>
             </sp>
-            <sp who="chœur de corinthiens qu’on ne voit pas">
+            <sp who="corinthiens">
               <speaker>Chœur de Corinthiens <hi rend="i">qu’on ne voit pas.</hi></speaker>
               <l n="131" xml:id="l131">Disparoissez, inquietes alarmes* ;</l>
               <l n="132" xml:id="l132">Vaines terreurs, fuyez, éloignez-vous.</l>
@@ -1070,7 +1076,7 @@
             <pb/>
             <head>Scene sixième.                        <pb n="22"/></head>
             <stage>Creon, Jason, Oronte. Troupe de Corinthiens &amp; d’Argiens.</stage>
-            <sp who="un corinthien">
+            <sp who="corinthien">
               <speaker>Un corinthien, <hi rend="i">à Oronte.</hi></speaker>
               <l n="162" xml:id="l162">Courez aux champs de Mars, volez, jeune Heros.</l>
               <l n="163" xml:id="l163">Ouvrez-nous le chemin qui conduit à la <ref target="#gloire-lexique">gloire*</ref>.</l>
@@ -1078,7 +1084,7 @@
               <l n="165" xml:id="l165">Pour nous mener à la victoire,</l>
               <l n="166" xml:id="l166">Courez aux champs de Mars, volez, jeune Heros.</l>
             </sp>
-            <sp who="chœur de corinthiens">
+            <sp who="corinthiens">
               <speaker>Chœur de Corinthiens.</speaker>
               <l n="167" xml:id="l167"> Courez aux champs de Mars, volez, jeune Heros.</l>
               <l n="168" xml:id="l168">Ouvrez-nous le chemin qui conduit à la <ref target="#gloire-lexique">gloire*</ref>.</l>
@@ -1094,7 +1100,7 @@
               <l n="175" xml:id="l175"><space/><space/>La Victoire en tous lieux suivra mes étendards.                 <pb n="23"/></l>
               <stage>Les Corinthiens font un essay de Lutte. Les Argiens font une danse galante.</stage>
             </sp>
-            <sp who="un corinthien &amp; un argien">
+            <sp who="corinthien argien">
               <speaker>Un Corinthien &amp; un Argien.</speaker>
               <l n="176" xml:id="l176">Quel bonheur suit la <ref target="#tendresse">tendresse*</ref> !</l>
               <l n="177" xml:id="l177">Heureux l’amant qui l’obtient.</l>
@@ -1109,7 +1115,7 @@
               <l n="186" xml:id="l186">Que lorsque l’amour l’engage,</l>
               <l n="187" xml:id="l187">A la conqueste d’un cœur.</l>
             </sp>
-            <sp who="chœur de corinthiens &amp; d’argiens">
+            <sp who="corinthiens argiens">
               <speaker>Chœur de Corinthiens &amp; d’Argiens.</speaker>
               <l n="188" xml:id="l188">Que d’épais bataillons, sur nos rives descendent.</l>
               <l n="189" xml:id="l189">A nos vaillans efforts il faudra qu’ils se rendent.</l>
@@ -1187,7 +1193,7 @@
               <speaker>Medée.</speaker>
               <l n="228" xml:id="l228">S’il m’ose abandonner, que devient son amour ?</l>
             </sp>
-            <sp who="creon &amp; medee">
+            <sp who="creon medee">
               <speaker>Creon &amp; Medée, <hi rend="i">ensemble.</hi></speaker>
               <l n="229" xml:id="l229">S’il m’ose abandonner, // que deviendra sa <ref target="#gloire-lexique">gloire*</ref> / que devient son amour // ?</l>
             </sp>
@@ -1358,7 +1364,7 @@
               <speaker>Créüse.</speaker>
               <l n="316" xml:id="l316">Doux <ref target="#repos">repos*</ref>, quittez-moy,  ne revenez jamais.</l>
             </sp>
-            <sp who="jason &amp; creuse">
+            <sp who="jason creuse">
               <speaker>Jason &amp; Créüse.</speaker>
               <l n="317" xml:id="l317">Goûtons l’heureux plaisir de perdre cette paix.</l>
               <l n="318" xml:id="l318">Doux <ref target="#repos">repos*</ref>, quittez-nous, ne revenez jamais.</l>
@@ -1394,7 +1400,7 @@
               <l n="336" xml:id="l336">De l’amour à nos cœurs faisons suivre l’empire :</l>
               <l n="337" xml:id="l337">Le plaisir d’estre aimé passe<note n="138" place="bottom"><hi rend="i">Passer</hi> ici signifie surmonter en mérite. (Acad. Fr.)</note> tous les plaisirs.</l>
             </sp>
-            <sp who="jason &amp; creuse">
+            <sp who="jason creuse">
               <speaker>Jason &amp; Créüse.</speaker>
               <l n="338" xml:id="l338">De l’amour à nos cœurs, faisons suivre l’empire :</l>
               <l n="339" xml:id="l339">Le plaisir d’estre aimé passe tous les plaisirs.</l>
@@ -1435,12 +1441,12 @@
             <head>Scene septième.                         <pb n="34"/></head>
             <stage>Un petit Argien representant l’Amour, paroist dans un char traisné par des captifs de differentes nations &amp; de tout sexe.</stage>
             <stage>Créüse, Jason, Oronte, Cléone.</stage>
-            <sp who="chœur des captifs d’amour">
+            <sp who="captifs">
               <speaker>Chœur des Captifs d’Amour. </speaker>
               <l n="356" xml:id="l356">Qu’elle est charmante, qu’elle est belle !</l>
               <l n="357" xml:id="l357">Ah, qu’il est doux de soupirer pour elle !</l>
             </sp>
-            <sp who="un captif">
+            <sp who="captif">
               <speaker>Un captif.</speaker>
               <l n="358" xml:id="l358">Venir l’adorer en ces lieux,</l>
               <l n="359" xml:id="l359">Est un destin bien glorieux ;</l>
@@ -1448,11 +1454,11 @@
               <l n="361" xml:id="l361">Doit tromper une <ref target="#ardeur">ardeur*</ref> si belle,</l>
               <l n="362" xml:id="l362">Ah, quel malheur pour un amant fidelle !</l>
             </sp>
-            <sp who="chœur">
+            <sp who="captifs">
               <speaker>Chœur. </speaker>
               <l n="363" xml:id="l363">Ah, quel malheur pour un amant fidelle !</l>
             </sp>
-            <sp who="le captif">
+            <sp who="captif">
               <speaker>Le captif.</speaker>
               <l n="364" xml:id="l364">Une rigoureuse fierté</l>
               <l n="365" xml:id="l365">Sieroit mal à tant de beauté,</l>
@@ -1460,11 +1466,11 @@
               <l n="367" xml:id="l367">L’empeschera d’estre crüelle ;</l>
               <l n="368" xml:id="l368">Ah, quel bonheur pour un amant fidelle !</l>
             </sp>
-            <sp who="chœur">
+            <sp who="captifs">
               <speaker>Chœur.</speaker>
               <l n="369" xml:id="l369">Ah, quel bonheur pour un amant fidelle !</l>
             </sp>
-            <sp who="l’amour a creuse">
+            <sp who="argien">
               <speaker>L’amour <hi rend="i">à Créüse.</hi></speaker>
               <l n="370" xml:id="l370">Regnez ; l’Amour à vos loix</l>
               <l n="371" xml:id="l371">Vient soumettre son empire,</l>
@@ -1487,14 +1493,14 @@
               <l n="384" xml:id="l384"><space/>Le moyen de s’en deffendre ?<note n="143" place="bottom">Proposition elliptique : [quel serait] le moyen de s’en défendre ? </note>                         <pb n="36"/></l>
               <stage>Créüse monte sur le Char de l’Amour. Jason &amp; Oronte se placent à ses côtez.</stage>
             </sp>
-            <sp who="l’amour">
+            <sp who="argien">
               <speaker>L’AMOUR.</speaker>
               <l n="385" xml:id="l385">Tendres Captifs, faites luy vostre cour,</l>
               <l n="386" xml:id="l386">Et que chacun de vous s’applique<note n="144" place="bottom"><hi rend="i">Appliquer</hi> : occuper avec attention. (Acad. Fr.)</note> tour à tour</l>
               <l n="387" xml:id="l387">A l’hommage qu’il faut luy rendre.</l>
               <l n="388" xml:id="l388">Tendres captifs, faites luy vostre cour.</l>
             </sp>
-            <sp who="une captive">
+            <sp who="captive">
               <speaker>Une captive.</speaker>
               <l n="389" xml:id="l389">Chi teme d’amore<note n="145" place="bottom">Celui qui craint d’amour / L’agréable martyre, / Ou bien ne veut-il pas jouir, / Ou bien n’a-t-il ni cœur ni courage. / On a du goût pour les malheurs, / Les épines sont des fleurs, / Si c’est Amour qui les donne en partage ; / Mais ce n’est que dans la souffrance, / Dans l’ardeur, et dans l’espérance, / Qu’une âme à ses liens vouée, / Et par ses chaînes envoûtée, / Le sait pour l’avoir éprouvé. / Celui qui craint d’amour / L’agréable martyre, / Ou bien ne veut-il pas jouir, / Ou bien n’a-t-il ni cœur ni courage. Nous remercions Madame le Professeur Delia Gambelli pour son aimable traduction. </note></l>
               <l n="390" xml:id="l390">Ilgrato martire,</l>
@@ -1513,7 +1519,7 @@
               <l n="403" xml:id="l403">O non vuol gioire,</l>
               <l n="404" xml:id="l404">O cuore non hà.</l>
             </sp>
-            <sp who="chœur">
+            <sp who="captifs">
               <speaker>Chœur. </speaker>
               <l n="405" xml:id="l405">Son gusti i dolori</l>
               <l n="406" xml:id="l406"><space/><space/>Le spine son fiori                                 <pb n="37"/></l>
@@ -1524,71 +1530,71 @@
               <l n="411" xml:id="l411">Fra ceppi beata,</l>
               <l n="412" xml:id="l412">Per prova lo sà.</l>
             </sp>
-            <sp who="la captive">
+            <sp who="captive">
               <speaker>La Captive.</speaker>
               <l n="413" xml:id="l413">Chi teme d’amore</l>
               <l n="414" xml:id="l414">Ilgrato martire,</l>
               <l n="415" xml:id="l415">O non vuol gioire,</l>
               <l n="416" xml:id="l416">O cuore non hà.</l>
             </sp>
-            <sp who="chœur">
+            <sp who="captifs">
               <speaker>Chœur.</speaker>
               <l n="417" xml:id="l417">O non vuol gioire,</l>
               <l n="418" xml:id="l418">O cuore non hà.</l>
             </sp>
-            <sp who="trois autres captifs">
+            <sp who="trois-captifs">
               <speaker>Trois autres Captifs. </speaker>
               <l n="419" xml:id="l419">D’un amant qui veut plaire</l>
               <l n="420" xml:id="l420">L’hommage est sincere,</l>
               <l n="421" xml:id="l421">D’un amant qui veut plaire</l>
               <l n="422" xml:id="l422">L’hommage est constant.</l>
             </sp>
-            <sp who="chœur">
+            <sp who="captifs">
               <speaker>Chœur.</speaker>
               <l n="423" xml:id="l423">D’un amant qui veut plaire</l>
               <l n="424" xml:id="l424">L’hommage est sincere,</l>
               <l n="425" xml:id="l425">D’un amant qui veut plaire</l>
               <l n="426" xml:id="l426">L’hommage est constant.</l>
             </sp>
-            <sp who="les trois captifs">
+            <sp who="trois-captifs">
               <speaker>Les trois captifs.     <pb n="38"/></speaker>
               <l n="427" xml:id="l427">Aimer &amp; l’oser dire,</l>
               <l n="428" xml:id="l428">C’est ce qu’il desire ;</l>
               <l n="429" xml:id="l429">Aimer &amp; l’oser dire,</l>
               <l n="430" xml:id="l430">C’est ce qu’il prétend<note n="146" place="bottom"><hi rend="i">Prétendre</hi> : signifie quelquefois, vouloir, entendre. <hi rend="i">Si je vous fais ce plaisir, je prétends que vous m’en fassiez un autre.</hi> (Furetière) </note>.</l>
             </sp>
-            <sp who="chœur">
+            <sp who="captifs">
               <speaker>Chœur. </speaker>
               <l n="431" xml:id="l431">D’un amant qui veut plaire</l>
               <l n="432" xml:id="l432">L’hommage est sincere,</l>
               <l n="433" xml:id="l433">D’un amant qui veut plaire</l>
               <l n="434" xml:id="l434">L’hommage est constant.</l>
             </sp>
-            <sp who="les trois captifs">
+            <sp who="trois-captifs">
               <speaker>Les trois captifs.</speaker>
               <l n="435" xml:id="l435">Amans, portez vos chaînes</l>
               <l n="436" xml:id="l436">D’un esprit content.</l>
             </sp>
-            <sp who="chœur">
+            <sp who="captifs">
               <speaker>Chœur.</speaker>
               <l n="437" xml:id="l437">L’amour a pour vos peines</l>
               <l n="438" xml:id="l438">Un <ref target="#prix">prix*</ref> éclatant.</l>
             </sp>
-            <sp who="les trois captifs">
+            <sp who="trois-captifs">
               <speaker>Les trois captifs.</speaker>
               <l n="439" xml:id="l439">D’un amant qui veut plaire</l>
               <l n="440" xml:id="l440">L’hommage est sincere,</l>
               <l n="441" xml:id="l441">D’un amant qui veut plaire</l>
               <l n="442" xml:id="l442">L’hommage est constant.</l>
             </sp>
-            <sp who="chœur">
+            <sp who="captifs">
               <speaker>Chœur.</speaker>
               <l n="443" xml:id="l443">D’un amant qui veut plaire</l>
               <l n="444" xml:id="l444"><space/><space/>L’hommage est sincere,                             <pb n="39"/></l>
               <l n="445" xml:id="l445">D’un amant qui veut plaire</l>
               <l n="446" xml:id="l446">L’hommage est constant.</l>
             </sp>
-            <sp who="l’amour a creuse apres qu’elle est descendue du char">
+            <sp who="argien">
               <speaker>L’amour <hi rend="i">à Créüse après qu’elle est descenduë du char.</hi></speaker>
               <l n="447" xml:id="l447">Vous voyez à quoy j’aspire.</l>
               <l n="448" xml:id="l448">Pour faire un heureux vainqueur,</l>
@@ -1612,7 +1618,7 @@
               <l n="457" xml:id="l457">Par tout ce que la <ref target="#gloire-lexique">gloire*</ref> ajoûte au vray merite,</l>
               <l n="458" xml:id="l458">Il est seur<note n="148" place="bottom"><hi rend="i">Seur</hi> s’orthographie indifféremment au XVII<hi rend="sup">e</hi> siècle <hi rend="i">seur</hi> ou <hi rend="i">sûr</hi>.</note> de se faire aimer.</l>
             </sp>
-            <sp who="chœur">
+            <sp who="captifs">
               <speaker>Chœur.</speaker>
               <l n="459" xml:id="l459">Ton triomphe est certain, victoire, Amour, victoire.</l>
               <l n="460" xml:id="l460"><space/><space/>L’amant que tu veux rendre heureux,                         <pb n="40"/></l>
@@ -1693,7 +1699,7 @@
               <l n="504" xml:id="l504">Qui l’aurait cru, que tant d’ingratitude</l>
               <l n="505" xml:id="l505">Deust payer le beau <ref target="#feux">feu*</ref> qui regne dans mon cœur ?</l>
             </sp>
-            <sp who="oronte &amp; medee">
+            <sp who="oronte medee">
               <speaker>Oronte &amp; Médée.</speaker>
               <l n="506" xml:id="l506">Qui l’auroit crû, que tant d’ingratitude</l>
               <l n="507" xml:id="l507">Deust payer le beau <ref target="#feux">feu*</ref> qui regne dans mon cœur ?</l>
@@ -1712,7 +1718,7 @@
               <speaker>Medée.</speaker>
               <l n="512" xml:id="l512">Quel plus sensible coup<note n="154" place="bottom"><hi rend="i">Coup</hi> : se dit figurément de ces afflictions impreveuës qui sont comme des traits qui nous percent le cœur. <hi rend="i">La nouvelle de la mort de sa femme fut un coup mortel pour luy.</hi> (Furetière). </note> pouvois-je recevoir !</l>
             </sp>
-            <sp who="tous deux">
+            <sp who="oronte medee">
               <speaker>Tous deux.</speaker>
               <l n="513" xml:id="l513">Non, dans un cœur, quand l’amour est extrême,</l>
               <l n="514" xml:id="l514">Rien n’approche du desespoir</l>
@@ -1923,7 +1929,7 @@
               <l n="640" xml:id="l640">La devorante <ref target="#ardeur">ardeur*</ref> de vos <ref target="#feux">feux*</ref> invisibles.</l>
               <stage>Il paroît tout à coup une Troupe de Demons.</stage>
             </sp>
-            <sp who="chœur de demons">
+            <sp who="demons">
               <speaker>Chœur de Demons.     <pb n="52"/></speaker>
               <l n="641" xml:id="l641">L’Enfer obéït à ta voix,</l>
               <l n="642" xml:id="l642">Commande, il va suivre tes loix<note n="171" place="bottom"><hi rend="i">Loix</hi> s’orthographie indifférement au pluriel avec un <hi rend="i">s</hi> ou un <hi rend="i">x</hi>. </note>.</l>
@@ -1934,7 +1940,7 @@
               <l n="644" xml:id="l644">Qu’il <ref target="#souffrir">souffre*</ref>, s’il se peut, cent tourmens à la fois,</l>
               <l n="645" xml:id="l645">En voyant souffrir ce qu’il aime.</l>
             </sp>
-            <sp who="chœur">
+            <sp who="demons">
               <speaker>Chœur.</speaker>
               <l n="646" xml:id="l646">L’Enfer obéit à ta voix,</l>
               <l n="647" xml:id="l647">Commande, il va suivre tes loix.</l>
@@ -1946,7 +1952,7 @@
               <l n="649" xml:id="l649">Pour le rendre <ref target="#funeste">funeste*</ref>, il est temps, faisons choix</l>
               <l n="650" xml:id="l650">Des sucs les plus mortels de la rive infernale<note n="172" place="bottom"> La <hi rend="i">rive infernale</hi> qu’invoque Médée est celle du Styx. </note>.</l>
             </sp>
-            <sp who="chœur de demons">
+            <sp who="demons">
               <speaker>Chœur de démons. </speaker>
               <l n="651" xml:id="l651">L’Enfer obéit à ta voix,</l>
               <l n="652" xml:id="l652">Commande, il va suivre tes loix.</l>
@@ -1966,7 +1972,7 @@
               <l n="661" xml:id="l661">Du <ref target="#funeste">funeste*</ref> poison, par une mort soudaine,</l>
               <l n="662" xml:id="l662">Faites-moy voir les seurs effets.</l>
             </sp>
-            <sp who="chœur">
+            <sp who="demons">
               <speaker>Chœur.</speaker>
               <l n="663" xml:id="l663">Naissez, Monstres, naissez, tous les charmes sont faits.</l>
               <l n="664" xml:id="l664">Du <ref target="#funeste">funeste*</ref> poison, par une mort soudaine,</l>
@@ -2077,7 +2083,7 @@
               <l n="715" xml:id="l715">Si jamais il trouve mon cœur</l>
               <l n="716" xml:id="l716">Detaché<note n="175" place="bottom"><hi rend="i">Détacher</hi> se dit au figuré en parlant des engagements, des occupations, des passions, des affections qu’on quitte après y avoir été longtemps attaché (Acad. Fr.) </note> du <ref target="#soin">soin*</ref> de vous plaire.</l>
             </sp>
-            <sp who="jason &amp; creuse">
+            <sp who="jason creuse">
               <speaker>Jason &amp; Creüse.</speaker>
               <l n="717" xml:id="l717">Puisse l’Amour dans sa juste colere</l>
               <l n="718" xml:id="l718">Exercer contre moy sa plus grande rigueur,</l>
@@ -2304,12 +2310,12 @@
               <l n="826" xml:id="l826">De ces farouches cœurs.</l>
               <stage>Entrée des Phantômes.                                 <pb n="64"/></stage>
             </sp>
-            <sp who="un phantome">
+            <sp who="phantome">
               <speaker>Un Phantôme.</speaker>
               <l n="827" xml:id="l827">Aprés de mortelles alarmes,</l>
               <l n="828" xml:id="l828">Qu’un heureux calme semble doux !</l>
             </sp>
-            <sp who="chœur">
+            <sp who="phantomes">
               <speaker>Chœur. </speaker>
               <l n="829" xml:id="l829">Aprés de mortelles alarmes,</l>
               <l n="830" xml:id="l830">Qu’un heureux calme semble doux !</l>
@@ -2321,7 +2327,7 @@
               <l n="833" xml:id="l833">Où prendrez-vous des armes</l>
               <l n="834" xml:id="l834">Qui tiennent contre nous ?<note n="189" place="bottom"><hi rend="i">Tenir</hi> : resister. (Richelet). </note></l>
             </sp>
-            <sp who="chœur">
+            <sp who="phantomes">
               <speaker>Chœur.</speaker>
               <l n="835" xml:id="l835">Cœurs agitez d’un vain <ref target="#courroux">couroux*</ref>,</l>
               <l n="836" xml:id="l836">Cedez, rendez-vous à nos charmes.</l>
@@ -2333,7 +2339,7 @@
               <l n="839" xml:id="l839">Par quel prodige, à moy-mesme contraire<note n="190" place="bottom">C'est-à-dire contraire à ce que j’avais décidé.  </note></l>
               <l n="840" xml:id="l840">En voyant ces objets, n’ay-je plus de colere ?</l>
             </sp>
-            <sp who="deux phantomes">
+            <sp who="deux-phantomes">
               <speaker>Deux Phantômes.</speaker>
               <l n="841" xml:id="l841">Tout ressent  le pouvoir</l>
               <l n="842" xml:id="l842">Du plaisir de nous voir.</l>
@@ -2345,7 +2351,7 @@
               <l n="848" xml:id="l848"><space/><space/>Tout ressent le pouvoir                                 <pb n="65; I"/></l>
               <l n="849" xml:id="l849"><space/>Du plaisir de nous voir.     </l>
             </sp>
-            <sp who="chœur">
+            <sp who="phantomes">
               <speaker>Chœur. </speaker>
               <l n="850" xml:id="l850">Tout ressent le pouvoir</l>
               <l n="851" xml:id="l851">Du plaisir de nous voir.</l>
@@ -2387,7 +2393,7 @@
           <div type="scene">
             <pb/>
             <head>Scène neuvième.</head>
-            <sp who="creon seul">
+            <sp who="creon">
               <speaker>Créon <hi rend="i">seul.</hi> </speaker>
               <l n="869" xml:id="l869">Noires Divinitez<note n="191" place="bottom">C'est-à-dire les Euménides, invoquées au vers suivant. </note>, que voulez-vous de moy ?</l>
               <l n="870" xml:id="l870">Impitoyables <ref target="#eumenides">Eumenides*</ref>,</l>
@@ -2527,7 +2533,7 @@
               <l n="945" xml:id="l945">Ce seul moyen peut satisfaire</l>
               <l n="946" xml:id="l946">Les <ref target="#transport">transports*</ref> de mon cœur jaloux.</l>
             </sp>
-            <sp who="chœur de corinthiens qu’on ne voit pas">
+            <sp who="corinthiens">
               <speaker>Chœur de Corinthiens <hi rend="i">qu’on ne voit pas.</hi> </speaker>
               <l n="947" xml:id="l947">Ah, <ref target="#funeste">funeste*</ref> revers ! fortune impitoyable !</l>
               <l n="948" xml:id="l948">Corinthe, helas ! que vas-tu devenir ?</l>
@@ -2536,7 +2542,7 @@
               <speaker>Créüse.</speaker>
               <l n="949" xml:id="l949">Que ce grand bruit m’est redoutable !</l>
             </sp>
-            <sp who="chœur">
+            <sp who="corinthiens">
               <speaker>Chœur. </speaker>
               <l n="950" xml:id="l950">Dieux cruels, est-ce ainsi que vostre haine accable</l>
               <l n="951" xml:id="l951">Ceux que vous devez soutenir ?</l>
@@ -2547,7 +2553,7 @@
             <head>Scène troisième.                         <pb n="72"/></head>
             <stage>Créüse, Medée, Nerine, Cléone. </stage>
             <stage>Chœur de Corinthiens. </stage>
-            <sp who="creuse a cleone">
+            <sp who="creuse">
               <speaker>Créüse <hi rend="i">à Cléone.</hi> </speaker>
               <l n="952" xml:id="l952">Venez, parlez ; qu’avez-vous à m’apprendre ?</l>
               <l n="953" xml:id="l953">Je vois vos yeux baignez de pleurs.</l>
@@ -2578,7 +2584,7 @@
               <l n="968" xml:id="l968">Ah, s’est-il écrié, le ciel a donc permis,<note n="198" place="bottom"> Hyperbate. Normalement, on attendrait : le ciel a donc permis que je vainque tous mes ennemis. </note></l>
               <l n="969" xml:id="l969"><space/>J’ay vaincu tous mes ennemis.     </l>
             </sp>
-            <sp who="chœur de corinthiens">
+            <sp who="corinthiens">
               <speaker>Chœur de Corinthiens. </speaker>
               <l n="970" xml:id="l970">Ah, <ref target="#funeste">funeste*</ref> revers ! fortune impitoyable !</l>
               <l n="971" xml:id="l971">Corinthe, helas ! que vas-tu devenir ?<note n="199" place="bottom">Reprise des vers 947-948, et 951-952 </note></l>
@@ -2677,7 +2683,7 @@
               <l n="1022" xml:id="l1022">Pouvoit elle mettre en usage</l>
               <l n="1023" xml:id="l1023">Un supplice plus propre à m’arracher le cœur ?</l>
             </sp>
-            <sp who="tous deux">
+            <sp who="creuse jason">
               <speaker>Tous deux.</speaker>
               <l n="1024" xml:id="l1024">Helas ! prests d’estre unis par les plus douces chaînes,</l>
               <l n="1025" xml:id="l1025">Faut-il nous voir separes à jamais ?</l>
@@ -2690,7 +2696,7 @@
               <speaker>Jason.</speaker>
               <l n="1027" xml:id="l1027">Peut-on lancer sur moy de plus terribles traits ?</l>
             </sp>
-            <sp who="tous deux">
+            <sp who="creuse jason">
               <speaker>Tous deux. </speaker>
               <l n="1028" xml:id="l1028">Helas ! prests d’estre unis par les plus douces chaînes,</l>
               <l n="1029" xml:id="l1029">Faut-il nous voir separes à jamais ?</l>
