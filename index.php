@@ -45,7 +45,7 @@ if (isset($doc['breadcrumb'])) echo $doc['breadcrumb'];
 if (isset($doc['body'])) {
   echo $doc['body'];
   // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
-  if ($pot->q && (!$doc['artName'] || $doc['artName']=='index')) echo $pot->concBook($doc['bookId']);
+  if ($pot->q && (!$doc['artname'] || $doc['artname']=='index')) echo $pot->concBook($doc['bookid']);
 }
 // pas de livre demandé, montrer un rapport général
 else {
@@ -64,11 +64,11 @@ else {
         <p> </p>
           <?php
 // livre
-if (isset($doc['bookId'])) {
+if (isset($doc['bookid'])) {
   echo "\n<nav>";
   // auteur, titre, date
   if ($doc['byline']) $doc['byline']=$doc['byline'].'<br/>';
-  echo "\n".'<header><a href="'.$pot->baseHref.$doc['bookName'].'/">'.$doc['byline'].$doc['title'].' ('.$doc['end'].')</a></header>';
+  echo "\n".'<header><a href="'.$pot->baseHref.$doc['bookname'].'/">'.$doc['byline'].$doc['title'].' ('.$doc['end'].')</a></header>';
   // table des matières
   echo $doc['toc'];
   echo "\n</nav>";
