@@ -54,7 +54,7 @@ else {
   // nombre de résultats
   echo $pot->report();
   // présentation bibliographique des résultats
-  echo $pot->biblio(array('author','title','date'));
+  echo $pot->biblio(array('byline', 'title', 'date', 'download'));
   // concordance s’il y a recherche plein texte
   echo $pot->concByBook();
 }
