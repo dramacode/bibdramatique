@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Règles de validation locale en plus du schéma teibook -->
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron">
   <sch:title>Contraintes spécifiques à l’Astrée</sch:title>
   <sch:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0" />  
