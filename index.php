@@ -92,6 +92,7 @@ else {
 }
 ?>
       </aside>
+      <span id="ruler"></span>
     </div>
     
     
@@ -105,7 +106,7 @@ else {
     
     
     <!-- Pour l'alignement des vers -->
-    <span id="ruler"></span>
+    
     <script type="text/javascript">
     
     function getStringWidth(theString) {
