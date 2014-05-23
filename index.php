@@ -22,6 +22,7 @@ else echo '<title>Bibliothèque dramatique</title>';
     ?>
     <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>html.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>teipot.css" />
+    <link rel="stylesheet" type="text/css" href="../crht.css" />
   </head>
   <body class="fixed">
     <div id="center">
@@ -59,6 +60,10 @@ else {
   echo $pot->concByBook();
 }
       ?>
+      
+      <div class="linkOld" style="width: 100%; text-align: center;"><a style="color: gray; font-size: 14px; border-bottom: none;" href="http://www.crht.paris-sorbonne.fr/">Suite des pièces…</a></div>
+      
+      
       </div>
       <aside id="aside">
         <p> </p>
@@ -85,11 +90,44 @@ else {
 ?>
       </aside>
     </div>
+    
+    
+    
     <footer id="footer">
-      
+
     </footer>
     <script type="text/javascript" src="<?php echo $themeHref; ?>Tree.js">//</script>
     <script type="text/javascript" src="<?php echo $themeHref; ?>Sortable.js">//</script>
     <script type="text/javascript"><?php echo $doc['js']; ?></script>  
+    
+    
+    <!-- Pour l'alignement des vers -->
+    <span id="ruler"></span>
+    <script type="text/javascript">
+    
+    function getStringWidth(theString) {
+    	var ruler = document.getElementById('ruler');
+    	ruler.innerHTML=theString;
+    	return ruler.offsetWidth;
+    }
+    
+    
+    (function() {
+    var theVerses = document.getElementsByClassName('part-Y');
+    var tempText;
+    var lookFor;
+    	for (var i = 0; i < theVerses.length; i++) {
+    		var sizeOf = getStringWidth(theVerses[i].previousElementSibling.previousElementSibling.innerHTML);
+    		var tempText = "<span class=\"space\" style=\"width:" + sizeOf + "px\"></span>" + theVerses[i].innerHTML;
+    		theVerses[i].innerHTML=tempText;
+    	}
+    })();
+    
+    </script>
+    <!-- Fin -->
+    
+    
   </body>
+  
+  
 </html>
