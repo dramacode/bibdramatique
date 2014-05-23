@@ -118,9 +118,15 @@ else {
     (function() {
     var theVerses = document.getElementsByClassName('part-Y');
     var tempText;
-    var lookFor;
+	var theGoodPrevious;
+    
     	for (var i = 0; i < theVerses.length; i++) {
-    		var sizeOf = getStringWidth(theVerses[i].previousElementSibling.previousElementSibling.previousElementSibling.innerHTML);
+    		theGoodPrevious = theVerses[i].previousElementSibling;	
+    		while (theGoodPrevious.className.indexOf("l") == -1) {
+    			theGoodPrevious = theGoodPrevious.previousElementSibling;
+    		}
+    		
+    		var sizeOf = getStringWidth(theGoodPrevious.innerHTML);
     		var tempText = "<span class=\"space\" style=\"width:" + sizeOf + "px\"></span>" + theVerses[i].innerHTML;
     		theVerses[i].innerHTML=tempText;
     	}
