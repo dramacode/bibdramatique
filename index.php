@@ -102,7 +102,7 @@ else {
     </footer>
     <script type="text/javascript" src="<?php echo $themeHref; ?>Tree.js">//</script>
     <script type="text/javascript" src="<?php echo $themeHref; ?>Sortable.js">//</script>
-      
+    <script type="text/javascript"><?php echo $doc['js']; ?></script>
     
     
     <!-- Pour l'alignement des vers -->
@@ -124,7 +124,12 @@ else {
     	for (var i = 0; i < theVerses.length; i++) {
     		theGoodPrevious = theVerses[i].previousElementSibling;	
     		while (theGoodPrevious.className.indexOf("l") == -1) {
-    			theGoodPrevious = theGoodPrevious.previousElementSibling;
+    			if (theGoodPrevious.previousElementSibling != null) {
+    				theGoodPrevious = theGoodPrevious.previousElementSibling;
+    			}
+    			else {
+    				theGoodPrevious = theGoodPrevious.previousSibling;
+    			}
     		}
     		
     		var sizeOf = getStringWidth(theGoodPrevious.innerHTML);
@@ -135,7 +140,7 @@ else {
     
     </script>
     <!-- Fin -->
-    <script type="text/javascript"><?php echo $doc['js']; ?></script>
+    
     
   </body>
   
