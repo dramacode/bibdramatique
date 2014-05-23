@@ -58,10 +58,13 @@ else {
   echo $pot->biblio(array('byline', 'title', 'date', 'download'));
   // concordance s’il y a recherche plein texte
   echo $pot->concByBook();
+  
+  ?><div class="linkOld" style="width: 100%; text-align: center;"><a style="color: gray; font-size: 14px; border-bottom: none;" href="http://www.crht.paris-sorbonne.fr/">Suite des pièces…</a></div><?php
+  
 }
       ?>
       
-      <div class="linkOld" style="width: 100%; text-align: center;"><a style="color: gray; font-size: 14px; border-bottom: none;" href="http://www.crht.paris-sorbonne.fr/">Suite des pièces…</a></div>
+      
       
       
       </div>
