@@ -120,7 +120,7 @@ else {
     var tempText;
     var lookFor;
     	for (var i = 0; i < theVerses.length; i++) {
-    		var sizeOf = getStringWidth(theVerses[i].previousElementSibling.previousElementSibling.innerHTML);
+    		var sizeOf = getStringWidth(theVerses[i].previousElementSibling.previousElementSibling.previousElementSibling.innerHTML);
     		var tempText = "<span class=\"space\" style=\"width:" + sizeOf + "px\"></span>" + theVerses[i].innerHTML;
     		theVerses[i].innerHTML=tempText;
     	}
