@@ -50,14 +50,10 @@ if (isset($doc['body'])) {
 }
 // pas de livre demandé, montrer un rapport général
 else {
-  // charger des résultats en mémoire
-  $pot->search();
-  // nombre de résultats
-  echo $pot->report();
-  // présentation bibliographique des résultats
-  echo $pot->biblio(array('byline', 'title', 'date', 'download'));
-  // concordance s’il y a recherche plein texte
-  echo $pot->concByBook();
+  $pot->search(); // charger des résultats en mémoire
+  echo $pot->report(); // nombre de résultats
+  echo $pot->biblio(array('byline', 'title', 'date', 'download')); // présentation bibliographique des résultats
+  echo $pot->concByBook(); // concordance s’il y a recherche plein texte
   
   ?><div class="linkOld" style="width: 100%; text-align: center;"><a style="color: gray; font-size: 14px; border-bottom: none;" href="http://www.crht.paris-sorbonne.fr/">Suite des pièces…</a></div><?php
   
