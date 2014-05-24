@@ -102,7 +102,7 @@ else {
     
     
     <!-- Pour l'alignement des vers -->
-    
+    <!-- -->
     <script type="text/javascript">
     
     function getStringWidth(theString) {
@@ -113,6 +113,7 @@ else {
     
     
     (function() {
+    // Cool! il y a juste des IE un peu paumés, mais tant pis , c’est trop simple http://quirksmode.org/dom/core/#t11
     var theVerses = document.getElementsByClassName('part-Y');
     var tempText;
 	var theGoodPrevious;
