@@ -102,7 +102,6 @@ else {
     
     
     <!-- Pour l'alignement des vers -->
-    <!-- -->
     <script type="text/javascript">
     
     function getStringWidth(theString) {
