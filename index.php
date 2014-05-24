@@ -9,7 +9,7 @@ $pot->file($pot->path);
 // Si un document correspond à ce chemin, charger un tableau avec différents composants (body, head, breadcrumb…)
 $doc=$pot->doc($pot->path);
 // chemin css, js ; baseHref est le nombre de '../' utile pour revenir en racine du site
-$themeHref=$pot->baseHref.'teipot/';
+$themeHref=Web::$basehref.'teipot/';
 
 
 ?><!DOCTYPE html>
@@ -22,7 +22,7 @@ else echo '<title>Bibliothèque dramatique</title>';
     ?>
     <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>html.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>teipot.css" />
-    <link rel="stylesheet" type="text/css" href="../crht.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Web::$basehref ?>crht.css" />
   </head>
   <body class="fixed">
     <div id="center">
