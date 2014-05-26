@@ -116,19 +116,11 @@ else {
     var theVerses = document.getElementsByClassName('part-Y');
     var tempText;
     var theGoodPrevious;
+	var idVerse;
     
-    	for (var i = 0; i < theVerses.length; i++) {
-    		theGoodPrevious = theVerses[i].previousElementSibling;	
-    		while (theGoodPrevious.className.indexOf("l") == -1) {
-    			if (theGoodPrevious.previousElementSibling != null) {
-    				theGoodPrevious = theGoodPrevious.previousElementSibling;
-    			}
-    			else {
-    				theGoodPrevious = theGoodPrevious.previousSibling;
-    			}
-    		}
-    		
-    		var sizeOf = getStringWidth(theGoodPrevious.innerHTML);
+    	for (var i = 0; i < theVerses.length; i++) {	
+
+    		var sizeOf = getStringWidth(theVerses[i].previousElementSibling.previousElementSibling.innerHTML);
     		var tempText = "<span class=\"space\" style=\"width:" + sizeOf + "px\"></span>" + theVerses[i].innerHTML;
     		theVerses[i].innerHTML=tempText;
     	}
