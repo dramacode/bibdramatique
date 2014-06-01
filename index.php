@@ -8,8 +8,7 @@ $pot=new Teipot(dirname(__FILE__).'/crht.sqlite', 'fr');
 $pot->file($pot->path);
 // Si un document correspond à ce chemin, charger un tableau avec différents composants (body, head, breadcrumb…)
 $doc=$pot->doc($pot->path);
-// chemin css, js ; baseHref est le nombre de '../' utile pour revenir en racine du site
-$themeHref=Web::$basehref.'teipot/';
+$themeHref = Web::basehref() . 'teipot/';
 
 
 ?><!DOCTYPE html>
@@ -22,13 +21,13 @@ else echo '<title>Bibliothèque dramatique</title>';
     ?>
     <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>html.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>teipot.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo Web::$basehref ?>crht.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Web::basehref() ?>crht.css" />
   </head>
   <body class="fixed">
     <div id="center">
       <header id="header">
         <h1>
-          <a href="<?php echo $pot->baseHref; ?>">Bibliothèque dramatique, prototype</a>
+          <a href="<?php echo Web::basehref() ?>">Bibliothèque dramatique, prototype</a>
         </h1>
         <?php // liens de téléchargements
           // if ($doc['downloads']) echo "\n".'<nav id="downloads"><small>Télécharger :</small> '.$doc['downloads'].'</nav>';
@@ -36,7 +35,7 @@ else echo '<title>Bibliothèque dramatique</title>';
       </header>
       <nav id="toolbar">
         <?php 
-echo '<a href="',$pot->baseHref,'">Bibliothèque dramatique</a> » ';
+echo '<a href="' . Web::basehref() . '">Bibliothèque dramatique</a> » ';
         // nous avons un livre, glisser aussi les liens de téléchargement
 if (isset($doc['breadcrumb'])) echo $doc['breadcrumb']; 
         ?>
@@ -72,7 +71,7 @@ if (isset($doc['bookid'])) {
   echo "\n<nav>";
   // auteur, titre, date
   if ($doc['byline']) $doc['byline']=$doc['byline'].'<br/>';
-  echo "\n".'<header><a href="'.$pot->baseHref.$doc['bookname'].'/">'.$doc['byline'].$doc['title'].' ('.$doc['end'].')</a></header>';
+  echo "\n".'<header><a href="' . Web::basehref() . $doc['bookname'] . '/">' . $doc['byline'] . $doc['title'] . ' (' . $doc['end'] . ')</a></header>';
   // table des matières
   echo $doc['toc'];
   echo "\n</nav>";
