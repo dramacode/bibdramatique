@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="dalibray-soliman" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Le Soliman</title>
-        <author>Charles Vion d'Alibray</author>
+        <author key="Vion, Charles de (159?-1654)">Charles Vion d'Alibray</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par MARTIN Marie-Pauline dans le cadre d'un mémoire de
@@ -57,6 +56,7 @@
       <titlePart>Tragi-comédie</titlePart>
     </docTitle>
     <docImprint>A PARIS, <lb/>Chez TOUSSAINCT QUINET, au Palais, dans la <lb/> petite salle, sous la montee de la Cour des Aydes. <lb/>M.DC.XXXVII <lb/>AVEC LE PRIVILEGE DU ROY.</docImprint>
+    <docEdition>Édition critique établie par MARTIN Marie-Pauline dans le cadre d'un mémoire de master 1 sous la direction de Georges Forestier (2009-2010)</docEdition>
   </titlePage>
       <div>
         <pb/>
@@ -892,8 +892,7 @@
       </div>
 </front>
     <body>
-        <head>LE SOLIMAN</head>
-        <head>TRAGI-COMEDIE.</head>
+      <head>LE SOLIMAN <lb/>TRAGI-COMEDIE.</head>
         <div xml:id="au-lecteur" type="set">
           <pb/>
           <head>AU LECTEUR</head>
@@ -974,7 +973,7 @@
             <roleDesc>Fils de Soliman.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="soldats">SOLDATS.</role>
+            <role xml:id="soldat">SOLDATS.</role>
             <roleDesc>De la garde de Soliman.</roleDesc>
           </castItem>
           <castItem>
@@ -1059,7 +1058,7 @@
               <l n="33" xml:id="l33">Mais allons, que du camp la place soit choisie,</l>
               <l n="34" xml:id="l34">Attendant que mon fils arrive d’Amasie<note n="262" place="bottom">Ville de la région du Pont aujourd’hui située dans le nord de la Turquie près de la mer Noire. C’est une ville de la région caucasienne réputé pour son commerce de soie.</note>.</l>
             </sp>
-            <sp who="rustan-tout-bas">
+            <sp who="rustan">
               <speaker>RUSTAN <hi rend="i">tout bas.</hi><note n="263" place="bottom">Cette didascalie ne concerne que le vers 33 et non l’ensemble de la réplique de Rustan.</note></speaker>
               <l n="35" xml:id="l35">Que puisse-t’il plustot estre privé du jour,</l>
               <l n="36" xml:id="l36">Seigneur, la Reyne attend que je sois de retour,</l>
@@ -1354,7 +1353,7 @@
               <l n="201" xml:id="l201">Enfin n’oubliez rien qui vous rende croiable,</l>
               <l n="202" xml:id="l202">Alors qu’aupres du Roy vous le rendrez coupable.</l>
             </sp>
-            <sp who="la-reyne">
+            <sp who="la-reine">
               <speaker>LA REYNE.</speaker>
               <l n="203" xml:id="l203">Hé comment recevoir avec un doux accueil,</l>
               <l n="204" xml:id="l204">Un<note n="294" place="bottom">On trouve ici l’acception pronominale de « un » dans le sens de « quelqu’un » : Comprendre « Quelqu’un qui mettra son fils[…] ». « Un » désigne Mustapha.</note> qui mettra mon fils, et moy-mesme au cercueil ?</l>
@@ -1370,7 +1369,7 @@
               <l n="211" xml:id="l211">Et par là vos discours auront plus de credit,</l>
               <l n="212" xml:id="l212">Plus on ayme quelqu’un, plus on croit ce qu’il dit.</l>
             </sp>
-            <sp who="la-reyne">
+            <sp who="la-reine">
               <speaker>LA REYNE.    <pb n="15"/></speaker>
               <l n="213" xml:id="l213">Ha ! Seline, un temps fut que je pouvois bien croire</l>
               <l n="214" xml:id="l214">Que le Roy m’eslevoit à ce degré de gloire :</l>
@@ -1382,7 +1381,7 @@
               <l n="217" xml:id="l217">Que dites-vous, Madame, et quel nouvel indice</l>
               <l n="218" xml:id="l218">Tesmoigne qu’envers vous son feu se refroidisse ?</l>
             </sp>
-            <sp who="la-reyne">
+            <sp who="la-reine">
               <speaker>LA REYNE.</speaker>
               <l n="219" xml:id="l219">Celui-cy justement qu’il m’en donne ce jour,</l>
               <l n="220" xml:id="l220">Ayant pour Mustapha tant d’estime et d’amour ;</l>
@@ -1650,7 +1649,7 @@
               <speaker>LA REINE.</speaker>
               <l n="357" xml:id="l357">Soldats, où va le Prince ?</l>
             </sp>
-            <sp who="soldats">
+            <sp who="soldat">
               <speaker>SOLDATS.</speaker>
               <l  part="Y">Au Palais, grande Reyne.</l>
             </sp>
@@ -1877,7 +1876,7 @@
               <speaker>SOLIMAN.</speaker>
               <l n="474" xml:id="l474">C’est assez dit, Allons.</l>
             </sp>
-            <sp who="rustan-tout-bas-a-la-reyne">
+            <sp who="rustan">
               <speaker>RUSTAN <hi rend="i">tout bas à la Reyne.</hi></speaker>
               <l  part="Y">Prenons, prenons courage.</l>
             </sp>
@@ -1891,7 +1890,7 @@
               <l n="475" xml:id="l475">Alvante est donc enfin émeu par mes discours</l>
               <l n="476" xml:id="l476">Et prend compassion de mes tristes amours.</l>
             </sp>
-            <sp who="alvante-tout-bas-ces-deux-vers-seulement">
+            <sp who="alvante">
               <speaker>ALVANTE <hi rend="i">tout bas ces deux vers seulement</hi></speaker>
               <l n="477" xml:id="l477">Pour guerir un <ref target="#amant">amant*</ref> de sa melancolie,</l>
               <l n="478" xml:id="l478">Il faut faire semblant d’approuver sa folie.</l>
@@ -2077,7 +2076,7 @@
               <l n="623" xml:id="l623">Doncques est-il possible ! ô Dieu quelle fureur !</l>
               <l n="624" xml:id="l624">Puis-je estre encore en vie à cét <ref target="#objet1">objet*</ref> d’horreur !</l>
             </sp>
-            <sp who="osman-sans-estre-apperceu">
+            <sp who="osman">
               <speaker>OSMAN <hi rend="i">sans estre apperceu.</hi></speaker>
               <l n="625" xml:id="l625">Comme tousjours le sort destruit ce que je tente !</l>
               <l n="626" xml:id="l626">Mais quel nouveau visage à mes yeux se presente !</l>
@@ -2422,8 +2421,8 @@
               <l n="813" xml:id="l813">Sire, hâtez-vous donc ainsi que veut l’affaire,</l>
               <l n="814" xml:id="l814">En ces occasions, il se perd qui differe.</l>
             </sp>
-            <sp who="soliman-lit">
-              <speaker>SOLIMAN <hi rend="i">lit.</hi>    [54]</speaker>
+            <sp who="soliman">
+              <speaker>SOLIMAN <hi rend="i">lit.</hi>    <pb n="54"/></speaker>
               <l n="815" xml:id="l815">Je n’attens pour partir que vostre mandement.</l>
               <l n="816" xml:id="l816">Cette puissante armée est deja toute preste.</l>
               <l n="817" xml:id="l817">Commencez seulement d’attaquer cette teste,</l>
@@ -3067,7 +3066,7 @@
               <l  part="Y">Heureux subject de joye,</l>
               <l n="1116" xml:id="l1116">Puis que je puis aussi mourir par cette voye.</l>
             </sp>
-            <sp who="soldats">
+            <sp who="soldat">
               <speaker>SOLDATS.</speaker>
               <l n="1117" xml:id="l1117">Sire, ce prisonnier Persan de nation,</l>
               <l n="1118" xml:id="l1118">Vient pour vous éclaircir de son intention.</l>
@@ -3088,7 +3087,7 @@
               <speaker>SOLIMAN.</speaker>
               <l  part="Y">Comment l’avez-vous arresté ?</l>
             </sp>
-            <sp who="soldats">
+            <sp who="soldat">
               <speaker>SOLDATS.</speaker>
               <l n="1122" xml:id="l1122">Faisant garde, et rodant autour de la Cité,</l>
               <l n="1123" xml:id="l1123">Nous le vismes de loin comme hors de luy-mesme,</l>
@@ -3745,7 +3744,7 @@
               <speaker>LA REINE.</speaker>
               <l n="1463" xml:id="l1463">Seigneur, c’est à moy seule</l>
             </sp>
-            <sp who="rustan-s-enfuit">
+            <sp who="rustan">
               <speaker>RUSTAN <hi rend="i">s’enfuit.</hi></speaker>
               <l  part="Y">O Ciel, je suis perdu !</l>
             </sp>
@@ -3880,7 +3879,7 @@
             <pb/>
             <head>SCENE HUITIESME.</head>
             <stage>LA REINE, MUSTAPHA, PERSINE, ALVANTE, SOLIMAN, ACMAT, OSMAN</stage>
-            <sp who="osman-survient">
+            <sp who="osman">
               <speaker>OSMAN <hi rend="i">survient.</hi></speaker>
               <l n="1530" xml:id="l1530">O triste desespoir ! ô divine vangeance !</l>
               <l n="1531" xml:id="l1531">Seigneur, Rustan est mort !</l>
@@ -4021,7 +4020,7 @@
             <pb/>
             <head>SCENE NEUFIESME.</head>
             <stage>GENTIL-HOMME. SOLIMAN. L’AMBASSADEUR DE PERSE. LA REYNE. ACMAT. ALVANTE. MUSTAPHA. PERSINE.</stage>
-            <sp who="gentil-homme">
+            <sp who="gentilhomme">
               <speaker>GENTIL-HOMME.</speaker>
               <l n="1610" xml:id="l1610">Seigneur, voicy venir l’Ambassadeur des Perses.</l>
             </sp>
@@ -4030,7 +4029,7 @@
               <l n="1611" xml:id="l1611">Escoutons-le. Tamas meu d’une juste peur</l>
               <l n="1612" xml:id="l1612">Veut renoncer sans doute à son espoir trompeur.</l>
             </sp>
-            <sp who="l-ambassadeur-de-perse">
+            <sp who="ambassadeur-perse">
               <speaker>L’AMBASSADEUR DE PERSE.    <pb n="109"/></speaker>
               <l n="1613" xml:id="l1613">Invincible Seigneur, le Roy Tamas mon Maistre,</l>
               <l n="1614" xml:id="l1614">Privé du doux aspect de celle qu’il fit naistre,</l>
@@ -4082,7 +4081,7 @@
               <l n="1657" xml:id="l1657">Je veux que Mustapha joint avecque Persine,                    <pb n="111, P"/></l>
               <l n="1658" xml:id="l1658">Couppe de tous nos maux la source et l’origine.</l>
             </sp>
-            <sp who="l-ambassadeur-de-perse">
+            <sp who="ambassadeur-perse">
               <speaker>L’AMBASSADEUR DE PERSE.</speaker>
               <l n="1659" xml:id="l1659">A quel bon-heur mon Roy se void-il eslevé !</l>
             </sp>
@@ -7103,7 +7102,7 @@
               <bibl>LAFAY Henri, <title>La Poésie française du premier <num>xvii<hi rend="sup">e</hi></num> siècle (1598-1630) : esquisse pour un tableau</title>, Paris, Nizet, 1975.</bibl>
               <bibl>LANCASTER Henry Carrington, <title>A History of French Dramatic Litterature in the Seventeeth Century</title>, Baltimore, the Johns Hopkins Press, 1929-1942, vol. 1 et 2.</bibl>
               <bibl>LANCASTER Henry Carrington, <title>Le Mémoire de Mahelot, Laurent et d’autres décorateurs de l’Hôtel de Bourgogne et de la Comédie-Française au <num>xvii<hi rend="sup">e</hi></num> siècle</title>, Ouvrage orné de quarante-neuf dessins originaux tirés du manuscrit de Mahelot et reproduits en facsimilé (1920).</bibl>
-              <bibl>MICHEL Lise, <emph>Dramaturgie et politique dans la tragédie française (1634-1651)</emph>, thèse de doctorat dirigée par le professeur Georges Forestier, soutenue en septembre 2006 à l’Université Paris IV.</bibl>
+              <bibl>MICHEL Lise, <title>Dramaturgie et politique dans la tragédie française (1634-1651)</title>, thèse de doctorat dirigée par le professeur Georges Forestier, soutenue en septembre 2006 à l’Université Paris IV.</bibl>
               <bibl>NADAL Octave, <title>Le Sentiment de l’amour dans le théâtre de Corneille</title>, Paris, Gallimard (coll. Tell), 1948.</bibl>
               <bibl>PERRENS François Tommy, <title>Les Libertins en France au <num>xvii<hi rend="sup">e</hi></num> siècle</title>, New York, 1973.</bibl>
               <bibl>RIFFAUD Alain, <title>Répertoire du théâtre français imprimé 1630-1660</title>, Genève, Droz, 2009.</bibl>
