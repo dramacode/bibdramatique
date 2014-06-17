@@ -22,6 +22,8 @@ else echo '<title>Bibliothèque dramatique</title>';
     <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>html.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>teipot.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo Web::basehref() ?>crht.css" />
+    
+    <script type="text/javascript" src="<?php echo Web::$basehref ?>js/jquery-1.11.1.min.js"></script>
   </head>
   <body class="fixed">
     <div id="center">
@@ -102,31 +104,43 @@ else {
     
     <!-- Pour l'alignement des vers -->
     <script type="text/javascript">
-    
-    function getStringWidth(theString) {
-    	var ruler = document.getElementById('ruler');
-    	ruler.innerHTML=theString;
-    	return ruler.offsetWidth;
-    }
-    
-    
-    (function() {
-    // Cool! il y a juste des IE un peu paumés, mais tant pis , c’est trop simple http://quirksmode.org/dom/core/#t11
-    var theVerses = document.getElementsByClassName('part-Y');
-    var tempText;
-    var theGoodPrevious;
-	var idVerse;
-    
-    	for (var i = 0; i < theVerses.length; i++) {	
-
-    		var sizeOf = getStringWidth(theVerses[i].previousElementSibling.previousElementSibling.innerHTML);
-    		var tempText = "<span class=\"space\" style=\"width:" + sizeOf + "px\"></span>" + theVerses[i].innerHTML;
-    		theVerses[i].innerHTML=tempText;
-    	}
+        
+        function getStringWidth(theString) {
+        	$("#ruler").addClass("l");
+        	$("#ruler").html(theString);
+        	return $("#ruler").width();
+      	}
+        
+        
+        (function() {
+        // Cool! il y a juste des IE un peu paumés, mais tant pis , c’est trop simple http://quirksmode.org/dom/core/#t11
+        var tempText;
+        var theGoodPrevious;
+        var verse;
+        var op;
+      
+        
+        $(".part-Y").each(function() {
+        	theGoodPrevious = $(this).parent().prev(".sp").find(".l").last();
+        	//theGoodPrevious = theGoodPrevious.remove(".l-n");
+       
+        	var sizeOf = getStringWidth(theGoodPrevious.html());
+        	//var sizeOf = getStringWidth(test.prev(".l").html());¨
+        	
+        	if ($(this).find(".l-n").length) {
+        		verse = $(this).find(".l-n")[0].outerHTML;
+        		$(this).find(".l-n").empty();
+        		tempText = verse + "<span class=\"space\" style=\"width:" + sizeOf + "px\"></span>" + $(this).html();
+        	}
+        	else {
+        		tempText = "<span class=\"space\" style=\"width:" + sizeOf + "px\"></span>" + $(this).html();
+        	}
+       
+        	$(this).html(tempText); 
+        })
     })();
-    
-    </script>
     <!-- Fin -->
+    </script>    <!-- Fin -->
     
     
   </body>
