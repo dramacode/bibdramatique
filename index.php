@@ -88,8 +88,9 @@ else {
   ';
 }
 ?>
+	<span id="ruler"></span>
       </aside>
-      <span id="ruler"></span>
+      
     </div>
     
     
@@ -99,14 +100,13 @@ else {
     </footer>
     <script type="text/javascript" src="<?php echo $themeHref; ?>Tree.js">//</script>
     <script type="text/javascript" src="<?php echo $themeHref; ?>Sortable.js">//</script>
-    <script type="text/javascript"><?php echo $doc['js']; ?></script>
+    <!--<script type="text/javascript"><?php echo $doc['js']; ?></script>-->
     
     
     <!-- Pour l'alignement des vers -->
     <script type="text/javascript">
         
         function getStringWidth(theString) {
-        	$("#ruler").addClass("l");
         	$("#ruler").html(theString);
         	return $("#ruler").width();
       	}
@@ -119,11 +119,14 @@ else {
         var verse;
         var op;
       
+      	$("#ruler").addClass("l");
         
         $(".part-Y").each(function() {
+        
+        
         	theGoodPrevious = $(this).parent().prev(".sp").find(".l").last();
         	//theGoodPrevious = theGoodPrevious.remove(".l-n");
-       
+       		
         	var sizeOf = getStringWidth(theGoodPrevious.html());
         	//var sizeOf = getStringWidth(test.prev(".l").html());¨
         	
