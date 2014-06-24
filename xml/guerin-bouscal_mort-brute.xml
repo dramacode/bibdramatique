@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="guerin-bouscal_mort-brute" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>La Mort de Brute et de Porcie, ou La vengeance de la mort de César. Tragédie</title>
-        <author>Guyon Guérin de Bouscal</author>
+        <author key="Guérin de Bouscal, Guyon (1613-1657)">Guyon Guérin de Bouscal</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par OMBROUCK Yann dans le cadre d'un mémoire de
@@ -828,7 +827,7 @@
                   <item>– Une émission datée de 1640, renommée <hi rend="i">La Suite de la Mort de Cæsar</hi>, sous la cote GD-45352. Il semblerait qu’un exemplaire de cette émission soit disponible en Allemagne (Herzog August Bibliothek Wolfenbüttel, cote M: Lm 1670).</item>
                   <item>– Une émission datée de 1647, au titre allégé (<hi rend="i">La Mort de Brute, et de Porcie</hi>), sous la cote GD-764.</item>
                 </list>
-                <p>Tous ces exemplaires de 1637, 1640 et 1647 sont, pour ceux que nous avons examinés, strictement identiques, jusque dans l’erreur de pagination qui fait de la page 49 une seconde page 46.<note n="147" place="bottom">Ponctuation et coquilles identiques, notamment. Nous avons analysé tous les exemplaires conservés à Paris, exceptés ceux de la Bibliothèque Mazarine.</note> Identiques à un fait près : la fin du vers 592 est effacée dans le premier exemplaire de Tolbiac (RES-YF-520) ainsi que dans celui de la Bibliothèque de la Sorbonne (RRA 8= 443), qui donnent « metamorph<hi rend="u">[...]</hi> », de la même manière, alors qu’elle est bien présente dans les autres exemplaires, qui donnent « metamorph<hi rend="u"><hi rend="b">oses;</hi></hi> ».<note n="148" place="bottom">Nous avons complété le vers en conséquence.</note></p>
+                <p>Tous ces exemplaires de 1637, 1640 et 1647 sont, pour ceux que nous avons examinés, strictement identiques, jusque dans l’erreur de pagination qui fait de la page 49 une seconde page 46.<note n="147" place="bottom">Ponctuation et coquilles identiques, notamment. Nous avons analysé tous les exemplaires conservés à Paris, exceptés ceux de la Bibliothèque Mazarine.</note> Identiques à un fait près : la fin du vers 592 est effacée dans le premier exemplaire de Tolbiac (RES-YF-520) ainsi que dans celui de la Bibliothèque de la Sorbonne (RRA 8= 443), qui donnent « metamorph<hi rend="u">[...]</hi> », de la même manière, alors qu’elle est bien présente dans les autres exemplaires, qui donnent « metamorph<hi rend="b">oses;</hi> ».<note n="148" place="bottom">Nous avons complété le vers en conséquence.</note></p>
               </div>
             </div>
             <div>
@@ -1070,50 +1069,66 @@
           <head>ACTEURS</head>
           <castList>
           <castItem>
-            <role>BRUTE,</role>
+            <role xml:id="brute">BRUTE,</role>
           </castItem>
           <castItem>
-            <role>STRATON, </role>
+            <role xml:id="straton">STRATON, </role>
             <roleDesc>Amy de Brute.</roleDesc>
           </castItem>
           <castItem>
-            <role>CASSIE,</role>
+            <role xml:id="cassie">CASSIE,</role>
           </castItem>
           <castItem>
-            <role>PORCIE,</role>
+            <role xml:id="porcie">PORCIE,</role>
             <roleDesc>Femme de Brute.</roleDesc>
           </castItem>
           <castItem>
-            <role>OCTAVE,</role>
+            <role xml:id="octave">OCTAVE,</role>
           </castItem>
           <castItem>
-            <role>MARC-ANTHOINE.</role>
+            <role xml:id="marc-anthoine">MARC-ANTHOINE.</role>
           </castItem>
           <castItem>
-            <role>TITINE,</role>
+            <role xml:id="titine">TITINE,</role>
           </castItem>
           <castItem>
-            <role>PINDARE,</role>
+            <role xml:id="pindare">PINDARE,</role>
             <roleDesc>Affranchi de Cassie.</roleDesc>
           </castItem>
           <castItem>
-            <role>DEMETRIE,</role>
+            <role xml:id="demetrie">DEMETRIE,</role>
           </castItem>
           <castItem>
-            <role>LA SUIVANTE DE PORCIE,</role>
+            <role xml:id="compagne">LA SUIVANTE DE PORCIE,</role>
           </castItem>
           <castItem>
-            <role>LES MESSAGERS.</role>
+            <role xml:id="messagers">LES MESSAGERS.</role>
           </castItem>
           <castItem>
-            <role>LES CHEFS DE L’ARMEE DE BRUTE.</role>
+            <role xml:id="chefs-brute">LES CHEFS DE L’ARMEE DE BRUTE.</role>
+            <role xml:id="chef1-brute"></role>
+            <role xml:id="chef2-brute"></role>
+            <role xml:id="chef3-brute"></role>
           </castItem>
           <castItem>
-            <role>LES CHEFS DE L’ARMEE D’ANTOINE<note n="179" place="bottom">« Antoine », et non pas « Anthoine », comme dans tout le reste de la pièce.</note>.</role>
+            <role xml:id="chef1-antoine">LES CHEFS DE L’ARMEE D’ANTOINE<note n="179" place="bottom">« Antoine », et non pas « Anthoine », comme dans tout le reste de la pièce.</note>.</role>
+            <role xml:id="chef2-antoine"></role>
+            <role xml:id="chef3-antoine"></role>
+            <role xml:id="suite-antoine"></role>
           </castItem>
           <castItem>
-            <role>LE MEDECIN D’OCTAVE.<note n="180" place="bottom"> On retrouvera ici les équivalents romains de ces noms francisés : (Marcus Junius) Brutus, Straton, (Caius) Cassius (Longinus), Porcia (Catonis), (Caius) Octavius (Thurinus), Marcus Antonius (Marci Filius Marci Nepos), Titinius, Pindarus, Demetrius. En principe, après son adoption par César, Octave devient Octavien (Caius Julius Caesar Octavianus). Guérin de Bouscal le nomme <hi rend="i">Octave</hi>, comme Boyer plus tard, dans <hi rend="i">La Porcie romaine</hi>. Avec la <hi rend="i">Porcie</hi> de Robert Garnier et le <hi rend="i">Jules César</hi> de Shakespeare, le personnage prenait la dénomination d’<hi rend="i">Octave César</hi> dans la liste des personnages (« Octave Cesar » et « Octavius Cæsar ») pour ensuite s’appeler <hi rend="i">Octave</hi> dans les didascalies nominatives (« Octave » et « Octavius »). Cela dit, il nous semble tout à fait hasardeux d’inférer de ces nuances quoi que ce soit concernant la vision du personnage par chacun de ces dramaturges.</note></role>
+            <role xml:id="medecin">LE MEDECIN D’OCTAVE.<note n="180" place="bottom"> On retrouvera ici les équivalents romains de ces noms francisés : (Marcus Junius) Brutus, Straton, (Caius) Cassius (Longinus), Porcia (Catonis), (Caius) Octavius (Thurinus), Marcus Antonius (Marci Filius Marci Nepos), Titinius, Pindarus, Demetrius. En principe, après son adoption par César, Octave devient Octavien (Caius Julius Caesar Octavianus). Guérin de Bouscal le nomme <hi rend="i">Octave</hi>, comme Boyer plus tard, dans <hi rend="i">La Porcie romaine</hi>. Avec la <hi rend="i">Porcie</hi> de Robert Garnier et le <hi rend="i">Jules César</hi> de Shakespeare, le personnage prenait la dénomination d’<hi rend="i">Octave César</hi> dans la liste des personnages (« Octave Cesar » et « Octavius Cæsar ») pour ensuite s’appeler <hi rend="i">Octave</hi> dans les didascalies nominatives (« Octave » et « Octavius »). Cela dit, il nous semble tout à fait hasardeux d’inférer de ces nuances quoi que ce soit concernant la vision du personnage par chacun de ces dramaturges.</note></role>
           </castItem>
+            <castItem>
+              <role xml:id="genie1"></role>
+            </castItem>
+            <castItem>
+              <role xml:id="soldat"></role>
+            </castItem>
+            <castItem>
+              <role xml:id="ami1-brute"></role>
+              <role xml:id="ami2-brute"></role>
+            </castItem>
           </castList>
           <stage>La Scene est en la plaine de Philipes en Macedoine.</stage>
         </div>
@@ -1350,7 +1365,7 @@
               <l n="51" xml:id="l51">Aussi la recompense égalant le bien-fait,</l>
               <l n="52" xml:id="l52">Rendra dans peu de temps vostre bon-heur parfait.                <pb n="12"/></l>
             </sp>
-            <sp who="i">
+            <sp who="chefs-brute">
               <speaker>i. Chef.</speaker>
               <l n="53" xml:id="l53">L’honneur de vous servir contre la tyrannie,</l>
               <l n="54" xml:id="l54">Couronne les Romains d’une gloire infinie,</l>
@@ -1537,7 +1552,7 @@
               <l n="157" xml:id="l157">Et pour perdre en un jour tyrans et tyrannie;</l>
               <l n="158" xml:id="l158">Mais qu’est-ce que je voy ?</l>
             </sp>
-            <sp who="le-genie">
+            <sp who="genie1">
               <speaker>Le Genie.</speaker>
               <l part="Y">C’est ton mauvais <ref target="#genie">Genie*</ref>,</l>
               <l n="159" xml:id="l159">Qui te vient advertir que dans fort peu de temps                    <pb n="19"/></l>
@@ -1700,7 +1715,7 @@
               <l n="270" xml:id="l270">Aussi seroit-ce en vain qu’on m’en voudroit distraire,</l>
               <l n="271" xml:id="l271">Il est grand, il est juste, et selon la <ref target="#saison">saison*</ref>.<note n="208" place="bottom"> La vertu, la naissance et la figure paternelle poussent Porcie à un projet qui s’apparente à la <hi rend="i">devotio</hi> : sacrifice de soi-même pour attirer la victoire, dont on trouve des exemples chez des généraux romains. « Ce suicide sacré qui compta d’illustres victimes en la personne des Decii, père, fils et petit-fils, fut, à proprement parler, un sacrifice de substitution, consommé, en principe, par un chef d’armée ou, à la rigueur, par un simple soldat qui jouait dans ce cas le rôle de représentant, pour assurer le salut de ses troupes sur le point de flancher sous la poussée virulente de l’ennemi. Au cours de la cérémonie sacrificielle, la victime volontaire endossait un vêtement sacré et, s’adressant aux divinités infernales, leur « dévouait » sa personne et celle des ennemis ; puis, montée sur un cheval, elle s’élançait à bride abattue dans les rangs adverses où il lui fallait trouver la mort. C’était là une tactique religieuse efficace et particulièrement redoutable qui liait les dieux et entraînait infailliblement leur appui pour anéantir l’armée ennemie et donner la victoire aux Romains. » (Yolande Grisé, <hi rend="i">Le Suicide dans la Rome antique</hi>, Les Belles Lettres, 1982, p. 86-87). C’est de manière générale un sacrifice fait aux valeurs morales de Porcie : l’exécuter, c’est retrouver son identité et n’être plus « différente à elle-même » (v. 242). Dans la tragédie de Robert Garnier, lorsqu’elle apprend la mort de Brute, Porcie évoque les ombres des illustres romains et fait une place de choix aux Decii : « O cruauté du ciel ! que diront aux enfers / Ces vieux peres Romains, de nos malheurs soufferts ? […] Que diront, que diront les genereux Decies, / Si quelqu’un devalé sur les plaines noircies, / Leur dit que le païs, qu’ils rendirent seigneur / De tant de nations, applaudit serviteur, / Le païs pour lequel jadis ils se voüerent, / Le païs pour lequel leur sang ils prodiguerent ? » (<hi rend="i">Porcie</hi>, acte IV, dans <hi rend="i">Les Tragédies de Robert Garnier</hi>, Mamert Patisson, 1585, p. 29). Peut-être y a-t-il également dans notre passage une parenté avec l’ordalie, puisque la mort, hautement probable et même appelée des vœux de l’héroïne, ne paraît pas obligatoire.</note></l>
             </sp>
-            <sp who="la-compagne">
+            <sp who="compagne">
               <speaker>La Compagne.</speaker>
               <l n="272" xml:id="l272">Mais vous ne dites pas qu’il choque la raison,</l>
               <l n="273" xml:id="l273">Madame, moderez cette boüillante rage,                     <pb n="D, 25"/></l>
@@ -1720,7 +1735,7 @@
               <speaker>Porcie.</speaker>
               <l n="285" xml:id="l285">On peut bien sans mourir suivre cette entreprise.</l>
             </sp>
-            <sp who="la-compagne">
+            <sp who="compagne">
               <speaker>La Compagne.</speaker>
               <l n="286" xml:id="l286">Mais si Brute mouroit, et que vous fussiez prise,</l>
               <l n="287" xml:id="l287">Que tout fut en butin aux Tyrans inhumains,</l>
@@ -1828,21 +1843,21 @@
               <l n="375" xml:id="l375">Secondez mon dessein, qui juste autant que beau,</l>
               <l n="376" xml:id="l376">Mesme apres nostre mort, nous sauve du tombeau.</l>
             </sp>
-            <sp who="i">
+            <sp who="chef1-antoine">
               <speaker>i. Chef.</speaker>
               <l n="377" xml:id="l377">Nous n’avons pas plûtost resolu de vous suivre,</l>
               <l n="378" xml:id="l378">Que de venger Cæsar ou de cesser de vivre,</l>
               <l n="379" xml:id="l379">Ainsi ne craignez pas qu’on ne juge aujourd’huy</l>
               <l n="380" xml:id="l380">Qu’encore apres sa mort nous combatons pour luy.</l>
             </sp>
-            <sp who="ii">
+            <sp who="chef2-antoine">
               <speaker>ii. Chef.</speaker>
               <l n="381" xml:id="l381">Les effets feront voir aux despens de ma vie,</l>
               <l n="382" xml:id="l382">Que mon cœur à ce bras inspire mesme envie,</l>
               <l n="383" xml:id="l383">Cæsar merite bien de voir venger ses coups,</l>
               <l n="384" xml:id="l384">Et qu’on meure pour luy, puis qu’il est mort pour nous.</l>
             </sp>
-            <sp who="iii">
+            <sp who="chef3-antoine">
               <speaker>iii. Chef.</speaker>
               <l n="385" xml:id="l385">Brave et vaillant Cæsar, dont la mort avancée</l>
               <l n="386" xml:id="l386">Ne m’entretient jamais sans blesser ma pensée;</l>
@@ -1863,11 +1878,11 @@
               <l n="390" xml:id="l390">Mais que voudroit de nous le Medecin d’Octave,</l>
               <l n="391" xml:id="l391">Son mal depuis hier seroit-il augmenté ?</l>
             </sp>
-            <sp who="un-de-la-suite-d-anthoine">
+            <sp who="suite-antoine">
               <speaker>Un de la Suite d’Anthoine.</speaker>
               <l n="392" xml:id="l392">Je viens de le quiter en meilleure santé.</l>
             </sp>
-            <sp who="le-medecin">
+            <sp who="medecin">
               <speaker>Le Medecin.</speaker>
               <l n="393" xml:id="l393">Si quelque bon <ref target="#succez">succez*</ref> nourrit ton esperance,</l>
               <l n="394" xml:id="l394">Change la desormais en parfaite asseurance,</l>
@@ -2007,21 +2022,21 @@
               <l n="517" xml:id="l517">Resistons luy pourtant, et sans plus discourir,</l>
               <l n="518" xml:id="l518">Qu’il<note n="221" place="bottom">Le plus probable est que ce pronom renvoie à « l’amour du païs » (v. 516), force qui doit être canalisée des paroles aux actes, de l’exhortation à la bataille.</note> agisse au dessein de vaincre ou de mourir.</l>
             </sp>
-            <sp who="i">
+            <sp who="chef1-brute">
               <speaker>i. Chef.</speaker>
               <l n="519" xml:id="l519">Quand le ressentiment des libertez ravies</l>
               <l n="520" xml:id="l520">Ne nous forceroit pas à prodiguer nos vies,</l>
               <l n="521" xml:id="l521">Ton discours sur mon cœur a fait un tel effort,</l>
               <l n="522" xml:id="l522">Qu’il me tarde déja d’estre vainqueur ou mort.</l>
             </sp>
-            <sp who="ii">
+            <sp who="chef2-brute">
               <speaker>ii. Chef.</speaker>
               <l n="523" xml:id="l523">De moy quelques <ref target="#succez">succez*</ref> que le Ciel nous prepare,</l>
               <l n="524" xml:id="l524">La constance toujours me servira de phare,</l>
               <l n="525" xml:id="l525">Et malgré les escueils je trouveray le port</l>
               <l n="526" xml:id="l526">Dans cét ardent desir d’estre vainqueur ou mort.</l>
             </sp>
-            <sp who="iii">
+            <sp who="chef3-brute">
               <speaker>iii. Chef.</speaker>
               <l n="527" xml:id="l527">Vos desirs sont les miens apres ce qu’a dit Brute,</l>
               <l n="528" xml:id="l528">Il n’est rien que je n’ose et que je n’execute;</l>
@@ -2068,7 +2083,7 @@
             <pb/>
             <head>SCENE V.</head>
             <stage>LA COMPAGNE, PORCIE,</stage>
-            <sp who="la-compagne">
+            <sp who="compagne">
               <speaker>La Compagne.</speaker>
               <l n="555" xml:id="l555">Madame, en cét instant tous les Soldats en armes</l>
               <l n="556" xml:id="l556">Commencent le combat qui doit finir vos larmes;</l>
@@ -2098,7 +2113,7 @@
               <l n="577" xml:id="l577">Il attaque, il defend, et pour ferme qu’il soit,</l>
               <l n="578" xml:id="l578">Il est aussi flotant que le combat qu’il voit.</l>
             </sp>
-            <sp who="la-compagne">
+            <sp who="compagne">
               <speaker>La Compagne.</speaker>
               <l n="579" xml:id="l579">Un esprit du commun pourroit souffrir à l’<ref target="#heure">heure*</ref>;</l>
               <l n="580" xml:id="l580">Mais le vostre, Madame, a la trempe meilleure,</l>
@@ -2226,7 +2241,7 @@
               <l n="648" xml:id="l648">Ont creu que Jupiter nous aydoit de sa foudre.</l>
               <l n="649" xml:id="l649">Cassie a…</l>
             </sp>
-            <sp who="i">
+            <sp who="chef1-brute">
               <speaker>i. Chef.</speaker>
               <l part="Y">L’un des siens s’en vient parler à vous.</l>
             </sp>
@@ -2506,15 +2521,15 @@
               <speaker>Titine.</speaker>
               <l n="828" xml:id="l828">Celle d’un innocent que la <ref target="#parque">parque*</ref> va prendre.</l>
             </sp>
-            <sp who="un-de-la-suite-de-brute">
+            <sp who="chef1-brute">
               <speaker>Un de la Suite de Brute.     <pb n="56"/></speaker>
               <l n="829" xml:id="l829">O malheur sans pareil ! Cassie est aussi mort.</l>
             </sp>
-            <sp who="brute-a-part-soy">
+            <sp who="brute">
               <speaker>Brute <hi rend="i">à part soy.</hi></speaker>
               <l n="830" xml:id="l830">Il faut dissimuler.</l>
             </sp>
-            <sp who="un-de-la-suite">
+            <sp who="chef1-brute">
               <speaker>Un de la Suite.</speaker>
               <l part="Y">O dure loy du sort !</l>
             </sp>
@@ -2588,7 +2603,7 @@
               <l n="885" xml:id="l885">Déja leur volonté s’explique heureusement,</l>
               <l n="886" xml:id="l886">Et vostre valeur fait ce doux evenement.</l>
             </sp>
-            <sp who="anthoine">
+            <sp who="marc-anthoine">
               <speaker>Anthoine.</speaker>
               <l n="887" xml:id="l887">Vos vœux mieux que mon bras me l’ont rendu possible.</l>
             </sp>
@@ -2598,7 +2613,7 @@
               <l n="889" xml:id="l889">Chacun sçait comme quoy<note n="248" place="bottom"> COMME : « On le joint quelquefois avec <hi rend="i">quoy</hi>, et l’on dit. <hi rend="i">Comme quoy avez-vous fait cela ? comme quoy avez-vous abandonné cette affaire</hi> ? pour dire, <hi rend="b">Comment</hi> avez-vous fait cela ? pourquoy avez-vous abandonné cette affaire ? » (<hi rend="i">Dictionnaire de l’Académie françoise</hi>, première édition, 1694). Dans le français contemporain, la tournure subsiste mais est familière (TLFi, article « quoi »). « […] <hi rend="i">comme quoy</hi>, est un terme nouveau, qui n’a cours que depuis peu d’années, mais qui est tellement usité, qu’on l’a à tous propos dans la bouche. Apres cela, on ne peut pas blasmer ceux qui l’escrivent, mesme à l’exemple d’un des plus excellens et des plus celebres Escrivains de France […] Mais pour moy, j’aimerois mieux dire, <hi rend="i">comment</hi>, selon cette reigle generale, qu’<hi rend="i">un mot ancien, qui est encore dans la vigueur de l’Usage est incomparablement meilleur à escrire, qu’un tout nouveau, qui signifie la mesme chose</hi>. Ces mots qui sont de l’usage ancien et moderne tout ensemble, sont beaucoup plus nobles et plus graves, que ceux de la nouvelle marque. Quand je parle des mots, j’entens aussi parler des phrases. Ce n’est pas que je ne me voulusse servir de <hi rend="i">comme quoy</hi>, qui a souvent bonne grace, mais ce ne seroit gueres que dans un stile familier. » (Vaugelas, <hi rend="i">op. cit.</hi>, p. 333-334). Cinquante ans plus tard, l’Académie observe : « Il est aisé de juger que <hi rend="i">comme quoy</hi>, qui estoit un mot nouveau que M. de Vaugelas a veu naistre, n’avoit pas esté generalement receu, puisqu’il a si-tost vieilli. On ne s’en sert plus presentement. » (<hi rend="i">Observations de l’Académie françoise sur les Remarques de M. de Vaugelas</hi>, Coignard, 1704, p. 322). Cette observation, dans sa lecture rétrospective, détourne le propos de Vaugelas qui disait qu’« on l’a à tous propos dans la bouche », ce qui revient à dire qu’il était « generalement receu ». Par ailleurs, le propos de l’Académie n’explique pas l’usage que nous connaissons et qui subsiste bel et bien dans notre langue.</note> vous avez combatu;</l>
               <l n="890" xml:id="l890">Mais un cœur <ref target="#genereux">genereux*</ref> doit cacher sa <ref target="#vertu1">vertu*</ref>.</l>
             </sp>
-            <sp who="anthoine">
+            <sp who="marc-anthoine">
               <speaker>Anthoine.</speaker>
               <l n="891" xml:id="l891">C’est pourquoy tous les jours vous nous cachez la vostre.</l>
             </sp>
@@ -2608,7 +2623,7 @@
               <l n="893" xml:id="l893">Mais dans les complimens comme dans les combats,</l>
               <l n="894" xml:id="l894">Il faut à vostre <ref target="#abord">abord*</ref> mettre les armes bas.<note n="249" place="bottom"> Cette réplique d’Octave clôt un échange où l’on est porté à voir une crispation entre les deux hommes, là où dans tout le reste de la pièce, servant la même cause, ils semblent solidaires. L’union idéologique que demande pour l’auteur le sujet de la pièce ne se fissurerait-elle pas subrepticement, cédant à ce que l’histoire nous a laissé : la rivalité (et la guerre qui s’ensuit) entre les deux triumvirs ? Il y a lieu de le croire. Chez Mankiewicz (<hi rend="i">Cleopatra</hi>, deuxième partie, de 2’36’’ à 4’38’’), au terme de la bataille de Philippes, l’entrevue entre Octave malade et Marc Antoine est tout entière faite du sarcasme et du mépris de ce dernier. Plutarque écrit, au sujet de la bataille entre Brutus et les forces d’Octave : « Dans la première bataille, César, vaincu de vive force par Brutus, perdit son camp et échappa de justesse à ses poursuivants ; mais, à en croire ce qu’il écrit lui-même dans ses <hi rend="i">Mémoires</hi>, il se retira avant la bataille, à cause d’un songe qu’avait eu un de ses amis. » Robert Sablayrolles commente : « Probable justification <hi rend="i">a posteriori</hi> d’une attitude peu glorieuse, l’opinion publique contemporaine attribuant à l’évidence tout le mérite de la victoire à Antoine. Le sort indécis de la bataille dut beaucoup, semble-t-il, aux erreurs causées chez les conjurés par les fausses nouvelles et les mauvaises interprétations (voir <hi rend="i">Brutus</hi>, XLII-XLIII). » (Plutarque, <hi rend="i">Vie d’Antoine</hi>, XXII, éd. cit., p. 1686). À la scène suivante, la défaite des troupes d’Octave pourra convaincre Marc Antoine (v. 991-992 et 995) : le rêve du Médecin était providentiel.</note></l>
             </sp>
-            <sp who="anthoine">
+            <sp who="marc-anthoine">
               <speaker>Anthoine.</speaker>
               <l n="895" xml:id="l895">Ce Soldat de retour porte sur le visage</l>
               <l n="896" xml:id="l896">Les signes evidens d’un funeste presage.</l>
@@ -2618,7 +2633,7 @@
             <pb/>
             <head>SCENE II.                         <pb n="60"/></head>
             <stage>LE SOLDAT, ANTHOINE, OCTAVE.</stage>
-            <sp who="le-soldat">
+            <sp who="soldat">
               <speaker>Le Soldat.</speaker>
               <l n="897" xml:id="l897">Le sensible regret où le sort me reduit</l>
               <l n="898" xml:id="l898">D’estre contraint à dire un mal qu’il a produit,</l>
@@ -2629,11 +2644,11 @@
               <speaker>Octave.</speaker>
               <l n="901" xml:id="l901">Quoy Brute seroit-il de mes troupes vainqueur ?</l>
             </sp>
-            <sp who="le-soldat">
+            <sp who="soldat">
               <speaker>Le Soldat.</speaker>
               <l n="902" xml:id="l902">C’est là le trait mortel qui me perce le cœur.</l>
             </sp>
-            <sp who="anthoine">
+            <sp who="marc-anthoine">
               <speaker>Anthoine.</speaker>
               <l n="903" xml:id="l903">Tandis qu’Octave et moy porterons une espée,</l>
               <l n="904" xml:id="l904">On la verra toujours contre Brute occupée;</l>
@@ -2641,7 +2656,7 @@
               <l n="906" xml:id="l906">Et nous l’irions chercher jusque <ref target="#dessus">dedans*</ref> l’Enfer:</l>
               <l n="907" xml:id="l907">Poursuy.</l>
             </sp>
-            <sp who="le-soldat">
+            <sp who="soldat">
               <speaker>Le Soldat.     <pb n="61"/></speaker>
               <l part="Y">Le souvenir d’un si sanglant carnage,</l>
               <l n="908" xml:id="l908">Met mon ame en desordre et glace mon courage,</l>
@@ -2731,7 +2746,7 @@
               <l n="989" xml:id="l989">Les Dieux aymoient Cæsar, et ne pourroient souffrir</l>
               <l n="990" xml:id="l990">De voir vivre long-temps ceux qui l’ont fait mourir.</l>
             </sp>
-            <sp who="anthoine">
+            <sp who="marc-anthoine">
               <speaker>Anthoine.</speaker>
               <l n="991" xml:id="l991">S’ils eussent eu dessein de choquer nostre envie,</l>
               <l n="992" xml:id="l992">Octave dans son camp auroit perdu la vie,</l>
@@ -2758,7 +2773,7 @@
               <speaker>Octave.</speaker>
               <l n="1003" xml:id="l1003">O Dieux ! seroit-il vray qu’il ne fut plus en vie ?</l>
             </sp>
-            <sp who="anthoine">
+            <sp who="marc-anthoine">
               <speaker>Anthoine.</speaker>
               <l n="1004" xml:id="l1004">Par un discours plus clair contentez nostre envie.</l>
             </sp>
@@ -2798,7 +2813,7 @@
               <l n="1033" xml:id="l1033">Icy les gens d’honneur peuvent trouver un port</l>
               <l n="1034" xml:id="l1034">Qui les met à couvert des orages du sort.</l>
             </sp>
-            <sp who="anthoine">
+            <sp who="marc-anthoine">
               <speaker>Anthoine.     <pb n="67"/></speaker>
               <l n="1035" xml:id="l1035">Cavaliers, vos desirs ont un effet propice,</l>
               <l n="1036" xml:id="l1036">Vous aurez cette place, et rendez nous service.</l>
@@ -2818,7 +2833,7 @@
               <l n="1044" xml:id="l1044">Nous pouvons assembler toute nostre puissance,</l>
               <l n="1045" xml:id="l1045">Pour suivre l’ennemy tandis qu’il est troublé.</l>
             </sp>
-            <sp who="anthoine">
+            <sp who="marc-anthoine">
               <speaker>Anthoine.</speaker>
               <l n="1046" xml:id="l1046">Allons le proposer au Conseil assemblé.</l>
             </sp>
@@ -3078,7 +3093,7 @@
               <l n="1242" xml:id="l1242">Ce nuage<note n="279" place="bottom">Nuage... Ce qui obscurcit la vision, ce qui menace et ce qui cache la vérité.</note> ennemy qui te cache à nos yeux.</l>
               <l n="1243" xml:id="l1243">Allons y donc, amis, et que toute la terre</l>
               <l n="1244" xml:id="l1244">Tremble sous nos efforts comme sous le <ref target="#tonnerre">Tonnerre*</ref>,</l>
-              <l n="1245" xml:id="l1245">Que le sang espanché fasse soudre<note n="280" place="bottom"> Si le verbe <hi rend="i">sou</hi><hi rend="u"><hi rend="b"><hi rend="i">r</hi></hi></hi><hi rend="i">dre</hi> est mieux connu de nous, le verbe <hi rend="i">soudre</hi> pouvait signifier dans l’ancienne langue : « délier, libérer » (Godefroy, Huguet et le <hi rend="i">Dictionnaire du Moyen Français</hi>). Il s’est par la suite réduit au sens de « Decider une question, demesler le nœud d’une difficulté. » (<hi rend="i">Dictionnaire de l’Académie françoise</hi>, première édition 1694). Il ne s’agit donc pas nécessairement d’une coquille, d’autant que la pièce fait preuve d’une tendance à l’archaïsme. Dans les deux cas, qu’il s’agisse d’une coquille ou non, c’est l’image du jaillissement.</note> un estang</l>
+              <l n="1245" xml:id="l1245">Que le sang espanché fasse soudre<note n="280" place="bottom"> Si le verbe <hi rend="i">sourdre</hi> est mieux connu de nous, le verbe <hi rend="i">soudre</hi> pouvait signifier dans l’ancienne langue : « délier, libérer » (Godefroy, Huguet et le <hi rend="i">Dictionnaire du Moyen Français</hi>). Il s’est par la suite réduit au sens de « Decider une question, demesler le nœud d’une difficulté. » (<hi rend="i">Dictionnaire de l’Académie françoise</hi>, première édition 1694). Il ne s’agit donc pas nécessairement d’une coquille, d’autant que la pièce fait preuve d’une tendance à l’archaïsme. Dans les deux cas, qu’il s’agisse d’une coquille ou non, c’est l’image du jaillissement.</note> un estang</l>
               <l n="1246" xml:id="l1246">Pour noyer les poltrons qui fuiront de leur rang,                    <pb n="78"/></l>
               <l n="1247" xml:id="l1247">Afin qu’à l’advenir il ne naisse point d’homme</l>
               <l n="1248" xml:id="l1248">Qui s’ose rebeller contre l’honneur de Rome,</l>
@@ -3125,7 +3140,7 @@
               <l n="1275" xml:id="l1275">Et qu’elle peut trouver nonobstant leur envie,</l>
               <l n="1276" xml:id="l1276">L’honneur, la liberté, le repos et la vie.</l>
             </sp>
-            <sp who="la-compagne">
+            <sp who="compagne">
               <speaker>La Compagne.</speaker>
               <l n="1277" xml:id="l1277">Pourquoy <ref target="#murmurer">murmurez*</ref>-vous contre les immortels,</l>
               <l n="1278" xml:id="l1278">Au lieu que vous deussiez embrasser leurs autels,</l>
@@ -3142,7 +3157,7 @@
               <l n="1286" xml:id="l1286">Et me laisse en ce lieu seule m’entretenir,</l>
               <l n="1287" xml:id="l1287">Tu peux beaucoup pour moy dans cette obeïssance.</l>
             </sp>
-            <sp who="la-compagne">
+            <sp who="compagne">
               <speaker>La Compagne.</speaker>
               <l n="1288" xml:id="l1288">C’est pourquoy je voudrois qu’il fut en ma puissance;</l>
               <l n="1289" xml:id="l1289">Mais on m’a commandé de ne vous quiter pas.</l>
@@ -3151,7 +3166,7 @@
               <speaker>Porcie.</speaker>
               <l n="1290" xml:id="l1290">C’est me perdre pourtant que de suivre mes pas.</l>
             </sp>
-            <sp who="la-compagne">
+            <sp who="compagne">
               <speaker>La Compagne.</speaker>
               <l n="1291" xml:id="l1291">Je mourray mille fois avant que je vous laisse.</l>
             </sp>
@@ -3164,7 +3179,7 @@
               <l n="1296" xml:id="l1296">Adjouste ta presence à mes autres disgraces,</l>
               <l n="1297" xml:id="l1297">Il ne m’en fasche pas, il faut ceder au sort.</l>
             </sp>
-            <sp who="la-compagne">
+            <sp who="compagne">
               <speaker>La Compagne.</speaker>
               <l n="1298" xml:id="l1298">Bons Dieux assistez moy pour empescher sa mort.</l>
             </sp>
@@ -3241,7 +3256,7 @@
               <l n="1351" xml:id="l1351">Qu’il prenne ce poignard, et m’en donne la mort,</l>
               <l n="1352" xml:id="l1352">Je dois sçavoir par là s’il est vray que l’on m’ayme.</l>
             </sp>
-            <sp who="l-un-des-amis">
+            <sp who="ami1-brute">
               <speaker>L’un des Amis.    <pb n="84"/></speaker>
               <l n="1353" xml:id="l1353">Avant de consentir à ce coup furieux,</l>
               <l n="1354" xml:id="l1354">Je vay chercher la mort au milieu de l’armée,</l>
@@ -3253,7 +3268,7 @@
               <l n="1357" xml:id="l1357">Au moins puis que tu crains de me ravir le jour,</l>
               <l n="1358" xml:id="l1358">Va t’en le conserver à ma chere Porcie.</l>
             </sp>
-            <sp who="l-autre-amy">
+            <sp who="ami2-brute">
               <speaker>L’autre Amy.</speaker>
               <l n="1359" xml:id="l1359">Je le veux seconder en cét acte d’amour,</l>
               <l n="1360" xml:id="l1360">Peut estre que mes soins luy sauveront la vie.</l>
@@ -3379,11 +3394,11 @@
             <pb/>
             <head>SCENE V.                         <pb n="M, 89"/></head>
             <stage>PORCIE, les deux amis de Brute.</stage>
-            <sp who="i">
+            <sp who="ami1-brute">
               <speaker>i. Des Amis.</speaker>
               <l n="1453" xml:id="l1453">C’est l’endroit mal-heureux où nous l’avons laissé.</l>
             </sp>
-            <sp who="ii.nous-ajoutons-le-point">
+            <sp who="ami2-brute">
               <speaker>ii. [Nous ajoutons le point, absent sur l’édition de 1637, présent sur celle de 1652.] Amis.</speaker>
               <l n="1454" xml:id="l1454">Ha trop injustes Dieux ! le voilà <ref target="#trespasser">trespassé*</ref>.</l>
             </sp>
@@ -3466,7 +3481,7 @@
               <l n="1529" xml:id="l1529">Et quand vous m’osteriez poison, flames, et fers,</l>
               <l n="1530" xml:id="l1530">Je cognois cent chemins pour aller aux enfers.</l>
             </sp>
-            <sp who="les-deux-amis">
+            <sp who="ami1-brute ami2-brute">
               <speaker>Les deux Amis.</speaker>
               <l n="1531" xml:id="l1531">Octave vient à nous.</l>
             </sp>
@@ -3501,7 +3516,7 @@
               <l n="1549" xml:id="l1549">Je feray mes efforts pour pouvoir entasser</l>
               <l n="1550" xml:id="l1550">Osse sur Pelion et les en <ref target="#deschasser">deschasser*</ref>.<note n="313" place="bottom"> Tout mettre en œuvre, soulever des montagnes. Les monts Osse (1978 m) et Pélion (1651 m), appartenant au même massif que l’Olympe (2917 m), sont situés en Thessalie. Il s’agit là d’une référence au mythe d’Otos et Ephialte, deux géants qui, à l’âge de neuf ans, pour atteindre le ciel, menacèrent d’« entasser sur l’Olympe l’Ossa et, sur l’Ossa, le Pélion » (Homère, <hi rend="i">Odyssée</hi>, XI, 305-320, trad. Victor Bérard, Gallimard, coll. Bibliothèque de la Pléiade, 1955, p. 703). Sur l’<hi rend="i">hybris</hi> d’Octave, voir notre introduction. Plus tôt (v. 851-852), Brute faisait allusion au mythe, estimant avoir de son côté ce Jupiter qui avait foudroyé les « Geans ».</note></l>
             </sp>
-            <sp who="anthoine">
+            <sp who="marc-anthoine">
               <speaker>Anthoine.     <pb n="94"/></speaker>
               <l n="1551" xml:id="l1551">J’approuve ce dessein, et fais vœu de le suivre</l>
               <l n="1552" xml:id="l1552">Tout autant que les Dieux me voudront laisser vivre;</l>
@@ -3534,7 +3549,7 @@
               <l n="1576" xml:id="l1576">Avec ce seul meurtrier qui vient de se <ref target="#deffaire">defaire*</ref>,</l>
               <l n="1577" xml:id="l1577">Mais mon ressentiment desire plus de sang.</l>
             </sp>
-            <sp who="anthoine">
+            <sp who="marc-anthoine">
               <speaker>Anthoine.</speaker>
               <l n="1578" xml:id="l1578">Il est bien alteré<note n="316" place="bottom"> Assoiffé, au sens propre et figuré, et, peut-être, corrompu. « On dit fig. d’Un homme cruel qui se plaist à respandre le sang, <hi rend="i">qu’Il est alteré de sang humain. que c’est un tigre alteré de sang.</hi> » (<hi rend="i">Dictionnaire de l’Académie françoise</hi>, première édition, 1694).</note> s’il en boit un estang</l>
               <l n="1579" xml:id="l1579">Qui flotte impetueux là bas <ref target="#dessus">dedans*</ref> la plaine.<note n="317" place="bottom"> « Vous n’aviez sous les pieds que chevaus et gensdarmes, / Que picques et pavois, que divers outils d’armes, / Qui gisoyent sur le champ, demy noyez de sang, / Qui flottoit par la plaine ainsi qu’en un estang. » (Robert Garnier, <hi rend="i">Porcie</hi>, acte IV, dans <hi rend="i">Les Tragédies de Robert Garnier</hi>, Mamert Patisson, 1585, p. 26v).</note></l>
@@ -3549,16 +3564,16 @@
             <pb/>
             <head>SCENE VII.</head>
             <stage>UN SOLDAT DE BRUTE, ANTHOINE, ET OCTAVE.</stage>
-            <sp who="le-soldat">
+            <sp who="soldat">
               <speaker>Le Soldat.</speaker>
               <l n="1582" xml:id="l1582">J’ay donc veu sans mourir ce comble de malheur</l>
               <l n="1583" xml:id="l1583">Dont l’image tousjours est dans mon cœur emprainte ?</l>
             </sp>
-            <sp who="anthoine">
+            <sp who="marc-anthoine">
               <speaker>Anthoine.     <pb n="96"/></speaker>
               <l n="1584" xml:id="l1584">Soldat viens et nous dis la cause de ta plainte.</l>
             </sp>
-            <sp who="le-soldat">
+            <sp who="soldat">
               <speaker>Le Soldat.</speaker>
               <l n="1585" xml:id="l1585">A ce commandement je sens que le devoir</l>
               <l n="1586" xml:id="l1586">En forçant ma douleur m’en donne le pouvoir;</l>
@@ -3632,7 +3647,7 @@
               <l n="1651" xml:id="l1651">Afin que la douceur de ces faveurs nouvelles</l>
               <l n="1652" xml:id="l1652">Leur oste le desir d’estre jamais rebelles.<note n="330" place="bottom">Sur l’anticipation historique qu’est la clémence d’Octave, voir notre étude des caractères, dans l’introduction.</note></l>
             </sp>
-            <sp who="anthoine">
+            <sp who="marc-anthoine">
               <speaker>Anthoine.</speaker>
               <l n="1653" xml:id="l1653">C’est le propre d’un cœur purement <ref target="#genereux">genereux*</ref></l>
               <l n="1654" xml:id="l1654">De se montrer clement envers les malheureux;<note n="331" place="bottom">Ce compliment sincère de Marc Antoine est à mettre en regard avec la joute de la première scène de l’acte IV. Octave est finalement parvenu à montrer sa valeur (voir le vers 1581 et la note associée).</note>                <pb n="99"/></l>
@@ -3810,7 +3825,7 @@
             <form>APPAREIL</form>
             <def  xml:id="appareil1">« Ce qu’on prepare pour faire une chose plus ou moins solemnelle. » (Furetière). « Apprest, préparatif, attirail et pompe. <hi rend="i">Grand appareil. appareil extraordinaire. appareil lugubre. appareil de guerre. on fait de grands appareils pour son entrée. il a fait son entrée dans un magnifique appareil.</hi> » (<hi rend="i">Dictionnaire de l’Académie françoise</hi>, deuxième édition, 1718).</def>
             <xr>V. <ref target="#l1338">1338</ref></xr>
-            <def  xml:id="appareil2">« Objet préparé pour une destination spéciale, réunion, agencement d’ustensiles, de choses se combinant entre elles placées, disposées, mises en certain ordre dans un but auquel elles doivent concourir ensemble » (Godefroy). Godefroy donne l’exemple suivant : « Quant li vilains se fud disné, / As chans revait son labor faire; / Mais donc out mult dol e contraire / Quant ne trova ses <hi rend="i">apareilz</hi>. (BEN., <hi rend="i">D. de Norm.</hi>, II, 7195, Michel.) » Le TLFi cite cet exemple de Godefroy pour illustrer ce sens puis écrit : « repris début XIX<hi rend="sup">e</hi> s. 1805 (<hi rend="sc">Lunier</hi>, <hi rend="i">Dict. des sc. et des arts</hi> : <hi rend="b">Appareil</hi>, en physique, est une collection de machines ou instruments nécessaires pour faire une suite d’expériences sur une matière déterminée) » (article « appareil », partie « Étymologie et Histoire »). Ainsi, le sens qui nous est peut-être le plus familier semble disparaître aux XVII<hi rend="sup">e</hi> et XVIII<hi rend="sup">e</hi> siècle avant de renaître de ses cendres au XIX<hi rend="sup">e</hi> siècle : absent de Huguet, Estienne, Nicot, Cotgrave, Furetière et du <hi rend="i">Dictionnaire de Trévoux</hi>, il n’apparaît dans le dictionnaire de l’Académie qu’à partir de la sixième édition (1835).</def>
+            <def  xml:id="appareil2">« Objet préparé pour une destination spéciale, réunion, agencement d’ustensiles, de choses se combinant entre elles placées, disposées, mises en certain ordre dans un but auquel elles doivent concourir ensemble » (Godefroy). Godefroy donne l’exemple suivant : « Quant li vilains se fud disné, / As chans revait son labor faire; / Mais donc out mult dol e contraire / Quant ne trova ses <hi rend="i">apareilz</hi>. (BEN., <hi rend="i">D. de Norm.</hi>, II, 7195, Michel.) » Le TLFi cite cet exemple de Godefroy pour illustrer ce sens puis écrit : « repris début XIX<hi rend="sup">e</hi> s. 1805 (<hi rend="sc">Lunier</hi>, <hi rend="i">Dict. des sc. et des arts</hi> : <hi rend="i">Appareil</hi>, en physique, est une collection de machines ou instruments nécessaires pour faire une suite d’expériences sur une matière déterminée) » (article « appareil », partie « Étymologie et Histoire »). Ainsi, le sens qui nous est peut-être le plus familier semble disparaître aux XVII<hi rend="sup">e</hi> et XVIII<hi rend="sup">e</hi> siècle avant de renaître de ses cendres au XIX<hi rend="sup">e</hi> siècle : absent de Huguet, Estienne, Nicot, Cotgrave, Furetière et du <hi rend="i">Dictionnaire de Trévoux</hi>, il n’apparaît dans le dictionnaire de l’Académie qu’à partir de la sixième édition (1835).</def>
             <xr>V. <ref target="#l1634">1634</ref></xr>
           </entryFree>
           <entryFree xml:id="arreste">
@@ -3875,14 +3890,14 @@
           </entryFree>
           <entryFree xml:id="coeur">
             <form>CŒUR</form>
-            <def>« Signifie quelquefois, Vigueur, force, <hi rend="b">courage</hi>, intrepidité. Cet homme a un <hi rend="i">cœur</hi> de lion, n’a rien de bas dans le <hi rend="i">cœur</hi>, a le <hi rend="i">cœur</hi> haut, noble. il a le <hi rend="i">cœur</hi> bien placé. la naissance hausse le <hi rend="i">cœur</hi>, enfle le <hi rend="i">cœur</hi> des Gentilshommes. on ne sçauroit trop mépriser les gens sans <hi rend="i">cœur</hi> et sans foy. » (Furetière ; nous soulignons en caractères gras).<note n="337" place="bottom"> Nous n’avons marqué que les occurrences se référant strictement à <hi rend="b">l’idée même de courage</hi>, sens qui explique, notamment dans des emplois absolus, des vers devenus obscurs pour nos contemporains (comme « en avoir dans le cœur », « tesmoigner de cœur », « (re) donner le cœur (de) (à) », « oster le cœur », les « gens de cœur »). Ainsi avons-nous laissé de côté des expressions comme « lasche / grand / timide / brave / genereux / bon cœur » qui relèvent de la <hi rend="b">qualification morale de l’individu</hi> et peuvent faire entrer en jeu une conjonction de valeurs qu’ils convient de démêler au cas par cas.</note></def>
+            <def>« Signifie quelquefois, Vigueur, force, <hi rend="i">courage</hi>, intrepidité. Cet homme a un <hi rend="i">cœur</hi> de lion, n’a rien de bas dans le <hi rend="i">cœur</hi>, a le <hi rend="i">cœur</hi> haut, noble. il a le <hi rend="i">cœur</hi> bien placé. la naissance hausse le <hi rend="i">cœur</hi>, enfle le <hi rend="i">cœur</hi> des Gentilshommes. on ne sçauroit trop mépriser les gens sans <hi rend="i">cœur</hi> et sans foy. » (Furetière ; nous soulignons en caractères gras).<note n="337" place="bottom"> Nous n’avons marqué que les occurrences se référant strictement à <hi rend="b">l’idée même de courage</hi>, sens qui explique, notamment dans des emplois absolus, des vers devenus obscurs pour nos contemporains (comme « en avoir dans le cœur », « tesmoigner de cœur », « (re) donner le cœur (de) (à) », « oster le cœur », les « gens de cœur »). Ainsi avons-nous laissé de côté des expressions comme « lasche / grand / timide / brave / genereux / bon cœur » qui relèvent de la <hi rend="b">qualification morale de l’individu</hi> et peuvent faire entrer en jeu une conjonction de valeurs qu’ils convient de démêler au cas par cas.</note></def>
             <xr>V. <ref target="#l60">60</ref>, <ref target="#l433">433</ref>, <ref target="#l538">538</ref>, <ref target="#l606">606</ref>, <ref target="#l870">870</ref>, <ref target="#l922">922</ref>, <ref target="#l1197">1197</ref></xr>
           </entryFree>
           <entryFree xml:id="connoistre">
             <form>CON[/G]NOISTRE</form>
             <def>Pour un verbe aussi important, la démarche la plus sûre semble être de partir d’un dictionnaire structuré et donc (car c’est le meilleur) du TLF. Dans sa longue entrée CONNAÎTRE, on relève deux emplois, vieilli ou vieux.<note n="338" place="bottom"> Ce qui n’implique pas que ces emplois soient vieillis ou vieux au XVII<hi rend="sup">e</hi> siècle : « CONNOISTRE, signifie quelquefois, Découvrir, faire voir ce qu’on est. Un pere fait aisément <hi rend="i">connoistre</hi> son foible à la mort de ses enfans. ce brave s’est bien donné à <hi rend="i">connoistre</hi>, s’est signalé en cette occasion. » (Furetière). Ce sens correspond au second emploi que nous citons du TLF ; il est prédominant dans la pièce, notamment, sans doute, en raison de la gravité qu’il porte.</note> Ceux-ci permettent de lever toutes les ambiguïtés que l’on rencontre dans la pièce.</def>
             <def>1°) L’emploi <hi rend="i">vieilli</hi> (ou <hi rend="i">littéraire</hi>) : « Reconnaître la marque de quelqu’un ou de quelque chose. » (prologue, v. 20 : les attributs de la Renommée sont évoqués d’abord négativement ; s’ils n’étaient pas cachés, on la reconnaîtrait alors).</def>
-            <def>2°) L’emploi <hi rend="i">vieux</hi> (ou <hi rend="i">littéraire</hi>) : « <hi rend="b">Connaître qqc., connaître que</hi> + ind. […] - <hi rend="i">P. ext.</hi> Se rendre compte (de) ; avoir la révélation que. Synon. emphatique de <hi rend="i">savoir</hi>. » (pièce, v. 121, 338, 387, 416, 975, 1079, 1319, 1625). Ainsi ce dernier sens a ceci de particulier par rapport à l’emploi usuel que « connaître » est alors une véritable action, strictement concomitante au moment évoqué, et non plus un état de connaissance tributaire du passé. Sur ce point, il se rapproche de l’emploi vieilli 1°).</def>
+            <def>2°) L’emploi <hi rend="i">vieux</hi> (ou <hi rend="i">littéraire</hi>) : « <hi rend="i">Connaître qqc., connaître que</hi> + ind. […] - <hi rend="i">P. ext.</hi> Se rendre compte (de) ; avoir la révélation que. Synon. emphatique de <hi rend="i">savoir</hi>. » (pièce, v. 121, 338, 387, 416, 975, 1079, 1319, 1625). Ainsi ce dernier sens a ceci de particulier par rapport à l’emploi usuel que « connaître » est alors une véritable action, strictement concomitante au moment évoqué, et non plus un état de connaissance tributaire du passé. Sur ce point, il se rapproche de l’emploi vieilli 1°).</def>
             <def>La forme en -GN- (« (re) cognoistre ») apparaît six fois, dans les cahiers A, M et N ; la forme en -NN- (« (re) connoistre ») onze fois, dans les cahiers B, D, F, G, H, I et L : il n’y a pas de concurrence au sein d’un même cahier. Il est donc probable qu’il s’agisse là d’un fait d’imprimeurs. « Noter la graph. étymol. (sur le lat. class.) <hi rend="i">cognoistre</hi> ds Ac. 1694 (en tant que vedette de renvoi à <hi rend="i">connoistre</hi>) et avec ses dér. : <hi rend="i">cognoissance, cognoissant, cognoissement</hi> ds <hi rend="i">Ac. Compl.</hi> 1842 qui note également le part. passé <hi rend="i">cognu</hi> et <hi rend="i">Lar. 19e</hi> (à titre hist.). » (TLFi).</def>
             <xr>Prologue, v. <ref target="#l20-prologue">20</ref> ; pièce, v. <ref target="#l121">121</ref>, <ref target="#l338">338</ref>, <ref target="#l387">387</ref>, <ref target="#l416">416</ref>, <ref target="#l975">975</ref>, <ref target="#l1079">1079</ref>, <ref target="#l1319">1319</ref>, <ref target="#l1625">1625</ref></xr>
           </entryFree>
@@ -3954,12 +3969,12 @@
           </entryFree>
           <entryFree xml:id="dessus">
             <form>DESSUS, DESSOUS, DEDANS</form>
-            <def>Vaugelas condamne l’emploi, qu’il constate courant et en prose et en vers, de prépositions composées (dessus, dessous, dedans, dehors) à la place des simples correspondantes (sur, sous, dans, hors). « Je dis que ce n’est pas escrire purement, que d’en user ainsi, et qu’il faut toujours dire, <hi rend="i">sur la table, sous la table, dans la maison</hi>, et <hi rend="i">hors la ville</hi>, ou <hi rend="i">hors de la ville;</hi> car tous deux sont bons, et non pas <hi rend="i">dessus la table, dessous la table, etc.</hi> <hi rend="b">On le permet pourtant aux Poëtes, pour la commodité des vers, où une syllabe de plus ou de moins est de grand service;</hi> Mais en prose, tous ceux qui ont quelque soin de la pureté du langage, ne diront jamais, <hi rend="i">dessus une table</hi>, ny <hi rend="i">dessous une table;</hi> non plus que <hi rend="i">dedans la maison</hi>, ou <hi rend="i">dehors la maison.</hi> Il semble que ces composés soient plustost adverbes que prepositions; car leur grand usage est à la fin des periodes, sans rien regir aprés eux, puis qu’ils terminent la période et le sens »<note n="340" place="bottom">Nous soulignons (caractères gras).</note>. Vaugelas donne trois exceptions bien précises (qui ne concernent pas les mots que nous avons marqués) avant de conclure : « Ces cas exceptez, il ne faut jamais employer ces composez, que comme adverbes, et se faut servir des autres, comme de prepositions. » (<hi rend="i">Remarques sur la langue françoise</hi>, Camusat et Le Petit, 1647, p. 124-126). Richelet et le <hi rend="i">Dictionnaire de l’Académie françoise</hi> (première édition, 1694) suivent strictement Vaugelas<note n="341" place="bottom">L’emploi fautif a alors disparu. S’agit-il simplement du bon usage ou bien de l’usage réel ? Les choses auraient-elles évolué en cinquante ans ?</note> ; Furetière, lui, ne semble pas en tenir compte (voir notamment les articles « dessus » et « dessous »). Remarquons que l’emploi des formes composées est ici exclusivement prépositionnel. Certes, les formes simples sont 6, 5<note n="342" place="bottom"> Nous avons noté 153 occurrences (<hi rend="i">sur, sous, dans, hors de</hi>).</note> fois plus employées, mais les 23 occurrences de composées sont un fait significatif qui nous semble témoigner d’une possibilité : qu’il s’agisse là d’une affaire d’usage de l’auteur ou de style plus que de syllabe.</def>
+            <def>Vaugelas condamne l’emploi, qu’il constate courant et en prose et en vers, de prépositions composées (dessus, dessous, dedans, dehors) à la place des simples correspondantes (sur, sous, dans, hors). « Je dis que ce n’est pas escrire purement, que d’en user ainsi, et qu’il faut toujours dire, <hi rend="i">sur la table, sous la table, dans la maison</hi>, et <hi rend="i">hors la ville</hi>, ou <hi rend="i">hors de la ville;</hi> car tous deux sont bons, et non pas <hi rend="i">dessus la table, dessous la table, etc.</hi> <hi rend="i">On le permet pourtant aux Poëtes, pour la commodité des vers, où une syllabe de plus ou de moins est de grand service;</hi> Mais en prose, tous ceux qui ont quelque soin de la pureté du langage, ne diront jamais, <hi rend="i">dessus une table</hi>, ny <hi rend="i">dessous une table;</hi> non plus que <hi rend="i">dedans la maison</hi>, ou <hi rend="i">dehors la maison.</hi> Il semble que ces composés soient plustost adverbes que prepositions; car leur grand usage est à la fin des periodes, sans rien regir aprés eux, puis qu’ils terminent la période et le sens »<note n="340" place="bottom">Nous soulignons (caractères gras).</note>. Vaugelas donne trois exceptions bien précises (qui ne concernent pas les mots que nous avons marqués) avant de conclure : « Ces cas exceptez, il ne faut jamais employer ces composez, que comme adverbes, et se faut servir des autres, comme de prepositions. » (<hi rend="i">Remarques sur la langue françoise</hi>, Camusat et Le Petit, 1647, p. 124-126). Richelet et le <hi rend="i">Dictionnaire de l’Académie françoise</hi> (première édition, 1694) suivent strictement Vaugelas<note n="341" place="bottom">L’emploi fautif a alors disparu. S’agit-il simplement du bon usage ou bien de l’usage réel ? Les choses auraient-elles évolué en cinquante ans ?</note> ; Furetière, lui, ne semble pas en tenir compte (voir notamment les articles « dessus » et « dessous »). Remarquons que l’emploi des formes composées est ici exclusivement prépositionnel. Certes, les formes simples sont 6, 5<note n="342" place="bottom"> Nous avons noté 153 occurrences (<hi rend="i">sur, sous, dans, hors de</hi>).</note> fois plus employées, mais les 23 occurrences de composées sont un fait significatif qui nous semble témoigner d’une possibilité : qu’il s’agisse là d’une affaire d’usage de l’auteur ou de style plus que de syllabe.</def>
             <xr>Prologue, v. <ref target="#l83-prologue">83</ref> ; pièce, v. <ref target="#l5">5</ref>, <ref target="#l83">83</ref>, <ref target="#l148">148</ref>, <ref target="#l474">474</ref>, <ref target="#l502">502</ref>, <ref target="#l572">572</ref>, <ref target="#l740">740</ref>, <ref target="#l868">868</ref>, <ref target="#l906">906</ref>, <ref target="#l943">943</ref>, <ref target="#l947">947</ref>, <ref target="#l985">985</ref>, <ref target="#l1026">1026</ref>, <ref target="#l1053">1053</ref>, <ref target="#l1199">1199</ref>, <ref target="#l1252">1252</ref>, <ref target="#l1482">1482</ref>, <ref target="#l1564">1564</ref>, <ref target="#l1579">1579</ref>, <ref target="#l1617">1617</ref>, <ref target="#l1643">1643</ref> ; <ref target="#stances">stances</ref></xr>
           </entryFree>
           <entryFree xml:id="devers">
             <form>DEVERS</form>
-            <def>Du côté de, vers. « <hi rend="i">Devers</hi>. marquant l’origine, le point de départ. » (Huguet). « Préposition qui a vielli, et qui tout au plus ne peut trouver sa place que dans le langage le plus-bas. En sa place on se sert de la préposition <hi rend="i">vers. Vau. Rem.</hi> » (Richelet). Furetière et le <hi rend="i">Dictionnaire de l’Académie</hi> (première édition, 1694) ne sont pas aussi sévères et n’évoquent ni le caractère « vieux » du mot ni son caractère « bas ». Pour le <hi rend="i">Dictionnaire de l’Académie</hi>, il faudra attendre la cinquième édition (1798) pour lire : « DEVERS a vieilli; aujourd’hui on emploie Vers. » D’ailleurs pour comprendre Richelet, il faut remonter à sa source, Vaugelas, dont le jugement est nuancé : « Cette preposition a tousjours esté en usage dans les bons Autheurs, par exemple, <hi rend="i">il se tourna devers luy, cette ville est tournée devers l’Orient, devers le Midy</hi>. Et ainsi des autres. Mais <hi rend="b">depuis quelques temps ce mot a vieilli</hi>, et nos modernes Escrivains ne s’en servent plus dans le beau langage. Ils disent tousjours <hi rend="i">vers</hi>, comme <hi rend="i">se tournant vers luy, vers l’Orient, vers le Midy</hi>. » (<hi rend="i">Remarques sur la langue françoise</hi>, Camusat et Le Petit, 1647, p. 172 ; nous soulignons). Un demi-siècle plus tard, l’Académie fait publier ses <hi rend="i">Remarques</hi> accompagnées d’observations censées « rendre compte de l’usage present » (voir l’Avertissement) : « On ne dit plus il se tourna <hi rend="i">devers luy</hi>, ni <hi rend="i">cette Ville est tournée devers l’Orient</hi>, il saut dire <hi rend="i">vers luy</hi> et <hi rend="i">vers l’Orient</hi>. La préposition <hi rend="i">devers</hi> ne laisse pas d’avoir encore quelque usage, mais c’est quand elle veut dire <hi rend="i">aux environs de</hi> comme <hi rend="i">il vient de devers Lyon</hi>. » (<hi rend="i">Observations de l’Académie françoise sur les Remarques de M. de Vaugelas</hi>, Coignard, 1704, p. 195).</def>
+            <def>Du côté de, vers. « <hi rend="i">Devers</hi>. marquant l’origine, le point de départ. » (Huguet). « Préposition qui a vielli, et qui tout au plus ne peut trouver sa place que dans le langage le plus-bas. En sa place on se sert de la préposition <hi rend="i">vers. Vau. Rem.</hi> » (Richelet). Furetière et le <hi rend="i">Dictionnaire de l’Académie</hi> (première édition, 1694) ne sont pas aussi sévères et n’évoquent ni le caractère « vieux » du mot ni son caractère « bas ». Pour le <hi rend="i">Dictionnaire de l’Académie</hi>, il faudra attendre la cinquième édition (1798) pour lire : « DEVERS a vieilli; aujourd’hui on emploie Vers. » D’ailleurs pour comprendre Richelet, il faut remonter à sa source, Vaugelas, dont le jugement est nuancé : « Cette preposition a tousjours esté en usage dans les bons Autheurs, par exemple, <hi rend="i">il se tourna devers luy, cette ville est tournée devers l’Orient, devers le Midy</hi>. Et ainsi des autres. Mais <hi rend="i">depuis quelques temps ce mot a vieilli</hi>, et nos modernes Escrivains ne s’en servent plus dans le beau langage. Ils disent tousjours <hi rend="i">vers</hi>, comme <hi rend="i">se tournant vers luy, vers l’Orient, vers le Midy</hi>. » (<hi rend="i">Remarques sur la langue françoise</hi>, Camusat et Le Petit, 1647, p. 172 ; nous soulignons). Un demi-siècle plus tard, l’Académie fait publier ses <hi rend="i">Remarques</hi> accompagnées d’observations censées « rendre compte de l’usage present » (voir l’Avertissement) : « On ne dit plus il se tourna <hi rend="i">devers luy</hi>, ni <hi rend="i">cette Ville est tournée devers l’Orient</hi>, il saut dire <hi rend="i">vers luy</hi> et <hi rend="i">vers l’Orient</hi>. La préposition <hi rend="i">devers</hi> ne laisse pas d’avoir encore quelque usage, mais c’est quand elle veut dire <hi rend="i">aux environs de</hi> comme <hi rend="i">il vient de devers Lyon</hi>. » (<hi rend="i">Observations de l’Académie françoise sur les Remarques de M. de Vaugelas</hi>, Coignard, 1704, p. 195).</def>
             <xr>V. <ref target="#l1324">1324</ref></xr>
           </entryFree>
           <entryFree xml:id="discord">
@@ -4032,7 +4047,7 @@
           </entryFree>
           <entryFree xml:id="franchise">
             <form>FRANCHISE, FRANC(HE)</form>
-            <def>« Signifie chez les Poëtes et les amants, <hi rend="b">Liberté</hi>. » (Furetière ; nous soulignons). Dans ce sens, être franc, c’est être libre.</def>
+            <def>« Signifie chez les Poëtes et les amants, <hi rend="i">Liberté</hi>. » (Furetière ; nous soulignons). Dans ce sens, être franc, c’est être libre.</def>
             <xr>V. <ref target="#l444">444</ref>, <ref target="#l739">739</ref>, <ref target="#l1225">1225</ref></xr>
           </entryFree>
           <entryFree xml:id="gendarmes">
@@ -4242,7 +4257,7 @@
           </entryFree>
           <entryFree xml:id="soucy">
             <form>SOUCY</form>
-            <def>À côté des sens toujours usuels, on note : « <hi rend="b">3. a)</hi> fin XIV<hi rend="sup">e</hi> s. « préoccupation, inquiétude amoureuse » […] ; 1<hi rend="sup">re</hi> moit. XV<hi rend="sup">e</hi> s. [ms.] <hi rend="i">estre en grant soussi de cuer</hi> (<hi rend="sc">Froissart</hi>, <hi rend="i">Chron.</hi>, I, éd. S. Luce, § 168, leçon ms. d’Amiens, t. 2, p. 368) ; <hi rend="b">b)</hi> av. 1577 « objet de préoccupation amoureuse » (<hi rend="sc">R. Belleau</hi>, <hi rend="i">Eglogues sacrées</hi>, I ds <hi rend="i">Œuvres</hi>, éd. Ch. Marty-Laveaux, t. 2, p. 302: Avance toy, mon Cœur, et vien choisir ta place Pres de moy, mon <hi rend="b">souci</hi>) ; av. 1589 (<hi rend="sc">A. de Baïf</hi>, <hi rend="i">Églogues</hi>, VII ds <hi rend="i">Œuvres</hi>, éd. Ch. Marty-Laveaux, t. 3, p. 41: Muses, mon cher <hi rend="b">soucy</hi>) ; » (TLFi, partie « Étymologie et Histoire » de l’article « souci »). Présent dans le Godefroy, qui donne la même citation de Rémy Belleau, l’emploi amoureux disparaît dans les dictionnaires du XVII<hi rend="sup">e</hi> siècle (Cotgrave, Furetière, <hi rend="i">Dictionnaire de l’Académie françoise</hi>, première édition, 1694).</def>
+            <def>À côté des sens toujours usuels, on note : « 3. a) fin XIV<hi rend="sup">e</hi> s. « préoccupation, inquiétude amoureuse » […] ; 1<hi rend="sup">re</hi> moit. XV<hi rend="sup">e</hi> s. [ms.] <hi rend="i">estre en grant soussi de cuer</hi> (<hi rend="sc">Froissart</hi>, <hi rend="i">Chron.</hi>, I, éd. S. Luce, § 168, leçon ms. d’Amiens, t. 2, p. 368) ; b) av. 1577 « objet de préoccupation amoureuse » (<hi rend="sc">R. Belleau</hi>, <hi rend="i">Eglogues sacrées</hi>, I ds <hi rend="i">Œuvres</hi>, éd. Ch. Marty-Laveaux, t. 2, p. 302: Avance toy, mon Cœur, et vien choisir ta place Pres de moy, mon <hi rend="i">souci</hi>) ; av. 1589 (<hi rend="sc">A. de Baïf</hi>, <hi rend="i">Églogues</hi>, VII ds <hi rend="i">Œuvres</hi>, éd. Ch. Marty-Laveaux, t. 3, p. 41: Muses, mon cher <hi rend="i">soucy</hi>) ; » (TLFi, partie « Étymologie et Histoire » de l’article « souci »). Présent dans le Godefroy, qui donne la même citation de Rémy Belleau, l’emploi amoureux disparaît dans les dictionnaires du XVII<hi rend="sup">e</hi> siècle (Cotgrave, Furetière, <hi rend="i">Dictionnaire de l’Académie françoise</hi>, première édition, 1694).</def>
             <xr>V. <ref target="#l239">239</ref>, <ref target="#l247">247</ref>, <ref target="#l1153">1153</ref>, <ref target="#l1182">1182</ref>, <ref target="#l1500">1500</ref></xr>
           </entryFree>
           <entryFree xml:id="soudain">
@@ -4262,14 +4277,14 @@
           </entryFree>
           <entryFree xml:id="sus">
             <form>SUS</form>
-            <def>« Formule d’exhortation ou d’excitation » (TLFi), au moment de l’attaque (v. 257, 373), du suicide (v. 735, 825) et peut-être, dans le cas du vers 257, de l’attaque comme suicide. Pierre Gassendi, résumant la doctrine d’Épicure, donne une belle illustration du moment du suicide : « Quoiqu’il y ait plusieurs cas qui pourraient nous faire renoncer à la vie et nous engager à ne pas attendre qu’un cas fortuit vienne nous en enlever la liberté, nous ne devons rien entreprendre à ce sujet sans méditation, sans calme et surtout sans opportunité. <hi rend="b">Mais, lorsque le moment tant désiré sera arrivé, oh ! alors, plus d’hésitation</hi> ! Celui qui veut faire ce grand pas ne doit pas douter de trouver son salut au milieu même des situations les plus difficiles, pourvu toujours qu’il ne se hâte pas trop et qu’il sache s’y prendre à temps. »<note n="350" place="bottom"> Pierre Gassendi, <hi rend="i">Syntagma philosophiae Epicuri</hi>, III, XXI, cité par Yolande Grisé, <hi rend="i">Le suicide dans la Rome antique</hi>, Les Belles Lettres, 1982, p. 177 ; nous soulignons.</note> L’exclamation est alors amenée par une interjection marquant le paroxysme, doublée d’un commandement, et qui est l’équivalent même de « sus » dans notre pièce. Ici, la formule est toujours renforcée par « donc ». D’après le TLFi, elle est obtenue par ellipse de l’expression « courir sus à ».<note n="351" place="bottom"> Le <hi rend="i">Dictionnaire de l’Académie françoise</hi> (première édition, 1694) écrivait déjà : « SUS. Preposition <hi rend="i">Sur</hi>. Il n’a plus guere d’usage que dans cette phrase. <hi rend="i">Courir sus à quelqu’un.</hi> »</note> Or Vaugelas a écrit une remarque sur « courir sus », témoignant que : « Cette façon de parler soit dans le propre, ou dans le figuré estoit fort élégante du temps de M. Co[e] ffeteau qui en use souvent, mais aujourd’huy <hi rend="b">elle commence à vieillir</hi>. Nous avons pourtant quelques uns de nos Autheurs modernes, et des meilleurs qui s’en servent encore. » (Vaugelas, <hi rend="i">Remarques sur la langue françoise</hi>, Camusat et Le Petit, 1647, p. 434 ; nous soulignons).</def>
+            <def>« Formule d’exhortation ou d’excitation » (TLFi), au moment de l’attaque (v. 257, 373), du suicide (v. 735, 825) et peut-être, dans le cas du vers 257, de l’attaque comme suicide. Pierre Gassendi, résumant la doctrine d’Épicure, donne une belle illustration du moment du suicide : « Quoiqu’il y ait plusieurs cas qui pourraient nous faire renoncer à la vie et nous engager à ne pas attendre qu’un cas fortuit vienne nous en enlever la liberté, nous ne devons rien entreprendre à ce sujet sans méditation, sans calme et surtout sans opportunité. <hi rend="i">Mais, lorsque le moment tant désiré sera arrivé, oh ! alors, plus d’hésitation</hi> ! Celui qui veut faire ce grand pas ne doit pas douter de trouver son salut au milieu même des situations les plus difficiles, pourvu toujours qu’il ne se hâte pas trop et qu’il sache s’y prendre à temps. »<note n="350" place="bottom"> Pierre Gassendi, <hi rend="i">Syntagma philosophiae Epicuri</hi>, III, XXI, cité par Yolande Grisé, <hi rend="i">Le suicide dans la Rome antique</hi>, Les Belles Lettres, 1982, p. 177 ; nous soulignons.</note> L’exclamation est alors amenée par une interjection marquant le paroxysme, doublée d’un commandement, et qui est l’équivalent même de « sus » dans notre pièce. Ici, la formule est toujours renforcée par « donc ». D’après le TLFi, elle est obtenue par ellipse de l’expression « courir sus à ».<note n="351" place="bottom"> Le <hi rend="i">Dictionnaire de l’Académie françoise</hi> (première édition, 1694) écrivait déjà : « SUS. Preposition <hi rend="i">Sur</hi>. Il n’a plus guere d’usage que dans cette phrase. <hi rend="i">Courir sus à quelqu’un.</hi> »</note> Or Vaugelas a écrit une remarque sur « courir sus », témoignant que : « Cette façon de parler soit dans le propre, ou dans le figuré estoit fort élégante du temps de M. Co[e] ffeteau qui en use souvent, mais aujourd’huy <hi rend="i">elle commence à vieillir</hi>. Nous avons pourtant quelques uns de nos Autheurs modernes, et des meilleurs qui s’en servent encore. » (Vaugelas, <hi rend="i">Remarques sur la langue françoise</hi>, Camusat et Le Petit, 1647, p. 434 ; nous soulignons).</def>
             <xr>V. <ref target="#l257">257</ref>, <ref target="#l373">373</ref>, <ref target="#l735">735</ref>, <ref target="#l825">825</ref></xr>
           </entryFree>
           <entryFree xml:id="temperament">
             <form>TEMPERAMENT</form>
             <def>« [1°)] Mélange. […] [2°)] Composition. […] [3°)] Assaisonnement. […] [4°)] Règle. — C’est l’unique sagesse Qui de tous autres biens est le temperament, La fontaine, l’outil, la guide et l’ornement. DU BARTAS, 2<hi rend="sup">e</hi> <hi rend="i">Sem., Magnificence</hi>, p. 371. [5°)] Modération, juste mesure. — Platon fut le medecin qui guerit le malade par contraires excessifs: et Aristote le conservateur de la santé, ja recouverte par l’ayde de Platon, avec l’usage du temperament et regime moderé. TYARD, tr. Hebrieu, <hi rend="i">Dial.</hi> III, p. 319. [6°)] Qualité de ce qui est tempéré. » (Huguet).</def>
             <def>« [1°)] Complexion, habitude ordinaire du corps de l’homme, sa constitution naturelle, la disposition de ses humeurs. Il y a des gens d’un <hi rend="i">temperament</hi> robuste et violent, qui sont bons pour la guerre; d’autres d’un <hi rend="i">temperament</hi> doux et delicat, qui sont propres pour l’Eglise. En Medecine on appelle aussi <hi rend="i">temperament</hi>, le meslange et l’harmonie des quatre simples qualités elementaires. […] [2°)] Se dit aussi figurément en choses morales, d’un adoucissement, d’une voye mitoyenne qu’on trouve dans les affaires pour accorder des parties. […] [3°)] En termes de Musique, se dit de l’alteration que l’on fait des intervalles, tant à l’égard des consonances que des dissonances, pour les rendre plus justes sur certains instruments. » (Furetière).</def>
-            <def>Le TLFi donne le sens vieilli de « Mesure dans la conduite; <hi rend="i">p. méton.</hi>, solution mesurée apportée pour régler un différend. », qui correspond à Huguet 5°) et Furetière 2°), Huguet 5°) convenant au sens général et Furetière 2°) au métonymique. Ainsi préférera-t-on le Huguet pour expliquer le vers 1127 : on retiendra les sens 4°) de <hi rend="b">règle</hi> (absent du Furetière et du TLFi) et 5°) de <hi rend="b">mesure dans la conduite, de modération</hi>.</def>
+            <def>Le TLFi donne le sens vieilli de « Mesure dans la conduite; <hi rend="i">p. méton.</hi>, solution mesurée apportée pour régler un différend. », qui correspond à Huguet 5°) et Furetière 2°), Huguet 5°) convenant au sens général et Furetière 2°) au métonymique. Ainsi préférera-t-on le Huguet pour expliquer le vers 1127 : on retiendra les sens 4°) de <hi rend="i">règle</hi> (absent du Furetière et du TLFi) et 5°) de <hi rend="i">mesure dans la conduite, de modération</hi>.</def>
             <xr>V. <ref target="#l1127">1127</ref></xr>
           </entryFree>
           <entryFree xml:id="tempeste">
@@ -4319,7 +4334,7 @@
             <def xml:id="vertu2">« <hi rend="i">Absol</hi>. [Avec l’art. déf.] Disposition habituelle, comportement permanent, force avec laquelle l’individu se porte volontairement vers le bien, vers son devoir, se conforme à un idéal moral, religieux, en dépit des obstacles qu’il rencontre. <hi rend="i">Amour, triomphe de la vertu; aimer, appeler, pratiquer la vertu; croître, grandir en vertu; le vice et la vertu</hi>. »</def>
             <xr>Prologue, v. <ref target="#l150-prologue">150</ref>, v. <ref target="#l168-prologue">168</ref> ; pièce, v. <ref target="#l432">432</ref>, <ref target="#l1222">1222</ref>, <ref target="#l1325">1325</ref>, <ref target="#l1519">1519</ref>, <ref target="#l1666">1666</ref>.</xr>
             <def xml:id="vertu3">« Exercice de la vertu; la vertu telle qu’elle apparaît dans son expression, sa réalisation. <hi rend="i">Vertu angélique, austère; paré de toutes les vertus</hi>. »</def>
-            <def>α − « <hi rend="b">Vertu</hi> + adj. ou déterm. indiquant le domaine, l’espèce d’actes auxquels elle s’applique. <hi rend="i">Vertus chrétiennes, civiles, privées, morales, sociales. Vertus cardinales</hi>. […] <hi rend="i">Vertus théologales</hi>*. »</def>
+            <def>α − « <hi rend="i">Vertu</hi> + adj. ou déterm. indiquant le domaine, l’espèce d’actes auxquels elle s’applique. <hi rend="i">Vertus chrétiennes, civiles, privées, morales, sociales. Vertus cardinales</hi>. […] <hi rend="i">Vertus théologales</hi>*. »</def>
             <def>β− « <hi rend="i">En partic., vieilli</hi> ou <hi rend="i">plais.</hi> [À propos d’une femme] Retenue, chasteté; fidélité conjugale. […] <hi rend="i">La chasteté, pour la femme, est synonyme de vertu, comme pour l’homme la justice et le courage, car le milieu de l’homme est la cité, le milieu de la femme est la famille</hi> (Ménard, <hi rend="i">Rêv. païen</hi>, 1876, p. 113). »</def>
             <xr>Pièce, v. <ref target="#l173">173</ref>, <ref target="#l1519">1519</ref> ; <ref target="#stances">stances</ref>.</xr>
             <def xml:id="vertu4">4. « <hi rend="i">P. ext.</hi> Qualité morale. <hi rend="i">Vertus civiques, domestiques, militaires. »</hi></def>
@@ -4374,7 +4389,7 @@
             <p>COMME QUOY (v. 889) : « On le joint quelquefois avec <hi rend="i">quoy</hi>, et l’on dit. <hi rend="i">Comme quoy avez-vous fait cela ? comme quoy avez-vous abandonné cette affaire</hi> ? pour dire, <hi rend="b">Comment</hi> avez-vous fait cela ? pourquoy avez-vous abandonné cette affaire ? » (<hi rend="i">Dictionnaire de l’Académie françoise</hi>, première édition, 1694). Dans le français contemporain, la tournure subsiste mais est familière (TLFi, article « quoi »). « […] <hi rend="i">comme quoy</hi>, est <hi rend="b">un terme nouveau, qui n’a cours que depuis peu d’années</hi>,<note n="366" place="bottom"> Cette nouveauté est toute relative et n’a rien de scientifique : « Exprimant la manière mil. X<hi rend="sup">e</hi> s. <hi rend="i">si cum</hi> (<hi rend="i">Passion</hi>, éd. D’A.S. Avalle, 27) ; spéc. <hi rend="b">a)</hi> av. 1421 <hi rend="i">comme nous dirions</hi> « en quelque sorte » (<hi rend="sc">Boucicaut</hi>, I, ch. 18 ds <hi rend="sc">Littré</hi>) ; 1559 <hi rend="i">comme qui diroit</hi> (<hi rend="sc">Amyot</hi>, <hi rend="i">Thésée</hi>, 21, <hi rend="i">ibid</hi>.) ; <hi rend="b">b)</hi> <hi rend="u">1466 <hi rend="i">comme quoy</hi></hi> (<hi rend="sc">Pierre Michault</hi>, <hi rend="i">Le Doctrinal</hi>, X, 180, éd. T. Walton, p. 15). » (TLFi, partie « Étymologie et Histoire » de l’article « comme » ; nous soulignons). Cela dit, le témoignage de Vaugelas garde son intérêt : il faut simplement lui donner du sens. Cette nouveauté qu’il constate traduit avant tout l’essor d’un emploi.</note> mais qui est tellement usité, qu’on l’a à tous propos dans la bouche. Apres cela, on ne peut pas blasmer ceux qui l’escrivent, mesme à l’exemple d’un des plus excellens et des plus celebres Escrivains de France […] Mais pour moy, j’aimerois mieux dire, <hi rend="i">comment</hi>, selon cette reigle generale, qu’<hi rend="i">un mot ancien, qui est encore dans la vigueur de l’Usage est incomparablement meilleur à escrire, qu’un tout nouveau, qui signifie la mesme chose</hi>. Ces mots qui sont de l’usage ancien et moderne tout ensemble, sont beaucoup plus nobles et plus graves, que ceux de la nouvelle marque. Quand je parle des mots, j’entens aussi parler des phrases. Ce n’est pas que je ne me voulusse servir de <hi rend="i">comme quoy</hi>, qui a souvent bonne grace, mais ce ne seroit gueres que dans un stile familier. » (Vaugelas, <hi rend="i">op. cit.</hi>, p. 333-334 ; nous soulignons en caractères gras). Cinquante ans plus tard, l’Académie observe : « Il est aisé de juger que <hi rend="i">comme quoy</hi>, qui estoit un mot nouveau que M. de Vaugelas a veu naistre, n’avoit pas esté generalement receu, puisqu’<hi rend="b">il a si-tost vieilli</hi>. On ne s’en sert plus presentement. » (<hi rend="i">Observations de l’Académie françoise sur les Remarques de M. de Vaugelas</hi>, Coignard, 1704, p. 322 ; nous soulignons en caractères gras). Cette observation, dans sa lecture rétrospective, détourne le propos de Vaugelas qui disait qu’« on l’a à tous propos dans la bouche », ce qui revient à dire qu’il était « generalement receu ». Par ailleurs, le propos de l’Académie n’explique pas l’usage que nous connaissons et qui subsiste bel et bien dans notre langue.</p>
             <quote>
               <l>Ha cette flatterie est un peu trop visible !</l>
-              <l>Chacun sçait <hi rend="u"><hi rend="b">comme quoy</hi></hi>*<hi rend="b"/> vous avez combatu;</l>
+              <l>Chacun sçait <hi rend="b">comme quoy</hi>*<hi rend="b"/> vous avez combatu;</l>
               <l>Mais un cœur genereux doit cacher sa vertu.</l>
               <l>(Octave s’adressant à Marc Antoine, IV, 1, v. 888-890)</l>
             </quote>
@@ -4386,26 +4401,26 @@
             <p>TRIOMPHANT (v. 1574) : Y a-t-il substantivation de l’adjectif verbal au vers 1574 ? On ne trouve guère le substantif <hi rend="i">triomphant</hi> que dans le <hi rend="i">Dictionnaire du Moyen Français</hi> ou dans le Godefroy, qui le mentionne comme « ancien ». Néanmoins, à côté de Jean de Bueil (1406-1477), Godefroy cite <hi rend="i">Les Tragiques</hi> d’Agrippa d’Aubigné, œuvre tardive et relativement proche dans le temps de Guérin de Bouscal : <hi rend="b">« L’ame du premier homme estoit ame vivante, / Celle des <hi rend="i">triumphans</hi> sera vivifiante. »</hi> Qu’il y ait ici une tendance archaïsante ou non, « triomphant » a été préféré au nom « triomphateur », dont l’usage n’est aucunement problématique. La nuance est fine. Entre « triomphateurs » et « triomphans », l’on peut voir un déplacement de point de vue, de l’agent (suffixe -(at) eur) vers l’action.</p>
             <quote>
               <l>Allons revoir nos Dieux, nos femmes, nos enfans,</l>
-              <l>Et changeons ces habits en ceux de <hi rend="u"><hi rend="b">triomphans</hi></hi>*<hi rend="b"/>.</l>
+              <l>Et changeons ces habits en ceux de <hi rend="b">triomphans</hi>*<hi rend="b"/>.</l>
               <l>(Marc Antoine à Octave, V, 6, v. 1573-1574)</l>
             </quote>
             <p>DEPITER (v. 944) : « Mépriser, dédaigner, braver: […] <hi rend="b">Les Cireniens enragez, / Un jour en bataille rangez, / <hi rend="i">Despitoient</hi> le ciel et le foudre, / Voulans arracher le soleil.</hi> (D’AUBIGNÉ, <hi rend="i">Trag.</hi>, Préf., Bibl. elz.) Cette signification se retrouve encore chez Régnier et chez Malherbe; aujourd’hui <hi rend="i">depiter</hi> ne s’emploie plus que pour signifier causer du dépit à quelqu’un, et au réflechi, concevoir du dépit » (Godefroy ; nous soulignons en caractères gras). « Braver, défier. […] Maudire. — Oudart renioit et despitoit les nopces. RABELAIS, IV, 15. — Despite moy tous les cieux, Despite moy tous leurs dieux, Autheurs de ton mal extreme. JODELLE, <hi rend="i">Cleopatre</hi>, V (I, 150). — Je maudy le destin contre moy conjuré; Je despite ma vie à souffrir condamnee. DESPORTES, <hi rend="i">Elegies</hi>, I, 14. » (Huguet). Ce sens est présent dans Godefroy, Huguet et La Curne mais n’apparaît pas dans les dictionnaires des époques postérieures.</p>
             <quote>
-              <l>Icy le pere void son fils <hi rend="u"><hi rend="b">dessus</hi></hi>*<hi rend="b"/> la poudre,</l>
-              <l>Et <hi rend="u"><hi rend="b">dépite</hi></hi>*<hi rend="b"/> le Ciel pour attirer sa foudre.</l>
+              <l>Icy le pere void son fils <hi rend="b">dessus</hi>*<hi rend="b"/> la poudre,</l>
+              <l>Et <hi rend="b">dépite</hi>*<hi rend="b"/> le Ciel pour attirer sa foudre.</l>
               <l>(un messager rapportant la défaite de troupes d’Octave, IV, 2, v. 943-944)</l>
             </quote>
             <p>ESTOMACH (v. 769) : 1°) estomac ; 2°) poitrine. « Se dit abusivement de la partie exterieure du corps, qu’on appelle autrement le <hi rend="i">sein</hi>, la <hi rend="i">poitrine</hi>, et qui est au dessus de la ceinture. Les pecheurs se frappent l’<hi rend="i">estomac</hi> en signe de penitence. Quand on se confesse, on se frappe trois fois l’<hi rend="i">estomac</hi>, en disant <hi rend="i">mea culpa</hi>. » (Furetière). « Poitrine. […] — Et si pouvoit on voir la plus grande partie de son estomac deschiré et meurtry. AMYOT, <hi rend="i">Antoine</hi>, 83. […] <hi rend="b">Voila comment les armes receues par force et non cerchees ont esté tirees des estomacs offencez.</hi> AUBIGNÉ, <hi rend="i">Debvoir des roys et des subjects</hi>, 5 (II, 59). […] De cette signification du mot <hi rend="i">estomac</hi>, il résulte qu’on place souvent le cœur dans l’estomac. […] — Elle... ouvrit à ce meurtrier l’estomach: et tout chaudement de ses mains, fouillant et arrachant son cœur, le jetta manger aux chiens. MONTAIGNE, III, 1 (III, 254). » (Huguet).</p>
             <quote>
               <l>Je ne sçaurois survivre à la liberté morte:</l>
-              <l>Ouvre moy l’<hi rend="u"><hi rend="b">estomach</hi></hi>*<hi rend="b"/>, mais tu jettes ce fer</l>
+              <l>Ouvre moy l’<hi rend="b">estomach</hi>*<hi rend="b"/>, mais tu jettes ce fer</l>
               <l>Qui me devroit ouvrir la porte de l’Enfer</l>
               <l>(Cassie demandant la mort à son affranchi, III, 4, v. 768-770)</l>
             </quote>
             <p>Ce dernier exemple, qui contient une citation de la <hi rend="i">Vie d’Antoine</hi>, permet de glisser vers une autre figure : celle de Jacques Amyot (1513-1593), traducteur des <hi rend="i">Vies parallèles</hi> de Plutarque. En effet, le sujet, l’archaïsme dans notre pièce, implique un relevé qui lui-même mène au célèbre traducteur.</p>
             <p>AVANCER (v. 709) : Spécialement : « Devancer, prévenir. » (La Curne). Ce sens est également présent dans Huguet, qui cite pour l’illustrer quatre exemples tirés de la traduction d’Héliodore par Jacques Amyot, <hi rend="i">L’Histoire æthiopique</hi>.</p>
             <quote>
-              <l>Et si vous desirez d’<hi rend="u"><hi rend="b">avancer</hi></hi>*<hi rend="b"/> son trespas,</l>
+              <l>Et si vous desirez d’<hi rend="b">avancer</hi>*<hi rend="b"/> son trespas,</l>
               <l>Il faut partir bien-tost, et marcher à grands pas.</l>
               <l>(Titine rapportant à Brute la défaite de Cassie, III, 3, v. 709-710)</l>
             </quote>
@@ -4414,12 +4429,12 @@
               <l>Ha traistres ! si Cæsar n’est pas déraisonnable,</l>
               <l>Il punira sur vous ce meurtre abominable:</l>
               <l>Le bien qu’il doit tirer de vostre trahison</l>
-              <l>Ne l’empeschera pas d’en <hi rend="u"><hi rend="b">avoir sa raison</hi></hi>*<hi rend="b"/>:</l>
+              <l>Ne l’empeschera pas d’en <hi rend="b">avoir sa raison</hi>*<hi rend="b"/>:</l>
               <l>(Titine, découvrant le corps sans vie de son maître, Cassie, III, 5, v. 815-818)<note n="369" place="bottom">Certes, dans notre pièce, c’est le sens de « tirer vengeance » qui prévaut.</note></l>
             </quote>
             <p>POINTE (v. 153) : « En termes de Guerre, se dit des corps les plus avancez, soit en la marche, soit en l’attaque. Ce Capitaine avoit la <hi rend="i">pointe</hi>, commandoit l’avant-garde. Il étoit à la <hi rend="i">pointe</hi> de l’aisle droite. » (Furetière). Dans un sens plus spécifique : «  <hi rend="b">Aile [d’une armée].</hi> […] — Ilz se meirent à deviser... touchant l’ordonnance de la bataille, là ou Brutus pria Cassius de luy laisser la conduitte de la poincte droitte. AMYOT, <hi rend="i">Brutus</hi>, 40. » (Huguet ; nous soulignons). Ailleurs, en ce sens d’« aile d’une armée », on ne trouve le mot que dans La Curne (entrée « poincte »). Les trois exemples donnés par les deux dictionnaires viennent de Jacques Amyot, que Guérin de Bouscal devait avoir sous les yeux pour écrire sa pièce. L’exemple tiré de la <hi rend="i">Vie de Brutus</hi> en est quasiment la preuve.<note n="370" place="bottom"> Plutarque est la source majeure du sujet et sa traduction par Jacques Amyot est longtemps restée une référence. Dans une traduction moderne, ce passage que cite Huguet donne ceci : « Après quoi, ils discutèrent de l’ordre de bataille en présence de leurs amis. Brutus demanda à Cassius le commandement de <hi rend="b">l’aile droite</hi>, poste qui, semblait-il, devait plutôt revenir à Cassius en raison de son expérience et de son âge. » (Plutarque, <hi rend="i">Vie de Brutus</hi>, XL, 10, trad. Anne-Marie Ozanam, dir. François Hartog, Gallimard, 2001, p. 1817 ; nous soulignons).</note></p>
             <quote>
-              <l>J’auray la <hi rend="u"><hi rend="b">pointe</hi></hi>*<hi rend="b"/> droite, et ma Cavalerie</l>
+              <l>J’auray la <hi rend="b">pointe</hi>*<hi rend="b"/> droite, et ma Cavalerie</l>
               <l>Essuyera des traits la premiere furie,</l>
               <l>Massala la doit suivre avec un peloton,</l>
               <l>Qui sera soûtenu par celuy de Straton:</l>
@@ -4444,18 +4459,18 @@
               <l>Qui ne porte en son front les marques de la guerre:                940</l>
               <l>Icy deux vrais amis sur le poinct de leur mort,</l>
               <l>Pleurent en s’embrassant la rigueur de leur sort.</l>
-              <l>Icy le pere void son fils <hi rend="u"><hi rend="b">dessus</hi></hi>*<hi rend="b"/> la poudre,</l>
-              <l>Et <hi rend="u"><hi rend="b">dépite</hi></hi>*<hi rend="b"/> le Ciel pour attirer sa foudre.</l>
+              <l>Icy le pere void son fils <hi rend="b">dessus</hi>*<hi rend="b"/> la poudre,</l>
+              <l>Et <hi rend="b">dépite</hi>*<hi rend="b"/> le Ciel pour attirer sa foudre.</l>
               <l>Icy par des regrets qui fendroient un rocher<note n="373" place="bottom">Par des lamentations qui fendraient un cœur de pierre, susciteraient la compassion chez quelqu’un d’insensible.</note>,                945</l>
               <l>Un fils pleure la mort de ce qu’il eust plus cher.</l>
-              <l>Icy <hi rend="u"><hi rend="b">dedans</hi></hi>*<hi rend="b"/> le sang mille blessez se noyent,</l>
+              <l>Icy <hi rend="b">dedans</hi>*<hi rend="b"/> le sang mille blessez se noyent,</l>
               <l>Implorans la faveur de tous ceux qui les voyent.</l>
               <l>Et bref il est par tout tant d’objets de terreur,</l>
               <l>Que je croy que l’Enfer en frissonna d’horreur;                950</l>
               <l>Brute bien-tost apres fit cesser le carnage,</l>
-              <l>Et <hi rend="u"><hi rend="b">receust à mercy</hi></hi>*<hi rend="b"/><note n="374" place="bottom"> « <hi rend="i">Recevoir, prendre (qqn) à merci</hi> (vieilli). Faire grâce (à quelqu’un). » (TLFi). « MERCI. s.f. Misericorde. <hi rend="i">Crier merci. prendre, recevoir à merci. c’est un homme sans merci, qui ne vous fera aucun merci, dont vous ne devez point attendre de merci. j’implore vostre merci.</hi> <hi rend="b">Il vieillit dans la pluspart de ces phrases, où il se met sans article; et n’a plus d’usage que dans celle-cy. <hi rend="i">Je vous crie merci</hi>, qui se dit familierement, pour dire, Je vous demande pardon.</hi> » (<hi rend="i">Dictionnaire de l’Académie françoise</hi>, première édition, 1694 ; la remarque que nous soulignons en gras disparaît à partir de la huitième édition, 1932-1935).</note> les restes du naufrage.</l>
+              <l>Et <hi rend="b">receust à mercy</hi>*<hi rend="b"/><note n="374" place="bottom"> « <hi rend="i">Recevoir, prendre (qqn) à merci</hi> (vieilli). Faire grâce (à quelqu’un). » (TLFi). « MERCI. s.f. Misericorde. <hi rend="i">Crier merci. prendre, recevoir à merci. c’est un homme sans merci, qui ne vous fera aucun merci, dont vous ne devez point attendre de merci. j’implore vostre merci.</hi> <hi rend="b">Il vieillit dans la pluspart de ces phrases, où il se met sans article; et n’a plus d’usage que dans celle-cy. <hi rend="i">Je vous crie merci</hi>, qui se dit familierement, pour dire, Je vous demande pardon.</hi> » (<hi rend="i">Dictionnaire de l’Académie françoise</hi>, première édition, 1694 ; la remarque que nous soulignons en gras disparaît à partir de la huitième édition, 1932-1935).</note> les restes du naufrage.</l>
               <l>Que puis-je dire encor, sinon que le Soleil</l>
-              <l>Ne vit jamais <hi rend="u"><hi rend="b">çà bas</hi></hi>*<hi rend="b"/><note n="375" place="bottom"> « <hi rend="i">Çà bas.</hi> Ici bas, sur la terre. » (Huguet). Mis à part de nombreux exemples dans le Godefroy et surtout le Huguet, limités au XVI<hi rend="sup">e</hi> siècle, on ne trouve cet adverbe quasiment nulle part. Deux mentions dans La Curne ; une seule occurrence dans Furetière (article « çà »), qui ne donne pas d’exemple. Notre étude est confirmée par ce que dit le TLFi : « emploi fréq. en relation avec un autre adv. jusqu’au XVI<hi rend="sup">e</hi> s. (<hi rend="i">ça haut, ça bas</hi> ... v. <hi rend="sc">Gdf</hi>. <hi rend="i">Compl.</hi>, T.-L. et <hi rend="sc">Hug</hi>.) » (article « çà », partie « Étymologie et Histoire »).</note> un desordre pareil ?</l>
+              <l>Ne vit jamais <hi rend="b">çà bas</hi>*<hi rend="b"/><note n="375" place="bottom"> « <hi rend="i">Çà bas.</hi> Ici bas, sur la terre. » (Huguet). Mis à part de nombreux exemples dans le Godefroy et surtout le Huguet, limités au XVI<hi rend="sup">e</hi> siècle, on ne trouve cet adverbe quasiment nulle part. Deux mentions dans La Curne ; une seule occurrence dans Furetière (article « çà »), qui ne donne pas d’exemple. Notre étude est confirmée par ce que dit le TLFi : « emploi fréq. en relation avec un autre adv. jusqu’au XVI<hi rend="sup">e</hi> s. (<hi rend="i">ça haut, ça bas</hi> ... v. <hi rend="sc">Gdf</hi>. <hi rend="i">Compl.</hi>, T.-L. et <hi rend="sc">Hug</hi>.) » (article « çà », partie « Étymologie et Histoire »).</note> un desordre pareil ?</l>
               <l>Et que si les grands Dieux sont pour nostre justice,                955</l>
               <l>Ils ont fort peu de force, ou beaucoup de malice.</l>
               <l>(un messager rapportant la défaite de troupes d’Octave, IV, 2)</l>
@@ -4464,7 +4479,7 @@
             <quote>
               <l>Allons y donc, amis, et que toute la terre</l>
               <l>Tremble sous nos efforts comme sous le Tonnerre,</l>
-              <l>Que le sang espanché fasse <hi rend="u"><hi rend="b">soudre</hi></hi>*<hi rend="b"/><note n="376" place="bottom"> SOUDRE (du latin <hi rend="i">solvere</hi>) : C’est le sens de « délier » / « libérer », qu’on trouve dans le DMF, le Godefroy et le Huguet, absent des dictionnaires des époques postérieures, qui retient notre attention. Le vers 1245 propose alors l’image de l’impétuosité des flots dont sont victimes les soldats. Cette image serait alors identique à celle des « fiers torrens » du vers 862 et à celle du vers 1579, données ci-dessous. Le sens du verbe semble être déjà réduit au sens de <hi rend="i">répondre à un problème, un argument</hi> à l’époque de notre pièce, ce qui en fait un archaïsme du quatrième type (voir notre typologie liminaire). L’hypothèse de la coquille (<hi rend="i">sou</hi><hi rend="u"><hi rend="b"><hi rend="i">r</hi></hi></hi><hi rend="i">dre</hi> plutôt que <hi rend="i">soudre</hi>) est exclue par la consultation d’un bon nombre d’exemplaires de la pièce. Par ailleurs, elle ne perturberait pas nos analyses. La terre a bu le « sang espanché » pour pouvoir le recracher jusqu’à produire un « estang ».</note> un estang</l>
+              <l>Que le sang espanché fasse <hi rend="b">soudre</hi>*<hi rend="b"/><note n="376" place="bottom"> SOUDRE (du latin <hi rend="i">solvere</hi>) : C’est le sens de « délier » / « libérer », qu’on trouve dans le DMF, le Godefroy et le Huguet, absent des dictionnaires des époques postérieures, qui retient notre attention. Le vers 1245 propose alors l’image de l’impétuosité des flots dont sont victimes les soldats. Cette image serait alors identique à celle des « fiers torrens » du vers 862 et à celle du vers 1579, données ci-dessous. Le sens du verbe semble être déjà réduit au sens de <hi rend="i">répondre à un problème, un argument</hi> à l’époque de notre pièce, ce qui en fait un archaïsme du quatrième type (voir notre typologie liminaire). L’hypothèse de la coquille (<hi rend="i">sourdre</hi> plutôt que <hi rend="i">soudre</hi>) est exclue par la consultation d’un bon nombre d’exemplaires de la pièce. Par ailleurs, elle ne perturberait pas nos analyses. La terre a bu le « sang espanché » pour pouvoir le recracher jusqu’à produire un « estang ».</note> un estang</l>
               <l>Pour noyer les poltrons qui fuiront de leur rang</l>
               <l>(Brute, V, 1, v. 1243-1246)</l>
             </quote>
@@ -4488,7 +4503,7 @@
               <l>Mais mon ressentiment desire plus de sang.</l>
               <l>Anthoine.</l>
               <l>Il est bien alteré<note n="378" place="bottom"> Assoiffé, au sens propre et figuré, et, peut-être, corrompu. « On dit fig. d’Un homme cruel qui se plaist à respandre le sang, <hi rend="i">qu’Il est alteré de sang humain. que c’est un tigre alteré de sang.</hi> » (<hi rend="i">Dictionnaire de l’Académie françoise</hi>, première édition, 1694).</note> s’il en boit un estang</l>
-              <l>Qui flotte impetueux là bas <hi rend="u"><hi rend="b">dedans</hi></hi>*<hi rend="b"/> la plaine.</l>
+              <l>Qui flotte impetueux là bas <hi rend="b">dedans</hi>*<hi rend="b"/> la plaine.</l>
               <l>(V, 6, v. 1575-1579)</l>
             </quote>
             <p>Ce dernier exemple reprend l’image problématique de l’étang, présente dans le premier exemple, en résolvant une difficulté. Certes, un « estang » est une étendue d’eau stagnante et circonscrite, mais cela n’exclut ni le débordement ni surtout le fait que son surgissement provoque un « deluge de sang » (v. 1152), image dynamique. En outre, l’impétuosité de l’étang est nommée comme telle aux vers 1578-1579 et les « torrens » du vers 862 en sont une variante.</p>
@@ -4498,7 +4513,7 @@
             <quote>
               <l>Et toy, ma chere main, si le cœur me deffaut,</l>
               <l>Le veux-tu pas percer pour punir son deffaut.</l>
-              <l>Ouy quand tout l’univers s’armeroit au <hi rend="u"><hi rend="b">contraire</hi></hi>*<hi rend="b"/></l>
+              <l>Ouy quand tout l’univers s’armeroit au <hi rend="b">contraire</hi>*<hi rend="b"/></l>
               <l>Il n’est pas assez fort pour m’en pouvoir distraire</l>
               <l>(Porcie, après la découverte du corps de Brute, V, 5, v. 1489-1492)</l>
             </quote>
@@ -4506,10 +4521,10 @@
             <quote>
               <l>On n’entend rien que cris et que gemissemens,</l>
               <l>Vous diriez que le Ciel confond les Elemens:</l>
-              <l>Les traits volans en l’air par un confus <hi rend="u"><hi rend="b">rencontre</hi></hi>*<hi rend="b"/></l>
+              <l>Les traits volans en l’air par un confus <hi rend="b">rencontre</hi>*<hi rend="b"/></l>
               <l>Empeschent le Soleil de voir ce qu’il nous monstre</l>
               <l>(la compagne de Porcie décrivant un combat à sa maîtresse, II, 5, v. 557-560)</l>
-              <l>Si bien qu’à balancer ce <hi rend="u"><hi rend="b">rencontre</hi></hi>*<hi rend="b"/> fatal,</l>
+              <l>Si bien qu’à balancer ce <hi rend="b">rencontre</hi>* fatal,</l>
               <l>J’estime que le bien l’emporte sur le mal;</l>
               <l>J’ay de mes bataillons ensanglanté la terre,</l>
               <l>Et porté dans son camp le foudre de la guerre</l>
