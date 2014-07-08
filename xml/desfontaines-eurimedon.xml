@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="desfontaines-eurimedon" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Eurimédon ou l'Illustre pirate. Tragi-comédie</title>
-        <author>Nicolas Mary, sieur Desfontaines</author>
+        <title>Eurimédon ou l'Illustre pirate. Tragi-comédie</title>
+        <author key="Desfontaines, Nicolas (15..?-1652)">Nicolas Mary, sieur Desfontaines</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par PIERRON Loraine dans le cadre d'un mémoire de
@@ -122,13 +121,13 @@
             <p>La pièce de Desfontaines est antérieure aux créations de Mairet (1640), Scudéry (1644) et de Scarron (1658). Son action suit un cours différent et on ne saurait dire qu’<hi rend="i">Eurimédon</hi> constitue une source pour ces pièces. Mais c’est une des premières tragi-comédies, voire une des premières pièces de théâtre<note n="41" place="bottom"> Tragicomédies : <hi rend="i">L’illustre corsaire</hi> de Mairet (1640), <hi rend="i">Axiane</hi> de G. de Scudéry (1644), <hi rend="i">Le Prince corsaire</hi> de Scarron (1663) ; comédies : <hi rend="i">La Belle Alphrède</hi> de Rotrou (1639), <hi rend="i">L’Avare</hi> (1668) et <hi rend="i">Les Fourberies de Scapin</hi> (1671) de Molière. Dans l’absence de relevé exhaustif, il nous est impossible de mesurer avec exactitude la part d’innovation qu’a peut-être apportée Desfontaines avec ce nouveau sujet théâtral.</note> à exploiter ce thème, jusqu’alors romanesque. Mettre en parallèle <hi rend="i">Eurimédon</hi> et les autres créations dramaturgiques permettra d’examiner quels sont les thèmes communs, quels sont les aspects de la piraterie qui intéressaient les dramaturges de l’époque, et dans quelle mesure Desfontaines se trouve en accord avec ce courant.</p>
             <div>
               <head>Vision rêvée du pirate. De la réalité au mythe de l’illustre corsaire</head>
-              <p>La vision littéraire du pirate est très éloignée de sa réalité historique. L’imaginaire littéraire pense que la société pirate adopte un modèle aristocratique. Or il s’agissait au XVII<hi rend="sup">e</hi> siècle d’une société relativement démocratique et très peu hiérarchisée, comme le souligne Sylvie <hi rend="sc">Requemora</hi><note n="42" place="bottom"><hi rend="sc">Requemora</hi> Sylvie, <hi rend="i">L’imagerie littéraire du tyran de la Mer au XVIIe siècle : des récits de voyage et des histoires de flibustiers aux traitements romanesques et dramaturgiques, extrait du colloque international</hi> <seg rend="plain"><hi rend="i">"L'aventure maritime : pirates, corsaires et flibustiers"</hi></seg>, du Centre de Recherche sur la Littérature des Voyages</note> « Dans la société pirate, l’amitié est une vertu, la trahison le pire des crimes, le butin est réparti selon une équité révolutionnaire pour l’époque. ». Pourtant dans <hi rend="i">Eurimédon</hi>, la hiérarchie est assez fortement soulignée, et les pirates respectent le héros d’autant plus qu’ils le croient de sang royal. Eurimédon raconte ainsi son sacre :</p>
+              <p>La vision littéraire du pirate est très éloignée de sa réalité historique. L’imaginaire littéraire pense que la société pirate adopte un modèle aristocratique. Or il s’agissait au XVII<hi rend="sup">e</hi> siècle d’une société relativement démocratique et très peu hiérarchisée, comme le souligne Sylvie <hi rend="sc">Requemora</hi><note n="42" place="bottom"><hi rend="sc">Requemora</hi> Sylvie, <hi rend="i">L’imagerie littéraire du tyran de la Mer au XVIIe siècle : des récits de voyage et des histoires de flibustiers aux traitements romanesques et dramaturgiques, extrait du colloque international</hi> <hi rend="i">"L'aventure maritime : pirates, corsaires et flibustiers"</hi>, du Centre de Recherche sur la Littérature des Voyages</note> « Dans la société pirate, l’amitié est une vertu, la trahison le pire des crimes, le butin est réparti selon une équité révolutionnaire pour l’époque. ». Pourtant dans <hi rend="i">Eurimédon</hi>, la hiérarchie est assez fortement soulignée, et les pirates respectent le héros d’autant plus qu’ils le croient de sang royal. Eurimédon raconte ainsi son sacre :</p>
               <quote>
                 <l>Comme à leur souverain ils me firent hommage ;</l>
                 <l>Glorieux (disoient-ils) d’obeyr desormais</l>
                 <l>Au Prince le plus grand que le ciel vit jamais :</l>
               </quote>
-              <p>De ce point de vue, cette pièce ne s’écarte pas de la tradition littéraire. En revanche il est assez surprenant de lire le terme pirate pour un personnage comme Eurimédon. S. Requemora remarque que dans l’imaginaire tragi-comique le corsaire était civilisé, gentilhomme, à la différence du pirate, barbare et sanguinaire. Le titre de la pièce serait donc paradoxal et irait à l’encontre de la terminologie usuelle. Cela peut s’expliquer par le fait que Desfontaines est sans doute un des premiers à porter ce thème à la scène. Il utilise indifféremment les deux termes dans le cours de la pièce, sans que cela appelle des nuances différentes. Dans les définitions qu’en donnent les dictionnaires, ces distinctions ne sont pas très rigoureuses, puisque Furetière écrit que le corsaire « court les mers sans aucune commission pour voler les Marchands. ». Desfontaines ne dégrade pas son personnage par le titre de pirate, il exploite ce personnage alors que les désignations ne sont pas encore établies, et c’est par la suite que la tragicomédie va établir la dichotomie entre « affreux pirate » et « gentilhomme corsaire »<note n="43" place="bottom"><hi rend="sc">Requemora</hi> Sylvie, <hi rend="i">L’imagerie littéraire du tyran de la Mer au XVIIe siècle : des récits de voyage et des histoires de flibustiers aux traitements romanesques et dramaturgiques, dans Les tyrans de la mer. Pirates, corsaires et flibustiers</hi>, textes réunis par Linon-Chipon Sophie et Requemora Sylvie, Celat, Presses de l’université Paris-Sorbonne, <seg rend="plain">Imago Mundi n°4, Paris, 2002, p. 311.</seg></note>. Le personnage d’Eurimédon correspond tout à fait, par son sens de l’honneur, sa bravoure et sa générosité aux personnages des pièces de Mairet et Scarron. Si ces personnages constituent des figures aristocratisées et idéalisées de la réalité, ils conservent quelques traits communs avec les pirates de l’époque. Ainsi, les descriptions d’Œxmelin<note n="44" place="bottom"> Alexandre <hi rend="sc">Œxmelin</hi>, <hi rend="i">Histoire des Aventuriers qui se sont signalez dans les Indes, contenant ce qu’ils ont fia de plus remarquable depuis vingt années</hi>, cité par Requemora Sylvie dans <hi rend="i">L’imagerie littéraire du tyran de la Mer au XVIIe siècle : des récits de voyage et des histoires de flibustiers aux traitements romanesques et dramaturgiques</hi>, dans <hi rend="i">Les tyrans de la mer. Pirates, corsaires et flibustiers</hi>, textes réunis par Linon-Chipon Sophie et Requemora Sylvie, Celat, Presses de l’université Paris-Sorbonne, <seg rend="plain">Imago Mundi n°4, Paris, 2002, p. 299.</seg></note> et de Raveneau de Lussan soulignent que la trahison est le pire des crimes. Or c’est bien la crainte de la trahison qui fait qu’Eurimédon peine à renoncer à son amitié pour Araxés.<note n="45" place="bottom">Renoncement pourtant nécessaire pour lui permettre d’aimer à son tour Pasithée.</note> De même, dans l’<hi rend="i">Axiane</hi> de Scudéry, Leontidas dit qu’il aurait préféré la mort de sa fille à la trahison qu’elle lui a faite en partant avec son esclave Hermocrate. Nous reconnaissons avec Sylvie Requemora que l’importance de la fidélité correspond à une réalité historique dont Desfontaines comme d’autres auteurs ont pu avoir connaissance. Néanmoins il nous semble important de souligner que la fidélité est avant tout une qualité exigée par le code aristocratique ; nous n’avons donc pas la preuve que Desfontaines connaissait la réalité corsaire. Autre fait historique, les pirates avaient des îles pour repère. Que Desfontaines conserve ce trait réaliste lorsqu’Eurimédon mentionne le lieu de son repère :</p>
+              <p>De ce point de vue, cette pièce ne s’écarte pas de la tradition littéraire. En revanche il est assez surprenant de lire le terme pirate pour un personnage comme Eurimédon. S. Requemora remarque que dans l’imaginaire tragi-comique le corsaire était civilisé, gentilhomme, à la différence du pirate, barbare et sanguinaire. Le titre de la pièce serait donc paradoxal et irait à l’encontre de la terminologie usuelle. Cela peut s’expliquer par le fait que Desfontaines est sans doute un des premiers à porter ce thème à la scène. Il utilise indifféremment les deux termes dans le cours de la pièce, sans que cela appelle des nuances différentes. Dans les définitions qu’en donnent les dictionnaires, ces distinctions ne sont pas très rigoureuses, puisque Furetière écrit que le corsaire « court les mers sans aucune commission pour voler les Marchands. ». Desfontaines ne dégrade pas son personnage par le titre de pirate, il exploite ce personnage alors que les désignations ne sont pas encore établies, et c’est par la suite que la tragicomédie va établir la dichotomie entre « affreux pirate » et « gentilhomme corsaire »<note n="43" place="bottom"><hi rend="sc">Requemora</hi> Sylvie, <hi rend="i">L’imagerie littéraire du tyran de la Mer au XVIIe siècle : des récits de voyage et des histoires de flibustiers aux traitements romanesques et dramaturgiques, dans Les tyrans de la mer. Pirates, corsaires et flibustiers</hi>, textes réunis par Linon-Chipon Sophie et Requemora Sylvie, Celat, Presses de l’université Paris-Sorbonne, <hi rend="i">Imago Mundi</hi> n°4, Paris, 2002, p. 311.</note>. Le personnage d’Eurimédon correspond tout à fait, par son sens de l’honneur, sa bravoure et sa générosité aux personnages des pièces de Mairet et Scarron. Si ces personnages constituent des figures aristocratisées et idéalisées de la réalité, ils conservent quelques traits communs avec les pirates de l’époque. Ainsi, les descriptions d’Œxmelin<note n="44" place="bottom"> Alexandre <hi rend="sc">Œxmelin</hi>, <hi rend="i">Histoire des Aventuriers qui se sont signalez dans les Indes, contenant ce qu’ils ont fia de plus remarquable depuis vingt années</hi>, cité par Requemora Sylvie dans <hi rend="i">L’imagerie littéraire du tyran de la Mer au XVIIe siècle : des récits de voyage et des histoires de flibustiers aux traitements romanesques et dramaturgiques</hi>, dans <hi rend="i">Les tyrans de la mer. Pirates, corsaires et flibustiers</hi>, textes réunis par Linon-Chipon Sophie et Requemora Sylvie, Celat, Presses de l’université Paris-Sorbonne, <hi rend="i">Imago Mundi</hi> n°4, Paris, 2002, p. 299.</note> et de Raveneau de Lussan soulignent que la trahison est le pire des crimes. Or c’est bien la crainte de la trahison qui fait qu’Eurimédon peine à renoncer à son amitié pour Araxés.<note n="45" place="bottom">Renoncement pourtant nécessaire pour lui permettre d’aimer à son tour Pasithée.</note> De même, dans l’<hi rend="i">Axiane</hi> de Scudéry, Leontidas dit qu’il aurait préféré la mort de sa fille à la trahison qu’elle lui a faite en partant avec son esclave Hermocrate. Nous reconnaissons avec Sylvie Requemora que l’importance de la fidélité correspond à une réalité historique dont Desfontaines comme d’autres auteurs ont pu avoir connaissance. Néanmoins il nous semble important de souligner que la fidélité est avant tout une qualité exigée par le code aristocratique ; nous n’avons donc pas la preuve que Desfontaines connaissait la réalité corsaire. Autre fait historique, les pirates avaient des îles pour repère. Que Desfontaines conserve ce trait réaliste lorsqu’Eurimédon mentionne le lieu de son repère :</p>
               <quote>
                 <l>Je devois faire esclave, et mener en Corcyre<note n="46" place="bottom">Corcyre ou Corfou : « isle de la mer Ionienne » écrit Moreri. C’est le repère des pirates qui ont élevé Eurimédon. </note></l>
                 <l>Celle qui doit un jour regner en ton empire ;</l>
@@ -311,7 +310,7 @@
               </div>
               <div>
                 <head>Pasithée retrouvée</head>
-                <p>Les retrouvailles d’Eurimédon et de Pasithée suivent à peu près le même déroulement au théâtre et dans le roman, à une différence près. Eurimédon se rend au château<hi rend="color_ff0000">-</hi>prison avec ses « femmes » qui sont en fait les pirates travestis. La scène du baiser déposé sur le sein de la princesse se trouve à cet endroit du roman, et les seuls témoins de ce baiser sont les femmes de Pasithée. La promesse d’« Hermionne », « Mais je ne luy accorderay jamais ce qu’il souhaitte que vous ne soyez mariée à Eurimedon. », a un sens différent pour la prisonnière et pour le messager. Cette duplicité de paroles est reprise dans la pièce. Desfontaines était donc intéressé par cette figure du dédoublement de la parole qu’il a rencontrée dans <hi rend="i">Ariane</hi>. Le texte de théâtre reprend en effet le propos romanesque :</p>
+                <p>Les retrouvailles d’Eurimédon et de Pasithée suivent à peu près le même déroulement au théâtre et dans le roman, à une différence près. Eurimédon se rend au château-prison avec ses « femmes » qui sont en fait les pirates travestis. La scène du baiser déposé sur le sein de la princesse se trouve à cet endroit du roman, et les seuls témoins de ce baiser sont les femmes de Pasithée. La promesse d’« Hermionne », « Mais je ne luy accorderay jamais ce qu’il souhaitte que vous ne soyez mariée à Eurimedon. », a un sens différent pour la prisonnière et pour le messager. Cette duplicité de paroles est reprise dans la pièce. Desfontaines était donc intéressé par cette figure du dédoublement de la parole qu’il a rencontrée dans <hi rend="i">Ariane</hi>. Le texte de théâtre reprend en effet le propos romanesque :</p>
                 <quote>
                   <l>Mais qu’il n’espere pas la faveur qu’il souhaitte</l>
                   <l><space/>Qu’Hermionne ne soit de tout poinct satisfaite,    1410</l>
@@ -835,8 +834,7 @@
       </div>
 </front>
     <body>
-        <head>EURIMEDON <lb/>OU <lb/>L’ILLUSTRE PIRATE,</head>
-        <head>TRAGI-COMEDIE.</head>
+      <head>EURIMEDON <lb/>OU <lb/>L’ILLUSTRE PIRATE, <lb/>TRAGI-COMEDIE.</head>
         <div type="set" xml:id="epitre">
           <head>A <lb/>MADEMOISELLE <lb/>DE VERTUS,<note n="122" place="bottom">Madamoiselle de Vertus appartient à la famille des comtes de Vertus, « batards de la maison de Bretagne » d’après le dictionnaire de Moreri. Plusieurs femmes étaient jeunes filles à l’époque où Desfontaines écrivait son épître. Cependant, une seule portait le titre de « demoiselle de Vertus ». C’est Catherine-Françoise (1617- 21 novembre 1692), fille de Claude de Vertus (1582-6 août 1637), gouverneur de Rennes et de Catherine Fouquet (1590-10 mai 1670). Catherine-Françoise est restée sans alliance, elle finit sa vie à Port-Royal.</note></head>
           <p>MADAMOISELLE,                                <pb n="A ; 2"/></p>
@@ -916,7 +914,7 @@
             <roleDesc>Suivante de Pasithee.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="agramor">AGRAMOR</role>
+            <role xml:id="argamor">AGRAMOR</role>
             <roleDesc>Page de Tygrane.</roleDesc>
           </castItem>
           </castList>
@@ -1710,7 +1708,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE QUATRIEME</head>
-            <sp who="celiane-en-habit-de-cavallier">
+            <sp who="celiane">
               <speaker>CELIANE <hi rend="i">en habit de Cavallier.</hi></speaker>
               <l n="497" xml:id="l497">He bien <ref target="#cruel">cruel*</ref> Amour que fera Celiane ?</l>
               <l n="498" xml:id="l498">Porteray-je l’enfer dans le ciel de Tygrane ?</l>
@@ -1793,7 +1791,7 @@
               <l n="543" xml:id="l543">Il receuvra de moy la satisfaction</l>
               <l n="544" xml:id="l544">Qu’on doit donner à ceux de sa condition.</l>
             </sp>
-            <sp who="argamor-s-en-allant">
+            <sp who="argamor">
               <speaker>ARGAMOR <hi rend="i">s’en allant.</hi></speaker>
               <l n="545" xml:id="l545">Seigneur dans peu de temps vous y verrez Tygrane.</l>
             </sp>
@@ -1887,7 +1885,7 @@
               <l n="604" xml:id="l604">Quand Mars<note n="209" place="bottom">Les romains avaient « une grande vénération pour cette divinité, qu’ils considéroient comme le dieu de la guerre » indique Moreri. C’est Mars et non Arès qui est nommé, c’est donc une Grèce romanisée, adaptée à la terminologie classique, que présente Desfontaines.</note> et tous les Dieux te viendroient secourir,</l>
               <l n="605" xml:id="l605">Ce propos insolent te coustera la vie.</l>
             </sp>
-            <sp who="celiane-tombant">
+            <sp who="celiane">
               <speaker>CELIANE <hi rend="i">tombant.</hi></speaker>
               <l n="606" xml:id="l606"><space/><space/>Ah Dieux ! ce coup mortel seconde son envie,                    <pb n="34"/></l>
               <l n="607" xml:id="l607">Je meurs <ref target="#content">contente*</ref> (ingrat.)</l>
@@ -1912,7 +1910,7 @@
           </div>
           <div type="scene">
             <head>SCENE SEPTIESME.                     <pb n="35"/></head>
-            <sp who="celiane-revenant-de-son-esvanouissement">
+            <sp who="celiane">
               <speaker>CELIANE <hi rend="i">revenant de son esvanoüissement.</hi></speaker>
               <l n="621" xml:id="l621">Quel <ref target="#astre">Astre*</ref> <ref target="#malheureux1">malheureux*</ref> <ref target="#jaloux">jaloux*</ref> de ma <ref target="#fortune">fortune*</ref></l>
               <l n="622" xml:id="l622">Donne encore à mes yeux sa lueur <ref target="#importun">importune*</ref> ?</l>
@@ -2100,7 +2098,7 @@
             <pb/>
             <head>SCENE DEUXIESME.</head>
             <stage>EURIMEDON, PASITHEE, ARCHELAS, FALANTE.</stage>
-            <sp who="archelas-mettant-la-main-a-l-espee">
+            <sp who="archelas">
               <speaker>ARCHELAS <hi rend="i">mettant la main à l’espee.</hi></speaker>
               <l n="742" xml:id="l742">Insolent bien plustost mon courroux legitime</l>
               <l n="743" xml:id="l743">Te va faire servir à mon bras de victime.</l>
@@ -2114,11 +2112,11 @@
               <l part="Y"><space/>Laisse moy punir ce suborneur,</l>
               <l n="745" xml:id="l745">Qui faict de mon Palais le tombeau de l’<ref target="#honneur">honneur*</ref>.</l>
             </sp>
-            <sp who="pasithee-a-eurimedon">
+            <sp who="pasithee">
               <speaker>PASITHEE <hi rend="i">à Eurimedon.</hi></speaker>
               <l n="746" xml:id="l746">Seigneur au nom des Dieux evitez sa colere.</l>
             </sp>
-            <sp who="eurimedon-s-en-allant">
+            <sp who="eurimedon">
               <speaker>EURIMEDON <hi rend="i">s’en allant.</hi></speaker>
               <l n="747" xml:id="l747"><space/><space/>Ah de tant de bien-faits trop indigne <ref target="#salaire">salaire*</ref> !                    <pb n="42"/></l>
             </sp>
@@ -2189,7 +2187,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE TROISIESME.                 <pb n="44"/></head>
-            <sp who="eurimedon-s-en-allant">
+            <sp who="eurimedon">
               <speaker>EURIMEDON <hi rend="i">s’en allant</hi>.<note n="225" place="bottom">Ce monologue se fait sous forme de stances. </note></speaker>
               <lg>
                 <l n="790" xml:id="l790">À quel point m’a reduit la cruauté des <ref target="#astre">Astres*</ref></l>
@@ -2235,13 +2233,13 @@
           <div type="scene">
             <pb/>
             <head>SCENE QUATRIEME.</head>
-            <sp who="celiane-en-sa-solitude">
+            <sp who="celiane">
               <speaker>CELIANE <hi rend="i">en sa solitude.</hi></speaker>
               <l n="817" xml:id="l817">Dieux que je suis surprise et confuse à ce nom !</l>
               <l n="818" xml:id="l818">Tirons-nous à l’escart, et sçachons par sa plainte</l>
               <l n="819" xml:id="l819">Toutes les passions dont son ame est atteinte.</l>
             </sp>
-            <sp who="eurimedon-se-promenant">
+            <sp who="eurimedon">
               <speaker>EURIMEDON <hi rend="i">se promenant</hi>.</speaker>
               <l n="820" xml:id="l820">Je devois, Archelas, mieux user du destin</l>
               <l n="821" xml:id="l821">Qui m’avoit envoyé ta fille pour butin,</l>
@@ -2256,7 +2254,7 @@
               <l n="830" xml:id="l830"><ref target="#alors">Lors*</ref> que par Araxés leur Princesse ravie</l>
               <l n="831" xml:id="l831">Devoit<note n="227" place="bottom"> On attendrait plutôt « aurait dû » en français moderne. Cependant, comme le montre Nathalie <hi rend="sc">Fournier</hi> sans la <hi rend="i">Grammaire du français classique</hi>, Paris, collection Belin Sup-Lettres, Belin, 1998, § 382, l’imparfait était souvent employé au lieu du conditionnel passé pour le verbe <hi rend="i">devoir</hi>, en témoigne le vers 970 de <hi rend="i">Britannicus</hi> de Racine « Ah ! vous deviez au moins plus longtemps disputer ». <hi rend="sc">N. Fournier</hi> explique que l’imparfait <hi rend="i">devait</hi> est glosable par un conditionnel passé qui « explicite la non réalisation du procès à l’infinitif ». En effet, avec l’imparfait, dans notre exemple, « estre sauvée » peut être réalisé ou non. Le conditionnel lèverait cette indétermination en affirmant que Pasithée n’a pas été sauvée par eux. </note> estre sauvee aussi-tost que suivie.</l>
             </sp>
-            <sp who="celiane-a-part">
+            <sp who="celiane">
               <speaker>CELIANE <hi rend="i">à part.</hi></speaker>
               <l n="832" xml:id="l832">Voyla le Chevalier pour qui<note n="228" place="bottom">C’est-à-dire : « Voyla le Chevalier au nom duquel j’ai combattu, »</note> j’ay combatu,</l>
               <l n="833" xml:id="l833">Et de qui ma foiblesse a trahy la <ref target="#vertu">vertu*</ref>.</l>
@@ -2283,7 +2281,7 @@
               <speaker>EURIMEDON.</speaker>
               <l n="846" xml:id="l846">Le Ciel</l>
             </sp>
-            <sp who="celiane-l-abordant">
+            <sp who="celiane">
               <speaker>CELIANE <hi rend="i">l’abordant.</hi>    <pb n="47"/></speaker>
               <l part="Y"><space/>    Eurimedon, vous sera plus propice<note n="229" place="bottom">Céliane interrompt Eurimédon en achevant sa phrase « Le Ciel, Eurimedon vous sera plus propice ».</note></l>
               <l n="847" xml:id="l847">S’il ouvre quelque jour l’oreille à la Justice</l>
@@ -2727,7 +2725,7 @@
             <pb/>
             <head>SCENE DEUXIESME.</head>
             <stage>ARCHELAS, FALANTE, EURIMEDON, TYGRANE, CELIANE déguisee.</stage>
-            <sp who="eurimedon-en-amazone-tenant-la-teste-d-araxes">
+            <sp who="eurimedon">
               <speaker>EURIMEDON <hi rend="i">en Amazone tenant la teste d’Araxés.</hi></speaker>
               <l n="1122" xml:id="l1122">En fin (Sire) voila ce <ref target="#superbe1">superbe*</ref> Encelade<note n="240" place="bottom">Encelade est, d’après le dictionnaire de Moreri, « le plus puissant des géants, selon la fable, étoit fils du Tartare ou de l’Abyme et de la Terre. Il fit la guerre aux dieux avec les autres géants. Mais il fut foudroyé par Jupiter, qui renversa sur lui le mont Etna, ayant le corps à demi brûlé, comme nous le dit Vrigile après Homère. ». Cette figure honnie peut s’utiliser avec justesse pour désigner Araxés et pour flatter le roi, qui est comparé à Jupiter et aux dieux.</note></l>
               <l n="1123" xml:id="l1123">Dont la temerité menaçoit la Troade,</l>
@@ -2888,7 +2886,7 @@
               <l n="1236" xml:id="l1236">Que cette Deïté regne dans vostre Cour,</l>
               <l n="1237" xml:id="l1237"><space/><space/>Mais ne reffusez point Pasithee à l’amour.                    <pb n="67"/></l>
             </sp>
-            <sp who="celiane-ostant-son-casque">
+            <sp who="celiane">
               <speaker>CELIANE <hi rend="i">ostant son casque.</hi></speaker>
               <l n="1238" xml:id="l1238"><ref target="#perfide">Perfide*</ref>, osez-vous bien paroistre en cette <ref target="#lice">lice*</ref><note n="248" place="bottom">Le manuscrit consulté à la bibliothèque de la Sorbonne propose une correction manuscrite de ce vers : « Perfide, oses-tu bien paroistre en cette lice ? ». En effet, Céliane poursuit en le tutoyant. Cette correction ne changerait pas le nombre de syllabes. Mais le passage du vouvoiement au tutoiement peut accompagner le mouvement de Céliane ôtant son casque. C’est pourquoi nous ne corrigeons pas le texte.</note> ?</l>
               <l n="1239" xml:id="l1239">Crois-tu que la vertu recompense le vice ?</l>
@@ -3101,7 +3099,7 @@
             <pb/>
             <head>SCENE QUATRIEME.</head>
             <stage>EURIMEDON, PASITHEE, ALERINE dans la prison.</stage>
-            <sp who="eurimedon-en-amazone">
+            <sp who="eurimedon">
               <speaker>EURIMEDON <hi rend="i">en Amazone.</hi></speaker>
               <l n="1366" xml:id="l1366">Digne <ref target="#objet">objet*</ref> de pitié, mais beaucoup plus d’envie</l>
               <l n="1367" xml:id="l1367">Qui tiens mesme d’Amour la liberté ravie,</l>
@@ -3484,7 +3482,7 @@
               <l n="1552" xml:id="l1552">Je vay passer la nuict dans vostre appartement.</l>
               <stage>Elles sortent.</stage>
             </sp>
-            <sp who="eurimedon-seul">
+            <sp who="eurimedon">
               <speaker>EURIMEDON <hi rend="i">seul</hi>.</speaker>
               <l n="1553" xml:id="l1553">Ah deplorable Prince ! ô <ref target="#malheureux3">malheureux*</ref> <ref target="#amant1">Amant*</ref> !</l>
               <l n="1554" xml:id="l1554">Que ton impatience a destruit de delices !</l>
@@ -3634,7 +3632,7 @@
               <l n="1625" xml:id="l1625">L’amour que j’ay voüee à vos divins apas.</l>
               <stage>Il sort.</stage>
             </sp>
-            <sp who="celiane-seule">
+            <sp who="celiane">
               <speaker>CELIANE <hi rend="i">seule</hi>.    <pb n="90"/></speaker>
               <l n="1626" xml:id="l1626">En fin ma passion triomphe de Tygrane,</l>
               <l n="1627" xml:id="l1627">Ce <ref target="#superbe1">superbe*</ref> vainqueur se rend à Celiane,</l>
@@ -5547,7 +5545,7 @@
               <bibl><hi rend="sc">Desmarets de Saint-Sorlin</hi>, <title>Ariane</title>, 2 volumes, Paris, Veuve Mathiteu Guillemot et Mathieu Guillemot, 1632. [BIU Sorbonne : R6=1308-1 et R6=1308-2.]</bibl>
               <bibl><hi rend="sc">Du Ryer</hi>, <title>L’Alcionée</title>, Anthoine de Sommaville, Paris, 1640</bibl>
               <bibl><hi rend="sc">Gougenot</hi>, <title>La Fidèle Tromperie</title>, tragi-comédie, Paris, Anthoine de Sommaville, 1633 ; éd. critique établie par Magali <hi rend="sc">Rabot</hi>, www.crht.org, 2003. </bibl>
-              <bibl><hi rend="sc">L’Arioste</hi>, <seg rend="stylecar">Roland Furieux</seg>, traduction de Francisque Reynard, Folio classique, Gallimard, Paris, 2003 ; première édition 1516.</bibl>
+              <bibl><hi rend="sc">L’Arioste</hi>, <title>Roland Furieux</title>, traduction de Francisque Reynard, Folio classique, Gallimard, Paris, 2003 ; première édition 1516.</bibl>
               <bibl><hi rend="sc">La Mesnardière</hi> Jules de, <title>Poétique</title>, Paris, Anthoine de Sommaville, Paris, 1640.Tome 1, seul édité. [BIU Sorb RRA8=510]</bibl>
               <bibl><hi rend="sc">Mairet</hi>,<title>L’Illustre Corsaire</title>, tragi-comédie, Paris, Augustin Courbe, 1640, avec épître à Madame la duchesse d’Esguillon, privilège accordé en février 1639, achevé d’imprimer 20 février 1640.</bibl>
               <bibl><hi rend="sc">Molière</hi>, <title>Œuvres complètes</title>, tomes 1 et 2, édition établie par Maurice <hi rend="sc">Rat</hi>, Paris, Bibliothèque de la Pléiade, NRF, 1947.</bibl>
@@ -5659,7 +5657,7 @@
               <div>
                 <head>Articles en ligne</head>
                 <bibl><hi rend="sc">Teulade</hi> Anne, <title>La Réception de l’effet théâtral mise en spectacle dans deux pièces de <hi rend="sc">Desfontaines</hi>,</title> extrait du colloque « Modalités et enjeux de l’inscription du spectateur dans les textes dramatiques » organisé par le Centre de Recherche sur l’Histoire du Théâtre, www.crht.org.</bibl>
-                <bibl><hi rend="sc">Requemora</hi> Sylvie, <title>L’Imagerie littéraire du tyran de la Mer au XVII<hi rend="sup">e</hi> siècle : des récits de voyage et des histoires de flibustiers aux traitements romanesques et dramaturgiques</title>, extrait du colloque international <seg rend="plain">« L'aventure maritime : pirates, corsaires et flibustiers »</seg>, du Centre de Recherche sur la Littérature des Voyages, www.crlv.org. Article également disponible dans <title>Les tyrans de la mer. Pirates, corsaires et flibustiers</title>, textes réunis par <hi rend="sc">Linon-Chipon</hi> Sophie et <hi rend="sc">Requemora</hi> Sylvie, Celat, Presses de l’université Paris-Sorbonne, <seg rend="plain">Imago Mundi n°4, Paris, 2002, p. 297-314.</seg></bibl>
+                <bibl><hi rend="sc">Requemora</hi> Sylvie, <title>L’Imagerie littéraire du tyran de la Mer au XVII<hi rend="sup">e</hi> siècle : des récits de voyage et des histoires de flibustiers aux traitements romanesques et dramaturgiques</title>, extrait du colloque international « L'aventure maritime : pirates, corsaires et flibustiers », du Centre de Recherche sur la Littérature des Voyages, www.crlv.org. Article également disponible dans <title>Les tyrans de la mer. Pirates, corsaires et flibustiers</title>, textes réunis par <hi rend="sc">Linon-Chipon</hi> Sophie et <hi rend="sc">Requemora</hi> Sylvie, Celat, Presses de l’université Paris-Sorbonne, <hi rend="i">Imago Mundi</hi> n°4, Paris, 2002, p. 297-314.</bibl>
                 <p>Nous avons mentionné entre crochets la localisation des livres en utilisant les abréviations suivantes : BIU Sorb : Bibliothèque inter-universitaire de la Sorbonne ; Tolbiac : site Tolbiac de la Bibliothèque Nationale de France ; Ars : site de l’Arsenal de la Bibliothèque Nationale de France ; BSG : Bibliothèque Sainte-Geneviève ; Paris 3, GB : Bibliothèque Gaston Baty de l’université Paris III ; NUM Gallica : version numérisée en ligne sur le site Gallica de la BNF.</p>
               </div>
             </div>
