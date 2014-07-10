@@ -29,7 +29,8 @@ else echo '<title>Bibliothèque dramatique</title>';
     <div id="center">
       <header id="header">
         <h1>
-          <a href="<?php echo Web::basehref() ?>">Bibliothèque dramatique, prototype</a>
+           <a href="<?php echo Web::basehref() ?>">Bibliothèque dramatique</a><span style="width: 20px; white-space: nowrap;"></span>|<span style="width:20px; white-space: nowrap;"></span><a href="http://cellf.paris-sorbonne.fr">Le CELLF</a>
+          
         </h1>
         <?php // liens de téléchargements
           // if ($doc['downloads']) echo "\n".'<nav id="downloads"><small>Télécharger :</small> '.$doc['downloads'].'</nav>';
@@ -57,7 +58,7 @@ else {
   echo $pot->biblio(array('byline', 'title', 'date', 'editor', 'download')); // présentation bibliographique des résultats
   echo $pot->concByBook(); // concordance s’il y a recherche plein texte
   
-  ?><div class="linkOld" style="width: 100%; text-align: center;"><a style="color: gray; font-size: 14px; border-bottom: none;" href="http://www.crht.paris-sorbonne.fr/">Suite des pièces…</a></div><?php
+  ?><div class="linkOld" style="width: 100%; text-align: center;"><a style="color: gray; font-size: 14px; border-bottom: none;" href="http://www.bibliothequedramatique.fr/">Suite des pièces…</a><span style="width: 20px; white-space: nowrap;"></span>|<span style="width: 20px; white-space: nowrap;"</span><a style="color: gray; font-size: 14px; border-bottom: none;" href="http://cellf.paris-sorbonne.fr">Site du CELLF</a></div><?php
   
 }
       ?>
