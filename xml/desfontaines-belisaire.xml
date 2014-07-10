@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="desfontaines-belisaire" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Bélisaire. Tragi-comédie</title>
-        <author>Nicolas Mary, sieur Desfontaines</author>
+        <title>Bélisaire. Tragi-comédie</title>
+        <author key="Desfontaines, Nicolas (15..?-1652)">Nicolas Mary, sieur Desfontaines</author>
         <editor>Claire Chaineaux</editor>
       </titleStmt>
       <editionStmt>
@@ -265,14 +264,14 @@
             <p>P. 1-112, <hi rend="i">Belisaire</hi>.</p>
             <p>Privilège accordé pour sept ans à Courbé le 20 juin 1641 ; achevé d’imprimer le 6 juillet 1641.</p>
             <p>Il existe d’assez nombreux exemplaires de la même édition dans les collections publiques françaises et étrangères. Les éditions séparées sont :</p>
-            <list type="dialogue">
+            <list>
               <item>– à la Bibliothèque Nationale : Yf 575 in 4°, hors d’usage,</item>
               <item>– à la Bibliothèque de la Sorbonne : R ra 428 in 8°.</item>
               <item>– à la Bibliothèque municipale de Lyon : 36 0741</item>
             </list>
             <p>Les éditions collectives sont :</p>
-            <p rend="noindent">– à la Bibliothèque de l’Arsenal : 4BL 3490 (2) in 4°,    </p>
-            <list type="dialogue">
+            <list>
+            <item>– à la Bibliothèque de l’Arsenal : 4BL 3490 (2) in 4°,    </item>
               <item>– à la Bibliothèque municipale de Rouen : 0. 598 (3)</item>
               <item>– à la Bibliothèque du British Museum, Londres : 86.a.l.(5)</item>
             </list>
@@ -282,7 +281,7 @@
             <p>Nous avons préféré garder l’orthographe de l’original. Il ne faudra donc pas s’étonner des nombreuses formes d’un même mot : le XVIIème siècle n’avait pas encore une orthographe fixe. Nous avons néanmoins modernisé quelques graphies : décomposition des voyelles nasales surmontées du tilde en voyelle + consonne, les ### en ss, différenciation de i et u de j et v.</p>
             <p>Nous avons également conserver la ponctuation de l’époque qui n’a pas la même valeur que la nôtre : il n’était par exemple pas rare de trouver une virgule entre le sujet et verbe si celui-ci était au vers suivant. En fait, la ponctuation était plutôt une indication pour la déclamation.</p>
             <p>Les didascalies sont conformes à celles de l’original, ainsi que le découpage des scènes.</p>
-            <p rend="noindent">Nous avons néanmoins ajouté le numéro des vers pour faciliter la lecture.</p>
+            <p>Nous avons néanmoins ajouté le numéro des vers pour faciliter la lecture.</p>
           </div>
           <div>
             <head>Corrections</head>
@@ -397,7 +396,7 @@
           <div type="scene">
             <head>SCENE PREMIERE</head>
             <stage>JUSTINIAN, THEODORE, SOPHIE, AMALAZONTHE, BELISAIRE, NARSE’S, VITIGE’S, DIOPHANTE, &amp; Deux Gardes.</stage>
-            <sp who="justinian-dans-l-edition-de-belisaire-disponible-a-la-bibliotheque-de-l-arsenal">
+            <sp who="justinian">
               <speaker>JUSTINIAN<note n="15" place="bottom"> Dans l’édition de <hi rend="i">Belisaire</hi> disponible à la Bibliothèque de l’Arsenal, nous trouvons des annotations et remarques attribuées à Desfontaines lui-même que nous indiquerons au fur et à mesure du texte. Ici on peut lire : "Donne la liberté à Amalazonthe et promet (...) recompense à Belisaire" (la parenthèse remplace un mot illisible).</note></speaker>
               <l n="1" xml:id="l1">Levez-vous.</l>
             </sp>
@@ -497,7 +496,7 @@
               <l n="79" xml:id="l79">Et qu’ayant quelques fois la foudre dans les mains</l>
               <l n="80" xml:id="l80">Ils ont compassion des larmes des humains.</l>
             </sp>
-            <sp who="vitiges">
+            <sp who="vitigez">
               <speaker>VITIGES</speaker>
               <l n="81" xml:id="l81">Ce propos <ref target="#genereux">genereux*</ref> divine Amalazonthe,</l>
               <l n="82" xml:id="l82">Veut faire voir icy vôtre gloire &amp; ma honte,</l>
@@ -528,7 +527,7 @@
               <speaker>AMALAZONTHE</speaker>
               <l n="105" xml:id="l105">Seigneur.</l>
             </sp>
-            <sp who="vitiges">
+            <sp who="vitigez">
               <speaker>VITIGES</speaker>
               <l part="Y"><space/>Amalazonthe.</l>
             </sp>
@@ -569,7 +568,7 @@
               <l n="124" xml:id="l124">Qu’il est advantageux d’estre sous mon pouvoir.</l>
               <l n="125" xml:id="l125">Qu’on détache ses fers.</l>
             </sp>
-            <sp who="vitiges">
+            <sp who="vitigez">
               <speaker>VITIGES</speaker>
               <l part="Y"><space/><space/>            Ah ! Seigneur mon offence</l>
               <l n="126" xml:id="l126">Les a trop meritez ; mais par cette clemence,</l>
@@ -584,7 +583,7 @@
               <l n="135" xml:id="l135">Que je dois relever d’un si juste pouvoir,</l>
               <l n="136" xml:id="l136">Et par vostre vertu j’apprendray mon devoir.</l>
             </sp>
-            <sp who="justinian-a-belisaire">
+            <sp who="justinian">
               <speaker>JUSTINIAN <hi rend="i">à Belisaire</hi></speaker>
               <l n="137" xml:id="l137">Rare honneur de ma Cour, appuy de mon Empire</l>
               <l n="138" xml:id="l138">Que j’honnore, qu’on craint ; mais que chacun admire,</l>
@@ -603,7 +602,7 @@
               <l n="151" xml:id="l151"><space/><space/>Et que tous les Guerriers qui combattent pour moy            <pb n="9"/></l>
               <l n="152" xml:id="l152">Dans leurs plus beaux desseins n’agissent que par toy.</l>
             </sp>
-            <sp who="theodore-a-part">
+            <sp who="theodore">
               <speaker>THEODORE <hi rend="i">à part</hi></speaker>
               <l n="153" xml:id="l153">Icare audacieux, cette orgueïlleuse pompe</l>
               <l n="154" xml:id="l154">Dont le funeste esclat me déplaist &amp; te trompe,</l>
@@ -644,7 +643,7 @@
             <pb/>
             <head>SCENE II</head>
             <stage>THEODORE, SOPHIE, NARSES</stage>
-            <sp who="theodoredesfontaines-ajoute-&quot;charge-narses-de-tuer-belisaire">
+            <sp who="theodore">
               <speaker>THEODORE<note n="35" place="bottom">Desfontaines ajoute "charge Narses de tuer Belisaire, puis elle compte sur Isquirion, qui aime Sophie."</note></speaker>
               <l n="177" xml:id="l177">Hé bien chers confidens des secrets de mon ame,</l>
               <l n="178" xml:id="l178">Dans mes ressentimens merite-je du blasme ?</l>
@@ -707,7 +706,7 @@
               <l n="219" xml:id="l219">Et vous sçaurez tous deux aprés ce noble effet</l>
               <l n="220" xml:id="l220">Comme je sçais en fin m’acquiter d’un bien-fait.</l>
             </sp>
-            <sp who="narses-bas">
+            <sp who="narses">
               <speaker>NARSES <hi rend="i">bas</hi></speaker>
               <l n="221" xml:id="l221">Il est vray, ce dessein le fait assez paroistre :</l>
               <l n="222" xml:id="l222">Mais je seray plutost ton ennemy que traistre.</l>
@@ -809,7 +808,7 @@
               <l n="303" xml:id="l303">Je t’en laisse le soing.</l>
               <stage>Elle sort.</stage>
             </sp>
-            <sp who="narse-s">
+            <sp who="narses">
               <speaker>NARSE’S</speaker>
               <l part="Y"><space/><space/>            Reposez-vous sur moy.</l>
             </sp>
@@ -838,7 +837,7 @@
               <l n="319" xml:id="l319">J’arracheray mon coeur, &amp; mon sang respandu</l>
               <l n="320" xml:id="l320">Coulera sur celuy qu’un Prince aura perdu<note n="50" place="bottom">La dimension tragique de ce personnage tient dans ces vers. Sophie est condamnée à mourir si Bélisaire meurt dans la mesure où non seulement elle n’aura plus de raison de vivre mais en plus elle sera promise à l’assassin de son amant. En plus des considérations de l’amour de Sophie pour Bélisaire, est présent le critère de la bienséance qui veut qu’une femme n’épouse pas l’assassin de son amant (ce qui n’est pas sans évoquer une certaine Chimène).</note>.</l>
             </sp>
-            <sp who="narse-s">
+            <sp who="narses">
               <speaker>NARSE’S</speaker>
               <l n="321" xml:id="l321">Il n’est pas necessaire, adorable Sophie,</l>
               <l n="322" xml:id="l322">Qu’icy mon innocence en vain se justifie,</l>
@@ -868,7 +867,7 @@
               <l n="343" xml:id="l343">Et moy pour m’opposer à ce lasche courroux,</l>
               <l n="344" xml:id="l344">De son liberateur je feray mon espoux<note n="51" place="bottom">Desfontaines souligne les vers 342 et 343 et met ainsi en valeur leur importance : ils s’opposent en effet directement aux vers 283 et 284 prononcés par Théodore ("Et le seul partizan de mon juste couroux / Sera dans peu de temps son maistre et vostre espoux") et déclenchent ainsi un suspens nouveau pour le spectateur.</note>.</l>
             </sp>
-            <sp who="narse-s">
+            <sp who="narses">
               <speaker>NARSE’S</speaker>
               <l n="345" xml:id="l345">L’espoir de posseder un si grand advantage</l>
               <l n="346" xml:id="l346">Doit aux moins <ref target="#genereux">genereux*</ref> inspirer du courage,</l>
@@ -967,50 +966,56 @@
           <div type="scene">
             <pb/>
             <head>SCENE II                                <pb n="23"/></head>
-            <sp who="belisaire-seul">
+            <sp who="belisaire">
               <speaker>BELISAIRE <hi rend="i">seul</hi></speaker>
+              <lg>
               <l n="409" xml:id="l409">Lieux charmans, solitude sombre,</l>
               <l n="410" xml:id="l410">Sejour du silence &amp; de l’ombre,</l>
               <l n="411" xml:id="l411">Beaux arbres que je rends tesmoins de mon tourment,</l>
               <l n="412" xml:id="l412">Ne vous <ref target="#estonner">estonnez*</ref> pas d’entendre mon martire,</l>
               <l n="413" xml:id="l413">Puis que c’est à vous seulement,</l>
               <l n="414" xml:id="l414">Que ma discretion m’a permis de le dire.</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="415" xml:id="l415">Amour ce petit Dieu des coeurs,</l>
               <l n="416" xml:id="l416">Qui des plus <ref target="#superbe">superbes*</ref> vainqueurs,</l>
               <l n="417" xml:id="l417">Abaisse quand il veut &amp; l’audace &amp; la gloire,</l>
               <l n="418" xml:id="l418">Ce tyran contre qui tous mes efforts sont vains,</l>
               <l n="419" xml:id="l419">Ne pouvant <ref target="#souffrir">souffrir*</ref> ma victoire,</l>
               <l n="420" xml:id="l420">A fait <ref target="#choir">choir*</ref> aujourd’huy mes lauriers de mes mains.</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="421" xml:id="l421">Mon triomphe a produit ma peine,</l>
               <l n="422" xml:id="l422">Et je suis captif d’une Reine<note n="55" place="bottom">Le thème de l’amant captif est une pointe galante traditionnelle du discours amoureux que l’on retrouve à la scène 3 de l’acte III.</note>,</l>
               <l n="423" xml:id="l423">Dont naguere mon bras estoit victorieux,</l>
               <l n="424" xml:id="l424">Si j’ay tiré du sang, elle a versé des larmes,</l>
               <l n="425" xml:id="l425">Et cet objet imperieux</l>
               <l n="426" xml:id="l426">A plus fait par ses pleurs que mon bras par ses armes.</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="427" xml:id="l427"><space/>Ouy c’en est fait, quitte mon coeur<note n="56" place="bottom">"mon coeur" est en apostrophe.</note>,                    <pb n="24"/></l>
               <l n="428" xml:id="l428">Quitte le tiltre de vainqueur,</l>
               <l n="429" xml:id="l429">Et cede à ses beaux yeux cette orgueilleuse marque,</l>
               <l n="430" xml:id="l430">Tu resiste en vain rebelle, resous toy,</l>
               <l n="431" xml:id="l431">Puis qu’ils triomphent d’un Monarque,</l>
               <l n="432" xml:id="l432">De <ref target="#souffrir">souffrir*</ref> desormais qu’ils te donnent la loy.</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="433" xml:id="l433">Mais helas ! aveugle que dis-je,</l>
               <l n="434" xml:id="l434">C’est cette raison qui m’afflige,</l>
               <l n="435" xml:id="l435">Et qui m’oste l’espoir necessaire à mes voeux,</l>
               <l n="436" xml:id="l436">Ma princesse me plaist, mais ce Roy m’importune,</l>
               <l n="437" xml:id="l437">Et quand je les ay pris tous deux,</l>
               <l n="438" xml:id="l438">J’ay détruit mon amour, &amp; nuit à ma fortune.</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="439" xml:id="l439">N’importe, esperons toutesfois,</l>
               <l n="440" xml:id="l440">Mars qui favorise mes droits</l>
               <l n="441" xml:id="l441">Ne veut pas aujourd’huy que je les abandonne,</l>
               <l n="442" xml:id="l442">Mon rival par ce prix peut rentrer dans ses biens,</l>
               <l n="443" xml:id="l443">Et s’il veut r’avoir sa Couronne,</l>
               <l n="444" xml:id="l444">Il faut qu’à mon amour il laisse ses liens.</l>
-              <p/>
+              </lg>
               <l n="445" xml:id="l445">Ennemy<note n="57" place="bottom">Bélisaire s’adresse virtuellement à Vitigés et exprime sa rancoeur contre qui le prive de sa gloire totale : il a perdu sur le plan amoureux puisqu’Amalazonthe reste fidèle à Vitigés.</note> de mon bien ainsi que de ma gloire,</l>
               <l n="446" xml:id="l446">Qui mesme dans les fers partages ma victoire,</l>
               <l n="447" xml:id="l447">Monarque malheureux resous toy de ceder,</l>
@@ -1043,7 +1048,7 @@
               <l n="465" xml:id="l465">Et cet illustre sang que vous voulez répendre,</l>
               <l n="466" xml:id="l466">Coulera lasches coeurs, mais je le sçauray vendre,</l>
             </sp>
-            <sp who="narse-s">
+            <sp who="narses">
               <speaker>NARSE’S</speaker>
               <l n="467" xml:id="l467">Il n’importe.</l>
             </sp>
@@ -1120,7 +1125,7 @@
               <l n="523" xml:id="l523">Et c’est un chastiment qui tousjours fait sentir</l>
               <l n="524" xml:id="l524">Les peines qu’aux grands coeurs donne du repentir<note n="70" place="bottom">On a dans cette tirade une succession de sentences relatives à le nécessité de pardonner. Les sentences sont très importantes dans le théâtre des XVIème et XVIIème siècles : ce sont des énoncés à valeur morale destinés à enseigner la vertu. Nous aurons l’occasion d’en rencontrer d’autres dans la pièce.</note>.</l>
             </sp>
-            <sp who="narse-s">
+            <sp who="narses">
               <speaker>NARSE’S</speaker>
               <l n="525" xml:id="l525">Il est vray que je souffre un remors bien sensible,</l>
               <l n="526" xml:id="l526"><space/><space/>Et bien tost mon trépas vous le rendra visible :                 <pb n="29"/></l>
@@ -1143,7 +1148,7 @@
               <l n="536" xml:id="l536">Qu’un lasche assassinat soit un trait de vertu ?</l>
               <l n="537" xml:id="l537">Quel <ref target="#transport">transport*</ref> a causé cette fureur extreme ?</l>
             </sp>
-            <sp who="narse-s">
+            <sp who="narses">
               <speaker>NARSE’S</speaker>
               <l n="538" xml:id="l538">La raison, la pitié, mon amour, &amp; vous mesme.</l>
             </sp>
@@ -1151,7 +1156,7 @@
               <speaker>BELISAIRE</speaker>
               <l n="539" xml:id="l539">Moy, Narsés ? que dis-tu ?</l>
             </sp>
-            <sp who="narse-s">
+            <sp who="narses">
               <speaker>NARSE’S</speaker>
               <l part="Y"><space/><space/>            Je dis ce que je dois<note n="72" place="bottom">Derrière ces réponses allusives qui donnent l’apparence d’être précises et directes, Narsés cache la vérité comme il l’a promis à Sophie, d’où l’idée de devoir qu’il évoque.</note>.</l>
             </sp>
@@ -1160,7 +1165,7 @@
               <l n="540" xml:id="l540">Ah ! sans doute ton coeur dement icy ta voix,</l>
               <l n="541" xml:id="l541">Je n’eus jamais de part aux lâchetez d’un traistre.</l>
             </sp>
-            <sp who="narse-s">
+            <sp who="narses">
               <speaker>NARSE’S</speaker>
               <l n="542" xml:id="l542">Non, mais si je le suis vous m’obligez à l’estre<note n="73" place="bottom">Narsés sous-entend que s’il est traître c’est à cause de Bélisaire, si celui-ci le force à dénoncer les commanditaires.</note>,</l>
               <l n="543" xml:id="l543">Et la seule pitié que j’ay de vostre sort</l>
@@ -1174,7 +1179,7 @@
               <speaker>ISKIRION</speaker>
               <l n="549" xml:id="l549">Ce discours cache un sens que je ne puis comprendre.</l>
             </sp>
-            <sp who="narse-s">
+            <sp who="narses">
               <speaker>NARSE’S</speaker>
               <l n="550" xml:id="l550">Dedans peu<note n="74" place="bottom">Dans peu de temps</note> les <ref target="#effet">effects*</ref> vous le pourrons apprendre,</l>
               <l n="551" xml:id="l551">Et mon malheur me rend bien-heureux en ce point,</l>
@@ -1294,6 +1299,7 @@
             <head>SCENE V                                <pb n="35"/></head>
             <sp who="belisaire">
               <speaker>BELISAIRE<note n="86" place="bottom">Note manuscrite : "regrette d’avoir tué Narses, sans l’avoir connu"</note></speaker>
+              <lg>
               <l n="627" xml:id="l627">Dans ces sombres deserts où rien ne peut parler,</l>
               <l n="628" xml:id="l628">Je pensois soulager mon amoureux martyre,</l>
               <l n="629" xml:id="l629">Mais au lieu de trouver de quoy me consoler,</l>
@@ -1302,7 +1308,8 @@
               <l n="632" xml:id="l632">Qui sent une horrible tempeste.</l>
               <l n="633" xml:id="l633">Helas ! Destins que sert<note n="87" place="bottom">"Que sert" équivaut à "à quoi sert".</note> un laurier sur la teste,</l>
               <l n="634" xml:id="l634">Une palme en la main, quand le crime est au coeur ?</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="635" xml:id="l635">Allons, hé quoy mes yeux vous n’obeissez pas,</l>
               <l n="636" xml:id="l636">N’osez-vous regarder un objet si funeste ?</l>
               <l n="637" xml:id="l637">Moy-mesme mal-gré moy j’en esloigne mes pas,</l>
@@ -1311,7 +1318,8 @@
               <l n="640" xml:id="l640">Puis que le devoir t’y convie,</l>
               <l n="641" xml:id="l641">Lasche main que crains-tu ? Narsés n’a plus de vie,</l>
               <l n="642" xml:id="l642">Il n’aura plus de voix pour reprocher sa mort<note n="88" place="bottom">Il y a dans ces stances deux moments distincts. Dans un premier temps, la "main cruelle" au vers 639 désigne celle qui a tué Narsés et qui se détourne du cadavre tout comme ses yeux (vers 635). Ensuite Bélisaire dit son devoir de pleurer ce cadavre et son ami et veut se tuer (vers 651) pour punir son geste criminel.</note>.</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="643" xml:id="l643">Que dis-je, mal-heureux ? cét object que je vois</l>
               <l n="644" xml:id="l644">Tient aujourd’huy mon coeur en de justes allarmes,</l>
               <l n="645" xml:id="l645"><space/><space/>Car bien qu’il ait perdu l’usage de la voix,                 <pb n="36"/></l>
@@ -1320,7 +1328,8 @@
               <l n="648" xml:id="l648">Je vois escrit sur cette face,</l>
               <l n="649" xml:id="l649">Apres tant de bon-heur, l’arrest de ma disgrace<note n="89" place="bottom">Ce vers donne déjà un indice de la suite et semble mettre Bélisaire dans une crise inéluctable. Narsés est le reflet de sa destinée.</note>,</l>
               <l n="650" xml:id="l650">Et je trouve la foudre en la bouche d’un mort.</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="651" xml:id="l651">Narsés je vais mourir, pardonne à mon erreur,</l>
               <l n="652" xml:id="l652">Si ton sang peut parler il faut qu’il me console,</l>
               <l n="653" xml:id="l653">Parmy tant de soupirs &amp; de traits de fureur,</l>
@@ -1329,7 +1338,8 @@
               <l n="656" xml:id="l656">Je suis prest de vous satisfaire,</l>
               <l n="657" xml:id="l657">Mais comment, justes Dieux, la mort peut-elle faire</l>
               <l n="658" xml:id="l658">Un juge si cruel d’un coupable si doux ?</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="659" xml:id="l659">Quitte, quitte le jour, <ref target="#infortune">infortuné*</ref> vainqueur,</l>
               <l n="660" xml:id="l660">Ton deüil par des regrets trop laschement s’exprime,</l>
               <l n="661" xml:id="l661">Puny ta cruauté par une autre rigueur,</l>
@@ -1338,13 +1348,14 @@
               <l n="664" xml:id="l664">Et que cette fatale espée,</l>
               <l n="665" xml:id="l665">Contre toy-mesme icy par toy-mesme occupée,</l>
               <l n="666" xml:id="l666">Soit ton juste supplice, &amp; ta main ton bourreau.</l>
+              </lg>
             </sp>
           </div>
           <div type="scene">
             <pb/>
             <head>SCENE VI                            <pb n="37"/></head>
             <stage>BELISAIRE, DIOPHANTE</stage>
-            <sp who="diophante-empeschant-qu-il-ne-se-jette-sur-son-espee">
+            <sp who="diophante">
               <speaker>DIOPHANTE <hi rend="i">empeschant qu’il ne se jette sur son espée.</hi></speaker>
               <l n="667" xml:id="l667">Dieux, qu’est-ce que je vois ? ah, Seigneur !</l>
             </sp>
@@ -1647,7 +1658,7 @@
             <pb/>
             <head>SCENE V</head>
             <stage>ISKIRION, BELISAIRE, DORISTEL<note n="111" place="bottom">Note manuscrite : "Situation - Celuy qui venoit le poignarder s’arrête, et lourds de remords luy demande pardon."</note></stage>
-            <sp who="doristel-parlant-a-iskirion">
+            <sp who="doristel">
               <speaker>DORISTEL <hi rend="i">parlant à Iskirion</hi></speaker>
               <l n="851" xml:id="l851">Le voila.</l>
             </sp>
@@ -2409,7 +2420,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE VII</head>
-            <sp who="belisaire-s-eveillant">
+            <sp who="belisaire">
               <speaker>BELISAIRE <hi rend="i">s’eveillant</hi></speaker>
               <l n="1302" xml:id="l1302">Ennemis de nos soins<note n="156" place="bottom">"Nos soins" au sens de "nos soucis".</note>, amoureux du silence,</l>
               <l n="1303" xml:id="l1303">Qui des soins plus puissans calmez la violence,</l>
@@ -2642,11 +2653,11 @@
             <pb/>
             <head>SCENE VI</head>
             <stage>THEODORE, JUSTINIAN, Un garde<note n="163" place="bottom">Note manuscrite : "Theodore accuse Belisaire. L'Empereur l’envoye arrester".</note></stage>
-            <sp who="juistinian-parlant-au-garde-a-la-porte">
+            <sp who="justinian">
               <speaker>JUISTINIAN <hi rend="i">parlant au garde à la porte</hi></speaker>
               <l n="1425" xml:id="l1425">Qu’autre personne ici ne nous soit introduite.</l>
             </sp>
-            <sp who="theodore-a-part">
+            <sp who="theodore">
               <speaker>THEODORE <hi rend="i">à part</hi></speaker>
               <l n="1426" xml:id="l1426">Je lis dedans ses yeux quelque dessein caché,</l>
               <l n="1427" xml:id="l1427">Je tremble &amp; sens au coeur un poison attaché,</l>
@@ -2755,7 +2766,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE VII                            <pb n="88"/></head>
-            <sp who="theodore-seule">
+            <sp who="theodore">
               <speaker>THEODORE <hi rend="i">seule</hi></speaker>
               <l n="1470" xml:id="l1470">Courage, tout va bien, il n’en peut échaper,</l>
               <l n="1471" xml:id="l1471">Et le traict de la mort est prest à le fraper :</l>
@@ -2839,7 +2850,7 @@
               <speaker>SOPHIE</speaker>
               <l n="1531" xml:id="l1531">Entrons</l>
             </sp>
-            <sp who="pirandre">
+            <sp who="pyrandre">
               <speaker>PIRANDRE</speaker>
               <l part="Y"><space/>Arrestez-la, que voulez-vous ?</l>
             </sp>
@@ -2850,7 +2861,7 @@
               <l n="1533" xml:id="l1533">Ne vous informez point, je sçay vostre devoir,</l>
               <l n="1534" xml:id="l1534">Et vous ne devez pas ignorer mon pouvoir.</l>
             </sp>
-            <sp who="pirandre">
+            <sp who="pyrandre">
               <speaker>PIRANDRE    <pb n="92"/></speaker>
               <l n="1535" xml:id="l1535">Mais l’Empereur me fait une expresse defense...</l>
             </sp>
@@ -2998,7 +3009,7 @@
               <l n="1611" xml:id="l1611">Orgueilleux, voy ton sort, regarde cette lame<note n="180" place="bottom">Ici elle s’adresse à Bélisaire.</note>,</l>
               <l n="1612" xml:id="l1612">Et par ce coup apprens.</l>
             </sp>
-            <sp who="iskirion-luy-retenant-le-bras">
+            <sp who="iskirion">
               <speaker>ISKIRION <hi rend="i">luy retenant le bras</hi></speaker>
               <l part="Y"><space/><space/>            Que faites-vous, Madame ?</l>
             </sp>
@@ -3309,7 +3320,7 @@
               <speaker>SOPHIE</speaker>
               <l part="Y"><space/><space/>            Cet espoir est ma vie.</l>
             </sp>
-            <sp who="iskirion-a-belisaire">
+            <sp who="iskirion">
               <speaker>ISKIRION <hi rend="i">à Belisaire</hi></speaker>
               <l n="1772" xml:id="l1772">Et vous ?</l>
             </sp>
