@@ -101,7 +101,6 @@ else {
     </footer>
     <script type="text/javascript" src="<?php echo $themeHref; ?>Tree.js">//</script>
     <script type="text/javascript" src="<?php echo $themeHref; ?>Sortable.js">//</script>
-    <!--<script type="text/javascript"><?php echo $doc['js']; ?></script>-->
     
     
     <!-- Pour l'alignement des vers -->
