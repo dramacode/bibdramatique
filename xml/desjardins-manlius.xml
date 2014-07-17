@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="desjardins-manlius" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Manlius. Tragi-comédie</title>
-        <author>Mademoiselle Desjardins</author>
+        <title>Manlius. Tragi-comédie</title>
+        <author key="Villedieu, Marie-Catherine de (1640?-1683)">Mademoiselle Desjardins</author>
         <editor>Hélène Canini</editor>
       </titleStmt>
       <editionStmt>
@@ -553,11 +552,9 @@
         <div xml:id="epitre">
           <head>A <hi rend="b">MADEMOISELLE</hi><note type="editor" place="bottom">Il s’agit de « La Grande Mademoiselle », Mademoiselle de Montpensier, fille de Gaston d’Orléans (frère de Louis XIII), cousine germaine du Roi, Louis XIV.</note></head>
           <p>MADEMOISELLE,</p>
-          <p><hi rend="i">Les hommages que vostre ALTESSE ROYALE reçoit tous les jours, me deffendent presque d’esperer, que mes respects ne puissent trouver place parmy la foule des Illustres* adorateurs de vostre Vertu</hi> 
-        :
-            <hi rend="i">Je crains avec raison, ce me semble, d’estre étouffée dans cette <ref target="#glorieux">glorieuse*</ref> <ref target="#presse">presse*</ref>. Mais il faut oser quelque chose pour s’acquitter de son devoir, et toutes les Augustes qualitez de vostre Personne Royale, ont fait une si douce violence à nostre jeune Manlius, que, sans considerer ses deffauts, il vient audacieusement se jeter aux pieds de la plus merveilleuse Princesse qui soit aujourd’huy dans le monde. En vain je luy ay representé qu’en ces rencontres, il faut pour le moins estre conduit par ces grands Auteurs que leur merite a rendus les Roys du Théatre; Que dans une si haute entreprise les applaudissements vulgaires</hi>
+          <p rend="i">Les hommages que vostre ALTESSE ROYALE reçoit tous les jours, me deffendent presque d’esperer, que mes respects ne puissent trouver place parmy la foule des Illustres* adorateurs de vostre Vertu : Je crains avec raison, ce me semble, d’estre étouffée dans cette <ref target="#glorieux">glorieuse*</ref> <ref target="#presse">presse*</ref>. Mais il faut oser quelque chose pour s’acquitter de son devoir, et toutes les Augustes qualitez de vostre Personne Royale, ont fait une si douce violence à nostre jeune Manlius, que, sans considerer ses deffauts, il vient audacieusement se jeter aux pieds de la plus merveilleuse Princesse qui soit aujourd’huy dans le monde. En vain je luy ay representé qu’en ces rencontres, il faut pour le moins estre conduit par ces grands Auteurs que leur merite a rendus les Roys du Théatre; Que dans une si haute entreprise les applaudissements vulgaires
         <note type="editor" place="bottom">Signifie "du peuple"</note>
-         <hi rend="i">sont un foible appuy, &amp; que les lumieres de vôtre ALTESSE ROYALE ne trouvent rien qu’elles ne penetrent.</hi>
+         sont un foible appuy, &amp; que les lumieres de vôtre ALTESSE ROYALE ne trouvent rien qu’elles ne penetrent.
 </p>
           <quote>
             <l>Il dit que par tout l’Univers,</l>
@@ -570,7 +567,7 @@
             <l>Que souvent ce n’est pas un crime</l>
             <l>Qu'une heureuse temerité.</l>
           </quote>
-          <p><hi rend="i">C’est, MADEMOISELLE, dans cette pensée qu’il a eu l’<ref target="#audace1">audace</ref> d’abuser de vostre bonté en dérobant à vostre ALTESSE ROYALE quelques heures de son loisir, et c’est par ce mesme <ref target="#mouvement2">mouvement*</ref> qu’il ose aujourd’huy vous demander l’honneur de vostre Protection. S'il est si heureux que de l’obtenir, elle luy donnera une vie dans les Siecles à venir, beaucoup plus Illustre* que la vie que je luy ay donnée dans ce Poëme. Tel a blâmé mon indulgence, qui la trouvera digne d’une loüange immortelle, quand il sçaura que ce Heros devoit un jour estre avoüé</hi><note type="editor" place="bottom"> Signifie "autorisé, aprouvé" (<hi rend="i">R</hi>.), mais peut également signifier « reconnu pour sien, protégé » (<hi rend="i">F</hi>.), car Mademoiselle Desjardins cherche à obtenir, en se comparant à son téméraire personnage Manlius, la protection illustre de la Grand Mademoiselle.</note><hi rend="i">de vostre ALTESSE ROYALE. Apres cela n’est-il pas vray de dire, qu’il y a des temeritez si heureuses qu’elles ne sont jamais criminelles ? Et ne dois-je pas esperer, que sur un exemple si fameux, il me sera permis de me dire</hi>, 
+          <p rend="i">C’est, MADEMOISELLE, dans cette pensée qu’il a eu l’<ref target="#audace1">audace</ref> d’abuser de vostre bonté en dérobant à vostre ALTESSE ROYALE quelques heures de son loisir, et c’est par ce mesme <ref target="#mouvement2">mouvement*</ref> qu’il ose aujourd’huy vous demander l’honneur de vostre Protection. S'il est si heureux que de l’obtenir, elle luy donnera une vie dans les Siecles à venir, beaucoup plus Illustre* que la vie que je luy ay donnée dans ce Poëme. Tel a blâmé mon indulgence, qui la trouvera digne d’une loüange immortelle, quand il sçaura que ce Heros devoit un jour estre avoüé<note type="editor" place="bottom"> Signifie "autorisé, aprouvé" (<hi rend="i">R</hi>.), mais peut également signifier « reconnu pour sien, protégé » (<hi rend="i">F</hi>.), car Mademoiselle Desjardins cherche à obtenir, en se comparant à son téméraire personnage Manlius, la protection illustre de la Grand Mademoiselle.</note>de vostre ALTESSE ROYALE. Apres cela n’est-il pas vray de dire, qu’il y a des temeritez si heureuses qu’elles ne sont jamais criminelles ? Et ne dois-je pas esperer, que sur un exemple si fameux, il me sera permis de me dire, 
 </p>
           <p>MADEMOISELLE,</p>
           <p>De Vostre Altesse,</p>
@@ -581,32 +578,32 @@
         <div xml:id="personnages">
           <head>PERSONNAGES.</head>
           <castList>
-          <castItem xml:id="torquatus">
-            <role>TORQUATUS,</role>
+          <castItem>
+            <role xml:id="torquatus">TORQUATUS,</role>
             <roleDesc>Consul Romain.</roleDesc>
           </castItem>
-          <castItem xml:id="manlius">
-            <role>MANLIUS,</role>
+          <castItem>
+            <role xml:id="manlius">MANLIUS,</role>
             <roleDesc>Fils du Consul.</roleDesc>
           </castItem>
-          <castItem xml:id="camille">
-            <role>CAMILLE,</role>
+          <castItem>
+            <role xml:id="camille">CAMILLE,</role>
             <roleDesc>Vefve de Decius<note type="editor" place="bottom">Consul romain en même temps que Torquatus qui périt en 340 avant J.-C., à la bataille de Véséris où il se dévoua pour sa patrie.</note>.</roleDesc>
           </castItem>
-          <castItem xml:id="omphale">
-            <role>OMPHALE,</role>
+          <castItem>
+            <role xml:id="omphale">OMPHALE,</role>
             <roleDesc>Princesse d’Epire captive des Romains.</roleDesc>
           </castItem>
-          <castItem xml:id="junius">
-            <role>JUNIUS,</role>
+          <castItem>
+            <role xml:id="junius">JUNIUS,</role>
             <roleDesc>Amy de Torquatus.</roleDesc>
           </castItem>
-          <castItem xml:id="phenice">
-            <role>PHENICE,</role>
+          <castItem>
+            <role xml:id="phenice">PHENICE,</role>
             <roleDesc>Suivante d’Omphale.</roleDesc>
           </castItem>
-          <castItem xml:id="pison">
-            <role>PISON,</role>
+          <castItem>
+            <role xml:id="pison">PISON,</role>
             <roleDesc>Licteur<note type="editor" place="bottom">Officier qui marchait devant les principaux magistrats de Rome et qui portait une hache entourée d’un faisceau de verges, symbole du pouvoir.</note>.</roleDesc>
           </castItem>
           </castList>
@@ -3080,7 +3077,7 @@
           <head>Glossaire</head>
           <p>Les références des dictionnaires utilisés sont données sous forme d’initiales : <hi rend="i">A</hi>. pour le dictionnaire de l’Académie, <hi rend="i">C</hi>. pour celui de Corneille, <hi rend="i">F</hi>. pour celui de Furetière, et <hi rend="i">R</hi>. pour celui de Richelet.</p>
           <entryFree xml:id="adorer">
-            <form>Adorer (<hi rend="i">F</hi>.)</form>
+            <form>Adorer (F.)</form>
             <def>Terme habituellement réservé au fait de rendre un culte à un être considéré comme un dieu, mais on l’emploie aussi « abusivement pour marquer que l’on aime passionnément »</def>
             <xr>V. <ref target="#l230">230</ref>, v. <ref target="#l383">383</ref>, v. <ref target="#l508">508</ref>, v. <ref target="#l839">839</ref></xr>
           </entryFree>
@@ -3107,7 +3104,7 @@
           </entryFree>
           <entryFree xml:id="affaire">
             <form>Affaire </form>
-            <def>Ce qui peut occuper nos soins, nos pas, nos pensées, nous obliger à travailler, aller et venir. Se dit particulierement des procès. Se dit des ordres, des soins, des negociations qui regardent l’Estat. <hi rend="b">(<hi rend="i">F</hi>.)</hi></def>
+            <def>Ce qui peut occuper nos soins, nos pas, nos pensées, nous obliger à travailler, aller et venir. Se dit particulierement des procès. Se dit des ordres, des soins, des negociations qui regardent l’Estat. (<hi rend="i">F</hi>.)</def>
             <xr>V. <ref target="#l41">41</ref>, <ref target="#l73">73</ref>, <ref target="#l109">109</ref>, <ref target="#l1208">1208</ref>, <ref target="#l1264">1264</ref></xr>
           </entryFree>
           <entryFree xml:id="alarme">
@@ -3144,7 +3141,7 @@
           </entryFree>
           <entryFree>
             <form>Ardeur </form>
-            <def xml:id="ardeur1">Figurément, signifie « Action vive et pleine de feu » <hi rend="b">(<hi rend="i">R.</hi>)</hi></def>
+            <def xml:id="ardeur1">Figurément, signifie « Action vive et pleine de feu » (<hi rend="i">R.</hi>)</def>
             <xr>V. <ref target="#l82">82</ref>, v. <ref target="#l95">95</ref>, v. <ref target="#l290">290</ref>, v. <ref target="#l406">406</ref>, v. <ref target="#l439">439</ref>, v. <ref target="#l1020">1020</ref>, v. <ref target="#l1205">1205</ref>, v. <ref target="#l1532">1532</ref></xr>
             <def xml:id="ardeur2">« Amour, passion »</def>
             <xr>V. <ref target="#l10">10</ref>, v. <ref target="#l18">18</ref>, v. <ref target="#l128">128</ref>, v. <ref target="#l234">234</ref>, v. <ref target="#l1180">1180</ref></xr>
@@ -3158,7 +3155,7 @@
           </entryFree>
           <entryFree>
             <form>Attentat</form>
-            <def xml:id="attentat1">Outrage ou violence qu’on tâche de faire à quelqu’un <hi rend="b">(<hi rend="i">F</hi>.)</hi></def>
+            <def xml:id="attentat1">Outrage ou violence qu’on tâche de faire à quelqu’un (<hi rend="i">F</hi>.)</def>
             <xr>V. <ref target="#l47">47</ref>, v. <ref target="#l1046">1046</ref>, v. <ref target="#l1502">1502</ref></xr>
             <def xml:id="attentat2">En termes de Palais, se dit figurément de ce qui est fait contre l’autorité des superieurs et de leur jurisdiction</def>
             <xr>V. <ref target="#l275">275</ref>, v. <ref target="#l668">668</ref>, v. <ref target="#l683">683</ref></xr>
@@ -3245,7 +3242,7 @@
             <form>Contraindre</form>
             <def xml:id="contraindre1">Contraindre de faire quelque chose Au sens actuel d’être obligé</def>
             <xr>V. <ref target="#l1217">1217</ref></xr>
-            <def xml:id="contraindre2"><hi rend="b"><hi rend="i">Se contraindre</hi></hi> S’ « obliger à quelque retenüe, qui gesne et fait peine » (<hi rend="i">A</hi>.)</def>
+            <def xml:id="contraindre2"><hi rend="i">Se contraindre</hi> S’ « obliger à quelque retenüe, qui gesne et fait peine » (<hi rend="i">A</hi>.)</def>
             <xr>V. <ref target="#l784">784</ref></xr>
           </entryFree>
           <entryFree>
@@ -3325,7 +3322,7 @@
             <form>Fer</form>
             <def xml:id="fer1">Désigne le métal, mais aussi, par métonymie, tout objet fait en ce métal, notamment l’épée</def>
             <xr>V. <ref target="#l948">948</ref></xr>
-            <def xml:id="fers1"><hi rend="b">Au pluriel</hi> : 1° Ce sont les liens de fer, les chaines qui tiennent les Prisonniers. (<hi rend="i">R.</hi>)</def>
+            <def xml:id="fers1">Au pluriel : 1° Ce sont les liens de fer, les chaines qui tiennent les Prisonniers. (<hi rend="i">R.</hi>)</def>
             <xr>V. <ref target="#l64">64</ref>, v. <ref target="#l122">122</ref>, v. <ref target="#l161">161</ref>, v. <ref target="#l173">173</ref>, v. <ref target="#l602">602</ref>, v. <ref target="#l1203">1203</ref></xr>
             <def xml:id="fers2">Il se prend aussi figurément et poëtiquement pour L'estat de l’esclavage, et pour L'engagement dans une passion amoureuse (<hi rend="i">A.</hi>)</def>
             <xr>V. <ref target="#l40">40</ref>, v. <ref target="#l258">258</ref>, v. <ref target="#l261">261</ref>, v. <ref target="#l264">264</ref></xr>
@@ -3402,7 +3399,7 @@
           </entryFree>
           <entryFree xml:id="garantir">
             <form>Garentir (ou garantir) </form>
-            <def>Préserver de quelque mal ou accident <hi rend="b">(<hi rend="i">F</hi>.)</hi></def>
+            <def>Préserver de quelque mal ou accident (<hi rend="i">F</hi>.)</def>
             <xr>V. <ref target="#l698">698</ref>, v. <ref target="#l734">734</ref>, v. <ref target="#l871">871</ref>, v. <ref target="#l1198">1198</ref></xr>
           </entryFree>
           <entryFree>
@@ -3413,7 +3410,7 @@
             <xr>V. <ref target="#l206">206</ref>, v. <ref target="#l1234">1234</ref></xr>
           </entryFree>
           <entryFree>
-            <form>Gloire, <hi rend="i">s.f.</hi> </form>
+            <form>Gloire, s.f. </form>
             <def xml:id="gloire1">Honneur, loüange, estime, reputation qui procede du merite d’une personne, de l’excellence de ses actions ou de ses ouvrages <hi rend="i">(A.)</hi></def>
             <xr>V. <ref target="#l46">46</ref>, v. <ref target="#l53">53</ref>, v. <ref target="#l62">62</ref>, v. <ref target="#l204">204</ref>, v. <ref target="#l217">217</ref>, v. <ref target="#l240">240</ref>, v. <ref target="#l250">250</ref>, v. <ref target="#l254">254</ref>, v. <ref target="#l257">257</ref>, v. <ref target="#l278">278</ref>, v. <ref target="#l359">359</ref>, v. <ref target="#l374">374</ref>, v. <ref target="#l407">407</ref>, v. <ref target="#l443">443</ref>, v. <ref target="#l516">516</ref>, v. <ref target="#l547">547</ref>, v. <ref target="#l548">548</ref>, v. <ref target="#l635">635</ref>, v. <ref target="#l702">702</ref>, v. <ref target="#l743">743</ref>, v. <ref target="#l776">776</ref>, v. <ref target="#l901">901</ref>, v. <ref target="#l903">903</ref>, v. <ref target="#l979">979</ref>, v. <ref target="#l997">997</ref>, v. <ref target="#l1072">1072</ref>, v. <ref target="#l1075">1075</ref>, v. <ref target="#l1109">1109</ref>, v. <ref target="#l1110">1110</ref>, v. <ref target="#l1130">1130</ref>, v. <ref target="#l1220">1220</ref>, v. <ref target="#l1581">1581</ref></xr>
             <def xml:id="gloire2">Il se prend aussi quelquefois pour Eclat, splendeur</def>
@@ -3439,7 +3436,7 @@
           </entryFree>
           <entryFree xml:id="humeur">
             <form>Humeur</form>
-            <def>Certaine disposition de l’esprit, ou naturelle, ou accidentelle <hi rend="b">(<hi rend="i">A.</hi>)</hi></def>
+            <def>Certaine disposition de l’esprit, ou naturelle, ou accidentelle (<hi rend="i">A.</hi>)</def>
             <xr>V. <ref target="#l274">274</ref>, v. <ref target="#l729">729</ref></xr>
           </entryFree>
           <entryFree xml:id="infortune">
@@ -3462,7 +3459,7 @@
           </entryFree>
           <entryFree xml:id="interdit">
             <form>Interdit, -te </form>
-            <def>Il peut signifier, « Estonné, troublé, qui ne sçait ce qu’il fait, ce qu’il dit » <hi rend="b">(<hi rend="i">A</hi>.)</hi></def>
+            <def>Il peut signifier, « Estonné, troublé, qui ne sçait ce qu’il fait, ce qu’il dit » (<hi rend="i">A</hi>.)</def>
             <xr>V. <ref target="#l930">930</ref>, v. <ref target="#l1566">1566</ref></xr>
           </entryFree>
           <entryFree>
@@ -3550,7 +3547,7 @@
           </entryFree>
           <entryFree>
             <form>Réver</form>
-            <def xml:id="rever1">Entretenir ses pensées. Furetière précise même que « les amants de plaisent à resver dans un lieu solitaire, pour entretenir leurs pensées » <hi rend="b">(<hi rend="i">F</hi>.)</hi></def>
+            <def xml:id="rever1">Entretenir ses pensées. Furetière précise même que « les amants de plaisent à resver dans un lieu solitaire, pour entretenir leurs pensées » (<hi rend="i">F</hi>.)</def>
             <xr>V. <ref target="#l578">578</ref></xr>
             <def xml:id="rever2">Appliquer sérieusement son esprit à raisonner sur quelque chose, à trouver quelque moyen, quelque invention</def>
             <xr>V. <ref target="#l1347">1347</ref></xr>
@@ -3637,7 +3634,7 @@
           </entryFree>
           <entryFree>
             <form>Vain</form>
-            <def xml:id="vain1">« Se dit de ce qui n’est qu’en apparence, qui trompe les yeux, qui est chymerique. » <hi rend="b">(<hi rend="i">F.</hi>)</hi></def>
+            <def xml:id="vain1">« Se dit de ce qui n’est qu’en apparence, qui trompe les yeux, qui est chymerique. » (<hi rend="i">F.</hi>)</def>
             <xr>V. <ref target="#l59">59</ref>, v. <ref target="#l394">394</ref>, v. <ref target="#l592">592</ref>, v. <ref target="#l649">649</ref>, v. <ref target="#l663">663</ref>, v. <ref target="#l672">672</ref>, v. <ref target="#l1104">1104</ref>, v. <ref target="#l1349">1349</ref></xr>
             <def xml:id="vain2">Se trouve également avec le sens actuel d’inutile</def>
             <xr>V. <ref target="#l624">624</ref>, v. <ref target="#l1195">1195</ref>, v. <ref target="#l1538">1538</ref></xr>
