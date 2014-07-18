@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="desmares-roxelane" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Roxelane. Tragi-comédie</title>
-        <author>Desmares</author>
+        <title>Roxelane. Tragi-comédie</title>
+        <author key="Desmares (1...-1... ; auteur dramatique)">Desmares</author>
         <editor>Lucie Soureillat</editor>
       </titleStmt>
       <editionStmt>
@@ -584,7 +583,7 @@
             <roleDesc>autre BASSA.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="pages">Deux Pages. </role>
+            <role xml:id="page">Deux Pages. </role>
           </castItem>
           <castItem>
             <role xml:id="janissaires">Deux Janissaires. </role>
@@ -974,7 +973,7 @@
             <pb/>
             <head>SCENE III</head>
             <stage>ROXELANE, CIRCASSE, LE PAGE.</stage>
-            <sp who="le-page">
+            <sp who="page">
               <speaker>LE PAGE. </speaker>
               <l n="237" xml:id="l237">La Sultane Circasse est ici prés, Madame,</l>
               <l n="238" xml:id="l238">Qui demande à vous voir.</l>
@@ -1156,7 +1155,7 @@
               <speaker>ROXELANE. </speaker>
               <l part="Y">            Adieu ma chere soeur.</l>
             </sp>
-            <sp who="circasse-s-estant-separee">
+            <sp who="circasse">
               <speaker>CIRCASSE <hi rend="i">s’estant séparée.</hi></speaker>
               <l n="341" xml:id="l341">De quelque faux <ref target="#appas">appas*</ref> que ton discours se farde</l>
               <l n="342" xml:id="l342">Je suis bien resoluë à me donner de garde.<note n="96" place="bottom"><hi rend="i">Se donner de garde</hi> : surveiller quelqu’un pour empêcher qu’il ne nuise. </note></l>
@@ -1523,7 +1522,7 @@
             <sp who="roxelane">
               <speaker>ROXELANE.    <pb n="35"/></speaker>
               <l n="583" xml:id="l583">La nature, Seigneur, a de puissantes lois</l>
-              <l n="584" xml:id="l584">Que ne peuvent forcer ny le sort ny les Rois<note n="115" place="bottom"> Vers recensé in D. Rolland, <hi rend="i">op.cit.</hi>, vol. 2, p.355, art. « Nature ». <space/><hi rend="i"><space>    </space></hi></note>,</l>
+              <l n="584" xml:id="l584">Que ne peuvent forcer ny le sort ny les Rois<note n="115" place="bottom"> Vers recensé in D. Rolland, <hi rend="i">op.cit.</hi>, vol. 2, p.355, art. « Nature ».</note>,</l>
               <l n="585" xml:id="l585">Elle a voulu regler mes humeurs, mais en sorte</l>
               <l n="586" xml:id="l586">Que la mélancolie est toujours la plus forte,</l>
               <l n="587" xml:id="l587">Et malgré vos faveurs et malgré la raison</l>
@@ -1777,7 +1776,7 @@
               <l n="725" xml:id="l725">Non je ne vous croy pas, Roxelane est trop sage</l>
               <l n="726" xml:id="l726">Page, pensez à vous ce discours vous engage.</l>
             </sp>
-            <sp who="le-page">
+            <sp who="page">
               <speaker>LE PAGE.</speaker>
               <l n="727" xml:id="l727">Je ne m’en dedis point, Seigneur, elle l’a dit.                    <pb n="45"/></l>
             </sp>
@@ -1786,7 +1785,7 @@
               <l n="728" xml:id="l728">Presque d’étonnement je demeure interdit,</l>
               <l n="729" xml:id="l729">En quels termes ?</l>
             </sp>
-            <sp who="le-page">
+            <sp who="page">
               <speaker>LE PAGE.</speaker>
               <l part="Y"><space/><space/>        Seigneur, j’ai dit à ceste belle</l>
               <l n="730" xml:id="l730">Que vous veniez passez ceste nuit avec elle,</l>
@@ -3383,7 +3382,7 @@
           </entryFree>
           <entryFree xml:id="dommage">
             <form>DOMMAGE</form>
-            <def>« Perte, detriment, préjudice. » (A.) <space/></def>
+            <def>« Perte, detriment, préjudice. » (A.)</def>
             <xr>V. <ref target="#l674">674</ref></xr>
           </entryFree>
           <entryFree xml:id="don">
