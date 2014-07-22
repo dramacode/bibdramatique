@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="discret_noces-vaugirard" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Les Noces de Vaugirard, ou Les Naifvetez champestres. Pastorale</title>
-        <author>L.C.D Discret</author>
+        <title>Les Noces de Vaugirard, ou Les Naifvetez champestres. Pastorale</title>
+        <author key="Discret, L. C. (16..-16..)">L.C.D Discret</author>
         <editor>Luca Falcone</editor>
       </titleStmt>
       <editionStmt>
@@ -657,7 +656,7 @@
           <quote>
             <p>Je fus incontinent englouti par les flots, où je perdis toute connoissance. Déjà le courant m’avoit emporté bien loin, lorsque des pêcheurs m’ayant apperçu vinrent à moi, &amp; après m’avoir tiré dans leur bateau, ils gagnerent le rivage. Là ils m’entendirent sur le sable, ils me dépouillerent, &amp; remarquant mes blessures qui sembloient encore fraiches, ils furent bien étonnés; mais ils le furent surtout lorsqu’ils me trouverent des bagues pretieuses aux doigts, &amp; beaucoup d’or dans mes poches. Ce jour, dit l’un d’eux, va faire tout notre bonheur, ou tout notre malheur. Voici dequoi nous enrichir à jamais.<note n="45" place="bottom"><hi rend="i">L’Astrée</hi>, III<hi rend="sup">e</hi> partie, livre 6</note></p>
           </quote>
-          <p>Lancaster signale aussi que Jean Auvray, dramaturge aussi peu prolifique que Discret, avait déjà repris cette histoire contenue dans <hi rend="i">L’Astrée</hi> pour en tirer <hi rend="i">La Madonte</hi>, tragi-comédie représentée en 1630 dans l’un des théâtres parisiens<note n="46" place="bottom"> Notice biographique <hi rend="i">CESAR</hi> : <ref target="http://www.cesar.org.uk/cesar2/titles/titles.php ? fct=edit&amp;script_UOID=173010"><seg rend="internetlink">http://www.cesar.org.uk/cesar2/titles/titles.php ? fct=edit&amp;script_UOID=173010</seg></ref> consulté le 4/06/2013</note>et qu’il fit publier en 1632. Il est ainsi probable que Discret ait repris l’épisode des pêcheurs à partir de cette pièce, car le traitement de l’épisode et son agencement dans la structure des <hi rend="i">Noces</hi> présente des points communs avec la pièce de d’Auvray. En effet, chez <hi rend="i">Madonte</hi> comme dans les <hi rend="i">Noces</hi>, les pêcheurs sont des personnages secondaires qui apparaissent dans le récit de façon ponctuelle pour remplir une fonction dramatique d’adjuvant. En deuxième lieu, bien que les intentions et le rapport entre les pêcheurs et le héros changent sensiblement d’une pièce à l’autre, leur caractérisation dans la scène est assez proche, car chez Discret comme chez Auvray, le comique est basé sur le contraste entre la richesse du héros et la rusticité des pêcheurs :</p>
+          <p>Lancaster signale aussi que Jean Auvray, dramaturge aussi peu prolifique que Discret, avait déjà repris cette histoire contenue dans <hi rend="i">L’Astrée</hi> pour en tirer <hi rend="i">La Madonte</hi>, tragi-comédie représentée en 1630 dans l’un des théâtres parisiens<note n="46" place="bottom"> Notice biographique <hi rend="i">CESAR</hi> : <ref target="http://www.cesar.org.uk/cesar2/titles/titles.php ? fct=edit&amp;script_UOID=173010">http://www.cesar.org.uk/cesar2/titles/titles.php ? fct=edit&amp;script_UOID=173010</ref> consulté le 4/06/2013</note>et qu’il fit publier en 1632. Il est ainsi probable que Discret ait repris l’épisode des pêcheurs à partir de cette pièce, car le traitement de l’épisode et son agencement dans la structure des <hi rend="i">Noces</hi> présente des points communs avec la pièce de d’Auvray. En effet, chez <hi rend="i">Madonte</hi> comme dans les <hi rend="i">Noces</hi>, les pêcheurs sont des personnages secondaires qui apparaissent dans le récit de façon ponctuelle pour remplir une fonction dramatique d’adjuvant. En deuxième lieu, bien que les intentions et le rapport entre les pêcheurs et le héros changent sensiblement d’une pièce à l’autre, leur caractérisation dans la scène est assez proche, car chez Discret comme chez Auvray, le comique est basé sur le contraste entre la richesse du héros et la rusticité des pêcheurs :</p>
           <table>
             <row>
               <cell rend="bold">Discret, <hi rend="i">Les Noces</hi>, V, 1, vv. 1596-1617</cell>
@@ -1010,6 +1009,9 @@
             <role xml:id="l-ombre">L’OMBRE DU GRAND CASTRAPPE</role>
             <roleDesc>Magicien.</roleDesc>
           </castItem>
+            <castItem>
+              <role xml:id="la-fortune"></role>
+            </castItem>
           </castList>
           <pb/>
           <label>LES              <pb n="1, A"/> <lb/>NOPCES DE <lb/>VAUGIRARD. <lb/>PASTORALLE.</label>
@@ -1283,7 +1285,7 @@
               <stage>Les bergers &amp; Bergeres donnent chacun une <ref target="#courante">courante*</ref>.</stage>
               <l n="194" xml:id="l194">Chacun mene dancer &amp; baiser sa maistresse.</l>
             </sp>
-            <sp who="polydas-remenant-lidiane-a-sa-place">
+            <sp who="polydas">
               <speaker>POLYDAS <hi rend="i">remenant Lidiane à sa place.</hi></speaker>
               <l n="195" xml:id="l195">Belle Nymphe excusez mon importunité.</l>
             </sp>
@@ -1308,7 +1310,7 @@
               <speaker>AMARILLE.</speaker>
               <l n="204" xml:id="l204">C’est le moindre soucy de mon contentement.</l>
             </sp>
-            <sp who="pysandre-a-cleanide">
+            <sp who="pysandre">
               <speaker>PYSANDRE <hi rend="i">à CLEANIDE.</hi></speaker>
               <l n="205" xml:id="l205"><space/><space/>Quel <ref target="#heur2">heur*</ref> ont ces Amans, est il pas vray ma Reine,            <pb n="14"/></l>
               <l n="206" xml:id="l206">Nous voudrions<note n="112" place="bottom">Synérèse des deux voyelles en contact [i] et [o] : le mot compte pour deux syllabes.</note> bien tous deux estre en la mesme peine.</l>
@@ -1318,7 +1320,7 @@
               <l n="207" xml:id="l207">Mon espoir qui n’attend que le vouloir des Dieux</l>
               <l n="208" xml:id="l208">Me fait imaginer qu’ils font tout pour le mieux.</l>
             </sp>
-            <sp who="polydas-a-lidiane">
+            <sp who="polydas">
               <speaker>POLYDAS <hi rend="i">à Lidiane.</hi></speaker>
               <l n="209" xml:id="l209">Deesse à qui l’amour ce grand Dieu doit l’hommage,</l>
               <l n="210" xml:id="l210">Permettez que ma main vous remeine au village,</l>
@@ -1549,7 +1551,7 @@
               <l n="323" xml:id="l323">Ne crains pas, mon <ref target="#espoir">espoir*</ref> cognoissant ton humeur,</l>
               <l n="324" xml:id="l324">Que jamais mon esprit retombe en telle erreur.</l>
             </sp>
-            <sp who="polydas-seul">
+            <sp who="polydas">
               <speaker>POLYDAS <hi rend="i">seul.</hi></speaker>
               <l n="325" xml:id="l325">Pauvre Amarille, helas, te voila bien trompee,</l>
               <l n="326" xml:id="l326">Tu crois que ma raison soit tousjours occupee</l>
@@ -2085,7 +2087,7 @@
               <l n="588" xml:id="l588">Amarille tirez s’il vous plaist vistement.</l>
               <stage>Ils piquent dans un livre où ces quadrains<note n="163" place="bottom"> Un <hi rend="i">quadrain</hi> ou <hi rend="i">quatrain</hi> est, en métrique française, une strophe de quatre vers.</note> sont transcripts.</stage>
             </sp>
-            <sp who="la-fortune-a-amarille">
+            <sp who="la-fortune">
               <speaker>La Fortune <hi rend="i">à Amarille.</hi></speaker>
               <l n="589" rend="i" xml:id="l589">Belle vous n’este assez fine </l>
               <l n="590" xml:id="l590">Pour veoir des yeux de vostre esprit,</l>
@@ -2106,7 +2108,7 @@
               <speaker>AMARILLE.</speaker>
               <l part="Y"><space/><space/>            Je ne croy point cela,</l>
             </sp>
-            <sp who="la-fortune-a-lidiane">
+            <sp who="la-fortune">
               <speaker>La Fortune <hi rend="i">à Lidiane.</hi></speaker>
               <l n="595" xml:id="l595"><hi rend="i">Pour estre un petit trop</hi><note n="164" place="bottom"> Huguet signale cet l’emploi adverbial de l’adjectif <hi rend="i">petit</hi> à la place de <hi rend="i">peu</hi> comme « une façon de parler populaire pour dire un peu » dans le <hi rend="i">Petit Glossaire des classiques français du dix-septième siècle.</hi></note><hi rend="i">hardie</hi>, 
 </l>
@@ -2130,7 +2132,7 @@
               <speaker>CLEANIDE.</speaker>
               <l part="Y"><space/><space/>            Pysandre c’est à moy.</l>
             </sp>
-            <sp who="la-fortune-a-cleanide">
+            <sp who="la-fortune">
               <speaker>La Fortune <hi rend="i">à Cleanide.</hi></speaker>
               <l n="601" xml:id="l601">Ne faites <hi rend="i">point tant la farouche</hi>,</l>
               <l n="602" xml:id="l602"><hi rend="i">Confessez que vous aymez mieux</hi>                        
@@ -2155,7 +2157,7 @@
               <speaker>LIDIANE.</speaker>
               <l part="Y"><space/><space/>            C’est à vous Polydas.</l>
             </sp>
-            <sp who="la-fortune-a-polydas">
+            <sp who="la-fortune">
               <speaker>La Fortune <hi rend="i">à Polydas.</hi></speaker>
               <l n="607" xml:id="l607">L’amour <hi rend="i">qui captive vostre ame</hi>,</l>
               <l n="608" xml:id="l608">Vous fera jetter dans un trou,</l>
@@ -2175,7 +2177,7 @@
               <speaker>AMARILLE.</speaker>
               <l n="612" xml:id="l612">Quiconque ayt fait cela sans doubte il estoit fous.</l>
             </sp>
-            <sp who="la-fortune-a-pysandre">
+            <sp who="la-fortune">
               <speaker>La Fortune <hi rend="i">à Pysandre.</hi></speaker>
               <l n="613" xml:id="l613"><hi rend="i">Si vostre amour ne diminue</hi>                            
         <pb n="44"/>
@@ -3141,7 +3143,7 @@
               <l n="1013" xml:id="l1013"><space/><space/>Puisque de ce dessein nul ne se doute pas,                <pb n="74"/></l>
               <l n="1014" xml:id="l1014">Holla ho.</l>
             </sp>
-            <sp who="lidiane-a-la-fenestre">
+            <sp who="lidiane">
               <speaker>LIDIANE <hi rend="i">à la fenestre.</hi></speaker>
               <l part="Y"><space/>On y va, parlez qui est là bas ?</l>
             </sp>
@@ -3192,7 +3194,7 @@
               <l n="1028" xml:id="l1028">A bien conjecturer ne peuvent durer guieres<note n="203" place="bottom"> Variante de <hi rend="i">Guère</hi> qui indique une grande quantité ou le haut degré d’une qualité ; ne s’emploie qu’en tournure négative :  <hi rend="i">ne ... guère</hi> . (TLFi)</note>.</l>
               <l n="1029" xml:id="l1029">He bien a-t-il<note n="204" place="bottom">Nous avons procédé au rajout systématique du t euphonique aux vers 838, 1030.</note> raison ? a-t-il le cœur Loyal ?</l>
             </sp>
-            <sp who="lidiane-lit-la-lettre-tout-bas-puis-dit">
+            <sp who="lidiane">
               <speaker>LIDIANE <hi rend="i">lit la lettre tout bas puis dit</hi>,</speaker>
               <l n="1030" xml:id="l1030">Je ne merite pas qu’il souffre tant de mal,</l>
               <l n="1031" xml:id="l1031">Cher cousin dites luy que ce qui plus m’afflige</l>
@@ -3564,7 +3566,7 @@
             <pb/>
             <head>SCENE DEUXSIEME.                 <pb n="88"/></head>
             <stage>LUCIANE. PANCRACE. PYSANDRE <lb/>Trouppe de Pafteurs.</stage>
-            <sp who="luciane-a-la-fenestre">
+            <sp who="luciane">
               <speaker>LUCIANE <hi rend="i">à la fenestre.</hi></speaker>
               <l n="1191" xml:id="l1191"><hi rend="b">V</hi>Iste viste debout, une espaisse fumee</l>
               <l n="1192" xml:id="l1192">Me dit qu’une maison icy proche allumee :</l>
@@ -3837,7 +3839,7 @@
               <l n="1397" xml:id="l1397">Se pourroit estre icy : car jamais on n’aprit</l>
               <l n="1398" xml:id="l1398">Qu’il y eust en ce lieu quelque chose d’escrit.</l>
             </sp>
-            <sp who="amarille-lit-le-tombeau-de-polydas">
+            <sp who="amarille">
               <speaker>AMARILLE <hi rend="i">lit le tombeau de Polydas.</hi></speaker>
               <l n="1399" xml:id="l1399"><hi rend="i">Passant sache que mon flambeau</hi>, 
 </l>
@@ -4213,17 +4215,17 @@
               <l n="1604" xml:id="l1604">Mais selon la raison que mon esprit propose.</l>
               <stage>Elle leur donne une bague.</stage>
             </sp>
-            <sp who="premier-pescheur">
+            <sp who="pecheur1">
               <speaker>Premier pescheur.</speaker>
               <l n="1605" xml:id="l1605">Bergere grand mercy je n’eusse pas pensé</l>
               <l n="1606" xml:id="l1606">Devoir estre de vous si bien recompensé.</l>
             </sp>
-            <sp who="second-pescheur">
+            <sp who="pecheur2">
               <speaker>Second pescheur.</speaker>
               <l n="1607" xml:id="l1607">Ma foy ny moy non-plus; car de toute l’annee</l>
               <l n="1608" xml:id="l1608">Nous n’avons tant gaigné comme cette journee.</l>
             </sp>
-            <sp who="premier-pescheur">
+            <sp who="pecheur1">
               <speaker>Premier pescheur.</speaker>
               <l n="1609" xml:id="l1609">Nous voudrions tous les jours prendre de tels poissons,</l>
               <l n="1610" xml:id="l1610">Et si ne nous faudroit lignes ny hameçon.</l>
@@ -4232,7 +4234,7 @@
               <speaker>LIDIANE</speaker>
               <l n="1611" xml:id="l1611">Faites vostre proffit,</l>
             </sp>
-            <sp who="second-pescheur">
+            <sp who="pecheur2">
               <speaker>Second pescheur.</speaker>
               <l part="Y"><space/><space/>            Que tout vous soit prospere.            <pb n="116"/></l>
             </sp>
@@ -4240,18 +4242,18 @@
               <speaker>LIDIANE.</speaker>
               <l n="1612" xml:id="l1612">A dieu donc chers amis.</l>
             </sp>
-            <sp who="second-pescheur">
+            <sp who="pecheur2">
               <speaker>Second pescheur.</speaker>
               <l part="Y"><space/><space/>            Adieu.</l>
             </sp>
-            <sp who="premier-pescheur">
+            <sp who="pecheur1">
               <speaker>Premier pescheur.</speaker>
               <l part="Y"><space/><space/>                Parle compere,</l>
               <l n="1613" xml:id="l1613">Allons vendre à Paris ce riche diamant,</l>
               <l n="1614" xml:id="l1614">Puis nous partagerons l’argent ensemblement :</l>
               <l n="1615" xml:id="l1615">Afin d’en acquerir quelque bon heritage.</l>
             </sp>
-            <sp who="second-pescheur">
+            <sp who="pecheur2">
               <speaker>Second pescheur.</speaker>
               <l n="1616" xml:id="l1616">Nous boirons en passant dans ce petit village.</l>
             </sp>
@@ -4285,7 +4287,7 @@
               <l n="1642" xml:id="l1642"><space/><space/>Prend plaisir quand il void me tourmenter ainsi.                <pb n="118"/></l>
               <stage>Elle s’assit<note n="236" place="bottom">faire note</note>.</stage>
             </sp>
-            <sp who="floridon-parlant-a-sa-trouppe-de-deputez">
+            <sp who="floridon">
               <speaker>FLORIDON <hi rend="i">parlant à sa trouppe de deputez.</hi></speaker>
               <l n="1643" xml:id="l1643">Fidelles deputez de tout le voisinage,</l>
               <l n="1644" xml:id="l1644">Pour rechercher celuy qui de nostre village</l>
@@ -4490,7 +4492,7 @@
               <speaker>LE JUGE.</speaker>
               <l n="1740" xml:id="l1740">Entendons les parler Floridon s’y apreste.</l>
             </sp>
-            <sp who="floridon-&amp;-les-deputez-amenant-lidiane">
+            <sp who="floridon les-deputez">
               <speaker>FLORIDON &amp; les deputez <hi rend="i">amenant Lidiane.</hi></speaker>
               <l n="1741" xml:id="l1741"><space/><space/>Grands Juges deleguez par les dieux icy bas,                <pb n="125 Qiij"/></l>
               <l n="1742" xml:id="l1742">Pour reprimer le vice &amp; calmer les debats :</l>
@@ -4518,7 +4520,7 @@
               <l n="1761" xml:id="l1761">Dits nous presentement où est ce Polydas,</l>
               <l n="1762" xml:id="l1762">Qui nous a tant causé de plaintes &amp; debas.</l>
             </sp>
-            <sp who="lidiane-a-genoux">
+            <sp who="lidiane">
               <speaker>LIDIANE <hi rend="i">à genoux.</hi></speaker>
               <l n="1763" xml:id="l1763">Arbitres souverains des affaires du monde,</l>
               <l n="1764" xml:id="l1764">Sur qui chacun mortel son esperance fonde :</l>
@@ -4633,7 +4635,7 @@
               <stage>Les Bergers font feinte de regarder ce que le Greffier escript.</stage>
               <l n="1840" xml:id="l1840">Je ne sçaurois escrire alors qu’on me regarde.</l>
             </sp>
-            <sp who="le-juge-prononce-le-jugement-contre-lidiane">
+            <sp who="le-juge">
               <speaker>LE JUGE <hi rend="i">prononce le Jugement contre Lidiane.</hi></speaker>
               <l n="1841" xml:id="l1841">Nous Juges deleguez par saincte eslection,</l>
               <l n="1842" xml:id="l1842">Pour les cas contenus en l’information.</l>
@@ -4769,7 +4771,7 @@
               <l n="1889" xml:id="l1889">Vois, regarde, consulte, advise sur ce cas,</l>
               <l n="1890" xml:id="l1890">Je te donne du temps autant que tu voudras.</l>
             </sp>
-            <sp who="lidiane-ayant-leu-le-tombeau-de-polydas">
+            <sp who="lidiane">
               <speaker>LIDIANE <hi rend="i">ayant leu le tombeau de Polydas.</hi></speaker>
               <stage>Pendant que le juge parle, Lidiane lict les vers du tombeau de Polydas.</stage>
               <l n="1891" xml:id="l1891"><ref target="#las">Las*</ref> comment voulez vous grand Juge venerable,</l>
@@ -4891,7 +4893,7 @@
               <speaker>LE JUGE.</speaker>
               <l n="1946" xml:id="l1946">Non, non, n’en parlez plus, berger depéche toy.</l>
             </sp>
-            <sp who="l-ombre-de-caftrape">
+            <sp who="l-ombre">
               <speaker>L’ombre* de Caftrape, <hi rend="i">sortant de la grotte, tenant Polydas d’une main, 
 <lb/>&amp; Amarille de l’autre.</hi></speaker>
               <l n="1947" xml:id="l1947"><space/><space/>Demeurez malheureux cessez vostre vengeance,                <pb n="139 Sij"/></l>
@@ -5040,7 +5042,7 @@
         <div>
           <head>Glossaire</head>
           <entryFree xml:id="absolus">
-            <form>ABSOLUS : <hi rend="i">adj.</hi></form>
+            <form>ABSOLUS : adj.</form>
             <def>Souverains. (Richelet, 1680)</def>
             <xr>V. <ref target="#l431">431</ref></xr>
           </entryFree>
@@ -5052,17 +5054,17 @@
             <xr>V. <ref target="#l1453">1453</ref></xr>
           </entryFree>
           <entryFree xml:id="affetterie">
-            <form>AFFETTERIE <hi rend="i">subst. fém.</hi></form>
+            <form>AFFETTERIE subst. fém.</form>
             <def>Manière pleine d’affectation par laquelle, dans le dessein de plaire, on s’éloigne du naturel et tombe dans un excès de recherche superficielle ou contraire au bon goût. (TLFi)</def>
             <xr>V. <ref target="#l1759">1759</ref></xr>
           </entryFree>
           <entryFree xml:id="alembique">
             <form>ALEMBIQUE (S’)</form>
-            <def>ALAMBIQUER. v.a. Il n’a d’usage qu’au figuré et dans ces phrases, <hi rend="i">S'alambiquer l’esprit; alambiquer l’esprit</hi>, qui signifient, Se distiller en quelque sorte l’esprit, par une trop grande application à des choses abstraites et trop subtiles. <hi rend="i">S'alambiquer l’esprit mal-à-propos sur des questions espineuses, difficiles, inutiles. s’alambiquer la cervelle. des questions qui ne sont bonnes qu’à alambiquer l’esprit. ne vous allez point alambiquer l’esprit inutilement.</hi> (<hi rend="i">Académie</hi>, 1718, 2<hi rend="sup">ème</hi> éd.) —<hi rend="b"/> Au fig., vx, péj. <hi rend="b">1.</hi> Emploi trans. Tourmenter à force de réflexions, par excès de recherche. Alambiquer le sentiment, l’esprit, la cervelle (TLFi)</def>
+            <def>ALAMBIQUER. v.a. Il n’a d’usage qu’au figuré et dans ces phrases, <hi rend="i">S'alambiquer l’esprit; alambiquer l’esprit</hi>, qui signifient, Se distiller en quelque sorte l’esprit, par une trop grande application à des choses abstraites et trop subtiles. <hi rend="i">S'alambiquer l’esprit mal-à-propos sur des questions espineuses, difficiles, inutiles. s’alambiquer la cervelle. des questions qui ne sont bonnes qu’à alambiquer l’esprit. ne vous allez point alambiquer l’esprit inutilement.</hi> (<hi rend="i">Académie</hi>, 1718, 2<hi rend="sup">ème</hi> éd.) — Au fig., vx, péj. 1. Emploi trans. Tourmenter à force de réflexions, par excès de recherche. Alambiquer le sentiment, l’esprit, la cervelle (TLFi)</def>
             <xr>V. <ref target="#l427">427</ref></xr>
           </entryFree>
           <entryFree xml:id="amballeur">
-            <form>AMBALLEUR <hi rend="i">subst. masc.</hi></form>
+            <form>AMBALLEUR subst. masc.</form>
             <def>Se dit figurément des hableurs, qui disent plusieurs choses contre la verité, qui inventent plusieurs histoires à plaisir, et qu’ils debitent aux credules. (Furetière, 1690)</def>
             <xr>V. <ref target="#l1103">1103</ref></xr>
           </entryFree>
@@ -5072,7 +5074,7 @@
             <xr>V. <ref target="#l1722">1722</ref></xr>
           </entryFree>
           <entryFree xml:id="appetit">
-            <form>APPETIT <hi rend="i">subst. masc.</hi></form>
+            <form>APPETIT subst. masc.</form>
             <def>Passion de l’ame qui nous porte à desirer quelque chose. (Furetière, 1690)</def>
             <xr>V. <ref target="#l536">536</ref></xr>
           </entryFree>
@@ -5092,7 +5094,7 @@
             <xr>V. <ref target="#l446">446</ref></xr>
           </entryFree>
           <entryFree xml:id="aubade">
-            <form>AUBADE <hi rend="i">subst. fém.</hi></form>
+            <form>AUBADE subst. fém.</form>
             <def>Violons qu’un amant donne le matin à sa maitresse. Régal de violons qu’on donne à quelqu’un pour lui marquer l’estime qu’on fait de lui, ou pour lui marquer de la joie, ou de la passion. (Richelet, 1680)</def>
             <xr>V. <ref target="#l21">21</ref></xr>
           </entryFree>
@@ -5102,7 +5104,7 @@
             <xr>V. <ref target="#l20">20</ref>, v. <ref target="#l150">150</ref>, v. <ref target="#l171">171</ref></xr>
           </entryFree>
           <entryFree xml:id="bocage">
-            <form>BOCAGE <hi rend="i">subst. masc.</hi></form>
+            <form>BOCAGE subst. masc.</form>
             <def>Sorte de petit bois. (Richelet, 1680)</def>
             <xr>V. <ref target="#l623">623</ref></xr>
           </entryFree>
@@ -5112,17 +5114,17 @@
             <xr><ref target="#argument">Argument</ref></xr>
           </entryFree>
           <entryFree xml:id="callote">
-            <form>CALLOTE <hi rend="i">subst. fém.</hi></form>
+            <form>CALLOTE subst. fém.</form>
             <def>Petite cale ou coëffe de cuir, de satin, ou d’autre estoffe, qui couvre le haut de la teste. On s’en sert particulierement quand on est en des lieux où on est obligé d’estre long-temps teste nuë. Les vieillards portent des <hi rend="i">calottes</hi> à oreilles. On porte aussi des perruques à <hi rend="i">calotte</hi>. La <hi rend="i">calotte</hi> rouge est une marque de dignité, car il n’y a que les Cardinaux qui en portent. (Furetière, 1690)</def>
             <xr>V. <ref target="#l975">975</ref></xr>
           </entryFree>
           <entryFree xml:id="carriere">
-            <form>CARRIERE <hi rend="i">subst. fém.</hi></form>
+            <form>CARRIERE subst. fém.</form>
             <def>Lieu qu’on creuse dans un champ pour en tirer la pierre qui est dessous. On ne peut pas bastir sur ce terrain, il est creux, on y a fouillé des carrieres. cet enfant est tombé dans le puits de la carriere. (Furetière, 1690)</def>
             <xr>V. <ref target="#l1383">1383</ref></xr>
           </entryFree>
           <entryFree xml:id="ceans">
-            <form>CEANS <hi rend="i">adv.</hi></form>
+            <form>CEANS adv.</form>
             <def>Ici. En cét endroit, en ce lieu. ci. [Il est céans.] (Richelet, 1680)</def>
             <xr>V. <ref target="#l1194">1194</ref></xr>
           </entryFree>
@@ -5143,7 +5145,7 @@
           </entryFree>
           <entryFree xml:id="coignefestu">
             <form>COIGNE FESTU</form>
-            <def>Celui qui s’occupe de choses inutiles. Celui dont les entreprises restent sans résultat. — Et je di voyant ma fortune, Maigre s’il en fut jamais une, Je suis un grand Cogne festu: Qui cogne cogne et rien n’avance. BAÏF, <hi rend="i">les Mimes</hi>, L. I (V, 42). Celui qui n’est bon à rien, qui ne fait rien. — Et ne me puis tenir de luy dire qu’il sembloit un coigne-festu, qu’il ne voulloict rien fere ny laisser fere les aultres. MONLUC, <hi rend="i">Commentaires</hi>, L. I (I, 114). Employé Surtout au XVI<hi rend="sup">e</hi> (Huguet) À noter que l’occurence présente dans notre texte maintient la graphie étymologisante dans sa partie verbale : COGNER, verbe <hi rend="b">Étymol. et Hist. 1.</hi> Fin <num>xii<hi rend="sup">e</hi></num>s. « coincer » (J. Le Nevelon, <hi rend="i">Vengeance Alexandre</hi>, 1427 ds T.-L.) ; <hi rend="b">2.</hi> 1<hi rend="sup">re</hi>moitié <num>xiii<hi rend="sup">e</hi></num>s. « frapper » (Hugues Piaucele, <hi rend="i">D'Estormi</hi>, 195 ds Montaiglon, Raynaud, <hi rend="i">Fabliaux</hi>, t. 1, p. 204). Dér. de <hi rend="i">coin</hi>*; dés. -<hi rend="i">er</hi>, plutôt qu’issu du lat. impérial <hi rend="i">cuneare</hi> « serrer, maintenir avec un coin ». (TLFi)</def>
+            <def>Celui qui s’occupe de choses inutiles. Celui dont les entreprises restent sans résultat. — Et je di voyant ma fortune, Maigre s’il en fut jamais une, Je suis un grand Cogne festu: Qui cogne cogne et rien n’avance. BAÏF, <hi rend="i">les Mimes</hi>, L. I (V, 42). Celui qui n’est bon à rien, qui ne fait rien. — Et ne me puis tenir de luy dire qu’il sembloit un coigne-festu, qu’il ne voulloict rien fere ny laisser fere les aultres. MONLUC, <hi rend="i">Commentaires</hi>, L. I (I, 114). Employé Surtout au XVI<hi rend="sup">e</hi> (Huguet) À noter que l’occurence présente dans notre texte maintient la graphie étymologisante dans sa partie verbale : COGNER, verbe Étymol. et Hist. 1. Fin <num>xii<hi rend="sup">e</hi></num>s. « coincer » (J. Le Nevelon, <hi rend="i">Vengeance Alexandre</hi>, 1427 ds T.-L.) ; 2. 1<hi rend="sup">re</hi>moitié <num>xiii<hi rend="sup">e</hi></num>s. « frapper » (Hugues Piaucele, <hi rend="i">D'Estormi</hi>, 195 ds Montaiglon, Raynaud, <hi rend="i">Fabliaux</hi>, t. 1, p. 204). Dér. de <hi rend="i">coin</hi>*; dés. -<hi rend="i">er</hi>, plutôt qu’issu du lat. impérial <hi rend="i">cuneare</hi> « serrer, maintenir avec un coin ». (TLFi)</def>
             <xr>V. <ref target="#l2040">2040</ref></xr>
           </entryFree>
           <entryFree xml:id="confusion">
@@ -5153,7 +5155,7 @@
           </entryFree>
           <entryFree xml:id="commettre">
             <form>COMMETRE</form>
-            <def>— Nommer (Godefroy, 9e-15e siècles) —<hi rend="b"/> signifie encore, Donner pouvoir d’exercer une charge de Judicature, ou autre charge en la place d’un Titulaire. On a interdit un tel Baillif, et il a fallu <hi rend="i">commettre</hi> à sa charge. s’il neglige de se faire recevoir, on <hi rend="i">commettra</hi> à sa place. un Intendant a pouvoir de <hi rend="i">commettre</hi> et de subdeleguer. (Furetière 1690)</def>
+            <def>— Nommer (Godefroy, 9e-15e siècles) — Signifie encore, Donner pouvoir d’exercer une charge de Judicature, ou autre charge en la place d’un Titulaire. On a interdit un tel Baillif, et il a fallu <hi rend="i">commettre</hi> à sa charge. s’il neglige de se faire recevoir, on <hi rend="i">commettra</hi> à sa place. un Intendant a pouvoir de <hi rend="i">commettre</hi> et de subdeleguer. (Furetière 1690)</def>
             <xr>V. <ref target="#l1717">1717</ref></xr>
           </entryFree>
           <entryFree xml:id="compromis">
@@ -5182,12 +5184,12 @@
             <xr><ref target="#epitre">Épître</ref>, v. <ref target="#l1979">1979</ref></xr>
           </entryFree>
           <entryFree xml:id="dart">
-            <form>DART <hi rend="i">Subst. masc.</hi></form>
+            <form>DART Subst. masc.</form>
             <def>Sorte de trait de bois dur qui est ferré au bout et propre à être lancé. (Richelet, 1680)</def>
             <xr>V. <ref target="#l1508">1508</ref></xr>
           </entryFree>
           <entryFree xml:id="diligence">
-            <form>DILIGENCE <hi rend="i">Subst. fém</hi>.</form>
+            <form>DILIGENCE Subst. fém.</form>
             <def>Prontitude à faire une chose. (Richelet, 1680)</def>
             <xr>V. <ref target="#l1196">1196</ref></xr>
           </entryFree>
@@ -5200,7 +5202,7 @@
             <form>DIVERTIR </form>
             <def xml:id="divertir1">DIVERTIR. v.a. Destourner, distraire. <hi rend="i">Divertir quelqu’un de ses occupations. il avoit un tel dessein, je l’en ay diverti.</hi> (Académie, 1687 [Av.-Prem.3])</def>
             <xr>V. <ref target="#l373">373</ref></xr>
-            <def xml:id="divertir2"><hi rend="b">SE DIVERTIR</hi> signifie aussi, Réjouïr. Il n’y a rien qui <hi rend="i">divertisse</hi> plus que la Comedie. Il ne faut pas toûjours estudier, il faut prendre le temps de se <hi rend="i">divertir</hi>. On dit qu’une femme se <hi rend="i">divertit</hi>, lors qu’elle fait l’amour; (Furetière, 1690)</def>
+            <def xml:id="divertir2">SE DIVERTIR signifie aussi, Réjouïr. Il n’y a rien qui <hi rend="i">divertisse</hi> plus que la Comedie. Il ne faut pas toûjours estudier, il faut prendre le temps de se <hi rend="i">divertir</hi>. On dit qu’une femme se <hi rend="i">divertit</hi>, lors qu’elle fait l’amour; (Furetière, 1690)</def>
             <xr>V. <ref target="#l448">448</ref></xr>
             <def xml:id="divertir3">Écarter, éloigner, empêcher. — Il faut parer au coup qui nous menace, et lequel, s’il n’estoit diverty, nous rendroit apres soy tous les autres remedes inutiles. DU VAIR, Actions et traictez oratoires, Pour la loy salique, p. 138. (Huguet, 16<hi rend="sup">e</hi> siècle)</def>
             <xr>V. <ref target="#l1714">1714</ref></xr>
@@ -5221,23 +5223,23 @@
             <xr><ref target="#argument">Argument</ref>, v. <ref target="#l311">311</ref>, v. <ref target="#l1181">1181</ref></xr>
           </entryFree>
           <entryFree xml:id="effroi">
-            <form>EFFROI <hi rend="i">Subst. masc.</hi></form>
+            <form>EFFROI Subst. masc.</form>
             <def>Saisissement provoqué par une très grande peur. Cri, hurlement d’effroi; glacer, pâlir d’effroi; jeter l’effroi. (Tlfi)</def>
             <xr>V. <ref target="#l902">902</ref></xr>
           </entryFree>
           <entryFree xml:id="emulation">
-            <form>EMULATION <hi rend="i">Subst. fém.</hi></form>
+            <form>EMULATION Subst. fém.</form>
             <def>Jalousie, mauvaise intention. (La Curne, 12e-17e siècles)</def>
             <xr>V. <ref target="#l307">307</ref></xr>
           </entryFree>
           <entryFree xml:id="engence">
-            <form>ENGENCE <hi rend="i">Subst. fém.</hi></form>
+            <form>ENGENCE Subst. fém.</form>
             <def><hi rend="i">Terme de mépris.</hi> Race. [Quand de ces médisans <hi rend="i">l’engence</hi> toute entiere iroit la tête en bas rimer dans la riviere. <hi rend="i">Dépreaux, Satire. 9.</hi> De tous les maux on vit poindre <hi rend="i">l’engence. Benserade, Rond.</hi>] (Richelet, 1680)</def>
             <xr>V. <ref target="#l1130">1130</ref></xr>
           </entryFree>
           <entryFree xml:id="emmener">
             <form>ENMEINE, EMMENER, v.a.</form>
-            <def>[Compl.] mener quelqu’un avec soi d’un lieu à un autre; emporter : Ses meillurs humes <hi rend="i">enmeinet</hi> ensembl’ od sei. (<hi rend="i">Rol.</hi>, 502.) (Godefroy, 9e-15e siècles) — <hi rend="b">Étymol. et Hist.</hi> <hi rend="i">Ca</hi> 1100 trans. <hi rend="i">em meinet</hi> « mener hors du lieu où l’on est, en quelque autre lieu » (<hi rend="i">Roland</hi>, éd. J. Bédier, 2817) ; (TLFi)</def>
+            <def>[Compl.] mener quelqu’un avec soi d’un lieu à un autre; emporter : Ses meillurs humes <hi rend="i">enmeinet</hi> ensembl’ od sei. (<hi rend="i">Rol.</hi>, 502.) (Godefroy, 9e-15e siècles) — Étymol. et Hist. <hi rend="i">Ca</hi> 1100 trans. <hi rend="i">em meinet</hi> « mener hors du lieu où l’on est, en quelque autre lieu » (<hi rend="i">Roland</hi>, éd. J. Bédier, 2817) ; (TLFi)</def>
             <xr><ref target="#argument">Argument</ref></xr>
           </entryFree>
           <entryFree xml:id="ennuy">
@@ -5271,29 +5273,29 @@
             <xr>V. <ref target="#l97">97</ref>, v. <ref target="#l101">101</ref>, v. <ref target="#l238">238</ref>, v. <ref target="#l457">457</ref>, v. <ref target="#l867">867</ref>, v. <ref target="#l1223">1223</ref>, v. <ref target="#l1248">1248</ref>, v. <ref target="#l1515">1515</ref>, v. <ref target="#l1860">1860</ref>, v. <ref target="#l1919">1919</ref></xr>
           </entryFree>
           <entryFree xml:id="fourny">
-            <form>FOURNY <hi rend="i">Subst. fém.</hi></form>
-            <def>Pièce d’une maison où l’on garde des aliments et des outils, annexée à l’endroit ou l’on cuit le pain. « Elle tiendra le fourny fermé aux heures où elle n’y aura que faire » (source : <ref target="http://books.google.fr/books ? id=1waWB9TmGuAC&amp;pg=PA665&amp;dq=%22le+fourny%22&amp;hl=fr&amp;sa=X&amp;ei=a5zoUJzjC9K6hAe934DIBQ&amp;ved=0CFAQ6AEwBA"><hi rend="i">Règlemens ou éclaircissemens sur les constitutions des religieuses</hi></ref>, Pierre Fourier, 1674)</def>
+            <form>FOURNY Subst. fém.</form>
+            <def>Pièce d’une maison où l’on garde des aliments et des outils, annexée à l’endroit ou l’on cuit le pain. « Elle tiendra le fourny fermé aux heures où elle n’y aura que faire » (source : <hi rend="i">Règlemens ou éclaircissemens sur les constitutions des religieuses</hi>, Pierre Fourier, 1674)</def>
             <xr>V. <ref target="#l1197">1197</ref></xr>
           </entryFree>
           <entryFree>
-            <form>FRANCHISE <hi rend="i">subst. fem.</hi></form>
+            <form>FRANCHISE subst. fem.</form>
             <def xml:id="franchise1">Dignifie aussi, Asyle, lieu saint et privilegié où on est en seureté de sa personne. Les Eglises et les Monasteres d’Espagne sont des Franchises pour les Criminels. (Furetière, 1690)</def>
             <xr>V. <ref target="#l1784">1784</ref></xr>
             <def xml:id="franchise2">Signifie chez les Poëtes et les amants, Liberté. Il a perdu sa franchise. il a engagé sa franchise. (Furetière, 1690)</def>
             <xr><ref target="#poeme-liminaire">Poème liminaire</ref></xr>
           </entryFree>
           <entryFree xml:id="gaillarde">
-            <form>GAILLARDE <hi rend="i">subst. masc.</hi></form>
+            <form>GAILLARDE subst. masc.</form>
             <def>Espece de danse ancienne qu’on dansoit tantost terre à terre, et tantost en cabriolant; tantost allant le long de la salle, et tantost à travers. (Furetière, 1690)</def>
             <xr>V. <ref target="#l172">172</ref></xr>
           </entryFree>
           <entryFree xml:id="gaillard">
-            <form>GAILLARD, ARDE <hi rend="i">adjectif</hi> </form>
+            <form>GAILLARD, ARDE adjectif </form>
             <def>Gai. Plein de gaïeté (Richelet, 1680)</def>
             <xr>V. <ref target="#l571">571</ref></xr>
           </entryFree>
           <entryFree xml:id="gesne">
-            <form>GESNE <hi rend="i">subst. fém.</hi></form>
+            <form>GESNE subst. fém.</form>
             <def>Signifie <hi rend="i">torture</hi>, puis par affaiblissement sémantique Fatigue, peine, travail. « Donner la gêne à son esprit. » (Richelet, 1680)</def>
             <xr>V. <ref target="#l723">723</ref></xr>
           </entryFree>
@@ -5318,7 +5320,7 @@
             <xr>V. <ref target="#l280">280</ref></xr>
           </entryFree>
           <entryFree xml:id="hazard">
-            <form>HAZARD <hi rend="i">subst.masc.</hi></form>
+            <form>HAZARD subst.masc.</form>
             <def>Peril, risque. [On est bien fou de mettre sa vie <hi rend="i">au hazard</hi> pour les biens du monde. S'exposer au hazard, <hi rend="i">Ablancourt</hi>. Il a couru <hi rend="i">hazard</hi> de se perdre.] (Richelet, 1680)</def>
             <xr>V. <ref target="#l690">690</ref>, <ref target="#l1009">1009</ref></xr>
           </entryFree>
@@ -5337,17 +5339,17 @@
             <xr>V. <ref target="#l1132">1132</ref></xr>
           </entryFree>
           <entryFree xml:id="indiscrette">
-            <form>INDISCRETTE <hi rend="i">adj</hi>.</form>
+            <form>INDISCRETTE adj.</form>
             <def>Estourdy, imprudent, qui ne prend pas garde à ce qu’il dit ou à ce qu’il fait. Cet homme est fort indiscret. cette femme est bien indiscrete. (Académie, 1687 [Av.-Prem.3])</def>
             <xr>V. <ref target="#l1325">1325</ref></xr>
           </entryFree>
           <entryFree xml:id="infaillible">
-            <form>INFAILLIBLE <hi rend="i">Adj</hi>.</form>
+            <form>INFAILLIBLE Adj.</form>
             <def>Qui est certain, et immancable. (Académie, 1694 [1<hi rend="sup">ère</hi> éd.])</def>
             <xr>V. <ref target="#l1467">1467</ref></xr>
           </entryFree>
           <entryFree xml:id="jour">
-            <form>JOUR <hi rend="i">subst. masc.</hi></form>
+            <form>JOUR subst. masc.</form>
             <def>Se dit aussi d’une lumiere, d’une ouverture qui nous vient dans l’esprit, qui nous donne bonne esperance de la reüssite d’une affaire. Cela n’est pas impossible, je voy quelque jour, quelque apparence d’en venir à bout. (Furetière, 1690)</def>
             <xr>V. <ref target="#l574">574</ref></xr>
           </entryFree>
@@ -5357,7 +5359,7 @@
             <xr>V. <ref target="#l479">479</ref></xr>
           </entryFree>
           <entryFree xml:id="jupin">
-            <form>JUPIN <hi rend="i">n. pr. m.</hi></form>
+            <form>JUPIN n. pr. m.</form>
             <def>Abréviation familière du nom de Jupiter. La Fontaine dit, en parlant des grenouilles: Jupin les soumit au pouvoir monarchique. (Barré, 1842)</def>
             <xr>V. <ref target="#l350">350</ref>, v. <ref target="#l1150">1150</ref>, v. <ref target="#l1260">1260</ref>, v. <ref target="#l1284">1284</ref>, v. <ref target="#l1822">1822</ref>, v. <ref target="#l1980">1980</ref></xr>
           </entryFree>
@@ -5367,22 +5369,22 @@
             <xr>V. <ref target="#l996">996</ref></xr>
           </entryFree>
           <entryFree xml:id="lapreau">
-            <form>LAPREAU <hi rend="i">subst. masc.</hi></form>
+            <form>LAPREAU subst. masc.</form>
             <def>Petit lapin. (Richelet, 1680)</def>
             <xr>V. <ref target="#l1142">1142</ref></xr>
           </entryFree>
           <entryFree xml:id="las">
             <form>LAS</form>
-            <def>Interjection Plaintive. <hi rend="i">Las ! qui le pourroit croire ! las que j’ay souffert de peine</hi> ! <hi rend="b">Il commence à vieillir</hi>, et on se sert plus ordinairement d’<hi rend="i">helas</hi>. (Académie, 1694 [1<hi rend="sup">ère</hi> éd.]) —Interjection et expression d’un mouvement de douleur ou d’affliction, laquelle on marque avec cette ponctuation ! Il est plus en usage en Poësie qu’en prose, à cause qu’il donne la facilité pour la mesure du vers, on dit ailleurs <hi rend="i">helas</hi>. (Furetière, 1690) La pièce de Discret témoigne d’un usage encore instable car les deux formes sont présentes : <hi rend="i">hélas</hi> avec 20 occurrences contre <hi rend="i">Las</hi> avec seulement 7 occurrences. Cette disproportion à l’avantage de la forme <hi rend="i">hélas</hi> confirme le commentaire des dictionnaires perçevant <hi rend="i">Las</hi> comme une forme vieillie.</def>
+            <def>Interjection Plaintive. <hi rend="i">Las ! qui le pourroit croire ! las que j’ay souffert de peine</hi> ! Il commence à vieillir, et on se sert plus ordinairement d’<hi rend="i">helas</hi>. (Académie, 1694 [1<hi rend="sup">ère</hi> éd.]) —Interjection et expression d’un mouvement de douleur ou d’affliction, laquelle on marque avec cette ponctuation ! Il est plus en usage en Poësie qu’en prose, à cause qu’il donne la facilité pour la mesure du vers, on dit ailleurs <hi rend="i">helas</hi>. (Furetière, 1690) La pièce de Discret témoigne d’un usage encore instable car les deux formes sont présentes : <hi rend="i">hélas</hi> avec 20 occurrences contre <hi rend="i">Las</hi> avec seulement 7 occurrences. Cette disproportion à l’avantage de la forme <hi rend="i">hélas</hi> confirme le commentaire des dictionnaires perçevant <hi rend="i">Las</hi> comme une forme vieillie.</def>
             <xr>V. <ref target="#l1211">1211</ref>, v. <ref target="#l1313">1313</ref>, v. <ref target="#l1545">1545</ref>, v. <ref target="#l1631">1631</ref>, v. <ref target="#l1891">1891</ref>, v. <ref target="#l1918">1918</ref>, v. <ref target="#l1940">1940</ref></xr>
           </entryFree>
           <entryFree xml:id="liesse">
             <form>LIESSE</form>
-            <def>De <hi rend="i">lie</hi>, vieux mot François qui signifie <hi rend="i">ioyeux</hi>, et <hi rend="b">qui est encore en vsage en cette façon de parler <hi rend="i">faire chere lie.</hi></hi> Au lieu de <hi rend="i">lie</hi> on a dit aussi <hi rend="i">lié</hi>, témoin <hi rend="i">Saint Lié.</hi> L'vn et l’autre viennent de <hi rend="i">lætus</hi>, d’où les Italiens ont aussi fait <hi rend="i">lieto.</hi> Voyez André du Chesne dans ses Annotations sur Alain Chartier pag. 866. (Ménage, 1650) — LÏESSE, <hi rend="i">Subst. fém.</hi> † Vieux mot qui signifie <hi rend="i">joie</hi>, et qui <hi rend="b">entre encore dans le burlesque et le stile le plus simple.</hi> [Dieu garde en joie et en lïesse. <hi rend="i">Voit. Poës.</hi> On dit pourtant sérieusement <hi rend="i">Notre Dame de liesse</hi> mais c’est une façon de parler consacrée qui ne tire point à consequence.] (Richelet, 1680) — LIESSE. Subst. fém. Joye, gayeté. Vieux mot qui <hi rend="b">n’a plus d’usage dans le discours serieux</hi> que dans cette phrase. <hi rend="i">Nostre-Dame de Liesse.</hi> (Académie, 1687 [Av.-Prem.3]) — LIESSE. Subst. fém. Vieux mot qui signifioit autrefois, Joye, santé, prosperité. Il est revenu de son voyage, on l’a reçeu en grande <hi rend="i">liesse</hi>. <hi rend="b">Il ne se dit plus guere qu’en cette phrase, Nostre-Dame de <hi rend="i">liesse</hi>.</hi> Ce mot vient de <hi rend="i">lætitia</hi>. (Furetière, 1690)</def>
+            <def>De <hi rend="i">lie</hi>, vieux mot François qui signifie <hi rend="i">ioyeux</hi>, et qui est encore en vsage en cette façon de parler <hi rend="i">faire chere lie.</hi> Au lieu de <hi rend="i">lie</hi> on a dit aussi <hi rend="i">lié</hi>, témoin <hi rend="i">Saint Lié.</hi> L'vn et l’autre viennent de <hi rend="i">lætus</hi>, d’où les Italiens ont aussi fait <hi rend="i">lieto.</hi> Voyez André du Chesne dans ses Annotations sur Alain Chartier pag. 866. (Ménage, 1650) — LÏESSE, <hi rend="i">Subst. fém.</hi> † Vieux mot qui signifie <hi rend="i">joie</hi>, et qui entre encore dans le burlesque et le stile le plus simple. [Dieu garde en joie et en lïesse. <hi rend="i">Voit. Poës.</hi> On dit pourtant sérieusement <hi rend="i">Notre Dame de liesse</hi> mais c’est une façon de parler consacrée qui ne tire point à consequence.] (Richelet, 1680) — LIESSE. Subst. fém. Joye, gayeté. Vieux mot qui n’a plus d’usage dans le discours serieux que dans cette phrase. <hi rend="i">Nostre-Dame de Liesse.</hi> (Académie, 1687 [Av.-Prem.3]) — LIESSE. Subst. fém. Vieux mot qui signifioit autrefois, Joye, santé, prosperité. Il est revenu de son voyage, on l’a reçeu en grande <hi rend="i">liesse</hi>. Il ne se dit plus guere qu’en cette phrase, Nostre-Dame de <hi rend="i">liesse</hi>. Ce mot vient de <hi rend="i">lætitia</hi>. (Furetière, 1690)</def>
             <xr>V. <ref target="#l549">549</ref></xr>
           </entryFree>
           <entryFree xml:id="logette">
-            <form>LOGETTE <hi rend="i">Subst. fém.</hi></form>
+            <form>LOGETTE Subst. fém.</form>
             <def>Petit logis, échoppe. (Huguet, 16e siècle)</def>
             <xr>V. <ref target="#l1063">1063</ref></xr>
           </entryFree>
@@ -5392,13 +5394,13 @@
             <xr>V. <ref target="#l248">248</ref>, v. <ref target="#l504">504</ref>, v. <ref target="#l512">512</ref></xr>
           </entryFree>
           <entryFree xml:id="mais">
-            <form>MAIS <hi rend="i">adverbre.</hi></form>
+            <form>MAIS adverbre.</form>
             <def>Signifioit aussi autrefois, <hi rend="i">Plus, d’avantage</hi>. On le dit encore en Lyonnois et autrefois à Paris. Vous dites qu’il n’y a là que quatre aunes de ruban, il y en a mais, pour dire, il y en a davantage. Ce mot vient de Magis. (Furetière, 1690)</def>
             <xr>V. <ref target="#l1000">1000</ref></xr>
           </entryFree>
           <entryFree xml:id="mamour">
             <form>MAMOUR, MAMIE Subst. masc. et f.</form>
-            <def>Termes de cageollerie familiere, qui sont abregez de <hi rend="i">mon amour</hi> et de <hi rend="i">mon amie</hi>. <hi rend="b">Ils ne sont en usage que dans le Burlesque et dans les chansons</hi>. Mon cœur, <hi rend="i">m’amour</hi>, se dit par une jeune femme à son mary, par une nourrice à son nourriçon. On dit en esconduisant une pauvre femme, <hi rend="i">m’amie</hi>, je n’ay rien à vous donner. (Furetière, 1690) — M'AMOUR <hi rend="b">qui n’a cours que parmi le bourgeois</hi> ; M'AMIE <hi rend="b">ce mot ne se dit guere qu’en parlant à des servantes, ou qu’entre de petis bourgeois</hi>. (Richelet, 1680)</def>
+            <def>Termes de cageollerie familiere, qui sont abregez de <hi rend="i">mon amour</hi> et de <hi rend="i">mon amie</hi>. Ils ne sont en usage que dans le Burlesque et dans les chansons. Mon cœur, <hi rend="i">m’amour</hi>, se dit par une jeune femme à son mary, par une nourrice à son nourriçon. On dit en esconduisant une pauvre femme, <hi rend="i">m’amie</hi>, je n’ay rien à vous donner. (Furetière, 1690) — M'AMOUR qui n’a cours que parmi le bourgeois ; M'AMIE ce mot ne se dit guere qu’en parlant à des servantes, ou qu’entre de petis bourgeois. (Richelet, 1680)</def>
             <xr>V. <ref target="#l213">213</ref>, v. <ref target="#l285">285</ref>, v. <ref target="#l568">568</ref>, v. <ref target="#l994">994</ref>, v. <ref target="#l1057">1057</ref></xr>
           </entryFree>
           <entryFree>
@@ -5411,8 +5413,8 @@
             <xr>V. <ref target="#l807">807</ref></xr>
           </entryFree>
           <entryFree xml:id="menterie">
-            <form>MANTERIE MENTERIE, <hi rend="i">Subst. fém.</hi></form>
-            <def><hi rend="b">Prononcez <hi rend="i">manterie</hi></hi>. Bourde, mensonge (Richelet, 1680) — <hi rend="b">La <hi rend="i">menterie</hi> est le vice des valets et du bas peuple</hi>. Ce Livre est tout plein de bourdes et de <hi rend="i">menteries</hi>. On s’excuse ordinairement par des <hi rend="i">menteries</hi>. Les hableurs soûtiennent effrontement leurs <hi rend="i">menteries</hi>. (Furetière, 1690)</def>
+            <form>MANTERIE MENTERIE, Subst. fém.</form>
+            <def>Prononcez <hi rend="i">manterie</hi>. Bourde, mensonge (Richelet, 1680) — La <hi rend="i">menterie</hi> est le vice des valets et du bas peuple. Ce Livre est tout plein de bourdes et de <hi rend="i">menteries</hi>. On s’excuse ordinairement par des <hi rend="i">menteries</hi>. Les hableurs soûtiennent effrontement leurs <hi rend="i">menteries</hi>. (Furetière, 1690)</def>
             <xr>V. <ref target="#l1760">1760</ref></xr>
           </entryFree>
           <entryFree xml:id="mastin">
@@ -5426,7 +5428,7 @@
             <xr>V. <ref target="#l847">847</ref></xr>
           </entryFree>
           <entryFree xml:id="modestie">
-            <form>MODESTIE <hi rend="i">subst. fem.</hi></form>
+            <form>MODESTIE subst. fem.</form>
             <def>Pudeur, retenuë. La modestie sied bien sur le visage d’une fille. (Furetière, 1690)</def>
             <xr>V. <ref target="#l569">569</ref></xr>
           </entryFree>
@@ -5436,7 +5438,7 @@
             <xr>V. <ref target="#l625">625</ref></xr>
           </entryFree>
           <entryFree xml:id="naifvete">
-            <form>NAIFVETE <hi rend="i">sust. fém.</hi></form>
+            <form>NAIFVETE sust. fém.</form>
             <def>Caractère de ce qui est naturel. (Huguet, 16e siècle) — Ingenuité, simplicité d’une personne qui n’use point de desguisement. La naïveté des paysans. la naïveté d’un jeune enfant. (Académie, 1718 [2ème éd.])</def>
             <xr><ref target="#epitre">Épître</ref></xr>
           </entryFree>
@@ -5452,7 +5454,7 @@
           </entryFree>
           <entryFree xml:id="nenny">
             <form>NENNY, NENNI adv. negatif ou subst. fem.</form>
-            <def>Nenni da, Nenni vrayement. <hi rend="b">Il est bas</hi>, il est quelquefois subst. fem. Cette boutique est si bien fournie, que quelque chose qu’on demande il n’y a point de nenni. (Furetière, 1690) — NENNI Particule dont on se sert pour répondre négativement à une interrogation expresse ou sous-entendue. <hi rend="b">Il n’a guère d’usage hors de la conversation familière.</hi> Voulez-vous aller à la chasse ? Nenni. En parlant d’Un homme complaisant, qui est toujours d’accord de tout, on dit, que C'est un homme avec qui il n’y a point de nenni. La même chose se dit d’un Marchand chez lequel on trouve tout ce qu’on demande.</def>
+            <def>Nenni da, Nenni vrayement. Il est bas, il est quelquefois subst. fem. Cette boutique est si bien fournie, que quelque chose qu’on demande il n’y a point de nenni. (Furetière, 1690) — NENNI Particule dont on se sert pour répondre négativement à une interrogation expresse ou sous-entendue. Il n’a guère d’usage hors de la conversation familière. Voulez-vous aller à la chasse ? Nenni. En parlant d’Un homme complaisant, qui est toujours d’accord de tout, on dit, que C'est un homme avec qui il n’y a point de nenni. La même chose se dit d’un Marchand chez lequel on trouve tout ce qu’on demande.</def>
             <xr>V. <ref target="#l628">628</ref></xr>
           </entryFree>
           <entryFree xml:id="nepveu">
@@ -5471,17 +5473,17 @@
             <xr>V. <ref target="#l647">647</ref></xr>
           </entryFree>
           <entryFree xml:id="office">
-            <form>OFFICE <hi rend="i">Subst. masc.</hi></form>
+            <form>OFFICE Subst. masc.</form>
             <def>Secours ou devoir reciproque de la vie civile. (Furetière, 1690)</def>
             <xr>V. <ref target="#l402">402</ref></xr>
           </entryFree>
           <entryFree xml:id="oyants">
-            <form>OYANTS participe présent du verbe <hi rend="i">Oïr</hi></form>
+            <form>OYANTS participe présent du verbe Oïr</form>
             <def>Entendre (Godefroy, 9e-15e siècles)</def>
             <xr>V. <ref target="#l878">878</ref></xr>
           </entryFree>
           <entryFree xml:id="ombre">
-            <form>OMBRE <hi rend="i">subst. fém.</hi></form>
+            <form>OMBRE subst. fém.</form>
             <def>Signifie aussi l’ame d’un mort, qu’on se represente sous la figure qu’il avoit vivant, mais qui est une vaine image sans corps. (Furetière, 1690)</def>
             <xr><ref target="#argument">Argument</ref>, acte 5 sc. 1 et 4 (liste des personnages), v. <ref target="#l1951">1951</ref>, v. <ref target="#l1968">1968</ref>, v. <ref target="#l1994">1994</ref></xr>
           </entryFree>
@@ -5491,7 +5493,7 @@
             <xr>V. <ref target="#l165">165</ref>, <ref target="#l1774">1774</ref></xr>
           </entryFree>
           <entryFree xml:id="organe">
-            <form>ORGANE <hi rend="i">subst. masc</hi>.</form>
+            <form>ORGANE subst. masc.</form>
             <def>Se dit figurément en parlant de ceux qui servent à quelqu’un pour faire connoistre ses pensées. Le Grand Seigneur ne s’explique à ses sujets que par l’organe de ses Ministres. (Furetière, 1690)</def>
             <xr>V. <ref target="#l824">824</ref></xr>
           </entryFree>
@@ -5521,12 +5523,12 @@
             <xr>V. <ref target="#l817">817</ref></xr>
           </entryFree>
           <entryFree xml:id="pinte">
-            <form>PINTE <hi rend="i">subst. fém.</hi></form>
+            <form>PINTE subst. fém.</form>
             <def>Vase qui contient deux chopines et dont on se sert ordinairement pour mesurer le vin, la biére, le lait, et quelques autres liqueurs. (Richelet, 1680)</def>
             <xr>V. <ref target="#l1092">1092</ref></xr>
           </entryFree>
           <entryFree xml:id="pipeur">
-            <form>PIPEUR <hi rend="i">Subst. masc. et f.</hi></form>
+            <form>PIPEUR Subst. masc. et f.</form>
             <def>Filou qui trompe au jeu, qui jouë de mauvaise foy. (Furetière, 1690)</def>
             <xr>V. <ref target="#l1326">1326</ref></xr>
           </entryFree>
@@ -5546,7 +5548,7 @@
             <xr>V. <ref target="#l1009">1009</ref></xr>
           </entryFree>
           <entryFree xml:id="ramage">
-            <form>RAMAGE <hi rend="i">subst. masc.</hi></form>
+            <form>RAMAGE subst. masc.</form>
             <def>C'est le chant naturel de quelque oiseau que ce soit. (Richelet, 1680)</def>
             <xr>V. <ref target="#l639">639</ref></xr>
           </entryFree>
@@ -5561,12 +5563,12 @@
             <xr>V. <ref target="#l355">355</ref></xr>
           </entryFree>
           <entryFree xml:id="simplesse">
-            <form>SIMPLESSE <hi rend="i">subst.fém.</hi></form>
-            <def>Simplicité ingénue (Godefroy, 9e-15e siècles) — <hi rend="b">Terme populaire</hi> (Furetière, 1690) — Il n’a guere d’usage que dans le <hi rend="b">discours familier</hi>, et dans cette phrase, <hi rend="i">Il ne demande qu’amour et simplesse</hi>, pour dire, que C'est un homme ingenu, qui a les manieres douces et aisées, et qui ne demande qu’à vivre en paix. Académie, 1718 [2<hi rend="sup">e</hi> éd.]</def>
+            <form>SIMPLESSE subst.fém.</form>
+            <def>Simplicité ingénue (Godefroy, 9e-15e siècles) — Terme populaire (Furetière, 1690) — Il n’a guere d’usage que dans le discours familier, et dans cette phrase, <hi rend="i">Il ne demande qu’amour et simplesse</hi>, pour dire, que C'est un homme ingenu, qui a les manieres douces et aisées, et qui ne demande qu’à vivre en paix. Académie, 1718 [2<hi rend="sup">e</hi> éd.]</def>
             <xr>V. <ref target="#l828">828</ref></xr>
           </entryFree>
           <entryFree xml:id="simplicite">
-            <form>SIMPLICITÉ <hi rend="i">subst.fém.</hi></form>
+            <form>SIMPLICITÉ subst.fém.</form>
             <def>Se dit aussi de l’action qui est faite par une grande foiblesse d’esprit, ou defaut d’experience. On nous a rapporté une grande simplicité que fit cette villageoise. On rit beaucoup de cette simplicité. Il ne faut pas abuser de la simplicité des pauvres gens. (Furetière, 1690)</def>
             <xr>V. <ref target="#l670">670</ref></xr>
           </entryFree>
@@ -5577,7 +5579,7 @@
           </entryFree>
           <entryFree xml:id="soulas">
             <form>SOULAS</form>
-            <def>Plaisir, joie, agrément. (Huguet, 16e siècle) — <hi rend="b">Vieux mot qui ne peut entrer que dans le burlesque et le stile le plus simple</hi> et qui signifie tout ce qui fait la consolation d’une personne, tout ce qui adoucit ses peines et fait son plaisir. (Richelet, 1680)</def>
+            <def>Plaisir, joie, agrément. (Huguet, 16e siècle) — Vieux mot qui ne peut entrer que dans le burlesque et le stile le plus simple et qui signifie tout ce qui fait la consolation d’une personne, tout ce qui adoucit ses peines et fait son plaisir. (Richelet, 1680)</def>
             <xr>V. <ref target="#l1209">1209</ref></xr>
           </entryFree>
           <entryFree xml:id="souffrir">
@@ -5597,7 +5599,7 @@
           </entryFree>
           <entryFree xml:id="sus">
             <form>SUS, OR SUS</form>
-            <def>Exclamation, pour exciter, allons debout, eh bien (Godefroy, 9e-15e siècles, Huguet, 16e siècle) — Vieux mot qui veut dire <hi rend="i">présentement</hi>, et qui quelquefois a <hi rend="b">encore cours dans le burlesque</hi>. (Richelet, 1680)</def>
+            <def>Exclamation, pour exciter, allons debout, eh bien (Godefroy, 9e-15e siècles, Huguet, 16e siècle) — Vieux mot qui veut dire <hi rend="i">présentement</hi>, et qui quelquefois a encore cours dans le burlesque. (Richelet, 1680)</def>
             <xr>V. <ref target="#l149">149</ref>, v. <ref target="#l629">629</ref>, v. <ref target="#l636">636</ref>, v. <ref target="#l638">638</ref>, v. <ref target="#l1149">1149</ref>, v. <ref target="#l1185">1185</ref>, v. <ref target="#l1896">1896</ref></xr>
           </entryFree>
           <entryFree xml:id="tenseulement">
@@ -5626,12 +5628,12 @@
             <xr>V. <ref target="#l495">495</ref>, v. <ref target="#l726">726</ref>, v. <ref target="#l913">913</ref>, v. <ref target="#l1270">1270</ref>, v. <ref target="#l1901">1901</ref></xr>
           </entryFree>
           <entryFree xml:id="trou-madame">
-            <form>TROU-MADAME <hi rend="i">subst.masc.</hi></form>
+            <form>TROU-MADAME subst.masc.</form>
             <def>C'est une sorte de jeu de bois composé de tréze portes et d’autant de galeries auquel on jouë avec tréze petites boules. (Richelet, 1680)</def>
             <xr>V. <ref target="#l610">610</ref></xr>
           </entryFree>
           <entryFree xml:id="truchement">
-            <form>TRUCHEMENT <hi rend="i">subst.masc</hi></form>
+            <form>TRUCHEMENT subst.masc</form>
             <def>Interprete, celuy qui explique à deux personnes qui parlent de langues differentes ce qu’ils se disent l’un à l’autre. (Académie, 1718 [2ème éd.])</def>
             <xr>V. <ref target="#l824">824</ref></xr>
           </entryFree>
@@ -5688,7 +5690,7 @@
               <bibl>DMF (1330-1500), <title>Dictionnaire du Moyen Français</title>, version 2010. ATILF - CNRS &amp; Université.</bibl>
               <bibl>(<hi rend="sc">de) La curne de sainte-palaye</hi> Jean-Baptiste, <title>Dictionnaire historique de l’ancien langage français ou Glossaire de la langue françoise depuis son origine jusqu’au siècle de Louis XIV</title>, Niort, Paris, L. Favre, H. Champion, 10 tomes, 1875-1882.</bibl>
               <bibl><hi rend="sc">Estienne</hi> Robert, <title>Dictionaire Francoislatin</title>, Robert Estienne, 1549.</bibl>
-              <bibl><hi rend="sc">Godefroy</hi> Frédéric, <title>Dictionnaire de l’ancienne langue française et de tous ses dialectes du IX<hi rend="sup">e</hi> au XV<hi rend="sup">e</hi> siècle</title>, F. Vieweg, Émile Bouillon, 10 tomes, 1881-1902. de Lorraine. Site internet : <ref target="http://www.atilf.fr/dmf"><seg rend="internetlink">http://www.atilf.fr/dmf</seg></ref>.</bibl>
+              <bibl><hi rend="sc">Godefroy</hi> Frédéric, <title>Dictionnaire de l’ancienne langue française et de tous ses dialectes du IX<hi rend="sup">e</hi> au XV<hi rend="sup">e</hi> siècle</title>, F. Vieweg, Émile Bouillon, 10 tomes, 1881-1902. de Lorraine. Site internet : <ref target="http://www.atilf.fr/dmf">http://www.atilf.fr/dmf</ref>.</bibl>
               <bibl><hi rend="sc">Furetière</hi> Antoine, <title>Dictionaire Universel</title>, La Haye et Rotterdam, Arnout et Reinier Leers, 3 tomes, 1690.</bibl>
               <bibl><hi rend="sc">Huguet</hi> Edmond, <title>Dictionnaire de la langue française du seizième siècle</title>, Librairie ancienne Édouard Champion, 1928 [1925], 1932, Didier, 1946, 1950, 1961, 1965, 1967.</bibl>
               <bibl><hi rend="sc">Marty-Laveau</hi> Charles, <title>Lexique de la langue de P. Corneille</title>, 1859, Paris, Hachette, 1868.</bibl>
