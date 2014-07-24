@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="nanteuil-amour-sentinelle" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">L'Amour sentinelle ou Le Cadenas forcé. Comédie</title>
-        <author>Denis Clerselier de Nanteuil</author>
+        <title>L'Amour sentinelle ou Le Cadenas forcé. Comédie</title>
+        <author key="?">Denis Clerselier de Nanteuil</author>
         <editor>Svitlana Ovdiienko</editor>
       </titleStmt>
       <editionStmt>
@@ -806,7 +805,7 @@
             <roleDesc>Page de Clidamant.</roleDesc>
           </castItem>
           <castItem>
-            <role>Troupes de <ref target="#crocheteur"><hi rend="sc">Crocheteurs</hi>*</ref>, d’<ref target="#harlequin">Harlequins*</ref> et de Danseurs.</role>
+            <role xml:id="troupes">Troupes de <hi rend="sc"><ref target="#crocheteur">Crocheteurs*</ref></hi>, d’<ref target="#harlequin">Harlequins*</ref> et de Danseurs.</role>
           </castItem>
           </castList>
           <stage>La Scene est à Paris</stage>
@@ -1320,7 +1319,7 @@
             <pb/>
             <head>SCENE IV.</head>
             <stage>Florant, Fernant <hi rend="sc">Cachez dans la maison de</hi> Florant. Fabrice, Roguepine.</stage>
-            <sp who="fabrice-appellant-son-valet">
+            <sp who="fabrice">
               <speaker>Fabrice <hi rend="i">appellant son valet.</hi></speaker>
               <l n="169" xml:id="l169">Roguepine.</l>
             </sp>
@@ -1463,7 +1462,7 @@
               <speaker>Fabrice. <hi rend="i">en sortant.</hi></speaker>
               <l n="226" xml:id="l226">Me maltraitter ainsy.</l>
             </sp>
-            <sp who="roguepine-aux-crocheteurs">
+            <sp who="roguepine">
               <speaker>Roguepine <hi rend="i">aux crocheteurs.</hi></speaker>
               <l part="Y"><space/><space/>            C’est mon Maistre rossez.</l>
               <stage>Les crocheteurs ayant mis dehors le Marquis se retirent, hors un, qui danse une entrée pour finir l’acte.</stage>
@@ -1580,7 +1579,7 @@
               <l n="275" xml:id="l275">L’amy laisse un peu là ta foible <ref target="#raillerie">raillerie*</ref>,</l>
               <l n="276" xml:id="l276">Donne moy patience.</l>
             </sp>
-            <sp who="roguepine-a-part">
+            <sp who="roguepine">
               <speaker>Roguepine <hi rend="i">à part.</hi></speaker>
               <l part="Y">            He<note n="107" place="bottom"> Hé – «  Interjection (L'<hi rend="i">H</hi> s’aspire.) Non seulement pour appeller. <hi rend="i">Hé viens çà</hi>, ce qui ne se dit qu’à des personnes inferieures; mais encore pour advertir quelqu’un, et l’inciter à faire quelque chose, ou pour l’en empescher. <hi rend="i">Hé prenez garde, cela va tomber. hé que pensez-vous faire;</hi> ou pour temoigner de la pitié. <hi rend="i">Hé pauvre homme que je vous plains;</hi> ou pour temoigner de la douleur. <hi rend="i">Hé que je suis miserable</hi>, ou pour temoigner de l’admiration, soit serieusement, soit par ironie. <hi rend="i">Hé qui vous pensoit là ? hé d’où venez-vous. hé que vous estes paré. hé que vous estes gentil.</hi> » (Académie).</note> l’amy sans <ref target="#furie2">furie*</ref>,</l>
               <stage>Haut</stage>
@@ -1894,12 +1893,12 @@
               <l n="387" xml:id="l387">Si fidelle si seur si zelé pour un Maistre,</l>
               <l n="388" xml:id="l388">Helas ! le coeur m’en creve  ah que le monde est traistre.</l>
             </sp>
-            <sp who="florant-a-part">
+            <sp who="florant">
               <speaker>Florant <hi rend="i">à part.</hi></speaker>
               <l n="389" xml:id="l389">Mais si je m’en servois pour garder ma maison,</l>
               <l n="390" xml:id="l390">Je ne ferois pas mal.</l>
             </sp>
-            <sp who="croctin-bas">
+            <sp who="croctin">
               <speaker>Croctin <hi rend="i">bas.</hi></speaker>
               <l part="Y">            Et bon bon, nostre oison<note n="118" place="bottom"> Oison – « On dit par injure à un homme, que c’est un <hi rend="i">oison</hi>, qu’il se laisse mener comme un <hi rend="i">oison</hi>, pour dire, que c’est un sot, qui ne sçait pas se conduire, qu’il n’agit que par l’organe d’autruy. » (<hi rend="sc">Furetière</hi>).</note>,</l>
               <l n="391" xml:id="l391">Commance à s’amorcer ah ! s’il se pouvoit faire,</l>
@@ -1977,7 +1976,7 @@
               <speaker>Florant.</speaker>
               <l n="409" xml:id="l409">Va viste le trouver et reviens en ce lieu.</l>
             </sp>
-            <sp who="croctin-a-lisette">
+            <sp who="croctin">
               <speaker>Croctin <hi rend="i">à Lisette</hi></speaker>
               <l n="410" xml:id="l410">J'y vais, va t’en chercher ses habits.</l>
             </sp>
@@ -2274,7 +2273,7 @@
             <pb/>
             <head>SCENE III.</head>
             <stage>Croctin <hi rend="sc">écoutant à la porte de</hi> Florant, Fernant.</stage>
-            <sp who="florant-a-fernant">
+            <sp who="florant">
               <speaker>Florant <hi rend="i">à Fernant.</hi></speaker>
               <l n="491" xml:id="l491">Il faut ...</l>
             </sp>
@@ -2619,7 +2618,7 @@
               <l n="593" xml:id="l593">Allons Madame allons qu’il y soit à jamais,</l>
               <l n="594" xml:id="l594">Nous trouverons moyen de faire vostre paix.</l>
             </sp>
-            <sp who="croctin-a-lisette">
+            <sp who="croctin">
               <speaker>Croctin <hi rend="i">à Lisette</hi></speaker>
               <l n="595" xml:id="l595">Pour moy je ne crains <ref target="#point1">point</ref> que l’on nous desassemble,</l>
               <l n="596" xml:id="l596">Et si<note n="144" place="bottom">Voir la note du vers 459.</note> nous pourrons bien coucher ce soir ensemble.</l>
@@ -2698,7 +2697,7 @@
               <p rend="i" xml:id="lettre">Vous devez estre sans doute surpris de la maniere que j’en agis avec vous, c’est moy qui ay gardé Isabelle chez vous avec Croctin mon valet, elle est entre mes mains, et si vous souhaitez nostre alliance, vous aurez la bonté de me le faire sçavoir par le porteur de ce <ref target="#billet">billet*</ref>.</p>
               <p><space>                                                                  </space>Clidamant.</p>
             </sp>
-            <sp who="florant-apres-avoir-leu-continue">
+            <sp who="florant">
               <speaker>Florant <hi rend="i">apres avoir leu continuë.</hi></speaker>
               <l n="615" xml:id="l615">Il ne l’aura jamais.</l>
             </sp>
@@ -2706,11 +2705,11 @@
               <speaker>Carlos.</speaker>
               <l part="Y"><space/><space/>            Son amour est extreme.</l>
             </sp>
-            <sp who="fernant-a-florant">
+            <sp who="fernant">
               <speaker>Fernant <hi rend="i">à Florant</hi>. </speaker>
               <l n="616" xml:id="l616">Vous ne pouvez l’avoir donnez luy.</l>
             </sp>
-            <sp who="florant-apres-avoir-un-peu-resve*">
+            <sp who="florant">
               <speaker>Florant <hi rend="i">apres avoir un peu <ref target="#rever">resvé*</ref>.</hi></speaker>
               <l part="Y"><space/><space/>                    Bien qu’il ayme,</l>
               <l n="617" xml:id="l617">Faites les moy venir que je les voye un peu.                     <pb n="54"/></l>
