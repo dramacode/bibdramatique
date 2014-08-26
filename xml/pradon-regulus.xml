@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="pradon-regulus" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Régulus. Tragédie</title>
-        <author>Jacques Pradon</author>
+        <title>Régulus. Tragédie</title>
+        <author key="Pradon, Nicolas (1632-1698)">Jacques Pradon</author>
         <editor>Andrea Siani</editor>
       </titleStmt>
       <editionStmt>
@@ -159,7 +158,7 @@
             <quote>
               <p>On represente depuis un mois avec beaucoup de succés une Tragedie intitulée <hi rend="i">Regulus</hi>. Les plus grands hommes avoient tasté ce sujet, &amp; quoy que l’action de ce Romain, qui retourna à Cartage, asseuré de la mort qui luy étoit preparée, leur eust paru fort touchante, ils avoient trouvé des obstacles qui leur sembloient invincibles à la reduire au  Theatre. Monsieur Pradon a eu moins de scrupules, ou peut-estre plus de lumieres, &amp; pour faire mieux briller une si belle action, il a presté à l’Histoire des choses qu’elle ne luy fournissoit pas, &amp; il l’a méme changée dans les circonstances de l’action principale. Ce que fit Regulus est si éclatant &amp; part d’une si grande ame, qu’on ne peut l’entendre sans l’admirer. Vous pouvez juger par là qu’il doit y avoir de grandes beautez dans cette piece<note n="40" place="bottom"><hi rend="i">Mercure galant</hi>, Lyon, Thomas Amaulry, 1688 (janvier), p. 248-249.</note>.</p>
             </quote>
-            <p>Mais le témoignage le plus éclatant du succès de <hi rend="i">Régulus</hi> est sans doute le fait qu’il ait été relativement épargné par la satire. Pour une pièce de Pradon ne pas encourir dans les moqueries cruelles de ses adversaires revenait implicitement à une promotion de la part de ces derniers. Le plus farouche des censeurs du poète, Boileau, se limita à suggérer que les pièces de Pradon qui était tenues pour être ses meilleures, <hi rend="i">Pyrame et Thisbé</hi> et <hi rend="i">Régulus</hi>, restaient invendues chez les libraires : « Vous irés à la fin honteusement exclus // Trouver au magazin Pyrâme, et Regulus, »<note n="41" place="bottom"><emph><hi rend="color_444444"> Nicolas Boileau</hi></emph><hi rend="color_444444">-Despréaux, <hi rend="i">Nouvelles epistres du Sieur D***</hi>, Paris, Denys Thierry, 1698, épître X.</hi></note>. <hi rend="i">Régulus</hi> recueillit généralement des opinions favorables, mais, une génération plus tard, un critique du calibre de Voltaire n’hésita pas à nier tout rapport entre succès de public et qualité dramatique et littéraire de la pièce, attribuant tout le mérite au jeu des comédiens :</p>
+            <p>Mais le témoignage le plus éclatant du succès de <hi rend="i">Régulus</hi> est sans doute le fait qu’il ait été relativement épargné par la satire. Pour une pièce de Pradon ne pas encourir dans les moqueries cruelles de ses adversaires revenait implicitement à une promotion de la part de ces derniers. Le plus farouche des censeurs du poète, Boileau, se limita à suggérer que les pièces de Pradon qui était tenues pour être ses meilleures, <hi rend="i">Pyrame et Thisbé</hi> et <hi rend="i">Régulus</hi>, restaient invendues chez les libraires : « Vous irés à la fin honteusement exclus // Trouver au magazin Pyrâme, et Regulus, »<note n="41" place="bottom">Nicolas Boileau-Despréaux, <hi rend="i">Nouvelles epistres du Sieur D***</hi>, Paris, Denys Thierry, 1698, épître X.</note>. <hi rend="i">Régulus</hi> recueillit généralement des opinions favorables, mais, une génération plus tard, un critique du calibre de Voltaire n’hésita pas à nier tout rapport entre succès de public et qualité dramatique et littéraire de la pièce, attribuant tout le mérite au jeu des comédiens :</p>
             <quote>
               <l>D’un acteur quelquefois la séduisante adresse</l>
               <l>D’un vers dur et sans grâce adoucit la rudesse ;</l>
@@ -532,39 +531,39 @@
           <head>ACTEURS<note n="138" place="bottom"> Pour la construction des personnages, voir l’Introduction, aux rubriques « Le travail sur les sources » et « Les personnages ». Pour les comédiens qui interprétèrent ces rôles, voir la biographie de Pradon à la rubrique « Le triomphe de <hi rend="i">Regulus</hi> ».</note>                <pb n="XIV"/></head>
           <castList>
           <castItem>
-            <role>REGULUS ATTILIUS</role>
+            <role xml:id="regulus">REGULUS ATTILIUS</role>
             <roleDesc>Consul, Commandant l’armée des Romains devant Cartage.</roleDesc>
           </castItem>
           <castItem>
-            <role>METELLUS,</role>
+            <role xml:id="metellus">METELLUS,</role>
             <roleDesc>Proconsul de l’Afrique, pere de Fulvie.</roleDesc>
           </castItem>
           <castItem>
-            <role>FULVIE,</role>
+            <role xml:id="fulvie">FULVIE,</role>
             <roleDesc>fille de Metellus, promise à Regulus.</roleDesc>
           </castItem>
           <castItem>
-            <role>Le jeune ATTILIUS,</role>
+            <role xml:id="attilius">Le jeune ATTILIUS,</role>
             <roleDesc>fils de Regulus, amené dans le Camp par son pere.</roleDesc>
           </castItem>
           <castItem>
-            <role>PRISCUS,</role>
+            <role xml:id="priscus">PRISCUS,</role>
             <roleDesc>Chef de deux Legions envoyé à Regulus par le Senat.</roleDesc>
           </castItem>
           <castItem>
-            <role>MANNIUS,</role>
+            <role xml:id="mannius">MANNIUS,</role>
             <roleDesc>Tribun militaire, ennemy caché de Regulus, &amp; son rival.</roleDesc>
           </castItem>
           <castItem>
-            <role>LEPIDE,</role>
+            <role xml:id="lepide">LEPIDE,</role>
             <roleDesc>Gouverneur du jeune Attilius.</roleDesc>
           </castItem>
           <castItem>
-            <role>FAUSTINE,</role>
+            <role xml:id="faustine">FAUSTINE,</role>
             <roleDesc>Confidente de Fulvie.</roleDesc>
           </castItem>
           <castItem>
-            <role>MARCELLE,</role>
+            <role xml:id="marcelle">MARCELLE,</role>
             <roleDesc>autre Femme de la suite de Fulvie.</roleDesc>
           </castItem>
           </castList>
@@ -709,7 +708,7 @@
             <pb/>
             <head>SCENE II.                        <pb n="6"/></head>
             <stage>REGULUS, METELLUS, PRISCUS.</stage>
-            <sp who="priscus-a-regulus">
+            <sp who="priscus">
               <speaker>PRISCUS <hi rend="i">à Regulus.</hi></speaker>
               <l n="107" xml:id="l107">Je viens remplir le choix dont Scipion m’honore,</l>
               <l n="108" xml:id="l108">Seigneur, je viens marcher sous un chef qu’il <ref target="#adorer1">adore*</ref>,</l>
@@ -1801,7 +1800,7 @@
               <speaker>FULVIE.</speaker>
               <l n="795" xml:id="l795">J’obeïs,<note n="224" place="bottom">« . » VMC.</note></l>
             </sp>
-            <sp who="metellus-a-lepide">
+            <sp who="metellus">
               <speaker>METELLUS <hi rend="i">à Lepide</hi>.</speaker>
               <l part="Y"><space/>Laissez-nous.</l>
             </sp>
@@ -2569,7 +2568,7 @@
               <speaker>REGULUS.</speaker>
               <l n="1263" xml:id="l1263">Et moy, je ne réponds de rien. Qu’allez-vous faire ?</l>
               <l n="1264" xml:id="l1264">Epargnez une vie, helas ! qui m’est si chere ;</l>
-              <l n="1265" xml:id="l1265">Pourquoy me cherchez-vous ? qui<note n="259" place="bottom"> Sur l’indétermination du trait /<hi rend="color_222222">± </hi> humain/ pour le pronom « qui », voire la note à l’Épître, page IV.</note> vous amene icy ?</l>
+              <l n="1265" xml:id="l1265">Pourquoy me cherchez-vous ? qui<note n="259" place="bottom"> Sur l’indétermination du trait /±  humain/ pour le pronom « qui », voire la note à l’Épître, page IV.</note> vous amene icy ?</l>
               <l n="1266" xml:id="l1266">Et que vous ay-je fait pour me traiter ainsi ?</l>
               <l n="1267" xml:id="l1267">Mais quoy ? consolez-vous, genereuse Fulvie,</l>
               <l n="1268" xml:id="l1268">Avant que d’estre à vous, je suis à ma patrie ;</l>
@@ -2604,7 +2603,7 @@
             <pb/>
             <head>SCENE IV.</head>
             <stage>Le jeune ATTILIUS, LEPIDE, REGULUS, PRISCUS, FULVIE, FAUSTINE.</stage>
-            <sp who="le-jeune-attilius">
+            <sp who="attilius">
               <speaker>Le jeune ATTILIUS.</speaker>
               <l n="1288" xml:id="l1288">Seigneur, où courez-vous ? quel dessein <ref target="#parricide">parricide*</ref></l>
               <l n="1289" xml:id="l1289">Vous fait fuir sans pitié, vous fait m’abandonner,</l>
@@ -2658,7 +2657,7 @@
               <l n="1313" xml:id="l1313"><ref target="#maitresse">Maîtresse*</ref>, fils, Romains<note n="267" place="bottom">« , » VMC.</note> je ne vous connois plus,</l>
               <l n="1314" xml:id="l1314">Et ne vois de Romain icy que Metellus.</l>
             </sp>
-            <sp who="le-jeune-attilius">
+            <sp who="attilius">
               <speaker>Le jeune ATTILIUS.    <pb n="70"/></speaker>
               <l n="1315" xml:id="l1315">Mon pere ?</l>
             </sp>
@@ -2697,7 +2696,7 @@
               <speaker>FULVIE.    <pb n="71 G"/></speaker>
               <l n="1335" xml:id="l1335">Faustine, soûtiens-moy<note n="274" place="bottom"> Le vers se trouve déjà dans <hi rend="i">Suréna</hi> de Corneille : « Ormène, soutiens-moi. », V, 5, V. 1733. Corneille, <hi rend="i">Œuvres complètes</hi>, éd. cit., v. 3, p. 1304.</note>.</l>
             </sp>
-            <sp who="le-jeune-attilius">
+            <sp who="attilius">
               <speaker>Le jeune ATTILIUS.</speaker>
               <l part="Y"><space/><space/>            Mon pere, il faut vous suivre,</l>
               <l n="1336" xml:id="l1336">Je vous perds pour jamais, pourais-je vous survivre.<note n="275" place="bottom">« ? » VMC.</note></l>
@@ -2720,7 +2719,7 @@
               <speaker>FULVIE.</speaker>
               <l n="1343" xml:id="l1343">Quel espoir justes Dieux !</l>
             </sp>
-            <sp who="le-jeune-attilius">
+            <sp who="attilius">
               <speaker>Le jeune ATTILIUS.</speaker>
               <l part="Y"><space/><space/>            Ah ! sans verser des larmes,</l>
               <l n="1344" xml:id="l1344">Le fils de Regulus doit recourir aux armes,</l>
@@ -2731,7 +2730,7 @@
               <speaker>LEPIDE.</speaker>
               <l n="1347" xml:id="l1347">Ah ! Seigneur.</l>
             </sp>
-            <sp who="le-jeune-attilius">
+            <sp who="attilius">
               <speaker>Le jeune ATTILIUS.</speaker>
               <l part="Y"><space/><space/>        Est-ce ainsi que vous devez m’instruire,<note n="276" place="bottom">« ? » VMC.</note></l>
               <l n="1348" xml:id="l1348">Vous devez au combat vous-mesme me conduire,</l>
@@ -2894,7 +2893,7 @@
         <div xml:id="privilege">
           <head>EXTRAIT DV PRIVILEGE                <pb n="XV"/>du Roy.</head>
           <p>Par Grace &amp; Privilege du Roy, donné à le jour de 1688. Signé Par le Roy en son Conseil, Du <hi rend="sc">Gono</hi>. Il est permis au Sieur <hi rend="sc">Pradon</hi>, de faire imprimer, vendre &amp; debiter par tel Imprimeur ou Libraire qu’il voudra choisir, une Piece de Theatre  de sa composition, intitulée <hi rend="i">Regulus, Tragedie</hi>, pendant le temps de six années, à compter du jour que ladite Piece sera achevée d’imprimer pour la premiere fois : Pendant lequel temps faisons  tres-expresse <ref target="#inhibition">inhibition*</ref> &amp; deffense à toute personnes , de quelque qualité &amp; condition qu’elles soient, de faire imprimer, vendre &amp; debiter par tous les lieux de nostre obeïssance d’autre Edition que celle du Sieur <hi rend="sc">Pradon</hi>, ou de ceux qui auront droit de luy, à peine de trois mil livres d’amende payables sans deport par chacun des contrevenans, confiscation des Exemplaires contrefaits, &amp; autres peines plus au long contenuës dans lesdites Lettres.</p>
-          <p><hi rend="i">Registré</hi><hi rend="i">sur le Livre de la Communauté des Imprimeurs &amp; Libraires de Paris, le <space>             </space>1688. suivant l’Arrest du Parlement du 8. avril 1653. celuy du Conseil Privé du Roy, du 17. Fevrier 1665. &amp; l’Edit de la sa Majesté donné à Versailles au mois d’Aoust 1686.</hi> </p>
+          <p><hi rend="i">Registré</hi><hi rend="i">sur le Livre de la Communauté des Imprimeurs &amp; Libraires de Paris, le       1688. suivant l’Arrest du Parlement du 8. avril 1653. celuy du Conseil Privé du Roy, du 17. Fevrier 1665. &amp; l’Edit de la sa Majesté donné à Versailles au mois d’Aoust 1686.</hi> </p>
           <p>                            <hi rend="i">I. B. COIGNARD, Syndic.</hi></p>
           <label rend="center">Achevé d’imprimer pour la premiere fois le 3. Mars 1688.</label>
         </div>
@@ -3704,14 +3703,14 @@
               <bibl><hi rend="sc">Barbafieri</hi>, Carine, <title>Astrée et Céladon. La galanterie dans le théâtre tragique de la France classique (1634-1702)</title>, Rennes, Presses universitaires de Rennes, 2006.</bibl>
               <bibl><hi rend="sc">Forestier</hi>, Georges, <title>Essai de génétique théâtrale. Corneille à l’œuvre</title>, Genève, Droz, 2004 (Paris, Klincksieck, 1996).</bibl>
               <bibl><hi rend="sc">Forestier</hi>, Georges, <title>Jean Racine</title>, Paris, Gallimard, 2006.</bibl>
-              <bibl><gloss><hi rend="sc">Lockert</hi></gloss>, Lacy, <title>Studies in French-Classical Tragedy</title>, Nashville, Vanderbilt University Press, 1958.</bibl>
-              <bibl><gloss><hi rend="sc">Riffaud</hi>, </gloss>Alain, <title>La ponctuation du théâtre imprimé au XVII<hi rend="sup">e</hi> siècle</title>, Genève, Droz, 2007.</bibl>
-              <bibl><gloss><hi rend="sc">Scherer</hi>, </gloss>Jacques, <title>La Dramaturgie classique en France</title>, Paris, Nizet, 2001 (1950).</bibl>
+              <bibl><hi rend="sc">Lockert</hi>, Lacy, <title>Studies in French-Classical Tragedy</title>, Nashville, Vanderbilt University Press, 1958.</bibl>
+              <bibl><hi rend="sc">Riffaud</hi>, Alain, <title>La ponctuation du théâtre imprimé au XVII<hi rend="sup">e</hi> siècle</title>, Genève, Droz, 2007.</bibl>
+              <bibl><hi rend="sc">Scherer</hi>, Jacques, <title>La Dramaturgie classique en France</title>, Paris, Nizet, 2001 (1950).</bibl>
             </div>
             <div>
               <head>Études sur Pradon et sur Régulus</head>
-              <bibl><gloss><hi rend="sc">Beaurepaire</hi></gloss>, Charles de, <title>Notice sur le poète Pradon</title>, Rouen, Imprimerie Cagniard, 1899.</bibl>
-              <bibl><gloss><hi rend="sc">Bussom</hi></gloss>, Thomas W. Bussom, <title>A rival of Racine. Pradon : his life and dramatic works</title>, Paris, Édouard Champion, 1922.</bibl>
+              <bibl><hi rend="sc">Beaurepaire</hi>, Charles de, <title>Notice sur le poète Pradon</title>, Rouen, Imprimerie Cagniard, 1899.</bibl>
+              <bibl><hi rend="sc">Bussom</hi>, Thomas W. Bussom, <title>A rival of Racine. Pradon : his life and dramatic works</title>, Paris, Édouard Champion, 1922.</bibl>
               <bibl><hi rend="sc">Mix</hi>, Erving R., <title>Marcus Atilius Regulus : Exemplum Historicum</title>, La Haye et Paris, Mouton, 1970.</bibl>
               <bibl><hi rend="sc">Mix</hi>, Erving R., « Cicero and Regulus », in <title>The classical world</title>, The classical Association of the atlantic States, vol. 58, nº 6 (février 1965).<anchor xml:id="Gaius"/></bibl>
             </div>
