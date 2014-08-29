@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="scudery_fils-suppose" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Le Fils supposé. Comédie</title>
-        <author>Georges de Scudéry</author>
+        <author key="Scudéry, Georges de (1601-1667)">Georges de Scudéry</author>
         <editor>Alexandra Dias Vieira</editor>
       </titleStmt>
       <editionStmt>
@@ -1400,7 +1399,7 @@
               <l n="463" xml:id="l463">Et puisse mon Rival, pour vos felicitez,</l>
               <l n="464" xml:id="l464">Connoistre comme moy, ce que vous meritez.</l>
             </sp>
-            <sp who="luciane.">
+            <sp who="luciane">
               <speaker>Luciane.    <pb n="C, p.33"/></speaker>
               <l n="465" xml:id="l465">Amoureux assassin dont la seule parole,</l>
               <l n="466" xml:id="l466">Me fait vivre et mourir, m’afflige, et me console,</l>
@@ -1950,10 +1949,10 @@
               <l n="830" xml:id="l830">Et recueillir les fruicts d’une belle victoire.</l>
               <p>ACTE III.                      <pb n="59" xml:id="p59"/></p>
             </sp>
-            <sp who="scene-v">
-              <speaker>SCENE V.</speaker>
-              <stage>Almedor, Rosandre, Luciane.</stage>
-            </sp>
+          </div>
+          <div type="scene">
+            <head>SCENE V.</head>
+            <stage>Almedor, Rosandre, Luciane.</stage>
             <sp who="almedor">
               <speaker>Almedor.</speaker>
               <l n="831" xml:id="l831">En fin ce serviteur si long temps attendu,</l>
@@ -3677,7 +3676,7 @@
             <def>On dit aussi qu’un homme se <hi rend="i">plaint</hi> sa vie, se <hi rend="i">plaint</hi> un habit, pour dire, qu’il ne se donne pas ce qui est necessaire pour se nourrir et pour se vestir. On dit au contraire, On n’a pas <hi rend="i">plaint</hi> l’argent à ce bastiment, pour dire. On n’y a rien espargné. On n’a pas <hi rend="i">pleint</hi> le beurre à cette sauce, on y en a mis trop. On luy <hi rend="i">plaint</hi> rien, on luy donne tout ce qu’il souhaitte. </def>
           </entryFree>
           <entryFree xml:id="poltron">
-            <form>Poltron, onne : adj. et subst.opposé à <hi rend="i">brave</hi> et <hi rend="i">vaillant</hi>.</form>
+            <form>Poltron, onne : adj. et subst.opposé à brave et vaillant.</form>
             <def>Qui est timide, qui n’ose rien entreprendre, de peur de courir quelque danger.</def>
             <xr>V. <ref target="#l993">993</ref></xr>
             <def>D'autres le derivent <hi rend="i">à poletro</hi> ou <hi rend="i">poltro</hi>, qui signifie en Italien un <hi rend="i">poulain</hi> ou jeune cheval qui est fort disposé à s’enfuir n’estant pas accoustumé à la guerre.</def>
@@ -3730,7 +3729,7 @@
             <xr>V. <ref target="#l325">325</ref></xr>
           </entryFree>
           <entryFree>
-            <form>Travail, travaux: <hi rend="i">s.m.</hi></form>
+            <form>Travail, travaux: s.m.</form>
             <def xml:id="travail1">Ce mot fait au pluriel <hi rend="i">travaux</hi>, et il signifie peine, fatigue, action.</def>
             <xr>V. <ref target="#l962">962</ref> ; <ref target="#l1159">1159</ref></xr>
             <def xml:id="travail2">Les douze <hi rend="i">travaux</hi> d’Hercule sont fameux dans les ouvrages des anciens Poëtes. C'est à dire, les douze célébres actions d’Hercule sont chantées par les Poëtes de l’antiquité.</def>
@@ -3791,7 +3790,7 @@
           <l>La belle qui m’arrestera,</l>
           <l>Beaucoup plus d’honneur en aura.</l>
           <lg>
-          <head>I.</head>
+          <l>I.</l>
           <l>J'ayme à changer, <hi rend="i">c’est ma franchise</hi>,</l>
           <l>Et mon humeur m’y va portant :</l>
           <l>Mais quoy si je suis inconstant,</l>
@@ -3800,7 +3799,7 @@
           <l>Beaucoup plus d’honneur en aura.</l>
           </lg>
           <lg>
-          <head>II.</head>
+          <l>II.</l>
           <l>Faire aimer une <hi rend="i">ame barbare</hi>,</l>
           <l>C'est signe de grande beauté,</l>
           <l>Et rendre mon cœur arresté,</l>
@@ -3809,7 +3808,7 @@
           <l>Beaucoup plus d’honneur en aura.</l>
           </lg>
           <lg>
-          <head>III.</head>
+          <l>III.</l>
           <l>Arrester un fais immobile,</l>
           <l>Qui ne le peut faire aisément ?</l>
           <l>Mais arrester un mouvement,</l>
@@ -3818,7 +3817,7 @@
           <l>Beaucoup plus d’honneur en aura.</l>
           </lg>
           <lg>
-          <head>IIII.</head>
+          <l>IIII.</l>
           <l>Et pourquoy <hi rend="i">trouvez-vous estrange</hi></l>
           <l>Que je change pour avoir mieux  ?</l>
           <l>Il faudroit bien n’avoir point des yeux,</l>
@@ -3827,7 +3826,7 @@
           <l>Beaucoup plus d’honneur en aura.</l>
           </lg>
           <lg>
-          <head>V.</head>
+          <l>V.</l>
           <l>Car c’est signe que ceste belle,</l>
           <l><hi rend="i">Qui mon</hi><hi rend="i">Amour constante aura</hi>, 
 </l>
@@ -3837,7 +3836,7 @@
           <l>Beaucoup plus d’honneur en aura.</l>
           </lg>
           <lg>
-          <head>VI.</head>
+          <l>VI.</l>
           <l>Venez donc me trouver Bergeres,</l>
           <l>Qui voulez le prix de beauté,</l>
           <l>Arrestez ma legereté</l>
