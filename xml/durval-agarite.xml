@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="durval-agarite" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Agarite. Tragi-comédie</title>
-        <author>Jean-Gilbert Durval</author>
+        <title>Agarite. Tragi-comédie</title>
+        <author key="Durval, Jean-Gilbert (16..-16..)">Jean-Gilbert Durval</author>
         <editor>Marine Jeannoutot</editor>
       </titleStmt>
       <editionStmt>
@@ -1154,7 +1153,7 @@
                 <item>– <hi rend="b">v.1012</hi> : [:] remplacé par [,].</item>
                 <item>– <hi rend="b">v.1014</hi> : [e] a été omis à l’article indéfini au féminin singulier « une ».</item>
                 <item>– <hi rend="b">v.1016</hi> : [:] remplacé par [,].</item>
-                <item>– <hi rend="b">p.71 <space> </space></hi> : « IIII » a été omis entre les vers 1030 et 1031.</item>
+                <item>– <hi rend="b">p.71</hi> : « IIII » a été omis entre les vers 1030 et 1031.</item>
                 <item>– <hi rend="b">v.1044</hi> : [;] ajouté à la fin du vers.</item>
                 <item>– <hi rend="b">v.1058</hi> : « n’aviez-pas » remplacé par « n’aviez pas ».</item>
                 <item>– <hi rend="b">v.1082</hi> : ajout d’un point à la fin du vers.</item>
@@ -1173,8 +1172,8 @@
                 <item>– <hi rend="b">v.1285</hi> : « pense » remplacé par « pensé ».</item>
                 <item>– <hi rend="b">v.1287</hi> : « d une » remplacé par « d’une ».</item>
                 <item>– <hi rend="b">v.1297</hi> : [.] supprimé en fin de vers.</item>
-                <item>– <hi rend="b">p.83 <space> </space></hi> : « <hi rend="sc">Policaste</hi> » a été omis entre les vers 1298 et 1299.</item>
-                <item>– <hi rend="b">p.86 <space> </space></hi> : [,] omis après <hi rend="sc">Celidor</hi> entre les vers 1342 et 1343.</item>
+                <item>– <hi rend="b">p.83</hi> : « <hi rend="sc">Policaste</hi> » a été omis entre les vers 1298 et 1299.</item>
+                <item>– <hi rend="b">p.86</hi> : [,] omis après <hi rend="sc">Celidor</hi> entre les vers 1342 et 1343.</item>
                 <item>– <hi rend="b">v.1361</hi> : [.] supprimé à la fin du vers.</item>
                 <item>– <hi rend="b">v.1363</hi> : « la » remplacé par « l’a ».</item>
                 <item>– <hi rend="b">v.1368</hi> : « te » remplacé par « de ».</item>
@@ -1387,7 +1386,7 @@
             <roleDesc>sœur de Lizene.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="cocher">LE COCHER de Medon.</role>
+            <role xml:id="le-cocher">LE COCHER de Medon.</role>
           </castItem>
           <castItem>
             <role xml:id="pecheur1">LES PESCHEURS (I et II).</role>
@@ -1838,7 +1837,7 @@
           <div type="scene">
             <head>Scene IV.</head>
             <stage>Phenice, Amelise, le Roy, Celidor, l’Exempt [, Medon]. </stage>
-            <sp who="phenice.phenice-est-avec-amelise">
+            <sp who="phenice">
               <speaker>Phenice.<note n="200" place="bottom">Phénice est avec Amélise, dans les appartements de cette dernière.</note> </speaker>
               <l n="249" xml:id="l249">Quand je pense, Madame<note n="201" place="bottom"> « Est aussi un titre qu’on donne aux femmes et aux filles des bourgeois en parlant d’elles ou à elles », selon le <hi rend="i">Dictionnaire de l’Académie</hi>.</note>, au bon-heur qui vous fuit,</l>
               <l n="250" xml:id="l250">Il me semble de<note n="202" place="bottom"> « L’infinitif sujet est accompagné de la préposition « de » lorsqu’il se construit avec « il me semble » », selon Haase, <hi rend="i">Syntaxe française du 17<hi rend="sup">e</hi> siècle, §112B.</hi></note> voir un beau jour qui me luit.</l>
@@ -1997,7 +1996,7 @@
               <l n="342" xml:id="l342">Et combien en son lieu<note n="230" place="bottom">A sa place.</note> Policaste me plaist :</l>
               <l n="343" xml:id="l343">Mais les voicy tous deux à propos.</l>
             </sp>
-            <sp who="lyzene">
+            <sp who="lizene">
               <speaker>Lyzene.    <pb n="25"/></speaker>
               <l part="Y"><space/><space/>                C’est <ref target="#merveille1">merveilles*</ref></l>
               <l n="344" xml:id="l344">De voir une Beauté qui n’a <ref target="#point3">point*</ref> de pareille.</l>
@@ -2027,7 +2026,7 @@
               <speaker>Policaste.</speaker>
               <l n="351" xml:id="l351">Sonnet, d’un Gentilhomme aymé de sa <ref target="#maistresse">Maistresse*</ref>.</l>
             </sp>
-            <sp who="lyzene">
+            <sp who="lizene">
               <speaker>Lyzene.</speaker>
               <l n="352" xml:id="l352"><space/><space/>Celuy-là meritoit d’estre mis sur la <ref target="#presse2">Presse*</ref>,                     <pb n="26"/></l>
               <l n="353" xml:id="l353">Acheve Policaste, il semble que l’Autheur</l>
@@ -2050,7 +2049,7 @@
               <l n="367" xml:id="l367">La <ref target="#nature2">Nature*</ref> a formé ses Tetons <ref target="#dessein3">à dessein*</ref></l>
               <l n="368" xml:id="l368">Qu’il en sorte du laict,<note n="235" place="bottom">Le lait symbolise l’abondance et la fertilité.</note> et non pas de l’eau claire.</l>
             </sp>
-            <sp who="lyzene">
+            <sp who="lizene">
               <speaker>Lyzene.</speaker>
               <l n="369" xml:id="l369">Je meure<note n="236" place="bottom">Il s’agit d’un subjonctif présent à valeur optative. L’ancien français n’utilise que très rarement le morphème « que », devenu usuel par la suite, devant le subjonctif ayant cette valeur.</note>, ce Sonnet en sa <ref target="#pointe">pointe*</ref> me plait,<note n="237" place="bottom">La virgule est équivalente à des points de suspension ; c’est également le cas aux vers 393, 396, 403, 495, 496.</note></l>
             </sp>
@@ -2058,7 +2057,7 @@
               <speaker>Policaste.</speaker>
               <l n="370" xml:id="l370">L’eau m’en vient à la bouche, avec ce goust de laict.</l>
             </sp>
-            <sp who="lyzene">
+            <sp who="lizene">
               <speaker>Lyzene.</speaker>
               <l n="371" xml:id="l371">De <ref target="#grace3">grace*</ref>, permettez que j’en trouve un semblable.</l>
             </sp>
@@ -2066,7 +2065,7 @@
               <speaker>Agarite.</speaker>
               <l n="372" xml:id="l372">Tournez donc le fueillet, sans chercher à la Table.</l>
             </sp>
-            <sp who="lyzene">
+            <sp who="lizene">
               <speaker>Lyzene.</speaker>
               <l n="373" xml:id="l373">Je suis d’un beau sujet espris si follement,</l>
               <l n="374" xml:id="l374">Que je prens <ref target="#faveur4">à faveur*</ref> le desdain et la haine,</l>
@@ -2194,7 +2193,7 @@
           <div type="scene">
             <head>Scene II.</head>
             <stage>Lyzene, Corintie, Celidor.                 <pb n="32"/></stage>
-            <sp who="lyzene">
+            <sp who="lizene">
               <speaker>Lyzene. </speaker>
               <l n="427" xml:id="l427">Malgré ses cruautez je luy seray <ref target="#fidele3">fidelle*</ref>,</l>
               <l n="428" xml:id="l428">Ma sœur<note n="257" place="bottom">Il s’agit d’une apostrophe ; il faut donc marquer un temps, correspondant au signe typographique de la virgule.</note> ne parle <ref target="#point3">point*</ref> de son pere, ny d’elle,</l>
@@ -2206,7 +2205,7 @@
               <l n="430" xml:id="l430">De prendre le party que son Pere voudra,</l>
               <l n="431" xml:id="l431">Medon depuis long temps <ref target="#connoistre2">cognoist*</ref> nostre famille.</l>
             </sp>
-            <sp who="lyzene">
+            <sp who="lizene">
               <speaker>Lyzene.</speaker>
               <l n="432" xml:id="l432">En tout cas je m’en vay luy demander sa fille :</l>
               <l n="433" xml:id="l433">Adieu, si je l’espouse on te viendra querir.</l>
@@ -2634,18 +2633,18 @@
               <l n="629" xml:id="l629">Afin de tesmoigner aux hommes de mon temps</l>
               <l n="630" xml:id="l630">Que je retourne encore à l’aage de vingt ans.</l>
             </sp>
-            <sp who="lyzene">
+            <sp who="lizene">
               <speaker>Lyzene.    <pb n="52"/></speaker>
               <l n="631" xml:id="l631">Est ce que vous craignez quelque <ref target="#trait6">trait*</ref> de malice,</l>
               <l n="632" xml:id="l632">Quand nous serons tous deux en l’amoureuse lice ?</l>
               <l n="633" xml:id="l633">Il n’en faut pas rougir, et cet œil rigoureux</l>
               <l n="634" xml:id="l634">Ne se doit offencer d’un <ref target="#langage1">langage*</ref> amoureux.</l>
             </sp>
-            <sp who="agarite">
+            <sp who="lizene">
               <speaker>Agarite.</speaker>
               <l n="635" xml:id="l635">Excusez mon humeur*, je suis ainsi nourrie<note n="332" place="bottom"> Nourrir « signifie aussi figurément, instruire, élever », selon <hi rend="i">le Dictionnaire de l’Académie.</hi></note>.</l>
             </sp>
-            <sp who="lyzene">
+            <sp who="lizene">
               <speaker>Lyzene.</speaker>
               <l n="636" xml:id="l636">Je vous adouciray.</l>
             </sp>
@@ -2658,7 +2657,7 @@
               <l n="637" xml:id="l637">Volontiers<note n="333" place="bottom">« Adverbe qui marque le consentement », selon Furetière et que l’on pourrait traduire ici par « bien sur qu’elle songe… ».</note> qu’elle songe aux prises<note n="334" place="bottom">« Se dit aussi des querelles, des rebellions », selon Furetière, mais le jeu de mots est évident.</note> qu’à<note n="335" place="bottom">A partir.</note> ce soir</l>
               <l n="638" xml:id="l638">Vous aurez avec elle et vous le pouvez voir.</l>
             </sp>
-            <sp who="lyzene">
+            <sp who="lizene">
               <speaker>Lyzene.</speaker>
               <l n="639" xml:id="l639">Est-il vray.</l>
             </sp>
@@ -3113,8 +3112,8 @@
               <l n="863" xml:id="l863">Et nos vases pleins d’eau monstrent que nous pouvons</l>
               <l n="864" xml:id="l864">Faire pleuvoir dessus la terre.</l>
               </lg>
+              <p>AUX DAMES.</p>
               <lg>
-              <head>AUX DAMES.</head>
               <l n="865" xml:id="l865">Beaux sujets paroissez hardiment,</l>
                 <l n="866" xml:id="l866">Les Vents que vous voyez n’enrhument <ref target="#point3">point*</ref> les Dames,</l>
               <l n="867" xml:id="l867">Ils les couvrent fort bien et souflent seulement</l>
@@ -3127,7 +3126,7 @@
               <l n="870" xml:id="l870">C’est assez taisons-nous, car ils vont commencer.</l>
               <stage>Icy se danse le Ballet</stage>
             </sp>
-            <sp who="celidor-masque-representant-l-un-des-quatre-vents">
+            <sp who="celidor">
               <speaker>Celidor <hi rend="i">masqué representant l’un des Quatre-vents, le Balet finy dit les vers suyvants.</hi>    <pb n="70"/></speaker>
               <l n="871" xml:id="l871">Amis le <ref target="#coup1">coup*</ref> est fait, avant qu’il resuscite<note n="407" place="bottom"> Au 17<hi rend="sup">e</hi> siècle, la présence du « ne » explétif n’est pas obligatoire.</note></l>
               <l n="872" xml:id="l872">Un autre jouyra des amours d’Agarite.</l>
@@ -3401,7 +3400,7 @@
               <speaker>Le Roy.</speaker>
               <l n="969" xml:id="l969">Dépesche, que veux-tu nous dire de nouveau.<note n="438" place="bottom">« Extraordinaire », selon G.Cayrou.</note></l>
             </sp>
-            <sp who="le-pescheur">
+            <sp who="pecheur1">
               <speaker>Le Pescheur.</speaker>
               <l n="970" xml:id="l970">Sire, que j’ay trouvé dessus le bord de l’eau</l>
               <l n="971" xml:id="l971">Des vestemens.<note n="439" place="bottom">Voir note 29.</note></l>
@@ -3410,7 +3409,7 @@
               <speaker>Le Roy.</speaker>
               <l part="Y"><space/><space/>        Voicy de mauvaises nouvelles.</l>
             </sp>
-            <sp who="le-pescheur">
+            <sp who="pecheur1">
               <speaker>Le Pescheur.</speaker>
               <l n="972" xml:id="l972">Tels qu’on en voit porter aux jeunes Damoiselles.</l>
             </sp>
@@ -3560,7 +3559,7 @@
               <l n="1035" xml:id="l1035">Pescheur cours vistement au bord de la Riviere,</l>
               <l n="1036" xml:id="l1036">Tes mains en un besoin<note n="458" place="bottom">« Dans cette circonstance difficile », selon G.Cayrou. </note> te serviront d’Aiguiere<note n="459" place="bottom">« Vaisseau rond et quelque fois couvert, propre à servir de l’eau sur la table », selon Furetière.</note>.</l>
             </sp>
-            <sp who="le-pescheur">
+            <sp who="pecheur1">
               <speaker>Le Pescheur.</speaker>
               <l n="1037" xml:id="l1037">Tenez voila de l’eau tant qu’il en peut tenir</l>
               <l n="1038" xml:id="l1038">Dans le creux de ma main.</l>
@@ -3769,7 +3768,7 @@
           </div>
           <div type="scene">
             <head>Scene VI.</head>
-            <sp who="le-roy-furieux*">
+            <sp who="le-roy">
               <speaker>Le Roy <ref target="#furieux1"><hi rend="i">furieux*.</hi></ref>    <pb n="97 ; G."/></speaker>
               <l n="1175" xml:id="l1175">Traistres <note n="498" place="bottom">L’apostrophe s’adresse sans doute aux dieux qui ont laissé mourir Agarite.</note> sortez d’icy, mes <ref target="#fureur2">fureurs*</ref>, et mes rages</l>
               <l n="1176" xml:id="l1176">Me servent-elles pas d’Officiers et de <ref target="#page">pages*</ref> ?</l>
@@ -4475,7 +4474,7 @@
               <l n="1577" xml:id="l1577">Je veux penser comment nous fusmes tous <ref target="#deceu">déceus*</ref> ;</l>
               <l n="1578" xml:id="l1578">Laissez-moy quelque temps ruminer là dessus.</l>
             </sp>
-            <sp who="l-exempt">
+            <sp who="exempt">
               <speaker>L’exempt.</speaker>
               <l n="1579" xml:id="l1579">Je pense que ces gens qui heurtent à la porte,</l>
               <l n="1580" xml:id="l1580">Sont de ceux qui croyoient qu’Agarite fut morte.</l>
@@ -4484,7 +4483,7 @@
               <speaker>Corintie.</speaker>
               <l n="1581" xml:id="l1581"><ref target="#estranger">Estrangers*</ref>, nous venons pour voir sa Majesté.</l>
             </sp>
-            <sp who="l-exempt">
+            <sp who="exempt">
               <speaker>L’exempt.    <pb n="124"/></speaker>
               <l n="1582" xml:id="l1582">Entrez, et vous tenez seulement à costé.</l>
             </sp>
@@ -5256,7 +5255,7 @@
 </p>
           <p rend="i"/>
           <p rend="i">Monseigneur,</p>
-          <p>De vostre Grandeur, <hi rend="i"><space>    </space></hi></p>
+          <p>De vostre Grandeur,</p>
           <p rend="right"><hi rend="i">Le tres-humble, tres-obeïssant et tres-obligé serviteur</hi>, 
         <hi rend="i"><hi rend="sc">J.G.Durval.</hi></hi></p>
         </div>
