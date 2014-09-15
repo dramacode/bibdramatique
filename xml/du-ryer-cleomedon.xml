@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="du-ryer-cleomedon">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Cléomédon. Tragi-comédie.</title>
-        <author>Pierre du Ryer</author>
+        <author key="Du Ryer, Pierre (1605-1658)">Pierre du Ryer</author>
         <editor>Coralie Fenin</editor>
       </titleStmt>
       <editionStmt>
@@ -1697,7 +1696,6 @@
               <l n="358" xml:id="l358">Et par un <ref target="#sort">sort*</ref> contraire où je suis destiné,</l>
               <l n="359" xml:id="l359">Par la bonté des miens je me trouve <ref target="#gesner">gesné*</ref>,</l>
               <l n="360" xml:id="l360">Mais quelqu’un vient<note n="136" place="bottom"> Il s’agit d’une diérèse en –ien. Ce mot compte pour deux syllabes. </note> icy.</l>
-              <pb/>
               <p>ACTE I</p>
             </sp>
           </div>
@@ -1913,7 +1911,7 @@
               <l part="Y">                Adieu donc je vous laisse,</l>
               <l n="469" xml:id="l469">Il faut que j’aille au temple, et desjà l’heure <ref target="#presser">presse*</ref>.</l>
             </sp>
-            <sp who="celanire-seule">
+            <sp who="celanire">
               <speaker>CELANIRE <hi rend="i">seule.</hi></speaker>
               <l n="470" xml:id="l470">Ouy Belise, il est vray que le mesme vainqueur</l>
               <l n="471" xml:id="l471"><ref target="#surmonter">Surmonte*</ref> Celiante, et <ref target="#captiver">captive*</ref> mon cœur,</l>
@@ -1929,7 +1927,7 @@
               <l n="481" xml:id="l481">La <ref target="#gloire">gloire*</ref> de ses faits le peut rendre loüable.</l>
               <l n="482" xml:id="l482">Enfin si mon amour nasquit honteusement,</l>
               <l n="483" xml:id="l483">Il peut vivre sans honte, et croistre justement.</l>
-              <l n="484" xml:id="l484">J'ayme mon deffenseur, tout aime de la sorte<note n="155" place="bottom"> Comprendre <hi rend="i">J’aime mon défenseur, tout un chacun aime de cette manière. <space/></hi></note>,</l>
+              <l n="484" xml:id="l484">J'ayme mon deffenseur, tout aime de la sorte<note n="155" place="bottom"> Comprendre <hi rend="i">J’aime mon défenseur, tout un chacun aime de cette manière.</hi></note>,</l>
               <l n="485" xml:id="l485">Et la nature enseigne une amitié si forte.</l>
               <l n="486" xml:id="l486">A qui nos cœurs bruslans seroient-ils mieux rendus</l>
               <l n="487" xml:id="l487">Qu'à l’invincible main qui les a deffendus.</l>
@@ -2324,7 +2322,6 @@
               <speaker>ORONTE</speaker>
               <l n="738" xml:id="l738">Laissez-moy travailler à cette heureuse Paix :</l>
               <l n="739" xml:id="l739">Et l’Honneur, et l’Amour en seront satisfaits.</l>
-              <pb/>
               <p>ACTE II</p>
             </sp>
           </div>
@@ -2360,7 +2357,7 @@
               <l n="757" xml:id="l757">Ce que j’ay resolu c’est ce qu’elle desire.</l>
               <l n="758" xml:id="l758">Mais ma fille parlez, ne vous contraignez pas.</l>
             </sp>
-            <sp who="timante-a-l-ecart">
+            <sp who="timante">
               <speaker>TIMANTE <hi rend="i">à l’écart</hi></speaker>
               <l n="759" xml:id="l759">Elle a le <ref target="#coeur">cœur*</ref> trop haut pour l’<ref target="#arrester">arrester*</ref>  si bas<note n="194" place="bottom"> Comprendre <hi rend="i">Elle est de trop haute naissance pour regarder si bas</hi>. </note>.</l>
             </sp>
@@ -2429,7 +2426,6 @@
               <l n="798" xml:id="l798">Prendre la loy de ceux qui la prenoient de nous,</l>
               <l n="799" xml:id="l799">Est le plus grand des maux dont l’on sente les <ref target="#coup">coups*</ref>.</l>
               <l n="800" xml:id="l800">Entretenons plustost des guerres eternelles.</l>
-              <pb/>
               <p>ACTE II</p>
             </sp>
           </div>
@@ -2595,7 +2591,7 @@
           <head>ACTE III</head>
           <div type="scene">
             <head>SCENE PREMIERE <note n="212" place="bottom"> Cette scène est uniquement composée de stances. Il s’agit de huit quatrains, constitués de trois alexandrins et d’un octosyllabe, à rimes croisées. Le distique final manifeste la reprise traditionnelle de la forme dramatique. L’épanchement lyrique favorisé par la forme de la stance est attendu au XVII<hi rend="sup">e</hi> siècle. Pour d’Aubignac, les stances ne peuvent être vraisemblables et donc acceptables que si le personnage qui les prononce a eu le temps de les composer. Il doit donc avoir le temps de l’entracte : « Il faut que l’acteur qui les récite ait eu quelque temps suffisant pour y travailler » (<hi rend="i">op. cit.</hi>,  livre III, chap. X, Edition Pierre Martino, p. 263). C’est bien le cas ici puisque Bélise ouvre l’acte III. Les stances sont très prisées à l’âge classique comme l’atteste Lancaster dans <hi rend="i">History</hi> (Baltimore, Johns Hopkins Press, 1929-1942, tome I, vol. II  p. 452) en dénombrant que dans la première moitié du XVII<hi rend="sup">e</hi> siècle, la moitié des tragi-comédies comporte des stances. La forme est vouée à une grande postérité, elle se répandra dans les tragédies et les comédies. </note></head>
-            <sp who="belise-seule">
+            <sp who="belise">
               <speaker>BELISE <hi rend="i">seule</hi></speaker>
               <l n="860" xml:id="l860">Que<note n="213" place="bottom"> Comprendre <hi rend="i">A quoi</hi>. </note> m’aydera la paix qu’espere cette terre,</l>
               <l n="861" xml:id="l861">Si des troubles nouveaux me <ref target="#gesner">gesnent*</ref> chaque jour ?</l>
@@ -2631,7 +2627,6 @@
               <l n="891" xml:id="l891">Et se rend honteux dedans nous<note n="217" place="bottom"> Voir note 5. </note>.</l>
               <l n="892" xml:id="l892"><space>  </space>Ainsi d’un <ref target="#trait">trait*</ref> mortel, mon ame est traversee ;</l>
               <l n="893" xml:id="l893">Mais quelqu’un interromp cette <ref target="#triste">triste*</ref> pensee.</l>
-              <pb/>
               <p>ACTE III</p>
             </sp>
           </div>
@@ -2842,7 +2837,6 @@
               <l n="1017" xml:id="l1017"> Et que le desespoir couronnera mes peines ;</l>
               <l n="1018" xml:id="l1018"> Que pourroit esperer ce <ref target="#coeur">coeur*</ref> infortuné,</l>
               <l n="1019" xml:id="l1019"> S'il court apres un bien qu’on a des-jà donné ?</l>
-              <pb/>
               <p>ACTE III.</p>
             </sp>
           </div>
@@ -2964,7 +2958,7 @@
               <l n="1080" xml:id="l1080">Resiste prudemment à ce malheur extreme,</l>
               <l n="1081" xml:id="l1081">Et lors<note n="242" place="bottom"> Comprendre <hi rend="i">Alors que</hi>. </note> que tu me perds ne te perds pas toy-mesme.</l>
             </sp>
-            <sp who="cleomedon-seul">
+            <sp who="cleomedon">
               <speaker>CLEOMEDON <hi rend="i">seul.</hi></speaker>
               <l n="1082" xml:id="l1082">Tout le soulagement que j’espere en mes <ref target="#fers">fers*</ref>,</l>
               <l n="1083" xml:id="l1083">C'est de pouvoir me perdre alors que je vous perds.</l>
@@ -2986,7 +2980,6 @@
               <l n="1099" xml:id="l1099">La <ref target="#gloire">gloire*</ref> est au vaincu, la honte est au vainqueur.</l>
               <l n="1100" xml:id="l1100">Hà ! ma douleur se rend si vive et si certaine,</l>
               <l n="1101" xml:id="l1101">Que s’il est un Enfer on y souffre ma peine.</l>
-              <pb/>
               <p>ACTE III</p>
             </sp>
           </div>
@@ -3019,7 +3012,6 @@
               <l n="1120" xml:id="l1120"> Si de Cleomedon vous <ref target="#priser">prisez*</ref><note n="247" place="bottom"> Comprendre <hi rend="i">si vous estimez son courage</hi>.</note> le <ref target="#courage">courage*</ref>,</l>
               <l n="1121" xml:id="l1121"> Sire, ne croyez pas qu’il veüille davantage*.</l>
               <l n="1122" xml:id="l1122"> Mais le voicy qui vient.</l>
-              <pb/>
               <p>ACTE III</p>
             </sp>
           </div>
@@ -3038,7 +3030,7 @@
               <l n="1129" xml:id="l1129">A qui la seule paix donne une belle forme<note n="249" place="bottom"> L’assimilation de l’État à un corps humain est une thématique qui gagnera la postérité avec le <hi rend="i">Léviathan</hi> de Thomas Hobbes (1651).</note>.</l>
               <l n="1130" xml:id="l1130">Or sans attendre un jour que le victorieux</l>
               <l n="1131" xml:id="l1131">Nous en fasse à son gré des traitez odieux,</l>
-              <l n="1132" xml:id="l1132">Sçachant que nos <ref target="#sujet">sujets*</ref> <hi rend="color_ff0000 note"><space/><note> Le complément d’objet direct est le substantif <hi rend="i">paix</hi>. Même chose au vers 1169.</note></hi>l’ont toujours souhaitee,</l>
+              <l n="1132" xml:id="l1132">Sçachant que nos <ref target="#sujet">sujets*</ref><note> Le complément d’objet direct est le substantif <hi rend="i">paix</hi>. Même chose au vers 1169.</note>l’ont toujours souhaitee,</l>
               <l n="1133" xml:id="l1133">Pour le commun repos nous l’avons <ref target="#arrester">arrestee*</ref>;</l>
               <l n="1134" xml:id="l1134">D'autant plus librement que pour nostre interest,</l>
               <l n="1135" xml:id="l1135">Nous lui pouvons donner telle loy qu’il nous plaist.</l>
@@ -3326,7 +3318,7 @@
               <l part="Y">        N'en parlons plus, ma Reine :</l>
               <l n="1337" xml:id="l1337">Mais parlons d’un captif qui n’ayme que sa chayne.</l>
             </sp>
-            <sp who="belise-a-l-escart">
+            <sp who="belise">
               <speaker>BELISE <hi rend="i">à l’escart.</hi></speaker>
               <l n="1338" xml:id="l1338">Adorable Captif, que l’Amour fait mon Roy,</l>
               <l n="1339" xml:id="l1339">Puis-je t’ouyr parler que ce ne soit<note n="269" place="bottom"> Comprendre <hi rend="i">si ce n’est.</hi> Le subjonctif est d’usage assez libre au XVII<hi rend="sup">e</hi> siècle. Il s’emploie dès que la proposition n’est pas effective.</note> à moy ?</l>
@@ -3392,7 +3384,7 @@
               <l n="1384" xml:id="l1384">Mais lors<note n="275" place="bottom"> Comprendre <hi rend="i">Mais alors que</hi>. </note> que je vous dis, je brusle, je vous ayme<note n="276" place="bottom"> Ce crescendo convenu file la métaphore des flammes de l’amour issue de la tradition pétrarquiste. Racine écrit dans <hi rend="i">Phèdre</hi>, en 1677, à l’acte I, scène 1 « Vous aimez, vous brûlez ». </note>,</l>
               <l n="1385" xml:id="l1385">Pour me mettre en leur rang, respondez-moy de mesme.</l>
             </sp>
-            <sp who="belise-a-l-escart">
+            <sp who="belise">
               <speaker>BELISE <hi rend="i">à l’escart.</hi></speaker>
               <l n="1386" xml:id="l1386">S'il pouvoit m’adresser un discours si charmant,</l>
               <l n="1387" xml:id="l1387">Que ce cœur amoureux respondroit librement !</l>
@@ -3409,7 +3401,7 @@
               <l n="1392" xml:id="l1392">Et je ne pense pas qu’une fille <ref target="#modeste">modeste*</ref></l>
               <l n="1393" xml:id="l1393">Le puisse avec honneur dire mesme du geste<note n="278" place="bottom"> Voir note 91. Certes l’aveu de l’amour n’est pas chose bienséante au XVII<hi rend="sup">e</hi> siècle. Pourtant Célanire a su transgresser cette éthique à l’acte  II, scène 2.</note>.</l>
             </sp>
-            <sp who="belise-a-l-escart">
+            <sp who="belise">
               <speaker>BELISE <hi rend="i">à l’escart.</hi></speaker>
               <l n="1394" xml:id="l1394">S'il estoit mon captif, comme il est mon vainqueur,</l>
               <l n="1395" xml:id="l1395">Que ce foible respect toucheroit peu mon cœur !</l>
@@ -3428,7 +3420,7 @@
               <l n="1402" xml:id="l1402">Pour moy<note n="279" place="bottom"> Comprendre <hi rend="i">Personnellement</hi>. </note> je le dirois, vous sçauriez mon ardeur,</l>
               <l n="1403" xml:id="l1403">Si je pouvois dompter cette vaine pudeur.</l>
             </sp>
-            <sp who="celiante-a-celanire">
+            <sp who="celiante">
               <speaker>CELIANTE  <hi rend="i">à Celanire.</hi> </speaker>
               <l n="1404" xml:id="l1404">Faites-moy donc sçavoir ce qu’il faut que je sçache,</l>
               <l n="1405" xml:id="l1405">Que nous sert d’estre aymez alors qu’on nous le cache ?</l>
@@ -3557,7 +3549,7 @@
               <l n="1486" xml:id="l1486">Mais adieu, je vous laisse. Un moment de sejour</l>
               <l n="1487" xml:id="l1487">Eust sans doute fait voir ma peine et mon amour<note n="286" place="bottom"> Cet enjambement est pronnocé en aparté.</note>.</l>
             </sp>
-            <sp who="celanire-seule">
+            <sp who="celanire">
               <speaker>CELANIRE  <hi rend="i">seule</hi>.</speaker>
               <l n="1488" xml:id="l1488">Ainsi de mon bon-heur la <ref target="#fortune">fortune*</ref> envieuse<note n="287" place="bottom"> Il s’agit d’une diérèse en –ieu. Ce mot compte pour trois syllabes. </note></l>
               <l n="1489" xml:id="l1489">Me rend cruelle à tous, à moy-mesme ennuyeuse.</l>
@@ -3604,7 +3596,6 @@
               <l n="1530" xml:id="l1530">Je brusleray pour lui jusqu’à me consommer,</l>
               <l n="1531" xml:id="l1531">Ou je sçauray mourir sy je ne say l’aymer.</l>
               <l n="1532" xml:id="l1532">Mais quelqu’un vient icy.</l>
-              <pb/>
               <p>ACTE IV</p>
             </sp>
           </div>
@@ -3628,7 +3619,7 @@
               <l part="Y">        Elle l’est ! La Cour est en pleurs,</l>
               <l n="1535" xml:id="l1535">Et d’un si prompt trespas chacun sent les douleurs.</l>
             </sp>
-            <sp who="celanire-un-peu-bas">
+            <sp who="celanire">
               <speaker>CELANIRE <hi rend="i">un peu bas.</hi></speaker>
               <l n="1536" xml:id="l1536">Si j’en pleure aujourd’huy, si je m’en desespere,</l>
               <l n="1537" xml:id="l1537">C'est de voir que le fils n’a pas suivy la Mere.</l>
@@ -3665,7 +3656,6 @@
             <sp who="celanire">
               <speaker>CELANIRE</speaker>
               <l n="1551" xml:id="l1551">En autre lieu qu’icy je les veux recevoir.</l>
-              <pb/>
               <p>ACTE IV</p>
             </sp>
           </div>
@@ -3880,7 +3870,6 @@
             <sp who="oronte">
               <speaker>ORONTE</speaker>
               <l n="1691" xml:id="l1691">Vous le pouvez juger par son habillement.</l>
-              <pb/>
               <p>ACTE V</p>
             </sp>
           </div>
@@ -3924,7 +3913,7 @@
               <l n="1702" xml:id="l1702">Sortez d’icy, bon-homme, adieu, retirez-vous,</l>
               <l n="1703" xml:id="l1703">Et croyez que la Cour, ne manque pas de foux.</l>
             </sp>
-            <sp who="clorimante-un-peu-bas">
+            <sp who="clorimante">
               <speaker>CLORIMANTE <hi rend="i">un peu bas.</hi></speaker>
               <l n="1704" xml:id="l1704">Helas ! tout clairement mon malheur me le monstre,</l>
               <l n="1705" xml:id="l1705">Puis qu’à mon <ref target="#triste">triste*</ref> abord je faits cette rencontre.</l>
@@ -3944,7 +3933,6 @@
               <l n="1713" xml:id="l1713">Ne jugez pas de moy par l’habit que je porte,</l>
               <l n="1714" xml:id="l1714">Quelquefois le dedans vaut mieux que le dehors,</l>
               <l n="1715" xml:id="l1715">Et soubs une ruine<note n="313" place="bottom"> Ce mot est une diérèse en –ui. Il compte pour deux syllabes. </note> on trouve des thresors.</l>
-              <pb/>
               <p>ACTE V</p>
             </sp>
           </div>
@@ -4036,13 +4024,12 @@
               <l n="1745" xml:id="l1745">Qui m’outrageoit tantost, maintenant me caresse.</l>
               <l n="1746" xml:id="l1746">Que ne peut la faveur ! Quand nous la possedons,</l>
               <l n="1747" xml:id="l1747">Nous avons plus d’amis que nous n’en demandons.</l>
-              <pb/>
               <p>ACTE V</p>
             </sp>
           </div>
           <div type="scene">
             <head>SCENE QUATRIESME<note n="315" place="bottom"> Cette scène est un monologue délibératif, morceau très attendu au XVII<hi rend="sup">e</hi> siècle, conformément à Scherer, <hi rend="i">op. cit.</hi>, p. 63. L’alternative est portée à son paroxysme lorsqu’elle ne peut être dépassée et se solde par la volonté de mourir. L’ensemble est homogénéisé par des formules de rhétoriques appréciées : antithèses, questions oratoires, hyperboles…  </note></head>
-            <sp who="celanire-seule">
+            <sp who="celanire">
               <speaker>CELANIRE <hi rend="i">seule.</hi></speaker>
               <l n="1748" xml:id="l1748">Malheureuse Princesse aux peines asservie,</l>
               <l n="1749" xml:id="l1749">Perds avecques tes pleurs la lumiere et la vie,</l>
@@ -4068,7 +4055,6 @@
               <l n="1769" xml:id="l1769">Ny qu’au vouloir d’un pere on me trouva rebelle.</l>
               <l n="1770" xml:id="l1770">Mais l’on dira par tout sans me rien reprocher</l>
               <l n="1771" xml:id="l1771">Que j’ay sçeu me punir devant que<note n="317" place="bottom"> Comprendre <hi rend="i">avant de</hi>. </note> de pecher.</l>
-              <pb/>
               <p>ACTE V</p>
             </sp>
           </div>
@@ -4233,7 +4219,7 @@
               <speaker>BIRENE</speaker>
               <l n="1852" xml:id="l1852">Quelqu’un vous vient querir.</l>
             </sp>
-            <sp who="celanire-en-s-en-allant">
+            <sp who="celanire">
               <speaker>CELANIRE <hi rend="i">en s’en allant.</hi></speaker>
               <l part="Y">                Adieu donc, mais espere,</l>
               <l n="1853" xml:id="l1853">Et croy ce que je dis plustost que ta colere.</l>
@@ -4258,7 +4244,6 @@
               <l n="1869" xml:id="l1869">Dans l’esprit inconstant d’une fille contrainte ?</l>
               <l n="1870" xml:id="l1870">Que l’amour qui s’y trouve est <ref target="#sujet">sujet*</ref> à manquer,</l>
               <l n="1871" xml:id="l1871">Quand ses deux ennemis le viennent attaquer !</l>
-              <pb/>
               <p>ACTE V</p>
             </sp>
           </div>
@@ -4446,7 +4431,7 @@
               <l n="1962" xml:id="l1962">Mais qu’il me sera doux, qu’il chassera d’<ref target="#ennuis">ennuy*</ref></l>
               <l n="1963" xml:id="l1963">Si l’enfant qui l’avoit se trouve avecques luy ?</l>
             </sp>
-            <sp who="belise-a-l-escart">
+            <sp who="belise">
               <speaker>BELISE <hi rend="i">à l’escart.</hi></speaker>
               <l n="1964" xml:id="l1964">Enfin à mon Amour l’esperance est permise,</l>
               <l n="1965" xml:id="l1965">Et quand j’y pense moins le Ciel me favorise.</l>
@@ -4468,7 +4453,6 @@
             <sp who="policandre">
               <speaker>POLICANDRE</speaker>
               <l part="Y">            Madame le voicy.</l>
-              <pb/>
               <p>ACTE V</p>
             </sp>
           </div>
@@ -4514,7 +4498,7 @@
               <l n="2000" xml:id="l2000">Cette fatalle main sçeut relever l’Empire,</l>
               <l n="2001" xml:id="l2001">Et cette mesme main sçait aussi le destruire.</l>
             </sp>
-            <sp who="clorimante-luy-prend-la-main">
+            <sp who="clorimante">
               <speaker>CLORIMANTE <hi rend="i">luy prend la main.</hi></speaker>
               <l n="2002" xml:id="l2002">Ha ! Sire, c’est luy-mesme, ha !  mon  Prince, ha ! mon Roy.</l>
             </sp>
@@ -5184,7 +5168,7 @@
           </entryFree>
           <entryFree xml:id="songe">
             <form>Songe</form>
-            <def>« Vision surnaturelle » (Furetière) <space/></def>
+            <def>« Vision surnaturelle » (Furetière)</def>
             <xr>V. <ref target="#l845">845</ref>, <ref target="#l849">849</ref>, <ref target="#l853">853</ref>, <ref target="#l2028">2028</ref></xr>
           </entryFree>
           <entryFree xml:id="songer">
@@ -5322,10 +5306,7 @@
             </quote>
           </div>
           <div>
-            <head>Les Heures dérobées</head>
-          </div>
-          <div>
-            <head>« Au Sieur Hardy<note n="353" place="bottom"> ROY E., <hi rend="i">Ibid</hi>., p. 520-521.</note> »</head>
+            <head>Les Heures dérobées <lb/>« Au Sieur Hardy<note n="353" place="bottom"> ROY E., <hi rend="i">Ibid</hi>., p. 520-521.</note> »</head>
             <quote>
               <l>Assez long temps et trop souvent</l>
               <l>De tes escrits l’on a fait conte,</l>
