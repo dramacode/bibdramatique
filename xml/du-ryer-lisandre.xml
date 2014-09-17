@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="du-ryer-lisandre">
   <teiHeader>
     <fileDesc>
@@ -722,7 +721,7 @@
             <role xml:id="courrier">UN COURRIER</role>
           </castItem>
             <castItem>
-              <role xml:id="le-juge-du-camp"></role>
+              <role xml:id="le-juge-de-camp"></role>
             </castItem>
           </castList>
           <pb/>
@@ -1094,7 +1093,7 @@
               <l n="199" xml:id="l199">Une heure de travail luy peut rendre aysément</l>
               <l n="200" xml:id="l200">Ce qu’elle vient de prdre en cét evenement.</l>
             </sp>
-            <sp who="beronte-revient">
+            <sp who="beronte">
               <speaker>BERONTE <hi rend="i">revient</hi></speaker>
               <l n="201" xml:id="l201">Amy je l’ay treuvé moins sensible qu’un arbre,</l>
               <l n="202" xml:id="l202">Et mille fois plus froid que ne seroit un marbre.</l>
@@ -1251,7 +1250,7 @@
               <l n="287" xml:id="l287">J’emporte assez de force et de contentement</l>
               <l n="288" xml:id="l288">Pour vaincre les <ref target="#ennuis">ennuis*</ref> de mon esloignement.</l>
             </sp>
-            <sp who="cleandre-revient">
+            <sp who="cleandre">
               <speaker>CLEANDRE <hi rend="i">revient</hi></speaker>
               <l n="289" xml:id="l289">Lisandre tout est prest, et le temps desja sombre</l>
               <l n="290" xml:id="l290">Donne à vostre départ la faveur de son ombre.</l>
@@ -1696,11 +1695,11 @@
             <pb/>
             <head>SCENE TROISIESME</head>
             <stage>LISANDRE, CALISTE, LE GEOLIER, LE BOUCHER</stage>
-            <sp who="lisandre-a-la-fenestre-du-boucher">
+            <sp who="lisandre">
               <speaker>LISANDRE <hi rend="i">à la fenestre du Boucher.</hi></speaker>
               <l n="501" xml:id="l501">Caliste.</l>
             </sp>
-            <sp who="caliste-en-prison">
+            <sp who="caliste">
               <speaker>CALISTE <hi rend="i">en prison.</hi></speaker>
               <l part="Y">Estes vous là ?</l>
             </sp>
@@ -2396,7 +2395,7 @@
             <pb/>
             <head>SCENE DEUXIESME</head>
             <stage>HIPPOLITE, LISANDRE </stage>
-            <sp who="hippolite">
+            <sp who="hyppolite">
               <speaker>HIPPOLITE. <hi rend="i">Seule.</hi></speaker>
               <l n="893" xml:id="l893">Ne dis plus que ton cœur a triomphé des <ref target="#charme">charmes*</ref></l>
               <l n="894" xml:id="l894">Qui font vivre l’amour, et luy donne des armes,</l>
@@ -2709,7 +2708,7 @@
             <pb/>
             <head>SCENE QUATRIESME                <pb n="74"/></head>
             <stage>CALISTE, LE VALET de Lisandre. </stage>
-            <sp who="caliste-seule">
+            <sp who="caliste">
               <speaker>CALISTE <hi rend="i">seule</hi>.</speaker>
               <l n="1051" xml:id="l1051">Helas ! qu’ay-je entendu qui porte dans mon sein</l>
               <l n="1052" xml:id="l1052">Les premiers <ref target="#mouvemens">mouvemens*</ref> d’un tragique dessein ?</l>
@@ -2913,7 +2912,7 @@
           <div type="scene">
             <head>SCENE PREMIERE</head>
             <stage>LE ROI, LUCIDAN, ADRASTE, / HIPPOLITE, CALISTE, BERONTE, / LIDIAN, LE JUGE de camp , DORILAS, /LE VALET de Lisandre.</stage>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY<note n="183" place="bottom"><space/>Le souverain montrera à travers toute la pièce un sentiment scrupuleux de la justice et de l’équité. La foi monarchique chez Du Ryer comme chez ses contemporains se fonde sur la raison et l’expérience. L’approbation de l’auteur va à ceux qui croient que le roi doit avoir de « l’amour pour la vertu et le foudre pour le vice » (<hi rend="i">Clitophon</hi>, v. 413) que « Lorsqu’un peu de douceur à la rigueur s’assemble / L’on peult se faire aymer et craindre tout ensemble » (<hi rend="i">ibid.</hi>, v. 1465-66)</note> </speaker>
               <l n="1177" xml:id="l1177">En fin voicy le jour où le Ciel equitable</l>
               <l n="1178" xml:id="l1178">Nous fera voir Lisandre innocent ou coupable,</l>
@@ -2932,7 +2931,7 @@
               <l n="1191" xml:id="l1191">C’est luy qui vous appelle aux combats solennels</l>
               <l n="1192" xml:id="l1192">Où l’equité <ref target="#despartir">départ*</ref> des lauriers eternels.<note n="185" place="bottom"><space/>Pierre du Ryer, comme de nombreux dramaturges, fait revivre une vieille coutume médiévale : le jugement de Dieu, et remet ainsi le sort des coupables à un combat judiciaire dont l’issue déterminera de quel côté se trouve le bon droit. </note></l>
             </sp>
-            <sp who="lucidan-arme">
+            <sp who="lucidan">
               <speaker>LUCIDAN <hi rend="i">armé</hi>.</speaker>
               <l n="1193" xml:id="l1193">Grand Roy victorieux sur la terre et sur l’onde,</l>
               <l n="1194" xml:id="l1194">Dont la <ref target="#gloire2">gloire*</ref> remplit et l’un et l’autre monde,</l>
@@ -2943,14 +2942,14 @@
               <l n="1199" xml:id="l1199">Ou je suis resolu de suivre au <ref target="#monument">monument*</ref><note n="187" place="bottom"><space/>« Suivre au monument » c’est à dire suivre au tombeau.</note>                         <pb n="85"/></l>
               <l n="1200" xml:id="l1200">Crisante et Cloridan outragez láchement.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1201" xml:id="l1201">Mais je suis <ref target="#estonner">estonné*</ref> de sçavoir que Lisandre</l>
               <l n="1202" xml:id="l1202">Paresseux à son bien ne vient pas se deffendre.<note n="188" place="bottom"><space/>Var. « Mais je suis estonné de sçavoir que Lisandre, Paresseux à son bien, ne vient pas de deffendre. »</note></l>
               <l n="1203" xml:id="l1203">L’on diroit aujourd’huy qu’il craigne<note n="189" place="bottom"> « Qu’il craigne » : subjonctif présent, en effet après « on dirait » qui exprime une supposition et qui est construit sans négation dans une principale, on exige le subjonctif dit de « supposition pour exprimer l’incertitude ». Cet usage est condamné par les théoriciens dans la seconde partie du siècle.</note> le malheur</l>
               <l n="1204" xml:id="l1204">Et qu’un juste remords endorme sa valeur.<note n="190" place="bottom"><space/>C’est Lucidan qui détient la réponse à cette question et pourtant il ne prend pas la peine de justifier Lisandre aux yeux du roi. Il voit peut-être ici une bonne occasion de montrer la lâcheté de ce héros et de légitimer sa plainte. </note></l>
             </sp>
-            <sp who="adraste-arme-et-couvert-d-un-casque">
+            <sp who="adraste">
               <speaker>ADRASTE <hi rend="i">armé et couvert d’un casque.</hi></speaker>
               <l n="1205" xml:id="l1205">Sire son innocence a des charmes visibles</l>
               <l n="1206" xml:id="l1206">Qui conduisent icy nos armes invincibles ;</l>
@@ -2968,7 +2967,7 @@
               <l n="1215" xml:id="l1215">Sans chercher autrepart de plus braves guerriers                    <pb n="86"/></l>
               <l n="1216" xml:id="l1216">Ce bras est mon second, et ce fer est mon tiers.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1217" xml:id="l1217">C’est ainsi que souvent au <ref target="#martial">martial*</ref> orage</l>
               <l n="1218" xml:id="l1218">L’on perd le jugement pour garder son courage.</l>
@@ -2983,7 +2982,7 @@
               <l n="1223" xml:id="l1223">Bien qu’un mesme dessein anime nos desirs,</l>
               <l n="1224" xml:id="l1224">Sire, nos volontez cedent à vos plaisirs.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1225" xml:id="l1225">Et celuy dont la <ref target="#marque">marque*</ref> en sera retirée</l>
               <l n="1226" xml:id="l1226">Rendra de sa valeur la preuve desirée.</l>
@@ -2996,31 +2995,31 @@
               <l n="1233" xml:id="l1233">Ainsi pour l’innocence on verra l’innocence</l>
               <l n="1234" xml:id="l1234">Disposer du combat plustost que ma puissance.                        <pb n="87"/></l>
             </sp>
-            <sp who="caliste-armee">
+            <sp who="caliste">
               <speaker>CALISTE <hi rend="i">armée, et couverte d’un casque à l’escart.</hi></speaker>
               <l n="1235" xml:id="l1235">Le Ciel est si subjet à rejetter mes veuz</l>
               <l n="1236" xml:id="l1236">Qu’il n’accordera point le trespas que je veux.</l>
               <l n="1237" xml:id="l1237">La crainte d’un <ref target="#effet">effet*</ref> contraire à mon envie</l>
               <l n="1238" xml:id="l1238">Est le mal plus cruel qui traverse ma vie.</l>
             </sp>
-            <sp who="le-juge-de-camp-parle-a-l-enfant">
+            <sp who="le-juge-de-camp">
               <speaker>LE JUGE <hi rend="i">de camp parle à l’enfant.</hi></speaker>
               <l n="1239" xml:id="l1239">Tirez.</l>
             </sp>
-            <sp who="caliste-voyant-que-l-on-n-a-pas-tire-sa-marque">
+            <sp who="caliste">
               <speaker>CALISTE <hi rend="i">voyant que l’on n’a pas tiré sa marque.</hi></speaker>
               <l part="Y">Hà je voy bien que l’injure du sort</l>
               <l n="1240" xml:id="l1240">Pour allonger mes maux a differé ma mort.</l>
               <stage>On a tiré la marque d’Hippolite.</stage>
             </sp>
-            <sp who="hippolite-armee-et-couverte-d-un-casque.il-s-agit-d-un-deguisement-de-delivrance">
+            <sp who="hyppolite">
               <speaker>HIPPOLITE <hi rend="i">armée et couverte d’un casque.</hi><note n="192" place="bottom"><space/>Il s’agit d’un déguisement de délivrance, tout comme celui de Caliste, qui permet de disculper un personnage accusé injustement en se livrant à un combat judiciaire. C’est le seul travestissement qui semble fondamental (puisque les deux autres chevaliers ne font que de la figuration) mais puisque le duel se termine avant la fin il n’aura en fait servi à rien. Si ce n’est permettre à Hyppolite d’accomplir une action positive car généreuse.</note></speaker>
               <l n="1241" xml:id="l1241">La fortune sans yeux quelquesfois secourable</l>
               <l n="1242" xml:id="l1242">En a pris aujourd’huy pour m’estre favorable,</l>
               <l n="1243" xml:id="l1243">Et le Ciel qui sçait bien ce que j’ay merité</l>
               <l n="1244" xml:id="l1244">Accorde le hazard avecque l’equité.</l>
             </sp>
-            <sp who="le-roy-parlant-a-hyppolite">
+            <sp who="le-roi">
               <speaker>LE ROY <hi rend="i">parlant à Hyppolite.</hi></speaker>
               <l n="1245" xml:id="l1245">Suivez donq le destin dont la force immortelle</l>
               <l n="1246" xml:id="l1246">Voulut que vostre bras finît cette querelle.</l>
@@ -3032,12 +3031,12 @@
               <l n="1249" xml:id="l1249">Vous aurez pour le moins une juste victime</l>
               <l n="1250" xml:id="l1250">Que ce guerrier apporte à mon deuil legitime.</l>
             </sp>
-            <sp who="hippolite">
+            <sp who="hyppolite">
               <speaker>HIPPOLITE</speaker>
               <l n="1251" xml:id="l1251">Puisque tu cheris tant des ombres sans pouvoir</l>
               <l n="1252" xml:id="l1252">Pour faire un trait d’amy<note n="193" place="bottom"><space/>« Un trait d’ami » : un acte d’amitié.</note> tu les doibs aller voir.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1253" xml:id="l1253">Quelle fureur les porte, et quelle violence</l>
               <l n="1254" xml:id="l1254">Accompagne les coups que chacun d’eux eslance.</l>
@@ -3052,12 +3051,12 @@
               <speaker>LE JUGE <hi rend="i">de camp.</hi></speaker>
               <l n="1258" xml:id="l1258">Le <ref target="#travail">travail*</ref> les contraint de reprendre l’haleine.</l>
             </sp>
-            <sp who="hippolite">
+            <sp who="hyppolite">
               <speaker>HIPPOLITE</speaker>
               <l n="1259" xml:id="l1259">Ne te repose point, la force de ce bras</l>
               <l n="1260" xml:id="l1260">Te fera reposer plus que tu ne voudras.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1261" xml:id="l1261">Mais qui sont ces guerriers plains d’ardeur et d’audace,                    <pb n="89"/></l>
               <l n="1262" xml:id="l1262">Qui d’un pas orgueilleux mesurent cette <ref target="#place">place*</ref><note n="195" place="bottom"><space/>« Mesurer la place » : « on dit en terme de chasse, qu’[…] une bête mesure la forest, pour dire qu’il la traverse d’un bout à l’autre ». Le terme de « place » désigne le lieu du combat.</note>.</l>
@@ -3098,7 +3097,7 @@
               <l n="1285" xml:id="l1285">Que si quelqu’un vouloit avancer le contraire</l>
               <l n="1286" xml:id="l1286">Voicy de quoy prouver ce que je ne puis taire<note n="198" place="bottom"><space/>Béronte sort alors son épée. </note>.</l>
             </sp>
-            <sp who="le-juge-de-camp-parlant-a-lucidan">
+            <sp who="le-juge-de-camp">
               <speaker>LE JUGE <hi rend="i">de camp parlant à Lucidan.</hi></speaker>
               <l n="1287" xml:id="l1287">Quel indice avez vous que Lisandre ayt commis</l>
               <l n="1288" xml:id="l1288">Un si láche <ref target="#attentat">attentat*</ref> envers vos deux amis ?</l>
@@ -3115,7 +3114,7 @@
               <l n="1293" xml:id="l1293">On ne peut conserver le tiltre d’equitable</l>
               <l n="1294" xml:id="l1294">Et croire en mesme temps que Lisandre est coupable.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1295" xml:id="l1295">Aussi comme son Roy propice à son bon-heur<note n="200" place="bottom"><space/>Var. « Aussi comme son Roy, propice à son bonheur, […] ».</note></l>
               <l n="1296" xml:id="l1296">Je luy donne sa grace, et luy rend son honneur.</l>
@@ -3134,7 +3133,7 @@
               <l n="1302" xml:id="l1302">Et j’ay plus de fureurs que l’enfer n’en possede.</l>
               <l n="1303" xml:id="l1303">Il me faut retirer.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l part="Y">        Un tel evenement</l>
               <l n="1304" xml:id="l1304">Ne met en mon esprit que de l’<ref target="#estonnement">estonnement*</ref>.</l>
@@ -3148,7 +3147,7 @@
               <l n="1309" xml:id="l1309">Ou je croiray plustost que la nature assemble</l>
               <l n="1310" xml:id="l1310">Dedans un mesme corps Mars et l’Amour ensemble.<note n="203" place="bottom"><space/>Au XVII<hi rend="sup">e</hi> siècle se dessine un large mouvement de réévaluation de la femme et la vogue de la femme forte dure de 1610 à 1650. N. Heff écrit dans <hi rend="i">XVIIème siècle</hi> (p. 309 <hi rend="i">et sq</hi>.) : « On est alors devant un double paradoxe, la femme forte étant douée de toutes les caractéristiques opposées à celles que confère à l’être féminin la tradition des moralistes et déployant son héroïsme sans cesser d’apparaître et fragile et belle, ceci ayant pour effet de rehausser cela ». Cette idée est soulignée par les propos de Lucidan qui définit essentiellement Hyppolite par cette association de deux valeurs apparemment antithétiques : le courage et la beauté.  </note></l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1311" xml:id="l1311">Invincible Amazonne, adorable en tous lieux,</l>
               <l n="1312" xml:id="l1312">Et dont la main sçait vaincre aussy bien que les yeux,</l>
@@ -3157,7 +3156,7 @@
               <l n="1315" xml:id="l1315"><ref target="#genereux">Genereuse*</ref> beauté quel <ref target="#glorieux">glorieux*</ref> dessein</l>
               <l n="1316" xml:id="l1316">Vous a mis aujourd’huy les armes en la main ?</l>
             </sp>
-            <sp who="hippolite">
+            <sp who="hyppolite">
               <speaker>HIPPOLITE</speaker>
               <l n="1317" xml:id="l1317">Les <ref target="#vertus">vertus*</ref> de Lisandre accusé sans offence</l>
               <l n="1318" xml:id="l1318">M’obligent maintenant à sa juste deffence.</l>
@@ -3166,7 +3165,7 @@
               <l n="1321" xml:id="l1321">Et sa seule innocence est si forte et si belle                        <pb n="93"/></l>
               <l n="1322" xml:id="l1322">Qu’ils n’ont mis qu’une fille à combattre pour elle.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1323" xml:id="l1323">Ainsi sans y songer le monde <ref target="#glorieux">glorieux*</ref></l>
               <l n="1324" xml:id="l1324">Possede une Minerve aussi bien que les Cieux,</l>
@@ -3182,7 +3181,7 @@
               <l n="1331" xml:id="l1331">Mais malgré les perils aux armes familiers</l>
               <l n="1332" xml:id="l1332">Les dames aujourd’huy vangent les cavaliers.<note n="206" place="bottom"><space/>Cette réplique de Lucidan était attribuée au Roi dans la source (Livre VIII) : ce dernier dit à la Reine : « Autrefois vous avez ouÿ dire que les chevaliers combattoient pour l’honneur des Dames, mais vous voyez maintenant les Dames combattrent pour les chevaliers ».</note></l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1333" xml:id="l1333">Mais qui peut empescher qu’on ne voye Lisandre ?</l>
             </sp>
@@ -3222,7 +3221,7 @@
               <l n="1365" xml:id="l1365">Reduits à la mercy de si vives allarmes</l>
               <l n="1366" xml:id="l1366">Nous luy donnions encor nos soupirs et nos larmes.<note n="209" place="bottom"><space/>Voir note 170.</note></l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1367" xml:id="l1367">Où fustes vous portez ?</l>
             </sp>
@@ -3235,7 +3234,7 @@
               <speaker>ADRASTE</speaker>
               <l n="1369" xml:id="l1369">Helas ! mon fils n’est plus !</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l part="Y">            Le Ciel nostre vray pere</l>
               <l n="1370" xml:id="l1370">Conserve ses enfans lors qu’on en desespere.                        <pb n="96"/></l>
@@ -3253,7 +3252,7 @@
               <l n="1375" xml:id="l1375">Je ne sçaurois penser qu’il soit si pres d’icy</l>
               <l n="1376" xml:id="l1376">Sans nous venir oster de peine et de soucy.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1377" xml:id="l1377">En est il donq coupable ? a-on quelques indices</l>
               <l n="1378" xml:id="l1378">Qu’il ayt pû mettre au jour de si noires malices ?</l>
@@ -3269,7 +3268,7 @@
               <l n="1385" xml:id="l1385">Lisandre aveq Tirsis estoit hors de la ville</l>
               <l n="1386" xml:id="l1386">Et contre vos fureurs, il cherchoit un asile.                        <pb n="97"/></l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1387" xml:id="l1387">Nous sçaurons à loisir tant d’<ref target="#accident">accidens*</ref> divers</l>
               <l n="1388" xml:id="l1388">Que le temps a cachez, et qu’il a descouverts,</l>
@@ -3292,7 +3291,7 @@
               <l n="1401" xml:id="l1401">Au point qu’on veut l’ayder, helas ! elle se tuë.</l>
               <l n="1402" xml:id="l1402">Dieux que reservez vous à mon ame abatuë ?</l>
             </sp>
-            <sp who="le-valet-de-lisandre">
+            <sp who="le-valet">
               <speaker>LE VALET <hi rend="i">de Lisandre.</hi>    <pb n="98"/></speaker>
               <l n="1403" xml:id="l1403">Sa douleur me contraint de l’ayder au besoing.</l>
             </sp>
@@ -3339,7 +3338,7 @@
             <pb/>
             <head>SCENE DEUXIESME</head>
             <stage>CALISTE, LIDIAN</stage>
-            <sp who="caliste-seule-vestue-en-homme">
+            <sp who="caliste">
               <speaker>CALISTE <hi rend="i">seule vestuë en homme.</hi></speaker>
               <l n="1417" xml:id="l1417">En fin tous mes soupçons changez en <ref target="#asseurance">assurance*</ref></l>
               <l n="1418" xml:id="l1418">M’ostent ce peu de bien que donne l’esperance,</l>
@@ -3448,7 +3447,7 @@
             <pb/>
             <head>SCENE TROISIESME<note n="216" place="bottom"><space/>La source indique qu’il s’agit de l’île de Gersay. Mahelot explique dans son <hi rend="i">Mémoire</hi> (p. 67) : « A un des costez du theatre, un hermitage sur une montaigne et un autre au dessoubs, d’où sort un hermitte ».</note></head>
             <stage>LISANDRE, LEON</stage>
-            <sp who="lisandre-accompagne-d-un-pilotte">
+            <sp who="lisandre">
               <speaker>LISANDRE <hi rend="i">accompagné d’un pilotte.</hi></speaker>
               <l n="1477" xml:id="l1477">Helas ! au mesme instant qu’une belle esperance</l>
               <l n="1478" xml:id="l1478">Me presentoit le bien qui m’attendoit en France,</l>
@@ -3575,7 +3574,7 @@
               <l n="1559" xml:id="l1559">Mais je voy cette belle, et je sens que mon cœur</l>
               <l n="1560" xml:id="l1560">Veut aller au devant d’un si noble vainqueur.<note n="225" place="bottom"><space/>Comme dans chaque évocation d’Hyppolite par Lucidan, on retrouve l’image de l’association des contraires dans une même personne : Lucidan emploie habilement le terme de « vainqueur » qui s’applique aussi bien à la force physique qu’au cœur. </note></l>
             </sp>
-            <sp who="hippolite-armee-et-vestue-en-homme">
+            <sp who="hyppolite">
               <speaker>HIPPOLITE <hi rend="i">armée et vestuë en homme.</hi> </speaker>
               <l n="1561" xml:id="l1561">En fin j’ay veu Caliste, et j’ay fait aveq elle</l>
               <l n="1562" xml:id="l1562">Une ferme alliance au lieu d’une querelle,</l>
@@ -3587,7 +3586,7 @@
               <l n="1565" xml:id="l1565">Elle peut bien vous craindre, et vous ceder les armes,</l>
               <l n="1566" xml:id="l1566">Puisque les plus parfaits les cedent à vos charmes.<note n="227" place="bottom"><space/>Cette reprise du verbe « céder » est volontaire puisque ce terme est employé dans son double sens. (cf : note 177)</note></l>
             </sp>
-            <sp who="hippolite">
+            <sp who="hyppolite">
               <speaker>HIPPOLITE</speaker>
               <l n="1567" xml:id="l1567">Par tout où nous voyons des hommes comme vous</l>
               <l n="1568" xml:id="l1568">La mesme flatterie a du poison bien doux.</l>
@@ -3603,7 +3602,7 @@
               <l n="1575" xml:id="l1575">Et que vostre œil divin sans le secours de Mars</l>
               <l n="1576" xml:id="l1576">Attire autant de cœurs qu’il jette de regards.</l>
             </sp>
-            <sp who="hippolite">
+            <sp who="hyppolite">
               <speaker>HIPPOLITE</speaker>
               <l n="1577" xml:id="l1577">Si l’amour eust jugé ma puissance assez forte,</l>
               <l n="1578" xml:id="l1578">Il ne m’eust pas donné les armes que je porte.</l>
@@ -3615,7 +3614,7 @@
               <l n="1581" xml:id="l1581">Et que le fer en main, et les yeux plains de flames</l>
               <l n="1582" xml:id="l1582">Vous captivez les corps dont vous avez les ames.</l>
             </sp>
-            <sp who="hippolite">
+            <sp who="hyppolite">
               <speaker>HIPPOLITE</speaker>
               <l n="1583" xml:id="l1583">Vos armes n’ayant pû triompher de mes jours</l>
               <l n="1584" xml:id="l1584">Vous voulez faire icy triompher vos discours.</l>
@@ -3629,7 +3628,7 @@
               <l n="1589" xml:id="l1589">Mais que sçay-je indiscret en vous donnant de larmes</l>
               <l n="1590" xml:id="l1590">Si vostre cœur n’est pas aussi dur que vos armes.</l>
             </sp>
-            <sp who="hippolite">
+            <sp who="hyppolite">
               <speaker>HIPPOLITE</speaker>
               <l n="1591" xml:id="l1591">Que vous empruntez bien le visage d’Amant !</l>
               <l n="1592" xml:id="l1592">Que vous vous plaignez bien sans avoir de tourment !<note n="229" place="bottom"><space/>Toutes les répliques d’hyppolite sont chargées d’une amertume mal dissimulée. Les propos d’Hyppolite trahissent sa douleur et préparent le monologue qui suit. <space/></note></l>
@@ -3641,7 +3640,7 @@
               <l n="1595" xml:id="l1595">Cependant je vous laisse, et j’espère qu’un jour</l>
               <l n="1596" xml:id="l1596">On vous verra sensible au feu de mon Amour.</l>
             </sp>
-            <sp who="hippolite-seule">
+            <sp who="hyppolite">
               <speaker>HIPPOLITE <hi rend="i">seule .</hi></speaker>
               <l n="1597" xml:id="l1597">Puis-je estre sans transports ou ma triste pensée</l>
               <l n="1598" xml:id="l1598">Entretient les douleurs de mon ame insensée ?</l>
@@ -3747,7 +3746,7 @@
               <l n="1679" xml:id="l1679">O l’heureuse rencontre ! Amour faits voir icy</l>
               <l n="1680" xml:id="l1680">Que la fidelité fut tousjours mon soucy.</l>
             </sp>
-            <sp who="hyppolite-sous-les-armes-de-caliste">
+            <sp who="hyppolite">
               <speaker>HYPPOLITE <hi rend="i">sous les armes de Caliste.</hi></speaker>
               <l n="1681" xml:id="l1681">Je voy mon desloyal, il s’avance le traistre,</l>
               <l n="1682" xml:id="l1682">C’est sans doute en ce lieu que je le doy <ref target="#cognaistre">cognaistre*</ref>,</l>
@@ -3773,7 +3772,7 @@
               <l n="1699" xml:id="l1699">Et ma voix aujourd’huy ne sçauroit pas nier</l>
               <l n="1700" xml:id="l1700">D’avoir feint que mon cœur estoit son prisonnier.</l>
             </sp>
-            <sp who="hippolite">
+            <sp who="hyppolite">
               <speaker>HIPPOLITE</speaker>
               <l n="1701" xml:id="l1701">Há traistre.</l>
             </sp>
@@ -3788,7 +3787,7 @@
               <l n="1707" xml:id="l1707">Mais Caliste plus forte a des attraits vainqueurs</l>
               <l n="1708" xml:id="l1708">Qui contentent les yeux, et captivent les cœurs.</l>
             </sp>
-            <sp who="hyppolite-a-l-escart">
+            <sp who="hyppolite">
               <speaker>HYPPOLITE <hi rend="i">à l’escart.</hi></speaker>
               <l n="1709" xml:id="l1709">Apres avoir souffert de si sanglans outrages</l>
               <l n="1710" xml:id="l1710">A quoy me resoudront mes fureurs et mes rages ?</l>
@@ -3837,7 +3836,7 @@
               <speaker>LISANDRE</speaker>
               <l n="1724" xml:id="l1724">Ce dernier coup t’immole à ma juste douleur.</l>
             </sp>
-            <sp who="hyppolite-se-descouvre.dans-la-source">
+            <sp who="hyppolite">
               <speaker>HYPPOLITE <hi rend="i">se descouvre.</hi><note n="238" place="bottom"><space/>Dans la source, Lisandre ôte le casque d’Hyppolite afin de lui trancher la tête et découvre ainsi son identité. Ce geste d’Hyppolite, dans la pièce, semble en désaccord avec le désir qu’elle avait de mourir de la main de son amant. Oter son casque, c’est éviter la mort puisque Lisandre ne voudra jamais la tuer. </note></speaker>
               <l n="1725" xml:id="l1725">Traistre voy l’ennemy, que le sort t’abandonne,</l>
               <l n="1726" xml:id="l1726">Suy tous les <ref target="#mouvemens">mouvemens*</ref> que la rage te donne ,</l>
@@ -3987,7 +3986,7 @@
               <l n="1830" xml:id="l1830">Mais un homme incognu s’avance devers nous,</l>
               <l n="1831" xml:id="l1831">Il s’en faut informer, Amy d’où venez vous ?</l>
             </sp>
-            <sp who="le-courrier">
+            <sp who="courrier">
               <speaker>LE COURRIER     <pb n="127"/></speaker>
               <l n="1832" xml:id="l1832">Je reviens de la Cour,</l>
             </sp>
@@ -4016,7 +4015,7 @@
               <speaker>LISANDRE</speaker>
               <l n="1840" xml:id="l1840">En qualité d’amant !</l>
             </sp>
-            <sp who="hyppolite-a-l-escart">
+            <sp who="hyppolite">
               <speaker>HYPPOLITE <hi rend="i">à l’escart .</hi></speaker>
               <l part="Y">            Puis au siecle où nous sommes</l>
               <l n="1841" xml:id="l1841">La verité se trouve aux paroles des hommes.<note n="244" place="bottom"><space/>Seuls les hommes sont accusés d’infidélité, les femmes, elles, sont constantes en leur amour. </note></l>
@@ -4053,7 +4052,7 @@
               <l n="1858" xml:id="l1858">Si je n’avois un cœur appris à resister,                            <pb n="129"/></l>
               <l n="1859" xml:id="l1859">Pourrois-je sans mourir tant d’<ref target="#ennuis">ennuis*</ref> supporter ?</l>
             </sp>
-            <sp who="hyppolite-a-l-escart">
+            <sp who="hyppolite">
               <speaker>HYPPOLITE à l’escart .</speaker>
               <l n="1860" xml:id="l1860">Son desplaisir me touche, et sa douleur extreme</l>
               <l n="1861" xml:id="l1861">Me force maintenant à me trahir moy-mesme.</l>
@@ -4086,7 +4085,7 @@
             <pb/>
             <head>SCENE DERNIERE                        <pb n="130"/></head>
             <stage>LE ROY, VARASQUE, ADRASTE / HYPPOLITE, LEON, CALISTE / LISANDRE, DORILAS, LUCIDAN.</stage>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1872" xml:id="l1872">Aussy tost que le Ciel eut fait naistre les princes</l>
               <l n="1873" xml:id="l1873">Qui tiennent dans leurs mains le destin des <ref target="#provinces">Provinces*</ref>,</l>
@@ -4128,7 +4127,7 @@
               <l n="1900" xml:id="l1900">Cessez de prodiguer vos jours et vos courages</l>
               <l n="1901" xml:id="l1901">Au point que<note n="252" place="bottom"><space/>« Au point que » : au moment où. </note> le repos triomphe des orages.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1902" xml:id="l1902">L’on diroit que Pallas en ces habits cognus</l>
               <l n="1903" xml:id="l1903">Vient disputer encor la pomme de Venus<note n="253" place="bottom"><space/>« La pomme de Vénus » : nouvelle référence à la mythologie grecque. Vénus est la déesse tentatrice et enchanteresse de l’amour et la pomme est son fruit. Lors d’un festin l’une des invités lança sur le sol une pomme d’or où étaient gravés les mots suivants : « Pour la plus belle d’entre toutes ». Héra, Athéna et Aphrodite vinrent toutes trois la réclamer et Paris, qui avait été choisi comme juge, la remit à Aphrodite. Cf : Alciat, « In fidem uxoriam » in <hi rend="i">Emblematum libellus.</hi> </note>.</l>
@@ -4159,17 +4158,17 @@
               <speaker>DORILAS</speaker>
               <l n="1917" xml:id="l1917">Que je tire de bien d’une seule parole !</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1918" xml:id="l1918">Saisissez vous de luy, cette confession</l>
               <l n="1919" xml:id="l1919">Merite que l’on songe à sa punition.</l>
               <l n="1920" xml:id="l1920">Mais n’apprendrons nous rien du destin de Lisandre<note n="255" place="bottom"><space/>On attend un point d’interrogation. </note>.</l>
             </sp>
-            <sp who="hyppolite-en-descouvrant-lisandre">
+            <sp who="hyppolite">
               <speaker>HYPPOLITE <hi rend="i">en descouvrant Lisandre.</hi></speaker>
               <l n="1921" xml:id="l1921">Sire ce Cavalier vous le peut bien apprendre.</l>
             </sp>
-            <sp who="caliste-en-voyant-lisandre">
+            <sp who="caliste">
               <speaker>CALISTE <hi rend="i">en voyant lisandre.</hi></speaker>
               <l n="1922" xml:id="l1922">Doy-je croire aujourd’huy le rapport de mes sens,</l>
               <l n="1923" xml:id="l1923">Qui trompa si souvent mes esprits languissans ?</l>
@@ -4189,7 +4188,7 @@
               <l n="1934" xml:id="l1934">Permettez une fois à mon cœur allegé</l>
               <l n="1935" xml:id="l1935">De vanger nostre honneur mille fois outragé.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1936" xml:id="l1936">Le honteux repentir d’une telle injustice</l>
               <l n="1937" xml:id="l1937">Vous vange en mesme temps qu’il leur sert de supplice.</l>
@@ -4221,7 +4220,7 @@
               <l n="1948" xml:id="l1948">Ma fuite m’a rendu digne de mille <ref target="#geyne">geynes*</ref></l>
               <l n="1949" xml:id="l1949">Alors qu’elle a causé vos souspirs et vos peines.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1950" xml:id="l1950">Lisandre voy Caliste assuré*<note n="259" place="bottom"><space/>Le participe-passé n’est pas accordé avec le nom auquel il se rapporte, en l’occurrence : Caliste.</note> de ton Roy,</l>
               <l n="1951" xml:id="l1951">Et vous et Dorilas approchez-vous de moy.</l>
@@ -4243,7 +4242,7 @@
               <l n="1960" xml:id="l1960">Lisandre <ref target="#asseurer1">assurez*</ref> vous, qu’une jalouse flame</l>
               <l n="1961" xml:id="l1961">Laisse aujourd’huy l’amour paisible dans mon ame.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY    <pb n="136"/></speaker>
               <l n="1962" xml:id="l1962">Donq apres tant de maux Hymen doit à son tour</l>
               <l n="1963" xml:id="l1963">Allumer son flambeau de celuy de l’amour,</l>
@@ -4263,7 +4262,7 @@
               <l n="1968" xml:id="l1968">Grand Roy juste par tout, que sans peyne et sans guerre</l>
               <l n="1969" xml:id="l1969">Le ciel charge vos mains du sceptre de la terre.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1970" xml:id="l1970">Et pour rendre ce jour plus luisant et plus beau</l>
               <l n="1971" xml:id="l1971">Il faut qu’un autre Hymen y monstre son flambeau,</l>
@@ -4289,7 +4288,7 @@
               <l n="1982" xml:id="l1982">Si nous avons du bien, Madame, nous devons</l>
               <l n="1983" xml:id="l1983">A vos rares <ref target="#vertus">vertus*</ref> celuy que nous avons.</l>
             </sp>
-            <sp who="le-roy">
+            <sp who="le-roi">
               <speaker>LE ROY</speaker>
               <l n="1984" xml:id="l1984">Rendez aux immortels les premieres loüanges</l>
               <l n="1985" xml:id="l1985">Du bien-heureux <ref target="#succez">succez*</ref> de tant d’<ref target="#effet">effets*</ref> estranges,</l>
