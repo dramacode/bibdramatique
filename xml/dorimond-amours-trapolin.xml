@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="dorimond-amours-trapolin">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>La comédie de la comédie et Les amours de Trapolin</title>
-        <author>Dorimond</author>
+        <author key="Drouin, Nicolas">Dorimond</author>
         <editor>Daphné Dinard</editor>
       </titleStmt>
       <editionStmt>
@@ -994,23 +993,31 @@
           <head>ACTEURS.</head>
           <castList>
           <castItem>
-            <role>DEUX BOURGEOIS,</role>
+            <role xml:id="bourgeois1">DEUX BOURGEOIS,</role>
+            <role xml:id="bourgeois2"></role>
             <roleDesc>Allant à la comedie.</roleDesc>
           </castItem>
+            <castItem>
+              <role xml:id="leandre"></role>
+              <role xml:id="lucidor"></role>
+            </castItem>
           <castItem>
-            <role>DEUX DAMES.</role>
+            <role xml:id="dame1">DEUX DAMES.</role>
+            <role xml:id="dame2"></role>
           </castItem>
           <castItem>
-            <role>DEUX GALANTS.</role>
+            <role xml:id="galant1">DEUX GALANTS.</role>
+            <role xml:id="l-espinay"></role>
           </castItem>
           <castItem>
-            <role>LE PORTIER des comediens.</role>
+            <role xml:id="portier">LE PORTIER des comediens.</role>
           </castItem>
           <castItem>
-            <role>UNE COMEDIENNE.</role>
+            <role xml:id="comedienne">UNE COMEDIENNE.</role>
           </castItem>
           <castItem>
-            <role>TROUPE DE FILOUX.                        <pb n="A-1"/></role>
+            <role xml:id="filoux">TROUPE DE FILOUX.                        <pb n="A-1"/></role>
+            <role xml:id="filou1"></role>
           </castItem>
           </castList>
         </div>
@@ -1048,7 +1055,7 @@
               <l n="19" xml:id="l19"><hi rend="i">Qu’icy les uns dressent leurs pas</hi>,</l>
               <l n="20" rend="i" xml:id="l20">Que les autres n’y viennent pas.</l>
             </sp>
-            <sp who="lucidor-poursuit">
+            <sp who="lucidor">
               <speaker>LUCIDOR <hi rend="i">poursuit</hi>.</speaker>
               <l n="21" xml:id="l21">Ho ! ho ! L’affiche en vers ? cette troupe est jolie:</l>
               <l n="22" xml:id="l22">Peut-estre y verrons-nous quelque galand <ref target="#genie">Genie*</ref>.</l>
@@ -1092,7 +1099,7 @@
             <pb/>
             <head>SCENE II.</head>
             <stage>LES DAMES.</stage>
-            <sp who="une-dame">
+            <sp who="dame1">
               <speaker>UNE DAME</speaker>
               <l n="45" xml:id="l45">Pour moy, je vous le dis, jamais la comedie,</l>
               <l n="46" xml:id="l46">N’eust tant d’attraits charmans, et tant de modestie;</l>
@@ -1111,13 +1118,13 @@
               <l n="59" xml:id="l59">Pour moy, j’eus tousjours soin de garder mon honneur</l>
               <l n="60" xml:id="l60">Et je veux que ma fille ait la mesme pudeur.</l>
             </sp>
-            <sp who="une-autre-dame">
+            <sp who="dame2">
               <speaker>UNE AUTRE DAME.</speaker>
               <l n="61" xml:id="l61">Il le faut avoüer, certainement, Madame :</l>
               <l n="62" xml:id="l62">La belle comedie est le charme de l’ame;</l>
               <l n="63" xml:id="l63">Allons-y je vous prie.</l>
             </sp>
-            <sp who="la-premiere">
+            <sp who="dame1">
               <speaker>LA PREMIERE.</speaker>
               <l part="Y">            Allons; je le veux bien.</l>
               <l n="64" xml:id="l64">Pour moy je la prefere au plus bel entretien.                    <pb n="5"/></l>
@@ -1126,7 +1133,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE III.</head>
-            <sp who="le-portier">
+            <sp who="portier">
               <speaker>LE PORTIER.</speaker>
               <l n="65" xml:id="l65">Ce <ref target="#teston">teston*</ref> est-il bon ? Cette <ref target="#piastre">piastre*</ref> est legere !</l>
               <l n="66" xml:id="l66">Ils sont sans conscience ou bien ils n’en ont guere :</l>
@@ -1163,7 +1170,7 @@
             <head>SCENE IV.</head>
             <stage>LA COMEDIENE, LE GALLAND<note n="68" place="bottom"> Cela peut désigner quelqu’un de distingué mais Dorimond pense surtout aux galants au sens de « ceux qui recherchent les aventures amoureuses ».</note>,</stage>
             <stage>L’ESPINAY.</stage>
-            <sp who="la-comediene">
+            <sp who="comedienne">
               <speaker>LA COMEDIENE.</speaker>
               <l n="93" xml:id="l93">Al Dieu ! je voy passer un qui fait l’idolastre</l>
               <l n="94" xml:id="l94">En venant m’aborder quand je suis au theâtre;</l>
@@ -1172,30 +1179,30 @@
               <l n="97" xml:id="l97">Ils s’en vont me parler de soûpir et de flâmes,</l>
               <l n="98" xml:id="l98"><ref target="#faire-patineurs">Faire les patineurs*</ref>, et les mourantes ames.</l>
             </sp>
-            <sp who="le-galland">
+            <sp who="galant1">
               <speaker>LE GALLAND.</speaker>
               <l n="99" xml:id="l99">Isabelle, bon jour, vostre humble serviteur !</l>
               <l n="100" xml:id="l100">Que vostre habit est riche et de belle couleur !</l>
               <l n="101" xml:id="l101">Ah Dieux ! la belle estoffe, et la belle dentelle !</l>
               <l n="102" xml:id="l102">Qui vous en a fait don ?</l>
             </sp>
-            <sp who="la-comedienne">
+            <sp who="comedienne">
               <speaker>LA COMEDIENNE.</speaker>
               <l part="Y">            Qui ? C’est Mademoiselle<note n="69" place="bottom"> La grande Mademoiselle.</note> :</l>
               <l n="103" xml:id="l103">Sa generosité m’en a fait un present</l>
               <l n="104" xml:id="l104">Et je le faits briller sur la scene à present.</l>
               <l n="105" xml:id="l105">Ma cravate est deffaite, et mon beau colier d’ambre...</l>
             </sp>
-            <sp who="le-galland">
+            <sp who="galant1">
               <speaker>LE GALLAND</speaker>
               <l n="106" xml:id="l106">Que je vous tienne icy lieu de valet de chambre :</l>
               <l n="107" xml:id="l107">Vostre Cravate...</l>
             </sp>
-            <sp who="la-comediene">
+            <sp who="comedienne">
               <speaker>LA COMEDIENE.</speaker>
               <l part="Y">        Hé bien ! je l’accommoderay.</l>
             </sp>
-            <sp who="le-galland">
+            <sp who="galant1">
               <speaker>LE GALLAND.</speaker>
               <l n="108" xml:id="l108">Vous allez au theatre où je vous conduiray.                     <pb n="8"/></l>
               <l n="109" xml:id="l109">Ma sœur veut vous donner un fort beau <ref target="#point-gesne">poinct de Gesne*</ref>,</l>
@@ -1205,7 +1212,7 @@
               <speaker>L’ESPINAY.</speaker>
               <l n="111" xml:id="l111">Et moy des gans d’Espagne.</l>
             </sp>
-            <sp who="le-galland">
+            <sp who="galant1">
               <speaker>LE GALLAND</speaker>
               <l part="Y">                Et moy de beaux rubans.</l>
             </sp>
@@ -1213,7 +1220,7 @@
               <speaker>L’ESPINAY.</speaker>
               <l n="112" xml:id="l112">Et moy de la pomade.</l>
             </sp>
-            <sp who="le-galland">
+            <sp who="galant1">
               <speaker>LE GALLAND</speaker>
               <l part="Y">            Et moy de beaux pendants.</l>
             </sp>
@@ -1221,11 +1228,11 @@
               <speaker>L’ESPINAY.</speaker>
               <l n="113" xml:id="l113">Et moy des espagneuls qui viennent de Boulogne.</l>
             </sp>
-            <sp who="le-galland">
+            <sp who="galant1">
               <speaker>LE GALLAND.</speaker>
               <l n="114" xml:id="l114">Et moy ce que j’ay de pris de rare en Cathalogne.</l>
             </sp>
-            <sp who="la-comediene">
+            <sp who="comedienne">
               <speaker>LA COMEDIENE,</speaker>
               <l n="115" xml:id="l115">Et de grace, Messieurs, ne vous échauffez pas :</l>
               <l n="116" xml:id="l116">Pour prendre vos presens, j’ay trop peu de deux bras.</l>
@@ -1234,7 +1241,7 @@
               <speaker>L’ESPINAY</speaker>
               <l n="117" xml:id="l117">Elle a le teint fort beau.</l>
             </sp>
-            <sp who="le-galland">
+            <sp who="galant1">
               <speaker>LE GALLAND</speaker>
               <l part="Y">            Et la taille gentille.</l>
             </sp>
@@ -1242,7 +1249,7 @@
               <speaker>L’ESPINAY.</speaker>
               <l n="118" xml:id="l118">Son oeil me plaist assez.</l>
             </sp>
-            <sp who="le-galland">
+            <sp who="galant1">
               <speaker>LE GALLAND.</speaker>
               <l part="Y">            Estes-vous femme ou fille ?</l>
               <l n="119" xml:id="l119">Aymez-moy je, vous prie, et m’appellez« mon coeur »,</l>
@@ -1253,20 +1260,20 @@
               <l n="121" xml:id="l121">Vous faites, par ma foy, fort bien la comedie :</l>
               <l n="122" xml:id="l122">Quand vous parlez d’amour, que vous estes jolie !</l>
             </sp>
-            <sp who="le-galland">
+            <sp who="galant1">
               <speaker>LE GALLAND.</speaker>
               <l n="123" xml:id="l123">Qu’elle fait bien la fiere, et la cruelle aussi !                    <pb n="9"/></l>
             </sp>
-            <sp who="la-comediene">
+            <sp who="comedienne">
               <speaker>LA COMEDIENE.</speaker>
               <l n="124" xml:id="l124">Aussi mon mestier est mon unique soucy</l>
               <l n="125" xml:id="l125">Et de luy seul je suis ardemment amoureuse.</l>
             </sp>
-            <sp who="le-galland">
+            <sp who="galant1">
               <speaker>LE GALLAND.</speaker>
               <l n="126" xml:id="l126">Voulez-vous sans cesser faire la dédaigneuse ?</l>
             </sp>
-            <sp who="la-comediene">
+            <sp who="comedienne">
               <speaker>LA COMEDIENE.</speaker>
               <l n="127" xml:id="l127">Je m’en vais au theatre avec des sentimens</l>
               <l n="128" xml:id="l128">Qui sont trop relevez pour tous vos complimens.</l>
@@ -1278,7 +1285,7 @@
               <l n="131" xml:id="l131">Vous allez bien jouër estant de cette humeur,</l>
               <l n="132" xml:id="l132">Vostre roolle est-il plain d’amour, ou de rigueur ?</l>
             </sp>
-            <sp who="le-galland">
+            <sp who="comedienne">
               <speaker>LE GALLAND.</speaker>
               <l n="133" xml:id="l133">Je vis hier jonër une piece nouvelle,</l>
               <l n="134" xml:id="l134">Au Theatre François dont la prose est fort belle :</l>
@@ -1288,7 +1295,7 @@
               <speaker>L’ESPINAY.</speaker>
               <l n="136" xml:id="l136">J’ayme Thomas Morus, les vers en sont forts beaux.</l>
             </sp>
-            <sp who="la-comediene">
+            <sp who="comedienne">
               <speaker>LA COMEDIENE.</speaker>
               <l n="137" xml:id="l137">Plustost que de parler, tenez la bouche close :</l>
               <l n="138" xml:id="l138">Cinna c’est fait en vers, Thomas Morus en prose !</l>
@@ -1297,7 +1304,7 @@
               <l n="141" xml:id="l141">Vos discours à l’instant font de grandes merveilles</l>
               <l n="142" xml:id="l142">Et vous parlez des vers comme font les corneilles.</l>
             </sp>
-            <sp who="le-galland">
+            <sp who="galant1">
               <speaker>LE GALLAND.</speaker>
               <l n="143" xml:id="l143">On me vient de donner un sonnet merveilleux.</l>
             </sp>
@@ -1305,11 +1312,11 @@
               <speaker>L’ESPINAY.</speaker>
               <l n="144" xml:id="l144">Combien a-t-il de vers.</l>
             </sp>
-            <sp who="le-galland">
+            <sp who="galant1">
               <speaker>LE GALLAND.</speaker>
               <l part="Y">            Au moins trente.                    <pb n="10"/></l>
             </sp>
-            <sp who="la-comedienne">
+            <sp who="comedienne">
               <speaker>LA COMEDIENNE.</speaker>
               <l part="Y">                    Encor mieux !</l>
               <l n="145" xml:id="l145">De grace, informez-vous des reigles poëtiques :</l>
@@ -1373,78 +1380,78 @@
           <div type="scene">
             <pb/>
             <head>SCENE V.</head>
-            <sp who="le-portier">
+            <sp who="portier">
               <speaker>LE PORTIER.</speaker>
               <l n="201" xml:id="l201">Voicy deux grands filoux de fort mauvais augure :</l>
               <l n="202" xml:id="l202">Tiens mon mousqueton prest, mettons-nous en posture !</l>
             </sp>
-            <sp who="devx-filoux">
+            <sp who="filoux">
               <speaker>DEVX FILOUX.</speaker>
               <l n="203" xml:id="l203">Ouvre !</l>
             </sp>
-            <sp who="le-portier">
+            <sp who="portier">
               <speaker>LE PORTIER.</speaker>
               <l part="Y">Il faut de l’argent !</l>
             </sp>
-            <sp who="le-filou">
+            <sp who="filou1">
               <speaker>LE FILOU.</speaker>
               <l part="Y">            Ah ventre !</l>
             </sp>
-            <sp who="le-portier">
+            <sp who="portier">
               <speaker>LE PORTIER.</speaker>
               <l n="204" xml:id="l204">Par la mort !</l>
             </sp>
-            <sp who="le-filou">
+            <sp who="filou1">
               <speaker>LE FILOU.</speaker>
               <l part="Y">        Tu me refuse en vain !</l>
             </sp>
-            <sp who="le-portier">
+            <sp who="portier">
               <speaker>LE PORTIER.</speaker>
               <l part="Y">                    Tu fais un vain effort !</l>
             </sp>
-            <sp who="le-filou">
+            <sp who="filou1">
               <speaker>LE FILOU.</speaker>
               <l n="205" xml:id="l205">Comment tu faits le brave, et la rude moustache ?</l>
             </sp>
-            <sp who="le-portier">
+            <sp who="portier">
               <speaker>LE PORTIER.</speaker>
               <l n="206" xml:id="l206">Je fais ce que je suis, quand je veux je me fâche.</l>
             </sp>
-            <sp who="le-filou">
+            <sp who="filou1">
               <speaker>LE FILOU.</speaker>
               <l n="207" xml:id="l207">Je m’en vay te percer sy j’entre en action,</l>
             </sp>
-            <sp who="le-portier">
+            <sp who="portier">
               <speaker>LE PORTIER.</speaker>
               <l n="208" xml:id="l208">On m’a desja percé, j’ay veu l’occasion,                      <pb n="B.13"/></l>
               <l n="209" xml:id="l209">Les canons, les fusils, et le fer et la flame</l>
               <l n="210" xml:id="l210">Ne me font point de peur, je me ris de ta lame.</l>
             </sp>
-            <sp who="le-filou">
+            <sp who="filou1">
               <speaker>LE FILOU.</speaker>
               <l n="211" xml:id="l211">Par la teste, jarny, redoute mon courroux.</l>
             </sp>
-            <sp who="le-portier">
+            <sp who="portier">
               <speaker>LE PORTIER.</speaker>
               <l n="212" xml:id="l212">S’il ne tient qu’à jurer, ah ! la vache est à nous !</l>
               <l n="213" xml:id="l213">Il me faut de l’argent, quoy que vous puissiez faire.</l>
             </sp>
-            <sp who="le-filou">
+            <sp who="filou1">
               <speaker>LE FILOU.</speaker>
               <l n="214" xml:id="l214">Je n’en ay point, amy, redoute ma colere !</l>
             </sp>
-            <sp who="le-portier">
+            <sp who="portier">
               <speaker>LE PORTIER.</speaker>
               <l n="215" xml:id="l215">Allez n’en ayant point, fanfaron sans pareil,</l>
               <l n="216" xml:id="l216">Dormir le dos en terre, et le ventre au soleil.</l>
               <l n="217" xml:id="l217">Allez prendre la mouche, et chanter la guimbarde,</l>
               <l n="218" xml:id="l218">Sous le fais d’un mousquet, ou d’une halebarde.</l>
             </sp>
-            <sp who="le-filou">
+            <sp who="filou1">
               <speaker>LE FILOU.</speaker>
               <l n="219" xml:id="l219">Ah c’est trop endurer, Portier tu periras.</l>
             </sp>
-            <sp who="le-portier">
+            <sp who="portier">
               <speaker>LE PORTIER.</speaker>
               <l n="220" xml:id="l220">Je vay parler à vous, messieurs les fiers à bras;</l>
               <l n="221" xml:id="l221">Et d’estoc, et de taille, et de quarté et<note n="71" place="bottom"> Quarté et : utilisation du [e] comique </note> de tierce</l>
@@ -1465,23 +1472,23 @@
             <head>ACTEURS.</head>
             <castList>
             <castItem>
-              <role>L’IGNORANCE.</role>
+              <role xml:id="ignorance">L’IGNORANCE.</role>
             </castItem>
             <castItem>
-              <role>TRAPOLIN.</role>
+              <role xml:id="trapolin">TRAPOLIN.</role>
             </castItem>
             <castItem>
-              <role>LE DOCTEUR.</role>
+              <role xml:id="le-docteur">LE DOCTEUR.</role>
             </castItem>
             <castItem>
-              <role>PHILOSOPHIE,</role>
+              <role xml:id="philosophie">PHILOSOPHIE,</role>
               <roleDesc>fille du Docteur.</roleDesc>
             </castItem>
             <castItem>
-              <role>POESIE.</role>
+              <role xml:id="poesie">POESIE.</role>
             </castItem>
             <castItem>
-              <role>GALANTERIE,</role>
+              <role xml:id="galanterie">GALANTERIE,</role>
               <roleDesc>Cousine. </roleDesc>
             </castItem>
             </castList>
@@ -1591,7 +1598,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE II.</head>
-            <sp who="le-docteur-l-alternance-des-monologues-et-des-dialogues-respecte-les-habitudes-passees-du-theatre-classique.-dans-les-premieres-annees-du-siecle">
+            <sp who="le-docteur">
               <speaker>LE DOCTEUR<note n="74" place="bottom"> L’alternance des monologues et des dialogues respecte les habitudes passées du théâtre classique. Dans les premières années du siècle, il indiquait toujours l’entrée d’un acteur important, ici, Trapolin.</note></speaker>
               <l n="271" xml:id="l271">J’ay des filles chez moy, doctes, spirituelles;</l>
               <l n="272" xml:id="l272">La matiere, et l’esprit sont excellens en elles,</l>
@@ -1758,7 +1765,7 @@
               <speaker>TRAPOLIN</speaker>
               <l n="375" xml:id="l375">Les femmes.....</l>
             </sp>
-            <sp who="le-doctevr">
+            <sp who="le-docteur">
               <speaker>LE DOCTEVR.</speaker>
               <l part="Y">        Taisez-vous, s’il est vray que des femmes</l>
               <l n="376" xml:id="l376">Ayant des actions diaboliques et infames,</l>
@@ -1891,7 +1898,7 @@
               <l n="434" xml:id="l434">De parler aux pourceaux, c’est exposer des fleurs.</l>
               <stage>Le docteur sort.</stage>
             </sp>
-            <sp who="trapolin-seul">
+            <sp who="trapolin">
               <speaker>TRAPOLIN <hi rend="i">seul</hi>.</speaker>
               <l n="435" xml:id="l435">Ah ! le Docteur m’entend, il me donne silence;</l>
               <l n="436" xml:id="l436">Je m’en vais à mon tour montrer mon eloquence.</l>
@@ -1912,7 +1919,7 @@
             <pb/>
             <head>SCENE IV.</head>
             <stage>LE DOCTEVR, TRAPOLIN</stage>
-            <sp who="le-docteur-revient">
+            <sp who="le-docteur">
               <speaker>LE DOCTEUR <hi rend="i">revient</hi>.</speaker>
               <l n="448" xml:id="l448">Que veux-tu, veau doré, franc badin, esprit cruche ?</l>
             </sp>
@@ -2358,7 +2365,7 @@
               <speaker>PHILOSOPHIE.</speaker>
               <l part="Y">            Ouy.</l>
             </sp>
-            <sp who="le-doctevr">
+            <sp who="le-docteur">
               <speaker>LE DOCTEVR.</speaker>
               <l part="Y">                De plaisir j’en dance.</l>
             </sp>
@@ -2366,7 +2373,7 @@
               <speaker>PHILOSOPHIE.</speaker>
               <l n="709" xml:id="l709">Ouy, mais il nous méprise, et choisit l’Ignorance.</l>
             </sp>
-            <sp who="le-doctevr">
+            <sp who="le-docteur">
               <speaker>LE DOCTEVR.</speaker>
               <l n="710" xml:id="l710">Il choisit l’Ignorance ! et comment gros vilain,</l>
               <l n="711" xml:id="l711">Tu choisis le terrestre, et quitte le divin ?</l>
@@ -2653,7 +2660,7 @@
             <bibl>GUICHEMERRE Roger, <title>La Comédie avant Molière 1640-1660</title>, Paris, Armand Colin, 1972. </bibl>
             <bibl>SCHERER Jacques, <title>La dramaturgie classique en France</title>, Paris, Nizet, 1950. </bibl>
             <bibl>CHAPPUZEAU Samuel, <title>Le théâtre Français (1674)</title>, Paris, éd. George Monval, Jules Bonnassies, 1876. </bibl>
-            <bibl rend="i">Projet pour le rétablissement du théâtre François, de l’abbé d’Aubignac. </bibl>
+            <bibl><title>Projet pour le rétablissement du théâtre François, de l’abbé d’Aubignac.</title></bibl>
             <bibl>SCHERER Jacques, <title>Introduction, Théâtre du XVII<hi rend="sup">e</hi> siècle</title>, Paris, Gallimard, 1975, p. XXI.</bibl>
             <bibl>SCHERER Jacques, <title>La Dramaturgie classique en France</title>, Nizet, s.d. [1950]</bibl>
           </div>
