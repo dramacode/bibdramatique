@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="gouges-moliere-ninon">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Molière chez Ninon ou Le siècle des grands hommes. Pièce épisodique en prose et en cinq actes.</title>
-        <author>Olympe de Gouges</author>
+        <author key="Gouges, Olympe de (1748-1793)">Olympe de Gouges</author>
         <editor>Céline Grihard</editor>
       </titleStmt>
       <editionStmt>
@@ -748,7 +747,7 @@
             <roleDesc>Amant de Ninon.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="m-gourville">M.DE GOURVILLE,</role>
+            <role xml:id="gourville">M.DE GOURVILLE,</role>
             <roleDesc>ancien Amant de Ninon.</roleDesc>
           </castItem>
           <castItem>
@@ -835,6 +834,25 @@
           <castItem>
             <role xml:id="grand-prieur">Le GRAND PRIEUR.</role>
           </castItem>
+            <castItem>
+              <role xml:id="porteur1"></role>
+              <role xml:id="porteur2"></role>
+              <role xml:id="le-valet-de-chambre"></role>
+            </castItem>
+            <castItem>
+              <role xml:id="premier-bulletin"></role>
+              <role xml:id="second-bulletin"></role>
+              <role xml:id="troisieme-bulletin"></role>
+              <role xml:id="quatrieme-bulletin"></role>
+              <role xml:id="cinquieme-bulletin"></role>
+              <role xml:id="sixieme-bulletin"></role>
+              <role xml:id="septieme-bulletin"></role>
+              <role xml:id="huitieme-bulletin"></role>
+              <role xml:id="neuvieme-bulletin"></role>
+              <role xml:id="dixieme-bulletin"></role>
+              <role xml:id="onzieme-bulletin"></role>
+              <role xml:id="douzieme-bulletin"></role>
+            </castItem>
           </castList>
           <stage>La Scène se passe chez Ninon, au Marais.</stage>
           <pb/>
@@ -1019,7 +1037,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE V</head>
-            <sp who="m.-le-grand-prieur">
+            <sp who="grand-prieur">
               <speaker>M. LE GRAND-PRIEUR, <hi rend="i">regardant M<hi rend="sup">lle</hi> le Roi s’en aller</hi>.</speaker>
               <p><hi rend="b">J</hi><hi rend="sc">e</hi> commence à m’appercevoir que le mépris que ces gens-là font de mes dons est plutôt l’effet du dédain que leur maitresse a pour mes sentimens, que celui de leur désintéressement. C’est ce dont je viens me convaincre pour la dernière fois. Ah ! cruelle Ninon, favorable à tant de personnages qui ne me valent pas, s’il faut que j’échoue auprès de toi, une bonne épigramme<note n="137" place="bottom"> Une épigramme est un court poème satirique en vers, qui se termine souvent par une pointe.</note> me vengera de tes rigueurs<note n="138" place="bottom"> Comprendre : « me vengera de ton indifférence ». « Rigueurs » désigne ici la froideur, l’insensibilité d’une maîtresse envers son amant (« sa sévérité, sa vertu ; le refus qu’elle fait de son cœur, de ses faveurs » <hi rend="i">Dictionnaire universel</hi> de Furetière, 1727).</note>. Tenons-la toute prête : voilà justement tout ce qu’il faut pour écrire…</p>
               <stage>(Il s’approche de la table et s’assied, puis réfléchissant.)</stage>
@@ -1070,7 +1088,7 @@
               <speaker>NINON.</speaker>
               <p>La manière, dont vous vous exprimez, m’est tout-à-fait étrangère ; mais elle répond parfaitement aux sentimens que je vous soupçonnois : croyez-moi, Monsieur le Grand-Prieur, il vaut mieux commander des Galères à Malthe, que de servir ici ce petit fripon d’amour, qui, plus obstiné encore que capricieux, se plaît à <ref target="#braver">braver*</ref> ceux qui ne savent pas se le rendre favorable. Pour moi, qui n’ai su jamais induire une personne en erreur, je vois avec peine que vous vous obstinez à vouloir devenir mon amant ; et si vous insistez davantage, vous perdrez mon estime, sans obtenir mon amitié. La perte n’est pas indifférente, faites-y attention.</p>
             </sp>
-            <sp who="m.-le-grand-prieur">
+            <sp who="grand-prieur">
               <speaker>M. LE GRAND-PRIEUR, <hi rend="i">avec colère et dépit</hi>.</speaker>
               <p>Je saurai me passer de l’une et de l’autre. Je vous vois actuellement telle que vous êtes ; vous ne serez plus importunée de mes assiduités<note n="139" place="bottom"> Comprendre : « vous ne serez plus importunée par mes visites » : « Avoir des assiduités auprès d’une femme » signifie « lui rendre des soins » (<hi rend="i">Dictionnaire de L’Académie Française</hi>, 1762), en particulier lors de visites fréquentes.</note>. Bien/<pb n="13" xml:id="pb13"/>/tôt vous saurez à quoi vous en tenir sur mon compte.</p>
               <stage>(Il sort en jettant sur la table le papier qu’il a écrit.)</stage>
@@ -1453,7 +1471,7 @@
               <stage>(Haut.)</stage>
               <p>Approchez, Mademoiselle. Desirez-vous parler en particulier à Molière ; nous allons vous laisser avec lui.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Je ne crains point de m’expliquer devant vous, <pb n="26" xml:id="pb26"/> Mademoiselle, vos rares <ref target="#vertu1">vertus*</ref> me sont connues et mes malheurs intéresseront votre ame. <ref target="#heureux1">Heureuse*</ref> si je peux obtenir votre estime et votre appui !</p>
             </sp>
@@ -1465,7 +1483,7 @@
               <stage>(Haut)</stage>
               <p>Mademoiselle, comment vous nommez-vous ?</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Olimpe, fille unique du Marquis de Chateauroux.</p>
             </sp>
@@ -1473,7 +1491,7 @@
               <speaker>MOLIERE.</speaker>
               <p>Et sans considérer votre illustre famille, vous voulez, Mademoiselle, vous jetter dans la Comédie.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Il s’agit de mon bonheur. Lorsque vous prîtes cet état, Monsieur, permettez-moi de m’expliquer librement, c’est au plus grand Génie de l’Europe à qui je viens m’adresser, et en présence de la femme la plus admirable : rien a-t-il pu vous détourner de composer pour l’honneur de la France, et de joindre au titre d’Auteur celui d’Acteur ? n’avez-vous pas préféré d’être Directeur de Comédiens aux places honorables qu’on vous a offertes ?</p>
             </sp>
@@ -1493,7 +1511,7 @@
               <speaker>MOLIERE.</speaker>
               <p>Mes amis, mes chers amis, vous ne voyez que les roses qu’on sème par-ci par-là sur mes pas, et que votre amitié me cueille ; eh bien, moi, je ne trouve à chaque instant que des épines sur mon passage.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Vous êtes trop rigide pour vous-même, et vous n’êtes pas heureux. On me l’avoit bien dit.</p>
             </sp>
@@ -1517,7 +1535,7 @@
               <speaker>CHAPELLE.</speaker>
               <p>C’est qu’il est juste et bien appliqué.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.    <pb n="28" xml:id="pb28"/></speaker>
               <p>Mais puis-je, Monsieur Molière, vous faire une question ?</p>
             </sp>
@@ -1525,7 +1543,7 @@
               <speaker>MOLIERE.</speaker>
               <p>Toutes celles qui vous feront plaisir.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Etiez-vous amoureux, quand vous prîtes la Comédie ?</p>
             </sp>
@@ -1545,7 +1563,7 @@
               <speaker>NINON.</speaker>
               <p>Et Mademoiselle ne prend le parti violent de la Comédie, qu’après avoir consulté son cœur.</p>
             </sp>
-            <sp who="mlle-olimpe">
+            <sp who="olympe">
               <speaker>M<hi rend="sup">lle</hi> OLIMPE.</speaker>
               <p>Il est vrai, Mademoiselle, et je suis d’autant plus affligée, que mon Amant est sans parents, et n’a d’autre protecteur, d’autre appui que mon père ; il a tout perdu, en perdant son amitié ; et il ne lui reste d’autre ressource que la Comédie. Ressource, qui doit nous unir un jour l’un à l’autre ; et résolus de prendre ce parti, nous nous sommes jurés une foi éternelle.</p>
             </sp>
@@ -1555,7 +1573,7 @@
               <stage>(A part)</stage>
               <p>Ah ! Monsieur, Monsieur de Coligny, qu’avez-vous fait ? Faut-il qu’au seul nom d’un inconnu, je sente dans le fond de mon ame se réveiller la nature !</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Mais, que puis-je faire de mieux dans la cruelle position où je me trouve, que d’embrasser la Comédie ?</p>
             </sp>
@@ -1563,11 +1581,11 @@
               <speaker>MOLIERE, <hi rend="i">avec fermeté</hi>.</speaker>
               <p>Allez vous jetter aux pieds de vos parens, leur demander pardon de votre imprudence, de votre désertion, et de toutes les expressions qui peuvent condamner votre démarche ; je vous y conduirai ; s’il le faut, je parlerai à vos parens, à votre père, ils m’écouteront, et j’espère obtenir votre pardon.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Et je perdrois mon Amant !</p>
             </sp>
-            <sp who="moliere-avec-vivacite">
+            <sp who="moliere">
               <speaker>MOLIERE <hi rend="i">avec vivacité</hi>.</speaker>
               <p>Eh ! vous le perdriez bien plutôt<note n="158" place="bottom"> « Plutôt » pouvait être un adverbe de temps au XVIII<hi rend="sup">e</hi> siècle, et pas seulement un adverbe de préférence, comme l’attestent le <hi rend="i">Dictionnaire critique de la langue française</hi> de Jean François Féraud, en 1787-1788, et le <hi rend="i">Dictionnaire de L’Académie Française</hi> de 1762.</note> à la Comédie. Apprenez, Mademoiselle, que sagesse et constance, sont deux qualités proscrites du Théâtre. Je veux croire même que vous les possédiez ; et quand vous auriez une <ref target="#vertu2">vertu*</ref> des plus austères, on n’y croira pas ; et si vous avez le malheur qu’on y ajoute foi, point d’amis, point d’applaudissemens : vous entendrez crier du fond de la salle : <pb n="30" xml:id="pb30"/> Ah ! voilà cette <ref target="#begueule">Bégueule*</ref> ! Où a-t-elle été nicher sa <ref target="#vertu2">vertu*</ref>, et pourquoi n’entroit-elle pas plutôt au Couvent qu’à la Comédie ?</p>
             </sp>
@@ -1587,7 +1605,7 @@
               <speaker>CHAPELLE.</speaker>
               <p>Cela s’entend. Mademoiselle me paroît trop instruite pour ne pas le sentir.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Je me rends, Monsieur Molière, à vos observations, et je conçois à présent tout le danger de ma démarche ; mais enfin, je ne dois rien vous cacher.</p>
             </sp>
@@ -1605,7 +1623,7 @@
               <speaker>CHAPELLE.    <pb n="31" xml:id="pb31"/></speaker>
               <p>Oh ! tu peux l’engager.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Il y a trois jours que j’ai disparu de chez moi avec une femme-de-Chambre qui m’a élevée.</p>
             </sp>
@@ -1613,7 +1631,7 @@
               <speaker>MOLIERE.</speaker>
               <p>Le mauvais Gouverneur que vous avez là, Mademoiselle.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Je ne suis sortie qu’aujourd’hui d’un Hôtel garni<note n="159" place="bottom"> Un hôtel garni est un hôtel équipé de ce qui est nécessaire.</note> où nous nous étions réfugiés, un Valet de mon père, tout-à-fait dans mes intérêts, m’a avertie ce matin, qu’il étoit à la Cour et qu’il sollicitait un ordre pour me faire enfermer.</p>
             </sp>
@@ -1625,7 +1643,7 @@
               <speaker>MOLIERE.</speaker>
               <p>Cela est trop juste : mais il faut le prévenir par votre soumission ; et dans cet Hôtel où vous vous êtes retirée, votre Amant ne s’y est il pas rendu ?</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Non, Monsieur ; je ne lui ai même jamais parlé chez mon père qu’en présence de ma Bonne.</p>
             </sp>
@@ -1633,7 +1651,7 @@
               <speaker>NINON.</speaker>
               <p>Mais cette Bonne me parait bien traitable.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>J’en conviens ; mais je n’ai jamais mis à l’épreuve une facilité qui m’aurait perdue<note n="160" place="bottom"> Comprendre : « Je n’ai jamais été faible ».</note>.</p>
             </sp>
@@ -1641,7 +1659,7 @@
               <speaker>NINON.    <pb n="32" xml:id="pb32"/></speaker>
               <p>Que vous êtes <ref target="#heureux2">heureuse*</ref> de prévoir de si loin et d’être aussi forte.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Ah ! Mademoiselle de l’Enclos, honorez-moi de votre bienveillance.</p>
             </sp>
@@ -1649,11 +1667,11 @@
               <speaker>NINON.</speaker>
               <p>Moi, mon enfant, elle vous ferait du tort dans le monde.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Il faudrait désarmer mon père avant de me présenter à lui.</p>
             </sp>
-            <sp who="moliere-a-ninon">
+            <sp who="moliere">
               <speaker>MOLIERE <hi rend="i">à Ninon</hi>.</speaker>
               <p>Elle a raison ; cachons-la aujourd’hui. Il faut que vous lui donniez l’hospitalité. Ensuite nous verrons les moyens pour aborder ce père inéxorable.</p>
             </sp>
@@ -1661,7 +1679,7 @@
               <speaker>CHAPELLE.</speaker>
               <p>Attendez… un de nos amis communs est lié étroitement avec lui.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Monsieur, comment se nomme t-il ?</p>
             </sp>
@@ -1669,7 +1687,7 @@
               <speaker>CHAPELLE.</speaker>
               <p>C’est Saint-Evremont.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Il est vrai ; ils sont amis dès la plus tendre enfance.</p>
             </sp>
@@ -1697,7 +1715,7 @@
               <speaker>CHAPELLE.</speaker>
               <p>Cela se demande-t-il ? n’ai-je pas deux motifs actuellement ?</p>
             </sp>
-            <sp who="ninon-en-sortant">
+            <sp who="ninon">
               <speaker>NINON <hi rend="i">en sortant</hi>.</speaker>
               <p>C’est pour cette raison que je crains que vous n’y manquiez.</p>
               <stage>(Mademoiselle de Chateauroux salue avec noblesse Chapelle et Moliere : Ninon la prend sous le bras et elles sortent)</stage>
@@ -1707,7 +1725,7 @@
             <pb/>
             <head>SCENE XIII.                        <pb n="34" xml:id="pb34"/></head>
             <stage>MOLIERE, CHAPELLE.</stage>
-            <sp who="moliere-plaisantant-chapelle">
+            <sp who="moliere">
               <speaker>MOLIERE <hi rend="i">plaisantant Chapelle</hi>.</speaker>
               <p><hi rend="b">E</hi><hi rend="sc">lle</hi> a raison. Elle te connaît bien ; plus tu as à faire, moins tu fais.</p>
             </sp>
@@ -1787,7 +1805,7 @@
               <speaker>NINON.</speaker>
               <p>Approchez, Gourville, nous sommes confus tous les deux, et nous craignons de nous expliquer. Dans votre absence, il m’est arrivé un grand malheur, que je vous prie de me pardonner.</p>
             </sp>
-            <sp who="gourville-a-part">
+            <sp who="gourville">
               <speaker>GOURVILLE <hi rend="i">à part</hi>.    <pb n="37" xml:id="pb37"/></speaker>
               <p>Je m’y attendais ; ceci ne me surprend pas ; à ce début, ma cassette va se trouver volée.</p>
             </sp>
@@ -1844,7 +1862,7 @@
               <speaker>LA CHATRE, <hi rend="i">avec dépit</hi>.</speaker>
               <p>Oui, un ami à genoux, de la maniere dont il a été avec vous ; mais comme vous dites bien, il arrive, et moi je pars.</p>
             </sp>
-            <sp who="gourville-se-relevant">
+            <sp who="gourville">
               <speaker>GOURVILLE <hi rend="i">se relevant</hi>.</speaker>
               <p>Monsieur, je dois sans doute envier votre sort ; mais apprenez à respecter mieux un cœur où vous <pb n="39" xml:id="pb39"/>avez regné, une ame pure comme le jour : c’est devant vous, Messieurs, que je vais m’accuser d’avoir pu, (<hi rend="i">A la Chatre</hi>) comme vous, la croire capable de mauvais procédés.</p>
             </sp>
@@ -1984,23 +2002,23 @@
               <speaker>NINON.</speaker>
               <p>J’y consens : vouloir vous persuader que cette précaution est inutile, ce seroit vous donner de nouvelles allarmes, et j’ai trop de plaisir à vous satisfaire sur ce point.</p>
             </sp>
-            <sp who="la-chatre-la-prend-par-la-main">
+            <sp who="la-chatre">
               <speaker>LA CHATRE <hi rend="i">la prend par la main, et la conduit à la table avec tendresse</hi>.</speaker>
               <p>Ah ! Ninon, qu’il est <ref target="#heureux2">heureux*</ref> de vous plaire, mais qu’il est cruel de perdre votre cœur !</p>
             </sp>
-            <sp who="ninon-avec-attendrissement">
+            <sp who="ninon">
               <speaker>NINON <hi rend="i">avec attendrissement</hi>.</speaker>
               <p>La Châtre, que ne puis-je vous suivre. Je ne sais si je fais une folie en écrivant ce billet, mais je soulage mon cœur en faisant ce que vous désirez.</p>
             </sp>
-            <sp who="la-chatre-dictant">
+            <sp who="la-chatre">
               <speaker>LA CHATRE <hi rend="i">dictant.</hi><pb n="46" xml:id="pb46"/></speaker>
               <p>Oui, je promets par l’honneur, par la probité…</p>
             </sp>
-            <sp who="ninon-repetant">
+            <sp who="ninon">
               <speaker>NINON <hi rend="i">répétant</hi>.</speaker>
               <p>Probité…</p>
             </sp>
-            <sp who="la-chatre-continuant">
+            <sp who="la-chatre">
               <speaker>LA CHATRE <hi rend="i">continuant</hi>.</speaker>
               <p>Qui a toujours fait la base de mes sentimens, de ne m’attacher désormais à personne…en amour.</p>
             </sp>
@@ -2010,23 +2028,23 @@
               <stage>(Répétant)</stage>
               <p>En amour.</p>
             </sp>
-            <sp who="la-chatre-continuant">
+            <sp who="la-chatre">
               <speaker>LA CHATRE <hi rend="i">continuant</hi>.</speaker>
               <p>Et de rester fidelle pour la vie à l’amour que j’ai juré à la Châtre.</p>
             </sp>
-            <sp who="ninon-repetant">
+            <sp who="ninon">
               <speaker>NINON <hi rend="i">répétant</hi>.</speaker>
               <p>A la Châtre…</p>
             </sp>
-            <sp who="la-chatre-continuant">
+            <sp who="la-chatre">
               <speaker>LA CHATRE <hi rend="i">continuant</hi>.</speaker>
               <p>Nul mortel ne pourra me faire renoncer à mon engagement. Je le jure foi de Ninon.</p>
             </sp>
-            <sp who="ninon-balbutiant">
+            <sp who="ninon">
               <speaker>NINON <hi rend="i">balbutiant</hi>.</speaker>
               <p>Foi….de….Ninon.</p>
             </sp>
-            <sp who="la-chatre-se-jettant-avec-vivacite-sur-le-papier">
+            <sp who="la-chatre">
               <speaker>LA CHATRE <hi rend="i">se jettant avec vivacité sur le papier</hi>.</speaker>
               <p>Muni de ce titre, je vole aux combats et je suis le plus fortuné des hommes. Adieu, mon adorable Ninon : il faut nous séparer.</p>
             </sp>
@@ -2043,7 +2061,7 @@
               <speaker>FRANCISQUE.</speaker>
               <p><hi rend="b">M</hi><hi rend="sc">onsieur</hi> le Comte de Fiesque fait demander, Mademoiselle, si vous êtes visible.</p>
             </sp>
-            <sp who="la-chatre-allarme">
+            <sp who="la-chatre">
               <speaker>LA CHATRE <hi rend="i">allarmé</hi>.    <pb n="47" xml:id="pb47"/></speaker>
               <p>O ma chère Ninon, évitez sa présence : vous m’avez avoué que s’il n’était pas parti pour son voyage de Rome, vous l’auriez aimé. Il est jeune, aimable, instruit ; que de qualités pour vous faire oublier vos sermens ! songez qu’actuellement vous êtes engagée à moi par l’honneur.</p>
             </sp>
@@ -2071,7 +2089,7 @@
             <pb/>
             <head>SCENE XXII.</head>
             <stage>LES MÊMES, Madame SCARON</stage>
-            <sp who="la-chatre-a-madame-scaron">
+            <sp who="la-chatre">
               <speaker>LA CHATRE <hi rend="i">à Madame Scaron</hi>.</speaker>
               <p><hi rend="b">V</hi><hi rend="sc">enez</hi>, Madame Scaron, je vous recommande ma chère Ninon, que votre amitié ne l’abandonne <pb n="48" xml:id="pb48"/> pas.</p>
               <stage>(Il leur fait signe qu’il s’en va mais qu’il ne veut pas que Ninon s’en appercoive.)</stage>
@@ -2080,21 +2098,21 @@
               <speaker>NINON, <hi rend="i">plongée dans le plus grand accablement, tout à coup s’apperçoit que la Châtre est parti : elle jette un cri perçant</hi>.</speaker>
               <p>Il est parti !</p>
             </sp>
-            <sp who="mad">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON.</speaker>
               <p>C’en est fait.</p>
             </sp>
-            <sp who="ninon-se-livrant-a-la-plus-grande-douleur">
+            <sp who="ninon">
               <speaker>NINON <hi rend="i">se livrant à la plus grande douleur, se laisse aller sur le canapé</hi>.</speaker>
               <p>Que je suis <ref target="#malheureux1">malheureuse*</ref> ! Je suis la femme la plus infortunée ! Quoi ! l’Amour me causera t-il sans-cesse de nouveaux tourmens ? L’engagement que j’ai pris, m’est un sûr garant que ce sont les derniers, et si je perds la Châtre, je n’aimerai plus personne.</p>
               <stage>(se relevant et prenant un ton assuré.)</stage>
               <p>Que vous me faites plaisir, ma bonne amie, d’être venue dans ce moment. Il faut prendre mon parti ; un <ref target="#soin">soin*</ref> bien différent m’occupe. Voulez-vous vous joindre à moi pour aller consoler le pauvre Desyveteaux que Madame de la Sabliere m’a découvert.</p>
             </sp>
-            <sp who="mad">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON.</speaker>
               <p>Tout ce qui peut vous être agréable, ma chère Ninon, ne me l’est il pas ?</p>
             </sp>
-            <sp who="ninon-a-mad">
+            <sp who="ninon">
               <speaker>NINON <hi rend="i">à Mad. Scaron</hi>.</speaker>
               <p>J’en suis bien sûre.</p>
               <stage>(A tous<note n="170" place="bottom"> Cela semble être une incohérence puisque Gourville et Molière attendent à l’extérieur et la Châtre est sorti. Il ne reste donc sur scène que Ninon et Madame Scarron. Dès lors il semble étrange que Ninon s’adresse « <hi rend="i">à tous</hi> ».</note>.)</stage>
@@ -2392,8 +2410,9 @@
               <speaker>MATHURIN, <hi rend="i">à part</hi>.</speaker>
               <p>Il a beau attendre et soupirer, il n’en fera que ça… Vouloir faire l’amour<note n="180" place="bottom"> Cf note p. [34].</note> quand on est si vieux, ah ! quelle extravagance !</p>
             </sp>
-            <sp who="la-dupuis-accordant-sa-guitare">
+            <sp who="la-dupuis">
               <speaker>LA DUPUIS <hi rend="i">accordant sa guitare, chante sur</hi>    <pb n="60" xml:id="pb60"/> <hi rend="i">l’Air : On compteroit tous les Diamans</hi><note n="181" place="bottom"> L’air « On compterait les Diamants » vient d’une chanson populaire du même nom, écrite en 1782, d’un auteur anonyme, en octosyllabe et en rimes croisées.</note>.</speaker>
+              <lg>
               <l><hi rend="b">L</hi><hi rend="sc">ise</hi>, l’autre jour, naviguoit</l>
               <l>Avec Colin sur la rivière ;</l>
               <l>Je sens un mouvement secret,</l>
@@ -2402,7 +2421,8 @@
               <l>Et que mon cœur si fort palpite ;</l>
               <l>Est-ce le roulis du bateau,</l>
               <l>Colin, ou l’amour qui l’agite ?</l>
-              <p/>
+              </lg>
+              <lg>
               <l><hi rend="b">C</hi><hi rend="sc">olin</hi> d’abord pour le savoir,</l>
               <l>La descendit sur le rivage ;</l>
               <l>Maintenant, Lise, tu peux voir</l>
@@ -2411,7 +2431,8 @@
               <l>Colin, ce n’est pas la rivière ;</l>
               <l>Je sens le même mouvement,</l>
               <l>Quand près de toi je suis à terre.</l>
-              <p/>
+              </lg>
+              <lg>
               <l><hi rend="b">L</hi><hi rend="sc">e</hi> père à l’instant arriva,</l>
               <l>Et Colin s’enfuit du rivage ;</l>
               <l>Puis avec sa fille il monta,</l>
@@ -2420,6 +2441,7 @@
               <l>La barque légère et mobile ;</l>
               <l>Lise se sentit agiter,</l>
               <l>Mais son cœur demeura tranquile.</l>
+              </lg>
             </sp>
             <sp who="mathurin">
               <speaker>MATHURIN, <hi rend="i">à part</hi>.</speaker>
@@ -2629,11 +2651,11 @@
               <speaker>NINON, <hi rend="i">l’appellant</hi>.    <pb n="68" xml:id="pb68"/></speaker>
               <p>Desyveteaux, mon ami, ne me reconnoissez-vous pas, et n’êtes-vous plus le même ?</p>
             </sp>
-            <sp who="desiveteaux">
+            <sp who="desyveteaux">
               <speaker>DESIVETEAUX, <hi rend="i">toujours aux pieds de la Dupuis</hi>.</speaker>
               <p>Je le suis en amitié ; mais en amour, je suis le berger Coridon, et voilà ma bergère.</p>
             </sp>
-            <sp who="mad">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON.</speaker>
               <p>On n’est pas plus fou que cela, et son extravagance est au comble.</p>
             </sp>
@@ -2671,7 +2693,7 @@
               <speaker>MOLIERE, <hi rend="i">à Ninon</hi>.</speaker>
               <p>Voyez à quel point vos amis vous sont fidèles.</p>
             </sp>
-            <sp who="mad">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON.</speaker>
               <p>Sa frénésie n’a point détruit le <ref target="#sentiment1">sentiment*</ref> chez lui.</p>
             </sp>
@@ -2683,7 +2705,7 @@
               <speaker>NINON, <hi rend="i">dans la plus vive émotion</hi>.</speaker>
               <p>Il m’en est plus cher.</p>
             </sp>
-            <sp who="mad">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON.</speaker>
               <p>Comment donc, ma tendre amie, vous voilà toute émue.</p>
             </sp>
@@ -2703,7 +2725,7 @@
               <stage>(Bas à Madame Scaron.)</stage>
               <p>Mais quelle est cette fille ?</p>
             </sp>
-            <sp who="mad.-scaron">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON, <hi rend="i">bas</hi>.</speaker>
               <p>Sa figure ne m’est point inconnue.</p>
             </sp>
@@ -2727,7 +2749,7 @@
               <speaker>MOLIERE.</speaker>
               <p>Monsieur de Gourville, n’employons point de remèdes violens, il faut au contraire que l’amitié se prête à la situation de son état. Si on pouvoit le ramener dans la société avec sa bergère ; peut être le guéririons-nous par ce moyen.</p>
             </sp>
-            <sp who="mad">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON.    <pb n="71" xml:id="pb71"/></speaker>
               <p>Pour moi je n’en crois rien, et je suis de l’avis de Monsieur de Gourville. Il faudroit plutôt, par de bons raisonnemens, lui faire appercevoir son ridicule.</p>
             </sp>
@@ -2753,7 +2775,7 @@
               <speaker>DESYVETEAUX.</speaker>
               <p>Je n’ai des yeux que pour ma bergère.</p>
             </sp>
-            <sp who="mad.-scaron">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON, <hi rend="i">riant</hi>.</speaker>
               <p>Vous avouerez, ma bonne amie, que c’est trop complaisant pour pouvoir s’empêcher de rire.</p>
             </sp>
@@ -2767,7 +2789,7 @@
               <speaker>MATHURIN.    <pb n="72" xml:id="pb72"/></speaker>
               <p><ref target="#tatiguenne">Tatiguenne*</ref> ? Je vous regardons, parce que vous êtes bonne à voir, ainsi que ste belle Dame qui vous accompagnont.</p>
             </sp>
-            <sp who="mad">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON.</speaker>
               <p>Sa figure est tout-à-fait plaisante.</p>
             </sp>
@@ -2828,7 +2850,7 @@
               <stage>(A part.)</stage>
               <p>Ce moment est trop glorieux pour moi pour le laisser échapper.</p>
             </sp>
-            <sp who="ninon-a-francisque">
+            <sp who="ninon">
               <speaker>NINON <hi rend="i">à Francisque</hi>.</speaker>
               <p>Dites au Prince qu’il peut entrer avec sa suite. Quelle surprise pour lui !</p>
               <stage>(Francisque sort avec étonnement en regardant le Berger et la Bergère.)</stage>
@@ -2863,7 +2885,7 @@
               <speaker>DESYVETEAUX, <hi rend="i">se jettant aux pieds du Prince</hi>.</speaker>
               <p>Le Dieu Mars vient donc visiter la chaumière du paisible Laboureur. Le Berger Coridon lui présente sa fille, et lui demande, à genoux, d’accorder à son amour la Bergère Colinette.</p>
             </sp>
-            <sp who="le-prince">
+            <sp who="le-grand-conde">
               <speaker>LE PRINCE, <hi rend="i">étonné, et prenant par la main Desyveteaux</hi>.</speaker>
               <p>Levez-vous, Desyveteaux ; est-ce une fête que vous me donnez ? On vous reconnoît toujours par votre aimable galanterie. Je vois avec plaisir qu’on s’est trompé sur votre compte, et que vous êtes au contraire très-heureux.</p>
             </sp>
@@ -2871,7 +2893,7 @@
               <speaker>NINON.</speaker>
               <p>Mon Prince, n’appercevez-vous pas<note n="188" place="bottom"> Réplique ambiguë : on peut comprendre qu’elle invite le Prince à la regarder ou qu’elle cherche à lui montrer que Des Yveteaux n’est en fait plus lui-même bien qu’il paraisse « heureux ».</note> ?</p>
             </sp>
-            <sp who="le-prince">
+            <sp who="le-grand-conde">
               <speaker>LE PRINCE, <hi rend="i">s’approchant de Ninon</hi>.    <pb n="76" xml:id="pb76"/></speaker>
               <p>Enfin, Mademoiselle l’Enclos, je vous vois : que j’ai souffert d’avoir tardé si long-tems, mais j’y étois forcé. Je sors de chez vous, et je ne m’en serois pas retourné sans vous avoir vue.</p>
             </sp>
@@ -2921,7 +2943,7 @@
               <speaker>NINON.</speaker>
               <p>Mon Prince, on peut vous faire un éloge plus pompeux, mais non pas plus vrai et plus sincère.</p>
             </sp>
-            <sp who="le-prince">
+            <sp who="le-grand-conde">
               <speaker>LE PRINCE.</speaker>
               <p>Il me plaît beaucoup.</p>
               <stage>(A Mathurin.)</stage>
@@ -3075,7 +3097,7 @@
               <p>Adieu, mes enfans, jusqu’au revoir, à ce soir.</p>
               <stage>(Les porteurs se retirent).</stage>
             </sp>
-            <sp who="le-ier.-porteur">
+            <sp who="porteur1">
               <speaker>LE I<hi rend="sup">er</hi>. PORTEUR, <hi rend="i">en s’en allant</hi>.</speaker>
               <p><ref target="#jarnigoi">Jarnigoi*</ref> ! Monsieur Scaron, si vous donniez quelques sous, j’irions boire à votre santé.</p>
             </sp>
@@ -3087,7 +3109,7 @@
               <speaker>M<hi rend="sup">lle</hi> LE ROI.</speaker>
               <p>C’est bien fait, Monsieur Scaron ; car hier ces marauts étoient sous comme des grives.</p>
             </sp>
-            <sp who="2e-porteur">
+            <sp who="porteur2">
               <speaker>2<hi rend="sup">e</hi> PORTEUR.</speaker>
               <p>Tiens, prenons notre parti, il n’y a rien à faire pour aujourd’hui.</p>
               <stage>(Ils sortent).</stage>
@@ -3160,11 +3182,11 @@
             <pb/>
             <head>SCENE IV.</head>
             <stage>LE MARECHAL D’ESTREES, LE PRESIDENT DEFFIAT, SCARON.</stage>
-            <sp who="m.-le-president-deffiat">
+            <sp who="president-effiat">
               <speaker>M. le Président DEFFIAT, <hi rend="i">dans le fond du Théâtre, au Maréchal</hi>.</speaker>
               <p><hi rend="b">N</hi><hi rend="sc">on</hi>, Monsieur le Maréchal, je ne puis vous céder mes droits sur ce point ; ce sont ceux de la nature, et je les réclame.</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL.</speaker>
               <p>Mais j’ai ces mêmes droits, et vous ne pouvez me les ravir, sans la plus grande injustice.</p>
             </sp>
@@ -3172,15 +3194,15 @@
               <speaker>SCARON, <hi rend="i">ôtant son bonnet</hi>.</speaker>
               <p>Je suis votre serviteur, Monsieur le Maréchal ; je suis votre Valet, Monsieur le Président.</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL.</speaker>
               <p>L’ami Scaron va nous juger, et nous tirer de peine. Vous en rapporterez-vous à sa décision ?</p>
             </sp>
-            <sp who="deffiat">
+            <sp who="president-effiat">
               <speaker>DEFFIAT.</speaker>
               <p>Oui, mais il ne faut pas nommer la personne.</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL.    <pb n="88" xml:id="pb88"/></speaker>
               <p>Croyez-vous qu’il ne la devinera pas.</p>
             </sp>
@@ -3188,15 +3210,15 @@
               <speaker>SCARON.</speaker>
               <p>Je connois déjà votre affaire. Cette contestation fait assez de bruit dans le monde, et est d’une nature à faire connoître ses auteurs ; elle fait honneur à la femme et aux hommes.</p>
             </sp>
-            <sp who="le-president-deffiat">
+            <sp who="president-effiat">
               <speaker>LE PRESIDENT DEFFIAT.</speaker>
               <p>Mais Monsieur le Maréchal n’a régné qu’après moi.</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL.</speaker>
               <p>Je suis le père du gage précieux qu’elle m’a donné de son amour.</p>
             </sp>
-            <sp who="le-president">
+            <sp who="president-effiat">
               <speaker>LE PRESIDENT.</speaker>
               <p>Je suis plus sûr des dates, et vous êtes dans l’erreur, Monsieur le Maréchal.</p>
             </sp>
@@ -3204,7 +3226,7 @@
               <speaker>SCARON.</speaker>
               <p>Que diable ! Monsieur le Président, vous êtes un mauvais chronologiste, avec toute votre gentillesse. C'est le secret des femmes que vous voulez calculer. Le premier Mathématicien du monde y perdrait son algèbre ; mais ce qui me surpasse davantage, c’est de voir votre petit rabat<note n="195" place="bottom"> Un rabat est un « ornement de toile que les hommes de certaines professions portent autour du cou, &amp; qui se rabat des deux côtés sur la poitrine : on l’appelle souvent Collet. » (<hi rend="i">Dictionnaire de l’Académie Française</hi>, 1762).</note> prêter le collet<note n="196" place="bottom"> « On dit, <hi rend="i">Prêter le collet à quelqu’un</hi>, pour dire, se présenter pour lutter ou combattre corps à corps contre lui. » (<hi rend="i">Dictionnaire de L’Académie française</hi>, 1762).</note> à un Maréchal de France.</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL.</speaker>
               <p>Il n’y a point de rang ni d’état qui empêche un père de réclamer son enfant, et c’est en quoi je loue Monsieur le Président.</p>
             </sp>
@@ -3212,15 +3234,15 @@
               <speaker>SCARON.    <pb n="89" xml:id="pb89"/></speaker>
               <p>Eh bien, je m’en vais prononcer comme le Roi Salomon<note n="197" place="bottom"> Le roi Salomon était, d’après la <hi rend="i">Bible</hi>, le fils du Roi David et lui succéda sur le trône d’Israël. Il apparaît dans la <hi rend="i">Bible</hi> comme un roi juste et sage dans ses jugements, en particulier celui où il départagea deux mères, dont l’une avait perdu son enfant, et qui se disputaient l’enfant encore vivant. Le Roi Salomon suggéra de le couper en deux pour le partager entre les deux femmes. La vraie mère choisit de renoncer à son enfant plutôt que de le voir mort. Salomon devina alors que c’était elle la vraie mère et elle garda l’enfant.</note>, non que j’ordonne de partager le Poupon, mais vous allez le tirer aux dez<note n="198" place="bottom"> Au XVIII<hi rend="sup">e</hi> siècle, la graphie <hi rend="i">ez</hi> pouvait encore remplacer la graphie <hi rend="i">es</hi> ou <hi rend="i">és</hi>. En ancien français, le <hi rend="i">z</hi> servait à retranscrire graphiquement le son produit par une consonne dentale, comme le <hi rend="i">d</hi> ou le <hi rend="i">t</hi>, suivie d’un <hi rend="i">s</hi>, pour les noms au pluriel par exemple. Son usage s’est étendu et le <hi rend="i">z</hi> est devenu aussi marque du pluriel, en tant que variante du <hi rend="i">s</hi>, comme ici dans « dez ». Il pouvait aussi avoir une valeur diacritique, comme dans « dez », ou il note le son [ẹ] fermé, marqué en français contemporain par l’accent.</note>.</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL.</speaker>
               <p>Oui ; en voici qui vont vuider<note n="199" place="bottom"> Ancienne orthographe de « vider ». Comprendre : « mettre fin à notre querelle ».</note> notre querelle.</p>
             </sp>
-            <sp who="le-president">
+            <sp who="president-effiat">
               <speaker>LE PRESIDENT.</speaker>
               <p>J’y consens.</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL, <hi rend="i">prenant les dez</hi>.</speaker>
               <p>Allons, au passe-dix.</p>
               <stage>(Il tire.)</stage>
@@ -3230,7 +3252,7 @@
               <speaker>SCARON.</speaker>
               <p>A coup sûr, il ira au-dessous.</p>
             </sp>
-            <sp who="le-president">
+            <sp who="president-effiat">
               <speaker>LE PRESIDENT, <hi rend="i">prend les dez</hi>.</speaker>
               <p>Je puis amener le même point.</p>
               <stage>(Il tire.)</stage>
@@ -3241,7 +3263,7 @@
               <p>Ceci demande de l’attention. Voici deux champions d’égale valeur. Comment diable ! un <ref target="#robin">Robin*</ref> tient tête à un Maréchal de France : allons, Messieurs, il faut recommencer.</p>
               <stage>(Monsieur le Président tire une seconde fois et amene rafle de trois.)</stage>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL, <hi rend="i">sautant</hi>.</speaker>
               <p>Bon ! il n’a amené que neuf ; à mon tour, pour la dernière fois.</p>
               <stage>(Il tire, et sautant avec la plus grande joie.)</stage>
@@ -3251,7 +3273,7 @@
               <speaker>SCARON.    <pb n="90" xml:id="pb90"/></speaker>
               <p>J’en suis bien aise, je suis flatté que le sort ait tourné en faveur du Maréchal, et que cet enfant lui appartienne, il en fera un brave Soldat, plus utile à la patrie qu’un être oisif.</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL.</speaker>
               <p>Ninon n’en sera pas <ref target="#facher">fâchée*</ref>. Monsieur le Président, son amitié me<note n="200" place="bottom"> Dans cette réplique, le « me » semble être une incohérence. En effet, c’est le président qui a perdu aux dés, ce serait donc lui qui devrait être « dédommagé ».</note> dédommagera de cette perte.</p>
             </sp>
@@ -3285,11 +3307,11 @@
               <speaker>SCARON.</speaker>
               <p>Pour-moi, je ne bouge pas, assis comme un Empereur de la Chine, me voilà sur mon Trône.</p>
             </sp>
-            <sp who="le-president">
+            <sp who="president-effiat">
               <speaker>LE PRESIDENT.</speaker>
               <p>Toujours gai au milieu des tourmens.</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL.</speaker>
               <p>On n’est pas plus aimable avec ses amis. Aussi l’aimable Ninon lui consacre tous ses momens.</p>
             </sp>
@@ -3321,7 +3343,7 @@
               <speaker>LE GRAND-CONDE.</speaker>
               <p>Qu’est-ce qu’elle a donc fait ? Ce n’est donc que dans cette maison que je vois régner la pure et simple amitié. Je ne m’en étonne point, si tous les honnêtes gens s’y rassemblent.</p>
             </sp>
-            <sp who="mad">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON.</speaker>
               <p>Ce sont des Vers qu’il a faits. Ah ! de grace, faites-nous-en part.</p>
             </sp>
@@ -3379,7 +3401,7 @@
               <speaker>SCARON.</speaker>
               <p>Quel enfant ! Je m’en rapporte à vous, mon Prince ; il me passe sur le corps à cent piques par dessus la tête.</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL.</speaker>
               <p>Mon Prince, voilà deux hommes qui ne se doutent pas de leur mérite.</p>
             </sp>
@@ -3479,7 +3501,7 @@
               <speaker>NINON.</speaker>
               <p>Il finit comme il a vécu : il a déjà quatre-vingt et tant d’années, et il rajeunit tous les jours dans ses folies ; si vous le voyiez, mon ami, avec un habit de Berger, la houlette à la main, et la Pannetière au côté, son chapeau de paille, orné de rubans, parmi lesquels on distingue une fontange jaune, dont je l’ai décoré il y a quinze ans. On ne sait si l’on doit rire ou pleurer au premier abord, mais à peine l’a-t-on entendu que la pitié fait place à la gaieté. Il m’a fallu applaudir et louer son extravagance.</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL.</speaker>
               <p>Quel effort pour votre sagesse.</p>
             </sp>
@@ -3491,7 +3513,7 @@
               <speaker>SCARON.</speaker>
               <p>Pourquoi troubler celui de Desyveteaux. <pb n="98" xml:id="pb98"/> N’est-il pas dans l’âge de rentrer dans cette heureuse enfance.</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL.</speaker>
               <p>S’il a perdu la raison, à la bonne heure<note n="204" place="bottom"> Cf note p. [5].</note>.</p>
             </sp>
@@ -3515,7 +3537,7 @@
               <speaker>NINON.</speaker>
               <p>Mais, mon Prince, malgré le bonheur qu’on éprouve en vous possédant, nous préférons votre gloire à nos plaisirs. Vous le savez, Monseigneur, j’ai des ennemis à la Cour.</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL.</speaker>
               <p>Pas en hommes ; toujours.</p>
             </sp>
@@ -3527,7 +3549,7 @@
               <speaker>NINON.</speaker>
               <p>C'est précisément parce que j’ai trop d’amis.</p>
             </sp>
-            <sp who="mad">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON.</speaker>
               <p>Et les <ref target="#begueule">Bégueules*</ref>, Messieurs ?</p>
             </sp>
@@ -3556,7 +3578,7 @@
             <pb/>
             <head>SCENE VII.                            <pb n="100" xml:id="pb100"/></head>
             <stage>LES MÊMES, UN EXEMPT.</stage>
-            <sp who="l-exempt">
+            <sp who="exempt">
               <speaker>L’EXEMPT.</speaker>
               <p><hi rend="b">J</hi><hi rend="sc">e</hi> viens, Mademoiselle, la larme à l’œil, vous signifier des ordres désagréables et cruels à remplir pour un <ref target="#galant1">galant*</ref> homme, mais que le devoir impose.</p>
             </sp>
@@ -3564,7 +3586,7 @@
               <speaker>NINON, <hi rend="i">allarmée</hi>.</speaker>
               <p>Ah ! Monsieur, que me dites-vous là ? Molière, on vient enlever chez moi cette jeune personne.</p>
             </sp>
-            <sp who="l-exempt">
+            <sp who="exempt">
               <speaker>L’EXEMPT.</speaker>
               <p>Ah ! Mademoiselle, que je voudrois que ces ordres regardassent toute autre que vous.</p>
             </sp>
@@ -3585,11 +3607,11 @@
               <speaker>LE GRAND-CONDE, <hi rend="i">à l’Exempt</hi>.    <pb n="101" xml:id="pb101"/></speaker>
               <p>Expliquez-vous de grace, Monsieur de Saint-Faur ; je connois votre honnêteté, et vous ne voudriez pas nous laisser dans l’erreur sur les griefs qu’on impute à Ninon.</p>
             </sp>
-            <sp who="l-exempt">
+            <sp who="exempt">
               <speaker>L’EXEMPT.</speaker>
               <p>Les voici, mon Prince : il s’est élevé des clameurs contre Mademoiselle de l’Enclos. Les dévotes sur-tout, ont répandu toute leur animosité, pour noircir la femme la plus aimable de son siècle : on a supposé même des choses d’une nature à n’être pas répétées ici. Enfin, tout ce que la calomnie a de plus affreux, on l’a prêté à Mademoiselle Ninon.</p>
             </sp>
-            <sp who="mad">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON.</speaker>
               <p>Quelle indignité !</p>
             </sp>
@@ -3601,7 +3623,7 @@
               <speaker>MOLIERE, <hi rend="i">à part</hi>.</speaker>
               <p>Pourquoi ne suis-je qu’un simple particulier ?</p>
             </sp>
-            <sp who="le-marechal">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL.</speaker>
               <p>J’ai quelqu’<ref target="#ascendant">ascendant*</ref> sur l’esprit de la Reine, je vais…</p>
             </sp>
@@ -3609,7 +3631,7 @@
               <speaker>LE COMTE DE FIESQUE, <hi rend="i">avec vivacité, tirant son épée</hi>.</speaker>
               <p>Moi, je défendrai Mademoiselle de l’Enclos jusqu’à la dernière goutte de mon sang.</p>
             </sp>
-            <sp who="l-exempt">
+            <sp who="exempt">
               <speaker>L’EXEMPT, <hi rend="i">avec fermeté</hi>.    <pb n="102" xml:id="pb102"/></speaker>
               <p>Monsieur le Comte, cet acte de violence est déplacé, il ne m’arrêteroit pas si je voulois employer la force ; mais soyez persuadé que je suis aussi éloigné que vous, de remplir les ordres dont on m’a chargé.</p>
             </sp>
@@ -3629,11 +3651,11 @@
               <speaker>NINON.</speaker>
               <p>Expliquez-vous enfin, Monsieur de Saint-Faur ; où veut-on que je me retire ?</p>
             </sp>
-            <sp who="l-exempt">
+            <sp who="exempt">
               <speaker>L’EXEMPT.    <pb n="103" xml:id="pb103"/></speaker>
               <p>Mademoiselle, je suis honteux de vous le dire ; c’est aux Filles Repenties.<note n="205" place="bottom"><p><hi rend="sup">*)</hi> note de l’auteur : On peut châtier le style au mot Filles Repenties, et aux réponses de Ninon et de Scaron, dans cette Scène ; mais je me serois bien gardé de mettre quelque chose du mien ; le seul mérite qu’il y ait dans cet Ouvrage, c’est d’avoir conservé les caractères.</p><p>La Reine Anne d’Autriche, épouse de Louis XIII et mère de Louis XIV, a assuré la Régence du Royaume de France et du Royaume de Navarre après la mort de Louis XIII, en 1643, et jusqu’au début du règne de Louis XIV en 1651.</p></note><hi rend="sup">*)</hi></p>
             </sp>
-            <sp who="mad">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON.</speaker>
               <p>Quelle horreur !</p>
             </sp>
@@ -3649,7 +3671,7 @@
               <speaker>NINON.</speaker>
               <p>Vous avez raison ; car je ne suis ni fille, ni repentie<note n="206" place="bottom"> Selon Antoine Bret dans <hi rend="i">Mémoires sur la vie de Mademoiselle de Lenclos</hi>, ce serait Bautru qui aurait prononcé cette réplique en parlant de Ninon de l’Enclos.</note>.</p>
             </sp>
-            <sp who="l-exempt">
+            <sp who="exempt">
               <speaker>L’EXEMPT.</speaker>
               <p>C'étoient d’abord les intentions de la Reine, cependant elle vous laisse le choix du Couvent.</p>
             </sp>
@@ -3665,7 +3687,7 @@
               <speaker>LE GRAND-CONDE, <hi rend="i">à l’Exempt</hi>.    <pb n="104" xml:id="pb104"/></speaker>
               <p>Monsieur de Saint-Faur, voulez-vous retourner avec moi sur le champ auprès de la Reine. Je vais faire revoquer cet ordre déplacé, persuader Sa Majesté de la vérité, et lui faire connoître l’atrocité d’une telle calomnie.</p>
             </sp>
-            <sp who="l-exempt">
+            <sp who="exempt">
               <speaker>L’EXEMPT.</speaker>
               <p>Monseigneur, je n’ai rien à vous refuser, d’autant plus que je crois sans peine, que la Reine aura égard à vos <ref target="#representation">représentations*</ref>.</p>
             </sp>
@@ -3713,7 +3735,7 @@
               <speaker>MOLIERE.</speaker>
               <p>Ma foi, il l’emporte tout seul, quel homme ! ah ! il n’y en a pas beaucoup de cette trempe.</p>
             </sp>
-            <sp who="mad.-scaron">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON, <hi rend="i">à Ninon</hi>.</speaker>
               <p>Je vous laisse, ma bonne amie ; je ne dois pas dans cette circonstance quitter mon époux.</p>
             </sp>
@@ -3922,7 +3944,7 @@
               <speaker>NINON.    <pb n="H, 113" xml:id="pb113"/></speaker>
               <p>Quoi ! mon Prince, y pensez-vous ? moi, Ninon, simple particulière, puis-je être en état de recevoir cette grande Reine ? non, cet honneur n’est pas fait pour moi.</p>
             </sp>
-            <sp who="le-marechal-d-estrees">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL D’ESTREES.</speaker>
               <p>Il y a quelque tems qu’elle me demanda si je voulois la conduire chez vous ; mais comme elle n’en parloit plus, je crus que des raisons de bienséance l’en avoient détournée. Aujourd’hui, elle arrive chez la Reine, à l’instant que je confondois vos vils calomniateurs. Le Prince paroît avec toute son escorte, jusqu’au Philosophe Scaron, qui a fait à la Reine un sensible plaisir. Sa Majesté a daigné parler à tous vos amis. La Reine Christine, à l’appui du Prince et de Sa Majesté, a dit tout haut : je me fais un vrai plaisir et un honneur d’aller rendre mon hommage à cette fille célèbre, dont la beauté et les talens sont les moindres ornemens de ses rares qualités.</p>
             </sp>
@@ -3938,7 +3960,7 @@
               <speaker>NINON.</speaker>
               <p>Eh bien, il faut jouir de cette faveur. Je recevrai donc cette illustre Souveraine, mais encore faut-il que je la reçoive avec la dignité que l’on doit à son rang. Ma foi, mes amis, nous la fêterons tous ensemble du mieux qu’il nous sera possible. Si Molière pouvoit arriver, son génie nous seroit d’une grande ressource. Il a tant de facilité qu’il n’y a que lui qui puisse nous tirer d’embarras.</p>
             </sp>
-            <sp who="le-marechal-d-estrees">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL D’ESTREES.</speaker>
               <p>Le voici avec Chapelle, et Saint-Evremont.</p>
             </sp>
@@ -3968,7 +3990,7 @@
               <speaker>MOLIERE.</speaker>
               <p>Vous tirer d’embarras ! Mon Prince, il faudroit être aussi intrépide que vous, il faudroit un autre vous-même, et il n’y a que le sang des Bourbons qui produise vos pareils.</p>
             </sp>
-            <sp who="le-marechal-d-estrees">
+            <sp who="marechal-estrees">
               <speaker>LE MARECHAL D’ESTREES.</speaker>
               <p>La remarque est juste. <ref target="#heureux1">Heureux*</ref>, mon Prince, ceux qui ont servi sous vos drapeaux.</p>
             </sp>
@@ -4078,7 +4100,7 @@
               <speaker>NINON.</speaker>
               <p>Je ferai tout ce qui dépendra de moi, mais il faut au moins que vous me le fassiez connoître.</p>
             </sp>
-            <sp who="saint-evremond">
+            <sp who="saint-evremont">
               <speaker>SAINT-EVREMOND.</speaker>
               <p>Demain matin, je vous le présente, si vous le jugez à propos. D’ailleurs, le Marquis desire fort d’être admis dans votre société.</p>
             </sp>
@@ -4115,7 +4137,7 @@
               <speaker>NINON.</speaker>
               <p><hi rend="b">O</hi><hi rend="sc">ui</hi>, Mademoiselle ; demain je verrai Monsieur votre père, et soyez persuadée qu’il ne dépendra pas de moi, si vous n’obtenez point l’époux que votre cœur a choisi.</p>
             </sp>
-            <sp who="olimpe">
+            <sp who="olympe">
               <speaker>OLIMPE.</speaker>
               <p>Ah ! j’en suis bien sûre ; mais je crains de vous déranger, Mademoiselle, et je vais me retirer.</p>
             </sp>
@@ -4123,7 +4145,7 @@
               <speaker>NINON.</speaker>
               <p>Non, Mademoiselle ; malgré l’embarras où la visite de la Reine de Suède me jette, j’ai le plus grand plaisir de jouir de votre aimable présence. Je ne puis vous offrir de vous trouver à cette fête, ce seroit compromettre vos intérêts, qui me sont plus chers que les miens.</p>
             </sp>
-            <sp who="mlle-olimpe">
+            <sp who="olympe">
               <speaker>M<hi rend="sup">lle</hi> OLIMPE.</speaker>
               <p>Que j’en suis <ref target="#penetree">pénétrée*</ref> : si la plus sincère amitié peut m’acquitter un jour, combien je vous prou/<pb n="122" xml:id="pb122"/>/verai ma reconnoissance ! Mais souffrez que je n’abuse pas plus long-temps de votre complaisance. Je vais me retirer.</p>
             </sp>
@@ -4295,7 +4317,7 @@
               <speaker>NINON, <hi rend="i">allant à Madame de la Sablière</hi>.</speaker>
               <p><hi rend="b">E</hi><hi rend="sc">nfin</hi>, je vous suis redevable, Madame la Marquise, d’avoir retrouvé ce pauvre Desyveteaux.</p>
             </sp>
-            <sp who="mad">
+            <sp who="marquise-sabliere">
               <speaker>Mad. DE LA SABLIERE.</speaker>
               <p>Je sais son aventure. Monsieur de Gourville <pb n="128" xml:id="pb128"/>vient de me la raconter. Elle est on ne peut pas plus plaisante, et sa folie est aussi gaie qu’inconcevable.</p>
             </sp>
@@ -4335,7 +4357,7 @@
               <speaker>NINON.    <pb n="I, 129" xml:id="pb129"/></speaker>
               <p>Je l’avoue, et j’aime mieux un esprit médiocre que les gens savans qui trouvent l’occasion de citer à tout propos. Soyez persuadé, Monsieur Mignard, d’après ce que vous me dites, que Mademoiselle votre fille sera une femme fort aimable.</p>
             </sp>
-            <sp who="mad">
+            <sp who="marquise-sabliere">
               <speaker>Mad. DE LA SABLIERE.</speaker>
               <p>Je suis chargée, Mademoiselle de l’Enclos, de vous demander une <ref target="#grace1">grace*</ref> de la part de deux jeunes demoiselles, moins intéressantes que Mademoiselle Mignard, mais qui ne brûlent pas moins de faire votre connoissance.</p>
             </sp>
@@ -4343,7 +4365,7 @@
               <speaker>NINON.</speaker>
               <p>Ce sont Mesdemoiselles de la Sablière. Je les reconnois à la faveur qu’elles veulent me faire, et à la modestie de leur mère. J’attends depuis longtems le plaisir de les embrasser.</p>
             </sp>
-            <sp who="mad">
+            <sp who="marquise-sabliere">
               <speaker>Mad. DE LA SABLIERE.</speaker>
               <p>Elles auront la satisfaction de dîner demain avec vous et avec la Fontaine. Je compte sur Monsieur Molière. Quelle fête pour elles ! mais elles veulent devancer ce plaisir en venant vous faire leur visite aujourd’hui. Ma voiture est allée les prendre au Couvent, et je les attends pour vous les présenter.</p>
             </sp>
@@ -4351,7 +4373,7 @@
               <speaker>NINON.</speaker>
               <p>Permettez-moi, Madame la Marquise, de m’opposer à l’honneur que vous voulez me faire de me présenter vos Demoiselles. Elles sont jeunes, <pb n="130" xml:id="pb130"/> belles, riches, aimables et bien nées ; elles sont faites pour prétendre aux plus grands partis, et si l’on sçavait dans le monde qu’elles fussent venues chez moi, cette démarche pourrait leur faire le plus grand tort.</p>
             </sp>
-            <sp who="mad">
+            <sp who="marquise-sabliere">
               <speaker>Mad. DE LA SABLIERE.</speaker>
               <p>Y pensez-vous, Mademoiselle de l’Enclos ? Eh, quelles sont les personnes qui pourroient prendre une impression aussi défavorable.</p>
             </sp>
@@ -4363,7 +4385,7 @@
               <speaker>MIGNARD.</speaker>
               <p>Dénuées de qualités estimables, elles cherchent à les obscurcir en la personne qui les possède : eh ! quelle est la femme qui mérite mieux que vous, Mademoiselle, l’éloge de tous les honnêtes gens.</p>
             </sp>
-            <sp who="mad">
+            <sp who="marquise-sabliere">
               <speaker>Mad. DE LA SABLIERE.</speaker>
               <p>Pour moi, je m’applaudis d’être d’un avis différent sur votre compte, de celui de ces prétendues femmes de bien.</p>
             </sp>
@@ -4583,7 +4605,7 @@
               <speaker>NINON, <hi rend="i">revenant à elle, et se jettant aux pieds de la Reine</hi>.</speaker>
               <p>Je tombe aux pieds de Votre Majesté, je lui rends <ref target="#grace4">grace*</ref> de la faveur dont elle daigne m’honorer.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE, <hi rend="i">la relevant avec bonté</hi>.</speaker>
               <p>Vous ! Mademoiselle de l’Enclos à mes genoux ! je vous le pardonne. On est si souvent aux vôtres. Il faut d’abord, pour vous mettre plus à votre aise, que je vous embrasse. Je veux que deux baisers soient les prémices de notre liaison.</p>
               <stage>(Elle l’embrasse.)</stage>
@@ -4593,7 +4615,7 @@
               <speaker>NINON, <hi rend="i">avec surprise</hi>.</speaker>
               <p>Ah ! Madame, je me croyais quelque chose en femme, et je vois que je ne suis rien en comparaison de tant de Philosophie, de courage, de noblesse, et de modestie.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Il faut avoir quelque analogie de caractère avec le vôtre, Mademoiselle, pour désirer aussi vivement que moi de faire votre connoissance.</p>
               <stage>(Se tournant du côté du grand Condé.)</stage>
@@ -4615,7 +4637,7 @@
             <pb/>
             <head>SCENE XV.</head>
             <stage>CHRISTINE, NINON.</stage>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE, <hi rend="i">avec aisance</hi>.</speaker>
               <p><hi rend="b">A</hi>sseyons-nous maintenant.</p>
               <stage>(Elle s’assied et fait signe à Ninon de s’asseoir)</stage>
@@ -4625,7 +4647,7 @@
               <speaker>NINON.</speaker>
               <p>Le Prince, Madame, fait bien ce qu’il fait. Rien n’échappe à sa <ref target="#penetration">pénétration*</ref> ; et ce qu’il y a de plus admirable, c’est que ce héros, à qui rien ne résiste, est simple et modeste avec ses amis. Ce ne sont pas ses égaux qu’il honore le plus de son amitié. Il ne l’accorde qu’au vrai mérite et aux <pb n="140" xml:id="pb140"/> grands talens, quand ils sont accompagnés des <ref target="#sentiment3">sentimens*</ref> qui distinguent l’homme et qui montrent son véritable caractère.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Il est <ref target="#heureux4">heureux*</ref> pour la Cour de France d’avoir, dans un Prince de son Sang, un si grand Capitaine. Si j’avois eu à la tête de mes armées ce foudre de guerre, j’aurois pu avec gloire conserver ma Couronne, et faire le bonheur de mon peuple ; mais j’ai entrevu de loin son ingratitude ; et n’étant fecondée<note n="231" place="bottom"> Comprendre : « et n’ayant pas l’esprit très productif, pas beaucoup d’imagination ».</note> que foiblement, je suis descendue du trône avec la même tranquillité que j’y étois montée. Alors j’ai vu l’amour et les regrets de mes sujets ; retour superflu ! Le parti étoit pris. J’ai détaché de ma tête le diadème pour le placer moi-même sur le front de mon Successeur. Cette abdication a calmé les esprits ; et maîtresse de mon sort, sans rang et sans éclat, j’ai commencé à régner pour moi-même.</p>
             </sp>
@@ -4633,7 +4655,7 @@
               <speaker>NINON.</speaker>
               <p>Le vulgaire regarde une Couronne comme un don du Ciel ; mais je conçois aisément, Madame, que les Rois sont les victimes de ce préjugé, et qu’en faisant tout pour le bonheur de leurs sujets, ils n’ont pas encore assez fait. Ils donnent des lois, et sont esclaves au milieu de l’éclat qui les environne.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Ajoutez encore qu’ils le sont de leurs cruels devoirs. Un Roi n’a pas le droit de penser ni d’agir comme un homme ordinaire. Toujours s’observant, toujours observé et forcé, à toute heure du <pb n="141" xml:id="pb141"/> jour, de représenter un faux personnage ; il se lasse à la fin de ce rôle trop pénible ; et s’il est assez Philosophe, il en arrache le masque, et reprend sans peine son véritable caractère.</p>
             </sp>
@@ -4641,7 +4663,7 @@
               <speaker>NINON.</speaker>
               <p>Tous les Souverains pensent comme vous, Madame ; mais, quel est celui qui aura le courage de vous imiter. Il est si flatteur pour la vanité de commander à tout un peuple, et d’en être adoré.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Cet amour est si sujet au caprice ; croyez-moi, Mademoiselle, je n’ai point quitté mes Etats par orgueil, ni par mécontentement, mais je n’ai pas voulu m’exposer à la haine de mes sujets, quand j’ai sacrifié mon penchant, pour assurer leur bonheur.</p>
             </sp>
@@ -4649,7 +4671,7 @@
               <speaker>NINON.</speaker>
               <p>En quittant la Couronne, vous en êtes plus grande aux yeux de l’univers.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Brisons là-dessus, Mademoiselle de l’Enclos, et laissons le poid de la Couronne à ceux qui en sont chargés. Je vous ai trop entretenue sur cette matière ; mais j’ai voulu vous ouvrir mon ame toute entière. Parlons maintenant de vos amis, de votre société ; on dit qu’elle est charmante, qu’elle réunit des hommes du plus grand génie, du premier rang ; enfin, que la meilleure compagnie de Paris se trouve chez vous.</p>
             </sp>
@@ -4657,7 +4679,7 @@
               <speaker>NINON.</speaker>
               <p>Il est vrai, Madame, que les hommes de ma <pb n="142" xml:id="pb142"/> société se sont presque tous rendus recommandables à leur siècle, et que j’ai le bonheur de les rassembler chez moi, sans que rien puisse troubler cette union.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Cela fait bien votre éloge ; et je ne m’étonne pas si vous excitez la jalousie des femmes, et sur-tout des prudes.</p>
             </sp>
@@ -4665,7 +4687,7 @@
               <speaker>NINON.</speaker>
               <p>Ce sont les pédans, censeurs de l’amour.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Vous lui faites bien plus de <ref target="#grace6">grace*</ref> : aussi, dit-on, que c’est dans votre maison qu’il a fixé sa cour.</p>
             </sp>
@@ -4673,7 +4695,7 @@
               <speaker>NINON.</speaker>
               <p>Il est vrai qu’il m’est assez favorable ; mais je voudrois que ce Dieu fit comme Thétis<note n="232" place="bottom"> Thétis, dans la mythologie gréco-romaine, est une divinité  marine qui épousa un mortel, Pélée, dont elle eut un fils, Achille, héros de la guerre de Troie. Pour le rendre invulnérable et le protéger des blessures, Thétis le plongea dans le Styx en le tenant par le talon, qui resta alors vulnérable et causa la perte d’Achille.</note>, qu’il me rendit invulnérable aux atteintes de la vieillesse, et qu’il me cachât les rides sous le talon, afin que je fusse plus long-tems soumise à ses loix.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>C'est charmant ! On n’est pas plus aimable, plus vraie, plus sincère ; mais sous quel point de vue le considérez-vous ? Pourquoi fait-il le bonheur des uns et le tourment des autres ? Il me semble avoir ouï dire que vous le traitez philosophiquement.</p>
             </sp>
@@ -4681,7 +4703,7 @@
               <speaker>NINON.</speaker>
               <p>Jusqu’à un certain point. Cependant, les circonstances et sur-tout les événemens de la guerre, m’ont exposée quelquefois au changement. Je me suis vue même forcée, en certains cas, d’étouffer <pb n="143" xml:id="pb143"/>l’amour dans mon cœur, pour rendre à la gloire ceux que j’aimois ; mais, en le considérant tel qu’il est, l’amour ne m’a paru qu’un goût fondé sur les sens, un sentiment aveugle qui ne suppose aucun mérite dans l’objet qui le fait naître, et ne l’engage à aucune reconnoissance ; en un mot, un caprice dont la durée ne dépend pas de nous, et que suivent le dégoût et le repentir.<note n="233" place="bottom"> « en le considérant tel qu’il est, l’amour ne m’a paru qu’un goût fondé sur les sens, un sentiment aveugle qui ne suppose aucun mérite dans l’objet qui le fait naître, et ne l’engage à aucune reconnoissance ; en un mot, un caprice dont la durée ne dépend pas de nous, et que suivent le dégoût et le repentir. » : Olympe de Gouges s’inspire probablement des <hi rend="i">Mémoires sur la vie de Mademoiselle de Lenclos</hi> dans lesquels Bret cite une phrase du <hi rend="i">Dialogue sur la musique des Anciens</hi> de Châteauneuf : « L’amour, qu’elle n’a jamais pris que pour ce qu’il est, pour un goût fondé sur les sens, pour un sentiment aveugle, qui ne suppose aucun mérite dans l’objet qui le fait naître, ni ne l’engage à aucune reconnaissance ; en un mot, pour un caprice dont la durée ne dépend point de nous, sujet au dégoût et au repentir. » Selon Bret, Châteauneuf aurait tiré cette citation de Ninon de l’Enclos elle-même. Olympe de Gouges pourrait aussi s’être directement inspirée de Châteauneuf.</note></p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE, <hi rend="i">se levant</hi>.</speaker>
               <p>Quelle femme ! Il y a plus d’héroïsme dans son ame que de foiblesse. Ma bonne amie ! vous me permettrez désormais de vous nommer ainsi.</p>
             </sp>
@@ -4689,7 +4711,7 @@
               <speaker>NINON.</speaker>
               <p>Je ferai tout pour conserver cette faveur ; mais comment ai-je pu la mériter ?</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Par les qualités qui vous mettent au-dessus de votre sexe : je voudrois, Ninon, qu’une <ref target="#heureux4">heureuse*</ref> circonstance vous rapprochât de moi. Vous n’avez pas voyagé, il faudroit m’accompagner à Rome.</p>
             </sp>
@@ -4697,7 +4719,7 @@
               <speaker>NINON.</speaker>
               <p>Ce seroit mon goût et mon désir, si je ne consultois que mon plaisir et ma gloire, mais, grande Reine, l’Univers a les yeux ouverts sur vous, il retentit de vos éloges, et peut-être son suffrage se changeroit-il en satyre. N’avez-vous pas été témoin, Madame, combien j’ai excité l’envie et la calomnie ; et que seroit-ce, si l’on me voyoit à votre suite ? Votre génie, vos <ref target="#vertu1">vertus*</ref> vous mettent au-dessus de la censure, mais avec <pb n="144" xml:id="pb144"/> moi, Madame, vous n’en seriez point exempte. Il m’en coûte sans doute de refuser une proposition si flatteuse ; mais je ne consulte que votre gloire.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Je suis persuadée de la sincérité et de la délicatesse de vos <ref target="#sentiment3">sentimens*</ref>, et sans vouloir insister davantage sur ce que j’aurois le plus désiré, c’étoit de m’instruire avec vous dans mon voyage ; je ne vous dirai pas moins, ma chère l’Enclos, que nous n’aimons la gloire que pour nos amis. Quand on a l’estime de soi, on est au-dessus des préjugés. Celui qui voit d’un œil philosophique le cours de la vie, ne s’arrête point aux vaines opinions des hommes, il met son bonheur dans la société de ceux qui sympatisent avec lui, sans s’embarrasser des idées populaires. Voilà ses avantages, voilà sa supériorité, le reste est le fruit de son inconséquence.</p>
             </sp>
@@ -4705,7 +4727,7 @@
               <speaker>NINON.</speaker>
               <p>Vous vous exprimez, Madame, avec tant d’énergie que je ne sais que répondre. Vos raisons sont sans réplique ; ainsi, Madame, disposez de ma personne ; je suis prête à vous suivre.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Non, ma chère Ninon, vous ne serez pas seule généreuse : vous ne consultiez que ma gloire dans votre refus ; et moi, je ne voyois que ma satisfaction, en vous arrachant d’une société à laquelle vous devez être tendrement attachée. Vous en êtes adorée, faites-en l’ornement et l’honneur. Restez dans des lieux où l’on chérit votre présence, je me bornerai à vous écrire, je veux entretenir notre connoissance dans une aimable correspondance.</p>
             </sp>
@@ -4713,7 +4735,7 @@
               <speaker>NINON.    <pb n="K, 145" xml:id="pb145"/></speaker>
               <p>C'est de cet instant que date mon vrai bonheur ; ce n’est donc qu’avec Christine de Suède que j’ai pu trouver de l’analogie avec ma façon de penser ; mais pour être digne d’elle, il m’auroit fallu quelques-unes de ses <ref target="#vertu1">vertus*</ref>.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Eh ! vous avez sur moi de plus grands avantages ; mais soyons égales, Ninon ; et puisque tout nous vient de la Nature, et qu’elle a mis tant de rapport entre nous deux, remplissons son but, en mettant dans notre liaison toute l’amitié d’une tendre fraternité.</p>
             </sp>
@@ -4721,7 +4743,7 @@
               <speaker>NINON.</speaker>
               <p>Vous me comblez par cette faveur.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Je serois bien curieuse de voir votre société, vos amis, entre autres le célèbre Molière et le Philosophe Scaron, on dit qu’il supporte ses maux avec une gaieté admirable.</p>
             </sp>
@@ -4739,7 +4761,7 @@
               <speaker>LE GRAND CONDE.</speaker>
               <p><hi rend="b">J</hi><hi rend="sc">e</hi> suis peut-être arrivé trop tôt, Madame, et je crains d’avoir commis une indiscrétion.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Je vous avoue, Prince, que je ne me suis point apperçue du tems dans la conversation de Mademoiselle de l’Enclos, que c’est la seule femme de France que l’on doive citer et admirer. Ce que vous m’en avez dit, Maréchal d’Estrées, est bien au-dessous de ce que je vois, et comme vous disiez bien, les plus grands éloges ne peuvent exprimer ce qu’elle mérite. Il faut la voir pour savoir l’apprécier, et c’est avec la plus grande reconnoissance que je vous fais mes remerciemens de m’avoir mis à même de connoître une femme aussi essentielle.</p>
             </sp>
@@ -4753,7 +4775,7 @@
             <head>SCENE XVII.                            <pb n="147" xml:id="pb147"/></head>
             <stage>LES MÊMES, MOLIERE.</stage>
             <stage>MOLIERE salue respectueusement la Reine.</stage>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p><hi rend="b">A</hi><hi rend="sc">pprochez</hi>, homme célèbre, je suis enchantée de voir l’ami de Mademoiselle de l’Enclos. Ce titre fait bien votre éloge.</p>
             </sp>
@@ -4761,7 +4783,7 @@
               <speaker>MOLIERE.</speaker>
               <p>Madame, ses amis sont dignes d’elle, et voilà mon plus grand mérite.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Vous me permettrez, Monsieur Molière, d’en augmenter le nombre.</p>
             </sp>
@@ -4773,7 +4795,7 @@
               <speaker>NINON.</speaker>
               <p>Mes amis me gâtent, Madame, et je ne m’en plains pas. Je suis si habituée à les entendre <pb n="148" xml:id="pb148"/> chanter mes louanges, que je suis tentée de croire que l’amitié a son bandeau comme l’amour. Je veux, pour m’en convaincre, consulter mes ennemis.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Ce sera, je vous prie, ma chère Ninon, quand je ne serai plus à Paris.</p>
             </sp>
@@ -4790,7 +4812,7 @@
               <p>Allons, mes amis, que les talens, le zèle et le mérite couronnent cette Reine auguste. Que l’amitié par-tout lui offre un Trône, et qu’elle règne sur tous les cœurs.</p>
               <stage>Le Théâtre change et représente un Superbe Sallon à colonne et à pilastre, sur lequel sont peints les Amours de Psiché<note n="234" place="bottom"> Dans les <hi rend="i">Métamorphoses</hi>, d’Apulée, Psyché, est une jeune princesse aimée par Cupidon, fils de Vénus. Le dieu la fait venir dans son palais mais il ne la rejoint que dans l’obscurité et lui ordonne de ne pas tenter de le voir. Une nuit Psyché enfreint l’interdiction et réveille Cupidon en l’éclairant. Le dieu disparaît alors. Vénus, jalouse de sa beauté, la contraint ensuite à réaliser de durs travaux avant que Cupidon ne la retrouve et qu’elle ne soit admise parmi les divinités comme son épouse. Molière a écrit une tragédie-ballet en cinq actes intitulée <hi rend="i">Psyché</hi>.</note>. Un superbe Trône dans un des côtés du Théâtre, et en face une Tribune pour placer les amis de Ninon. Le Trône est soutenu par la Victoire<note n="235" place="bottom"> La Victoire (Nikè en grec) est une divinité allégorique de la mythologie gréco-romaine, qui guidait les dieux et les héros afin qu’ils accomplissent leurs exploits. Elle était souvent représentée avec des ailes et portant une couronne de laurier dans une main et une palme dans l’autre. Parfois elle se tenait sur un globe, symbole du pouvoir de Rome sur le monde.</note> et la Renommée<note n="236" place="bottom"> La Renommée est une divinité allégorique de la mythologie gréco-romaine. Elle est la messagère de Jupiter et les poètes la décrivent comme monstrueuse, avec de multiples bouches et oreilles, et des ailes garnies de nombreux yeux, qui lui permettent de dévoiler les secrets des mortels. La Renommée peut être bonne ou mauvaise. Elle peut également être représentée, chez les Romains, de manière moins monstrueuse, tenant une trompette à la main. C’est cette représentation qui prévaut dès le Moyen-Age et à laquelle Olympe de Gouges doit penser.</note>. Scaron assis sur une espèce de Piédestal à côté du Trône, en Herault d’Armes. Madame Scaron est de l’autre côté, avec une couronne de laurier, habillée en Deesse de l’Amitié<note n="237" place="bottom"> L’Amitié est une divinité allégorique, honorée par les Grecs et les Romains. Les Grecs la représentaient la tête nue, avec une robe à moitié agrafée, qui laissait voir son cœur, où elle posait la main droite, tenant dans la main gauche un rameau, entouré d’une vigne qu’elle embrassait. Les Romains la représentaient comme une jeune fille vêtue d’une robe blanche, portant une couronne de myrte et de fleur de grenadier entrelacés.</note>. Dans le fond est une troupe de Danseurs et de Danseuses avec des guirlandes entrelacées dans leurs bras, et habillées à la Suedoise.</stage>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Où suis je ? Je n’ai jamais rien vu de plus <ref target="#galant3">galant*</ref> !</p>
             </sp>
@@ -4798,7 +4820,7 @@
               <speaker>LE GRAND-CONDE.    <pb n="149" xml:id="pb149"/></speaker>
               <p>Reine, permettez qu’un brave Soldat vous place sur un Trône que l’amitié vous offre.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Que j’accepte avec plaisir !</p>
               <stage>(regardant Scaron.)</stage>
@@ -4808,7 +4830,7 @@
               <speaker>SCARON.</speaker>
               <p>C'est, grande Reine, le pauvre Cul-de jatte qui ne peut saluer Votre Majesté qu’assis.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Le voilà donc cet homme souffrant, et si aimable à-la-fois.</p>
             </sp>
@@ -4828,12 +4850,12 @@
               <speaker>SCARON.</speaker>
               <p>Sa gloire ne vieillira jamais. Ses Fables seront du goût de tous les tems.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE.</speaker>
               <p>Toujours le vrai mérite rend justice aux talens.</p>
               <stage>(Christine s’asseyant sur le Trône, insiste pour que le Prince se place à son côté : ce qu’il fait après plusieurs façons.)</stage>
             </sp>
-            <sp who="mad">
+            <sp who="mad-scaron">
               <speaker>Mad. SCARON ; <hi rend="i">s’avançant sur le Théâtre</hi>.    <pb n="150" xml:id="pb150"/></speaker>
               <p>Grande Reine, acceptez cette couronne d’olivier<note n="239" place="bottom"> L’olivier est l’arbre associé à Athéna, ou Minerve chez les Grecs, déesse de la sagesse, de la guerre, des sciences et des arts. Une dispute l’opposa à Neptune pour savoir lequel donnerait son nom à la ville d’Athènes. Les autres Dieux décidèrent que celui qui offrirait la chose la plus utile à la ville lui donnerait son nom. Neptune offrit un cheval, Minerve un olivier, ce qui lui permit de remporter la victoire. Dans la Bible une colombe apporte à Noé une branche d’olivier pour annoncer la fin du déluge. L’olivier est ainsi symbole de paix mais aussi de victoire puisqu’aux jeux olympiques les vainqueurs recevaient une couronne d’olivier.</note> que le respect et l’amitié vous offrent.</p>
               <stage>(Elle lui met la couronne sur la tête.)</stage>
@@ -4880,7 +4902,7 @@
               <stage>(A la Reine.)</stage>
               <p>Déesse, que je ne connois point, et qui me paroissez étrangère en cette Cour, sans doute, vous êtes Bellone<note n="242" place="bottom"> Bellone, dans la mythologie gréco-romaine, est, selon les versions, la femme, la nourrice, ou la sœur de Mars, le Dieu de la guerre. Elle accompagne Mars et conduit son char sur le champ de bataille, précédée de la Terreur (Deimos) et de la Crainte (Phobos), les deux filles de Vénus et de Mars. Les poètes la décrivent les cheveux épars, le feu dans les yeux, courant de tous côtés avec un fouet ensanglanté.</note>, à côté du Dieu Mars. Souffrez que le Berger Coridon avec sa Bergère vous offre son hommage.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE, <hi rend="i">à Ninon</hi>.</speaker>
               <p>Sont-ils de la fête ceux-ci, Mademoiselle de l’Enclos ? ils imitent si bien le naturel que j’avoue ma surprise.</p>
             </sp>
@@ -4888,7 +4910,7 @@
               <speaker>NINON.</speaker>
               <p>Nous partageons tous cette même surprise, et nous n’attendions pas Monsieur Desyveteaux sous ce costume.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE, <hi rend="i">étonnée</hi>.</speaker>
               <p>Desyveteaux ! Mais je connois quelques bons ouvrages qui portent ce nom.</p>
             </sp>
@@ -4969,7 +4991,7 @@
               <speaker>NINON, <hi rend="i">bas au Comte</hi>.</speaker>
               <p>Observez-vous donc un peu plus, et songez que je ne peux pas faire autrement.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE, <hi rend="i">au Prince de Condé</hi>.</speaker>
               <p>Ce que vous me dites, Prince, est étonnant : je veux questionner la Bergère.</p>
             </sp>
@@ -4981,7 +5003,7 @@
               <speaker>MOLIERE, <hi rend="i">à part à Mathurin</hi>.</speaker>
               <p>Elle n’en sera pas la dupe, je t’assure.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE, <hi rend="i">à la Dupuis</hi>.</speaker>
               <p>Apprenez-moi, Bergère, depuis quand vous avez fixé le plus <ref target="#galant1">galant*</ref> des Bergers, et comment avez-vous pu l’enlever du sein de sa société, et lui faire oublier son nom ?</p>
             </sp>
@@ -5002,7 +5024,7 @@
               <l>Et ma douleur, qui venge sa mémoire,</l>
               <l>Expie en moi le crime de l’amour.</l>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE, <hi rend="i">descendant du Trône</hi>.</speaker>
               <p>Elle entend à merveille son rôle.</p>
             </sp>
@@ -5010,7 +5032,7 @@
               <speaker>LE GRAND-CONDE.</speaker>
               <p>Elle sait tirer avec esprit, parti des circonstances.</p>
             </sp>
-            <sp who="christine">
+            <sp who="reine-christine">
               <speaker>CHRISTINE, <hi rend="i">à Ninon</hi>.</speaker>
               <p>Jamais je n’ai reçu d’hommage qui m’ait plus flattée que celui que je reçois dans votre aimable société, Mademoiselle de l’Enclos : il me sera toujours cher, et jamais je ne l’oublierai. Il est tems cependant de vous faire mes remerciemens et mes adieux. Je ne me sépare d’une si aimable assemblée (<hi rend="i">saluant tout le monde</hi>) qu’avec tous les regrets imaginables. Nous nous écrirons, Mademoiselle de l’Enclos, et j’espère que vous me rappellerez dans l’esprit de vos amis. J’y compte.</p>
             </sp>
@@ -5241,7 +5263,7 @@
               <speaker>NINON, <hi rend="i">à part</hi>.</speaker>
               <p><hi rend="b">A</hi><hi rend="sc">h</hi> ! la jolie tournure ; que sa figure est intéressante !</p>
             </sp>
-            <sp who="le-chevalier">
+            <sp who="de-belfort">
               <speaker>LE CHEVALIER, <hi rend="i">à part</hi>.</speaker>
               <p>Je suis tout déconcerté, je ne puis définir la cause de ma timidité.</p>
               <stage>(A Ninon.)</stage>
@@ -5251,7 +5273,7 @@
               <speaker>NINON, <hi rend="i">à part</hi>.</speaker>
               <p>Quel trouble s’empare de moi ! Le son de sa voix, son âge, ses traits… C'est l’image vivante du Comte de Coligny. Plus je le considère, plus je me sens émue… Seroit-il possible ?</p>
             </sp>
-            <sp who="belfort">
+            <sp who="de-belfort">
               <speaker>BELFORT.</speaker>
               <p>Mademoiselle, pardonnez mon embarras ; mais à peine vous ai-je apperçue, qu’une crainte soudaine a saisi tous mes sens.</p>
             </sp>
@@ -5411,7 +5433,7 @@
             <head>SCENE XIV.                            <pb n="172" xml:id="pb172"/></head>
             <stage>NINON, MOLIERE, LE CHEVALIER, </stage>
             <stage>M<hi rend="sup">lle</hi> DE CHATEAUROUX, FRANCISQUE.</stage>
-            <sp who="francisque-annoncant">
+            <sp who="francisque">
               <speaker>FRANCISQUE <hi rend="i">annonçant</hi>.</speaker>
               <p><hi rend="b">M</hi><hi rend="sc">ademoiselle</hi> de Châteauroux.</p>
               <stage>(Il sort.)</stage>
@@ -5422,7 +5444,7 @@
               <stage>(A Mademoiselle de Châteauroux.)</stage>
               <p>Approchez, Mademoiselle, vous trouvez réunis vos plus grands amis.</p>
             </sp>
-            <sp who="mlle-de-chateauroux">
+            <sp who="olympe">
               <speaker>M<hi rend="sup">lle</hi> DE CHATEAUROUX.</speaker>
               <p>Ah ! j’en suis bien persuadée, Mademoiselle.</p>
             </sp>
@@ -5430,7 +5452,7 @@
               <speaker>NINON.</speaker>
               <p>Qu’il est dommage, Mademoiselle, que Monsieur votre père ne pense pas comme vous ! Il craint de donner sa fille à un jeune homme dont la naissance est obscure, et vous n’avez pas craint de vous y attacher.</p>
             </sp>
-            <sp who="mlle-de-chateauroux">
+            <sp who="olympe">
               <speaker>M<hi rend="sup">lle</hi> DE CHATEAUROUX.</speaker>
               <p>Que sont la naissance et les titres à l’homme qui n’en soutient pas l’honneur ? Le premier homme dans la société est l’homme estimable qui n’a d’autres principes que ceux des ames bien nées, et <pb n="173" xml:id="pb173"/> que le <ref target="#sentiment4">sentiment*</ref> et l’éducation ont élevé au-dessus du vulgaire<note n="252" place="bottom"> Mademoiselle de Châteauroux décrit ici l’honnête homme tel qu’il était perçu au XVIII<hi rend="sup">e</hi> siècle, c’est-à-dire comme celui qui a perfectionné par l’éducation les qualités galantes qu’il possède naturellement. Cette description de l’honnête homme était ainsi un leitmotiv du XVIII<hi rend="sup">e</hi> siècle qui s’inscrivait dans le cadre de la galanterie (cf Introduction).</note>.</p>
             </sp>
@@ -5459,7 +5481,7 @@
             <pb/>
             <head>SCENE XVI.                        <pb n="174" xml:id="pb174"/></head>
             <stage>LE COMTE DE FIESQUE, FRANCISQUE.</stage>
-            <sp who="le-comte">
+            <sp who="le-comte-de-fiesque">
               <speaker>LE COMTE, <hi rend="i">avec empressement</hi>.</speaker>
               <p><hi rend="b">P</hi><hi rend="sc">uis-je</hi> parler à Mademoiselle de l’Enclos ? Mais, tout de suite.</p>
               <stage>(A part.)</stage>
@@ -5483,7 +5505,7 @@
               <speaker>LE COMTE DE FIESQUE.</speaker>
               <p>Ah ! mon ami, que me dites-vous ? Courez donc vîte, et soyez persuadé que je la détournerai de ce cruel projet.</p>
             </sp>
-            <sp who="francisque-courant">
+            <sp who="francisque">
               <speaker>FRANCISQUE <hi rend="i">courant</hi>.</speaker>
               <p>A la bonne heure<note n="254" place="bottom"> Cf note p. [5].</note>, et je cours vous annoncer.</p>
             </sp>
@@ -5545,7 +5567,7 @@
               <speaker>NINON.</speaker>
               <p>Avec plaisir j’en accepte la proposition.</p>
             </sp>
-            <sp who="le-comte-de-fiesque-prenant-la-main-de-ninon">
+            <sp who="le-comte-de-fiesque">
               <speaker>LE COMTE DE FIESQUE <hi rend="i">prenant la main de Ninon</hi>.</speaker>
               <p>Adieu, Ninon.</p>
               <stage>(Il sort en saluant ces Messieurs au fond du Théâtre.)</stage>
@@ -5685,7 +5707,7 @@
               <speaker>NINON.</speaker>
               <p>Je n’en ai plus. Je suis mère, Moliere.</p>
             </sp>
-            <sp who="m.-de-chateauroux">
+            <sp who="chateauroux">
               <speaker>M. DE CHATEAUROUX, <hi rend="i">anéanti</hi>.</speaker>
               <p>La <ref target="#malheureux1">malheureuse*</ref> ! elle a donc pris son parti, et pretend que je refuse de l’unir à un jeune homme bien né. Elle ne connaît point son histoire, et je n’ai pas dû l’en instruire. Moi-même longtems j’ai ignoré qui il était.</p>
             </sp>
@@ -5727,7 +5749,7 @@
             <pb/>
             <head>SCENE XXIII.                        <pb n="186" xml:id="pb186"/></head>
             <stage>MOLIERE, M. DE CHATEAUROUX.</stage>
-            <sp who="m.-de-chateauroux">
+            <sp who="chateauroux">
               <speaker>M. DE CHATEAUROUX, <hi rend="i">regardant sortir Ninon</hi>.</speaker>
               <p><hi rend="b">M</hi><hi rend="sc">onsieur</hi> Molière, quel mal subit a pu prendre à Mademoiselle de l’Enclos ? Elle a pâli, changé de couleur tout-à-coup. Son état m’inquiète. Vous qui la connoissez, dites-moi si elle est souvent affligée de ces petites indispositions ?</p>
             </sp>
@@ -5771,11 +5793,11 @@
               <p>C’est à moi, Monsieur, d’embrasser vos genoux… Approchez, mes enfans…</p>
               <stage>(Ils tombent aux genoux de Monsieur de Châteauroux.)</stage>
             </sp>
-            <sp who="mlle-olimpe">
+            <sp who="olympe">
               <speaker>M<hi rend="sup">lle</hi> OLIMPE.</speaker>
               <p>Mon pere, pardonnez à votre fille.</p>
             </sp>
-            <sp who="m.-de-chateauroux">
+            <sp who="chateauroux">
               <speaker>M. DE CHATEAUROUX, <hi rend="i">relevant Ninon</hi>.</speaker>
               <p>Que faites-vous, Mademoiselle de l’Enclos ? Expliquez-vous, de grace.</p>
             </sp>
@@ -5783,7 +5805,7 @@
               <speaker>NINON.</speaker>
               <p>Monsieur, voilà votre fille, et voilà mon fils ; en prononçant leur bonheur, vous ferez le mien.</p>
             </sp>
-            <sp who="m.-de-chateauroux">
+            <sp who="chateauroux">
               <speaker>M. DE CHATEAUROUX, <hi rend="i">dans la plus grande surprise</hi>.    <pb n="189" xml:id="pb189"/></speaker>
               <p>Quoi ! vous étiez sa mère, et vous me l’avez laissé ignorer !</p>
             </sp>
@@ -5807,7 +5829,7 @@
               <speaker>MOLIERE.</speaker>
               <p>Quel spectacle ! Il semble qu’il soit fait pour moi, pour ma sensibilité. Je jouis donc dans ce moment pour moi seul, et c’est une récompense de mes veilles et de mes soins.</p>
             </sp>
-            <sp who="mlle-olimpe">
+            <sp who="olympe">
               <speaker>M<hi rend="sup">lle</hi> OLIMPE, <hi rend="i">à Molière</hi>.</speaker>
               <p>O mon bienfaiteur ! mon cher Monsieur Molière, si ma reconnoissance pouvoit vivre aussi long-tems que votre mémoire, je desirerois qu’elle apprit aux siècles à venir tout ce que je vous dois.</p>
             </sp>
