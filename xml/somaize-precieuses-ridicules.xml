@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="somaize-precieuses-ridicules">
   <teiHeader>
     <fileDesc>
@@ -355,7 +354,7 @@
           <p>Rappelons une évidence : la matière principale du théâtre est le langage. Molière en a bien conscience lorsqu’écrivant ses <hi rend="i">Précieuses ridicules</hi> il choisit de développer le motif d’un parler précieux jargonnant et obscur, un motif dont on trouvait déjà trace dans la littérature sur les précieuses depuis ses origines mais toujours rapidement évoqué, comme en passant. Somaize, à sa suite, en fait l’élément fondateur et central de sa propre pièce puis, finalement, de sa carrière littéraire. Mettant dans la bouche de ses personnages un langage d’une obscurité telle qu’il nécessite une traduction en notes, même pour son lecteur contemporain, il forge une langue qui n’a rien de réel et convoque à la fois ses talents de plagiaire et de littérateur. Avec les œuvres de l’abbé de Pure et de Molière, la pièce de Somaize et ses deux dictionnaires marquent effectivement l’apogée de la production satirique consacrée à la prétendue langue des précieuses, une langue fictive qui n’en trouve pas moins ses racines dans les habitudes et les innovations langagières d’une époque attentive au matériau de la langue. Il s’agit donc d’en étudier les principes créateurs, les caractéristiques linguistiques et la part de réalité et de fiction qui la fondent.</p>
           <div>
             <head>Miroir déformant d’un langage galant novateur</head>
-            <p rend="paragraphedeliste outdent">Jamais il n’y eut une telle licence comme celle qu’on a prise depuis quelques années ; les mots ne se font plus insensiblement, mais tout exprès et par profusion.<note n="160" place="bottom"><hi rend="sc">Sorel</hi> Charles, « Du nouveau langage français », <hi rend="i">De la connaissance des bons livres</hi>, Pralard, 1671.</note></p>
+            <p>Jamais il n’y eut une telle licence comme celle qu’on a prise depuis quelques années ; les mots ne se font plus insensiblement, mais tout exprès et par profusion.<note n="160" place="bottom"><hi rend="sc">Sorel</hi> Charles, « Du nouveau langage français », <hi rend="i">De la connaissance des bons livres</hi>, Pralard, 1671.</note></p>
             <p>Dès leurs premières apparitions, les « précieuses » ont attiré l’attention par leur parler façonnier et affecté, une dimension qui a progressivement pris de l’ampleur chez ceux qui commentaient ou mettaient en scène cette mystérieuse société. Or, une fois la figure de la précieuse réinterprétée comme un mythe critique significatif des représentations caricaturales du monde galant, on s’aperçoit que le prétendu langage précieux est lui aussi fondé sur une déformation comique d’usages galants attestés, dont la nouveauté frappait certains contemporains attentifs aux faits de langue.</p>
             <p>Le XVII<hi rend="sup">e</hi> siècle aurait en effet « opéré des évolutions radicales dans notre idiome »<note n="161" place="bottom"><hi rend="sc">Bray</hi>, René, <hi rend="i">La préciosité et les précieux : de Thibaut de Champagne à Jean Giraudoux</hi>, Paris, A. Michel, 1948, p. 7.</note>, comme l’a, le premier, mis en exergue Émile Faguet à travers ses divers travaux d’histoire littéraire. Attestant une importance nouvelle de l’expression aux dépens de l’idée, le siècle voit, à terme, naître la figure de l’homme de lettres, de l’auteur, qui prend alors la place de celle du penseur<note n="162" place="bottom"> Voir également A. Viala, <hi rend="i">Naissance de l’écrivain. Sociologie de la littérature à l’âge classique</hi>, Paris, Éd. de Minuit, 1985.</note>. Les salons mondains, et <hi rend="i">a fortiori</hi> les femmes qui les fréquentent et les animent, à qui le manque d’éducation refusait jusqu’alors l’accès aux arcanes de la création langagière réservées aux doctes les plus capables, s’emparent du langage et le modèlent à leur goût. On l’a vu, derrière les absurdités langagières de Cathos et Magdelon se dessine bien la critique d’une licence nouvelle avec laquelle les habitués des salons mondains se plaisent à éprouver les limites de la langue et que contestent en tant qu’écrivains ceux qui s’en moquent. Chez Molière aussi bien que chez Somaize, toutes ces tournures, plus extravagantes les unes que les autres et dont l’accumulation force à rire, recèlent donc en vérité, une fois la part d’exagération évacuée, une certaine exactitude historique et témoignent de phénomènes linguistiques contemporains. Des évolutions notables dont on retrouve la trace dans la littérature galante et les traités des grammairiens, à une période où les femmes raffinées réfléchissent véritablement sur la langue et se l’approprient (allant jusqu’à en réformer l’orthographe pour la rendre plus accessible<note n="163" place="bottom"> Voir la rubrique « Orthographe » du <hi rend="i">Grand Dictionnaire des Précieuses</hi>, qui détaille les simplifications orthographiques entreprises par les précieuses. </note>), au risque de raffiner à l’extrême et de tendre à l’obscurité. En témoignent les mots ironiques de La Bruyère à la fin du siècle :</p>
             <quote>
@@ -1437,8 +1436,11 @@
             <roleDesc>Niece de Gorgibus.</roleDesc>
             <roleDesc>Pretieuses. Ridicules.</roleDesc>
           </castItem>
-          <castItem xml:id="marotte">
-            <role>MAROTTE,</role>
+            <castItem>
+              <role xml:id="lucile"></role>
+            </castItem>
+          <castItem>
+            <role xml:id="marotte">MAROTTE,</role>
             <roleDesc>Servante des Pretieuses Ridicules.</roleDesc>
           </castItem>
           <castItem>
@@ -1446,11 +1448,11 @@
             <roleDesc>Laquais des Pretieuses Ridicules.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="marquis-mascarille">LE MARQUIS DE MASCARILLE<note n="11" place="bottom"> Nom de scène de Molière, lequel interprétait ce rôle lors la création de sa pièce. - Vicomte et Marquis sont des titres de comédie, immédiatement associés au ridicule par les spectateurs. </note>,</role>
+            <role xml:id="mascarille">LE MARQUIS DE MASCARILLE<note n="11" place="bottom"> Nom de scène de Molière, lequel interprétait ce rôle lors la création de sa pièce. - Vicomte et Marquis sont des titres de comédie, immédiatement associés au ridicule par les spectateurs. </note>,</role>
             <roleDesc>Valet de la Grange</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="vicomte-jodelet">LE VICOMTE DE JODELET,</role>
+            <role xml:id="jodelet">LE VICOMTE DE JODELET,</role>
             <roleDesc>Valet de du Croisy.</roleDesc>
           </castItem>
           <castItem>
@@ -2064,7 +2066,7 @@
               <l n="347" xml:id="l347">Je crois que ces marauts<note n="83" place="bottom"><hi rend="i">Maraut</hi> : « Terme injurieux qui se dit des gueux, des coquins qui n’ont ni bien ni honneur, qui sont capables de faire toutes sortes de laschetez » (Furetière).</note>, me veulent briser là</l>
               <l n="348" xml:id="l348">A force de heurter, les pavez, la <ref target="#muraille">muraille*</ref>.</l>
             </sp>
-            <sp who="i">
+            <sp who="porteur1">
               <speaker>I. PORTEUR.</speaker>
               <l n="349" xml:id="l349">Dame, c’est que la porte est estroitte d’entraille<note n="84" place="bottom"> Au sens d’ « entrée », le mot est archaïque (Godefroy).</note>.</l>
               <l n="350" xml:id="l350">Vous avez commandé, que l’on entrast icy,</l>
@@ -2082,7 +2084,7 @@
               <l n="357" xml:id="l357">Mes souliers en la bouë. Ah ! de vous je me lasse,</l>
               <l n="358" xml:id="l358">Ostez moy vostre chaise.</l>
             </sp>
-            <sp who="2">
+            <sp who="porteur2">
               <speaker>2. PORTEURS.</speaker>
               <l part="Y">            Et bien donc, payez-nous ?</l>
             </sp>
@@ -2090,7 +2092,7 @@
               <speaker>MASCARILLE.</speaker>
               <l n="359" xml:id="l359">Hem ?</l>
             </sp>
-            <sp who="2">
+            <sp who="porteur2">
               <speaker>2. PORTEURS.</speaker>
               <l part="Y">Je vous dis, Monsieur ?</l>
             </sp>
@@ -2098,17 +2100,17 @@
               <speaker>MASCARILLE.</speaker>
               <l part="Y">                Que me dis-tu ?</l>
             </sp>
-            <sp who="2">
+            <sp who="porteur2">
               <speaker>2. PORTEURS.</speaker>
               <l part="Y">                        Que vous</l>
               <l n="360" xml:id="l360">Nous donniez de l’argent.                         <pb n="D 37"/></l>
             </sp>
-            <sp who="mascarille-(luy-donnant-un-soufflet">
+            <sp who="mascarille">
               <speaker>MASCARILLE  <hi rend="i">(luy donnant un soufflet.</hi>)<note n="88" place="bottom"> La scène introduit un comique de geste typiquement farcesque dans une pièce qui est cractérisée par une certaine absence d’action.</note></speaker>
               <l part="Y">            Quelle insolence ?</l>
               <l n="361" xml:id="l361">Demander de l’argent, à ceux de ma naissance.</l>
             </sp>
-            <sp who="2">
+            <sp who="porteur2">
               <speaker>2. PORTEURS.</speaker>
               <l n="362" xml:id="l362">N'avez-vous que cela, Monsieur, à nous donner ?</l>
               <l n="363" xml:id="l363">Et vostre <ref target="#qualite">qualité*</ref>, nous fait elle <ref target="#disner">disner*</ref> ?</l>
@@ -2118,7 +2120,7 @@
               <l n="364" xml:id="l364">Ah ! je vous apprendray coquins, à vous <ref target="#se-connoistre">connoistre*</ref>,</l>
               <l n="365" xml:id="l365">Vous osez vous marauts ? joüer à vostre Maistre.</l>
             </sp>
-            <sp who="1">
+            <sp who="porteur1">
               <speaker>1. PORTEUR  <hi rend="i">(prenant un des bastons de sa chaise.)</hi></speaker>
               <l n="366" xml:id="l366">Ça viste, payez-nous ?<note n="89" place="bottom"> Le point d’interrogation a valeur exclamative : il indique davantage un changement d’intonation que la modalité de la phrase. Inversement, le point d’exclamation peut ponctuer une interrogation.</note></l>
             </sp>
@@ -2126,7 +2128,7 @@
               <speaker>MASCARILLE.</speaker>
               <l part="Y">            Quoy ?</l>
             </sp>
-            <sp who="1">
+            <sp who="porteur1">
               <speaker>1. PORTEUR.</speaker>
               <l part="Y">                Je dis que je veux</l>
               <l n="367" xml:id="l367">De l’argent <ref target="#tout-heure">tout à l’heure*</ref>.                            <pb n="38"/></l>
@@ -2136,7 +2138,7 @@
               <l part="Y">            On ne peut dire mieux,</l>
               <l n="368" xml:id="l368">Il est tres-raisonnable.</l>
             </sp>
-            <sp who="1">
+            <sp who="porteur1">
               <speaker>1. PORTEUR.</speaker>
               <l part="Y">            Eh ! bien viste, vous dis-je !</l>
             </sp>
@@ -2146,7 +2148,7 @@
               <l n="370" xml:id="l370">Mais l’autre est un coquin qui ne sçait ce qu’il dit.</l>
               <l n="371" xml:id="l371">Là tiens, es tu content ?</l>
             </sp>
-            <sp who="1">
+            <sp who="porteur1">
               <speaker>1.PORTEUR.</speaker>
               <l part="Y">            Nany, j’ay du <ref target="#despit">despit*</ref></l>
               <l n="372" xml:id="l372">Et ne sçaurois souffrir vostre rodemontade<note n="90" place="bottom"> Fanfaronnade, « vanterie, ou menace vaine et sans fondement. C'est le propre des Capitans de faire des <hi rend="i">rodomontades</hi>. Les poltrons qui font les braves font des <hi rend="i">rodomontades</hi>. Les gueux qui font les riches font des <hi rend="i">rodomontades</hi> » (Furetière).</note>,</l>
@@ -2314,7 +2316,7 @@
               <l n="447" xml:id="l447">Un propice instrument, pour les honnestes gens,</l>
               <l n="448" xml:id="l448">Un merveilleux abry, contre le mauvais temps.</l>
             </sp>
-            <sp who="masfcarille">
+            <sp who="mascarille">
               <speaker>MASFCARILLE.</speaker>
               <l n="449" xml:id="l449">Vous recevez beaucoup, &amp; de belles visites ?</l>
               <l n="450" xml:id="l450">Car tous les beaux esprits, cherchent les grands merites ;</l>
@@ -2817,7 +2819,7 @@
               <l n="723" xml:id="l723">Et les choses souvent, ne valent du tout rien,</l>
               <l n="724" xml:id="l724">S'ils ne sont dans leur jour, &amp; ne se disent bien.                     <pb n="71"/></l>
             </sp>
-            <sp who="mascarille-(monstrant-le-ruban-de-ses-chausses">
+            <sp who="mascarille">
               <speaker>MASCARILLE <hi rend="i">(monstrant le ruban de ses chausses.)</hi></speaker>
               <l n="725" xml:id="l725">Ma petite oye<note n="160" place="bottom"><hi rend="i">La petite</hi> oye, terme générique : « on entend par ces mots les rubans, la garniture et tout ce qui sert à l’embellissement de l’habit » (Richelet). L’expression vient, par analogie, d’un terme de rôtisseur par lequel on désigne les abattis de l’oie mise à la broche.</note> est elle à l’habit congruante<note n="161" place="bottom"> Qui s’ajuste bien. Le terme, usité en géométrie, est rarissime et  inopportun. Il n’apparaît qu’en 1842 dans le Dictionnaire de l’Académie Française.</note> ?</l>
             </sp>
@@ -2835,7 +2837,7 @@
               <l part="Y">            Furieusement bien</l>
               <l n="728" xml:id="l728">C'est Perdrijon<note n="162" place="bottom"> Perdrigeon était un mercier parisien en vogue dans ces années-là. M. Auger, dans son édition des Œuvres de Molière en 1819, rapproche ce vers d’un passage « d’une lettre de Scarron, de la même année que les <hi rend="i">Pretieuses</hi> » : "<hi rend="i">Ah ! ma chère, à quoi avez-vous passé le jour ? Ah ! ma chère</hi>, répond une autre, <hi rend="i">Bastonneau tout pur</hi>." La locution (qui veut dire « acheter des étoffes », selon les explications de Scarron) est présentée comme étant familière aux Précieuses.</note> tout pur.</l>
             </sp>
-            <sp who="mascarille-(estallant-ses-canons">
+            <sp who="mascarille">
               <speaker>MASCARILLE <hi rend="i">(estallant ses canons.)</hi></speaker>
               <l part="Y">                Ne me direz vous rien</l>
               <l n="729" xml:id="l729">Aussi de mes canons ? ont ils l’<ref target="#heur">heur*</ref> de vous plaire</l>
@@ -2861,7 +2863,7 @@
               <l n="739" xml:id="l739">Dedans un si haut point. Que vous donnez d’esclat</l>
               <l n="740" xml:id="l740">A ce que vous avez.</l>
             </sp>
-            <sp who="mascarille-(luy-donnant-ses-gands-a-sentir">
+            <sp who="mascarille">
               <speaker>MASCARILLE <hi rend="i">(luy donnant ses gands à sentir.)</hi></speaker>
               <l part="Y">            Mais de vostre odorat</l>
               <l n="741" xml:id="l741">Que la reflexion dessus ces gands s’attache.                <pb n="G 73"/></l>
@@ -2877,7 +2879,7 @@
               <l n="745" xml:id="l745">Je n’ay point respiré, depuis que je suis née,</l>
               <l n="746" xml:id="l746">D'odeur, qui me parût mieux conditionnée<note n="165" place="bottom"> De meilleure qualité.</note>.</l>
             </sp>
-            <sp who="mascarille-(luy-faisant-sentir-ses-cheveux">
+            <sp who="mascarille">
               <speaker>MASCARILLE <hi rend="i">(luy faisant sentir ses cheveux.)</hi></speaker>
               <l n="747" xml:id="l747">Et celle-là ?</l>
             </sp>
@@ -2889,7 +2891,7 @@
               <l n="750" xml:id="l750">A cause qu’elle est bonne, &amp; qu’enfin le sublime</l>
               <l n="751" xml:id="l751">En est certes, touché délicieusement.                        <pb n="74"/></l>
             </sp>
-            <sp who="mascarille-(monstrant-ses-plumes">
+            <sp who="mascarille">
               <speaker>MASCARILLE <hi rend="i">(monstrant ses plumes.)</hi></speaker>
               <l n="752" xml:id="l752">Vous ne me dites rien de mes plumes<note n="166" place="bottom"> Les plumes qui ornent le chapeau.</note>, comment</l>
               <l n="753" xml:id="l753">Les trouvez-vous, enfin ?</l>
@@ -2917,7 +2919,7 @@
               <l n="765" xml:id="l765">Et jusqu’à des chossons<note n="169" place="bottom"> Il s’agit ici de chaussettes, les deux termes sont équivalents. Il s’agit de «  ce qui sert à couvrir le bas du pied, et qu’on met dans les souliers sous les chausses » (Furetière).</note>, je n’en puis d’ordinaire</l>
               <l n="766" xml:id="l766">Souffrir, s’ils ne sont faits, de la bonne ouvriere.</l>
             </sp>
-            <sp who="mascarille-(s-escriant-brusquement">
+            <sp who="mascarille">
               <speaker>MASCARILLE <hi rend="i">(s’escriant brusquement.)</hi></speaker>
               <l n="767" xml:id="l767">Mes Dames, ahy, ahy, ahy, de grace doucement,</l>
               <l n="768" xml:id="l768">Ce n’est pas Dieu me damne<note n="170" place="bottom"> Juron qui passe pour être « le serment ordinaire des Gascons » (Furetière).</note>, en user prudammant,</l>
@@ -3012,7 +3014,7 @@
               <speaker>MASCARILLE.</speaker>
               <l n="792" xml:id="l792">Ah ! Vicomte,</l>
             </sp>
-            <sp who="jodelet-(s-embrassant-l-un-l-autre">
+            <sp who="jodelet">
               <speaker>JODELET <hi rend="i">(s’embrassant l’un l’autre.)</hi></speaker>
               <l part="Y">        Ah ! Marquis,</l>
             </sp>
@@ -3030,7 +3032,7 @@
               <l n="795" xml:id="l795">Baise moy donc encor, Vicomte, baise moy,</l>
               <l n="796" xml:id="l796">Je t’en <ref target="#conjurer">conjure*</ref><note n="175" place="bottom"> Cette exubérance affective contrevient aux exigences de contenance et de retenue imposées par les lois de la civilité. </note>.</l>
             </sp>
-            <sp who="jodelet-(l-ayant-baise">
+            <sp who="jodelet">
               <speaker>JODELET <hi rend="i">(l’ayant baisé.)</hi></speaker>
               <l part="Y">        Il t’en faut de plus doux ma foy.</l>
             </sp>
@@ -3067,14 +3069,14 @@
               <l n="810" xml:id="l810">Doit estre comme grande, ensemble &amp; fortunée,</l>
               <l n="811" xml:id="l811">Marquée dedans nostre almanach<note n="178" place="bottom"> Forme populaire à la mode dans les milieux mondians, où l’almanach est essentiellement parodié. On en trouve deux exemples dans le Recueil Sercy. – Nous avons corrigé <hi rend="i">dans</hi> en <hi rend="i">dedans</hi> pour rectifier le compte des syllabes de ce vers. </note>.</l>
             </sp>
-            <sp who="magdelon-(a-almanzor">
+            <sp who="magdelon">
               <speaker>MAGDELON <hi rend="i">(à Almanzor.)</hi></speaker>
               <l part="Y">                    Petit garçon,</l>
               <l n="812" xml:id="l812">Quoy vous faut-il tousjours, faire vostre leçon,</l>
               <l n="813" xml:id="l813">Ne voyez-vous pas bien surcroist de compagnie,</l>
               <l n="814" xml:id="l814">Et qu’il faut un fauteuil ?</l>
             </sp>
-            <sp who="jodelet-(s-assit">
+            <sp who="jodelet">
               <speaker>JODELET <hi rend="i">(s’assit.)</hi></speaker>
               <l part="Y">            C'est sans ceremonie.                    <pb n="83"/></l>
             </sp>
@@ -3207,7 +3209,7 @@
               <l part="Y">            Je receus ce coup-là</l>
               <l n="868" xml:id="l868">Ma derniere campagne<note n="194" place="bottom"> Lors de ma dernière campagne. </note>.</l>
             </sp>
-            <sp who="jodelet-(a-cathos">
+            <sp who="jodelet">
               <speaker>JODELET <hi rend="i">(à Cathos.)</hi></speaker>
               <l part="Y">            Ah ! tatez donc voila</l>
               <l n="869" xml:id="l869">Encore un autre coup, je l’eus à Graveline</l>
@@ -3452,7 +3454,7 @@
               <l part="Y">            C'est trop estre à la fin</l>
               <l n="961" xml:id="l961">Sur ses pieds. Allons, mes cheres, prenez place.</l>
             </sp>
-            <sp who="mascarille-(dancant-luy-seul-comme-par-prelude">
+            <sp who="mascarille">
               <speaker>MASCARILLE <hi rend="i">(dançant luy seul comme par prelude.)</hi></speaker>
               <l n="962" xml:id="l962">La la la la la la.                                    <pb n="99"/></l>
             </sp>
@@ -3466,7 +3468,7 @@
               <l part="Y">            Et la mine je croy</l>
               <l n="964" xml:id="l964">De dancer proprement.</l>
             </sp>
-            <sp who="mascarille-(ayant-pris-magdelon">
+            <sp who="mascarille">
               <speaker>MASCARILLE <hi rend="i">(ayant pris Magdelon.)</hi></speaker>
               <l part="Y">            Ma <ref target="#franchise">franchise*</ref> avec moy,</l>
               <l n="965" xml:id="l965">Aussi bien que mes pieds va dancer la courante<note n="206" place="bottom"><hi rend="i">Courante</hi> : « pièce de Musique, d’une mesure triple ou mouvement ternaire. (…) C'est la plus commune de toutes les danses qu’on pratique en France, qui se fait d’un temps, d’un pas, d’un balancement, et d’un couppé » (Furetière).</note>.</l>
@@ -3478,7 +3480,7 @@
               <l n="971" xml:id="l971">Et de mesure la, la la la la la la.</l>
               <l n="972" xml:id="l972">La ferme, ô violons de village.                        <pb n=" 100"/></l>
             </sp>
-            <sp who="jodelet-(dancant-en-suite">
+            <sp who="jodelet">
               <speaker>JODELET <hi rend="i">(dançant en suite.)</hi></speaker>
               <l part="Y">            Oh ! hola ?</l>
               <l n="973" xml:id="l973">Messieurs, ne pressez pas si fort vostre cadence ?</l>
@@ -3500,7 +3502,7 @@
               <l n="976" xml:id="l976">Trois heures sont desja passées, faineans,</l>
               <l n="977" xml:id="l977">Depuis que nous cherchons de tous costez. Ah ! lasche ?</l>
             </sp>
-            <sp who="mascarille-(se-sentant-battre">
+            <sp who="mascarille">
               <speaker>MASCARILLE <hi rend="i">(se sentant battre.)</hi></speaker>
               <l n="978" xml:id="l978">Ahy, ahy, ahy, je n’ay point ouy Monsieur, que je sçache</l>
               <l n="979" xml:id="l979">Que les coups en seroient.</l>
@@ -3665,18 +3667,18 @@
               <speaker>MAGDELON.</speaker>
               <l part="Y">        J'en suis toute saisie !</l>
             </sp>
-            <sp who="les-violons-(au-marquis">
+            <sp who="violons">
               <speaker>LES VIOLONS <hi rend="i">(au Marquis.)</hi></speaker>
               <l n="1035" xml:id="l1035">Donnez nous de l’argent, je n’entends point ce-cy,</l>
               <l n="1036" xml:id="l1036">Lequel donc de vous deux nous doit payer icy ?</l>
             </sp>
-            <sp who="mascarille-(le-premier-vers-a-part)">
+            <sp who="mascarille">
               <speaker>MASCARILLE <hi rend="i">(le premier vers à part)</hi></speaker>
               <l n="1037" xml:id="l1037">Quand je vois ce revers, pour moy, je meurs de honte,</l>
               <l n="1038" xml:id="l1038">Demandez si vous plaist à Monsieur le Vicomte.            <pb n="110"/></l>
               <stage>LES VIOLONS (se tournent vers Jodelet).</stage>
             </sp>
-            <sp who="jodelet-(le-premier-vers-a-part">
+            <sp who="jodelet">
               <speaker>JODELET  <hi rend="i">(le premier vers à part.)</hi></speaker>
               <l n="1039" xml:id="l1039">D'un semblable revers mes sens sont esbaïs.</l>
               <l n="1040" xml:id="l1040">Demandez si vous plaist à Monsieur le Marquis.            <pb n="111"/></l>
@@ -3743,7 +3745,7 @@
               <l n="1073" xml:id="l1073">Car puisque tout travail merite son salaire</l>
               <l n="1074" xml:id="l1074">Il faut payer celuy que nous venons de faire</l>
             </sp>
-            <sp who="gorgibus-(en-les-battant">
+            <sp who="gorgibus">
               <speaker>GORGIBUS <hi rend="i">(en les battant.)</hi></speaker>
               <l n="1075" xml:id="l1075">Je m’en vais maintenant tous deux vous contenter</l>
               <l n="1076" xml:id="l1076">Et c’est icy l’argent que je vous veux conter.</l>
@@ -4264,6 +4266,14 @@
         <div>
           <pb/>
           <head>Annexe 1 : dialogue de deux prétieuses sur les affaires de leur communauté.<note n="1" place="bottom"> Texte inséré dans la seconde édition des <hi rend="i">Véritables précieuses</hi> (Somaize, <hi rend="i">Les Veritables prétieuses. Comédie. Seconde édition reveuë, corrigée et augmentée d’un Dialogue de deux Prétieuses sur les affaires de leur Communauté</hi>, J. Ribou, 1660).</note></head>
+          <castList>
+            <castItem>
+              <role xml:id="isterie"></role>
+            </castItem>
+            <castItem>
+              <role xml:id="amalthee"></role>
+            </castItem>
+          </castList>
           <sp who="isterie">
             <speaker>Isterie.</speaker>
             <p>Ouy ma chere, je vous le dis encor, je ne veux plus passer pour Pretieuse, &amp; quelques puissantes raisons que vous me puissiez apporter, je hay maintenant ce nom, à l’égal de ce que je l’ay aimé autrefois.</p>
