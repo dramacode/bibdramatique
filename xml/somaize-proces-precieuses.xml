@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="somaize-proces-precieuses">
   <teiHeader>
     <fileDesc>
@@ -652,7 +651,7 @@
               <l>Vous n’auriez bien-tost, que je pense,</l>
               <l>Qu’à rengaigner vostre science.</l>
             </sp>
-            <sp who="roguespine-(a-part">
+            <sp who="roguespine">
               <speaker>roguespine <hi rend="i">(à part.)</hi></speaker>
               <l>Je croy que mon maistre aujourd’huy</l>
               <l>A rencontré plus fou que luy.</l>
@@ -715,7 +714,7 @@
           </div>
           <div type="scene">
             <head>SCENE IV.</head>
-            <sp who="roguespine-seul">
+            <sp who="roguespine">
               <speaker>roguespine <hi rend="i">seul.</hi></speaker>
               <l>Ah ! puisque je sçay la demeure</l>
               <l>Il me prend envie : ou je meure,</l>
@@ -758,7 +757,7 @@
               <l>Ah ! mon cher que vous este dur,</l>
               <l>Et qu’il fait dans vostre ame obscur.</l>
             </sp>
-            <sp who="roguespine-(a-part">
+            <sp who="roguespine">
               <speaker>roguespine <hi rend="i">(à part.)</hi></speaker>
               <l>Qu’est-ce que celle-là veut dire ?</l>
               <l>Je ne sçay pas si j’en dois rire,</l>
@@ -956,7 +955,7 @@
               <l>Il est raisonnable qu’enfin</l>
               <l>Vous me rendiez mon saint-crespin.</l>
             </sp>
-            <sp who="theocrite-(sans-l-escouter">
+            <sp who="theocrite">
               <speaker>theocrite <hi rend="i">(sans l’escouter.)</hi></speaker>
               <l>Certes la langue Pretieuse</l>
               <l>Est une chose merveileuse ;</l>
@@ -990,7 +989,7 @@
           </div>
           <div type="scene">
             <head>SCENE VIII.</head>
-            <sp who="theocrite-seul">
+            <sp who="theocrite">
               <speaker>theocrite <hi rend="i">seul.</hi></speaker>
               <l>Ce divertissement est drolle,</l>
               <l>Et je jouë assez bien mon roolle.</l>
@@ -1278,7 +1277,7 @@
           </div>
           <div type="scene">
             <head>SCENE X.</head>
-            <sp who="theocrite-seul">
+            <sp who="theocrite">
               <speaker>theocrite <hi rend="i">seul.</hi></speaker>
               <l>Bon Dieu ! sans le Dictionnaire</l>
               <l>Qu’on a fait &amp; que l’on doit faire,</l>
@@ -1397,7 +1396,7 @@
               <speaker>roguespine.</speaker>
               <l>Pourquoy diable tant s’emporter.</l>
             </sp>
-            <sp who="pancrace-(retenant-ribercour">
+            <sp who="pancrace">
               <speaker>pancrace <hi rend="i">(Retenant Ribercour.)</hi></speaker>
               <l>Arrestez il va tout conter.</l>
             </sp>
@@ -1511,7 +1510,7 @@
               <l>Nous querir certaine suivante,</l>
               <l>Que je trouvay fort obligeante,</l>
               <l>Laquelle, je ne sçay pourquoy,</l>
-              <l><hi rend="i">Commune</hi><seg rend="marquenotebasdepage"><note n="ii" place="bottom"> [Commune en Prétieux veut dire suivante.]</note></seg>, il nomma devant moy ;</l>
+              <l><hi rend="i">Commune</hi><note n="ii" place="bottom"> [Commune en Prétieux veut dire suivante.]</note>, il nomma devant moy ;</l>
               <l>Cette fille, je la crois telle,</l>
               <l>Vestuë, en jeune Damoiselle,</l>
               <l>Apres deux mille questions</l>
@@ -2099,13 +2098,13 @@
               <l rend="i">Et qu’il soit mesmement placé</l>
               <l rend="i">Sans estre du tout exaucé.</l>
             </sp>
-            <sp who="roguespine-(a-part">
+            <sp who="roguespine">
               <speaker>roguespine <hi rend="i">(à part.)</hi></speaker>
               <l>Peste il a retenu sans peine</l>
               <l>Tout ce qu’un Advocat du Maine,</l>
               <l>Luy dit, avant que de partir.</l>
             </sp>
-            <sp who="patrice-(a-epicarie">
+            <sp who="patrice">
               <speaker>patrice <hi rend="i">(à Epicarie.)</hi></speaker>
               <l>Avez-vous de quoy repartir ?                    <pb n="66"/></l>
             </sp>
@@ -2158,11 +2157,11 @@
               <l>Dont il nous croit fort menacez,</l>
               <l>Par la confusion des langues.</l>
             </sp>
-            <sp who="roguespine-(a-part">
+            <sp who="roguespine">
               <speaker>roguespine <hi rend="i">(à part.)</hi></speaker>
               <l>Elle fait fort bien des harangues.</l>
             </sp>
-            <sp who="epicarie-(poursuit">
+            <sp who="epicarie">
               <speaker>epicarie <hi rend="i">(poursuit.)</hi></speaker>
               <l>Comme si Paris maintenant</l>
               <l>Craignoit quelque mal surprenant,</l>
@@ -2177,13 +2176,13 @@
               <l>Picart, Chaldeen ; pour le reste</l>
               <l>J’en dis &amp; cetera.                         <pb n="68"/></l>
             </sp>
-            <sp who="roguespine-(a-part">
+            <sp who="roguespine">
               <speaker>roguespine <hi rend="i">(à part.)</hi></speaker>
               <l>        La peste,</l>
               <l>Elle en a bien dit à la fois,</l>
               <l>Quoy qu’elle ait oublié l’Anglois.</l>
             </sp>
-            <sp who="epicarie-(continue">
+            <sp who="epicarie">
               <speaker>epicarie <hi rend="i">(continuë.)</hi></speaker>
               <l>Je croy Messieurs, par cét exemple</l>
               <l>Aussi puissant comme il est ample,</l>
@@ -2199,13 +2198,13 @@
               <l>Il faut auparavant sçavoir,</l>
               <l>De quels gens il a pris naissance.</l>
             </sp>
-            <sp who="ribercour-(a-part">
+            <sp who="ribercour">
               <speaker>ribercour <hi rend="i">(à part.)</hi></speaker>
               <l>Juste Dieux qu’enten-je, je pense</l>
               <l>Qu’icy je ne gaigneray rien</l>
               <l>Tant cette femme jase bien.</l>
             </sp>
-            <sp who="epicarie-(continue">
+            <sp who="epicarie">
               <speaker>epicarie <hi rend="i">(continuë.)</hi></speaker>
               <l>Il nacquit l’an six cens cinquante,</l>
               <l>Et de chacun trompa l’attente ;</l>
@@ -2227,11 +2226,11 @@
               <l>Des Courtisans, des Courtisanes,</l>
               <l>Des gens d’espée, &amp; du bareau.</l>
             </sp>
-            <sp who="roguespine-(a-part">
+            <sp who="roguespine">
               <speaker>roguespine <hi rend="i">(à part.)</hi></speaker>
               <l>Elle n’a rien dit du Boureau.</l>
             </sp>
-            <sp who="epicarie-(continue">
+            <sp who="epicarie">
               <speaker>epicarie <hi rend="i">(continuë.)</hi></speaker>
               <l>Des Messieurs de l’Academie,</l>
               <l>De qui la gloire est infinie,</l>
@@ -2256,7 +2255,7 @@
               <speaker>roguespine.</speaker>
               <l>Escoute un peu jeune soubrette.</l>
             </sp>
-            <sp who="la-suivante">
+            <sp who="suivante">
               <speaker>la suivante.</speaker>
               <l>Qu’est-ce ?</l>
             </sp>
@@ -2269,7 +2268,7 @@
               <l>Desja communication</l>
               <l>De……</l>
             </sp>
-            <sp who="la-suivante">
+            <sp who="suivante">
               <speaker>la suivante.</speaker>
               <l>Moy, pour changer l’action</l>
               <l>J’insinuërois bien sur ta joüe</l>
@@ -2285,7 +2284,7 @@
               <l>Grossoyer ensemble à loisir</l>
               <l>Nos pieces, peste quel plaisir.</l>
             </sp>
-            <sp who="patrice-(prononce">
+            <sp who="patrice">
               <speaker>patrice <hi rend="i">(prononce.)</hi></speaker>
               <l rend="i">Oüy le differend des Parties,</l>
               <l rend="i">Leurs differences &amp; reparties</l>
