@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="somaize-veritables-pretieuses">
   <teiHeader>
     <fileDesc>
@@ -357,7 +356,7 @@
           <p>Rappelons une évidence : la matière principale du théâtre est le langage. Molière en a bien conscience lorsqu’écrivant ses <hi rend="i">Précieuses ridicules</hi> il choisit de développer le motif d’un parler précieux jargonnant et obscur, un motif dont on trouvait déjà trace dans la littérature sur les précieuses depuis ses origines mais toujours rapidement évoqué, comme en passant. Somaize, à sa suite, en fait l’élément fondateur et central de sa propre pièce puis, finalement, de sa carrière littéraire. Mettant dans la bouche de ses personnages un langage d’une obscurité telle qu’il nécessite une traduction en notes, même pour son lecteur contemporain, il forge une langue qui n’a rien de réel et convoque à la fois ses talents de plagiaire et de littérateur. Avec les œuvres de l’abbé de Pure et de Molière, la pièce de Somaize et ses deux dictionnaires marquent effectivement l’apogée de la production satirique consacrée à la prétendue langue des précieuses, une langue fictive qui n’en trouve pas moins ses racines dans les habitudes et les innovations langagières d’une époque attentive au matériau de la langue. Il s’agit donc d’en étudier les principes créateurs, les caractéristiques linguistiques et la part de réalité et de fiction qui la fondent.</p>
           <div>
             <head>Miroir déformant d’un langage galant novateur</head>
-            <p rend="paragraphedeliste outdent">Jamais il n’y eut une telle licence comme celle qu’on a prise depuis quelques années ; les mots ne se font plus insensiblement, mais tout exprès et par profusion.<note n="160" place="bottom"><hi rend="sc">Sorel</hi> Charles, « Du nouveau langage français », <hi rend="i">De la connaissance des bons livres</hi>, Pralard, 1671.</note></p>
+            <p>Jamais il n’y eut une telle licence comme celle qu’on a prise depuis quelques années ; les mots ne se font plus insensiblement, mais tout exprès et par profusion.<note n="160" place="bottom"><hi rend="sc">Sorel</hi> Charles, « Du nouveau langage français », <hi rend="i">De la connaissance des bons livres</hi>, Pralard, 1671.</note></p>
             <p>Dès leurs premières apparitions, les « précieuses » ont attiré l’attention par leur parler façonnier et affecté, une dimension qui a progressivement pris de l’ampleur chez ceux qui commentaient ou mettaient en scène cette mystérieuse société. Or, une fois la figure de la précieuse réinterprétée comme un mythe critique significatif des représentations caricaturales du monde galant, on s’aperçoit que le prétendu langage précieux est lui aussi fondé sur une déformation comique d’usages galants attestés, dont la nouveauté frappait certains contemporains attentifs aux faits de langue.</p>
             <p>Le XVII<hi rend="sup">e</hi> siècle aurait en effet « opéré des évolutions radicales dans notre idiome »<note n="161" place="bottom"><hi rend="sc">Bray</hi>, René, <hi rend="i">La préciosité et les précieux : de Thibaut de Champagne à Jean Giraudoux</hi>, Paris, A. Michel, 1948, p. 7.</note>, comme l’a, le premier, mis en exergue Émile Faguet à travers ses divers travaux d’histoire littéraire. Attestant une importance nouvelle de l’expression aux dépens de l’idée, le siècle voit, à terme, naître la figure de l’homme de lettres, de l’auteur, qui prend alors la place de celle du penseur<note n="162" place="bottom"> Voir également A. Viala, <hi rend="i">Naissance de l’écrivain. Sociologie de la littérature à l’âge classique</hi>, Paris, Éd. de Minuit, 1985.</note>. Les salons mondains, et <hi rend="i">a fortiori</hi> les femmes qui les fréquentent et les animent, à qui le manque d’éducation refusait jusqu’alors l’accès aux arcanes de la création langagière réservées aux doctes les plus capables, s’emparent du langage et le modèlent à leur goût. On l’a vu, derrière les absurdités langagières de Cathos et Magdelon se dessine bien la critique d’une licence nouvelle avec laquelle les habitués des salons mondains se plaisent à éprouver les limites de la langue et que contestent en tant qu’écrivains ceux qui s’en moquent. Chez Molière aussi bien que chez Somaize, toutes ces tournures, plus extravagantes les unes que les autres et dont l’accumulation force à rire, recèlent donc en vérité, une fois la part d’exagération évacuée, une certaine exactitude historique et témoignent de phénomènes linguistiques contemporains. Des évolutions notables dont on retrouve la trace dans la littérature galante et les traités des grammairiens, à une période où les femmes raffinées réfléchissent véritablement sur la langue et se l’approprient (allant jusqu’à en réformer l’orthographe pour la rendre plus accessible<note n="163" place="bottom"> Voir la rubrique « Orthographe » du <hi rend="i">Grand Dictionnaire des Précieuses</hi>, qui détaille les simplifications orthographiques entreprises par les précieuses. </note>), au risque de raffiner à l’extrême et de tendre à l’obscurité. En témoignent les mots ironiques de La Bruyère à la fin du siècle :</p>
             <quote>
@@ -1358,13 +1357,22 @@
             <roleDesc>valet de la Taupiniere</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="picotin">PICOTIN,</role>
+            <role xml:id="le-poete">PICOTIN,</role>
             <roleDesc>Poëte.</roleDesc>
           </castItem>
           <castItem>
             <role xml:id="greval">MONSIEUR Greval.</role>
             <roleDesc>Bourgeois, voisin d’Iscarie.</roleDesc>
           </castItem>
+            <castItem>
+              <role xml:id="lusse-tu-cru"></role>
+            </castItem>
+            <castItem>
+              <role xml:id="pantagruel"></role>
+            </castItem>
+            <castItem>
+              <role xml:id="le-confident"></role>
+            </castItem>
           </castList>
           <stage>La Scène est à Paris.                                <pb n="A 1"/></stage>
           <pb/>
@@ -1388,7 +1396,7 @@
             <pb/>
             <head>SCENE II.</head>
             <stage>ISCARIE, ARTEMISE, <lb/>BEATRIX, ISABELLE.</stage>
-            <sp who="iscarie-var">
+            <sp who="iscarie">
               <speaker>Iscarie<note n="220" place="bottom"> Var. 2<hi rend="sup">nde</hi> éd. : « <hi rend="sc">Iscarie</hi> <hi rend="i">continuë.</hi> »</note>.</speaker>
               <p>Vrayment ma chere<note n="221" place="bottom"> On relève sept occurrences de cette apostrophe perçue comme typiquement « précieuse » et affectée par les contemporains. </note> je suis en humeur de <ref target="#pousser">pousser*</ref> le dernier rude<note n="222" place="bottom"> Le français classique dit aussi bien « être d’humeur de » qu’« être en humeur de ». – Somaize substantive l’adjectif « rude », qui comporte les sèmes de la rigueur et de la sévérité. </note><hi rend="sup">a</hi> contre vous, vous n’avez guere d’exactitude dans vos promesses, le temps a desja marqué deux pas<hi rend="sup">b</hi> depuis que je vous attends.</p>
               <p>(a De me mettre en colère ; b Deux heures.)</p>
@@ -1664,7 +1672,7 @@
             <pb/>
             <head>SCENE VI.</head>
             <stage>LE BARON DE LA TAUPINIERE, ISCARIE, <lb/>ARTEMISE, ISABELLE, <lb/>BEATRIX.</stage>
-            <sp who="le-baron-(les-saluant">
+            <sp who="le-baron">
               <speaker>le Baron <hi rend="i">(les salüant.)</hi></speaker>
               <p>Vous aurez sujet, mes Dames, de trouver mon procedé audacieux ; mais il est bien difficile de ne pas visiter souvent l’extrait<note n="295" place="bottom"> Expression  « précieuse » par son affectation, que Somaize pourrait avoir puisée dans le roman de l’abbé de Pure : « Vous n’avez possible pas entendu parler de la précieuse, disait Agathonte […]. C’est un précis de l’esprit et un extrait de l’intelligence humaine ».</note> de l’esprit humain.<hi rend="sup">d</hi></p>
               <p>(d L’Abregé.)</p>
@@ -1796,7 +1804,7 @@
               <speaker>Iscarie.</speaker>
               <p>Ce Poëte n’est donc pas Normand puis qu’il n’a point de Carosse.        <pb n="39"   xml:id="pb39"/></p>
             </sp>
-            <sp who="le-baron-(entendant-heurter">
+            <sp who="le-baron">
               <speaker>le Baron <hi rend="i">(entendant heurter.)</hi></speaker>
               <p>On fait parler le muët,<hi rend="sup">l</hi> sans doute le voicy. Ouy c’est luy mesme que Flanquin ameine.                                    <pb n="40" xml:id="pb40"/></p>
               <p>(l On heurte.)</p>
@@ -1805,10 +1813,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE VII.</head>
-            <stage>LE BARON DE LA TAUPINIERE, ISCARIE,</stage>
-            <stage>ARTEMISE. ISABELLE,</stage>
-            <stage>BEATRIX, FLANQUIN,</stage>
-            <stage>LE POETE.</stage>
+            <stage>LE BARON DE LA TAUPINIERE, ISCARIE, <lb/>ARTEMISE. ISABELLE, <lb/>BEATRIX, FLANQUIN, <lb/>LE POETE.</stage>
             <sp who="le-poete">
               <speaker>le Poete.</speaker>
               <p><hi rend="sc">Ah</hi> ! vrayment Monsieur, je feray chanter à ma Callioppe<note n="317" place="bottom"> Calliope est l’une des neuf muses citées par Homère et Hésiode, désignées plus bas comme les « neuf sœurs », déesses des sciences et des arts. On lui attribue le domaine des « vers héroïques ». Dieu des Muses, de la Musique et de la Poésie, Apollon anime quant à lui de son feu les Muses et les Poètes lorsqu’ils chantent (Moreri). Apollon et ses Muses habitent le Parnasse, « le sacré Vallon » arrosé entre autres par la fontaine merveilleuse d’Hippocrène (littéralement, « fontaine du cheval »), que Pégase fit jaillir d’un coup de sabot et dont les eaux ont la vertu d’inspirer le génie de la Poésie à ceux qui y boivent. A l’imitation des Anciens, les poètes du XVII<hi rend="sup">e</hi>  siècle se réclament d’une inspiration divine et convoquent sans cesse ces références mythologiques, habitude caricaturée ici par Somaize. </note> en vers bien montez, &amp; d’une veine bien guindée<note n="318" place="bottom"> « <hi rend="i">Monter</hi> se dit chez les Artisans, en parlant de l’assemblage qu’ils font de plusieurs pièces taillées et préparées à part pour rendre leur ouvrage parfait » (Furetière). – Un style guindé est un style «  enflé, ampoullé, hors du commun » (Furetière).</note>, les remerciemens que je vous dois de l’heureuse &amp; inesperée connoissance que vous me pro-/<pb n="41" xml:id="pb41"/>/curez de ces deux divinitez charmeresses dont les beaux yeux vont esclairer mon esprit &amp; embraser mon uranie<note n="319" place="bottom"> Uranie est la muse de l’astrologie et de l’astronomie.</note>, d’un feu plus devorant, que n’est celuy de ce mont si renommé dans la Sicile, où le vieux Boiteux tenoit jadis sa forge<note n="320" place="bottom"> Vulcain, ou Héphaïstos  en grec, « Dieu du feu souterrain, des métaux etc., Forgeron des Dieux, était fils de Junon, selon Hésiode et Ovide. Son père fâché de le voir si laid, d’un coup de pied le jeta du Ciel en Terre, et le rendit boiteux par cette chute. Depuis, Vulcain épousa Vénus qui le méprisait, et tint sa forge avec les Cyclopes, qui lui servaient d’Ouvriers (…) Vulcain, selon quelques Interprètes, était Prince de Sicile » (Moreri). </note>, &amp; bien plus endoctrinant<note n="321" place="bottom"><hi rend="i">Endoctriner</hi> : « Vieux mot qui signifiait, instruire et rendre savant quelqu’un » (Furetière). Si le verbe est rare, l’adjectif est inventé.</note> que celuy qu’Appollon inspire aux neuf sœurs.</p>
@@ -1835,7 +1840,7 @@
               <p>Dites nous donc un peu !<note n="326" place="bottom"> Var. 2<hi rend="sup">nde</hi> éd. : point d’interrogation.</note> Monsieur au net, vostre sentiment sur les pieces qui se sont joüées depuis peu de temps ; car j’en ay fort peu veu : mesme je fus l’autre jour aux Pretieuses de Bourbon<note n="327" place="bottom"><hi rend="i">Les Précieuses ridicules</hi> de Molière, jouées pendant toute la saison théâtrale au Petit-Bourbon à la suite du succès de  leur première représentation le 18 novembre 1659.</note> ; mais je ne les pûs <ref target="#entendre2">entendre*</ref> parce que je ne pouvois reigler aucune posture.<hi rend="sup">m</hi></p>
               <p rend="sub">(m J’estois trop pressé.) </p>
             </sp>
-            <sp who="flanquin-var">
+            <sp who="flanquin">
               <speaker>Flanquin<note n="328" place="bottom"> Var. 2<hi rend="sup">nde</hi> éd. : la didascalie suivante figure ici : « <hi rend="i">escrivant. »</hi></note>.</speaker>
               <p>Bon, en voyla un.</p>
             </sp>
@@ -2078,7 +2083,7 @@
               <speaker>Iscarie.</speaker>
               <p>Il peut entrer.</p>
             </sp>
-            <sp who="le-poete-(en-se-levant">
+            <sp who="le-poete">
               <speaker>le Poete <hi rend="i">(en se levant.)</hi></speaker>
               <p>Ah ! qu’il vient mal à <pb n="64" xml:id="pb64"/>propos<note n="383" place="bottom"> Var. 2<hi rend="sup">nde</hi> éd. : la réplique du poète s’achève ici.     </note> empescher mon Apologie d’éclatter : car j’en suis à cet endroit.</p>
             </sp>
