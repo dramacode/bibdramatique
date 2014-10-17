@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="cadet-gassicourt-souper-moliere">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Le Souper de Molière, ou La Soirée d'Auteuil. Fait historique en un acte, mêlé de vaudevilles.</title>
-        <author>Cadet de Gassicourt</author>
+        <author key="Cadet de Gassicourt, Charles-Louis (1769-1821)">Cadet de Gassicourt</author>
         <editor>Emmanuelle Taton</editor>
       </titleStmt>
       <editionStmt>
@@ -47,7 +46,7 @@
       <titlePart type="sub">FAIT HISTORIQUE EN UN ACTE, MÊLÉ DE VAUDEVILLES</titlePart>
     </docTitle>
     <docAuthor>Par le C.CADET-GASSICOURT,</docAuthor>
-    <docEdition><hi rend="i center">Représenté, pour la première fois, à Paris</hi>, <lb/>sur le Théâtre du Vaudeville, le 4 Pluviose, <lb/>an troisième de la République. <lb/>Prix : Cinquante sols, avec la musique.</docEdition>
+    <docEdition><hi rend="i">Représenté, pour la première fois, à Paris</hi>, <lb/>sur le Théâtre du Vaudeville, le 4 Pluviose, <lb/>an troisième de la République. <lb/>Prix : Cinquante sols, avec la musique.</docEdition>
     <docImprint><hi rend="i">A PARIS,</hi><lb/>Chez <lb/>les <lb/>Libraires <lb/>Au Théâtre de Vaudeville <lb/>Au Théâtre Martin, ci-devant Molière. <lb/>Et à l’Imprimerie rue des Droits <lb/>de l’Homme, N°.44. <lb/><hi rend="i">Floréal, an Troisième.</hi></docImprint>
     <docEdition>Édition critique établie par Emmanuelle Taton dans le cadre d'un mémoire de
       master 1 sous la direction de Georges Forestier (2013-2014)</docEdition>
@@ -623,7 +622,7 @@
           <div>
             <head>Les éditions</head>
             <p>Il n’existe qu’une édition de cette pièce de Cadet de Gassicourt, d’après laquelle nous avons établi la nôtre : celle de 1795. Elle fut créée le 4 Pluviôse an III, autrement dit le 23 janvier 1795.</p>
-            <p>Nous avons établi le texte à partir de l’édition disponible sur le site contentdm.warwick.ac.uk. Il se trouve à : University of Warwick Library ; Cote : <hi rend="color_343434">75171139.</hi></p>
+            <p>Nous avons établi le texte à partir de l’édition disponible sur le site contentdm.warwick.ac.uk. Il se trouve à : University of Warwick Library ; Cote : 75171139.</p>
             <p>Il existe encore aujourd’hui plusieurs exemplaires de cette première édition, dont nous avons consulté ceux disponibles à Paris, afin d’en souligner les éventuelles différences :</p>
             <p>BNF, Richelieu-Louvois, 8-REC-220 (7, 50) (lacune de vingt pages : arrêt à partir de la page 32).</p>
             <p>BNF, Richelieu-Louvois, 8-REC-221 (1, 5)</p>
@@ -865,8 +864,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE II.</head>
-            <stage>MIGNARD, LULLI, ANTOINE, </stage>
-            <stage>LAFOREST.</stage>
+            <stage>MIGNARD, LULLI, ANTOINE, <lb/>LAFOREST.</stage>
             <sp who="mignard">
               <speaker>MIGNARD.</speaker>
               <p>ALLONS, mon ami, mettons-nous à l’ouvrage... Ah ! bonjour, Laforest.</p>
@@ -913,8 +911,7 @@
             <pb/>
             <head>SCENE III.</head>
             <stage>MIGNARD, LULLI, LAFOREST.</stage>
-            <stage>(Laforest range dans le fond du théâtre ; Mignard </stage>
-            <stage>prend ses pinceaux, et Lulli se met au clavecin.) </stage>
+            <stage>(Laforest range dans le fond du théâtre ; Mignard <lb/>prend ses pinceaux, et Lulli se met au clavecin.) </stage>
             <sp who="lulli">
               <speaker>LULLI.</speaker>
               <p>TE troublerai-je en faisant de la musique ?</p>
@@ -1086,8 +1083,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE IV.</head>
-            <stage>MIGNARD, LULLI, LAFOREST, </stage>
-            <stage>ANTOINE, MADELON. </stage>
+            <stage>MIGNARD, LULLI, LAFOREST, <lb/>ANTOINE, MADELON.</stage>
             <stage>(Antoine et Madelon portent des corbeilles de fleurs.)</stage>
             <sp who="mignard">
               <speaker> MIGNARD.</speaker>
@@ -1226,7 +1222,7 @@
               <speaker> LULLI.</speaker>
               <l rend="center">Ses yeux sont pleins d’esprit.</l>
             </sp>
-            <sp who="tous">
+            <sp who="mignard lulli antoine laforest madelon">
               <speaker>TOUS.</speaker>
               <p>C'est lui ! c’est lui ! vraiment c’est bien lui-même !</p>
             </sp>
@@ -1265,7 +1261,7 @@
               <l rend="center">Prévenons la postérité</l>
               <l rend="center">Qui déjà tresse sa couronne.</l>
             </sp>
-            <sp who="tous">
+            <sp who="mignard lulli antoine laforest madelon">
               <speaker>TOUS.</speaker>
               <l rend="center">Couvrons des plus aimables fleurs,</l>
               <l rend="center">Ornons son image chérie :</l>
@@ -1337,7 +1333,7 @@
               <speaker> MIGNARD.</speaker>
               <p>Ce que c’est !... Tous les ans, ma chère, le pape défend l’entrée de l’église aux rats, aux sorciers, aux sauterelles, au diable et aux comédiens... à lui sur-tout.</p>
             </sp>
-            <sp who="madelon-a-moliere">
+            <sp who="madelon">
               <speaker>MADELON <hi rend="i">à Molière.</hi></speaker>
               <p>Quel mal avez-vous donc fait ?</p>
             </sp>
@@ -1376,8 +1372,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE VI.</head>
-            <stage>MOLIERE, MIGNARD, LULLI, </stage>
-            <stage>LAFOREST.</stage>
+            <stage>MOLIERE, MIGNARD, LULLI, <lb/>LAFOREST.</stage>
             <sp who="moliere">
               <speaker>MOLIERE.</speaker>
               <p>MES bons amis, vous n’êtes guères curieux ; vous savez que je reçois du monde ce soir, et vous ne me demandez pas les noms des convives !... Remerciez-moi. J'ai écrit à Chapelle, à Lafontaine, et ils viendront souper avec nous. Il y a long-temps que nous ne nous somme réunis, et je veux, puisque je suis un peu rétabli, égayer notre soirée. Boileau viendra, je crois, aussi, quoiqu’il ne me l’ait pas assuré. (<hi rend="i">à Laforest</hi>.) Et toi ; songes<note n="431" place="bottom"> Cf. Note de la page [8] sur l’impératif des verbes du premier groupe, deuxième personne du singulier.</note> à nous bien traiter.</p>
@@ -1460,8 +1455,7 @@
             <pb/>
             <head>SCENE VII.</head>
             <stage>MOLIERE, LAFOREST, MIGNARD.</stage>
-            <stage>(Mignard travaille, et Laforest, appuyée sur un</stage>
-            <stage>balai, l’examine).</stage>
+            <stage>(Mignard travaille, et Laforest, appuyée sur un <lb/>balai, l’examine).</stage>
             <sp who="moliere">
               <speaker>MOLIERE,<hi rend="i">s’approchant de son bureau.</hi></speaker>
               <p>COMBIEN j’ai de choses en arrière<note n="436" place="bottom"> Comprendre : « combien j’ai d’affaires en retard, à régler. »</note> ! ... Voici des lettres que je n’ai pas encore lues... Voyons... De la Thorillière<note n="437" place="bottom"> François Le Noir, sieur de La Thorillière (1626-1680), ancien officier du régiment de Lorraine, devenu comédien. Il est notamment rédacteur du fameux registre de la Troupe de Molière à Paris, dont il fait partie dès juin 1662. Cadet de Gassicourt est donc mal renseigné : La Thorillière ne peut en effet pas informer Molière d’un succès auquel ce dernier serait étranger, dans la mesure où c’est un acteur qui ne quittera sa troupe qu’après sa mort. </note> ? Que me mande-t-il ? Un nouveau succès... Bravo !... Ecoutez, écoutez... voici du comique. <hi rend="i">Je te préviens, mon ami, que les Poquelins</hi><note n="438" place="bottom"> Nathalie Fournier, lors d’une communication électronique, nous a personnellement indiqué sur ce point : « les débats sont ouverts au XVIII<hi rend="sup">e</hi> siècle sur le problème du pluriel des noms propres. », et nous a conseillé de lire les pages 1428 et 1429 de l’<hi rend="i">Histoire de la Langue française des origines à 1900</hi>, par Alexis François, tome VI : « Les éditeurs de Voltaire à Khel […] le constatent, à propos de la phrase : <hi rend="i">les Desfontaines, les Fréron, les Paulian</hi>.[…] La note suggère de rendre les noms propres dans tous les cas “indéclinables“, sauf licence poétique. » On trouve en tout cas bel et bien dans la <hi rend="i">Vie de Molière</hi> de Voltaire la formule « arbre généalogique de la famille des Poquelins. » (p.23), tout comme chez M.Bret, <hi rend="i">Œuvres de Molière</hi> (p.52).</note>, <hi rend="i">pour assurer leur nouvelle noblesse, viennent de faire dresser leur généalogie.</hi>            <pb n="20" xml:id="p20"/></p>
@@ -1472,7 +1466,7 @@
             </sp>
             <sp who="moliere">
               <speaker>MOLIERE.</speaker>
-              <p><hi rend="i"><space/>... Je l’ai vue chez ton oncle Bartholomé</hi><note n="439" place="bottom"> Il pourrait s’agir d’un clin d’œil au Bartolo de la pièce <hi rend="i">Le Barbier de Séville ou La Précaution inutile</hi> de Beaumarchais (comédie en quatre actes, représentée pour la première fois le 23 février 1775 à la Comédie-Française), « médecin, tuteur de Rosine », qui séquestre cette dernière et a pour dessein de l’épouser – l’auteur s’est d’ailleurs inspiré de <hi rend="i">L’École des femmes</hi> de Molière.</note>, <hi rend="i">le seul qui ait voulu accepter ses entrées à notre théâtre ; mais envain j’y ai cherché ton nom : ton père, y est-il dit, est mort sans enfans.</hi> – Ah ! ah ! ... ainsi donc ma famille me renie ? N'importe, Molière, travaille toujours, travaille pour ton siècle, et s’il se peut, pour la postérité.</p>
+              <p><hi rend="i">... Je l’ai vue chez ton oncle Bartholomé</hi><note n="439" place="bottom"> Il pourrait s’agir d’un clin d’œil au Bartolo de la pièce <hi rend="i">Le Barbier de Séville ou La Précaution inutile</hi> de Beaumarchais (comédie en quatre actes, représentée pour la première fois le 23 février 1775 à la Comédie-Française), « médecin, tuteur de Rosine », qui séquestre cette dernière et a pour dessein de l’épouser – l’auteur s’est d’ailleurs inspiré de <hi rend="i">L’École des femmes</hi> de Molière.</note>, <hi rend="i">le seul qui ait voulu accepter ses entrées à notre théâtre ; mais envain j’y ai cherché ton nom : ton père, y est-il dit, est mort sans enfans.</hi> – Ah ! ah ! ... ainsi donc ma famille me renie ? N'importe, Molière, travaille toujours, travaille pour ton siècle, et s’il se peut, pour la postérité.</p>
               <l rend="center">AIR : <hi rend="i">Vaudeville de l’Isle des femmes.</hi></l>
               <l rend="center">Si j’obtiens des succès nombreux,</l>
               <l rend="center">Si la gloire m’est favorable,</l>
@@ -1525,8 +1519,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE VIII.</head>
-            <stage>BOILEAU, MIGNARD, MOLIERE,</stage>
-            <stage>(un instant après) CHAPELLE.</stage>
+            <stage>BOILEAU, MIGNARD, MOLIERE, <lb/>(un instant après) CHAPELLE.</stage>
             <sp who="moliere">
               <speaker>MOLIERE, <hi rend="i">à Boileau.</hi></speaker>
               <p>TU viens de bonne heure, et c’est me faire plaisir : on m’avait fait craindre de ne pas te voir ce soir.</p>
@@ -1662,7 +1655,7 @@
             </sp>
             <sp who="boileau">
               <speaker>BOILEAU.</speaker>
-              <p>Combien peu de ces hommes si grands, seront un jour de grands hommes ! Chapelle a bien fait, cela me racommode avec lui. <hi rend="sup"><space/></hi>                    <pb n="25" xml:id="p25"/></p>
+              <p>Combien peu de ces hommes si grands, seront un jour de grands hommes ! Chapelle a bien fait, cela me racommode avec lui. <hi rend="sup"></hi>                    <pb n="25" xml:id="p25"/></p>
             </sp>
             <sp who="chapelle">
               <speaker>CHAPELLE. </speaker>
@@ -1689,8 +1682,7 @@
             <pb/>
             <head>SCENE IX.</head>
             <stage>LES PRÉCÉDENS, LA FONTAINE.</stage>
-            <stage>(Lafontaine passe au milieu de ses amis sans les voir, et </stage>
-            <stage>vient s’asseoir dans un fauteuil au-devant de la scène) </stage>
+            <stage>(Lafontaine passe au milieu de ses amis sans les voir, et <lb/>vient s’asseoir dans un fauteuil au-devant de la scène)</stage>
             <sp who="la-fontaine">
               <speaker> LA FONTAINE. </speaker>
               <p>CELA n’est point malheureux, j’arrive au moment où je trouve mes deux derniers vers... Répétons-les tous.</p>
@@ -1719,7 +1711,7 @@
               <l rend="center">Il laisse la réalité</l>
               <l rend="center">Pour une fable.</l>
             </sp>
-            <sp who="la-fontainese-leve-sans-temoigner-de-surprise">
+            <sp who="la-fontaine">
               <speaker>LA FONTAINE<hi rend="i">se lève sans témoigner de surprise.</hi></speaker>
               <p><space/>Oui, mes amis, c’est une fable que je viens d’achever, et c’est le plaisir de souper chez Molière qui me l’a inspirée.</p>
             </sp>
@@ -1774,9 +1766,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE X.</head>
-            <stage>LULLI, BOILEAU, MOLIERE,</stage>
-            <stage>CHAPELLE, MIGNARD,</stage>
-            <stage>LA FONTAINE.</stage>
+            <stage>LULLI, BOILEAU, MOLIERE, <lb/>CHAPELLE, MIGNARD, <lb/>LA FONTAINE.</stage>
             <sp who="lulli">
               <speaker>LULLI.</speaker>
               <p>OUF<note n="458" place="bottom"> « Ouf » correspond (et ce tout à la fois chez Furetière et dans les différentes éditions du <hi rend="i">Dictionnaire de l’Académie français</hi>) à une « interjection marquant une douleur subite, ou l’étouffement, l’oppression. » Le sens de « satisfaction d’être délivré d’un fardeau, d’un travail, d’un ennui, d’une charge quelconque », apparaît seulement dans la huitième édition de 1932-1935 du <hi rend="i">Dictionnaire de l’Académie française</hi>. </note> ! je crois, mes amis, qu’il ne faut pas compter sur Lafontaine : il ne... (<hi rend="i">appercevant Lafontaine</hi>.) Par où diable est-il arrivé !</p>
@@ -1964,7 +1954,7 @@
               <speaker>CHAPELLE.</speaker>
               <p>Le chanteur public<note n="464" place="bottom"> « D’ordinaire, le chanteur public exerce son art aux endroits les plus passants, aux carrefours, sur les places, au bout des ponts. Il chante aussi bien les œuvres d’autrui que les siennes, mais qu’il soit ou non l’auteur de la chanson qu’il propose à son auditoire rural a finalement peu d’importance. Ce qui compte, c’est la fonction que cette chanson peut exercer dans une certaine société, et son mode de transmission en son sein. » (DÔLE (Gérard), <hi rend="i">Histoire musicale des Acadiens, de la Nouvelle-France à la Louisiane : 1604-1804</hi>, Paris, L’Harmattan, 1995, p. 36).</note>.</p>
             </sp>
-            <sp who="tous">
+            <sp who="la-fontaine lulli chapelle boileau laforest moliere">
               <speaker>TOUS.</speaker>
               <p>Oui.</p>
             </sp>
@@ -2073,7 +2063,7 @@
               <speaker>LA FONTAINE.</speaker>
               <p>Allons, Molière, tu n’es pas plus heureux qu’un autre.             <pb n="35" xml:id="p35"/></p>
             </sp>
-            <sp who="tous">
+            <sp who="la-fontaine lulli chapelle boileau laforest moliere">
               <speaker>TOUS. </speaker>
               <p>Non... certainement.</p>
             </sp>
@@ -2142,7 +2132,7 @@
               <speaker> MIGNARD.</speaker>
               <p>Dans un désert<note n="477" place="bottom"> Avant tout : lieu « qui n’est guère fréquenté. <hi rend="i">Ville déserte, campagne déserte</hi>. » (<hi rend="i">Dictionnaires de l’Académie française</hi>, 1694, 1762, et <hi rend="i">Dictionnaire de Féraud</hi>, 1787-88).</note> !</p>
             </sp>
-            <sp who="tous">
+            <sp who="la-fontaine lulli chapelle boileau laforest mignard">
               <speaker>TOUS,<hi rend="i">hors Moliere.</hi></speaker>
               <p>Dans un désert.</p>
             </sp>
@@ -2168,7 +2158,7 @@
               <l rend="center">Et prenons-en tous la mesure</l>
               <l rend="center">Du haut en bas.     <pb n="37" xml:id="p37"/></l>
             </sp>
-            <sp who="tous">
+            <sp who="la-fontaine lulli chapelle boileau laforest moliere">
               <speaker>TOUS. </speaker>
               <p>Bravo ! bravo ! Oui, le pont... du haut en bas.</p>
             </sp>
@@ -2228,7 +2218,7 @@
               <speaker>BOILEAU.</speaker>
               <p>Il a raison ; c’est pour notre gloire que nous travaillons : il nous faut des témoins. Eh bien ! jurons que demain, à la pointe du jour...</p>
             </sp>
-            <sp who="tous">
+            <sp who="la-fontaine lulli chapelle boileau laforest moliere mignard">
               <speaker>TOUS,<hi rend="i">excepté Moliere.</hi></speaker>
               <p>Nous le jurons !</p>
             </sp>
@@ -2260,8 +2250,7 @@
           <div type="scene">
             <pb/>
             <head>SCENE XII.</head>
-            <stage>Les Convives endormis, ANTOINE,</stage>
-            <stage>MADELON, MOLIERE.</stage>
+            <stage>Les Convives endormis, ANTOINE, <lb/>MADELON, MOLIERE.</stage>
             <sp who="antoine">
               <speaker>ANTOINE.</speaker>
               <p>TOUT est prêt, nous n’attendons que notre bienfaiteur.</p>
@@ -2357,7 +2346,7 @@
               <l rend="center">AIR : <hi rend="i">Frère Jacques.</hi></l>
               <l rend="center">Du silence.</l>
             </sp>
-            <sp who="le-chŒur">
+            <sp who="villageois">
               <speaker>LE CHŒUR. </speaker>
               <l rend="center">Du silence.</l>
             </sp>
@@ -2365,11 +2354,11 @@
               <speaker>MOLIERE. </speaker>
               <l rend="center">Laissons-les.</l>
             </sp>
-            <sp who="le-chŒur">
+            <sp who="villageois">
               <speaker>LE CHŒUR. </speaker>
               <l rend="center">Laissons les.</l>
             </sp>
-            <sp who="tous">
+            <sp who="villageois">
               <speaker>TOUS. </speaker>
               <l rend="center">Marchons avec prudence,</l>
               <l rend="center">Marchons avec prudence.</l>
@@ -2382,7 +2371,7 @@
               <speaker> MADELON. </speaker>
               <l rend="center">Paix !</l>
             </sp>
-            <sp who="le-chŒur">
+            <sp who="villageois">
               <speaker>LE CHŒUR. </speaker>
               <l rend="center">Paix !</l>
             </sp>
@@ -2394,7 +2383,7 @@
               <speaker> MATHURIN. </speaker>
               <l rend="center">Paix !</l>
             </sp>
-            <sp who="le-chŒur">
+            <sp who="villageois">
               <speaker>LE CHŒUR. </speaker>
               <l rend="center">Paix !</l>
             </sp>
@@ -2478,7 +2467,7 @@
             <stage>TOUS LES ACTEURS.</stage>
             <stage>(Pendant le chœur tous les convives se lèvent avec étonnement<note n="488" place="bottom"> Ici : « admiration », comme le précise la deuxième entrée du <hi rend="i">Dictionnaire de l’Académie française</hi> (1762). Mais il y a peut-être un jeu de mot avec l’étonnement au sens premier de « surprise », dans la mesure où les convives, exceptés Molière, Madelon, Antoine et les Villageois, craignent que leur promesse de la veille n’ait été prise au sérieux…</note>,</stage>
             <stage>et se rangent dans un angle du théâtre.)</stage>
-            <sp who="chŒur">
+            <sp who="villageois">
               <speaker>CHŒUR. </speaker>
               <l rend="center">AIR : <hi rend="i">Habitans de ce village.</hi></l>
               <l rend="center">MES amis, le tems nous presse,</l>
@@ -2494,7 +2483,7 @@
               <speaker>MOLIERE. </speaker>
               <p>Allons, plus de retard, remplissons notre engagement : voici tout le village, qui est déjà prévenu, et qui se fait un plaisir de nous accompagner.</p>
             </sp>
-            <sp who="les-villageois">
+            <sp who="villageois">
               <speaker>LES VILLAGEOIS.</speaker>
               <p>Oui... sans doute... assurément.</p>
             </sp>
