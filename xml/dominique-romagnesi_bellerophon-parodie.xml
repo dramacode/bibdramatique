@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arlequin, Bellerophon. Parodie</title>
+        <author key="Biancolelli, Pierre-François ; dit Dominique fils (1680-1734)">Dominique</author>
+        <principal>Georges Forestier</principal>
+        <author key="Romagnesi, Jean-Antoine (1690-1742)">Romagnesi</author>
+        <principal>Georges Forestier</principal>
+        <editor>Sévag Tachdjian</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+        <respStmt>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
+        <date when="2014"/>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
+        </availability>
+        <idno>http://crht.paris-sorbonne.fr/dominique-romagnesi_bellerophon-parodie/</idno>
+        <idno type="tei">http://crht.paris-sorbonne.fr/dominique-romagnesi_bellerophon-parodie.xml</idno>
+        <idno type="html">http://crht.paris-sorbonne.fr/dominique-romagnesi_bellerophon-parodie.html</idno>
+        <idno type="text">http://crht.paris-sorbonne.fr/dominique-romagnesi_bellerophon-parodie.txt</idno>
+        <idno type="epub">http://crht.paris-sorbonne.fr/dominique-romagnesi_bellerophon-parodie.epub</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Dominique</author><author>Romagnesi</author>. <title>Arlequin, Bellerophon. Parodie</title>. le 7 May 1728.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1738"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>ARLEQUIN</titlePart>
+          <titlePart>BELLEROPHON</titlePart>
+          <titlePart>PARODIE.</titlePart>
+        </docTitle>
+        <docAuthor>Par Messieurs <hi rend="sc">Dominique</hi> &amp;<lb/><hi rend="sc">Romagnesi</hi>, Comédiens italiens <lb/>ordinaires du Roi.</docAuthor>
+        <argument>
+          <p>Représentée pour la première fois par les <lb/>Comédiens italiens ordinaires du Roi</p>
+        </argument>
+        <docImprint>le 7 May 1728.</docImprint>
+      </titlePage>
+      <div>
+        <head>Introduction</head>
+        <p>Repris en 1728, <hi rend="i">Bellérophon</hi> rencontre encore auprès du public du XVIII<hi rend="sup">e</hi> siècle un succès remarquable comme en témoigne la parodie qu’en font à cette époque les infatigables Dominique et Romagnesi, comédiens italiens ordinaires de Louis XV. « Infatigables » en effet, parce qu’il nous est parvenu quatre volumes de ces <hi rend="i">Parodies du nouveau Théâtre Italien</hi> dans lesquelles les deux compères passent en revue sans aucune pitié toutes les grandes tragédies lyriques de Lully et Rameau. Loin d’être le signe de la médiocrité d’une œuvre, la parodie est au contraire la preuve évidente de son succès et de sa popularité, elle est même « emblématique de l’extraordinaire engouement du siècle des Lumières pour le théâtre »<note n="1" place="bottom"> Raphaëlle Legrand, “Castor et Pollux chez Arlequin", in <hi rend="i">L'Avant-scène Opéra</hi> consacré à <hi rend="i">Castor &amp; Pollux</hi> de Rameau, 2002, p. 120.</note> : comme Euripide avec <hi rend="i">La Paix</hi> d’Aristophane, Thomas Corneille eut donc l’honneur de voir sa pièce parodiée. Il s’agit d’une succession de dix-sept scènes qui suit scrupuleusement le modèle cornélien tant dans l’évolution de l’intrigue que dans le contenu des dialogues : entrecoupée de chansons à la mode dont les paroles s’adaptent à merveille à la situation, l’œuvre se déroule avec une frénésie et une vitalité qui témoignent de la qualité du travail des deux parodistes.</p>
+        <p>Sans être toujours très subtile, la pièce de Dominique et Romagnesi sait néanmoins exploiter au maximum le potentiel de comique que renferme l’œuvre de Corneille – comme tout livret de tragédie lyrique d’ailleurs. C. Guyon-Lecoq souligne parfaitement combien sont ambivalents les exploits représentés sur la scène du Palais-Royal : héroïques dans l’optique du drame, ceux-ci peuvent vite devenir extrêmement comiques et ridicules au niveau de la représentation si une machinerie ou une volerie se révèle défectueuse. Ainsi le combat avec la Chimère se transforme-t-il bientôt en une sorte de jeu de cirque dont l’intérêt principal est la chute hypothétique du héros : « Tombera ? Tombera pas ? »<note n="2" place="bottom"> Camille Guyon-Lecoq, "Les Enfers dans la tragédie lyrique française", in <hi rend="i">Le Mal et ses masques</hi>, Lyon, ENS Éditions, 1997, p. 210.</note>, telle est en fait la question principale que se pose le public et qui provoque son émerveillement lorsque le combat est glorieusement mené à son terme. C’est d’ailleurs le même public qui allait applaudir les tragédies lyriques et rire à leur parodie : loin d’être un paradoxe, il s’agissait là d’une nécessité puisque seul un spectateur connaissant parfaitement l’ouvrage original était apte à savourer les nombreuses allusions et références. Il se créé ainsi un rapport de « dépendance » entre les deux œuvres, puisqu’il faut que la parodie soit produite avant « que l’original ne soit retiré de l’affiche pour que le public puisse assister alternativement aux deux spectacles »<note n="3" place="bottom">Raphaëlle Legrand, art. cit., p. 120.</note> – comparaison qui profite à terme tant à la tragédie qu’à sa parodie…</p>
+        <p>Il est assez difficile pour nous d’imaginer à quoi pouvait ressembler ce genre d’ouvrage et sa représentation ; mais pour peu que l’on se tourne vers le cinéma, on constate rapidement que de nombreux films proposent des exemples similaires, ou du moins comparables, en usant des mêmes effets et des mêmes techniques. <hi rend="i">Arlequin Bellerophon</hi> est ainsi au <hi rend="i">Bellerophon</hi> de Thomas Corneille ce que le <hi rend="i">Sacré Graal</hi> des Monty Python est à la légende arthurienne : un jeu de références et de déviations loufoques et inattendues de l’œuvre originale qui suppose à la fois une bonne connaissance de l’œuvre et un certain recul critique vis-à-vis de celle-ci. Mais la parodie proprement dite s’enrichie dans la pièce de Dominique et Romagnesi de chansons populaires à l’époque qui ponctuent l’action et en soulignent les grandes étapes, à l’image par exemple de <hi rend="i">On connaît la chanson</hi> d’Alain Resnais qui utilise également les chansons françaises des années quatre-vingts comme un agrément mais aussi pour le décalage qu’elles créent dans le déroulement de l’intrigue… On peut enfin se faire une idée de l’ambiance dans laquelle était représentée ce genre de spectacle grâce à un épisode de l’<hi rend="i">Amadeus</hi> de Milos Forman où Mozart assiste lui-même à une parodie de son <hi rend="i">Don Giovanni</hi> donné par Emanuel Schikaneder, le futur librettiste de <hi rend="i">La Flûte enchantée</hi>, au Théâtre Populaire de Vienne. Loin de la rigueur des représentations théâtrales actuelles, le spectacle joue en grande partie sur le rapport qu’il entretient avec la salle. Entre rire et émerveillement, ce genre de représentations marque la quintessence du théâtre en tant que spectacle : tout en se moquant délibérément des invraisemblances des intrigues romanesques, la parodie y a recours pour la dimension spectaculaire qu’elles confèrent à l’action.</p>
+        <p>Nous n’avons donc pas pu résister au plaisir de reproduire l’intégralité de cet <hi rend="i">Arlequin Bellérophon</hi> : loin d’être inutile ou rébarbative, sa lecture nous semble au contraire précieuse puisqu’elle révèle, par ses excès mêmes, les défauts et les faiblesses de l’œuvre originale. Le lecteur pourra en outre relever et se délecter à loisir des nombreuses références qui sont parsemées tout au long du texte. Il s’agit donc d’éclairer de façon originale la perception que le public pouvait avoir de <hi rend="i">Bellérophon</hi>, loin des comptes-rendus savants des chroniqueurs de l’époque, plus préoccupés des enjeux esthétiques et politiques que de la réelle valeur de l’œuvre…</p>
+        <bibl><title>Les Parodies du nouveau Théâtre Italien</title>, t. IV, 1738</bibl>
+      </div>
+    </front>
+    <body>
+      <head>ARLEQUIN <lb/>BELLEROPHON <lb/>PARODIE.</head>
+      <div xml:id="acteurs" type="set">
+        <head>[ACTEURS]</head>
+        <castList>
+          <castItem>
+            <role xml:id="stenobee">STENOBE’E</role>
+          </castItem>
+          <castItem>
+            <role xml:id="philonoe">PHILONOE’</role>
+          </castItem>
+          <castItem>
+            <role xml:id="le-roi">LE ROI</role>
+          </castItem>
+          <castItem>
+            <role xml:id="bellerophon">BELLEROPHON</role>
+          </castItem>
+          <castItem>
+            <role xml:id="amisodar">AMISODAR</role>
+          </castItem>
+          <castItem>
+            <role xml:id="le-sacrificateur">LE SACRIFICATEUR</role>
+          </castItem>
+          <castItem>
+            <role xml:id="ministres">DES MINISTRES</role>
+          </castItem>
+          <castItem>
+            <role xml:id="pythie">LA PYTHIE</role>
+          </castItem>
+          <castItem>
+            <role xml:id="apollon">APOLLON</role>
+          </castItem>
+          <castItem>
+            <role xml:id="poete">UN POETE</role>
+          </castItem>
+          <castItem>
+            <role xml:id="sorciers">SORCIERS</role>
+            <role xml:id="sorcier"/>
+          </castItem>
+          <castItem>
+            <role xml:id="peuple">CHŒUR de Peuple</role>
+          </castItem>
+          <castItem>
+            <role xml:id="amazones">DEUX AMAZONES</role>
+            <role xml:id="amazone1"/>
+            <role xml:id="amazone2"/>
+          </castItem>
+          <castItem>
+            <role xml:id="voix-derriere-theatre"/>
+          </castItem>
+          <castItem>
+            <role xml:id="petite-fille"/>
+          </castItem>
+        </castList>
+      </div>
+      <div>
+        <head>ARLEQUIN <lb/>BELLEROPHON</head>
+        <div type="scene">
+          <head>SCENE PREMIERE</head>
+          <stage>Le Théâtre représente un Jardin</stage>
+          <stage>PHILONOE’, Deux AMAZONES</stage>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Air 85. <hi rend="i">Le plaisir passe la peine.</hi></p>
+            <l>Amour, lorsque sous ton Empire,</l>
+            <l>Sans esperance un cœur soupire,</l>
+            <l>La peine passe le plaisir ;</l>
+            <l>Mais malgré le poids de ta chaîne</l>
+            <l>Lorsque l’Hymen peut adoucir,</l>
+            <l>Le plaisir passe la peine.</l>
+          </sp>
+          <sp who="amazone2">
+            <speaker>II. Amazone</speaker>
+            <p>Palsanbleu ! la Princesse a raison, elle parle en connoisseuse.</p>
+          </sp>
+          <sp who="amazone1">
+            <speaker>Premiere Amazone.</speaker>
+            <p>Air 86. <hi rend="i">Digue, diguedon.</hi></p>
+            <l>Un heureux penchant vous entraîne ;</l>
+            <l>Bellérophon est tout charmant.</l>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <l>Il dit qu’il aime tendrement.</l>
+          </sp>
+          <sp who="amazone1">
+            <speaker>Premiere Amazone</speaker>
+            <l>Parbleu ! vous valez bien la peine,</l>
+            <l>Diguedi guedon, diguedon dondaine,</l>
+            <l>Que l’on vous le dise souvent.</l>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Nous avons été bien traversés ; mais grace au Ciel, nous touchons au moment d’être heureux.</p>
+          </sp>
+          <sp who="amazone1">
+            <speaker>Première Amazone</speaker>
+            <p>Air 77. <hi rend="i">Quand je tiens de ce jus d’octobre.</hi></p>
+            <l>Il faut que d’amoureuses chaînes</l>
+            <l>Coûrent toujours quelques soupirs ;</l>
+            <l>Quand les Amans n’ont point de peine,</l>
+            <l>Ils n’ont jamais de vrais plaisirs.</l>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>L’aimable petit homme que Bellérophon ! N’ai-je pas raison, Mesdames les Amazones ? Il est si brave.</p>
+          </sp>
+          <sp who="amazone1">
+            <speaker>Premiere Amazone</speaker>
+            <p>Têtebleu ! c’est un grivois des plus déterminés : quel abbateur de quilles !</p>
+          </sp>
+          <sp who="amazone2">
+            <speaker>II. Amazone</speaker>
+            <p>J’ai bien vû des hommes de ma vie, mais jamais un comme lui.</p>
+          </sp>
+          <sp who="amazone1">
+            <speaker>Premiere Amazone</speaker>
+            <p>Il faut assurément qu’il ait une rude force, puisqu’il nous a vaincuës ; jugez ce que doit être une femme armée de-pied-en-cap, lorsqu’elle est si redoutable en pete-en-l’air.</p>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Je crois, Mesdames, qu’il seroit à propos que vous chantassiez sa gloire.</p>
+          </sp>
+          <sp who="amazone1">
+            <speaker>Premiere Amazone</speaker>
+            <p>Cela seroit nouveau, des captifs chanter la gloire de leur vainqueur.</p>
+          </sp>
+          <sp who="amazone2">
+            <speaker>II. Amazone</speaker>
+            <p>Fi donc, cela ne feroit pas à sa place.</p>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Pardonnez-moi, il faut bien que des femmes s’amusent.</p>
+          </sp>
+          <sp who="amazone1">
+            <speaker>Premiere Amazone</speaker>
+            <p>Allons donc, chantons ses exploits pour la rareté du fait.</p>
+            <p>Air 87. <hi rend="i">Menuet du Grandval.</hi></p>
+            <l>Sa brûlante ardeur pour la gloire</l>
+            <l>En lui ne peut se moderer.</l>
+          </sp>
+          <sp who="amazone2">
+            <speaker>II. Amazone</speaker>
+            <l>Avec ce gaillard la victoire</l>
+            <l>N’a pas le tems de respirer.</l>
+            <p>Voilà ce qui s’appelle une gasconade Lyrique.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE II</head>
+          <stage>BELLEROPHON, PHILONOE’</stage>
+          <sp who="bellerophon">
+            <speaker>Bellerophon</speaker>
+            <p>Ah vous voilà, Princesse ? que je suis content !</p>
+            <p>Air I. <hi rend="i">Zon, zon.</hi></p>
+            <l>Au gré de mon désir</l>
+            <l>On couronne ma flame,</l>
+            <l>Sentez-vous le plaisir,</l>
+            <l>Qui chatouille mon ame ?</l>
+            <l>Et zon, zon, zon</l>
+            <l>Le sentez-vous, Madame ?</l>
+            <l>Et zon, zon, zon,</l>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Oh ! je vous en réponds.</p>
+            <p>Air 88. <hi rend="i">Pour la Baronne.</hi></p>
+            <l>Comme vos peines</l>
+            <l>Causoient autrefois mes soupirs,</l>
+            <l>Liés tous deux des mêmes chaînes,</l>
+            <l>Je dois partager vos plaisirs</l>
+            <l>Comme vos peines.</l>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Air 42. <hi rend="i">Tu croyois en aimant Colette.</hi></p>
+            <l>Ah ! qu’un si doux aveu me touche !</l>
+            <l>Qu’il rend mon destin glorieux !</l>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <l>S’il ne me sortoit de la bouche,</l>
+            <l>Il m’échaperoit par les yeux.</l>
+          </sp>
+          <sp who="philonoe bellerophon">
+            <speaker>Tous deux</speaker>
+            <p>Air 66. <hi rend="i">Il faut que je file, file.</hi></p>
+            <l>Qu’ici notre amour extrême</l>
+            <l>Chante comme à l’Opera,</l>
+            <l>Nous pouvons agir de même</l>
+            <l>Qu’on agit en ce lieu-là.</l>
+            <l>Et nous dire sans emblême</l>
+            <l>Je vous aime, &amp; cætera.</l>
+            <l>Je vous aime, je vous aime.</l>
+            <l>Le beau duô que voilà !</l>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Adieu mon petit bonhomme, aimez-moi toujours, &amp; vous ne vous en repentirez pas.</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Où allez-vous donc, ma poulette ? quoi vous m’abandonnez dans le moment le plus tendre ? cela n’est pas bien, vous trichez.</p>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Mon devoir m’appelle auprès de mon pere ; voici la Reine qui vient, je vous laisse avec elle.</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Que diable vient-elle faire ici ? je m’en vais lui dire que je n’y suis pas.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE III</head>
+          <stage>STENOBEE’, BELLEROPHON</stage>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <p>Air 35. <hi rend="i">Le fameux Diogenes.</hi></p>
+            <l>Quand cessera ta haine ?</l>
+            <l>Ma présence te gêne,</l>
+            <l>Et je m’en apperçoi.</l>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <l>Quel aspect effroyable !</l>
+            <l>Oui, je crois voir le Diable</l>
+            <l>Lorsque je vous revoi.</l>
+            <p>Je suis sincère, comme vous voyez. Que me demandez-vous ? vous m’avez fait bannir d’Argos, &amp; vous venez me relancer jusqu’en ce lieu : de grace, laissez-moi en repos.</p>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <p>Air 89. <hi rend="i">La ceinture.</hi></p>
+            <l>Je sçai les maux que je t’ai faits,</l>
+            <l>Mais malgré ma rigueur extrême,</l>
+            <l>Ne me dis plus que je te hais,</l>
+            <l>Ou reproche-moi que je t’aime.</l>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Que veut dire ce jeu de mots-là ? le Diable m’emporte si j’y entends rien.</p>
+            <p>Air 23. <hi rend="i">Laire la, laire lanlaire.</hi></p>
+            <l>Par la rage, &amp; par les fureurs</l>
+            <l>L’Amour prouve-t’il ses ardeurs ?</l>
+            <l>Est-ce ainsi que l’on doit faire ?</l>
+            <l>Laire la, laire lanlaire,</l>
+            <l>Laire la,</l>
+            <l>Laire lanla.</l>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <p>Je t’avouërai, mon cher Bellérophon, qu’une extrême pudeur m’empêcha d’écouter ma tendresse.</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Têtebleu, le tems vous a bien aguerrie ! vous avez secoué le joug des préjugés, à ce que je vois ? allons, allons, songez qu’il ne convient pas à une Dame de faire les avances, adieu.</p>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <p>Quoi, tu me quittes !</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Oh ! si vous ne me laissez, j’appellerai du monde à mon secours.</p>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <p>Arrête, cruel.</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon <hi rend="i">en s’en allant.</hi></speaker>
+            <p>Air 269.</p>
+            <p>Vous y perdez vos pas, Nicolas.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE IV</head>
+          <sp who="stenobee">
+            <speaker>Stenobe’e <hi rend="i">seule</hi></speaker>
+            <p>Air 29. <hi rend="i">Je ne suis né ni Roi ni Reine.</hi></p>
+            <l>Tu me quittes, barbare ? arrête !</l>
+            <l>Mais par ma foi je suis bien bête</l>
+            <l>D’aimer un traître qui me fuit :</l>
+            <l>Telle est notre ardeur imprudente,</l>
+            <l>L’amour trop heureux s’affoiblit,</l>
+            <l>Et l’amour malheureux s’augmente.</l>
+            <p>Mais voici Amisodar qui vient fort à propos.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE V</head>
+          <stage>AMISODAR, STENOBE’E</stage>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <p>Air 310. <hi rend="i">Janeton m’aimez-vous</hi> ?</p>
+            <l>Amisodar, m’aimez-vous ?</l>
+          </sp>
+          <sp who="amisodar">
+            <speaker>Amisodar</speaker>
+            <l>Voyez quel conte,</l>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <l>Servirez-vous mon courroux ?</l>
+          </sp>
+          <sp who="amisodar">
+            <speaker>Amisodar</speaker>
+            <l>Ma main est prompte.</l>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <l>Je puis donc compter sur vous ?</l>
+          </sp>
+          <sp who="amisodar">
+            <speaker>Amisodar</speaker>
+            <l>Quel chien de conte.</l>
+            <p>Air 306. <hi rend="i">Vous avez en moi ce qui s’appelle.</hi></p>
+            <l>Ah ! du moins, ne doutez pas, cruelle</l>
+            <l>De mes feux, &amp; de votre pouvoir,</l>
+            <l>Vous avez en moi ce qui s’appelle</l>
+            <l>Un Amant qui vous aime, il faut voir.</l>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <p>Air 11. <hi rend="i">Robin Turelure.</hi></p>
+            <l>L’insolent Bellérophon,</l>
+            <l>M’a fait une horrible injure,</l>
+            <l>Loin de m’en faire raison</l>
+            <l>Turelure,</l>
+            <l>Le Roi la sçai &amp; l’endure,</l>
+            <l>Robin turelure.</l>
+            <p>Air 90. <hi rend="i">Réjouissez-vous, bons François.</hi></p>
+            <l>Lui-même au lieu de le punir,</l>
+            <l>Avec sa fille il va l’unir :</l>
+            <l>Troublons l’Hymen qui se prépare</l>
+            <l>Par une vengeance barbare.</l>
+          </sp>
+          <sp who="amisodar">
+            <speaker>Amisodar</speaker>
+            <l>J’y consens.</l>
+            <p>Air 5. <hi rend="i">Les Trembleurs.</hi></p>
+            <l>Mon pouvoir que rien n’égale</l>
+            <l>Peut de la nuit infernale</l>
+            <l>Evoquer la mort fatale,</l>
+            <l>Et la répandre en ces lieux :</l>
+            <l>Je puis, armé du Tonnerre</l>
+            <l>Aux mortels livrer la guerre,</l>
+            <l>Et désoler cette terre</l>
+            <l>Par un monstre furieux.</l>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <p>Non, non, point de Tonnerre, le Monstre me divertira davantage.</p>
+          </sp>
+          <sp who="amisodar">
+            <speaker>Amisodar</speaker>
+            <p>Que dites-vous, Madame ?</p>
+            <p>Air 91. <hi rend="i">C’est le bout du bras.</hi></p>
+            <l>Pour vous ce spectacle est effrayant.</l>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <l>N’importe, n’importe.</l>
+            <l>Que de la terre à l’instant</l>
+            <l>Le monstre sorte, le monstre sorte.</l>
+          </sp>
+          <sp who="amisodar">
+            <speaker>Amisodar</speaker>
+            <l>Madame, éloignez-vous</l>
+            <l>Je vais servir votre courroux.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE VI</head>
+          <sp who="amisodar">
+            <speaker>Amisodar</speaker>
+            <p>Que ce Jardin se change en un Sabat affreux.</p>
+            <stage>Le Jardin disparoît, &amp; l’on voit en sa place une Caverne affreuse &amp; un gros Chat au milieu du Théâtre.</stage>
+          </sp>
+          <sp who="amisodar">
+            <speaker>Amisodar</speaker>
+            <p>Air 92. <hi rend="i">Quel plaisir d’aimer sans contrainte.</hi></p>
+            <l>Accourez Sorciers, &amp; sorcieres,</l>
+            <l>Joignez à mon Art vos noirs misteres,</l>
+            <l>Et surtout mettez de la partie</l>
+            <l>Les Diables de basse Normandie.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE VII</head>
+          <stage>AMISODAR, LES SORCIERS ET LES SORCIERES paroissent au son de la Symphonie.</stage>
+          <sp who="sorciers">
+            <speaker>Sorciers, &amp; Sorcieres</speaker>
+            <p>Parle, nous voilà prêts, tout nous sera possible.</p>
+          </sp>
+          <sp who="amisodar">
+            <speaker>Amisodar</speaker>
+            <p>Allons mes enfans, il s’agit d’un coup de maître : il faut faire sortir des enfers un monstre qui fasse ici le Diable à quatre.</p>
+            <stage>Les Sorciers se jettent par terre pour l’évocation.</stage>
+          </sp>
+          <sp who="sorciers">
+            <speaker>Chœur de Sorciers</speaker>
+            <p>Air 93. <hi rend="i">Ramplan.</hi></p>
+            <l>Par le commandement,</l>
+            <l>Que le Tenare s’ouvre,</l>
+            <l>Ramplan, pataplan,</l>
+            <l>Ramplan, promptement,</l>
+            <l>Que l’enfer se découvre</l>
+            <l>Dans ce même moment,</l>
+            <l>Ramplan.</l>
+          </sp>
+          <sp who="amisodar">
+            <speaker>Amisodar</speaker>
+            <p>Poursuivez mes amis, cela va à merveilles. Il faut avoüer que voilà un beau spectacle !</p>
+            <p>Air 28. <hi rend="i">Je reviendrai demain au soir.</hi></p>
+            <l>Faites sentir votre pouvoir</l>
+            <l>Au ténébreux manoir, bis.</l>
+            <l>Pressez, appellez à grand bruit,</l>
+            <l>Et la mort, &amp; la nuit. <hi rend="i">bis.</hi></l>
+            <stage>Les Sorciers se rejettent encore contre terre.</stage>
+          </sp>
+          <sp who="amisodar">
+            <speaker>Amisodar</speaker>
+            <p>Que les peuples de cette contrée éprouvent nos fureurs, quoiqu’ils ne nous ayent rien fait.</p>
+          </sp>
+          <sp who="sorciers">
+            <speaker>Chœurs de Sorciers</speaker>
+            <p>Air 94. <hi rend="i">Passant sur le Pont-Neuf.</hi></p>
+            <l>Noires filles du Styx, Hecate, Erebe, Averne,</l>
+            <l>Nuit, Mort, Chiens des enfers que la fureur gouverne,</l>
+            <l>Que l’on travaille</l>
+            <l>A désoler cette Canaille,</l>
+            <l>Entendez nos clameurs, c’est pour vous que l’on braille.</l>
+          </sp>
+          <sp who="amisodar">
+            <speaker>Amisodar</speaker>
+            <p>Air 38. <hi rend="i">Nanon dormoit.</hi></p>
+            <l>Les charme est fait, remercions Hecate.</l>
+            <l>Ah ! les voilà.</l>
+            <stage>Il sort des enfers un Procureur, un Medecin, &amp; un Maltotier.</stage>
+            <l>Qui sont ces monstres-là ? …</l>
+            <l>Un Procureur, un suivant d’Hipocrate,</l>
+            <l>Avec un Maltotier.</l>
+            <l>Messiers, vous sçavez bien votre métier.</l>
+            <p>Voilà ce qui s’appelle trois monstres bien complets : quel ravage cela va faire ! Messieurs, si vous dansiez pour vous rejoüir d’avoir fait une si belle besogne… Mais non, il me vient une meilleure pensée ; attendez.</p>
+            <p>Air 95. <hi rend="i">Les Feüillantines</hi>.</p>
+            <l>Pour mettre Prince, &amp; Bourgeois</l>
+            <l>Aux abois,</l>
+            <l>N’en formons qu’un de ces tris :</l>
+            <l>Aux enfers faisons le pacte,</l>
+            <l>Cela vient à propos pour finir l’Acte.</l>
+            <p>Air 34. <hi rend="i">Mon Pere je viens devant vous</hi>.</p>
+            <l>Allons ne perdons point de tems,</l>
+            <l>Aux enfers descendons ensemble,</l>
+            <l>Il faut des charmes plus puissants</l>
+            <l>Pour faire qu’un corps les rassemble.</l>
+          </sp>
+          <sp who="sorcier">
+            <speaker>Un Sorcier</speaker>
+            <l>Pour assoûvir votre fureur,</l>
+            <l>C’étoit assez du Procureur.</l>
+          </sp>
+          <sp who="amisodar">
+            <speaker>Amisodar</speaker>
+            <p>Ah ! vous faites tort au mérite des ces Messieurs, chacun vaut son prix ; mais ce sera bien autre chose quand ils seront réünis : <hi rend="i">virtus unita fortior</hi>.</p>
+            <p>Air 29. <hi rend="i">Je ne suis né ni Roi ni Prince.</hi></p>
+            <l>Par ce redoutable assemblage</l>
+            <l>Je puis mieux signaler ma rage ;</l>
+            <l>On voudra l’éviter e vain.</l>
+            <l>Si de leur essence subtile,</l>
+            <l>Je puis ne faire qu’un venin,</l>
+            <l>Tout antidote est inutile.</l>
+            <stage>Ils abîment ; le Monstre aussi-tôt sort des enfers &amp; traverse le Théâtre au son de la Symphonie.</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE VIII</head>
+          <stage>LE ROY, STENOBE’E</stage>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Air 96. <hi rend="i">Trois voleurs insolens.</hi></p>
+            <l>Un Monstre bien méchant</l>
+            <l>S’en va tout dévorant</l>
+            <l>Dans les champs, dans la ville,</l>
+            <l>Et quoique je sois Roi,</l>
+            <l>Je crains aussi pour moi</l>
+            <l>Sa fureur incivile.</l>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <p>Voilà ce que c’est que de donner asyle à des coupables, ils nous attirent toûjours quelque malheur; mais après tout, Seigneur, vous devez vous rassurer.</p>
+          </sp>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Comment me rassurer lorsque cet animal furieux fait ici tant de ravages ?</p>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <p>Air 61. <hi rend="i">Lanturlu</hi>.</p>
+            <l>De ce Monstre horrible</l>
+            <l>Que craignez-vous donc ?</l>
+            <l>Rien n’est impossible</l>
+            <l>A Bellerophon;</l>
+            <l>Son bras invincible</l>
+            <l>L’aura bien-tôt abbatu,</l>
+            <l>Lanturlu lanturlu lanturlu.</l>
+            <stage>Elle sort</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE IX</head>
+          <stage>BELLEROPHON, LE ROY</stage>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Ah ! Ah ! Vous voilà beau-père, vous allez apparemment consulter l’Oracle d’Apollon.</p>
+          </sp>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Air 26. <hi rend="i">Joconde</hi>.</p>
+            <l>Vous sçavez que de mes états</l>
+            <l>C’est le Dieu Tutelaire</l>
+            <l>Et lui seul dans cet embarras</l>
+            <l>Peut me tirer d’affaire.</l>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <l>Et que peut sa protection ?</l>
+            <l>Insensé que vous êtes,</l>
+            <l>Ne sçavez-vous pas qu’Apollon</l>
+            <l>Est le Dieu des Poëtes ?</l>
+            <p>Ma foi il ne peut pas vous rendre de grands services; mais laissez-moi faire, je vais combattre le Monstre, moi.</p>
+          </sp>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Que dites-vous là ? vous n’y pensez pas.</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Pardonnez-moi.</p>
+            <p>Air 10. <hi rend="i">La serrure.</hi></p>
+            <l>Lorsqu’à sa fureur meurtriere</l>
+            <l>Tous vos sujets sont exposés,</l>
+            <l>A mon avis, mon cher beau-pere,</l>
+            <l>Resterai-je les bras croisés ?</l>
+          </sp>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Sçavez-vous bien, Seigneur Bellerophon, que ce Monstre-là en vaut trois pour le moins ?</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Malepeste ! trois contre un, la partie n’est point égale; de quoi s’avise cet animal d’être triple ? mais n’importe, je veux en essayer.</p>
+            <p>Air 90. <hi rend="i">Réjoüissez-vous bons François.</hi></p>
+            <l>Ma foi ce seroit un beau coup,</l>
+            <l>Si j’en pouvois venir à bout,</l>
+            <l>On écriroit mon avanture</l>
+            <l>Dans la Gazette &amp; le Mercure</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE X</head>
+          <stage>PHILONOE’, les USDITS</stage>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Air 14. <hi rend="i">Or écoutez petits &amp; grands.</hi></p>
+            <l>Je viens partager vos douleurs,</l>
+            <l>A vos larmes joindre mes pleurs,</l>
+          </sp>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <l>Contre le Monstre qui les cause,</l>
+            <l>Bellérophon court, &amp; s’expose,</l>
+            <l>Y consens-tu ma fille ?</l>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <l>Hélas ! Vous-même n’y consentez pas.</l>
+            <p>Air 47. <hi rend="i">Ma raison s’en va bon train.</hi></p>
+            <l>Tout prêt d’être mon Epoux,</l>
+            <l>Quoi vous exposeriez-vous ?</l>
+            <l>Non, demeurez-là,</l>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <l>Il succombera,</l>
+            <l>Vous verrez sa défaite.</l>
+            <l>Ah ! Sans ce chien de monstre-là,</l>
+            <l>L’affaire seroit faite.</l>
+          </sp>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Le Temple s’ouvre, entrons.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE XI</head>
+          <stage>Le Théâtre représente le Temple d’Apollon</stage>
+          <stage>LE SACRIFICATEUR, LES MINISTRES dansans,</stage>
+          <stage>DEUX PRETRESSES, LE ROY, les susdits.</stage>
+          <sp who="peuple">
+            <speaker>Chœur de Peuple</speaker>
+            <p>Air 97. <hi rend="i">Ah ! Madame Anroux.</hi></p>
+            <l>Ah ! Grand Apollon</l>
+            <l>Délivre-nous donc</l>
+            <l>D’une affreuse bête,</l>
+            <l>Par ton divin nom,</l>
+            <l>De plus par la tête</l>
+            <l>Du serpent Python.</l>
+          </sp>
+          <sp who="le-sacrificateur">
+            <speaker>Le Sacrificateur <hi rend="i">devant un petit Autel où l’on allume le Feu Sacré.</hi></speaker>
+            <p>Air 19. <hi rend="i">Quand on a prononcé ce malheureux oüi.</hi></p>
+            <l>Reçois, grand Apollon, reçois ce Sacrifice,</l>
+            <l>Fais qu’à nos justes vœux le destin soit propice.</l>
+            <p>Où est l’animal ?</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Le voilà.</p>
+            <stage>On amene un Bœuf ; le Sacrificateur verse du vin sur sa tête.</stage>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Comment donc, c’est du Bourgogne ! Monsieur le Sacrificateur, ne versez pas tout s’il vous plaît, gardez-en pour moi.</p>
+          </sp>
+          <sp who="le-sacrificateur">
+            <speaker>Le Sacrificateur</speaker>
+            <p>Air 98. <hi rend="i">Au son de cet instrument.</hi></p>
+            <l>Puisse ce vin répandu</l>
+            <l>Faire cesser notre tristesse.</l>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon <hi rend="i">à part</hi></speaker>
+            <l>Hélas si nous l’avions bû</l>
+            <l>Nous serions tous dans l’allegresse !</l>
+          </sp>
+          <sp who="le-sacrificateur">
+            <speaker>Le Sacrificateur</speaker>
+            <l>Mes enfans, allons,</l>
+            <l>Courons volons</l>
+            <l>Vite immolons</l>
+            <l>Le Bœuf,</l>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <l>Puis nous le mangerons.</l>
+            <stage>Un Ministre apporte le cœur.</stage>
+          </sp>
+          <sp who="le-sacrificateur">
+            <speaker>Le Sacrificateur</speaker>
+            <p>Cela va bien, mes enfans, ah ! le beau cœur.</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Il sera bien meilleur sur le gril.</p>
+          </sp>
+          <sp who="le-sacrificateur">
+            <speaker>Le Sacrificateur</speaker>
+            <p>Peuples, réjoüissez-vous, &amp; dansez autour du feu.</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Oui, oui, c’est bien dit, je vais mener le branle.</p>
+            <stage>Il chante &amp; danse en rond.</stage>
+            <p>Air 99. <hi rend="i">Et lon lan la ma tourelourirete.</hi></p>
+            <l>Le Servante de chez nous</l>
+            <l>A fait faire une jaquette,</l>
+            <l>Et lon lan la ma tourelourirette</l>
+            <l>Trop courte par les genoux</l>
+            <l>Et lon lan la ma tourelouriroux.</l>
+          </sp>
+          <sp who="le-sacrificateur">
+            <speaker>Le Sacrificateur</speaker>
+            <p>Grand Apollon nous n’attendons plus que votre réponse.</p>
+          </sp>
+          <sp who="pythie">
+            <speaker>La Pythie <hi rend="i">paroit</hi></speaker>
+            <p>Air 15. <hi rend="i">Pierre Bagnolet.</hi></p>
+            <l>Je n’étois pas fort nécessaire</l>
+            <l>Pour vous annoncer Apollon,</l>
+            <l>Mais dans une importante affaire</l>
+            <l>Il faut toûjours du carillon,</l>
+            <l>Du carillon, bis.</l>
+            <l>Eh bien ! on va vous stisfaire,</l>
+            <l>Et tonner sur un joli ton.</l>
+            <p>Phœbus va parler, que le Théatre s’obscurcisse, &amp; représente la nuit.</p>
+            <stage>Le Tonnerre gronde, le Théatre s’obscurcit.</stage>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Air 100. <hi rend="i">Quand la Bergere vient des Champs.</hi></p>
+            <l>Quoi nous faire voir dans un four</l>
+            <l>Le Dieu du jour !</l>
+            <l>Ah le beau tour !</l>
+            <l>Nous ne souffrirons point cela,</l>
+            <l>Cette sottise,</l>
+            <l>N’étoit permise</l>
+            <l>Qu’a l’Opera.</l>
+            <stage>(Le Théatre en cet endroit s’obscurcit à l’Opera, &amp; le couplet de Bellerophon en est la critique)</stage>
+          </sp>
+          <sp who="apollon">
+            <speaker>Apollon</speaker>
+            <p>Air 33. <hi rend="i">Flon, flon.</hi></p>
+            <l>Un des fils de Neptune</l>
+            <l>Appaisera, dit-on,</l>
+            <l>La Celeste rancune ;</l>
+            <l>Mais il lui faut Fanchon ;</l>
+            <l>Flon, flon, &amp;c.</l>
+          </sp>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Air 1. <hi rend="i">Zon, zon, zon.</hi></p>
+            <l>Je suis tout confondu…</l>
+            <l>Comme vous j’en soupire,</l>
+            <l>Vous l’avez entendu…</l>
+            <l>Je ne lui fais pas dire.</l>
+            <stage>Il s’en va.</stage>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <l>Et bon, bon, bon,</l>
+            <l>Moi je n’en fait que rire,</l>
+            <l>Et bon, bon, bon,</l>
+            <l>Quelle est cette Fanchon ?</l>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Hélas ! c’est moi : c’est le nom que je portois étant petite fille.</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>C’est bien le Diable ! morbleu voilà un Oracle qui me chifonne malheur.</p>
+            <p>Air 101. <hi rend="i">Rossignolet du vert boccage.</hi></p>
+            <l>Quoi ! je vous perds ma Fanchonnette !</l>
+            <l>Fatal revers !</l>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <l>Bellerophon, je le répete,</l>
+            <l>Quoi je vous perds !</l>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Voilà, je vous l’avouë, un fort vilain contretems ; nous étions justement formés l’un pour l’autre, &amp; nous aurions fait le plus joli couple du monde. Mais ma mignonne, croyez-moi, malgré tout cela…</p>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Non, mon fils, n’y pensons plus.</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Comment n’y pensons plus ? cela vous est bien aisé à dire.</p>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Il le faut bien, puisque l’Oracle s’oppose à notre hymen.</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Qu’est-ce que cela fait ? c’est peut-être un bien pour nous que de ne nous pas marier, nous nous en aimerons plus lomgtems.</p>
+            <p>Air 102. <hi rend="i">Car mon cœur n’est point partagé.</hi></p>
+            <l>Apollon a beau parler</l>
+            <l>Contre nos ardeurs mutuelles ;</l>
+            <l>De quoi va-t’il se mêler</l>
+            <l>De séparer deux cœurs fidéles ?</l>
+          </sp>
+          <sp who="philonoe bellerophon">
+            <speaker>Tous deux</speaker>
+            <l>Ma foi malgré le destin</l>
+            <l>Nous irons toûjours notre train. bis.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE XII</head>
+          <sp who="voix-derriere-theatre">
+            <speaker>Les voix <hi rend="i">crient derriere le Théatre</hi></speaker>
+            <p>Garre le Monstre, fuyons, fuyons.</p>
+          </sp>
+          <sp who="petite-fille">
+            <speaker>Une Petite Fille</speaker>
+            <p>Air 4. <hi rend="i">Voici les Dragons.</hi></p>
+            <l>Qu le Monstre est en colère !</l>
+            <l>Vîte sauvons-nous ;</l>
+            <l>Il a mangé ma grand-Mere,</l>
+            <l>Il vous mangera, ma Mere,</l>
+            <l>Et moi itou,</l>
+            <l>Et moi itou.</l>
+            <stage>Le Théatre change &amp; représente une Campagne avec des Rochers.</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE XIII</head>
+          <sp who="bellerophon">
+            <speaker>Bellérophon <hi rend="i">en fuyant</hi></speaker>
+            <p>Ah ! nous sommes perdus ! le Monstre s’avance, quelle fumée, s’il me rencontre je suis gobé… mais cependant laisserai-je périr la Princesse ? cela ne seroit pas honnête… Allons Bellerophon <hi rend="i">animo</hi>, courage… courage ? c’est bien dit, mais tout franc, je n’en ai guere… il faut pourtant faire comme si j’en avois, car c’est ici le plus interessant de la piece : après tout, sans ma petite Fanchon que m’importe de vivre ?</p>
+            <p>Air 15. <hi rend="i">Pierre Bagnolet.</hi></p>
+            <l>O mort, dans mon malheur extrême</l>
+            <l>Tu vas bientôt  me secourir,</l>
+            <l>Mais je m’en fais un bien suprême;</l>
+            <l>A ce monstre je vais m’offrir,</l>
+            <l>Sûr de perir, bis.</l>
+            <l>Quand on a perdu ce qu’on aime,</l>
+            <l>Il ne reste plus qu’à mourir.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE XIV</head>
+          <stage>UN POETE, BELLEROPHON</stage>
+          <sp who="poete">
+            <speaker>Le poete</speaker>
+            <p>Qu’est-ce, Seigneur Bellerophon, vous me paroissez bien embarassé ? vous attendez sans doute Pallas pour vous tirer d’affaire ? car il faut toûjours que le merveilleux s’en mêle  point du tout, c’est moi qui vais faire ce miracle-là.</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Air 103. <hi rend="i">Margot sur la brune.</hi></p>
+            <l>Sçachons qui vous êtes.</l>
+          </sp>
+          <sp who="poete">
+            <speaker>Le Poete</speaker>
+            <l>Le plus grand des Poëtes.</l>
+            <l>Les Muses sont prêtes</l>
+            <l>A mon moindre signal :</l>
+            <l>Les Tragédies,</l>
+            <l>Les Comédies,</l>
+            <l>Les Parodies,</l>
+            <l>Tout m’est égal.</l>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <l>C’est-à-dire qu’il fait tout mal.</l>
+            <p>Quoi ! c’est avec les Tragédies que vous prétendez tuer la Chimere ? il est vrai qu’Attalie lui a donné une terrible entorce.</p>
+          </sp>
+          <sp who="poete">
+            <speaker>Le Poete</speaker>
+            <p>Air 104. <hi rend="i">Tiquetaque &amp; lon lan la.</hi></p>
+            <l>Pour le vaincre, il faut, mon cher,</l>
+            <l>Combattre le Monstre en l’air :</l>
+            <l>Sur Pegaze en assurance,</l>
+            <l>Tiquetique taque &amp; lon lan la,</l>
+            <l>Vous aurez heureuse chance.</l>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <l>Mauvais moyen que cela.</l>
+            <p>Et s’il trébuche, où en serai-je ? car on lui a diablement gâté la bouche… mais a propos de Pegaze, est-ce que vous en pouvez disposer ?</p>
+          </sp>
+          <sp who="poete">
+            <speaker>Le Poete</speaker>
+            <p>Air 89. <hi rend="i">La Ceinture.</hi></p>
+            <l>De moi seul il reçoit la Loi,</l>
+            <l>Je le tiens dans mon Ecurie.</l>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <l>La pauvre bête par ma foi,</l>
+            <l>Y doit être bien mal nourrie.</l>
+          </sp>
+          <sp who="poete">
+            <speaker>Le Poete</speaker>
+            <p>Venez-vous, dis-je, suivez-moi, &amp; ne craignez rien ; montez hardiment ce superbe Cheval.</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Oüi : mais je n’ai point de bottes, prétez-moi donc des guétres… en conscience puis-je me fier à vous ?</p>
+          </sp>
+          <sp who="poete">
+            <speaker>Le Poete</speaker>
+            <p>Belle demande ! montez sur le Pegaze &amp; soyez sûr de la victoire.</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <p>Air 33. <hi rend="i">Flon flon</hi></p>
+            <l>Hélas ! mon cher Poëte,</l>
+            <l>Quand je l’aurai monté</l>
+            <l>Je crains qu’il ne me traite</l>
+            <l>Comme ilvous a traité,</l>
+            <l>Et flon flon</l>
+            <l>La rira dondaine</l>
+            <l>Guay guay</l>
+            <l>La rira dondé.</l>
+            <stage>Ils s’en vont.</stage>
+          </sp>
+          <sp who="peuple">
+            <speaker>Chœur du Peuple.</speaker>
+            <p>Air 270.</p>
+            <l>Quelle horreur ! quel ravage !</l>
+            <l>Le Monstre redouble sa rage.</l>
+            <stage>La Chimere paroît au fond du Théatre ; Bellerophon monté sur un Asne ailé combat comiquement le Monstre : il paroît d’abord avec une Scie, ensuite avec une Broche ; puis la troisième fois il le tue avec un Fusil.</stage>
+          </sp>
+          <sp who="peuple">
+            <speaker>Deux personnes du Peuple</speaker>
+            <p>Air 59. <hi rend="i">M. Lapalisse est mort.</hi></p>
+            <l>Le Monstre a fini son sort ;</l>
+            <l>Ne craignons plus sa furie.</l>
+            <l>Ma foi s’il ‘étoit pas mort,</l>
+            <l>Il seroit encore en vie.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE XV</head>
+          <stage>LE ROY, PHILONOE’</stage>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Voilà bien des nouvelles, ma fille. Cet Oracle qui t’a tant fait pleurer est enfin éclairci ; Bellerophon est ce fils de Neptune qui t’étoit destiné ; ce Dieu nous l’a dit lui-même.</p>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Mais, mon Pere, en verité je n’y comprends rien, comment cela s’est-il donc fait ?</p>
+          </sp>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Je vais te l’expliquer.</p>
+            <p>Air 26. <hi rend="i">Joconde.</hi></p>
+            <l>D’une Nymphe ce Dieu craignit</l>
+            <l>La jalouse colere,</l>
+            <l>Et quand Bellerophon nâquit,</l>
+            <l>Il cacha ce mistere,</l>
+            <l>La belle n’eut aucun soupçon</l>
+            <l>De cette manigance,</l>
+            <l>Et Glaucus lui prêta son nom</l>
+            <l>Comme on le fait en France.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE XVI</head>
+          <stage>StENOBE’E, LES SUSDITS</stage>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Mais voici Stenobée : vous venez apparemment, Madame, partager la joie publique ; sçavez-vous bien que Bellerophon est fils de Neptune, &amp; qu’il a tué le Monstre ?</p>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <p>Je ne sçais que trop.</p>
+          </sp>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Ah ! Cela vous fâche, parce que vous n’êtes pas des amis de Bellerophon.</p>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <p>Air 105. <hi rend="i">Trop d’Amour enfin.</hi></p>
+            <l>Pour Bellerophon j’avois l’ame éprise</l>
+            <l>De la plus sensible ardeur,</l>
+            <l>Et toute femme que l’on méprise</l>
+            <l>Doit avoir recours à la fureur.</l>
+            <p>Air 106. <hi rend="i">Depuis que j’ai vû Nanette.</hi></p>
+            <l>Amisodar, par ses charmes</l>
+            <l>Secondant mon désespoir,</l>
+            <l>A rempli ces lieux d’allarmes,</l>
+            <l>Comme vous l’avez pû voir,</l>
+            <l>Il crût se donnant au Diable,</l>
+            <l>Voir son feu récompensé,</l>
+            <l>Mais le pauvre misérable</l>
+            <l>N’en est pas plus avancé.</l>
+          </sp>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Ah le coquin ! Gardes qu’on le saisisse.</p>
+            <p>Air 65. <hi rend="i">Va t’en voir s’ils viennent.</hi></p>
+            <l>Que les Archers promptement</l>
+            <l>Devant nous l’amenent.</l>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <l>Puisqu’il s’est enfui, comment</l>
+            <l>Veux-tu qu’ils le prennent ?</l>
+            <l>Va-t’en voir s’ils viennent, Jean, &amp;c.</l>
+          </sp>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <l>Hé bien scelerate tu vas payer pour lui.</l>
+          </sp>
+          <sp who="stenobee">
+            <speaker>Stenobe’e</speaker>
+            <p>Air 107. <hi rend="i">Charmante Gabrielle.</hi></p>
+            <l>Je ne crains point ta haine,</l>
+            <l>J’ai par précaution</l>
+            <l>pour soulager ma peine</l>
+            <l>Sçû prendre du poison :</l>
+            <l>En ce moment je céde</l>
+            <l>A ses effets.</l>
+            <l>Oh ! l’excellent remede</l>
+            <l>Pour les forfaits.</l>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Air 108. <hi rend="i">N’y a pas d’mal à ça.</hi></p>
+            <l>Comme sa rage est forte !</l>
+            <l>Comme la voilà !</l>
+            <l>Seigneur elle est morte.</l>
+          </sp>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <l>Que nous fait cela ?</l>
+            <l>N’y a pas d’mal à ça. bis.</l>
+            <p>Mais voici Bellerophon : ces Trompettes &amp; ces Timballes nous l’annoncent.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE DERNIERE</head>
+          <stage>BELLEROPHON, les susdits.</stage>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Ah ! Seigneur, que ne vous devons-nous pas ?</p>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellerophon</speaker>
+            <p>Ouf ! voilà un combat qui m’a bien donné de la peine. Vous sçavez sans doute que je suis le fils de Neptune ? il est inutile que Pallas vienne vous l’apprendre.</p>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <p>Quel bonheur ! mon cher Bellerophon.</p>
+          </sp>
+          <sp who="le-roi">
+            <speaker>Le Roy</speaker>
+            <p>Air 62. <hi rend="i">Mariez, mariez, mariez-moi.</hi></p>
+            <l>Allons donnez-vous la main,</l>
+            <l>Je couronne votre flame.</l>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <l>Non, remettons à demain,</l>
+            <l>Car j’ai mes raisons, Madame,</l>
+          </sp>
+          <sp who="philonoe">
+            <speaker>Philonoe’</speaker>
+            <l>Expliquez, expliquez-vous sans détour.</l>
+          </sp>
+          <sp who="bellerophon">
+            <speaker>Bellérophon</speaker>
+            <l>Vaincre un Monstre, &amp; prendre femme,</l>
+            <l>Palsambleu mon petit cœur, mon amour ;</l>
+            <l>Ce seroit trop pour un jour.</l>
+            <p>FIN</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

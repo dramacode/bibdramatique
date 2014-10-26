@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="corneille_inconnu" xml:lang="fr">
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>L'Inconnu?. Comédie mêlée d'ornements</title>
         <author key="Corneille, Thomas (1625-1709)">Thomas Corneille</author>
+        <principal>Georges Forestier</principal>
+        <editor>Oriane Morvan</editor>
       </titleStmt>
       <editionStmt>
-        <edition> Édition critique établie par MORVAN Oriane dans le cadre d'un mémoires de master 1 sous la direction de Georges Forestier (2011-2012)</edition>
+        <edition>Édition critique établie par Oriane Morvan dans le cadre d'un mémoires de master 1 sous la direction de Georges Forestier (2011-2012)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 17e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="184" unit="page"/>
-        <measure quantity="4463" unit="paragraph"/>
-        <measure quantity="54404" unit="word"/>
-        <measure quantity="329840" unit="character"/>
-      </extent>
       <publicationStmt>
-        <publisher>publié par Amélie Canu et Oriane Morvan pour le CELLF 17e-18e</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2014"/>
-        <idno> ?</idno>
         <availability status="restricted">
-          <licence target=" ? ">CELLF 17e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://crht.paris-sorbonne.fr/corneille-thomas_inconnu/</idno>
+        <idno type="tei">http://crht.paris-sorbonne.fr/corneille-thomas_inconnu.xml</idno>
+        <idno type="html">http://crht.paris-sorbonne.fr/corneille-thomas_inconnu.html</idno>
+        <idno type="text">http://crht.paris-sorbonne.fr/corneille-thomas_inconnu.txt</idno>
+        <idno type="epub">http://crht.paris-sorbonne.fr/corneille-thomas_inconnu.epub</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl> ?</bibl>
+        <bibl><author>Thomas Corneille</author>. <title>L'Inconnu?. Comédie mêlée d'ornements</title>. A PARIS Chez JEAN RIBOU, au Palais, dans la Salle Royale, à l’image S.Loüis.AVEC PRIVILEGE DU ROY.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -38,7 +36,7 @@
         <date when="1675"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -1237,7 +1235,6 @@
         <p>Apres avoir fait paroistre dans <hi rend="i">Circé</hi><note n="59" place="bottom"><p><hi rend="i">Circé</hi> est une tragédie ornée de machines de Thomas Corneille et Donneau de Visé. Elle remporta un vif succès et est considérée comme la dernière grande pièce à machines. Elle fut créée au théâtre Guénégaud le 16 mars 1675.</p></note> une partie de ce que le Théatre a de plus <ref target="#pompeux">pompeux*</ref> pour la beauté des Machines ; j’ay crû que le Public ne seroit pas fâché d’estre diverty par les agrémens qu’une matiere <ref target="#galante">galante*</ref> est capable de recevoir. C’est ce qui m’a fait choisir le Sujet de l’<hi rend="i">Inconnu</hi>, où vous ne trouverez point ces grandes Intrigues qui accoûtumé de faire le nœud des Comédies de cette nature, parce que les Ornemens qu’on m’a prestez, demandant beaucoup de temps n’ont pû <ref target="#souffrir">souffrir*</ref> que j’aye poussé ce Sujet dans toute son étenduë. Si ce retranchement d’Incidens est un defaut, il est reparé par quantité de choses agreables qui forment les <ref target="#divertissement">Divertissements*</ref> que l’<hi rend="i">Inconnu</hi> donne à sa Maistresse*. Je me suis servy des noms de la Comtesse, du Marquis, du Chevalier, &amp; du Vicomte, comme s’accommodant mieux à l’oreille, &amp; estant plus de nostre usage que les noms de Roman dont on se sert quelquefois pour les Pieces d’invention<note n="60" place="bottom"><p>Thomas Corneille fait allusion aux noms issus de la pastorale, les Tircis, Philis, Léandre, présents dans presque toutes les comédies depuis une cinquantaine d’années.</p></note>. Vous trouverez icy le cinquiéme Acte plus remply qu’il ne l’est dans la Representation, où le Marquis se contente de promettre la Comedie à la Comtesse. J’en fais un <ref target="#divertissement">Divertissement*</ref> effectif qu’il luy fait donner sur le petit Théatre<note n="61" place="bottom"><p>Petit théâtre : « petite scène, située au-dessus de la scène principale » [<hi rend="i">La Représentation théâtrale en France au XVIIème siècle</hi>, Pierre Pasquier et Anne Surgers, ].</p></note>, sous le titre de l’<hi rend="i">Inconnu</hi>. Il consiste en trois Scenes fort courtes qui regardent l’embarras de Psyché<note n="62" place="bottom"><p>Apulée traite dans ses <hi rend="i">Métamorphoses</hi>, l’histoire de Cupidon et Psyché. Cette légende est fondée sur l’ignorance de Psyché sur l’identité de son amant. Aussi, selon Louis Moreri, « Psyché est une divinité des anciens. Elle incarnait l’âme. On la représentait avec des ailes de Papillon. Psyché et Cupidon contractèrent un mariage ensemble et cet amour fut souvent représenté. » [<hi rend="i">Grand Dictionnaire historique</hi> - édition de 1759] .</p></note> enlevée par l’Amour dans un Palais magnifique, où rien ne manque à ses plaisirs que la satisfaction de connoistre l’<ref target="#amant">Amant*</ref> qui prend soin de les luy procurer ; &amp; comme cet Incident n’éloigne point l’Idée des Festes <ref target="#galante">Galantes*</ref> du Marquis, je m’en sers pour dénoüer plus agreablement l’Avanture de la Comtesse.</p>
       </div>
       <div type="set" xml:id="privilege" n="2">
-        <pb/>
         <head>Extrait du Privilege du Roy.</head>
         <p>Par Grace &amp; Privilege du Roy donné à Versailles le 14. Novembre 1675 ; Signé, Par le Roy en son Conseil, DESVIEUX : Il est permis au Sieur T. CORNEILLE, Ecuyer, Sieur de l’Isle, de faire imprimer, vendre &amp; debiter, par tel Imprimeur ou Libraire qu’il voudra choisir, une Piece de Théatre de sa composition, intitulée L’INCONNU, pendant le temps &amp; espace de huit années, à commencer du jour qu’elle sera achevée d’imprimer pour la première fois ; Avec defenses a toutes Personnes, de quelque qualité &amp; condition qu’elles soient, d’en imprimer ou faire imprimer, vendre &amp; distribuer, en tous les Lieux du Royaume &amp; Terres de l’obeissance, d’autre Edition que de celle du Sieur de Corneille, ou de ceux qui auront droit de luy, à peine de trois mille livres d’amende, payable sans déport par chacun des contrevenans, confiscation des Exemplaires contrefaits, &amp; autres peines plus au long contenuës dans lesdites Lettres.</p>
         <p>Registré sur le Livre de la Communauté des Imprimeurs &amp; Libraires, Signé THIERRY, Syndic.</p>
@@ -1245,7 +1242,6 @@
         <label rend="center i">Le 17. jour de Janvier 1676.</label>
       </div>
       <div type="set" xml:id="acteurs-prologue" n="3">
-        <pb/>
         <head>ACTEURS DU PROLOGUE.</head>
         <castList>
           <castItem>
@@ -1266,11 +1262,11 @@
           <castItem>
             <role xml:id="olimpe">OLIMPE, </role>
             <roleDesc>aimée du Chevalier.</roleDesc>
-            </castItem>
+          </castItem>
           <castItem>
-          <role xml:id="le-marquis">LE MARQUIS, </role>
+            <role xml:id="le-marquis">LE MARQUIS, </role>
             <roleDesc><ref target="#amant">Amant*</ref> de la Comtesse.</roleDesc>
-            </castItem>
+          </castItem>
           <castItem>
             <role xml:id="le-chevalier">LE CHEVALIER, </role>
             <roleDesc><ref target="#amant">Amant*</ref> d’Olimpe.</roleDesc>
@@ -1300,52 +1296,52 @@
             <roleDesc>Laquais de la Comtesse.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="le-comedien"></role>
+            <role xml:id="le-comedien"/>
           </castItem>
           <castItem>
-            <role xml:id="bohemienne"></role>
+            <role xml:id="bohemienne"/>
           </castItem>
           <castItem>
-            <role xml:id="le-more"></role>
+            <role xml:id="le-more"/>
           </castItem>
           <castItem>
-            <role xml:id="le-maure"></role>
+            <role xml:id="le-maure"/>
           </castItem>
           <castItem>
-            <role xml:id="la-femme-maure"></role>
+            <role xml:id="la-femme-maure"/>
           </castItem>
           <castItem>
-            <role xml:id="nc"></role>
+            <role xml:id="nc"/>
           </castItem>
           <castItem>
-            <role xml:id="alcidon"></role>
+            <role xml:id="alcidon"/>
           </castItem>
           <castItem>
-            <role xml:id="aminte"></role>
+            <role xml:id="aminte"/>
           </castItem>
           <castItem>
-            <role xml:id="petit-bohemien"></role>
+            <role xml:id="petit-bohemien"/>
           </castItem>
           <castItem>
-            <role xml:id="comus"></role>
+            <role xml:id="comus"/>
           </castItem>
           <castItem>
-            <role xml:id="la-jeunesse"></role>
+            <role xml:id="la-jeunesse"/>
           </castItem>
           <castItem>
-            <role xml:id="petite-bohemienne"></role>
+            <role xml:id="petite-bohemienne"/>
           </castItem>
           <castItem>
-            <role xml:id="vertumne"></role>
+            <role xml:id="vertumne"/>
           </castItem>
           <castItem>
-            <role xml:id="pomone"></role>
+            <role xml:id="pomone"/>
           </castItem>
           <castItem>
-            <role xml:id="la-nymphe"></role>
+            <role xml:id="la-nymphe"/>
           </castItem>
           <castItem>
-            <role xml:id="le-berger"></role>
+            <role xml:id="le-berger"/>
           </castItem>
         </castList>
       </div>
@@ -1370,7 +1366,6 @@
         <stage>La Scene est dans le Chasteau de la Comtesse.</stage>
       </div>
       <div type="set" xml:id="decoration-prologue" n="6">
-        <pb/>
         <head>DECORATION du Prologue.</head>
         <stage>La Décoration est une Montagne toute de rocher, aux costez de laquelle on découvre plusieurs Arbres, avec cette diférence, que les Montagnes qui ont esté veuës jusqu’icy au Théatre, sont d’une peinture plate qui représente le relief, &amp; que celle cy est d’un relief effectif<note n="63" place="bottom"><p>Pour plus d’information sur les décors de théâtre au XVIIème siècle, se référer à l’introduction.</p></note>. C’est en ce lieu que Thalie<note n="64" place="bottom"><p>« Thalie est l’une des neuf muses. Elle préside à la comédie et est représentée couronnée d’une guirlande de lierre, tenant un masque à la main, avec des brodequins pour chaussure. » [<hi rend="i">Grand Dinctionnaire historique</hi> de Louis Moreri] .</p></note>, qui est celle des Muses qui préside à la Comédie, rencontre le Génie de la France<note n="65" place="bottom"><p>« Le Génie de la France est un être spirituel que les anciens païens croyaient avoir soin de la personne, de la chose ou du lieu où il s’était attaché. Selon la superstition chaque homme avait son génie, mais aussi les arbres, les fontaines, les maisons, les villes et les royaumes. » [<hi rend="i">ibidem</hi>] .</p></note>, avec qui elle s’estoit déjà déclarée sur la peine où elle se trouvoit touchant quelque Nouveauté qu’elle avoit <ref target="#dessein">dessein*</ref> de faire paroistre, &amp; comme elle ne pouvoit sortir de cet embarras par elle-mesme, elle luy adresse les Paroles suivantes.</stage>
         <label rend="center b">L’INCONNU.<pb n="A, 1"/><lb/>COMEDIE.</label>
@@ -1483,7 +1478,7 @@
           <l n="67" xml:id="l67"><space>     </space>Suivent les tons ravissans</l>
           <l n="68" xml:id="l68"><space>     </space>De quelque Nymphe champestre.</l>
         </sp>
-          <stage>En mesme temps on voit deux morceaux de Rocher se changer en une Nymphe &amp; un Berger ; ils s’avancent &amp; chantent les Paroles qui suivent.</stage>
+        <stage>En mesme temps on voit deux morceaux de Rocher se changer en une Nymphe &amp; un Berger ; ils s’avancent &amp; chantent les Paroles qui suivent.</stage>
         <sp who="la-nymphe">
           <speaker><hi rend="i">CHANSON DE</hi> LA NYMPHE.</speaker>
           <l n="69" xml:id="l69"><space/><space/>Amans* qui vous rebutez                </l>
@@ -1496,12 +1491,12 @@
           <l n="76" xml:id="l76">C’est une cruelle gesne ;</l>
           <l n="77" xml:id="l77">Mais regardez-en le fruit,</l>
           <l n="78" xml:id="l78">Vous en aimerez la peine.</l>
-        </sp>  
-          <sp who="le-berger">
-            <speaker><hi rend="i">CHANSON DU</hi> BERGER.</speaker>
+        </sp>
+        <sp who="le-berger">
+          <speaker><hi rend="i">CHANSON DU</hi> BERGER.</speaker>
           <l n="79" xml:id="l79"><space/><space/>Quand on differe à se rendre,                     </l>
           <l n="80" rend="i" xml:id="l80">Une Belle peut prendre </l>
-          <l n="81" xml:id="l81">De la <ref target="#fierte"></ref>fierté* ;</l>
+          <l n="81" xml:id="l81">De la <ref target="#fierte"/>fierté* ;</l>
           <l n="82" xml:id="l82">Mais contre un  tendre</l>
           <l n="83" xml:id="l83">Pourquoy défendre</l>
           <l n="84" xml:id="l84">Sa liberté ?</l>
@@ -2189,7 +2184,7 @@
             <l n="413" xml:id="l413">Non, ces sortes d’Amans*…Mais qu’est-ce que je voy,</l>
             <l n="414" xml:id="l414"><space/><space/>Madame…                            </l>
           </sp>
-          <pb n="22"/>    
+          <pb n="22"/>
         </div>
         <div type="scene">
           <head>SCENE VI.                    </head>
@@ -2247,7 +2242,7 @@
           <label>DIALOGUE DE L’AMOUR ET DE LA JEUNESSE.<note n="84" place="bottom"><p>1<hi rend="sup">er</hi> divertissement offert à la Comtesse : chaque introduction d’un intermède dans la pièce s’accompagne d’une modification de la versification  qui s’exprime  par une irrégularité dans la longueur des vers. Par respect de l’édition originale, nous avons respecté  la taille des caractères ainsi que la police qui était utilisées, d’où le changement de mise en page.</p></note></label>
           <sp who="la-jeunesse">
             <speaker>LA JEUNESSE.</speaker>
-            <l n="431" xml:id="l431" rend="i"><space></space>Quoy que vous nous voyiez ensemble,                </l>
+            <l n="431" xml:id="l431" rend="i"><space/>Quoy que vous nous voyiez ensemble,                </l>
             <l n="432" xml:id="l432">C’est assez rarement que nous sommes d’accord.</l>
           </sp>
           <sp who="l-amour">
@@ -2337,7 +2332,10 @@
           </sp>
           <sp who="l-amour">
             <speaker>L’AMOUR.</speaker>
-            <l n="487" xml:id="l487"><space>     </space><hi rend="i">Songez-y bien, j’appréhende pour vous.</hi> </l>
+            <l n="487" xml:id="l487">
+              <space>     </space>
+              <hi rend="i">Songez-y bien, j’appréhende pour vous.</hi>
+            </l>
           </sp>
           <sp who="la-jeunesse">
             <speaker>LA JEUNESSE.</speaker>
@@ -2397,7 +2395,7 @@
             <l n="525" xml:id="l525" rend="i">Hora uccide, hora dà vita,</l>
             <l n="526" xml:id="l526">Al mio cuore</l>
             <l n="527" xml:id="l527">Che si muore</l>
-            <l n="528" xml:id="l528" rend="i"><space>    </space>Deh, pietofi date aita.<note n="87" place="bottom"><p>Yeux noirs, dont la splendeur/Par moment tue, par moment donne la vie, /A mon /Qui se meurt/De grâce, compatissants, venez au secours/Ce soleil de jeunesse qui en vous resplendit, /Ces rayons rieurs dont chacun s’éclaire, /Vous enseignent la pitié, non pas la rigueur./Yeux noirs, dont la splendeur/Par moment tue, par moment donne la vie, /A mon /Qui se meurt/De grâce, compatissants, venez au secours/Avec des regards flatteurs, des flèches de feu/Beaux yeux, dans la poitrine vous m’avez frappé, /Si un secours courtois vous ne m’offrez pas, /Hélas, je vais mourir peu à peu./Allez, allez, que faites vous donc/Pupilles adorées ? /Avec un regard amoureux, /Et non dédaigneux/La plaie guérissez/D’une âme blessée./Aïe que trop vous tardez./De grâce pourquoi ne regardez-vous pas/Que déjà dans mon sein l’esprit s’affaiblit, /Et qu’il est sur le point de s’en aller./Yeux noirs, dont la splendeur/Par moment tue, par moment donne la vie, /A mon /Qui se meurt/De grâce compatissants, venez au secours.</p></note> </l>
+            <l n="528" xml:id="l528" rend="i"><space>    </space>Deh, pietofi date aita.<note n="87" place="bottom"><p>Yeux noirs, dont la splendeur/Par moment tue, par moment donne la vie, /A mon /Qui se meurt/De grâce, compatissants, venez au secours/Ce soleil de jeunesse qui en vous resplendit, /Ces rayons rieurs dont chacun s’éclaire, /Vous enseignent la pitié, non pas la rigueur./Yeux noirs, dont la splendeur/Par moment tue, par moment donne la vie, /A mon /Qui se meurt/De grâce, compatissants, venez au secours/Avec des regards flatteurs, des flèches de feu/Beaux yeux, dans la poitrine vous m’avez frappé, /Si un secours courtois vous ne m’offrez pas, /Hélas, je vais mourir peu à peu./Allez, allez, que faites vous donc/Pupilles adorées ? /Avec un regard amoureux, /Et non dédaigneux/La plaie guérissez/D’une âme blessée./Aïe que trop vous tardez./De grâce pourquoi ne regardez-vous pas/Que déjà dans mon sein l’esprit s’affaiblit, /Et qu’il est sur le point de s’en aller./Yeux noirs, dont la splendeur/Par moment tue, par moment donne la vie, /A mon /Qui se meurt/De grâce compatissants, venez au secours.</p></note></l>
           </sp>
           <sp who="olimpe">
             <speaker>OLIMPE.</speaker>
@@ -2503,8 +2501,8 @@
             <l part="Y"><space>                                                     </space>Laissez-moy faire,</l>
             <l n="571" xml:id="l571"><space/><space/>En <ref target="#badiner">badinant*</ref> je les feray jaser.                </l>
           </sp>
-            <label>Fin du Premier Acte.</label>
-            <pb n="30"/>
+          <label>Fin du Premier Acte.</label>
+          <pb n="30"/>
         </div>
       </div>
       <div type="acte" xml:id="acte-2">
@@ -3007,7 +3005,7 @@
           </sp>
           <sp who="le-marquis">
             <speaker>LE MARQUIS.</speaker>
-            <l n="796" xml:id="l796">Vous pouvez l’écouter, voicy son Interprete.</l>        
+            <l n="796" xml:id="l796">Vous pouvez l’écouter, voicy son Interprete.</l>
           </sp>
           <pb n="42"/>
         </div>
@@ -3170,9 +3168,9 @@
             <l n="861" xml:id="l861">Qu’ainsi que Pomone<note n="108" place="bottom"><p>« Pomone est la déesse des jardins et des fruits ». [<hi rend="i">Ibidem</hi>] .</p></note> il s’appreste</l>
             <l n="862" xml:id="l862">A raisonner sur son employ.</l>
           </sp>
-            <stage>Pomone &amp; Vertumne s’avancent, &amp; chantent</stage>
-            <stage>le Dialogue qui suit.</stage>
-            <label>DIALOGUE DE VERTUMNE ET DE POMONE.</label>
+          <stage>Pomone &amp; Vertumne s’avancent, &amp; chantent</stage>
+          <stage>le Dialogue qui suit.</stage>
+          <label>DIALOGUE DE VERTUMNE ET DE POMONE.</label>
           <sp who="vertumne">
             <speaker>VERTUMNE.</speaker>
             <l n="863" xml:id="l863"><space/>De quel <ref target="#chagrin">chagrin*</ref>, Pomone, as-tu l’ame saisie ?    </l>
@@ -3588,7 +3586,7 @@
             <speaker>VIRGINE.</speaker>
             <l n="1060" xml:id="l1060">Vous en rirez.</l>
           </sp>
-            <pb n="57"></pb>
+          <pb n="57"/>
         </div>
         <div type="scene">
           <head>SCENE III.</head>
@@ -4025,7 +4023,7 @@
             <l n="1242" xml:id="l1242">Vous estes fine, fine, &amp; vous ne dites pas</l>
             <l n="1243" xml:id="l1243"><space/><space/>Tout ce que vous avez dans l’ame.                            </l>
             <l n="1244" xml:id="l1244">Un <ref target="#amant">Amant*</ref> déclaré brule pour vos appas ;</l>
-            <l n="1245" xml:id="l1245"><space/><space>  </space>Mais comme un autre en secret vous <ref target="#enflamer"></ref>enflame*,            </l>
+            <l n="1245" xml:id="l1245"><space/><space>  </space>Mais comme un autre en secret vous <ref target="#enflamer"/>enflame*,            </l>
             <l n="1246" xml:id="l1246">De ce premier, ma bonne Dame,</l>
             <l n="1247" xml:id="l1247">Vous avez peine à faire cas.</l>
           </sp>
@@ -4051,7 +4049,7 @@
             <l n="1256" xml:id="l1256">Voyons. Quel passe-temps plus doux pouroit s’ofrir ?</l>
           </sp>
           <stage>La petite Bohemienne danse, &amp; apres qu’elle<lb/>a dansé, une Bohemienne chante les deux</stage>
-            <stage>Couplets suivans sur l’Air de la Sarabande.</stage>
+          <stage>Couplets suivans sur l’Air de la Sarabande.</stage>
           <sp who="bohemienne">
             <speaker><hi rend="i">CHANSON DE</hi> LA BOHEMIENNE.</speaker>
             <l n="1257" xml:id="l1257">Il faut aimer, c’est un mal nécessaire</l>
@@ -4217,8 +4215,8 @@
             <l n="1334" xml:id="l1334">Cherchons à le forcer de se faire connoistre ;</l>
             <l n="1335" xml:id="l1335"><space/><space/>L’Avanture embarasse, &amp; j’en veux voir la fin.                </l>
           </sp>
-            <label>Fin du Troisième Acte.</label>
-              <pb n="72"/>
+          <label>Fin du Troisième Acte.</label>
+          <pb n="72"/>
         </div>
       </div>
       <div type="acte" xml:id="acte-4">
@@ -4369,7 +4367,7 @@
             <l n="1400" xml:id="l1400"><space/>Chevalier, je ne sçay si je me fais entendre,                </l>
             <l n="1401" xml:id="l1401">Mais le nœud de l’Intrigue est facile à comprendre ;</l>
             <l n="1402" xml:id="l1402">Olimpe &amp; le Marquis, l’un de l’autre charmez,</l>
-            <l n="1403" xml:id="l1403">Me craignent pour obstacle à leurs cœurs <ref target="#enflamer"></ref>enflamez.</l>
+            <l n="1403" xml:id="l1403">Me craignent pour obstacle à leurs cœurs <ref target="#enflamer"/>enflamez.</l>
           </sp>
           <sp who="le-chevalier">
             <speaker>LE CHEVALIER.</speaker>
@@ -4989,12 +4987,12 @@
             <speaker>LE COMEDIEN.</speaker>
             <l part="Y"><space/><space>                    </space><space>         </space>Il est fort estimé.</l>
           </sp>
-            <label>DIALOGUE D’ALCIDON ET D’AMINTE.</label>
+          <label>DIALOGUE D’ALCIDON ET D’AMINTE.</label>
           <sp who="alcidon">
             <speaker>ALCIDON.</speaker>
             <l n="1628" xml:id="l1628"><space/><space/>Quoy, vous aimez ailleurs ? vous pouvez me haïr ?        </l>
             <l n="1629" xml:id="l1629">A des ordres cruels vous voulez obéir,</l>
-            <l n="1630" xml:id="l1630" rend="i"><space></space>Et sans pitié de l’ennuy qui me presse,</l>
+            <l n="1630" xml:id="l1630" rend="i"><space/>Et sans pitié de l’ennuy qui me presse,</l>
             <l n="1631" xml:id="l1631">Vous oubliez cette tendresse</l>
             <l n="1632" xml:id="l1632">Que vous m’avez juré de ne jamais trahir ?</l>
             <l n="1633" xml:id="l1633"><space/>Vous gardez le silence ? ah c’est assez me dire,    </l>
@@ -5044,7 +5042,7 @@
           </sp>
           <sp who="alcidon">
             <speaker>ALCIDON.</speaker>
-            <l n="1656" xml:id="l1656" rend="i"><space></space>Qui ne craint point de perdre ce qu’il aime,</l>
+            <l n="1656" xml:id="l1656" rend="i"><space/>Qui ne craint point de perdre ce qu’il aime,</l>
             <l n="1657" rend="i" xml:id="l1657">Sçait peu ce que c’est que d’aimer. </l>
             <stage>Tous les deux ensemble.</stage>
             <l n="1658" xml:id="l1658">Aimons-nous à jamais, aimons ; &amp; si l’envie</l>
@@ -5071,7 +5069,7 @@
             <l n="1667" xml:id="l1667">Nostre jeune Mourante a la mine friponne.</l>
             <l n="1668" xml:id="l1668"><space/>Ҫa, point de tons dolens, je ne les puis soufrir ;    </l>
             <l n="1669" xml:id="l1669">Sur tout plus de <hi rend="i">Mourons</hi>, j’en ay pensé mourir.</l>
-            </sp>
+          </sp>
           <sp who="nc">
             <speaker>CHANSON.</speaker>
             <l n="1670" xml:id="l1670"><space/><space/>Quand l’Amour nous attire,                        </l>
@@ -5210,7 +5208,7 @@
             <speaker>LE MARQUIS.</speaker>
             <l part="Y"><space>                                             </space>Je veux ce qui vous plaist.</l>
           </sp>
-            <label>Fin du Quatrième Acte.</label>
+          <label>Fin du Quatrième Acte.</label>
           <pb n="94"/>
         </div>
       </div>
@@ -5489,7 +5487,10 @@
           <sp who="le-vicomte">
             <speaker>LE VICOMTE.</speaker>
             <l part="Y"><space>                                  </space>Et cet autre qui chante,</l>
-            <l n="1818" xml:id="l1818"><space>                                                                        </space><hi rend="i">Fa, sol, fa, sol, fa re, mi, fa.</hi> </l>
+            <l n="1818" xml:id="l1818">
+              <space>                                                                        </space>
+              <hi rend="i">Fa, sol, fa, sol, fa re, mi, fa.</hi>
+            </l>
             <l n="1819" xml:id="l1819">Quand il entonne ainsi son <hi rend="i">re, mi, fa</hi>, je ris…</l>
           </sp>
           <sp who="la-comtesse">
@@ -5539,9 +5540,7 @@
             <l n="1832" xml:id="l1832">Les Troupes de Paris auroient le nez cassé.</l>
           </sp>
           <sp who="le-maure">
-            <speaker>UN MAURE <note n="161" place="bottom"><p>Ici, nous retrouvons le chanteur, plus une chanteuse, spécifique aux intermèdes que nous avons rencontrés dans la scène 6 de l’Acte I. Cf. note</p></note><hi rend="i">paroist sur le petit Théatre &amp; chante ces Vers.<note n="162" place="bottom">       
-              <p>Le 5<hi rend="sup">ème</hi>  et dernier divertissement pour la Comtesse débute. Cf.note p. 26 et p. 30.</p>
-            </note></hi></speaker>
+            <speaker>UN MAURE <note n="161" place="bottom"><p>Ici, nous retrouvons le chanteur, plus une chanteuse, spécifique aux intermèdes que nous avons rencontrés dans la scène 6 de l’Acte I. Cf. note</p></note><hi rend="i">paroist sur le petit Théatre &amp; chante ces Vers.<note n="162" place="bottom"><p>Le 5<hi rend="sup">ème</hi>  et dernier divertissement pour la Comtesse débute. Cf.note p. 26 et p. 30.</p></note></hi></speaker>
             <l n="1833" xml:id="l1833">Amour, à qui tout est possible,</l>
             <l n="1834" xml:id="l1834"><ref target="#enflamer">Enflame*</ref>, anime tout ; &amp; pour mieux faire voir</l>
             <l n="1835" xml:id="l1835">Qu’il n’est rien pour toy d’invincible,</l>
@@ -6089,49 +6088,49 @@
             <speaker>LE MARQUIS.</speaker>
             <l part="Y"><space>           </space>Puisse l’Amour ne nous quiter jamais.</l>
           </sp>
-            <label>FIN.</label>
-              <pb n="113"/>
-            <label>CHANSON.<note n="176" place="bottom"><p>Cette seconde fin est une fin alternative de la pièce. Voir Préface « Une triple fin »</p></note></label>
-            <l n="2056" xml:id="l2056">Si Claudine</l>
-            <l n="2057" xml:id="l2057">Ma voisine</l>
-            <l n="2058" rend="i" xml:id="l2058">S’imagine </l>
-            <l n="2059" rend="i" xml:id="l2059">Sur ma mine                                <space/> </l>
-            <l n="2060" xml:id="l2060">Que je ne suis bon à rien,</l>
-            <l n="2061" xml:id="l2061">Qu’en cachette</l>
-            <l n="2062" xml:id="l2062">La Folette</l>
-            <l n="2063" rend="i" xml:id="l2063">Me permette </l>
+          <label>FIN.</label>
+          <pb n="113"/>
+          <label>CHANSON.<note n="176" place="bottom"><p>Cette seconde fin est une fin alternative de la pièce. Voir Préface « Une triple fin »</p></note></label>
+          <l n="2056" xml:id="l2056">Si Claudine</l>
+          <l n="2057" xml:id="l2057">Ma voisine</l>
+          <l n="2058" rend="i" xml:id="l2058">S’imagine </l>
+          <l n="2059" rend="i" xml:id="l2059">Sur ma mine                                <space/> </l>
+          <l n="2060" xml:id="l2060">Que je ne suis bon à rien,</l>
+          <l n="2061" xml:id="l2061">Qu’en cachette</l>
+          <l n="2062" xml:id="l2062">La Folette</l>
+          <l n="2063" rend="i" xml:id="l2063">Me permette </l>
           <l n="2064" xml:id="l2064" rend="i"><space>  </space>La Fleurette<note n="177" place="bottom"><p>« Cajoleries amoureuses. Galanteries qu’on dit à une Dame. » [Richelet, 1680]</p></note>,                        </l>
-            <l n="2065" xml:id="l2065">Elle s’en trouvera bien.</l>
+          <l n="2065" xml:id="l2065">Elle s’en trouvera bien.</l>
           <stage>Après cette chanson Colin prie la Comtesse de danser, &amp; est enfin reduit de danser luy seul. Le Païsan &amp; le Suisse yvre luy succedent ; &amp; ensuite le Vicomte dans son enjoüement ridicule <ref target="#badiner">badine*</ref> avec une Paisanne <ref target="#bavolet">Bavolette*</ref> qui le rebutte en chantant l’air suivant.</stage>
-            <label>AIR DE LA PAYSANNE.</label>
+          <label>AIR DE LA PAYSANNE.</label>
           <l n="2066" xml:id="l2066">Ne frippez paon mon <ref target="#bavolet">bavolet*</ref>,</l>
-            <l n="2067" xml:id="l2067">C’est aujourdy Dimanche. <space>      </space>Bis.</l>
-            <l n="2068" xml:id="l2068"><space/><hi rend="i">Je vous le dis tout net</hi>,                            </l>
-            <l n="2069" xml:id="l2069">J’ay des épingues su ma manche ;</l>
-            <l n="2070" xml:id="l2070">Ma main pese autant qu’al est blanche,</l>
-            <l n="2071" xml:id="l2071">Et vous gaigneriez un soufflet,</l>
-            <l n="2072" xml:id="l2072">Ne frippez poan, &amp;…</l>
-            <l n="2073" xml:id="l2073"><space/><hi rend="i">Attendez à demain que je vaze à la Ville</hi>,                    </l>
-            <l n="2074" xml:id="l2074"><space/><space/>J’auray mes vieux habits,                </l>
-            <l n="2075" xml:id="l2075">Et les Lundis</l>
-            <l n="2076" xml:id="l2076"><space/><space/>Je ne fis pas si difficille.                    </l>
-            <l n="2077" xml:id="l2077"><space/><hi rend="i">Mais à present</hi>     <pb n="114"/>  </l>
-            <l n="2078" xml:id="l2078">Tout franc</l>
-            <l n="2079" xml:id="l2079">Si vous faites l’impartinent,</l>
-            <l n="2080" xml:id="l2080">Si vous gastez mon linge blanc,</l>
-            <l n="2081" xml:id="l2081"><space/><space/>Je vous barray comme il faut de la haste.            </l>
-            <l n="2082" xml:id="l2082">Je vous battray,</l>
-            <l n="2083" xml:id="l2083"><hi rend="i">Pinceray</hi>,    </l>
-            <l n="2084" xml:id="l2084"><space/><space/>Piqueray,                    </l>
-            <l n="2085" xml:id="l2085">Je vous moudray,</l>
-            <l n="2086" xml:id="l2086"><hi rend="i">Grugeray</hi><note n="178" place="bottom"><p>« Mot burlesque pour dire manger. » [Richelet, 1680]</p></note>,</l>
-            <l n="2087" xml:id="l2087"><hi rend="i">Pilleray</hi>,</l>
-            <l n="2088" xml:id="l2088"><hi rend="i">Menu, menu, menu la char en paste</hi> ;</l>
-            <l n="2089" xml:id="l2089"><space/><space/>Oum voyez-vous, j’ avons une taribe taste            </l>
-            <l n="2090" xml:id="l2090"><space>    </space>Que je cachons sous noute bounet,</l>
-            <l n="2091" xml:id="l2091"><space>    </space>Ne frippez paon, &amp;…</l>
+          <l n="2067" xml:id="l2067">C’est aujourdy Dimanche. <space>      </space>Bis.</l>
+          <l n="2068" xml:id="l2068"><space/><hi rend="i">Je vous le dis tout net</hi>,                            </l>
+          <l n="2069" xml:id="l2069">J’ay des épingues su ma manche ;</l>
+          <l n="2070" xml:id="l2070">Ma main pese autant qu’al est blanche,</l>
+          <l n="2071" xml:id="l2071">Et vous gaigneriez un soufflet,</l>
+          <l n="2072" xml:id="l2072">Ne frippez poan, &amp;…</l>
+          <l n="2073" xml:id="l2073"><space/><hi rend="i">Attendez à demain que je vaze à la Ville</hi>,                    </l>
+          <l n="2074" xml:id="l2074"><space/><space/>J’auray mes vieux habits,                </l>
+          <l n="2075" xml:id="l2075">Et les Lundis</l>
+          <l n="2076" xml:id="l2076"><space/><space/>Je ne fis pas si difficille.                    </l>
+          <l n="2077" xml:id="l2077"><space/><hi rend="i">Mais à present</hi>     <pb n="114"/>  </l>
+          <l n="2078" xml:id="l2078">Tout franc</l>
+          <l n="2079" xml:id="l2079">Si vous faites l’impartinent,</l>
+          <l n="2080" xml:id="l2080">Si vous gastez mon linge blanc,</l>
+          <l n="2081" xml:id="l2081"><space/><space/>Je vous barray comme il faut de la haste.            </l>
+          <l n="2082" xml:id="l2082">Je vous battray,</l>
+          <l n="2083" xml:id="l2083"><hi rend="i">Pinceray</hi>,    </l>
+          <l n="2084" xml:id="l2084"><space/><space/>Piqueray,                    </l>
+          <l n="2085" xml:id="l2085">Je vous moudray,</l>
+          <l n="2086" xml:id="l2086"><hi rend="i">Grugeray</hi><note n="178" place="bottom"><p>« Mot burlesque pour dire manger. » [Richelet, 1680]</p></note>,</l>
+          <l n="2087" xml:id="l2087"><hi rend="i">Pilleray</hi>,</l>
+          <l n="2088" xml:id="l2088"><hi rend="i">Menu, menu, menu la char en paste</hi> ;</l>
+          <l n="2089" xml:id="l2089"><space/><space/>Oum voyez-vous, j’ avons une taribe taste            </l>
+          <l n="2090" xml:id="l2090"><space>    </space>Que je cachons sous noute bounet,</l>
+          <l n="2091" xml:id="l2091"><space>    </space>Ne frippez paon, &amp;…</l>
           <stage>Cette chanson finie, les Conviez font les presens que la coûtume engage de faire aux mariez, &amp; toute la troupe se retire à la reserve de la Montagne qui estoit déguisé, &amp; qui est arresté par le Vicomte, &amp; reconnu pour estre le Grosset Basset, qu’il a trouvé dans le bois sous la tente : de sorte que le Vicomte &amp; le Chevalier le pre<anchor xml:id="_GoBack"/>ssant de declarer qui est l’Inconnu, il tire de sa poche un portrait qu’il donne à la Comtesse, qui reconnoist estre celuy du Marquis, ce qui ne donne pas peu d’étonnement à la Compagnie, &amp; oblige enfin la Comtesse à donner sa <ref target="#foy">foy*</ref> au Marquis pour recompenser sa perseverance. Olympe ne voyant point d’autre party à prendre que celuy de se rendre à l’amour du Chevalier, luy donne aussi la sienne, &amp; le Vicomte se retire brusquement, en disant qu’il abandonnera le soin des procez de la Comtesse.</stage>
-            <label>FIN.</label> 
+          <label>FIN.</label>
         </div>
       </div>
     </body>
@@ -6147,7 +6146,7 @@
             <item>- <hi rend="i">Dictionnaire françois contenant les mots et les choses, plusieurs nouvelles remarques sur la langue françoise…avec les termes les plus connus des arts et des sciences</hi>, de Pierre Richelet.</item>
           </list>
           <p>La source utilisée pour une édition sera indiquée entre crochets.</p>
-          <entryFree xml:id ="abuser">
+          <entryFree xml:id="abuser">
             <form>ABUSER (s’)</form>
             <def>« Se tromper. » [Richelet] </def>
             <xr>v.577, 1732</xr>
@@ -6383,8 +6382,8 @@
           </entryFree>
           <entryFree xml:id="hazard">
             <form>HAZARD</form>
-            <def>« Peril, risque. ».</def> 
-              <xr>v.385, 1166</xr>
+            <def>« Peril, risque. ».</def>
+            <xr>v.385, 1166</xr>
             <def>PAR HAZARD « Par accident, fortuitement. » [<hi rend="i">Hasard</hi> dans Furetière] </def>
             <xr>v.122, 797, 1274</xr>
           </entryFree>
@@ -6415,17 +6414,17 @@
           </entryFree>
           <entryFree xml:id="incommode">
             <form>INCOMMODE</form>
-          <def>« Importun, fàcheux, qui aporte de l’incommodité. » [Richelet]</def>
-          <xr>v. 1081</xr>
+            <def>« Importun, fàcheux, qui aporte de l’incommodité. » [Richelet]</def>
+            <xr>v. 1081</xr>
           </entryFree>
           <entryFree xml:id="ingenu">
             <form>INGENU</form>
-          <def>« Franc, sincere, naïf jusques à la simplicité. » [Richelet] </def>
-          <xr>v.1806, 1879</xr>
+            <def>« Franc, sincere, naïf jusques à la simplicité. » [Richelet] </def>
+            <xr>v.1806, 1879</xr>
           </entryFree>
           <entryFree xml:id="interesser">
             <form>INTERESSER</form>
-          <def>« Donner part à quelqu’un en quelque chose d’utile, faire qu’il y trouve du profit. » [Académie]</def>
+            <def>« Donner part à quelqu’un en quelque chose d’utile, faire qu’il y trouve du profit. » [Académie]</def>
             <xr>v. 562</xr>
           </entryFree>
           <entryFree xml:id="maistresse">
@@ -6504,7 +6503,6 @@
           </entryFree>
         </div>
         <div>
-          <pb/>
           <head>Bibliographie</head>
           <div>
             <head>Sources</head>

@@ -29,7 +29,7 @@ else echo '<title>Bibliothèque dramatique</title>';
     <div id="center">
       <header id="header">
         <h1>
-           <a href="<?php echo Web::basehref() ?>">Bibliothèque dramatique</a><span style="width: 20px; white-space: nowrap;"></span>|<span style="width:20px; white-space: nowrap;"></span><a href="http://cellf.paris-sorbonne.fr">Le CELLF</a>
+           <a href="<?php echo Web::basehref() ?>">Bibliothèque dramatique</a>  |  <a href="http://cellf.paris-sorbonne.fr">Le CELLF</a>
           
         </h1>
         <?php // liens de téléchargements
@@ -45,10 +45,12 @@ if (isset($doc['breadcrumb'])) echo $doc['breadcrumb'];
       </nav>
       <div id="article">
       <?php
-if (isset($doc['body'])) {
-  echo $doc['body'];
+if (isset($doc['bookname'])) {
+  
+  if (isset($doc['body'])) echo $doc['body'];
+  else {}; // bug back
   // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
-  if ($pot->q && (!$doc['artname'] || $doc['artname']=='index')) echo $pot->concBook($doc['bookid']);
+  if ($pot->q && (!$doc['artname'] || $doc['artname']=='index')) echo $pot->concBook($doc['bookname']);
 }
 // pas de livre demandé, montrer un rapport général
 else {
@@ -71,7 +73,7 @@ else {
         <p> </p>
           <?php
 // livre
-if (isset($doc['bookid'])) {
+if (isset($doc['bookname'])) {
   echo "\n<nav>";
   // auteur, titre, date
   if ($doc['byline']) $doc['byline']=$doc['byline'].'<br/>';
