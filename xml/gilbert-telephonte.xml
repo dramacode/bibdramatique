@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="gilbert-telephonte">
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Téléphonte. Tragi-comédie</title>
-        <author>Gabriel Gilbert</author>
+        <title>Téléphonte. Tragi-comédie</title>
+        <author key="Gilbert, Gabriel (1620?-1680?)">Gabriel Gilbert</author>
+        <principal>Georges Forestier</principal>
         <editor>Amaïa Chuburu</editor>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par Amaïa Chuburu dans le cadre d'un mémoire de
           master 1 sous la direction de Georges Forestier (2011)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2014"/>
         <idno>?</idno>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl>Gabriel Gilbert, <title>Téléphonte. Tragi-comédie</title>, Paris, Chez Toussaint Quinet, 1642.</bibl>
+        <bibl><ref target="http://gallica.bnf.fr/ark:/12148/bpt6k5448678k">http://gallica.bnf.fr/ark:/12148/bpt6k5448678k</ref></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -755,7 +754,7 @@
           <head>Personnages</head>
           <castList>
           <castItem>
-            <role xml:id="hermocrate">HERMOCRATE, </role>
+            <role xml:id="le-tyran">HERMOCRATE, </role>
             <roleDesc>Tyran de Micene.</roleDesc>
           </castItem>
           <castItem>
@@ -786,6 +785,16 @@
             <role xml:id="orphise">ORPHISE,</role>
             <roleDesc>Confidente de Philoclée.</roleDesc>
           </castItem>
+            <castItem>
+              <role xml:id="amynthor"></role>
+            </castItem>
+            <castItem>
+              <role xml:id="tyndare"></role>
+            </castItem>
+            <castItem>
+              <role xml:id="tydee"></role>
+              <role xml:id="thoas"></role>
+            </castItem>
           </castList>
           <stage>La Scene est à Micene<note n="153" place="bottom"> Moreri donne : <hi rend="i">« ancienne ville du Péloponnèse, n’est présentement qu’un petit bourg de la Morée, dans la province de Belvédere. Elle étoit capitale du pays de Messènie, extrêmement fertile, comme nous l’apprenons d’Ovide, L.6 Métamorphoses. Les Messeniens soutinrent souvent des guerres très considérables. Celle qu’ils eurent contre les Lacédémoniens est célèbre. »</hi> Moreri n’évoque pas l’assassinat de Cresphonte et la vengeance de Téléphonte dans cette notice.</note> dans le Peloponese.</stage>
         </div>
@@ -1303,7 +1312,7 @@
               <l n="300" xml:id="l300">Et tâcher de fléchir les Manes irritez :</l>
               <l n="301" xml:id="l301">Que Chrysante, Amynthor, donne ordre au sacrifice.</l>
             </sp>
-            <sp who="amynthor-dans-les-editions-de-1642-et-de-1643">
+            <sp who="amynthor">
               <speaker>AMYNTHOR<note n="223" place="bottom"> Dans les éditions de 1642 et de 1643, c’est Démochare qui prononce le premier hémistiche du vers 302. Mais les <hi rend="i">« Fautes survenuës en l’Impreβion</hi> », qui figurent dans l’édition de 1643, indiquent : « apres le 9. vers, au lieu de Demochare, lisez Amynthor ». Un confident du tyran semble donc avoir assisté à la scène, bien qu’il ne soit mentionné ni dans la liste des personnages, ni en début de scène.</note>.</speaker>
               <l n="302" xml:id="l302">Je vais l’en advertir.</l>
             </sp>
@@ -1780,7 +1789,7 @@
           </div>
           <div type="scene">
             <head>SCENE IV.</head>
-            <sp who="demochare-seul">
+            <sp who="demochare">
               <speaker>DEMOCHARE <hi rend="i">seul.</hi></speaker>
               <l n="567" xml:id="l567">L’<ref target="#inhumain2">Inhumaine*</ref> s’enfuit le cœur plein de fierté,</l>
               <l n="568" xml:id="l568">L’audacieux<note n="253" place="bottom"> Insolent.</note> esprit, la <ref target="#superbe">superbe*</ref> beauté,</l>
@@ -2753,7 +2762,7 @@
           </div>
           <div type="scene">
             <head>SCENE V.</head>
-            <sp who="telephonte-seul">
+            <sp who="telephonte">
               <speaker>TELEPHONTE <hi rend="i">seul.</hi><pb n="69"/></speaker>
               <l n="1061" xml:id="l1061">J’ay quitté l’Etolie et je suis à Missene,</l>
               <l n="1062" xml:id="l1062">Je viens pour satisfaire à<note n="313" place="bottom"><hi rend="i">À</hi> précédant un régime indirect ou le datif du pronom personnel atone se construisait au XVIIe siècle après quelques verbes qui, tout en ayant gardé leur signification, sont transitifs aujourd’hui et ne régissent que l’accusatif. Satisfaire en fait partie, comme l’Acte II, scène 5, de <hi rend="i">L’Avare : Voilà un homme cela, il y a là de quoi satisfaire à la vue</hi>. (Haase, §125, A)</note> l’Amour, à la haine,</l>
@@ -3363,7 +3372,7 @@
           <div type="scene">
             <head>SCENE IV.</head>
             <stage>TELEPHONTE, MEROPE, PHILOCLEE, CEPHALIE.</stage>
-            <sp who="telephonte-parle-a-ceux-de-sa-suite">
+            <sp who="telephonte">
               <speaker>TELEPHONTE <hi rend="i">parle à ceux de sa suite.</hi></speaker>
               <l n="1419" xml:id="l1419">Qu’on ne me suive pas.</l>
             </sp>
@@ -3907,9 +3916,7 @@
                 <cell>338</cell>
               </row>
               <row>
-                <cell>
-                  <p rend="cell">Téléphonte<note n="372" place="bottom"> Dont 18 répliques et 49 vers sous le nom de Tyndare.</note></p>
-                </cell>
+                <cell>Téléphonte<note n="372" place="bottom"> Dont 18 répliques et 49 vers sous le nom de Tyndare.</note></cell>
                 <cell>4</cell>
                 <cell>32</cell>
                 <cell>204</cell>
@@ -3945,8 +3952,7 @@
                 <cell>8, 5</cell>
               </row>
               <row>
-                <cell>
-                  <p rend="cell">Amynthor<note n="373" place="bottom"><p>Confident d’Hermocrate, qui intervient dans la scène 3 de l’acte I, qui n’est présent ni dans la liste des personnages, ni dans l’annonce en début de scène et qui a fait l’objet d’une coquille dans les deux éditions.</p></note></p>
+                <cell>Amynthor<note n="373" place="bottom"><p>Confident d’Hermocrate, qui intervient dans la scène 3 de l’acte I, qui n’est présent ni dans la liste des personnages, ni dans l’annonce en début de scène et qui a fait l’objet d’une coquille dans les deux éditions.</p></note>
                 </cell>
                 <cell>1</cell>
                 <cell>1</cell>
