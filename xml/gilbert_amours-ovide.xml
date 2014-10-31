@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="gilbert_amours-ovide">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">Les Amours d'Ovide. Pastorale héroïque</title>
-        <author>Gabriel Gilbert</author>
+        <title>Les Amours d'Ovide. Pastorale héroïque</title>
+        <author key="Gilbert, Gabriel (1620?-1680?)">Gabriel Gilbert</author>
         <principal>Georges Forestier</principal>
         <editor>Valérie Louchart</editor>
       </titleStmt>
@@ -16,16 +13,16 @@
         <edition>Édition critique établie par Valérie Louchart dans le cadre d'un mémoire de
           master 1 sous la direction de Georges Forestier (2004)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2014"/>
         <idno>?</idno>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -699,11 +696,11 @@
             <l>Et la Mere d’Amour en faveur d’Adonis*<note n="57" place="bottom"> Adonis représente la végétation (Cf. note 3). C’est donc pour l’honorer et lui vouer un culte que Vénus souhaite que les amants soient déguisés en bergers. L’atmosphère est ainsi parfaitement bucolique ; on ne peut s’empêcher de penser à la pastorale <hi rend="i">Daphnis et Chloé</hi> de Longus (romancier grec de la fin du IIème siècle et du début du III<hi rend="sup">e</hi> siècle).</note>,</l>
             <l>Veut que sous ces habits on dispute les prix.</l>
           </sp>
-          <sp who="2">
+          <sp who="grace-2">
             <speaker>2.GRACE.</speaker>
             <l>Allons donc, donner ordre* à la Ceremonie<note n="58" place="bottom"> Malgré la ponctuation, le groupe verbal « donner ordre » dépend du verbe à l’impératif « allons ».</note>.</l>
           </sp>
-          <sp who="3">
+          <sp who="grace-3">
             <speaker>3.GRACE.</speaker>
             <l>Pour combler les Amans d’une <ref target="#gloire1">gloire*</ref> infinie,</l>
             <l>De l’<ref target="#elite">élite*</ref> des fleurs qui naissent dans ces lieux<note n="59" place="bottom"> Jeu de mot sur « fleur » : le nom commun « fleur » renvoie à la fois aux couronnes de fleurs que portent les amoureux et aux femmes qui sont venues dans cette île, ou qui y vivent, telles que les Nymphes, et qui souhaitent être choisies comme la plus belle. Ce deuxième sens explique l’expression « élite des fleurs » : il s’agit des plus belle des femmes.</note>,</l>
@@ -715,43 +712,45 @@
           <head>ACTEURS.</head>
           <castList>
           <castItem>
-            <role>LES GRACES.</role>
+            <role xml:id="talie">LES GRACES.</role>
+            <role xml:id="grace-2"></role>
+            <role xml:id="grace-3"></role>
           </castItem>
           <castItem>
-            <role>OVIDE.</role>
+            <role xml:id="ovide">OVIDE.</role>
             <roleDesc>Chevalier Romain.</roleDesc>
           </castItem>
           <castItem>
-            <role>CORINNE.</role>
+            <role xml:id="corinne">CORINNE.</role>
             <roleDesc>Maistresse* d’Ovide</roleDesc>
             <roleDesc>Dame Romaine.  </roleDesc>
           </castItem>
           <castItem>
-            <role>CEPHISE,</role>
+            <role xml:id="cephise">CEPHISE,</role>
             <roleDesc>Nymphe de l’Isle de Cypre.</roleDesc>
           </castItem>
           <castItem>
-            <role>HYACINTHE,</role>
+            <role xml:id="hyacinthe">HYACINTHE,</role>
             <roleDesc>Amant* de Cephise</roleDesc>
           </castItem>
           <castItem>
-            <role>MAXIME,</role>
+            <role xml:id="maxime">MAXIME,</role>
             <roleDesc>Confident* d’Ovide.</roleDesc>
           </castItem>
           <castItem>
-            <role>DAPHNIS,</role>
+            <role xml:id="daphnis">DAPHNIS,</role>
             <roleDesc>Confident* d’Hyacinthe.</roleDesc>
           </castItem>
           <castItem>
-            <role>AMINTE,</role>
+            <role xml:id="aminte">AMINTE,</role>
             <roleDesc>Confidente* de Cephise.</roleDesc>
           </castItem>
           <castItem>
-            <role>CELIE,</role>
+            <role xml:id="celie">CELIE,</role>
             <roleDesc>Confidente* de Corinne</roleDesc>
           </castItem>
           <castItem>
-            <role>L’AMOUR,</role>
+            <role xml:id="l-amour">L’AMOUR,</role>
             <roleDesc>Finit la Piece.</roleDesc>
           </castItem>
           </castList>
@@ -772,7 +771,7 @@
           <div type="scene">
             <head>SCENE PREMIERE.</head>
             <stage>HIACINTHE, OVIDE.</stage>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="1" xml:id="l1">Et bien, que dites-vous de cette Isle sacrée,</l>
               <l n="2" xml:id="l2">Des plus beaux feux du jour en tous temps esclairée<note n="62" place="bottom"> Ce vers fait sans doute référence à la situation géographique de l’île. Le bassin méditerranéen est en effet particulièrement ensoleillé, et le climat y est chaud. Le complément circonstanciel de temps « en tous temps » peut vouloir dire « en toute saison » (comme Hyacinthe y réside toute l’année lui seul peut décrire ainsi l’île), mais aussi  « à toute heure de la journée », qui doit être de plus en plus longue à cette époque printanière. </note>,</l>
@@ -833,7 +832,7 @@
               <l n="34" xml:id="l34">Si je me puis vanter de sçavoir l’art de plaire<note n="66" place="bottom"> Jeu de mot sur l’expression « l’art de plaire » : celle-ci renvoie évidemment, outre l’art de la galanterie qu’Ovide ne cesse de mettre en œuvre, en en faisant un véritable art de vivre, à <hi rend="i">L’Art de plaire</hi> du poète romain.</note>,</l>
               <l n="35" xml:id="l35">Le secret est d’aymer, si l’on veut estre aymé.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="36" xml:id="l36">Quelque Nymphe en ces lieux vous a-t-elle charmé* ?</l>
             </sp>
@@ -841,7 +840,7 @@
               <speaker>OVIDE.</speaker>
               <l n="37" xml:id="l37">La plus belle, Hiacinthe a ravy ma <ref target="#franchise">franchise*</ref>.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="38" xml:id="l38">Mais quelle est-elle enfin ?</l>
             </sp>
@@ -849,7 +848,7 @@
               <speaker>OVIDE.    <pb n="10"/></speaker>
               <l part="Y">                C’est l’<ref target="#aimable">aymable*</ref> Cephise.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="39" xml:id="l39">Vous aymeriez Cephise ! ah ! je ne le croy pas.</l>
             </sp>
@@ -857,7 +856,7 @@
               <speaker>OVIDE.</speaker>
               <l n="40" xml:id="l40">Quoy ! pour se faire aymer, manque-t’elle d’<ref target="#appas">appas*</ref> ?</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="41" xml:id="l41">Elle n’en a que trop, elle n’est que trop belle.</l>
             </sp>
@@ -865,7 +864,7 @@
               <speaker>OVIDE.</speaker>
               <l n="42" xml:id="l42">Pourquoi <ref target="#douter">doutez*</ref>-vous donc, que je brulle* pour elle ?</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="43" xml:id="l43">Mon plus parfait amy seroit-il mon Rival ?</l>
             </sp>
@@ -875,7 +874,7 @@
               <l n="45" xml:id="l45">Car comme l’amitié naist de la ressemblance,</l>
               <l n="46" xml:id="l46">Celle à qui vous pensez, est celle à qui je pense<note n="67" place="bottom"> On a ici un parfait exemple de syllogisme, de raisonnement logique rigoureusement déductif en trois temps composé d’une majeure, d’une mineure et d’une conclusion. La majeure est celle-ci : l’amitié naît de la ressemblance ; la mineure est : Hyacinthe pense à Céphise ; et la conclusion est : donc Ovide (qui est l’ami de Hyacinthe) pense à Céphise.</note>.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.    <pb n="11"/></speaker>
               <l n="47" xml:id="l47">Afin de destourner ce <ref target="#fatal1">fatal*</ref> <ref target="#accident2">accident*</ref>,</l>
               <l n="48" xml:id="l48"><ref target="#d-abord">D’abord*</ref> de mon Amour je vous fis <ref target="#confident">confident*</ref>,</l>
@@ -886,7 +885,7 @@
               <l n="50" xml:id="l50">J’usay vers vous <ref target="#d-abord">d’abord*</ref> de la mesme <ref target="#franchise">franchise*</ref>,</l>
               <l n="51" xml:id="l51">Et vous dis que Corinne avoit sceu m’enflammer*.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="52" xml:id="l52">Mais je ne l’ayme pas.</l>
             </sp>
@@ -895,7 +894,7 @@
               <l part="Y">            Vous la pouvez aymer,</l>
               <l n="53" xml:id="l53">Sans que pour ce sujet Ovide vous <ref target="#quereller">querelle*</ref>.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="54" xml:id="l54">Je n’ayme que Cephise, &amp; je luy suis fidelle ;</l>
               <l n="55" xml:id="l55">Mais mon Amour est grand, il est né dés longtemps<note n="68" place="bottom"> La conjonction de coordination « mais » est étonnante dans la bouche de Hyacinthe : elle oppose en effet la grandeur de l’amour que Hyacinthe porte à Céphise au fait qu’il n’aime qu’elle. Cette opposition suit bien le raisonnement implicite encore d’Ovide selon lequel lui-même aime beaucoup, c’est-à-dire aime « partout et en tous lieux », et rend ainsi hommage au dieu Amour, son maître. Hyacinthe semble donc anticiper les arguments d’Ovide mais il ne les déjoue pas.</note>.</l>
@@ -2135,7 +2134,7 @@
               <l n="608" xml:id="l608">Qui parmi ces Captifs conte des Demy-Dieux.</l>
               <l n="609" xml:id="l609">Connoissant vos vertus n’a point pour vous de hayne<note n="131" place="bottom"> Parodie de la célèbre réplique litotique de Chimène « Va, je ne te hais point » (cf. <hi rend="i">Le Cid</hi> de Corneille, III, 4, v.963).</note>.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="610" xml:id="l610">L’excés de mes <ref target="#ennui">ennuis*</ref>, la grandeur de ma peine,</l>
               <l n="611" xml:id="l611">M’ostent avecque l’espoir la curiosité.</l>
@@ -2163,7 +2162,7 @@
               <l n="624" xml:id="l624">N’a point encore voulu vous montrer son amour,</l>
               <l n="625" xml:id="l625">Et s’est tousjour fait voir aussi <ref target="#fier">fiere*</ref> que belle.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="626" xml:id="l626">Je reconnois Cephise, à ces marques, c’est elle,</l>
               <l n="627" xml:id="l627">Seule elle peut causer ma joye &amp; mon ennuy,</l>
@@ -2177,7 +2176,7 @@
           </div>
           <div type="scene">
             <head>SCENE VI.</head>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE, <hi rend="i">seul.</hi></speaker>
               <l n="631" xml:id="l631">Je ne puis rien connaistre à cet obscur discours<note n="132" place="bottom"> C’est la raison, c’est-à-dire l’aspiration à la gloire et à l’honneur, et non l’amour, qui lui fait éprouver de l’amertume.</note>,</l>
               <l n="632" xml:id="l632">Elle dit qu’elle vient pour me donner secours.</l>
@@ -2309,7 +2308,7 @@
                 <l n="704" xml:id="l704">Et Corinne par tout la <ref target="#gloire2">gloire*</ref>.</l>
               </lg>
             </sp>
-            <sp who="ovide-apres-avoir-leu-les-cinq-articles">
+            <sp who="ovide">
               <speaker>OVIDE <hi rend="i">apres avoir leu les cinq articles.</hi></speaker>
               <l n="705" xml:id="l705">De violer ces lois puis-je estre convaincu ?</l>
             </sp>
@@ -2416,7 +2415,7 @@
           </div>
           <div type="scene">
             <head>SCENE III.</head>
-            <sp who="ovide-seul">
+            <sp who="ovide">
               <speaker>OVIDE <space/><hi rend="i">seul.</hi></speaker>
               <l n="749" xml:id="l749">Je fais des vœux pour elle, afin qu’elle ait le prix,</l>
               <l n="750" xml:id="l750">Sa Rivale pourtant regne sur mes esprits ;</l>
@@ -2445,7 +2444,7 @@
           <div type="scene">
             <head>SCENE IV.</head>
             <stage>HYACINTHE, OVIDE.</stage>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="771" xml:id="l771">Je vous rends l’amitié que vous m’aviez jurée.</l>
             </sp>
@@ -2494,7 +2493,7 @@
               <l n="787" xml:id="l787">Si mes Escrits dans Rome enseignent l’art de plaire,</l>
               <l n="788" xml:id="l788">Me <ref target="#disputer">disputer*</ref> un cœur, c’est estre <ref target="#temeraire">temeraire*</ref>.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="789" xml:id="l789">Je sçay que l’art d’aymer fait bruit de toutes parts<note n="144" place="bottom"> Le succès de <hi rend="i">L’Art d’aimer</hi> a été réel et rapide. On en trouve des citations sur les murs de Pompéi, des réminiscences fréquentes chez les auteurs des siècles suivants et de très nombreux manuscrits au Moyen Age. </note>,</l>
               <l n="790" xml:id="l790">Et qu’il vous rend fameux à la <ref target="#cour2">Cour*</ref> des Cezars ;                     <pb n="68"/></l>
@@ -2556,7 +2555,7 @@
               <l n="837" xml:id="l837">Rendre une Amante ingrate, est la vouloir trahir,</l>
               <l n="838" xml:id="l838">Ce n’est pas l’art d’aymer, mais c’est l’art de hayr.</l>
             </sp>
-            <sp who="hyacinte">
+            <sp who="hyacinthe">
               <speaker>HYACINTE.</speaker>
               <l n="839" xml:id="l839">Les <ref target="#faveur">faveurs*</ref> bien souvent ne font qu’un infidelle,                    <pb n="70"/></l>
               <l n="840" xml:id="l840">Mais la <ref target="#vertu">vertu*</ref> retient ceux qu’un bel œil appelle ;</l>
@@ -2788,7 +2787,7 @@
               <l n="976" xml:id="l976">Hyacinthe, je viens pour vous tirer de peine,</l>
               <l n="977" xml:id="l977">La divine Cephise a remporté le prix.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE    <pb n="Niij ; 77"/></speaker>
               <l n="978" xml:id="l978">Ah ! que j’en ay de joye !</l>
             </sp>
@@ -2835,7 +2834,7 @@
               <l n="998" xml:id="l998">Puis que Cephise emporte un prix si <ref target="#glorieux3">glorieux*</ref>,</l>
               <l n="999" xml:id="l999">Allons donc rendre hommage à sa beauté divine.                     <pb n="78"/></l>
             </sp>
-            <sp who="hiacinte">
+            <sp who="hyacinthe">
               <speaker>HIACINTE.</speaker>
               <l n="1000" xml:id="l1000">Non non, allez plus-tost pour consoler Corinne,</l>
               <l n="1001" xml:id="l1001">Il est d’un vrai Romain &amp; d’un cœur <ref target="#genereux">genereux*</ref>,    </l>
@@ -3092,7 +3091,7 @@
               <l n="1128" xml:id="l1128">Mais pour nous <ref target="#accorder2">accorder*</ref>, montrez vous moins cruelle,</l>
               <l n="1129" xml:id="l1129">Vous pouvez d’un seul mot vider nos differens.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="1130" xml:id="l1130">Puis que vous les causez, ils doivent estre grands<note n="168" place="bottom"> Hyacinthe sous-entend qu’Ovide est un séducteur expérimenté, qui a fait ses preuves, et qui plus est, prêt à toutes les ruses. Il croit possible que Céphise se soit éprise de lui.</note></l>
             </sp>
@@ -3164,7 +3163,7 @@
           <div type="scene">
             <head>SCENE V.</head>
             <stage>LES GRACES, OVIDE, <lb/>HYACINTHE, CEPHISE, <lb/>CORINNE, CELIE, AMINTE, <lb/>DAPHNIS, MAXIME, <lb/>&amp; trois intendans des jeux.</stage>
-            <sp who="thalie">
+            <sp who="talie">
               <speaker>THALIE, <hi rend="i">l’une des Graces.</hi></speaker>
               <l n="1167" xml:id="l1167">De tant d’Amans divers dont cette Isle est remplie<note n="173" place="bottom"> « De tant d’Amans divers » est apposé à « tous » ; les quatre vers qui les séparent connotent leur nombre, et par conséquent le mérite des deux personnages qui restent en liste.</note>,</l>
               <l n="1168" xml:id="l1168">Que de tous les costez de Grece &amp; d’Italie,</l>
@@ -3206,7 +3205,7 @@
               <l n="1201" xml:id="l1201">Et qui n’est pas <ref target="#sensible2">sensible*</ref> où brillent les <ref target="#appas">appas*</ref>,</l>
               <l n="1202" xml:id="l1202">S’en croit lui-mesme indigne, ou ne les connoit pas.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="1203" xml:id="l1203">L’Amour est un Tribut que l’on doit au <ref target="#merite">merite*</ref>.</l>
             </sp>
@@ -3231,7 +3230,7 @@
               <speaker>HYACINTHE.</speaker>
               <l n="1218" xml:id="l1218">Et bien, j’y respondray quand il en sera temps.</l>
             </sp>
-            <sp who="ovidemonstrant-les-graces">
+            <sp who="ovide">
               <speaker>OVIDE<hi rend="i">monstrant les Graces.</hi></speaker>
               <l n="1219" xml:id="l1219">Mon esprit esclairé de ces belles lumieres,</l>
               <l n="1220" xml:id="l1220">S’en va vous en donner de nouvelles matieres<note n="180" place="bottom"> Il annonce que, inspiré par les Grâces, il va présenter de nouveaux arguments en faveur des inconstants.</note>.    </l>
@@ -3276,12 +3275,12 @@
               <l n="1247" xml:id="l1247">Et puis que toutes trois je vous crois adorables,</l>
               <l n="1248" xml:id="l1248">Pour moy donc toutes trois monstrez vous favorables.                     <pb n="92"/></l>
             </sp>
-            <sp who="thalie-a-hyacinthe">
+            <sp who="talie">
               <speaker>THALIE <hi rend="i">à Hyacinthe.</hi></speaker>
               <l n="1249" xml:id="l1249">Vous dont le cœur constant brusle d’un autre Amour,</l>
               <l n="1250" xml:id="l1250">Hyacinthe, parlez, car c’est à vostre tour.</l>
             </sp>
-            <sp who="hyacinthe-pour-les-constans">
+            <sp who="hyacinthe">
               <speaker>HYACINTHE POUR LES Constans.</speaker>
               <l n="1251" xml:id="l1251">De mon Rival <ref target="#subtil">subtil*</ref> j’admire l’Eloquence,    </l>
               <l n="1252" xml:id="l1252">Et me condamnerois à garder le silence,    </l>
@@ -3397,7 +3396,7 @@
               <l n="1327" xml:id="l1327">De vos Amans transis avez-vous des exemples,</l>
               <l n="1328" xml:id="l1328">De ceux à qui la <ref target="#gloire2">gloire*</ref> a fait bastir des Temples <note n="191" place="bottom"> Ovide fait référence à des amants transis passés à la postérité comme Pygmalion, le sculpteur amoureux d’une de ses statues qui implore Vénus de la douer de vie et qui, une fois exaucé, n’oublie pas de chanter mille actions de grâces en faveur de la déesse. Son histoire est d’ailleurs racontée par Ovide dans <hi rend="i">Les Métamorphoses</hi> (X, 244-298). On peut également penser à Amadis comme modèle d’amant fidèle qui, après de multiples aentures, parvient à épouser sa dame (cf. <hi rend="i">Amadis de Gaula</hi>, roman de chevalerie espagnol, refondu et publié en 1508 par Montalvo). Dans les cercles mondains en effet, Amadis passait pour l’exemple même d’amant transi démodé ; aisi dans <hi rend="i">L’Amour à la mode</hi> de Thomas Corneille la coquette Dorotée, digne partenaire du galant Oronte n’ aque mépris pour Eraste, l’un de ses soupirants, dont elle parle ironiquement comme d’un <hi rend="i">« … galant d’importance</hi> / <hi rend="i">Et propre en un besoin à mourir de constance</hi>, / <hi rend="i">Mais si fort hors du monde et du temps de jadis</hi>, / <hi rend="i">Qu’il le disputerait à tous les Amadis ».</hi> (II, 3) Silvandre, l’amant de Diane dans <hi rend="i">L’Astrée</hi>, est en outre souvent cité comme exemple d’amant constant. Mais Ovide fait sans doute surtout référence à Céladon, à qui Adamas conseille d’ériger des autels à Astrée et de lui vouer un culte.</note> ?</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="1329" xml:id="l1329">Il en est d’assez beaux &amp; d’assez éclatans,</l>
               <l n="1330" xml:id="l1330">Pour <ref target="#convaincre">convaincre*</ref> d’erreur les esprits inconstans.</l>
@@ -3420,7 +3419,7 @@
               <speaker>CEPHISE.</speaker>
               <l n="1342" xml:id="l1342">Les Graces sur ce point tiennent desja conseil.</l>
             </sp>
-            <sp who="ovide-a-hyacinthe">
+            <sp who="ovide">
               <speaker>OVIDE <hi rend="i">à Hyacinthe.</hi></speaker>
               <l n="1343" xml:id="l1343">On va vous condamner, tremblez donc Hyacinthe.</l>
             </sp>
@@ -3428,7 +3427,7 @@
               <speaker>HYACINTHE.</speaker>
               <l n="1344" xml:id="l1344">Mais vous mesme écoutez avec respect &amp; crainte.                     <pb n="96"/></l>
             </sp>
-            <sp who="thalie">
+            <sp who="talie">
               <speaker>THALIE.</speaker>
               <l n="1345" xml:id="l1345">Nous voudrions pouvoir tous deux vous couronner,</l>
               <l n="1346" xml:id="l1346">Mais nous n’avons qu’un prix seulement à donner ;</l>
@@ -3463,7 +3462,7 @@
           <head>ACTE V.                    <pb n="R ; 97"/></head>
           <div type="scene">
             <head>SCENE PREMIERE.</head>
-            <sp who="cephise-seule">
+            <sp who="cephise">
               <speaker>CEPHISE <hi rend="i">seule.</hi></speaker>
               <p rend="center">STANCES.</p>
               <lg>
@@ -3535,11 +3534,11 @@
           <div type="scene">
             <head>SCENE II.</head>
             <stage>CEPHISE, AMINTE.</stage>
-            <sp who="cephise-continue">
+            <sp who="cephise">
               <speaker>CEPHISE <hi rend="i">continuë.</hi></speaker>
               <l n="1414" xml:id="l1414">Dy les Graces du Ciel sont-elles revenuës ?</l>
             </sp>
-            <sp who="aminthe">
+            <sp who="aminte">
               <speaker>AMINTHE.</speaker>
               <l n="1415" xml:id="l1415">Oüy leur <ref target="#superbe">superbe*</ref> Char a traversé les nuës,</l>
               <l n="1416" xml:id="l1416">Elles sont de retour, l’on a donné le prix :</l>
@@ -3577,7 +3576,7 @@
           <div type="scene">
             <head>SCENE III.</head>
             <stage>HYACINTE, CEPHISE.</stage>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="1426" xml:id="l1426">Je viens pour vous offrir cette <ref target="#illustre">Illustre*</ref> couronne,</l>
               <l n="1427" xml:id="l1427">Que l’Amour a conquise, &amp; que le Ciel me donne,</l>
@@ -3664,7 +3663,7 @@
               <l n="1482" xml:id="l1482">Et vous aurez besoin de tout vostre courage ;</l>
               <l n="1483" xml:id="l1483">Vostre amour dans le port est proche du naufrage<note n="194" place="bottom"> Hyacinthe veut dire que leur amour, qui goûtait un moment de paix, qui était rentré au port, est de nouveau mis en danger par une tempête.</note>.</l>
             </sp>
-            <sp who="hyacinte">
+            <sp who="hyacinthe">
               <speaker>HYACINTE.</speaker>
               <l n="1484" xml:id="l1484">Puis que le Ciel prend soin de nous favoriser,</l>
               <l n="1485" xml:id="l1485">Quelqu’un à son Arrest ose-t’il s’opposer ?</l>
@@ -3673,7 +3672,7 @@
               <speaker>DAPHNIS.</speaker>
               <l n="1486" xml:id="l1486">Ovide.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l part="Y">Et bien, Ovide…</l>
             </sp>
@@ -3681,7 +3680,7 @@
               <speaker>CEPHISE.</speaker>
               <l part="Y">            O dieux ! que j’ay de crainte !</l>
             </sp>
-            <sp who="hiacinte">
+            <sp who="hyacinthe">
               <speaker>HIACINTE.</speaker>
               <l n="1487" xml:id="l1487">Acheve donc.</l>
             </sp>
@@ -3840,7 +3839,7 @@
               <l n="1577" xml:id="l1577">Vous en avez pourtant de la <ref target="#confus2">confusion*</ref>,</l>
               <l n="1578" xml:id="l1578">Et vous en rougissez.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l part="Y">            Elle en est peu surprise.</l>
             </sp>
@@ -3850,7 +3849,7 @@
               <l n="1580" xml:id="l1580">Je <ref target="#priser">prise*</ref> infiniment cette rare beauté,</l>
               <l n="1581" xml:id="l1581">Mais j’ayme cherement aussi ma liberté.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="1582" xml:id="l1582">Quoy Cephise n’a plus nul charme qui vous touche ?</l>
             </sp>
@@ -3860,7 +3859,7 @@
               <l n="1584" xml:id="l1584">Ce Dieu vous peut tous deux enchaisner dès demain,</l>
               <l n="1585" xml:id="l1585">Pour moy de ce peril je retire la main.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="1586" xml:id="l1586">Moy j’y fais consister le bonheur de ma vie.</l>
             </sp>
@@ -3870,7 +3869,7 @@
               <l n="1588" xml:id="l1588">Et pour n’estre jamais ny <ref target="#facheux">facheux*</ref> ny jaloux,</l>
               <l n="1589" xml:id="l1589"><ref target="#chagrin1">Chagrin*</ref>, ny pire encor, je fuis le nom d’espoux.</l>
             </sp>
-            <sp who="hyacinte">
+            <sp who="hyacinthe">
               <speaker>HYACINTE.    <pb n="T ; 109"/></speaker>
               <l n="1590" xml:id="l1590">Mais l’Hymen des Amans assure* la conqueste<note n="206" place="bottom"> Hyacinthe affirme que le mariage garantit la conquête de l’amant. « assurer » signifie ici préserver.</note>.</l>
             </sp>
@@ -3884,7 +3883,7 @@
               <l n="1596" xml:id="l1596">Il ne plaist tout au plus que trois jours seulement,</l>
               <l n="1597" xml:id="l1597">Et veut que son pouvoir dure éternellement.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l n="1598" xml:id="l1598">Si vous le mesprisez &amp; lui faites la guerre,</l>
               <l n="1599" xml:id="l1599">Pourquoy remuez-vous &amp; le Ciel &amp; la terre,</l>
@@ -3950,7 +3949,7 @@
               <l n="1631" rend="i" xml:id="l1631">Et couronner de fleurs sur ces rives <ref target="#charmant">charmantes*</ref>,</l>
               <l n="1632" rend="i" xml:id="l1632">Et les Amans, &amp; les Amantes.</l>
             </sp>
-            <sp who="hiacinthe">
+            <sp who="hyacinthe">
               <speaker>HIACINTHE.</speaker>
               <l part="Y">        C’est l’Amour dans le Char de sa mere.</l>
             </sp>
@@ -4082,7 +4081,7 @@
           </entryFree>
           <entryFree xml:id="air">
             <form>Air</form>
-            <def>« Certaine manière que l’on a dans les exercices du corps, dans la façon d’agir » (A) ; ce mot vague était très à la mode. Il « veut dire je ne sais quoi qui paraît en un instant que la nature donne et qu’on ne peut bien définir » (Andry de Boisregard dans <hi rend="i">Réflexions  sur l’usage présent de la Langue française</hi>, 1689). Mais l’abus du mot le rendit ridicule : « ceux qui parlent bien, ne s’en servent qu’en riant, por se moquer des gens du <hi rend="b">bel air</hi>. » (P. Bouhours dans <hi rend="i">Les entretiens* d’Ariste et d’Eugène</hi>, 1671) Molière n’y a pas manqué (cf. <hi rend="i">Les Précieuses Ridicules</hi>, sc. 4 ; <hi rend="i">Les Fâcheux*</hi>, V.  61 ; <hi rend="i">La Critique de L’Ecole des Femmes</hi>, sc. 3-5 etc.)</def>
+            <def>« Certaine manière que l’on a dans les exercices du corps, dans la façon d’agir » (A) ; ce mot vague était très à la mode. Il « veut dire je ne sais quoi qui paraît en un instant que la nature donne et qu’on ne peut bien définir » (Andry de Boisregard dans <hi rend="i">Réflexions  sur l’usage présent de la Langue française</hi>, 1689). Mais l’abus du mot le rendit ridicule : « ceux qui parlent bien, ne s’en servent qu’en riant, por se moquer des gens du <hi rend="i">bel air</hi>. » (P. Bouhours dans <hi rend="i">Les entretiens* d’Ariste et d’Eugène</hi>, 1671) Molière n’y a pas manqué (cf. <hi rend="i">Les Précieuses Ridicules</hi>, sc. 4 ; <hi rend="i">Les Fâcheux*</hi>, V.  61 ; <hi rend="i">La Critique de L’Ecole des Femmes</hi>, sc. 3-5 etc.)</def>
             <xr>V. <ref target="#l107">107</ref>, <ref target="#l365">365</ref>, <ref target="#l567">567</ref>, <ref target="#l908">908</ref>.</xr>
           </entryFree>
           <entryFree xml:id="alarme">
@@ -4228,7 +4227,7 @@
           </entryFree>
           <entryFree xml:id="se-defier">
             <form>Se défier de</form>
-            <def>« Se douter. <hi rend="i">Je me suis toujours bien</hi> <hi rend="b"><hi rend="i">défié</hi></hi> <hi rend="i">que cela arriverait ainsi</hi>. » (F)</def>
+            <def>« Se douter. <hi rend="i">Je me suis toujours bien défié que cela arriverait ainsi</hi>. » (F)</def>
             <xr>V. <ref target="#l342">342</ref>.</xr>
           </entryFree>
           <entryFree xml:id="deplaisir">
@@ -4324,7 +4323,7 @@
             <def xml:id="engager1">(Verbe transitif) « obliger à faire quelque chose et le plus souvent sans violence » (A).</def>
             <xr>V. <ref target="#l818">818</ref>.</xr>
             <def xml:id="engager2">Attacher, lier en parlant de sentiments, d’intérêts.</def>
-            <xr>V. <ref target="#l201">201</ref>, <ref target="#l587">587</ref>, <ref target="#l818">818</ref>, <ref target="#l1299">1299</ref>. <space/></xr>
+            <xr>V. <ref target="#l201">201</ref>, <ref target="#l587">587</ref>, <ref target="#l818">818</ref>, <ref target="#l1299">1299</ref>.</xr>
           </entryFree>
           <entryFree xml:id="ennui">
             <form>Ennui</form>
@@ -4396,7 +4395,7 @@
           </entryFree>
           <entryFree xml:id="faire-fin">
             <form>Faire le fin (la fine), faire de la finesse</form>
-            <def>Faire le cachottier, dissimuler ; « je n’y entends point de <hi rend="b">finesse</hi> signifie je parle sincérement » (F).</def>
+            <def>Faire le cachottier, dissimuler ; « je n’y entends point de <hi rend="i">finesse</hi> signifie je parle sincérement » (F).</def>
             <xr>V. <ref target="#l65">65</ref>, <ref target="#l191">191</ref>.</xr>
           </entryFree>
           <entryFree>
@@ -4563,7 +4562,7 @@
           <entryFree>
             <form>Honnête</form>
             <def>Honorable, qui mérite de l’estime*, de la considération.</def>
-            <def>Distingué, sous le rapport des manières et des agréments de l’esprit. « En ce sens, <hi rend="b">honnête* homme</hi> ne veut dire autre chose que galant* homme, homme de bonne conversation de bonne compagnie. » (A)</def>
+            <def>Distingué, sous le rapport des manières et des agréments de l’esprit. « En ce sens, <hi rend="i">honnête* homme</hi> ne veut dire autre chose que galant* homme, homme de bonne conversation de bonne compagnie. » (A)</def>
             <def>Bienséant, conforme aux règles de l’étiquette, aux devoirs de l’urbanité.</def>
             <def>« Convenable à la raison*, bienséant à la condition, à la profession et à l’âge des personnes. » (A)</def>
           </entryFree>
@@ -4574,7 +4573,7 @@
           </entryFree>
           <entryFree xml:id="humeur">
             <form>Humeur</form>
-            <def>Caractère au pont de vue moral, « naturel,…. être d’<hi rend="b">humeur</hi> à tout souffrir, c’est être d’un tempérament à tout souffrir. » (R)</def>
+            <def>Caractère au pont de vue moral, « naturel,…. être d’<hi rend="i">humeur</hi> à tout souffrir, c’est être d’un tempérament à tout souffrir. » (R)</def>
             <def>Se dit aussi comme aujourd’hui, d’une disposition accidentelle, d’un état d’âme passager.</def>
             <xr>V. <ref target="#l202">202</ref>, <ref target="#l297">297</ref>, <ref target="#l350">350</ref>, <ref target="#l454">454</ref>, <ref target="#l479">479</ref>, <ref target="#l509">509</ref>, <ref target="#l614">614</ref>, <ref target="#l682">682</ref>, <ref target="#l764">764</ref>, <ref target="#l1071">1071</ref>, <ref target="#l1119">1119</ref>, <ref target="#l1143">1143</ref>, <ref target="#l1147">1147</ref>, <ref target="#l1372">1372</ref></xr>
           </entryFree>
@@ -4798,7 +4797,7 @@
           </entryFree>
           <entryFree>
             <form>Rencontre</form>
-            <def>Circonstance fortuite, « occasion » (A) ; <hi rend="b">par rencontre</hi> a la même nuance et signifie par hasard.</def>
+            <def>Circonstance fortuite, « occasion » (A) ; <hi rend="i">par rencontre</hi> a la même nuance et signifie par hasard.</def>
           </entryFree>
           <entryFree xml:id="satisfaire">
             <form>Satisfaire</form>
@@ -4916,8 +4915,8 @@
           <head>Bibliographie</head>
           <div>
             <head>Sources</head>
-            <bibl><title>LES/AMOURS/D’OVIDE./PASTORALE/HEROIQUE./</title>PAR MONSIEUR GILBERT, /Secretaire des Commandements de/la Reyne de Suède, &amp; son/Resident en France. /A PARIS, / chez GUILLAUME DE LUYNE, /Libraire Juré, en la Galle-/rie des Merciers, à la Justice. /M. <space/>DC. <space/>LXIII. /AVEC PRIVILEGE DU ROY.</bibl>
-            <bibl><title>LES/AMOURS/D’OVIDE./PASTORALE/HEROIQUE./</title>PAR MONSIEUR GILBER, /Secretaire des Commandements de/la Reyne de Suède, &amp; son/Resident en France. /A PARIS, / chez Estienne LOYSON, au palais/ à l’entrée de la Gallerie des Prison-/ niers, au nom de Jesus. /M. <space/>DC. <space/>LXIII. /AVEC PRIVILEGE DU ROY.</bibl>
+            <bibl><title>LES/AMOURS/D’OVIDE./PASTORALE/HEROIQUE./</title>PAR MONSIEUR GILBERT, /Secretaire des Commandements de/la Reyne de Suède, &amp; son/Resident en France. /A PARIS, / chez GUILLAUME DE LUYNE, /Libraire Juré, en la Galle-/rie des Merciers, à la Justice. /M. DC. LXIII. /AVEC PRIVILEGE DU ROY.</bibl>
+            <bibl><title>LES/AMOURS/D’OVIDE./PASTORALE/HEROIQUE./</title>PAR MONSIEUR GILBER, /Secretaire des Commandements de/la Reyne de Suède, &amp; son/Resident en France. /A PARIS, / chez Estienne LOYSON, au palais/ à l’entrée de la Gallerie des Prison-/ niers, au nom de Jesus. /M. >DC. LXIII. /AVEC PRIVILEGE DU ROY.</bibl>
             <bibl>HOMERE, <title>L’Iliade</title>, Le livre de poche, 1995.</bibl>
             <bibl>HOMERE, <title>L’Odyssée</title>, Editions La découverte, 1992.</bibl>
             <bibl>PLATON, <title>Phèdre</title>, Les Belles Lettres, 1998.</bibl>
