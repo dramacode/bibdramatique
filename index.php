@@ -2,7 +2,7 @@
 // prendre le pot
 include (dirname(__FILE__).'/teipot/Teipot.php');
 // mettre le sachet SQLite dans le pot
-$pot=new Teipot(dirname(__FILE__).'/crht.sqlite', 'fr');
+$pot=new Teipot(dirname(__FILE__).'/bibdramatique.sqlite', 'fr');
 // est-ce qu’un fichier statique (ex: epub) est attendu pour ce chemin ? 
 // Si oui, l’envoyer maintenant depuis la base avant d’avoir écrit la moindre ligne
 $pot->file($pot->path);
@@ -21,7 +21,7 @@ else echo '<title>Bibliothèque dramatique</title>';
     ?>
     <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>html.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>teipot.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo Web::basehref() ?>crht.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Web::basehref() ?>bibdramatique.css" />
     
     <script type="text/javascript" src="<?php echo Web::$basehref ?>js/jquery-1.11.1.min.js"></script>
   </head>
@@ -74,6 +74,7 @@ else {
           <?php
 // livre
 if (isset($doc['bookname'])) {
+  if(isset($doc['download'])) echo "\n".'<nav id="download">' . $doc['download'] . '</nav>';
   echo "\n<nav>";
   // auteur, titre, date
   if ($doc['byline']) $doc['byline']=$doc['byline'].'<br/>';
