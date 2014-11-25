@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="gillet_desniaise">
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="uc">L'Innocent malheureux ou La Mort de Crispe. Tragédie</title>
-        <author>Grenaille</author>
+        <title>L'Innocent malheureux ou La Mort de Crispe. Tragédie</title>
+        <author key="Grenaille, François de (1616-1680)">Grenaille</author>
         <principal>Georges Forestier</principal>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie sous la direction de Georges Forestier.</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2014"/>
-        <idno>?</idno>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>?</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Grenaille, <title>L'Innocent malheureux ou La Mort de Crispe. Tragédie</title>, Paris, Chez Jean Paslé, 1639.</bibl>
+        <bibl><author>Grenaille</author>, <title>L'Innocent malheureux ou La Mort de Crispe. Tragédie</title>, Paris, Chez Jean Paslé, 1639.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -439,47 +436,47 @@
           <head>LES ACTEURS.</head>
           <castList>
           <castItem>
-            <role>CONSTANTIN,</role>
+            <role xml:id="constantin">CONSTANTIN,</role>
             <roleDesc>Empereur.</roleDesc>
           </castItem>
           <castItem>
-            <role>FAUSTE,</role>
+            <role xml:id="fauste">FAUSTE,</role>
             <roleDesc>seconde femme de l’Empereur, <ref target="#marastre">Marastre*</ref> de Crispe .</roleDesc>
           </castItem>
           <castItem>
-            <role>HELENE,</role>
+            <role xml:id="helene-mere">HELENE,</role>
             <roleDesc>mere de l’Empereur.</roleDesc>
           </castItem>
           <castItem>
-            <role>CHRISPE,</role>
+            <role xml:id="crispe">CHRISPE,</role>
             <roleDesc>fils de l’Empereur et de Minervine sa premiere femme.</roleDesc>
           </castItem>
           <castItem>
-            <role>HELENE,</role>
+            <role xml:id="helene-fille">HELENE,</role>
             <roleDesc>sœur jumelle de Crispe.</roleDesc>
           </castItem>
           <castItem>
-            <role>PROCLE,</role>
+            <role xml:id="procle">PROCLE,</role>
             <roleDesc>Prince de l’Empire, amy de Crispe, et amoureux de la jeune Helene.</roleDesc>
           </castItem>
           <castItem>
-            <role>ADELAÏDE,</role>
+            <role xml:id="adelaide">ADELAÏDE,</role>
             <roleDesc>Princesse, confidente de l’Imperatrice, et amoureuse de Crispe.</roleDesc>
           </castItem>
           <castItem>
-            <role>ARTABAN,</role>
+            <role xml:id="artaban">ARTABAN,</role>
             <roleDesc>premier Ministre de l’Empereur.</roleDesc>
           </castItem>
           <castItem>
-            <role>EMILE,</role>
+            <role xml:id="emile">EMILE,</role>
             <roleDesc>Gentilhomme Romain.</roleDesc>
           </castItem>
           <castItem>
-            <role>FLAVIE,</role>
+            <role xml:id="flavie">FLAVIE,</role>
             <roleDesc>suivante.</roleDesc>
           </castItem>
           <castItem>
-            <role>HYCARIE,</role>
+            <role xml:id="hycarie">HYCARIE,</role>
             <roleDesc>suivante.</roleDesc>
           </castItem>
           </castList>
@@ -607,7 +604,7 @@
             <pb/>
             <head>Scene III</head>
             <stage><hi rend="sc">Helene</hi>, mere de l’Empereur. <hi rend="sc">Crispe</hi></stage>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="49" xml:id="l49">C’est un objet bien rare à mes yeux de te voir.</l>
             </sp>
@@ -619,7 +616,7 @@
               <l n="53" xml:id="l53">Car Fauste me retient si long temps pres de soy<note n="167" place="bottom"> Contrairement au F-M, le pronom personnel complément <hi rend="i">Soy</hi> renvoie ici à un sujet déterminé animé, il est paraphrasable par par le pronom personnel sujet <hi rend="i">elle.</hi></note>,</l>
               <l n="54" xml:id="l54">Qu’il ne m’en reste plus ny pour vous ny pour moy.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="55" xml:id="l55">Je t’excuse en effet, et ne me plains pas d’elle,</l>
               <l n="56" xml:id="l56">C’est la <ref target="#foi1">Foy*</ref> seulement qui la trouve rebelle ;</l>
@@ -653,7 +650,7 @@
               <l n="81" xml:id="l81">Et l’on peut bien juger par ses affections,</l>
               <l n="82" xml:id="l82">Que la mesme vertu forme ses passions.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="83" xml:id="l83">L’Empereur agira puissamment envers elle,</l>
               <l n="84" xml:id="l84">Son pouvoir neantmoins a besoin de ton zele ;</l>
@@ -797,29 +794,33 @@
           <div type="scene">
             <pb/>
             <head>Scene V</head>
-            <sp who="fauste-seule">
+            <sp who="fauste">
               <speaker>fauste <hi rend="i">seule</hi>.</speaker>
+              <lg>
               <l n="161" xml:id="l161">Qui pourroit croire que c’est moy</l>
               <l n="162" xml:id="l162">Que la perfection de Crispe desespere ?</l>
               <l n="163" xml:id="l163">J’aime plus ce Fils que son Pere ?</l>
               <l n="164" xml:id="l164">Le Droict me le defend, l’Amour m’en fait la <ref target="#loi">loy*</ref>,</l>
               <l n="165" xml:id="l165">Injuste Droict, suis-je blasmable</l>
               <l n="166" xml:id="l166">D’aimer plus en effet l’objet le plus <ref target="#aimable">aimable*</ref> ?</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="167" xml:id="l167">La Nature ne le veut pas ;</l>
               <l n="168" xml:id="l168">C’est elle neantmoins qui m’en donne l’envie ;</l>
               <l n="169" xml:id="l169">Elle m’oste, et me rend la vie,                    <pb n="11"/></l>
               <l n="170" xml:id="l170">Me faisant trop aymer et craindre ses <ref target="#appas">appas*</ref>;</l>
               <l n="171" xml:id="l171">Doux sang que tu sembles <ref target="#barbare1">barbare*</ref>,</l>
               <l n="172" xml:id="l172">Nous unissant tous deux d’un nœud<note n="181" place="bottom"> ll s’agit ici du saint nœud, c’est-à-diredu mariage.</note> qui nous separe !</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="173" xml:id="l173">Crispe, que n’es-tu plustost né ?</l>
               <l n="174" xml:id="l174">Ou pourquoy naissois-tu pour m’empescher de vivre ?</l>
               <l n="175" xml:id="l175">Je te dois fuir, je te dois suivre ;</l>
               <l n="176" xml:id="l176">Si l’un m’est defendu, l’autre m’est ordonné ;</l>
               <l n="177" xml:id="l177">Donc si mon <ref target="#feu">feu*</ref> te semble infame,</l>
               <l n="178" xml:id="l178">Accuse tes beautez aussi bien<note n="182" place="bottom"><hi rend="i">Aussi bien</hi> : mais aussi</note> que ma flame ;</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="179" xml:id="l179">Taschons pourtant de le cherir</l>
               <l n="180" xml:id="l180">Non pas comme un époux, mais comme son image ;</l>
               <l n="181" xml:id="l181">S’il est beau, je dois estre sage,</l>
@@ -832,41 +833,46 @@
               <l n="188" xml:id="l188">En l’aimant, je cheris mon époux doublement ;</l>
               <l n="189" xml:id="l189">Quoy donc ? luy seray-je <ref target="#infidele2">infidele*</ref>,</l>
               <l n="190" xml:id="l190">Si pour le mieux aimer, je redouble mon zele ?</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="191" xml:id="l191">Mais c’est trahir un Empereur,                    <pb n="12"/></l>
               <l n="192" xml:id="l192">Pour servir un <ref target="#tyran1">Tyran*</ref> qui n’est qu’abominable ;</l>
               <l n="193" xml:id="l193">Au pere pourray-je estre <ref target="#aimable">aymable*</ref>,</l>
               <l n="194" xml:id="l194">Et le fils me peut-il cherir que<note n="183" place="bottom"> Omission de la particule négative « ne » dans cette négation restrictive bi-tensive « ne …que ».</note> dans l’horreur ?</l>
               <l n="195" xml:id="l195">Mon cœur tien ta <ref target="#flamme">flamme*</ref> <ref target="#couvert">couverte*</ref>,</l>
               <l n="196" xml:id="l196">Voulant en gagner deux, je ferois double perte.</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="197" xml:id="l197">C’est le Conseil de la raison,</l>
               <l n="198" xml:id="l198">Mais mon aveuglement n’en peut pas voir la force ;</l>
               <l n="199" xml:id="l199">Le devoir m’est moins que l’<ref target="#amorce">amorce*</ref>;</l>
               <l n="200" xml:id="l200">Et cherissant mon mal je hais ma guerison :</l>
               <l n="201" xml:id="l201">J’ay de l’amour, j’ay de la honte<note n="184" place="bottom"> Nous pouvons noter aux vers 201 et 202, un chiasme, qui du fait de sa symétrie et de sa structure close, en miroir, exprime l’enfermement, et doublé de l’anaphore du syntagme verbale « j’ay de », cet enfermement semble proche de la folie.</note>,</l>
               <l n="202" xml:id="l202">L’une me fait rougir, mais l’autre me surmonte<note n="185" place="bottom"><hi rend="i">Surmonter  qqn</hi>: vaincre, triompher des efforts de qqn.</note>.</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="203" xml:id="l203">Tous les Dieux pour m’encourager</l>
               <l n="204" xml:id="l204">Sans offenser les Loix, font de ces alliances<note n="186" place="bottom"> Alliances : unions qui se se font par le biais d’un mariage.</note>;</l>
               <l n="205" xml:id="l205">Loin de toutes ces differences</l>
               <l n="206" xml:id="l206">Frere et sœur, mere et fils s’espousent sans danger.</l>
               <l n="207" xml:id="l207">Pour moy je n’ayme pas de frere,</l>
               <l n="208" xml:id="l208">Et ne poursuis qu’un fils dont je ne suis pas mere.</l>
-              <p/>
+              </lg>
+              <lg>
               <l n="209" xml:id="l209">Quel remede<note n="187" place="bottom"><hi rend="i">Remede</hi> : Qui sert à se garantir de toutes les choses fâcheuses et incommodes.</note> aura cet Amour</l>
               <l n="210" xml:id="l210">Si je n’en puis parler, et ne puis pas m’en taire ?</l>
               <l n="211" xml:id="l211">Il m’empesche d’estre sincere,</l>
               <l n="212" xml:id="l212">Et me doit étouffer s’il n’est produit au jour ;</l>
               <l n="213" xml:id="l213">Que Crispe l’apprenne luy mesme,                <pb n="13"/></l>
               <l n="214" xml:id="l214">Et se voyant aimé qu’il me tuë, ou qu’il m’aime<note n="188" place="bottom"> La construction de ce vers évoque celui qu’écrira plus tard Racine à l’acte II, scène 5 de <hi rend="i">Phèdre</hi> : « Se serait avec vous retrouvée, ou perdue. ».</note>.</l>
+              </lg>
             </sp>
           </div>
           <div type="scene">
             <pb/>
             <head>Scene VI</head>
             <stage><hi rend="sc">Fauste, Helene</hi> fille de l’Empereur.</stage>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="215" xml:id="l215">Madame, l’Empereur éloigne de nos yeux,</l>
               <l n="216" xml:id="l216">Ce Prince qui faisoit et sa gloire, et nos voeux.</l>
@@ -875,7 +881,7 @@
               <speaker>fauste</speaker>
               <l n="217" xml:id="l217">Est-il disgracié<note n="189" place="bottom"><hi rend="i">Disgracié</hi> : banni de la Cour.</note> ?</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l part="Y">        Sa grande renommée</l>
               <l n="218" xml:id="l218">L’a fait choisir d’<ref target="#abord">abord*</ref> pour conduire l’armée.</l>
@@ -886,7 +892,7 @@
               <l n="220" xml:id="l220">Mais souvent aux plus <ref target="#grand1">grands*</ref> il est plus malheureux ;</l>
               <l n="221" xml:id="l221">Et Crispe le veut-il ?</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l part="Y">            Comme il aime la gloire,</l>
               <l n="222" xml:id="l222">Il fuit tous les plaisirs pour suivre la victoire.</l>
@@ -900,7 +906,7 @@
               <l n="227" xml:id="l227">Donc pour l’en preserver il le faut retenir ;</l>
               <l n="228" xml:id="l228">On recherche un malheur qu’on tarde à prevenir<note n="193" place="bottom"><hi rend="i">Prevenir</hi> : empêcher de se produire.</note>.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="229" xml:id="l229">L’Empereur là dessus n’escoute point sa mere ;</l>
               <l n="230" xml:id="l230">Madame, c’est en vain qu’elle a fait sa priere<note n="194" place="bottom"><hi rend="i">Priere</hi> : demande.</note> ;</l>
@@ -1011,7 +1017,7 @@
               <l n="271" xml:id="l271">Mettez vôtre repos à plaire à l’Empereur.</l>
               <stage>Artaban se retire.</stage>
             </sp>
-            <sp who="adelaide-seule">
+            <sp who="adelaide">
               <speaker>adelaïde <hi rend="i">seule.</hi></speaker>
               <l n="272" xml:id="l272">Le <ref target="#funeste2">funeste*</ref> repos qui me met en fureur !</l>
               <l n="273" xml:id="l273">Que j’avois tort d’aimer un sujet trop <ref target="#aimable">aimable*</ref>,</l>
@@ -1258,7 +1264,7 @@
               <l n="371" xml:id="l371">Ma Confidente mesme, et remarquez ce poinct,</l>
               <l n="372" xml:id="l372">Sans voir <ref target="#choquer">choquer*</ref> son <ref target="#feu">feu*</ref>, ne le cherira point.</l>
             </sp>
-            <sp who="fauste-seule-a-coste">
+            <sp who="fauste">
               <speaker>fauste <hi rend="i">seule à costé.</hi></speaker>
               <l n="373" xml:id="l373">Mon cœur estoit pressé, mais je sens qu’il respire,</l>
               <l n="374" xml:id="l374">Dans ma joye pourtant je rencontre un martyre,</l>
@@ -1274,7 +1280,7 @@
             <pb/>
             <head>Scene III.</head>
             <stage><hi rend="sc">Helene</hi> mere de l’Empereur. <hi rend="sc">Crispe, Emile</hi></stage>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="381" xml:id="l381">Puis qu’en fin mon Amour doit ceder à ta gloire,</l>
               <l n="382" xml:id="l382">Puisses-tu me quittant rencontrer la Victoire !</l>
@@ -1291,7 +1297,7 @@
               <l n="390" xml:id="l390">Que celle que j’obtiens au peril de ma teste.</l>
               <l n="391" xml:id="l391">Adieu<note n="219" place="bottom"><hi rend="i">Adieu</hi> : au revoir.</note> Madame,</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l part="Y">            Adieu.</l>
             </sp>
@@ -1362,7 +1368,7 @@
               <l n="421" xml:id="l421">Je vay tout de ce pas obtenir ma dépesche,</l>
               <l n="422" xml:id="l422">Car il n’est pas seant qu’une femme l’empesche.        <pb n=" 28"/></l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="423" xml:id="l423">Croy<note n="226" place="bottom"><hi rend="i">Croy</hi> : sois sûr.</note> que l’Imperatrice agit pour t’<ref target="#obliger">obliger*</ref>,</l>
               <l n="424" xml:id="l424">Et la desobligeant tu nous vas <ref target="#affliger">affliger*</ref>,</l>
@@ -1374,7 +1380,7 @@
               <l n="427" xml:id="l427">Sa grandeur va<note n="228" place="bottom"><hi rend="i">Va</hi> : a pour but.</note> tousjours sur ses contentemens,</l>
               <l n="428" xml:id="l428">Pourquoy n’auray-je pas les mesmes sentimens.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="429" xml:id="l429">Un pere ne doit pas trouver un fils rebelle.</l>
             </sp>
@@ -1390,7 +1396,7 @@
               <speaker>crispe</speaker>
               <l n="432" xml:id="l432">On nous éprouve<note n="229" place="bottom"><hi rend="i"><hi rend="sc">é</hi>prouver</hi> : tester, faire subir une épreuve.</note> encor quand il est differé.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="433" xml:id="l433">Mon fils, tu dois <ref target="#priser">priser*</ref> l’amour d’une <ref target="#marastre">marastre*</ref>.</l>
             </sp>
@@ -1403,7 +1409,7 @@
             <pb/>
             <head>Scene V                        <pb n="29"/></head>
             <stage><hi rend="sc">Helene</hi> fille de l’Empereur. <hi rend="sc">Adelaïde</hi></stage>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="435" xml:id="l435">Il ne s’en ira pas, appaisons nos douleurs,</l>
               <l n="436" xml:id="l436">La joye seulement<note n="231" place="bottom"><hi rend="i">Seulement</hi> : seule.</note> doit avoir de nos pleurs.</l>
@@ -1414,7 +1420,7 @@
               <l part="Y">        Que j’admire son zele,</l>
               <l n="438" xml:id="l438">Et que j’ay peine<note n="232" place="bottom"><hi rend="i">Avoir peine à</hi> : avoir du mal à.</note> à croire une douce nouvelle ?</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="439" xml:id="l439">Elle le voit tousjours, et le veut tousjours voir,</l>
               <l n="440" xml:id="l440">Et n’a que pour luy seul de cœur ny<note n="233" place="bottom"> Ny : et (dans une structure négative).</note> de pouvoir ;</l>
@@ -1426,7 +1432,7 @@
               <l n="443" xml:id="l443">He Dieux ! quelle Princesse auroit assez d’<ref target="#appas">appas*</ref></l>
               <l n="444" xml:id="l444">Pour pouvoir arrester<note n="235" place="bottom"><hi rend="i">Arrester</hi> : fixer, empêcher de bouger.</note> son cœur comme ses pas ?</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="445" xml:id="l445">L’Imperatrice seule a pouvoir de luy plaire.</l>
             </sp>
@@ -1434,13 +1440,13 @@
               <speaker>adelaïde</speaker>
               <l n="446" xml:id="l446">Mais il veut une femme, et Fauste n’est que mere.    <pb n="30"/></l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="447" xml:id="l447">Elle doit luy choisir celle qu’il doit aimer ;</l>
               <l n="448" xml:id="l448">Sondez<note n="236" place="bottom"><hi rend="i">Sonder</hi> : essayer de découvrir.</note> bien ses secrets pour nous en informer.</l>
               <stage>Helene se retire.</stage>
             </sp>
-            <sp who="adelaide-seule">
+            <sp who="adelaide">
               <speaker>adelaïde <hi rend="i">seule.</hi></speaker>
               <l n="449" xml:id="l449">Et c’est là mon malheur d’estre sa Confidente,</l>
               <l n="450" xml:id="l450">Car ce nom me defend d’estre sa concurrente ;</l>
@@ -2091,7 +2097,7 @@
               <l n="722" xml:id="l722">Sans doute l’Empereur la doit trouver honneste.</l>
               <stage>Crispe se retire, et Fauste fait semblant de le suivre.</stage>
             </sp>
-            <sp who="fauste-a-genoux">
+            <sp who="fauste">
               <speaker>fauste <hi rend="i">à genoux.</hi></speaker>
               <l n="723" xml:id="l723">Je me rends au devoir confessant que j’ay tort,</l>
               <l n="724" xml:id="l724">Et vois que mon amour a merité ma mort.</l>
@@ -2108,7 +2114,7 @@
           <div type="scene">
             <pb/>
             <head>Scene III</head>
-            <sp who="fauste-seule">
+            <sp who="fauste">
               <speaker>fauste <hi rend="i">seule.</hi></speaker>
               <lg>
               <l n="733" xml:id="l733">Donc<note n="285" place="bottom"><hi rend="i">Donc</hi> : puisque.</note> l’aimant je n’ay pû meriter que sa haine ?</l>
@@ -2856,7 +2862,7 @@
           <div type="scene">
             <pb/>
             <head>Scene II</head>
-            <sp who="artaban-seul">
+            <sp who="artaban">
               <speaker>Artaban <hi rend="i">seul.</hi></speaker>
               <lg>
                 <l n="1053" xml:id="l1053">Quel <ref target="#credit">credit*</ref> qui n’est bon que pour faire du mal ?</l>
@@ -2950,7 +2956,7 @@
             <pb/>
             <head>Scene IV</head>
             <stage><hi rend="sc">Fauste, Helene</hi> mere de l’Empereur.</stage>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1105" xml:id="l1105">Crispe s’est mal conduit en partant de ce lieu,</l>
               <l n="1106" xml:id="l1106">Sans nous en avertir, et sans vous dire adieu ;</l>
@@ -2976,7 +2982,7 @@
               <l n="1123" xml:id="l1123">S’il ne revient bien-tost, je crain pour sa personne ;</l>
               <l n="1124" xml:id="l1124">Prenez en bonne part, lavis que je vous donne.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1125" xml:id="l1125">Ce Prince est trop bien né pour couver dans le <ref target="#sein">sein*</ref>,</l>
               <l n="1126" xml:id="l1126">Parmy tant de bonté quelque mauvais <ref target="#dessein">dessein*</ref>;</l>
@@ -2987,7 +2993,7 @@
               <speaker>fauste</speaker>
               <l n="1129" xml:id="l1129">Je ne vois pas au moins qu’on l’ait desobligé.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1130" xml:id="l1130">C’est de trop de plaisir qu’il est donc <ref target="#affliger">affligé*</ref>.        <pb n="80"/></l>
             </sp>
@@ -2996,7 +3002,7 @@
               <l n="1131" xml:id="l1131">J’estime apres avoir bien pesé cette affaire,</l>
               <l n="1132" xml:id="l1132">Que pour sauver le fils, il faut gagner le pere.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1133" xml:id="l1133">Aydez-nous donc, Madame, à sauver un sujet</l>
               <l n="1134" xml:id="l1134">Dont les respects vous ont toujours eu pour objet.</l>
@@ -3008,7 +3014,7 @@
               <l n="1137" xml:id="l1137">Je veux l’aider, Madame, et tiens à grand bienfait</l>
               <l n="1138" xml:id="l1138">De pouvoir l’<ref target="#obliger">obligeant*</ref> vous servir en effet.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1139" xml:id="l1139">Ainsi vôtre clemence à nulle autre seconde,</l>
               <l n="1140" xml:id="l1140">Gagnant un seul sujet gagnera tout le monde.</l>
@@ -3046,7 +3052,7 @@
             <pb/>
             <head>Scene VI</head>
             <stage>Constantin, Helene sa fille.</stage>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1153" xml:id="l1153">Seigneur, à qui je dois et l’honneur et le jour,</l>
               <l n="1154" xml:id="l1154">Et qui joignez si bien la grandeur à l’amour ;</l>
@@ -3059,7 +3065,7 @@
               <l n="1158" xml:id="l1158">Prend sa source d’amour, non de quelque malheur,</l>
               <l n="1159" xml:id="l1159">Tu regrettes ton frere, et tu blâmes sa retraite,</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1160" xml:id="l1160">Je crain quelque accident qui luy pend sur la teste.</l>
             </sp>
@@ -3067,7 +3073,7 @@
               <speaker>constantin</speaker>
               <l n="1161" xml:id="l1161">Quel malheur ? de quel lieu luy pourroit-il venir ?</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1162" xml:id="l1162">Le present luy rit bien, mais je crain l’avenir.</l>
             </sp>
@@ -3075,7 +3081,7 @@
               <speaker>constantin</speaker>
               <l n="1163" xml:id="l1163">Ma fille, as-tu bien sceu le mal qu’on luy veut faire ?</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1164" xml:id="l1164">Non ; mais le cœur me dit qu’on m’en fait un mystere.</l>
             </sp>
@@ -3083,7 +3089,7 @@
               <speaker>constantin</speaker>
               <l n="1165" xml:id="l1165">Comment ?</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l part="Y">Mon frere, helas, estant party d’icy,</l>
               <l n="1166" xml:id="l1166">J’ay cherché du repos pour charmer mon soucy ;</l>
@@ -3121,7 +3127,7 @@
               <l n="1195" xml:id="l1195">J’ay pour luy de l’amour, si j’estois en colere,</l>
               <l n="1196" xml:id="l1196">Et Crispe desormais ne me sçauroit déplaire.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1197" xml:id="l1197">Je m’en vay <ref target="#publier">publier*</ref> ma joye et son bonheur,</l>
               <l n="1198" xml:id="l1198">En dépit de l’enuie il vivra dans l’honneur.</l>
@@ -3130,7 +3136,7 @@
           <div type="scene">
             <pb/>
             <head>Scene VII</head>
-            <sp who="constantin-seul">
+            <sp who="constantin">
               <speaker>Constantin <hi rend="i">seul.</hi></speaker>
               <lg>
               <l n="1199" xml:id="l1199">Qui peut trahir son cœur ? j’ay pour luy de la haine,</l>
@@ -3180,7 +3186,7 @@
               <l n="1227" xml:id="l1227">J’aime mieux son salut que voir vôtre vengeance,</l>
               <l n="1228" xml:id="l1228">Et s’il est <ref target="#affliger">affligé*</ref> je suis sans allegeance ;</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1229" xml:id="l1229">Un Prince qui ravit les cœurs comme les yeux,</l>
               <l n="1230" xml:id="l1230">Ne vit pas dans la Cour long temps sans envieux ;</l>
@@ -3209,7 +3215,7 @@
           <div type="scene">
             <pb/>
             <head>Scene IX</head>
-            <sp who="procle-seul">
+            <sp who="procle">
               <speaker>Procle <hi rend="i">seul, estant de retour du lieu où Crispe est mort.</hi></speaker>
               <lg>
               <l n="1241" xml:id="l1241">Quel de ces deux malheurs, Procle, dois-tu choisir !</l>
@@ -3256,8 +3262,8 @@
           <div type="scene">
             <pb/>
             <head>Scene X                <pb n="89, M"/></head>
-            <stage><hi rend="sc">Helene</hi>fillede l’Empereur. <hi rend="sc">Procle.Hycarie</hi>suivante.</stage>
-            <sp who="helene">
+            <stage><hi rend="sc">Helene</hi>fille de l’Empereur. <hi rend="sc">Procle.Hycarie</hi>suivante.</stage>
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1273" xml:id="l1273">Procle m’estoit connu, mais je le méconnoy,</l>
               <l n="1274" xml:id="l1274">Ses joyes sont ailleurs, et ses pleurs sont pour moy.</l>
@@ -3266,7 +3272,7 @@
               <speaker>procle</speaker>
               <l n="1275" xml:id="l1275">Si Procle est <ref target="#affliger">affligé*</ref>, vous causez sa tristesse.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1276" xml:id="l1276">Si<note n="328" place="bottom"><hi rend="i">Si</hi> : pourtant.</note> faisois-je <ref target="#devant">devant*</ref> toute son allegresse.</l>
             </sp>
@@ -3274,7 +3280,7 @@
               <speaker>procle</speaker>
               <l n="1277" xml:id="l1277">Mais depuis quelque temps le <ref target="#sort">sort*</ref> est bien changé.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1278" xml:id="l1278">A quelque autre party, Procle, s’est-il rangé !</l>
             </sp>
@@ -3283,7 +3289,7 @@
               <l n="1279" xml:id="l1279">Je suis trop honoré de vous faire service,</l>
               <l n="1280" xml:id="l1280">Mais vôtre frere et vous m’estes un grand supplice.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1281" xml:id="l1281">Crispe que t’a-t’il fait ?                           <pb n="90"/></l>
             </sp>
@@ -3291,7 +3297,7 @@
               <speaker>procle</speaker>
               <l part="Y">            Ne m’en demandez rien.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1282" xml:id="l1282">Qui peut avoir rompu cét intime lien<note n="329" place="bottom"><hi rend="i">Lien</hi> : relation.</note> ?</l>
               <l n="1283" xml:id="l1283">Vous n’aviez en deux corps qu’un seul cœur, et qu’une ame ?</l>
@@ -3300,7 +3306,7 @@
               <speaker>procle</speaker>
               <l n="1284" xml:id="l1284">Pour bon amy qu’il fust, il est du tout sans flamme<note n="330" place="bottom"> Le mot « flamme » est ici une métaphore pour la vie.</note>.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1285" xml:id="l1285">Quelque grand accident vous a donc separez.</l>
             </sp>
@@ -3309,7 +3315,7 @@
               <l n="1286" xml:id="l1286">Et nous separera lors que vous le sçaurez,</l>
               <l n="1287" xml:id="l1287">Car je pretens<note n="331" place="bottom"><hi rend="i">Pretendre</hi> : vouloir.</note> mourir.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l part="Y">            Mais que fait-il encore ?</l>
             </sp>
@@ -3317,7 +3323,7 @@
               <speaker>procle</speaker>
               <l n="1288" xml:id="l1288">Il ne vous aime plus, personne ne l’honore.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1289" xml:id="l1289">Je sçay bien que mon cœur ne l’a pas offencé ;</l>
               <l n="1290" xml:id="l1290">Si mon pere s’aigrit son courroux est passé.         <pb n="91"/></l>
@@ -3326,7 +3332,7 @@
               <speaker>procle</speaker>
               <l n="1291" xml:id="l1291">Il ne vous sçauroit voir.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l part="Y">            Et moy je passionne,</l>
               <l n="1292" xml:id="l1292">De voir Crispe plustost que toute autre personne.</l>
@@ -3335,7 +3341,7 @@
               <speaker>procle</speaker>
               <l n="1293" xml:id="l1293">Vous ne le verrez plus qu’avecque <ref target="#deplaisir">déplaisir*</ref>.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1294" xml:id="l1294">Quelque mal que j’attende, au moins j’ay ce desir.</l>
             </sp>
@@ -3346,7 +3352,7 @@
               <l n="1297" xml:id="l1297">Il ne peut retourner ny s’en ressouvenir,</l>
               <l n="1298" xml:id="l1298">Il faudroit le porter pour le faire venir.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1299" xml:id="l1299">Je croy qu’il est blessé.</l>
             </sp>
@@ -3355,7 +3361,7 @@
               <l part="Y">            Son corps est sans blessure,</l>
               <l n="1300" xml:id="l1300">Crispe n’a point de mal, c’est Procle qui l’endure.</l>
             </sp>
-            <sp who="hycarie-le-prenom-hycarie-est-biffe-et-corrige-par-le-prenom-helene-dans-l-exemplaire-rf-6207">
+            <sp who="hycarie">
               <speaker>hycarie<note n="332" place="bottom"> Le prénom <hi rend="i">Hycarie</hi> est biffé et corrigé par le prénom <hi rend="i">Helene</hi> dans l’exemplaire Rf 6207.</note></speaker>
               <l n="1301" xml:id="l1301">Il s’en est fuy peut estre ?                      <pb n="92"/></l>
             </sp>
@@ -3363,7 +3369,7 @@
               <speaker>procle</speaker>
               <l part="Y">            Il est allé bien loin.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1302" xml:id="l1302">Tu montres que ton cœur en eust bien peu de <ref target="#soin">soin*</ref>.</l>
             </sp>
@@ -3371,7 +3377,7 @@
               <speaker>procle</speaker>
               <l n="1303" xml:id="l1303">Peu de <ref target="#soin">soin*</ref>; ha ! Dieu sçait si mon cœur le deplore.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1304" xml:id="l1304">Fais-moy donc tout sçavoir, tu sçais que je t’adore.</l>
             </sp>
@@ -3379,7 +3385,7 @@
               <speaker>procle</speaker>
               <l n="1305" xml:id="l1305">Enfin Crispe.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l part="Y">        Poursuis.</l>
             </sp>
@@ -3387,7 +3393,7 @@
               <speaker>procle</speaker>
               <l part="Y">            Il me faudroit mourir.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1306" xml:id="l1306">Si je te fais du mal, je puis bien t’en guerir.</l>
             </sp>
@@ -3398,7 +3404,7 @@
               <l n="1309" xml:id="l1309">Vous lirez maintenant le reste dans mes yeux,</l>
               <l n="1310" xml:id="l1310">Qui sans autre <ref target="#discours">discours*</ref> vous en parleront mieux.         <pb n="93"/></l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1311" xml:id="l1311">Je prevois un malheur à voir ta contenance,</l>
               <l n="1312" xml:id="l1312">Et mon songe sans doute, aura trop de creance,</l>
@@ -3409,7 +3415,7 @@
               <l part="Y">                Vous mesme l’avez dit,</l>
               <l n="1314" xml:id="l1314">Car pour vous l’annoncer j’estois trop interdit.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1315" xml:id="l1315">Crispe mon frere est mort, ce beau corps est sans ame !</l>
               <l n="1316" xml:id="l1316">Dieux ! il me faut perir, c’est trop peu que je pâme ;</l>
@@ -3438,7 +3444,7 @@
               <l n="1327" xml:id="l1327">Qu’il est vray que l’amour de deux n’en fait qu’un mesme ?</l>
               <l n="1328" xml:id="l1328">Quoy que Crispe soit mort, je croy qu’il est moins blesme.</l>
             </sp>
-            <sp who="helene-se-relevant">
+            <sp who="helene-fille">
               <speaker>helene <hi rend="i">se relevant.</hi></speaker>
               <l n="1329" xml:id="l1329">Ton cœur me le celoit me pensant <ref target="#obliger">obliger*</ref> ?</l>
             </sp>
@@ -3446,7 +3452,7 @@
               <speaker>procle</speaker>
               <l n="1330" xml:id="l1330">Je differois tousjours à vous tant <ref target="#affliger">affliger*</ref>.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1331" xml:id="l1331"><ref target="#affliger">Affliger*</ref>; c’en est fait, Helene n’a de vie</l>
               <l n="1332" xml:id="l1332">Que pour voir dans ce jour qu’elle luy soit <ref target="#ravir">ravie*</ref>.</l>
@@ -3456,7 +3462,7 @@
               <speaker>procle</speaker>
               <l part="Y">            Par l’effet du poison.            <pb n="95"/></l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1334" xml:id="l1334">Il n’eust sceu redouter que quelque trahison.</l>
               <l n="1335" xml:id="l1335">Que dira l’Empereur, mais que dira sa femme ?</l>
@@ -3516,7 +3522,7 @@
               <l n="1339" xml:id="l1339">Oui, Madame, sa mort me semble déplorable,</l>
               <l n="1340" xml:id="l1340">Mais sa faute autrement sembloit irreparable.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1341" xml:id="l1341">Madame, en l’offençant vous m’offencez aussi,</l>
               <l n="1342" xml:id="l1342">L’excusiez-vous <ref target="#devant">devant*</ref> pour l’accuser ainsi ?</l>
@@ -3525,7 +3531,7 @@
               <speaker>fauste</speaker>
               <l n="1343" xml:id="l1343">Mon cœur parle bien moins que l’interest du pere.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1344" xml:id="l1344">Croyez qu’il n’en a point, Madame, en cette affaire.</l>
             </sp>
@@ -3533,7 +3539,7 @@
               <speaker>fauste</speaker>
               <l n="1345" xml:id="l1345">Quoy qu’il en soit, Madame, au moins son fils est mort.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1346" xml:id="l1346">Cela n’est que trop vray, mais c’est toujours à tort.          <pb n="98"/></l>
             </sp>
@@ -3542,7 +3548,7 @@
               <l n="1347" xml:id="l1347">L’Empereur se craignoit de quelque intelligence ;</l>
               <l n="1348" xml:id="l1348">Il l’étouffe avec luy, c’est un trait de prudence.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1349" xml:id="l1349">L’Empereur n’ayant point minuté ce <ref target="#forfait">forfait*</ref>,</l>
               <l n="1350" xml:id="l1350">L’on ne peut sans peché le charger<note n="333" place="bottom"><hi rend="i">Charger</hi> : accuser.</note> de l’effet.</l>
@@ -3551,7 +3557,7 @@
               <speaker>fauste</speaker>
               <l n="1351" xml:id="l1351">Si ne s’émeut-il pas de voir Crispe sans vie.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1352" xml:id="l1352">Si verrez-vous pourtant sa mort bien poursuivie :</l>
               <l n="1353" xml:id="l1353">Et le Ciel est menteur s’il ne met pas à mort</l>
@@ -3563,7 +3569,7 @@
               <l n="1356" xml:id="l1356">Et mes douleurs pourroient trouver de l’allegeance ;</l>
               <l n="1357" xml:id="l1357">Mais je n’ay pas le cœur.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l part="Y">            De vanger l’Innocent ?</l>
             </sp>
@@ -3571,7 +3577,7 @@
               <speaker>fauste</speaker>
               <l n="1358" xml:id="l1358">Celuy qui veut couvrir un <ref target="#forfait">forfait*</ref>, y consent.            <pb n="99"/></l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1359" xml:id="l1359">Vôtre cœur n’a donc plus pour luy que de la haïne ?</l>
             </sp>
@@ -3585,7 +3591,7 @@
               <l n="1365" xml:id="l1365">Et puis il ne faut pas en matiere d’Estat,</l>
               <l n="1366" xml:id="l1366">Employer son <ref target="#credit">credit*</ref> pour un tel attentat.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1367" xml:id="l1367">Il n’est plus d’innocent si mon fils est coupable,</l>
               <l n="1368" xml:id="l1368">Fauste, Helene, en un mot, chacun est execrable.</l>
@@ -3599,7 +3605,7 @@
           <div type="scene">
             <pb/>
             <head>Scene II                        <pb n="100"/></head>
-            <sp who="fauste-seule">
+            <sp who="fauste">
               <speaker>Fauste <hi rend="i">seule.</hi></speaker>
               <lg>
               <l n="1373" xml:id="l1373">Donc le sang de ce mort m’apprendra mon devoir ?</l>
@@ -3874,7 +3880,7 @@
             <pb/>
             <head>Scene V            <pb n="108"/></head>
             <stage>Constantin, Helene sa mere.</stage>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1471" xml:id="l1471">Et vous vivez encor, le Prince estant sans ame ?</l>
             </sp>
@@ -3882,7 +3888,7 @@
               <speaker>constantin</speaker>
               <l n="1472" xml:id="l1472">Qu’ay-je fait pour mourir qui soit digne de blâme ?</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1473" xml:id="l1473">Qu’avoit fait vôtre fils ?</l>
             </sp>
@@ -3891,7 +3897,7 @@
               <l part="Y">            Il avoit bien du tort,</l>
               <l n="1474" xml:id="l1474">Puis que son pere mesme a procuré<note n="342" place="bottom"><hi rend="i">Procurer</hi> : s’occuper de.</note> sa mort.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1475" xml:id="l1475">Quel tort pouvoit avoir un fils plein d’innocence ?</l>
             </sp>
@@ -3899,7 +3905,7 @@
               <speaker>constantin</speaker>
               <l n="1476" xml:id="l1476">De l’appeler ainsi, c’est doubler son offence.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1477" xml:id="l1477">Et quelle est cette offence ?</l>
             </sp>
@@ -3908,7 +3914,7 @@
               <l part="Y">            Elle est noire à ce poinct,</l>
               <l n="1478" xml:id="l1478">Que son enormité fait qu’on n’en parle point.            <pb n="109"/></l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1479" xml:id="l1479">Vôtre cœur peut-il rien <ref target="#celer">celer*</ref> à vôtre mere ?</l>
             </sp>
@@ -3916,7 +3922,7 @@
               <speaker>constantin</speaker>
               <l n="1480" xml:id="l1480">Ce fils ne tenoit plus Constantin pour son pere.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1481" xml:id="l1481">Il vous honoroit tant.</l>
             </sp>
@@ -3924,7 +3930,7 @@
               <speaker>constantin</speaker>
               <l part="Y">            Oüy pour me mépriser.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1482" xml:id="l1482">Il estoit tout<note n="343" place="bottom"><hi rend="i">Tout</hi> : entièrement.</note> à Fauste.</l>
             </sp>
@@ -3932,7 +3938,7 @@
               <speaker>constantin</speaker>
               <l part="Y">            Oüy pour la courtiser.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1483" xml:id="l1483">Pouvez-vous accuser une si pure <ref target="#flamme">flamme*</ref> ?</l>
             </sp>
@@ -3940,7 +3946,7 @@
               <speaker>constantin</speaker>
               <l n="1484" xml:id="l1484">L’innocent souhaittoit d’estre époux de ma femme.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1485" xml:id="l1485">Quels en sont les témoins ?</l>
             </sp>
@@ -3949,7 +3955,7 @@
               <l part="Y">            Ceux qui le sçavent bien.</l>
               <l n="1486" xml:id="l1486">Et qui por l’excuser n’en disent pourtant rien.            <pb n="110"/></l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1487" xml:id="l1487">Fauste ne dira pas que Crispe soit coupable.</l>
             </sp>
@@ -3957,7 +3963,7 @@
               <speaker>constantin</speaker>
               <l n="1488" xml:id="l1488">Ny qu’un si prompt depart ne le rende blâmable.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1489" xml:id="l1489">Les objets le cherchoient, il en trouvoit ailleurs.</l>
             </sp>
@@ -3965,7 +3971,7 @@
               <speaker>constantin</speaker>
               <l n="1490" xml:id="l1490">Il n’en rencontroit pas peut estre de meilleurs.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1491" xml:id="l1491">Pour voir de grands malheurs ne cherchons pas les Fables,</l>
               <l n="1492" xml:id="l1492">On peut trouver icy des Phedres veritables.</l>
@@ -3975,7 +3981,7 @@
               <l n="1493" xml:id="l1493">Possible on l’a chargé des attentats d’autruy,</l>
               <l n="1494" xml:id="l1494">Quel autre eut osé faire un tel crime que luy ?</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1495" xml:id="l1495">Fauste dans son amour pour se tirer de peine,</l>
               <l n="1496" xml:id="l1496">A fait voir à ce <ref target="#coup">coup*</ref> sa prudence et sa haine ;</l>
@@ -3986,7 +3992,7 @@
               <speaker>constantin</speaker>
               <l n="1499" xml:id="l1499">Il ne faut pas blamer ma femme en ma presence.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-mere">
               <speaker>helene</speaker>
               <l n="1500" xml:id="l1500">Fauste aussi n’y doit pas accuser l’innocence.</l>
               <stage>Fauste entre.</stage>
@@ -4149,7 +4155,7 @@
               <l n="1569" xml:id="l1569">Mais avant que perir, que j’embrasse son corps,</l>
               <l n="1570" xml:id="l1570">Pour me voir avec luy mettre au nombre des morts.</l>
             </sp>
-            <sp who="helene-mere-de-l-empereur">
+            <sp who="helene-mere">
               <speaker>helene <hi rend="i">mere de l’Empereur.</hi></speaker>
               <l n="1571" xml:id="l1571">Donc pour avoir suivy les humeurs d’une femme</l>
               <l n="1572" xml:id="l1572">Tout couvert de Laurier, on vous couvre de blâme ?</l>
@@ -4215,7 +4221,7 @@
             <pb/>
             <head>Scene VIII</head>
             <stage><hi rend="sc">Helene</hi> fille de l’Empereur. <hi rend="sc">Adelaïde, Procle</hi></stage>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1603" xml:id="l1603">Maintenant que nos yeux ont épuisé nos larmes,</l>
               <l n="1604" xml:id="l1604">Dy nous comment mourut ce vainqueur loin des armes.</l>
@@ -4253,7 +4259,7 @@
               <l n="1632" xml:id="l1632">Son visage de vif à l’instant devient blesme.</l>
               <l n="1633" xml:id="l1633">Il chancelle.                                <pb n="120"/></l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l part="Y">        Je meurs.</l>
             </sp>
@@ -4325,7 +4331,7 @@
               <l n="1683" xml:id="l1683">Je n’aimois que luy seul, je n’aimeray qu’Helene,</l>
               <l n="1684" xml:id="l1684">Il passoit pour mon Prince, et vous serez ma Reine.</l>
             </sp>
-            <sp who="helene">
+            <sp who="helene-fille">
               <speaker>helene</speaker>
               <l n="1685" xml:id="l1685">Oüy, Procle, je me rends à ce doux compliment,</l>
               <l n="1686" xml:id="l1686">Et sans qu’il faut mourir nous vivrions doucement.</l>
@@ -4388,7 +4394,7 @@
               <l n="1707" xml:id="l1707">C’est un sang corrompu que j’épanche à cette heure,</l>
               <l n="1708" xml:id="l1708">J’ay bien perdu <ref target="#devant">devant*</ref> le bon sans que j’en meure ?</l>
             </sp>
-            <sp who="helene-a-coste">
+            <sp who="helene-mere">
               <speaker>helene <hi rend="i">à costé.</hi></speaker>
               <l n="1709" xml:id="l1709">Dedans<note n="361" place="bottom"><hi rend="i">Dedans</hi> : du point de vue.</note> la probité son mal ne me plaist pas,</l>
               <l n="1710" xml:id="l1710">Mais j’ay bien de la peine à pleurer son trépas.         <pb n="125"/></l>
@@ -4743,9 +4749,9 @@
         <div>
           <head>Annexe : extrait de La Cour sainte</head>
           <p>Nicolas CAUSSIN S.J., <hi rend="i">La Cour Sainte. Tome second: le prelat, le cavalier, l’homme d’estat, la dame</hi>, Paris, Sebastien Chappelet, 1640, p. 521-535 (privilège de 1627)</p>
-          <label rend="center"><hi rend="b">LE CAVALlER</hi>. Constantin</label>
+          <p rend="center"><hi rend="b">LE CAVALlER</hi>. Constantin</p>
           <p>Les vices et passions de Constantin devant le Baptesme, avec la mort de Crispus et de Fausta.</p>
-          <label rend="center b">SECTION VII.</label>
+          <p rend="center b">SECTION VII.</p>
           <p>Je ne veux point representer icy un Constantin en pourfil, comme a fait Eusebe, pour cacher les defauts, et mettre seulement au jour les beautez. Ce n’est pas de merveille qu’il ait eu les vices devant le Baptesme, mais c’est le miracle du Christianisme de changer les lyons en agneaux, les cloaques en fontaines, et les espines en roses et en tulipes. Les glaces de l’hyver font la beauté du printemps, les tenebres contribuent au lustre de la lumiere; et jamais le Soleil n’est plus beau qu’apres son eclipse. Aussi la grace qui est la blancheur de la lumiere eternelle, se fait voir avec plus de triomphes aux ames où elle a dompté plus d’iniquitez. Il est certain que ceste humeur guerriere de Constantin portoit des vanitez, des ambitions, de jalousies, et quelque sorte d’esprit sanguinaire, qui avoit esté grandement fomenté par la nourriture qu’il avoit prise au Palais de Diocletian.</p>
           <p>Voicy un prodigieux accident arrivé en sa maison par une precipitation mal digerée, qui est la mort de son pauvre fils Crispus, empoisonné par le commandement du pere sur une meschante et malheureuse calomnie qui luy fut suscitée par sa belle mere. Veritablement ma plume fremit de l’horreur qu’elle a de toucher ceste histoire; et je sçay que plusieurs Grecs flatteurs, ou l’ont passée sous silence, ou l’ont voulu déguiser en faveur de Constantin: mais le sainct Martyr Artemius l’avoua franchement devant Julien l’Apostat, qui luy reprochoit, ne voulant pas nier un fait qui estoit assez notoire, mais se contentant de l’adoucir par les circonstances intervenuës. Le Cardinal Baronius se fasche contre Eusebe qui n’en a rien dit, comme si c’estoit chose estrange qu’un homme qui escrivoit à un fils la vie de son pere en forme de Panegyrique, ne chargeast pas son escrit de crimes et de fureurs qu’on taschoit alors d’estouffer par toutes voyes. Les Grands ont les sentiments trop chatoüilleux à semblables histoires, et ressemblent ordinairement cét animal qui porte son fiel en l’oreille. Ils ne peuvent oüyr une histoire veritable de ce qui les touche, sans se picquer; il faut quelquefois qu’ils apprennent leur vie dans les bruits du peuble: où les uns prennent licentieusement la liberté de tout dire, puisque les autres ont pris la liberté de tout faire.</p>
           <p>On ne se peut taire dés ce temps-là des vices de Constantin: mais comme apres avoir fait mourir son fils Crispus, il y ajousta la mort de sa femme Fausta qui avoit suscité la calomnie contre l’innocent, on affigea ce distique aux portes de son Palais, qu’on a depuis attribué au Consul Ablavius:</p>
