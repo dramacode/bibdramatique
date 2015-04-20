@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Oreste et Pilade. Tragédie</title>
-        <author>François-Joseph Chancel</author>
+        <author key="La Grange-Chancel, François-Joseph de (1677-1758)">François-Joseph Chancel</author>
+        <principal>Georges Forestier</principal>
         <editor>Laura Ferrucci</editor>
       </titleStmt>
       <editionStmt>
-        <edition></edition>
+        <edition>Édition critique établie par Laura Ferrucci dans le cadre d'un mémoire de
+          master 1 sous la direction de Georges Forestier (2009-2010)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2015"/>
-        <idno>?</idno>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/lagrange-chancel_oreste-pilade/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/lagrange-chancel_oreste-pilade.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/lagrange-chancel_oreste-pilade.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/lagrange-chancel_oreste-pilade.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/lagrange-chancel_oreste-pilade.epub</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl>?</bibl>
+        <bibl><author>François-Joseph de La Grange-Chancel</author>, <title>Oreste et Pilade, tragédie</title>, A PARIS, Chez PIERRE RIBOU, proche les Augustins, à la descente du Pont-neuf, à l’Image S. Loüis. M. DC. XCIX. AVEC PRIVILEGE DU ROI.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -35,7 +38,7 @@
         <date when="1697"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -313,7 +316,7 @@
               </quote>
               <p>Ces trois vers illustrent bien les changements d’humeur successifs dont sont victimes les caractères tragiques. De même, Iphigénie est fort inquiète après le refus de Pilade de retourner en Grèce et elle tente alors de ramener le jeune homme à la raison de peur de voir s’écrouler son projet (vers 581-584). Thomiris est également troublée par l’arrivée d’un second Grec et elle s’en plaint à sa confidente car elle se pense alors perdue (vers 708-710).</p>
               <p>La reine bafouée va donc encourager une quatrième péripétie en implorant Oreste de ne révéler à personne son identité (vers 813-815). Un nouvel obstacle extérieur est donc mis en place et se répercute sur les volontés de Thoas et d’Iphigénie à partir du moment où Oreste se décide à taire quel il est (acte III, scène 5). La situation restera dès lors bloquée – Oreste cachant un temps son identité puis se la disputant avec son ami Pilade, embrouillant ainsi l’esprit de Thoas et retardant leur mise à mort – et cela prendra fin avec la scène de reconnaissance entre le frère et la sœur.</p>
-              <p>Après ces nombreux rebondissements, le véritable coup de théâtre arrive à l’acte V et est caractérisé par la fuite d’Iphigénie sous les voiles de Thomiris ; ce qui entraîne le dénouement. La Grange-Chancel n’a donc pas lésiné sur les péripéties dont est riche sa tragédie. Nous pouvons aisément supposer que ces multiples retournements de situation furent une force lors des représentations de la pièce, le but ultime de la tragédie étant d’émouvoir le public en lui faisant ressentir une gamme d’émotions violentes. Les nombreux coups de théâtre tenaient le spectateur dans l’attente continuelle du dénouement qui se faisait autre à chaque péripétie. Ce que l’on nommerait de nos jours <hi rend="i">suspense</hi> était appelé au XVII<hi rend="sup">e</hi> siècle <hi rend="i">suspension</hi>. Le Père Rapin écrivait ainsi que « le plaisir des spectateurs est d’attendre toujours quelque chose de surprenant, et de contraire à leurs préjugés. Et rien ne doit tant régner dans le théâtre que la suspension : parce que le principal plaisir qu’on y prend est la surprise<note place="bottom">P. Rapin, <hi rend="i">Réflexion sur la poétique de ce temps</hi>, 1676, cité [<hi rend="i">dans</hi>] Jacques Truchet, <hi rend="i">La tragédie classique en France</hi>, Paris, PUF, p. 57.</note> ». Les péripéties attisaient la curiosité du public et lui faisaient éprouver les deux émotions qui se trouvent au cœur du dispositif pathétique de la tragédie et qui furent analysées par Aristote : la crainte et la pitié<note place="bottom">Le célèbre passage de <hi rend="i">La Poétique</hi> annonce que « la tragédie est l’imitation d’une action grave et complète ayant une certaine étendue, présentée dans un langage rendu agréable et de telle sorte que chacune des parties qui la composent subsiste séparément, se développant avec des personnages qui agissent, et non au moyen d’une narration, <hi rend="i">et opérant par la pitié et la terreur la purgation des passions de la même nature</hi><hi rend="color_00004f">. » <hi rend="i">É</hi></hi><hi rend="i">d. cit.</hi>, chapitre VI / II.</note>. Le spectateur connaissait alors les mêmes émotions que celles éprouvaient par les personnages de la pièce et il était dans l’émotion continue.</p>
+              <p>Après ces nombreux rebondissements, le véritable coup de théâtre arrive à l’acte V et est caractérisé par la fuite d’Iphigénie sous les voiles de Thomiris ; ce qui entraîne le dénouement. La Grange-Chancel n’a donc pas lésiné sur les péripéties dont est riche sa tragédie. Nous pouvons aisément supposer que ces multiples retournements de situation furent une force lors des représentations de la pièce, le but ultime de la tragédie étant d’émouvoir le public en lui faisant ressentir une gamme d’émotions violentes. Les nombreux coups de théâtre tenaient le spectateur dans l’attente continuelle du dénouement qui se faisait autre à chaque péripétie. Ce que l’on nommerait de nos jours <hi rend="i">suspense</hi> était appelé au XVII<hi rend="sup">e</hi> siècle <hi rend="i">suspension</hi>. Le Père Rapin écrivait ainsi que « le plaisir des spectateurs est d’attendre toujours quelque chose de surprenant, et de contraire à leurs préjugés. Et rien ne doit tant régner dans le théâtre que la suspension : parce que le principal plaisir qu’on y prend est la surprise<note place="bottom">P. Rapin, <hi rend="i">Réflexion sur la poétique de ce temps</hi>, 1676, cité [<hi rend="i">dans</hi>] Jacques Truchet, <hi rend="i">La tragédie classique en France</hi>, Paris, PUF, p. 57.</note> ». Les péripéties attisaient la curiosité du public et lui faisaient éprouver les deux émotions qui se trouvent au cœur du dispositif pathétique de la tragédie et qui furent analysées par Aristote : la crainte et la pitié<note place="bottom">Le célèbre passage de <hi rend="i">La Poétique</hi> annonce que « la tragédie est l’imitation d’une action grave et complète ayant une certaine étendue, présentée dans un langage rendu agréable et de telle sorte que chacune des parties qui la composent subsiste séparément, se développant avec des personnages qui agissent, et non au moyen d’une narration, <hi rend="i">et opérant par la pitié et la terreur la purgation des passions de la même nature</hi>. » <hi rend="i">É</hi><hi rend="i">d. cit.</hi>, chapitre VI / II.</note>. Le spectateur connaissait alors les mêmes émotions que celles éprouvaient par les personnages de la pièce et il était dans l’émotion continue.</p>
             </div>
             <div>
               <head>Le dénouement</head>
@@ -544,7 +547,7 @@
           <head>EXTRAIT DU PRIVILEGE <lb/>du Roi.</head>
           <p>Par Grace et Privilege du Roy, donné à Versailles le douziéme Fevrier 1699. Signé, Par le Roy en son Conseil, LE FEVRE. Il est permis à PIERRE RIBOU Marchand Libraire à Paris, de faire imprimer le <hi rend="i">Recueil des Tragédies du Sieur de la Grange</hi>, pendant le temps de huit années, à compter du jour que chaque Tragédie sera achevée d’imprimer pour la premiere fois ; Pendant lequel temps faisons tres expresses défenses à toutes personnes de quelque qualité et condition qu’elles soient, de faire imprimer, vendre ny debiter d’autre Edition que de celle de l’Exposant, ou de ceux qui auront droit de luy, à peine de quinze cens livres d’amende, payables sans deport par chacun des contrevenans, et de tous dépens, dommages et interests, et autres peines portées plus au long par lesdites Lettres de Priviliege.</p>
           <p rend="i">Registré sur le Livre de la Communauté des Imprimeurs et Marchands Libraires de Paris le 26. Fevrier 1699.</p>
-          <p rend="right i">Signé, C. BALLARD, Syndic.</p>
+          <p rend="i">Signé, C. BALLARD, Syndic.</p>
           <p>Achevé d’imprimer pour la premiere fois le 20. Mars 1699.</p>
         </div>
         <div xml:id="acteurs" type="set">
@@ -3481,7 +3484,7 @@
             <form>Hymen</form>
             <def xml:id="hymen">« Poétiquement, le mariage » (F).</def>
             <xr>V. <ref target="#l2">2</ref>, <ref target="#l113">113</ref>, <ref target="#l188">188</ref>, <ref target="#l190">190</ref>, <ref target="#l232">232</ref>, <ref target="#l357">357</ref>, <ref target="#l495">495</ref>, <ref target="#l690">690</ref>, <ref target="#l696">696</ref>, <ref target="#l716">716</ref>, <ref target="#l720">720</ref>, <ref target="#l1076">1076</ref>, <ref target="#l1260">1260</ref>, <ref target="#l1354">1354</ref>, <ref target="#l1397">1397</ref>, <ref target="#l1504">1504</ref></xr>
-            <def xml:id="hymenee">Synonyme d’<hi rend="b">Hymenée</hi></def>
+            <def xml:id="hymenee">Synonyme d’Hymenée</def>
             <xr>V. <ref target="#l425">425</ref>, <ref target="#l452">452</ref>, <ref target="#l1081">1081</ref>, <ref target="#l1129">1129</ref>, <ref target="#l1429">1429</ref></xr>
           </entryFree>
           <entryFree xml:id="infortune">
@@ -4373,7 +4376,7 @@
                 <bibl>MARMONTEL, Jean-François, <title>Poétique française</title>, Lesclapart, 1763 (2 volumes).</bibl>
                 <bibl>MERCURE GALANT, Paris, C. Barbin (années 1697, 1699, 1702).</bibl>
               </quote>
-              <bibl rend="hanging">MOLIERE, <title>Le Misanthrope</title>, Librio Théâtre, 2004.</bibl>
+              <bibl>MOLIERE, <title>Le Misanthrope</title>, Librio Théâtre, 2004.</bibl>
               <quote>
                 <bibl>PARFAICT, C. et F., <title>Dictionnaire des théâtres de Paris</title>, Paris, Rozet, 1767.</bibl>
                 <bibl>PARFAICT, C. et F., <title>Histoire du théâtre françois depuis son origine jusqu’à présent</title>, Amsterdam, 1735-1748, tome XIV (année 1697).</bibl>
