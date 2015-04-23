@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Le Grand Tamerlan et Bajazet. Tragédie</title>
-        <author>Jean Magnon</author>
+        <author key="Magnon, Jean (1620-1662)">Jean Magnon</author>
         <editor>Maud Vervueren</editor>
         <principal>Georges Forestier</principal>
       </titleStmt>
@@ -628,47 +625,48 @@
           <head>LES ACTEURS.</head>
           <castList>
           <castItem>
-            <role>TAMERLAN,</role>
+            <role xml:id="tamerlan">TAMERLAN,</role>
             <roleDesc>grand Cham<note place="bottom">Le mot « cham », en usage depuis 1549, sera oublié au profit de « khan » à partir de 1697, en référence au mongol « kagan » : prince, souverain. Ce terme recouvre le titre porté par celui qui exerce un pouvoir politique et religieux dans le monde mongol ou soumis à l’influence mongol (Turquie, Perse, sous-continent indien). Cf. <hi rend="sc">Le Robert</hi>, <hi rend="i">Dictionnaire Historique de la Langue Française</hi>, sous la direction d’Alain Rey, 1993.</note> des Tartares.</roleDesc>
           </castItem>
           <castItem>
-            <role>THEMIR,</role>
+            <role xml:id="themir">THEMIR,</role>
             <roleDesc>fils de Tamerlan.</roleDesc>
           </castItem>
           <castItem>
-            <role>INDARTHIZE, </role>
+            <role xml:id="indarthize">INDARTHIZE, </role>
             <roleDesc>femme de Tamerlan.</roleDesc>
           </castItem>
           <castItem>
-            <role>ZILIM,</role>
+            <role xml:id="zilim">ZILIM,</role>
             <roleDesc>Lieutenant des Gardes de Tamerlan.</roleDesc>
           </castItem>
           <castItem>
-            <role>MANSOR,</role>
+            <role xml:id="mansor">MANSOR,</role>
             <roleDesc>Capitaine des Gardes du mesme.</roleDesc>
           </castItem>
           <castItem>
-            <role>BAJAZET,</role>
+            <role xml:id="bajazet">BAJAZET,</role>
             <roleDesc>grand Empereur des Turcs.</roleDesc>
           </castItem>
           <castItem>
-            <role>ROXALIE,</role>
+            <role xml:id="roxalie">ROXALIE,</role>
             <roleDesc>fille de Bajazet.</roleDesc>
           </castItem>
           <castItem>
-            <role>ORCAZIE,</role>
+            <role xml:id="orcazie">ORCAZIE,</role>
             <roleDesc>femme de Bajazet.</roleDesc>
           </castItem>
           <castItem>
-            <role>DORIZE,</role>
+            <role xml:id="dorize">DORIZE,</role>
             <roleDesc>Confidente de Roxalie.</roleDesc>
           </castItem>
           <castItem>
-            <role>SELIM,</role>
+            <role xml:id="selim">SELIM,</role>
             <roleDesc>grand Vizir de Bajazet.</roleDesc>
           </castItem>
           <castItem>
-            <role>Trouppe de Soldats &amp; de Gardes.</role>
+            <role xml:id="le-soldat">Trouppe de Soldats &amp; de Gardes.</role>
+            <role xml:id="un-garde"></role>
           </castItem>
           </castList>
           <stage>La Scene est dans la Galatie en la tente de Tamerlan.</stage>
