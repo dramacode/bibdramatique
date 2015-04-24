@@ -55,7 +55,7 @@ if (isset($doc['bookname'])) {
 // pas de livre demandé, montrer un rapport général
 else {
   $pot->search(); // charger des résultats en mémoire
-  echo $pot->chrono(); // chronologie
+  // echo $pot->chrono(); // chronologie, bof, moins clair que le tableau
   echo $pot->report(); // nombre de résultats
   echo $pot->biblio(array('byline', 'title', 'date', 'editor', 'download')); // présentation bibliographique des résultats
   echo $pot->concByBook(); // concordance s’il y a recherche plein texte
