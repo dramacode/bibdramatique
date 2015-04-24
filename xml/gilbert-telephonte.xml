@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="crht.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,10 +20,14 @@
       <publicationStmt>
         <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2014"/>
-        <idno>?</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/gilbert_telephonte/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/gilbert_telephonte.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/gilbert_telephonte.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/gilbert_telephonte.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/gilbert_telephonte.epub</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl>Gabriel Gilbert, <title>Téléphonte. Tragi-comédie</title>, Paris, Chez Toussaint Quinet, 1642.</bibl>

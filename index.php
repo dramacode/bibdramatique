@@ -74,7 +74,7 @@ else {
           <?php
 // livre
 if (isset($doc['bookname'])) {
-  if(isset($doc['download'])) echo "\n".'<nav id="download">' . $doc['download'] . '</nav>';
+  if(isset($doc['download'])) echo "\n".'<nav id="download">' . $doc['download'] . ', <a href="../' . $doc['bookname'] . '.pdf">pdf</a>' . '</nav>';
   echo "\n<nav>";
   // auteur, titre, date
   if ($doc['byline']) $doc['byline']=$doc['byline'].'<br/>';
