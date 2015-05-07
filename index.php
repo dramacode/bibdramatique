@@ -36,38 +36,40 @@ else echo '<title>Bibliothèque dramatique</title>';
           // if ($doc['downloads']) echo "\n".'<nav id="downloads"><small>Télécharger :</small> '.$doc['downloads'].'</nav>';
         ?>
       </header>
-      <nav id="toolbar">
-        <?php 
-echo '<a href="' . Web::basehref() . '">Bibliothèque dramatique</a> » ';
-        // nous avons un livre, glisser aussi les liens de téléchargement
-if (isset($doc['breadcrumb'])) echo $doc['breadcrumb']; 
+      <div id="main">
+        <nav id="toolbar">
+          <?php 
+  echo '<a href="' . Web::basehref() . '">Bibliothèque dramatique</a> » ';
+          // nous avons un livre, glisser aussi les liens de téléchargement
+  if (isset($doc['breadcrumb'])) echo $doc['breadcrumb']; 
+          ?>
+        </nav>
+        <div id="article">
+        <?php
+  if (isset($doc['bookname'])) {
+    
+    if (isset($doc['body'])) echo $doc['body'];
+    else {}; // bug back
+    // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
+    if ($pot->q && (!$doc['artname'] || $doc['artname']=='index')) echo $pot->concBook($doc['bookname']);
+  }
+  // pas de livre demandé, montrer un rapport général
+  else {
+    $pot->search(); // charger des résultats en mémoire
+    // echo $pot->chrono(); // chronologie, bof, moins clair que le tableau
+    echo $pot->report(); // nombre de résultats
+    echo $pot->biblio(array('byline', 'title', 'date', 'editor', 'download'=>array('epub', 'html', 'pdf', 'tei', 'txt'))); // présentation bibliographique des résultats
+    echo $pot->concByBook(); // concordance s’il y a recherche plein texte
+    
+    ?><div class="linkOld" style="width: 100%; text-align: center;"><a style="color: gray; font-size: 14px; border-bottom: none;" href="http://www.bibliothequedramatique.fr/">Suite des pièces…</a><span style="width: 20px; white-space: nowrap;"></span>|<span style="width: 20px; white-space: nowrap;"</span><a style="color: gray; font-size: 14px; border-bottom: none;" href="http://cellf.paris-sorbonne.fr">Site du CELLF</a></div><?php
+    
+  }
         ?>
-      </nav>
-      <div id="article">
-      <?php
-if (isset($doc['bookname'])) {
-  
-  if (isset($doc['body'])) echo $doc['body'];
-  else {}; // bug back
-  // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
-  if ($pot->q && (!$doc['artname'] || $doc['artname']=='index')) echo $pot->concBook($doc['bookname']);
-}
-// pas de livre demandé, montrer un rapport général
-else {
-  $pot->search(); // charger des résultats en mémoire
-  // echo $pot->chrono(); // chronologie, bof, moins clair que le tableau
-  echo $pot->report(); // nombre de résultats
-  echo $pot->biblio(array('byline', 'title', 'date', 'editor', 'download')); // présentation bibliographique des résultats
-  echo $pot->concByBook(); // concordance s’il y a recherche plein texte
-  
-  ?><div class="linkOld" style="width: 100%; text-align: center;"><a style="color: gray; font-size: 14px; border-bottom: none;" href="http://www.bibliothequedramatique.fr/">Suite des pièces…</a><span style="width: 20px; white-space: nowrap;"></span>|<span style="width: 20px; white-space: nowrap;"</span><a style="color: gray; font-size: 14px; border-bottom: none;" href="http://cellf.paris-sorbonne.fr">Site du CELLF</a></div><?php
-  
-}
-      ?>
-      
-      
-      
-      
+        
+        
+        
+        
+        </div>
       </div>
       <aside id="aside">
         <p> </p>
