@@ -4,9 +4,12 @@ php_value zlib.output_compression_level 9
 
 # Nécessaire dans certains cas de conf Apache
 Options -MultiViews +FollowSymLinks +Indexes
-RewriteEngine on
+# Si c’est un fichier qui existe, pas de réécriture
 RewriteCond %{REQUEST_FILENAME} !-f
+# Si c’est un dossier qui existe, pas de réécriture
 RewriteCond %{REQUEST_FILENAME} !-d
+# Lien pdf
+RewriteRule   ^pdf/(.*\.pdf)$ $1 [QSA,L]
 # évite RewriteBase, rappel avec %1, le ? permet de faire fonctionner la règle partout
-RewriteCond %{THE_REQUEST} ^[^/]*(.*/crht/)? 
+RewriteCond %{THE_REQUEST} ^[^/]*(.*/bibdramatique/)? 
 RewriteRule   ^(.*)$ %1index.php/$1 [QSA,L]
