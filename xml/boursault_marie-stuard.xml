@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Molière chez Ninon ou Le siècle des grands hommes. Pièce épisodique en prose et en cinq actes.</title>
+        <title>Marie Stuard, Reine d'Écosse. Tragédie</title>
         <author key="Boursault, Edme (1638-1701)">Edme Boursault</author>
         <editor>Chloé Le Vaguerès</editor>
         <principal>Georges Forestier</principal>
       </titleStmt>
       <editionStmt>
-        <edition></edition>
+        <edition>Édition critique établie par Chloé Le Vaguerès dans le cadre d'un mémoire de
+          master 1 sous la direction de Georges Forestier (2002-2003)</edition>
         <respStmt>
           <name>Amélie Canu</name>
-          <resp>CELLF 16-18/Université Paris-Sorbonne</resp>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2015"/>
-        <idno>?</idno>
         <availability status="restricted">
-          <licence target="CELLF 16-18">CELLF 16-18</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/boursault_marie-stuard/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/boursault_marie-stuard.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/boursault_marie-stuard.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/boursault_marie-stuard.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/boursault_marie-stuard.epub</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl><author>Edme Boursault</author>, <title>Marie Stuard, Reine d'Écosse, tragédie</title>, Paris, Jean Guignard, 1691</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
-      <creation/>
+      <creation>
+        <date when="1691">1691</date>
+      </creation>
       <langUsage>
         <language ident="fre"/>
       </langUsage>
@@ -46,7 +50,9 @@
       <titlePart type="sub">Tragédie</titlePart>
     </docTitle>
     <docAuthor>Par Monsieur BOURSAULT.</docAuthor>
-    <docImprint>A PARIS, <lb/>Chez  JEAN  GUIGNARD, à l’entrée de la <lb/>grand’Salle du Palais, au petit S. Jean. <lb/>M. DC. XCI. <lb/><hi rend="i">AVEC PRIVILEGE DU ROY.</hi></docImprint>
+    <docImprint>A PARIS, <lb/>Chez  JEAN  GUIGNARD, à l’entrée de la <lb/>grand’ Salle du Palais, au petit S. Jean. <lb/>M. DC. XCI. <lb/><hi rend="i">AVEC PRIVILEGE DU ROY.</hi></docImprint>
+    <docEdition>Édition critique établie par Chloé Le Vaguerès dans le cadre d'un mémoire de
+      master 1 sous la direction de Georges Forestier (2002-2003)</docEdition>
   </titlePage>
         <div>
           <head>Introduction</head>
@@ -2748,10 +2754,10 @@
         <div xml:id="privilege">
           <head>Extrait du Privilege du Roy</head>
           <p>Par Lettres Patentes du Roy, données à Paris le deuxiéme jour de Decembre 1690. Signé BOUCHER, Il est permis au Sieur BOURSAULT, de faire imprimer par tel Libraire ou Imprimeur qu’il voudra choisir, une Piece de sa composition intitulée <hi rend="i">Marie Stuard Reine d’Ecosse,Tragedie</hi>, pendant le temps &amp; espace de huit années, à compter du jour qu’elle sera achevée d’imprimer : Avec deffences à tous Libraires, Imprimeurs &amp; autres, d’imprimer, faire imprimer, vendre ny debiter ladite Tragedie sous quelque pretexte que se soit, même d’impression étrangere sans le consentement dudit Exposant ou de ses ayant cause, à peine de confiscation des exemplaires contrefaits, de trois mille livres d’amende, &amp; de tous dépens, dommages &amp; interests, ainsi qu’il est plus au long porté par lesdites Lettres.</p>
-          <p rend="center i">Registré sur le Livre de la Communauté des Libraires <lb/>&amp; Imprimeurs de Paris, le 27. Mars 1691.</p>
+          <p rend="center"><hi rend="i">Registré sur le Livre de la Communauté des Libraires <lb/>&amp; Imprimeurs de Paris, le 27. Mars 1691.</hi></p>
           <p>Signé, AUBOUYN.</p>
           <p>Et ledit sieur Boursault a cedé au sieur J. Guignard le droit qu’il a au present Privilege, suivant l’accord fait entr’eux.</p>
-          <p rend="center i">Achevé d’imprimer le 20. Novembre 1691.</p>
+          <p rend="center"><hi rend="i">Achevé d’imprimer le 20. Novembre 1691.</hi></p>
         </div>
         <div xml:id="acteurs" type="set">
           <head>ACTEURS.</head>
@@ -4536,7 +4542,7 @@
               <l n="1153" xml:id="l1153">Condamnée ! Eh Madame, <ref target="#avoir-soin">ayez soin de*</ref> vos droits<note place="bottom">On pourrait traduire par : veillez à ne pas outrepasser vos droits de sorte qu’ils vous soient reconnus et que  conserviez votre légitimité. <hi rend="i">Avoir soin de quelque chose</hi> : « Veiller à ce qu’elle se conserve, à ce qu’elle prospère. » Académie.</note> ;</l>
               <l n="1154" xml:id="l1154">Ce mot injurieux n’est point fait pour les Rois.</l>
               <l n="1155" xml:id="l1155">Dans la gloire suprême où le Ciel les fait naistre,</l>
-              <l n="1156" xml:id="l1156">Maistre de tous le monde<note place="bottom"><hi rend="i">[sic].</hi> Il faut bien sûr rétablir : « Maistr<hi rend="u">e<hi rend="b">s</hi></hi> de to<hi rend="u">ut</hi> le monde. »</note> ils n’ont que Dieu pour Maistre.</l>
+              <l n="1156" xml:id="l1156">Maistre de tous le monde<note place="bottom"><hi rend="i">[sic].</hi> Il faut bien sûr rétablir : « Maistr<hi rend="u">e<hi rend="i">s</hi></hi> de to<hi rend="u">ut</hi> le monde. »</note> ils n’ont que Dieu pour Maistre.</l>
               <l n="1157" xml:id="l1157">La Reine qu’on opprime, &amp; dont il est l’appuy,</l>
               <l n="1158" xml:id="l1158">De tout ce qu’elle a fait n’est comptable qu’à luy.</l>
               <l n="1159" xml:id="l1159">Mais fût-elle Sujette, &amp; non Reine absoluë,</l>
@@ -5007,7 +5013,7 @@
               <l n="1483" xml:id="l1483">Qu’elle meure. Le Duc, qui me fut si fidele,</l>
               <l n="1484" xml:id="l1484">Si je luy rends le jour me rendra tout son zele.</l>
             </sp>
-            <sp who="le-comte-de-moray">
+            <sp who="le-comte-de-morray">
               <speaker>LE COMTE DE MORAY</speaker>
               <l n="1485" xml:id="l1485">Le Duc, Madame ? O Ciel !</l>
             </sp>
@@ -5380,7 +5386,7 @@
           </entryFree>
           <entryFree xml:id="deceu">
             <form>Deceu, euë</form>
-            <def>« Trompé. » A. Furetière. [<hi rend="b">decevoir</hi> : « Tromper quelqu’un dans son attente, son espérance. » Académie.]</def>
+            <def>« Trompé. » A. Furetière. [<hi rend="i">decevoir</hi> : « Tromper quelqu’un dans son attente, son espérance. » Académie.]</def>
             <xr>V. <ref target="#l1073">1073</ref></xr>
           </entryFree>
           <entryFree xml:id="degre">
@@ -5397,7 +5403,7 @@
             <form>Désiller</form>
             <def xml:id="desiller1">« Ouvrir les yeux. » A. Furetière.</def>
             <xr>V. <ref target="#l987">987</ref></xr>
-            <def xml:id="desiller2">L’étymologie est intéressante :<hi rend="b"> déciller</hi> ou <hi rend="b">dessiller</hi>, <hi rend="i">Modus</hi>, « découdre les paupières »</def>
+            <def xml:id="desiller2">L’étymologie est intéressante :<hi rend="i"> déciller</hi> ou <hi rend="i">dessiller</hi>, <hi rend="i">Modus</hi>, « découdre les paupières »</def>
           </entryFree>
           <entryFree xml:id="destin">
             <form>Destin</form>
@@ -5468,7 +5474,7 @@
           </entryFree>
           <entryFree xml:id="gesner">
             <form>Gesner</form>
-            <def>« Donner la gesne, la question ; <hi rend="b">gesne</hi> : Question, torture. » A. Furetière. Traduire gesner par torturer.</def>
+            <def>« Donner la gesne, la question ; <hi rend="i">gesne</hi> : Question, torture. » A. Furetière. Traduire gesner par torturer.</def>
             <xr>V. <ref target="#l555">555</ref>, <ref target="#l579">579</ref>, <ref target="#l1416">1416</ref></xr>
           </entryFree>
           <entryFree xml:id="honte">
@@ -5652,7 +5658,7 @@
                 <bibl>BOURSAULT, Edme, <title>Pièces de théâtre de Monsieur Boursault</title>, Paris, J. Guignard, 1694. [<title>Lettre d’un théologien illustre consulté par l’auteur pour sçavoir si la comédie peut estre permise, on doit estre absoluement deffenduë</title> ; <title>Germanicus</title> (1694), tragédie ; <title>Marie Stuard</title> (1691), tragédie ; Comédie sans titre (1691) ;<title> Phaéton</title> (1694), comédie en vers libres ; <title>Méléagre</title> (1694), opéra ; <title>La Feste de la Seine</title>, (s.d), petit divertissement en musique.]</bibl>
         <bibl>BOURSAULT, Edme, <title>Pièces de théâtre de Mr Boursault</title>, suivant la copie à Paris, chez J. Guignard, 1694. [<title>Lettre d’un théologien illustre consulté par l’auteur pour sçavoir si la comédie peut estre permise, on doit estre absoluement deffenduë</title> ; <title>Germanicus</title>, tragédie ; <title>Marie Stuard</title>, tragédie (1694) ; <title>La Comédie sans titre</title> ; <title>Phaëton</title>, comédie en vers libres ; <title>Méléagre</title>, opéra ; <title>La Feste de la Seine</title>, petit divertissement en musique.]</bibl>
                 <bibl>BOURSAULT, Edme, <title>Pièces de théâtre de Mr</title> Boursault, Paris, Jean &amp; Michel Guignard, 1701. [Mêmes ouvrages que BOURSAULT, <title>Pièces de théâtre de Monsieur Boursault</title>, Paris, J. Guignard, 1694, sauf <title>Méléagre</title> &amp; <title>La Feste de la Seine</title> (bien que la première page annonce ces deux pièces)].</bibl>
-                <bibl>BOURSAULT, Edme<title>, Œuvres de Mr Boursault contenant les pièces de théâtre</title>, Nouvelle édition augmentée, Amsterdam, Duvillard &amp; Changuion, 1721 (2 vol.). [TOME I : <title>Lettre d’un théologien illustre...</title> ; <title>Germanicus</title>  (tragédie représentée par les Comédies du roi) suivant la copie de Paris, J. Guignard, 1720 <space/>[M.DCC.XX] ; <title>Marie Stuard</title>, <hi rend="i">ibid.,</hi> 1720 (l’orthographe a été modernisée, les blasons et frises diffèrent de ceux de 1691) ; <title>La Comédie sans titre</title>, <hi rend="i">ibid.,</hi> 1720 ; <title>Phaéton</title>, <hi rend="i">ibid.,</hi> 1720. TOME II : <title>Méléagre</title>, tragédie mise en musique, suivant la copie de Paris, à Amsterdam chez Duvillard et Changuion, 1721 ; <title>Feste de Seine</title>, <hi rend="i">ibid.,</hi> 1721 ; <title>Esope à la cour</title>, comédie héroïque par feu M.Boursault, <hi rend="i">ibid.,</hi> 1721 ; <title>Les Fables d’Esope ou Esope en Ville</title>, comédie, <hi rend="i">ibid.,</hi> 1721 ; <title>Le Jaloux Prisonnier</title>, comédie (représentée par les comédiens de l’Hôtel de Bourgogne), <hi rend="i">ibid.,</hi>1721 ; <title>La Satyre des Satyres</title>, comédie, <hi rend="i">ibid.,</hi> 1721 ; <title>Catalogue des livres françois &amp; latins qui se trouvent à Amsterdam chez Duvillard &amp; Changuion, libraires dans le Kalversstraat.</title> (p.50-96).]</bibl>
+                <bibl>BOURSAULT, Edme<title>, Œuvres de Mr Boursault contenant les pièces de théâtre</title>, Nouvelle édition augmentée, Amsterdam, Duvillard &amp; Changuion, 1721 (2 vol.). [TOME I : <title>Lettre d’un théologien illustre...</title> ; <title>Germanicus</title>  (tragédie représentée par les Comédies du roi) suivant la copie de Paris, J. Guignard, 1720 [M.DCC.XX] ; <title>Marie Stuard</title>, <hi rend="i">ibid.,</hi> 1720 (l’orthographe a été modernisée, les blasons et frises diffèrent de ceux de 1691) ; <title>La Comédie sans titre</title>, <hi rend="i">ibid.,</hi> 1720 ; <title>Phaéton</title>, <hi rend="i">ibid.,</hi> 1720. TOME II : <title>Méléagre</title>, tragédie mise en musique, suivant la copie de Paris, à Amsterdam chez Duvillard et Changuion, 1721 ; <title>Feste de Seine</title>, <hi rend="i">ibid.,</hi> 1721 ; <title>Esope à la cour</title>, comédie héroïque par feu M.Boursault, <hi rend="i">ibid.,</hi> 1721 ; <title>Les Fables d’Esope ou Esope en Ville</title>, comédie, <hi rend="i">ibid.,</hi> 1721 ; <title>Le Jaloux Prisonnier</title>, comédie (représentée par les comédiens de l’Hôtel de Bourgogne), <hi rend="i">ibid.,</hi>1721 ; <title>La Satyre des Satyres</title>, comédie, <hi rend="i">ibid.,</hi> 1721 ; <title>Catalogue des livres françois &amp; latins qui se trouvent à Amsterdam chez Duvillard &amp; Changuion, libraires dans le Kalversstraat.</title> (p.50-96).]</bibl>
         <bibl>BOURSAULT, Edme, <title>Théâtre de feu Monsieur Boursault</title>, Nouvelle édition revuë, corrigée &amp; augmentée de plusieurs pièces, qui n’ont point paru dans les précédentes, éd. Hiacinhe Boursault, Paris, Nicolas-François Le Breton, 1725, 3 vol. [tome I : <title>Avertissement</title> (du père Caffaro) ; <title>Lettre d’un homme d’érudition sur la comédie</title> ; <title>Le Mort vivant</title> ; <title>Les Cadenats</title> ou <title>Le Jaloux endormi</title> ; <title>Le Médecin volant</title> ; <title>Les Nicandres</title> ou <title>Les Menteurs qui ne mentent point</title> ; <title>Le Portrait du peintre</title> ; <title>Les Métamorphoses de Philis changez en Astres.</title> tome II : <title>Satire des satires</title> ; <title>Germanicus</title> ; <title>Marie Stuard</title> ; <title>La Comédie sans titre</title> ; <title>Méléagre</title> ; <title>La Feste de la Seine.</title> tome III : <title>Phaeton</title> ; <title>Les Mots à la mode</title> ; <title>Esope à la cour</title> ; <title>Les Fables d’Esope</title>].</bibl>
         <bibl>BOURSAULT, Edme,<title> Théâtre de feu Monsieur Boursault</title>, Nouvelle édition revuë, corrigée &amp; augmentée de plusieurs pièces, qui n’ont point paru dans les précédentes, éd. Hiacinthe Boursault, Paris, Veuve Ribou, 3 vol., 1725. [tome II : <title>Lettre d’un homme d’érudition</title>…, <title>Satire des satires, Germanicus, Marie Stuard, La Comédie sans titre, Méléagre, La Feste de la Seine</title>].</bibl>
         <bibl>BOURSAULT, Edme, <title>Théâtre de Boursault</title>, Paris, La Compagnie des Libraires, 1746, 3 vol. In-12. [tome I : <title>Avertissement du père Caffaro</title> ; <title>Lettre d’un homme d’érudition sur la comédie</title> ; <title>Le Mort vivant</title> ; <title>Les Cadenats ou Le Jaloux endormi</title> ; <title>Le Médecin volant</title> ; <title>Les Nicandres ou Les Menteurs qui ne mentent point</title> ; <title>Le Portrait du peintre</title> ; <title>Les Métamorphoses de Philis changez en Astres.</title> tome II : <title>Satyre des satyres</title> ; <title>Germanicus</title> ; <title>Marie Stuard</title> ; <title>La Comédie sans titre</title> ; Méléagre ; <title>La Feste de la Seine</title>. tome III : <title>Phaeton</title> ; <title>Les Mots à la mode</title> ; <title>Les Fables d’Esope</title> ; <title>Esope à la cour</title>].</bibl>
