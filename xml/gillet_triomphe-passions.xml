@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="gillet_triomphe-passions">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Le Triomphe des cinq passions. Tragi-comédie.</title>
-        <author>Gillet de la Tessonnerie</author>
+        <author key="Gillet de La Tessonerie (1619?-166.?)">Gillet de la Tessonnerie</author>
         <editor>Bran Raluca-Dana</editor>
+        <principal>Georges Forestier</principal>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie en 1999 dans le cadre d'un mémoire de maîtrise</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2015"/>
-        <idno>?</idno>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/gillet_triomphe-passions/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/gillet_triomphe-passions.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/gillet_triomphe-passions.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/gillet_triomphe-passions.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/gillet_triomphe-passions.epub</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl>?</bibl>
+        <bibl><author>Gillet de la Tessonnerie</author>, <title>Le Triomphe des cinq passions. Tragi-comédie</title>, 1642.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -628,11 +630,9 @@
               <p>Nous avons complété la liste des personnages du deuxième acte par [RADAMISTE fils de Pharasmane.].</p>
               <p>Toutes les questions de grammaire qui représentent des différences du système de la langue française du XVII<hi rend="sup">e</hi> siècle par rapport au système actuel ont été expliquées dans les notes du texte.</p>
               <p>Les mots qui n’existent plus en français contemporain, ceux qui sont ressentis aujourd’hui comme vieux ou qui avaient d’autres acceptions au XVII<hi rend="sup">e</hi> siècle figurent dans le glossaire et un astérisque après chaque occurrence dans le texte y marque leur présence.</p>
-              <docAuthor>Gillet de la Tessonnerie</docAuthor>
             </div>
           </div>
         </div>
-      
 </front>
     <body>
         <head>Le Triomphe des cinq passions <lb/>TRAGI-COMÉDIE</head>
@@ -695,6 +695,9 @@
               <role xml:id="harmenie">Harmenie</role>
               <roleDesc>femme du fils de Manlie.</roleDesc>
             </castItem>
+              <castItem>
+                <role xml:id="ipsicrate">[Ipsicrate]</role>
+              </castItem>
             </castList>
           </div>
           <div>
@@ -746,7 +749,7 @@
               <roleDesc>belle mere d’Anthioque.</roleDesc>
             </castItem>
             <castItem>
-              <role xml:id="eresistrate">Eresistrate</role>
+              <role xml:id="erostrate">Eresistrate</role>
               <roleDesc>Medecin d’Antioque.</roleDesc>
             </castItem>
             </castList>
@@ -814,7 +817,7 @@
           <p>rend à la vertu Romaine ce que ceux qui ne se vouloient immortaliser luy devoient, et fait vanité de tesmoigner au peuple que pour acquerir de l’honneur il periroit luy-mesme et se priveroit de vie. Puis lors que l’on luy vient dire l’<ref target="#effet">effect*</ref> de la sentence qu’il a donnee, c’est à dire la mort de son fils, la <ref target="#sinderese">sinderese*</ref> du vice le prenant tout à coup, il en conçoit un  si grand  déplaisir  qu’il  reste  sans  mouvement,  et  nous  apprend  par  ce  remord  le</p>
           <p>repentir que traine apres soy<note place="bottom">Au XVII<hi rend="sup">e</hi> siècle, <hi rend="i">soi</hi> et <hi rend="i">lui</hi>, qui étaient en concurence, vont distinguer leur emploi,<hi rend="i"> lui</hi> référant aux personnes et <hi rend="i">soi</hi> aux choses (cf. N. Fournier, § 274, § 283).</note> ce trop grand desir de vaine gloire, et ce faux poinct d’honneur qui tourmentoit son ame sans cesse, et ne luy donnoit point de repos.</p>
         </div>
-        <div type="acte">
+        <div type="act">
           <head>LE TRIOMPHE <lb/>DES CINQ <lb/>PASSIONS. <lb/>ACTE I.<pb n="1 A"/></head>
           <div type="scene">
             <head>SCENE PREMIERE.</head>
@@ -1412,8 +1415,7 @@
           </div>
           <div type="scene">
             <head>SCENE VI. <pb n="24" xml:id="p24"/></head>
-            <stage>MANLIE, HARMENIE, ARPHACE,</stage>
-            <stage>IPSICRATE.</stage>
+            <stage>MANLIE, HARMENIE, ARPHACE, <lb/>IPSICRATE.</stage>
             <sp who="arphace">
               <speaker>ARPHACE, <hi rend="i">voyant venir Ipsicrate.</hi></speaker>
               <l n="414" xml:id="l414">Ah! Sire, c’est en vain qu’un remord vous travaille,</l>
@@ -1462,7 +1464,7 @@
           <p>Lors le Fils entre avec le Gouverneur de la ville où estoit Mithridate, qui promet de la livrer: et le pere s’y voulant opposer, le fils transporté d’ambition luy parle mal à propos, et l’oblige de l’abandonner : lors le fils donne ordre qu’entrant dans la ville avec le Gouverneur on passa tout par le fil de l’espée, et quelque temps apres luy venant dire que les  gens sont entrez dans la ville,  mais que  Mithridate s’est  sauvé dans un  Chasteau qui</p>
           <p>peut tenir cinq ou six jours, il envoye leur dire qu’il se rende, et qu’il le <ref target="#garantir">garentiroit*</ref> de fer et de poison, et le tenant en sa puissance, il le fait estouffer; mais aussi tost la justice Divine agissant, une rage s’empare de son ame et le jettant dans un horrible desespoir, il se frappe de son espée, et monstre que cette ambition estant pernicieuse traine apres soy ces malheureux effets qui ne peuvent jamais dementir leurs causes.</p>
         </div>
-        <div type="acte">
+        <div type="act">
           <head>ACTE II. <pb n="27 D ij" xml:id="p27"/></head>
           <div type="scene">
             <head>SCENE PREMIERE.</head>
@@ -2165,7 +2167,7 @@
           <p>Medecin l’estant venu trouver luy confirme encor l’opinion qu’il avoit qu’elle l’avoit dit à son pere, ce qui l’oblige à le chasser severement, et se voyant seul se met en estat de mourir, car rompant l’<ref target="#appareil">appareil*</ref> qu’il portoit sur une blessure qu’il avoit au bras il tombe en une foiblesse, et monstre à quelle <ref target="#extremite">extremité*</ref> l’amour des-honneste nous reduit lors que nous n’avons pas la force de nous deffendre de ses coups, et que nous abandonnons nostre</p>
           <p>ame, à ce monstre qui se sert de l’image de la beauté, pour nous seduire et pour nous <space>   </space>perdre.</p>
         </div>
-        <div type="acte">
+        <div type="act">
           <head>ACTE III.<pb n="55" xml:id="p55"/></head>
           <div type="scene">
             <head>SCENE I.</head>
@@ -2494,7 +2496,7 @@
               <speaker>ANTIOQUE.</speaker>
               <l n="1075" xml:id="l1075">Encor par quel moyen ?</l>
             </sp>
-            <sp who="sratonice">
+            <sp who="stratonice">
               <speaker>SRATONICE, <hi rend="i">en s’en allant.</hi></speaker>
               <l part="Y">par mon esloignement,</l>
             </sp>
@@ -2839,7 +2841,7 @@
           <p>passa de l’excés de l’amour à celuy de la jalousie : Ce qui faisoit qu’il ne pouvoit <space>          </space>s’éloigner d’elle, qu<note place="bottom">La conjonction <hi rend="i">que</hi> a le sens de <hi rend="i">sans que</hi>, cf. la note 78, page 33.</note>’elle ne crût que s’estoit à dessein de la tromper : tellement qu’un jour comme il sortoit de grand matin pout aller à la chasse, elle le suivit, et le voulans observer se cacha <pb n="80" xml:id="p80"/> dans un <ref target="#bocage">bocage*</ref> : mais son mary voyant remuer des feuilles, et pensant que ce  fut  quelque  proye  tirant  dessus  la  blessa  dans  le  bras, ce  qu<note place="bottom">Valeur obscure de <hi rend="i">ce que</hi> ; dans ce contexte, il équivaut plutôt au pronom <hi rend="i">cela</hi>.</note>’ayant</p>
           <p>recogneu il se desespere et détrompe le mieux qu’il pût, cette femme que les Dieux avoient punie par la main, et cause de cét exercice jalousie qui l’aveugloit sans cesse, et l’empeschoit de leur rendre les devoirs que leurs puissances souveraines exigent de tous les mortels.</p>
         </div>
-        <div type="acte">
+        <div type="act">
           <head>ACTE IV.<pb n="81 L"/></head>
           <div type="scene">
             <head>SCENE PREMIERE.</head>
@@ -3348,7 +3350,7 @@
           <p>temps apres reçoit une lettre de luy, par laquelle il l’asseuroit en mourant de sa fidelité; ce qui la jette tout à coup dans un profond desespoir, et la fait se resoudre à la mort, pour monstrer le regret qu’elle avoit de n’avoir pas resisté puissamment à ces premiers mouvemens de colere et de hayne, qui l’avoient transportée jusqu’au poinct de ne luy vouloir pas permettre de se justifier; Enfin l’Enchanteur  ayant  fait  voir cette cinquiesme</p>
           <p>Histoire, prie Arthemidore de se retirer, de faire son profit de ce qu’il avoit veu, ce qu’il fait aussi-tost, le remerciant des bons offices qu’il avoit receus de luy, et le priant de luy faire voir les cinq autres Histoires qui luy promettoit au plustost, s’en va comblé d’allegresse et de joye, et guery de ces passions qui l’avoient si cruellement tourmenté.</p>
         </div>
-        <div type="acte">
+        <div type="act">
           <head>ACTE V.<pb n="103" xml:id="p103"/></head>
           <div type="scene">
             <head>SCENE PREMIERE.</head>
