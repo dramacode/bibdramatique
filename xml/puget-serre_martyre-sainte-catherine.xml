@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Le Martyre de sainte Catherine. Tragédie en prose</title>
-        <author>Jean Puget de la Serre</author>
+        <author key="Puget de La Serre, Jean (1600-1665)">Jean Puget de la Serre</author>
         <editor>Judith Fischer</editor>
         <principal>Georges Forestier</principal>
       </titleStmt>
@@ -591,7 +588,7 @@
           <p>Par grace &amp; Privilege du Roy, donné à Paris le 22. jour de Fevrier 1643. signé par le Roy en son conseil, COMBES, il est permis au Sieur DE LA SERRE, de faire Imprimer un Livre qu’il a composé, intitulé, <hi rend="i">Saincte Catherine, Tragedie</hi>, par tel Imprimeur ou Libraire qu’il voudra, durant le temps de cinq ans. Et deffences sont faites à toutes personnes de quelque qualité ou condition qu’elles soient,  de l’imprimer, ou faire  imprimer, sinon ceux qui auront droit dudit Sieur DE LA SERRE, à peine de deux mil livres d’amende, ainsi qu’il est porté plus au long par ledit Privilege.</p>
           <p rend="i">Achevé d’imprimer pour la premiere fois, le vingtieme de Mars mil six cens quarante-trois.</p>
           <p>Ledit Sieur de la Serre a cedé son Privilege à Antoine de Sommaville &amp; Augustin Courbé, Marchands Libraires à Paris, suivant l’accord fait entr'eux.</p>
-          <label rend="center i">Les exemplaires ont esté fournis</label>
+          <label rend="center"><hi rend="i">Les exemplaires ont esté fournis</hi></label>
         </div>
         <div xml:id="acteurs">
           <head>NOMS DES ACTEURS</head>
@@ -633,6 +630,9 @@
             <role xml:id="lucius">LUCIUS,</role>
             <roleDesc>Docteur converty.</roleDesc>
           </castItem>
+            <castItem>
+              <role xml:id="trasee">[TRASEE]</role>
+            </castItem>
           </castList>
           <stage>La Scene est dans le Palais de l’Empereur en Alexandrie.</stage>
         </div>
@@ -671,7 +671,7 @@
             </sp>
             <sp who="leonor">
               <speaker>LEONOR</speaker>
-              <p rend="textbodyindent">Il faut bien que sa Majesté se serve de la force des tourmens* pour se faire obeir, puis que celle de ses loix est inutile.</p>
+              <p>Il faut bien que sa Majesté se serve de la force des tourmens* pour se faire obeir, puis que celle de ses loix est inutile.</p>
             </sp>
             <sp who="rosilee">
               <speaker>ROSILEE</speaker>
@@ -733,7 +733,7 @@
           <div type="scene">
             <head>PREMIERE SCENE</head>
             <stage>SAINTE CATHERINE, ET EMILIE sa cousine</stage>
-            <sp who="saincte-catherine">
+            <sp who="ste-catherine">
               <speaker>SAINCTE CATHERINE</speaker>
               <p>Que cét Edit qu’on a fait contre les Chrestiens me paroist doux &amp; cruel tout à la fois. Il est doux en menassant de nous oster une vie toute remplie de miseres, pour nous en donner une autre toute pleine de felicytez! Et il est cruel en voulant effacer du milieu de nos coeurs ou par le fer, ou par la flame<note>Écho des paroles de Rosilée (I,1) : « la Religion ne s’introduit pas dans nos ames ma sœur, ny par le fer, ny par le feu ».</note>, les sacrez caracteres* de nostre Religion. Le silence &amp; la crainte de cette rencontre me rendroient malheureuse et criminelle. Je veux plaider la cause des Chrestiens, puis que je suis /<pb n="16" xml:id="p16"/>/ également interessée &amp; dans le gain, &amp; dans la perte<note>Les deux termes s’expliquent par le début de la réplique. Il s’agit du gain de la gloire dans la mort et de la perte des « sacrez caracteres de nostre Religion ». Le pronom comme souvent ne renvoie pas à un élément précis de la phrase : qu’il feront à l’issue de cette lutte.</note> qu’ils en feront.</p>
             </sp>
@@ -771,7 +771,7 @@
             </sp>
             <sp who="ste-catherine">
               <speaker>Ste CATHERINE</speaker>
-              <p rend="textbodyindent">Ce funeste recit des tourmens* qu’ils ont soufferts blesse si vivement mon coeur par les oreilles, /<pb n="19" xml:id="p19"/>/ qu’il en soûpire de douleur aussi bien que de compassion. Mais son ressentiment me paroist trop lâche, dans le peu de soin que je prens de les secourir: Allons arracher des mains des bourreaux ces innocentes victimes, ou les forcer à me mettre au nombre. Ma conscience &amp; mon devoir me reprochent déja ma paresse. Je veux désarmer la colere du Tyran, ou l’animer* à ma propre ruine*.</p>
+              <p>Ce funeste recit des tourmens* qu’ils ont soufferts blesse si vivement mon coeur par les oreilles, /<pb n="19" xml:id="p19"/>/ qu’il en soûpire de douleur aussi bien que de compassion. Mais son ressentiment me paroist trop lâche, dans le peu de soin que je prens de les secourir: Allons arracher des mains des bourreaux ces innocentes victimes, ou les forcer à me mettre au nombre. Ma conscience &amp; mon devoir me reprochent déja ma paresse. Je veux désarmer la colere du Tyran, ou l’animer* à ma propre ruine*.</p>
             </sp>
             <sp who="corvin">
               <speaker>CORVIN</speaker>
