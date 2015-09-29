@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Phalante. Tragédie.</title>
-        <author>Gautier de Coste, sieur de La Calprenède</author>
+        <author key="La Calprenède, Gautier de Coste (1609?-1663 ; sieur de)">Gautier de Coste, sieur de La Calprenède</author>
         <editor>Camille Loiseau</editor>
         <principal>Georges Forestier</principal>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par Camille Loiseau dans le cadre d'un mémoire de
-          maîtrise sous la direction de Georges Forestier (2010)</edition>
+          master 1 sous la direction de Georges Forestier (2010)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
-        <date when="2015"/>
-        <idno>?</idno>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
+        <date when="2014"/>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/rayssiguier_palinice/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/rayssiguier_palinice.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/rayssiguier_palinice.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/rayssiguier_palinice.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/rayssiguier_palinice.epub</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl><author>Mr de la Calprenède</author>, <title>Phalante. Tragédie</title>, à Paris, Chez Antoine de Sommaville, au Palais en la Galerie des Merciers, à l'Écu de France, 1642.</bibl>
@@ -1174,40 +1175,43 @@
           <head>ACTEURS.</head>
           <castList>
           <castItem>
-            <role>HELENE,</role>
+            <role xml:id="helene">HELENE,</role>
             <roleDesc>Reyne de Corinthe.</roleDesc>
           </castItem>
           <castItem>
-            <role>PHALANTE,</role>
+            <role xml:id="phalante">PHALANTE,</role>
             <roleDesc>Prince estranger.</roleDesc>
           </castItem>
           <castItem>
-            <role>PHILOXENE,</role>
+            <role xml:id="philoxene">PHILOXENE,</role>
             <roleDesc>Prince de Corinthe.</roleDesc>
           </castItem>
           <castItem>
-            <role>TIMANDRE,</role>
+            <role xml:id="timandre">TIMANDRE,</role>
             <roleDesc>Pere de Philoxene.</roleDesc>
           </castItem>
           <castItem>
-            <role>CLEOMEDE,</role>
+            <role xml:id="cleomede">CLEOMEDE,</role>
             <roleDesc>Seigneur de Corinthe.</roleDesc>
           </castItem>
           <castItem>
-            <role>ARATE,</role>
+            <role xml:id="arate">ARATE,</role>
             <roleDesc>Seigneur de Corinthe.</roleDesc>
           </castItem>
           <castItem>
-            <role>ARBANTE,</role>
+            <role xml:id="arbante">ARBANTE,</role>
             <roleDesc>Confident de Phalante.</roleDesc>
           </castItem>
           <castItem>
-            <role>CLEONE,</role>
+            <role xml:id="cleone">CLEONE,</role>
           </castItem>
           <castItem>
-            <role>AMINTE,</role>
+            <role xml:id="aminte">AMINTE,</role>
             <roleDesc>Demoiselles de la Reyne.</roleDesc>
           </castItem>
+            <castItem>
+              <role xml:id="huissier"></role>
+            </castItem>
           </castList>
         </div>
         <div type="act">
@@ -1221,7 +1225,7 @@
               <l n="2" xml:id="l2">Ne sont que des esclairs pour cet audacieus<note place="bottom">Diérèse sur « audacieus » (le mot compte pour quatre syllabes). Ce phénomène prosodique consiste en la division en deux syllabes d’une succession de voyelles commençant par <hi rend="i">i, u</hi> ou <hi rend="i">ou</hi>. Pour les autres diérèses en <hi rend="i">–ieu</hi>, cf. v. 114, 224, 225, 277, 486, 522, 845, 846, 905, 909, 1008, 1033, 1082 et 1503.</note>,</l>
               <l n="3" xml:id="l3">Et sa presomption<note place="bottom">Diérèse sur « presomption ». Pour les autres diérèses en <hi rend="i">–ion</hi>, cf. v. 9, 15, 19, 59, 152, 160, 185, 211, 212, 221, 230, 236, 237, 238, 265, 290, 321, 322, 328, 330, 345, 388, 474, 477, 504, 537, 545, 546, 574, 608, 609, 610, 617, 618, 629, 630, 637, 638, 669, 670, 721, 755, 774, 812, 850, 876, 927, 952, 956, 967, 1101, 1102, 1111, 1160, 1180, 1213, 1214, 1292, 1309, 1310, 1392, 1396, 1401, 1528, 1555, 1609, 1615, 1616, 1633, 1646, 1647 et 1682.</note> a merité la <ref target="#foudre">foudre*</ref><note place="bottom">Les astérisques renvoient au glossaire établi à la suite de la pièce.</note>,</l>
               <l n="4" xml:id="l4">Dont ils s’arment desja pour le reduire en poudre.</l>
-              <l n="5" rend="noindent" xml:id="l5">Ouy, Madame, il est juste, et vostre Majesté <pb n="2" xml:id="p2"/></l>
+              <l n="5" xml:id="l5">Ouy, Madame, il est juste, et vostre Majesté <pb n="2" xml:id="p2"/></l>
               <l n="6" xml:id="l6">Me doit enfin punir de ma temerité ;</l>
               <l n="7" xml:id="l7">J’abuse insolemment des bontés de ma Reine,</l>
               <l n="8" xml:id="l8">Du respect qu’un vassal doit à sa Souveraine,</l>
