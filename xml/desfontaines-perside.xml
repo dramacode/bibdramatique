@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Perside, ou la Suite d'Ibrahim Bassa. Tragédie.</title>
-        <author>Desfontaines</author>
-        <editor>Camille Loiseau</editor>
+        <author key="Desfontaines, Nicolas (15..?-1652)">Desfontaines</author>
+        <editor>Camille Neumuller Maleval</editor>
         <principal>Georges Forestier</principal>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par Camille Neumuller Maleval dans le cadre d'un mémoire de
-          maîtrise sous la direction de Georges Forestier (2014-2015)</edition>
+          master 1 sous la direction de Georges Forestier (2014-2015)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
-        <date when="2015"/>
-        <idno>?</idno>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
+        <date when="2013"/>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/desfontaines_perside/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/desfontaines_perside.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/desfontaines_perside.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/desfontaines_perside.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/desfontaines_perside.epub</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl><author>Par la Sieur Desfontaines</author>, <title>Perside, ou la Suite d'Ibrahim Bassa. Tragédie</title>, à Paris, Chez Toussainct Quinet, au Palais sous la montée de la Cour des Aydes, M. DC. XLIV.</bibl>
@@ -50,6 +51,8 @@
     </docTitle>
     <docAuthor>Par le Sieur Desfontaines</docAuthor>
     <docImprint>A Paris, <lb/>Chez Toussainct Quinet, au Palais <lb/>Sous la montée de la Cour des Aydes <lb/>M.DC.XLIV</docImprint>
+    <docEdition>Édition critique établie par Camille Neumuller Maleval dans le cadre d'un mémoire de
+      master 1 sous la direction de Georges Forestier (2014-2015)</docEdition>
   </titlePage>
         <div>
           <head>Introduction</head>
@@ -1516,7 +1519,7 @@
               <speaker>ACHMAT.</speaker>
               <l part="Y">adjoute encore Amant.</l>
             </sp>
-            <sp who="alcomire ">
+            <sp who="alcomire">
               <speaker>ALCOMIRE .</speaker>
               <l n="768" xml:id="l768">D'un objet sans pareil ?</l>
             </sp>
@@ -2298,7 +2301,7 @@
               <l part="Y">Prends ce <ref target="#souci">soucy*</ref></l>
               <l n="1239" xml:id="l1239">Pyrrhus, va, ma presence est necessaire icy,</l>
             </sp>
-            <sp who="pyrrus">
+            <sp who="pyrrhus">
               <speaker>PYRRUS</speaker>
               <l n="1240" xml:id="l1240">J'y vay,</l>
             </sp>
@@ -3361,7 +3364,7 @@
             <xr>V. <ref target="#l338">338</ref>.</xr>
           </entryFree>
           <entryFree xml:id="heur">
-            <form>Heur (<hi rend="i">substantif masculin)</hi></form>
+            <form>Heur (substantif masculin)</form>
             <def>Bonne fortune, bonheur.</def>
             <xr>V. <ref target="#l76">76</ref>, <ref target="#l571">571</ref>, <ref target="#l900">900</ref>, <ref target="#l1419">1419</ref>.</xr>
           </entryFree>
@@ -3474,7 +3477,7 @@
             <def>Suivi du datif, pour ce qui est…</def>
           </entryFree>
           <entryFree xml:id="quant-et">
-            <form>Quant et quant, <hi rend="i">adverbe</hi></form>
+            <form>Quant et quant (adverbe)</form>
             <def>Ensemble, en même temps.</def>
             <xr>V. <ref target="#l512">512</ref>, <ref target="#l628">628</ref>, <ref target="#l1299">1299</ref>.</xr>
           </entryFree>
