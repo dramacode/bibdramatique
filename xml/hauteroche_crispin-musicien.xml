@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -33,7 +30,9 @@
       </sourceDesc>
     </fileDesc>
     <profileDesc>
-      <creation/>
+      <creation>
+        <date when="1674">1674</date>
+      </creation>
       <langUsage>
         <language ident="fre"/>
       </langUsage>
@@ -376,7 +375,7 @@
               <l>Ce bruit a fait en moy naistre un ardent désir</l>
               <l>De vous voir, &amp; je viens…</l>
               <p>PHELONTE</p>
-              <l rend="margin">Vous me faites plaisir<note place="bottom">Vers 797-802.</note>.</l>
+              <l>Vous me faites plaisir<note place="bottom">Vers 797-802.</note>.</l>
             </quote>
             <p>Les domestiques, servantes et valets, sont de même présentées selon un principe de contraste. Toinon représente le pendant féminin du valet d’intrigue, et c’est à elle que reviennent la plupart des initiatives de la pièce : elle suggère le moyen de s’introduire chez Dorame (I, 15), elle fait Crispin maître de musique (II, 6) et s’allie à Daphnis pour enfermer Crispin et Phélonte à l’acte IV. Toinon joue le même rôle d’instigatrice que la servante du Crispin précédent, Dorine. Elle se rapproche également de la Dorine de <hi rend="i">Tartuffe</hi> dans les scènes où elle parle pour les filles de Dorame. Son rôle ne se prête pas aux jeux amoureux, hormis pour y glisser une pointe d’ironie : lorsque Crispin lui demande un gage d’amour, elle se réfugie derrière sa nature de servante (« Ne sais-tu pas / Qu’une servante suit sa Maistresse à grands pas ? / Ainsi le tout dépend de bien servir sa flame<note place="bottom">Vers 1601-1603.</note> »). À l’opposé Fanchon, lorsqu’elle ne chante pas, est principalement caractérisée par son badinage, trait qu’elle partage avec Boniface dans le duo dont on a déjà parlé, et qui se manifeste à demi-mot dans le dialogue avec La Ronce du troisième acte. Interrompue au milieu de son entrevue avec le précepteur, elle s’assure de l’excuse que lui fournira La Ronce auprès de son maître à chanter : l’enchaînement des scènes laisse penser qu’il s’agit de ne pas se trahir auprès d’un autre de ses « galants » (III, 8 et 9). Même principe d’opposition se retrouve du côté des valets. Si Crispin, même maladroit, est un « fourbe » appartenant directement aux intrigues à l’italienne, Le Breton, par son ivrognerie et sa couardise (il fuit lorsque son maître lui demande des comptes et rejette la faute sur La Ronce), emprunte au type bouffon du <hi rend="i">gracioso</hi>. Les deux valets s’opposent également par le langage : la syntaxe minimaliste du Breton contraste avec la « récitation » hésitante, mais prolixe, de Crispin (I, 9) et sa plainte amoureuse burlesque (I, 2).</p>
             <p>Cette utilisation de différentes facettes d’un rôle dans des miniatures destinées au plaisir du spectateur exhibe le genre comique et plus généralement la théâtralité de la pièce. Elle  s’accompagne logiquement d’une écriture du second degré et de la parodie.</p>
@@ -584,13 +583,16 @@
             <roleDesc>Laquais de Phélonte.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="maitre-musique">UN MAISTRE DE MUSIQUE.</role>
+            <role xml:id="le-musicien">UN MAISTRE DE MUSIQUE.</role>
           </castItem>
+            <castItem>
+              <role xml:id="les-violons"></role>
+            </castItem>
           </castList>
           <stage>La Scène est à Paris, dans la Maison de Phélonte, &amp; dans celle de Dorame.</stage>
           <stage>Le Premier Acte se passe dans l’Antichambre de Phêlonte, où d’abord il doit y avoir un Clavessin sur le costê du devant du Theatre ; &amp; dans le fonds, des Sieges aux deux costez : Sur les uns il faut y voir un gros Manteau de campagne ; sur les autres un Chapeau sans plumes, les plumes sur un Siege pres celuy du Chapeau<note place="bottom">Description complétée par celle du <hi rend="i">Mémoire</hi> de Mahelot, p. 117 : « Theatre est deux chambre differante qui se change a tous les actes. Il faut un clavesin, une hallebarde, deux tabourest, 3 chaisse, un manteau, deux billets, 2 clef, 2 battes, une escritoire ». La hallebarde et les deux tabourets seront utilisés dans la « bataille » de Crispin, Dorame et le musicien à la fin du deuxième acte ; les deux billets sont ceux de Daphnis (I, 13 et III, 1) ; en revanche, on ne repère dans le texte que le recours à une « batte » (I, 10).</note>.</stage>
         </div>
-        <div type="act">
+        <div type="act" xml:id="acte1">
           <head>ACTE PREMIER. <pb n="1, A"/></head>
           <div type="scene">
             <head>SCENE PREMIERE.</head>
@@ -2080,11 +2082,11 @@
               <l n="385" xml:id="l385">Ne nous rebutons point, &amp; laissant au Destin</l>
               <l n="386" xml:id="l386">A régler l’avanture, attendons-en la fin.</l>
             </sp>
-              <label rend="center" xml:id="fin-premier-acte">Fin du Premier Acte.</label>
+              <label rend="center">Fin du Premier Acte.</label>
             <stage>Phélonte se retirant, ses six Laquais entrent par les deux costez du fonds du Theatre, &amp; s’y estant rangez de face sur une mesme ligne, joüent un air pour <ref target="#discerner">discerner*</ref> l’Acte. En suite on pousse deux Chassis qui les couvrent<note place="bottom">Les violons sont donc placés entre les deux châssis peints du décor, qui les couvrent ou les découvrent tour  à tour.</note> : Ces Chassis, qu’on nomme Ferme, doivent representer la Salle de Dorame, de mesme que le reste du Theatre, dans laquelle se passe tout le Second Acte. Il faut qu’à cette Ferme il y ait deux Portes qui marquent deux Cabinets<note place="bottom">Celui dans lequel Crispin et Phélonte seront enfermés au quatrième acte (IV,5-11), et celui dans lequel Dorame se retira pour chercher un double de la clef subtilisée (IV, 9)</note>.</stage>
           </div>
         </div>
-        <div type="act">
+        <div type="act" xml:id="acte2">
           <head>ACTE II <pb n="32" xml:id="p32"/></head>
           <div type="scene">
             <head>SCENE PREMIERE</head>
@@ -2897,7 +2899,7 @@
               <speaker>LE MUSICIEN</speaker>
               <l n="646" xml:id="l646">Sur un Trio nouveau peut-on vous consulter ?</l>
             </sp>
-            <sp who="crsipin">
+            <sp who="crispin">
               <speaker>CRSIPIN <hi rend="i">à part.</hi></speaker>
               <l n="647" xml:id="l647">Payons d’effronterie.</l>
             </sp>
@@ -3133,7 +3135,7 @@
               <speaker>LE MUSICIEN <hi rend="i">s’embarasse de son Epêe</hi><note place="bottom">C’est-à-dire qu’il n’arrive pas à la sortir de son fourreau : le fait de montrer une épée nue en scène choque les bienséances dans la seconde moitié du siècle (voir J. Scherer, <hi rend="i">La Dramaturgie classique</hi>, Paris, Nizet, s.d., [1950] ; rééd. 2001, p. 414).</note>.</speaker>
               <l part="Y"><ref target="#fourbe">Fourbe*</ref> !</l>
             </sp>
-            <sp who="crsipin">
+            <sp who="crispin">
               <speaker>CRSIPIN</speaker>
               <l part="Y"><ref target="#coquin">Coquin*</ref> !</l>
             </sp>
@@ -3246,11 +3248,11 @@
               <speaker>CRISPIN <hi rend="i">s’en allant.</hi></speaker>
               <l part="Y">Va, je m’en tireray bien.</l>
             </sp>
-            <label rend="center" xml:id="fin-second-acte">Fin du Second Acte.</label>
+            <label rend="center">Fin du Second Acte.</label>
             <stage>On tire la Ferme, &amp; l’on voit les six Laquais de Phélonte qui <ref target="#discerner">discernent*</ref> l’Acte, &amp; en suite ils se retirent par les ailes du fonds. Le troisiéme Acte se passe dans l’Antichambre de Phélonte, comme le premier.</stage>
           </div>
         </div>
-        <div type="act">
+        <div type="act" xml:id="acte3">
           <head>ACTE III<pb n="55" xml:id="p55"/></head>
           <div type="scene">
             <head>SCENE PREMIERE</head>
@@ -3299,7 +3301,7 @@
               <speaker>PHELONTE</speaker>
               <l part="Y">D’où ?</l>
             </sp>
-            <sp who="crsipin">
+            <sp who="crispin">
               <speaker>CRSIPIN</speaker>
               <l part="Y">J’en ay retenu par hazard,</l>
               <l n="747" xml:id="l747">Alors qu’à composer vostre Maistre vous montre,</l>
@@ -4585,7 +4587,7 @@
               <stage>Les six Laquais sortent comme au premier Acte ; &amp; ayant joüé un Air, on pousse la Ferme, qui les fait disparoistre. Le quatriéme Acte se passe dans la Salle de Dorame, de mesme que le second.</stage>
           </div>
         </div>
-        <div type="act">
+        <div type="act" xml:id="acte4">
           <head>ACTE IV <pb n="82" xml:id="p82"/></head>
           <div type="scene">
             <head>SCENE PREMIERE</head>
@@ -5976,7 +5978,7 @@
               <stage>On retire la Ferme, &amp; les six Laquais paroissent qui joüent comme aux autres Actes, &amp; se retirent par les deux costez du fonds. Ce cinquiéme Acte se passe dans l’Antichambre de Phêlonte.</stage>
           </div>
         </div>
-        <div type="act">
+        <div type="act" xml:id="acte5">
           <head>ACTE V <pb n="110" xml:id="p110"/></head>
           <div type="scene">
             <head>SCENE PREMIERE</head>
@@ -7334,7 +7336,7 @@
               <l n="1870" xml:id="l1870">Venez l’oüir en foule, il en vaut bien la peine.</l>
             </sp>
             <label rend="center">FIN.</label>
-              <p rend="center i">Permis d’imprimer. Fait à Paris le 21. de Septembre 1674.</p>
+            <p rend="center"><hi rend="i">Permis d’imprimer. Fait à Paris le 21. de Septembre 1674.</hi></p>
               <p rend="center"><hi rend="i">DE LA REYNIE</hi><note place="bottom">Gabriel-Nicolas de la Reynie (1625-1709), lieutenant général de police de Louis XIV.</note>.</p>
           </div>
         </div>
@@ -7517,7 +7519,7 @@
           <entryFree xml:id="discerner">
             <form>Discerner</form>
             <def>« Séparer, distinguer » (Fur.) ; « Distinguer une chose d’une autre, ou en juger par comparaison » (A.fr.). Ici le terme désigne le fait de marquer la séparation entre un acte et le suivant.</def>
-            <xr>Didascalies <ref target="#fin-premier-acte">fin du premier acte</ref> et <ref target="#fin-second-acte">fin du second acte</ref>.</xr>
+            <xr>Didascalies <ref target="#acte2">fin du premier acte</ref> et <ref target="#acte3">fin du second acte</ref>.</xr>
           </entryFree>
           <entryFree xml:id="egaremens">
             <form>Egaremens</form>
