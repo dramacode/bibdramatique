@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Méléagre. Tragédie</title>
-        <author>Alexandre Hardy</author>
+        <author key="Hardy, Alexandre (1570?-1632?)">Alexandre Hardy</author>
         <editor>Boucebia Maghda</editor>
         <principal>Georges Forestier</principal>
       </titleStmt>
       <editionStmt>
-        <edition>Édition critique établie par Boucebia Maghda dans le cadre d'un mémoire de
-          maîtrise sous la direction de Georges Forestier (2000-2001)</edition>
+        <edition>Édition critique établie par Boucebia Maghda sous la direction de Georges Forestier (2000-2001)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2015"/>
-        <idno>?</idno>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/hardy_meleagre/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/hardy_meleagre.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/hardy_meleagre.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/hardy_meleagre.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/hardy_meleagre.epub</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl><title>Méléagre, tragédie</title>, par <author>Alexandre Hardy</author>, parisien, 1624.</bibl>
@@ -1080,7 +1080,7 @@
             <l n="151" xml:id="l151">Et bien ? quelle nouvelle ? avons-nous découvert,</l>
             <l n="152" xml:id="l152">Un chemin desormais à la victoire ouvert ?<pb n="220" xml:id="p220"/></l>
           </sp>
-          <sp who="i">
+          <sp who="veneur1">
             <speaker>I <space/>VENEUR.</speaker>
             <l n="153" xml:id="l153">L’ animal effroyable en son espece énorme,</l>
             <l n="154" xml:id="l154">Surpasse des sangliers la nature, &amp; la forme,</l>
@@ -1108,7 +1108,7 @@
             <l n="173" xml:id="l173">Nul n’ignore que là <ref target="#gesir1">gist*</ref> le nœu de l’affaire,</l>
             <l n="174" xml:id="l174">Qu’il faut voir l’ennemy, <ref target="#premier-que">premier que*</ref> le <ref target="#defaire">défaire*</ref>.</l>
           </sp>
-          <sp who="ii">
+          <sp who="veneur2">
             <speaker>II. VENEUR.</speaker>
             <l n="175" xml:id="l175">Hors du cours naturel, conçeu <ref target="#prodigieux">prodigieux*</ref>,</l>
             <l n="176" xml:id="l176">Chaque action chez lui nous ébloüit les yeux,</l>
@@ -1348,7 +1348,7 @@
               <l n="339" xml:id="l339">Ton labeur épargné brave Cecropien<note place="bottom">Nous ne pouvons comprendre ces deux derniers vers qu’en estimant que Pirithois s’adresse à Thésée qualifié de descendant d’Athènes. Ce passage ne peut être attribué à Méléagre qui n’est pas un descendant des rois d’Athènes et qui vient d’être qualifié d’Aetolien. </note>,</l>
               <l n="340" xml:id="l340">Le chef d’œuvre second du pere olimpien<note place="bottom">le terme « chef-d’oeuvre » semble être apposé à celui de Cécropien. Pirithois s’adresse donc à son ami Thésée. Le premier chef d’oeuvre est probablement Hercule, fils de Jupiter. Pirithois assimile donc Thésée, ce grand héros à un second chef d’oeuvre de Jupiter. L’expression « ton labeur épargné »,  a la valeur d’un ablatif absolu latin ; il faut comprendre : ta peine étant ainsi épargnée, répondant ainsi à la tirade de Thésée qui montrait que la chasse était un combat presque indigne de lui et qui renouvelait son envie de vaincre ou de périr. </note>,</l>
             </sp>
-            <sp who="lincee">
+            <sp who="lyncee">
               <speaker>LINCÉE. <pb n="229" xml:id="p229"/></speaker>
               <l n="341" xml:id="l341">Pourveu que seurement conduit <ref target="#dessur">dessur*</ref> ses <ref target="#erres">erres*</ref>,</l>
               <l n="342" xml:id="l342">L’épaisseur des forests, <ref target="#ne">ne*</ref> distance de terres,</l>
@@ -1359,7 +1359,7 @@
               <l n="347" xml:id="l347">Du plutost que miré, que receu pour objet,</l>
               <l n="348" xml:id="l348">Diane l’abandone à la parque sujet.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="349" xml:id="l349">Entre ces clairs soleils de <ref target="#vaillance">vaillance*</ref> guerriere,</l>
               <l n="350" xml:id="l350">L’honneur ne nous permet de demeurer derrière,</l>
@@ -1446,7 +1446,7 @@
               <l n="401" xml:id="l401">Une chaste Déesse imitable modelle,</l>
               <l n="402" xml:id="l402">M’aprent la cruauté, je ne la tiens que d’elle.</l>
             </sp>
-            <sp who="lincee">
+            <sp who="lyncee">
               <speaker>LINCÉE.</speaker>
               <l n="403" xml:id="l403">Poursuivre le chevreüil, ou la biche, ou le daim<note place="bottom">La remarque de Jason du <hi rend="i">Méléagre</hi> deBensérade fait écho à cette réplique de Lincée : « ce n’est Daim ny chevreuil que nous allons chasser. »</note>,</l>
               <l n="404" xml:id="l404">Sont <ref target="#ebat1">ébats*</ref> familiers que demande ta main,</l>
@@ -1496,7 +1496,7 @@
               <l n="433" xml:id="l433">Quelle nouvelle enfants ? une derniere queste,</l>
               <l n="434" xml:id="l434">Nous peut-elle montrer les <ref target="#erres">erres*</ref> de la beste ?<pb n="233" xml:id="p233"/></l>
             </sp>
-            <sp who="veneur">
+            <sp who="veneur1">
               <speaker>VENEUR<note place="bottom">De qui s’agit-il exactement Jusqu’ici les veneurs qui sont apparus sur scène portait un numéro. Il ne semble pas qu’il s’agisse d’un groupe de veneurs car le mot est au singulier dans le texte.</note>.</speaker>
               <l n="435" xml:id="l435">Sire, graces aux Dieux, ma vigilance a fait,</l>
               <l n="436" xml:id="l436">Qu’on tire du repaire un indice parfait,</l>
@@ -1765,14 +1765,14 @@
               <l n="639" xml:id="l639">Pourquoy representer ce que chacun sçait bien,<pb n="242" xml:id="p242"/></l>
               <l n="640" xml:id="l640">Son coup <ref target="#dessur">dessur*</ref> le monstre a mesuré<note place="bottom">Il faut comprendre : s’est comparé au mien.</note> le mien.</l>
             </sp>
-            <sp who="lincee">
+            <sp who="lyncee">
               <speaker>LINCÉE.</speaker>
               <l n="641" xml:id="l641">Dy mieux que son éclair ton tonnerre précede,</l>
               <l n="642" xml:id="l642">Ou que ta courtoisie à sa beauté le cede,</l>
               <l n="643" xml:id="l643">Ou que l’afection loin de ce prix vaincoeur,</l>
               <l n="644" xml:id="l644">Consacre volontiers à ses graces ton cœur.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="645" xml:id="l645">Voila sonder le vif d’une invisible playe,</l>
               <l n="646" xml:id="l646">Et d’un <ref target="#los">los*</ref> excessif l’origine trop vraye,</l>
@@ -1815,7 +1815,7 @@
               <l n="671" xml:id="l671">En quelque privilege, ou remarque d’honneur,</l>
               <l n="672" xml:id="l672">Ainsy la comblez-vous de joye, &amp; de bon-heur.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="673" xml:id="l673">O ! qu’elle sçaura bien sans qu’autre<note place="bottom">Autre : pronom substantif sujet s’emploie sans article au 17<hi rend="sup">e</hi> S</note> en ait la peine,</l>
               <l n="674" xml:id="l674">Sa loüange, &amp; soudain pousser à forte aleine,</l>
@@ -1873,7 +1873,7 @@
           <div type="scene">
             <head>SCENE I.</head>
             <stage>PLEXIPE, TOXÉE.</stage>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="705" xml:id="l705">Tel affront enduré mon frere, nous ne sommes,</l>
               <l n="706" xml:id="l706">Que l’opprobre des Cieux, &amp; la fable des hommes,</l>
@@ -1915,7 +1915,7 @@
               <l n="739" xml:id="l739">Chacun son bien ravy par tout peut repeter,</l>
               <l n="740" xml:id="l740">Ainsy nous, ce beau fruit de force luy ôter.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="741" xml:id="l741">L’affection du Roy qui ne vit plus qu’en elle,</l>
               <l n="742" xml:id="l742">Sans doute épouseroit à l’<ref target="#heure">heure*</ref> sa querelle.</l>
@@ -1925,7 +1925,7 @@
               <l n="743" xml:id="l743">L’affection du Roy ne r’animera pas,</l>
               <l n="744" xml:id="l744">Une ombre feminine envoyée au trépas.<pb n="247" xml:id="p247"/></l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="745" xml:id="l745">Le suplice en cela excederoit l’offence,</l>
               <l n="746" xml:id="l746"><ref target="#a-endroit">A l’endroit*</ref> d’une Vierge, <ref target="#ains">ains*</ref> d’une pure enfance.</l>
@@ -1935,7 +1935,7 @@
               <l n="747" xml:id="l747">L’<ref target="#aspic">Aspic*</ref>, ou le <ref target="#vipere">vipere*</ref>, éteints ne font plus peur,</l>
               <l n="748" xml:id="l748">Et sa vie autrement nous est une vapeur.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="749" xml:id="l749">L’injure ne provient que de qui la <ref target="#guerdonner">guerdonne*</ref>,</l>
               <l n="750" xml:id="l750">Elle n’a point failly prenant ce qu’on luy donne.</l>
@@ -1945,7 +1945,7 @@
               <l n="751" xml:id="l751">Mais ce traitre animal une fois irrité,</l>
               <l n="752" xml:id="l752">Ne se rapaise plus.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l part="Y">Tu dis la verité,</l>
               <l n="753" xml:id="l753">Toutefois n’épreuvons que tard la violence.</l>
@@ -1954,7 +1954,7 @@
               <speaker>TOXÉE.</speaker>
               <l n="754" xml:id="l754">L’importune douceur croitra son insolence,</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="755" xml:id="l755">Tant mieux, la force <ref target="#adonc">adonc*</ref> aura quelque raison,</l>
               <l n="756" xml:id="l756">Chaque chose donnée en sa propre saison.</l>
@@ -1964,7 +1964,7 @@
               <l n="757" xml:id="l757">Un Roy qui l’idolatre, un Roy qu’elle maitrise,</l>
               <l n="758" xml:id="l758">Plus soudain qu’averty nous fera lâcher prise.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="759" xml:id="l759">Permis<note place="bottom">il faut comprendre : il est permis</note> alors aussy de disputer son droit.</l>
             </sp>
@@ -1974,7 +1974,7 @@
               <l n="761" xml:id="l761">Où leur pouvoir commande absolu sur la vie,</l>
               <l n="762" xml:id="l762">Où<note place="bottom">les deux où= quand </note> le sujet aymé ils pensent qu’on envie.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="763" xml:id="l763">Resolvons l’entreprise, &amp; laisse à mon soucy,</l>
               <l n="764" xml:id="l764">Ce coup fait, le moyen de le rendre adoucy.</l>
@@ -1986,7 +1986,7 @@
               <l n="767" xml:id="l767">Au surplus tel dessein s’effectüe à chercher,</l>
               <l n="768" xml:id="l768">Et où se treuvera le prix luy arracher.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="769" xml:id="l769">N’en doute pas, fût-elle au sein du temeraire</l>
               <l n="770" xml:id="l770">Qui devoit retenir ce superbe salaire,</l>
@@ -2000,7 +2000,7 @@
               <l n="775" xml:id="l775">Du moindre, on ne la peut sensible digerer,</l>
               <l n="776" xml:id="l776">Mais resoute<note place="bottom">participe passé régulier du verbe résoudre qui est ici utilisé absolument : il faut comprendre l’affaire résolue.</note>, avisons de ne plus differer.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="777" xml:id="l777">Suy-moy ne dépliant<note place="bottom">Dépliant est le participe présent régulier du verbe desplier plus courant au XVII<hi rend="sup">e</hi> que deployer.</note> la force qu’à l’extrême,</l>
               <l n="778" xml:id="l778"><ref target="#possible">Possible*</ref> à la raison docile d’elle même,</l>
@@ -2061,7 +2061,7 @@
               <l n="817" xml:id="l817">Une morne tristesse occupe leur visage,</l>
               <l n="818" xml:id="l818">Et ce farouche aspect rien de bon ne présage.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="819" xml:id="l819">Tu as mauvaise grace, ô Nymphe, à te vouloir,</l>
               <l n="820" xml:id="l820">Sur la gloire d’autruy jusques-là prévaloir,</l>
@@ -2087,7 +2087,7 @@
               <l n="831" xml:id="l831">Le courage me l’a, non quelque brigue aquis<note place="bottom">Il faut comprendre : le courage me l’a acquis, je ne l’ai pas sollicité.</note>,</l>
               <l n="832" xml:id="l832">Receu hors d’esperance, &amp; <ref target="#premier-que">premier*</ref> que requis.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="833" xml:id="l833">Tu <ref target="#inferer">inferes*</ref> de là ta valeur magnanime,</l>
               <l n="834" xml:id="l834">S’investir du present à titre legitime ?</l>
@@ -2107,7 +2107,7 @@
               <l n="839" xml:id="l839"><ref target="#onc">Onc*</ref> ma crédulité n’admettra ce forfait,</l>
               <l n="840" xml:id="l840">Nul autre que le Roy tel miracle n’a fait ;</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="841" xml:id="l841">Tu veux gratifier un<note place="bottom">Un = quelqu’un </note> qui te gratifie,</l>
               <l n="842" xml:id="l842">Faveur qui rien de bon pourtant ne signifie,<pb n="252" xml:id="p252"/></l>
@@ -2128,7 +2128,7 @@
               <speaker>ATALANTE.</speaker>
               <l n="849" xml:id="l849">L’innocence ne craint ces menaces frivoles.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="850" xml:id="l850"><ref target="#sus">Sus*</ref>, mon frere, passons à l’effet des paroles.</l>
             </sp>
@@ -2147,7 +2147,7 @@
               <l n="855" xml:id="l855">Puisse, puisse <ref target="#premier1">premier*</ref> l’Erebe<note place="bottom">la région ténébreuse, les Enfers.</note> m’engloutir,</l>
               <l n="856" xml:id="l856">Que ma gloire trahië <ref target="#onc">onques*</ref> le consentir.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="857" xml:id="l857">Malgré-toy, nous l’aurons, &amp; lâche soudain prise.</l>
             </sp>
@@ -2319,7 +2319,7 @@
               <l n="975" xml:id="l975">Dites, qui vous a meus de ravir sans égard,</l>
               <l n="976" xml:id="l976">Un droit que ma justice à sa gloire <ref target="#departir">depart*</ref> ?</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="977" xml:id="l977">La cause nous absout, qui parle d’elle-même,</l>
               <l n="978" xml:id="l978">En ce que tu luy peux doner ton Diadême,</l>
@@ -2343,7 +2343,7 @@
               <l n="987" xml:id="l987">Une troupe immortelle en oracle <ref target="#premier2">premier*</ref>,</l>
               <l n="988" xml:id="l988">Voulut de ce beau pris sa valeur <ref target="#premier3">premier*</ref><note place="bottom">L’orthographe du verbe primer en premier est attestée dans les dictionnaires du XVIe siècle. </note>.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="989" xml:id="l989">Oüy plus, ainsi qu’amis, qui desirent complaire,<pb n="259" xml:id="p259"/></l>
               <l n="990" xml:id="l990">Que pour ne la sçavoir indigne du salaire.</l>
@@ -2366,7 +2366,7 @@
               <speaker>MELEAGRE.</speaker>
               <l n="999" xml:id="l999">Si tel refus persiste une seconde fois<note place="bottom">Le point équivaut ici à des points de suspension. Nous retrouvons le même phénomène au vers 1014. </note>.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="1000" xml:id="l1000">Ta frivole menace aux esclaves tu dois,</l>
               <l n="1001" xml:id="l1001">Libres, &amp; que la peur faciles n’épouvante,</l>
@@ -2377,7 +2377,7 @@
               <l n="1003" xml:id="l1003">Rebelles, vous mourrez, voila trop de mépris,</l>
               <l n="1004" xml:id="l1004">Trop <ref target="#dessur">dessur*</ref> un Monarque à sa face entrepris.</l>
             </sp>
-            <sp who="plexipe">
+            <sp who="plexippe">
               <speaker>PLEXIPE.</speaker>
               <l n="1005" xml:id="l1005">O ! brutal, ô barbare, ô ! tyran <ref target="#parricide">parricide*</ref>,</l>
               <l n="1006" xml:id="l1006">Fuy mon frere, je tombe au gouffre Acherontide<note place="bottom">les enfers.</note>,</l>
@@ -3830,7 +3830,7 @@
             <xr>V. <ref target="#l936">936</ref></xr>
           </entryFree>
           <entryFree xml:id="tressaut">
-            <form>Tressaut (3<hi rend="sup">e</hi> personne du présent de l’indicatif du verbe tressaillir)</form>
+            <form>Tressaut (troisième personne du présent de l’indicatif du verbe tressaillir)</form>
             <def>Être surpris, agité par quelque mouvement violent qui vient tout à coup</def>
             <xr>V. <ref target="#l1232">1232</ref></xr>
           </entryFree>
@@ -3970,13 +3970,13 @@
           <p>Il me fasche que ces deux beliers teints en cramoist donnent tant de prise sur eux, pareils à ces mauvais tireurs d’armes qui ne sont jamais bien en garde et ne servent que de but aux coups de fleuret que le premier venu leur voudra porter : car a quel propos dis ce jeune etourdy au parangon des beaux esprits par antiphrase, qu’il n’envie ne la fortune, ne la maison, ne les rentes de son adverse partie chez qui la fortune se borne du contentement, vraye richesse d’une humeur libre comme la sienne. Et quant à l’extraction qui va pour le moins de pair avec ces avortons des Muses, qui veulent faire d’une mouche un Elephant, il suffit à l’Auteur du Teatre d’avoir à l’exemple des mouches à miel nourry des frelons de son travail desquels ces rimeurs de la derniere fournée se servent à déclamer contre l’honneur de sa reputation, qui se purifie dans le feu de leurs calomnies, ainsi que ce lin qui brule sans se consommer.</p>
           <p>Ce crapaut continuant à vomir la bave de sa medisance, attaque à tort et à travers l’Epitre qui ne sçauroit plaire a luy ny a son compagnon, non plus qu’à ses larrons repris de justice, la nudité qui decouvre leurs épaules fleurdelysées, où les precedents malefices sont ecrits avec le fer et le feu. Ainsi ne veut il pas que les bons esprits la prouvent, ne que ses amis mesme l’admettent sinon par tollerance, appellant médisance une juste censure de leurs heresies et malfaçons, en ces ouvrages de longue aleine, qu’ils ne peuvent perfectionner faute d’outils necessaires, en ces champs qu’ils ne peuvent entonner faute de poumons. Ce brutal pour grater l’autre où il se demange, semblable à l’aveugle qui s’efforce en flatant son compagnon d’infirmité de luy persuader qu’il void extremement clair, dit que l’Auteur du Teatre le reprouve a cause qu’il n’imite pas son style. De cela le croit-on sans jurer, il n’est pas permis à chacun d’aller à Corinthe un tout autre esprit que le leur, quoy qu’en mesme société, fait gloire de pouvoir suivre de loin l’Auteur du Teatre et ce d’autant que le dernier avec plus de suffisance à moins de presomption qu’eux. Or voicy les defauts que ce nouvel Aristarque colle en l’epitre aux termes suivans <hi rend="i">chausser le coturne naufrage de reputation, carriere des Muses, attribuer la perfection des choses à la nouveauté.</hi> Appren, pauvre homme qu’en tous metiers il y a des phrases particulières aux artisans pour s’exprimer : un peintre dira imprimeure, crayon, carnation, païsage et ainsi des autres. Brisset, le moindre vers duquel vaut mieux que cent volumes de rimes comme les tiennes, use au commencement du sonnet qu’il donne à son teatre de la mesme locution. Quant aux metaphores, un qui fait profession de parler au public deust avoir pris dans sa Rhetorique qu’à les separer de l’oraison c’est chastrer un parterre de ses plus belles fleurs. Il ne faut oublier que sa reprimande  finit par deux mots pedantesques de <hi rend="i">Trepis Tymbrean</hi> qui ne signifient que l’ignorance de celuy qui les cite mal à propos et sont hermaphodites comme les hyenes, attendu que trepis tymbrean ne se trouvera dans aucun Auteur grec ou latin, trop bien Delphique ainsi qu’au lieu ou la superstition Païenne tiroit ses oracles en faveur du trepis qu’un pescheur y consacra, bien qu’il y ait diverses opinions là dessus.</p>
           <p>Les niaiseries suivantes qui prolongent le babil de sa Lettre ainsi qu’une sale araignée file sa toile en quelque coin de retrait, ne merite aucune reponse. Car vous n’y voyez qu’une exageration de louanges qui abaissent autant leur sujet qu’elles luy sont mal deues comme de luy dire <hi rend="i">qu’il vaut mieux estre Achille avec des rivaux de Thersite sans envieux.</hi> Ce Mydas le jeune prend icy un avis general pour envie, une correction paternelle pour un rigoureux supplice. J’envierois aussi tost la fortune d’un crocheteur que le style d’un miserable rimeur, et croy que si la vertu ne trouve d’autres hostes qu’eux, elle est en grand danger de coucher dehors. Ils representent ces jeunes soldats de l’antiquité qui n’avoient encore rien de gravé sur leurs boucliers, et veulent qu’on les enrolle avec de vieux routiers dont la valeur a donné trop de preuves aux belles occasions pour estre plus revoquée en doute. Mais passons outre pour admirer la subtilité des arguments de ce bel esprit qui concluent une communauté de science à tous les hommes indifferemment, puisque la lumiere du Soleil se disperse a tout le monde, et qu’une mesme voix s’entend de diverses oreilles, que pourroit enférer Pierre du Puis ressucité de plus ridicule. L’experience journaliere dément ce paradoxe qui touche les sciences ausquelles par la providence divine qui leur sert d’oeconome divers esprits inclinent plus ou moins et s’apparient diversement : car bien que les Muses soient soeurs, tel excelle en la Theologie qui seroit mauvais Medecin : Au reste une maxime generale tient que les Orateurs se font par artifice, les Poetes de naissance, mais sans prejudice d’une doctrine meslee qui fortifie, la nature, a peine de produire des enfans qui meurent en naissant. Ainsi nos deux Satyriques manques de l’une et l’autre partie ne peuvent esperer l’usage de leurs rimes converties qu’a ce que dit le Prince de nos Poetes, apres Horace, s’entend</p>
-          <p rend="center i">A faire des habits</p>
+          <p rend="center"><hi rend="i">A faire des habits</hi></p>
           <p><hi rend="i">Au sucre, à la canelle, au gingembre, et au ris</hi> </p>
           <p>Notre premier calomniateur lassé de mentir et jouer le personnage de ses harangeres qui perdent l’aleine à force de cracher des injures, en imitant les yvrognes apres qu’ils ont dans le sommeil dissipé les plus fortes vapeurs du vin, s’escarmouche contre soy mesme, faisant croire à son imagination troublée que l’Auteur du Teatre condamne l’affluence des belles pensées (ce sont ses mots). En quoy il se trompe, la Préface du livre qui fait tant moucher ces deux roussins de Mirebalais porte seulement que telles fleurs naissent et se cueillent en d’autres jardins, et que le style enervé de leurs pareils ne vaut qu’à faire des chansons à la populace de Paris. Quant à l’epithete de laids qu’il tient superflus, étant né avec la chose, il ne luy peut donner mauvaise grace, outre que la deformitez de plusieurs degrez. Mais voilà quereller sur un pié de mouche.</p>
           <p>J’oublioy que l’Auteur de Teatre n’estant rien moins que Stoïque laisse à ces deux Cyniques l’os de la médisance à ronger, pendant qu’il leur dira qu’une eau commune supplée pour les abreuver lors qu’ils viendront à sa paroisse : et que si ce grand personnage allegué vivoit aujourd’huy, leur simple veue l’obligeroit a changer d’opinion, et croire que la France abonde en monstres d’Ecrivains. Leur Antagoniste se loue au demeurant d’un acces de fievre qui composa l’Epistre propre a guérir leur manie, si elle n’estoit desesperée et digne des petites Maisons dorénavant : qu’ils jugent par là ce que peut sa santé. Or comme un torrent attraine toujours avec ses eaux bourbeuses toutes les ordures du precipice où il est, ce mauvais disciple de Bartole mèle toujours d’impostures ses paroles, confirmées par de foibles raisons et de bourdes comparaisons, témoin et qu’il oppose les ouvrages de Monsieur d’Urfé aux fables d’Esope, et les écrits de ce brave Théophile à la naïveté de Marot.</p>
           <p>Une repetition de consequence me fait rougir de sa honte et [elles] se refutent d’elles mesmes comme à dire que si les principes de la Poësie doivent tenir bon pour l’antiquité et ne peuvent s’alterer sans une subversion du total, quelques tablettes de cire, d’Escuyers et de maçons que vueille obliquement amener la sophisterie d’un rimeur, quiconque a l’esprit mieusfait que son compagnon n’a le nez, m’avouera que s’il avoit a continuer la Franciade, il ne changeroit point l’ordre de Ronsard, qu’en matiere d’elegie Tibulle luy serviroit de modelle et d’Epigrammes Martial ; que l’imitation des pointes d’Ovide en ses Epitres et l’Art d’aimer ne luy seroit qu’honorable ; et quant au Teatre, le style du bon Seneque suivy de Garnier, que c’est tout ce qu’un brave homme peut et doit faire : que si quelque chose de rude se trouve en leurs ouvrages, c’est à faire a un coup de lime et à s’accomoder au temps. Sur ce qu’il dit que <hi rend="i">sans estre Romans et Romains on parle bon français à Paris</hi>, quiconque sçait le Grec et le Latin le parle encor mieus, temoin ces Oracles du premier Sénat de la France, que luy mesme cite à sa confusion.</p>
           <p>La Berne commence à s’user des diverses secousses données et receues au pesant fardeau d’une si grosse beste, encor trois coups seulement afin qu’elle demeure entiere pour l’autre. Je luy maintien donc que rien ne se peut dire qui n’ait esté dit, que ses nouveautez sont vieilles, ses finesses cousues de fil blanc, ses secrets communs et divulguez, ses appas dégoutants et ses artifices sans art. En quoy je prendray juges et temoins tous ceux qui ont mis le nez dans les livres (peine de laquelle nature dispense son homme) nos Orateurs Courtisans ne travaillent qu’après Seneque, Tacite, Apulée, et Petrone premièrement imitez du Sieur de Montagne, ou ces Messieurs puisent la plupart de leurs mots affectez, mais aucunement tolerables sous l’autorité d’un tel personnage, ou si nos deux Critiques veulent qu’on s’en rapporte à ces grands Genies de l’Ecole ou ils ont si mal profité, un Marion, du Vair, et Servin sont les vrais flambeaux de l’Eloquence Françoise, sous la conduite desquels on ne peut s’egarer, et a laquelle je ne croy pas que les inventions de leurs jeunes cervelles puissent rien adjouster. Quant à la Poesie aucun ne doute que Monsieur de Malherbe n’ait toujours semblable à soy-mesme suivy un mesme style, plus adoré qu’approuvé de beaucoup en ce siecle. Or y a-t-il trente ans du moins qu’il a commencé à écrire, voilà donc une vieille nouveauté. Et ainsi que l’admiration tombe aisement es esprits foibles preoccupez d’ignorance, ce pauvre idiot admire ces grottes ou l’eau n’imite que les orgues d’eau ou <hi rend="i">Hydraules</hi> de l’antiquité : ce mot de <hi rend="i">Clepsidre</hi> encor témoigne que les orloges eurent quelque chose de semblable. Et pour montrer que les anciens se prevalurent d’inventions inimitables, ces jardins de Babilone suspendus en l’air, qui ne sont que l’un des sept miracles du monde, laissent le dementy à ce nouveau rimailleur qui ne scait pas aussi que la digue de la Rochelle, où de semblables furent pratiquées en Hollande long temps devant la prodigieuse naissance de son adhérent. Au regard de ces nuits propres à offusquer la beauté du Teatre, l’Amphytrion de Plaute se moque de telle nouveauté, et les <hi rend="i">Automates</hi> fautiques<note place="bottom">Correction à la plume : antiques.</note> font le proces à l’ignorance de ce jeune levron, qui me fait d’orénavant pitié de le voir tout etourdy dans la Berne crier mercy a la justice des Muses qui lui pardonne apres deux neufvaines acomplies où il scait et qui luy prepare la consolation des miserables, à voir punir son compagnon.</p>
-          <p rend="center i">Le camus berné.</p>
+          <p rend="center"><hi rend="i">Le camus berné</hi>.</p>
           <p>La plus lâche espece de vengeance et plus usitée des gens, est sans doute celle qui s’eclatte en paroles injurieuses, comme plus propre à quelque passion feminine qu’à la prudence d’un homme bien sensé : ce sont foibles armes qui apportent plus de blâme que de gloire à ceux qui les employent, sinon à l’extremité et lors que la loy du Talion nous le permet contre l’arrogance des agresseurs, ou quand le ressentiment des outrages faits à un amy nous presse plus que notre propre interest. Ainsi l’Achille d’Homere s’offense plus de la mort de Patrocle que du rapt de la belle Chryseide. La perte d’un amy obtient ce qu’il avait refusé à la priere de tous les autres. Ainsi l’affection que je porte à l’Auteur du Teatre m’anime contre ces deux Cercopes qui reveillent un Hercule à force d’injures atroces et sanglantes en leurs lettres, ou plutost libelles diffamatoires, l’appellant frénétique furieux, yvrongne, mercenaire, Pedant, chien enragé, fol, extravagant et tout ce qu’une manie de colere a peu suggérer à leur brutalité sans autre sujet, ou pretexte que de deux mots proferez par l’oracle de la verite, qui ne furent que comme un baume instillé dans la playe de leurs calomnies et censures ordinaires en plein Hostel de Bourgongne, ou il ne se recite aucun de ses vers qui n’ait un coup de dent, ou ces chenilles rongent ses plus belles fleurs, et soutiennent pour parler pedantesquement des theses de medisance contre sa reputation. Or afin de luy épargner le temps qu’il employe à sa Comedie en prose sous le titre des rimeurs modernes, il faut achever ma tâche, et mettre dans la Berne ce pauvre here qui voudroit en estre dejà quitte, et à qui la peur vaut un autre supplice.</p>
           <p>Une Philosophie cornue met notre Camart sur le serieux au commencement de sa harangue, qui sent les harangs et la harangère : car elle passe incontinent aux invectives, d’où il se confesse travaille de l’imaginative à n’avoir connu les défauts que la vieillesse apporte à ce <hi rend="i">vieux Auteur</hi>, où dès là ce pauvre badin peche en grammaire, et parle badaudoisement, ne luy deplaise, attendu que vieil Auteur a plus de grace et de raison : j’avoue que l’un passe quelquesfois pour l’autre, mais un vieil homme avec une vieille femme s’accordent le mieus du monde. On dira souvent vieux Capitaine, vieux Gaulois, pour la douceur du langage mais rarement ou point du tout, vieux homme, qui est dur à l’oreille ; ou si vieil ne se dit plus, une vieille paire de souliers aura fort à faire, et demeurera sans nom. Un peu après ce Desmothène des rimeurs tombe en Pleonasme, où il dit, <hi rend="i">La suite confuse de ses paroles mal arrangées</hi>, sçavoir si elles peuvent estre bien arrangées y ayant de la confusion. Or d’insister sur la recherche de semblables fautes, seroit vouloir compter tous les grains de sable d’Olone : pincons seulement les principales cordés de sa téméraire ignorance. Tu remarqueras, lecteur, sa plaisante Retorique, et la belle liaison de sa prose, où il infère que des vertes racines du poil grison résulte une maladie incurable. A la seconde, 3 et 4 pages, il repete l’envie que l’Auteur du Teatre porte à sa vertu. Voyons s’il y a de quoy.</p>
           <p>Comme les Matématiciens tiennent le point en la ligne pour la plus petite chose que l’esprit humain puisse imaginer, ainsi ne scauroit on concevoir de sujet plus incapable de l’envie que celui d’un autre Esope (quant à la forme non quant à l’esprit) qui vit dans le monde non par emprunt et come n’estant point du nombre des homes, qui n’a science ne richesse, bouche n’esperon, qui n’a de qualités plus recommandables que celles de l’imprudence, sans nom parmy les doctes, et sans espérance d’en avoir, mal fait du corps et de l’esprit qui n’a point de nez en toutes ses actions et qui pose les fondemens de sa fastueuse vanité sur une Madonte faite en dépit des Muses, avec plus de fautes que de syllabes, sans rime et sans raison, bref digne d’une telle rature que Phyloxepeen fit à celle du Tyran de Syracuse, moins tyran et plus capable de discipline que luy, attendu qu’il se soumit à la correction d’un habile homme pour servir d’exemple à ce malavisé tenu de la même humilité à l’Auteur du Teatre. Que des juges equitables et sans passion prononcent maintenant si celuy à qui le teatre françois doit son entretien depuis trente ans a quelque legitime occasion d’envie contre un si miserable sujet.</p>
@@ -3986,12 +3986,12 @@
           <p>Quant à ce pretendu desadveu d’ecoliers auquel l’Auteur du Teatre ne pensa jamais que generalement, ô quel heur à ces deux corbeaux s’ils eussent esté couvez par un cygne, possible que la nourriture en eut sinon changé, du moins amendé la nature, et que les coups de verges de ce hardy Pedant leur eusse sauvé l’estrapade des Muses. Son impudence adjoute peu apres que les Auteurs Grecs et Latins n’ont point esté barbares en leurs langues comme luy en la sienne : ainsi le braire des sereins d’Arcadie ses freres est la plus douce armonie que hument leurs longues oreilles, ainsi le cerf se laisse charmer au craquement des rouës mal graissées, et s’enfuit au son d’un lut ; ainsi ce qui leur est barbarie sert d’admiration aux beaux esprits.</p>
           <p>Voicy desormais l’endroit ou ce crapaut creve en vomissant le reste de son venin contre la reputation de l’Auteur du Theatre, en cet hemistique du Poeme de Timoclée, <hi rend="i">auparavant le Soleil absconsé</hi> : où sa phrase monstrueuse dit parlant à son complice, <hi rend="i">Ce mot à ton avis n’est il pas capable</hi> de chasser le Soleil du monde, <hi rend="i">luy faire avancer sa course dans la mer pour noyer ce monstre</hi> d’absconsé.. Cela s’appelle faire de ce bel astre du jour qui nous represente la Divinité, quelque satellite qui porte noyer les monstres dans la mer. Et en ce qu’il abboye apres. <hi rend="i">Si la langue latine n’estoit pas morte</hi>, elle n’est morte que pour luy, qui ne fera jamais le miracle de sa resurrection. Mais il faut voir si ce mot d’<hi rend="i">absconsé</hi> est si monstrueux qu’un monstre d’ignorance se l’imagine.</p>
           <p>Premierement comme la marque du Prince fait valoir les especes, la suffisance d’un Auteur donne le poids et le cours à ses paroles, chose confirmée par le Phoenix de nos Poetes en son Art Poetique, ou il asseure que ce qui fut permis à Virgile estoit un sacrilege a d’autres moindres que luy, et qu’en cas de necessité on peut enrichir la pauvreté de notre langue de mots nouveaux et usitez, pourveu que significatifs : luy mesme en sa Franciade nous sert de porte-enseigne en ce vers,</p>
-          <p rend="center i">A longs andains les honneurs d’une prée.</p>
+          <p rend="center"><hi rend="i">A longs andains les honneurs d’une prée</hi>.</p>
           <p>Nostre mastin a court poil trouvera bien à mordre en ce mot <hi rend="i">andain</hi>, comme franc Picard, pour dire aïambée, mais il passera sans murmure chez les doctes, attendu la qualité de celuy qui le met en usage. Bien plus, c’est Homere qui vaut à tout le moins ces basilics éclos dans le fumier de la calomnie, employe les quatre Dialectes grecs a la construction d’un ouvrage qui n’a de fin que celle du monde, sans restraindre son style dans les termes du langage Attique, quoy que le plus poly et mignard de tous les autres, tel que le Toscan en Italie et le François en France. Ce mot d’<hi rend="i">absconsé</hi> est originaire Normand et usité au païs, sans estre, a le bien prendre, plus ecorché du Latin que celuy de derivé et infinis qui coulent de la source latine : au reste extremement significatif et plus propre à decrire la fin du jour que celuy de couché, veu que le Soleil faisant une ronde perpétuelle se cache plutost qu’il ne se couche. Toutesfois pour introduire telles nouveautez il faut avoir du nez, car ce que commande un Capitaine sent les etrivières à un goujat. Mais dy moy, petit frelon du Palais, comment avec deux cents mots, qui est tout ce que ce grand habile homme de Cardinal du Perron a remarqué de naturel en notre langue, tu voudrois ou pourrois faire six cents Poemes Dramatiques ? Et appren de luy mesme au mot de fermer pour borner en sa traduction du 6. De l’Eneide que les grands personnages prennent les grandes licences. La foiblesse de ce vermisseau, ne vaut pas qu’on l’ecrase avec les remarques du doctissime Espagnol <hi rend="i">Delrio</hi> en sa preface sur Seneque, ou il montre que l’antiquité des mots leur donne certaine majestueuse gravité, et qu’a ce dessein il en avoit usé apres Virgile qui emprunte des vers entiers du bon <hi rend="i">Ennius</hi> avec ce mot tout vermoulu <hi rend="i">Olli</hi>. Mais le pauvre camus qui voudroit que l’on vestit un geant avec demie aune de drap, ne void dans les Auteurs que la longueur de son nez, et n’est cygne qu’entre les oisons.</p>
           <p>Le reste du Pasquil de ce faquin retombant sur l’envie comme au centre de ses discours enervez, ne merite aucune repartie, mais bien ce qu’il fait chanter la victoire avant le Combat a son Echo (car ces deux babillards s’en servent tour à tour), l’autre en son Epitre persuade que cettuy-cy qu’il a fait un lyon en sa Madonte, cettuy-cy persuade à l’autre qu’il l’emporte sur l’Auteur du Teatre avec son Aretaphile, propre a nommer l’enseigne d’une fameuse taverne. Mais si tout animal produit son espece, l’un au lieu de lyon auroit fait une sereine de moulin, et l’autre un magot. La prudence du lecteur ne scauroit que condamner cette furieuse et du tout insupportable vanité, deux versificateurs de trois jours qui se sont epuisez en ces ouvrages de neant ou trois mille rimes ne donnent pas la rencontre d’un bon vers s’il n’est derobé, et dont la renommée ne sortit jamais l’enclos de l’Hostel de Bourgongne, n’ayant d’autre trompette que celle des Pages et laquais, s’affrontent à celuy que la France ne scauroit qu’ingratement frustrer pendant sa vie du nom qu’Euripide ne receut de l’Oracle qu’apres sa mort, ne plus ne moins que qui voudroit comparer les triomphes d’Alexandre le grand avec le combat de ces deux goujats, de son armée, qui fit par forme de passe-temps le prejugé de l’une de ses plus glorieuses victoires contre le Roy de Perse. Apprenez tymbres felez que l’Auteur du Teatre vous usera toujours et à bon titre de ces termes des vieux routiers Macedoniens sous la conduite d’Eumenes envers leurs ennemis jeunes d’age et de peu d’experience en l’art militaire : hé quoy, pendarts (leur disoient ils en l’ardeur du combat) vous osez vous prendre à vos peres ? Et les coups suivoient leurs paroles, comme cela sera si la premiere et douce correction de la plume empruntée d’un amy ne vous remet de la raison dans le devoir.</p>
           <p>Et pour montrer que ces deux miserables rimailleurs font plus de pitié que de peur ou d’envie à l’Auteur du Teatre, c’est que dès peu il refondra aux mesmes sujets deux medailles que ces mauvais apprentifs ont gastées les jettant dans les moules raboteux, crevacez et rompus de leurs rudes esprits, afin que le public avec une huée leur donne la chasse, et comme Apollon de Thyane fit un mauvais demon à force d’injures les banisse du commerce des Muses, que cependant s’ils ont tant de courage, d’honneur et de merites qu’en propose leur vanité, que l’on voye au jour ces ouvrages qui demeurent dans la nuit d’un Hostel de Bourgongne  ainsi que franchise des larcins de leurs rapsodies dont ils ont fait les Comediens receleurs, pour entrer en la Comedie sans argent, et avoir quelques repues franches : alors au lieu d’un mot qui ne seroit pis que quelque peu ponciere facile à essuyer sur le bord d’un riche et exquis tableau, l’Auteur du Teatre s’offre à prouver qu’il n’y a rien dedans ces toiles d’araignées qui ne merite le feu pour expiation de leur temerité. Mais ce Pygmee de camart est encor à rapetasser son personnage de Tessandre que les Comediens, ses monstres, luy ont fait recoudre comme l’un des plus necessaires, chose plaisante qu’un Architecte desseigne sous des maçons : et quant au secours de ces bons esprits qu’il implore, l’Auteur du Teatre fort en son innocente prud’hommie s’asseure qu’ils prendront chacun plutost un coin de la Berne que d’empecher la juste punition que prend de leur folie ce fleau de l’ignorance des excrements du barreau.</p>
           <p rend="center">FIN.</p>
-          <p rend="center i">In Audaces non est audacia tuta.</p>
+          <p rend="center"><hi rend="i">In Audaces non est audacia tuta</hi>.</p>
         </div>
         <div>
           <head>Bibliographie</head>
