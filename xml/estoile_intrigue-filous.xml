@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>L'Intrigue des filous. Comédie</title>
-        <author>Claude de L'Estoille</author>
+        <author key="L'Estoile, Claude de (1597-1652)">Claude de L'Estoille</author>
         <editor>Jie Chen</editor>
         <principal>Georges Forestier</principal>
       </titleStmt>
@@ -53,7 +50,6 @@
     <docEdition>Édition critique établie par Jie Chen dans le cadre d'un mémoire de
       master 1 sous la direction de Georges Forestier (2008-2009).</docEdition>
   </titlePage>
-        <head>Commentaire critique</head>
         <div>
           <head>Introduction</head>
           <p>Héros traditionnels, mère autoritaire, rival obsessionnel, revendeuse incarnant la figure de la « dame d’intrigue » : la combinaison de ces éléments familiers d’un lecteur des comédies du XVII<hi rend="sup">e</hi> siècle ferait une pièce tout aussi classique que banale. Pourtant, le destin de <hi rend="i">L’Intrigue des filous</hi> fut tout autre. Car il y eut des filous qui, dans leur poursuite d’un receleur, firent irruption dans le théâtre. Les « invasions barbares » étaient heureuses, ces criminels furent donc tolérés, puisqu’en les autorisant à « voler en public<note place="bottom">Voir la dédicace de la pièce.</note> », les spectateurs témoignèrent en 1647, à l’Hôtel de Bourgogne, la naissance d’une grande comédie.</p>
@@ -173,11 +169,11 @@
                 <p>TERSANDRE</p>
                 <l>Depuis peu.</l>
                 <p>LUCIDOR</p>
-                <l rend="margin">Mais de qui ?</l>
+                <l><space>       </space>Mais de qui ?</l>
                 <p>TERSANDRE</p>
-                <l rend="margin">D’elle mesme.</l>
+                <l><space>            </space>D’elle mesme.</l>
                 <p>LUCIDOR</p>
-                <l rend="margin">Ha ! tout beau. (V. 597-598)</l>
+                <l><space>                  </space>Ha ! tout beau. (V. 597-598)</l>
               </quote>
               <p>La chute psychologique de Lucidor est parfaitement représentée, visualisée grâce à la stichomythie. De même, Florinde a été profondément bouleversée par la calomnie de Tersandre sur son amant :</p>
               <quote>
@@ -204,7 +200,7 @@
                 <l>Mais si par un mal-heur nous sommes apperceus,</l>
                 <l>Que faire ?</l>
                 <p>LE BALAFRÉ</p>
-                <l rend="margin">On ne doit point consulter là-dessus,</l>
+                <l><space>        </space>On ne doit point consulter là-dessus,</l>
                 <l>Il faut que nostre main au carnage occupée,</l>
                 <l>Passe indifferemment tout au fil de l’espée. (V. 1405-1408)</l>
               </quote>
@@ -673,13 +669,13 @@
         <div xml:id="privilege">
           <head>Extrait du privilege du Roy</head>
           <p rend="i">Par grace &amp; Privilege du Roy donné à Paris le 5 jour de Fevrier 1648. Signé par le Roy en son Conseil LE BRUN : il est permis à ANTHOINE DE SOMMAVILLE Marchand Libraire à Paris, d’Imprimer ou faire Imprimer, vendre &amp; distribuer une piece de Theatre intitulee l’Intrigue des Filous, &amp; ce pendant le temps &amp; espace de cinq ans, à compter du jour que ladite piece sera Imprimée, &amp; deffences sont faites à tous autres Libraires &amp; Imprimeurs d’en vendre d’autres impressions que de celle qu’aura fait, ou fait faire ledit SOMMAVILLE ou ceux qui auront droit de luy, sous les peines portées par lesdites lettres qui sont en vertu du present Extrait tenuës pour deuëment signifiées. </p>
-          <p rend="center i">Achevé d’Imprimer le 24, Avril 1648 </p>
+          <p rend="center"><hi rend="i">Achevé d’Imprimer le 24, Avril 1648</hi></p>
         </div>
         <div>
           <head>ACTEURS</head>
           <castList>
           <castItem>
-            <role>LUCIDOR</role>
+            <role xml:id="lucidor">LUCIDOR</role>
             <roleDesc>Capitaine François</roleDesc>
           </castItem>
           <castItem>
@@ -1155,7 +1151,7 @@
               <l n="249" xml:id="l249">Et vostre Pere est mort en sa jeune saison,</l>
               <l n="250" xml:id="l250">Du regret de la voir ruyner<note place="bottom">Le mot compte trois syllabes. Ce type de diérèse se trouve aussi dans les vers 309, 353, 465, 500, 501, 502, 541, 542, 566, 1132, 1597.</note> sa Maison,</l>
               <l n="251" xml:id="l251">Et non pas, comme croit sottement le vulgaire,</l>
-              <l n="252" xml:id="l252">De quelque qui pro quo<note place="bottom"><seg rend="sansinterlignecar">qui pro quo : « Termes latins dont on ne fait qu’un mot, et dont on se sert pour marquer la méprise d’un Apothicaire qui donne mal à propos une drogue pour l’autre, ou qui donne la doze plus forte qu’il ne devoit, ou n’avoir</seg><seg rend="sansinterlignecar"> </seg><seg rend="sansinterlignecar">intention de la donner. » (Aca.)</seg></note> de son Apotiquaire.</l>
+              <l n="252" xml:id="l252">De quelque qui pro quo<note place="bottom"><hi rend="i">Qui pro quo</hi> : « Termes latins dont on ne fait qu’un mot, et dont on se sert pour marquer la méprise d’un Apothicaire qui donne mal à propos une drogue pour l’autre, ou qui donne la doze plus forte qu’il ne devoit, ou n’avoir intention de la donner. » (Aca.)</note> de son Apotiquaire.</l>
               <l n="253" xml:id="l253">Mais à vous convertir perdray-je mon latin ?</l>
             </sp>
             <sp who="florinde">
