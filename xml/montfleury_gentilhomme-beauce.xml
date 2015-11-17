@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Le Gentilhomme de Beauce. Comédie</title>
-        <author>Antoine-Jacob Montfleury</author>
+        <author key="Montfleury, Antoine Jacob (1639-1685)">Antoine Jacob Montfleury</author>
         <editor>Élodie Bénard</editor>
         <principal>Georges Forestier</principal>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par Élodie Bénard dans le cadre d'un mémoire de
-          maîtrise sous la direction de Georges Forestier (2003-2004)</edition>
+          master 1 sous la direction de Georges Forestier (2003-2004)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
-        <date when="2015"/>
-        <idno>?</idno>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
+        <date when="2014"/>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/montfleury_gentilhomme-beauce/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/montfleury_gentilhomme-beauce.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/montfleury_gentilhomme-beauce.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/montfleury_gentilhomme-beauce.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/montfleury_gentilhomme-beauce.epub</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl><title>Le Gentil-Homme de Beauce, Comédie</title>, <author>par A. J. Mont-Fleury</author>, À Paris, Chez Jean Ribou, au Palais, vis-à-vis la porte de l'Église de la Sainte Chapelle, à l'image S. Loüis. M. DC. LXX. Avec Privilège du Roy.</bibl>
@@ -105,7 +106,7 @@
           </div>
           <div>
             <head>La réception de la pièce</head>
-            <p>L’auteur évoque modestement, dans son épître dédicatoire, « l’indulgence qu’on a eüe » pour sa comédie à Paris. Lancaster signale en effet que<hi rend="i"> Le Gentilhomme de Beauce</hi> fut bien accueilli par le public du XVII<hi rend="sup">e</hi> siècle, mais que son succès ne dura pas longtemps puisque ni <hi rend="i">Le Mémoire de Mahelot</hi>, ni La Grange n’y font référence<note place="bottom">Henry Carrington Lancaster, <hi rend="i">A History of French Dramatic Literature in the Seventeenth Century</hi>, part III, t. II, 1929-1942, p. 824.</note>. Walter Rohr affirme lui aussi, que les critiques de l’époque jugèrent très favorablement la pièce<note place="bottom">Walter Rohr, <hi xml:lang="de" rend="i">Leben und dramatische Werke des älteren und des jüngeren Montfleury</hi>, 1911, p. 89.</note>. Il mentionne la lettre en vers du 16 août 1670 dans laquelle Robinet en fit l’éloge :</p>
+            <p>L’auteur évoque modestement, dans son épître dédicatoire, « l’indulgence qu’on a eüe » pour sa comédie à Paris. Lancaster signale en effet que<hi rend="i"> Le Gentilhomme de Beauce</hi> fut bien accueilli par le public du XVII<hi rend="sup">e</hi> siècle, mais que son succès ne dura pas longtemps puisque ni <hi rend="i">Le Mémoire de Mahelot</hi>, ni La Grange n’y font référence<note place="bottom">Henry Carrington Lancaster, <hi rend="i">A History of French Dramatic Literature in the Seventeenth Century</hi>, part III, t. II, 1929-1942, p. 824.</note>. Walter Rohr affirme lui aussi, que les critiques de l’époque jugèrent très favorablement la pièce<note place="bottom">Walter Rohr, <hi rend="i">Leben und dramatische Werke des älteren und des jüngeren Montfleury</hi>, 1911, p. 89.</note>. Il mentionne la lettre en vers du 16 août 1670 dans laquelle Robinet en fit l’éloge :</p>
             <quote>
               <l>J’aurois […],</l>
               <l>Fait un chapitre bien disant,</l>
@@ -118,7 +119,7 @@
               <l>Et celle aussi des Faux Abbes,</l>
               <l>Que j’y trouve des mieux daubés<note place="bottom"><hi rend="i">Le théâtre et l’opéra vus par les gazetiers Robinet et Laurent : 1670-1678</hi>, 1993, p. 41.</note></l>
             </quote>
-            <p>Selon Walter Rohr, à partir du moment où le héros de la comédie était un hobereau campagnard, figure théâtrale véritablement comique, la pièce ne pouvait être qu’un succès<note place="bottom">Walter Rohr, <hi xml:lang="de" rend="i">Leben und dramatische Werke des älteren und des jüngeren Montfleury</hi>, 1911, p. 89.</note>. Il ajoute que la parodie de <hi rend="i">Britannicus</hi> dans la scène 5 de l’acte V contribua beaucoup à cette réussite car la confrontation entre Néron et Agrippine était encore dans les esprits lorsque <hi rend="i">Le Gentilhomme de Beauce</hi> fut créé sur les planches de l’Hôtel de Bourgogne. On pensait immédiatement à la tragédie de Racine en voyant le Beauceron et Climenne, assis face à face, s’adresser des reproches cinglants. Robinet, dans l’extrait ci-dessus, confirma d’ailleurs l’enthousiasme qu’avait pu susciter cette scène. Enfin, le fait que la pièce fut représentée devant le roi et qu’une édition pirate hollandaise parut dès 1670 confirme ce succès immédiat.</p>
+            <p>Selon Walter Rohr, à partir du moment où le héros de la comédie était un hobereau campagnard, figure théâtrale véritablement comique, la pièce ne pouvait être qu’un succès<note place="bottom">Walter Rohr, <hi rend="i">Leben und dramatische Werke des älteren und des jüngeren Montfleury</hi>, 1911, p. 89.</note>. Il ajoute que la parodie de <hi rend="i">Britannicus</hi> dans la scène 5 de l’acte V contribua beaucoup à cette réussite car la confrontation entre Néron et Agrippine était encore dans les esprits lorsque <hi rend="i">Le Gentilhomme de Beauce</hi> fut créé sur les planches de l’Hôtel de Bourgogne. On pensait immédiatement à la tragédie de Racine en voyant le Beauceron et Climenne, assis face à face, s’adresser des reproches cinglants. Robinet, dans l’extrait ci-dessus, confirma d’ailleurs l’enthousiasme qu’avait pu susciter cette scène. Enfin, le fait que la pièce fut représentée devant le roi et qu’une édition pirate hollandaise parut dès 1670 confirme ce succès immédiat.</p>
           </div>
         </div>
         <div>
@@ -224,7 +225,7 @@
               <p>C’est le personnage le plus comique de la pièce. Comme son autoportrait le laisse entendre, il n’a pas l’apparence galante de l’amoureux (III, 7). De plus, son allure pataude et son excentricité vestimentaire n’incitent pas Climenne à le compter parmi ses galants. Lui-même s’avoue « chagrin » (v. 954) et Béatrix accole d’emblée à son nom, l’adjectif « bouru » (v. 4, 700 et 1268), qui fonctionne comme une épithète de nature pour qualifier les personnages déplaisants des comédies de Montfleury<note place="bottom">Dom Brusquin, dans <hi rend="i">Le Mari sans femme</hi>, est qualifié par « ce Dom bourru » (v. 700) et Bernadille dans <hi rend="i">La Femme juge et partie</hi>, est désigné par « ce vieux bourru » (v. 9).</note>. Comme le type du vieillard décrit par La Mesnardière, c’est un « censeur rigoureux et injuste des plaisirs des jeunes gens<note place="bottom">La Mesnardière, <hi rend="i">La Poétique</hi>, 1640, p. 38.</note> ». Le gentilhomme sermonne sans cesse sa fiancée. Il dénonce notamment l’indécence de sa tenue par des formules telles que « ce sein plus découvert » (v. 894) et « ce bras qu’un gant trop court laisse voir à demy » (v. 895). Son irritation est comparable à celle de l’abbé Boileau qui, en 1675, fulminait contre les « nudités de gorge<note place="bottom">Félix Gaiffe, <hi rend="i">L’Envers du grand siècle</hi>, 1924, p. 209 (citation de l’abbé Boileau, <hi rend="i">De l’Abus des Nudités de gorge</hi>, 1675).</note> », siège du diable. Ainsi, Coutreville fait preuve de la même rigueur moralisatrice qu’un homme d’Église ; d’ailleurs, lorsqu’il accuse Béatrix d’encourager Climenne à la galanterie, il utilise la métaphore biblique du « serpent », symbole de la tentation (v. 1181). Quand ce n’est pas contre sa cousine, il jure contre le Gascon, Champagne ou le monde entier devenu « fou » (v. 169). La scène 7 de l’acte I s’ouvre et se clôt sur deux imprécations, « peste quelle novice » (v. 299) et « La peste quel compere » (v. 320), lancées respectivement contre Climenne et contre Léandre. L’effet de circularité induit par cette répétition illustre l’enfermement du gentilhomme dans une attitude de méfiance envers son entourage.</p>
               <p>Son naturel jaloux contribue à le rendre soupçonneux et le rapproche de Bernadille qui, convaincu de l’adultère de sa femme, l’abandonne sur une île déserte (<hi rend="i">La Femme juge et partie</hi>). Tous deux utilisent les mêmes termes pour désigner leur rival. Aussi peut-on comparer les expressions du Beauceron, « Le drôle est familier » (v. 82) ainsi que « le blondin » (v. 340), et cette réplique de Bernadille :</p>
               <quote>
-                <l rend="margin noindent">Oui, ce blondin charmant</l>
+                <l><space>            </space>Oui, ce blondin charmant</l>
                 <l>Me semble familier plus que passablement.</l>
                 <l>Le drôle sans façon s’introduit chez Constance<note place="bottom">Montfleury, <hi rend="i">La Femme juge et partie</hi>, Acte I, scène 2, v. 158-160.</note> ;</l>
               </quote>
@@ -288,7 +289,7 @@
               <head>Le parler suisse</head>
               <p>Le personnage du <hi rend="i">Suisse</hi> permet de railler le parler rustique et parfois inintelligible que l’on attribuait aux Suisses. Béatrix affirme en effet qu’« On n’entend presque rien de tout ce qu’il veut dire » (v. 223). Le rapprochement à la rime de « dire » (v. 223) et de « rire » (v. 224) souligne la dimension comique des répliques du <hi rend="i">Suisse</hi>. Les sonorités sifflantes et chuintantes de son langage, ses déformations phonétiques, telles que « Piatille » (v. 403) pour « Béatrix », et ses incorrections syntaxiques, au même titre que son habillement et que ses manières, participent du comique du personnage. La lourdeur de l’expression du <hi rend="i">Suisse</hi> est rendue par les redondances, « ly maison dy lochis » (v. 410), la récurrence du démonstratif « sty<note place="bottom"><hi rend="i">Le Gentilhomme de Beauce</hi>, Acte II, scène 3, v. 454, 457 et 458.</note> » et des formules de jurement, « mon foy » (v. 406 et 454) et « party<note place="bottom"><hi rend="i">Ibid</hi>., v. 413, 425, 685, 687, 980 et 1011.</note> », ainsi que par sa manière gauche de rapporter le dialogue, avec les incises « dir luy » (v. 413), « tiche » (v. 417) et l’accumulation des pronoms personnels, « moy », « chil », « chy ». Le récit de son altercation avec le « grand petit Monser » (v. 412), qui dénote son intempérance verbale, est d’autant plus comique qu’il est qualifié par Béatrix de « Harangue » (v. 419), terme qui désigne un discours solennel et construit. Dans <hi rend="i">La Satire des satires</hi>, Boursault prête à la Uvaltoline, Suisse d’Émilie, un récit de lutte analogue :</p>
               <quote>
-                <l rend="margin">Pardy</l>
+                <l><space>                             </space>Pardy</l>
                 <l>Un Laquais par deux fois dit que j’avre menty :</l>
                 <l>Par mon foy, moy d’abord que luy tourne son teste,</l>
                 <l>Je tiens mon Halebarde en mon main toute preste,</l>
@@ -437,7 +438,7 @@
           </div>
           <div>
             <head>Montfleury : juge ?</head>
-            <p>Qu’il s’agisse des jeux de rôles, de la coquetterie ou de l’hypocrisie, c’est toujours la facticité qui est mise au jour ; néanmoins, le but de Montfleury n’est pas tant de dénoncer ces comportements trompeurs que d’exploiter des thèmes propres à l’expression de sa verve comique. Le dramaturge porte un regard indulgent et dédramatisé sur ceux qui s’adonnent à la galanterie et à la coquetterie, notamment sur Béatrix qui se délecte du badinage amoureux et de la galanterie avec simplicité (IV, 5). De surcroît, Climenne et ses galants ne sont pas plus ridicules que leur censeur qui, tout en critiquant leur attitude, cède au désir de plaire et se fait tailler un costume spécialement pour son séjour parisien (v. 24). Montfleury est plus sévère avec les abbés, mais son propos n’est pas d’en faire une satire acerbe. Lancaster suggère en effet qu’il se protège contre d’éventuelles condamnations de l’Église puisque l’<hi rend="i">abbé la Roche</hi> n’est qu’un rôle joué par le Basque devant le Beauceron et qu’il est d’emblée soupçonné par ce dernier d’être un faux abbé<note place="bottom">Henry Carrington Lancaster, <hi rend="i">A History of French Dramatic Literature in the Seventeenth Century</hi>, 1929-1942, part III, t. II, p. 822.</note>. Il présume, d’autre part, que ce sont le récent succès de <hi rend="i">Tartuffe</hi> ainsi que l’allusion désobligeante aux abbés galants que Thomas Corneille insère dans <hi rend="i">La Comtesse d’orgueil</hi> qui ont donné à Montfleury assez d’audace pour amuser le public au détriment des abbés<note place="bottom"><hi xml:lang="de" rend="i">Ibid</hi>., p. 821-822.</note>. De plus, le jugement que le Beauceron porte sur ceux-ci perd de sa valeur car lui aussi, après avoir découvert qu’il a gagné un lot de trois cent louis, recourt à une gestuelle et à un discours emphatiques. C’est ce que suggèrent la didascalie « <hi rend="i">l’embrassant</hi> » (p. 53) ainsi que le nouveau titre qu’il confère à l’<hi rend="i">abbé</hi>, « Cousin du directeur general de [s]es vignes » (v. 826), fonction qui ne correspond à aucun avancement puisque <hi rend="i">la Roche</hi> est déjà le cousin du vigneron et que « directeur general de [s]es vignes » est une périphrase pour « vigneron » (v. 784). En outre, le caractère caricatural du portrait de l’auteur de l’<hi rend="i"><hi rend="sc">avis aux Thresoriers des foux</hi></hi> et les réserves de Climenne sur son « esprit » (v. 544), admiré seulement par le gentilhomme dont le jugement est discrédité depuis le début de la pièce, disqualifient sa pensée et désamorcent donc la portée polémique de la scène. En amoindrissant systématiquement le crédit accordé aux censeurs, Montfleury atténue la critique, destinée avant tout à faire rire le public.</p>
+            <p>Qu’il s’agisse des jeux de rôles, de la coquetterie ou de l’hypocrisie, c’est toujours la facticité qui est mise au jour ; néanmoins, le but de Montfleury n’est pas tant de dénoncer ces comportements trompeurs que d’exploiter des thèmes propres à l’expression de sa verve comique. Le dramaturge porte un regard indulgent et dédramatisé sur ceux qui s’adonnent à la galanterie et à la coquetterie, notamment sur Béatrix qui se délecte du badinage amoureux et de la galanterie avec simplicité (IV, 5). De surcroît, Climenne et ses galants ne sont pas plus ridicules que leur censeur qui, tout en critiquant leur attitude, cède au désir de plaire et se fait tailler un costume spécialement pour son séjour parisien (v. 24). Montfleury est plus sévère avec les abbés, mais son propos n’est pas d’en faire une satire acerbe. Lancaster suggère en effet qu’il se protège contre d’éventuelles condamnations de l’Église puisque l’<hi rend="i">abbé la Roche</hi> n’est qu’un rôle joué par le Basque devant le Beauceron et qu’il est d’emblée soupçonné par ce dernier d’être un faux abbé<note place="bottom">Henry Carrington Lancaster, <hi rend="i">A History of French Dramatic Literature in the Seventeenth Century</hi>, 1929-1942, part III, t. II, p. 822.</note>. Il présume, d’autre part, que ce sont le récent succès de <hi rend="i">Tartuffe</hi> ainsi que l’allusion désobligeante aux abbés galants que Thomas Corneille insère dans <hi rend="i">La Comtesse d’orgueil</hi> qui ont donné à Montfleury assez d’audace pour amuser le public au détriment des abbés<note place="bottom"><hi rend="i">Ibid</hi>., p. 821-822.</note>. De plus, le jugement que le Beauceron porte sur ceux-ci perd de sa valeur car lui aussi, après avoir découvert qu’il a gagné un lot de trois cent louis, recourt à une gestuelle et à un discours emphatiques. C’est ce que suggèrent la didascalie « <hi rend="i">l’embrassant</hi> » (p. 53) ainsi que le nouveau titre qu’il confère à l’<hi rend="i">abbé</hi>, « Cousin du directeur general de [s]es vignes » (v. 826), fonction qui ne correspond à aucun avancement puisque <hi rend="i">la Roche</hi> est déjà le cousin du vigneron et que « directeur general de [s]es vignes » est une périphrase pour « vigneron » (v. 784). En outre, le caractère caricatural du portrait de l’auteur de l’<hi rend="i"><hi rend="sc">avis aux Thresoriers des foux</hi></hi> et les réserves de Climenne sur son « esprit » (v. 544), admiré seulement par le gentilhomme dont le jugement est discrédité depuis le début de la pièce, disqualifient sa pensée et désamorcent donc la portée polémique de la scène. En amoindrissant systématiquement le crédit accordé aux censeurs, Montfleury atténue la critique, destinée avant tout à faire rire le public.</p>
           </div>
         </div>
         <div>
@@ -624,7 +625,7 @@
             <roleDesc>Suivante de Climenne.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="un-gascon">UN GASCON.</role>
+            <role xml:id="le-gascon">UN GASCON.</role>
           </castItem>
           <castItem>
             <role xml:id="martin">MARTIN.</role>
@@ -5648,7 +5649,7 @@
             <div>
               <head>Ouvrages bibliographiques</head>
                 <bibl><hi rend="sc">Cioranescu</hi> Alexandre, <title>Bibliographie de la Littérature française du dix-septième siècle</title>, t. II, Paris, CNRS, 1965.</bibl>
-                <bibl><hi rend="sc">Klapp</hi> Otto, <title xml:lang="de">Bibliographie der französischen Literatur-Wissenschaft</title>, Francfort-sur-le-Main, Vittorio Klostermann, années 1970, 1972, 1986-1988, 1994.</bibl>
+                <bibl><hi rend="sc">Klapp</hi> Otto, <title>Bibliographie der französischen Literatur-Wissenschaft</title>, Francfort-sur-le-Main, Vittorio Klostermann, années 1970, 1972, 1986-1988, 1994.</bibl>
             </div>
           </div>
           <div>
@@ -5710,7 +5711,7 @@
                 <bibl><hi rend="sc">Forman</hi> Edward, <title>Édition critique de</title> Le Mary sans Femme <title>d’Antoine Jacob Montfleury</title>, Grande-Bretagne, University of Exeter, 1985.</bibl>
                 <bibl><hi rend="sc">Gazier</hi> Augustin, « La comédie en France après Molière», <title>Revue des Cours et Conférences</title>, XVIII, n°5, 16 décembre 1909.</bibl>
                 <bibl><hi rend="sc">Montfleury</hi> Antoine-Jacob,<title> Chef-d’œuvres de Montfleury</title>, Paris, Bélin, 1787.</bibl>
-                <bibl><hi rend="sc">Rohr</hi> Walter, <title xml:lang="de">Leben und dramatische Werke des älteren und des jüngeren Montfleury</title>, Leipzig, Druck von Grimme &amp; Trömel, 1911.</bibl>
+                <bibl><hi rend="sc">Rohr</hi> Walter, <title>Leben und dramatische Werke des älteren und des jüngeren Montfleury</title>, Leipzig, Druck von Grimme &amp; Trömel, 1911.</bibl>
                 <bibl><hi rend="sc">Truchet</hi> Jacques, « Compte rendu : A. J. de Montfleury : <title>Le Mary sans femme</title>, éd. E. Forman », <title>Revue d’Histoire Littéraire de la France</title>, n° 6, novembre-décembre 1987.</bibl>
             </div>
           </div>
