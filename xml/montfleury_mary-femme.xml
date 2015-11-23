@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Le Mary sans femme. Comédie</title>
-        <author>Antoine-Jacob Montfleury</author>
+        <author key="Montfleury, Antoine Jacob (1639-1685)">Antoine Jacob Montfleury</author>
         <editor>Gwendolyn Kergoulay</editor>
         <principal>Georges Forestier</principal>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par Gwendolyn Kergoulay dans le cadre d'un mémoire de
-          maîtrise sous la direction de Georges Forestier (2010)</edition>
+          master 1 sous la direction de Georges Forestier (2010)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
-        <date when="2015"/>
-        <idno>?</idno>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
+        <date when="2014"/>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/montfleury_mary-femme/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/montfleury_mary-femme.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/montfleury_mary-femme.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/montfleury_mary-femme.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/montfleury_mary-femme.epub</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl><title>Le Mary sans femme</title>, par <author>M. de Montfleury</author>dans <title>Les Oeuvres de Monsieur Montfleury, contenant ses pièces de théâtre, représentées par la Troupe des Comédiens du Roy à Paris,</title> tome second, À Paris, chez Christophe David, Quay des Augustins, à l'Image S. Christophe. M. DCC. V. <hi rend="i">Avec privilège du Roy</hi></bibl>
@@ -401,7 +402,7 @@
             <roleDesc>Turc.</roleDesc>
           </castItem>
           <castItem>
-            <role>SUITE de Turcs<note place="bottom">« Peuples de la Turquie [...]. <hi rend="sc">Turquie</hi>, ou empire du Turc, comprend plusieurs provinces dans l’Europe, dans l’Asie &amp; dans l’Afrique. Il est un des souverains qui possédent le plus de terre. On remarque que du levant au couchant, depuis Belis de la Gomere ou de l’extrémité occidentale du royaume d’Alger, qui lui est tributaire, jusqu’à Balsor, qui est au bout du golfe Persique, il regne sur un espace de huit cents lieues pour le moins. [...] Les états de Tunis, d’Alger &amp; de Tripoli sont sous sa protection. » <hi rend="sc">L. Moreri</hi>, <hi rend="i">Le grand dictionnaire historique ou Le mélange curieux de l’histoire sacrée et profane</hi>, Paris, Libraires Associés, 1759 (10 vol.).</note>.</role>
+            <role xml:id="suite">SUITE de Turcs<note place="bottom">« Peuples de la Turquie [...]. <hi rend="sc">Turquie</hi>, ou empire du Turc, comprend plusieurs provinces dans l’Europe, dans l’Asie &amp; dans l’Afrique. Il est un des souverains qui possédent le plus de terre. On remarque que du levant au couchant, depuis Belis de la Gomere ou de l’extrémité occidentale du royaume d’Alger, qui lui est tributaire, jusqu’à Balsor, qui est au bout du golfe Persique, il regne sur un espace de huit cents lieues pour le moins. [...] Les états de Tunis, d’Alger &amp; de Tripoli sont sous sa protection. » <hi rend="sc">L. Moreri</hi>, <hi rend="i">Le grand dictionnaire historique ou Le mélange curieux de l’histoire sacrée et profane</hi>, Paris, Libraires Associés, 1759 (10 vol.).</note>.</role>
           </castItem>
           </castList>
           <stage>La scène est dans Alger<note place="bottom">« Capitale du royaume de ce nom [...]. L’on compte environ cent milles habitans dans Alger, entre lesquels sont douze mille soldats Turcs, un grand nombre d’esclaves Maures ou chrétiens, &amp; plus de cinq mille familles Juives. » <hi rend="sc">L. Moreri</hi>, <hi rend="i">op. cit.</hi></note>.<pb n="Mij"/></stage>
@@ -4130,7 +4131,7 @@
               <l n="1553" xml:id="l1553">Il faudra le prier d’avoir <ref target="#soin1">soin*</ref> de ta Femme ;</l>
               <l n="1554" xml:id="l1554">Et de la recevoir de ta main, autrement…</l>
             </sp>
-            <sp who="d-brusquin">
+            <sp who="brusquin">
               <speaker>D  BRUSQUIN.</speaker>
               <l n="1555" xml:id="l1555">Ah ! faites-moy credit d’un si sot compliment,</l>
               <l n="1556" xml:id="l1556">De quel <ref target="#air">air*</ref> voulez vous que pour le satisfaire...</l>
@@ -4326,7 +4327,9 @@
                 <l n="1634" xml:id="l1634"><space>      </space>E tropo sospirar</l>
                 <l n="1635" xml:id="l1635"><space>      </space>La crudeltà.</l>
                 <l n="1636" xml:id="l1636"><space rend="tab">    </space><space rend="tab">    </space>Libertà, libertà, &amp;c<note place="bottom">Proposition de traduction : « Oh journée heureuse ! Remercier Mahomet, Me donner la liberté, De retourner dans la patrie Allégresse. Ah, Ah, Ah... Me rompre les chaînes, Te donner une femme, Allégresse. Ah, Ah, Ah... Liberté. Je veux cesser d’aimer une lointaine L’amour fait de la peine Et trop soupirer La cruauté. Liberté, liberté... »</note>.</l>
+              </lg>
                 <stage>Air pour les Turcs.</stage>
+              <lg>
                 <l n="1637" xml:id="l1637"><space>   </space>O le bon Païs que la Turquie,</l>
                 <l n="1638" xml:id="l1638"><space>      </space>Si l’on y bûvoit du Vin<note place="bottom">« L’<hi rend="i">abstinence du vin</hi> est encore un des préceptes de l’alcoran. » <hi rend="sc">L. Moreri</hi>, <hi rend="i">op. cit.</hi></note>,</l>
                 <l n="1639" xml:id="l1639"><space>   </space>Si-tôt qu’une Femme <ref target="#ennuyer">ennuïe*</ref>,</l>
@@ -4343,7 +4346,7 @@
                 <l n="1648" xml:id="l1648"><space>   </space>Feroient dés demain le voyage.</l> 
               </lg>
             </sp>
-            <sp who="d.-brusquin">
+            <sp who="brusquin">
               <speaker>D. BRUSQUIN, <hi rend="i">aprés qu’on a dansé.</hi></speaker>
               <l n="1649" xml:id="l1649">Helas, tous mes Amis se moquant de ma <ref target="#flamme">flâme*</ref>,</l>
               <l n="1650" xml:id="l1650">Ne m’appelleront plus que le Mary sans Femme ;</l>
