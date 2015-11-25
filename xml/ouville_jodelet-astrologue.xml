@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Jodelet astrologue. Comédie</title>
-        <author>Antoine Le Métel, sieur d'Ourville</author>
+        <author key="Ouville, Antoine d' (1590?-1656?)">Antoine d'Ourville</author>
         <editor>Élodie Bénard</editor>
         <principal>Georges Forestier</principal>
       </titleStmt>
@@ -16,17 +13,21 @@
         <edition>Édition critique établie par Pauline Barraud dans le cadre d'un mémoire de
           maîtrise sous la direction de Georges Forestier (2006-2007)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2015"/>
-        <idno>?</idno>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/ouville_jodelet-astrologue/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/ouville_jodelet-astrologue.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/ouville_jodelet-astrologue.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/ouville_jodelet-astrologue.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/ouville_jodelet-astrologue.epub</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl><title>Jodelet astrologue, comédie,</title><author> du Sieur d'Ourville</author>, A PARIS, Chez CARDIN BESONGNE, au Palais, au Haut de la montée de la saincte Chapelle, aux Roses Vermeilles. M. DC. XXXXVI. AVEC PRIVILEGE DU ROY.</bibl>
@@ -593,7 +594,7 @@
                   <l>Quoy que vous ayez sceu tout ce qui s’est passé,</l>
                   <l>Vous m’excuserez bien.</l>
                   <p>JACINTE.</p>
-                  <l rend="margin">Tay-toy, je te supplie,</l>
+                  <l><space>              </space>Tay-toy, je te supplie,</l>
                   <l>Fantosme, promptement retourne en Italie,</l>
                   <l>Ou je te quitte-là.  (v. 1312-1319)</l>
                 </quote>
@@ -870,8 +871,8 @@
             <role xml:id="liliane">LILIANE,</role>
             <roleDesc>Damoiselle<note place="bottom">Demoiselle : « vieux mot qui signifie <hi rend="i">fille noble</hi> », <hi rend="i">Furetière</hi>.</note> Parisienne, amoureuse de Tindare.</roleDesc>
           </castItem>
-          <castItem xml:id="nise">
-            <role>NISE,</role>
+          <castItem>
+            <role xml:id="nise">NISE,</role>
             <roleDesc>Suivante de Liliane, amoureuse de Jodelet[.]</roleDesc>
           </castItem>
           <castItem>
