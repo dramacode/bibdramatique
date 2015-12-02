@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?><?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Les Fausses Vérités. Comédie</title>
-        <author>Antoine Le Métel, sieur d'Ourville</author>
+        <author key="Ouville, Antoine d' (1590?-1656?)">Antoine d'Ourville</author>
         <editor>Farida María Höfer y Tuñón</editor>
         <principal>Georges Forestier</principal>
       </titleStmt>
@@ -16,17 +13,21 @@
         <edition>Édition critique établie par Farida María Höfer y Tuñón dans le cadre d'un mémoire de
           maîtrise sous la direction de Georges Forestier (1999-2000)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2015"/>
-        <idno>?</idno>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/ouville_fausses-verites/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/ouville_fausses-verites.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/ouville_fausses-verites.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/ouville_fausses-verites.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/ouville_fausses-verites.epub</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl><title>Les Fausses Veritez, Comédie</title>, par <author>Mr. d'Ouville</author>, à Paris, Chez Toussainct Quinet, au Palais dans la petite Salle, sous la montée de la Cour des Aydes. M. DC. XLIII. Avec privilège du Roy.</bibl>
@@ -646,6 +647,9 @@
             <role xml:id="lisis">LISIS.</role>
             <roleDesc>Serviteur de Tomire.</roleDesc>
           </castItem>
+            <castItem>
+              <role xml:id="un-valet"></role>
+            </castItem>
           </castList>
           <stage>La SCENE est à Paris.</stage>
         </div>
@@ -1141,7 +1145,7 @@
               <l n="260" xml:id="l260">Leandre m’a suivie, il attend à la porte</l>
               <l n="261" xml:id="l261">Madame, entrera-t’il.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE.<note place="bottom">On lit ici dans l’édition originale « JULIE »  : nous avons corrigé cette faute d’impression.</note></speaker>
               <l part="Y"> Mais que ce soit en sorte</l>
               <l n="262" xml:id="l262">Qu'il ne soubsonne pas.</l>
@@ -1152,7 +1156,7 @@
               <l n="263" xml:id="l263">Ay-je si peu d’esprit ? n’ayez crainte de rien,</l>
               <l n="264" xml:id="l264">Je sçay fort bien conduire une Amoureuse ruze.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE <hi rend="i">seule</hi>.</speaker>
               <l n="265" xml:id="l265">Va tost. Voyons comment ce volage s’excuse,</l>
               <l n="266" xml:id="l266"><ref target="#encore-que">Encore qu’on*</ref> nous mente en telles actions,</l>
@@ -1177,7 +1181,7 @@
               <l n="276" xml:id="l276">Quoy malgré moy me suivre ? he Dieux où va Leandre,</l>
               <l n="277" xml:id="l277">Quelle temeritê, qu’allez vous entreprendre.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE.</speaker>
               <l n="278" xml:id="l278">Quel bruit entens-je icy, quoy Leandre chez moy,</l>
               <l n="279" xml:id="l279">Tu l’introduits Julie, je ne m’en prens qu’à toy<note place="bottom">Comprendre : C'est à toi seule que je reproche le fait que Léandre soit chez moi.</note>.</l>
@@ -1191,7 +1195,7 @@
               <l part="Y">A moy seul est l’offence.</l>
               <l n="281" xml:id="l281">N'accusez pas encore à tort son innocence.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE.</speaker>
               <l n="282" xml:id="l282">J'ay fait tort à la vostre, &amp; mon cœur s’est mespris</l>
               <l n="283" xml:id="l283">Aux soubsons de l’Amour &amp; des <ref target="#faveurs">faveurs*</ref> d’Iris,</l>
@@ -1215,7 +1219,7 @@
               <l n="297" xml:id="l297">L'injuste fondement de vostre jalousie,</l>
               <l n="298" xml:id="l298">Que vos soupsons sont faux.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE.</speaker>
               <l part="Y">Dieux quelle vanité,</l>
               <l n="299" xml:id="l299">Moy jalouse de vous !</l>
@@ -1224,7 +1228,7 @@
               <speaker>LEANDRE.</speaker>
               <l part="Y">Qu'avez vous donc esté<note place="bottom">Dans l’édition originale les vers 298 et 299 étaient présentés dans l’ordre suivant : LEANDRE. / Que vos soupsons sont faux. / ORAZIE. / Moy jalouse de vous, Dieux quelle vanité ! / LEANDRE. / Qu'avez-vous donc esté. Nous avons corrigé cette faute d’impression.</note>.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE.</speaker>
               <l n="300" xml:id="l300">En colere de voir une inconstance telle</l>
               <l n="301" xml:id="l301">En un<note place="bottom"><hi rend="i">Un</hi>, dans l’acception de <hi rend="i">quelqu’un</hi> de la langue actuelle, était très courant au XVII<hi rend="sup">e</hi> siècle (Haase, § 49). </note> qui fait pour moy l’Amant &amp; le fidelle,</l>
@@ -1242,7 +1246,7 @@
               <l n="310" xml:id="l310">Pour me justifier je ne veux qu’un moment.</l>
               <l n="311" xml:id="l311">Madame escoutez moy.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE,</speaker>
               <l part="Y">Vois tu des-ja comment</l>
               <l n="312" xml:id="l312">Avant que de parler &amp; former son excuse</l>
@@ -1252,7 +1256,7 @@
               <speaker>LEANDRE.</speaker>
               <l n="314" xml:id="l314">Escoutez moy de grace.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE.</speaker>
               <l part="Y">He bien que direz vous.</l>
             </sp>
@@ -1260,7 +1264,7 @@
               <speaker>LEANDRE.</speaker>
               <l n="315" xml:id="l315">Ce qui de vostre esprit calmera le <ref target="#courroux">courroux*</ref>.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE.</speaker>
               <l n="316" xml:id="l316">Parlez.</l>
             </sp>
@@ -1270,7 +1274,7 @@
               <l n="317" xml:id="l317">Si je vous soustenois d’avoir esté sans flame</l>
               <l n="318" xml:id="l318">Pour les beautez d’Iris.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE.</speaker>
               <l part="Y">Leandre c’est assez,</l>
               <l n="319" xml:id="l319">Vous n’en dites que trop, quoy vous le confessez,</l>
@@ -1287,7 +1291,7 @@
               <l n="326" xml:id="l326">Pour aimer Orazie il est vray que j’ay pris</l>
               <l n="327" xml:id="l327">Des leçons pour m’instruire en l’Escole d’Iris.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE.</speaker>
               <l n="328" xml:id="l328">Dieux, que cette raison est absurde et frivole,</l>
               <l n="329" xml:id="l329">L'Amour pour estre instruit ne va point à l’escole,</l>
@@ -1337,7 +1341,7 @@
               <l n="370" xml:id="l370">Qui d’un brillant esclat à cét Astre pareil</l>
               <l n="371" xml:id="l371">Chassa loing cette estoille au lever du Soleil<note place="bottom">Cette explication métahporique de Léandre est identique à celle que Félix expose à Laura dans la comédie de Calderón de la Barca : Pues explíqueme mejor / otro ejemplo : nace ciego / un hombre, y discurre luego / cómo será el resplandor / del sol, planeta mayor, / que rumbos de zafira gira ; / y cuando por fe le admira, / cobra en una noche bella / la vista ; y es una estrella / la primera cosa que mira. / Admirando el tornasol / de la estrella, dice : « Sí, / éste es el sol ; que yo así / tengo imaginado al sol » ; / pero cuando su arrebol / tanta admiración le ofrece, / sale el sol y le oscurece. / Pregunto yo : ¿ ofenderá / una estrella que se va, / a todo un sol que amanece ? ... (v. 937-956). </note>.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE.</speaker>
               <l n="372" xml:id="l372">Iris est le Soleil, moy l’estoille à ce conte</l>
               <l n="373" xml:id="l373">Qui paslis devant elle, &amp; qui m’en fuy de honte,</l>
@@ -1356,7 +1360,7 @@
               <l n="383" xml:id="l383">Si je me suis jamais vanté de vos <ref target="#faveurs">faveurs*</ref></l>
               <l n="384" xml:id="l384">Si jamais.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE</speaker>
               <l part="Y">Taisez vous, je sçay bien le contraire,</l>
               <l n="385" xml:id="l385">On entre j’oy du bruit.</l>
@@ -1365,7 +1369,7 @@
               <speaker>JULIE.<pb n="25" xml:id="p25"/></speaker>
               <l part="Y">He Dieux ! c’est vostre Pere.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE.</speaker>
               <l n="386" xml:id="l386">Va Julie ouvre luy par l’autre appartement</l>
               <l n="387" xml:id="l387">Qui respond sur la ruë, Adieu parfaict Amant.</l>
@@ -1390,7 +1394,7 @@
               <l part="Y">Dieux que je suis heureuse</l>
               <l n="392" xml:id="l392">De vous trouver icy, comment va la santé ?</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE.</speaker>
               <l n="393" xml:id="l393">Je me dois bien porter, puis que j’ay merité</l>
               <l n="394" xml:id="l394">De recevoir l’honneur d’une telle visite.</l>
@@ -1475,7 +1479,7 @@
               <l n="436" xml:id="l436">Aydez moy chere amie en cette extremité,</l>
               <l n="437" xml:id="l437">J'ay bien dans mon esprit un moyen inventé,</l>
               <l n="438" xml:id="l438">Qui de ma defiance est l’asseuré remede</l>
-              <l n="439" xml:id="l439">Mais quoy je ne le puis mettre à fin<note place="bottom"><hi rend="i">le mettre à fin</hi> : le mener à bien.<hi rend="b"><space/></hi></note> sans vostre àide,</l>
+              <l n="439" xml:id="l439">Mais quoy je ne le puis mettre à fin<note place="bottom"><hi rend="i">le mettre à fin</hi> : le mener à bien.</note> sans vostre àide,</l>
               <l n="440" xml:id="l440">Ils ne peuvent manquer de se voir aujourd’huy,</l>
               <l n="441" xml:id="l441">Mais il faut que je parle auparavant à luy,</l>
               <l n="442" xml:id="l442">Pour y parvenir donc, j’ay trouvé la finesse</l>
@@ -1838,7 +1842,7 @@
               <l n="575" xml:id="l575">Que je pourrois venir vous rendre ce devoir<note place="bottom">On dit qu’un homme va <hi rend="i">rendre ses devoirs</hi> à quelqu’un, pour dire qu’il va le saluer et lui faire des compliments (Furetière).</note>,</l>
               <l n="576" xml:id="l576">Et donner à mes yeux le plaisir de vous voir.</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE.</speaker>
               <l n="577" xml:id="l577">Que faites-vous grands Dieux ?  où songez-vous Leandre,</l>
               <l n="578" xml:id="l578">Quel sanglant desplaisir<note place="bottom"><hi rend="i">desplaisir</hi> : chagrin, peine.</note> desirez-vous me rendre ?</l>
@@ -1931,7 +1935,7 @@
               <speaker>LEANDRE,<pb n="43" xml:id="p43"/></speaker>
               <l part="Y">Desloyalle est ce ainsi qu’on me traitte ?</l>
             </sp>
-            <sp who="orazie">
+            <sp who="orasie">
               <speaker>ORAZIE <hi rend="i">bas.</hi></speaker>
               <l n="610" xml:id="l610">Dieux qui peut reparer la faute que j’ay faite ?</l>
               <l n="611" xml:id="l611">Leandre au nom des Dieux, ayez pitié de moy,</l>
