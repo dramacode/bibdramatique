@@ -6,7 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title>La Coifeuse à la mode. Comédie</title>
-        <author>Antoine Le Métel, sieur d'Ourville</author>
+        <author key="Ouville, Antoine d' (1590?-1656?)">Antoine d'Ourville</author>
         <editor>Pauline du Chayla</editor>
         <principal>Georges Forestier</principal>
       </titleStmt>
@@ -14,17 +14,21 @@
         <edition>Édition critique établie par Pauline du Chayla dans le cadre d'un mémoire de
           maîtrise sous la direction de Georges Forestier (2002-2003)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2015"/>
-        <idno>?</idno>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/ouville_coifeuse-mode/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/ouville_coifeuse-mode.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/ouville_coifeuse-mode.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/ouville_coifeuse-mode.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/ouville_coifeuse-mode.epub</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl><title>La Coifeuse à la mode, comédie</title>, à Paris, chez Toussainct Quinet, au Palais, sous la montée de la Cour des Aydes, M. DC. XLVII., avec privilège du roi.</bibl>
@@ -251,7 +255,7 @@
           <div>
             <head>La Toquera Vizcaína</head>
             <p>Dans sa thèse<note place="bottom">Thèse effectuée en 1997 sous la direction de J. Canavallio, et intitulée <hi rend="i">Le Système des personnages de la « comedia » espagnole, 1594-1630. Contribution à l’aide d’une dramaturgie</hi>. </note>, Christophe Couderc cite comme source utilisée par D’Ouville pour écrire sa pièce, <hi rend="i">La Toquera Vizcaina</hi>, de Ivan Perez de Montalvàn. L’édition la plus ancienne que nous ayons trouvée de cette pièce date de 1635, bien qu’elle ait été écrite, selon Couderc, vers 1629. Voici le résumé rapide de l’intrigue ainsi que la liste des personnages. On trouvera aussi les références à la pièce de d’Ouville afin de dresser plus facilement le parallèle entre les deux intrigues.</p>
-            <p><hi xml:lang="es" rend="b">Personnages</hi> : Don Diego / Don Ivan / Lizardo  / Octavio / Fabio, Luquete (valets) / Feliciano (vieillard) / Fineo / Doña Elena  / Beatriz  / Flora / Ivana, Isabel, Madalena. (Servantes)</p>
+            <p><hi rend="b">Personnages</hi> : Don Diego / Don Ivan / Lizardo  / Octavio / Fabio, Luquete (valets) / Feliciano (vieillard) / Fineo / Doña Elena  / Beatriz  / Flora / Ivana, Isabel, Madalena. (Servantes)</p>
             <div>
               <head>Primera jornada</head>
               <p>D. Diego courtise Elena, qui aime et est aimé de D. Ivan. Ce dernier surprend D.Diego faisant la cour à Elena.</p>
@@ -567,7 +571,7 @@
         <div>
           <head>Extraict du Privilège.</head>
           <p>Par grace et Privilège du Roy donné a Fontainebleau le dix-septiesme jour de Septembre mil six cents quarante-six, signé, Par le Roy en son conseil, Le Brun. Il est permis a TOUSSAINCT QUINET Marchand libraire à Paris, d’imprimer ou faire imprimer, vendre et distribuer une piece de Theatre intitulée, <hi rend="i">La Coiffeuse à la mode, Comédie</hi>, durant le temps de cinq années, à commencer du jour qu’elle sera achevée d’imprimer. Et défenses sont faîtes à tous Libraires et Imprimeurs de contrefaire ladite piece, ny en vendre ou exposer en vente, à peine de trois mil livres d’amende, de tous despens, domages et interests : ainsi qu’il est plus amplement porté par lesdites Lettres, qui sont en vertu du present extraict tenuës pour bien et deuëment signifiées, à ce qu’aucun n’en pretende cause d’ignorance.</p>
-          <p rend="center i">Achevé d’imprimer le 6, Novembre 1646.</p>
+          <p rend="center"><hi rend="i">Achevé d’imprimer le 6, Novembre 1646.</hi></p>
           <p rend="center">Les exemplaires ont esté fournis.</p>
           <p>Ledit QUINET a fait part du present Privilege à ANTOINE DE SOMMAVILLE, Marchand Libraire, pour en jouyr pendant le temps et conditions portées par iceluy : ainsi qu’il a esté accordé entre eux.</p>
         </div>
@@ -591,7 +595,7 @@
             <roleDesc>Servante de Flore.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="dorothee">DOROTHEE,</role>
+            <role xml:id="dorotee">DOROTHEE,</role>
             <roleDesc>Damoiselle Lyonnoise, Amoureuse d’Acaste.</roleDesc>
           </castItem>
           <castItem>
@@ -1373,7 +1377,7 @@
               <l n="415" xml:id="l415">Je vais accompagner mon Amy seulement,</l>
               <l n="416" xml:id="l416">Serois-je son rival?</l>
             </sp>
-            <sp who="philippin">
+            <sp who="philipin">
               <speaker>PHILIPPIN.</speaker>
               <l part="Y">Je croy asseurément<pb n="28" xml:id="p28"/></l>
               <l n="417" xml:id="l417">Que Dorotée, au moins j’y voy grande apparence,</l>
@@ -1458,7 +1462,7 @@
               <l n="467" xml:id="l467">Il suit asseurement ce que je suy tousjours,</l>
               <l n="468" xml:id="l468">L’honneur jusqu’à la mort reglera mes amours.</l>
             </sp>
-            <sp who="pamhile">
+            <sp who="pamphile">
               <speaker>PAMHILE.</speaker>
               <l n="469" xml:id="l469">Madame, au nom des Dieux faites que je le sçache <pb n="31" xml:id="p31"/></l>
             </sp>
@@ -2043,7 +2047,7 @@
             <head>Scène 4</head>
             <stage>PHILIPPIN. ACASTE. FLORE.</stage>
             <stage>ARIMANT. BEATRIX.</stage>
-            <sp who="philippin">
+            <sp who="philipin">
               <speaker>PHILIPPIN.</speaker>
               <l n="829" xml:id="l829">Que me donnerez-vous pour la bonne nouvelle?</l>
             </sp>
@@ -2051,7 +2055,7 @@
               <speaker>ACASTE.</speaker>
               <l n="830" xml:id="l830">As-tu des lettres?</l>
             </sp>
-            <sp who="philippin">
+            <sp who="philipin">
               <speaker>PHILIPPIN.</speaker>
               <l part="Y">Ouy.</l>
             </sp>
@@ -2059,7 +2063,7 @@
               <speaker>ACASTE.</speaker>
               <l part="Y">De Dorotée?</l>
             </sp>
-            <sp who="philippin">
+            <sp who="philipin">
               <speaker>PHILIPPIN.</speaker>
               <l part="Y">Ouy d’elle.</l>
             </sp>
@@ -2401,7 +2405,7 @@
               <l n="931" xml:id="l931">Quelle qu’elle puisse estre il faut absolument</l>
               <l n="932" xml:id="l932">Quoy qu’il puisse arriver, que je sois son amant.</l>
             </sp>
-            <sp who="philippin">
+            <sp who="philipin">
               <speaker>PHILIPPIN.</speaker>
               <l n="933" xml:id="l933">Vous mocquez-vous, Monsieur, estes-vous en vous-mesme<note place="bottom"><space/>Est-ce bien vous qui parlez, êtes-vous sûr de vous?</note> ?</l>
             </sp>
@@ -2675,7 +2679,7 @@
           <div type="scene">
             <head>Scène première</head>
             <stage>ACASTE. PHILIPIN.<pb n="71" xml:id="p71"/></stage>
-            <sp who="phipipin">
+            <sp who="philipin">
               <speaker>PHIPIPIN.</speaker>
               <l n="1035" xml:id="l1035">Quel est vostre dessein ? pourquoy revenez-vous</l>
               <l n="1036" xml:id="l1036">Encor de ce bon homme exciter le couroux ?</l>
@@ -3707,7 +3711,7 @@
               <l n="1600" xml:id="l1600">vos proches, remet sa vengeance entre les mains de ses</l>
               <l n="1601" xml:id="l1601">amis, et se veut accomoder avec vous. Ayant apris</l>
               <l n="1602" xml:id="l1602">que vous avez tué son fils en homme d’honneur. La</l>
-              <l n="1603" rend="noindent" xml:id="l1603">seconde que l’oncle de Dorotée traitte<note place="bottom">Négocier, convenir de.</note> de la faire espou <pb n="107" xml:id="p107"/></l>
+              <l n="1603" xml:id="l1603">seconde que l’oncle de Dorotée traitte<note place="bottom">Négocier, convenir de.</note> de la faire espou <pb n="107" xml:id="p107"/></l>
               <l n="1604" xml:id="l1604">ser avec un sien parent qui depuis peu est venu de la</l>
               <l n="1605" xml:id="l1605">Rochelle, afin que le bien ne sorte point hors de sa fa-</l>
               <l n="1606" xml:id="l1606">mille, Dorotée m’en a donné advis, et vous le fait sça-</l>
@@ -3794,7 +3798,7 @@
             <head>Scène 5</head>
             <stage>ACASTE. PHILIPIN. ARIMANT.</stage>
             <stage>DOROTEE. LEONOR.<pb n="110" xml:id="p110"/></stage>
-            <sp who="philippin">
+            <sp who="philipin">
               <speaker>PHILIPPIN.</speaker>
               <l part="Y">Monsieur bonne nouvelle,</l>
               <l n="1652" xml:id="l1652">Leonor est icy.</l>
@@ -3977,7 +3981,7 @@
           <div type="scene">
             <head>Scène 7</head>
             <stage>PHILIPIN ACASTE.</stage>
-            <sp who="philippin">
+            <sp who="philipin">
               <speaker>PHILIPPIN.</speaker>
               <l part="Y">Un certain homme en bas</l>
               <l n="1718" xml:id="l1718">Vous demande.</l>
@@ -3986,7 +3990,7 @@
               <speaker>ACASTE.<pb n="116" xml:id="p116"/></speaker>
               <l part="Y">Son nom.</l>
             </sp>
-            <sp who="philippin">
+            <sp who="philipin">
               <speaker>PHILIPPIN.</speaker>
               <l part="Y">Je ne le cognoy pas,</l>
               <l n="1719" xml:id="l1719">Mais je pense pourtant avoir veu son visage,</l>
@@ -4809,7 +4813,6 @@
         </div>
         <div>
           <head>Bibliographie</head>
-          <div>
             <div>
               <head>Sources</head>
                 <bibl><title xml:lang="es">La Toquera vizcaina</title>, Ivan Perez de Montalvàn, Madrid, 1635.</bibl>
@@ -4856,7 +4859,7 @@
                   <bibl>Haase, <title>Syntaxe française du XVII<hi rend="sup">e</hi> siècle</title>, Paris, Delagrave, 1935.</bibl>
               </div>
             </div>
-          </div>
+          
         </div>
       
     </back>
