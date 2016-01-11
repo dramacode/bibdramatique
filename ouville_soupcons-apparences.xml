@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Les Soupçons sur les apparences. Héroïco-comédie</title>
-        <author>Antoine Le Métel, sieur d'Ourville</author>
-        <editor>Élodie Bénard</editor>
+        <author key="Ouville, Antoine d' (1590?-1656?)">Antoine d'Ourville</author>
+        <editor>Clotilde Avel</editor>
         <principal>Georges Forestier</principal>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par Clotilde Avel dans le cadre d'un mémoire de
           maîtrise sous la direction de Georges Forestier (2005-2006)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16e-18e</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2015"/>
-        <idno>?</idno>
         <availability status="restricted">
-          <licence target="?">CELLF 16e-18e</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/ouville_soupcons-apparences/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/ouville_soupcons-apparences.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/ouville_soupcons-apparences.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/ouville_soupcons-apparences.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/ouville_soupcons-apparences.epub</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl><title>Les Soupçons sur les apparences, héroïco-comédie,</title> PARIS, Chez TOUSSAINCT QUINET ; au Palais, sous la montée de la cour des Aydes. M. DC. L. AVEC PRIVILEGE DU ROY.</bibl>
@@ -445,7 +448,7 @@
           <div>
             <head>Un hapax dans les sous-genres dramatiques du XVII<hi rend="sup">e</hi> siècle</head>
             <p>Les <hi rend="i">Soupçons sur les apparences</hi> sont l’unique héroïco-comédie de la production dramatique du XVII<hi rend="sup">e</hi> siècle<note place="bottom">Les <hi rend="i">Soupçons</hi> sont la seule héroïco-comédie répértoriée par Jacques Schérer dans sa <hi rend="i">Dramaturgie</hi>, p.457, et Hélène Baby, dans sa <hi rend="i">Tragi-comédie de Corneille à Quinault</hi>, p. 87, nous apprend que le terme « héroïco-comédie » apparaît en 1650, et ne cite également que l’héroïco-comédie d’Ouville. </note>. Il apparaît donc que le terme « héroïco-comédie » a été non seulement forgé par d’Ouville en 1650 pour définir sa nouvelle et dernière pièce, mais représente en plus un hapax parmi toutes les dénominations qui ont été données aux pièces de théâtre au XVII<hi rend="sup">e</hi> siècle. Cette étrangeté a d’ailleurs contribué à nourrir de nombreuses confusions. Ainsi, Maupoint, Beauchamps et les Frères Parfaict parlent d’« héroï-comédie », mais étant donné que ce terme est lui-même un hapax, il ne représente pas un contresens. Plus grave apparaît la confusion opérée par Leiris, Clément et Laporte, qui parlent de « comédie héroïque ». Ce terme, inventé en 1650 par Pierre Corneille pour qualifier sa pièce<hi rend="i"> Dom Sanche d’Aragon</hi>, recouvre une réalité toute autre. Corneille, dans l’épître qui précède sa pièce, explique et justifie la nécessité d’un nom spécifique pour un nouveau type de pièce dont l’action ne présente pas de grand péril<note place="bottom">Le péril est un « grand péril », et donc un péril tragique, s’il provoque la terreur et la pitié, et donc s’il oppose, selon Aristote, des protagonistes originellement alliés. Le péril de mort n’est pas en soi un « grand péril ». Pour que le péril soit grand, l’intrigue amoureuse doit être reléguée au second plan. Si la primauté est donnée à l’intrigue amoureuse, alors l’action est comique. Dans le <hi rend="i">Discours du poème dramatique</hi>, Corneille écrira en 1660 : «  S’il ne s’y rencontre point de péril de vie, de pertes d’Etat, ou de bannissement, je ne pense pas qu[e le poème] ait le droit de prendre un nom plus relevé que celui de comédie […] [La] dignité [de la tragédie] demande quelque intérêt d’Etat, ou quelque passion plus noble et plus mâle que l’amour ».</note> pour les personnages, mais dont le personnel est illustre. L’action de <hi rend="i">Dom Sanche</hi>, en dépit du caractère illustre de ses personnages, reste une action de comédie, et ce n’est que le statut de ses personnages qui justifie l’épithète « héroïque » qu’il lui accole, pour la distinguer de la simple comédie. Nous voyons que l’héroïco-comédie de d’Ouville n’est en aucun cas une comédie héroïque : les personnages mis en scènes ne sont pas des rois ou des héros mi-homme, mi-dieu, mais des jeunes gens de la bonne société parisienne, et lyonnaise, contemporains, comme on en trouve de nombreux exemples dans la comédie du milieu du XVII<hi rend="sup">e</hi> siècle.</p>
-            <p>La confusion, ou du moins l’analogie, avec la comédie héroïque, et plus largement la tragi-comédie persiste au XX<hi rend="sup">e</hi> siècle. Jacques Scherer considère que l’héroïco-comédie, et donc la pièce de d’Ouville puisqu’il n’y en a pas d’autre, est à ranger parmi la production tragi-comique du XVII<hi rend="sup">e</hi> siècle, il en est de même pour Hélène Baby qui fait rapidement allusion à l’héroïco-comédie en début de son chapitre intitulé « La tragi-comédie, et le désaveu cornélien : la comédie héroïque »<note place="bottom"><hi rend="i">La Tragi-comédie de Corneille à Quinault</hi>, p. 87 <hi rend="i">sq.</hi></note>. Il faut noter cependant que ces classifications sont opérées à partir du sous-titre des œuvres dramatiques, et non de ce qu’elles sont réellement. Les auteurs dramatiques du XVII<hi rend="sup">e</hi> siècle se sont caractérisés par leur recherche incessante de nouvelles dénominations, et d’Ouville s’inscrit dans cette lignée. Mais de ces regroupements nous pouvons conclure que dans l’histoire de la production dramatique du XVII<hi rend="sup">e</hi> siècle, l’héroïco-comédie d’Ouville est jugée comme un sous-genre de la tragi-comédie. Lancaster définit les <hi xml:lang="en" rend="i">Soupçons</hi> comme « a sort of tragi-comedy of treachery and jealousy<note place="bottom">Adam traduira cela en « drame de la trahison et de la jalousie ». </note>, though he [d’Ouville] classified it as an ‘heroïco-comedie’. »<note place="bottom">LANCASTER, <hi rend="i">An History</hi>, p. 740.</note> Pour arguments, il cite l’atmosphère sombre des deux premiers actes, le fait qu’un homme soit blessé dans un combat sur la scène, les nombreuses menaces de mort, la tonalité peu comique de l’ensemble, et les personnages du type de ceux mis en scène par Shakespeare dans  <hi rend="i">Othello</hi>, Tragédie : la femme vertueuse (Astrée / Desdémone), le mari jaloux (Leandre / Othello), le jaloux perfide (Alcipe / Iago). Ces arguments sont repris par Roger Guichemerre, qui parle lui de « drame ». Au sujet d’Alcipe, James Wilson Coke parle lui aussi d’un « Iago-like character » particulièrement bien peint, et considère les <hi rend="i">Soupçons</hi> comme une comédie morale.</p>
+            <p>La confusion, ou du moins l’analogie, avec la comédie héroïque, et plus largement la tragi-comédie persiste au XX<hi rend="sup">e</hi> siècle. Jacques Scherer considère que l’héroïco-comédie, et donc la pièce de d’Ouville puisqu’il n’y en a pas d’autre, est à ranger parmi la production tragi-comique du XVII<hi rend="sup">e</hi> siècle, il en est de même pour Hélène Baby qui fait rapidement allusion à l’héroïco-comédie en début de son chapitre intitulé « La tragi-comédie, et le désaveu cornélien : la comédie héroïque »<note place="bottom"><hi rend="i">La Tragi-comédie de Corneille à Quinault</hi>, p. 87 <hi rend="i">sq.</hi></note>. Il faut noter cependant que ces classifications sont opérées à partir du sous-titre des œuvres dramatiques, et non de ce qu’elles sont réellement. Les auteurs dramatiques du XVII<hi rend="sup">e</hi> siècle se sont caractérisés par leur recherche incessante de nouvelles dénominations, et d’Ouville s’inscrit dans cette lignée. Mais de ces regroupements nous pouvons conclure que dans l’histoire de la production dramatique du XVII<hi rend="sup">e</hi> siècle, l’héroïco-comédie d’Ouville est jugée comme un sous-genre de la tragi-comédie. Lancaster définit les <hi rend="i">Soupçons</hi> comme « a sort of tragi-comedy of treachery and jealousy<note place="bottom">Adam traduira cela en « drame de la trahison et de la jalousie ». </note>, though he [d’Ouville] classified it as an ‘heroïco-comedie’. »<note place="bottom">LANCASTER, <hi rend="i">An History</hi>, p. 740.</note> Pour arguments, il cite l’atmosphère sombre des deux premiers actes, le fait qu’un homme soit blessé dans un combat sur la scène, les nombreuses menaces de mort, la tonalité peu comique de l’ensemble, et les personnages du type de ceux mis en scène par Shakespeare dans  <hi rend="i">Othello</hi>, Tragédie : la femme vertueuse (Astrée / Desdémone), le mari jaloux (Leandre / Othello), le jaloux perfide (Alcipe / Iago). Ces arguments sont repris par Roger Guichemerre, qui parle lui de « drame ». Au sujet d’Alcipe, James Wilson Coke parle lui aussi d’un « Iago-like character » particulièrement bien peint, et considère les <hi rend="i">Soupçons</hi> comme une comédie morale.</p>
           </div>
           <div>
             <head>D’Ouville et la tragi-comédie</head>
@@ -770,7 +773,7 @@
             <p>Le texte présentait de nombreuses coquilles, sans doute dues à l’inadvertance de l’imprimeur, que nous avons corrigées :</p>
             <p>– Rubrique Acteurs : VALENTIN valet d’Alcipe. / SYLVAIN valet de Filemon.</p>
             <p>– Acte I : v.14 : peine. / 45 : l’admire / rubrique personnage au milieu du v.55 : ASCIPE / 111 : Orphile / 115 : cousine ? / 137 : prompte / rubrique personnages de la scène V : FLERIMONT / rubriques personnage entre les vers 148-149 ; 152-153 ; 159-160 ; 161-162 ; 164-165 ; 166-167 ; 180-181 ; 186-187 ; 194-195 ; 210-211 : FLERIMON / 164 : Flerimon / 152 : traittté / 181 : merveille. / 189 : tonnerre. / 214 : heur / 220 : Va sort / rubriques personnage entre les vers 238-239 ; 241 ; 243 ; 260-261 : FLERIMON</p>
-            <p>– Acte II : v.279 : Prend / 301 : adversaire / 306 : A ton jamais / 347 : avec / 348 : avec / rubrique personnage entre les vers 352-353 : FILEMON / 362 : discoursn’est / 388 : yeux<note place="bottom">Coquille attestée également dans les exemplaires de 1651 de la Réserve de la BnF et des Arts du Spectacle. On trouve cependant <hi rend="i">yeux</hi>, dans les exemplaires de 1650 de l’Arsenal et de la Mazarine. <hi rend="i"><space/></hi></note> / 405 : jusq’uà / 407 : presente / 421 : suprends / 457 : un attaque / 511 : matelots. / 534 : Et genereusement ; conrroux / 539 : répends</p>
+            <p>– Acte II : v.279 : Prend / 301 : adversaire / 306 : A ton jamais / 347 : avec / 348 : avec / rubrique personnage entre les vers 352-353 : FILEMON / 362 : discoursn’est / 388 : yeux<note place="bottom">Coquille attestée également dans les exemplaires de 1651 de la Réserve de la BnF et des Arts du Spectacle. On trouve cependant <hi rend="i">yeux</hi>, dans les exemplaires de 1650 de l’Arsenal et de la Mazarine. <hi rend="i"></hi></note> / 405 : jusq’uà / 407 : presente / 421 : suprends / 457 : un attaque / 511 : matelots. / 534 : Et genereusement ; conrroux / 539 : répends</p>
             <p>– Acte III : v.606 : encore / v.633 : qui voit-on / 626 : tout ce qui m’a dit / 648 : n’aist / 671 : dedans ! / 710 : fuis / 815 : peu temps / 818 : dautant / 858 : où<note place="bottom">On trouve cependant <hi rend="i">ou</hi> sans accent diacritique dans l’impression de 1650 de l’Arsenal, et dans celle de 1651 de la Réserve de la BnF. La coquille <hi rend="i">où</hi> est maintenue dans l’impression de 1650 de la Mazarine, et dans celle de 1651 des Arts du Spectacle.</note> / lettre de la scène VI : peine, / 881 : ouvvre / 920 : le seconde fois<note place="bottom">La coquille est attestée dans l’exemplaire de 1650 de l’Arsenal, et dans ceux de 1651 de la Réserve de la BnF et des Arts du Spectacle. Nous trouvons <hi rend="i">la seconde fois</hi> dans les exemplaires de 1650 de la Mazarine et de la Sorbonne. </note> / 933 : diverties / 938 : tarde. La page 96 est notée 64.</p>
             <p>– Acte IV : chapeau de la lettre de la scène I : Florimon / 1045 : que / 1051 : seroit par dessein / 1076 : à l’égard de la mort / 1159 : s’imagner / 1248 : osé (point en haut). Après le v. 1000 : SCENE IV. / après le v.1049 : SCENE V. / entre les deux segments du v.1101 : SCENE VI. / après le v.1108 : SCENE VII. / après le v.1120 : SCENE VIII. / après le v.1136 : SCENE IX. / après le v.1176 : SCENE X. / après v.1245 : SCENE XI. / après le v. 1252 : SCENE XII.</p>
             <p>– Acte V : v.1534 : ton / après le v.1524 : SCENE VII. / rubrique personnage entre les vers 1590-1591 : SYLVAIN / 1640 : encore</p>
@@ -808,8 +811,8 @@
             <role xml:id="orphise">ORPHISE</role>
             <roleDesc>parente de Leandre.</roleDesc>
           </castItem>
-          <castItem xml:id="hyppolite">
-            <role>HIPOLITE</role>
+          <castItem>
+            <role xml:id="hyppolite">HIPOLITE</role>
             <roleDesc>servante d’Astrée.</roleDesc>
           </castItem>
           <castItem>
@@ -897,7 +900,7 @@
               <l n="40" xml:id="l40">Où l’on void tant d’<ref target="#appas">appas*</ref>, un amy n’est plus rien.</l>
               <l n="41" xml:id="l41">Son respect peut beaucoup ; mais sa force est petite,</l>
               <l n="42" xml:id="l42">Où la beauté se treuve<note place="bottom">Forme ancienne de <hi rend="i">trouve.</hi> Au XVII<hi rend="sup">e</hi> siècle, la graphie <hi rend="i">ou</hi> a souvent pour doublet la graphie <hi rend="i">eu.</hi> Cela permet notamment de faire la rime avec des mots comme <hi rend="i">preuve.</hi></note> avecque le merite ;</l>
-              <l n="43" xml:id="l43">Astrée a l’une et l’autre, et cét <ref target="#objet">objet*</ref> <ref target="#charmant">charmant*</ref></l>
+              <l n="43" xml:id="l43">Astrée a l’une et l’autre, et cét <ref target="#objet">objet*</ref> <ref target="#charme2">charmant*</ref></l>
               <l n="44" xml:id="l44">Me rend traistre envers toy sans mon consentement<note place="bottom">Thème de la passion amoureuse qui nous saisit malgré, en dépit de notre raison.</note> :</l>
               <l n="45" xml:id="l45">Quelque attrait qu’en ses yeux je découvre et j’admire, <pb n="4" xml:id="p4"/></l>
               <l n="46" xml:id="l46">Je ne m’y porte pas, leur vif éclat m’attire,</l>
@@ -1287,7 +1290,7 @@
               <speaker>LEANDRE. </speaker>
               <l n="213" xml:id="l213">Mon amy, c’est Leandre, ou le mari d’Astrée.</l>
             </sp>
-            <sp who="le-voisin">
+            <sp who="un-voisin">
               <speaker>LE VOISIN.</speaker>
               <l n="214" xml:id="l214">Un quart-d’heure plustost<note place="bottom">Voir la note du v. 72.</note>, vous l’eussiez rencontrée ;</l>
               <l n="215" xml:id="l215">Elle est sortie alors, pour aller secourir <pb n="18" xml:id="p18"/></l>
@@ -2153,7 +2156,7 @@
               <l n="621" xml:id="l621">Cousine avecques moy, soyez plus <ref target="#ingenu">ingenuë*</ref>,</l>
               <l n="622" xml:id="l622">Ne l’avez vous pas veu quand vous estes venuë ?</l>
               <l n="623" xml:id="l623">C’estoit luy qui lisoit, et dont le <ref target="#compliment">compliment*</ref>,<pb n="52" xml:id="p52"/></l>
-              <l n="624" xml:id="l624">Vous a semblé <ref target="#d-abord">d’abord*</ref> si doux et si <ref target="#charmant">charmant*</ref>.</l>
+              <l n="624" xml:id="l624">Vous a semblé <ref target="#d-abord">d’abord*</ref> si doux et si <ref target="#charme2">charmant*</ref>.</l>
             </sp>
             <sp who="orphise">
               <speaker>ORPHISE.</speaker>
@@ -2403,7 +2406,7 @@
               <l n="731" xml:id="l731">Oüy vous sçaurez l’estat de mes tristes amours</l>
               <l n="732" xml:id="l732">Que la suitte du temps vous aprendroit toûjours.</l>
               <l n="733" xml:id="l733">J’aimay dedans Lyon, et fus aimé de mesme,</l>
-              <l n="734" xml:id="l734">D’une Dame <ref target="#charmant">charmante*</ref> et de merite extréme,</l>
+              <l n="734" xml:id="l734">D’une Dame <ref target="#charme2">charmante*</ref> et de merite extréme,</l>
               <l n="735" xml:id="l735">Jeune, de noble sang, et mesme dont les biens</l>
               <l n="736" xml:id="l736">S’ils ne les surpassoient, ne cedoient pas aux miens ;</l>
               <l n="737" xml:id="l737">Elle souffroit pour moy, si je brûlois pour elle ; <pb n="62" xml:id="p62"/></l>
@@ -2693,7 +2696,7 @@
               <l n="879" xml:id="l879">Vous ne vistes jamais de Cavalier mieux fait ;</l>
               <l n="880" xml:id="l880">Il n’est point d’agreement, ni de <ref target="#vertu">vertu*</ref> qu’il n’ait.</l>
               <l n="881" xml:id="l881">S’il parle, on est ravy dés qu’il ouvre la bouche.</l>
-              <l n="882" xml:id="l882">Il <ref target="#charmer">charme*</ref> sur le luth lors que sa main le touche,</l>
+              <l n="882" xml:id="l882">Il <ref target="#charme2">charme*</ref> sur le luth lors que sa main le touche,</l>
               <l n="883" xml:id="l883">Aux armes il est craint, il ravit dans le bal ;</l>
               <l n="884" xml:id="l884">Et le Dieu des combats<note place="bottom">Mars.</note> n’est pas mieux à cheval.</l>
             </sp>
@@ -2986,7 +2989,7 @@
               <p rend="center">Lettre d’Alcipe à Filemon.<pb n="88" xml:id="p88"/></p>
               <p rend="i">MONSIEUR .</p>
               <p xml:id="lettre-IV3">J’ay fait reflexion sur le sujet de nôtre different ; j’eus tort de m’emporter, et j’avoüe que vôtre recit fut plus obligeant qu’outrageux. Je vous recherche d’amitié, si vous n’estes moins <ref target="#genereux">genereux*</ref> que je me le persuade, vous ne refuserez pas qu’ayant aujourd’huy à visiter Leandre pour quelque chose de secret, nous nous entrevoyons, et estouffions toute nôtre haine dans nos embrassemens<note place="bottom"><hi rend="i">Embrassemens</hi> : Etreintes.</note>, je vous en prie, et suis vôtre tres affectionné serviteur, et si vous le voulez dés maintenant,</p>
-              <p rend="right i">Vostre tres intime amy Alcipe.</p>
+              <p rend="right"><hi rend="i">Vostre tres intime amy Alcipe.</hi></p>
               <l n="989" xml:id="l989">Je demeure confus, ma surprise est estrange.</l>
               <l n="990" xml:id="l990">Alcipe, mon regret me punit et vous vange ;</l>
               <l n="991" xml:id="l991">Je meurs de <ref target="#deplaisir">déplaisir*</ref> qu’un soupçon si tost pris</l>
@@ -3166,7 +3169,7 @@
               <l n="1105" xml:id="l1105">Mais mon honneur le veut, sois y donc preparée ;</l>
               <l n="1106" xml:id="l1106">Je tiendray ma parole, et tu mourras Astrée !</l>
             </sp>
-            <sp who="hypolite">
+            <sp who="hyppolite">
               <speaker>HYPOLITE <hi rend="i">à l’écart.</hi></speaker>
               <l n="1107" xml:id="l1107">Qu’a-t’il dit, qu’ay-je <ref target="#ouir">oüy*</ref>, Ciel quelle est sa fureur !</l>
               <l n="1108" xml:id="l1108">Allons par nos avis empécher ce mal-heur.</l>
@@ -4281,7 +4284,7 @@
           <head>Extraict du Privilege du Roy.</head>
           <p>Par grace et Privilege du Roy donné à Paris le 9. jour de Juillet 1650. Signé, Par le Roy en son Conseil, LEBRUN. Il est permis à Toussainct Quinet Marchand Libraire à Paris, d’imprimer ou faire imprimer, vendre et distribüer une piece de Theatre intitulée, <hi rend="i">Les Soupçons sur les Apparences</hi>, pendant le temps de cinq ans entiers et accomplis<note place="bottom">Absence curieuse de la mention « à commencer du jour qu’elle sera achevée d’imprimer », qui stipule je jour à partir duquel le privilège prend effet.</note>. Et defenses sont faites à tous Imprimeurs, Libraires et autres, de contrefaire ledit Livre, ni de vendre ou exposer en vente d’autre impression que de celle qu’il a fait faire, à peine de trois mil livres d’amende, et de tous dépens, dommages et interests, ainsi qu’il est plus amplement porté par lesdittes Lettres, qui seront en vertu du premier Extraict tenuës pour bien et deuëment signifiées, à ce qu’aucun n’en pretende cause d’ignorance.</p>
           <p>Achevé d’imprimer pour la premiere fois le 28. Juillet 1650.</p>
-          <p rend="center i">Les exemplaires ont esté fournis.</p>
+          <p rend="center"><hi rend="i">Les exemplaires ont esté fournis.</hi></p>
         </div>
       
     </body>
@@ -4345,8 +4348,8 @@
             <xr>V. <ref target="#l369">369</ref></xr>
             <def xml:id="charme2">Sign. fig. Attrait, appât, qui plait extrêmement, qui touche sensiblement » ( A.).</def>
             <xr>V. <ref target="#l38">38</ref> ; <ref target="#l369">369</ref> ; <ref target="#l477">477</ref> ; <ref target="#l667">667</ref> ; <ref target="#l744">744</ref> ; <ref target="#l810">810</ref>.</xr>
-            <xr xml:id="charmant">Charmant : v. <ref target="#l43">43</ref> ; <ref target="#l624">624</ref> ; <ref target="#l734">734</ref>.</xr>
-            <xr xml:id="charmer">Charmer : v. <ref target="#l882">882</ref>.</xr>
+            <xr>Charmant : v. <ref target="#l43">43</ref> ; <ref target="#l624">624</ref> ; <ref target="#l734">734</ref>.</xr>
+            <xr>Charmer : v. <ref target="#l882">882</ref>.</xr>
           </entryFree>
           <entryFree xml:id="coeur">
             <form>Cœur</form>
@@ -4759,7 +4762,7 @@
           <div>
             <head>Sur d’Ouville</head>
               <bibl><hi rend="sc">ARMAS Frederick</hi> A. de, « Antoine Le Métel, Sieur d’Ouville : The "Lost Years" », <title>Romance Notes</title>, n° XIV, 1972-1973, p. 538-543. </bibl>
-              <bibl><space/><hi rend="sc">CHARDON Henri</hi>, <title>Scarron inconnu et les types des personnages du roman comique</title>, t. I, Genève, Slatkine Reprints, 1970.</bibl>
+              <bibl><hi rend="sc">CHARDON Henri</hi>, <title>Scarron inconnu et les types des personnages du roman comique</title>, t. I, Genève, Slatkine Reprints, 1970.</bibl>
               <bibl>GRENTE, <hi rend="sc">Georges</hi>, <title>Dictionnaire des lettres françaises</title>, t. III <title>Le Dix-septième siècle, Paris</title>, Fayard, 1954. </bibl>
               <bibl>ILINE, <hi rend="sc">Anastasia</hi>, « François Le Métel de Boisrobert (1592-1662), écrivain et homme de pouvoir », thèse de l’Ecole nationale des Chartes, soutenue en 2004.</bibl>
               <bibl>WILSON COKE, <hi rend="sc">James</hi>, « Antoine Le Métel, Sieur d’Ouville : His Life and his Theatre » [Thèse Indiana University], <title>Dissertation Abstracts</title>, n°19, 1958/59, p. 2344. </bibl>
