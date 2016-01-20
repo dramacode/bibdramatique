@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,6 +17,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -97,9 +104,7 @@
             <role xml:id="notaire">UN NOTAIRE.</role>
           </castItem>
         </castList>
-        <stage>La scène est à Paris, dans la maison de Damon.
-          </stage>
-        <pb/>
+        <stage>La scène est à Paris, dans la maison de Damon.</stage>
       </div>
       <div type="scene">
         <head rend="center">L'AVEUGLE <lb/>CLAIRVOYANT <lb/>COMÉDIE.</head>
@@ -1291,7 +1296,8 @@
           <l n="402" xml:id="l402">Qui viennent de me mettre au comble de mes voeux.</l>
         </sp>
         <sp who="leonor">
-          <speaker>LÉONOR, <hi rend="i">bas, à Marin.</hi> </speaker>
+          <speaker>LÉONOR, <hi rend="i">bas, à Marin.</hi>
+          </speaker>
           <l n="403" xml:id="l403">Que lui disoit ma tante ?</l>
         </sp>
         <sp who="marin">
@@ -1440,7 +1446,8 @@
           <l n="442" xml:id="l442">Je tremble.</l>
         </sp>
         <sp who="damon">
-          <speaker>DAMON, <hi rend="i">gagnant la porte, et tâtonnant par-tout avec son bâton.</hi> </speaker>
+          <speaker>DAMON, <hi rend="i">gagnant la porte, et tâtonnant par-tout avec son bâton.</hi>
+          </speaker>
           <l part="Y"><space/><space/>Je me veux éclaircir de ceci.</l>
         </sp>
         <sp who="marin">
@@ -1546,7 +1553,7 @@
         </sp>
         <sp who="marin">
           <speaker>MARIN.</speaker>
-          <stage>(Bas.) <space>                   </space>(haut.)</stage>
+          <stage>(Bas.) <space> </space>(haut.)</stage>
           <l n="481" xml:id="l481">Il gobe l’hameçon. On voit assez d’amis</l>
           <l n="482" xml:id="l482">Prendre en de certains cas la place des maris ;</l>
           <l n="483" xml:id="l483">Mais ils s’en tiennent là, sans risquer davantage,</l>

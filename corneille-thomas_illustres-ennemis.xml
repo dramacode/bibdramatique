@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,6 +16,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -375,7 +382,11 @@
           <p>Il existe donc trois versions du texte des <hi rend="i">Illustres ennemis</hi> : la version originale de 1657 ; la version de 1661, un recueil, qui comporte deux rectifications (vers 146 <hi rend="i">le &gt; la</hi>, et à l’acte IV, un décalage se fait à partir de la scène 6 qui devient la scène 7) ; et la version de 1692, éditée par Trabouillet et par Besoigne, qui comprend une cinquantaine de différences avec la première édition de 1657, celles-ci sont indiquées en note de bas de page dans la reproduction du texte.</p>
           <p>Les éditions autorisées suivent les modifications effectuées : les œuvres éditées chez de Luynes en 1669, 1682 et 1692 suivent le texte de 1661, déjà édité chez cet homme à Paris. Nous n’avons pas pu consulter l’édition de 1682, mais nous avons supposé que l’éditeur avait suivi l’édition de 1661, dans la mesure où l’édition postérieure conserve ces modifications. La dernière édition autorisée du vivant de l’auteur est celle d’Osmont, à Paris, en 1706 ; elle suit l’édition de Trabouillet et Besoigne de 1692.</p>
           <p>Les contrefaçons de 1662 et 1665 ont été faites à partir du texte original de 1657. Les contrefaçons de 1692 [sans nom] suivent le texte édité en 1661. Nous pensons que l’édition de Lyon, chez Bacheton, en 1698, et les éditions faites en Hollande sont des contrefaçons de la version de 1692 de Trabouillet et Besoigne<note n="17" place="bottom"> Lorsque nous ferons référence à ces éditions dorénavant, nous emploierons les abréviations suivantes : <hi rend="b">[ss N]</hi>, pour [sans nom], <hi rend="b">B</hi> pour Besoigne et <hi rend="b">T</hi> pour Trabouillet. Concernant les trois éditions de 1692 sans nom d’éditeur, il existe deux éditions différentes, la première est conservée à l’Arsenal et la seconde (dont il existe deux exemplaires) à la BNF. Toutefois, elles comportent les mêmes différences. Pour cette raison, l’abréviation <hi rend="b">[ss N]</hi> se rapportera donc à ces trois exemplaires.</note>.</p>
-          <p>Nous pensons en effet que certaines de ces éditions ont été réalisées illégalement : celles de 1662, 1665 (il s’agit en fait d’invendus de 1662 reliées dans un recueil avec d’autres invendus), 1692 <hi rend="b">[ss N]</hi> et les éditions hollandaises. Nous fondons cette hypothèse sur deux faits : tout d’abord l’absence d’éditeur et la mention suivante qui figure sur les pages de titre de chacune des pièces de ces recueils <hi rend="i">« suivant la copie imprimée à Paris en »</hi> ; ensuite la formulation de la date : au lieu d’être écrite sur le modèle classique M DC XV II ou M DC L XXXX II, elles sont écrites ainsi <figure><graphic url="corneille_illustres-ennemis-img/1000000000000098000000164DEED3F8.png"/></figure> et <figure><graphic url="corneille_illustres-ennemis-img/1000000000000086000000161A9DED28.png"/></figure>. Cette formulation est typiquement hollandaise.<note n="18" place="bottom"><figure><graphic url="corneille_illustres-ennemis-img/10000000000000280000001608AF3C40.png"/></figure> : est mis pour M, c’est-à-dire « mille », et <figure><graphic url="corneille_illustres-ennemis-img/10000000000000180000001686D4AFD3.png"/></figure>: est mis pour D, c’est-à-dire « cinq cents ».</note></p>
+          <p>Nous pensons en effet que certaines de ces éditions ont été réalisées illégalement : celles de 1662, 1665 (il s’agit en fait d’invendus de 1662 reliées dans un recueil avec d’autres invendus), 1692 <hi rend="b">[ss N]</hi> et les éditions hollandaises. Nous fondons cette hypothèse sur deux faits : tout d’abord l’absence d’éditeur et la mention suivante qui figure sur les pages de titre de chacune des pièces de ces recueils <hi rend="i">« suivant la copie imprimée à Paris en »</hi> ; ensuite la formulation de la date : au lieu d’être écrite sur le modèle classique M DC XV II ou M DC L XXXX II, elles sont écrites ainsi 
+  <!-- IMAGE ? en unicode ? <figure><graphic url="corneille_illustres-ennemis-img/1000000000000098000000164DEED3F8.png"/></figure> --> et 
+  <!-- <figure><graphic url="corneille_illustres-ennemis-img/1000000000000086000000161A9DED28.png"/></figure> -->. Cette formulation est typiquement hollandaise.<note n="18" place="bottom">
+    <!-- <figure><graphic url="corneille_illustres-ennemis-img/10000000000000280000001608AF3C40.png"/></figure> --> : est mis pour M, c’est-à-dire « mille », et 
+    <!-- <figure><graphic url="corneille_illustres-ennemis-img/10000000000000180000001686D4AFD3.png"/></figure> -->: est mis pour D, c’est-à-dire « cinq cents ».</note></p>
           <p>Nous ignorons pourquoi ces modifications ont eu lieu, nous supposons qu’elles ont été faites par l’auteur lui-même lors d’un remaniement du texte.</p>
           <p>Nous n’avons trouvé que deux éditions du texte seul, les autres proviennent d’œuvres complètes, parmi celles-ci, les éditions de 1665, de 1792 <hi rend="b">[ss N]</hi> et de 1709 sont des recueils factices.</p>
           <p>Nous avons également trouvé une traduction italienne de la pièce à l’Arsenal : <hi rend="i">Illustri nemici</hi>, comedia di Pietro [Tomaso] Cornelio, tradota del francese et accomodata all’uso delle scene d’Italia, in Bologna, stamp. Del Longhi, 1704, in 12° (Rf 2 687), 130p.</p>
@@ -464,7 +475,6 @@
           </castItem>
         </castList>
         <stage>La Scene est à Madrid.</stage>
-        <pb/>
       </div>
       <div type="act">
         <head rend="center">

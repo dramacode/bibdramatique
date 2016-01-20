@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> 
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,6 +16,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -637,7 +644,7 @@
                     </cell>
               </row>
             </table>
-            <p>À bien des égards, les deux textes sont donc très proches. Pourtant le traitement du motif inspiré de la pièce espagnole est très différent. Timante est véritablement un amant parfait : soumis, constant et discret, il parvient à se rendre digne de l’amour de Parthénie. Mis à l’épreuve, il est capable de la reconnaître chaque fois qu’il l’entend, et comprend que ce n’est pas elle quand on cherche à le tromper. Le Duc au contraire, est dupe pendant toute la pièce du tour qu’on lui joue : jamais il ne reconnaît la voix de Fénise quand elle parle sous les traits de Célie, et il ne manifeste pas d’attraction particulière pour sa beauté. En effet, l’optique est inversée dans les deux textes : si Parthénie veut être aimée pour elle-même et non pour sa seule beauté « quiconque n’aimera que la beauté de <ref target="http://www.artamene.org/encyclopedie.php ? Parthenie">Parthenie</ref>, n’aquerra jamais son amitié. Je veux qu’on aime <ref target="http://www.artamene.org/encyclopedie.php ? Parthenie">Parthenie</ref> toute entiere ».</p>
+            <p>À bien des égards, les deux textes sont donc très proches. Pourtant le traitement du motif inspiré de la pièce espagnole est très différent. Timante est véritablement un amant parfait : soumis, constant et discret, il parvient à se rendre digne de l’amour de Parthénie. Mis à l’épreuve, il est capable de la reconnaître chaque fois qu’il l’entend, et comprend que ce n’est pas elle quand on cherche à le tromper. Le Duc au contraire, est dupe pendant toute la pièce du tour qu’on lui joue : jamais il ne reconnaît la voix de Fénise quand elle parle sous les traits de Célie, et il ne manifeste pas d’attraction particulière pour sa beauté. En effet, l’optique est inversée dans les deux textes : si Parthénie veut être aimée pour elle-même et non pour sa seule beauté « quiconque n’aimera que la beauté de <ref target="http://www.artamene.org/encyclopedie.php?Parthenie">Parthenie</ref>, n’aquerra jamais son amitié. Je veux qu’on aime <ref target="http://www.artamene.org/encyclopedie.php?Parthenie">Parthenie</ref> toute entiere ».</p>
             <p>Fénise au contraire souhaite ardemment d’être aimée pour sa beauté et non seulement pour sa voix. En réalité, les deux femmes veulent une seule et même chose : craignant le caractère éphémère d’un amour d’inclination, elles voudraient s’assurer que leur amant est capable d’atteindre l’amour de connaissance. L’enjeu est d’importance, car une femme amoureuse est vulnérable, et risque de perdre son honneur et sa dignité si elle venait à être délaissée. C’est pourquoi on retrouve dans les discours de Parthénie comme dans ceux de Fénise, cette même idée de risque, de hasard malheureux, de danger.</p>
             <p>Il faut noter pourtant une différence d’importance : Thomas Corneille suit fidèlement le modèle espagnol, et l’amoureux entend une voix sans apercevoir une seule partie du corps de la chanteuse. Madeleine de Scudéry prend au contraire le parti de laisser voir à Timante la main et la taille de Parthénie, il y a donc une identité du physique et de la voix. De plus, Timante reconnaît la voix de Parthénie quand elle parle, et là encore il y a identité entre voix parlée et voix chantée. Au contraire, chez Corneille, la voix et le corps sont désolidarisés, et le Duc ne reconnaît pas la voix parlée de Fénise : l’objet de son amour est donc extrêmement réduit par rapport à celui de Timante, car l’objet de son désir n’est que la voix chantée de Fénise. C’est en cela peut-être que les personnages du <hi rend="i">Charme de la Voix</hi> souffrent d’un caractère irréel condamné par la critique, alors que les personnages de <hi rend="i">Timante et Parthénie</hi> sont plus crédibles et permettent l’adhésion du lecteur. C’est bien le lecteur qui est érigé en instance de jugement, et c’est lui qui a fait le succès d’un texte et l’échec de l’autre. Cela tient peut-être à la différence générique du pacte de lecture : ce qui peut être développé, nourri, justifié dans une œuvre romanesque ne l’est pas forcément au théâtre, et le lecteur de roman, qui accepte de croire aux personnages un peu irréalistes d’un roman, peut trouver de la difficulté à se laisser prendre à l’illusion théâtrale devant des personnages « plus capricieux que raisonnables »<note n="24" place="bottom">Voir l’épître de la pièce.</note>. C’est l’hypothèse qu’a formulée Bénédicte Louvat-Molozay et à laquelle nous adhérons :</p>
             <quote>
@@ -996,7 +1003,6 @@
           </castItem>
         </castList>
         <stage>La Scene est à Milan.</stage>
-        <pb/>
         <label>LE CHARME DE LA VOIX, COMEDIE.</label>
       </div>
       <div type="act">

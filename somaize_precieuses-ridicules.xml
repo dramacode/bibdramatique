@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,6 +16,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -334,7 +341,7 @@
               </row>
               <row>
                 <cell>Scène XIV</cell>
-                <cell>Magdelon : Que veut donc dire ceci ? <lb/><ref target="http://www.toutmoliere.net/spip.php ? article237">Jodelet</ref> : C’est une gageure. <lb/>Cathos : Quoi ? vous laisser battre de la sorte !
+                <cell>Magdelon : Que veut donc dire ceci ? <lb/><ref target="http://www.toutmoliere.net/spip.php?article237">Jodelet</ref> : C’est une gageure. <lb/>Cathos : Quoi ? vous laisser battre de la sorte !
                 </cell>
                 <cell>Magdelon : Que viens-je donc de voir ? <lb/><hi rend="b">Mascarille</hi> : Une gageure. <lb/>Magdelon : Non, / Ou vous vous plaisez fort à sentir le bâton. <lb/>Cathos : Vous laisser devant nous battre de cette sorte.
                 </cell>
@@ -1466,7 +1473,6 @@
             <role xml:id="violons">VIOLONS                                <pb n=" A 1"/></role>
           </castItem>
         </castList>
-        <pb/>
         <p>LES <lb/>PRETIEUSES <lb/>RIDICULES <lb/>COMEDIE. <lb/>REPRESENTEE <lb/>au petit Bourbon <lb/>MISES EN VERS.</p>
       </div>
       <div type="act">
@@ -4278,15 +4284,15 @@
           </sp>
           <sp who="amalthee">
             <speaker>Amalthee.</speaker>
-            <p>Certes, il faut que je vous <pb n="62"/> avoüe que ma surprise n’a point de limites, &amp; que quand j’aurois l’esprit du monde le plus penetrant, je ne pourois qu’a peine m’imaginer pourquoy vous mesprisez ce que je vous ay veu aimer avec tant d’ardeur.</p>
+            <p>Certes, il faut que je vous <pb ed="1660" n="62"/> avoüe que ma surprise n’a point de limites, &amp; que quand j’aurois l’esprit du monde le plus penetrant, je ne pourois qu’a peine m’imaginer pourquoy vous mesprisez ce que je vous ay veu aimer avec tant d’ardeur.</p>
           </sp>
           <sp who="isterie">
             <speaker>Isterie.</speaker>
-            <p>C’est (si vous en voulez savoir la cause) que je n’aime pas à servir de divertissement à toute la France, &amp; que j’ay un despit qui n’est pas concevable, quand je voy les Libraires qui font arrester les passans devant leurs boutiques en leur criant <hi rend="i">Messieurs voila les Pretieuses Ridicules nouvellement mises en vers. Voila le Grand Dictionnaire des Pretieuses, &amp; leur Procez qui n’est imprimé que de cette semaine</hi>. Dites-moy ? <pb n="63"/> je vous prie, si ce n’est pas là le moyen d’obscurcir la gloire des Pretieuses ; puisque dés lors qu’une chose devient populaire, elle perd beaucoup de son éclat, &amp; n’est plus ce qu’elle estoit auparavant.</p>
+            <p>C’est (si vous en voulez savoir la cause) que je n’aime pas à servir de divertissement à toute la France, &amp; que j’ay un despit qui n’est pas concevable, quand je voy les Libraires qui font arrester les passans devant leurs boutiques en leur criant <hi rend="i">Messieurs voila les Pretieuses Ridicules nouvellement mises en vers. Voila le Grand Dictionnaire des Pretieuses, &amp; leur Procez qui n’est imprimé que de cette semaine</hi>. Dites-moy ? <pb ed="1660" n="63"/> je vous prie, si ce n’est pas là le moyen d’obscurcir la gloire des Pretieuses ; puisque dés lors qu’une chose devient populaire, elle perd beaucoup de son éclat, &amp; n’est plus ce qu’elle estoit auparavant.</p>
           </sp>
           <sp who="amalthee">
             <speaker>Amalthee.</speaker>
-            <p>Ah ! que dites-vous là ma toute bonne, si nous n’avions point d’esprit l’on ne parleroit pas tant de nous. Ne sçavez-vous pas bien, que c’est une necessité, que les choses extraordinaires s’épendent dansle monde, &amp; qu’elles le font avec tant d’impétuosité, que pendant un certain espace de temps, les gens de toutes sortes d’estats en parlent tous ensemble ? ne sçavez-vous pas bien aussi que le peuple tient Conseil d’estat aux coins des <pb n="64"/> rües, &amp; sur le Pont Neuf, qu’il y marie les plus grands du Royaume ? qu’il y ordonne à son gré du bastiment du Louvre ? &amp; qu’il y gouverne, non seulement la France ; mais encore toute l’Europe ? &amp; qu’enfin il est de la derniere impossibilité de l’empescher de parler.</p>
+            <p>Ah ! que dites-vous là ma toute bonne, si nous n’avions point d’esprit l’on ne parleroit pas tant de nous. Ne sçavez-vous pas bien, que c’est une necessité, que les choses extraordinaires s’épendent dansle monde, &amp; qu’elles le font avec tant d’impétuosité, que pendant un certain espace de temps, les gens de toutes sortes d’estats en parlent tous ensemble ? ne sçavez-vous pas bien aussi que le peuple tient Conseil d’estat aux coins des <pb ed="1660" n="64"/> rües, &amp; sur le Pont Neuf, qu’il y marie les plus grands du Royaume ? qu’il y ordonne à son gré du bastiment du Louvre ? &amp; qu’il y gouverne, non seulement la France ; mais encore toute l’Europe ? &amp; qu’enfin il est de la derniere impossibilité de l’empescher de parler.</p>
           </sp>
           <sp who="isterie">
             <speaker>Isterie.</speaker>
@@ -4294,15 +4300,15 @@
           </sp>
           <sp who="amalthee">
             <speaker>Amalthee.</speaker>
-            <p>Ce n’est pas nous aussi que <pb n="65 "/>l’Autheur a voulu d’écrire, ce ne sont que des Campagnardes qui se sont exposées à la raillerie d’un chacun pour nous avoir mal imitées, &amp; vous pouvez bien juger que sans cela, il n’auroit jamais donné le nom de Ridicules à des Pretieuses.</p>
+            <p>Ce n’est pas nous aussi que <pb ed="1660" n="65 "/>l’Autheur a voulu d’écrire, ce ne sont que des Campagnardes qui se sont exposées à la raillerie d’un chacun pour nous avoir mal imitées, &amp; vous pouvez bien juger que sans cela, il n’auroit jamais donné le nom de Ridicules à des Pretieuses.</p>
           </sp>
           <sp who="isterie">
             <speaker>Isterie.</speaker>
-            <p>Cela n’a pas toutefois laissé que de nous faire grand tort, puisque ceux qui ne sçavoient qui nous estions, &amp; qui ne connoissoient que nostre nom, se sont attachez à ce qu’ils ont veu representer, &amp; ont crû que les Pretieuses estoient toutes Ridicules, &amp; pour vous persuader cette verité, je n’ay qu’à vous dire que l’on a imprimé des Pretieuses à qui l’on a donné le tiltre de veritables, <pb n="66"/> qui par l’extravagance de leurs mots m’ont parû encore plus Ridicules que celles que l’on a joüées sur le Theatre du Petit Bourbon, &amp; à qui l’on a donné le nom de Ridicules.</p>
+            <p>Cela n’a pas toutefois laissé que de nous faire grand tort, puisque ceux qui ne sçavoient qui nous estions, &amp; qui ne connoissoient que nostre nom, se sont attachez à ce qu’ils ont veu representer, &amp; ont crû que les Pretieuses estoient toutes Ridicules, &amp; pour vous persuader cette verité, je n’ay qu’à vous dire que l’on a imprimé des Pretieuses à qui l’on a donné le tiltre de veritables, <pb ed="1660" n="66"/> qui par l’extravagance de leurs mots m’ont parû encore plus Ridicules que celles que l’on a joüées sur le Theatre du Petit Bourbon, &amp; à qui l’on a donné le nom de Ridicules.</p>
           </sp>
           <sp who="amalthee">
             <speaker>Amalthee.</speaker>
-            <p>Ce que vous dites est veritable ; mais ne croyez pas pour cela que l’Autheur se soit trompé, il sçavoit bien qu’elles estoient tout à fait Ridicules ; mais il ne l’a fait que par un motif caché, &amp; que pour faire piece à certaines personnes qui ne valent pas la peine d’estre nommées, &amp; si vous voulez vous donner le loisir de lire <hi rend="i">le Procez des Pretieuses</hi>, nouvellement mis au jour par le mesme Autheur, vous verrez de quelle maniere il parle des Pretieuses, &amp; comme dans <pb n="67"/> le plaidoyer que fait une d’entre-elles pour deffendre leur party, elle confond tous ceux qui parlent contre l’illustre &amp; nouveau langage des Pretieuses.</p>
+            <p>Ce que vous dites est veritable ; mais ne croyez pas pour cela que l’Autheur se soit trompé, il sçavoit bien qu’elles estoient tout à fait Ridicules ; mais il ne l’a fait que par un motif caché, &amp; que pour faire piece à certaines personnes qui ne valent pas la peine d’estre nommées, &amp; si vous voulez vous donner le loisir de lire <hi rend="i">le Procez des Pretieuses</hi>, nouvellement mis au jour par le mesme Autheur, vous verrez de quelle maniere il parle des Pretieuses, &amp; comme dans <pb ed="1660" n="67"/> le plaidoyer que fait une d’entre-elles pour deffendre leur party, elle confond tous ceux qui parlent contre l’illustre &amp; nouveau langage des Pretieuses.</p>
           </sp>
           <sp who="isterie">
             <speaker>Isterie.</speaker>
@@ -4310,7 +4316,7 @@
           </sp>
           <sp who="amalthee">
             <speaker>Amalthee.</speaker>
-            <p>C’est une chose que l’on ne peut nier ; mais elles ses sont trop tost allarmées quand elles ont veu representer des Pretieuses, qui ne leur ressembloient en rien, &amp; si l’on les a reconnües, &amp; si l’on s’est mocqué d’elles, ce n’est qu’à cause du dépit qu’elles ont monstré de ce que l’on en representoit qui portoient leur nom, ce qui a fait connoistre qu’il y avoit des Pretieuses, dont plu-[<pb n="68"/>sieurs doutoient, &amp; ce qui a mesme fait penser à quantité de gens, qu’elles estoient toutes ridicules, ce que vous confirmez aujourd’huy, en publiant hautement que vous ne voulez plus estre Pretieuse.</p>
+            <p>C’est une chose que l’on ne peut nier ; mais elles ses sont trop tost allarmées quand elles ont veu representer des Pretieuses, qui ne leur ressembloient en rien, &amp; si l’on les a reconnües, &amp; si l’on s’est mocqué d’elles, ce n’est qu’à cause du dépit qu’elles ont monstré de ce que l’on en representoit qui portoient leur nom, ce qui a fait connoistre qu’il y avoit des Pretieuses, dont plu-[<pb ed="1660" n="68"/>sieurs doutoient, &amp; ce qui a mesme fait penser à quantité de gens, qu’elles estoient toutes ridicules, ce que vous confirmez aujourd’huy, en publiant hautement que vous ne voulez plus estre Pretieuse.</p>
           </sp>
           <sp who="isterie">
             <speaker>Isterie.</speaker>
@@ -4318,7 +4324,7 @@
           </sp>
           <sp who="amalthee">
             <speaker>Amalthee.</speaker>
-            <p>Il est vray que l’on travaille à une piece qui aura pour tiltre, <hi rend="i">La Pompe funebre d’une Pretieuse</hi> ; mais &amp; nostre Procez, &amp; nos Funerailles, ne serviront qu’à augmenter nostre reputation, &amp; à nous faire vivre plus long-temps dans le Temple <pb n="69 "/>de memoire.</p>
+            <p>Il est vray que l’on travaille à une piece qui aura pour tiltre, <hi rend="i">La Pompe funebre d’une Pretieuse</hi> ; mais &amp; nostre Procez, &amp; nos Funerailles, ne serviront qu’à augmenter nostre reputation, &amp; à nous faire vivre plus long-temps dans le Temple <pb ed="1660" n="69 "/>de memoire.</p>
           </sp>
           <sp who="isterie">
             <speaker>Isterie.</speaker>
@@ -4334,7 +4340,7 @@
           </sp>
           <sp who="amalthee">
             <speaker>Amalthee.</speaker>
-            <p>Je ne manqueray pas de satisfaire vostre curiosité ; mais ce ne sera pas encor si-tost ; puisque l’on ne commence qu’à le mettre sous la presse. <pb n="70"/></p>
+            <p>Je ne manqueray pas de satisfaire vostre curiosité ; mais ce ne sera pas encor si-tost ; puisque l’on ne commence qu’à le mettre sous la presse. <pb ed="1660" n="70"/></p>
           </sp>
           <sp who="isterie">
             <speaker>Isterie.</speaker>
@@ -4370,8 +4376,8 @@
         <div>
           <head>Annexe 3 : Préface de Molière aux Précieuses ridicules</head>
           <p>C’est une chose étrange qu’on imprime les gens malgré eux. Je ne vois rien de si injuste, et je pardonnerais toute autre violence plutôt que celle-là.</p>
-          <p>Ce n’est pas que je veuille faire ici l’<ref target="http://www.toutmoliere.net/spip.php ? article144">auteur</ref> modeste, et mépriser, par honneur, ma <ref target="http://www.toutmoliere.net/spip.php ? article163">comédie</ref>. J’offenserais mal à propos tout Paris, si je l’accusais d’avoir pu applaudir à une sottise. Comme le <ref target="http://www.toutmoliere.net/spip.php ? article296">public</ref> est le juge absolu de ces sortes d’ouvrages, il y aurait de l’impertinence à moi de le démentir ; et quand j’aurais eu la plus mauvaise opinion du monde de mes <hi rend="i">Précieuses</hi> <ref target="http://www.toutmoliere.net/spip.php ? article314">ridicule</ref><hi rend="i">s</hi> avant leur représentation, je dois croire maintenant qu’elles valent quelque chose, puisque tant de gens ensemble en ont dit du bien. Mais comme une grande partie des grâces qu’on y a trouvées dépendent de l’action et du ton de voix, il m’importait qu’on ne les dépouillât pas de ces ornements ; et je trouvais que le succès qu’elles avaient eu dans la représentation était assez beau pour en demeurer là. J’avais résolu, dis-je, de ne les faire voir qu’à la chandelle, pour ne point donner lieu à quelqu’un de dire le proverbe ; et je ne voulais pas qu’elles sautassent du théâtre de Bourbon dans la galerie du Palais. Cependant je n’ai pu l’éviter, et je suis tombé dans la disgrâce de voir une copie dérobée de ma pièce entre les mains des libraires, accompagnée d’un privilège obtenu par surprise. J’ai eu beau crier : « Ô temps ! ô mœurs ! » on m’a fait voir une nécessité pour moi d’être imprimé, ou d’avoir un procès ; et le dernier mal est encore pire que le premier. Il faut donc se laisser aller à la destinée, et consentir à une chose qu’on ne laisserait pas de faire sans moi.</p>
-          <p>Mon Dieu, l’étrange embarras qu’un livre à mettre au jour, et qu’un <ref target="http://www.toutmoliere.net/spip.php ? article144">auteur</ref> est neuf la première fois qu’on l’imprime ! Encore si l’on m’avait donné du temps, j’aurais pu mieux songer à moi, et j’aurais pris toutes les précautions que Messieurs les <ref target="http://www.toutmoliere.net/spip.php ? article144">auteur</ref>s, à présent mes confrères, ont coutume de prendre en semblables occasions. Outre quelque grand seigneur que j’aurais été prendre malgré lui pour protecteur de mon ouvrage, et dont j’aurais tenté la libéralité par une épître dédicatoire bien fleurie, j’aurais tâché de faire une belle et docte préface ; et je ne manque point de livres qui m’auraient fourni tout ce qu’on peut dire de savant sur la <ref target="http://www.toutmoliere.net/spip.php ? article340">tragédie</ref> et la <ref target="http://www.toutmoliere.net/spip.php ? article163">comédie</ref>, l’étymologie de toutes deux, leur origine, leur définition et le reste. J’aurais parlé aussi à mes <ref target="http://www.toutmoliere.net/spip.php ? article139">amis</ref>, qui pour la recommandation de ma pièce ne m’auraient pas refusé ou des vers français, ou des vers latins. J’en ai même qui m’auraient loué en grec, et l’on ignore pas qu’une louange en grec est d’une merveilleuse efficace à la tête d’un livre. Mais on me met au jour sans me donner le loisir de me reconnaître ; et je ne puis même obtenir la liberté de dire deux mots pour justifier mes intentions sur le sujet de cette <ref target="http://www.toutmoliere.net/spip.php ? article163">comédie</ref>. J’aurais voulu faire voir qu’elle se tient partout dans les bornes de la satire honnête et permise ; que les plus excellentes choses sont sujettes à être copiées par de mauvais singes, qui méritent d’être bernés ; que ces vicieuses imitations de ce qu’il y a de plus parfait ont été de tout temps la matière de la <ref target="http://www.toutmoliere.net/spip.php ? article163">comédie</ref> ; et que, par la même raison que les véritables savants et les vrais braves ne se sont point encore avisés de s’offenser du Docteur de la <ref target="http://www.toutmoliere.net/spip.php ? article163">comédie</ref> et du Capitan, non plus que les juges, les princes et les rois de voir Trivelin, ou quelque autre sur le théâtre, faire <ref target="http://www.toutmoliere.net/spip.php ? article314">ridicule</ref>ment le prince, le juge ou le roi, aussi les véritables précieuses auraient tort de se piquer lorsqu’on joue les <ref target="http://www.toutmoliere.net/spip.php ? article314">ridicule</ref>s qui les imitent mal. Mais enfin, comme je l’ai dit, on ne me laisse pas le temps de respirer, et M. de Luynes veut m’aller relier de ce pas : à la bonne heure, puisque Dieu l’a voulu !</p>
+          <p>Ce n’est pas que je veuille faire ici l’<ref target="http://www.toutmoliere.net/spip.php?article144">auteur</ref> modeste, et mépriser, par honneur, ma <ref target="http://www.toutmoliere.net/spip.php?article163">comédie</ref>. J’offenserais mal à propos tout Paris, si je l’accusais d’avoir pu applaudir à une sottise. Comme le <ref target="http://www.toutmoliere.net/spip.php?article296">public</ref> est le juge absolu de ces sortes d’ouvrages, il y aurait de l’impertinence à moi de le démentir ; et quand j’aurais eu la plus mauvaise opinion du monde de mes <hi rend="i">Précieuses</hi> <ref target="http://www.toutmoliere.net/spip.php?article314">ridicule</ref><hi rend="i">s</hi> avant leur représentation, je dois croire maintenant qu’elles valent quelque chose, puisque tant de gens ensemble en ont dit du bien. Mais comme une grande partie des grâces qu’on y a trouvées dépendent de l’action et du ton de voix, il m’importait qu’on ne les dépouillât pas de ces ornements ; et je trouvais que le succès qu’elles avaient eu dans la représentation était assez beau pour en demeurer là. J’avais résolu, dis-je, de ne les faire voir qu’à la chandelle, pour ne point donner lieu à quelqu’un de dire le proverbe ; et je ne voulais pas qu’elles sautassent du théâtre de Bourbon dans la galerie du Palais. Cependant je n’ai pu l’éviter, et je suis tombé dans la disgrâce de voir une copie dérobée de ma pièce entre les mains des libraires, accompagnée d’un privilège obtenu par surprise. J’ai eu beau crier : « Ô temps ! ô mœurs ! » on m’a fait voir une nécessité pour moi d’être imprimé, ou d’avoir un procès ; et le dernier mal est encore pire que le premier. Il faut donc se laisser aller à la destinée, et consentir à une chose qu’on ne laisserait pas de faire sans moi.</p>
+          <p>Mon Dieu, l’étrange embarras qu’un livre à mettre au jour, et qu’un <ref target="http://www.toutmoliere.net/spip.php?article144">auteur</ref> est neuf la première fois qu’on l’imprime ! Encore si l’on m’avait donné du temps, j’aurais pu mieux songer à moi, et j’aurais pris toutes les précautions que Messieurs les <ref target="http://www.toutmoliere.net/spip.php?article144">auteur</ref>s, à présent mes confrères, ont coutume de prendre en semblables occasions. Outre quelque grand seigneur que j’aurais été prendre malgré lui pour protecteur de mon ouvrage, et dont j’aurais tenté la libéralité par une épître dédicatoire bien fleurie, j’aurais tâché de faire une belle et docte préface ; et je ne manque point de livres qui m’auraient fourni tout ce qu’on peut dire de savant sur la <ref target="http://www.toutmoliere.net/spip.php?article340">tragédie</ref> et la <ref target="http://www.toutmoliere.net/spip.php?article163">comédie</ref>, l’étymologie de toutes deux, leur origine, leur définition et le reste. J’aurais parlé aussi à mes <ref target="http://www.toutmoliere.net/spip.php?article139">amis</ref>, qui pour la recommandation de ma pièce ne m’auraient pas refusé ou des vers français, ou des vers latins. J’en ai même qui m’auraient loué en grec, et l’on ignore pas qu’une louange en grec est d’une merveilleuse efficace à la tête d’un livre. Mais on me met au jour sans me donner le loisir de me reconnaître ; et je ne puis même obtenir la liberté de dire deux mots pour justifier mes intentions sur le sujet de cette <ref target="http://www.toutmoliere.net/spip.php?article163">comédie</ref>. J’aurais voulu faire voir qu’elle se tient partout dans les bornes de la satire honnête et permise ; que les plus excellentes choses sont sujettes à être copiées par de mauvais singes, qui méritent d’être bernés ; que ces vicieuses imitations de ce qu’il y a de plus parfait ont été de tout temps la matière de la <ref target="http://www.toutmoliere.net/spip.php?article163">comédie</ref> ; et que, par la même raison que les véritables savants et les vrais braves ne se sont point encore avisés de s’offenser du Docteur de la <ref target="http://www.toutmoliere.net/spip.php?article163">comédie</ref> et du Capitan, non plus que les juges, les princes et les rois de voir Trivelin, ou quelque autre sur le théâtre, faire <ref target="http://www.toutmoliere.net/spip.php?article314">ridicule</ref>ment le prince, le juge ou le roi, aussi les véritables précieuses auraient tort de se piquer lorsqu’on joue les <ref target="http://www.toutmoliere.net/spip.php?article314">ridicule</ref>s qui les imitent mal. Mais enfin, comme je l’ai dit, on ne me laisse pas le temps de respirer, et M. de Luynes veut m’aller relier de ce pas : à la bonne heure, puisque Dieu l’a voulu !</p>
         </div>
         <div>
           <head>Bibliographie</head>

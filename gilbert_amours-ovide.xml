@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="gilbert_amours-ovide">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -15,6 +17,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -618,7 +624,6 @@
           </quote>
         </div>
         <div>
-          <pb/>
           <head>Note sur la présente édition</head>
           <p>La présente édition a été établie à partir de l’exemplaire de la pièce de Gilbert disponible à la Bibliothèque de l’Arsenal. Il s’agit d’un volume de format in-12°. Il se présente ainsi :</p>
           <p>[I] blanc</p>
@@ -657,7 +662,6 @@
           <p>GILBERT.</p>
         </div>
         <div xml:id="privilege">
-          <pb/>
           <head>EXTRAICT DU PRIVILEGE du Roy.</head>
           <p>Par Grace* &amp; Privilege du Roy donné à Paris le dix-neufiesme Juillet 1663.signé par le Roy en son conseil MARESCHAL; Il est permis à CLAUDE BARBIN, Marchand Libraire, de faire imprimer, vendre &amp; <ref target="#debiter">débiter*</ref> une Comedie intitulée, <hi rend="i">Les Amours d Ovide par Monsieur Gilbert</hi>, &amp; ce durant le temps &amp; espace de sept ans ; &amp; deffences sont faites à tous les autres d’ imprimer, vendre et <ref target="#debiter">debiter*</ref> ledit livre sans permission dudit Barbin, à peine de mil livres d’amande, &amp; de tous despens, dommages &amp; interets, comme il est porté plus amplement par lesdites Lettres.</p>
           <p>Et ledit Barbin a fait part de son Privilege à Guillaume de Luyne,  &amp; Estienne Loyson, pour en jouir le temps porté par iceluy.</p>
@@ -712,7 +716,6 @@
           </sp>
         </div>
         <div xml:id="acteurs">
-          <pb/>
           <head>ACTEURS.</head>
           <castList>
           <castItem>
@@ -761,7 +764,6 @@
           <stage>La Scene est en l’Isle de Cypre, dans les Jardins d’Adonis.</stage>
         </div>
         <div type="act">
-          <pb/>
           <head>RECIT.</head>
           <l>Venez, Amans, dans ces beaux lieux,</l>
           <l>Où par l’ordre de Citherée<note n="61" place="bottom"> Cithérée est un des épithètes de Vénus ou d’Aphrodite. Cithère est le nom de l’île où elle se plaisait à résider : on connaît le célèbre <hi rend="i">Embarquement pour Cithère</hi>, pays des amours.</note></l>

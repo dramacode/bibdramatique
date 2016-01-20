@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -15,6 +17,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -745,7 +751,6 @@
     <body>
         <head>TELEPHONTE. <lb/>TRAGI-COMEDIE.</head>
         <div xml:id="privilege">
-          <pb/>
           <head>Extraict du Privilege du Roy.</head>
           <p>PAR grace et privilege du Roy, il est permis à TOUSSAINT QUINET, Marchand Libraire à Paris, d’imprimer ou de faire imprimer un livre intitulé <hi rend="i">Telephonte, Tragicomedie.</hi> Et defenses sont faites à tous Imprimeurs, Libraires et autres de l’imprimer ny vendre par tout ce Royaume pendant le temps et espace de sept ans entiers et accomplis, à compter du jour qu’il sera achevé d’imprimer. Sur peine aux contrevenans de trois mil livres d’amende, applicable un tiers à sa Majesté, un tiers à l’Hostel-Dieu et l’autre tiers au dit suppliant, de confiscation des exemplaires contrefaits, et de tous les despens, dommages et interests, comme plus amplement est declaré par les Lettres sur ce données à Paris le vingt et uniesme Jour de Juillet, l’an de grace mil six cens quarante deux.</p>
           <p>Par le Roy en son Conseil,</p>
@@ -754,7 +759,6 @@
           <p rend="center">Les Exemplaires ont esté fournis.</p>
         </div>
         <div xml:id="acteurs">
-          <pb/>
           <head>Personnages</head>
           <castList>
           <castItem>
@@ -803,7 +807,6 @@
           <stage>La Scene est à Micene<note n="153" place="bottom"> Moreri donne : <hi rend="i">« ancienne ville du Péloponnèse, n’est présentement qu’un petit bourg de la Morée, dans la province de Belvédere. Elle étoit capitale du pays de Messènie, extrêmement fertile, comme nous l’apprenons d’Ovide, L.6 Métamorphoses. Les Messeniens soutinrent souvent des guerres très considérables. Celle qu’ils eurent contre les Lacédémoniens est célèbre. »</hi> Moreri n’évoque pas l’assassinat de Cresphonte et la vengeance de Téléphonte dans cette notice.</note> dans le Peloponese.</stage>
         </div>
         <div type="act">
-          <pb/>
           <head>ACTE I.</head>
           <div type="scene">
             <head>SCENE PREMIERE.</head>
@@ -1335,7 +1338,6 @@
           </div>
         </div>
         <div type="act">
-          <pb/>
           <head>ACTE II.</head>
           <div type="scene">
             <head>SCENE PREMIERE.</head>
@@ -1816,7 +1818,6 @@
           </div>
         </div>
         <div type="act">
-          <pb/>
           <head>ACTE III.</head>
           <div type="scene">
             <head>SCENE PREMIERE.</head>

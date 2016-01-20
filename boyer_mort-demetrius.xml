@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,6 +16,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -1090,7 +1097,7 @@
             <l n="94" xml:id="l94">J’immolay mon repos au salut d’Alexandre :</l>
             <l n="95" xml:id="l95">Mais quel droit vostre pere eut-il sur ce grand Roy ?</l>
             <l n="96" xml:id="l96">Faloit-il le sauver en vous donnant ma <ref target="#foy">foy*</ref> ?</l>
-            <l n="97" xml:id="l97">Rendez moy cette foy que vous m’avez <ref target="#surprise">surprise*</ref>.</l>
+            <l n="97" xml:id="l97">Rendez moy cette foy que vous m’avez <ref target="#surprendre">surprise*</ref>.</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> 
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,6 +17,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -329,7 +336,7 @@
         <l>Regnent avec éclat au milieu de nos Villes,</l>
         <l>Pendant ces doux loisirs, qui n’asseureroit pas</l>
         <l>Que la France ne peut accroistre ses Estats ?</l>
-        <l><space/>Il est vray cependant que malgré ses Conquestes<pb n="/"/></l>
+        <l>Il est vray cependant que malgré ses Conquestes</l>
         <l>Elle suffit encor à preparer des Festes ;</l>
         <l>Il est vray que malgré mille plaisirs offerts</l>
         <l>Elle suffit encor à dompter l’Univers.</l>
@@ -391,7 +398,7 @@
         <stage>Le Theatre represente une Cour magnifique au bord de la Mer.</stage>
         <stage>Flore<note n="73" place="bottom">Voir « FLORA » dans le lexique mythologique.</note> paroist au milieu du Theatre suivie de ses Nymphes<note n="74" place="bottom"> Pour une explication des Nymphes, Dryades et Naïades, voir « NYMPHE » dans le lexique mythologique. Quoique P. Grimal consacre de longs articles aux Naïades et Hamadryades dans son dictionnaire, ces divinités servent ici à une fin plus pratique (en tant que danseuses et choristes) que symbolique.  Par conséquent, la définition de Furetière, d’une simple « Nymphe des bois », semble suffisante.</note>, &amp; accompagnée de Vertumne<note n="75" place="bottom">Voir « VERTUMNE » dans le lexique mythologique.</note> Dieu des Arbres &amp; des Fruits, &amp; de Palemon<note n="76" place="bottom">Voir « PALAEMON » dans le lexique mythologique.</note> Dieu des Eaux ; Chacun de ces Dieux conduit une Troupe de Divinitez. L’un meine à sa Suite des Drïades &amp; des Silvains<note n="77" place="bottom"> Voir « SILVAIN » dans le lexique mythologique.  La confusion dont parle Grimal est manifeste ici, car il ne devrait pas y avoir plusieurs sylvains.  On doit probablement comprendre « silvain » comme synonyme de satire, ou bien, selon l’indication de la liste des acteurs, tout simplement une « divinité de la terre. »</note>, &amp; l’autre des Dieux des Fleuves &amp; des Naïdes. Flore chante ce recit pour inviter Venus à descendre en terre.</stage>
         <div type="scene">
-          <head>RECIT DE FLORE. <pb n="/"/></head>
+          <head>RECIT DE FLORE.</head>
           <sp who="flore">
             <speaker/>
             <l n="1" xml:id="l1">Ce n’est plus le temps de la Guerre ;</l>
@@ -456,7 +463,7 @@
           <sp who="palemon">
             <speaker>PALEMON.</speaker>
             <l n="29" xml:id="l29">C’est la beauté qui commence de plaire,</l>
-            <l n="30" xml:id="l30"><space/>Mais la douceur acheve de charmer. <pb n="/"/></l>
+            <l n="30" xml:id="l30"><space/>Mais la douceur acheve de charmer.</l>
             <stage>Flore respond au Dialogue de Vertumne &amp; de Palemon, par un Menüet* qu’elle chante. Elle fait entendre que l’on ne doit pas perdre le temps des Plaisirs ; &amp; que c’est une folie à la Jeunesse d’estre sans amour. Les Divinitez qui suivent Vertumne &amp; Palemon, meslent leurs dances au chant de Flore, &amp; chacun fait connoistre son empressement à contribuer à la réjoüissance generale.</stage>
           </sp>
         </div>
@@ -486,7 +493,7 @@
               <l n="47" xml:id="l47">De vouloir resister à ses coups ;</l>
               <l n="48" xml:id="l48">Quelque chaîne</l>
               <l n="49" xml:id="l49">Qu’un Amant prenne,</l>
-              <l n="50" xml:id="l50"><space/><space/>La liberté n’a rien qui soit si doux. <pb n="/"/></l>
+              <l n="50" xml:id="l50"><space/><space/>La liberté n’a rien qui soit si doux.</l>
             </lg>
           </sp>
           <stage>Venus descend dans une grande Machine de Nüages qui occupe tout le Theatre, au travers de laquelle on découvre son Palais. Pendant qu’elle descend, les Divinitez de la Terre &amp; des Eaux recommencent de joindre toutes leurs voix, &amp; continüent par leurs Dances de luy témoigner la joye qu’elles ressentent à son abord.</stage>
@@ -510,7 +517,7 @@
             <l n="63" xml:id="l63">Venus demeure sans Autels.</l>
             <l n="64" xml:id="l64">Dans une si honteuse offense</l>
             <l n="65" xml:id="l65">Laissez-moy sans témoins resoudre ma vangeance.</l>
-            <stage>Flore, &amp; les autres Dieux se retirent : &amp; on entend une Symphonie pendant laquelle l’Amour descend dans un petit nüage<note n="82" place="bottom">Ballard indique que cette ritournelle pour la descente de l’Amour « se jouë ordinairement deux fois tout de suitte. »</note>.<pb n="/"/></stage>
+            <stage>Flore, &amp; les autres Dieux se retirent : &amp; on entend une Symphonie pendant laquelle l’Amour descend dans un petit nüage<note n="82" place="bottom">Ballard indique que cette ritournelle pour la descente de l’Amour « se jouë ordinairement deux fois tout de suitte. »</note>.</stage>
           </sp>
           <sp who="venus-prologue">
             <speaker>VENUS <hi rend="i">à l’Amour.</hi></speaker>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -15,6 +18,10 @@
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
         </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>      
       </editionStmt>
       <publicationStmt>
         <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
@@ -693,7 +700,6 @@
             <roleDesc>Page d’Almedor.</roleDesc>
           </castItem>
         </castList>
-        <pb/>
         <label>LE FILS                    <pb n="A"/>SUPPOSÉ. <lb/>COMEDIE.</label>
       </div>
       <div type="act">
@@ -3340,9 +3346,10 @@
           <entryFree xml:id="aimable">
             <form>Aimable : adj. masc. et fem.</form>
             <def>Qui a des qualitez qui attirent l’amour, ou l’amitié de quelqu’un. (Furetière 1690).</def>
-            <xr><ref target="#dedidace">Dédicace</ref> ; v. <ref target="#l52">52</ref> ; <ref target="#l469">469</ref> ; <ref target="#l723">723</ref> ; <ref target="#l1319">1319</ref></xr>
+            <xr><ref target="#dedicace">Dédicace</ref> ;
+              v. <ref target="#l52">52</ref> ; <ref target="#l469">469</ref> ; <ref target="#l723">723</ref> ; <ref target="#l1319">1319</ref></xr>
             <def>Adj. Digne d’être aimé. (Richelet 1680). </def>
-            <xr><ref target="#dedidace">Dédicace</ref> ; v. <ref target="#l52">52</ref> ; <ref target="#l469">469</ref> ; <ref target="#l723">723</ref> ; <ref target="#l1319">1319</ref></xr>
+            <xr><ref target="#dedicace">Dédicace</ref> ; v. <ref target="#l52">52</ref> ; <ref target="#l469">469</ref> ; <ref target="#l723">723</ref> ; <ref target="#l1319">1319</ref></xr>
           </entryFree>
           <entryFree xml:id="amitie">
             <form>Amitié : subst. fem.</form>
@@ -3459,7 +3466,7 @@
           <entryFree xml:id="estonner">
             <form>Estonner : v. act.</form>
             <def>Causer à l’ame de l’émotion, soit par surprise, soit par admiration, soit par crainte.</def>
-            <xr><ref target="#dedidace">Dédicace</ref> ; v. <ref target="#l903">903</ref> ; <ref target="#l1358">1358</ref> ; <ref target="#l1407">1407</ref></xr>
+            <xr><ref target="#dedicace">Dédicace</ref> ; v. <ref target="#l903">903</ref> ; <ref target="#l1358">1358</ref> ; <ref target="#l1407">1407</ref></xr>
             <def>Se dit aussi des choses qui sont assez ordinaires et peu considerables. </def>
             <def>Se dit aussi des émotions des corps qui sont esbranslez et attaquez par quelque violence. </def>
             <def>Se dit proverbialement en ces phrases. On dit qu’un homme est <hi rend="i">estonné</hi> comme s’il tomboit des nuës, comme si les cornes luy venoient à la teste ; qu’il est <hi rend="i">estonné</hi> comme un fondeur de cloches. On dit aussi d’un homme ferme ou opiniastre, qu’il est bon cheval de trompette, qu’il ne s’<hi rend="i">estonne</hi> pas pour le bruit.</def>
@@ -3473,10 +3480,10 @@
             <form>Fortune : s. f.</form>
             <def xml:id="fortune1">C'estoit autrefois une divinité payenne qu’on croyoit estre la cause de tous les évenements extraordinaires: au lieu que c’est en effet la Providence divine qui agit par des voyes inconnuës et au dessus de la prudence des hommes.</def>
             <xr>
-              <ref target="#dedidace">Dédicace</ref>
+              <ref target="#dedicace">Dédicace</ref>
             </xr>
             <def xml:id="fortune2">En ce sens on a dit, Adorer la <hi rend="i">Fortune</hi>, sacrifier à la <hi rend="i">Fortune</hi>. On feignoit que la <hi rend="i">Fortune</hi> avoit le pied sur une rouë, pour marquer son inconstance: d’où vient qu’on a dit, la rouë de <hi rend="i">Fortune</hi>: Mettre un clou à sa <hi rend="i">fortune</hi>, pour dire, la fixer. Maintenant on appelle <hi rend="i">Fortune</hi>, ce qui arrive par hasard, qui est fortuit et impreveu.</def>
-            <xr><ref target="#dedidace">Dédicace</ref> ; v. <ref target="#l121">121</ref> ; <ref target="#l135">135</ref> ; <ref target="#l147">147</ref> ; <ref target="#l261">261</ref> ; <ref target="#l280">280</ref> ; <ref target="#l311">311</ref> ; <ref target="#l430">430</ref> ; <ref target="#l445">445</ref> ; <ref target="#l571">571</ref> ; <ref target="#l598">598</ref> ; <ref target="#l726">726</ref> ; <ref target="#l940">940</ref> ; <ref target="#l1038">1038</ref> ; <ref target="#l1117">1117</ref> ; <ref target="#l1217">1217</ref> ; <ref target="#l1287">1287</ref> ; <ref target="#l1392">1392</ref></xr>
+            <xr><ref target="#dedicace">Dédicace</ref> ; v. <ref target="#l121">121</ref> ; <ref target="#l135">135</ref> ; <ref target="#l147">147</ref> ; <ref target="#l261">261</ref> ; <ref target="#l280">280</ref> ; <ref target="#l311">311</ref> ; <ref target="#l430">430</ref> ; <ref target="#l445">445</ref> ; <ref target="#l571">571</ref> ; <ref target="#l598">598</ref> ; <ref target="#l726">726</ref> ; <ref target="#l940">940</ref> ; <ref target="#l1038">1038</ref> ; <ref target="#l1117">1117</ref> ; <ref target="#l1217">1217</ref> ; <ref target="#l1287">1287</ref> ; <ref target="#l1392">1392</ref></xr>
             <def>Se dit aussi de ce qui advient inopinément et contre l’opinion de la cause efficiente. </def>
             <def xml:id="fortune3">Biens de la <hi rend="i">fortune</hi>, sont les richesses: ce qui se dit par extension, des honneurs, des dignitez, et autres choses inconstantes et perissables. Un stoïque mesprise tous les biens de <hi rend="i">fortune.</hi></def>
             <xr>V. <ref target="#l106">106</ref> ; <ref target="#l1026">1026</ref></xr>
@@ -3520,7 +3527,7 @@
             <def>Azile.</def>
             <def>Exemption de se faire passer maître.</def>
             <def>Sincérité.</def>
-            <xr>V. <ref target="#l866">866</ref> ; <ref target="#l1173">1173</ref> ; <ref target="#l1315">1315</ref>. (Richelet <ref target="#l1680">1680</ref>).</xr>
+            <xr>V. <ref target="#l866">866</ref> ; <ref target="#l1173">1173</ref> ; <ref target="#l1315">1315</ref>. (Richelet 1680).</xr>
           </entryFree>
           <entryFree>
             <form>Genereux, euse : adj.</form>
@@ -3570,7 +3577,7 @@
             <def>Se dit aussi des decisions qui sont prononcées par l’autorité des Rois ou autres puissances terrestres, soit de leur propre bouche, soit par les Officiers qu’ils commettent pour rendre justice en leur place à leurs peuples. </def>
             <def>Se dit aussi du lieu où l’on juge, de l’audience que l’on tient. </def>
             <def xml:id="jugement2">Se dit aussi de l’advis et de la decision des particuliers en toutes sortes de rencontres.</def>
-            <xr><ref target="#dedidace">Dédicace</ref> ; v. <ref target="#l772">772</ref> ; <ref target="#l1476">1476</ref></xr>
+            <xr><ref target="#dedicace">Dédicace</ref> ; v. <ref target="#l772">772</ref> ; <ref target="#l1476">1476</ref></xr>
             <def>Se dit aussi des conjectures, des predictions. </def>
             <def>Signifie aussi, Critique ; sentiment d’un Auteur sur un ouvrage, ses corrections ou observattions.</def>
             <def>Se dit aussi en Peinture, d’une representation d’un jugement. </def>
@@ -3626,7 +3633,7 @@
             <def>Signifie aussi ce qu’on regarde, ou ce qu’on se represente ; ou qu’on examine en s’appliquant à quelque art ou science ; la matiere sur laquelle on travaille, ou on raisonne.</def>
             <def xml:id="objet2">Se dit quelquefois seulement de la fin.</def>
             <xr>
-              <ref target="#dedidace">Dédicace</ref>
+              <ref target="#dedicace">Dédicace</ref>
             </xr>
             <def xml:id="objet3">Se dit aussi poëtiquement des belles personnes qui donnent de l’amour.</def>
             <xr>V. <ref target="#l299">299</ref> ; <ref target="#l667">667</ref> ; <ref target="#l900">900</ref> ; <ref target="#l934">934</ref> ; <ref target="#l1319">1319</ref></xr>
@@ -3680,7 +3687,7 @@
             <form>Raviser : v. act.</form>
             <def>Qui ne se dit qu’avec le pronom personnel. Changer de sentiment, d’opinion, d’advis.</def>
             <xr>
-              <ref target="#dedidace">Dédicace</ref>
+              <ref target="#dedicace">Dédicace</ref>
             </xr>
             <def>On dit proverbialement, Il s’est <hi rend="i">ravisé</hi> en mangeant sa souppe, quand quelqu’un s’est desdit d’une chose qu’il avoit promise. </def>
           </entryFree>

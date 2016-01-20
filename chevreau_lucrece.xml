@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> 
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,6 +17,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -3688,7 +3695,20 @@
           <def xml:id="honneur2">L’estime qu’on a pour la dignité, ou le mérite de quelqu’un.</def>
           <xr>V. <ref target="#l48">48</ref> ; <ref target="#l50">50</ref> ; <ref target="#l54">54</ref> ; <ref target="#l179">179</ref></xr>
           <def xml:id="honneur3">Renvoie à la gloire</def>
-          <xr>V. <ref target="#l145">145</ref> ; <ref target="#l150">150</ref> ; <ref target="#l170">170</ref> ; <ref target="#l199">199</ref> ; <ref target="#l302">302</ref> ; <ref target="#l445">445</ref> ; <ref target="#l453">453</ref> ; <ref target="#l461">461</ref> ; <ref target="#l556">556</ref> ; <ref target="#l1140">1140</ref> ; <ref target="#l1144">1144</ref> ; <ref target="#l1992">1992</ref> ;  <ref target="#l1241">1241</ref> ; <ref target="#l1242">1242</ref> ; <ref target="#l1258">1258</ref> ; <ref target="#l1406">1406</ref> ; <ref target="#l1408">1408</ref> ; <ref target="#l1445">1445</ref> ; <ref target="#l1450">1450</ref></xr>
+          <xr>V. <ref target="#l145">145</ref> ; <ref target="#l150">150</ref> ; 
+            <ref target="#l170">170</ref> ; 
+            <ref target="#l199">199</ref> ; 
+            <ref target="#l302">302</ref> ; 
+            <ref target="#l445">445</ref> ; 
+            <ref target="#l453">453</ref> ; 
+            <ref target="#l461">461</ref> ; 
+            <ref target="#l556">556</ref> ; 
+            <ref target="#l1140">1140</ref> ; 
+            <ref target="#l1144">1144</ref> ; 
+            <ref target="#l1192">1192</ref> ; 
+            <ref target="#l1241">1241</ref> ; 
+            <ref target="#l1242">1242</ref> ; 
+            <ref target="#l1258">1258</ref> ; <ref target="#l1406">1406</ref> ; <ref target="#l1408">1408</ref> ; <ref target="#l1445">1445</ref> ; <ref target="#l1450">1450</ref></xr>
           <def xml:id="honneur4">Pour la femme, le mot signifie : chasteté (F.90)</def>
           <xr>V. <ref target="#l668">668</ref> ; <ref target="#l669">669</ref> ; <ref target="#l682">682</ref> ; <ref target="#l713">713</ref> ; <ref target="#l938">938</ref> ; <ref target="#l939">939</ref> ; <ref target="#l945">945</ref> ; <ref target="#argument4">Argument acte IV</ref> ; v. <ref target="#l958">958</ref> ; <ref target="#l1042">1042</ref> ; <ref target="#l1080">1080</ref></xr>
         </entryFree>

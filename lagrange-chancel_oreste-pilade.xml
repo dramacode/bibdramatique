@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -15,6 +17,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -291,8 +297,8 @@
               <p>Enfin, les principaux personnages sont présentés dès l’acte I. Hidaspe rappelle l’arrivée d’Iphigénie en Tauride sous la tutelle de la déesse Diane (vers 11-13), Thoas évoque sa qualité de prêtresse (vers 62) et son caractère orgueilleux (vers 76) et nous avons vu les intérêts de ce personnage exposés à la scène V. Oreste n’entrera en scène qu’à partir de l’acte III mais la tension qu’il représente est largement mise en avant dès le premier acte, que ce soit par l’oracle d’Apollon (vers 85-91) ou par les dires d’Anthenor qui revient de Grèce et qui annonce l’arrivée imminente de ce personnage maudit durant toute la scène II. Cette même scène permet d’apprendre les intentions d’Oreste, à savoir voler la statue de Diane (vers 148) et de mettre en place son caractère courageux et brave puisque « Ce Prince, de la peur, ne connoist que le nom ». Le personnage de Thomiris est également présenté pendant l’acte I. Le spectateur est informé de son rang de reine de Tauride duquel elle est écartée par Thoas épris d’Iphigénie et de l’obstacle qu’elle représente à l’hymen tant désiré par le roi (vers 49).</p>
               <p>Il est difficile de rendre une exposition intéressante et surtout vraisemblable lorsqu’un personnage fait le récit d’éléments à un second personnage qui en est déjà forcément informé. C'est ce qui se passe dès la première réplique quand Hidaspe rappelle à Thoas sa qualité de roi et les circonstances de sa montée sur le trône, ce que l’intéressé ne peut que connaitre. Toutefois, il faut bien en informer le spectateur. Ainsi, pour ne pas choquer la vraisemblance, La Grange-Chancel use d’un artifice qui consiste à faire répondre Thoas par une réplique qui montre que le roi n’a pas écouté son ministre et qu’il pensait à autre chose. En effet, après qu’Hidaspe a évoqué l’accord des Scythes pour que Thoas soit leur roi, l’arrivée d’Iphigénie et la présence des ambassadeurs Sarmates en Tauride, Thoas demande, sans lien aucun :</p>
               <quote>
-                <l><pb n="A-t-on tout préparé ? verray-je la Princesse,"/> </l>
-                <l><pb n="Hidaspe ? (vers 19-20)"/> </l>
+                <l>A-t-on tout préparé ? verray-je la Princesse,</l>
+                <bibl>Hidaspe ? (vers 19-20)</bibl>
               </quote>
               <p>C'est ce même artifice dont s’était servi Racine pour l’exposition de son <hi rend="i">Iphigénie</hi> en 1674. Afin de présenter le personnage d’Agamemnon, l’auteur avait fait parler Arcas sur les origines, le statut de « roi, père, époux heureux » (vers 17) et les différentes qualités de celui-ci ; ce à quoi Agamemnon avait répliqué, trop perturbé par la pensée de sa fille qu’il devait mener au sacrifice :</p>
               <quote>

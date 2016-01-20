@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,6 +16,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -150,7 +157,6 @@
           <p>On ne sait qui des deux doit le plus surprendre, ou l’aveuglement de M. Boyer  sur les défauts de ses ouvrages, ou l’acharnement ridicule de M.M. Racine et Boileau contre cet auteur. Cette persécution si peu convenable à de si grands hommes n’avançait que de quelques jours la chute des poèmes de leur adversaire (…) <note n="17" place="bottom"> Frères Parfaict, <hi rend="i">Histoire du théâtre français des origines jusqu’à présent</hi>, t. XII, Paris, 1734-1749, 15 vol. ; Genève, Slatkine reprints, 3 vol., 1967.</note></p>
         </quote>
         <p>et plus loin encore : « Sa poésie est dure, chevillée, pleine d’expressions froides ou basses » et son « dialogue n’exprime rien de ce qu’il doit dire, et c’est un perpétuel galimathias » .</p>
-        <pb/>
       </div>
       <div>
         <head>Contexte de création et de représentation de la pièce</head>
@@ -1466,7 +1472,6 @@
                 <role xml:id="suite">SUITTE.</role>
               </castItem>
             </castList>
-            <pb/>
           </div>
         </div>
       </div>

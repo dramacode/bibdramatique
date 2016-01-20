@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> 
+<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,6 +17,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -504,7 +511,6 @@
           </castItem>
         </castList>
         <stage>La Scene est au camp de Zinton, devant la Ville de Quinsay<note n="64" place="bottom"> Quinsay : « (ville du Ciel) ancienne ville de la Chine, dont les auteurs ont parlé diversement, avoit selon Marc Polo, cent milles de circuit, et douze mille soixante ponts de pierre. Les modernes ne sont pas bien d’accord du lieu où elle se trouve. Quelques-uns la prennent pour Pékin, qu’un auteur espagnol nomme la métropole du monde » <hi rend="sc">Moréri</hi> Louis, <hi rend="i">op. cit.</hi></note>, Ville maritime de la Chine.</stage>
-        <pb/>
       </div>
       <div type="act">
         <head>ACTE PREMIER.</head>
@@ -899,7 +905,8 @@
             <l n="290" xml:id="l290">Enfin, tu dois, mon fils, le cherir si tu m’aimes.</l>
           </sp>
           <sp who="vanlie">
-            <speaker>VANLIE. <hi rend="i">Vanlie entend cecy des complices de <lb/>Sanga, et Armetzar le prenant pour soy, entre dans un grand trouble.</hi><pb n=" B, p. 25"/> </speaker>
+            <speaker>VANLIE. <hi rend="i">Vanlie entend cecy des complices de <lb/>Sanga, et Armetzar le prenant pour soy, entre dans un grand trouble.</hi><pb n=" B, p. 25"/>
+            </speaker>
             <l n="291" xml:id="l291">Estant aimé de vous, Sire, je l’aime aussi :</l>
             <l n="292" xml:id="l292">Mais j’entre en méme temps dans un juste <ref target="#soucy">soucy*</ref>.</l>
             <l n="293" xml:id="l293">Sanga par tous moyens tasche de vous détruire,</l>
@@ -1061,7 +1068,8 @@
             <speaker>ARMTEZAR. <hi rend="i">Il tire une boîte de portrait, sans que Vanlie se montre curieux de la voir.</hi></speaker>
             <l n="409" xml:id="l409">J’oseray tout vous dire apres cette assurance,</l>
             <l n="410" xml:id="l410">Et deja vôtre aveu m’en donne la licence.</l>
-            <l n="411" xml:id="l411">J’aime donc comme vous un <ref target="#objet1">objet*</ref> <ref target="#glorieux">glorieux*</ref></l>
+            <l n="411" xml:id="l411">J’aime donc comme vous un <ref target="#objet1">objet*</ref>
+              <ref target="#glorieux">glorieux*</ref></l>
             <l n="412" xml:id="l412">Que ce riche portrait decouvrit à mes yeux</l>
             <l n="413" xml:id="l413">Dans nos derniers combats où je marchois en teste,</l>
             <l n="414" xml:id="l414">Je fis sur un Chinois cette heureuse conqueste.</l>
@@ -1432,7 +1440,8 @@
             <l n="663" xml:id="l663">Si Tamerlan m’attaque, allons le devancer,</l>
             <l n="664" xml:id="l664">Tu dois m’aider toy méme à te recompenser ;</l>
             <l n="665" xml:id="l665">Et s’il faut trop attendre apres un tel salaire,</l>
-            <l n="666" xml:id="l666">Phocate, cependant<note n="82" place="bottom"><hi rend="i">Cependant</hi> « conserve une valeur temporelle tout au long du XVII<hi rend="sup">e</hi> siècle. Le dictionnaire de l’Académie donne comme sens : « pendant cela, pendant ce temps-là » », <hi rend="sc">Sancier-Chateau</hi> Anne, <hi rend="i">Introduction à la langue française du XVII</hi><hi rend="sup">e</hi> <hi rend="i">siècle</hi>, Paris, Nathan, 1993, vol. 2, p. 92.</note> j’ay des biens à te faire.</l>
+            <l n="666" xml:id="l666">Phocate, cependant<note n="82" place="bottom"><hi rend="i">Cependant</hi> « conserve une valeur temporelle tout au long du XVII<hi rend="sup">e</hi> siècle. Le dictionnaire de l’Académie donne comme sens : « pendant cela, pendant ce temps-là » », <hi rend="sc">Sancier-Chateau</hi> Anne, <hi rend="i">Introduction à la langue française du XVII</hi><hi rend="sup">e</hi>
+                <hi rend="i">siècle</hi>, Paris, Nathan, 1993, vol. 2, p. 92.</note> j’ay des biens à te faire.</l>
           </sp>
           <sp who="armetzar">
             <speaker>ARMETZAR.</speaker>
@@ -1448,7 +1457,8 @@
             <l n="676" xml:id="l676">La forte passion que j’ay de la servir.</l>
           </sp>
           <sp who="zarimene">
-            <speaker>ZARIMENE. <hi rend="i">D’un ton qui témoigne qu’elle le prend d’un autre biais.</hi> </speaker>
+            <speaker>ZARIMENE. <hi rend="i">D’un ton qui témoigne qu’elle le prend d’un autre biais.</hi>
+            </speaker>
             <l n="677" xml:id="l677">Ouy, cette passion nous est assez connue,</l>
             <l n="678" xml:id="l678">Vous la cachez en vain soûs trop de retenue,</l>
             <l n="679" xml:id="l679">Et j’en ay toûjours fait un digne jugement.</l>
@@ -2685,7 +2695,8 @@
             <l n="1472" xml:id="l1472">Ou vainqueur pour mon pere, ou vaincu par le sien.    </l>
           </sp>
           <sp who="ladice">
-            <speaker>LADICE. <hi rend="i">La princesse continue, apres que la confidente a leu.</hi> </speaker>
+            <speaker>LADICE. <hi rend="i">La princesse continue, apres que la confidente a leu.</hi>
+            </speaker>
             <l n="1473" xml:id="l1473">Helas ! que cet avis sensiblement me touche !</l>
             <l n="1474" xml:id="l1474">Mennon en te quittant ne t’a rien dit de bouche<note n="95" place="bottom"> Furetière définit cette expression ainsi : « on dit aussi, Dire de <hi rend="i">bouche</hi>, parler de <hi rend="i">bouche</hi>, parler <hi rend="i">bouche à bouche</hi> ; pour dire, Parler à la personne même à qui on veut faire sçavoir quelque chose, sans la lui expliquer par message, ou par lettres » (cf. v. 862).</note> ?</l>
           </sp>
@@ -2709,7 +2720,8 @@
           <head>SCENE VI. <pb n="74" xml:id="p74"/></head>
           <stage>LADICE, ARMTEZAR, ILIANE.</stage>
           <sp who="ladice">
-            <speaker>LADICE. <hi rend="i">Armetzar qui ne croyoit pas que Ladice le connust encore, parest fort surpris.</hi> </speaker>
+            <speaker>LADICE. <hi rend="i">Armetzar qui ne croyoit pas que Ladice le connust encore, parest fort surpris.</hi>
+            </speaker>
             <l n="1481" xml:id="l1481">Armetzar, approchez, je vous permets ma vûe ;</l>
             <l n="1482" xml:id="l1482">C’est à Phocate seul que je l’ay defendue,</l>
             <l n="1483" xml:id="l1483">Et je le dois punir d’un reproche eternel</l>
@@ -3199,7 +3211,8 @@
           <sp who="vanlie">
             <speaker>VANLIE. <pb n="88" xml:id="p88"/></speaker>
             <l n="1782" xml:id="l1782">Qu’il sied bien aux Vainqueurs que leur clemence eclate,</l>
-            <l n="1783" xml:id="l1783">Et que vous pourriez bien par un <ref target="#trait1">trait*</ref> <ref target="#genereux">genereux*</ref></l>
+            <l n="1783" xml:id="l1783">Et que vous pourriez bien par un <ref target="#trait1">trait*</ref>
+              <ref target="#genereux">genereux*</ref></l>
             <l n="1784" xml:id="l1784">Epargner cette honte à ce Roy malheureux.</l>
           </sp>
           <sp who="tamerlan">
@@ -3213,7 +3226,8 @@
             <speaker>VANLIE.</speaker>
             <l n="1789" xml:id="l1789">Apres le beau succez d’une telle victoire,</l>
             <l n="1790" xml:id="l1790">Je ne puis me flatter d’une plus haute <ref target="#gloire">gloire*</ref>,</l>
-            <l n="1791" xml:id="l1791">Et je craindrois plûtost par un si <ref target="#triste">triste*</ref> <ref target="#objet2">objet*</ref></l>
+            <l n="1791" xml:id="l1791">Et je craindrois plûtost par un si <ref target="#triste">triste*</ref>
+              <ref target="#objet2">objet*</ref></l>
             <l n="1792" xml:id="l1792">D’alterer le plaisir dont je suis satisfait.</l>
             <l n="1793" xml:id="l1793">Sa disgrace m’instruit de ce que la fortune</l>
             <l n="1794" xml:id="l1794">Aujourd’huy favorable, et demain importune</l>
@@ -3243,7 +3257,8 @@
             <l n="1805" xml:id="l1805">Seigneur, on vous l’ameine.</l>
           </sp>
           <sp who="vanlie">
-            <speaker>VANLIE. <hi rend="i">Bas.</hi> <pb n="89" xml:id="p89"/></speaker>
+            <speaker>VANLIE. <hi rend="i">Bas.</hi>
+              <pb n="89" xml:id="p89"/></speaker>
             <l part="Y"><space/><space/>O mandement severe !</l>
             <l n="1806" xml:id="l1806">Pourray-je supporter la presence d’un pere !</l>
           </sp>
@@ -4055,17 +4070,21 @@
             <div>
               <head>Dictionnaires modernes</head>
               <bibl><hi rend="sc">Corvin</hi> Michel, <title>Dictionnaire encyclopédique du théâtre</title>, Larousse, 2003 ; rééd. Bordas, 1995.</bibl>
-              <bibl><hi rend="sc">Dandrey</hi> Patrick, <title>Dictionnaire des lettres françaises, le XVII</title><hi rend="sup">e</hi> <title>siècle</title> [Fayard, sous la dir. du Cardinal Georges Grente, 1951], éd. revue et mis à jour sous la dir. de P. Dandrey, Paris, Fayard, 1996 ; rééd. Paris, Librairie générale française, Pochothèque, 1996.</bibl>
-              <bibl><hi rend="sc">Dubois</hi> J., <hi rend="sc">Lagane</hi> R., <hi rend="sc">Lerond</hi> A., <title>Dictionnaire du français du XVII</title><hi rend="sup">e</hi> <title>siècle</title>, nouv. éd. Larousse, 1992.</bibl>
+              <bibl><hi rend="sc">Dandrey</hi> Patrick, <title>Dictionnaire des lettres françaises, le XVII</title><hi rend="sup">e</hi>
+                <title>siècle</title> [Fayard, sous la dir. du Cardinal Georges Grente, 1951], éd. revue et mis à jour sous la dir. de P. Dandrey, Paris, Fayard, 1996 ; rééd. Paris, Librairie générale française, Pochothèque, 1996.</bibl>
+              <bibl><hi rend="sc">Dubois</hi> J., <hi rend="sc">Lagane</hi> R., <hi rend="sc">Lerond</hi> A., <title>Dictionnaire du français du XVII</title><hi rend="sup">e</hi>
+                <title>siècle</title>, nouv. éd. Larousse, 1992.</bibl>
             </div>
             <div>
               <head>Ouvrages modernes</head>
               <bibl><hi rend="sc">Cayrou</hi> Gaston, <title>Le Français classique. Lexique de la langue du XVII<hi rend="sup">e</hi> siècle</title>, Paris, Didier, 1923.</bibl>
               <bibl><hi rend="sc">Forestier</hi> Georges., <title>Introduction à l’analyse des textes classiques</title>, Paris, Nathan, 1993.</bibl>
               <bibl><hi rend="sc">Fournier</hi> Nathalie, <title>Grammaire du français classique</title>, Paris, Belin, 1998.</bibl>
-              <bibl><hi rend="sc">Haase</hi> A., <title>Syntaxe française du XVII</title><hi rend="sup">e</hi> <title>siècle</title>, Paris, Delagrave, 1935.</bibl>
+              <bibl><hi rend="sc">Haase</hi> A., <title>Syntaxe française du XVII</title><hi rend="sup">e</hi>
+                <title>siècle</title>, Paris, Delagrave, 1935.</bibl>
               <bibl><hi rend="sc">Lartomas</hi> Pierre, <title>Le Langage dramatique</title>, Paris, Colin, 1972.</bibl>
-              <bibl><hi rend="sc">Sancier-Chateau</hi> Anne, <title>Introduction à la langue française du XVII</title><hi rend="sup">e</hi> <title>siècle</title>, Paris, Nathan, 1993 (2 vol.).</bibl>
+              <bibl><hi rend="sc">Sancier-Chateau</hi> Anne, <title>Introduction à la langue française du XVII</title><hi rend="sup">e</hi>
+                <title>siècle</title>, Paris, Nathan, 1993 (2 vol.).</bibl>
               <bibl><hi rend="sc">Spillebout</hi> Gabriel, <title>Grammaire de la langue française du XVII<hi rend="sup">e</hi> siècle</title>, Paris, Picard, 1985.</bibl>
               <bibl><hi rend="sc">Ubersfeld</hi> Anne, <title>Lire le théâtre</title>, Paris, Editions sociales, 1977 ; rééd. Paris, Belin, 1996.</bibl>
               <bibl><hi rend="sc">Ubersfeld</hi> Anne, <title>Lire le théâtreII</title>, Paris, Belin, 1996.</bibl>
@@ -4091,7 +4110,8 @@
           <head>Études</head>
           <div>
             <head>Études sur la littérature, l’histoire et l’esthétique du XVII<hi rend="sup">e</hi> siècle</head>
-            <bibl><hi rend="sc">Adam</hi> Antoine, <title>Histoire de la littérature française du XVII</title><hi rend="sup">e</hi> <title>siècle</title>, Paris, Domat, 1948-1956, 5 vol. ; rééd. Paris, Del Duca, 1962 (repr. en fac-similé, Paris, Albin Michel, 1996).</bibl>
+            <bibl><hi rend="sc">Adam</hi> Antoine, <title>Histoire de la littérature française du XVII</title><hi rend="sup">e</hi>
+              <title>siècle</title>, Paris, Domat, 1948-1956, 5 vol. ; rééd. Paris, Del Duca, 1962 (repr. en fac-similé, Paris, Albin Michel, 1996).</bibl>
             <bibl><hi rend="sc">Bénichou</hi> Paul, <title>Morales du grand siècle</title>, Paris, Gallimard, 1988 (1<hi rend="sup">re</hi> éd. 1948).</bibl>
             <bibl><hi rend="sc">Bray</hi> René, <title>La Formation de la doctrine classique en France</title>, Paris, Nizet, 1966 (1<hi rend="sup">re</hi> éd. 1927).</bibl>
             <bibl><hi rend="sc">Cioranescu</hi> Alexandre, <title>Le Masque et le Visage. Du baroque espagnol au classicisme français</title>, Genève, Droz, 1983.</bibl>

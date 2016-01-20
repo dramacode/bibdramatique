@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,6 +17,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -896,7 +903,6 @@
             <p>Pour George Forestier, les spectateurs ne doivent pas prendre le prologue pour un prologue élargi (aller voir p.67).</p>
             <p>Le caractère et le comportement des personnages de la pièce cadre sont décrits avec un certain réalisme et surtout avec une grande vivacité qui est due à la petitesse des scènes et aux changements fréquents de personnages.</p>
             <p>La pièce cadre se veut une pièce qui convint, qui rend légitime et qui présente la comédie future. On parle de la vie des acteurs pour mieux montrer qu’ils sont respectables et pour encourager à aller à la comédie, c’est leur donner un caractère humain.</p>
-            <pb/>
           </div>
         </div>
         <div>
@@ -1482,7 +1488,6 @@
               <roleDesc>Cousine. </roleDesc>
             </castItem>
           </castList>
-          <pb/>
           <p>LES                                    <pb n="17"/><lb/>AMOURS <lb/>DE <lb/>TRAPOLIN.<lb/><hi rend="i">COMEDIE;</hi></p>
         </div>
         <div type="scene">

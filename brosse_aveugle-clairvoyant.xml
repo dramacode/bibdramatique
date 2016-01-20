@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,6 +17,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -412,7 +419,8 @@
         <p>Je serois plus Aveugle que celuy que je vous présente, si m’estant proposé de le faire passer pour Clair-voyant : J’empruntois d’autre que de vous de l’esclat, du jour, &amp; des lumieres. Comme je ne croy pas que cette production soit assez puissante pour se soutenir d’elle-mesme, je n’estime pas aussi qu’elle ait si peu de force qu’elle ne puisse entreprendre un voyage de cent lieuës, pour rencontrer où vous estes un Protecteur &amp; un Appuy. Quelques vers que je vous ay desja presentez<note n="122" place="bottom">« -ez » est une variante graphique de « -és ». Cette graphie est souvent utilisée en langue classique pour marquer le pluriel des noms et des participes passés.</note> s’estans trouvez à vostre goust, je ne me persuade pas qu’une composition d’un stile de pareille nature vous doive estre desagreable. L’Illustre Comte du Daugnion fait tousjours mesme accueil aux choses qui se ressemblent &amp; qu’on luy offre avec mesme affection ; son obligeante humeur ne se dément jamais, non plus que son courage[.] A ce mot[, ] MONSEIGNEUR, commandez moy de me taire, si vous ne voulez <ref target="#entendre1">entendre</ref> des veritez : Vous possedez parfaitement cette grandeur d’Ame &amp; cette heroïque <ref target="#vertu1">vertu*</ref> qui apprend aux hommes à mespriser le danger, la mort &amp; la <ref target="#fortune1">fortune*</ref>. C’est par ce glorieux oubly de vous mesme que vous avez si souvent donné de la terreur aux ennemis de cét Estat ; c’est par ce noble mespris de la Vie, qu’on vous a pris en tant de meslées pour le Dieu des combats, &amp; qu’un mesme trouble ayant osté la conduitte aux Chefs, &amp; la resolution aux Soldats, il n’est jamais demeuré personne qui osast tourner visage, pour s’assurer si c’estoit un homme qui les faisoit fuïr. Mais à vous figurer par d’autres <ref target="#traits5">traits*</ref> &amp; pour arriver par degrez au rang que vous tenez aujourd’huy : Si l’on considere vostre <ref target="#naissance1">Naissance</ref>, vous avez avec avantage cette <ref target="#vertu2">vertu</ref> naturelle qui suit le sang, &amp; que nous appelons Noblesse. Si l’on regarde vostre <ref target="#fortune2">Fortune*</ref>, elle est grande, &amp; telle qu’estant moindre elle seroit au-dessous de ce que vous meritez. Si l’on veut connaistre vostre Esprit, il en éblouït beaucoup d’autres de ses lumieres ; si l’on jette les yeux sur vostre Jugement, les évenemens ne [le] surprenent jamais : si l’on s’informe enfin de vos Employs, ils sont importans. Le plus souverain des Monarques qui vous reconnaist pour l’un des plus Illustres sujets de sa Couronne, &amp; peut-estre pour le plus fidelle depositaire d’une partie de sa Puissance, ne vous occupe à rien que de considerable &amp; de glorieux, où tousjours par des actions qui vont jusqu’au prodige, vous soutenez contre toutes sortes de rebelles &amp; de factieux l’Authorité de ce Maistre qui peut tout. Quelque chose que j’aye pû dire, MONSEIGNEUR, il m’en reste à dire davantage, mais comme la Peinture n’a point trouvé jusqu’icy de <ref target="#traits2">traits</ref> pour bien representer la lumiere, l’Eloquence n’a point inventé de termes pour dignement loüer la <ref target="#vertu1">vertu*</ref> ; J’achéve donc par une impuissance de poursuivre, &amp; par la crainte de vous <ref target="#fascher2">fascher*</ref> par où je satisferois tout le monde, permettez-moy seulement encor un mot, pour vous assurer que je prise plus que toute ma vie le peu de temps que j’ay eu l’honneur d’estre auprés de vous, &amp; pour vous supplier de croire que je suis par naturelle inclination, &amp; par le souvenir de vos biensfaits,</p>
         <p>MONSEIGNEUR,</p>
         <p rend="right">Vostre tres-humble, tres-obeissant</p>
-        <p rend="right">&amp; tres-<ref target="#obliger4">obligé*</ref> <ref target="#serviteur2">serviteur*</ref>, BROSSE.</p>
+        <p rend="right">&amp; tres-<ref target="#obliger4">obligé*</ref>
+          <ref target="#serviteur2">serviteur*</ref>, BROSSE.</p>
       </div>
       <div xml:id="acteurs">
         <head>
@@ -478,7 +486,9 @@
             <l n="10" xml:id="l10">Exagera les <ref target="#soin3">soins</ref> qu’enfante un long veuvage,</l>
             <l n="11" xml:id="l11">Tu sçais encor comment d’un discours medité</l>
             <l n="12" xml:id="l12">Il me <ref target="#galantiser">galantisa*</ref> sur mon peu de beauté.</l>
-            <l n="13" xml:id="l13">Et puis comme<note n="125" place="bottom"> La langue classique emploie parfois <hi rend="i">comme</hi> au sens de <hi rend="i">comment</hi> dans les interrogations indirectes. « Ex. : […] <hi rend="i">Il importe peu de savoir</hi> <hi rend="b">comme</hi> <hi rend="i">on le diroit, puisqu’il n’y a pas lieu de le dire.</hi> (Vaugel., <hi rend="i">Rem.</hi>, I, 132.) » (Haase, <hi rend="i">Syntaxe française du XVII<hi rend="sup">e</hi> siècle</hi>, § 43, B, p. 90-92).</note> achevant ce compliment <ref target="#frivole">frivole</ref></l>
+            <l n="13" xml:id="l13">Et puis comme<note n="125" place="bottom"> La langue classique emploie parfois <hi rend="i">comme</hi> au sens de <hi rend="i">comment</hi> dans les interrogations indirectes. « Ex. : […] <hi rend="i">Il importe peu de savoir</hi>
+                <hi rend="b">comme</hi>
+                <hi rend="i">on le diroit, puisqu’il n’y a pas lieu de le dire.</hi> (Vaugel., <hi rend="i">Rem.</hi>, I, 132.) » (Haase, <hi rend="i">Syntaxe française du XVII<hi rend="sup">e</hi> siècle</hi>, § 43, B, p. 90-92).</note> achevant ce compliment <ref target="#frivole">frivole</ref></l>
             <l n="14" xml:id="l14">Un soupir preparé lui coupa la parole.</l>
           </sp>
           <sp who="nerine">
@@ -515,8 +525,15 @@
             <l n="34" xml:id="l34">Qu’avec <ref target="#estonnement">estonnement*</ref> tout l’Univers <ref target="#remarquer1">remarque*</ref>,</l>
             <l n="35" xml:id="l35">Pour se rendre justice &amp; rentrer dans ses droits</l>
             <l n="36" xml:id="l36">D’un siege bien formé pressoit les Dunquerquois,<note n="130" place="bottom"> Au début du XVII<hi rend="sup">e</hi> siècle, Dunkerque faisait partie des Pays-Bas espagnols. Au cours de la guerre de Trente Ans, la ville fut assiégée par les toupes françaises dirigées par le duc d’Enghien, futur Prince de Condé. Elle fut investie le 19 septembre 1646 et se rendit le 11 octobre de la même année. La prise de Dunkerque fut un événement de haute importance en France : un <hi rend="i">Te Deum</hi> fut chanté à cette occasion le 16 octobre 1646 et Sarrazin écrivit une <hi rend="i">Histoire du siége de Dunkerque</hi> ainsi qu’une ode.</note></l>
-            <l n="37" xml:id="l37">Cleanthe en attendant que j’essuirois<note n="131" place="bottom"> Après <hi rend="i">attendre</hi>, verbe dont le sens primitif comporte une « idée de désir ou de volonté », mais qui n’exprime plus « que le simple accomplissement d’une action », la langue classique emploie parfois le conditionnel au lieu du subjonctif. « Ex. <hi rend="i">Je ne vous écrivis point de nouvelles</hi>, <hi rend="b">attendant</hi> <hi rend="i">que ce message</hi> <hi rend="b">partiroit</hi> <hi rend="i">et vous</hi> <hi rend="b">porteroit</hi> <hi rend="i">ce qui seroit depuis survenu.</hi> (Malh., III, 26.) » (voir Haase, § 76, A, p. 180-181).</note> mes larmes</l>
-            <l n="38" xml:id="l38">Se resolut d’aller<note n="132" place="bottom"> « La langue actuelle, envisageant le complément de certains verbes comme un résultat à atteindre, le construit avec <hi rend="i">à</hi>, tandis que le XVII<hi rend="sup">e</hi> siècle, l’envisageant comme une cause, le construisait avec <hi rend="i">de</hi> : ainsi […] après […] <hi rend="i">se résoudre</hi> ; Ex. […] <hi rend="i">Elle</hi> <hi rend="b">se résolut de</hi> <hi rend="i">se sauver en Espagne.</hi> (La Rochef., <hi rend="i">Mém.</hi>, II, 33.) » (Haase, § 112, 2°, B, p. 287 et 292-293).</note> paraitre sous les armes,</l>
+            <l n="37" xml:id="l37">Cleanthe en attendant que j’essuirois<note n="131" place="bottom"> Après <hi rend="i">attendre</hi>, verbe dont le sens primitif comporte une « idée de désir ou de volonté », mais qui n’exprime plus « que le simple accomplissement d’une action », la langue classique emploie parfois le conditionnel au lieu du subjonctif. « Ex. <hi rend="i">Je ne vous écrivis point de nouvelles</hi>, <hi rend="b">attendant</hi>
+                <hi rend="i">que ce message</hi>
+                <hi rend="b">partiroit</hi>
+                <hi rend="i">et vous</hi>
+                <hi rend="b">porteroit</hi>
+                <hi rend="i">ce qui seroit depuis survenu.</hi> (Malh., III, 26.) » (voir Haase, § 76, A, p. 180-181).</note> mes larmes</l>
+            <l n="38" xml:id="l38">Se resolut d’aller<note n="132" place="bottom"> « La langue actuelle, envisageant le complément de certains verbes comme un résultat à atteindre, le construit avec <hi rend="i">à</hi>, tandis que le XVII<hi rend="sup">e</hi> siècle, l’envisageant comme une cause, le construisait avec <hi rend="i">de</hi> : ainsi […] après […] <hi rend="i">se résoudre</hi> ; Ex. […] <hi rend="i">Elle</hi>
+                <hi rend="b">se résolut de</hi>
+                <hi rend="i">se sauver en Espagne.</hi> (La Rochef., <hi rend="i">Mém.</hi>, II, 33.) » (Haase, § 112, 2°, B, p. 287 et 292-293).</note> paraitre sous les armes,</l>
             <l n="39" xml:id="l39">De <ref target="#signaler">signaler*</ref> son <ref target="#coeur1">cœur*</ref>, de servir son païs,</l>
             <l n="40" xml:id="l40">D’oster à l’Espagnol des Estats envahis</l>
             <l n="41" xml:id="l41">Et croistre de son Roy l’illustre Renommee</l>
@@ -590,7 +607,8 @@
             <l n="90" xml:id="l90">M’<ref target="#imposer1">imposoit</ref> de cacher la mienne dans mon ame.</l>
             <l n="91" xml:id="l91">Je l’ay fait par respect jusques à ce moment</l>
             <l n="92" xml:id="l92">Que je puis profiter de son aveuglement.</l>
-            <l n="93" xml:id="l93">Il finit, &amp; mon <ref target="#coeur4">cœur</ref> <ref target="#charmer">charmé*</ref> de sa parole</l>
+            <l n="93" xml:id="l93">Il finit, &amp; mon <ref target="#coeur4">cœur</ref>
+              <ref target="#charmer">charmé*</ref> de sa parole</l>
             <l n="94" xml:id="l94">Se fit au mesme instant l’Autel de cet idole,</l>
             <l n="95" xml:id="l95">Un regard languissant, un soupir estouffé</l>
             <l n="96" xml:id="l96">Luy dirent doucement qu’il avoit triomphé.</l>
@@ -675,13 +693,15 @@
             <l n="144" xml:id="l144">Je juge qu’il n’est pas bien guéry de vos <ref target="#coup3">coups*</ref>,</l>
             <l n="145" xml:id="l145">Doncques d’une voix triste, Olimpe, mon cher pere,</l>
             <l n="146" xml:id="l146">N’est plus, luy dis-je lors, en estat de vous plaire,</l>
-            <l n="147" xml:id="l147">De ce <ref target="#charmant">charmant*</ref> <ref target="#objet3">objet*</ref> les <ref target="#traits4">traits</ref> imperieux,</l>
+            <l n="147" xml:id="l147">De ce <ref target="#charmant">charmant*</ref>
+              <ref target="#objet3">objet*</ref> les <ref target="#traits4">traits</ref> imperieux,</l>
             <l n="148" xml:id="l148">S’ils furent le plaisir sont la peine des yeux,</l>
             <l n="149" xml:id="l149">Cette rare beauté d’un chacun regardee</l>
             <l n="150" xml:id="l150">N’est plus qu’un Estre feint, existant [en] idee,</l>
             <l n="151" xml:id="l151">Un tragique accident, un rigoureux destin,</l>
             <l n="152" xml:id="l152">A de tous ses <ref target="#appas2">appas*</ref> fait un triste butin.</l>
-            <l n="153" xml:id="l153">Là par le prompt secours d’une adréte<note n="141" place="bottom"><hi rend="i">Adréte</hi> : dans la langue classique, la graphie de l’adjectif <hi rend="i">adroite</hi> n’était pas fixée. Brosse ou son imprimeur l’orthographie également <hi rend="i">adraite</hi> et <hi rend="i">adraitte</hi> aux v. 1085 et 1309. La graphie <hi rend="i">adrète</hi> est conforme à la prononciation de cet adjectif au XVII<hi rend="sup">e</hi> siècle.</note> <ref target="#impostur">imposture*</ref></l>
+            <l n="153" xml:id="l153">Là par le prompt secours d’une adréte<note n="141" place="bottom"><hi rend="i">Adréte</hi> : dans la langue classique, la graphie de l’adjectif <hi rend="i">adroite</hi> n’était pas fixée. Brosse ou son imprimeur l’orthographie également <hi rend="i">adraite</hi> et <hi rend="i">adraitte</hi> aux v. 1085 et 1309. La graphie <hi rend="i">adrète</hi> est conforme à la prononciation de cet adjectif au XVII<hi rend="sup">e</hi> siècle.</note>
+              <ref target="#impostur">imposture*</ref></l>
             <l n="154" xml:id="l154">Au gré de mon desir je forme une <ref target="#aventure2">Aventure</ref>,</l>
             <l n="155" xml:id="l155">Et tâche ainsi d’esteindre en vous defigurant</l>
             <l n="156" xml:id="l156">Un feu qui me perdroit s’il devenoit plus grand.</l>
@@ -691,7 +711,8 @@
             <l n="157" xml:id="l157">L’<ref target="#artifice">artifice*</ref> est subtil, mais il n’est pas croyable</l>
             <l n="158" xml:id="l158">Qu’il soit à nos desseins bien long-temps favorable,</l>
             <l n="159" xml:id="l159">Vous verrez dedans peu Cleanthe detrompé</l>
-            <l n="160" xml:id="l160">Tant de vos vains discours soit-il préocupé<note n="142" place="bottom"><hi rend="i">Tant […] soit-il préoccupé</hi> : « <hi rend="b">Tant</hi>, remplaçant les adverbes <hi rend="i">quelque, tout, si</hi>, de la langue actuelle, se construisait dans l’ancienne langue avec un adjectif ou un autre adverbe, pour désigner un certain degré dans la pensée. Cette construction ne se rencontre plus guère qu’au commencement du XVII<hi rend="sup">e</hi> siècle. […] On intervertit souvent l’ordre des mots en supprimant le <hi rend="i">que</hi>, facultatif dans l’ancienne langue, en poésie […]. Ex. : <hi rend="i">Même ses courroux</hi>, <hi rend="b">tant</hi> <hi rend="i">soient-ils légitimes, Sont des marques de son amour.</hi> (Malh., I, 246, 23.) » (Haase, § 45, G, p. 96). En outre, au XVII<hi rend="sup">e</hi> siècle, <hi rend="i">préoccuper</hi> a exclusivement le sens de « prevenir, mettre dans l’esprit d’une personne les premieres impressions, les premieres connoissances d’une chose. La foiblesse de l’esprit de l’homme est telle, qu’il se <hi rend="i">preoccupe</hi> aisément, qu’il a du mal à effacer les impressions dont il est <hi rend="i">preoccupé</hi>, qui entrent les premieres dans son esprit […]. Les passions nous <hi rend="i">preoccupent</hi>, nous aveuglent, nous ostent la liberté du jugement. » (Furetière). Il faut donc comprendre les vers 159-160 ainsi : « Vous verrez dedans peu Cléanthe detrompé, si aveuglé qu’il soit par vos vains discours ».</note> ;</l>
+            <l n="160" xml:id="l160">Tant de vos vains discours soit-il préocupé<note n="142" place="bottom"><hi rend="i">Tant […] soit-il préoccupé</hi> : « <hi rend="b">Tant</hi>, remplaçant les adverbes <hi rend="i">quelque, tout, si</hi>, de la langue actuelle, se construisait dans l’ancienne langue avec un adjectif ou un autre adverbe, pour désigner un certain degré dans la pensée. Cette construction ne se rencontre plus guère qu’au commencement du XVII<hi rend="sup">e</hi> siècle. […] On intervertit souvent l’ordre des mots en supprimant le <hi rend="i">que</hi>, facultatif dans l’ancienne langue, en poésie […]. Ex. : <hi rend="i">Même ses courroux</hi>, <hi rend="b">tant</hi>
+                <hi rend="i">soient-ils légitimes, Sont des marques de son amour.</hi> (Malh., I, 246, 23.) » (Haase, § 45, G, p. 96). En outre, au XVII<hi rend="sup">e</hi> siècle, <hi rend="i">préoccuper</hi> a exclusivement le sens de « prevenir, mettre dans l’esprit d’une personne les premieres impressions, les premieres connoissances d’une chose. La foiblesse de l’esprit de l’homme est telle, qu’il se <hi rend="i">preoccupe</hi> aisément, qu’il a du mal à effacer les impressions dont il est <hi rend="i">preoccupé</hi>, qui entrent les premieres dans son esprit […]. Les passions nous <hi rend="i">preoccupent</hi>, nous aveuglent, nous ostent la liberté du jugement. » (Furetière). Il faut donc comprendre les vers 159-160 ainsi : « Vous verrez dedans peu Cléanthe detrompé, si aveuglé qu’il soit par vos vains discours ».</note> ;</l>
             <l n="161" xml:id="l161">Je veux qu’estant aveugle il ne puisse conaître</l>
             <l n="162" xml:id="l162">Qu’au bal, sans me masquer, je puis encor paraître,</l>
             <l n="163" xml:id="l163">Je veux que vôtre sœur ayde à nostre projet,</l>
@@ -974,7 +995,8 @@
           </sp>
           <sp who="cleanthe">
             <speaker>CLEANTHE</speaker>
-            <l n="333" xml:id="l333">Mon fils m’a raconté ce <ref target="#succez">succez*</ref> <ref target="#lamentable">lamentable*</ref>,</l>
+            <l n="333" xml:id="l333">Mon fils m’a raconté ce <ref target="#succez">succez*</ref>
+              <ref target="#lamentable">lamentable*</ref>,</l>
             <l n="334" xml:id="l334">Mais faites m’en vous-mesme un recit <ref target="#veritable">veritable</ref>,</l>
             <l n="335" xml:id="l335"><ref target="#peindre1">Peignez</ref> cet accident de ses vives couleurs. <pb n="20"/></l>
             <l n="336" xml:id="l336">Et que l’ayant oüy, je sente vos douleurs.</l>
@@ -1214,7 +1236,8 @@
             <l n="450" xml:id="l450">Mettent avec vos biens Thelame en equilibre.</l>
           </sp>
           <sp who="cleanthe">
-            <speaker>CLEANTHE, <hi rend="i">Il prend Thelame.</hi> </speaker>
+            <speaker>CLEANTHE, <hi rend="i">Il prend Thelame.</hi>
+            </speaker>
             <l n="451" xml:id="l451">Impertinent valet, qui t’oses ingerer</l>
             <l n="452" xml:id="l452">De me donner conseil &amp; de me censurer,</l>
             <l n="453" xml:id="l453">Tu seras satisfait de ta belle harangue,</l>
@@ -1290,7 +1313,8 @@
             <l n="482" xml:id="l482">Qu’aux experts en cet Art tu servirois de maitre.</l>
             <l n="483" xml:id="l483">Tu sçauras en allant de mes ordres exprés<note n="176" place="bottom"><hi rend="i">Exprés</hi> : « Qui est précis, en termes formels pour une cause ou un dessein particulier. […] Il a eu un ordre <hi rend="i">exprés</hi> de faire telle ou telle chose » (Furetière).</note></l>
             <l n="484" xml:id="l484">Comment il faut mener mes intrigues<note n="177" place="bottom"><hi rend="i">Intrigue</hi> : « La pluspart font ce mot feminin, je dis la <hi rend="i">pluspart</hi>, parce qu’il y en a qui le font de l’autre genre ; […]. C’est un nouveau mot pris de l’Italien, qui neantmoins est fort bon, &amp; fort en usage » (Vaugelas, <hi rend="i">Remarques sur la langue françoise</hi>, p. 126).</note> secrets,</l>
-            <l n="485" xml:id="l485">Je t’instruiray du temps où ta <ref target="#naif">naïve*</ref> <ref target="#adresse2">adresse*</ref></l>
+            <l n="485" xml:id="l485">Je t’instruiray du temps où ta <ref target="#naif">naïve*</ref>
+              <ref target="#adresse2">adresse*</ref></l>
             <l n="486" xml:id="l486">Pourra si tu le veux répondre à ta promesse.</l>
           </sp>
         </div>
@@ -1372,7 +1396,9 @@
           <sp who="sylvestre">
             <speaker>SYLVESTRE</speaker>
             <l part="Y"><space/><space/>Attendez donc que vous soyez vers elle,</l>
-            <l n="534" xml:id="l534">Vous ressemblez<note n="183" place="bottom"><hi rend="i">Ressembler</hi> : « Beaucoup de verbes, intransitifs aujourd’hui, étaient transitifs au XVII<hi rend="sup">e</hi> siècle, comme dans l’ancienne langue. […] Ex. : <hi rend="i">Ses pleurs…</hi> <hi rend="b">Ressemblent</hi> <hi rend="i">un torrent</hi>. (Malh., I, 15, 304.) » (Haase, § 59, p. 126 et 137).</note> les chiens de chez Jean de Nivelle<note n="184" place="bottom">Sylvestre fait allusion au proverbe « c’est le chien de Jean de Nivelle qui s’enfuit quand on l’appelle », qui s’emploie à propos de quelqu’un de peu complaisant ou d’insaisissable, qui se dérobe quand on a besoin de lui. Sylvestre n’utilise donc pas ce proverbe dans son sens traditionnel.</note>,</l>
+            <l n="534" xml:id="l534">Vous ressemblez<note n="183" place="bottom"><hi rend="i">Ressembler</hi> : « Beaucoup de verbes, intransitifs aujourd’hui, étaient transitifs au XVII<hi rend="sup">e</hi> siècle, comme dans l’ancienne langue. […] Ex. : <hi rend="i">Ses pleurs…</hi>
+                <hi rend="b">Ressemblent</hi>
+                <hi rend="i">un torrent</hi>. (Malh., I, 15, 304.) » (Haase, § 59, p. 126 et 137).</note> les chiens de chez Jean de Nivelle<note n="184" place="bottom">Sylvestre fait allusion au proverbe « c’est le chien de Jean de Nivelle qui s’enfuit quand on l’appelle », qui s’emploie à propos de quelqu’un de peu complaisant ou d’insaisissable, qui se dérobe quand on a besoin de lui. Sylvestre n’utilise donc pas ce proverbe dans son sens traditionnel.</note>,</l>
             <l n="535" xml:id="l535">Vous abbayez de loing. Avancez, Alte-là.</l>
             <l n="536" xml:id="l536">Tournez-vous autrement, parlez, vous y voila.</l>
           </sp>
@@ -1447,7 +1473,8 @@
             <l n="584" xml:id="l584">Jusqu’icy dans vos fers ait mon <ref target="#coeur4">cœur</ref> arresté,</l>
             <l n="585" xml:id="l585">Je pourrois devenir à ce compte idolatre</l>
             <l n="586" xml:id="l586">D’une image de pierre, ou de toile, ou de plastre,</l>
-            <l n="587" xml:id="l587">Oüy si je m’attachois à ces <ref target="#frivole">frivoles</ref> <ref target="#traits4">traits</ref>, <pb n="38"/></l>
+            <l n="587" xml:id="l587">Oüy si je m’attachois à ces <ref target="#frivole">frivoles</ref>
+              <ref target="#traits4">traits</ref>, <pb n="38"/></l>
             <l n="588" xml:id="l588">Les femmes me plairoient bien moins que leurs portraits.</l>
             <l n="589" xml:id="l589">Ah ! ne croyez donc pas que sur ces apparences</l>
             <l n="590" xml:id="l590">Mon inclination fonde ses esperances,</l>
@@ -1544,7 +1571,9 @@
             <l n="639" xml:id="l639">Sa passion luy pleut avant son mauvais sort,</l>
             <l n="640" xml:id="l640">Et l’œil sec maintenant, elle le verroit mort.</l>
             <l n="641" xml:id="l641">Ah ! Madame, évitez ce reproche sensible,</l>
-            <l n="642" xml:id="l642">Laissez-vous <ref target="#surmonter">surmonter*</ref> à<note n="189" place="bottom"> « Un <hi rend="i">infinitif</hi> passif dépendant de <hi rend="i">laisser</hi> ou <hi rend="i">faire</hi> à la voix pronominale se construisait avec <hi rend="i">à</hi> au XVII<hi rend="sup">e</hi> siècle, et non pas avec <hi rend="i">par</hi> ou <hi rend="i">de</hi>, comme d’ordinaire dans la langue actuelle. Ex. : […] <hi rend="i">Mes frères… ne vous</hi> <hi rend="b">laissez pas séduire <hi rend="i">à</hi></hi> <hi rend="i">Satan</hi> (Boss., <hi rend="i">Serm. sur les Démons</hi> [1660], 2) » (Haase, § 125, E, Rem. II, p. 337).</note> sa flame invincible,</l>
+            <l n="642" xml:id="l642">Laissez-vous <ref target="#surmonter">surmonter*</ref> à<note n="189" place="bottom"> « Un <hi rend="i">infinitif</hi> passif dépendant de <hi rend="i">laisser</hi> ou <hi rend="i">faire</hi> à la voix pronominale se construisait avec <hi rend="i">à</hi> au XVII<hi rend="sup">e</hi> siècle, et non pas avec <hi rend="i">par</hi> ou <hi rend="i">de</hi>, comme d’ordinaire dans la langue actuelle. Ex. : […] <hi rend="i">Mes frères… ne vous</hi>
+                <hi rend="b">laissez pas séduire <hi rend="i">à</hi></hi>
+                <hi rend="i">Satan</hi> (Boss., <hi rend="i">Serm. sur les Démons</hi> [1660], 2) » (Haase, § 125, E, Rem. II, p. 337).</note> sa flame invincible,</l>
             <l n="643" xml:id="l643">Malgré les faux <ref target="#rapport1">rapports</ref> que l’on luy fait de vous,</l>
             <l n="644" xml:id="l644">Sa plus ardente envie est d’estre vostre espoux,</l>
             <l n="645" xml:id="l645">Ce constant <ref target="#serviteur1">serviteur*</ref> vous aime en toute forme,</l>
@@ -1672,7 +1701,8 @@
             <l n="731" xml:id="l731">J’ay trop insolemment <ref target="#choquer1">choqué*</ref> vos volontez,</l>
             <l n="732" xml:id="l732">Montrez-moy vos rigueurs, cachez moy vos bontez,</l>
             <l n="733" xml:id="l733">Je dois estre de vous severement punie</l>
-            <l n="734" xml:id="l734">D’avoir de [Thelame]<note n="190" place="bottom"> Nous corrigeons. Le texte de l’édition originale donne le nom de <hi rend="i">Lidamas</hi>. Or <hi rend="i">tyrannie</hi> est un terme appartenant au vocabulaire galant du XVII<hi rend="sup">e</hi> siècle et signifie « rigueur, empire amoureux » (Richelet), Mélice fait donc allusion au pouvoir exercé sur elle par son amant, et non à une quelconque emprise de son frère.</note> <ref target="#souffrir3">souffert</ref> la tyrannie,</l>
+            <l n="734" xml:id="l734">D’avoir de [Thelame]<note n="190" place="bottom"> Nous corrigeons. Le texte de l’édition originale donne le nom de <hi rend="i">Lidamas</hi>. Or <hi rend="i">tyrannie</hi> est un terme appartenant au vocabulaire galant du XVII<hi rend="sup">e</hi> siècle et signifie « rigueur, empire amoureux » (Richelet), Mélice fait donc allusion au pouvoir exercé sur elle par son amant, et non à une quelconque emprise de son frère.</note>
+              <ref target="#souffrir3">souffert</ref> la tyrannie,</l>
             <l n="735" xml:id="l735">Cette indigne souffrance est une lâcheté</l>
             <l n="736" xml:id="l736">Qui ne se doit toucher que d’un bras irrité.</l>
           </sp>
@@ -1723,7 +1753,9 @@
             <l n="773" xml:id="l773">Il luy faut sans <ref target="#demeure">demeure*</ref> addresser une lettre</l>
             <l n="774" xml:id="l774">Qui l’assure d’un bien qu’il n’osoit se promettre,</l>
             <l n="775" xml:id="l775">Prenez viste la plume, &amp; couchez par escrit</l>
-            <l n="776" xml:id="l776">Une suite de mots qui me vient dans l’esprit<note n="195" place="bottom"> « La préposition <hi rend="i">dans</hi> s’emploie dans le sens où la langue actuelle se sert de la préposition <hi rend="i">à</hi>. Ex. : […] <hi rend="i">Le nom que</hi> <hi rend="b">dans la cour</hi> <hi rend="i">vous avez d’honnête homme…</hi>(Mol., <hi rend="i">Mis.</hi>, I, 2, 370.) » (Haase, § 126, A, p. 346-347).</note>.</l>
+            <l n="776" xml:id="l776">Une suite de mots qui me vient dans l’esprit<note n="195" place="bottom"> « La préposition <hi rend="i">dans</hi> s’emploie dans le sens où la langue actuelle se sert de la préposition <hi rend="i">à</hi>. Ex. : […] <hi rend="i">Le nom que</hi>
+                <hi rend="b">dans la cour</hi>
+                <hi rend="i">vous avez d’honnête homme…</hi>(Mol., <hi rend="i">Mis.</hi>, I, 2, 370.) » (Haase, § 126, A, p. 346-347).</note>.</l>
           </sp>
           <sp who="melice">
             <speaker>MELICE <hi rend="i">bas.</hi></speaker>
@@ -1806,10 +1838,12 @@
             <l n="811" xml:id="l811">Dictez.</l>
           </sp>
           <sp who="cleanthe">
-            <speaker>CLEANTHE <hi rend="i">dicte.</hi><note n="199" place="bottom">Pendant qu’il dicte sa lettre, Cléanthe lève « par deux fois la main pour […] frapper » Mélice, comme en témoigne les vers 828 à 830.</note> <pb n="52"/></speaker>
-            <p rend="center i">Lettre.</p>
+            <speaker>CLEANTHE <hi rend="i">dicte.</hi><note n="199" place="bottom">Pendant qu’il dicte sa lettre, Cléanthe lève « par deux fois la main pour […] frapper » Mélice, comme en témoigne les vers 828 à 830.</note>
+              <pb n="52"/></speaker>
+            <label>Lettre.</label>
             <l part="Y"><space/>Monsieur, sçachez que ma fille veut bien</l>
-            <l n="812" xml:id="l812">Qu’un <ref target="#celebre">celebre*</ref> <ref target="#hymen">hymenée*</ref> à vostre fils l’unisse,</l>
+            <l n="812" xml:id="l812">Qu’un <ref target="#celebre">celebre*</ref>
+              <ref target="#hymen">hymenée*</ref> à vostre fils l’unisse,</l>
             <l n="813" xml:id="l813">Qu’il vienne promptement, &amp; n’apprehende rien,</l>
             <l n="814" xml:id="l814">Comme il plaist à Cleanthe, il agree à Melice.</l>
             <p/>
@@ -1843,7 +1877,7 @@
             <l n="836" xml:id="l836">Je veux bien estant seul tout haut le réciter.</l>
             <l n="837" xml:id="l837">Pour le vieux Parmenon, cette fille insensee</l>
             <l n="838" xml:id="l838">A suivy son caprice, &amp; non pas ma pensee.</l>
-            <p rend="center i">Lettre.</p>
+            <label>Lettre.</label>
             <l n="839" xml:id="l839">Monsieur ce mot d’escrit est pour vous avertir</l>
             <l n="840" xml:id="l840">Que vostre fils n’est pas un party pour ma fille,</l>
             <l n="841" xml:id="l841">Tout mon sang se revolte, &amp; ne peut consentir</l>
@@ -1857,7 +1891,7 @@
             <stage>(Il prend l’autre lettre.)</stage>
             <l n="845" xml:id="l845">Cette autre est de sa part addressee à Thelame</l>
             <l n="846" xml:id="l846">Voyons les beaux projets que forme cette infame.</l>
-            <p rend="center i">Lettre.</p>
+            <label>Lettre.</label>
             <l n="847" xml:id="l847">Seul &amp; doux espoir de mes yeux</l>
             <l n="848" xml:id="l848">Puis que le desespoir vous bannit de ces lieux,</l>
             <l n="849" xml:id="l849">Apprenez que je vous veux suivre ;    [54]</l>
@@ -1973,7 +2007,8 @@
             <l n="904" xml:id="l904">A des attraits passez, à des masques présens ?</l>
           </sp>
           <sp who="cleanthe">
-            <speaker>CLEANTHE <hi rend="i">frappant Lidamas.</hi> </speaker>
+            <speaker>CLEANTHE <hi rend="i">frappant Lidamas.</hi>
+            </speaker>
             <l n="905" xml:id="l905">Reçoy, mauvais censeur, homme plein d’insolence</l>
             <l n="906" xml:id="l906">D’un plus grand chastiment un soufflet par avance.</l>
             <l n="907" xml:id="l907">Olimpe pour ta veuë est un <ref target="#objet3">objet*</ref> trop haut,</l>
@@ -2013,7 +2048,9 @@
           <sp who="lidamas">
             <speaker>LIDAMAS</speaker>
             <l n="923" xml:id="l923">Pendant leur different qui <ref target="#flatter3">flatte</ref> mon desir</l>
-            <l n="924" xml:id="l924">Pour la seconde fois tâchons à<note n="209" place="bottom"> « Les verbes <hi rend="i">tâcher, essayer, s’efforcer</hi>, se construisent aujourd’hui généralement avec <hi rend="i">de</hi> devant un infinitif, tandis qu’ils s’employaient très souvent avec <hi rend="b">à</hi> au XVII<hi rend="sup">e</hi> siècle. Th. Corneille (II, 151) préfère <hi rend="i">tâcher</hi> <hi rend="b">de</hi> et exige <hi rend="i">essayer</hi> <hi rend="b">de</hi> » (Haase, § 124, 1°, rem. II, p. 330).</note> reüssir.</l>
+            <l n="924" xml:id="l924">Pour la seconde fois tâchons à<note n="209" place="bottom"> « Les verbes <hi rend="i">tâcher, essayer, s’efforcer</hi>, se construisent aujourd’hui généralement avec <hi rend="i">de</hi> devant un infinitif, tandis qu’ils s’employaient très souvent avec <hi rend="b">à</hi> au XVII<hi rend="sup">e</hi> siècle. Th. Corneille (II, 151) préfère <hi rend="i">tâcher</hi>
+                <hi rend="b">de</hi> et exige <hi rend="i">essayer</hi>
+                <hi rend="b">de</hi> » (Haase, § 124, 1°, rem. II, p. 330).</note> reüssir.</l>
           </sp>
           <sp who="sylvestre">
             <speaker>SYLVESTRE</speaker>
@@ -2273,7 +2310,9 @@
             <l n="1031" xml:id="l1031">Cruelle à quel dessein me tiens-tu ce propos ?</l>
             <l n="1032" xml:id="l1032">Pourquoy <ref target="#traverser">traverses*</ref>-tu ma flame &amp; mon repos ?</l>
             <l n="1033" xml:id="l1033">Quelle haine <ref target="#couvert4">couverte*</ref>, &amp; quelle noire envie</l>
-            <l n="1034" xml:id="l1034">Te fait en mon amour attenter sur<note n="217" place="bottom"> « <hi rend="b">Sur</hi> s’emploie dans des phrases que la langue actuelle construit ou préfère construire avec l[a] préposition […] <hi rend="i">à</hi> : Ex. […] <hi rend="i">Vous vous</hi> <hi rend="b">arrêtez sur</hi> <hi rend="i">celle (la doctrine) de F. (Pasc., Prov., XII</hi>) » (Haase, § 128, B, p. 351).</note> ma vie ?</l>
+            <l n="1034" xml:id="l1034">Te fait en mon amour attenter sur<note n="217" place="bottom"> « <hi rend="b">Sur</hi> s’emploie dans des phrases que la langue actuelle construit ou préfère construire avec l[a] préposition […] <hi rend="i">à</hi> : Ex. […] <hi rend="i">Vous vous</hi>
+                <hi rend="b">arrêtez sur</hi>
+                <hi rend="i">celle (la doctrine) de F. (Pasc., Prov., XII</hi>) » (Haase, § 128, B, p. 351).</note> ma vie ?</l>
             <l n="1035" xml:id="l1035">D’où te naissent ces <ref target="#soin2">soins*</ref> que je n’approuve pas</l>
             <l n="1036" xml:id="l1036">Et qui<note n="218" place="bottom"> Qu’est-ce-qui. En langue classique le pronom sujet <hi rend="i">qui</hi> peut référer à de l’animé ou à du non animé.</note> te porte enfin à blâmer Lidamas ?</l>
           </sp>
@@ -2427,7 +2466,7 @@
             <l n="1134" xml:id="l1134">La plume de Thelame escrit de cette sorte,</l>
             <l n="1135" xml:id="l1135">L’<ref target="#adresse3">addresse*</ref> est à Melice, ó Ciel ce suborneur</l>
             <l n="1136" xml:id="l1136">Tend infailliblement un piege à son honneur.</l>
-            <p rend="center i">Lettre.</p>
+            <label>Lettre.</label>
             <l n="1137" xml:id="l1137">Madame j’ay leu vostre lettre</l>
             <l n="1138" xml:id="l1138">Qui veut m’<ref target="#obliger1">obliger</ref> à promettre</l>
             <l n="1139" xml:id="l1139">De marquer mon depart par vostre enlevement,</l>
@@ -2476,7 +2515,9 @@
             <l n="1171" xml:id="l1171">Madame la voici, ne vous tourmentez plus,</l>
             <l n="1172" xml:id="l1172">Vostre pere &amp; Sylvestre avoient les pieds dessus.</l>
             <l n="1173" xml:id="l1173">Mais l’un estant aveugle, &amp; de bonne <ref target="#aventure3">aventure*</ref></l>
-            <l n="1174" xml:id="l1174">L’autre n’ayant jamais rien sceu dans<note n="234" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, la préposition <hi rend="i">dans</hi> s’emploie dans le sens où le français moderne se sert de la préposition <hi rend="i">de</hi>. « Ex. : […] <hi rend="i">Et ce que le soldat</hi>, <hi rend="b">dans</hi> <hi rend="i">son devoir</hi> <hi rend="b">instruit</hi>, <hi rend="i">Montre d’obéissance au chef qui le conduit</hi> (Mol., <hi rend="i">Ec. d. f.</hi>, III, 2, 705) » (Haase, § 126, 3°, C, p. 347).</note> la lecture,</l>
+            <l n="1174" xml:id="l1174">L’autre n’ayant jamais rien sceu dans<note n="234" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, la préposition <hi rend="i">dans</hi> s’emploie dans le sens où le français moderne se sert de la préposition <hi rend="i">de</hi>. « Ex. : […] <hi rend="i">Et ce que le soldat</hi>, <hi rend="b">dans</hi>
+                <hi rend="i">son devoir</hi>
+                <hi rend="b">instruit</hi>, <hi rend="i">Montre d’obéissance au chef qui le conduit</hi> (Mol., <hi rend="i">Ec. d. f.</hi>, III, 2, 705) » (Haase, § 126, 3°, C, p. 347).</note> la lecture,</l>
             <l n="1175" xml:id="l1175">Je ne m’<ref target="#estonner2">estonne</ref> point s’ils n’ont pas <ref target="#amasser">amassé*</ref></l>
             <l n="1176" xml:id="l1176">Cet escrit que Thelame a lui mesme tracé.</l>
           </sp>
@@ -2643,7 +2684,8 @@
             <l n="1277" xml:id="l1277">Ainsi vous jugerez avec plus d’assurance</l>
             <l n="1278" xml:id="l1278">Si des <ref target="#objet1">objets</ref> présens le droict a connoissance</l>
             <l n="1279" xml:id="l1279">Et si de mon sommeil, les bijares<note n="243" place="bottom"><hi rend="i">Bijares</hi> : Vaugelas dit que « bigearre » et « bizarre » sont « tous deux […] bons » (<hi rend="i">Remarques</hi>, p. 330).</note> tableaux</l>
-            <l n="1280" xml:id="l1280">Estoient remplis de <ref target="#traits2">traits</ref> <ref target="#veritable">veritables</ref> ou faux.</l>
+            <l n="1280" xml:id="l1280">Estoient remplis de <ref target="#traits2">traits</ref>
+              <ref target="#veritable">veritables</ref> ou faux.</l>
           </sp>
           <sp who="cleanthe">
             <speaker>CLEANTHE</speaker>
@@ -2654,7 +2696,8 @@
             <l n="1282" xml:id="l1282">Sortez.</l>
           </sp>
           <sp who="cleanthe">
-            <speaker>CLEANTHE <hi rend="i">arrestant Thelame.</hi> </speaker>
+            <speaker>CLEANTHE <hi rend="i">arrestant Thelame.</hi>
+            </speaker>
             <l part="Y"><space/><space/>Vous avez fait un songe <ref target="#veritable">veritable</ref><pb n="78=86"/></l>
             <l n="1283" xml:id="l1283">Melice je vous voy, je voy Thelame aussi</l>
             <l n="1284" xml:id="l1284">O Ciel ! qu’heureusement ce songe a reussy.</l>
@@ -2806,7 +2849,9 @@
             <l n="1361" xml:id="l1361">Jaloux que ce beau feu qui s’allume en vos veines</l>
             <l n="1362" xml:id="l1362">Rende en le supplantant ses esperances vaines,</l>
             <l n="1363" xml:id="l1363">D’un plein commandement m’a fait vous desservir</l>
-            <l n="1364" xml:id="l1364">Vers<note n="249" place="bottom"> « <hi rend="b">Vers</hi> avait, comme dans l’ancienne langue, l’acception de <hi rend="i">envers</hi> ; cet emploi se rencontre encore après le XVII<hi rend="sup">e</hi> siècle. Ex. : <hi rend="i">Et les Maures défaits… Ne sont point des exploits qui laissent à ton roi Le moyen ni l’espoir de</hi> <hi rend="b">s’acquitter vers</hi> <hi rend="i">toi</hi>. (Corn., <hi rend="i">Cid</hi>, IV, 3, 1220) » (Haase, § 127, B, p. 349).</note> le plus digne <ref target="#objet3">objet*</ref> qui vous pouvoit <ref target="#ravir2">ravir*</ref>.</l>
+            <l n="1364" xml:id="l1364">Vers<note n="249" place="bottom"> « <hi rend="b">Vers</hi> avait, comme dans l’ancienne langue, l’acception de <hi rend="i">envers</hi> ; cet emploi se rencontre encore après le XVII<hi rend="sup">e</hi> siècle. Ex. : <hi rend="i">Et les Maures défaits… Ne sont point des exploits qui laissent à ton roi Le moyen ni l’espoir de</hi>
+                <hi rend="b">s’acquitter vers</hi>
+                <hi rend="i">toi</hi>. (Corn., <hi rend="i">Cid</hi>, IV, 3, 1220) » (Haase, § 127, B, p. 349).</note> le plus digne <ref target="#objet3">objet*</ref> qui vous pouvoit <ref target="#ravir2">ravir*</ref>.</l>
           </sp>
           <sp who="lidamas">
             <speaker>LIDAMAS</speaker>
@@ -3219,7 +3264,8 @@
           </sp>
           <sp who="cleanthe">
             <speaker>CLEANTHE</speaker>
-            <l n="1560" xml:id="l1560">Vous a fait un affront, <ref target="#charmant">charmant*</ref> <ref target="#objet3">objet*</ref> que j’ayme,</l>
+            <l n="1560" xml:id="l1560">Vous a fait un affront, <ref target="#charmant">charmant*</ref>
+              <ref target="#objet3">objet*</ref> que j’ayme,</l>
             <l n="1561" xml:id="l1561">Oser se prendre à vous c’est s’attaquer à moy,</l>
             <l n="1562" xml:id="l1562">Mais apprenez m’en l’heure, &amp; comment, &amp; pourquoy ?</l>
           </sp>
@@ -3342,7 +3388,8 @@
             <l n="1632" xml:id="l1632">Vous mettez hors de temps les feintes en usage,</l>
             <l n="1633" xml:id="l1633">Ne dissimulez plus, vostre <ref target="#artifice">Artifice*</ref> est sçeu,    </l>
             <l n="1634" xml:id="l1634">Et qui pensoit tromper, s’est luy-mesme deçeu<note n="285" place="bottom"><hi rend="i">Decevoir</hi> : Furetière donne exclusivement le sens de « Tromper adroitement ».</note>.</l>
-            <l n="1635" xml:id="l1635">Nos <ref target="#traits5">traits*</ref> divertissants, nos galantes<note n="286" place="bottom"><hi rend="i">Galantes</hi> : « se dit aussi, Des choses. <hi rend="i">Il a l’air galant, la façon galante, l’esprit galant, les manieres galantes</hi>, pour dire, Agreables, polies, &amp;c. » (Académie) ; « Eveillé, beau, agréable, enjoüé, charmant » (Richelet).</note> <ref target="#adresse2">addresses*</ref>,</l>
+            <l n="1635" xml:id="l1635">Nos <ref target="#traits5">traits*</ref> divertissants, nos galantes<note n="286" place="bottom"><hi rend="i">Galantes</hi> : « se dit aussi, Des choses. <hi rend="i">Il a l’air galant, la façon galante, l’esprit galant, les manieres galantes</hi>, pour dire, Agreables, polies, &amp;c. » (Académie) ; « Eveillé, beau, agréable, enjoüé, charmant » (Richelet).</note>
+              <ref target="#adresse2">addresses*</ref>,</l>
             <l n="1636" xml:id="l1636">Prouvent que nous estions instruits de vos finesses.</l>
             <l n="1637" xml:id="l1637">Et si vous desiriez<note n="287" place="bottom"> « Le conditionnel présent n’était pas rare autrefois dans les propositions conditionnelles subordonnées commençant par <hi rend="i">si</hi>, et persista jusque dans le XVII<hi rend="sup">e</hi> siècle » (Haase, § 66, C, p. 160).</note> que je m’explique mieux,</l>
             <l n="1638" xml:id="l1638">Olimpe est sans attraits, ainsi que vous sans yeux.</l>
@@ -3464,7 +3511,9 @@
       </div>
       <div type="appendix" xml:id="privilege">
         <head>Extraict du Privilege du Roy.</head>
-        <p>Par grace &amp; privilege du Roy donné à Paris le 10. jour de Novembre 1649. Signé, Par le Roy en son Conseil, Le Brun. Il est permis à Toussainct Quinet Marchand Libraire à Paris, d’imprimer ou faire imprimer, vendre &amp; distribuer une piece de Theatre intitulée, <hi rend="i">L’Aveugle Clair-voyant, Comedie, du sieur Brosse</hi>, pendant le temps de cinq ans entiers &amp; accomplis. Et defenses sont faites à tous Imprimeurs, Libraires &amp; autres, de contrefaire le dit Livre, ny le vendre ou exposer en vente d’autre impression que de celle qu’il a fait faire, à peine de trois mil livres d’amende, &amp; de tous despens, dommages &amp; interests, ainsi qu’il est plus amplement porté par lesdites Lettres, qui sont en <ref target="#vertu3">vertu</ref> du present extrait tenuës pour bien &amp; deuëment signifiees, à ce qu’aucun<note n="293" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, « <hi rend="i">aucun</hi>, pronom substantif sans antécédent, s’emploie dans le sens de <hi rend="i">personne</hi> dans une proposition négative. Cf. <hi rend="i">Que chacun se retire et qu’</hi><hi rend="b">aucun</hi> <hi rend="i">n’entre ici.</hi> (Corn., <hi rend="i">Cinna</hi>, II, 1, 355.) – <hi rend="i">Deux jours s’étoient passés sans qu’</hi><hi rend="b">aucun</hi> <hi rend="i">vînt au puits.</hi> (La Font., <hi rend="i">Fables</hi>, XI, 6, 25.) » (Haase, § 50, B, Rem. II, p. 107).</note> n’en pretende cause d’ignorance.</p>
+        <p>Par grace &amp; privilege du Roy donné à Paris le 10. jour de Novembre 1649. Signé, Par le Roy en son Conseil, Le Brun. Il est permis à Toussainct Quinet Marchand Libraire à Paris, d’imprimer ou faire imprimer, vendre &amp; distribuer une piece de Theatre intitulée, <hi rend="i">L’Aveugle Clair-voyant, Comedie, du sieur Brosse</hi>, pendant le temps de cinq ans entiers &amp; accomplis. Et defenses sont faites à tous Imprimeurs, Libraires &amp; autres, de contrefaire le dit Livre, ny le vendre ou exposer en vente d’autre impression que de celle qu’il a fait faire, à peine de trois mil livres d’amende, &amp; de tous despens, dommages &amp; interests, ainsi qu’il est plus amplement porté par lesdites Lettres, qui sont en <ref target="#vertu3">vertu</ref> du present extrait tenuës pour bien &amp; deuëment signifiees, à ce qu’aucun<note n="293" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, « <hi rend="i">aucun</hi>, pronom substantif sans antécédent, s’emploie dans le sens de <hi rend="i">personne</hi> dans une proposition négative. Cf. <hi rend="i">Que chacun se retire et qu’</hi><hi rend="b">aucun</hi>
+            <hi rend="i">n’entre ici.</hi> (Corn., <hi rend="i">Cinna</hi>, II, 1, 355.) – <hi rend="i">Deux jours s’étoient passés sans qu’</hi><hi rend="b">aucun</hi>
+            <hi rend="i">vînt au puits.</hi> (La Font., <hi rend="i">Fables</hi>, XI, 6, 25.) » (Haase, § 50, B, Rem. II, p. 107).</note> n’en pretende cause d’ignorance.</p>
         <p rend="i">Achevé d’imprimer pour la premiere fois <lb/>le 2. Mars 1650.</p>
         <p rend="b">Les exemplaires ont esté fournis.</p>
       </div>
@@ -3483,118 +3532,118 @@
         <entryFree xml:id="abord">
           <form>Abord</form>
           <def>« Aproche, arrivée [(…) éviter l’abord des galans. <hi rend="i">Mol. Bour.</hi> (…) ] » (R)</def>
-          <xr rend="b">V. <ref target="#l184">184</ref>, <ref target="#l580">580</ref>, <ref target="#l713">713</ref>, <ref target="#l1078">1078</ref>, <ref target="#l1650">1650</ref>.</xr>
+          <xr>V. <ref target="#l184">184</ref>, <ref target="#l580">580</ref>, <ref target="#l713">713</ref>, <ref target="#l1078">1078</ref>, <ref target="#l1650">1650</ref>.</xr>
         </entryFree>
         <entryFree xml:id="abus">
           <form>Abus</form>
           <def>« Signifie aussi, Erreur, tromperie. » (F)</def>
-          <xr rend="b">V. <ref target="#l499">499</ref>, <ref target="#l1592">1592</ref>.</xr>
+          <xr>V. <ref target="#l499">499</ref>, <ref target="#l1592">1592</ref>.</xr>
         </entryFree>
         <entryFree>
-          <form>Adresse (également orthographié <hi rend="i">addresse</hi>)</form>
+          <form>Adresse, addresse</form>
           <def xml:id="adresse1">« Se dit figurément de la subtilité de l’esprit. Il faut beaucoup d’<hi rend="i">adresse</hi> pour conduire une piece de theatre » (F)</def>
           <xr>V. <ref target="#l710">710</ref>.</xr>
           <def xml:id="adresse2">« Artifice, ruse, finesse. <hi rend="i">L’avis de Laonice est sans doute une adresse</hi> (Corn.) » (Gaston Cayrou)</def>
-          <xr rend="b">V. <ref target="#l117">117</ref>, <ref target="#l305">305</ref>, <ref target="#l485">485</ref>, <ref target="#l1197">1197</ref>, <ref target="#l1635">1635</ref>.</xr>
+          <xr>V. <ref target="#l117">117</ref>, <ref target="#l305">305</ref>, <ref target="#l485">485</ref>, <ref target="#l1197">1197</ref>, <ref target="#l1635">1635</ref>.</xr>
           <def xml:id="adresse3">« Se dit aussi de la suscription des lettres ordinaires, qui marque le lieu, ou la personne, où on les veut faire tenir. » (F)</def>
           <xr>V. <ref target="#l1135">1135</ref>.</xr>
         </entryFree>
         <entryFree xml:id="allarmes">
           <form>Allarmes</form>
           <def>« Se dit figurément de toutes sortes d’appréhensions bien ou mal fondées » (F)</def>
-          <xr rend="b">V. <ref target="#l1325">1325</ref>, <ref target="#l1595">1595</ref>.</xr>
+          <xr>V. <ref target="#l1325">1325</ref>, <ref target="#l1595">1595</ref>.</xr>
         </entryFree>
         <entryFree xml:id="amasser">
           <form>Amasser</form>
           <def>« Signifie aussi, Lever de terre ce qui étoit tombé. <hi rend="i">Amassez</hi> vostre mouchoir. […] On se sert aussi en ce sens du mot de <hi rend="i">Ramasser.</hi> » (F)</def>
-          <xr rend="b"><ref target="#didascalie_1171">Didascalie avant le v. 1171</ref>, v. <ref target="#l1175">1175</ref>.</xr>
+          <xr><ref target="#didascalie_1171">Didascalie avant le v. 1171</ref>, v. <ref target="#l1175">1175</ref>.</xr>
         </entryFree>
         <entryFree xml:id="amitie">
           <form>Amitié</form>
           <def>« Se dit quelquefois pour amour. » (A)</def>
-          <xr rend="b">V. <ref target="#l637">637</ref>, <ref target="#l1220">1220</ref>, <ref target="#l1221">1221</ref>.</xr>
+          <xr>V. <ref target="#l637">637</ref>, <ref target="#l1220">1220</ref>, <ref target="#l1221">1221</ref>.</xr>
         </entryFree>
         <entryFree xml:id="amorce">
           <form>Amorce</form>
           <def>« Se dit figurément en Morale des appâts qui attirent, &amp; persuadent l’esprit. » (F)</def>
-          <xr rend="b">V. <ref target="#l501">501</ref>.</xr>
+          <xr>V. <ref target="#l501">501</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Appas</form>
           <def xml:id="appas1">(Appast) : « Il se prend figurement pour tout ce qui attire, qui engage à faire quelque chose. » (A)</def>
           <xr>V. <ref target="#l1048">1048</ref>.</xr>
           <def xml:id="appas2">« Au pluriel, se dit particulièrement en Poësie […] en parlant des attraits &amp; de la beauté des femmes. » (A)</def>
-          <xr rend="b">V. <ref target="#l152">152</ref>, <ref target="#l964">964</ref>, <ref target="#l1104">1104</ref>.</xr>
+          <xr>V. <ref target="#l152">152</ref>, <ref target="#l964">964</ref>, <ref target="#l1104">1104</ref>.</xr>
         </entryFree>
         <entryFree xml:id="artifice">
           <form>Artifice</form>
           <def>« Se prend plus ordinairement pour Ruse, deguisement, fraude. » (A)</def>
-          <xr rend="b">V. <ref target="#l157">157</ref>, <ref target="#l302">302</ref>, <ref target="#l1308">1308</ref>, <ref target="#l1633">1633</ref>, <ref target="#l1664">1664</ref>.</xr>
+          <xr>V. <ref target="#l157">157</ref>, <ref target="#l302">302</ref>, <ref target="#l1308">1308</ref>, <ref target="#l1633">1633</ref>, <ref target="#l1664">1664</ref>.</xr>
         </entryFree>
         <entryFree xml:id="aspect">
           <form>Aspect</form>
           <def>« Veuë, presence de quelqu’un, de quelque chose. » (A)</def>
-          <xr rend="b">V. <ref target="#l562">562</ref>, <ref target="#l1614">1614</ref>.</xr>
+          <xr>V. <ref target="#l562">562</ref>, <ref target="#l1614">1614</ref>.</xr>
         </entryFree>
         <entryFree>
-          <form>Aventure (également orthographié <hi rend="i">avanture</hi> au v. 317)</form>
+          <form>Aventure, avanture</form>
           <def xml:id="aventure1">« Accident, ou chose qui est arrivée » (F)</def>
           <xr>V. <ref target="#l317">317</ref>.</xr>
           <def xml:id="aventure2">« Se dit aussi de ces accidens surprenants &amp; extraordinaires qui arrivent quelquefois dans le monde, &amp; qui sont souvent de pures imaginations. Il y a des gens qui sont sujets à trouver des <hi rend="i">adventures</hi>. » (F)</def>
           <xr>V. <ref target="#l154">154</ref>, <ref target="#l317">317</ref>.</xr>
           <def xml:id="aventure3">« Signifie aussi, Ce qui est au pouvoir du hasard, de la fortune. Cet homme attend pour se marier quelque bonne <hi rend="i">adventure</hi>, qu’il trouve par hazard quelque bon parti. » (F)</def>
-          <xr rend="b">V. <ref target="#l1173">1173</ref>.</xr>
+          <xr>V. <ref target="#l1173">1173</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Aveu</form>
           <def xml:id="aveu1">« Reconnoissance, confession. Il a été condamné de son propre <hi rend="i">adveu</hi>. » (F)</def>
           <xr>V. <ref target="#l552">552</ref>, <ref target="#l1607">1607</ref>, <ref target="#l1626">1626</ref>.</xr>
           <def xml:id="aveu2">« Signifie aussi, Protection, ordre ou consentement donné. Il n’a rien fait que par <hi rend="i">l’adveu</hi> du Roy, &amp; par son ordre. ce fils ne fait aucune action sans l’<hi rend="i">adveu</hi> de son père. » (F)</def>
-          <xr rend="b">V. <ref target="#l17">17</ref>, <ref target="#l391">391</ref>.</xr>
+          <xr>V. <ref target="#l17">17</ref>, <ref target="#l391">391</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Avis</form>
           <def xml:id="avis1">« Opinion, Sentiment. <hi rend="i">Ce n’est pas mon advis. à mon advis. je suivray vostre advis. dire son advis.</hi> » (A)</def>
           <xr>V. <ref target="#l1395">1395</ref>.</xr>
           <def xml:id="avis2">« Il se prend aussi pour Conseil. <hi rend="i">Prendre advis de quelqu’un, je trouve par advis que &amp;c. ne rien faire que par bon advis. advis de parents.</hi> » (A)</def>
-          <xr rend="b">V. <ref target="#l901">901</ref>.</xr>
+          <xr>V. <ref target="#l901">901</ref>.</xr>
         </entryFree>
         <entryFree xml:id="barbare">
           <form>Barbare</form>
           <def>« Signifie aussi seulement, Cruel, impitoyable, qui n’écoute point la pitié ni la raison. Un pere est <hi rend="i">barbare</hi>, quand il n’a point de tendresse pour ses enfants. » (F)</def>
-          <xr rend="b">V. <ref target="#l758">758</ref>, <ref target="#l1221">1221</ref>.</xr>
+          <xr>V. <ref target="#l758">758</ref>, <ref target="#l1221">1221</ref>.</xr>
         </entryFree>
         <entryFree xml:id="brouiller">
           <form>Broüiller</form>
           <def>« Signifie encore, Gaster du papier en faisant des écritures inutiles, ou de meschants livres. » (F)</def>
-          <xr rend="b">V. <ref target="#l796">796</ref>.</xr>
+          <xr>V. <ref target="#l796">796</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Caractere / Charactere</form>
           <def xml:id="caractere1">« Se dit aussi de la manière d’écrire. […] ce scribe a un fort bon <hi rend="i">caractere</hi>, fort lisible. Je connois son <hi rend="i">caractere</hi>, son escriture. » (F)</def>
-          <xr rend="b">V. <ref target="#l809">809</ref>.</xr>
+          <xr>V. <ref target="#l809">809</ref>.</xr>
           <def xml:id="caractere2">« Se dit encore des qualités invisibles qu’on respecte en ceux qui ont receu des ordres, des charges  &amp; des dignités. Quelque pauvre que soit un Prestre, il faut honorer son <hi rend="i">caractere</hi>, c’est un <hi rend="i">caractere</hi> indelebile. » (F)</def>
-          <xr rend="b">V. <ref target="#l1421">1421</ref>.</xr>
+          <xr>V. <ref target="#l1421">1421</ref>.</xr>
         </entryFree>
         <entryFree xml:id="cavalier">
           <form>Cavalier</form>
           <def>« Signifie aussi, un Gentilhomme qui porte l’espée, &amp; qui est habillé en homme de guerre. C’est un brave Cavalier, un honneste cavalier. » (F)</def>
-          <xr rend="b"><ref target="#thelame">Liste des acteurs</ref>, v. <ref target="#l79">79</ref>.</xr>
+          <xr><ref target="#thelame">Liste des acteurs</ref>, v. <ref target="#l79">79</ref>.</xr>
         </entryFree>
         <entryFree xml:id="celebre">
           <form>Celebre</form>
           <def>« Solennel. [Fête célébre.] » (R)</def>
-          <xr rend="b">V. <ref target="#l812">812</ref>.</xr>
+          <xr>V. <ref target="#l812">812</ref>.</xr>
         </entryFree>
         <entryFree xml:id="celer">
           <form>Celer</form>
           <def>« Tenir quelque chose cachée, secrette, dissimuler. Cet accusé a <hi rend="i">celé</hi> la vérité dans son interrogatoire. » (F)</def>
-          <xr rend="b">V. <ref target="#l170">170</ref>, <ref target="#l244">244</ref>, <ref target="#l1606">1606</ref>.</xr>
+          <xr>V. <ref target="#l170">170</ref>, <ref target="#l244">244</ref>, <ref target="#l1606">1606</ref>.</xr>
         </entryFree>
         <entryFree xml:id="chagrine">
           <form>Chagrine</form>
           <def>« Mélancolique, triste, de fascheuse, de mauvaise humeur » (A)</def>
-          <xr rend="b">V. <ref target="#l114">114</ref>.
+          <xr>V. <ref target="#l114">114</ref>.
             </xr>
         </entryFree>
         <entryFree>
@@ -3602,208 +3651,174 @@
           <def xml:id="chaleur1">« Est aussi la propre substance du feu, en tant qu’il y en a plusieurs atomes ou parties ensemble qui se répandent aux environs pour causer le sentiment de <hi rend="i">chaleur</hi>. […] On a crû que les grandes <hi rend="i">chaleurs</hi> de la Zone Torride la rendoient inhabitable. » (F)</def>
           <xr>V. <ref target="#l580">580</ref>.</xr>
           <def xml:id="chaleur2">« Se dit aussi des passions passageres qui viennent par un prompt mouvement, ou qui sont attribuées à l’âge, ou au temperamment. […] c’est la <hi rend="i">chaleur</hi> de la jeunesse qui luy a fait commettre cette faute. ce vieillard n’est pas dangereux, toutes ses <hi rend="i">chaleurs</hi> sont passées. » (F)</def>
-          <xr rend="b">V. <ref target="#l1456">1456</ref>.
+          <xr>V. <ref target="#l1456">1456</ref>.
             </xr>
         </entryFree>
         <entryFree xml:id="charmant">
           <form>Charmant</form>
           <def>« Qui plaist extraordinairement, qui ravit en admiration » (F). (Cet adjectif a un sens beaucoup plus fort au XVII<hi rend="sup">e</hi> siècle que dans la langue actuelle, voir le mot <hi rend="i">charme</hi>).</def>
-          <xr rend="b">V. <ref target="#l147">147</ref>, <ref target="#l396">396</ref>, <ref target="#l600">600</ref>, <ref target="#l1267">1267</ref>, <ref target="#l1560">1560</ref>.</xr>
+          <xr>V. <ref target="#l147">147</ref>, <ref target="#l396">396</ref>, <ref target="#l600">600</ref>, <ref target="#l1267">1267</ref>, <ref target="#l1560">1560</ref>.</xr>
         </entryFree>
         <entryFree xml:id="charme">
           <form>Charme</form>
           <def>« Se dit figurément de ce qui nous plaist extraordinairement, qui nous ravit en admiration. La Poësie a des <hi rend="i">charmes</hi> qui transportent les esprits. Cette beauté a des <hi rend="i">charmes</hi>, des attraits qui asservissent tous les cœurs. » (F)</def>
           <def><hi rend="i">N.B. : Charme</hi> a un sens beaucoup plus fort au XVII<hi rend="sup">e</hi> siècle qu’en français moderne puisque, comme le précise Gaston Cayrou, il indique encore au sens figuré « l’idée d’un effet ensorceleur, d’une fascination » qui lui vient de son sens étymologique : « Puissance magique par laquelle avec l’aide du Demon les Sorciers font des choses merveilleuses, au dessus des forces, ou contre l’ordre de la nature » (F). Gaston Cayrou ajoute également qu’« au sens d’attraits physiques, les " charmes " se distinguent des " appas " en ce qu’ils désignent toujours, selon Ménage (<hi rend="i">Observ. s. l. Lang. fr.</hi>, 1672), des " beautés qui agissent par une vertu occulte et magique " ».</def>
-          <xr rend="b">V. <ref target="#l85">85</ref>, <ref target="#l592">592</ref>, <ref target="#l979">979</ref>, <ref target="#l1326">1326</ref>.</xr>
+          <xr>V. <ref target="#l85">85</ref>, <ref target="#l592">592</ref>, <ref target="#l979">979</ref>, <ref target="#l1326">1326</ref>.</xr>
         </entryFree>
         <entryFree xml:id="charmer">
           <form>Charmer</form>
           <def>Ce mot a déjà le sens de « plaire extremement, ravir » (A), mais comme l’indique Gaston Cayrou, « toujours avec l’idée d’un agrément fascinateur », idée qui lui vient de son sens propre où il signifie « Faire quelque effet merveilleux par la puissance des charmes ou du Demon. » (F)</def>
-          <xr rend="b">V. <ref target="#l93">93</ref>, <ref target="#l1404">1404</ref>.
+          <xr>V. <ref target="#l93">93</ref>, <ref target="#l1404">1404</ref>.
             </xr>
         </entryFree>
         <entryFree>
           <form>Choquer</form>
           <def xml:id="choquer1">« Aller à l’encontre de »</def>
-          <xr rend="b">V. <ref target="#l731">731</ref>, <ref target="#l1166">1166</ref>.</xr>
+          <xr>V. <ref target="#l731">731</ref>, <ref target="#l1166">1166</ref>.</xr>
           <def xml:id="choquer2">« Signifie figurément, Quereller, offencer. Ce soldat est un querelleur qui choque tout le monde » (F)</def>
-          <xr rend="b">V. <ref target="#l1607">1607</ref>.
+          <xr>V. <ref target="#l1607">1607</ref>.
             </xr>
         </entryFree>
         <entryFree>
           <form>Cœur</form>
           <def xml:id="coeur1">« Signifie quelquefois, Vigueur, force, courage, intrepidité. Cet homme a un <hi rend="i">cœur</hi> de lion, n’a rien de bas dans le <hi rend="i">cœur</hi>, a le <hi rend="i">cœur</hi> haut, noble. […] la naissance hausse le <hi rend="i">cœur</hi> » (F)</def>
-          <xr rend="b">V. <ref target="#l39">39</ref>, <ref target="#l288">288</ref>, <ref target="#l671">671</ref>, <ref target="#l1155">1155</ref>, <ref target="#l1186">1186</ref>.</xr>
+          <xr>V. <ref target="#l39">39</ref>, <ref target="#l288">288</ref>, <ref target="#l671">671</ref>, <ref target="#l1155">1155</ref>, <ref target="#l1186">1186</ref>.</xr>
           <def xml:id="coeur2">« Se dit figurément en choses spirituelles &amp; morales, &amp; signifie l’ame, &amp; ses principales fonctions, parce que quelques Medecins, &amp; entre autres Fernel, ont crû que les principales parties de nôtre esprit residoient au <hi rend="i">cœur</hi>, comme l’entendement, la volonté, la memoire. » (F), « signifie aussi Pensée. <hi rend="i">Il me vint au cœur que cela arriveroit. Dieu sonde les cœurs.[…] vous lisez dans mon cœur.</hi> » (A)</def>
-          <xr rend="b">V. <ref target="#l563">563</ref>, <ref target="#l634">634</ref>, <ref target="#l704">704</ref>, <ref target="#l1291">1291</ref>, <ref target="#l1422">1422</ref>.</xr>
+          <xr>V. <ref target="#l563">563</ref>, <ref target="#l634">634</ref>, <ref target="#l704">704</ref>, <ref target="#l1291">1291</ref>, <ref target="#l1422">1422</ref>.</xr>
           <def xml:id="coeur3">« Se dit aussi des passions de l’ame. […] la penitence demande un <hi rend="i">cœur</hi> contrit […]. l’endurcissement du <hi rend="i">cœur</hi> est une grande marque de reprobation. » (F)</def>
           <xr>V. <ref target="#l1222">1222</ref>, <ref target="#l1434">1434</ref>.</xr>
           <def xml:id="coeur4">« Se dit particulierement de l’affection, de l’amitié, de l’amour, de la tendresse. […] Les amants s’appellent mon <hi rend="i">cœur</hi>, mon amour, mon petit <hi rend="i">cœur</hi> gauche. » (F)</def>
-          <xr>V. <ref target="#l4">4</ref>, <ref target="#l63">63</ref>, <ref target="#l84">84</ref>, <ref target="#l93">93</ref>, <ref target="#l110">110</ref>, <ref target="#l142">142</ref>, <ref target="#l316">316</ref>, <ref target="#l380">380</ref>, <ref target="#l404">404</ref>, <ref target="#l440">440</ref>, <hi rend="b"><ref target="#l456">456</ref></hi>, <ref target="#l468">468</ref>, <ref target="#l516">516</ref>, <ref target="#l541">541</ref>, <ref target="#l548">548</ref>, <ref target="#l556">556</ref>, <ref target="#l568">568</ref>, <ref target="#l584">584</ref>, <ref target="#l624">624</ref>, <ref target="#l666">666</ref>, <ref target="#l677">677</ref>, <ref target="#l758">758</ref>, <hi rend="b"><ref target="#l945">945</ref></hi>, <ref target="#l952">952</ref>, <ref target="#l998">998</ref>, <ref target="#l1039">1039</ref>, <ref target="#l1192">1192</ref>, <ref target="#l1246">1246</ref>, <ref target="#l1304">1304</ref>, <ref target="#l1328">1328</ref>, <ref target="#l1530">1530</ref>, <ref target="#l1554">1554</ref>, <ref target="#l1602">1602</ref>, <ref target="#l1670">1670</ref>.</xr>
+          <xr>V. <ref target="#l4">4</ref>, <ref target="#l63">63</ref>, <ref target="#l84">84</ref>, <ref target="#l93">93</ref>, <ref target="#l110">110</ref>, <ref target="#l142">142</ref>, <ref target="#l316">316</ref>, <ref target="#l380">380</ref>, <ref target="#l404">404</ref>, <ref target="#l440">440</ref>, <ref target="#l456">456</ref>, <ref target="#l468">468</ref>, <ref target="#l516">516</ref>, <ref target="#l541">541</ref>, <ref target="#l548">548</ref>, <ref target="#l556">556</ref>, <ref target="#l568">568</ref>, <ref target="#l584">584</ref>, <ref target="#l624">624</ref>, <ref target="#l666">666</ref>, <ref target="#l677">677</ref>, <ref target="#l758">758</ref>, <ref target="#l945">945</ref>, <ref target="#l952">952</ref>, <ref target="#l998">998</ref>, <ref target="#l1039">1039</ref>, <ref target="#l1192">1192</ref>, <ref target="#l1246">1246</ref>, <ref target="#l1304">1304</ref>, <ref target="#l1328">1328</ref>, <ref target="#l1530">1530</ref>, <ref target="#l1554">1554</ref>, <ref target="#l1602">1602</ref>, <ref target="#l1670">1670</ref>.</xr>
         </entryFree>
         <entryFree xml:id="commerce">
           <form>Commerce</form>
           <def>« Se dit aussi de la correspondance, de l’intelligence qui est entre les particuliers, soit pour affaires, soit pour des estudes, ou simplement pour entrenir l’amitié. […] ces amis ont un <hi rend="i">commerce</hi> d’esprit, d’amitié ensemble. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l932">932</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l932">932</ref>.</xr>
         </entryFree>
         <entryFree xml:id="commettre">
           <form>Commettre</form>
           <def>« Signifie aussi, Confier quelque chose à la prudence, à la fidélité de quelqu’un. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1313">1313</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1313">1313</ref>.</xr>
         </entryFree>
         <entryFree xml:id="confondre">
           <form>Confondre</form>
           <def>« Troubler, mettre en desordre, étonner, surprendre tout à fait, jetter dans le trouble. [Toute notre joie est perduë, &amp; notre raison confonduë. <hi rend="i">Voi. Poe.</hi> Voila qui me confond. <hi rend="i">Mol.</hi> ] » (R)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l581">581</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l581">581</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Coup</form>
           <def xml:id="coup1">« Signifie aussi, Outrage, offense qui se fait à quelqu’un en le frappant. Les <hi rend="i">coups</hi> de baston sont des affronts qui ne se pardonnent point. […] On chastie les valets à <hi rend="i">coups</hi> d’estrivieres, par des coups de pied au cul. » (F)</def>
-          <xr>V. <ref target="#l660">660</ref>, <ref target="#l1348">1348</ref>, <ref target="#l1419">1419</ref>, <ref target="#l1500">1500</ref>, <ref target="#didascalie_1586">didascalie après le v. 1586</ref>.</xr>
+          <xr>V. <ref target="#l660">660</ref>, 
+            <ref target="#l1348">1348</ref>, 
+            <ref target="#l1419">1419</ref>, 
+            <ref target="#l1500">1500</ref>, 
+            <ref target="#l1586">didascalie après le v. 1586</ref>.</xr>
           <def xml:id="coup2">« Se dit aussi des actions heroïques, hardies &amp; extraordinaires, soit en bien, soit en mal. Il se fit de beaux <hi rend="i">coups</hi> de lance en cette bataille, en ce tournoy. La prise de la Rochelle fut un <hi rend="i">coup</hi> d’Estat. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l338">338</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l338">338</ref>.</xr>
           <def xml:id="coup3">« Se dit figurément de ces afflictions imprevuës qui sont comme des traits qui nous percent le cœur. La nouvelle de la mort de sa femme fut un <hi rend="i">coup</hi> mortel pour luy. Un amant dit aussi, qu’il a receu un <hi rend="i">coup</hi> mortel des yeux de sa maistresse. » (F). « <hi rend="i">Coups</hi>. Blessure amoureuse que font de beaux yeux, blessure que fait la langue en médisant. […] Atteintes des passions. [Mortels déplaisirs je ne crains point vos coups. <hi rend="i">Voi poës</hi>. Vos regards sont mortels, leurs coups sont redoutables. <hi rend="i">La Suze. Poës</hi>. L’amour me fait sentir ses plus funestes coups. <hi rend="i">Rac</hi>.] » (R)</def>
-          <xr rend="b">V. <ref target="#l144">144</ref>, <ref target="#l971">971</ref>, <ref target="#l1087">1087</ref>.</xr>
+          <xr>V. <ref target="#l144">144</ref>, <ref target="#l971">971</ref>, <ref target="#l1087">1087</ref>.</xr>
           <def xml:id="coup4">« Fois. [ (…) Baiser encore un coup. <hi rend="i">Abl.</hi>(…) ] » (R)</def>
           <xr>V. <ref target="#l259">259</ref>, <ref target="#l999">999</ref>.</xr>
           <def xml:id="coup5">« Tout d’un coup. adverbial. Tout à coup [<hi rend="i">i.e.</hi> « Soudainement, tout en un moment. » ], tout en une fois. <hi rend="i">Ce mal m’a pris tout d’un coup. il gagne mille escus tout d’un coup</hi>. » (A)</def>
           <xr>V. <ref target="#l175">175</ref>.</xr>
           <def xml:id="coup6">« A tous coups. adverb. A tout propos, souvent. Il vient à tous coups me quereller. il tomboit à tous coups. » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1497">1497</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1497">1497</ref>.</xr>
         </entryFree>
         <entryFree xml:id="coutre">
           <form>Coutre</form>
           <def>« Grosse plaque de fer tranchante attachée à un des costés de la charruë pour fendre &amp; verser la terre. Il differe du soc, qui est une autre grosse piece de fer pointu qui commence l’ouverture de la terre. Les Poëtes Bucoliques se servent souvent de cette épithete, Les <hi rend="i">coutres</hi> trenchants. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l754">754</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l754">754</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Couvert(e) / Couvrir</form>
           <def xml:id="couvert1">« Il se dit aussi pour signifier grande quantité de quelque chose qu’on met sur une autre. <hi rend="i">Couvrir un habit d’or &amp; d’argent, […] couvrir une table de pistoles.</hi> » (A)</def>
           <xr>V. <ref target="#l750">750</ref>.</xr>
           <def xml:id="couvert2">« On dit vulgairement, <hi rend="i">Couvrir le visage, la joüe de quelqu’un</hi>, pour dire, Luy donner un soufflet. » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l414">414</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l414">414</ref>.</xr>
           <def xml:id="couvert3">« On dit que <hi rend="i">Le ciel</hi>, que <hi rend="i">le temps se couvre</hi>, pour dire, qu’il se broüille, s’obscurcit par des nuages. » (A)</def>
           <xr>V. <ref target="#l48">48</ref>.</xr>
           <def xml:id="couvert4">« <hi rend="i">Couvert</hi>, sign. aussi, Dissimulé, caché. <hi rend="i">Un homme couvert. haine couverte. ennemi couvert.</hi> » (A)</def>
-          <xr rend="b">V. <ref target="#l1033">1033</ref>, <ref target="#l1369">1369</ref>, <ref target="#l1581">1581</ref>.</xr>
+          <xr>V. <ref target="#l1033">1033</ref>, <ref target="#l1369">1369</ref>, <ref target="#l1581">1581</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Crayon</form>
           <def xml:id="crayon1">« Signifie aussi les portraits &amp; desseins qu’on fait avec le crayon. Les <hi rend="i">crayons</hi> de du Montier, de Nanteuil sont fort estimez. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l52">52</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l52">52</ref>.</xr>
           <def xml:id="crayon2">« Signifie aussi une ébauche, un portrait imparfait de quelque chose. […] On dit figurément, que l’homme est un foible <hi rend="i">crayon</hi> de la Divinité, pour dire, qu’on en voit en luy quelques traits. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l570">570</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l570">570</ref>.</xr>
         </entryFree>
         <entryFree xml:id="debiles">
           <form>Débiles</form>
           <def>« Qui n’a pas la force qu’il doit avoir naturellement &amp; ordinairement. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1355">1355</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1355">1355</ref>.</xr>
         </entryFree>
         <entryFree xml:id="demeure">
           <form>Demeure</form>
           <def>« Retard, délai » (Lexique de Gaston Cayrou)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l43">43</ref>, <ref target="#l773">773</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l43">43</ref>, <ref target="#l773">773</ref>.</xr>
         </entryFree>
         <entryFree xml:id="deplorable">
           <form>Deplorable</form>
           <def>Furetière donne exclusivement le sens de « Qui merite d’être pleuré, qui attriste »</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l69">69</ref>, <ref target="#l657">657</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l69">69</ref>, <ref target="#l657">657</ref>.</xr>
         </entryFree>
         <entryFree xml:id="deuil">
           <form>Deüil / Duëil</form>
           <def>« Douleur qu’on sent dans le cœur pour quelque perte ou accident, ou la mort de quelque personne chere. » (F)</def>
-          <xr>V. <ref target="#l27">27</ref>, <hi rend="b"><ref target="#l1590">1590</ref></hi>.</xr>
+          <xr>V. <ref target="#l27">27</ref>, <ref target="#l1590">1590</ref>.</xr>
         </entryFree>
         <entryFree xml:id="dispos">
           <form>Dispos</form>
           <def>« Qui est agile, leger, qui se porte bien. […] Les danseurs de corde, les sauteurs et les voltigeurs doivent estre fort dispos de leur corps. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1538">1538</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1538">1538</ref>.</xr>
         </entryFree>
         <entryFree xml:id="ennuis">
           <form>Ennuis</form>
           <def>« ENNUY. […] Fascherie, chagrin, deplaisir, souci. » (A)</def>
-          <xr rend="b">V. <ref target="#l537">537</ref>, <ref target="#l683">683</ref>, <ref target="#l1144">1144</ref>.</xr>
+          <xr>V. <ref target="#l537">537</ref>, <ref target="#l683">683</ref>, <ref target="#l1144">1144</ref>.</xr>
         </entryFree>
         <entryFree xml:id="emanciper">
           <form>Emanciper (s’)</form>
           <def>« Signifie aussi, Prendre un peu trop de liberté en quelque chose que ce soit. Il ne faut pas <hi rend="i">s’émanciper</hi> à juger d’une affaire, qu’on en connoisse le fonds. Vous vous <hi rend="i">émancipez</hi> beaucoup, de sortir aprés avoir été si malade. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l209">209</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l209">209</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Entendre</form>
           <def xml:id="entendre1">« Ouïr, escouter. » (F)</def>
           <xr><ref target="#epitre">Epître p. 2</ref>, v. <ref target="#l15">15</ref>, <ref target="#l285">285</ref>, <ref target="#l538">538</ref>, <ref target="#l667">667</ref>, <ref target="#l1053">1053</ref>, <ref target="#l1060">1060</ref>, <ref target="#l1390">1390</ref>, <ref target="#l1440">1440</ref>, <ref target="#l1491">1491</ref>.</xr>
           <def xml:id="entendre2">« Se dit figurément en choses spirituelles, &amp; signifie, Comprendre, penetrer dans le sens de celuy qui parle ou qui escrit. Cet homme <hi rend="i">entend</hi> l’Algebre, <hi rend="i">entend</hi> l’Hebreu. »</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1377">1377</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1377">1377</ref>.</xr>
         </entryFree>
         <entryFree xml:id="estonnement">
           <form>Estonnement</form>
           <def>« Epouvante, sorte de surprise étonnante » (R), « Il signifie quelquefois, Admiration. » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l34">34</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l34">34</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Estonner</form>
           <def xml:id="estonner1">« Causer à l’âme de l’émotion, soit par surprise, soit par admiration, soit par crainte. On s’<hi rend="i">estonne</hi> de tous les accidents extraordinaires qui arrivent dans le monde. Un Philosophe Chrestien doit s’<hi rend="i">estonner</hi> à tout moment des merveilles de la grace &amp; de la nature. Un criminel s’<hi rend="i">estonne</hi> à la veuë des Juges, des supplices, de la mort. » (F)</def>
-          <xr rend="b">V. <ref target="#l1285">1285</ref>, <ref target="#l1337">1337</ref>.</xr>
+          <xr>V. <ref target="#l1285">1285</ref>, <ref target="#l1337">1337</ref>.</xr>
           <def xml:id="estonner2">« Se dit aussi des choses qui sont assez ordinaires &amp; peu considerables. Je m’<hi rend="i">estonne</hi> de ce qu’on a laissé ce crime impuni. Je m’<hi rend="i">estonne</hi> de ce qu’il est si longtemps sans me venir voir, sans m’escrire. » (F)</def>
           <xr>V. <ref target="#l1175">1175</ref>.</xr>
         </entryFree>
         <entryFree xml:id="falot">
           <form>Falot</form>
           <def>« Lanterne au bout d’un bâton, ou d’un grand manche de bois. » (R)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1013">1013</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1013">1013</ref>.</xr>
         </entryFree>
         <entryFree>
-          <form>Fascher (également orthographié <hi rend="i">fâcher</hi> au v. 315)</form>
+          <form>Fascher, fâcher</form>
           <def xml:id="fascher1">« Offenser, mettre en colere, deplaire. » (A)</def>
           <xr>V. <ref target="#l936">936</ref>, <ref target="#l1470">1470</ref>.</xr>
           <def xml:id="fascher2">« Causer du deplaisir. Sa mort m’a extremement fasché. » (A)</def>
-          <xr rend="b"><ref target="#epitre">Épître p. 3</ref>, v. <ref target="#l315">315</ref>, <ref target="#l985">985</ref>.</xr>
+          <xr><ref target="#epitre">Épître p. 3</ref>, v. <ref target="#l315">315</ref>, <ref target="#l985">985</ref>.</xr>
         </entryFree>
         <entryFree>
-          <form>Flatter (également orthographié <hi rend="i">flater</hi> au v. 389)</form>
+          <form>Flatter, flater</form>
           <def xml:id="flatter1">« Signifie aussi, Excuser par complaisance les defauts qui sont en quelqu’un. Les vices croissent, parce qu’on les <hi rend="i">flatte</hi>. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1208">1208</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1208">1208</ref>.</xr>
           <def xml:id="flatter2">« Signifie encore Deguiser une verité qui seroit desagreable à celuy qui y est interessé, luy donner meilleure opinion d’une chose qu’il n’en doit avoir. […] on <hi rend="i">flatte</hi> ce jeune homme de l’esperance de luy faire épouser cette fille, mais il n’y reüssira pas. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l389">389</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l389">389</ref>.</xr>
           <def xml:id="flatter3">« Se dit figurément en choses spirituelles. […] <hi rend="i">Flatter</hi> son imagination, c’est la repaistre de chimeres agreables. Je ne trouve rien qui <hi rend="i">flatte</hi> mon esprit en ce gros livre. » (F)</def>
           <xr>V. <ref target="#l923">923</ref>.</xr>
         </entryFree>
@@ -3812,19 +3827,17 @@
           <def xml:id="fortune1">« Ce qui arrive par hasard, qui est fortuit &amp; impreveu. Il faut estre égal dans la bonne &amp; dans la mauvaise <hi rend="i">fortune</hi>. […] plusieurs <hi rend="i">Favoris</hi> ont esté le jouët de la <hi rend="i">fortune</hi>. » (F)</def>
           <xr><ref target="#epitre">Épître p. 2</ref>, v. <ref target="#l46">46</ref>, <ref target="#l714">714</ref>.</xr>
           <def xml:id="fortune2">« Signifie aussi, l’establissement, le credit, les biens qu’on a acquis par son merite, ou par hasard. Cet homme fera <hi rend="i">fortune</hi>, poussera bien loin sa <hi rend="i">fortune</hi> […]. heureux celuy qui ne change point de <hi rend="i">fortune</hi>. sa richesse est une <hi rend="i">fortune</hi> du jeu. » (F)</def>
-          <xr><hi rend="b"><ref target="#epitre">Épître p. 3</ref></hi>, v. <ref target="#l226">226</ref>.</xr>
+          <xr><ref target="#epitre">Épître p. 3</ref>, v. <ref target="#l226">226</ref>.</xr>
         </entryFree>
         <entryFree xml:id="fourbe">
           <form>Fourbe</form>
           <def>« Tromperie, desguisement de la vérité avec adresse. Les honnestes gens sont ennemis de la <hi rend="i">fourbe</hi>. » (F).</def>
-          <xr rend="b">V. <ref target="#l256">256</ref>, <ref target="#l829">829</ref>, <ref target="#l858">858</ref>, <ref target="#l1311">1311</ref>.</xr>
+          <xr>V. <ref target="#l256">256</ref>, <ref target="#l829">829</ref>, <ref target="#l858">858</ref>, <ref target="#l1311">1311</ref>.</xr>
         </entryFree>
         <entryFree xml:id="fourber">
           <form>Fourber</form>
           <def>« Tromper adroitement, finement. Ceux qui agissent avec sincérité, sont ceux qu’on <hi rend="i">fourbe</hi> le plus aisément. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l480">480</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l480">480</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Foy</form>
@@ -3836,137 +3849,115 @@
         <entryFree xml:id="frivole">
           <form>Frivole</form>
           <def>« Vain, &amp; léger, Qui n’a nulle solidité. » (A)</def>
-          <xr>V. <ref target="#l13">13</ref>, <hi rend="b"><ref target="#l193">193</ref></hi>, <ref target="#l587">587</ref>.</xr>
+          <xr>V. <ref target="#l13">13</ref>,<ref target="#l193">193</ref>, <ref target="#l587">587</ref>.</xr>
         </entryFree>
         <entryFree xml:id="furieux">
           <form>Furieux</form>
           <def>Ce mot s’emploie aussi bien comme adjectif que comme substantif au XVII<hi rend="sup">e</hi> siècle. En tant que nom commun il signifie « Celuy qui est en furie. » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l456">456</ref>, <ref target="#l660">660</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l456">456</ref>, <ref target="#l660">660</ref>.</xr>
         </entryFree>
         <entryFree xml:id="galantiser">
           <form>Galantiser</form>
           <def>« Courtiser les Dames. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l12">12</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l12">12</ref>.</xr>
         </entryFree>
         <entryFree xml:id="genereux">
           <form>Genereux</form>
           <def>« Qui a l’ame grande &amp; noble, &amp; qui prefere l’honneur à tout autre interest. Auguste fit une action <hi rend="i">genereuse</hi> en pardonnant à ses ennemis. » (F)</def>
-          <xr rend="b">V. <ref target="#l398">398</ref>, <ref target="#l1160">1160</ref>.</xr>
+          <xr>V. <ref target="#l398">398</ref>, <ref target="#l1160">1160</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Gloire</form>
           <def xml:id="gloire1">« Honneur, loüange, estime, reputation qui procede du merite d’une personne, de l’excellence de ses actions ou de ses ouvrages. » (A)</def>
           <xr>V. <ref target="#l1002">1002</ref>.</xr>
           <def xml:id="gloire2">« Se prend souvent en mauvaise part, &amp; signifie, Orgueil, sotte vanité. […] <hi rend="i">Vaine gloire</hi>, Se prend particulierement pour le sentiment trop avantageux de soy-mesme que la vanité inspire. » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l549">549</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l549">549</ref>.</xr>
           <def xml:id="gloire3">« Signifie aussi, La beatitude dont on joüit dans le Paradis » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l98">98</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l98">98</ref>.</xr>
         </entryFree>
         <entryFree xml:id="hymen">
           <form>Hymen ou Hymenée</form>
           <def>« Mariage. Il n’a d’usage qu’en Poësie » (A)</def>
-          <xr rend="b">V. <ref target="#l19">19</ref>, <ref target="#l24">24</ref>, <ref target="#l474">474</ref>, <ref target="#l766">766</ref>, <ref target="#l772">772</ref>, <ref target="#l812">812</ref>, <ref target="#l983">983</ref>.</xr>
+          <xr>V. <ref target="#l19">19</ref>, <ref target="#l24">24</ref>, <ref target="#l474">474</ref>, <ref target="#l766">766</ref>, <ref target="#l772">772</ref>, <ref target="#l812">812</ref>, <ref target="#l983">983</ref>.</xr>
         </entryFree>
         <entryFree xml:id="imbecillite">
           <form>Imbecillité</form>
           <def>« Foiblesse, se dit du corps &amp; de l’esprit. L’<hi rend="i">imbecillité</hi> de l’âge &amp; du sexe attire la compassion des plus fiers tyrans. la bonté de Dieu a égard à <hi rend="i">l’imbecillité</hi> de nostre nature. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1067">1067</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1067">1067</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Imposer</form>
           <def xml:id="imposer1">« Signifie aussi, Charger, assujettir à quelque peine, fatigue, ou despense. Il est fascheux de nous voir <hi rend="i">imposer</hi> un joug que n’ont point porté nos peres. c’est au vainqueur à <hi rend="i">imposer</hi> des loix, des conditions. la nature nous a <hi rend="i">imposé</hi> la necessité de mourir. » (F)</def>
           <xr>V. <ref target="#l32">32</ref>, <ref target="#l90">90</ref>, <ref target="#l730">730</ref>.</xr>
           <def xml:id="imposer2">« Signifie encore, Tromper, dire une fausseté. Cet Advocat <hi rend="i">impose</hi> souvent, &amp; desguise la verité. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1487">1487</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1487">1487</ref>.</xr>
         </entryFree>
         <entryFree xml:id="imposteur">
           <form>Imposteur</form>
           <def>« Trompeur, affronteur, calomniateur. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1571">1571</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1571">1571</ref>.</xr>
         </entryFree>
         <entryFree xml:id="impostur">
           <form>Impostur</form>
           <def>« Tromperie, mensonge, calomnie. Ce tiltre fait voir clairement l’<hi rend="i">imposture</hi> de la partie adverse, &amp; que son Advocat n’a dit que des <hi rend="i">impostures</hi>. » (F)</def>
-          <xr rend="b">V. <ref target="#l153">153</ref>, <ref target="#l554">554</ref>, <ref target="#l833">833</ref>, <ref target="#l1085">1085</ref>, <ref target="#l1270">1270</ref>, <ref target="#l1333">1333</ref>.</xr>
+          <xr>V. <ref target="#l153">153</ref>, <ref target="#l554">554</ref>, <ref target="#l833">833</ref>, <ref target="#l1085">1085</ref>, <ref target="#l1270">1270</ref>, <ref target="#l1333">1333</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Indiscret, ette</form>
           <def xml:id="indiscret1">« Celuy qui agit par passion, sans considérer ce qu’il dit ni ce qu’il fait. […] un <hi rend="i">indiscret</hi> se fait souvent de grandes affaires par quelque parole qu’il a laschée mal à propos. » (F)</def>
-          <xr rend="b">V. <ref target="#l221">221</ref>, <ref target="#l433">433</ref>, <ref target="#l455">455</ref>, <ref target="#l1107">1107</ref>, <ref target="#l1310">1310</ref>.</xr>
+          <xr>V. <ref target="#l221">221</ref>, <ref target="#l433">433</ref>, <ref target="#l455">455</ref>, <ref target="#l1107">1107</ref>, <ref target="#l1310">1310</ref>.</xr>
           <def xml:id="indiscret2">« Se dit plus particulièrement de celuy qui ne sçait pas garder un secret. » (F)</def>
           <xr>V. <ref target="#l1369">1369</ref>.</xr>
         </entryFree>
         <entryFree xml:id="industrie">
           <form>Industrie</form>
           <def>« Adresse de faire reüssir quelque chose, quelque dessein » (F)</def>
-          <xr rend="b">V. <ref target="#l1281">1281</ref>, <ref target="#l1397">1397</ref>.</xr>
+          <xr>V. <ref target="#l1281">1281</ref>, <ref target="#l1397">1397</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Injure</form>
           <def xml:id="injure1">« Parole qu’on dit pour offenser quelqu’un, en luy reprochant quelque defaut, ou quelque vice vray ou faux. » (F)</def>
           <xr>V. <ref target="#l553">553</ref>.</xr>
           <def xml:id="injure2">« Se dit aussi des affronts, des torts &amp; dommages qu’on fait à une personne par voyes de fait. On fait <hi rend="i">injure</hi> à un Officier, quand on ne le fait pas monter à la place vacante d’un superieur. » (F)</def>
-          <xr rend="b">V. <ref target="#l1317">1317</ref>, <ref target="#l1520">1520</ref>, <ref target="#l1556">1556</ref>.</xr>
+          <xr>V. <ref target="#l1317">1317</ref>, <ref target="#l1520">1520</ref>, <ref target="#l1556">1556</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Innocent</form>
           <def xml:id="innocent1">« Se dit aussi relativement à quelque crime dont on est accusé. On a descouvert la calomnie, il s’est trouvé <hi rend="i">innocent</hi>. » (F)</def>
           <xr>V. <ref target="#l1572">1572</ref>.</xr>
           <def xml:id="innocent2">« Se dit aussi de celuy qui est simple, qui a peu de raison, &amp; qui est aussi idiot qu’un jeune enfant. » (F)</def>
-          <xr rend="b">V. <ref target="#l1518">1518</ref>, <ref target="#l1601">1601</ref>.</xr>
+          <xr>V. <ref target="#l1518">1518</ref>, <ref target="#l1601">1601</ref>.</xr>
         </entryFree>
         <entryFree xml:id="interrogat">
           <form>Interrogat</form>
           <def>« Question, demande dont on attend response. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1443">1443</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1443">1443</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Jouer</form>
           <def xml:id="jouer1">« On dit qu’un homme a <hi rend="i">joué</hi> piece à un autre, qu’il lui a <hi rend="i">joué</hi> quelque tour, pour dire, qu’il luy a fait quelque affront, quelque niche, quelque supercherie. […] On dit aussi qu’on <hi rend="i">jouë</hi> quelqu’un, lorsqu’on le fait aller &amp; venir, qu’on le trompe, qu’on l’amuse de belles paroles &amp; promesses » (F)</def>
-          <xr><hi rend="b">V. <ref target="#l176">176</ref></hi>, <ref target="#l714">714</ref>, <hi rend="b"><ref target="#l1309">1309</ref></hi>, <ref target="#l1372">1372</ref>, <hi rend="b"><ref target="#l1481">1481</ref>, <ref target="#l1678">1678</ref>.</hi></xr>
+          <xr>V. <ref target="#l176">176</ref>, <ref target="#l714">714</ref>, <ref target="#l1309">1309</ref>, <ref target="#l1372">1372</ref>, <ref target="#l1481">1481</ref>, <ref target="#l1678">1678</ref>.</xr>
           <def xml:id="jouer2">« Au théâtre, on dit qu’on <hi rend="i">jouë</hi> un Poëme Dramatique, pour dire qu’on represente une Tragedie, une Comedie, une Pastoralle. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1678">1678</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1678">1678</ref>.</xr>
           <def xml:id="jouer3">« Et on dit qu’un homme <hi rend="i">jouë</hi> la Comedie, pour dire, qu’il est Comedien de profession. On dit en ce sens, qu’il <hi rend="i">jouë</hi> bien son rolle, pour dire qu’il fait bien l’amant, le pere ou autre chose » (F)</def>
           <xr>V. <ref target="#l413">413</ref>, <ref target="#l1410">1410</ref>.</xr>
         </entryFree>
         <entryFree xml:id="jurement">
           <form>Jurement</form>
           <def>« Affirmation qu’on fait d’une chose dont on prend Dieu à tesmoin. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l263">263</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l263">263</ref>.</xr>
         </entryFree>
         <entryFree xml:id="lamentable">
           <form>Lamentable</form>
           <def>Furetière donne exclusivement le sens de « Qui merite d’estre plaint, ou pleuré, qui excite à la compassion. »</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l74">74</ref>, <ref target="#l333">333</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l74">74</ref>, <ref target="#l333">333</ref>.</xr>
         </entryFree>
         <entryFree>
-          <form>Maitresse (également orthographié <hi rend="i">maistresse</hi> au v. 1350)</form>
+          <form>Maitresse, maistresse</form>
           <def xml:id="maitresse1">« Celle qui a des domestiques. » (R)</def>
           <xr>V. <ref target="#l1061">1061</ref>, <ref target="#l1075">1075</ref>.</xr>
           <def xml:id="maitresse2">« Se dit des filles &amp; des femmes qui sont recherchées en mariage, ou simplement aimées de quelqu’un. » (A)</def>
-          <xr rend="b">V. <ref target="#l1198">1198</ref>, <ref target="#l1350">1350</ref>.</xr>
+          <xr>V. <ref target="#l1198">1198</ref>, <ref target="#l1350">1350</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Malheureux</form>
@@ -3978,80 +3969,66 @@
         <entryFree>
           <form>Malin</form>
           <def xml:id="malin1">« Se dit aussi des choses inanimées qui sont nuisibles. Cette peste, cette sterilité vient de quelque maligne influence. Saturne et Mars sont des astres malins. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l125">125</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l125">125</ref>.</xr>
           <def xml:id="malin2">« Enclin à faire le mal. […] se dit aussi des passions &amp; des mouvements du cœur. Corneille a fait dire à Sabine dans les Horaces : “Et si j’ay ressenti dans ses destins contraires / Quelque <hi rend="i">maligne</hi> joye en faveur de mes freres.” » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l64">64</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l64">64</ref>.</xr>
         </entryFree>
         <entryFree xml:id="menterie">
           <form>Menterie</form>
           <def>« Allegation de quelque chose fausse que l’on veut faire passer pour vraye. La <hi rend="i">menterie</hi> est le vice des valets &amp; du bas peuple. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1381">1381</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1381">1381</ref>.</xr>
         </entryFree>
         <entryFree xml:id="miserable">
           <form>Miserable</form>
           <def>« Qui est dans la douleur, […] dans l’affliction […]. Il est <hi rend="i">miserable</hi> d’avoir perdu sa femme. Un <hi rend="i">miserable</hi> amant qui languit dans ses fers. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1496">1496</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1496">1496</ref>.</xr>
         </entryFree>
         <entryFree xml:id="mouvement">
           <form>Mouvement</form>
           <def>« Pensée, sentiment. Tout ce qui touche &amp; meut le cœur. [(…) Il n’a aucun mouvement sur cela. Il ne souhaite pas sa mort par aucun mouvement de haine. <hi rend="i">Pas. l.7.</hi>] » (R)</def>
-          <xr rend="b">V. <ref target="#l935">935</ref>, <ref target="#l1151">1151</ref>.</xr>
+          <xr>V. <ref target="#l935">935</ref>, <ref target="#l1151">1151</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Naissance</form>
           <def xml:id="naissance1">« Sign. aussi, Extraction. » (A)</def>
           <xr><ref target="#epitre">Épître p. 3</ref>, v. <ref target="#l449">449</ref>.</xr>
           <def xml:id="naissance2">« Mis absolument signifie quelquefois, Noblesse. On doit cela à sa naissance. il a de la naissance par dessus vous. il a de la naissance. c’est un honneste homme, mais il n’a point de naissance. c’est un homme sans naissance. » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1331">1331</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1331">1331</ref>.</xr>
         </entryFree>
         <entryFree xml:id="naif">
           <form>Naif / Naïve</form>
           <def>« Vray, sincere, ressemblant » (F), « Naturel » (R)</def>
-          <xr rend="b">V. <ref target="#l485">485</ref>, <ref target="#l1391">1391</ref>.</xr>
+          <xr>V. <ref target="#l485">485</ref>, <ref target="#l1391">1391</ref>.</xr>
         </entryFree>
         <entryFree xml:id="naivete">
           <form>Naïveté</form>
           <def>« Il se prend aussi pour Cette grace &amp; cette simplicité naturelle avec laquelle une chose est exprimée, ou représentée selon la verité &amp; la vray-semblance. » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l475">475</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l475">475</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Objet</form>
           <def xml:id="objet1">« Signifie aussi ce qu’on regarde, ou ce qu’on se représente » (F)</def>
           <xr>V. <ref target="#l52">52</ref>, <ref target="#l1278">1278</ref>.</xr>
           <def xml:id="objet2">« Se dit quelquefois seulement de la fin. […] C’est l’<hi rend="i">objet</hi> ou le but où tendent tous mes désirs. » (F)</def>
-          <xr rend="b">V. <ref target="#l383">383</ref>.</xr>
+          <xr>V. <ref target="#l383">383</ref>.</xr>
           <def xml:id="objet3">« Se dit aussi poëtiquement des belles personnes qui donnent de l’amour. C’est un bel <hi rend="i">objet</hi>, un <hi rend="i">objet</hi> charmant. » (F)</def>
-          <xr rend="b">V. <ref target="#l147">147</ref>, <ref target="#l500">500</ref>, <ref target="#l560">560</ref>, <ref target="#l667">667</ref>, <ref target="#l907">907</ref>, <ref target="#l1008">1008</ref>, <ref target="#l1092">1092</ref>, <ref target="#l1181">1181</ref>, <ref target="#l1317">1317</ref>, <ref target="#l1364">1364</ref>, <ref target="#l1560">1560</ref>.</xr>
+          <xr>V. <ref target="#l147">147</ref>, <ref target="#l500">500</ref>, <ref target="#l560">560</ref>, <ref target="#l667">667</ref>, <ref target="#l907">907</ref>, <ref target="#l1008">1008</ref>, <ref target="#l1092">1092</ref>, <ref target="#l1181">1181</ref>, <ref target="#l1317">1317</ref>, <ref target="#l1364">1364</ref>, <ref target="#l1560">1560</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Obliger</form>
           <def xml:id="obliger1">« Contraindre, engager par une sorte de devoir, ou de bien-séance. Forcer à faire, ou à ne pas faire. » (R)</def>
           <xr>V. <ref target="#l84">84</ref>, <ref target="#l192">192</ref>, <ref target="#l865">865</ref>, <ref target="#l1105">1105</ref>, <ref target="#l1138">1138</ref>, <ref target="#l1677">1677</ref>, <ref target="#l1685">1685</ref>.</xr>
           <def xml:id="obliger2">« Faire plaisir, rendre un bon ofice. [(…) Il faut essaïer d’obliger les personnes de qualité. <hi rend="i">Memoires de M. le Duc de la Roche-Foucaut</hi>.] (R)</def>
-          <xr rend="b">V. <ref target="#l991">991</ref>, <ref target="#l1520">1520</ref>.</xr>
+          <xr>V. <ref target="#l991">991</ref>, <ref target="#l1520">1520</ref>.</xr>
           <def xml:id="obliger3">« <hi rend="i">S’obliger</hi>. S’engager par une sorte de devoir, ou de nécessité. [Je m’oblige à faire tout ce qu’il vous plaira. Il s’est obligé à païer pour son ami.] » (R)</def>
           <xr>V. <ref target="#l605">605</ref>.</xr>
-          <def xml:id="obliger4"><hi rend="b">« </hi> <hi rend="i">Obligé, obligée, adj.</hi> Qui a reçu un bon ofice qui a obligation à une personne parce qu’il en a reçu quelque plaisir. [Voilà un beau commencement, les juges vous seront bien obligez. <hi rend="i">Pasc. l.8</hi>. (…) L’Abesse lui fait réponce qu’elle &amp; ses filles se sentent infinîment obligées de ses bontez. <hi rend="i">Patru 5. plaidoié</hi>] » (R)</def>
-          <xr rend="b"><ref target="#epitre">Épître p. 3</ref>, v. <ref target="#l619">619</ref>.</xr>
+          <def xml:id="obliger4">«  <hi rend="i">Obligé, obligée, adj.</hi> Qui a reçu un bon ofice qui a obligation à une personne parce qu’il en a reçu quelque plaisir. [Voilà un beau commencement, les juges vous seront bien obligez. <hi rend="i">Pasc. l.8</hi>. (…) L’Abesse lui fait réponce qu’elle &amp; ses filles se sentent infinîment obligées de ses bontez. <hi rend="i">Patru 5. plaidoié</hi>] » (R)</def>
+          <xr><ref target="#epitre">Épître p. 3</ref>, v. <ref target="#l619">619</ref>.</xr>
         </entryFree>
         <entryFree>
-          <form>Offense (également orthographié <hi rend="i">offence</hi> au v. 669)</form>
+          <form>Offense, offence</form>
           <def xml:id="offense1">« Faute, péché. [Mes ofenses passées me tiennent dans une agitation continuelle, <hi rend="i">Port-Roial, Pseaumes</hi>. Expier ses ofenses, <hi rend="i">Pascal, livre <hi rend="sc">x</hi></hi>. Mon Dieu, pardonnez-nous nos ofenses, <hi rend="i">Port-Roial</hi>. Mon Dieu, purifiez-moi de mes ofenses, <hi rend="i">Port-Roial</hi>] » (R)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1045">1045</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1045">1045</ref>.</xr>
           <def xml:id="offense2">« Injure, tort, sorte d’afront. [Prendre vengence d’une ofense qu’on a reçuë, <hi rend="i">Le Comte de Bussi</hi>.] » (R)</def>
           <xr>V. <ref target="#l669">669</ref>.</xr>
         </entryFree>
@@ -4063,9 +4040,7 @@
         <entryFree xml:id="parasol">
           <form>Parasol</form>
           <def>« Toile cirée, coupée en rond, &amp; soutenuë sur de petits morceaux d’osier &amp; sur une baguette tournée au bout de laquelle il y a un petit baton tourné pour alonger le parasol dont l’usage est de se défendre du Soleil &amp; de la pluïe en le portant au-dessus de la tête. Il n’y a que les femmes qui portent des parasols, &amp; même elles n’en portent qu’au printemps, l’été &amp; en automne. » (R)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l920">920</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l920">920</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Peindre</form>
@@ -4077,14 +4052,12 @@
         <entryFree xml:id="pervers">
           <form>Pervers</form>
           <def>« Meschant, corrompu. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l307">307</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l307">307</ref>.</xr>
         </entryFree>
         <entryFree xml:id="picquer">
-          <form>Picquer (également orthographié <hi rend="i">piquer</hi> au v. 673)</form>
+          <form>Picquer, piquer</form>
           <def>« Ofencer, irriter par quelque action, ou quelques paroles. [Son procedé me pique.] » (R)</def>
-          <xr rend="b">V. <ref target="#l673">673</ref>, <ref target="#l1097">1097</ref>.</xr>
+          <xr>V. <ref target="#l673">673</ref>, <ref target="#l1097">1097</ref>.</xr>
         </entryFree>
         <entryFree xml:id="picquant">
           <form>Picquant</form>
@@ -4094,26 +4067,24 @@
         <entryFree xml:id="pinceau">
           <form>Pinceau</form>
           <def>Peut avoir, au XVII<hi rend="sup">e</hi> siècle, le sens de « plume pour escrire » (voir « peindre » )</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l808">808</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l808">808</ref>.</xr>
         </entryFree>
         <entryFree xml:id="prochaine">
           <form>Prochaine</form>
           <def>« Qui n’est pas loin. Il se dit du temps et du lieu. Maison <hi rend="i">prochaine</hi> » (F)</def>
-          <xr rend="b">V. <ref target="#l682">682</ref>, <ref target="#l874">874</ref>, <ref target="#l974">974</ref>, <ref target="#l1412">1412</ref>.</xr>
+          <xr>V. <ref target="#l682">682</ref>, <ref target="#l874">874</ref>, <ref target="#l974">974</ref>, <ref target="#l1412">1412</ref>.</xr>
         </entryFree>
         <entryFree xml:id="pudique">
           <form>Pudique</form>
           <def>« Chaste &amp; modeste dans les mœurs, dans les actions &amp; dans les discours » (A), « Chaste, pur, innocent &amp; honnête. » (R)</def>
-          <xr>V. <ref target="#l442">442</ref>, <hi rend="b"><ref target="#l751">751</ref></hi>.</xr>
+          <xr>V. <ref target="#l442">442</ref>,<ref target="#l751">751</ref>.</xr>
         </entryFree>
         <entryFree>
-          <form>Rapport (également orthographié <hi rend="i">raport</hi> au v. 1329)</form>
+          <form>Rapport, raport</form>
           <def xml:id="rapport1">« Signifie aussi, Recit, tesmoignage. <hi rend="i">Fidelle rapport. faux rapport</hi>. » (A)</def>
           <xr>V. <ref target="#l643">643</ref>, <ref target="#l1254">1254</ref>, <ref target="#l1605">1605</ref>.</xr>
           <def xml:id="rapport2">« Se prend quelquefois en mauvaise part, &amp; signifie Discours malin fait à dessein de nuire à quelqu’un. On ne sçauroit vivre dans cette maison, ce ne sont que rapports, le Maistre, la Maistresse se plaisent trop aux rapports de certains flatteurs qui y sont. » (A)</def>
-          <xr rend="b">V. <ref target="#l205">205</ref>, <ref target="#l1329">1329</ref>, <ref target="#l1509">1509</ref>, <ref target="#l1582">1582</ref>.</xr>
+          <xr>V. <ref target="#l205">205</ref>, <ref target="#l1329">1329</ref>, <ref target="#l1509">1509</ref>, <ref target="#l1582">1582</ref>.</xr>
           <def xml:id="rapport3">« Veut dire aussi Convenance, ressemblance, conformité. <hi rend="i">La langue Italienne a un grand rapport à la langue latine</hi>. » (A)</def>
           <xr>V. <ref target="#l891">891</ref>.</xr>
         </entryFree>
@@ -4127,9 +4098,7 @@
         <entryFree>
           <form>Remarquer</form>
           <def xml:id="remarquer1">« Observer &amp; considérer ce qui a quelque chose de singulier, d’extraordinaire, de notable. Le Soleil &amp; la Lune se font <hi rend="i">remarquer</hi> dans le ciel, les Rois sur la terre, les Sçavants dans les Escoles. On dit encore en ce sens, qu’un brave s’est fait <hi rend="i">remarquer</hi> en une telle occasion, pour dire, qu’il s’est fait distinguer des autres par une bravoure extraordinaire. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l34">34</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l34">34</ref>.</xr>
           <def xml:id="remarquer2">« Signifie aussi, Appercevoir, reconnoistre de petites choses » (F)</def>
           <xr>V. <ref target="#l1343">1343</ref>.</xr>
           <def xml:id="remarquer3">« Signifie aussi, Noter &amp; faire réflexion sur quelque chose qui nous pourra servir dans la suite » (F)</def>
@@ -4140,16 +4109,12 @@
           <def xml:id="rencontre1">« Hazard, avanture, par laquelle on trouve fortuitement une personne, ou une chose. » (A)</def>
           <xr>V. <ref target="#l423">423</ref>, <ref target="#l1337">1337</ref>.</xr>
           <def xml:id="rencontre2">« On l’employe quelquefois figur. Pour dire, Une pointe d’esprit, un bon mot. <hi rend="i">Plaisante rencontre. […] il n’est pas fort subtil en ses rencontres.</hi> » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1479">1479</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1479">1479</ref>.</xr>
           <def xml:id="rencontre3">« Signifie quelquefois, Occasion. Je vous serviray dans la rencontre, en toute rencontre. » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l897">897</ref>, <ref target="#l942">942</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l897">897</ref>, <ref target="#l942">942</ref>.</xr>
         </entryFree>
         <entryFree>
-          <form>Reputer (également orthographié <hi rend="i">réputer</hi> au v. 1570)</form>
+          <form>Reputer, réputer</form>
           <def xml:id="reputer1">« Avoir une certaine estime ou pensée de quelque chose. Les Espagnols et les Italiens sont <hi rend="i">reputez</hi> sages &amp; graves ; ils <hi rend="i">reputent</hi> les français pour estourdis. Cette maison est <hi rend="i">reputee</hi> noble. » (F)</def>
           <xr>V. <ref target="#l1646">1646</ref>.</xr>
           <def xml:id="reputer2">« Signifie aussi, Croire, presumer. Les enfants nez pendant le mariage sont reputez estre du mary. » (F)</def>
@@ -4158,37 +4123,33 @@
         <entryFree>
           <form>Serviteur</form>
           <def xml:id="serviteur1">« On appelle parmi le peuple <hi rend="i">serviteur</hi>, un garçon qui recherche une fille en mariage ; &amp; se dit même de plusieurs qui ont la même pretention. » (F)</def>
-          <xr rend="b">V. <ref target="#l424">424</ref>, <ref target="#l645">645</ref>.</xr>
+          <xr>V. <ref target="#l424">424</ref>, <ref target="#l645">645</ref>.</xr>
           <def xml:id="serviteur2">« On se sert aussi de cette formule pour clorre toutes les lettres, ou pour faire des compliments &amp; des adieux. Je suis vôtre tres-humble, tres-affectionné, &amp; tres-obeïssant <hi rend="i">serviteur</hi>. » (F)</def>
-          <xr rend="b"><ref target="#epitre">Épître p. 3</ref>.</xr>
+          <xr><ref target="#epitre">Épître p. 3</ref>.</xr>
         </entryFree>
         <entryFree xml:id="signaler">
           <form>Signaler</form>
           <def>« Rendre remarquable. Il a signalé son courage, sa valeur dans cette occasion. » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l39">39</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l39">39</ref>.</xr>
         </entryFree>
         <entryFree xml:id="signale">
           <form>Signalé</form>
           <def>« Il est aussi adj. &amp; sign. Remarquable. […] <hi rend="i">un crime, un vol signalé</hi>. » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1557">1557</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1557">1557</ref>.</xr>
         </entryFree>
         <entryFree>
-          <form>Soin (également orthographié <hi rend="i">soings</hi> aux v. 868, 1468, 1684)</form>
+          <form>Soin, soings</form>
           <def xml:id="soin1">« Diligence qu’on apporte à faire reüssir une chose, à la garder &amp; à la conserver, à la perfectionner. » (F)</def>
           <xr>V. <ref target="#l287">287</ref>, <ref target="#l434">434</ref>, <ref target="#l524">524</ref>, <ref target="#l543">543</ref>, <ref target="#l868">868</ref>, <ref target="#l1121">1121</ref>, <ref target="#l1244">1244</ref>, <ref target="#l1410">1410</ref>, <ref target="#l1684">1684</ref>.</xr>
           <def xml:id="soin2">« Se dit aussi des soucis, des inquietudes qui émeuvent, qui troublent l’ame. Le mauvais état de sa fortune luy donne bien des <hi rend="i">soins</hi> et du chagrin. Vous luy parlez de s’aller divertir, il a des <hi rend="i">soins</hi> plus importans qui l’agitent. » (F)</def>
-          <xr rend="b">V. <ref target="#l143">143</ref>, <ref target="#l652">652</ref>, <ref target="#l1035">1035</ref>.</xr>
+          <xr>V. <ref target="#l143">143</ref>, <ref target="#l652">652</ref>, <ref target="#l1035">1035</ref>.</xr>
           <def xml:id="soin3">« Est aussi l’attache particulière qu’on a auprés d’un maistre, ou d’une maistresse, pour les servir, ou leur plaire. Ce valet a eu grand <hi rend="i">soin</hi> de son maistre pendant sa maladie ; son Medecin luy a rendu beaucoup de <hi rend="i">soins</hi>, d’assiduitez. Soupirs, devoirs, petits <hi rend="i">soins</hi> en amour, tout est langage. » (F)</def>
           <xr>V. <ref target="#l10">10</ref>, <ref target="#l603">603</ref>, <ref target="#l1468">1468</ref>.</xr>
         </entryFree>
         <entryFree xml:id="soucy">
-          <form>Soucy (également orthographié <hi rend="i">souci</hi> au v. 531)</form>
+          <form>Soucy, souci</form>
           <def>« Chagrin, inquietude d’esprit, peut-être à cause qu’il fait devenir jaune » (F)</def>
-          <xr rend="b">V. <ref target="#l184">184</ref>, <ref target="#l531">531</ref>, <ref target="#l960">960</ref>, <ref target="#l1569">1569</ref>.</xr>
+          <xr>V. <ref target="#l184">184</ref>, <ref target="#l531">531</ref>, <ref target="#l960">960</ref>, <ref target="#l1569">1569</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Souffrir</form>
@@ -4202,93 +4163,79 @@
         <entryFree xml:id="succez">
           <form>Succez</form>
           <def>« Issuë d’une affaire. Il se dit en bonne et en mauvaise part. Alexandre, dans toutes ses entreprises eut d’heureux <hi rend="i">succés</hi>. Pompée en la bataille de Pharsale eut un <hi rend="i">succés</hi> malheureux. […] Il faut voir quel sera le <hi rend="i">succés</hi> de cette affaire, de cette négociation. » (F)</def>
-          <xr rend="b">V. <ref target="#l333">333</ref>, <ref target="#l496">496</ref>, <ref target="#l745">745</ref>, <ref target="#l1359">1359</ref>.</xr>
+          <xr>V. <ref target="#l333">333</ref>, <ref target="#l496">496</ref>, <ref target="#l745">745</ref>, <ref target="#l1359">1359</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Supposer</form>
           <def xml:id="supposer1">« Signifie aussi, Mettre une chose à la place d’une autre par fraude &amp; tromperie. […] J’avois fait prix avec ce Marchand d’une telle estoffe, dés que j’ay tourné les yeux, il m’en a <hi rend="i">supposé</hi> une autre. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l930">930</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l930">930</ref>.</xr>
           <def xml:id="supposer2">« Signifie aussi, Faire une fausse allegation ou accusation » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l192">192</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l192">192</ref>.</xr>
         </entryFree>
         <entryFree xml:id="surmonter">
           <form>Surmonter</form>
           <def>« Son plus grand usage est au figuré ; &amp; alors il signifie, Vaincre, dompter. Surmonter ses ennemis. se surmonter soy-mesme. surmonter sa colere, sa haine, son amour. » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l222">222</ref>, <ref target="#l642">642</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l222">222</ref>, <ref target="#l642">642</ref>.</xr>
         </entryFree>
         <entryFree xml:id="tenir">
           <form>Tenir (en)</form>
           <def>« Être pris, être dupé, être atrapé » (R)</def>
-          <xr rend="b">V. <ref target="#l607">607</ref>, <ref target="#l1013">1013</ref>.</xr>
+          <xr>V. <ref target="#l607">607</ref>, <ref target="#l1013">1013</ref>.</xr>
         </entryFree>
         <entryFree xml:id="timide">
           <form>Timide</form>
           <def>« Foible, peureux, qui craint tout. […] On dit qu’un homme est <hi rend="i">timide</hi>, quand il est lasche &amp; poltron ou honteux » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1337">1337</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1337">1337</ref>.</xr>
         </entryFree>
         <entryFree xml:id="toubeau">
           <form>Toubeau (également orthographié tout beau au v. 1591)</form>
           <def>« Tout beau, tout beau, c’est à dire, Arrestez-vous, taisez vous. Tout beau, Monsieur, demeurons en là. » (F)</def>
-          <xr rend="b">V. <ref target="#l553">553</ref>, <ref target="#l1591">1591</ref>, <ref target="#l1679">1679</ref>.</xr>
+          <xr>V. <ref target="#l553">553</ref>, <ref target="#l1591">1591</ref>, <ref target="#l1679">1679</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Traits</form>
           <def xml:id="traits1">« Fleche, dard, qui se tire avec un arc ou une arbaleste. […] On dit, <hi rend="i">Les traits de l’Amour</hi>, Parce que les Poëtes &amp; les peintres ont accoustumé de representer l’Amour avec un arc et des fleches. Dans ce sens on dit fig. d’Un homme qui est devenu amoureux, que <hi rend="i">L’amour l’a percé de ses traits</hi>. Et on dit fig. Des yeux d’une belle personne, que <hi rend="i">Ses yeux lancent mille traits</hi>. » (A)</def>
-          <xr rend="b">V. <ref target="#l326">326</ref>, <ref target="#l547">547</ref>.</xr>
+          <xr>V. <ref target="#l326">326</ref>, <ref target="#l547">547</ref>.</xr>
           <def xml:id="traits2">« Signifie aussi, Une ligne que l’on trace avec une plume, avec un pinceau, avec un craïon. […] <hi rend="i">cet Escrivain fait de beaux traits. […] le Peintre a fini ce tableau, il y a mis les derniers traits</hi>. » (A)</def>
           <xr><ref target="#epitre">Épître p. 3 (l. 15)</ref>, v.  <ref target="#l82">82</ref>, <ref target="#l578">578</ref>, <ref target="#l704">704</ref>, <ref target="#l832">832</ref>, <ref target="#l1178">1178</ref>, <ref target="#l1188">1188</ref>, <ref target="#l1280">1280</ref>, <ref target="#l1291">1291</ref>, <ref target="#l1477">1477</ref>.</xr>
           <def xml:id="traits3">« Se dit aussi, Des beaux endroits d’un discours, de ce qu’il y a de vif, &amp; de brillant dans une pensée, dans une expression. <hi rend="i">Il y a de beaux traits d’éloquence dans ce discours. un beau trait d’esprit, un trait de raillerie</hi>. » (A)</def>
-          <xr>V. <ref target="#l1131">1131</ref>, <hi rend="b"><ref target="#l1547">1547</ref></hi>.</xr>
+          <xr>V. <ref target="#l1131">1131</ref>,<ref target="#l1547">1547</ref>.</xr>
           <def xml:id="traits4">« Se dit aussi des lineaments du visage. Ce fils a tous les traits de son pere. elle a de beaux traits » (A)</def>
           <xr>V. <ref target="#l147">147</ref>, <ref target="#l571">571</ref>, <ref target="#l587">587</ref>.</xr>
           <def xml:id="traits5">« Se dit aussi, d’Un bon ou mauvais office qu’on rend à quelqu’un. <hi rend="i">On luy a joüé, on luy a fait un meschant trait, un vilain trait ce n’est pas là un trait d’ami</hi>. Il se dit aussi en general, Des actions qui ont quelque chose de singulier. <hi rend="i">Voilà un trait d’habile homme. voilà un trait de perfidie. voilà de vos traits. ce sont de ses traits</hi>. » (A)</def>
-          <xr rend="b"><ref target="#epitre">Épître p. 3 (l. 4)</ref>, v. <ref target="#l55">55</ref>, <ref target="#l211">211</ref>, <ref target="#l1366">1366</ref>, <ref target="#l1372">1372</ref>, <ref target="#l1508">1508</ref>, <ref target="#l1635">1635</ref>.</xr>
+          <xr><ref target="#epitre">Épître p. 3 (l. 4)</ref>, v. <ref target="#l55">55</ref>, <ref target="#l211">211</ref>, <ref target="#l1366">1366</ref>, <ref target="#l1372">1372</ref>, <ref target="#l1508">1508</ref>, <ref target="#l1635">1635</ref>.</xr>
         </entryFree>
         <entryFree xml:id="transport">
           <form>Transport</form>
           <def>« Se dit aussi figurément en choses morales, du trouble ou de l’agitation de l’ame par la violence des passions. Un <hi rend="i">transport</hi> de joye a causé quelquefois la mort. Un <hi rend="i">transport</hi> de colere cause souvent de grands malheurs. Les amoureux ont de doux, de violents, d’agreables <hi rend="i">transports</hi>. » (F)</def>
-          <xr><hi rend="b">V. <ref target="#l738">738</ref>, <ref target="#l995">995</ref></hi>.</xr>
+          <xr>V. <ref target="#l738">738</ref>, <ref target="#l995">995</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Transporter</form>
           <def xml:id="transporter1">« Porter une chose d’un lieu à un autre. » (F)</def>
           <xr>V. <ref target="#l691">691</ref>.</xr>
           <def xml:id="transporter2">« Se dit aussi des violentes agitations de l’esprit. Un homme <hi rend="i">transporté</hi> de colere, de joye, d’amour, &amp;c. Ceux qui rendoient des oracles étoient <hi rend="i">transportez</hi> de fureur. » (F)</def>
-          <xr>V. <ref target="#l1149">1149</ref>, <hi rend="b"><ref target="#l1585">1585</ref></hi>.</xr>
+          <xr>V. <ref target="#l1149">1149</ref>, <ref target="#l1585">1585</ref>.</xr>
         </entryFree>
         <entryFree>
           <form>Travail</form>
           <def xml:id="travail1">« Labeur, peine, fatigue, soit du corps, soit de l’esprit, qu’on prend pour faire quelque chose. » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l308">308</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l308">308</ref>.</xr>
           <def xml:id="travail2">« <hi rend="i">Travaux</hi>, signifie aussi, Les peines qu’on a prises, qu’on s’est données, à quelque entreprise glorieuse, dans l’execution de quelque chose de difficile. » (A)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l6">6</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l6">6</ref>.</xr>
         </entryFree>
         <entryFree xml:id="traverser">
           <form>Traverser</form>
           <def>« Troubler. Aporter du désordre, causer du désordre. [Traverser le repos d’une personne. <hi rend="i">La Suze, Poësies</hi>. Il est venu traverser notre joie. <hi rend="i">Ablancourt</hi>.] » (R)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l1032">1032</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l1032">1032</ref>.</xr>
         </entryFree>
         <entryFree xml:id="veritable">
           <form>Veritable</form>
           <def>« Ce mot se dit des choses &amp; des personnes, lorsqu’il se dit des choses, il signifie <hi rend="i">vrai</hi>. Et lorsqu’il se dit des personnes, il signifie, <hi rend="i">qui dit la vérité, qui dit vrai</hi>. » (R)</def>
-          <xr>V. <ref target="#l3">3</ref>, <ref target="#l334">334</ref>, <ref target="#l397">397</ref>, <hi rend="b"><ref target="#l552">552</ref>, <ref target="#l1025">1025</ref></hi>, <ref target="#l1038">1038</ref>, <ref target="#l1159">1159</ref>, <ref target="#l1280">1280</ref>, <ref target="#l1282">1282</ref>, <ref target="#l1495">1495</ref>, <ref target="#l1668">1668</ref>.</xr>
+          <xr>V. <ref target="#l3">3</ref>, <ref target="#l334">334</ref>, <ref target="#l397">397</ref>, <ref target="#l552">552</ref>, <ref target="#l1025">1025</ref>, <ref target="#l1038">1038</ref>, <ref target="#l1159">1159</ref>, <ref target="#l1280">1280</ref>, <ref target="#l1282">1282</ref>, <ref target="#l1495">1495</ref>, <ref target="#l1668">1668</ref>.</xr>
         </entryFree>
-        <p rend="b">Vertu</p>
         <entryFree>
+          <form>Vertu</form>
           <def xml:id="vertu1">« Signifie encore, Force, vigueur, tant du corps que de l’ame. […] Ce Magistrat a témoigné sa <hi rend="i">vertu</hi>, son courage, sa fermeté en cette occasion. » (F)</def>
           <xr><ref target="#epitre">Épître p. 2</ref>, <ref target="#epitre">épître p. 3 (l. 16)</ref>.</xr>
           <def xml:id="vertu2">« Se dit figurément en choses morales, de la disposition de l’ame, ou habitude à faire le bien, à suivre ce qu’enseignent la loy &amp; la raison. » (F)</def>
@@ -4299,9 +4246,7 @@
         <entryFree>
           <form>Zéle</form>
           <def xml:id="zele1">« Les Poëtes se servent quelquefois de <hi rend="i">zele</hi> pour signifier l’<hi rend="i">amour</hi>. Il luy a témoigné son <hi rend="i">zele</hi> en toutes occasions. En ce sens il vieillit. » (F)</def>
-          <xr>
-            <hi rend="b">V. <ref target="#l647">647</ref>.</hi>
-          </xr>
+          <xr>V. <ref target="#l647">647</ref>.</xr>
           <def xml:id="zele2">« Il se dit aussi, De ce qui regarde les obligations de la vie civile. […] <hi rend="i">avoir beaucoup de zele pour son Prince, pour le service de son Prince.</hi> […] Il ne se dit point du superieur à ses inferieurs. » (A)</def>
           <xr>V. <ref target="#l629">629</ref>, <ref target="#l1037">1037</ref>.</xr>
         </entryFree>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,6 +16,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -759,9 +766,11 @@
           <p>/ [IV] / Il ne suffit pas toûjours aux Pieces de Théatre d’estre bonnes, pour estre <ref target="#heureux1">heureuses*</ref> ; beaucoup de choses, comme les Acteurs, la saison, le goût du siecle, la disposition des Spéctateurs, contribuënt à faire valoir, ou à faire tomber cette sorte d’Ouvrages ; ainsi chaque Autheur est en droit de justifier le sien, quand il se croit en état de le pouvoir faire. Jusqu’icy j’ay negligé ce secours, que je devois peut-estre à la justification de quelqu’un<note n="208" place="bottom"><hi rend="i">Quelqu’un</hi> mis pour « quelques uns ».</note> de mes Ouvrages, quand ils n’ont pas réüssy. Je n’estois pas assez convaincu de leur mérite, pour me plaindre publiquement de leur malheur. Mais à l’égard d’Artaxerce, le moyen de se taire<note n="209" place="bottom">Omission de l’adjectif interrogatif : il s’agit ici non d’une véritable question, mais plutôt d’une réaction d’indignation, celle-ci étant signifiée par la seule intonation montante, sans caractéristiques syntaxiques.</note> ? Le jugement des Personnes fort éclairées, et dont le nom est respecté de l’<ref target="#envie1">envie*</ref> mesme, les applaudissemens que cette Piece reçeut dans les premieres Représentations, me répondoient d’un succés infaillible.Un chûte si prompte, et si surprenante, / [V] / peut-elle estre naturelle ? Et ne doit-on pas l’imputer à quelque cause extraordinaire ? Toutefois me laissant aller à ma coûtume, et à mon inclination, satisfait du témoignage de beaucoup d’<ref target="#honneste">honnestes*</ref> Gens, et de l’indignation du Public, qui n’a pû dissimuler une injustice si manifeste, je mettois Artaxerce au nombre des Ouvrages malheureux, et je fusse demeuré dans un profond silence, si ceux qui se croyent intéressez dans la réputation de mon Ouvrage pour l’honneur de leur jugement, ne m’eussent retiré de l’assoupissement où j’estois. Je ne dis pas cecy par cette fausse modestie, qu’affectent ordinairement les Autheurs qui veulent déguiser la demangeaison qu’ils ont de se faire imprimer. Pour justifier mes intentions, il suffit qu’on sçache que je n’ignore pas ce déchaînement de critique qui regne aujourd’huy, qui fait trembler tous ceux qui se meslent d’écrire, et qui sans-doute est un des plus grands malheurs qu’on puisse reprocher à notre siecle. Ce seroit une temérité inexcusable, de se livrer volontairement à cette <ref target="#fureur1">fureur*</ref> contagieuse qui a infecté la Cour et la Ville. Ne sçais-je pas ce qui est arrivé à un de mes Amis, qui ayant donné au public un Ouvrage<note n="210" place="bottom">Le Festin des Dieux.</note> plein / [VI] / d’esprit et d’invention, l’a veu déchirer impitoyablement dans toutes ses parties, jusques-là qu’on a pas épargné un des plus beaux Vers qu’on ait jamais fait à la loüange du Roy ?</p>
           <p rend="i">Le Modelle des Roys, et l’Image des Dieux,</p>
           <p>Quel Vers eut jamais eu<note n="211" place="bottom">Mis pour « a jamais eu ».</note> un plus beau sens, et a donné une plus glorieuse idée du plus grand des Roys ? Quelle expression peut estre plus noble et plus <ref target="#heureux2">heureuse*</ref>, et peut faire tant d’honneur à nostre Héros et à nostre Langue ? J’ose défier les Poëtes Grecs et Latins, de nous fournir dans tout ce qu’ils ont fait de plus beau pour leurs plus fameux Héros, une loüange plus exquise et plus relevée, et qui ait à mesme temps<note n="212" place="bottom"> Vaugelas ne fait pas de différence entre <hi rend="i">à même temps</hi> et <hi rend="i">en même temps.</hi> (<hi rend="i">Remarques nouvelles sur la langue française</hi>, 1647, tome II, p. 190). Voir aussi ligne 187.</note> tant de <ref target="#justesse1">justesse*</ref>, et tant de grandeur. Cependant on a voulu tourner en ridicule un Eloge si <ref target="#juste">juste*</ref> et si magnifique, et l’on a demandé si ce Modele estoit de bois, ou de pierre, et si cette Image estoit de plastre ou de cire. Une si méchante plaisanterie ne mérite pas une réponse sérieuse, et je diray seulement à l’Autheur de ce beau Vers, qui a esté si indignement critiqué, ce qu’il m’a dit luy-mesme en pareille occasion, mais avec moins de justice, et ce qu’on peut dire à tous les bons / [VII] / Autheurs qui ne sont pas toûjours <ref target="#heureux1">heureux*</ref>, que dans les plus beaux siecles, il y a eu toûjours des ces prétendus Connoisseurs qui ont fait la guerre au mérite, et qui entraînoient quelquefois le commun du Peuple avec eux.</p>
-          <p rend="center i">Ennius est lectus salvo tibi, Roma, Marone,</p>
-          <p rend="center i">Et sua riserunt saecula Maeoniden.</p>
-          <p rend="center i">Rara coronato plausere Theatra Menandro ;</p>
+          <quote xml:lang="la">
+            <l>Ennius est lectus salvo tibi, Roma, Marone,</l>
+            <l>Et sua riserunt saecula Maeoniden.</l>
+            <l>Rara coronato plausere Theatra Menandro ;</l>
+          </quote>
           <p rend="center"><hi rend="i">Norat Nasonem sola Corinna suum</hi>.
             <note n="213" place="bottom">Martial. Ep.10, Lib. 5.</note><note n="214" place="bottom">Voir la traduction proposée dans notre introduction.</note></p>
           <p>Cependant il est assez fâcheux de s’exposer à ces Censeurs impertinens, et d’atendre que la Postérité nous en fasse justice apres nostre mort; mais il faut bien obeïr à mes Amis, qui veulent que puis qu’Artaxerce n’a pas eu assez de temps pour se faire voir sur le Théatre<note n="215" place="bottom">Comprendre : « le lieu théâtral, la scène ».</note>, et qu’il a esté comme enlevé aux yeux du Public avec trop de précipitation, je le luy rende en le faisant imprimer, et donne ainsi le loisir à tout le monde de l’examiner, et d’asseoir sur la lecture un jugement solide, et assuré. On veut mesme qu’en le justifiant sur les défauts qu’on luy reproche, je luy donne dequoy <ref target="#soustenir1">soûtenir*</ref> le grand jour où il va paroistre.</p>
@@ -1469,7 +1478,8 @@
           <stage>CLEONNE.</stage>
           <sp who="nitocris">
             <speaker>NITOCRIS.</speaker>
-            <l n="402" xml:id="l402">Vous me voyez, Madame, <ref target="#estonner">étonnée*</ref> et<note n="306" place="bottom"> Le hiatus <hi rend="i">étonnée et</hi> est toléré au XVII<hi rend="sup">e</hi> car un e caduc suit la première voyelle. Toutefois, comme pour le <hi rend="i">h</hi> aspiré (cf. note vers 234), il ne s’agit que d’une fiction graphique car le hiatus demeure présent à l’oreille. Voir aussi les vers 613, 794, 906, 963, 966, 1007, 1025. On voit dans ces exemples que le prénom Aspasie, terminé par un <hi rend="i">e</hi> caduc, favorise ce genre de phénomène.</note> <ref target="#timide">timide*</ref>,</l>
+            <l n="402" xml:id="l402">Vous me voyez, Madame, <ref target="#estonner">étonnée*</ref> et<note n="306" place="bottom"> Le hiatus <hi rend="i">étonnée et</hi> est toléré au XVII<hi rend="sup">e</hi> car un e caduc suit la première voyelle. Toutefois, comme pour le <hi rend="i">h</hi> aspiré (cf. note vers 234), il ne s’agit que d’une fiction graphique car le hiatus demeure présent à l’oreille. Voir aussi les vers 613, 794, 906, 963, 966, 1007, 1025. On voit dans ces exemples que le prénom Aspasie, terminé par un <hi rend="i">e</hi> caduc, favorise ce genre de phénomène.</note>
+              <ref target="#timide">timide*</ref>,</l>
             <l n="403" xml:id="l403">Dans l’attente d’un choix dont ce grand jour décide ;</l>
             <l n="404" xml:id="l404">Entre deux Fils Rivaux Artaxerce flotant,</l>
             <l n="405" xml:id="l405">N’attend que vostre avis sur un choix important.</l>
@@ -2852,7 +2862,8 @@
             <l n="1231" xml:id="l1231">Qui feignant de servir ses <ref target="#fureur3">fureurs*</ref> criminelles,</l>
             <l n="1232" xml:id="l1232">Par un zele trompeur, loin de le secourir,</l>
             <l n="1233" xml:id="l1233">Aideront seulement à le faire périr.</l>
-            <l n="1234" xml:id="l1234">Toy, cependant<note n="379" place="bottom"><hi rend="i">Cependant</hi> était à l’origine la proposition participiale <hi rend="i">ce pendant</hi> signifiant : <hi rend="i">« cela étant en suspens »</hi>, l’adverbe conserve ici son sens temporel, il faut comprendre : « pendant ce temps ». Voir aussi vers 1264.</note> <ref target="#soustenir2">soûtien*</ref> l’espoir d’Ariarathe ;</l>
+            <l n="1234" xml:id="l1234">Toy, cependant<note n="379" place="bottom"><hi rend="i">Cependant</hi> était à l’origine la proposition participiale <hi rend="i">ce pendant</hi> signifiant : <hi rend="i">« cela étant en suspens »</hi>, l’adverbe conserve ici son sens temporel, il faut comprendre : « pendant ce temps ». Voir aussi vers 1264.</note>
+              <ref target="#soustenir2">soûtien*</ref> l’espoir d’Ariarathe ;</l>
             <l n="1235" xml:id="l1235">Mais il est temps d’agir. Tout nous sert, tout nous flate,</l>
             <l n="1236" xml:id="l1236">Tout est icy pour nous, trouble, confusion*,</l>
             <l n="1237" xml:id="l1237">Vengeance, jalousie, amour, ambition.</l>
@@ -3332,7 +3343,8 @@
           <sp who="artaxerce">
             <speaker>LE ROY.</speaker>
             <l part="Y"><space/><space/>Vos présages, grands Dieux,</l>
-            <l n="1529" xml:id="l1529">Sont enfin éclaircis. Quel Monstre<note n="396" place="bottom"><hi rend="i">Monstre</hi> : « Prodige qui est contre l’ordre de la nature, qu’on admire ou qui fait peur » (Furet). On se souvient de <hi rend="i">Phèdre et Hippolyte</hi> de Racine (1677), et du récit final de Théramène où nous est narrée la mort d’Hippolyte lors de sa lutte avec un Monstre marin. Le terme de <hi rend="i">Monstre</hi> scande tout le récit et Racine emploie littéralement l’expression de <hi rend="i">Monstre furieux</hi> : « L’onde approche, se brise, et vomit à nos yeux /Parmi des flots d’écume un Monstre furieux. » (V, 6, v. 1515-1516). L’expression est reprise ici par Boyer qui connaissait à n’en pas douter la pièce de son rival. De plus, les dénouements des deux pièces sont proches puisque Artaxerce comme Thésée, apprend la mort de son fils par un récit au moment même où il a décidé de le sauver. Dans un deuxième temps, Tiribaze mourant, semblable à Phèdre mourante, avoue sa culpabilité et révèle l’innocence de son fils au roi.</note> <ref target="#fureur2">furieux*</ref>…</l>
+            <l n="1529" xml:id="l1529">Sont enfin éclaircis. Quel Monstre<note n="396" place="bottom"><hi rend="i">Monstre</hi> : « Prodige qui est contre l’ordre de la nature, qu’on admire ou qui fait peur » (Furet). On se souvient de <hi rend="i">Phèdre et Hippolyte</hi> de Racine (1677), et du récit final de Théramène où nous est narrée la mort d’Hippolyte lors de sa lutte avec un Monstre marin. Le terme de <hi rend="i">Monstre</hi> scande tout le récit et Racine emploie littéralement l’expression de <hi rend="i">Monstre furieux</hi> : « L’onde approche, se brise, et vomit à nos yeux /Parmi des flots d’écume un Monstre furieux. » (V, 6, v. 1515-1516). L’expression est reprise ici par Boyer qui connaissait à n’en pas douter la pièce de son rival. De plus, les dénouements des deux pièces sont proches puisque Artaxerce comme Thésée, apprend la mort de son fils par un récit au moment même où il a décidé de le sauver. Dans un deuxième temps, Tiribaze mourant, semblable à Phèdre mourante, avoue sa culpabilité et révèle l’innocence de son fils au roi.</note>
+              <ref target="#fureur2">furieux*</ref>…</l>
           </sp>
           <sp who="oronte">
             <speaker>ORONTE.</speaker>

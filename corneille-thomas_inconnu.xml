@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,6 +16,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -123,7 +130,7 @@
           <div>
             <head>Genèse du projet de <hi rend="i">L’Inconnu</hi></head>
             <div>
-              <head>L’inspiration première : la nouvelle X, des Nouvelles galantes de Donneau de Visé (1669)<note n="5" place="bottom"><p><ref target="#v=onepage&amp;q&amp;f=false">http://books.google.fr/books ? id=lvc5AAAAcAAJ&amp;printsec=frontcover&amp;hl=fr&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</ref> (pp.262-277)</p></note></head>
+              <head>L’inspiration première : la nouvelle X, des Nouvelles galantes de Donneau de Visé (1669)<note n="5" place="bottom"><p><ref target="http://books.google.fr/books?id=lvc5AAAAcAAJ&amp;printsec=frontcover&amp;hl=fr&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false">http://books.google.fr/books?id=lvc5AAAAcAAJ&amp;printsec=frontcover&amp;hl=fr&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</ref> (pp.262-277)</p></note></head>
               <div>
                 <head>Résumé de la nouvelle</head>
                 <p>Pierre Mélèse<note n="6" place="bottom"><p><hi rend="i">Un Homme de lettres au temps du grand roi, Donneau de Visé fondateur du Mercure Galant</hi>, p.128.</p></note> nous rappelle, que Donneau de Visé publia dans le deuxième livre  des Nouvelles galantes, comiques et tragiques (paru en 1669), que « figurait une nouvelle, la 10<hi rend="sup">è</hi>, intitulée L’Inconnu, où se trouva le thème de la comédie dont il fut bien l’inspirateur. » C’est cette nouvelle qui inspira Thomas Corneille pour sa pièce du même nom publiée quelques années plus tard, en 1675. Le sujet de la nouvelle que voici est exactement l’intrigue de la pièce.</p>
@@ -4599,7 +4606,7 @@
             <l n="1477" xml:id="l1477">Mais j’ay bientost sorty d’un doute si funeste ;</l>
             <l n="1478" xml:id="l1478"><space/>Mon Cheval tout-à-coup s’élançant malgré moy,    </l>
             <l n="1479" xml:id="l1479">J’ay <ref target="#connaitre">connu*</ref> mon erreur, &amp; ry de mon effroy.</l>
-            <l n="1480" xml:id="l1480"><space/><space/>Au lieu de <ref target="#mousqueton">Mousquetons*</ref>, j’ay veu dans cette Tente            </l>
+            <l n="1480" xml:id="l1480"><space/><space/>Au lieu de <ref target="#mousquetons">Mousquetons*</ref>, j’ay veu dans cette Tente            </l>
             <l n="1481" xml:id="l1481">Les apprests différens d’une Feste <ref target="#galante">galante*</ref> ;</l>
             <l n="1482" xml:id="l1482">Et ceux qui la gardoient, de mon abord surpris,</l>
             <l n="1483" xml:id="l1483">Parloient certain jargon, où je n’ay rien compris.</l>

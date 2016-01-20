@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,6 +17,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -957,7 +964,6 @@
           </castItem>
         </castList>
         <stage>La Scene est dans la Capitale de Galatie<note n="123" place="bottom"><hi rend="i">La Galatie</hi> : Région de l’Asie Mineure, occupée par les Celtes venus de la Gaule vers 235 av. J.-C. L’ethnique « Galates » est d’origine celtique et aurait d’abord servi à désigner chez les Celtes les nations auxiliaires telles que celles des Belges par exemple. </note>.</stage>
-        <pb/>
       </div>
       <div type="act">
         <head rend="center">CAMMA REINE DE GALATIE, <hi rend="i">TRAGEDIE.</hi><pb n="A ; 1"/></head>

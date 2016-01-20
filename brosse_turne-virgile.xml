@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,6 +17,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -287,7 +294,7 @@
         <list>
           <item>– nous avons distingué, conformément à l’usage moderne, le <hi rend="i">i</hi> et le <hi rend="i">j</hi>, et le <hi rend="i">u</hi> et le <hi rend="i">v</hi>.</item>
           <item>– nous avons transformé le ß en –ss- (épître, Auβé ; impreβion ; v. 44 deβeins ; v. 127 et 168, aβisté ; v. 244, 345, 813 paβion ; v.276, 799, 1064, 1075, 1189, 1458 auβi ; v.285 diβipez ; v. 320 paβions ; v. 356, 823 aβiste ; v.535 preβé ; v.589 aβeurez ; v.661 aβiegez ; v.702 aβeurance ; v.796 groβissant ;v. 823 aβistez ; v.835 impreβion ; v.870 pouβiere ; v.949, 1148, 1161 auβitost ;v.1008 bleβer ; v.1081 pouβé ; v.1273 laβez ; v.1275 aβinee ; v.1338 poβible ; v.1398 assaβin ; v.1542 aβaillir ; v.1596 impoβible).</item>
-          <item>– nous avons transformé les voyelles surmontées d’un tilde en voyelle suivie d’une consonne nasale : v.10 tõber ; <pb n="51" xml:id="p51"/> didascalie : troyēs ; v.1555 dõpte.</item>
+          <item>– nous avons transformé les voyelles surmontées d’un tilde en voyelle suivie d’une consonne nasale : v.10 tõber ; didascalie : troyēs ; v.1555 dõpte.</item>
           <item>– nous avons rajouté ou supprimé des accents diacritiques pour distinguer par exemple <hi rend="i">ou</hi> conjonction de <hi rend="i">où</hi> adverbe, et <hi rend="i">a</hi> verbe de <hi rend="i">à</hi> préposition. Ces corrections concernent les vers suivants : <hi rend="i">où</hi> aux vers 245, 359, 512, 668, 847, 1152 ; <hi rend="i">a</hi> aux vers 355, 447, 508 ; <hi rend="i">ou</hi> aux vers 420, 798 ; <hi rend="i">à</hi> aux vers 276.</item>
         </list>
         <p>Nous avons corrigé les coquilles :</p>
@@ -413,7 +420,6 @@
 <lb/>d’Italie, maintenant appellée le territoire de
 <lb/>Rome, ou campagna di Roma.<note n="75" place="bottom">L’unité de lieu était encore relativement souple : c’est le cas ici, puisqu’on nous mentionne la ville de Lavinium, mais la pièce se déroule successivement dans le palais du Roi ou sur le champ de bataille. D’où l’utilisation de décors à compartiments.</note>
           </stage>
-        <pb/>
       </div>
       <div type="act">
         <head>ACTE I.</head>

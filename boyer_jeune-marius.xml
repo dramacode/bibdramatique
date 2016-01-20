@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,6 +16,10 @@
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -696,12 +703,14 @@
         <head>A Monseigneur <hi rend="b">colbert.</hi> Ministre et secretaire d’<hi rend="sc">Estat</hi><note n="23" place="bottom">. COLBERT (Jean-Baptiste) 1619-1683 Il fut ministre de Louis XIV dès 1661 aux Finances, à l’économie nationale, aux bâtiments royaux, aux travaux publics. Il fut contrôleur général des Finances en 1665 puis secrétaire d’État à la Marine et à la Maison du Roi (deux des quatre secrétariats d’État existants) en 1669. Il conserva ces fonctions jusqu’à sa mort.</note>.</head>
         <p><hi rend="i">Monseigneur</hi>,</p>
         <p xml:id="dedicace_2">Quelque impatience que j’eusse de vous donner des marques publiques de ma reconnoissance au nom de toutes les Muses en general, et de la mienne en particulier, quoy que j’en fusse sollicité par la bonne <hi rend="sup">*</hi><ref target="#fortune">fortune</ref> de quelqu’une de mes Pieces qui ont precedé celle-cy, j’ay senty mon devoir arresté par une juste defiance et par une crainte respectueuse. Mais enfin ne pouvant plus diferer de satisfaire à ma gratitude, j’ay ramassé toutes mes forces avant que d’entreprendre l’ouvrage que je vous destinois, j’ay pris la Scene la plus magnifique, j’ay choisi un des Heros de l’ancienne Rome, et pour vous le rendre plus agreable, j’ay tâché de le representer avec quelques-uns de ces traits, que nous admirons dans vostre incomparable Heros, Je parle de nostre grand Roy<note n="24" place="bottom">. Louis XIV 1638-1715.</note>, qui rassemble en luy seul tout ce que l’Histoire a de plus incroyable et de plus merveilleux. Plein d’une si haute idée, et soustenu par la dignité de mon sujet, je vous ay consacré mon travail avant que de le  commencer ; J’ay envisagé toute la gloire que je pouvois attendre de vostre approbation ; J’ay invoqué avec plus de ferveur que jamais le Dieu qui nous inspire, et je me suis dit sans cesse, qu’ayant esté choisi pour estre un des sujets des gratifications du Roy<note n="25" place="bottom">. Les gratifications financières que Boyer recevait depuis 1663 venaient juste de reprendre après quelques mois d’interruption. Voir biographie p. 3-4.</note>, je devois soustenir , ou plûtost justifier un choix si honorable. C’est avec ce grand secours, MONSEIGNEUR, que j’ay travaillé assez heureusement : quoy que la <hi rend="sup">*</hi><ref target="#fortune">fortune</ref> et la cabale se meslent aujourd’huy de faire le bon et le mauvais destin des ouvrages du Theatre<note n="26" place="bottom">. Allusion aux critiques qui accompagnent toutes pièces. Voir biographie p. 6.</note>, celuy que je vous ay consacré n’a pas succombé sous leur injustice. Ce n’est que vous, MONSEIGNEUR, que j’ay lieu d’apprehender, quand je l’expose à vos yeux : je sçay que rien n’échape à la penetration de vostre esprit, et que vous possedez le precieux talent de juger finement de toutes choses : Je sçay que c’est de cette idée generale, que vous avez du beau et du parfait que se répandent sans cesse de nouvelles beautez et de nouvelles lumieres sur tous les Arts et sur toutes les Sciences<note n="27" place="bottom">. En 1663 Colbert fonda l’Académie des Inscriptions et en 1666 celle des Sciences, il est souvent considéré comme un mécène des arts, il décidait des gratifications royales.</note> : C’est de là que vient ce grand amour que vous avez pour elles, ces soins continuels et cette magnifique protection, dont vous honorez l’empire des belles Lettres, au milieu de ces grandes occupations que vous donnez avec une application étonnante et sans exemple à la premiere Monarchie de la terre. Que j’aurois de choses à dire, MONSEIGNEUR, sur un si vaste sujet, et qu’il seroit doux à une ame reconnoissante comme la mienne de s’abandonner à la loüange de son bienfaicteur ! Mais je sçay trop quelle est la delicatesse de vostre modestie, et avec quelle discretion il faut manier toutes les matieres qui regardent vostre gloire. Agréez au moins, MONSEIGNEUR, que je laisse échaper devant vous une louange qui est dans la bouche de tout le monde.</p>
-        <p rend="margin i">Permettez que j’apprenne à la posterité,</p>
-        <p rend="i">Que vous avez executé</p>
-        <p rend="margin i">Des choses qu’avant vous on avoit regardées</p>
-        <p rend="margin i">Comme les vains projets d’un zele mal fondé,</p>
-        <p rend="margin i">et dont tous ceux qui vous ont precedé,</p>
-        <p rend="i">Eurent à peine les idées. </p>
+        <lg rend="i">
+          <l>    Permettez que j’apprenne à la posterité,</l>
+          <l>Que vous avez executé</l>
+          <l>    Des choses qu’avant vous on avoit regardées</l>
+          <l>    Comme les vains projets d’un zele mal fondé,</l>
+          <l>    et dont tous ceux qui vous ont precedé,</l>
+          <l>Eurent à peine les idées. </l>
+        </lg>
         <p>Je n’entreray point dans le détail et dans la preuve de toutes ces merveilles, le témoignage que le Roy en rend tous les jours par sa propre bouche, vaut mieux que tous nos eloges ; ces glorieuses veritez sont assez confirmées par les solides marques que sa Majesté vous donne continuellement de son estime, et par les nouvelles dignitez dont il recompense vos travaux. Je suis avec un profond respect,</p>
         <p>MONSEIGNEUR,</p>
         <p>Vostre tres-humble, tres-obeyssant</p>
@@ -1701,7 +1710,8 @@
             <l n="685" xml:id="l685">Il pourroit soupçonner que son ordre est trahy,</l>
             <l n="686" xml:id="l686">Et que mon cœur rebelle auroit mal obey ;</l>
             <l n="687" xml:id="l687">Il croiroit qu’abusant de ce pouvoir suprême</l>
-            <l n="688" xml:id="l688">Qu’un <hi rend="sup">*</hi><ref target="#genereux">genereux</ref> <hi rend="sup">*</hi><ref target="#amant">Amant</ref> me donne sur luy-mesme,</l>
+            <l n="688" xml:id="l688">Qu’un <hi rend="sup">*</hi><ref target="#genereux">genereux</ref>
+              <hi rend="sup">*</hi><ref target="#amant">Amant</ref> me donne sur luy-mesme,</l>
             <l n="689" xml:id="l689">Je m’oppose à son ordre, et suis un autre choix.</l>
             <l n="690" xml:id="l690">Va, dy-luy que je veux me soûmettre à ses loix ;</l>
             <l n="691" xml:id="l691">Sur tout ce qu’il a dit, garde un profond silence.</l>
