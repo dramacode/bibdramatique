@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -2335,7 +2334,7 @@
           <div type="scene">
             <head>SCENE VII.</head>
             <stage>UN GARDE, BELUS, THISBÉ, ISMENE.</stage>
-            <sp who="un-garde">
+            <sp who="garde">
               <speaker>UN GARDE <hi rend="i">à Belus</hi>.</speaker>
               <l n="1010" xml:id="l1010">Babylone, Seigneur, a pour vous pris les armes.</l>
             </sp>
@@ -3394,7 +3393,7 @@
           <entryFree>
             <form>Connoître</form>
             <def  xml:id="connoitre1">« Découvrir » (F.)</def>
-            <xr>V. <ref target="#l425">425</ref>, <ref target="#l466">466</ref>, <ref target="#l471970">471970</ref></xr>
+            <xr>V. <ref target="#l425">425</ref>, <ref target="#l466">466</ref>, <ref target="#l471">471</ref>, <ref target="#l970">970</ref></xr>
             <def xml:id="connoitre2">Savoir.</def>
             <xr>V. <ref target="#l70">70</ref></xr>
           </entryFree>
@@ -3741,36 +3740,9 @@
           <p/>
           <table>
             <row>
-              <cell>
-                <p rend="cell">Théophile de Viau</p>
-                <p rend="cell">Les amours tragiques de Pyrame et Thisbé</p>
-                <p rend="cell">I, 2 : opposition de Narbal, père de Pyrame aux amours de Pyrame et Thisbé :</p>
-                <p rend="cell">Aimer sans mon congé et s’obstiner encore</p>
-                <p rend="cell">D’un amour qui le perd et me déshonore !</p>
-                <p rend="cell">D’un ennemi mortel la fille rechercher !</p>
-                <p rend="cell">[…] , je te ferai connaître</p>
-                <p rend="cell">Le respect que tu dois à ceux qui t’ont fait naître. <space> </space>(v. 119-126)</p>
-                <p rend="cell">I, 3 : amour du roi pour Thisbé.</p>
-                <p rend="cell">IV, 1 Pyrame et Thisbé décident de fuir.</p>
-                <p rend="cell">N’achève point, Pyrame,</p>
-                <p rend="cell">Un si mauvais soupçon : tu blesserais mon âme,</p>
-                <p rend="cell">Autre objet que le tien ? c’est me désobliger,</p>
-                <p rend="cell">Mon cœur, et quel plaisir prends-tu de m’affliger ?</p>
+              <cell>Théophile de Viau<lb/><hi rend="i">Les Amours tragiques de Pyrame et Thisbé</hi><lb/>I, 2 : opposition de Narbal, père de Pyrame aux amours de Pyrame et Thisbé :<lb/>Aimer sans mon congé et s’obstiner encore<lb/>D’un amour qui le perd et me déshonore !<lb/>D’un ennemi mortel la fille rechercher !<lb/>[…] , je te ferai connaître<lb/>Le respect que tu dois à ceux qui t’ont fait naître. (v. 119-126)<lb/>I, 3 : amour du roi pour Thisbé.<lb/>IV, 1 Pyrame et Thisbé décident de fuir.<lb/>N’achève point, Pyrame,<lb/>Un si mauvais soupçon : tu blesserais mon âme,<lb/>Autre objet que le tien ? c’est me désobliger,<lb/>Mon cœur, et quel plaisir prends-tu de m’affliger ?
               </cell>
-              <cell>
-                <p rend="cell">Pradon</p>
-                <p rend="cell">Pirame et Thisbé</p>
-                <p rend="cell">I, 1 : opposition d’Arsace à l’amour de Pirame et Thisbé :</p>
-                <p rend="cell">Quoy, Licas, malgré moy pouray-je voir la Fille</p>
-                <p rend="cell">D’un Ennemy mortel entrer dans ma famille ?</p>
-                <p rend="cell">Pouray-je voir mon Fils braver impunément</p>
-                <p rend="cell">Le respect qu’il devoit à mon ressentiment ?</p>
-                <p rend="cell">(v. 9-12)</p>
-                <p rend="cell">I, 7 : amour d’Amestris pour Pirame.</p>
-                <p rend="cell">IV, 4 : Pirame et Thisbé décident de fuir.</p>
-                <p rend="cell">Que ne m’épargnez-vous pas cet adieu si mortel ?</p>
-                <p rend="cell">Pour vous je tremble, helas ! que d’efroy ! que d’allarmes !</p>
-                <p rend="cell">Quel plaisir prenez-vous à voir couler mes larmes ?</p>
+              <cell>Pradon<lb/><hi rend="i">Pirame et Thisbé</hi><lb/>I, 1 : opposition d’Arsace à l’amour de Pirame et Thisbé :<lb/>Quoy, Licas, malgré moy pouray-je voir la Fille<lb/>D’un Ennemy mortel entrer dans ma famille ?<lb/>Pouray-je voir mon Fils braver impunément<lb/>Le respect qu’il devoit à mon ressentiment ? (v. 9-12)<lb/>I, 7 : amour d’Amestris pour Pirame.<lb/>IV, 4 : Pirame et Thisbé décident de fuir.<lb/>Que ne m’épargnez-vous pas cet adieu si mortel ? <lb/>Pour vous je tremble, helas ! que d’efroy ! que d’allarmes !<lb/>Quel plaisir prenez-vous à voir couler mes larmes ?
               </cell>
             </row>
           </table>
