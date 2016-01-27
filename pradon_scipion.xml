@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -55,6 +54,8 @@
     <docAuthor>Par M<hi rend="sup">r</hi> Pradon</docAuthor>
     <docImprint></docImprint>
     <docImprint>À Paris,<lb/>Chez THOMAS GUILLAIN, proche<lb/>les Augustins, à la descente du Pont-neuf,<lb/>à l’Image S. Loüis,<lb/>M. DC. XCXVII.<lb/><hi rend="i">Avec privilège du roy.</hi></docImprint>
+    <docEdition>Édition critique établie par Chloé Beaucamp dans le cadre d'un mémoire de
+      maîtrise sous la direction de Georges Forestier (2006-2007).</docEdition>
   </titlePage>
         <div>
           <head>Introduction</head>
@@ -551,7 +552,7 @@
           <head>EXTRAIT DU PRIVILEGE <lb/>du Roy.</head>
           <p>Par Grace &amp; Privilege du Roy, donné à Paris le vingt-uniéme Mars<note place="bottom">On remarque que, selon une pratique de plus en plus fréquente dans la seconde moitié du XVII<hi rend="sup">e</hi> siècle, le Privilège a été pris tôt, et même avant que la pièce ne quitte l’affiche : celle-ci a en effet été représentée pour la quatorzième fois le vendredi 22 mars, soit la veille de la fermeture annuelle du théâtre, et a été rejouée deux fois au cours du mois d’avril. </note> 1697. Signé, Par le Roy en son Conseil, LE FEVRE. Il est permis à THOMAS GUILLAIN, Marchand Libraire à Paris, de faire imprimer, vendre &amp; debiter <hi rend="i">le Recueil des Tragedies du Sieur</hi> PRADON<note place="bottom">La parution de <hi rend="i">Scipion l’Africain</hi> a ainsi donné lieu à la réédition du théâtre complet de Pradon, la précédente édition datant de 1695 (chez la veuve Mabre-Cramoisy).</note>, pendant le temps de six années, à compter du jour qu’elles seront achevées d’imprimer pour la premiere fois, en vertu des presentes, pendant lequel temps tres-expresses inhibitions &amp; défenses sont faites à toutes personnes de quelque qualité &amp; condition qu’elles soient ; de faire imprimer, vendre ny debiter desdites Tragedies conjointement, ou separément, d’autre Edition que celles de l’Exposant, ou de ceux qui auront droit de luy, à peine de quinze cens livres d’amende, payable sans déport par chacun des Contrevenans, de confiscation des Exemplaires contrefaits, &amp; de tous dépens, dommages &amp; interests, &amp; autres peines portées plus au long par lesdites Lettres de Privilege.</p>
           <p rend="i">Registré sur le Livre de la Communauté des Imprimeurs et Libraires de la Ville de Paris, le 26 Mars 1697.</p>
-          <p rend="right i">Signé P. AUBOUIN, Syndic.</p>
+          <p rend="right"><hi rend="i">Signé P. AUBOUIN, Syndic.</hi></p>
           <p>Achevé d’imprimer pour la premiere fois le premier Avril 1697.</p>
           <p><hi rend="i">Le prix est vingt sols</hi><note place="bottom">Ceci équivaut environ à douze euros actuels.</note>.</p>
         </div>
@@ -2864,12 +2865,12 @@
           </entryFree>
           <entryFree xml:id="chagrin">
             <form>Chagrin</form>
-            <def>Synonyme de tristesse (voir <hi rend="b">Triste</hi>).</def>
+            <def>Synonyme de tristesse (voir Triste).</def>
             <xr>V. <ref target="#l431">431</ref>, <ref target="#l626">626</ref> </xr>
           </entryFree>
           <entryFree xml:id="charme">
             <form>Charmes(s)</form>
-            <def>« Ce qui se fait par art magique pour produire un effet extraordinaire. Signifie au sens figuré attrait, appast, qui plaist extremement, qui touche sensiblement » (Acad.). Ces deux acceptions enrichissent les occurrences du mot dans la pièce, ainsi que celles de <hi rend="b">Charmer (é, ée)</hi> et de <hi rend="b">Charmante</hi>.</def>
+            <def>« Ce qui se fait par art magique pour produire un effet extraordinaire. Signifie au sens figuré attrait, appast, qui plaist extremement, qui touche sensiblement » (Acad.). Ces deux acceptions enrichissent les occurrences du mot dans la pièce, ainsi que celles de Charmer (é, ée) et de Charmante.</def>
             <xr>V. <ref target="#l68">68</ref>, <ref target="#l89">89</ref>, <ref target="#l119">119</ref>, <ref target="#l230">230</ref>, <ref target="#l245">245</ref>, <ref target="#l289">289</ref>, <ref target="#l299">299</ref>, <ref target="#l549">549</ref>, <ref target="#l609">609</ref>, <ref target="#l638">638</ref>, <ref target="#l650">650</ref>, <ref target="#l921">921</ref>, <ref target="#l1370">1370</ref></xr>
             <xr>Charmer : V. <ref target="#l104">104</ref>, <ref target="#l254">254</ref>, <ref target="#l667">667</ref></xr>
             <xr>Charmante : V. <ref target="#l557">557</ref></xr>
@@ -2988,7 +2989,7 @@
             <form>Fier,e</form>
             <def>« Hautain, altier, audacieux » (F)</def>
             <xr>V. <ref target="#l683">683</ref>, <ref target="#l739">739</ref>, <ref target="#l840">840</ref>, <ref target="#l877">877</ref>, <ref target="#l1134">1134</ref>, <ref target="#l1201">1201</ref></xr>
-            <def>Voir <hi rend="b">Hautain</hi></def>
+            <def>Voir Hautain</def>
           </entryFree>
           <entryFree>
             <form>Fierté</form>
@@ -3635,9 +3636,7 @@
               </cell>
               <cell cols="7">Billets achetés</cell>
               <cell rows="2">Part d’auteur</cell>
-              <cell rows="2">
-                <p rend="cell">Reçu</p>
-                <p rend="cell">en tout</p>
+              <cell rows="2">Reçu en tout
               </cell>
               <cell rows="2">Autres informations recueillies sur l’un ou l’autre registre
               </cell>
@@ -3660,7 +3659,7 @@
               <cell>1</cell>
               <cell>vendredi 22 février
               </cell>
-              <cell rend="i">Scipion</cell>
+              <cell><hi rend="i">Scipion</hi></cell>
               <cell>2</cell>
               <cell></cell>
               <cell>164</cell>
@@ -3677,7 +3676,7 @@
               <cell>2</cell>
               <cell>dimanche 24 février
               </cell>
-              <cell rend="i">Scipion</cell>
+              <cell><hi rend="i">Scipion</hi></cell>
               <cell>1</cell>
               <cell></cell>
               <cell>151</cell>
@@ -3694,7 +3693,7 @@
               <cell>3</cell>
               <cell>mardi 26 février
               </cell>
-              <cell rend="i">Scipion</cell>
+              <cell><hi rend="i">Scipion</hi></cell>
               <cell>2</cell>
               <cell></cell>
               <cell>150</cell>
@@ -3711,7 +3710,7 @@
               <cell>4</cell>
               <cell>jeudi 28 février
               </cell>
-              <cell rend="i">Scipion</cell>
+              <cell><hi rend="i">Scipion</hi></cell>
               <cell>2</cell>
               <cell>1</cell>
               <cell>134</cell>
@@ -3727,7 +3726,7 @@
               <cell>5</cell>
               <cell>samedi 2 mars
               </cell>
-              <cell rend="i">Scipion</cell>
+              <cell><hi rend="i">Scipion</hi></cell>
               <cell>1</cell>
               <cell></cell>
               <cell>213</cell>
@@ -3745,7 +3744,7 @@
               </cell>
               <cell>lundi 4 mars
               </cell>
-              <cell rend="i">Scipion</cell>
+              <cell><hi rend="i">Scipion</hi></cell>
               <cell></cell>
               <cell></cell>
               <cell>136</cell>
@@ -3762,7 +3761,7 @@
               <cell>7</cell>
               <cell>mercredi 6 mars
               </cell>
-              <cell rend="i">Scipion et La Parisienne
+              <cell><hi rend="i">Scipion et La Parisienne</hi>
               </cell>
               <cell></cell>
               <cell></cell>
@@ -3779,7 +3778,7 @@
               <cell>8</cell>
               <cell>vendredi 8 mars
               </cell>
-              <cell rend="i">Scipion et L’été des Coquettes</cell>
+              <cell><hi rend="i">Scipion et L’été des Coquettes</hi></cell>
               <cell></cell>
               <cell></cell>
               <cell>90</cell>
@@ -3822,7 +3821,7 @@
             <row>
               <cell>9</cell>
               <cell>dimanche 10 mars</cell>
-              <cell rend="i">Scipion et Le Cocher supposé
+              <cell><hi rend="i">Scipion et Le Cocher supposé</hi>
               </cell>
               <cell></cell>
               <cell></cell>
@@ -3840,7 +3839,7 @@
               <cell>10</cell>
               <cell>mardi 12 mars
               </cell>
-              <cell rend="i">Scipion et Georges Dandin</cell>
+              <cell><hi rend="i">Scipion et Georges Dandin</hi></cell>
               <cell></cell>
               <cell>1</cell>
               <cell>84</cell>
@@ -3857,7 +3856,7 @@
               <cell>11</cell>
               <cell>samedi 16 mars
               </cell>
-              <cell rend="i">Scipion et Les Vandanges de Suresne</cell>
+              <cell><hi rend="i">Scipion et Les Vandanges de Suresne</hi></cell>
               <cell>2</cell>
               <cell></cell>
               <cell>151</cell>
@@ -3873,7 +3872,7 @@
               <cell>12</cell>
               <cell>lundi 18 mars
               </cell>
-              <cell rend="i">Scipion et Attendez moi sous l’orme
+              <cell><hi rend="i">Scipion et Attendez moi sous l’orme</hi>
               </cell>
               <cell></cell>
               <cell></cell>
@@ -3890,7 +3889,7 @@
               <cell>13</cell>
               <cell>mercredi 20 mars
               </cell>
-              <cell rend="i">Scipion et La sérénade
+              <cell><hi rend="i">Scipion et La sérénade</hi>
               </cell>
               <cell>1</cell>
               <cell></cell>
@@ -3908,7 +3907,7 @@
               <cell>14</cell>
               <cell>vendredi 22 mars
               </cell>
-              <cell rend="i">Scipion et La Parisienne
+              <cell><hi rend="i">Scipion et La Parisienne</hi>
               </cell>
               <cell></cell>
               <cell></cell>
@@ -3925,7 +3924,7 @@
               <cell>15</cell>
               <cell>samedi 23 mars<hi rend="b">à Versailles</hi>
               </cell>
-              <cell rend="i">Scipion et Le médecin malgré lui
+              <cell><hi rend="i">Scipion et Le médecin malgré lui</hi>
               </cell>
               <cell></cell>
               <cell></cell>
@@ -3943,7 +3942,7 @@
               <cell>16</cell>
               <cell>mercredi 17 avril
               </cell>
-              <cell rend="i">Scipion et La Comtesse d’Escarbagnas
+              <cell><hi rend="i">Scipion et La Comtesse d’Escarbagnas</hi>
               </cell>
               <cell></cell>
               <cell></cell>
@@ -3960,7 +3959,7 @@
               <cell>17</cell>
               <cell>vendredi 19 avril
               </cell>
-              <cell rend="i">Scipion et Le souper mal apresté
+              <cell><hi rend="i">Scipion et Le souper mal apresté</hi>
               </cell>
               <cell>1</cell>
               <cell></cell>
@@ -4074,19 +4073,12 @@
               </row>
               <row>
                 <cell>Trébie</cell>
-                <cell>
-                  <p rend="cell">218</p>
-                  <p rend="cell">avant JC</p>
+                <cell>218 avant J.-C.
                 </cell>
-                <cell rows="3">
-                  <p rend="cell">Carthage</p>
-                  <p/>
-                  <p/>
+                <cell rows="3">Carthage
                 </cell>
                 <cell rows="2">Annibal</cell>
-                <cell>
-                  <p rend="cell">Publius Cornelius</p>
-                  <p rend="cell">Scipion, Tiberius Sempronius Longus</p>
+                <cell>Publius Cornelius <lb/>Scipion, Tiberius Sempronius Longus
                 </cell>
                 <cell>28 000 fantassins, 10 000 cavaliers, 38 éléphants</cell>
                 <cell>45 000</cell>
@@ -4097,21 +4089,13 @@
                 <cell>Trasimène</cell>
                 <cell>217</cell>
                 <cell>Flaminius †</cell>
-                <cell>
-                  <p rend="cell">31 à</p>
-                  <p rend="cell">39 000 fantassins, 10 000 cavaliers</p>
+                <cell>31 à 39 000 fantassins, 10 000 cavaliers
                 </cell>
-                <cell>
-                  <p rend="cell">22 000 fantassins 3 000 à</p>
-                  <p rend="cell">3 500 cavaliers</p>
+                <cell>22 000 fantassins 3 000 à 3 500 cavaliers
                 </cell>
-                <cell>
-                  <p rend="cell">1 500 à</p>
-                  <p rend="cell">2 500</p>
+                <cell>1 500 à 2 500
                 </cell>
-                <cell>
-                  <p rend="cell">15 000 morts,</p>
-                  <p rend="cell">10 000 prisonniers</p>
+                <cell>15 000 morts, 10 000 prisonniers
                 </cell>
               </row>
               <row>
@@ -4127,8 +4111,7 @@
               <row>
                 <cell>Numistro</cell>
                 <cell>210</cell>
-                <cell rows="2">
-                  <p rend="cell">résultat non concluant</p>
+                <cell rows="2">résultat non concluant
                 </cell>
                 <cell rows="2">Annibal</cell>
                 <cell>Marcus Claudius, Marcellus</cell>
@@ -4149,19 +4132,14 @@
               <row>
                 <cell>Métaure</cell>
                 <cell>207</cell>
-                <cell rows="3">
-                  <p rend="cell">Rome</p>
+                <cell rows="3">Rome
                 </cell>
                 <cell>Asdrubal Barca †</cell>
-                <cell>
-                  <p rend="cell">M. Livius Salinator,</p>
-                  <p rend="cell">G. Claudius Nero</p>
+                <cell>M. Livius Salinator, <lb/>G. Claudius Nero
                 </cell>
                 <cell>30 000</cell>
                 <cell>37 000</cell>
-                <cell>
-                  <p rend="cell">environ</p>
-                  <p rend="cell">10 000</p>
+                <cell>environ 10 000
                 </cell>
                 <cell>inconnues</cell>
               </row>
@@ -4182,14 +4160,9 @@
                 <cell>Scipion l’Africain, Massinissa</cell>
                 <cell>50 000 fantassins, 4 000 cavaliers, 80 éléphants</cell>
                 <cell>34 000 fantassins, 9 000 cavaliers</cell>
-                <cell>
-                  <p rend="cell">20 000 morts,</p>
-                  <p rend="cell">11 000 blessés,</p>
-                  <p rend="cell">15 000 prisonniers</p>
+                <cell>20 000 morts, 11 000 blessés, <lb/>15 000 prisonniers
                 </cell>
-                <cell>
-                  <p rend="cell">1 500 morts,</p>
-                  <p rend="cell">4 000 blessés</p>
+                <cell>1 500 morts, 4 000 blessés
                 </cell>
               </row>
             </table>
