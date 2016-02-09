@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="">
   <teiHeader>
     <fileDesc>
@@ -533,8 +532,8 @@
         <div>
           <head>ACTEURS<note place="bottom"><p>L’orthographe des noms de personnages varie souvent de vers en vers, de scène en scène ou d’acte en acte. Nous avons respecté l’édition originale de 1674 et n’avons donc pas corrigé ces fluctuations.</p></note></head>
           <castList>
-          <castItem xml:id="trigaudin">
-            <role>TRIGAUDIN.</role>
+          <castItem>
+            <role xml:id="trigaudin">TRIGAUDIN.</role>
           </castItem>
           <castItem>
             <role xml:id="lucie">LUCIE,</role>
@@ -969,7 +968,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE III. <pb xml:id="p10"/></head>
+            <head>SCENE III. <pb xml:id="p10" n="10"/></head>
             <stage>TRIGAUDIN, GERONTE, TOINETTE.</stage>
             <sp who="geronte">
               <speaker>GERONTE. <hi rend="i">vers une Entrée, regardant un Portrait.</hi></speaker>
@@ -1119,15 +1118,15 @@
               <l part="Y">Cela se voit.</l>
             </sp>
             <sp who="geronte">
-              <speaker xml:lang="nl">GERONTE.</speaker>
+              <speaker>GERONTE.</speaker>
               <l xml:lang="nl" part="Y">Modeste ?</l>
             </sp>
             <sp who="trigaudin">
-              <speaker xml:lang="nl">TRIGAUDIN.</speaker>
+              <speaker>TRIGAUDIN.</speaker>
               <l xml:lang="nl" part="Y">Oh, oh.</l>
             </sp>
             <sp who="geronte">
-              <speaker xml:lang="nl">GERONTE.</speaker>
+              <speaker>GERONTE.</speaker>
               <l part="Y">L’air bon ?</l>
             </sp>
             <sp who="trigaudin">
@@ -1192,8 +1191,8 @@
               <l n="246" xml:id="l246">A vous donner…</l>
             </sp>
             <sp who="trigaudin">
-              <speaker xml:lang="en">TRIGAUDIN.</speaker>
-              <l xml:lang="en" part="Y">Hé quoy ?</l>
+              <speaker>TRIGAUDIN.</speaker>
+              <l part="Y">Hé quoy ?</l>
             </sp>
             <sp who="geronte">
               <speaker>GERONTE.</speaker>
@@ -1284,7 +1283,7 @@
             <head>SCENE V.</head>
             <stage>JULIE, GERONTE.</stage>
             <sp who="geronte">
-              <speaker xml:lang="nl">GERONTE.</speaker>
+              <speaker>GERONTE.</speaker>
               <l n="287" xml:id="l287">Ma Niéce, aprochez-vous, &amp; dans un compliment</l>
               <l n="288" xml:id="l288">Renfermez tout l’effort de vostre jugement,</l>
               <l n="289" xml:id="l289">Et me remerciez de la belle maniere</l>
@@ -1688,11 +1687,11 @@
               <l n="474" xml:id="l474">Qu’à Monsieur Trigaudin vous donniez vostre Nièce ?</l>
             </sp>
             <sp who="geronte">
-              <speaker xml:lang="nl">GERONTE.</speaker>
+              <speaker>GERONTE.</speaker>
               <l n="475" xml:id="l475">Oüy.</l>
             </sp>
             <sp who="valere">
-              <speaker xml:lang="nl">VALERE.</speaker>
+              <speaker>VALERE.</speaker>
               <l part="Y">Qu’en nostre faveur rien ne vous ait parlé ?</l>
             </sp>
             <sp who="geronte">
@@ -1705,11 +1704,11 @@
               <l n="477" xml:id="l477">Et vous le pourrez ?</l>
             </sp>
             <sp who="geronte">
-              <speaker xml:lang="nl">GERONTE.</speaker>
+              <speaker>GERONTE.</speaker>
               <l xml:lang="nl" part="Y">Oüy.</l>
             </sp>
             <sp who="valere">
-              <speaker xml:lang="nl">VALERE.</speaker>
+              <speaker>VALERE.</speaker>
               <l part="Y">Vostre ame combatuë</l>
               <l n="478" xml:id="l478">Ne <ref target="#revoquer">revoquera*</ref> point un ordre qui me tuë ?</l>
             </sp>
@@ -1722,11 +1721,11 @@
               <l part="Y">Il épouseroit vostre Niéce demain ?</l>
             </sp>
             <sp who="geronte">
-              <speaker xml:lang="nl">GERONTE.</speaker>
+              <speaker>GERONTE.</speaker>
               <l n="480" xml:id="l480">Oüy.</l>
             </sp>
             <sp who="valere">
-              <speaker xml:lang="nl">VALERE.</speaker>
+              <speaker>VALERE.</speaker>
               <l part="Y">Je n’aurois plus rien à prétendre à sa main ?</l>
             </sp>
             <sp who="geronte">
@@ -2430,7 +2429,7 @@
               <l part="Y">La Niéce de Géronte.</l>
             </sp>
             <sp who="valere">
-              <speaker xml:lang="en">VALERE.</speaker>
+              <speaker>VALERE.</speaker>
               <l n="770" xml:id="l770"><ref target="#justement">Justement*</ref>.</l>
             </sp>
             <sp who="trigaudin">
@@ -2438,7 +2437,7 @@
               <l xml:lang="en" part="Y">Oh.</l>
             </sp>
             <sp who="valere">
-              <speaker xml:lang="en">VALERE.</speaker>
+              <speaker>VALERE.</speaker>
               <l part="Y">L’on vient de m’en faire un sot conte,</l>
               <l n="771" xml:id="l771">Et je ne sçay qu’en croire. On m’a dit qu’il prétend</l>
               <l n="772" xml:id="l772">Luy donner pour Epoux un Homme dégoûtant,</l>
@@ -2458,7 +2457,7 @@
               <l part="Y">Qui, vous ?</l>
             </sp>
             <sp who="trigaudin">
-              <speaker xml:lang="en">TRIGAUDIN.</speaker>
+              <speaker>TRIGAUDIN.</speaker>
               <l xml:lang="en" part="Y">Moy-mesme.</l>
             </sp>
             <sp who="valere">
@@ -2472,11 +2471,11 @@
               <l n="782" xml:id="l782">Moy, Monsieur ?</l>
             </sp>
             <sp who="valere">
-              <speaker xml:lang="en">VALERE.</speaker>
+              <speaker>VALERE.</speaker>
               <l xml:lang="en" part="Y">Oüy.</l>
             </sp>
             <sp who="trigaudin">
-              <speaker xml:lang="en">TRIGAUDIN.</speaker>
+              <speaker>TRIGAUDIN.</speaker>
               <l part="Y">J’ay trop de respect pour Valere :</l>
               <l n="783" xml:id="l783">Géronte à cet Hymen semble s’estre attendu ;</l>
               <l n="784" xml:id="l784">Mais loin de l’accepter, je m’en suis défendu ;</l>
@@ -2642,11 +2641,11 @@
               <l n="835" xml:id="l835">Ne diminuëra rien de cette opinion.</l>
             </sp>
             <sp who="trigaudin">
-              <speaker xml:lang="nl">TRIGAUDIN.</speaker>
+              <speaker>TRIGAUDIN.</speaker>
               <l xml:lang="nl" n="836" xml:id="l836">Je m’en vay l’appeller.</l>
             </sp>
             <sp who="geronte">
-              <speaker xml:lang="nl">GERONTE.</speaker>
+              <speaker>GERONTE.</speaker>
               <l part="Y">Fort-bien.</l>
             </sp>
           </div>
@@ -3194,7 +3193,7 @@
             <head>SCENE PREMIERE.</head>
             <stage>GERONTE, VALERE, LUCIE.</stage>
             <sp who="geronte">
-              <speaker xml:lang="nl">GERONTE.</speaker>
+              <speaker>GERONTE.</speaker>
               <l n="1051" xml:id="l1051">Ouy Valere, oüy ma Niéce, ils n’ont que trop parlé,</l>
               <l n="1052" xml:id="l1052">C’est un secret qui vient de m’estre révelé,</l>
               <l n="1053" xml:id="l1053">Et j’en ay pour témoins mes fidelles oreilles,</l>
@@ -3326,11 +3325,11 @@
               <l n="1115" xml:id="l1115">He bien, vous avez veu ma Cousine ?</l>
             </sp>
             <sp who="geronte">
-              <speaker xml:lang="nl">GERONTE.</speaker>
+              <speaker>GERONTE.</speaker>
               <l xml:lang="nl" part="Y">Oüy.</l>
             </sp>
             <sp who="trigaudin">
-              <speaker xml:lang="nl">TRIGAUDIN.</speaker>
+              <speaker>TRIGAUDIN.</speaker>
               <l part="Y">Comment</l>
               <l n="1116" xml:id="l1116">La trouvez-vous ?</l>
             </sp>
@@ -4124,7 +4123,7 @@
             <head>SCENE III.</head>
             <stage>TRIGAUDIN, GERONTE.</stage>
             <sp who="geronte">
-              <speaker xml:lang="nl">GERONTE.</speaker>
+              <speaker>GERONTE.</speaker>
               <l n="1481" xml:id="l1481">He bien, conclurons-nous l’Hymen que je propose ?</l>
             </sp>
             <sp who="trigaudin">
@@ -4494,8 +4493,8 @@
             <head>SCENE XI.</head>
             <stage>TRIGAUDIN, GERONTE.</stage>
             <sp who="geronte">
-              <speaker xml:lang="nl">GERONTE.</speaker>
-              <l part="Y"><hi xml:lang="nl" rend="b"></hi>Ah lâche Amy, sans honneur &amp; sans foy !</l>
+              <speaker>GERONTE.</speaker>
+              <l part="Y">Ah lâche Amy, sans honneur &amp; sans foy !</l>
             </sp>
             <sp who="trigaudin">
               <speaker>TRIGAUDIN <hi rend="i">à part.</hi></speaker>
@@ -4917,7 +4916,7 @@
             <form>Éventé</form>
             <def>« Écervelé, étourdi. » (<hi rend="i">R.</hi>)</def>
             <xr>V. <ref target="#l259">259</ref></xr>
-            <def>« Se dit d’un homme qui a l’esprit léger, écervelé, évaporé. » (<hi rend="i">A, 94</hi>) <space/></def>
+            <def>« Se dit d’un homme qui a l’esprit léger, écervelé, évaporé. » (<hi rend="i">A, 94</hi>)</def>
           </entryFree>
           <entryFree xml:id="facilite">
             <form>Facilité</form>
@@ -5000,7 +4999,7 @@
             <form>Garnement</form>
             <def>« Libertin, et dont la vie est un peu déréglée. » (<hi rend="i">R.</hi>)</def>
             <xr>V. <ref target="#l655">655</ref> </xr>
-            <def>« Fripon, vau-rien. » (<hi rend="i">A, 94</hi>) <space/></def>
+            <def>« Fripon, vau-rien. » (<hi rend="i">A, 94</hi>)</def>
           </entryFree>
           <entryFree xml:id="gaster">
             <form>Gaster</form>
@@ -5130,7 +5129,7 @@
             <form>Oyson</form>
             <def>Orthographié <hi rend="i">oison</hi> dans le dictionnaire de P. Richelet. « Sot, ou sotte, niais, qui est fat et innocent. » (<hi rend="i">R.</hi>)</def>
             <xr>V. <ref target="#l981">981</ref></xr>
-            <def>« Se dit figurément pour dire que c’est un idiot à qui l’on fait faire tout ce qu’on veut. » (<hi rend="i">A, 94</hi>) <space/></def>
+            <def>« Se dit figurément pour dire que c’est un idiot à qui l’on fait faire tout ce qu’on veut. » (<hi rend="i">A, 94</hi>)</def>
           </entryFree>
           <entryFree xml:id="party">
             <form>Party</form>
