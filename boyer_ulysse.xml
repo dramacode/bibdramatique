@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> <?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -808,53 +811,52 @@
         <head>ACTEURS.</head>
         <castList>
           <castItem>
-            <role xml:id="ulisse">ULYSSE.</role>
+            <role xml:id="ulisse" rend="male superior">ULYSSE.</role>
           </castItem>
           <castItem>
-            <role xml:id="euriloche">EURILOCHE. </role>
+            <role xml:id="euriloche" rend="male">EURILOCHE. </role>
             <roleDesc>Compagnons d’Ulysse.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="elpenor">ELPENOR.</role>
+            <role xml:id="elpenor" rend="male">ELPENOR.</role>
           </castItem>
           <castItem>
-            <role xml:id="circe">CIRCÉ.</role>
+            <role xml:id="circe" rend="female superior">CIRCÉ.</role>
           </castItem>
           <castItem>
-            <role xml:id="phaetuse">PHAETUSE. </role>
+            <role xml:id="phaetuse" rend="female">PHAETUSE. </role>
             <roleDesc>Sœurs de Circé.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="leucosie">LEUCOSIE. </role>
+            <role xml:id="leucosie" rend="female">LEUCOSIE. </role>
           </castItem>
           <castItem>
-            <role xml:id="perimede">PERIMEDE,</role>
+            <role xml:id="perimede" rend="male">PERIMEDE,</role>
             <roleDesc>envoyé d’Itaque par Penelope pour chercher Ulysse.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="melante">MELANTE,</role>
+            <role xml:id="melante" rend="male inferior">MELANTE,</role>
             <roleDesc>Suivant de Circé.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="suite-ulysse">Suite d’Ulysse &amp; de Circé.</role>
+            <role xml:id="suite-ulysse" rend="inferior">Suite d’Ulysse &amp; de Circé.</role>
           </castItem>
           <castItem>
-            <role xml:id="eole">ÆOLE</role>
+            <role xml:id="eole" rend="male superior">ÆOLE</role>
             <roleDesc>accompagné des Vents.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="sommeil">Le Sommeil.</role>
+            <role xml:id="sommeil" rend="superior">Le Sommeil.</role>
           </castItem>
           <castItem>
-            <role xml:id="soleil">LE SOLEIL.</role>
+            <role xml:id="soleil" rend="superior">LE SOLEIL.</role>
           </castItem>
           <castItem>
-            <role xml:id="jupiter">JUPITER</role>
+            <role xml:id="jupiter" rend="male superior">JUPITER</role>
             <roleDesc>accompagné des Dieux.</roleDesc>
           </castItem>
         </castList>
         <stage>La Scene est differente, selon les divers changemens des Machines.</stage>
-        <pb/>
       </div>
       <div type="act">
         <head>ACTE I.</head>

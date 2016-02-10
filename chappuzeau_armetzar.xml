@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> 
-<?xml-model href="../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
@@ -456,58 +456,58 @@
         <head>PERSONNAGES <pb n="XII" xml:id="pXII"/></head>
         <castList>
           <castItem>
-            <role xml:id="tamerlan">TAMERLAN,</role>
+            <role xml:id="tamerlan" rend="male superior veteran">TAMERLAN,</role>
             <roleDesc>Empereur des Tartares.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="armetzar">ARMETZAR,</role>
+            <role xml:id="armetzar" rend="male junior">ARMETZAR,</role>
             <roleDesc>Fils de Tamerlan, soûs le nom de Phocate.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="organte">ORGANTE,</role>
+            <role xml:id="organte" rend="male inferior">ORGANTE,</role>
             <roleDesc>Confident d’Armetzar. </roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="odmar">ODMAR,</role>
+            <role xml:id="odmar" rend="male">ODMAR,</role>
           </castItem>
           <castItem>
-            <role xml:id="axalla">AXALLA, </role>
+            <role xml:id="axalla" rend="male">AXALLA, </role>
             <roleDesc>Chefs des armées de l’Empereur.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="zinton">ZINTON,</role>
+            <role xml:id="zinton" rend="male superior veteran">ZINTON,</role>
             <roleDesc>Roy de la Chine.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="vanlie">VANLIE,</role>
+            <role xml:id="vanlie" rend="male junior">VANLIE,</role>
             <roleDesc>Fils de Zinton, soûs le nom de Phocate.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="artaban">ARTABAN,</role>
+            <role xml:id="artaban" rend="male junior">ARTABAN,</role>
             <roleDesc>Prince de Cocinchine.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="mennon">MENNON,</role>
+            <role xml:id="mennon" rend="male inferior">MENNON,</role>
             <roleDesc>Suivant de Vanlie. </roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="zarimene">ZARIMENE,</role>
+            <role xml:id="zarimene" rend="female superior veteran">ZARIMENE,</role>
             <roleDesc>Reine de la Chine.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="ladice">LADICE,</role>
+            <role xml:id="ladice" rend="female junior">LADICE,</role>
             <roleDesc>Sœur de Vanlie.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="iliane">ILIANE,</role>
+            <role xml:id="iliane" rend="female inferior">ILIANE,</role>
             <roleDesc>Suivante de Ladice.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="ulanie">ULANIE,</role>
+            <role xml:id="ulanie" rend="female inferior">ULANIE,</role>
             <roleDesc>Suivante de Zarimene.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="garde">GARDES de Tamerlan et de Zinton. </role>
+            <role xml:id="garde" rend="male inferior">GARDES de Tamerlan et de Zinton. </role>
           </castItem>
         </castList>
         <stage>La Scene est au camp de Zinton, devant la Ville de Quinsay<note n="64" place="bottom"> Quinsay : « (ville du Ciel) ancienne ville de la Chine, dont les auteurs ont parlé diversement, avoit selon Marc Polo, cent milles de circuit, et douze mille soixante ponts de pierre. Les modernes ne sont pas bien d’accord du lieu où elle se trouve. Quelques-uns la prennent pour Pékin, qu’un auteur espagnol nomme la métropole du monde » <hi rend="sc">Moréri</hi> Louis, <hi rend="i">op. cit.</hi></note>, Ville maritime de la Chine.</stage>
