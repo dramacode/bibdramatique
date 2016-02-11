@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -57,9 +56,12 @@
     <docEdition>Édition critique établie par Krysia Roginski dans le cadre d'un mémoire de
       master 1 sous la direction de Georges Forestier (1999)</docEdition>
   </titlePage>
+  <div>
+    <head>Introduction</head>
         <p>Quinault fut, de son vivant, un auteur à succès. De nos jours, si ses pièces ne sont plus jouées, il reste l’un des « minores » les plus connus. Il figure dans les ouvrages consacrés au XVII<hi rend="sup">e</hi> siècle, son nom généralement associé à celui de Thomas Corneille, et à la tragi-comédie. En outre, deux biographies et une bibliographie sont consacrées à sa vie et ses œuvres, et ses pièces sont, depuis une dizaine d’années l’objet d’éditions critiques<note place="bottom"><hi rend="i">Bellerophon, Stratonice, Astrate, Alceste et Le Fantôme amoureux.</hi> Toutes ces éditions sont disponibles à la Bibliothèque nationale de France.</note>. Dans ces conditions, il ne nous a pas paru nécessaire de retracer, une fois de plus, la carrière brillante d’un auteur ayant su s’attirer les foudres de Boileau comme les louanges de Perrault. Nous avons voulu montrer comment, à l’apogée du classicisme, Quinault avait su capter les aspirations frivoles de ses contemporains.</p>
         <p>S’inspirant de noms historiques, Quinault construit une intrigue fondée sur la reconnaissance. Assistant à la noyade accidentelle du roi Tibérinus, Tirrhene persuade son fils de prendre la place du roi dont il est le sosie et, pour cacher la supercherie, répand la nouvelle de l’assassinat de son fils par Tibérinus. Aussitôt se met en place un complot visant à la mort du roi, auquel participe l’amante et la sœur d’Agrippa. Après de nombreux quiproquos et une tentative d’assassinat durant lequel seul le chef des conjurés trouve la mort, la substitution est révélée, permettant le mariage du héros et de Lavinie, qui, détenant le pouvoir, légitime le règne d’Agrippa.</p>
         <p>Ce sujet offrait la possibilité d’une réflexion sur la question de l’identité. Mais nous verrons en quoi, sous des apparences classiques propres à la tragédie, <hi rend="i">Agrippa</hi> se révèle comme une pièce galante, jouant des faux-semblants pour mieux séduire le public.</p>
+  </div>
         <div>
           <head>Contexte de la pièce</head>
           <p>Lorsque cette nouvelle tragi-comédie parut, Quinault était déjà un auteur à succès, et déjà, on se moquait des invraisemblances de ses intrigues et du traitement des sources historiques de ses pièces. Lorsque l’on connaît l’origine du sujet d’<hi rend="i">Agrippa</hi>, il paraît évident que Quinault ne s’est absolument pas préoccupé de ces critiques.</p>
@@ -325,25 +327,21 @@
     <body>
       <head>Agrippa<lb/>Roy d’Albe<lb/>Ou le Faux<lb/>Tiberinus</head>
         <div>
-          <head>Epistre</head>
-        </div>
-        <div>
-          <head>Au Roy.</head>
+          <head>Epistre<lb/>Au Roy.</head>
           <p>Sire,</p>
           <p>Il y avait lieu de croire que mon Ambition devoit estre entièrement satisfaite, de l’agréement avec lequel cette Piece a esté receue de vostre majeste. Aprés une grace si considerable, je Luy pouvois en effet espargner la fatigue d’une Epistre ; &amp; l’avantage d’avoir sçeu Luy plaire ; estoit un honneur assez grand, sans chercher encore un nouveau moyen de l’accroistre. Cét emportement est une foiblesse naturelle aux habitans du Parnasse ; &amp; comme la gloire est souvent l’unique fruict qu’ils recueillent de ce Pays sterile, il leur est pardon- nable d’en desirer quelquesfois avec un peu trop d’ardeur. On s’imagi- nera, peut-estre, que je devois estre exempt de ce defaut, parce que j’ay le bon-heur d’approcher la Personne Auguste du plus accomply de tous les Monarques, &amp; d’y voir briller de prés ces Vertus éclatantes qui font aujourd’huy l’admiration de toute la Terre : mais qui ne sçait point, SIRE, que lors qu’il s’agit de gloire, ce n’est pas en VOSTRE MAJESTE que l’on peut trouver des Exemples de moderation ? Cét excés n’est pas de ceux dont Elle se veut deffendre, &amp; c’est proprement là dessus qu’Elle est la plus difficile du monde à contenter. La fin de la Guerre n’a pû devenir la fin de ses Conquestes. La Paix n’a sçeu L’empescher d’en faire de nouvelles, &amp; qui Luy sont d’autant plus glorieuses, qu’elles n’ont pas cousté une seule goutte de sang à ses Subjets, &amp; qu’Elle n’en doit rien qu’à Elle-mesme. A dire vray, SIRE, à moins que d’estre comme nous sommes, les tesmoins de tant de Merveilles, y auroit-il apparence de les pouvoir croire ? Ne pourrions-nous pas avoir bien de la peine à nous persuader, qu’à vingt-quatre ans VOSTRE MAJESTE n’ait pas esté moins redoutable dans son cabinet, qu’à la teste de ses Armées ? Qu’Elle ait sçeu joindre des choses aussi peu compatibles que la Jeunesse florissante, &amp; la Prudence  consommée ? Qu’Elle ait eu des Qualitez que l’on n’acquiert que par la perte des plus belles années, dans un âge qui n’est d’ordinaire que pour les plaisirs ? Enfin qu’Elle ait trouvé l’Art de rassembler en Elle seule tous les Avantages que le Ciel a accoustumé de separer dans le reste des hommes ? Il n’y a pas, SIRE, jusques aux secrets des belles Lettres, où les Lumieres de VOSTRE MAJESTE ne s’estendent ; Elles n’ont pas desdaigné de m’esclairer dans la conduite de cét Ouvrage, &amp; je suis obligé de confesser qu’Elles sont la source de ce que l’on y a trouvé de plus brillant. Cette inclination que VOSTRE MAJESTE témoigne pour les Muses, n’avoit garde de Luy manquer, puisque c’est de tout temps la passion des Heros. Les vers d’Homere furent autresfois les Delices du Vainqueur de l’Asie au milieu de ses triomphes ; &amp; les Comedies de Terence receurent leurs derniers traits des mesmes Mains qui venoient de terrasser Annibal, &amp; d’abattre la grandeur de Carthage. Ceux qui sont attachez particulierement à ce genre d’écrire, n’ont plus, SIRE, qu’une seule chose à craindre avec toute l’Europe ; C’est que la haute Valeur de VOSTRE MAJESTE, qui s’est fait tant de violence pour donner le repos à ses Peuples, ne trouve quelque juste occasion de l’interrompre. S’il faut qu’une fois elle reprenne les Armes, le bruit que nous prevoyons bien qu’elles feront, ne nous permettra plus de songer aux Roys les plus Illustres des Siecles passez, &amp; pour nous laisser le loisir de representer leurs actions, Celles de VOSTRE MAJESTE nous donneront asseurément trop d’affaires. Je n’ay pas la hardiesse de promettre de travailler sur de si grands Sujets, avec autant d’esprit qu’une infinité de gens plus habiles que moy, &amp; qui ne laisseront pas eschaper une si riche matiere. J’ose respondre seulement que je puis défier qui que ce soit au monde, de surpasser le zele ardent qui animera toûjours,</p>
           <p>SIRE,</p>
           <p>DE VOSTRE MAJESTE,</p>
-          <p rend="center">Le tres-humble, tres obeïssant, &amp;</p>
-          <p rend="center">tres-fidelle serviteur &amp; subjet</p>
+          <p rend="center">Le tres-humble, tres obeïssant, &amp;<lb/>tres-fidelle serviteur &amp; subjet</p>
           <p rend="center">QUINAULT.</p>
         </div>
         <div>
           <head>Extraict du privilege du Roy.</head>
           <p>Par Grace &amp; Privilege du Roy, Donné à Paris le quatorzième Janvier mil six cens soixante-trois, Signé par le Roy en son Conseil, LE Mareschal. Il est permis à nostre cher &amp; bien aymé PHILIPPE QUINAULT Nostre Valet de Chambre Ordinaire, de faire imprimer une Piece de Theatre de sa composition, intitulée : Agrippa Roy d’Albe, Ou le Faux Tiberinus, pendant le temps &amp; espace de cinq années, finies &amp; accomplies, à commencer du jour de l’achevé d’Imprimé. Et deffences sont faites à toutes personnes, de quelque qualité &amp; condition qu’elles soient, de l’imprimer ou faire imprimer, vendre &amp; debiter, sans le consentement dudit Sieur QUINAULT, à peine de cinq cens Livres d’amande, &amp; de tous despens, dommages &amp; interests, comme il est plus amplement porté par lesdites Lettres.</p>
           <p>Et ledit Sieur QUINAULT a cedé &amp; transporté ces droits de Privilege à GUILLAUME DE LUYNE, Marchand Libraire, pour en jouyr le temps porté par iceluy.</p>
-          <p rend="center i">Achevé d’imprimer le 25. Janvier 1663. </p>
+          <p rend="center"><hi rend="i">Achevé d’imprimer le 25. Janvier 1663.</hi></p>
           <p rend="center">Les Exemplaires ont esté fournis.</p>
-          <p rend="center i">Registré sur le Livre de la Communauté des Libraires &amp; Imprimeurs de cette Ville de Paris, le 24. Janvier 1663.</p>
+          <p rend="center"><hi rend="i">Registré sur le Livre de la Communauté des Libraires &amp; Imprimeurs de cette Ville de Paris, le 24. Janvier 1663.</hi></p>
           <p rend="center">Signé, DUBRAY, Scyndic.</p>
         </div>
         <div>
@@ -394,7 +392,7 @@
           </castList>
           <stage>La scène est au Palais des Roys d’Albe, dans l’Appartement de Lavinie.</stage>
         </div>
-        <div type="acte">
+        <div type="act">
           <head>Acte I<pb n="1" xml:id="p1"/></head>
           <div type="scene">
             <head>Scène premiere</head>
@@ -983,7 +981,7 @@
             </sp>
           </div>
         </div>
-        <div type="acte">
+        <div type="act">
           <head>Acte II<pb n="16" xml:id="p16"/></head>
           <div type="scene">
             <head>Scène première</head>
@@ -1526,7 +1524,7 @@
             </sp>
           </div>
         </div>
-        <div type="acte">
+        <div type="act">
           <head>Acte III<pb n="29" xml:id="p29"/></head>
           <div type="scene">
             <head>Scene I</head>
@@ -2051,7 +2049,7 @@
             </sp>
           </div>
         </div>
-        <div type="acte">
+        <div type="act">
           <head>Acte IV. <pb n="43" xml:id="p43"/></head>
           <div type="scene">
             <head>Scene I.</head>
@@ -2703,7 +2701,7 @@
             </sp>
           </div>
         </div>
-        <div type="acte">
+        <div type="act">
           <head>Acte V. <pb n="59" xml:id="p59"/></head>
           <div type="scene">
             <head>Scene premiere.</head>
@@ -3004,7 +3002,7 @@
               <speaker>Lavinie</speaker>
               <l n="1643" xml:id="l1643">Vostre fils !</l>
             </sp>
-            <sp who="tirrhene ">
+            <sp who="tirrhene">
               <speaker>Tirrhene </speaker>
               <l part="Y">Je sens trop icy que je suis Pere :</l>
               <l n="1644" xml:id="l1644">La voix du sang m’échape, &amp; ne peut plus se taire :</l>
