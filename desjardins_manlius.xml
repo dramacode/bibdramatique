@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -605,7 +602,7 @@
         <stage>La Scene est au Camp des Romains<note type="editor" place="bottom"> D’après Tite-Live, au livre VIII de ses <hi rend="i">Histoires</hi>, le camp des Romains fut établi devant Capoue, où les Latins et leurs alliés s’étaient réunis, en 340 avant J.-C.</note> devant les Tentes du Consul.</stage>
       </div>
       <div type="act">
-        <head>ACTE I. <pb n="A, 1" xml:id="p1"/></head>
+        <head>ACTE I.<pb n="A, 1" xml:id="p1"/></head>
         <div type="scene">
           <head>SCENE I.</head>
           <stage>CAMILLE, PISON.</stage>
@@ -624,7 +621,7 @@
             <l n="8" xml:id="l8">Sous le masque trompeur de la compassion.</l>
             <l n="9" xml:id="l9">Sur ce pretexte adroit secretement Omphale</l>
             <l n="10" xml:id="l10">En reçoit mille effets d’une <ref target="#ardeur2">ardeur*</ref> sans égale:</l>
-            <l n="11" xml:id="l11">Pour moy, que les bontez de vostre illustre* Epoux,             <pb n="2" xml:id="p2"/></l>
+            <l n="11" xml:id="l11">Pour moy, que les bontez de vostre illustre* Epoux,<pb n="2" xml:id="p2"/></l>
             <l n="12" xml:id="l12">Jusques<note type="editor" place="bottom"> Doublet poétique de <hi rend="i">jusque</hi>  qui permet, sur le plan de la métrique, d’obtenir une syllabe supplémentaire devant une voyelle.</note> à mon trépas attacheront à vous,    </l>
             <l n="13" xml:id="l13">Et qui dés en naissant appris de ce grand homme,</l>
             <l n="14" xml:id="l14">Qu'il faut tout mépriser pour la <ref target="#gloire2">gloire</ref> de Rome,</l>
@@ -651,7 +648,7 @@
             <speaker>CAMILLE.</speaker>
             <l n="23" xml:id="l23">Une triste moitié du plus grand des Heros</l>
             <l n="24" xml:id="l24">Apres l’avoir perdu gouste peu de repos,</l>
-            <l n="25" xml:id="l25">Le tumulte du camp, les cris, et les <ref target="#alarme">alarmes*</ref>               <pb n="3" xml:id="p3"/></l>
+            <l n="25" xml:id="l25">Le tumulte du camp, les cris, et les <ref target="#alarme">alarmes*</ref><pb n="3" xml:id="p3"/></l>
             <l n="26" xml:id="l26">Estant un grand obstacle à mes trop justes larmes,</l>
             <l n="27" xml:id="l27">Honteuse de me voir parmy tant de soldats,</l>
             <l n="28" xml:id="l28">Et voulant d’un Espoux honorer le trépas,</l>
@@ -676,11 +673,11 @@
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS, <hi rend="i">bas</hi>.</speaker>
-            <l n="41" xml:id="l41">Quoy ? mon fils, mon Rival ?</l>
+            <l n="41" xml:id="l41" part="I">Quoy ? mon fils, mon Rival ?</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>            Les <ref target="#affaire">affaires*</ref> publiques,</l>
+            <l part="F">            Les <ref target="#affaire">affaires*</ref> publiques,</l>
             <l n="42" xml:id="l42">Doivent-elles bannir vos soucis* domestiques ?</l>
             <l n="43" xml:id="l43">Et pour vaincre l’<ref target="#effort3">effort*</ref> des <ref target="#commun2">communs*</ref> ennemis,</l>
             <l n="44" xml:id="l44">Avez-vous méprisé la conduite d’un fils ?</l>
@@ -693,7 +690,7 @@
           <sp who="torquatus">
             <speaker>TORQUATUS, <hi rend="i">bas</hi>.</speaker>
             <l n="50" xml:id="l50">Feignons de ne pas <ref target="#croire1">croire</ref> une telle nouvelle.</l>
-            <l n="51" xml:id="l51">Connoissant Manlius, je ne sçaurois penser                <pb n="4" xml:id="p4"/></l>
+            <l n="51" xml:id="l51">Connoissant Manlius, je ne sçaurois penser<pb n="4" xml:id="p4"/></l>
             <l n="52" xml:id="l52">Qu'aux loix d’une captive il daigne s’abaisser.</l>
             <l n="53" xml:id="l53">Ses pareils n’ont jamais d’amour que pour la <ref target="#gloire1">gloire</ref>,</l>
             <l n="54" xml:id="l54">Et ne forment des vœux qu’au Temple de memoire :</l>
@@ -720,11 +717,11 @@
             <l n="72" xml:id="l72">Pour peu que l’on differe, on y songe trop tard :</l>
             <l n="73" xml:id="l73">Je sçay de bonne part que cette <ref target="#affaire">affaire*</ref> <ref target="#presser1">presse*</ref>,</l>
             <l n="74" xml:id="l74">Manlius vient icy pour y voir la Princesse :</l>
-            <l n="75" xml:id="l75">Il arrive, dit-on.</l>
+            <l n="75" xml:id="l75" part="I">Il arrive, dit-on.</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l part="Y"><space/><space/>        Si c’est de cét <ref target="#advis1">advis*</ref></l>
+            <l part="F">        Si c’est de cét <ref target="#advis1">advis*</ref></l>
             <l n="76" xml:id="l76">Que vous naist le soupçon de l’amour de mon fils,</l>
             <l n="77" xml:id="l77">Perdez en ce moment cette fausse croyance,</l>
             <l n="78" xml:id="l78">Il vient pour reparer sa désobeïssance :</l>
@@ -732,7 +729,7 @@
             <l n="80" xml:id="l80">Et voyant que la mort de vostre illustre* Epoux</l>
             <l n="81" xml:id="l81">Luy laissoit dans le Camp une puissance entière,</l>
             <l n="82" xml:id="l82">Se laissant emporter à son <ref target="#ardeur1">ardeur*</ref> guerrière,</l>
-            <l n="83" xml:id="l83">Malgré l’ordre precis, de Rome et du Senat                <pb n="5" xml:id="p5"/></l>
+            <l n="83" xml:id="l83">Malgré l’ordre precis, de Rome et du Senat<pb n="5" xml:id="p5"/></l>
             <l n="84" xml:id="l84"><pb n="A "/>contre les Latins <ref target="#hazarder">hazardé*</ref> le combat,</l>
             <l n="85" xml:id="l85">Et bien qu’il ait vaincu, pour mieux faire connoistre</l>
             <l n="86" xml:id="l86">Combien sur les Romains le Senat est le maistre : <note type="editor" place="bottom"> La ponctuation avait avant tout une fonction rythmique ; elle marquait les pauses dans le discours en guidant le souffle et la voix : on ne se préoccupait du sens que lorsqu’il s’agissait du point, du point d’interrogation et du point d’exclamation. Les deux-points marquent une pause plus longue que le point-virgule. Pour une explication plus détaillée, voir G. Forestier, « Lire Racine », <hi rend="i">op. cit.</hi>, p. LX-LXIV.</note></l>
@@ -769,9 +766,9 @@
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
             <l n="110" xml:id="l110">Pour vous en éclaircir, parlez à la Princesse,</l>
-            <l n="111" xml:id="l111">Elle devoit me suivre icy dans un moment :                 <pb n="6" xml:id="p6"/></l>
+            <l n="111" xml:id="l111">Elle devoit me suivre icy dans un moment :<pb n="6" xml:id="p6"/></l>
             <l n="112" xml:id="l112">Tâchez de penetrer<note type="editor" place="bottom">Signifie « approfondir », « connaître »</note> un peu son sentiment.</l>
-            <l n="113" xml:id="l113">La voicy : je vous quitte.</l>
+            <l n="113" xml:id="l113" part="I">La voicy : je vous quitte.</l>
           </sp>
         </div>
         <div type="scene">
@@ -779,7 +776,7 @@
           <stage>TORQUATUS, OMPHALE[, PHENICE].</stage>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l part="Y"><space/><space/>            He bien, belle <ref target="#inhumaine">inhumaine*</ref>,</l>
+            <l part="F">            He bien, belle <ref target="#inhumaine">inhumaine*</ref>,</l>
             <l n="114" xml:id="l114">Ne vous rendrez vous point à la grandeur Romaine ?</l>
             <l n="115" xml:id="l115">Executerez-vous d’un coup d’œil enchanté<note type="editor" place="bottom"> Signifie « qui plaît, qui charme les yeux et l’esprit » (<hi rend="i">R</hi>.)</note></l>
             <l n="116" xml:id="l116">Ce que Mars &amp; Bellonne<note type="editor" place="bottom">Mars et Bellonne sont les dieux de la guerre chez les Romains. Bellonne était l’épouse de Mars.</note> ont vainement tenté ?</l>
@@ -798,7 +795,7 @@
             <l n="126" xml:id="l126">Et le sort m’a laissé du <ref target="#sens3">sens*</ref> &amp; de la veuë.</l>
           </sp>
           <sp who="torquatus">
-            <speaker>TORQUATUS.    <pb n="7" xml:id="p7"/></speaker>
+            <speaker>TORQUATUS.<pb n="7" xml:id="p7"/></speaker>
             <l n="127" xml:id="l127">Quoy* tousjours opposer cette extréme froideur,</l>
             <l n="128" xml:id="l128">Aux sinceres effets* de ma bouïllante <ref target="#ardeur2">ardeur*</ref> ?</l>
             <l n="129" xml:id="l129">Vous doutez de mes <ref target="#feu1">feux*</ref>, <ref target="#adorable2">adorable*</ref> insensible,</l>
@@ -828,7 +825,7 @@
             <l n="150" xml:id="l150">Me preserve le Ciel d’un si grand homicide,</l>
             <l n="151" xml:id="l151">Le Senat est l’Auteur de tous mes déplaisirs ;</l>
             <l n="152" xml:id="l152">Mais je le hay bien moins que les lâches desirs :</l>
-            <l n="153" xml:id="l153">Si l’amour me déplaist, je deteste le crime,                 <pb n="8" xml:id="p8"/></l>
+            <l n="153" xml:id="l153">Si l’amour me déplaist, je deteste le crime,<pb n="8" xml:id="p8"/></l>
             <l n="154" xml:id="l154">Et de mes ennemis j’ayme si fort l’estime,</l>
             <l n="155" xml:id="l155">Qu'un des plus puissans traits dont mon cœur vous <ref target="#combattre1">combat*</ref>,</l>
             <l n="156" xml:id="l156">C'est la peur d’attirer le mépris du Senat.</l>
@@ -860,7 +857,7 @@
             <l n="176" xml:id="l176">M'ont osté pour jamais les moyens d’en douter,</l>
             <l n="177" xml:id="l177">Et je n’ai pas besoin que vostre orgüeil s’en vente<note type="editor" place="bottom"> Cette graphie est attestée par Richelet qui, dans son dictionnaire, octroie deux entrées à ce verbe : <hi rend="i">vanter</hi> / <hi rend="i">venter</hi>.</note>,</l>
             <l n="178" xml:id="l178">Mais ce nom de vainqueur n’a rien qui m’épouvante,</l>
-            <l n="179" xml:id="l179">On ne redoute rien quand on brave la mort :                 <pb n="9" xml:id="p9"/></l>
+            <l n="179" xml:id="l179">On ne redoute rien quand on brave la mort :<pb n="9" xml:id="p9"/></l>
             <l n="180" xml:id="l180">Vous-mesme apprehendez l’inconstance du sort ;</l>
             <l n="181" xml:id="l181">Cette <ref target="#audace2">audace*</ref>, Seigneur, peut estre reprimée,</l>
             <l n="182" xml:id="l182">Le Ciel me laisse un frère &amp; de plus une armée,</l>
@@ -893,7 +890,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IV.                     <pb n="10" xml:id="p10"/></head>
+          <head>SCENE IV.<pb n="10" xml:id="p10"/></head>
           <stage>OMPHALE, PHENICE.</stage>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
@@ -915,7 +912,7 @@
             <l n="220" xml:id="l220">Et pour me proteger il expose son sang :</l>
             <l n="221" xml:id="l221">L'autre dans mon mal-heur insolemment me brave,</l>
             <l n="222" xml:id="l222">M'<ref target="#insulter1">insulte*</ref>, me menasse et me traitte d’esclave :</l>
-            <l n="223" xml:id="l223">Ah ! Quelle différence entre ces deux <ref target="#amant">amans*</ref>.                <pb n="11" xml:id="p11"/></l>
+            <l n="223" xml:id="l223">Ah ! Quelle différence entre ces deux <ref target="#amant">amans*</ref>.<pb n="11" xml:id="p11"/></l>
           </sp>
           <sp who="phenice">
             <speaker>PHENICE.</speaker>
@@ -940,20 +937,20 @@
             <l n="239" xml:id="l239">A la face du Ciel avant la fin du jour,</l>
             <l n="240" xml:id="l240">Il vengera, dit-il, sa <ref target="#gloire1">gloire</ref> &amp; son amour,</l>
             <l n="241" xml:id="l241">Dieux ! N'en voudroit-il point aux jours de ce que<note type="editor" place="bottom"> Au XVIIe siècle, <hi rend="i">ce qu</hi>- a très usuellement un référent humain (ici, Manlius). Il est surtout fréquent en intégrative (comme ici) et a tendance, à mesure que le siècle avance, à se fixer dans des contextes spécifiques, notamment en relative à prédicat statif (sont ainsi récurrents <hi rend="i">aimer, être, il y a</hi>). Voir Nathalie Fournier, <hi rend="i">op. cit.</hi>, p. 202-203, § 293.</note> j’aime :</l>
-            <l n="242" xml:id="l242">Phenice, qu’en dis-tu ?</l>
+            <l n="242" xml:id="l242" part="I">Phenice, qu’en dis-tu ?</l>
           </sp>
           <sp who="phenice">
             <speaker>PHENICE.</speaker>
-            <l part="Y"><space/><space/>            <ref target="#consulter1">Consultez</ref>-le luy-mesme.</l>
-            <l n="243" xml:id="l243">Le voicy qui s’avance.</l>
+            <l part="F">            <ref target="#consulter1">Consultez</ref>-le luy-mesme.</l>
+            <l n="243" xml:id="l243" part="I">Le voicy qui s’avance.</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>            En croiray-je mes yeux ?</l>
+            <l part="F">            En croiray-je mes yeux ?</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE V.                        <pb n="12" xml:id="p12"/></head>
+          <head>SCENE V.<pb n="12" xml:id="p12"/></head>
           <stage>OMPHALE, MANLIUS, PHENICE.</stage>
           <sp who="manlius">
             <speaker>MANLIUS.</speaker>
@@ -974,7 +971,7 @@
             <l n="258" xml:id="l258">Princesse j’aime mieux vos <ref target="#fers2">fers*</ref> que ma victoire,</l>
             <l n="259" xml:id="l259">Au Camp j’estois vainqueur de cent mille ennemis,</l>
             <l n="260" xml:id="l260">Icy je ne suis rien qu’un esclave soûmis:</l>
-            <l n="261" xml:id="l261">Mais vivre dans vos <ref target="#fers2">fers*</ref>, c’est l’honneur où j’aspire,             <pb n="B, p. 13"/></l>
+            <l n="261" xml:id="l261">Mais vivre dans vos <ref target="#fers2">fers*</ref>, c’est l’honneur où j’aspire,<pb n="B, p. 13"/></l>
             <l n="262" xml:id="l262">Et ce rang prés de vous vaut ailleurs un empire.</l>
           </sp>
           <sp who="omphale">
@@ -1011,7 +1008,7 @@
             <l n="286" xml:id="l286">Helas ! Si les lauriers qui couvrent vostre teste</l>
             <l n="287" xml:id="l287">Estoient pour vostre front un ornement mortel,</l>
             <l n="288" xml:id="l288">Ainsi qu’à la victime en allant à l’autel<note type="editor" place="bottom"> Normalement les généraux victorieux, à Rome, portaient une couronne de lauriers durant leur triomphe, symbole de la victoire, mais Georges Dumézil (<hi rend="i">La religion romaine archaïque avec un appendice sur la religion des Etrusques</hi>, Paris, Payot et Rivages, 2000, p. 549-550) nous signale qu’il en était de même de la victime, que le personnel du temple menait devant l’autel pour le sacrifice, couronnée et ornée de bandelettes. Or, Manlius risque précisément d’être exécuté, « sacrifié » sur l’autel des lois romaines parce qu’il a remporté une victoire en dépit des ordres. </note>,</l>
-            <l n="289" xml:id="l289">Que deviendroit, Seigneur, la mal-heureuse Omphale ?             <pb n="14" xml:id="p14"/></l>
+            <l n="289" xml:id="l289">Que deviendroit, Seigneur, la mal-heureuse Omphale ?<pb n="14" xml:id="p14"/></l>
             <l n="290" xml:id="l290">De grace, écoutez moins cette <ref target="#ardeur1">ardeur*</ref> martiale,</l>
             <l n="291" xml:id="l291">Dont les boüillans <ref target="#transport">transports*</ref> vous font tout mépriser :</l>
             <l n="292" xml:id="l292">Dé-ja cette <ref target="#chaleur">chaleur*</ref> vous a fait trop oser :</l>
@@ -1028,11 +1025,11 @@
           <sp who="manlius">
             <speaker>MANLIUS.</speaker>
             <l n="302" xml:id="l302">Quoy, la crainte surmonte ainsi ce grand <ref target="#courage1">courage*</ref> ?</l>
-            <l n="303" xml:id="l303">Omphale peut trembler ?</l>
+            <l n="303" xml:id="l303" part="I">Omphale peut trembler ?</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>            Accusez-en mon <ref target="#feu1">feu*</ref>,</l>
+            <l part="F">            Accusez-en mon <ref target="#feu1">feu*</ref>,</l>
             <l n="304" xml:id="l304">Quand on aime beaucoup on craint toûjours un peu,</l>
             <l n="305" xml:id="l305">Mon cœur n’est <ref target="#alarmer">alarmé*</ref> que parce qu’il soûpire,</l>
             <l n="306" xml:id="l306">J'ay veu sans m’ébranler la chûte d’un empire ;</l>
@@ -1044,7 +1041,7 @@
             <l n="312" xml:id="l312">N'auroit jamais tremblé, s’il n’avoit point aimé.</l>
           </sp>
           <sp who="manlius">
-            <speaker>MANLIUS.    <pb n="15" xml:id="p15"/></speaker>
+            <speaker>MANLIUS.<pb n="15" xml:id="p15"/></speaker>
             <l n="313" xml:id="l313">Apres un tel discours qui pourroit me détruire ?</l>
             <l n="314" xml:id="l314">Mortels audacieux, conspirez pour me nuire,</l>
             <l n="315" xml:id="l315">Empruntez s’il se peut, pour avancer ma mort,</l>
@@ -1064,7 +1061,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VI.                    <pb n="16" xml:id="p16"/></head>
+          <head>SCENE VI.<pb n="16" xml:id="p16"/></head>
           <stage>OMPHALE, PHENICE.</stage>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
@@ -1095,7 +1092,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE II.                <pb n="17" xml:id="p17"/></head>
+        <head>ACTE II.<pb n="17" xml:id="p17"/></head>
         <div type="scene">
           <head>SCENE I.</head>
           <sp who="torquatus">
@@ -1118,7 +1115,7 @@
             <l n="366" xml:id="l366">Triomphez s’il se peut, ou ne <ref target="#combattre1">combattez*</ref> plus.</l>
             <l n="367" xml:id="l367">Que mon devoir vous cede, ou rendez luy les armes,</l>
             <l n="368" xml:id="l368">Je n’ay que trop souffert de vos rudes <ref target="#alarme">alarmes*</ref> ,</l>
-            <l n="369" xml:id="l369">Il est temps que mon cœur elise un souverain,                 <pb n="18" xml:id="p18"/></l>
+            <l n="369" xml:id="l369">Il est temps que mon cœur elise un souverain,<pb n="18" xml:id="p18"/></l>
             <l n="370" xml:id="l370">Et qu’il soit aujourd’huy tout pere ou tout Romain.</l>
             <l n="371" xml:id="l371">Qu'entre ces deux parties mon ame est <ref target="#balancer2">balancée*</ref>,</l>
             <l n="372" xml:id="l372">Que de troubles divers regnent dans ma pensée,</l>
@@ -1138,7 +1135,7 @@
             <l n="386" xml:id="l386">La nature vous cede amour, Senat, vertu,</l>
             <l n="387" xml:id="l387">Ne me resistez plus importune tendresse,</l>
             <l n="388" xml:id="l388">Vous avez contre vous &amp; Rome &amp; la Princesse,</l>
-            <l n="389" xml:id="l389">Cedez à mon amour, cedez à mon devoir.                 <pb n="19" xml:id="p19"/></l>
+            <l n="389" xml:id="l389">Cedez à mon amour, cedez à mon devoir.<pb n="19" xml:id="p19"/></l>
           </sp>
         </div>
         <div type="scene">
@@ -1161,7 +1158,7 @@
             <l n="392" xml:id="l392">Venez-vous demander un ordre pour <ref target="#combattre1">combattre*</ref>,</l>
             <l n="393" xml:id="l393">Ou si vous avez crû que parmy les Romains,</l>
             <l n="394" xml:id="l394">Un pere &amp; le Senat sont des fantômes* <ref target="#vain1">vains*</ref> ?</l>
-            <l n="395" xml:id="l395">Quand vous avez risqué toute la republique,                 <pb n="20" xml:id="p20"/></l>
+            <l n="395" xml:id="l395">Quand vous avez risqué toute la republique,<pb n="20" xml:id="p20"/></l>
             <l n="396" xml:id="l396">Avez-vous crû monstrer un <ref target="#courage1">courage*</ref> heroïque ?</l>
             <l n="397" xml:id="l397">Faire voir qu’un vainqueur est au dessus des loix,</l>
             <l n="398" xml:id="l398">Et qu’on peut tout braver quand on soûmet des Rois,</l>
@@ -1197,7 +1194,7 @@
             <l n="419" xml:id="l419">Le nom de Manlius, mon sang &amp; ma naissance,</l>
             <l n="420" xml:id="l420">Sont, Seigneur, mes exploits &amp; mon experience,</l>
             <l n="421" xml:id="l421">C'est pour m’authoriser un droict assez puissant,</l>
-            <l n="422" xml:id="l422">Les Romains de mon nom triomphent en naissant.             <pb n="21" xml:id="p21"/></l>
+            <l n="422" xml:id="l422">Les Romains de mon nom triomphent en naissant.<pb n="21" xml:id="p21"/></l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
@@ -1219,7 +1216,7 @@
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l n="435" xml:id="l435">Ne me repliquez plus : sortez.</l>
+            <l n="435" xml:id="l435" part="I">Ne me repliquez plus : sortez.</l>
           </sp>
         </div>
         <div type="scene">
@@ -1227,9 +1224,9 @@
           <stage>TORQUATUS, JUNIUS.</stage>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l part="Y"><space/><space/>            Quelle arrogance !</l>
+            <l part="F">            Quelle arrogance !</l>
             <l n="436" xml:id="l436">A peine obtiendra-t-il de son obeïssance,</l>
-            <l n="437" xml:id="l437">De demeurer au camp par mon commandement,             <pb n="22" xml:id="p22"/></l>
+            <l n="437" xml:id="l437">De demeurer au camp par mon commandement,<pb n="22" xml:id="p22"/></l>
           </sp>
           <sp who="junius">
             <speaker>JUNIUS.</speaker>
@@ -1265,7 +1262,7 @@
             <l n="464" xml:id="l464">C'est pour voir son païs jouyr de sa conqueste :</l>
             <l n="465" xml:id="l465">C'est ainsi, Junius, que doit vivre un Romain,</l>
             <l n="466" xml:id="l466">Plus il a de bon-heur, moins il doit estre <ref target="#vain3">vain*</ref>,</l>
-            <l n="467" xml:id="l467">Vainqueur de l’Univers, il doit respecter Rome,                 <pb n="23" xml:id="p23"/></l>
+            <l n="467" xml:id="l467">Vainqueur de l’Univers, il doit respecter Rome,<pb n="23" xml:id="p23"/></l>
             <l n="468" xml:id="l468">Estre au camp plus qu’un Dieu, au Senat moins qu’un homme ;</l>
             <l n="469" xml:id="l469">Et s’il veut tout soûmettre, il doit nous faire voir</l>
             <l n="470" xml:id="l470">Qu'il est soûmis luy-mesme aux regles du devoir.</l>
@@ -1275,19 +1272,19 @@
             <l n="474" xml:id="l474">De son seul <ref target="#mouvement1">mouvement*</ref> il donne le combat,</l>
             <l n="475" xml:id="l475">Une telle insolence &amp; si démesurée,</l>
             <l n="476" xml:id="l476">Par la mort seulement peut estre reparée :</l>
-            <l n="477" xml:id="l477">L'audacieux mourra, c’en est fait ;</l>
+            <l n="477" xml:id="l477" part="I">L'audacieux mourra, c’en est fait ;</l>
           </sp>
           <sp who="junius">
             <speaker>JUNIUS.</speaker>
-            <l part="Y"><space/><space/>                Ha ! Seigneur,</l>
+            <l part="F">                Ha ! Seigneur,</l>
             <l n="478" xml:id="l478">Sur ce <ref target="#funeste">funeste*</ref> Arrest <ref target="#consulter1">consultez</ref> vostre cœur,</l>
             <l n="479" xml:id="l479">Permettez qu’il conserve une teste si chere,</l>
             <l n="480" xml:id="l480">Que le nom de Consul cede à celuy de pere,</l>
-            <l n="481" xml:id="l481">Manlius est un fils.</l>
+            <l n="481" xml:id="l481" part="I">Manlius est un fils.</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l part="Y"><space/><space/>        Je sçay bien ce qu’il est :</l>
+            <l part="F">        Je sçay bien ce qu’il est :</l>
             <l n="482" xml:id="l482">Et j’ay tout <ref target="#consulter1">consulté</ref> sur ce mortel Arrest,</l>
             <l n="483" xml:id="l483">Mon cœur m’a dit cent fois que c’est un fils que j’aime,</l>
             <l n="484" xml:id="l484">Mais je dois au Senat beaucoup plus qu’à moy-méme,</l>
@@ -1302,7 +1299,7 @@
             <l n="490" xml:id="l490">N'est point de cette mort la cause ou l’instrument,</l>
             <l n="491" xml:id="l491">Le precieux honneur que j’eus dés vostre enfance,</l>
             <l n="492" xml:id="l492">De prendre tousjours part à vostre confidence</l>
-            <l n="493" xml:id="l493">Me fait vous conjurer de voir si sur ce point,                 <pb n="24" xml:id="p24"/></l>
+            <l n="493" xml:id="l493">Me fait vous conjurer de voir si sur ce point,<pb n="24" xml:id="p24"/></l>
             <l n="494" xml:id="l494">Quelque fausse clarté ne vous ébloüit point,</l>
             <l n="495" xml:id="l495">Peut-estre qu’en cecy Rome agit la derniere,</l>
             <l n="496" xml:id="l496"><ref target="#consulter1">Consultez</ref> là dessus vostre ame toute entiere :</l>
@@ -1339,7 +1336,7 @@
             <l n="518" xml:id="l518">Mon fils en a-t-il moins merité le trépas,</l>
             <l n="519" xml:id="l519">Parce qu’insolemment il sera <ref target="#temeraire">temeraire*</ref>,</l>
             <l n="520" xml:id="l520">Jusqu’à porter ses yeux au mesme lieu qu’un Pere ?</l>
-            <l n="521" xml:id="l521">Cét amour qui le rend criminel envers moy,                 <pb n="C, p. 25"/></l>
+            <l n="521" xml:id="l521">Cét amour qui le rend criminel envers moy,<pb n="C, p. 25"/></l>
             <l n="522" xml:id="l522">Pourra-t’il l’exempter des rigueurs de la loy ?</l>
             <l n="523" xml:id="l523">Apprenez-moy comment, &amp; par quelle puissance</l>
             <l n="524" xml:id="l524">Deux crimes confondus font naistre l’innocence.</l>
@@ -1363,7 +1360,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE V.                        <pb n="26" xml:id="p26"/></head>
+          <head>SCENE V.<pb n="26" xml:id="p26"/></head>
           <stage>TORQUATUS, OMPHALE, PHENICE.</stage>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
@@ -1390,7 +1387,7 @@
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
             <l n="549" xml:id="l549">Je l’ay toûjours esté, si j’en croy ma memoire,</l>
-            <l n="550" xml:id="l550">Et c’est par ce motif, que j’ay tant <ref target="#combattre1">combatu*</ref>,                 <pb n="27" xml:id="p27"/></l>
+            <l n="550" xml:id="l550">Et c’est par ce motif, que j’ay tant <ref target="#combattre1">combatu*</ref>,<pb n="27" xml:id="p27"/></l>
             <l n="551" xml:id="l551">Un amour dont l’effet blessoit vostre vertu.</l>
           </sp>
           <sp who="torquatus">
@@ -1415,23 +1412,23 @@
             <l n="563" xml:id="l563">Et <ref target="#donner-advis">donner des advis*</ref> d’une fausse rumeur ?</l>
             <l n="564" xml:id="l564">Que ne me dites vous, je crains pour ce que<note type="editor" place="bottom">Voir la note du vers 241.</note> j’ayme ?</l>
             <l n="565" xml:id="l565">Accordez Manlius à mon amour extréme,</l>
-            <l n="566" xml:id="l566">Faites moy ce present.</l>
+            <l n="566" xml:id="l566" part="I">Faites moy ce present.</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>            Pour conserver ses jours</l>
+            <l part="F">            Pour conserver ses jours</l>
             <l n="567" xml:id="l567">Une telle priere est un foible secours :</l>
             <l n="568" xml:id="l568">La mort de ce Heros n’est que trop assurée,</l>
             <l n="569" xml:id="l569">Mes mal-heurs, vostre amour, &amp; le sort l’ont jurée,</l>
             <l n="570" xml:id="l570">Je vois bien que je fais un inutile <ref target="#effort2">effort*</ref>.</l>
-            <l n="571" xml:id="l571">Helas ! il perira.</l>
+            <l n="571" xml:id="l571" part="I">Helas ! il perira.</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l part="Y"><space/>        Moderez ce <ref target="#transport">transport*</ref>.</l>
+            <l part="F">        Moderez ce <ref target="#transport">transport*</ref>.</l>
             <l n="572" xml:id="l572">Vous pourrez le sauvez, si son trépas vous touche,</l>
             <l n="573" xml:id="l573">Son arrest luy sera donné par vostre bouche :</l>
-            <l n="574" xml:id="l574">Tout mon Rival qu’il est, sa mort dépend de vous            <pb n="28" xml:id="p28"/></l>
+            <l n="574" xml:id="l574">Tout mon Rival qu’il est, sa mort dépend de vous<pb n="28" xml:id="p28"/></l>
             <l n="575" xml:id="l575">Je vous laisse y penser. Camille vient à nous,</l>
             <l n="576" xml:id="l576">Un pareil entretien doit finir aupres d’elle.</l>
             <stage>Il sort.</stage>
@@ -1442,11 +1439,11 @@
           <stage>CAMILLE, OMPHALE, PHENICE.</stage>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l n="577" xml:id="l577">Je vous cherchois, Omphale :</l>
+            <l n="577" xml:id="l577" part="I">Je vous cherchois, Omphale :</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>                Ah, rencontre cruelle</l>
+            <l part="F">                Ah, rencontre cruelle</l>
             <l n="578" xml:id="l578">O Dieux n’auray-je pas un moment pour <ref target="#rever1">réver*</ref> ?<note type="editor" place="bottom">Ces deux premiers vers d’Omphale sont prononcés sans être entendus de Camille.</note></l>
             <l n="579" xml:id="l579">Le moindre ordre, Madame, auroit pû me trouver ;</l>
             <l n="580" xml:id="l580">Mais pour vous obeïr, que faut-il que je fasse ?</l>
@@ -1464,7 +1461,7 @@
             <l n="589" xml:id="l589">Je voudrois vous tirer d’une erreur si cruelle,</l>
             <l n="590" xml:id="l590">Et par un pur effet d’une tendre amitié</l>
             <l n="591" xml:id="l591">Pour vous mesme exciter un peu vostre pitié.</l>
-            <l n="592" xml:id="l592">On vous trompe, on vous donne une esperance <ref target="#vain1">vaine*</ref> ;             <pb n="29" xml:id="p29"/></l>
+            <l n="592" xml:id="l592">On vous trompe, on vous donne une esperance <ref target="#vain1">vaine*</ref> ;<pb n="29" xml:id="p29"/></l>
             <l n="593" xml:id="l593">Pour avoir Manlius, il faut estre Romaine ;</l>
             <l n="594" xml:id="l594">Et quoy qu’il vous promette, ou qu’il vous puisse offrir,</l>
             <l n="595" xml:id="l595">Sans  ce tiltre on ne peut jamais y parvenir.</l>
@@ -1484,11 +1481,11 @@
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l n="606" xml:id="l606">Femme de Torquatus ?</l>
+            <l n="606" xml:id="l606" part="I">Femme de Torquatus ?</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>            Ouy femme asseurément,</l>
+            <l part="F">            Ouy femme asseurément,</l>
             <l n="607" xml:id="l607">Il est en mon pouvoir, n’en doutez nullement,</l>
             <l n="608" xml:id="l608">Mais n’apprehendez pas cét injuste hymenée* :</l>
             <l n="609" xml:id="l609">Je sçay qu’à Torquatus vous estes destinée,</l>
@@ -1500,7 +1497,7 @@
             <l n="615" xml:id="l615">Torquatus à ce prix seroit trop achepté<note type="editor" place="bottom"> « Se dit figurément pour marquer la peine, la difficulté d’avoir, d’obtenir, de faire une chose » (<hi rend="i">R</hi>.). Ici Omphale affirme qu’il lui en coûterait beaucoup trop d’épouser Torquatus.</note>.</l>
           </sp>
           <sp who="camille">
-            <speaker>CAMILLE.    <pb n="30" xml:id="p30"/></speaker>
+            <speaker>CAMILLE.<pb n="30" xml:id="p30"/></speaker>
             <l n="616" xml:id="l616">Mais aussi par ce prix vous rachetez l’Epire.</l>
           </sp>
           <sp who="omphale">
@@ -1545,7 +1542,7 @@
             <l n="633" xml:id="l633">Est pour vous <ref target="#eprouver2">éprouver*</ref> une innocente ruse ;</l>
             <l n="634" xml:id="l634">Empeschez-en l’effect, &amp; vous verrez un jour</l>
             <l n="635" xml:id="l635">Que l’amour de la <ref target="#gloire1">gloire</ref> est son unique amour.</l>
-            <l n="636" xml:id="l636">Mais pourrois-je, Princesse, afin de mieux connoistre            <pb n="31" xml:id="p31"/></l>
+            <l n="636" xml:id="l636">Mais pourrois-je, Princesse, afin de mieux connoistre<pb n="31" xml:id="p31"/></l>
             <l n="637" xml:id="l637">Cette haute vertu, que vous faites paroistre,</l>
             <l n="638" xml:id="l638">En apprendre de vous jusqu’aux moindres effets,</l>
             <l n="639" xml:id="l639">Les feintes du Consul, ses ruses, ses projets,</l>
@@ -1589,7 +1586,7 @@
             <l n="657" xml:id="l657">A répandu son sang pour le salut de Rome,</l>
             <l n="658" xml:id="l658">A peine a-t-il receu les honneurs du tombeau ;</l>
             <l n="659" xml:id="l659">Et tu veux t’allier au sang de son bourreau ?</l>
-            <l n="660" xml:id="l660">O vous qui le <ref target="#souffrir2">souffrez*</ref>, Demons<note type="editor" place="bottom">Les Anciens ont appellé ainsi certains Esprits ou Genies qui apparoissent aux hommes, tantost pour leur servir, tantost pour leur nuire. (F.)</note> de la Patrie,                <pb n="33" xml:id="p33"/></l>
+            <l n="660" xml:id="l660">O vous qui le <ref target="#souffrir2">souffrez*</ref>, Demons<note type="editor" place="bottom">Les Anciens ont appellé ainsi certains Esprits ou Genies qui apparoissent aux hommes, tantost pour leur servir, tantost pour leur nuire. (F.)</note> de la Patrie,<pb n="33" xml:id="p33"/></l>
             <l n="661" xml:id="l661">Vous à qui s’immola cette <ref target="#ombre2">ombre*</ref> si cherie, <note type="editor" place="bottom"> Ici Camille fait référence à l’acte de <hi rend="i">deuotio</hi> de Decius.</note></l>
             <l n="662" xml:id="l662">Vous qui devez veiller sur l’Estat des Romains ;</l>
             <l n="663" xml:id="l663">Estes vous donc des Dieux ou des fantômes* <ref target="#vain1">vains*</ref> ?</l>
@@ -1626,7 +1623,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE II.                        <pb n="34" xml:id="p34"/></head>
+          <head>SCENE II.<pb n="34" xml:id="p34"/></head>
           <stage>CAMILLE, MANLIUS.</stage>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
@@ -1650,12 +1647,12 @@
             <l n="711" xml:id="l711">Que son nom <ref target="#glorieux">glorieux*</ref> n’est pas mort avec luy :</l>
             <l n="712" xml:id="l712">Pour éviter les coups d’une injuste <ref target="#furie">furie*</ref>,</l>
             <l n="713" xml:id="l713">Faites-vous un rempart de cette <ref target="#ombre2">ombre*</ref> cherie :</l>
-            <l n="714" xml:id="l714">A qui dans ce peril pourroit avoir recours                <pb n="35" xml:id="p35"/></l>
-            <l n="715" xml:id="l715">Un vainqueur innocent ?</l>
+            <l n="714" xml:id="l714">A qui dans ce peril pourroit avoir recours<pb n="35" xml:id="p35"/></l>
+            <l n="715" xml:id="l715" part="I">Un vainqueur innocent ?</l>
           </sp>
           <sp who="manlius">
             <speaker>MANLIUS.</speaker>
-            <l part="Y"><space/><space/>            Ha, cessez ce discours,</l>
+            <l part="F">            Ha, cessez ce discours,</l>
             <l n="716" xml:id="l716">Ma vertu qui ne peut en permetre la suitte</l>
             <l n="717" xml:id="l717">En conçoit trop d’horreur pour en estre seduite.</l>
             <l n="718" xml:id="l718">Si mon pere &amp; l’estat ont resolu ma mort,</l>
@@ -1688,7 +1685,7 @@
             <l n="739" xml:id="l739">Moy fuïr ? moy me sauver pour éviter la mort :</l>
             <l n="740" xml:id="l740">Que la posterité reproche à ma memoire,</l>
             <l n="741" xml:id="l741">Qu'une honteuse fuitte  a soüillé ma victoire ?</l>
-            <l n="742" xml:id="l742">Non si je dois mourir pour un crime si beau,                 <pb n="36" xml:id="p36"/></l>
+            <l n="742" xml:id="l742">Non si je dois mourir pour un crime si beau,<pb n="36" xml:id="p36"/></l>
             <l n="743" xml:id="l743">La <ref target="#gloire1">gloire*</ref> de sa main me conduit au tombeau :</l>
             <l n="744" xml:id="l744">Sur la <ref target="#foy1">foy*</ref> d’un tel guide il est doux d’y descendre.</l>
           </sp>
@@ -1706,11 +1703,11 @@
           </sp>
           <sp who="manlius">
             <speaker>MANLIUS.</speaker>
-            <l n="754" xml:id="l754">Moy, Madame ?</l>
+            <l n="754" xml:id="l754" part="I">Moy, Madame ?</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>        Oüy vous : je sçay tous vos secrets,</l>
+            <l part="F">        Oüy vous : je sçay tous vos secrets,</l>
             <l n="755" xml:id="l755">Les regards des <ref target="#amant">amans*</ref> sont tousjours indiscrets,</l>
             <l n="756" xml:id="l756">Ils ne peuvent sentir un grand <ref target="#feu2">feu*</ref> dans leur ame,</l>
             <l n="757" xml:id="l757">Sans donner au dehors quelque marque de <ref target="#flame">flâme*</ref> :</l>
@@ -1720,7 +1717,7 @@
             <l n="761" xml:id="l761">Mais quand on le retient, &amp; qu’on craint de le faire,</l>
             <l n="762" xml:id="l762">On devine <ref target="#d-abord1">d’abord*</ref> qu’un peu de passion</l>
             <l n="763" xml:id="l763">Fait naistre dans un cœur* cette precaution.</l>
-            <l n="764" xml:id="l764">Parlez donc, Manlius, bien que je sois Romaine,            <pb n="D, p. 37"/></l>
+            <l n="764" xml:id="l764">Parlez donc, Manlius, bien que je sois Romaine,<pb n="D, p. 37"/></l>
             <l n="765" xml:id="l765">Et que tousjours mon ame ait conceu de la haine</l>
             <l n="766" xml:id="l766">Pour cette illusion que vous nommez amour ;</l>
             <l n="767" xml:id="l767">Si pour vous conserver la lumiere du jour,</l>
@@ -1749,18 +1746,18 @@
             <l n="784" xml:id="l784">Il est temps d’<ref target="#esclater2">éclatter*</ref> : &amp; c’est trop me <ref target="#contraindre2">contraindre*</ref> !</l>
             <l n="785" xml:id="l785">Sçachez que c’est icy qu’Omphale a tout à craindre,</l>
             <l n="786" xml:id="l786">Que le Consul épris de vostre mesme mal</l>
-            <l n="787" xml:id="l787">Pour soulager ses <ref target="#feu2">feux*</ref> :</l>
+            <l n="787" xml:id="l787" part="I">Pour soulager ses <ref target="#feu2">feux*</ref> :</l>
           </sp>
           <sp who="manlius">
             <speaker>MANLIUS.</speaker>
-            <l part="Y"><space/><space/>            Mon pere, mon Rival !</l>
-            <l n="788" xml:id="l788">O Dieux ! que dites vous ?</l>
+            <l part="F">            Mon pere, mon Rival !</l>
+            <l n="788" xml:id="l788" part="I">O Dieux ! que dites vous ?</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>            Ce qu’il faut vous apprendre :</l>
+            <l part="F">            Ce qu’il faut vous apprendre :</l>
             <l n="789" xml:id="l789">Ouy, le cœur du Consul s’estant laissé <ref target="#surprendre">surprendre*</ref>,</l>
-            <l n="790" xml:id="l790">Aux indignes <ref target="#appas1">appas*</ref> d’un amoureux <ref target="#transport">transport*</ref>,                <pb n="38" xml:id="p38"/></l>
+            <l n="790" xml:id="l790">Aux indignes <ref target="#appas1">appas*</ref> d’un amoureux <ref target="#transport">transport*</ref>,<pb n="38" xml:id="p38"/></l>
             <l n="791" xml:id="l791">Estant maistre absolu d’Omphale &amp; de son sort</l>
             <l n="792" xml:id="l792">Peut tout executer contre vous, &amp; contre elle,</l>
             <l n="793" xml:id="l793">Si vous ne profitez d’un <ref target="#advis2">advis*</ref> si <ref target="#fidele2">fidelle*</ref>.</l>
@@ -1799,7 +1796,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE III.                <pb n="39" xml:id="p39"/></head>
+          <head>SCENE III.<pb n="39" xml:id="p39"/></head>
           <sp who="manlius">
             <speaker>MANLIUS, <hi rend="i">seul.</hi></speaker>
             <l n="820" xml:id="l820">O Sort vrayement cruel ! ô <ref target="#funeste">funeste*</ref> avanture !</l>
@@ -1822,7 +1819,7 @@
             <l n="837" xml:id="l837">A qui mon cœur rendit si promptement les armes,</l>
             <l n="838" xml:id="l838">Sur tous les cœurs mortels, ont le mesme pouvoir,</l>
             <l n="839" xml:id="l839">Et pour les <ref target="#adorer">adorer*</ref>, il suffit de les voir.</l>
-            <l n="840" xml:id="l840">Mon Pere les a veus, mon Pere a deû se rendre.                 <pb n="40" xml:id="p40"/></l>
+            <l n="840" xml:id="l840">Mon Pere les a veus, mon Pere a deû se rendre.<pb n="40" xml:id="p40"/></l>
             <l n="841" xml:id="l841">Puisqu’il avoit des yeux, qui pouvoit s’en deffendre ?</l>
             <l n="842" xml:id="l842">Qui peut voir sans <ref target="#transport">transport*</ref> tant de divins <ref target="#appas2">appas*</ref> ?</l>
             <l n="843" xml:id="l843">Qui peut connoistre Omphale, &amp; ne l’adorer* pas ?</l>
@@ -1844,7 +1841,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IV.                <pb n="41" xml:id="p41"/></head>
+          <head>SCENE IV.<pb n="41" xml:id="p41"/></head>
           <stage>OMPHALE, MANLIUS, PHENICE.</stage>
           <sp who="manlius">
             <speaker>MANLIUS.</speaker>
@@ -1870,7 +1867,7 @@
             <l n="875" xml:id="l875">Et de quel air<note type="editor" place="bottom"> Signifie "Maniere, façon, sorte" (<hi rend="i">R</hi>.).</note> par vous ses conseils sont suivis.</l>
             <l n="876" xml:id="l876">Vous offrir du secours, c’est vous faire une offense</l>
             <l n="877" xml:id="l877">Vos desirs &amp; le sort semblent d’intelligence,</l>
-            <l n="878" xml:id="l878">Vous aymez le trépas, vous y voulez courir,                 <pb n="42" xml:id="p42"/></l>
+            <l n="878" xml:id="l878">Vous aymez le trépas, vous y voulez courir,<pb n="42" xml:id="p42"/></l>
             <l n="879" xml:id="l879">Apres cela, Seigneur, qui peut vous secourir ?</l>
           </sp>
           <sp who="manlius">
@@ -1910,7 +1907,7 @@
             <l n="903" xml:id="l903">La <ref target="#gloire1">gloire*</ref> &amp; mon devoir me touchent plus que vous.</l>
           </sp>
           <sp who="manlius">
-            <speaker>MANLIUS.    <pb n="43" xml:id="p43"/></speaker>
+            <speaker>MANLIUS.<pb n="43" xml:id="p43"/></speaker>
             <l n="904" xml:id="l904">Achevez, achevez, dites aussi Madame,</l>
             <l n="905" xml:id="l905">Que l’amour du Consul, soûmet enfin vostre ame ;</l>
             <l n="906" xml:id="l906">Que ce rang eminent, ces titres <ref target="#glorieux">glorieux*</ref>,</l>
@@ -1923,7 +1920,7 @@
             <l n="913" xml:id="l913">Je n’en <ref target="#murmurer">murmure*</ref> point, c’est un trait de prudence :</l>
             <l n="914" xml:id="l914">Torquatus vaut bien mieux, qu’un <ref target="#amant">amant*</ref> mal-heureux</l>
             <l n="915" xml:id="l915">Qui ne peut vous offrir que d’inutiles <ref target="#feu1">feux*</ref>.</l>
-            <l n="916" xml:id="l916"><space/>Abandonnez au sort les restes d’une vie,    </l>
+            <l n="916" xml:id="l916">Abandonnez au sort les restes d’une vie,    </l>
             <l n="917" xml:id="l917">Qui sans doute dans peu me doit estre ravie :</l>
             <l n="918" xml:id="l918">Et ne permettez pas, que mon cruel tourment</l>
             <l n="919" xml:id="l919">Trouble vostre bon-heur d’un remors seulement.</l>
@@ -1944,12 +1941,12 @@
           <sp who="manlius">
             <speaker>MANLIUS.</speaker>
             <l n="930" xml:id="l930">Amoureux, <ref target="#transporter">transporté</ref>, confus, triste, <ref target="#interdit">interdit*</ref> :</l>
-            <l n="931" xml:id="l931">Je n’ose, je ne puis :</l>
+            <l n="931" xml:id="l931" part="I">Je n’ose, je ne puis :</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>        Va, va, c’est assez dit.</l>
-            <l n="932" xml:id="l932">C'est à mon desespoir à finir cét ouvrage ;                 <pb n="44" xml:id="p44"/></l>
+            <l part="F">        Va, va, c’est assez dit.</l>
+            <l n="932" xml:id="l932">C'est à mon desespoir à finir cét ouvrage ;<pb n="44" xml:id="p44"/></l>
             <l n="933" xml:id="l933">Mon bras épargnera mon trépas à ta rage,</l>
             <l n="934" xml:id="l934">Dé-ja par ce beau coup mon cœur eût évité</l>
             <l n="935" xml:id="l935">La honte, &amp; les douleurs de la captivité,</l>
@@ -1976,19 +1973,19 @@
             <l n="956" xml:id="l956">Sçachant alors mon prix, apres m’avoir perduë</l>
             <l n="957" xml:id="l957">Tu mourras de regret de m’avoir mal connuë,</l>
             <l n="958" xml:id="l958">Tu vengeras ma mort par ton propre tourment.</l>
-            <l n="959" xml:id="l959">Adieu Barbare :</l>
+            <l n="959" xml:id="l959" part="I">Adieu Barbare :</l>
           </sp>
           <sp who="manlius">
             <speaker>MANLIUS.</speaker>
-            <l part="Y"><space/><space/>        Helas ! arrestez un moment.</l>
+            <l part="F">        Helas ! arrestez un moment.</l>
             <l n="960" xml:id="l960">Pour venger vostre offence &amp; pour punir mon crime,</l>
             <l n="961" xml:id="l961">Recevez s’il se peut tout mon sang pour victime :</l>
-            <l n="962" xml:id="l962">Princesse, par l’effet d’un trop juste <ref target="#transport">transport*</ref> :                 <pb n="45" xml:id="p45"/></l>
-            <l n="963" xml:id="l963">Je vays.</l>
+            <l n="962" xml:id="l962">Princesse, par l’effet d’un trop juste <ref target="#transport">transport*</ref> :<pb n="45" xml:id="p45"/></l>
+            <l n="963" xml:id="l963" part="I">Je vays.</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/>Ha, Manlius, je ne veux point ta mort,</l>
+            <l part="F">Ha, Manlius, je ne veux point ta mort,</l>
             <l n="964" xml:id="l964">Quelque extréme douleur que ton soupçon me donne,</l>
             <l n="965" xml:id="l965">Malgré moy je sens bien que mon cœur te pardonne,</l>
             <l n="966" xml:id="l966">Et que sur les <ref target="#amant">Amans*</ref> l’amour est si puissant,</l>
@@ -2010,7 +2007,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE V.                     <pb n="46" xml:id="p46"/></head>
+          <head>SCENE V.<pb n="46" xml:id="p46"/></head>
           <sp who="manlius">
             <speaker>MANLIUS, <hi rend="i">seul.</hi></speaker>
             <l n="976" xml:id="l976">Aime &amp; te sauve, helas ! dans un sort si contraire,</l>
@@ -2052,7 +2049,7 @@
             <l n="997" xml:id="l997">Vente luy tes hauts faits, ton <ref target="#eclat">éclat*</ref> &amp; ta <ref target="#gloire1">gloire*</ref>,</l>
             <l n="998" xml:id="l998">Ces <ref target="#funeste">funestes*</ref> presens de Bellone<note type="editor" place="bottom">Voir la note du v. 116</note> &amp; du sort</l>
             <l n="999" xml:id="l999">Comme le chant du cigne annonceront ta mort.</l>
-            <l n="1000" xml:id="l1000">Mais toy que me veux-tu, ridicule tendresse,                 <pb n="48" xml:id="p48"/></l>
+            <l n="1000" xml:id="l1000">Mais toy que me veux-tu, ridicule tendresse,<pb n="48" xml:id="p48"/></l>
             <l n="1001" xml:id="l1001">Importun <ref target="#mouvement2">mouvement*</ref>, lâche &amp; molle foiblesse :</l>
             <l n="1002" xml:id="l1002">Pourquoy viens-tu troubler un cœur* envenimé</l>
             <l n="1003" xml:id="l1003">Qui ne voit dans mon fils qu’un Rival trop aimé :</l>
@@ -2084,9 +2081,9 @@
             <l n="1029" xml:id="l1029">Qui donne à cette mort l’<ref target="#ombre3">ombre</ref> d’un parricide<note type="editor" place="bottom"><hi rend="i">Parricide</hi> désigne tout meurtre d’un proche parent.</note> :</l>
             <l n="1030" xml:id="l1030">Perdons sans <ref target="#balancer2">balancer*</ref>, un fils si dangereux,</l>
             <l n="1031" xml:id="l1031">Esteignons dans son sang ses <ref target="#temeraire">temeraires*</ref> <ref target="#feu1">feux*</ref> :</l>
-            <l n="1032" xml:id="l1032">Executons du sort l’arrest irrevocable :                     <pb n="E, p. 49"/></l>
+            <l n="1032" xml:id="l1032">Executons du sort l’arrest irrevocable :<pb n="E, p. 49"/></l>
             <l n="1033" xml:id="l1033">C'est mon Rival, on l’aime, il est assez coupable.</l>
-            <l n="1034" xml:id="l1034">Ho là, quelqu’un.</l>
+            <l n="1034" xml:id="l1034" part="I">Ho là, quelqu’un.</l>
           </sp>
         </div>
         <div type="scene">
@@ -2094,11 +2091,11 @@
           <stage>TORQUATUS, CAMILLE.</stage>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>        Seigneur.</l>
+            <l part="M">        Seigneur.</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l part="Y"><space/><space/>            Qu’on avance. Mais, Dieux !</l>
+            <l part="F">            Qu’on avance. Mais, Dieux !</l>
             <l n="1035" xml:id="l1035">Quel <ref target="#objet1">objet*</ref> importun se presente à mes yeux ?</l>
             <l n="1036" xml:id="l1036">Madame, quel dessein dans ce lieu vous ameine ?</l>
           </sp>
@@ -2113,7 +2110,7 @@
             <l n="1043" xml:id="l1043">Excitast dans mon cœur* une <ref target="#ombre1">ombre</ref> de courroux :</l>
             <l n="1044" xml:id="l1044">Mais sçachant à quel point vous porte vostre rage,</l>
             <l n="1045" xml:id="l1045">Que Manlius est prest d’en ressentir l’outrage,</l>
-            <l n="1046" xml:id="l1046">Je viens pour empescher un si grand <ref target="#attentat1">attentat*</ref>,                 <pb n="50" xml:id="p50"/></l>
+            <l n="1046" xml:id="l1046">Je viens pour empescher un si grand <ref target="#attentat1">attentat*</ref>,<pb n="50" xml:id="p50"/></l>
             <l n="1047" xml:id="l1047">Exposer à vos yeux Camille &amp; le Senat ;</l>
             <l n="1048" xml:id="l1048">Je croyois que le temps dissipast<note type="editor" place="bottom"> « Les verbes de <hi rend="i">supposition</hi> comme <hi rend="i">présumer, penser, croire</hi>, construits sans négation dans une principale, ont exigé après eux, jusqu’au XVII<hi rend="sup">e</hi> siècle, le subjonctif dit de supposition pour exprimer l’incertitude. » (<hi rend="sc">Fournier</hi> Nathalie, <hi rend="i">Grammaire du français classique</hi>, Belin, 1998, p. 186)</note> le nuage</l>
             <l n="1049" xml:id="l1049">Qui de vostre raison vous dérobe l’usage,</l>
@@ -2144,7 +2141,7 @@
             <l n="1071" xml:id="l1071">De grace, finissez ce discours offençeant :</l>
             <l n="1072" xml:id="l1072">Si Decius est mort, il est mort pour sa <ref target="#gloire1">gloire*</ref> ;</l>
             <l n="1073" xml:id="l1073">Il n’a rien fait pour nous, &amp; tout pour sa memoire,</l>
-            <l n="1074" xml:id="l1074">Trop auroient à ce prix achepté parmy nous            <pb n="51" xml:id="p51"/></l>
+            <l n="1074" xml:id="l1074">Trop auroient à ce prix achepté parmy nous<pb n="51" xml:id="p51"/></l>
             <l n="1075" xml:id="l1075">La <ref target="#gloire1">gloire*</ref> de mourir pour le salut de tous ;</l>
             <l n="1076" xml:id="l1076">Et le plus heureux cours de la plus longue vie</l>
             <l n="1077" xml:id="l1077">Ne ravit pas l’honneur dont sa mort est suivie.</l>
@@ -2177,8 +2174,8 @@
             <l n="1101" xml:id="l1101">Et peut-estre le sort vous eust mis à sa place :</l>
             <l n="1102" xml:id="l1102">Mais une <ref target="#ardent">ardente*</ref> soif d’acquerir de l’honneur</l>
             <l n="1103" xml:id="l1103">Luy fit precipiter ses jours &amp; son malheur.</l>
-            <l n="1104" xml:id="l1104">Si tous les <ref target="#vain1">vains*</ref> honneurs, dont sa mort est suivie,             <pb n="52" xml:id="p52"/></l>
-            <l n="1105" xml:id="l1105"><space/>Dans le cœur des Romains excitoient de l’envie,    </l>
+            <l n="1104" xml:id="l1104">Si tous les <ref target="#vain1">vains*</ref> honneurs, dont sa mort est suivie,<pb n="52" xml:id="p52"/></l>
+            <l n="1105" xml:id="l1105">Dans le cœur des Romains excitoient de l’envie,    </l>
             <l n="1106" xml:id="l1106">Il vous estoit permis d’avoir le mesme sort ;</l>
             <l n="1107" xml:id="l1107">Vous aviez mesme droit de courir à la mort :</l>
             <l n="1108" xml:id="l1108">Il eust esté plus beau d’imiter ce grand homme,</l>
@@ -2200,15 +2197,15 @@
             <l n="1118" xml:id="l1118">Il faut estre un Heros pour regner sur mon cœur,</l>
             <l n="1119" xml:id="l1119">Et Decius merite un plus grand successeur.</l>
             <l n="1120" xml:id="l1120">Cesse donc de penser, qu’aux biens que tu <ref target="#hazarder">hazardes*</ref></l>
-            <l n="1121" xml:id="l1121">Je <ref target="#prendre-interest">prenne d’interest*</ref>…</l>
+            <l n="1121" xml:id="l1121" part="I">Je <ref target="#prendre-interest">prenne d’interest*</ref>…</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE III.                 <pb n="53" xml:id="p53"/></head>
+          <head>SCENE III.<pb n="53" xml:id="p53"/></head>
           <stage>TORQUATUS, CAMILLE, JUNIUS.</stage>
           <sp who="junius">
             <speaker>JUNIUS.</speaker>
-            <l part="Y"><space/><space/>            Manlius a des gardes ;</l>
+            <l part="F">            Manlius a des gardes ;</l>
             <l n="1122" xml:id="l1122">Par vostre ordre, Seigneur, je l’ay fait arrester :</l>
             <l n="1123" xml:id="l1123">Mais tout le camp <ref target="#murmurer">murmure*</ref> &amp; semble s’irriter.</l>
             <l n="1124" xml:id="l1124"><ref target="#consulter1">Consultez</ref> là dessus toute vostre prudence :</l>
@@ -2232,7 +2229,7 @@
             <l n="1133" xml:id="l1133">Cessez, encore un coup, ce discours qui m’outrage ;</l>
             <l n="1134" xml:id="l1134">Reglez mieux les effets de vos jaloux soupçons,</l>
             <l n="1135" xml:id="l1135">Et ne me donnez plus de <ref target="#frivole">frivoles*</ref> leçons :</l>
-            <l n="1136" xml:id="l1136">Ces reproches, enfin, lasseroient ma clemence,                 <pb n="54" xml:id="p54"/></l>
+            <l n="1136" xml:id="l1136">Ces reproches, enfin, lasseroient ma clemence,<pb n="54" xml:id="p54"/></l>
             <l n="1137" xml:id="l1137">Et pourroient me porter à quelque violence :</l>
             <l n="1138" xml:id="l1138">Adieu, retirez vous, &amp; nous laissez en paix.</l>
           </sp>
@@ -2261,7 +2258,7 @@
             <l n="1149" xml:id="l1149">Qui n’en eust dit autant, s’il eust osé le dire<note type="editor" place="bottom"> Nathalie Fournier (<hi rend="i">op. cit.</hi>, p. 366) nous rappelle que le subjonctif plus-que-parfait reste très vivant tout au long du siècle, et qu’il n’est pas rare, dans un système hypothétique, de le trouver dans la subordonnée en <hi rend="i">si</hi> avec une apodose à l’indicatif  et même dans les deux propositions du système (et c’est le cas ici), comme l’attestent ces exemples : « Il ne l’eût jamais fait, si je l’eusse pu faire » (Corneille, <hi rend="i">Cid</hi>, v. 736) ; « et une main si habile eût sauvé l’État, si l’État eût pu être sauvé. » (Bossuet, <hi rend="i">Or. fun. H. de Fr.</hi>, 115) ; « Les deux aînées eussent pu passer pour les plus belles filles du monde, si elles n’eussent point eu de cadettes » (La Fontaine, <hi rend="i">Psych.</hi>, 408).</note> ;</l>
             <l n="1150" xml:id="l1150">Qui sçachant qu’on est prest d’immoler un vainqueur,</l>
             <l n="1151" xml:id="l1151">Pour ce cruel dessein n’ait conceu de l’horreur,</l>
-            <l n="1152" xml:id="l1152">Et qui, pour dire tout, sourdement ne s’appreste                <pb n="55" xml:id="p55"/></l>
+            <l n="1152" xml:id="l1152">Et qui, pour dire tout, sourdement ne s’appreste<pb n="55" xml:id="p55"/></l>
             <l n="1153" xml:id="l1153">Aux dépens de son sang, à sauver cette teste.</l>
             <l n="1154" xml:id="l1154">Vous m’avez ordonné, Seigneur, expressément</l>
             <l n="1155" xml:id="l1155">De vous dire tousjours quel est mon sentiment ;</l>
@@ -2297,7 +2294,7 @@
             <l n="1179" xml:id="l1179">Tu fis mourir ton fils, pour plaire à ton Amour ;</l>
             <l n="1180" xml:id="l1180">Il fut de cette <ref target="#ardeur2">ardeur*</ref> l’innocente victime :</l>
             <l n="1181" xml:id="l1181">Tremble, tremble, Consul, les Dieux ont veu ton crime,</l>
-            <l n="1182" xml:id="l1182">Le Sang de ce Heros injustement versé                    <pb n="56" xml:id="p56"/></l>
+            <l n="1182" xml:id="l1182">Le Sang de ce Heros injustement versé<pb n="56" xml:id="p56"/></l>
             <l n="1183" xml:id="l1183">Eleve des <ref target="#vapeur1">vapeurs*</ref>, dont le Ciel est percé ;</l>
             <l n="1184" xml:id="l1184">Des champs Elisiens<note type="editor" place="bottom">Equivalent de champs Elisées, d’après le dictionnaire de Richelet, on dit l’un et l’autre mais le bon usage est pour Champs Elisées. Ce sont les lieux des Enfers, dans la mythologie, où les héros et les gens vertueux goûtent le repos après leur mort.</note> il demande vengeance :</l>
             <l n="1185" xml:id="l1185">Tremble, encore une fois, ton supplice s’avance.</l>
@@ -2332,7 +2329,7 @@
             <l n="1211" xml:id="l1211">Les <ref target="#frivole">frivoles*</ref> raisons qu’aujourd’huy tu luy dis,</l>
             <l n="1212" xml:id="l1212">Quand un pere obligé de vaincre sa foiblesse</l>
             <l n="1213" xml:id="l1213">S'efforce d’arracher un fils à sa tendresse,</l>
-            <l n="1214" xml:id="l1214">De l’amour paternel les secrets entretiens                <pb n="57" xml:id="p57"/></l>
+            <l n="1214" xml:id="l1214">De l’amour paternel les secrets entretiens<pb n="57" xml:id="p57"/></l>
             <l n="1215" xml:id="l1215">Ne luy tiennent que trop les discours que tu tiens.</l>
             <l n="1216" xml:id="l1216">Ce sont des nœuds si doux que ceux de la nature,</l>
             <l n="1217" xml:id="l1217">Que quand on est <ref target="#contraindre1">contraint</ref> de <ref target="#souffrir1">souffrir*</ref> leur rupture,</l>
@@ -2360,7 +2357,7 @@
             <l n="1239" xml:id="l1239">Pour estre illustre* &amp; grand, n’en est pas moins humain,</l>
             <l n="1240" xml:id="l1240">Qu'on n’en est pas plus dur, pour estre né dans Rome,</l>
             <l n="1241" xml:id="l1241">Qu'un pere est tousjours pere, &amp; qu’un Consul est homme :</l>
-            <l n="1242" xml:id="l1242">Mais à tous ces effets des premiers <ref target="#mouvement2">mouvemens*</ref>                <pb n="58" xml:id="p58"/></l>
+            <l n="1242" xml:id="l1242">Mais à tous ces effets des premiers <ref target="#mouvement2">mouvemens*</ref><pb n="58" xml:id="p58"/></l>
             <l n="1243" xml:id="l1243">Ont enfin succedé de plus grands sentimens ;</l>
             <l n="1244" xml:id="l1244">Je me suis souvenu, pour devenir <ref target="#severe">severe*</ref>,</l>
             <l n="1245" xml:id="l1245">Que j’estois un Romain, avant que d’estre pere,</l>
@@ -2393,7 +2390,7 @@
             <l n="1269" xml:id="l1269">Et les yeux clair-voyans de nostre conscience,</l>
             <l n="1270" xml:id="l1270">Malgré tous nos détours, penetrent aisément</l>
             <l n="1271" xml:id="l1271">Au travers de la ruse &amp; du déguisement.</l>
-            <l n="1272" xml:id="l1272">Dispensez ma ferveur d’en faire davantage :                 <pb n="59" xml:id="p59"/></l>
+            <l n="1272" xml:id="l1272">Dispensez ma ferveur d’en faire davantage :<pb n="59" xml:id="p59"/></l>
             <l n="1273" xml:id="l1273">Mes <ref target="#fidele2">fidelles*</ref> conseils ont commencé l’ouvrage ;</l>
             <l n="1274" xml:id="l1274">C'est à vostre vertu, Seigneur, à l’achever :</l>
             <l n="1275" xml:id="l1275">Il faut vous laisser seul, afin d’y mieux rêver* ;</l>
@@ -2420,7 +2417,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE V.                        <pb n="60" xml:id="p60"/></head>
+        <head>ACTE V.<pb n="60" xml:id="p60"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>TORQUATUS, OMPHALE, PHENICE.</stage>
@@ -2448,7 +2445,7 @@
             <l n="1301" xml:id="l1301">Donne t’elle des loix qu’il faut que Rome suive ?</l>
           </sp>
           <sp who="torquatus">
-            <speaker>TORQUATUS.    <pb n="F, p. 61"/></speaker>
+            <speaker>TORQUATUS.<pb n="F, p. 61"/></speaker>
             <l n="1302" xml:id="l1302">Depuis que de vos yeux le pouvoir souverain</l>
             <l n="1303" xml:id="l1303">Est reconnu pour tel par un Consul Romain,</l>
             <l n="1304" xml:id="l1304">Ouy, Madame, vos traits en touchant un seul homme,</l>
@@ -2475,16 +2472,16 @@
             <l n="1322" xml:id="l1322">Et seroit-il, Seigneur, assez <ref target="#infortune">infortuné*</ref>,</l>
             <l n="1323" xml:id="l1323">Pour ne voir que son Pere à sa perte obstiné ?</l>
             <l n="1324" xml:id="l1324">Hé qu’un peu de pitié s’empare de vostre ame !</l>
-            <l n="1325" xml:id="l1325">Songez….</l>
+            <l n="1325" xml:id="l1325" part="I">Songez….</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l part="Y"><space/>Donnez m’en donc un exemple, Madame,</l>
+            <l part="F">Donnez m’en donc un exemple, Madame,</l>
             <l n="1326" xml:id="l1326">Montrez moy que je dois adoucir ma rigueur,</l>
             <l n="1327" xml:id="l1327">En laissant par l’amour adoucir vostre cœur.</l>
             <l n="1328" xml:id="l1328">Par pitié pour mon fils paroissez-luy cruelle*</l>
             <l n="1329" xml:id="l1329">Par un excés d’amour, devenez infidelle,</l>
-            <l n="1330" xml:id="l1330">Et par un prompt Hymen* desarmez mon courroux.             <pb n="62" xml:id="p62"/></l>
+            <l n="1330" xml:id="l1330">Et par un prompt Hymen* desarmez mon courroux.<pb n="62" xml:id="p62"/></l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
@@ -2502,7 +2499,7 @@
             <l n="1339" xml:id="l1339">Mais, par ces derniers mots, vous terminez son sort :</l>
             <l n="1340" xml:id="l1340">Je sens que je commence à rentrer en moy-mesme,</l>
             <l n="1341" xml:id="l1341">C’en est fait, je me rends à cette loy supréme.</l>
-            <l n="1342" xml:id="l1342">Hola, Gardes.</l>
+            <l n="1342" xml:id="l1342" part="I">Hola, Gardes.</l>
           </sp>
         </div>
         <div type="scene">
@@ -2510,52 +2507,52 @@
           <stage>TORQUATUS, OMPHALE, PHENICE, PISON.</stage>
           <sp who="pison">
             <speaker>PISON.</speaker>
-            <l part="Y"><space/><space/>        Seigneur.</l>
+            <l part="M">        Seigneur.</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l part="Y"><space/><space/>            Qu’on aille promptement</l>
-            <l n="1343" xml:id="l1343">Executer…</l>
+            <l part="F">            Qu’on aille promptement</l>
+            <l n="1343" xml:id="l1343" part="I">Executer…</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>        Helas ! differez un moment.</l>
+            <l part="F">        Helas ! differez un moment.</l>
             <l n="1344" xml:id="l1344">Gardes, retirez-vous, je veux… mais, quoy ! mon ame,</l>
             <l n="1345" xml:id="l1345">Quoy ? voudrois-tu trahir Manlius &amp; ta <ref target="#flame">flâme*</ref> ?</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l n="1346" xml:id="l1346">Que voulez-vous ?</l>
+            <l n="1346" xml:id="l1346" part="I">Que voulez-vous ?</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>        Je veux…</l>
+            <l part="M">        Je veux…</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l part="Y"><space/><space/>                Achevez.</l>
+            <l part="M">                Achevez.</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>                        Le sauver.</l>
+            <l part="F">                        Le sauver.</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l n="1347" xml:id="l1347">Et du reste ?</l>
+            <l n="1347" xml:id="l1347" part="I">Et du reste ?</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>        Seigneur, je voudrois y <ref target="#rever2">réver*</ref>.</l>
+            <l part="F">        Seigneur, je voudrois y <ref target="#rever2">réver*</ref>.</l>
           </sp>
           <sp who="torquatus">
-            <speaker>TORQUATUS.    <pb n="64" xml:id="p64"/></speaker>
+            <speaker>TORQUATUS.<pb n="64" xml:id="p64"/></speaker>
             <l n="1348" xml:id="l1348">Ha ! c’est trop écouter tant de discours <ref target="#frivole">frivoles*</ref>,</l>
             <l n="1349" xml:id="l1349">Je ne me repais point de ces <ref target="#vain1">vaines*</ref> paroles.</l>
-            <l n="1350" xml:id="l1350">Hola, Gardes.</l>
+            <l n="1350" xml:id="l1350" part="I">Hola, Gardes.</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>        Seigneur, ne precipitez rien ;</l>
+            <l part="F">        Seigneur, ne precipitez rien ;</l>
             <l n="1351" xml:id="l1351">Fallut-il pour son sang vous donner tout le mien,</l>
             <l n="1352" xml:id="l1352">Si Manlius le veut, j’y consens avec joye :</l>
             <l n="1353" xml:id="l1353">Mais, pour m’en informer, <ref target="#souffrir2">souffrez*</ref> que je le voye ;</l>
@@ -2591,11 +2588,11 @@
             <l n="1368" xml:id="l1368">Hola, quelqu’un, courez dans la tente prochaine<note type="editor" place="bottom"> Signifie "qui n’est pas loin. Se dit du temps et du lieu"(<hi rend="i">F</hi>.)</note></l>
             <l n="1369" xml:id="l1369">Où l’on garde mon fils, dire qu’on me l’ameine.</l>
             <l n="1370" xml:id="l1370">Princesse, s’il consent aux plus doux de mes vœux,</l>
-            <l n="1371" xml:id="l1371">Mon bon-heur…</l>
+            <l n="1371" xml:id="l1371" part="I">Mon bon-heur…</l>
           </sp>
           <sp who="omphale">
-            <speaker>OMPHALE.    <pb n="65" xml:id="p65"/></speaker>
-            <l part="Y"><space/><space/>        He, Seigneur, se peut-on <ref target="#croire1">croire</ref> heureux,</l>
+            <speaker>OMPHALE.<pb n="65" xml:id="p65"/></speaker>
+            <l part="F">        He, Seigneur, se peut-on <ref target="#croire1">croire</ref> heureux,</l>
             <l n="1372" xml:id="l1372">Quand on doit la douceur d’un aveu favorable,</l>
             <l n="1373" xml:id="l1373">A la necessité de sauver un coupable ?</l>
             <l n="1374" xml:id="l1374">Ha, non non, pour gouster de solides<note type="editor" place="bottom"> Signifie réels, durables (<hi rend="i">A</hi>.). Omphale fait remarquer à Torquatus que l’amour ne peut s’obtenir par la force, et donc qu’il ne sera pas heureux de posséder son cœur.</note> plaisirs,</l>
@@ -2613,11 +2610,11 @@
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
             <l n="1385" xml:id="l1385">Je vous entens Madame, &amp; luy cede la place.</l>
-            <l n="1386" xml:id="l1386">Gardes, retirez-vous.</l>
+            <l n="1386" xml:id="l1386" part="I">Gardes, retirez-vous.</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>            Ciel, soyez mon secours.</l>
+            <l part="F">            Ciel, soyez mon secours.</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
@@ -2625,15 +2622,15 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE III.                 <pb n="66" xml:id="p66"/></head>
+          <head>SCENE III.<pb n="66" xml:id="p66"/></head>
           <stage>OMPHALE, MANLIUS, PHENICE, [TORQUATUS, PISON].</stage>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l n="1388" xml:id="l1388">Que de trouble je sens ! ah ! Seigneur.</l>
+            <l n="1388" xml:id="l1388" part="I">Que de trouble je sens ! ah ! Seigneur.</l>
           </sp>
           <sp who="manlius">
             <speaker>MANLIUS.</speaker>
-            <l part="Y"><space/><space/>                    Ha ! Madame.</l>
+            <l part="F">                    Ha ! Madame.</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
@@ -2656,7 +2653,7 @@
             <l n="1399" xml:id="l1399">Que de vous voir <ref target="#souffrir1">souffrir*</ref> une honteuse mort ;</l>
             <l n="1400" xml:id="l1400">Il faut que le destin joigne à vostre supplice,</l>
             <l n="1401" xml:id="l1401">L’horible desespoir de m’en trouver complice,</l>
-            <l n="1402" xml:id="l1402">Ouy, les Dieux ont permis, pour augmenter mes maux,             <pb n="67" xml:id="p67"/></l>
+            <l n="1402" xml:id="l1402">Ouy, les Dieux ont permis, pour augmenter mes maux,<pb n="67" xml:id="p67"/></l>
             <l n="1403" xml:id="l1403">Que mes traistres <ref target="#appas2">appas*</ref> soient vos secrets bourreaux :</l>
             <l n="1404" xml:id="l1404">Mes yeux, Seigneur, mes yeux ont fait tout vostre crime ;</l>
             <l n="1405" xml:id="l1405">Vous estes de leurs traits l’innocente victime ;</l>
@@ -2687,7 +2684,7 @@
             <l n="1427" xml:id="l1427">S’il veut forcer mon cœur à craindre son courroux ;</l>
             <l n="1428" xml:id="l1428">Qu’il lance contre moy les traits de l’Enfer mesme,</l>
             <l n="1429" xml:id="l1429">Je brave son pouvoir, si ma Princesse m’aime :</l>
-            <l n="1430" xml:id="l1430">Un <ref target="#amant">amant*</ref> embrasé par de si nobles <ref target="#feu2">feux*</ref>,                <pb n="68" xml:id="p68"/></l>
+            <l n="1430" xml:id="l1430">Un <ref target="#amant">amant*</ref> embrasé par de si nobles <ref target="#feu2">feux*</ref>,<pb n="68" xml:id="p68"/></l>
             <l n="1431" xml:id="l1431">Pourveu qu’il meure aimé, meurt tousjours trop heureux.</l>
             <l n="1432" xml:id="l1432">Je me <ref target="#flatter2">flattois*</ref> ainsi d’une douce esperance,</l>
             <l n="1433" xml:id="l1433">Et mon cœur abusé par cette confiance,</l>
@@ -2715,11 +2712,11 @@
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l n="1452" xml:id="l1452">Quel Arrest ! ha ! Seigneur.</l>
+            <l n="1452" xml:id="l1452" part="I">Quel Arrest ! ha ! Seigneur.</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l part="Y"><space/><space/>                N’en parlons plus, Madame.</l>
+            <l part="F">                N’en parlons plus, Madame.</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
@@ -2727,16 +2724,16 @@
             <l n="1454" xml:id="l1454">Ordonnez donc, Seigneur, que je suive son sort.</l>
           </sp>
           <sp who="torquatus">
-            <speaker>TORQUATUS.    <pb n="69" xml:id="p69"/></speaker>
+            <speaker>TORQUATUS.<pb n="69" xml:id="p69"/></speaker>
             <l n="1455" xml:id="l1455">Gardes, encore un coup, qu’on le traîne à la mort.</l>
           </sp>
           <sp who="pison">
             <speaker>PISON.</speaker>
-            <l n="1456" xml:id="l1456">Obeïssez, Seigneur, allons.</l>
+            <l n="1456" xml:id="l1456" part="I">Obeïssez, Seigneur, allons.</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>            Arreste, infame,</l>
+            <l part="F">            Arreste, infame,</l>
             <l n="1457" xml:id="l1457">Bourreau, qui veux m’oster la moitié de mon ame ;</l>
             <l n="1458" xml:id="l1458">Avant que d’arracher Manlius de ce lieu,</l>
             <l n="1459" xml:id="l1459">Cruel, <ref target="#souffrir2">souffre*</ref> du moins que je luy dise adieu.</l>
@@ -2770,11 +2767,11 @@
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l n="1478" xml:id="l1478">Madame, moderez…</l>
+            <l n="1478" xml:id="l1478" part="I">Madame, moderez…</l>
           </sp>
           <sp who="omphale">
-            <speaker>OMPHALE.    <pb n="70" xml:id="p70"/></speaker>
-            <l part="Y"><space/><space/>            Monstre pernicieux,</l>
+            <speaker>OMPHALE.<pb n="70" xml:id="p70"/></speaker>
+            <l part="F">            Monstre pernicieux,</l>
             <l n="1479" xml:id="l1479">Oses tu bien encor te monstrer à mes yeux ?</l>
             <l n="1480" xml:id="l1480">Entens-je les accens de ta voix detestable :</l>
             <l n="1481" xml:id="l1481">Tigre affamé de sang, Barbare, inexorable,</l>
@@ -2801,7 +2798,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IV.                <pb n="71" xml:id="p71"/></head>
+          <head>SCENE IV.<pb n="71" xml:id="p71"/></head>
           <stage>TORQUATUS, CAMILLE, OMPHALE, PHENICE.</stage>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
@@ -2814,7 +2811,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE V.                        <pb n="72" xml:id="p72"/></head>
+          <head>SCENE V.<pb n="72" xml:id="p72"/></head>
           <stage>TORQUATUS, CAMILLE, OMPHALE, PHENICE, JUNIUS.</stage>
           <sp who="junius">
             <speaker>JUNIUS.</speaker>
@@ -2827,36 +2824,36 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VI.                 <pb n="G, p. 73"/></head>
+          <head>SCENE VI.<pb n="G, p. 73"/></head>
           <stage>TORQUATUS, CAMILLE, OMPHALE, PHENICE, JUNIUS, PISON.</stage>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l n="1511" xml:id="l1511">Voicy Pison. Mon fils ?</l>
+            <l n="1511" xml:id="l1511" part="I">Voicy Pison. Mon fils ?</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE, <hi rend="i">bas</hi>.</speaker>
-            <l part="Y"><space/><space/>            Ha ! ne <ref target="#balancer2">balançons*</ref> plus ;</l>
+            <l part="F">            Ha ! ne <ref target="#balancer2">balançons*</ref> plus ;</l>
             <l n="1512" xml:id="l1512">Voicy de quoy me joindre à l’<ref target="#objet2">objet*</ref> de ma <ref target="#flame">flâme*</ref>,</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l n="1513" xml:id="l1513">Que vois-je ! juste Ciel, ha, Princesse !</l>
+            <l n="1513" xml:id="l1513" part="I">Que vois-je ! juste Ciel, ha, Princesse !</l>
           </sp>
           <sp who="phenice">
             <speaker>PHENICE.</speaker>
-            <l part="Y"><space/><space/>                    Ha ! Madame.</l>
+            <l part="F">                    Ha ! Madame.</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
             <l n="1514" xml:id="l1514">Pour suivre Manlius, pour assouvir son sort,</l>
-            <l n="1515" xml:id="l1515">Ce poignard…</l>
+            <l n="1515" xml:id="l1515" part="I">Ce poignard…</l>
           </sp>
           <sp who="pison">
             <speaker>PISON.</speaker>
-            <l part="Y"><space/><space/>        Arrestez, Madame, il n’est pas mort.</l>
+            <l part="F">        Arrestez, Madame, il n’est pas mort.</l>
           </sp>
           <sp who="torquatus">
-            <speaker>TORQUATUS.    <pb n="74" xml:id="p74"/></speaker>
+            <speaker>TORQUATUS.<pb n="74" xml:id="p74"/></speaker>
             <l n="1516" xml:id="l1516">Manlius n’est pas mort ? hé quel bras <ref target="#temeraire">temeraire*</ref></l>
             <l n="1517" xml:id="l1517">A pû le dérober à ma juste colere ?</l>
           </sp>
@@ -2879,12 +2876,12 @@
             <l n="1532" xml:id="l1532">Alors, n’écoutant plus que l’<ref target="#ardeur1">ardeur*</ref> qui l’emporte,</l>
             <l n="1533" xml:id="l1533">Il fond sur les soldats qui nous servoient d’escorte,</l>
             <l n="1534" xml:id="l1534">Qui, loing de s’opposer à l’<ref target="#effort4">effort*</ref> de ses coups,</l>
-            <l n="1535" xml:id="l1535"><space/>Emeus de ce discours nous abandonnent tous.    </l>
+            <l n="1535" xml:id="l1535">Emeus de ce discours nous abandonnent tous.    </l>
             <l n="1536" xml:id="l1536">En vain, pour reprimer cette insolente <ref target="#audace1">audace*</ref>,</l>
             <l n="1537" xml:id="l1537">J’appelle du secours, parle, frappe, menasse,</l>
             <l n="1538" xml:id="l1538">Leur nomme le Consul ; tous mes <ref target="#effort2">efforts*</ref> sont <ref target="#vain2">vains</ref> :</l>
             <l n="1539" xml:id="l1539">Ils arrachent, Seigneur, Manlius de mes mains :</l>
-            <l n="1540" xml:id="l1540">Et, bien que ce Heros deust à cette <ref target="#furie">furie*</ref>,                <pb n="75" xml:id="p75"/></l>
+            <l n="1540" xml:id="l1540">Et, bien que ce Heros deust à cette <ref target="#furie">furie*</ref>,<pb n="75" xml:id="p75"/></l>
             <l n="1541" xml:id="l1541">Les restes <ref target="#glorieux">glorieux*</ref> de son illustre* vie,</l>
             <l n="1542" xml:id="l1542">Ce fils obeïssant à vos ordres soûmis</l>
             <l n="1543" xml:id="l1543">Traitte ses deffenseurs comme ses ennemis ;</l>
@@ -2899,34 +2896,34 @@
             <l n="1549" xml:id="l1549">Ah ; tant de ce vil sang va laver cette offence,</l>
             <l n="1550" xml:id="l1550">Que la punition de leur temerité,</l>
             <l n="1551" xml:id="l1551">Servira d’un exemple à la posterité.</l>
-            <l n="1552" xml:id="l1552">Qu’on me suive.</l>
+            <l n="1552" xml:id="l1552" part="I">Qu’on me suive.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VII.                    <pb n="76" xml:id="p76"/></head>
+          <head>SCENE VII.<pb n="76" xml:id="p76"/></head>
           <stage>TORQUATUS, CAMILLE, OMPHALE, MANLIUS, PHENICE, JUNIUS, PISON.</stage>
           <sp who="manlius">
             <speaker>MANLIUS.</speaker>
-            <l part="Y"><space/><space/>        Seigneur…..</l>
+            <l part="M">        Seigneur…..</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>                Où viens-tu ? miserable.</l>
+            <l part="F">                Où viens-tu ? miserable.</l>
           </sp>
           <sp who="manlius">
             <speaker>MANLIUS.</speaker>
-            <l n="1553" xml:id="l1553">Epargnez-vous des pas.</l>
+            <l n="1553" xml:id="l1553" part="I">Epargnez-vous des pas.</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l part="Y"><space/><space/>            Dieux !</l>
+            <l part="M">            Dieux !</l>
           </sp>
           <sp who="manlius">
             <speaker>MANLIUS.</speaker>
-            <l part="Y"><space/><space/>                Voicy ce coupable.</l>
+            <l part="F">                Voicy ce coupable.</l>
             <l n="1554" xml:id="l1554">Je n’examine point quel crime, ou quel mal-heur,</l>
             <l n="1555" xml:id="l1555">Vous fait dans mon trepas trouver quelque douceur ;</l>
-            <l n="1556" xml:id="l1556">Je dois mourir, Seigneur, puis que ma triste vie                <pb n="77" xml:id="p77"/></l>
+            <l n="1556" xml:id="l1556">Je dois mourir, Seigneur, puis que ma triste vie<pb n="77" xml:id="p77"/></l>
             <l n="1557" xml:id="l1557">A duré trop long-temps au gré de vostre envie :</l>
             <l n="1558" xml:id="l1558">Faites percer ce cœur, ordonnez qu’à vos yeux,</l>
             <l n="1559" xml:id="l1559">On verse tout ce sang qui vous est odieux ;</l>
@@ -2936,19 +2933,19 @@
             <l n="1563" xml:id="l1563">Pouvoit heureusement se borner à ma mort,</l>
             <l n="1564" xml:id="l1564">J’oserois en mourant vous demander la grace</l>
             <l n="1565" xml:id="l1565">De ces audacieux, dont j’ay causé l’<ref target="#audace1">audace*</ref>.</l>
-            <l n="1566" xml:id="l1566">Ordonnez donc, Seigneur…</l>
+            <l n="1566" xml:id="l1566" part="I">Ordonnez donc, Seigneur…</l>
           </sp>
           <sp who="junius">
             <speaker>JUNIUS.</speaker>
-            <l part="Y"><space/><space/>            Qu’il paroist <ref target="#interdit">interdit*</ref> :</l>
+            <l part="F">            Qu’il paroist <ref target="#interdit">interdit*</ref> :</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l n="1567" xml:id="l1567">Le cœur pressé*, je sens…</l>
+            <l n="1567" xml:id="l1567" part="I">Le cœur pressé*, je sens…</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
-            <l part="Y"><space/><space/>            Ô Dieux ! il s’attendrit.</l>
+            <l part="F">            Ô Dieux ! il s’attendrit.</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
@@ -2962,25 +2959,25 @@
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
             <l n="1571" xml:id="l1571">Que de troubles divers s’élevent dans mon cœur !</l>
-            <l n="1572" xml:id="l1572">Je veux, je ne veux pas : La nature tremblante                <pb n="78" xml:id="p78"/></l>
+            <l n="1572" xml:id="l1572">Je veux, je ne veux pas : La nature tremblante<pb n="78" xml:id="p78"/></l>
             <l n="1573" xml:id="l1573">Ose, craint, &amp; se rend trop, ou trop peu pressante,</l>
             <l n="1574" xml:id="l1574">Dans ce cruel moment, mon fils, Rome, &amp; l’Amour,</l>
             <l n="1575" xml:id="l1575">Semblent tout déchirer mon ame tour à tour :</l>
-            <l n="1576" xml:id="l1576">Je n’en puis plus, ô Dieux !</l>
+            <l n="1576" xml:id="l1576" part="I">Je n’en puis plus, ô Dieux !</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>            Ha, Seigneur, grace, grace :</l>
+            <l part="F">            Ha, Seigneur, grace, grace :</l>
             <l n="1577" xml:id="l1577">Enfin vostre vertu va reprendre sa place.</l>
           </sp>
           <sp who="manlius">
             <speaker>MANLIUS.</speaker>
             <l n="1578" xml:id="l1578">Seigneur, je ne vaux pas le trouble où je vous voy.</l>
-            <l n="1579" xml:id="l1579">Ordonnez qu’à vos pieds…</l>
+            <l n="1579" xml:id="l1579" part="I">Ordonnez qu’à vos pieds…</l>
           </sp>
           <sp who="torquatus">
             <speaker>TORQUATUS.</speaker>
-            <l part="Y"><space/><space/>            Ha, mon fils, leve toy.</l>
+            <l part="F">            Ha, mon fils, leve toy.</l>
           </sp>
           <sp who="omphale">
             <speaker>OMPHALE.</speaker>
@@ -2995,7 +2992,7 @@
             <l n="1585" xml:id="l1585">Ou bien tost vostre Hymen* lavera mon offence.</l>
           </sp>
           <sp who="manlius">
-            <speaker>MANLIUS.    <pb n="79" xml:id="p79"/></speaker>
+            <speaker>MANLIUS.<pb n="79" xml:id="p79"/></speaker>
             <l n="1586" xml:id="l1586">Ah, mon Pere, ah, Seigneur, ay-je bien entendu ?</l>
           </sp>
           <sp who="torquatus">

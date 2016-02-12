@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -941,33 +938,33 @@
           </sp>
           <sp who="telamon">
             <speaker>TELAMON.</speaker>
-            <l n="2" xml:id="l2">Vous la verrez bien-tost.</l>
+            <l n="2" xml:id="l2" part="I">Vous la verrez bien-tost.</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">Qu’on sorte,  ; qu’on me laisse ;</l>
+            <l part="F">Qu’on sorte,  ; qu’on me laisse ;</l>
             <l n="3" xml:id="l3">Et que nul n’entre icy que par un ordre exprés.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE II. <pb n="2"/></head>
+          <head>SCENE II.<pb n="2"/></head>
           <stage>DEMETRIUS, MILON, ARSINOÉ.</stage>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l n="4" xml:id="l4">La Reyne...</l>
+            <l n="4" xml:id="l4" part="I">La Reyne...</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">Que veut-elle ?</l>
+            <l part="M">Que veut-elle ?</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Elle me suit de prés,</l>
-            <l n="5" xml:id="l5">La voicy.</l>
+            <l part="F">Elle me suit de prés,</l>
+            <l n="5" xml:id="l5" part="I">La voicy.</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS <hi rend="i">à Arsinoé.</hi></speaker>
-            <l part="Y">Quoy, faut-il nous voir toûjours ensemble ?</l>
+            <l part="F">Quoy, faut-il nous voir toûjours ensemble ?</l>
             <l n="6" xml:id="l6">Je hay la jalousie,  ; cela luy<note n="30" place="bottom">. « Lui » atone est souvent utilisé au lieu de « y » remplaçant les noms de choses (H., §10, Rem. IV) .</note> ressemble.</l>
             <l n="7" xml:id="l7">Quoy, toûjours sur mes pas, à toute heure, en tous lieux,</l>
             <l n="8" xml:id="l8">Les soûpirs à la bouche,  ; les larmes aux yeux,</l>
@@ -1061,17 +1058,17 @@
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l n="75" xml:id="l75">Mais enfin il est mort.</l>
+            <l n="75" xml:id="l75" part="I">Mais enfin il est mort.</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l part="Y">Tant de <ref target="#sanglant">sanglants*</ref> mespris</l>
+            <l part="F">Tant de <ref target="#sanglant">sanglants*</ref> mespris</l>
             <l n="76" xml:id="l76">Me l’ont depuis trois mois cruellement apris :</l>
-            <l n="77" xml:id="l77">S’il vivoit...</l>
+            <l n="77" xml:id="l77" part="I">S’il vivoit...</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">S’il vivoit, cét orgueil qui menace,</l>
+            <l part="F">S’il vivoit, cét orgueil qui menace,</l>
             <l n="78" xml:id="l78">Quoy que tousjours injuste, auroit meilleure grace ;</l>
             <l n="79" xml:id="l79">Mais enfin il est mort,  ; vostre unique appuy<pb n="5"/></l>
             <l n="80" xml:id="l80">Et vostre unique espoir sont tombez avec luy.</l>
@@ -1111,7 +1108,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE III. <pb n="6"/></head>
+          <head>SCENE III.<pb n="6"/></head>
           <sp who="demetrius">
             <speaker>DEMETRIUS <hi rend="i">seul.</hi></speaker>
             <l n="105" xml:id="l105">Ton interest n’est pas ce qui trouble mon ame,</l>
@@ -1140,13 +1137,13 @@
             <l n="128" xml:id="l128">Et j’adore mon crime ainsi que mon tourment,</l>
             <l n="129" xml:id="l129">Grands Dieux, qui l’avez faite  ; si fiere  ; si belle,</l>
             <l n="130" xml:id="l130">Immortelles beautez qui vous montrez en elle,</l>
-            <l n="131" xml:id="l131">Est-ce un crime d’aymer ce qui nous vient de vous, <pb n="7"/></l>
+            <l n="131" xml:id="l131">Est-ce un crime d’aymer ce qui nous vient de vous,<pb n="7"/></l>
             <l n="132" xml:id="l132">Ce qui vous represente avec des traits si doux ?</l>
             <l n="133" xml:id="l133">Ces yeux, de tous les yeux le plaisir  ; la peine,</l>
             <l n="134" xml:id="l134">Cette auguste fierté si digne d’une Reyne,</l>
             <l n="135" xml:id="l135">Tout ce brillant amas de force  ; de douceur,</l>
             <l n="136" xml:id="l136">Charmera-t’il les yeux sans arrester le coeur ?</l>
-            <l n="137" xml:id="l137">Gardes.</l>
+            <l n="137" xml:id="l137" part="I">Gardes.</l>
           </sp>
         </div>
         <div type="scene">
@@ -1154,39 +1151,39 @@
           <stage>DEMETRIUS, MILON, GARDES.</stage>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Seigneur...</l>
+            <l part="M">Seigneur...</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">Helas !</l>
+            <l part="M">Helas !</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Quoy ! ce grand coeur soupire ?</l>
+            <l part="F">Quoy ! ce grand coeur soupire ?</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l n="138" xml:id="l138">Qu’on nous laisse icy seuls.</l>
+            <l n="138" xml:id="l138" part="I">Qu’on nous laisse icy seuls.</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Gardes, qu’on se retire.</l>
+            <l part="F">Gardes, qu’on se retire.</l>
             <l n="139" xml:id="l139">Vous puis-je demander quel trouble, quel soucy...</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l n="140" xml:id="l140">Alexandre revient.</l>
+            <l n="140" xml:id="l140" part="I">Alexandre revient.</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Il est fort prés d’icy.</l>
+            <l part="F">Il est fort prés d’icy.</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
             <l n="141" xml:id="l141">Sçais-tu qu’il vient m’oster mon Sceptre  ; ma Princesse ?</l>
           </sp>
           <sp who="milon">
-            <speaker>MILON. <pb n="8"/></speaker>
+            <speaker>MILON.<pb n="8"/></speaker>
             <l n="142" xml:id="l142">Craignez vous un Rival avec tant de foiblesse ?</l>
             <l n="143" xml:id="l143">Il revient par vostre ordre,  ; ce retour <ref target="#fatal">fatal*</ref></l>
             <l n="144" xml:id="l144">Va mettre entre vos mains ce dangereux Rival.</l>
@@ -1270,7 +1267,7 @@
             <speaker>MILON.</speaker>
             <l n="199" xml:id="l199">L’innocence par tout fuit les maistres des loix,</l>
             <l n="200" xml:id="l200">Et le seul repentir<note n="45" place="bottom">. Construction fréquente au XVII<hi rend="sup">e</hi> siècle : « seul le repentir » .</note> est le crime des Roys.</l>
-            <l n="201" xml:id="l201">Un Roy se connoist mal s’il se repent de l’estre ; <pb n="10"/></l>
+            <l n="201" xml:id="l201">Un Roy se connoist mal s’il se repent de l’estre ;<pb n="10"/></l>
             <l n="202" xml:id="l202">Le Thrône absout si tost qu’on en devient le maistre,</l>
             <l n="203" xml:id="l203">Et comme pour regner tout crime est glorieux,</l>
             <l n="204" xml:id="l204">Les Roys sont sans remors aussi bien que les Dieux.</l>
@@ -1314,11 +1311,11 @@
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l n="227" xml:id="l227">Mais la Reine...</l>
+            <l n="227" xml:id="l227" part="I">Mais la Reine...</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.<pb n="11"/></speaker>
-            <l part="Y">Tu sçais quel genereux dessein</l>
+            <l part="F">Tu sçais quel genereux dessein</l>
             <l n="228" xml:id="l228">Me força malgré moy de<note n="46" place="bottom">. « Forcer » , « s’efforcer » , « se forcer » admettaient dans la langue classique une double construction avec l’infinitif complément indirect : V+<hi rend="i">à</hi>+ Inf. et V+<hi rend="i">de</hi>+ Inf. (N.F., § 87) .</note> luy donner la main :</l>
             <l n="229" xml:id="l229">Pour sauver mon Rival  ; ma chere Ismenie</l>
             <l n="230" xml:id="l230">J’épousay malgré moy la honte  ; l’infamie,</l>
@@ -1350,13 +1347,13 @@
             <l n="244" xml:id="l244">Et je vous rens vos biens, vostre espoir,  ; vos Dieux,</l>
             <l n="245" xml:id="l245">Les pardonnerez vous à ma raison blessée,</l>
             <l n="246" xml:id="l246">Ces ardeurs, ces transports qui vous ont offencée ?</l>
-            <l n="247" xml:id="l247">Ces soupirs tant de fois poussez à vos genoux, <pb n="12"/></l>
+            <l n="247" xml:id="l247">Ces soupirs tant de fois poussez à vos genoux,<pb n="12"/></l>
             <l n="248" xml:id="l248">Apres ce grand effort les pardonnerez-vous ?</l>
-            <l n="249" xml:id="l249">Vous ne répondez rien ?</l>
+            <l n="249" xml:id="l249" part="I">Vous ne répondez rien ?</l>
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l part="Y">Que pourray-je vous dire ?</l>
+            <l part="F">Que pourray-je vous dire ?</l>
             <l n="250" xml:id="l250">Le Prince d’un malheur va tomber dans un pire ;</l>
             <l n="251" xml:id="l251">Je pleurois son exil,  ; ce triste retour</l>
             <l n="252" xml:id="l252">Plus que son exil mesme afflige mon amour,</l>
@@ -1387,7 +1384,7 @@
             <l n="274" xml:id="l274">Entre ce Prince ; moy sema l’<ref target="#intelligence">intelligence*</ref>,</l>
             <l n="275" xml:id="l275">Et qu’une mesme main nous élevant tous deux,</l>
             <l n="276" xml:id="l276">D’une<note n="48" place="bottom">. « De » , dans la langue classique, peut indiquer le moyen : « par une longue habitude » (H., §114) .</note> longue habitude en forma les beaux noeuds,</l>
-            <l n="277" xml:id="l277">Si ma forte amitié gardoit mal Alexandre, <pb n="13"/></l>
+            <l n="277" xml:id="l277">Si ma forte amitié gardoit mal Alexandre,<pb n="13"/></l>
             <l n="278" xml:id="l278">Sur ce que vous aimez oseray-je entreprendre<note n="49" place="bottom">. « Entreprendre » : « avoir dessein de ruiner quelqu’un, luy faire tout le mal possible » (Fur.) .</note>,</l>
             <l n="279" xml:id="l279">Et par mon mauvais sort suis-je si mal traité,</l>
             <l n="280" xml:id="l280">Que je vous sois suspect de quelque lâcheté ?</l>
@@ -1425,7 +1422,7 @@
             <l n="306" xml:id="l306">Asseurez sur le Thrône  ; sa gloire  ; sa vie.</l>
           </sp>
           <sp who="ismenie">
-            <speaker>ISMENIE. <pb n="14"/></speaker>
+            <speaker>ISMENIE.<pb n="14"/></speaker>
             <l n="307" xml:id="l307">Ah ! si vostre amitié pouvoit en sa faveur</l>
             <l n="308" xml:id="l308">Jusqu’à ce grand effort élever vostre coeur,</l>
             <l n="309" xml:id="l309">Qu’elle auroit à mes yeux de merite  ; de gloire !</l>
@@ -1460,7 +1457,7 @@
             <l n="324" xml:id="l324">Mais ce grand point se doit resoudre icy sans moy :</l>
             <l n="325" xml:id="l325">Je vous quitte, usez bien du droit que je vous donne ;</l>
             <l n="326" xml:id="l326">Souvenez-vous quel est le prix d’une Couronne,</l>
-            <l n="327" xml:id="l327">Quel devoir, quelle ardeur m’oblige à la ceder, <pb n="15"/></l>
+            <l n="327" xml:id="l327">Quel devoir, quelle ardeur m’oblige à la ceder,<pb n="15"/></l>
             <l n="328" xml:id="l328">Et qu’en cedant un Thrône on peut tout demander.</l>
           </sp>
         </div>
@@ -1496,7 +1493,7 @@
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l n="350" xml:id="l350">Cache-moy des malheurs dont je fremis dans l’ame. <pb n="16"/></l>
+            <l n="350" xml:id="l350">Cache-moy des malheurs dont je fremis dans l’ame.<pb n="16"/></l>
             <l n="351" xml:id="l351">Je ne crains que l’effort qui m’arrache à mes feux :</l>
             <l n="352" xml:id="l352">Soûtiens avecque moy cet amour malheureux.</l>
             <l n="353" xml:id="l353">Il a besoin de force,  ; je sens sa foiblesse ;</l>
@@ -1508,7 +1505,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE II. <pb n="17"/></head>
+        <head>ACTE II.<pb n="17"/></head>
         <stage>SELEUCUS, MILON.</stage>
         <div type="scene">
           <head>SCENE PREMIERE</head>
@@ -1564,17 +1561,17 @@
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l n="395" xml:id="l395">L’aimez-vous ?</l>
+            <l n="395" xml:id="l395" part="I">L’aimez-vous ?</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Ouy, je l’aime,  ; je sens que mon coeur</l>
+            <l part="F">Ouy, je l’aime,  ; je sens que mon coeur</l>
             <l n="396" xml:id="l396">Par trop de retenüe a conceu plus d’ardeur.</l>
             <l n="397" xml:id="l397">Comme un brazier caché, ma passion secrete</l>
             <l n="398" xml:id="l398">Est d’autant plus pressante, importune, inquiete,</l>
             <l n="399" xml:id="l399">Que pour m’en soulager je n’ay que des soûpirs</l>
             <l n="400" xml:id="l400">Contre l’embrazement qu’allument mes desirs :</l>
-            <l n="401" xml:id="l401">Au point que je le sens, je n’en suis plus le maistre ; <pb n="19"/></l>
+            <l n="401" xml:id="l401">Au point que je le sens, je n’en suis plus le maistre ;<pb n="19"/></l>
             <l n="402" xml:id="l402">Auprés d’un grand Rival il commença de naistre,</l>
             <l n="403" xml:id="l403">Il brûle prés d’un autre encor plus dangereux,</l>
             <l n="404" xml:id="l404">Et redouble sa force à triompher de deux.</l>
@@ -1585,20 +1582,20 @@
             <l n="406" xml:id="l406">Vous osez aspirer à l’amour d’Ismenie ?</l>
             <l n="407" xml:id="l407">D’elle, qui vous regarde avec tout le courroux</l>
             <l n="408" xml:id="l408">Que tant de maux soufferts luy font naistre pour vous ?</l>
-            <l n="409" xml:id="l409">Quel est donc vostre espoir ?</l>
+            <l n="409" xml:id="l409" part="I">Quel est donc vostre espoir ?</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Dans ma fureur extrême</l>
+            <l part="F">Dans ma fureur extrême</l>
             <l n="410" xml:id="l410">Je feray tout perir,  ; la Princesse mesme.</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l n="411" xml:id="l411">O Dieux !</l>
+            <l n="411" xml:id="l411" part="I">O Dieux !</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Ton coeur <ref target="#etonner">s’étonne*</ref>,  ; tremble à ce discours.</l>
+            <l part="F">Ton coeur <ref target="#etonner">s’étonne*</ref>,  ; tremble à ce discours.</l>
             <l n="412" xml:id="l412">Mais sçais-tu l’ascendant des jalouses amours ?</l>
             <l n="413" xml:id="l413">J’adore un autre Dieu, que ce Dieu de tendresse</l>
             <l n="414" xml:id="l414">Qui remplit tous les coeurs de crainte  ; de foiblesse,</l>
@@ -1616,7 +1613,7 @@
             <l n="426" xml:id="l426">J’ay du pouvoir assez pour avoir ce que j’aime.</l>
           </sp>
           <sp who="seleucus">
-            <speaker>SELEUCUS. <pb n="20"/></speaker>
+            <speaker>SELEUCUS.<pb n="20"/></speaker>
             <l n="427" xml:id="l427">Milon, n’en croyez pas un desespoir jaloux ;</l>
             <l n="428" xml:id="l428">Servez le vray Monarque,  ; travaillez pour vous.</l>
             <l n="429" xml:id="l429">Pour faire nostre paix relevons sa puissance,</l>
@@ -1650,7 +1647,7 @@
             <l n="454" xml:id="l454">J’ay mis enfin sa haine au point qu’elle doit estre.</l>
             <l n="455" xml:id="l455">Artaban qui craignoit un gendre trop ingrat</l>
             <l n="456" xml:id="l456">A laissé dans nos mains le pouvoir de l’Estat,</l>
-            <l n="457" xml:id="l457">Fort de ces passions, d’ambition, de haine, <pb n="21"/></l>
+            <l n="457" xml:id="l457">Fort de ces passions, d’ambition, de haine,<pb n="21"/></l>
             <l n="458" xml:id="l458">D’amour, de desespoir, ma victoire est certaine.</l>
             <l n="459" xml:id="l459">Semons divisions, troubles, soupçons, fureurs,</l>
             <l n="460" xml:id="l460">Tout mon espoir ne luit que parmy ces horreurs ;</l>
@@ -1658,11 +1655,11 @@
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l n="462" xml:id="l462">Ah ! craignez...</l>
+            <l n="462" xml:id="l462" part="I">Ah ! craignez...</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Qu’ay-je à craindre en perdant Ismenie ?</l>
+            <l part="F">Qu’ay-je à craindre en perdant Ismenie ?</l>
             <l n="463" xml:id="l463">De grace, laisse moy mon <ref target="#conseil">conseil*</ref><note n="58" place="bottom">. « Conseil » signifie ici « résolution » (Fur.) . Le pronom abverbial « en » du vers suivant anaphorise « conseil » , qui a alors le sens moderne de : « toute sorte d’advis qu’on prend ou reçoit sur quelque affaire que ce soit » (Fur.) .</note> : aujourd’huy</l>
             <l n="464" xml:id="l464">Mon trouble est trop puissant pour en prendre d’autruy.</l>
             <l n="465" xml:id="l465">Mais voicy nos Rivaux. Triste  ; jalouse flâme,</l>
@@ -1738,7 +1735,7 @@
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l n="503" xml:id="l503">Je ne le tiens du Sort qu’à titre de Tyran. <pb n="23"/></l>
+            <l n="503" xml:id="l503">Je ne le tiens du Sort qu’à titre de Tyran.<pb n="23"/></l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
@@ -1773,21 +1770,21 @@
             <l n="526" xml:id="l526">Que de vivre un moment suspect d’ingratitude,</l>
             <l n="527" xml:id="l527">Et ce Monstre adoré des coeurs ambitieux,</l>
             <l n="528" xml:id="l528">D’une invincible horreur frape toûjours mes yeux.</l>
-            <l n="529" xml:id="l529">Doncques si vous m’aimez...</l>
+            <l n="529" xml:id="l529" part="I">Doncques si vous m’aimez...</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">Helas ! si je vous aime ?</l>
+            <l part="F">Helas ! si je vous aime ?</l>
             <l n="530" xml:id="l530">Dois-je enfin m’expliquer,  ; me trahir moy-mesme ?</l>
-            <l n="531" xml:id="l531">Je tremble, je fremis,  ; mon coeur interdit... <pb n="24"/></l>
+            <l n="531" xml:id="l531">Je tremble, je fremis,  ; mon coeur interdit...<pb n="24"/></l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l n="532" xml:id="l532">Que me dit cette peur, ce desordre ?</l>
+            <l n="532" xml:id="l532" part="I">Que me dit cette peur, ce desordre ?</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">Il vous dit,</l>
+            <l part="F">Il vous dit,</l>
             <l n="533" xml:id="l533">Que cet amy si cher dont vous vantez le zele,</l>
             <l n="534" xml:id="l534">Est un amy sans coeur, un lâche, un infidelle,</l>
             <l n="535" xml:id="l535">Qui sous un faux éclat couvrant ses lâchetez...</l>
@@ -1807,11 +1804,11 @@
             <speaker>ALEXANDRE.</speaker>
             <l n="541" xml:id="l541">Ah, Prince... c’est donc là ce malheur, ma Princesse,</l>
             <l n="542" xml:id="l542">Dont vous avez tantost menacé ma tendresse.</l>
-            <l n="543" xml:id="l543">Ah ! Destins ennemis !</l>
+            <l n="543" xml:id="l543" part="I">Ah ! Destins ennemis !</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">Je ne vous diray pas</l>
+            <l part="F">Je ne vous diray pas</l>
             <l n="544" xml:id="l544">Combien pour n’aimer plus j’ay rendu de combats.</l>
             <l n="545" xml:id="l545">J’aurois par mes efforts brisé la tyrannie</l>
             <l n="546" xml:id="l546">De toute autre beauté que celle d’Ismenie,</l>
@@ -1825,7 +1822,7 @@
             <l n="554" xml:id="l554">Je devois<note n="65" place="bottom">. « Devoir » et « pouvoir » au passé ont en général une valeur modale. Comprendre : « j’aurais dû » (N.F. §382) .</note> arracher ou mon coeur ou ma flame.</l>
             <l n="555" xml:id="l555">Cependant (disons tout,  ; par ce souvenir</l>
             <l n="556" xml:id="l556">Commence, ingrat amy, commence à te punir)</l>
-            <l n="557" xml:id="l557">Cependant loin d’en faire une juste vangeance, <pb n="25"/></l>
+            <l n="557" xml:id="l557">Cependant loin d’en faire une juste vangeance,<pb n="25"/></l>
             <l n="558" xml:id="l558">J’ay poussé jusqu’au bout mon ingrate constance.</l>
             <l n="559" xml:id="l559">Par vostre éloignement, par le rang que je tiens,</l>
             <l n="560" xml:id="l560">Par mes voeux qu’un divorce alloit rendre tous siens,</l>
@@ -1845,21 +1842,21 @@
             <l n="574" xml:id="l574">Daignez sans plus tarder accepter la Couronne,</l>
             <l n="575" xml:id="l575">Et faisant qu’Ismenie excuse mon transport,</l>
             <l n="576" xml:id="l576">Avec elle donnez quelques pleurs à ma mort.</l>
-            <l n="577" xml:id="l577">Adieu.</l>
+            <l n="577" xml:id="l577" part="I">Adieu.</l>
           </sp>
           <sp who="milon">
             <speaker>MILON <hi rend="i">bas.</hi></speaker>
-            <l part="Y">Peut-on regner avec tant de foiblesse ?</l>
+            <l part="F">Peut-on regner avec tant de foiblesse ?</l>
             <stage>à Alexandre.</stage>
-            <l n="578" xml:id="l578">Seigneur, souffrirez-vous...</l>
+            <l n="578" xml:id="l578" part="I">Seigneur, souffrirez-vous...</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l part="Y">Suy ton Maistre,  ; me laisse<note n="68" place="bottom">. En présence d’impératifs coordonnés, le français classique conserve le schéma du moyen français, réglé par des raisons accentuelles : quand l’énoncé commence par un adverbe (et) , le pronom est atone et antéposé à l’impératif (N.F. § 115)</note>.</l>
+            <l part="F">Suy ton Maistre,  ; me laisse<note n="68" place="bottom">. En présence d’impératifs coordonnés, le français classique conserve le schéma du moyen français, réglé par des raisons accentuelles : quand l’énoncé commence par un adverbe (et) , le pronom est atone et antéposé à l’impératif (N.F. § 115)</note>.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE III. <pb n="26"/></head>
+          <head>SCENE III.<pb n="26"/></head>
           <sp who="alexandre">
             <speaker>ALEXANDRE <hi rend="i">seul.</hi></speaker>
             <l n="579" xml:id="l579">Amy, cruel autant qu’on peut l’imaginer,</l>
@@ -1885,7 +1882,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IV. <pb n="27"/></head>
+          <head>SCENE IV.<pb n="27"/></head>
           <stage>ALEXANDRE, ISMENIE,</stage>
           <stage>LAODICE.</stage>
           <sp who="alexandre">
@@ -1926,7 +1923,7 @@
             <l n="614" xml:id="l614">Ma constance verroit sa menace avec joye,</l>
             <l n="615" xml:id="l615">Et ce coeur<note n="73" place="bottom">. Comprendre : mon coeur.</note> genereux pourroit mieux s’attacher</l>
             <l n="616" xml:id="l616">Aux biens que sa fureur me voudroit arracher.</l>
-            <l n="617" xml:id="l617">Mais il me rend le Thrône,  ; me cede Ismenie, <pb n="28"/></l>
+            <l n="617" xml:id="l617">Mais il me rend le Thrône,  ; me cede Ismenie,<pb n="28"/></l>
             <l n="618" xml:id="l618">Et quand il veut quitter Thrône, Maistresse,  ; vie,</l>
             <l n="619" xml:id="l619">Vous pouvez bien juger par ce grand desespoir,</l>
             <l n="620" xml:id="l620">Qu’il me demande tout,  ; qu’il veut tout avoir ;</l>
@@ -1965,7 +1962,7 @@
             <l n="644" xml:id="l644">Pour payer vostre amy sans trahir vostre honneur ;</l>
             <l n="645" xml:id="l645">Par ces larmes qu’arrache un si grand sacrifice ;</l>
             <l n="646" xml:id="l646">Par cet amy si cher  ; si plein d’injustice,</l>
-            <l n="647" xml:id="l647">Escoutés un devoir de vostre rang jaloux : <pb n="29"/></l>
+            <l n="647" xml:id="l647">Escoutés un devoir de vostre rang jaloux :<pb n="29"/></l>
             <l n="648" xml:id="l648">Cedez vostre Ismenie, elle dépend de vous.</l>
             <l n="649" xml:id="l649">J’immole tout mon coeur aux soins de vostre gloire ;</l>
             <l n="650" xml:id="l650">Ne me dérobez pas cette grande victoire,</l>
@@ -2035,29 +2032,29 @@
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l n="693" xml:id="l693">Quoy, me quitter si tost ?</l>
+            <l n="693" xml:id="l693" part="I">Quoy, me quitter si tost ?</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l part="Y">Peu sçachant ma venuë,</l>
+            <l part="F">Peu sçachant ma venuë,</l>
             <l n="694" xml:id="l694">Ma fuite cette nuit en sera moins connuë :</l>
             <l n="695" xml:id="l695">Un prompt depart faisant douter de mon retour,</l>
             <l n="696" xml:id="l696">Peut épargner un peu de honte à mon amour.</l>
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l n="697" xml:id="l697">Ah ! devoir trop cruel !</l>
+            <l n="697" xml:id="l697" part="I">Ah ! devoir trop cruel !</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l part="Y">Quoy, vous pleurez, Princesse ?</l>
+            <l part="F">Quoy, vous pleurez, Princesse ?</l>
             <l n="698" xml:id="l698">Adieu, je fuis des pleurs qui tentent ma tendresse,</l>
             <l n="699" xml:id="l699">Et vay dans mon exil attendre un sort plus doux,</l>
             <l n="700" xml:id="l700">Et du temps,  ; des Dieux,  ; plus encor de vous.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE V. <pb n="31"/></head>
+          <head>SCENE V.<pb n="31"/></head>
           <stage>ISMENIE, LAODICE.</stage>
           <sp who="laodice">
             <speaker>LAODICE.</speaker>
@@ -2097,11 +2094,11 @@
           </sp>
           <sp who="laodice">
             <speaker>LAODICE.</speaker>
-            <l n="725" xml:id="l725">Vous le suivre ? vous fuir ?</l>
+            <l n="725" xml:id="l725" part="I">Vous le suivre ? vous fuir ?</l>
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l part="Y">Excuse ma foiblesse,</l>
+            <l part="F">Excuse ma foiblesse,</l>
             <l n="726" xml:id="l726">Voy les biens que je suis,  ; les maux que je laisse.</l>
             <l n="727" xml:id="l727">Un Roy m’aime en ces lieux, un Roy peut tout oser,</l>
             <l n="728" xml:id="l728">Et cette seule crainte a de quoy m’excuser ;</l>
@@ -2114,17 +2111,17 @@
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l n="732" xml:id="l732">Ou la fuite, ou la mort.</l>
+            <l n="732" xml:id="l732" part="I">Ou la fuite, ou la mort.</l>
           </sp>
           <sp who="laodice">
             <speaker>LAODICE.</speaker>
-            <l part="Y">Fuyez donc,  ; vivez.</l>
+            <l part="F">Fuyez donc,  ; vivez.</l>
           </sp>
           <label>Fin du second Acte.</label>
         </div>
       </div>
       <div type="act">
-        <head>ACTE III. <pb n="33"/></head>
+        <head>ACTE III.<pb n="33"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>MILON, TELAMON.</stage>
@@ -2150,7 +2147,7 @@
             <l n="744" xml:id="l744">La Princesse paroist comme un Astre à mes yeux :</l>
             <l n="745" xml:id="l745">A chercher son Amant cette Belle empressée,</l>
             <l n="746" xml:id="l746">Ayant l’esprit troublé, plein de cette pensée,</l>
-            <l n="747" xml:id="l747">Elle me prend pour luy, m’arreste par le bras, <pb n="34"/></l>
+            <l n="747" xml:id="l747">Elle me prend pour luy, m’arreste par le bras,<pb n="34"/></l>
             <l n="748" xml:id="l748">La Lune foiblement éclairoit ses appas.</l>
             <l n="749" xml:id="l749">O Dieux ! qu’en cet estat elle me parut belle !</l>
             <l n="750" xml:id="l750">Cet amas de clartez qu’on voit briller en elle,</l>
@@ -2188,7 +2185,7 @@
             <l n="776" xml:id="l776">J’affoiblis l’un par l’autre estant icy tous deux :</l>
             <l n="777" xml:id="l777">Si l’un fuit, l’autre icy regneroit sans contrainte,</l>
             <l n="778" xml:id="l778">Et pour perdre du Peuple  ; la haine  ; la crainte,</l>
-            <l n="779" xml:id="l779">Il pourroit <ref target="#publier">publier*</ref> qu’il vouloit tout quiter, <pb n="35"/></l>
+            <l n="779" xml:id="l779">Il pourroit <ref target="#publier">publier*</ref> qu’il vouloit tout quiter,<pb n="35"/></l>
             <l n="780" xml:id="l780">Mais qu’Alexandre a fuy pour ne rien accepter.</l>
             <l n="781" xml:id="l781">J’oste à nostre Tyran un si grand avantage ;</l>
             <l n="782" xml:id="l782">La fuite d’un Rival luy donne de l’ombrage,</l>
@@ -2198,7 +2195,7 @@
             <l n="786" xml:id="l786">Brise le premier noeud d’une si forte chaîne,</l>
             <l n="787" xml:id="l787">Et si nostre Tyran attente sur le Roy,</l>
             <l n="788" xml:id="l788">Il tombe sans ressource,  ; tout dépend de moy.</l>
-            <l n="789" xml:id="l789">Il vient.</l>
+            <l n="789" xml:id="l789" part="I">Il vient.</l>
           </sp>
         </div>
         <div type="scene">
@@ -2206,7 +2203,7 @@
           <stage>DEMETRIUS, TELAMON, MILON.</stage>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">Que Seleucus le garde,  ; m’en réponde.</l>
+            <l part="F">Que Seleucus le garde,  ; m’en réponde.</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
@@ -2273,7 +2270,7 @@
           <sp who="milon">
             <speaker>MILON.</speaker>
             <l n="828" xml:id="l828">Il croit plus glorieux de venir vous l’oster ;</l>
-            <l n="829" xml:id="l829">Un Empire conquis a pour luy plus de charmes : <pb n="37"/></l>
+            <l n="829" xml:id="l829">Un Empire conquis a pour luy plus de charmes :<pb n="37"/></l>
             <l n="830" xml:id="l830">Il veut au droit du sang joindre celuy des armes,</l>
             <l n="831" xml:id="l831">Vanger l’honneur du Trône,  ; dedans vostre sang</l>
             <l n="832" xml:id="l832">Se laver de l’affront d’avoir perdu son rang.</l>
@@ -2311,7 +2308,7 @@
             <l n="858" xml:id="l858">Et du Trône,  ; du lit, bannissez vostre femme.</l>
             <l n="859" xml:id="l859">Separez des desirs qui s’accordent si mal,</l>
             <l n="860" xml:id="l860">Les soins de vostre amour,  ; l’amour d’un Rival.</l>
-            <l n="861" xml:id="l861">Perdez l’un ; gardez l’autre avec plus de courage, <pb n="38"/></l>
+            <l n="861" xml:id="l861">Perdez l’un ; gardez l’autre avec plus de courage,<pb n="38"/></l>
             <l n="862" xml:id="l862">Vous aimez, vous regnez ; en faut-il davantage ?</l>
             <l n="863" xml:id="l863">Pour servir vostre amour commencez d’estre<note n="84" place="bottom">. Le verbe « commencer » admet deux constructions : « commencer à » et « commencer de » (N.F., §84) .</note> Roy.</l>
           </sp>
@@ -2332,11 +2329,11 @@
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l n="870" xml:id="l870">Prenez-vous son party ?</l>
+            <l n="870" xml:id="l870" part="I">Prenez-vous son party ?</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">Je hay la calomnie.</l>
+            <l part="F">Je hay la calomnie.</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
@@ -2344,11 +2341,11 @@
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l n="872" xml:id="l872">Dy plûtost des Tyrans.</l>
+            <l n="872" xml:id="l872" part="I">Dy plûtost des Tyrans.</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Vous en avez le choix ;</l>
+            <l part="F">Vous en avez le choix ;</l>
             <l n="873" xml:id="l873">Roy, Tyran, quelque nom que prenne un nouveau Maistre,</l>
             <l n="874" xml:id="l874">Il doit craindre toûjours quiconque a droit de l’estre ;</l>
             <l n="875" xml:id="l875">Pour bien regner, il faut craindre plus d’une fois ;</l>
@@ -2363,7 +2360,7 @@
             <speaker>MILON.</speaker>
             <l n="879" xml:id="l879">Pensez-vous qu’il vous soit facile d’en sortir,</l>
             <l n="880" xml:id="l880">Qu’il soit seur d’en descendre,  ; de vous démentir ?</l>
-            <l n="881" xml:id="l881">On ne fait point divorce avec le rang supréme : <pb n="39"/></l>
+            <l n="881" xml:id="l881">On ne fait point divorce avec le rang supréme :<pb n="39"/></l>
             <l n="882" xml:id="l882">Il faut le retenir en dépit de soy-mesme.</l>
             <l n="883" xml:id="l883">Prince ou Tyran, qui cede est prest à succomber,</l>
             <l n="884" xml:id="l884">Et l’on ne descend point du Trône sans tomber.</l>
@@ -2401,7 +2398,7 @@
             <l n="900" xml:id="l900">Ce qui te fit horreur te paroist-il charmant ?</l>
             <l n="901" xml:id="l901">L’amour ne sçauroit-il entrer dedans une ame</l>
             <l n="902" xml:id="l902">Sans y jetter le trouble aussi-tost que sa flame ?</l>
-            <l n="903" xml:id="l903">Sera-t’il toûjours mal avecque la raison, <pb n="40"/></l>
+            <l n="903" xml:id="l903">Sera-t’il toûjours mal avecque la raison,<pb n="40"/></l>
             <l n="904" xml:id="l904">Et ne peut-il regner sans quelque trahison ?</l>
             <l n="905" xml:id="l905">Escoute enfin la voix du remors qui t’accuse,</l>
             <l n="906" xml:id="l906">Tyran,  ; romps enfin le charme qui t’abuse.</l>
@@ -2423,24 +2420,24 @@
           <stage>ARSINOÉ, DEMETRIUS.</stage>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l n="917" xml:id="l917">Qu’entens-je !</l>
+            <l n="917" xml:id="l917" part="I">Qu’entens-je !</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS, <hi rend="i">sans voir Arsinoé.</hi></speaker>
-            <l part="Y">C’en est fait ; je suivray ton envie ;</l>
+            <l part="F">C’en est fait ; je suivray ton envie ;</l>
             <l n="918" xml:id="l918">Perisse Arsinoé ; vive  ; regne Ismenie ;</l>
-            <l n="919" xml:id="l919">Meure Alexandre.</l>
+            <l n="919" xml:id="l919" part="I">Meure Alexandre.</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l part="Y">O Dieux !</l>
+            <l part="M">O Dieux !</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">J’y consens sans regret :</l>
+            <l part="F">J’y consens sans regret :</l>
             <stage>à Arsinoé.</stage>
             <l n="920" xml:id="l920">Reviens<note n="87" place="bottom">. Dans l’édition originale, le mot « Reviens » est placé un interligne au dessus de la fin du vers 920. Cette position ne paraît pas justifiée. </note>. Dieux ! osez-vous entrer dans mon secret ?</l>
-            <l n="921" xml:id="l921">Ce lâche procedé marque vostre naissance : <pb n="41"/></l>
+            <l n="921" xml:id="l921">Ce lâche procedé marque vostre naissance :<pb n="41"/></l>
             <l n="922" xml:id="l922">Mais vostre jalousie a pris trop de licence,</l>
             <l n="923" xml:id="l923">Et de quelque dessein dont je vous sois suspect,</l>
             <l n="924" xml:id="l924">M’<ref target="#eclairer">éclairer*</ref> de si prés c’est manquer de respect.</l>
@@ -2460,20 +2457,20 @@
             <l n="938" xml:id="l938">Si vostre fier orgueil, vostre jalouse rage</l>
             <l n="939" xml:id="l939">Ne peuvent s’abaisser à cette juste loy,</l>
             <l n="940" xml:id="l940">Songez pour obeïr que je suis vostre Roy.</l>
-            <l n="941" xml:id="l941">Adieu, suivez mon ordre.</l>
+            <l n="941" xml:id="l941" part="I">Adieu, suivez mon ordre.</l>
           </sp>
         </div>
         <div type="scene">
           <head>SCENE V.</head>
           <sp who="arsinoe">
             <speaker>ARSINOÉ, <hi rend="i">seule.</hi></speaker>
-            <l part="Y">Est-ce un charme, est-ce un songe,</l>
+            <l part="F">Est-ce un charme, est-ce un songe,</l>
             <l n="942" xml:id="l942">Qui dans une erreur folle,  ; m’entraîne,  ; me plonge ?</l>
             <l n="943" xml:id="l943">Le traistre a déjà fait un choix à son amour :</l>
             <l n="944" xml:id="l944">Celle que sa beauté fait regner dans ma Cour,</l>
             <l n="945" xml:id="l945">Que je hay d’autant plus qu’elle est plus adorée,</l>
             <l n="946" xml:id="l946">Pour comble de malheurs me sera préférée.</l>
-            <l n="947" xml:id="l947">Le perfide a-t’il crû qu’il s’adressoit à moy ? <pb n="42"/></l>
+            <l n="947" xml:id="l947">Le perfide a-t’il crû qu’il s’adressoit à moy ?<pb n="42"/></l>
             <l n="948" xml:id="l948">Est-ce à moy qu’il parloit, à moy, qui l’ay fait Roy ?</l>
             <l n="949" xml:id="l949">Ah, Tyran, fuis aux traits<note n="89" place="bottom">. Construction issue de l’ancien français. Glosable par « fuis devant les traits de ma juste colere » (H., § 120 B) .</note> de ma juste colere,</l>
             <l n="950" xml:id="l950">Si le Trône est mal seur contre ceux de mon pere<note n="90" place="bottom">. Comprendre : « Si le Trône n’est pas protégé contre les traits de mon père » .</note>,</l>
@@ -2509,7 +2506,7 @@
             <l n="966" xml:id="l966">Mais il est temps enfin d’étouffer ces foiblesses,</l>
             <l n="967" xml:id="l967">Tu vois mes déplaisirs, tu vois si j’ay raison</l>
             <l n="968" xml:id="l968">D’armer la trahison contre la trahison,</l>
-            <l n="969" xml:id="l969">Qui s’apreste à trahir consent qu’on le trahisse. <pb n="43"/></l>
+            <l n="969" xml:id="l969">Qui s’apreste à trahir consent qu’on le trahisse.<pb n="43"/></l>
             <l n="970" xml:id="l970">Enfin si ce dessein avoit moins de justice,</l>
             <l n="971" xml:id="l971">Il ne se seroit pas étably dans mon coeur,</l>
             <l n="972" xml:id="l972">Avec tant de repos, de calme,  ; de douceur.</l>
@@ -2520,11 +2517,11 @@
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l n="977" xml:id="l977">O Dieux !</l>
+            <l n="977" xml:id="l977" part="I">O Dieux !</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l part="Y">Pour t’engager à suivre ma <ref target="#querelle">querelle*</ref>,</l>
+            <l part="F">Pour t’engager à suivre ma <ref target="#querelle">querelle*</ref>,</l>
             <l n="978" xml:id="l978">Ne t’imagine pas qu’en ce lieu je rapelle</l>
             <l n="979" xml:id="l979">Tant de bien-faits receus d’Artaban  ; de moy ;</l>
             <l n="980" xml:id="l980">Aux vrais hommes de Cour, aux hommes comme toy,</l>
@@ -2556,15 +2553,15 @@
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l n="997" xml:id="l997">Toy, parler de remors ? ô Dieux, quelle impudence ! <pb n="44"/></l>
+            <l n="997" xml:id="l997">Toy, parler de remors ? ô Dieux, quelle impudence !<pb n="44"/></l>
             <l n="998" xml:id="l998">Milon m’ose parler d’honneur  ; d’innocence ?</l>
             <l n="999" xml:id="l999">Avec quel front, cruel, à mes yeux oses-tu</l>
             <l n="1000" xml:id="l1000">Me faire des leçons d’honneur  ; de vertu ?</l>
-            <l n="1001" xml:id="l1001">Toy, l’amy d’Artaban...</l>
+            <l n="1001" xml:id="l1001" part="I">Toy, l’amy d’Artaban...</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Agreable colere !</l>
+            <l part="F">Agreable colere !</l>
             <l n="1002" xml:id="l1002">A ces marques en vous je connois<note n="91" place="bottom">. « Connoistre » peut parfois être employé pour « reconnoistre » (Fur.) .</note> vostre pere<note n="92" place="bottom">. Imitation de Corneille : « <hi rend="sc">Don Diègue</hi> : Agréable colère ! / Digne ressentiment à ma douleur bien doux ! / Je reconnais mon sang à ce noble courroux ; » (<hi rend="i">Le Cid</hi>, I ; 5)</note>.</l>
             <l n="1003" xml:id="l1003">Digne sang d’Artaban, pardonnez une horreur</l>
             <l n="1004" xml:id="l1004">Que j’ay feinte à dessein de sonder vostre coeur.</l>
@@ -2594,7 +2591,7 @@
             <l n="1022" xml:id="l1022">Qu’à vous oster, l’ingrat, les marques de l’Empire :</l>
             <l n="1023" xml:id="l1023">Jugez du <ref target="#traitement">traitement*</ref> que j’en puis recevoir.</l>
             <l n="1024" xml:id="l1024">Ces inégalitez m’ont mis au desespoir ;</l>
-            <l n="1025" xml:id="l1025">J’ay voulu vous trahir pour tâcher de luy plaire, <pb n="45"/></l>
+            <l n="1025" xml:id="l1025">J’ay voulu vous trahir pour tâcher de luy plaire,<pb n="45"/></l>
             <l n="1026" xml:id="l1026">Broüiller tout pour me rendre encor plus necessaire,</l>
             <l n="1027" xml:id="l1027">Le Tyran maintenant m’a mis de<note n="93" place="bottom">. Emploi rare de la préposition « de » suivant le verbe « mettre » , marquant un rapport de lieu au sens figuré. Glosable par « dans son secret » (H., §105, B) .</note> son secret,</l>
             <l n="1028" xml:id="l1028">Je le sers contre vous,  ; le sers à regret ;</l>
@@ -2636,7 +2633,7 @@
             <l n="1052" xml:id="l1052">Que le Tyran l’a fait arrester de sa part.</l>
             <l n="1053" xml:id="l1053">Pour servir son amour encore il me rappelle,</l>
             <l n="1054" xml:id="l1054">Et je vay luy donner un conseil si fidelle</l>
-            <l n="1055" xml:id="l1055">Qu’il faut que son Rival, ou perisse aujourd’huy, <pb n="46"/></l>
+            <l n="1055" xml:id="l1055">Qu’il faut que son Rival, ou perisse aujourd’huy,<pb n="46"/></l>
             <l n="1056" xml:id="l1056">Ou force sa douleur à s’armer contre luy.</l>
           </sp>
           <sp who="arsinoe">
@@ -2665,15 +2662,15 @@
             <l n="1066" xml:id="l1066">Doit rendre pleinement ma fortune achevée.</l>
             <l n="1067" xml:id="l1067">Quel torrent de bon-heur d’un cours precipité</l>
             <l n="1068" xml:id="l1068">M’entraîne dans ce port si long-temps souhaité ?</l>
-            <l n="1069" xml:id="l1069">Thrône, Maistresse...</l>
+            <l n="1069" xml:id="l1069" part="I">Thrône, Maistresse...</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VIII. <pb n="47"/></head>
+          <head>SCENE VIII.<pb n="47"/></head>
           <stage>MILON, SELEUCUS.</stage>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Enfin nous tenons Alexandre.</l>
+            <l part="F">Enfin nous tenons Alexandre.</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
@@ -2683,11 +2680,11 @@
           <sp who="milon">
             <speaker>MILON.</speaker>
             <l n="1072" xml:id="l1072">Il n’est pas en estat de l’obtenir de moy.</l>
-            <l n="1073" xml:id="l1073">Et la Princesse ?</l>
+            <l n="1073" xml:id="l1073" part="I">Et la Princesse ?</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y">Helas ! triste  ; desesperée,</l>
+            <l part="F">Helas ! triste  ; desesperée,</l>
             <l n="1074" xml:id="l1074">Du Prince pour jamais se voyant separée,</l>
             <l n="1075" xml:id="l1075">Elle donne des pleurs au sort de son Amant.</l>
           </sp>
@@ -2704,7 +2701,7 @@
             <l n="1084" xml:id="l1084">Loin d’estre regretez n’osent se faire voir.</l>
             <l n="1085" xml:id="l1085">Mais où m’emportez-vous, ridicules foiblesses ?</l>
             <l n="1086" xml:id="l1086">Seleucus, est-ce à moy d’écouter ces tendresses ?</l>
-            <l n="1087" xml:id="l1087">Ces soûpirs ne sont pas d’un coeur comme le mien, <pb n="48"/></l>
+            <l n="1087" xml:id="l1087">Ces soûpirs ne sont pas d’un coeur comme le mien,<pb n="48"/></l>
             <l n="1088" xml:id="l1088">Et la plainte est honteuse à qui n’espere rien.</l>
             <l n="1089" xml:id="l1089">Je dois d’autres transports aux ardeurs de mon ame.</l>
             <l n="1090" xml:id="l1090">Rappellé par le Roy pour conduire sa flame,</l>
@@ -2741,7 +2738,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE IV. <pb n="49"/></head>
+        <head>ACTE IV.<pb n="49"/></head>
         <div type="scene">
           <head>SCENE I.</head>
           <stage>ALEXANDRE, SELEUCUS.</stage>
@@ -2799,19 +2796,19 @@
             <l n="1144" xml:id="l1144">Apprens par mes respects ce que l’on doit aux Rois.</l>
             <l n="1145" xml:id="l1145">Si tu veux m’<ref target="#obliger">obliger</ref> sans honte ; sans foiblesse,</l>
             <l n="1146" xml:id="l1146">Hâte ce doux moment qui me rend ma Princesse ;</l>
-            <l n="1147" xml:id="l1147">Je crains...</l>
+            <l n="1147" xml:id="l1147" part="I">Je crains...</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y">Vous l’allez voir.</l>
+            <l part="M">Vous l’allez voir.</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l part="Y">Seleucus, je la voy.</l>
+            <l part="F">Seleucus, je la voy.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE II. <pb n="51"/></head>
+          <head>SCENE II.<pb n="51"/></head>
           <stage>ISMENIE, ALEXANDRE,</stage>
           <stage>TELAMON, SÉLEUCUS.</stage>
           <sp who="telamon">
@@ -2847,11 +2844,11 @@
             <l n="1160" xml:id="l1160">Il faut que mon Rival partage ma fortune ;</l>
             <l n="1161" xml:id="l1161">Que nous tombions tous deux d’une chûte commune,</l>
             <l n="1162" xml:id="l1162"><hi rend="i">Ou que vostre pitié songe à me secourir</hi><note n="96" place="bottom">. La métrique classique autorise l’emploi des rimes embrassées dans le texte des lettres et messages utilisés au cours d’une tragédie.</note>.</l>
-            <l n="1163" xml:id="l1163">DEMETRIUS<note n="97" place="bottom">. Le mot « DEMETRIUS » correspond aux trois premières syllabes du vers 1163. </note>.</l>
+            <l n="1163" xml:id="l1163" part="I">DEMETRIUS<note n="97" place="bottom">. Le mot « DEMETRIUS » correspond aux trois premières syllabes du vers 1163. </note>.</l>
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l part="Y">Voilà cet amy magnanime</l>
+            <l part="F">Voilà cet amy magnanime</l>
             <l n="1164" xml:id="l1164">Qu’on ne pouvoit quiter ny refuser sans crime,</l>
             <l n="1165" xml:id="l1165">Et pour qui vostre amour m’ose presque trahir.</l>
           </sp>
@@ -2889,7 +2886,7 @@
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l n="1186" xml:id="l1186">Un Roy comme un amy n’est pas à redouter : <pb n="53"/></l>
+            <l n="1186" xml:id="l1186">Un Roy comme un amy n’est pas à redouter :<pb n="53"/></l>
             <l n="1187" xml:id="l1187">Contre un amy ceder c’est gagner la victoire,</l>
             <l n="1188" xml:id="l1188">Contre un Roy resister c’est se couvrir de gloire :</l>
             <l n="1189" xml:id="l1189">Qui cede à son amy, s’il en eust eu le choix,</l>
@@ -2903,11 +2900,11 @@
             <l n="1194" xml:id="l1194">C’est par vous seulement qu’il attaque mon coeur.</l>
             <l n="1195" xml:id="l1195">Dans quelle extrémité me reduit sa menace ?</l>
             <l n="1196" xml:id="l1196">Resister est sur vous attirer sa disgrace,</l>
-            <l n="1197" xml:id="l1197">C’est perdre ce que j’aime.</l>
+            <l n="1197" xml:id="l1197" part="I">C’est perdre ce que j’aime.</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l part="Y">Et ne resister pas,</l>
+            <l part="F">Et ne resister pas,</l>
             <l n="1198" xml:id="l1198">C’est me donner cent morts pires que le trépas.</l>
             <l n="1199" xml:id="l1199">Me reserveriez-vous à ce malheur extrême</l>
             <l n="1200" xml:id="l1200">De voir à mon Rival posseder ce que j’aime,</l>
@@ -2923,14 +2920,14 @@
             <speaker>ISMENIE.</speaker>
             <l n="1208" xml:id="l1208">Vous aimez le Tyran, moy je crains sa colere :</l>
             <l n="1209" xml:id="l1209">Parce qu’il vous est cher,  ; que je crains pour vous,</l>
-            <l n="1210" xml:id="l1210">Ne dois-je pas...</l>
+            <l n="1210" xml:id="l1210" part="I">Ne dois-je pas...</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l part="Y">Percez ce coeur de mille coups ;</l>
+            <l part="F">Percez ce coeur de mille coups ;</l>
             <l n="1211" xml:id="l1211">Adjoûtez ce reproche au mal qui me devore :</l>
             <l n="1212" xml:id="l1212">Ouy, je l’aimois, Princesse,  ; ce coeur l’aime encore ;</l>
-            <l n="1213" xml:id="l1213">Quand j’ay veu les effets de sa triste amitié, <pb n="54"/></l>
+            <l n="1213" xml:id="l1213">Quand j’ay veu les effets de sa triste amitié,<pb n="54"/></l>
             <l n="1214" xml:id="l1214">Je ne le <ref target="#celer">cele*</ref> point, ses maux m’ont fait pitié ;</l>
             <l n="1215" xml:id="l1215">J’ay senty comme luy leur violence extrême,</l>
             <l n="1216" xml:id="l1216">Je l’ay plaint ; j’ay voulu, trop contraire à moy-mesme,</l>
@@ -2968,16 +2965,16 @@
             <l n="1242" xml:id="l1242">Je rends tout à l’amour,  ; je meurs tout pour vous :</l>
             <l n="1243" xml:id="l1243">Esclave seulement de la belle Ismenie,</l>
             <l n="1244" xml:id="l1244">Je vay par mon amour braver la tyrannie ;</l>
-            <l n="1245" xml:id="l1245">Victime d’amitié, j’allois perdre le jour, <pb n="55"/></l>
+            <l n="1245" xml:id="l1245">Victime d’amitié, j’allois perdre le jour,<pb n="55"/></l>
             <l n="1246" xml:id="l1246">Et je mourray pour vous en Victime d’amour.</l>
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l n="1247" xml:id="l1247">Ah ! vous ne mourrez point.</l>
+            <l n="1247" xml:id="l1247" part="I">Ah ! vous ne mourrez point.</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l part="Y">Quel dessein est le vostre ?</l>
+            <l part="F">Quel dessein est le vostre ?</l>
             <l n="1248" xml:id="l1248">Puis-je vivre,  ; vous voir entre les bras d’un autre ?</l>
             <l n="1249" xml:id="l1249">Est-ce là le secours qu’on offre à mes douleurs ?</l>
           </sp>
@@ -3023,11 +3020,11 @@
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l n="1263" xml:id="l1263">Quoy ? Madame...</l>
+            <l n="1263" xml:id="l1263" part="I">Quoy ? Madame...</l>
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l part="Y">Obeïs, laisse-moy, vis,  ; m’aime.</l>
+            <l part="F">Obeïs, laisse-moy, vis,  ; m’aime.</l>
           </sp>
         </div>
         <div type="scene">
@@ -3057,19 +3054,19 @@
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l n="1273" xml:id="l1273">Me fuyez-vous, Seigneur ?</l>
+            <l n="1273" xml:id="l1273" part="I">Me fuyez-vous, Seigneur ?</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l part="Y">S’adresse-t’elle à moy,</l>
-            <l n="1274" xml:id="l1274">La fille d’Artaban ?</l>
+            <l part="F">S’adresse-t’elle à moy,</l>
+            <l n="1274" xml:id="l1274" part="I">La fille d’Artaban ?</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l part="Y">La femme de ton Roy.</l>
+            <l part="F">La femme de ton Roy.</l>
           </sp>
           <sp who="alexandre">
-            <speaker>ALEXANDRE. <pb n="57"/></speaker>
+            <speaker>ALEXANDRE.<pb n="57"/></speaker>
             <l n="1275" xml:id="l1275">Ennemy des Tyrans, du Trône,  ; de ma flame,</l>
             <l n="1276" xml:id="l1276">J’abhorre également  ; sa fille  ; sa femme.</l>
           </sp>
@@ -3106,7 +3103,7 @@
             <l n="1302" xml:id="l1302">Faire perir ma flame,  ; trahir mon devoir ;</l>
             <l n="1303" xml:id="l1303">Voilà ce que je dois à cet amy fidelle.</l>
             <l n="1304" xml:id="l1304">Vous, qui me reprochez la grandeur de son zéle,</l>
-            <l n="1305" xml:id="l1305">Qui femme d’un amy qui devient mon tyran, <pb n="58"/></l>
+            <l n="1305" xml:id="l1305">Qui femme d’un amy qui devient mon tyran,<pb n="58"/></l>
             <l n="1306" xml:id="l1306">Ne m’offensez pas moins que fille d’Artaban,</l>
             <l n="1307" xml:id="l1307">Venez-vous m’insulter, ou braver ma colere ?</l>
             <l n="1308" xml:id="l1308">Si la mort à ma haine a ravy vostre pere,</l>
@@ -3126,11 +3123,11 @@
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l n="1319" xml:id="l1319">O Dieux !</l>
+            <l n="1319" xml:id="l1319" part="I">O Dieux !</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l part="Y">Refusez-vous l’offre d’une ennemie ?</l>
+            <l part="F">Refusez-vous l’offre d’une ennemie ?</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
@@ -3151,25 +3148,25 @@
             <l n="1328" xml:id="l1328">Qui doit faire perir ton époux legitime ?</l>
             <l n="1329" xml:id="l1329">Si mon ressentiment demandoit son trépas,</l>
             <l n="1330" xml:id="l1330">J’irois faire la guerre,  ; non des attentats.</l>
-            <l n="1331" xml:id="l1331">Je dois, Demetrius, excuser ta furie, <pb n="59"/></l>
+            <l n="1331" xml:id="l1331">Je dois, Demetrius, excuser ta furie,<pb n="59"/></l>
             <l n="1332" xml:id="l1332">De cette infame Cour l’horreur te justifie ;</l>
             <l n="1333" xml:id="l1333">En vain dedans ces lieux ta gloire a combatu,</l>
             <l n="1334" xml:id="l1334">Si tout ce qui t’approche a soüillé ta vertu.</l>
             <l n="1335" xml:id="l1335">Barbare, qui t’inspire une action si noire ?</l>
             <l n="1336" xml:id="l1336">D’un si sensible affront je vangeray ma gloire ;</l>
-            <l n="1337" xml:id="l1337">Le Roy vient.</l>
+            <l n="1337" xml:id="l1337" part="I">Le Roy vient.</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l part="Y">Est-ce agir en homme genereux ?</l>
+            <l part="F">Est-ce agir en homme genereux ?</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l n="1338" xml:id="l1338">Je sçay ce que je dois.</l>
+            <l n="1338" xml:id="l1338" part="I">Je sçay ce que je dois.</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l part="Y">O succez malheureux !</l>
+            <l part="F">O succez malheureux !</l>
           </sp>
         </div>
         <div type="scene">
@@ -3179,28 +3176,28 @@
           <stage>SELEUCUS.</stage>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l n="1339" xml:id="l1339">C’est le Prince  ; la Reyne.</l>
+            <l n="1339" xml:id="l1339" part="I">C’est le Prince  ; la Reyne.</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">Evitons leur presence.</l>
+            <l part="F">Evitons leur presence.</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
             <l n="1340" xml:id="l1340">Demetrius, écoute un advis d’importance :</l>
-            <l n="1341" xml:id="l1341">Arreste.</l>
+            <l n="1341" xml:id="l1341" part="I">Arreste.</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">Quel advis ?</l>
+            <l part="M">Quel advis ?</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ, <hi rend="i">à Milon bas.</hi></speaker>
-            <l part="Y">Il va tout dire au Roy.</l>
+            <l part="F">Il va tout dire au Roy.</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l n="1342" xml:id="l1342">Malgré les traitemens que j’ay receus de toy, <pb n="60"/></l>
+            <l n="1342" xml:id="l1342">Malgré les traitemens que j’ay receus de toy,<pb n="60"/></l>
             <l n="1343" xml:id="l1343">Quand les avis d’un traistre aveuglant ta conduite,</l>
             <l n="1344" xml:id="l1344">Te font craindre ma haine,  ; soupçonner ma fuite,</l>
             <l n="1345" xml:id="l1345">Cet amy malheureux te voyant en danger</l>
@@ -3212,11 +3209,11 @@
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l n="1351" xml:id="l1351">Quoy ! vous me menacez ?</l>
+            <l n="1351" xml:id="l1351" part="I">Quoy ! vous me menacez ?</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l part="Y">Aprés ta violence,</l>
+            <l part="F">Aprés ta violence,</l>
             <l n="1352" xml:id="l1352">Ce n’est plus ton respect qui m’impose silence,</l>
             <l n="1353" xml:id="l1353">Et si d’autres motifs ne retenoient mon bras,</l>
             <l n="1354" xml:id="l1354">Alexandre trahy ne menaceroit pas.</l>
@@ -3236,7 +3233,7 @@
             <l n="1368" xml:id="l1368">Je veux te la devoir malgré ta perfidie,</l>
             <l n="1369" xml:id="l1369">Mais en t’advertissant qu’on menace tes jours,</l>
             <l n="1370" xml:id="l1370">Je te rends ton bienfait par un si grand secours.</l>
-            <l n="1371" xml:id="l1371">Adieu, joüis, ingrat, de ma reconnoissance : <pb n="61"/></l>
+            <l n="1371" xml:id="l1371">Adieu, joüis, ingrat, de ma reconnoissance :<pb n="61"/></l>
             <l n="1372" xml:id="l1372">Un reste d’amitié s’oppose à ma vangeance,</l>
             <l n="1373" xml:id="l1373">Et si tous ont pour toy mesme fidelité,</l>
             <l n="1374" xml:id="l1374">Tu vivras plus heureux que tu n’as merité.</l>
@@ -3248,11 +3245,11 @@
           <stage>MILON.</stage>
           <sp who="arsinoe">
             <speaker>ARSINOÉ, <hi rend="i">bas.</hi></speaker>
-            <l n="1375" xml:id="l1375">Ah ! Prince genereux !</l>
+            <l n="1375" xml:id="l1375" part="I">Ah ! Prince genereux !</l>
           </sp>
           <sp who="milon">
             <speaker>MILON, <hi rend="i">au Roy.</hi></speaker>
-            <l part="Y">Orgueil insuportable !</l>
+            <l part="F">Orgueil insuportable !</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
@@ -3274,20 +3271,20 @@
             <l n="1387" xml:id="l1387">Vous laissez-vous corrompre à l’advis qu’il vous donne ?</l>
           </sp>
           <sp who="arsinoe">
-            <speaker>ARSINOÉ. <pb n="62"/></speaker>
-            <l n="1388" xml:id="l1388">Quoy ! Seigneur ?</l>
+            <speaker>ARSINOÉ.<pb n="62"/></speaker>
+            <l n="1388" xml:id="l1388" part="I">Quoy ! Seigneur ?</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">Est-ce vous qu’il faut que je soupçonne ?</l>
+            <l part="F">Est-ce vous qu’il faut que je soupçonne ?</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l n="1389" xml:id="l1389">Moy, grands Dieux ?</l>
+            <l n="1389" xml:id="l1389" part="I">Moy, grands Dieux ?</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">L’innocente ! osez-vous démentir</l>
+            <l part="F">L’innocente ! osez-vous démentir</l>
             <l n="1390" xml:id="l1390">Le crime dont le Prince a voulu m’advertir ?</l>
             <l n="1391" xml:id="l1391">Dans ce soupçon mon ame est toute confirmée :</l>
             <l n="1392" xml:id="l1392">La frayeur dont tantost vous estiez alarmée,</l>
@@ -3335,11 +3332,11 @@
           <stage>TELAMON, MILON.</stage>
           <sp who="telamon">
             <speaker>TELAMON.</speaker>
-            <l n="1417" xml:id="l1417">Seigneur.</l>
+            <l n="1417" xml:id="l1417" part="I">Seigneur.</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l part="Y">Viens achever mon dernier desespoir.</l>
+            <l part="F">Viens achever mon dernier desespoir.</l>
           </sp>
           <sp who="telamon">
             <speaker>TELAMON.</speaker>
@@ -3347,11 +3344,11 @@
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
-            <l n="1419" xml:id="l1419">Que dis-tu, Telamon ?</l>
+            <l n="1419" xml:id="l1419" part="I">Que dis-tu, Telamon ?</l>
           </sp>
           <sp who="telamon">
             <speaker>TELAMON.</speaker>
-            <l part="Y">Je dis que la Princesse...</l>
+            <l part="F">Je dis que la Princesse...</l>
           </sp>
           <sp who="demetrius">
             <speaker>DEMETRIUS.</speaker>
@@ -3410,11 +3407,11 @@
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l n="1450" xml:id="l1450">Sur Ismenie ! ô Dieux !          <pb n="65"/></l>
+            <l n="1450" xml:id="l1450" part="I">Sur Ismenie ! ô Dieux !<pb n="65"/></l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l part="Y">D’où viennent ces frayeurs ?</l>
+            <l part="F">D’où viennent ces frayeurs ?</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
@@ -3430,11 +3427,11 @@
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l n="1457" xml:id="l1457">Quel soudain repentir...</l>
+            <l n="1457" xml:id="l1457" part="I">Quel soudain repentir...</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l part="Y">Pardonne ce remors,</l>
+            <l part="F">Pardonne ce remors,</l>
             <l n="1458" xml:id="l1458">L’amour en expirant fait ses derniers <ref target="#effort">efforts*</ref> ;</l>
             <l n="1459" xml:id="l1459">Mais malgré cet amour je te livre une vie</l>
             <l n="1460" xml:id="l1460">Qui doit estre le prix de celle d’Ismenie :</l>
@@ -3447,17 +3444,17 @@
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOÉ.</speaker>
-            <l n="1464" xml:id="l1464">Je te répons de luy.</l>
+            <l n="1464" xml:id="l1464" part="I">Je te répons de luy.</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Moy, je vous répons d’elle.</l>
+            <l part="F">Moy, je vous répons d’elle.</l>
           </sp>
           <label>Fin du quatrième Acte.</label>
         </div>
       </div>
       <div type="act">
-        <head>ACTE V. <pb n="66"/></head>
+        <head>ACTE V.<pb n="66"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>SELEUCUS, MILON,</stage>
@@ -3465,21 +3462,21 @@
           <stage>divers costez du Theatre<note n="105" place="bottom">. Cette didascalie est la première à donner un élément aussi précis de mise en scène. Télamon, s’il apparait en ce début d’acte, ne s’exprime qu’à la scène 2. L’entrée précipitée et simultanée de deux personnages met en valeur la soudaine accélération de l’action.</note>.</stage>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l n="1465" xml:id="l1465">Ah ! Seigneur !</l>
+            <l n="1465" xml:id="l1465" part="I">Ah ! Seigneur !</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">C’en est fait, Demetrius est mort.</l>
+            <l part="F">C’en est fait, Demetrius est mort.</l>
             <l n="1466" xml:id="l1466">Mais sçais-tu bien l’autheur de ce sanglant <ref target="#effort">effort*</ref> ?</l>
             <l n="1467" xml:id="l1467">Une fille à nos soins a dérobé sa vie.</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l n="1468" xml:id="l1468">O Dieux !</l>
+            <l n="1468" xml:id="l1468" part="I">O Dieux !</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Le croiras-tu ? l’adorable Ismenie</l>
+            <l part="F">Le croiras-tu ? l’adorable Ismenie</l>
             <l n="1469" xml:id="l1469">Est l’instrument fatal d’un crime plein d’horreur,</l>
             <l n="1470" xml:id="l1470">D’un coup pour qui l’Enfer eust manqué de fureur.</l>
             <l n="1471" xml:id="l1471">On la tient ; mais c’est peu de se vanger sur elle :</l>
@@ -3489,11 +3486,11 @@
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.<pb n="67"/></speaker>
-            <l n="1475" xml:id="l1475">Mais, Seigneur...</l>
+            <l n="1475" xml:id="l1475" part="I">Mais, Seigneur...</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Immolons cette grande victime.</l>
+            <l part="F">Immolons cette grande victime.</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
@@ -3501,11 +3498,11 @@
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l n="1477" xml:id="l1477">Que me dis-tu ? grands Dieux !</l>
+            <l n="1477" xml:id="l1477" part="I">Que me dis-tu ? grands Dieux !</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y">L’assassinat du Roy,</l>
+            <l part="F">L’assassinat du Roy,</l>
             <l n="1478" xml:id="l1478">La revolte du Peuple, un Palais plein d’effroy,</l>
             <l n="1479" xml:id="l1479">Ont fait à cette fuite un succez favorable.</l>
           </sp>
@@ -3548,11 +3545,11 @@
           </sp>
           <sp who="telamon">
             <speaker>TELAMON.</speaker>
-            <l n="1501" xml:id="l1501">O Dieux !</l>
+            <l n="1501" xml:id="l1501" part="I">O Dieux !</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">A Seleucus je cache ma fureur</l>
+            <l part="F">A Seleucus je cache ma fureur</l>
             <l n="1502" xml:id="l1502">Pour faire agir son zéle avec plus de chaleur,</l>
             <l n="1503" xml:id="l1503">En croyant qu’Alexandre a part à ce grand crime.</l>
             <l n="1504" xml:id="l1504">Ne crains rien : mon dessein rend ce coup legitime.</l>
@@ -3566,7 +3563,7 @@
             <l n="1512" xml:id="l1512">A forcé ma fureur à ce grand parricide.</l>
             <l n="1513" xml:id="l1513">Ayant sçeu qu’Ismenie estoit avec le Roy,</l>
             <l n="1514" xml:id="l1514">Dedans un cabinet toûjours ouvert pour moy,</l>
-            <l n="1515" xml:id="l1515">J’y cours, j’entre au moment qu’en sortoit la Princesse, <pb n="69"/></l>
+            <l n="1515" xml:id="l1515">J’y cours, j’entre au moment qu’en sortoit la Princesse,<pb n="69"/></l>
             <l n="1516" xml:id="l1516">Un fer brille en sa main, dans ses yeux l’allegresse :</l>
             <l n="1517" xml:id="l1517">Ce poignard me surprend,  ; flate mon dessein ;</l>
             <l n="1518" xml:id="l1518">Je la suis,  ; je cours l’arracher de sa main ;</l>
@@ -3625,11 +3622,11 @@
             <speaker>TELAMON.</speaker>
             <l n="1551" xml:id="l1551">Mais, Seigneur, vous sçavez les remors de la Reyne,</l>
             <l n="1552" xml:id="l1552">Vous devez craindre tout des fureurs de sa haine.</l>
-            <l n="1553" xml:id="l1553">Elle vient.</l>
+            <l n="1553" xml:id="l1553" part="I">Elle vient.</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Ne crains rien d’un si foible transport.</l>
+            <l part="F">Ne crains rien d’un si foible transport.</l>
           </sp>
         </div>
         <div type="scene">
@@ -3662,11 +3659,11 @@
             <l n="1570" xml:id="l1570">Un obstacle eternel à ton ambition :</l>
             <l n="1571" xml:id="l1571">Romps ce fatal obstacle, ose tout entreprendre ;</l>
             <l n="1572" xml:id="l1572">Mesle mon sang au sang que tu viens de répandre.</l>
-            <l n="1573" xml:id="l1573">Acheve enfin.</l>
+            <l n="1573" xml:id="l1573" part="I">Acheve enfin.</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">C’est trop par d’ingrates douleurs</l>
+            <l part="F">C’est trop par d’ingrates douleurs</l>
             <l n="1574" xml:id="l1574">Me reprocher un coup qui finit vos malheurs.</l>
             <l n="1575" xml:id="l1575">J’ay bien d’autres soucis au milieu des alarmes,</l>
             <l n="1576" xml:id="l1576">Sans ceux de condamner, ou combatre vos larmes ;</l>
@@ -3686,7 +3683,7 @@
             <l n="1587" xml:id="l1587">Maintenant que la mort d’un époux adorable</l>
             <l n="1588" xml:id="l1588">Semble te faire au Trône un chemin favorable,</l>
             <l n="1589" xml:id="l1589">Pour regner malgré moy, traistre, n’épargne rien ;</l>
-            <l n="1590" xml:id="l1590">Aprés le sang du Roy, perfide, prens le mien. <pb n="72"/></l>
+            <l n="1590" xml:id="l1590">Aprés le sang du Roy, perfide, prens le mien.<pb n="72"/></l>
             <l n="1591" xml:id="l1591">Grand Roy, qu’ont aveuglé les conseils d’un infame,</l>
             <l n="1592" xml:id="l1592">Cher époux qu’a trahy ta malheureuse flame,</l>
             <l n="1593" xml:id="l1593">Accepte mon remors,  ; dans mon desespoir</l>
@@ -3703,7 +3700,7 @@
             <l n="1600" xml:id="l1600">Pour servir mon amour employons nostre adresse :</l>
             <stage>à Telamon.</stage>
             <l n="1601" xml:id="l1601">Toy, va de Seleucus apprendre nostre espoir ;</l>
-            <l n="1602" xml:id="l1602">Je te suivray bien-tost.</l>
+            <l n="1602" xml:id="l1602" part="I">Je te suivray bien-tost.</l>
           </sp>
         </div>
         <div type="scene">
@@ -3711,7 +3708,7 @@
           <stage>ISMENIE, MILON. </stage>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l part="Y">Quel injuste pouvoir,</l>
+            <l part="F">Quel injuste pouvoir,</l>
             <l n="1603" xml:id="l1603">Quelle estrange licence aujourd’hui t’authorise</l>
             <l n="1604" xml:id="l1604">A te rendre en ces lieux maistre de ma <ref target="#franchise">franchise*</ref> ?</l>
           </sp>
@@ -3721,12 +3718,12 @@
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l n="1606" xml:id="l1606">Par ma main, imposteur !</l>
+            <l n="1606" xml:id="l1606" part="I">Par ma main, imposteur !</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Vous le niez en vain ;</l>
-            <l n="1607" xml:id="l1607">Pour vos seuls interests jaloux de vostre gloire, <pb n="73"/></l>
+            <l part="F">Vous le niez en vain ;</l>
+            <l n="1607" xml:id="l1607">Pour vos seuls interests jaloux de vostre gloire,<pb n="73"/></l>
             <l n="1608" xml:id="l1608">J’ay sauvé vostre main d’une action si noire,</l>
             <l n="1609" xml:id="l1609">Et pour vostre innocence obstiné contre tous,</l>
             <l n="1610" xml:id="l1610">J’impute cette mort à tout autre qu’à vous.</l>
@@ -3769,7 +3766,7 @@
             <l n="1632" xml:id="l1632">Je voulois de ma main sacrifier ma vie,</l>
             <l n="1633" xml:id="l1633">Et braver par ma mort un injuste pouvoir ;</l>
             <l n="1634" xml:id="l1634">Et qu’enfin j’avois sçeu par ce beau desespoir</l>
-            <l n="1635" xml:id="l1635">Fléchir nostre Tyran,  ; le couvrir de honte. <pb n="74"/></l>
+            <l n="1635" xml:id="l1635">Fléchir nostre Tyran,  ; le couvrir de honte.<pb n="74"/></l>
             <l n="1636" xml:id="l1636">Mais est ce à son bourreau que j’en dois rendre compte ?</l>
           </sp>
           <sp who="milon">
@@ -3792,11 +3789,11 @@
             <l n="1646" xml:id="l1646">Seleucus va bien-tost <ref target="#confondre">confondre*</ref> ton espoir.</l>
             <l n="1647" xml:id="l1647">Cependant nous verrons cette insolente audace</l>
             <l n="1648" xml:id="l1648">Prés des tourmens trembler,  ; me demander grace :</l>
-            <l n="1649" xml:id="l1649">Il ne sera plus temps.</l>
+            <l n="1649" xml:id="l1649" part="I">Il ne sera plus temps.</l>
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l part="Y">Menace,  ; fay le Roy ;</l>
+            <l part="F">Menace,  ; fay le Roy ;</l>
             <l n="1650" xml:id="l1650">Voilà le traitement que j’attendois de toy ;</l>
             <l n="1651" xml:id="l1651">Ce sont là tes douceurs ; l’injure  ; la menace</l>
             <l n="1652" xml:id="l1652">Dans la bouche d’un traistre ont bien meilleure grace :</l>
@@ -3827,7 +3824,7 @@
             <l n="1668" xml:id="l1668">Rien ne peut arrester le torrent de ma flame ;</l>
             <l n="1669" xml:id="l1669">Je m’abandonne tout au charme de vos yeux ;</l>
             <l n="1670" xml:id="l1670">Vous estes tout mon bien, ma fortune,  ; mes Dieux.</l>
-            <l n="1671" xml:id="l1671">C’est pour vous seulement...</l>
+            <l n="1671" xml:id="l1671" part="I">C’est pour vous seulement...</l>
           </sp>
         </div>
         <div type="scene">
@@ -3836,25 +3833,25 @@
           <stage>ISMENIE.</stage>
           <sp who="telamon">
             <speaker>TELAMON <hi rend="i">tirant Milon à l’écart.</hi></speaker>
-            <l part="Y">Ah ! Seigneur, Alexandre</l>
+            <l part="F">Ah ! Seigneur, Alexandre</l>
             <l n="1672" xml:id="l1672">A pour luy tout le monde, il est temps de se rendre.</l>
             <l n="1673" xml:id="l1673">Seleucus poursuivy d’un Peuple furieux,</l>
             <l n="1674" xml:id="l1674">S’est à peine en fuyant retiré dans ces lieux.</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l n="1675" xml:id="l1675">O Dieux !</l>
+            <l n="1675" xml:id="l1675" part="I">O Dieux !</l>
           </sp>
           <sp who="telamon">
             <speaker>TELAMON.</speaker>
-            <l part="Y">Fuyez, fuyez ; le Peuple  ; la Noblesse...</l>
+            <l part="F">Fuyez, fuyez ; le Peuple  ; la Noblesse...</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
             <l n="1676" xml:id="l1676">Moy, fuïr, moy Fuïr du Trône,  ; quitter ma Princesse ?</l>
             <l n="1677" xml:id="l1677">Mon adresse  ; mon coeur peuvent tout surmonter ;</l>
             <l n="1678" xml:id="l1678">Il me reste auprés d’elle un moyen à tenter,</l>
-            <l n="1679" xml:id="l1679">S’il manque, mon courage ose tout entreprendre. <pb n="76"/></l>
+            <l n="1679" xml:id="l1679">S’il manque, mon courage ose tout entreprendre.<pb n="76"/></l>
             <stage>à Ismenie.</stage>
             <l n="1680" xml:id="l1680">On vient de m’advertir du bonheur d’Alexandre :</l>
             <l n="1681" xml:id="l1681">Craignant tout de sa haine  ; de vostre couroux</l>
@@ -3885,37 +3882,37 @@
             <l n="1700" xml:id="l1700">Il n’a plus maintenant d’ennemis que soy-mesme ;</l>
             <l n="1701" xml:id="l1701">C’est luy seul qui se ferme en attaquant ces lieux</l>
             <l n="1702" xml:id="l1702">Le passage du Trône,  ; celuy de vos yeux.</l>
-            <l n="1703" xml:id="l1703">Qu’il vienne...</l>
+            <l n="1703" xml:id="l1703" part="I">Qu’il vienne...</l>
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l part="Y">Desarmé sur la foy d’un perfide,</l>
+            <l part="F">Desarmé sur la foy d’un perfide,</l>
             <l n="1704" xml:id="l1704">Qu’il vienne dans ces lieux sanglants d’un parricide ?</l>
             <l n="1705" xml:id="l1705">Songe, songe, Milon, à te déguiser mieux ;</l>
             <l n="1706" xml:id="l1706">Ma haine est éclairée, elle a de trop bons yeux.</l>
-            <l n="1707" xml:id="l1707">Reduit à ce Palais, hors de toute esperance, <pb n="77"/></l>
+            <l n="1707" xml:id="l1707">Reduit à ce Palais, hors de toute esperance,<pb n="77"/></l>
             <l n="1708" xml:id="l1708">Tu voudrois bien tenir ton Maistre en ta puissance.</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
             <l n="1709" xml:id="l1709">Quand je veux couronner mon vainqueur de ma main,</l>
-            <l n="1710" xml:id="l1710">Quand pour vous...</l>
+            <l n="1710" xml:id="l1710" part="I">Quand pour vous...</l>
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l part="Y">C’est assez, je connois ton dessein,</l>
-            <l n="1711" xml:id="l1711">Ne te déguise plus.</l>
+            <l part="F">C’est assez, je connois ton dessein,</l>
+            <l n="1711" xml:id="l1711" part="I">Ne te déguise plus.</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Et bien, cessons de feindre,</l>
+            <l part="F">Et bien, cessons de feindre,</l>
             <l n="1712" xml:id="l1712">Puisque tu me connois, commence de me craindre,</l>
             <l n="1713" xml:id="l1713">Crains, orgueilleuse, crains mon desespoir jaloux,</l>
-            <l n="1714" xml:id="l1714">J’aime, je hay, je regne.</l>
+            <l n="1714" xml:id="l1714" part="I">J’aime, je hay, je regne.</l>
           </sp>
           <sp who="telamon">
             <speaker>TELAMON.</speaker>
-            <l part="Y">Ah ! Seigneur, sauvez-vous,</l>
+            <l part="F">Ah ! Seigneur, sauvez-vous,</l>
             <l n="1715" xml:id="l1715">Fuyez, vostre fortune à ce point est reduite.</l>
           </sp>
           <sp who="milon">
@@ -3938,7 +3935,7 @@
             <speaker>ISMENIE.</speaker>
             <l n="1729" xml:id="l1729">Frape, acheve, cruel,  ; ne m’épargne pas ;</l>
             <l n="1730" xml:id="l1730">Vange ton desespoir sur ces tristes appas,</l>
-            <l n="1731" xml:id="l1731">S’ils ont mis de l’amour dans le coeur d’un infame, <pb n="78"/></l>
+            <l n="1731" xml:id="l1731">S’ils ont mis de l’amour dans le coeur d’un infame,<pb n="78"/></l>
             <l n="1732" xml:id="l1732">Punis-les hardiment du crime de ta flame.</l>
           </sp>
         </div>
@@ -3948,11 +3945,11 @@
           <stage>MILON.</stage>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l n="1733" xml:id="l1733">Ah ! Seigneur.</l>
+            <l n="1733" xml:id="l1733" part="I">Ah ! Seigneur.</l>
           </sp>
           <sp who="milon">
             <speaker>MILON.</speaker>
-            <l part="Y">Qu’est-ce enfin ? que me dit ce transport ?</l>
+            <l part="F">Qu’est-ce enfin ? que me dit ce transport ?</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
@@ -4014,7 +4011,7 @@
             <l n="1769" xml:id="l1769">Ou sans craindre pour moy son cruel desespoir</l>
             <l n="1770" xml:id="l1770">Faites que mon amant fasse enfin son devoir,</l>
             <l n="1771" xml:id="l1771">Ou ma mort ostera cet obstacle à sa gloire ;</l>
-            <l n="1772" xml:id="l1772">Mais quel tumulte affreux...</l>
+            <l n="1772" xml:id="l1772" part="I">Mais quel tumulte affreux...</l>
           </sp>
         </div>
         <div type="scene">
@@ -4022,28 +4019,28 @@
           <stage>LAODICE, ISMENIE.</stage>
           <sp who="laodice">
             <speaker>LAODICE.</speaker>
-            <l part="Y">Le Prince a la victoire,</l>
+            <l part="F">Le Prince a la victoire,</l>
             <l n="1773" xml:id="l1773">Et Milon en sortant a trouvé sur ses pas</l>
             <l n="1774" xml:id="l1774">Nos gens victorieux qui pressent ses soldats :</l>
             <l n="1775" xml:id="l1775">Il combat ; mais en vain, sa défaite est certaine.</l>
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l n="1776" xml:id="l1776">Quel favorable Dieu...</l>
+            <l n="1776" xml:id="l1776" part="I">Quel favorable Dieu...</l>
           </sp>
           <sp who="laodice">
             <speaker>LAODICE.</speaker>
-            <l part="Y">Le croiriez-vous ? la Reyne,</l>
+            <l part="F">Le croiriez-vous ? la Reyne,</l>
             <l n="1777" xml:id="l1777">Ouy, Madame, elle-mesme, ou plutost sa fureur</l>
             <l n="1778" xml:id="l1778">Vient d’ouvrir une porte aux armes du vainqueur.</l>
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l n="1779" xml:id="l1779">Comment ?</l>
+            <l n="1779" xml:id="l1779" part="I">Comment ?</l>
           </sp>
           <sp who="laodice">
             <speaker>LAODICE.</speaker>
-            <l part="Y">Contre Milon le coeur plein de vangeance,</l>
+            <l part="F">Contre Milon le coeur plein de vangeance,</l>
             <l n="1780" xml:id="l1780">Sçachant que son amour endormoit sa prudence,</l>
             <l n="1781" xml:id="l1781">Elle a gagné la Garde à force de bienfaits,</l>
             <l n="1782" xml:id="l1782">Et son ressentiment a livré le Palais.</l>
@@ -4061,7 +4058,7 @@
             <l n="1794" xml:id="l1794">Cependant le Prince entre,  ; sa troupe le suit :</l>
             <l n="1795" xml:id="l1795">On attaque, on combat, on deffend le passage,</l>
             <l n="1796" xml:id="l1796">Mais enfin Alexandre a tousjours l’avantage.</l>
-            <l n="1797" xml:id="l1797">Il vient.</l>
+            <l n="1797" xml:id="l1797" part="I">Il vient.</l>
           </sp>
         </div>
         <div type="scene">
@@ -4070,7 +4067,7 @@
           <stage>LAODICE.</stage>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l part="Y">Je vous revois aprés tant de malheurs.</l>
+            <l part="F">Je vous revois aprés tant de malheurs.</l>
             <l n="1798" xml:id="l1798">Qu’un court éloignement m’a coûté de douleurs !</l>
             <l n="1799" xml:id="l1799">Mon ame à vos perils fortement attachée,</l>
             <l n="1800" xml:id="l1800">De la mort d’un amy n’est qu’à demy touchée,</l>
@@ -4100,28 +4097,28 @@
           <stage>LAODICE.</stage>
           <sp who="diocles">
             <speaker>DIOCLES.</speaker>
-            <l n="1813" xml:id="l1813">Ah ! Madame.</l>
+            <l n="1813" xml:id="l1813" part="I">Ah ! Madame.</l>
           </sp>
           <sp who="ismenie">
             <speaker>ISMENIE.</speaker>
-            <l part="Y">Qu’as-tu ?</l>
+            <l part="M">Qu’as-tu ?</l>
           </sp>
           <sp who="diocles">
             <speaker>DIOCLES.</speaker>
-            <l part="Y">Milon percé de coups,</l>
+            <l part="F">Milon percé de coups,</l>
             <l n="1814" xml:id="l1814">Furieux vous demande,  ; ne cherche que vous.</l>
             <l n="1815" xml:id="l1815">Avec tant de succez sa fureur le seconde,</l>
             <l n="1816" xml:id="l1816">Qu’échapant comme aux mains, aux yeux de tout le monde,</l>
             <l n="1817" xml:id="l1817">Par un secret détour il vient se rendre icy.</l>
-            <l n="1818" xml:id="l1818">Ah ! Seigneur, prévenez...</l>
+            <l n="1818" xml:id="l1818" part="I">Ah ! Seigneur, prévenez...</l>
           </sp>
           <sp who="alexandre">
             <speaker>ALEXANDRE.</speaker>
-            <l part="Y">Ne crains rien.</l>
+            <l part="M">Ne crains rien.</l>
           </sp>
           <sp who="diocles">
             <speaker>DIOCLES.</speaker>
-            <l part="Y">Le voicy.</l>
+            <l part="F">Le voicy.</l>
           </sp>
         </div>
         <div type="scene">
@@ -4146,7 +4143,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE DERNIERE. <pb n="84"/></head>
+          <head>SCENE DERNIERE.<pb n="84"/></head>
           <stage>ALEXANDRE, ISMENIE,</stage>
           <stage>LAODICE, DIOCLES.</stage>
           <sp who="alexandre">
@@ -4474,7 +4471,9 @@
           <quote>
             <p>« Boyer est obligé de souffrir perpétuellement devant ses yeux la représentation de l’Andromaque. La beauté de cette pièce faisait continuellement souffrir son humeur jalouse et envieuse, qui le porta toujours à condamner les beaux ouvrages et à applaudir les mauvais » .</p>
           </quote>
-          <p rend="right"><hi rend="i">Les couches de l’Académie.</hi></p>
+          <p rend="right">
+            <hi rend="i">Les couches de l’Académie.</hi>
+          </p>
         </div>
         <div>
           <head>Un échange d’épigrammes entre Furetière et Boyer</head>

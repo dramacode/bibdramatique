@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -865,17 +862,17 @@
           <head>SCENE PREMIERE.</head>
           <sp who="eole">
             <speaker>ÆOLE <hi rend="i">parlant aux vents dans une mer agitée où paroist le debris d’un vaisseau.</hi></speaker>
-            <l n="1" xml:id="l1">Enfans tumultueux des vapeurs de la terre, <pb n="A ; 1"/></l>
+            <l n="1" xml:id="l1">Enfans tumultueux des vapeurs de la terre,<pb n="A ; 1"/></l>
             <l n="2" xml:id="l2">Qui balancez les airs d’une immortelle guerre ;</l>
             <l n="3" xml:id="l3">Qui trainant apres vous le desordre et l’horreur,</l>
             <l n="4" xml:id="l4">Vous combatez vous-mesme avec tant de <ref target="#fureur">fureur*</ref>,</l>
-            <l n="5" xml:id="l5"><ref target="#furieux">Furieux*</ref><note n="72" place="bottom">La diérèse s’impose ici comme aux vers 16, 87, 103, 106 (où l’on note deux diérèses), 129, 136, 146, 150, 153, 154, 175, 219, 227, 252, 267, 268, 274, 286, 291, 306, 307(où la diérèse porte sur « possession » qui rime avec « ambition » lui aussi en diérèse au vers 308) et 323.</note> tourbillons, quel injuste licence<note n="73" place="bottom">Licence : « Congé et permission d’un supérieur », « Se dit aussi de l’abus de ces permissions, qu’on étend au de-là de leur intention, ou de la liberté qu’on prend sur soy- même. » (Furet.) .</note> <pb n="2"/></l>
+            <l n="5" xml:id="l5"><ref target="#furieux">Furieux*</ref><note n="72" place="bottom">La diérèse s’impose ici comme aux vers 16, 87, 103, 106 (où l’on note deux diérèses), 129, 136, 146, 150, 153, 154, 175, 219, 227, 252, 267, 268, 274, 286, 291, 306, 307(où la diérèse porte sur « possession » qui rime avec « ambition » lui aussi en diérèse au vers 308) et 323.</note> tourbillons, quel injuste licence<note n="73" place="bottom">Licence : « Congé et permission d’un supérieur », « Se dit aussi de l’abus de ces permissions, qu’on étend au de-là de leur intention, ou de la liberté qu’on prend sur soy- même. » (Furet.) .</note><pb n="2"/></l>
             <l n="6" xml:id="l6">Vous soustrait au devoir de vostre obeissance ?</l>
             <l n="7" xml:id="l7">Ulisse assez souvent a senty vos <ref target="#effort">efforts*</ref>,</l>
             <l n="8" xml:id="l8">Puisque vostre <ref target="#fureur">fureur*</ref> l’a jetté sur ces bors,</l>
             <l n="9" xml:id="l9">Sans me monstrer encor dans ce dernier orage</l>
             <l n="10" xml:id="l10">Sur ce vaisseau brisé l’effect de vostre rage<note n="74" place="bottom">Comprendre : Sans qu’il faille que vous me montriez encore l’effet de votre rage en provoquant ce nouvel orage qui vient de briser ce vaisseau.</note>.</l>
-            <l n="11" xml:id="l11"><space>   </space>Ce Grec que Penelope envoye à son époux</l>
+            <l n="11" xml:id="l11">Ce Grec que Penelope envoye à son époux</l>
             <l n="12" xml:id="l12">Quel crime a-[t-] il commis ? qu’a-[t-] il fait contre vous ?</l>
             <l n="13" xml:id="l13">Ministres insolens des <ref target="#fureur">fureurs*</ref> de Neptune,</l>
             <l n="14" xml:id="l14">Esclaves dangereux d’une haine importune,</l>
@@ -885,17 +882,17 @@
             <l n="18" xml:id="l18">Allez sur d’autres mers et contre d’autres testes ;</l>
             <l n="19" xml:id="l19">Mais laissez pour Ulisse et pour tous ses vaisseaux</l>
             <l n="20" xml:id="l20">Un chemin  applani sur l’empire des eaux.</l>
-            <l n="21" xml:id="l21"><space>   </space>Toy qu’un coup de tempeste a poussé dans cette isle</l>
+            <l n="21" xml:id="l21">Toy qu’un coup de tempeste a poussé dans cette isle</l>
             <l n="22" xml:id="l22">Et qui dans ce rocher cherches en vain azile,</l>
-            <l n="23" xml:id="l23">Sors, Perimede, sors.</l>
+            <l n="23" xml:id="l23" part="I">Sors, Perimede, sors.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE II. <pb n="3"/></head>
+          <head>SCENE II.<pb n="3"/></head>
           <stage>PERIMEDE, ÆOLE.</stage>
           <sp who="perimede">
             <speaker>PERIMEDE.</speaker>
-            <l part="Y"><space/><space/>Que voulez-vous grand Roy ?</l>
+            <l part="F">Que voulez-vous grand Roy ?</l>
             <l n="24" xml:id="l24">Dieu des vents, qui vous fait descendre jusqu’à moy.</l>
           </sp>
           <sp who="eole">
@@ -914,17 +911,17 @@
             <l n="36" xml:id="l36">Fasse aux siècles futurs adorer sa <ref target="#vertu">vertu*</ref>.</l>
             <l n="37" xml:id="l37">Revere leurs decrets, et benis ton naufrage,</l>
             <l n="38" xml:id="l38">Qui seul jusques à luy t’a pû<note n="78" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, l’orthographe du participe passé avec l’accent circonflexe était d’usage pour « pouvoir » (v. 163) « croire » (v. 50) et « devoir » . Il remplace le « e » présent dans les formes plus anciennes que l’on trouve aussi dans le texte (v. 495 « peu », v. 775 « deu » ). Seul le participe de « devoir » a conservé l’accent pour des raisons d’homonymie.</note> faire un passage.</l>
-            <l n="39" xml:id="l39"><space>   </space>Circé depuis un an le retient en ces lieux<note n="79" place="bottom"> Dans l’<hi rend="i">Odyssée</hi>, Ulysse demeure un an chez Circé, Boyer par cette information temporelle laisse deviner que l’intrigue va s’articuler autour du départ d’Ulysse.</note><pb n="4"/></l>
+            <l n="39" xml:id="l39">Circé depuis un an le retient en ces lieux<note n="79" place="bottom"> Dans l’<hi rend="i">Odyssée</hi>, Ulysse demeure un an chez Circé, Boyer par cette information temporelle laisse deviner que l’intrigue va s’articuler autour du départ d’Ulysse.</note><pb n="4"/></l>
             <l n="40" xml:id="l40">Par un <ref target="#charme">charme*</ref> eternel de l’oreille et des yeux.</l>
             <l n="41" xml:id="l41">Il viendra ce matin sur ces humides plaines<note n="80" place="bottom">La plaine humide est une métaphore fréquente dans la tradition grecque, notamment chez Homère, avant de devenir un classique dans les métaphores baroques de l’eau. Pour les Grecs, la terre humide (ou prairie) est une terre abondante de richesses, associée à la vie grâce à l’union des deux éléments et qui participe souvent à la description des lieux idylliques.</note>,</l>
             <l n="42" xml:id="l42">Jouyr avec Circé du concert des Syrenes :</l>
             <l n="43" xml:id="l43">Le calme, que je laisse en garde à mes Zéphirs,</l>
             <l n="44" xml:id="l44">Les invite encor mieux à ces nouveaux plaisirs.</l>
-            <l n="45" xml:id="l45">Tâche de l’aborder.</l>
+            <l n="45" xml:id="l45" part="I">Tâche de l’aborder.</l>
           </sp>
           <sp who="perimede">
             <speaker>PERIMEDE.</speaker>
-            <l part="Y"><space/><space/>Dieux ! par quel sacrifice…</l>
+            <l part="F">Dieux ! par quel sacrifice…</l>
           </sp>
           <sp who="eole">
             <speaker>ÆOLE <hi rend="i">l’interrompant.</hi></speaker>
@@ -945,7 +942,7 @@
             <l n="52" xml:id="l52">Elle me le promit avecque<note n="82" place="bottom"> Doublet poétique de « avec ». Selon Vaugelas dans <hi rend="i">Remarques sur la Langue française</hi> (1647) cette forme est correcte et « commode aux poètes » comme aux prosateurs qui ont « quelque soin de satisfaire l’oreille » (v. 80, 550 et 708).</note> tant d’<ref target="#ardeur">ardeur*</ref>,</l>
             <l n="53" xml:id="l53">Qu’elle a dû dés long-temps preceder ma venuë,</l>
             <l n="54" xml:id="l54">Mais je me puis vanter de l’avoir <ref target="#prevenir">prevenuë*</ref>.</l>
-            <l n="55" xml:id="l55"><space>   </space>Va, dis-luy de ma part que le calme est si beau</l>
+            <l n="55" xml:id="l55">Va, dis-luy de ma part que le calme est si beau</l>
             <l n="56" xml:id="l56">Qu’on ne voit plus troubler l’égalité de l’eau,</l>
             <l n="57" xml:id="l57">Que par quelques Zephirs<note n="83" place="bottom">Comprendre : « uniquement par quelques Zéphirs » .</note>, dont les foibles haleines</l>
             <l n="58" xml:id="l58">Prestent un air tranquille au doux chant des Syrenes.</l>
@@ -961,7 +958,7 @@
             <l n="62" xml:id="l62">Que ce port est aimable apres tant de naufrages !</l>
             <l n="63" xml:id="l63">Dans cet heureux <ref target="#sejour">sejour*</ref> tous nos malheurs passez<note n="84" place="bottom"> À cette époque le pluriel des participes passés était encore signalé par –ez  tandis que les impératifs avaient une désinence en – és. Cette tendance s’observe dans tout le texte mais l’on rencontre des formes conformes à l’orthographe moderne.</note></l>
             <l n="64" xml:id="l64">Par un an de bonheur sont bien récompensez.</l>
-            <l n="65" xml:id="l65"><space>   </space>Nostre Grece où le luxe et la magnificence</l>
+            <l n="65" xml:id="l65">Nostre Grece où le luxe et la magnificence</l>
             <l n="66" xml:id="l66">Estallent leurs tresors avec tant d’abondance,</l>
             <l n="67" xml:id="l67">N’a rien de comparable aux douceurs de ces lieux.</l>
             <l n="68" xml:id="l68">Tout semble naistre ici pour le <ref target="#charme">charme*</ref> des yeux.<pb n="6"/></l>
@@ -980,28 +977,28 @@
             <l n="78" xml:id="l78">De vous en voir encor dédaigner la Couronne.</l>
             <l n="79" xml:id="l79">Repondrez-vous tousjours avec cette froideur</l>
             <l n="80" xml:id="l80">A Circé, qui vous l’offre avecque tant d’<ref target="#ardeur">ardeur*</ref><note n="86" place="bottom">Cette rime est l’une des rimes clé de la pièce où les relations des personnages s’articulent autour d’amours non réciproques. Si bien que l’autre rime clé est la rime « charmes / larmes » très présente elle aussi.</note> ?</l>
-            <l n="81" xml:id="l81">Ne flechirez-vous point ?</l>
+            <l n="81" xml:id="l81" part="I">Ne flechirez-vous point ?</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l part="Y"><space/><space/>Euriloche peut-estre,</l>
-            <l n="82" xml:id="l82">Mais…</l>
+            <l part="F">Euriloche peut-estre,</l>
+            <l n="82" xml:id="l82" part="I">Mais…</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURIL[OCHE] .</speaker>
-            <l part="Y"><space/>Quoy ?</l>
+            <l part="M">Quoy ?</l>
           </sp>
           <sp who="perimede">
             <speaker>PERIMEDE.</speaker>
-            <l part="Y"><space/><space/>N’en doutons point, j’ay rencontré mon Maistre.</l>
+            <l part="F">N’en doutons point, j’ay rencontré mon Maistre.</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l n="83" xml:id="l83">Que veut cet étranger ?</l>
+            <l n="83" xml:id="l83" part="I">Que veut cet étranger ?</l>
           </sp>
           <sp who="perimede">
             <speaker>PERIMEDE.<pb n="7"/></speaker>
-            <l part="Y"><space/><space/>Perimede, Seigneur.</l>
+            <l part="F">Perimede, Seigneur.</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
@@ -1033,8 +1030,8 @@
             <stage>Il lit.<pb n="8"/></stage>
             <l n="103" xml:id="l103">Celle qu’un sainct amour a mise en tes liens</l>
             <l n="104" xml:id="l104">Penelope t’écrit trop insensible Ulisse ;</l>
-            <l n="105" xml:id="l105">Pour finir son supplice</l>
-            <l part="Y">N’écris rien, mais reviens.</l>
+            <l n="105" xml:id="l105" part="I">Pour finir son supplice</l>
+            <l part="F">N’écris rien, mais reviens.</l>
             <l n="106" xml:id="l106">Fidelle impatience, <ref target="#aimable">aimable*</ref> inquietude,</l>
             <l n="107" xml:id="l107">Reproche et chastiment de mon <ref target="#ingrat">ingratitude*</ref>,</l>
             <l n="108" xml:id="l108">Penelope, beau nom si cher à mes desirs,</l>
@@ -1045,21 +1042,21 @@
             <l n="113" xml:id="l113">Toy, par qui ma raison se laissoit prevenir*,</l>
             <l n="114" xml:id="l114">Circé, lache assassin d’une si belle <ref target="#flamme">flame*</ref><note n="93" place="bottom">L’orthographe n’étant pas tout à fait fixée, le redoublement des géminées n’est pas systématique et varie selon les termes. Ainsi au vers 139 « flamme » est orthographié avec deux « m » .</note></l>
             <l n="115" xml:id="l115">Quitte à mes premiers <ref target="#feu">feux*</ref> l’empire de mon ame.<note n="94" place="bottom">Comprendre : « Circé, quitte l’empire de mon âme à la faveur de Pénélope. »</note></l>
-            <l n="116" xml:id="l116"><space>   </space>Helas ! je m’endormois dans ces lieux enchantez ;</l>
+            <l n="116" xml:id="l116">Helas ! je m’endormois dans ces lieux enchantez ;</l>
             <l n="117" xml:id="l117">Mes yeux pleins de l’éclat de nouvelles beautez</l>
             <l n="118" xml:id="l118">Mettoient à tous momens en peril ma constance ;</l>
             <l n="119" xml:id="l119">Mais je pars, chere épouse, et fuis de leur presence.</l>
             <l n="120" xml:id="l120">Si le bruit de ta gloire a <ref target="#flatter">flatté*</ref> mon amour,</l>
             <l n="121" xml:id="l121">Si mes <ref target="#soin">soins*</ref> s’endormoient à de si puissans <ref target="#charme">charmes*</ref>,</l>
-            <l n="122" xml:id="l122">Je retourne à mes larmes,</l>
-            <l part="Y">Quand j’attens ton retour.</l>
+            <l n="122" xml:id="l122" part="I">Je retourne à mes larmes,</l>
+            <l part="F">Quand j’attens ton retour.</l>
             <l n="123" xml:id="l123"><ref target="#cruel">Cruel*</ref> que me sert-il que ta rare valeur</l>
             <l n="124" xml:id="l124">Ait forcé le demon de l’invincible Troye,</l>
-            <l n="125" xml:id="l125">
+            <l n="125" xml:id="l125" part="I">
               <hi rend="i">Si je n’ay pas la joye</hi>
               <pb n="B ; 9"/>
             </l>
-            <l part="Y">De revoir son vainqueur.</l>
+            <l part="F">De revoir son vainqueur.</l>
             <l n="126" xml:id="l126">En effect, vous deviez apres cette victoire</l>
             <l n="127" xml:id="l127">Prendre part la premiere aux douceurs de ma gloire,</l>
             <l n="128" xml:id="l128">Voir soudain vostre espoux plein d’honneur et d’amour</l>
@@ -1068,12 +1065,12 @@
             <l n="131" xml:id="l131">Venir mettre à vos pieds les lauriers de sa teste.</l>
             <l n="132" xml:id="l132">Troye est à bas, qui peut empescher ton retour ?</l>
             <l n="133" xml:id="l133">Est-ce ta mort ? non, non, ma mort l’auroit suivie,</l>
-            <l n="134" xml:id="l134">Puisque je suis en vie</l>
-            <l part="Y">Tu vis ; mais sans amour.</l>
+            <l n="134" xml:id="l134" part="I">Puisque je suis en vie</l>
+            <l part="F">Tu vis ; mais sans amour.</l>
             <l n="135" xml:id="l135">Sans doute <ref target="#ingrat">ingrat*</ref> Ulisse ; et quelqu’autre beauté</l>
             <l n="136" xml:id="l136">Pour vanger Ilion en soüillant  ta victoire</l>
-            <l n="137" xml:id="l137">Te dérobe la gloire</l>
-            <l part="Y">De ta fidélité.</l>
+            <l n="137" xml:id="l137" part="I">Te dérobe la gloire</l>
+            <l part="F">De ta fidélité.</l>
             <l n="138" xml:id="l138">Helas ! c’en estoit fait, espouse trop fidelle,</l>
             <l n="139" xml:id="l139">J’allois gouster l’<ref target="#appas">appas*</ref> d’une <ref target="#flamme">flamme*</ref> nouvelle,</l>
             <l n="140" xml:id="l140">Si vostre souvenir rappellant ma raison</l>
@@ -1082,10 +1079,10 @@
             <l n="143" xml:id="l143">Retrace avec douleur l’image de mon crime,</l>
             <l n="144" xml:id="l144">M’en presente l’horreur, et me rend en ce jour</l>
             <l n="145" xml:id="l145">Ma premiere innocence, et ma premiere amour<note n="97" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, « amour » au singulier pouvait être aussi bien féminin que masculin tandis qu’au pluriel il est toujours féminin, aujourd’hui encore.</note>.</l>
-            <l n="146" xml:id="l146">L’estat où me reduit ce soupçon odieux <pb n="10"/></l>
+            <l n="146" xml:id="l146">L’estat où me reduit ce soupçon odieux<pb n="10"/></l>
             <l n="147" xml:id="l147">Pousse dans le tombeau Telemaque &amp; Laërte ;</l>
-            <l n="148" xml:id="l148">Viens empescher leur perte,</l>
-            <l part="Y">Ou nous fermer les yeux.</l>
+            <l n="148" xml:id="l148" part="I">Viens empescher leur perte,</l>
+            <l part="F">Ou nous fermer les yeux.</l>
             <l n="149" xml:id="l149">Ah ! vous ne mourrez point, je vay par ma presence</l>
             <l n="150" xml:id="l150">De vostre desespoir vaincre la violence.</l>
             <l n="151" xml:id="l151">Resistez, Penelope, on va vous secourir.</l>
@@ -1093,17 +1090,17 @@
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l n="153" xml:id="l153">Seigneur…</l>
+            <l n="153" xml:id="l153" part="I">Seigneur…</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l part="Y"><space/><space/>N’oppose point à mon impatience</l>
+            <l part="F">N’oppose point à mon impatience</l>
             <l n="154" xml:id="l154">Qu’on ne peut de Circé tromper la defiance,</l>
             <l n="155" xml:id="l155">Qu’on nous fait observer, que ces lieux sont gardez ;</l>
             <l n="156" xml:id="l156">Que de cent yeux veillans nos pas sont regardez,</l>
             <l n="157" xml:id="l157">Que je suis sans vaisseaux, que ma perte est certaine,</l>
             <l n="158" xml:id="l158">Si l’amour de Circé se convertit en haine.</l>
-            <l n="159" xml:id="l159"><space>   </space>J’oppose à tes raisons ma prudence et ma <ref target="#foy">foy*</ref> ;</l>
+            <l n="159" xml:id="l159">J’oppose à tes raisons ma prudence et ma <ref target="#foy">foy*</ref> ;</l>
             <l n="160" xml:id="l160">Qui<note n="99" place="bottom">Le « qui » dans cette proposition relative substantive n’a pas de référent syntaxique mais désigne Ulysse et la même construction syntaxique se retrouve au vers 163.</note> fit tant pour les Grecs, peut tout ozer pour soi.</l>
             <l n="161" xml:id="l161">Quand l’amour pourroit moins, ce grand Dieu de miracles ;</l>
             <l n="162" xml:id="l162">Je cognoy mon destin plus fort que ces obstacles<note n="100" place="bottom">Comprendre : Je sais que mon destin est plus fort que ces obstacles.</note>.</l>
@@ -1128,15 +1125,15 @@
             <l n="178" xml:id="l178">D’une fuite, où je voy vostre perte infaillible,</l>
             <l n="179" xml:id="l179">Afin que par les <ref target="#trait">traits*</ref> d’un amour indigné</l>
             <l n="180" xml:id="l180">Ils puissent voir perir ce qu’ils ont épargné,</l>
-            <l n="181" xml:id="l181">Songez…</l>
+            <l n="181" xml:id="l181" part="I">Songez…</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l part="Y"><space/>Cette pitié n’agit que pour vous-mesme,</l>
+            <l part="F">Cette pitié n’agit que pour vous-mesme,</l>
             <l n="182" xml:id="l182">Je sçay vos interests, vous aimez, l’on vous ayme.</l>
             <l n="183" xml:id="l183">C’est ce zele qui fait obstacle à mon retour,</l>
             <l n="184" xml:id="l184">Mais seul, et sans tarder je suivray mon amour.    </l>
-            <l n="185" xml:id="l185"><space>   </space>Mais j’apperçoy Circé. Mes soupirs et mes larmes,</l>
+            <l n="185" xml:id="l185">Mais j’apperçoy Circé. Mes soupirs et mes larmes,</l>
             <l n="186" xml:id="l186"><ref target="#desordre">Desordre*</ref>, desespoirs, invincibles allarmes,</l>
             <l n="187" xml:id="l187">Ramassez dans mon sein toute vostre rigueur,<pb n="12"/></l>
             <l n="188" xml:id="l188">Et cachez à ses yeux le tourment de mon cœur.</l>
@@ -1153,7 +1150,7 @@
             <l n="190" xml:id="l190">Mais tousjours cette <ref target="#ardeur">ardeur*</ref> ne m’a pas <ref target="#prevenir">prevenuë*</ref> :</l>
             <l n="191" xml:id="l191">Je la <ref target="#prevenir">préviens*</ref> souvent, et peut-estre mon cœur</l>
             <l n="192" xml:id="l192">Peut reprocher au vostre un peu plus de froideur.</l>
-            <l n="193" xml:id="l193"><space>   </space>Mais ce visage sombre et couvert de tristesse</l>
+            <l n="193" xml:id="l193">Mais ce visage sombre et couvert de tristesse</l>
             <l n="194" xml:id="l194">Dement l’air dont tantost vous blasmiez ma paresse.</l>
           </sp>
           <sp who="ulisse">
@@ -1181,7 +1178,7 @@
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l n="209" xml:id="l209">Allons.</l>
+            <l n="209" xml:id="l209" part="I">Allons.</l>
           </sp>
         </div>
         <div type="scene">
@@ -1189,34 +1186,34 @@
           <stage>EURILOCHE, LEUCOSIE, PERIMEDE.</stage>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/>Ils sont partis ; approche Perimede.</l>
+            <l part="F">Ils sont partis ; approche Perimede.</l>
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE <hi rend="i">revenant sur ses pas à Euril[oche].</hi><pb n="14"/></speaker>
             <l n="210" xml:id="l210">Quoy vous ne suivez pas ? quel <ref target="#ennuy">ennuy*</ref> vous possede ?</l>
-            <l n="211" xml:id="l211">Qu’est-ce ?</l>
+            <l n="211" xml:id="l211" part="I">Qu’est-ce ?</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/>Helas ! Leucosie, un si grand changement</l>
+            <l part="F">Helas ! Leucosie, un si grand changement</l>
             <l n="212" xml:id="l212">Dans l’estat où je suis n’est pas sans fondement.</l>
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l n="213" xml:id="l213">Ah ! parlez.</l>
+            <l n="213" xml:id="l213" part="I">Ah ! parlez.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/><space/>Puisqu’il faut que je vous éclaircisse,</l>
+            <l part="F">Puisqu’il faut que je vous éclaircisse,</l>
             <l n="214" xml:id="l214">Ulisse veut partir, et je doy suivre Ulisse.</l>
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l n="215" xml:id="l215">Dieux que me dites-vous ?</l>
+            <l n="215" xml:id="l215" part="I">Dieux que me dites-vous ?</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/><space/>Ces <ref target="#climat">climats*</ref> enchantez,</l>
+            <l part="F">Ces <ref target="#climat">climats*</ref> enchantez,</l>
             <l n="216" xml:id="l216">Ces lieux, dont vos attraits augmentent les beautez,</l>
             <l n="217" xml:id="l217">Ces bors delicieux, ce <ref target="#charme">charme*</ref> de nos peines</l>
             <l n="218" xml:id="l218">Pour arrester Ulisse ont de trop foibles chaisnes :</l>
@@ -1244,11 +1241,11 @@
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l n="231" xml:id="l231">Moy, vous fuïr !</l>
+            <l n="231" xml:id="l231" part="I">Moy, vous fuïr !</l>
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l part="Y"><space/><space/>Mais enfin vous quittez ce <ref target="#sejour">sejour*</ref>.</l>
+            <l part="F">Mais enfin vous quittez ce <ref target="#sejour">sejour*</ref>.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
@@ -1367,11 +1364,11 @@
           <sp who="euriloche">
             <speaker>EURIL[OCHE].</speaker>
             <l n="300" xml:id="l300">Je l’ay dit, Perimede, et j’en ay du regret.</l>
-            <l n="301" xml:id="l301">Qu’ay-je fait ?</l>
+            <l n="301" xml:id="l301" part="I">Qu’ay-je fait ?</l>
           </sp>
           <sp who="perimede">
             <speaker>PERIMEDE.<pb n="20"/></speaker>
-            <l part="Y"><space/><space/>Mais, Seigneur, une secrette fuite</l>
+            <l part="F">Mais, Seigneur, une secrette fuite</l>
             <l n="302" xml:id="l302">Peut reparer bien-tost ce manque de conduite.</l>
           </sp>
           <sp who="euriloche">
@@ -1394,7 +1391,7 @@
           <sp who="euriloche">
             <speaker>EURIL[OCHE].</speaker>
             <l n="314" xml:id="l314">Cette ile est moins pour elle un trône qu’un azile.</l>
-            <l n="315" xml:id="l315"><space>   </space>Par cet art merveilleux<note n="110" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, le mot « magie » reste rarement employé, les poètes préférant des mots plus nobles comme celui d’ « art » ou de « savoir » .</note>, par ces divins effets,</l>
+            <l n="315" xml:id="l315">Par cet art merveilleux<note n="110" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, le mot « magie » reste rarement employé, les poètes préférant des mots plus nobles comme celui d’ « art » ou de « savoir » .</note>, par ces divins effets,</l>
             <l n="316" xml:id="l316">(Dont elle fit sur nous d’<ref target="#effroyable">effroyables*</ref> essais,</l>
             <l n="317" xml:id="l317">Quand son rare pouvoir par un fameux miracle,</l>
             <l n="318" xml:id="l318">Fit de nous à nous-mesmes un horrible spectacle,</l>
@@ -1408,7 +1405,7 @@
             <l n="326" xml:id="l326">Sans peine elle occupa la supreme puissance,</l>
             <l n="327" xml:id="l327">Les plus grands de l’estat imputant à bonheur</l>
             <l n="328" xml:id="l328">De luy voir gouverner l’Empire de sa sœur.</l>
-            <l n="329" xml:id="l329"><space>   </space>Mais de depositaire elle s’erige en Reyne ;</l>
+            <l n="329" xml:id="l329">Mais de depositaire elle s’erige en Reyne ;</l>
             <l n="330" xml:id="l330">Et la soif de garder la grandeur souveraine</l>
             <l n="331" xml:id="l331">Luy faisant écouter cent pensers différens,</l>
             <l n="332" xml:id="l332">Qui sont incessamment du conseil des Tyrans,</l>
@@ -1416,7 +1413,7 @@
             <l n="334" xml:id="l334">Cet obstacle à mes voeux laisse encor ma maîtresse*,<note n="114" place="bottom">Comprendre : « Cet obstacle, qui laisse encore Phaëtuse sans époux, fait que je souhaite toujours l’épouser » .</note></l>
             <l n="335" xml:id="l335">Et me fait esperer de pouvoir quelque jour</l>
             <l n="336" xml:id="l336">Ruiner d’Elpenor la <ref target="#fortune">fortune*</ref> et l’amour.</l>
-            <l n="337" xml:id="l337"><space>   </space>Dans ce dessein, amy, j’ay besoin de ton aide,</l>
+            <l n="337" xml:id="l337">Dans ce dessein, amy, j’ay besoin de ton aide,</l>
             <l n="338" xml:id="l338">Va le voir de ma part, fais luy voir Perimede,</l>
             <l n="339" xml:id="l339">Que sans honte il ne peut <ref target="#souffrir">souffrir*</ref> Circé regner,</l>
             <l n="340" xml:id="l340">S’il attente<note n="115" place="bottom">À propos de la construction du verbe « attenter » Haase indique qu’il est « très fréquent comme verbe transitif » . L’emploi absolu est donc rare et suggère une éventuelle coquille, qui peut porter sur l’oubli du complément d’objet : « s’il l’attente », ou sur le verbe lui-même, que l’on pourrait remplacer par « s’il attend » sans que cela ne nuise au sens de la phrase. </note> il se perd, et s’il l’ose épargner</l>
@@ -1425,11 +1422,11 @@
           </sp>
           <sp who="perimede">
             <speaker>PERIMEDE.</speaker>
-            <l n="343" xml:id="l343">Que voyons-nous, Seigneur ?</l>
+            <l n="343" xml:id="l343" part="I">Que voyons-nous, Seigneur ?</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURIL[OCHE].<pb n="22"/></speaker>
-            <l part="Y"><space/><space/>Circé dans ce vaisseau</l>
+            <l part="F">Circé dans ce vaisseau</l>
             <l n="344" xml:id="l344">Prepare à son Ulisse un plaisir fort nouveau.</l>
             <l n="345" xml:id="l345">Desja dessus les eaux j’apperçoy les Syrenes</l>
             <l n="346" xml:id="l346">Qui s’en vont soupirer leurs amoureuses peines.</l>
@@ -1461,8 +1458,8 @@
           <l n="356" xml:id="l356">Frappe ces petits Dieux, ces Tritons insensibles,</l>
           <l n="357" xml:id="l357">Force-les d’adorer ce qu’ils osent blâmer,</l>
           <l n="358" xml:id="l358">Et punis leur orgueil de nous avoir <ref target="#charmer">charmees*</ref></l>
-          <l n="359" xml:id="l359"><space>          </space>Du mal que nous souffrons d’aimer,</l>
-          <l n="360" xml:id="l360"><space>         </space>Et de n’estre jamais aymees.</l>
+          <l n="359" xml:id="l359">Du mal que nous souffrons d’aimer,</l>
+          <l n="360" xml:id="l360">Et de n’estre jamais aymees.</l>
         </div>
         <div type="scene">
           <head>SCENE IX.</head>
@@ -1484,7 +1481,7 @@
             <l n="370" xml:id="l370">Toutes deux en ces lieux eurent une autre mère,</l>
             <l n="371" xml:id="l371">Où Phaëtuse aynée emporte sur sa sœur</l>
             <l n="372" xml:id="l372">L’espoir d’avoir un jour la supreme grandeur.</l>
-            <l n="373" xml:id="l373"><space>    </space>Ainsi pour satisfaire à mon amour extréme,</l>
+            <l n="373" xml:id="l373">Ainsi pour satisfaire à mon amour extréme,</l>
             <l n="374" xml:id="l374">Les Dieux dedans cette ile ont mis tout ce que j’ayme.</l>
             <l n="375" xml:id="l375">Il est vray que ces Dieux jaloux de mes plaisirs</l>
             <l n="376" xml:id="l376">Divisent en trois sœurs l’objet de mes desirs,</l>
@@ -1509,7 +1506,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE  II. <pb n="D ; 25"/></head>
+        <head>ACTE  II.<pb n="D ; 25"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>ELPENOR, PHAETUSE.</stage>
@@ -1528,7 +1525,7 @@
             <l n="402" xml:id="l402">A quel aimable exceds de gloire et d’allegresse</l>
             <l n="403" xml:id="l403">Quand j’attendois le moins un bonheur si charmant,</l>
             <l n="404" xml:id="l404">Avez-vous élevé ce bien-heureux <ref target="#amant">amant*</ref> !</l>
-            <l n="405" xml:id="l405">Quel sort pourroit Princesse égaler ma <ref target="#fortune">fortune*</ref> ? <pb n="26"/></l>
+            <l n="405" xml:id="l405">Quel sort pourroit Princesse égaler ma <ref target="#fortune">fortune*</ref> ?<pb n="26"/></l>
             <l n="406" xml:id="l406">Si d’un succez commun la joye estoit commune.</l>
           </sp>
           <sp who="phaetuse">
@@ -1612,7 +1609,7 @@
           </sp>
           <sp who="elpenor">
             <speaker>ELPENOR.</speaker>
-            <l n="471" xml:id="l471">Je sçay que ce dessein est hardi, perilleux, <pb n="29"/></l>
+            <l n="471" xml:id="l471">Je sçay que ce dessein est hardi, perilleux,<pb n="29"/></l>
             <l n="472" xml:id="l472">Je cognois de Circé le pouvoir merveilleux ;</l>
             <l n="473" xml:id="l473">Mais si de son sçavoir la force m’est connuë,</l>
             <l n="474" xml:id="l474">Je sçais aussi qu’Ulisse à nos yeux l’a vaincuë,</l>
@@ -1637,7 +1634,7 @@
             <l n="490" xml:id="l490">Ce fut une retraite, et non pas une fuite,<note n="126" place="bottom">Phaëtuse qui est le seul personnage de la pièce avec Leucosie à ne pas convoiter la couronne donne une autre version de l’histoire de Circé plus à son avantage. Il est toutefois intéressant de noter que Leucosie, qui se range du côté d’Euriloche, la voit elle aussi comme un tyran (v. 659-660)</note></l>
             <l n="491" xml:id="l491">Lasse de commander à ce peuple sans <ref target="#foy">foy*</ref></l>
             <l n="492" xml:id="l492">Qui l’accusoit d’avoir empoisonné son Roy ;</l>
-            <l n="493" xml:id="l493">D’un <ref target="#barbare">barbare*</ref> <ref target="#climat">climat*</ref>, d’une terre infertille, <pb n="30"/></l>
+            <l n="493" xml:id="l493">D’un <ref target="#barbare">barbare*</ref> <ref target="#climat">climat*</ref>, d’une terre infertille,<pb n="30"/></l>
             <l n="494" xml:id="l494">Son destin ou son choix la poussa dans cette isle ;</l>
             <l n="495" xml:id="l495">Où puisque la Couronne a peu la contenter,</l>
             <l n="496" xml:id="l496">Il n’est <ref target="#effort">effort*</ref> humain qui la luy puisse oster ;</l>
@@ -1710,16 +1707,16 @@
           <sp who="euriloche">
             <speaker>EURILOCHE <hi rend="i">à Phaëtuse.</hi></speaker>
             <l n="543" xml:id="l543">Je treuve qu’il en use un peu bien librement.</l>
-            <l n="544" xml:id="l544">Vous suis-je…</l>
+            <l n="544" xml:id="l544" part="I">Vous suis-je…</l>
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE.</speaker>
-            <l part="Y"><space/><space/>Il a parlé selon mon sentiment.</l>
+            <l part="F">Il a parlé selon mon sentiment.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.<pb n="E ; 33"/></speaker>
             <l n="545" xml:id="l545">Au moins c’est me traiter sans fard, sans complaisance.</l>
-            <l n="546" xml:id="l546"><space>   </space>Mais qui vous fait si fort detester ma presence</l>
+            <l n="546" xml:id="l546">Mais qui vous fait si fort detester ma presence</l>
             <l n="547" xml:id="l547">Pour traiter vos amours le temps ne manque pas.</l>
           </sp>
           <sp who="phaetuse">
@@ -1755,7 +1752,7 @@
             <l n="564" xml:id="l564">En effet, et vous plaire est un si grand bonheur</l>
             <l n="565" xml:id="l565">Que c’est orgueil de croire une telle conqueste ;</l>
             <l n="566" xml:id="l566">Que je plaindrois ma sœur, si ses yeux l’avoient faite !</l>
-            <l n="567" xml:id="l567"><space>   </space>Elle le croit peut-estre, et vous vous en vantez,</l>
+            <l n="567" xml:id="l567">Elle le croit peut-estre, et vous vous en vantez,</l>
             <l n="568" xml:id="l568">Mais nous arresteront le cours de ses <ref target="#bonte">bontez*</ref> :</l>
             <l n="569" xml:id="l569">Leucosie apprendra qu’elle s’est <ref target="#abuser">abusée*</ref>,</l>
             <l n="570" xml:id="l570">Vous captiver n’est pas une victoire aisée,</l>
@@ -1770,13 +1767,13 @@
             <l n="576" xml:id="l576">Mais vous le condamnez ; c’est pourquoy vostre <ref target="#amant">amant*</ref></l>
             <l n="577" xml:id="l577">Laisse si volontiers entre les mains d’une autre</l>
             <l n="578" xml:id="l578">Le sceptre de ces lieux, que les Dieux ont fait vostre.</l>
-            <l n="579" xml:id="l579">J’admire sa <ref target="#vertu">vertu*</ref>.</l>
+            <l n="579" xml:id="l579" part="I">J’admire sa <ref target="#vertu">vertu*</ref>.</l>
           </sp>
           <sp who="elpenor">
             <speaker>ELPENOR <hi rend="i">à Phaëtuse.</hi></speaker>
-            <l part="Y"><space/><space/>Voyez à quels tourmens*</l>
+            <l part="F">Voyez à quels tourmens*</l>
             <l n="580" xml:id="l580">M’expose la rigueur de vos commandemens.</l>
-            <l n="581" xml:id="l581">Que puis-je repliquer à cette raillerie ? <pb n="35"/></l>
+            <l n="581" xml:id="l581">Que puis-je repliquer à cette raillerie ?<pb n="35"/></l>
             <l n="582" xml:id="l582">Elle est juste ; ah ! <ref target="#souffrir">souffrez*</ref>, si vous aymez ma vie<note n="131" place="bottom">Il ne s’agit pas de lui laisser la vie ou de la lui ôter et il faut comprendre «  si vous aimez ma personne » .</note></l>
             <l n="583" xml:id="l583">Que j’ayme mon honneur, je voy qu’il est perdu</l>
             <l n="584" xml:id="l584">Si par mes mains le sceptre aux vostres n’est rendu.</l>
@@ -1798,7 +1795,7 @@
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
             <l n="590" xml:id="l590">Tout l’honneur d’un <ref target="#amant">amant*</ref> est dans l’obeissance,</l>
-            <l n="591" xml:id="l591"><space>   </space>Cependant pour tâcher  de r’avoir vos estats</l>
+            <l n="591" xml:id="l591">Cependant pour tâcher  de r’avoir vos estats</l>
             <l n="592" xml:id="l592">Acceptez le secours que vous offre mon bras.</l>
             <l n="593" xml:id="l593">Pour servir ma Princesse il n’est rien que je n’ose</l>
             <l n="594" xml:id="l594">Et ne permettez pas que vostre <ref target="#amant">amant*</ref> s’expose.</l>
@@ -1822,31 +1819,31 @@
             <l n="600" xml:id="l600">Ah ! ce n’est pas de vous que je le veux sçavoir.</l>
             <l n="601" xml:id="l601">Et ce discours enfin commence à me deplaire ;</l>
             <l n="602" xml:id="l602">Apprenez à parler, ou songez à vous taire.</l>
-            <l n="603" xml:id="l603">Sans le respect…</l>
+            <l n="603" xml:id="l603" part="I">Sans le respect…</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/>Calmez ce dangereux courroux.</l>
+            <l part="F">Calmez ce dangereux courroux.</l>
           </sp>
           <sp who="elpenor">
             <speaker>ELPENOR.</speaker>
-            <l n="604" xml:id="l604">C’en est trop.</l>
+            <l n="604" xml:id="l604" part="I">C’en est trop.</l>
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE <hi rend="i">à Elpenor</hi>.</speaker>
-            <l part="Y"><space/><space/>La <ref target="#querelle">querelle*</ref> est à moy : laissez-nous.</l>
+            <l part="F">La <ref target="#querelle">querelle*</ref> est à moy : laissez-nous.</l>
           </sp>
           <sp who="elpenor">
             <speaker>ELPENOR.</speaker>
-            <l n="605" xml:id="l605"><ref target="#souffrir">Souffrez*</ref>…</l>
+            <l n="605" xml:id="l605" part="I"><ref target="#souffrir">Souffrez*</ref>…</l>
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE.<pb n="37"/></speaker>
-            <l part="Y"><space/><space/>Obeissez.</l>
+            <l part="M">Obeissez.</l>
           </sp>
           <sp who="elpenor">
             <speaker>ELPENOR.</speaker>
-            <l part="Y"><space/><space/>Dieux ! quelle violence ?<note n="135" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, la ponctuation reste flottante pour ce qui est du point d’interrogation et du point d’exclamation. Le point d’interrogation dans ce vers ne signale pas une question mais marque plutôt l’étonnement d’Elpenor qui n’attend aucune réponse et s’exclame avant de quitter la scène.</note></l>
+            <l part="F">Dieux ! quelle violence ?<note n="135" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, la ponctuation reste flottante pour ce qui est du point d’interrogation et du point d’exclamation. Le point d’interrogation dans ce vers ne signale pas une question mais marque plutôt l’étonnement d’Elpenor qui n’attend aucune réponse et s’exclame avant de quitter la scène.</note></l>
           </sp>
         </div>
         <div type="scene">
@@ -1869,7 +1866,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IV. <pb n="38"/></head>
+          <head>SCENE IV.<pb n="38"/></head>
           <sp who="euriloche">
             <speaker>EURILOCHE <hi rend="i">seul.</hi></speaker>
             <l n="615" xml:id="l615">Qu’ay-je fait imprudent !<note n="136" place="bottom">Cf. note 16. Le point d’interrogation serait plus approprié dans cet hémistiche et s’inscrirait en toute logique dans la succession d’interrogations qui ouvre la réplique d’Euriloche.</note> où me suis-je emporté ?</l>
@@ -1886,7 +1883,7 @@
             <l n="626" xml:id="l626">J’ayme mieux son courroux que son indifference,</l>
             <l n="627" xml:id="l627">Tandis qu’elle me hait, j’occupe tout son cœur ;</l>
             <l n="628" xml:id="l628">Et d’un <ref target="#rival">Rival*</ref> aimé je trouble le bonheur.</l>
-            <l n="629" xml:id="l629"><space>   </space>Mais de ce grand esclat tu dois craindre la suite,</l>
+            <l n="629" xml:id="l629">Mais de ce grand esclat tu dois craindre la suite,</l>
             <l n="630" xml:id="l630">Ah ! cette indigne peur fait honte à ma conduite.</l>
             <l n="631" xml:id="l631">Plus mes troubles sont grands, plus je sens que mon cœur</l>
             <l n="632" xml:id="l632">Se roidissant contr’eux augmente sa vigueur.<pb n="39"/></l>
@@ -1960,11 +1957,11 @@
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l n="666" xml:id="l666">Comment donc ?</l>
+            <l n="666" xml:id="l666" part="I">Comment donc ?</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/><space/>Il m’apprend, que je suis <ref target="#miserable">miserable*</ref>,</l>
+            <l part="F">Il m’apprend, que je suis <ref target="#miserable">miserable*</ref>,</l>
             <l n="667" xml:id="l667">Je le voy dans le port où tendoient ses desirs,</l>
             <l n="668" xml:id="l668">Et je me vois encor aux larmes, aux souspirs,</l>
             <l n="669" xml:id="l669">Triste, <ref target="#confus">confus*</ref>, reduit à perdre l’esperance.</l>
@@ -1972,11 +1969,11 @@
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
             <l n="670" xml:id="l670">Un semblable bonheur est en vostre puissance,</l>
-            <l n="671" xml:id="l671">Il ne tiendra qu’à vous.</l>
+            <l n="671" xml:id="l671" part="I">Il ne tiendra qu’à vous.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/><space/>A moy Princesse ? helas !<pb n="42"/></l>
+            <l part="F">A moy Princesse ? helas !<pb n="42"/></l>
             <l n="672" xml:id="l672">Pour avoir son bonheur, que ne ferois-je pas ?</l>
           </sp>
           <sp who="leucosie">
@@ -2004,20 +2001,20 @@
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l n="681" xml:id="l681">Ouy j’en ay.</l>
+            <l n="681" xml:id="l681" part="I">Ouy j’en ay.</l>
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.<pb n="43"/></speaker>
-            <l part="Y"><space/><space/>L’infidelle, ô ! soubçon<note n="140" place="bottom"> Conformément à l’évolution phonétique des mots, le terme issu du latin <hi rend="i">suspicio</hi> s’écrivait encore avec un « b » que nous avons conservé.</note> qui me tuë.</l>
+            <l part="F">L’infidelle, ô ! soubçon<note n="140" place="bottom"> Conformément à l’évolution phonétique des mots, le terme issu du latin <hi rend="i">suspicio</hi> s’écrivait encore avec un « b » que nous avons conservé.</note> qui me tuë.</l>
             <l n="682" xml:id="l682">Desja depuis long-temps je m’en suis apperceuë ;</l>
             <l n="683" xml:id="l683">Je ne m’estonne point si vous versiez des pleurs,</l>
             <l n="684" xml:id="l684">Et si l’<ref target="#heur">heur*</ref> d’Elpenor a causé vos douleurs ;</l>
             <l n="685" xml:id="l685">En effet son <ref target="#hymen">hymen*</ref> est digne de vos larmes,</l>
-            <l n="686" xml:id="l686">L’<ref target="#ingrat">ingrat*</ref>.</l>
+            <l n="686" xml:id="l686" part="I">L’<ref target="#ingrat">ingrat*</ref>.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/>A mon malheur prestés encor des armes</l>
+            <l part="F">A mon malheur prestés encor des armes</l>
             <l n="687" xml:id="l687">Phaëtuse Elpenor, et les Dieux en courroux</l>
             <l n="688" xml:id="l688">N’estoient point assez forts pour me perdre sans vous,</l>
             <l n="689" xml:id="l689">Il falloit, pour m’oster le repos et la vie</l>
@@ -2035,7 +2032,7 @@
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l n="701" xml:id="l701">Pardonnez un soubçon qu’authorisoient vos plaintes, <pb n="44"/></l>
+            <l n="701" xml:id="l701">Pardonnez un soubçon qu’authorisoient vos plaintes,<pb n="44"/></l>
             <l n="702" xml:id="l702">Qui m’a fait plus souffrir, qu’à vous toutes vos craintes ;</l>
             <l n="703" xml:id="l703">Vous n’estes point <ref target="#ingrat">ingrat*</ref>, et je me croy permis</l>
             <l n="704" xml:id="l704">De me joindre avec vous contre vos ennemys,</l>
@@ -2085,11 +2082,11 @@
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l n="733" xml:id="l733">O Dieux !</l>
+            <l n="733" xml:id="l733" part="I">O Dieux !</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.<pb n="46"/></speaker>
-            <l part="Y"><space/>Pour <ref target="#prevenir">prevenir*</ref> ma mort ou son suplice</l>
+            <l part="F">Pour <ref target="#prevenir">prevenir*</ref> ma mort ou son suplice</l>
             <l n="734" xml:id="l734">Ouvrez quelque chemin à la fuite d’Ulisse.</l>
             <l n="735" xml:id="l735">Si tantost nostre amour a trahi son dessein</l>
             <l n="736" xml:id="l736">Pour fuïr, ce mesme amour luy doit prester la main.<note n="141" place="bottom">Le point n’apparaît pas dans l’un des exemplaires consultés sans qu’il soit possible de savoir lequel est « fautif » . Sa présence dans l’exemplaire de référence n’étant pas aberrante, nous l’avons laissé.</note></l>
@@ -2119,7 +2116,7 @@
           <sp who="euriloche">
             <speaker>EURILOCHE.<pb n="47"/></speaker>
             <l n="750" xml:id="l750">Penelope, Princesse est-elle moins sensible ?</l>
-            <l n="751" xml:id="l751"><space>   </space>Mais de plus grands motifs demandent ce depart,</l>
+            <l n="751" xml:id="l751">Mais de plus grands motifs demandent ce depart,</l>
             <l n="752" xml:id="l752">Nostre gloire le veut, elle y prent<note n="143" place="bottom">Orthographe archaïque du verbe « prendre » à la troisième personne du singulier : la dentale « d » était assimilée par le –t désinentiel.</note> tant de part,</l>
             <l n="753" xml:id="l753">Qu’au peril qu’elle court la raison m’abandonne,</l>
             <l n="754" xml:id="l754">Mon ennemy mortel pretend à la Couronne,</l>
@@ -2138,16 +2135,16 @@
             <l n="764" xml:id="l764">A ce cruel depart pourrois-je consentir ?</l>
             <l n="765" xml:id="l765">Non, non, et puisqu’il faut monstrer que je vous ayme,</l>
             <l n="766" xml:id="l766">De tout ce que je puis disposer en vous mesme,</l>
-            <l n="767" xml:id="l767">Je suis preste pour vous…</l>
+            <l n="767" xml:id="l767" part="I">Je suis preste pour vous…</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/><space/>Princesse c’est assez,</l>
+            <l part="F">Princesse c’est assez,</l>
             <l n="768" xml:id="l768">Et vous faites pour moy plus que vous ne pensez.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VI. <pb n="48"/></head>
+          <head>SCENE VI.<pb n="48"/></head>
           <sp who="circe">
             <speaker>CIRCÉ <hi rend="i">dans l’antre du sommeil.</hi></speaker>
             <l n="769" xml:id="l769">Foible et dernier secours, que mon amour lassée*</l>
@@ -2170,7 +2167,7 @@
             <l n="786" xml:id="l786">Ulisse en a jouy sans en craindre les peines ;</l>
             <l n="787" xml:id="l787">Et pour tout dire enfin ma <ref target="#flamme">flame*</ref> et mon espoir</l>
             <l n="788" xml:id="l788">Ont consommé<note n="146" place="bottom">Consommer : « épuiser ». À cette époque on employait indifféremment « consommer » pour « consumer » (voir les vers 830, 1216, 1428).</note> pour luy ma force et mon pouvoir.</l>
-            <l n="789" xml:id="l789"><space>   </space>Si j’ay fait plus qu’un Dieu pour signaler ma <ref target="#flamme">flame*</ref>,</l>
+            <l n="789" xml:id="l789">Si j’ay fait plus qu’un Dieu pour signaler ma <ref target="#flamme">flame*</ref>,</l>
             <l n="790" xml:id="l790">Par mes soubmissions<note n="147" place="bottom"> La lettre « b » est une graphie étymologique, le soumission étant issu du latin <hi rend="i">submissio</hi>, Gaffiot lui donne trois sens : « abaissement de la voix », « simplicité du style » et infériorité.</note> je fais plus qu’une femme,</l>
             <l n="791" xml:id="l791">Et j’assemble pour luy tous les <ref target="#trait">traits*</ref>, qu’à leur tour</l>
             <l n="792" xml:id="l792">Mon sexe et mon sçavoir prétent à mon amour.</l>
@@ -2182,7 +2179,7 @@
             <l n="798" xml:id="l798">J’entre dedans son cœur, j’en deviens la maistresse,</l>
             <l n="799" xml:id="l799">Et quand par de tels <ref target="#soin">soins*</ref> je sens rougir mon front,</l>
             <l n="800" xml:id="l800">Le prix de la conqueste en efface l’affront.</l>
-            <l n="801" xml:id="l801"><space>   </space>Parmy tant de douceurs où mon ame se noye,</l>
+            <l n="801" xml:id="l801">Parmy tant de douceurs où mon ame se noye,</l>
             <l n="802" xml:id="l802">Dans ces divins <ref target="#transport">transports*</ref> d’esperance et de joye,</l>
             <l n="803" xml:id="l803">D’un autre amour banny l’inopiné retour</l>
             <l n="804" xml:id="l804">A changé tout Ulisse et trahy mon amour :</l>
@@ -2191,14 +2188,14 @@
             <l n="807" xml:id="l807">Penelope elle seule a fait evanoüir</l>
             <l n="808" xml:id="l808">Ce bonheur souhaité, dont ils alloient joüir ;</l>
             <l n="809" xml:id="l809">De tant d’<ref target="#illustre">illustres*</ref> faits, de ces rares merveilles</l>
-            <l n="810" xml:id="l810">Le <ref target="#charme">charme*</ref> ou la terreur des yeux et des oreilles, <pb n="50"/></l>
+            <l n="810" xml:id="l810">Le <ref target="#charme">charme*</ref> ou la terreur des yeux et des oreilles,<pb n="50"/></l>
             <l n="811" xml:id="l811">Je n’en recueille rien que le seul desespoir,</l>
             <l n="812" xml:id="l812">Que la honte de voir perir tout mon pouvoir.</l>
             <l n="813" xml:id="l813">Un seul moyen me reste apres cette disgrace</l>
             <l n="814" xml:id="l814">Pour rentrer dans son cœur et m’y rendre ma place,</l>
             <l n="815" xml:id="l815">Penelope, me l’oste, et pour l’en effacer</l>
             <l n="816" xml:id="l816">C’est au Dieu du sommeil<note n="148" place="bottom">C’est-à-dire Morphée, le fils de la nuit.</note> que je veux m’addresser.</l>
-            <l n="817" xml:id="l817"><space>   </space>Sommeil, qui de cet antre environné de songes</l>
+            <l n="817" xml:id="l817">Sommeil, qui de cet antre environné de songes</l>
             <l n="818" xml:id="l818">Dans l’esprit des mortels jettez mille mensonges.</l>
             <l n="819" xml:id="l819">Je le vois, approchons. A quoy me reduis-tu</l>
             <l n="820" xml:id="l820">Amour qui vas trahir ma gloire et ma <ref target="#vertu">vertu*</ref> ?</l>
@@ -2218,11 +2215,11 @@
             <l n="826" xml:id="l826">Je cherche du repos à mon inquietude,</l>
             <l n="827" xml:id="l827">Et dans ce triste estat c’est de toy seulement</l>
             <l n="828" xml:id="l828">Que je puis esperer quelque soulagement.</l>
-            <l n="829" xml:id="l829"><space>   </space>Quand je voy sans effet mon adresse epuisée</l>
+            <l n="829" xml:id="l829">Quand je voy sans effet mon adresse epuisée</l>
             <l n="830" xml:id="l830">Tous mes <ref target="#soin">soins*</ref> consommez et ma puissance usée,</l>
             <l n="831" xml:id="l831">Seul tu peus me servir par des <ref target="#effort">efforts*</ref> nouveaux :</l>
             <l n="832" xml:id="l832">Mais pour me secourir, apprens quels sont mes <ref target="#mal">maux*</ref>.</l>
-            <l n="833" xml:id="l833"><space>   </space>J’ayme ; mais j’ayme Ulysse, et si j’en fus aymée,</l>
+            <l n="833" xml:id="l833">J’ayme ; mais j’ayme Ulysse, et si j’en fus aymée,</l>
             <l n="834" xml:id="l834">Si par ce grand bonheur mon amour fut <ref target="#charme">charmée*</ref>,</l>
             <l n="835" xml:id="l835">Cet espoir glorieux en devient plus <ref target="#confus">confus*</ref>,</l>
             <l n="836" xml:id="l836">Quand je voy qu’il m’aymoit, et qu’il ne m’ayme plus.</l>
@@ -2255,18 +2252,18 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE III. <pb n="53"/></head>
+        <head>ACTE III.<pb n="53"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage> La scene est dans le Palais de Circé.</stage>
           <stage> CIRCÉ, ULISSE, EURILOCHE.</stage>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l n="855" xml:id="l855">Que faites-vous, Ulisse ?</l>
+            <l n="855" xml:id="l855" part="I">Que faites-vous, Ulisse ?</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l part="Y"><space/><space/>Oüy Reyne à vos genoux</l>
+            <l part="F">Oüy Reyne à vos genoux</l>
             <l n="856" xml:id="l856">Pour ces deux criminels, à vostre sœur, à vous,</l>
             <l n="857" xml:id="l857">De leur peu de respect je vous demande grace,</l>
             <l n="858" xml:id="l858">Euriloche a failly ; mais malgré son audace,</l>
@@ -2279,7 +2276,7 @@
             <l n="862" xml:id="l862">Pour Circé c’en est trop ; assez pour Phaëtuse ;</l>
             <l n="863" xml:id="l863">Pour si juste qu’il soit, il n’est point de courroux,</l>
             <l n="864" xml:id="l864">Qui puisse vous dedire et tenir contre vous.</l>
-            <l n="865" xml:id="l865"><space>   </space>Mais donnons quelque espace<note n="149" place="bottom">Espace : « se dit aussi d’un intervalle de temps » (Furet.)</note> au cours de sa colere :</l>
+            <l n="865" xml:id="l865">Mais donnons quelque espace<note n="149" place="bottom">Espace : « se dit aussi d’un intervalle de temps » (Furet.)</note> au cours de sa colere :</l>
             <l n="866" xml:id="l866"><ref target="#cependant">Cependant*</ref> mon pouvoir dans le soin de vous plaire</l>
             <l n="867" xml:id="l867">Desarme en Elpenor l’<ref target="#ardeur">ardeur*</ref> de se vanger,</l>
             <l n="868" xml:id="l868">Qui mettoit l’un ou l’autre et tous deux en danger ;</l>
@@ -2293,19 +2290,19 @@
             <speaker>EURILOCHE.</speaker>
             <l n="873" xml:id="l873">Que j’evite à ses yeux passant pour sa <ref target="#maistresse">maistresse*</ref></l>
             <l n="874" xml:id="l874">Les <ref target="#trait">traits*</ref> de sa <ref target="#fureur">fureur*</ref> ! ah ! c’est trop de foiblesse.</l>
-            <l n="875" xml:id="l875">Non, non, Madame, il faut….</l>
+            <l n="875" xml:id="l875" part="I">Non, non, Madame, il faut….</l>
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l part="Y"><space/><space/>Je sçay vostre valeur.</l>
+            <l part="F">Je sçay vostre valeur.</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l n="876" xml:id="l876">Euriloche, <ref target="#souffrir">souffrez*</ref>.</l>
+            <l n="876" xml:id="l876" part="I">Euriloche, <ref target="#souffrir">souffrez*</ref>.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/><space/>J’obeiray, Seigneur.<pb n="55"/></l>
+            <l part="F">J’obeiray, Seigneur.<pb n="55"/></l>
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
@@ -2328,7 +2325,7 @@
             <l n="890" xml:id="l890">J’ay pour vous du respect, non de la resistance ;</l>
             <l n="891" xml:id="l891">Sans attendre l’effet de vostre grand pouvoir ;</l>
             <l n="892" xml:id="l892">Mon cœur à vos <ref target="#bonte">bontez*</ref> rend ce qu’il croit devoir.</l>
-            <l n="893" xml:id="l893"><space>   </space>Le temps vient grande Reyne, où vous allez cognoistre</l>
+            <l n="893" xml:id="l893">Le temps vient grande Reyne, où vous allez cognoistre</l>
             <l n="894" xml:id="l894">Quels sentimens en moy les vostres ont fait naistre, </l>
             <l n="895" xml:id="l895">Quelle recognoissance Ulisse est preparé<pb n="56"/></l>
             <l n="896" xml:id="l896">De rendre à vos <ref target="#faveur">faveurs*</ref>, qui l’ont tant honoré.</l>
@@ -2367,7 +2364,7 @@
             <l n="923" xml:id="l923">J’ose encor destiner à de nouveaux exploits</l>
             <l n="924" xml:id="l924">Ce grand pouvoir pour moy signalé tant de fois.</l>
             <l n="925" xml:id="l925">Mais ne refusez pas ma <ref target="#genereux">genereuse*</ref> envie.</l>
-            <l n="926" xml:id="l926"><space>   </space>Je vis Reyne ; et les Dieux en me laissant la vie</l>
+            <l n="926" xml:id="l926">Je vis Reyne ; et les Dieux en me laissant la vie</l>
             <l n="927" xml:id="l927">M’empeschent de revoir ces mortels demy-Dieux,</l>
             <l n="928" xml:id="l928">Que Troye a veu perir par des coups glorieux.<note n="159" place="bottom"> Parmi ces demi-dieux, Achille mort touché à la cheville par la flèche de Pâris qu’Ulysse rencontre dans l’<hi rend="i">Odyssée</hi> quand il descend aux Enfers (<hi rend="i">op. cit.</hi>, Chant XI, v. 466, p. 290) .</note></l>
             <l n="929" xml:id="l929">Je <ref target="#brusler">brusle*</ref> de revoir ces ombres immortelles ;</l>
@@ -2384,7 +2381,7 @@
             <speaker>CIRCÉ.</speaker>
             <l n="938" xml:id="l938">Ouy j’en sens du <ref target="#desordre">desordre*</ref>, et ne puis m’en defendre ;</l>
             <l n="939" xml:id="l939">Alors qu’il faut pour vous consentir un <ref target="#effort">effort*</ref>,</l>
-            <l n="940" xml:id="l940">Qui porte dans mon cœur l’image de la mort. <pb n="58"/></l>
+            <l n="940" xml:id="l940">Qui porte dans mon cœur l’image de la mort.<pb n="58"/></l>
             <l n="941" xml:id="l941">Vous descendre aux Enfers ? à ce penser je tremble ;</l>
             <l n="942" xml:id="l942">Je crains pour vostre perte, et cela luy ressemble.</l>
             <l n="943" xml:id="l943">Puis-je (quelque pouvoir que m’ayent donné les Dieux)</l>
@@ -2436,7 +2433,7 @@
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
             <l n="969" xml:id="l969">En peut-on concevoir dont l’<ref target="#effort">effort*</ref> authorise</l>
-            <l n="970" xml:id="l970">Ce dessein <ref target="#estonnant">estonnant*</ref>, cette <ref target="#estrange">estrange*</ref> entreprise ? <pb n="60"/></l>
+            <l n="970" xml:id="l970">Ce dessein <ref target="#estonnant">estonnant*</ref>, cette <ref target="#estrange">estrange*</ref> entreprise ?<pb n="60"/></l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
@@ -2463,14 +2460,14 @@
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l n="985" xml:id="l985">C’est donc l’effet d’un songe.</l>
+            <l n="985" xml:id="l985" part="I">C’est donc l’effet d’un songe.</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l part="Y"><space/><space/>Il est vray c’est un songe ;<pb n="61"/></l>
+            <l part="F">Il est vray c’est un songe ;<pb n="61"/></l>
             <l n="986" xml:id="l986">Mais trop net, trop suivy, pour le croire un mensonge ;</l>
             <l n="987" xml:id="l987">Celuy-cy ne fuit point aux clartés du reveil.</l>
-            <l n="988" xml:id="l988"><space>   </space>Malgré mes deplaisirs accablé de sommeil</l>
+            <l n="988" xml:id="l988">Malgré mes deplaisirs accablé de sommeil</l>
             <l n="989" xml:id="l989">Je goustois un repos plus grand qu’à l’ordinaire ;</l>
             <l n="990" xml:id="l990">Quand tout à coup frapé d’une image legere,</l>
             <l n="991" xml:id="l991">Je me trouve en des lieux, qui me comblent d’<ref target="#effroy">effroy*</ref>,</l>
@@ -2495,7 +2492,7 @@
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
             <l n="1006" xml:id="l1006">Plus cet endroit est beau, plus je tremble du reste.<pb n=" 62"/></l>
-            <l n="1007" xml:id="l1007"><space>   </space>Observant de plus prés ces lieux de toutes pars</l>
+            <l n="1007" xml:id="l1007">Observant de plus prés ces lieux de toutes pars</l>
             <l n="1008" xml:id="l1008">Un <ref target="#objet">objet*</ref> adorable arreste mes regars.</l>
             <l n="1009" xml:id="l1009">Dieux ! c’estoit Penélope, à sa première veuë</l>
             <l n="1010" xml:id="l1010">D’un <ref target="#transport">transport*</ref> de plaisir mon ame est toute esmuë ;</l>
@@ -2517,7 +2514,7 @@
             <l n="1026" xml:id="l1026">Luy qui n’escoute rien, que sa seule colere</l>
             <l n="1027" xml:id="l1027">Les frape, et fait tomber de deux grands coups mortels</l>
             <l n="1028" xml:id="l1028">Le sang et les plaisirs de ces deux criminels.</l>
-            <l n="1029" xml:id="l1029"><space>   </space>Interdit et surpris de ce grand sacrifice</l>
+            <l n="1029" xml:id="l1029">Interdit et surpris de ce grand sacrifice</l>
             <l n="1030" xml:id="l1030">Je condamne sa rage, et j’ayme leur suplice ;<pb n="63"/></l>
             <l n="1031" xml:id="l1031">Un reste de ma <ref target="#flamme">flamme*</ref>, une mourante <ref target="#ardeur">ardeur*</ref></l>
             <l n="1032" xml:id="l1032">Parle pour Penelope et pleure son malheur ;</l>
@@ -2529,7 +2526,7 @@
             <l n="1038" xml:id="l1038">Mais las ! le mesme instant recommence ma peine,</l>
             <l n="1039" xml:id="l1039">Tant ces objets <ref target="#affreux">affreux*</ref>, que je ne puis banir</l>
             <l n="1040" xml:id="l1040">S’estoient peints vivement dedans mon souvenir.    </l>
-            <l n="1041" xml:id="l1041"><space>   </space>Juge dans quels <ref target="#ennuy">ennuys*</ref> cette image me plonge.</l>
+            <l n="1041" xml:id="l1041">Juge dans quels <ref target="#ennuy">ennuys*</ref> cette image me plonge.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
@@ -2545,7 +2542,7 @@
             <l n="1048" xml:id="l1048">Peut-elle avec effet opposer un espoux,</l>
             <l n="1049" xml:id="l1049">Que trois lustres <note n="165" place="bottom"> Lustre : « ce mot signifie l’espace de cinq ans, mais en ce sens il est poëtique » (Richelet) . Dans l’<hi rend="i">Odyssée</hi>, Ulysse revient à Ithaque après vingt ans d’absence, dix causés par la guerre de Troie et dix autres par ses errances. Boyer opère une approximation poétique afin de respecter cette chronologie.</note>entiers escoulés si loing d’elle</l>
             <l n="1050" xml:id="l1050">Ont fait passer pour mort, ou bien pour infidelle.</l>
-            <l n="1051" xml:id="l1051"><space>   </space>Perimede m’a dit leurs poursuites<note n="166" place="bottom"> Dans l’<hi rend="i">Odyssée</hi> Pénélope est courtisée par de nombreux prétendants qu’elle fait patienter en tissant un linceul le jour et en le défaisant la nuit avec l’espoir qu’Ulysse revienne à temps.</note>, leurs <ref target="#soin">soins*</ref> ;</l>
+            <l n="1051" xml:id="l1051">Perimede m’a dit leurs poursuites<note n="166" place="bottom"> Dans l’<hi rend="i">Odyssée</hi> Pénélope est courtisée par de nombreux prétendants qu’elle fait patienter en tissant un linceul le jour et en le défaisant la nuit avec l’espoir qu’Ulysse revienne à temps.</note>, leurs <ref target="#soin">soins*</ref> ;</l>
             <l n="1052" xml:id="l1052">Il m’en a dit beaucoup, et je n’en croy pas moins.<pb n="64"/></l>
             <l n="1053" xml:id="l1053">Tout soustient mes soubçons sans cesse dans mon ame.</l>
             <l n="1054" xml:id="l1054">Je vois Agamemnon qu’assassine sa femme,</l>
@@ -2581,20 +2578,20 @@
             <l n="1078" xml:id="l1078">Sorte de son <ref target="#desordre">desordre*</ref> et de sa jalouzie.</l>
             <l n="1079" xml:id="l1079">Je puis bien dans l’Enfer descendre sans horreur,</l>
             <l n="1080" xml:id="l1080">Si<note n="168" place="bottom">La conjonction n’a pas une valeur hypothétique mais causale.</note> mes soubçons ont mis un enfer dans mon cœur.</l>
-            <l n="1081" xml:id="l1081"><space>   </space>Au retour nous sçaurons s’il faut revoir la Grece.</l>
+            <l n="1081" xml:id="l1081">Au retour nous sçaurons s’il faut revoir la Grece.</l>
             <l n="1082" xml:id="l1082"><ref target="#cependant">Cependant*</ref> pour tascher d’appaiser la Princesse</l>
             <l n="1083" xml:id="l1083"><ref target="#embrasser">Embrassez*</ref> Elpenor, Circé fera la paix.</l>
-            <l n="1084" xml:id="l1084">Adieu.</l>
+            <l n="1084" xml:id="l1084" part="I">Adieu.</l>
           </sp>
         </div>
         <div type="scene">
           <head>SCENE III.</head>
           <sp who="euriloche">
             <speaker>EURILOCHE <hi rend="i">seul</hi>.</speaker>
-            <l part="Y"><space/>Va, si le Ciel respond à mes souhaits</l>
+            <l part="F">Va, si le Ciel respond à mes souhaits</l>
             <l n="1085" xml:id="l1085">Pour punir tes soubçons et tes extravagances</l>
             <l n="1086" xml:id="l1086">Ton voyage sera plus long que tu ne penses.</l>
-            <l n="1087" xml:id="l1087"><space>   </space><ref target="#cependant">Cependant*</ref> je veux bien <ref target="#embrasser">embrasser*</ref> mon <ref target="#rival">rival*</ref> ;</l>
+            <l n="1087" xml:id="l1087"><ref target="#cependant">Cependant*</ref> je veux bien <ref target="#embrasser">embrasser*</ref> mon <ref target="#rival">rival*</ref> ;</l>
             <l n="1088" xml:id="l1088">Mais d’un <ref target="#embrasser">embrassement*</ref> qui luy sera fatal.<note n="169" place="bottom"> Ces deux vers annoncent le célèbre vers de Racine dans <hi rend="i">Britannicus</hi> prononcé par Néron : « J’embrasse mon rival, mais c’est pour l’étouffer » .</note></l>
             <l n="1089" xml:id="l1089">Mais il paroist, voyons si la Reyne m’<ref target="#abuser">abuse*</ref>,<pb n="66"/></l>
             <l n="1090" xml:id="l1090">Je dois prez d’Elpenor passer pour Phaëtuse ;</l>
@@ -2625,17 +2622,17 @@
             <l n="1102" xml:id="l1102">Seur de n’avoir rien fait qui puisse vous deplaire,</l>
             <l n="1103" xml:id="l1103">Dans cet estonnement ma <ref target="#confus">confuse*</ref> raison</l>
             <l n="1104" xml:id="l1104">Ne la peut imputer, qu’à quelque trahison.</l>
-            <l n="1105" xml:id="l1105">Quoy ? le lache Euriloche…</l>
+            <l n="1105" xml:id="l1105" part="I">Quoy ? le lache Euriloche…</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/><space/>Ah ! ce discours me fasche,</l>
+            <l part="F">Ah ! ce discours me fasche,</l>
             <l n="1106" xml:id="l1106">Euriloche n’est point ny <ref target="#perfide">perfide*</ref> ny lache.</l>
-            <l n="1107" xml:id="l1107">Et…</l>
+            <l n="1107" xml:id="l1107" part="I">Et…</l>
           </sp>
           <sp who="elpenor">
             <speaker>ELPENOR.</speaker>
-            <l part="Y"><space/>Vous le deffendez ? ô ! Dieux, je suis perdu :</l>
+            <l part="F">Vous le deffendez ? ô ! Dieux, je suis perdu :</l>
             <l n="1108" xml:id="l1108">Mais <ref target="#rival">rival*</ref> mon malheur te sera cher vendu.</l>
             <l n="1109" xml:id="l1109">Tu ne jouiras point du fait de ta malice ;</l>
             <l n="1110" xml:id="l1110">Le pouvoir de Circé ny le respect d’Ulysse</l>
@@ -2650,18 +2647,18 @@
           <sp who="elpenor">
             <speaker>ELPENOR.</speaker>
             <l n="1115" xml:id="l1115">Hé bien, puisque ses jours vous sont si precieux</l>
-            <l n="1116" xml:id="l1116">Que qui l’ose attaquer vous devient odieux ; <pb n="68"/></l>
+            <l n="1116" xml:id="l1116">Que qui l’ose attaquer vous devient odieux ;<pb n="68"/></l>
             <l n="1117" xml:id="l1117">Executez vous mesme un Arrest si <ref target="#funeste">funeste*</ref>.</l>
             <l n="1118" xml:id="l1118">Il m’oste vostre cœur, prenez ce qui me reste ;</l>
             <l n="1119" xml:id="l1119">Heureux si par vos mains je pers à vos genoux</l>
             <l n="1120" xml:id="l1120">Des jours que seulement je conservois pour vous.</l>
             <l n="1121" xml:id="l1121">Percez, percez ce cœur, que rien ne vous retienne ;</l>
             <l n="1122" xml:id="l1122">Si vostre main en tremble, employez y la mienne.</l>
-            <l n="1123" xml:id="l1123">Commandez...</l>
+            <l n="1123" xml:id="l1123" part="I">Commandez...</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/><space/>Profitons de sa mortelle erreur.</l>
+            <l part="F">Profitons de sa mortelle erreur.</l>
             <l n="1124" xml:id="l1124">Mais… <ref target="#vertu">vertu*</ref> ridicule ! ah ! suivons ma <ref target="#fureur">fureur*</ref>.</l>
             <l n="1125" xml:id="l1125">Jamais l’occasion ne s’offrira si belle.</l>
             <l n="1126" xml:id="l1126">Dieux Phaëtuse vient et sa sœur avec elle.</l>
@@ -2688,27 +2685,27 @@
           <stage>LEUCOSIE, PHAETUSE.</stage>
           <sp who="leucosie">
             <speaker> LEUCOSIE.</speaker>
-            <l n="1133" xml:id="l1133">Son <ref target="#rival">rival*</ref> ? Euriloche !</l>
+            <l n="1133" xml:id="l1133" part="I">Son <ref target="#rival">rival*</ref> ? Euriloche !</l>
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE.</speaker>
-            <l part="Y"><space/><space/>O ! Dieux quelle menace,</l>
+            <l part="F">O ! Dieux quelle menace,</l>
             <l n="1134" xml:id="l1134">Dequoy vous plaignez vous ? quelle est cette disgrace ?</l>
             <l n="1135" xml:id="l1135">Où fuyez vous ? helas ! je le r’appelle en vain.</l>
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l n="1136" xml:id="l1136">Circé sçaura, ma sœur, empescher son dessein. <pb n="70"/></l>
+            <l n="1136" xml:id="l1136">Circé sçaura, ma sœur, empescher son dessein.<pb n="70"/></l>
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE.</speaker>
             <l n="1137" xml:id="l1137">Elle m’avoit promis d’assoupir sa vengeance,</l>
             <l n="1138" xml:id="l1138">Je vivois en repos apres cette asseurance.</l>
-            <l n="1139" xml:id="l1139">Cependant sa <ref target="#fureur">fureur*</ref>…</l>
+            <l n="1139" xml:id="l1139" part="I">Cependant sa <ref target="#fureur">fureur*</ref>…</l>
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l part="Y"><space/><space/>Vous la craignez à tort ;</l>
+            <l part="F">Vous la craignez à tort ;</l>
             <l n="1140" xml:id="l1140">Euriloche a dequoy repousser son <ref target="#effort">effort*</ref>.</l>
           </sp>
           <sp who="phaetuse">
@@ -2803,11 +2800,11 @@
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE.</speaker>
-            <l n="1207" xml:id="l1207">C’est à vous d’y songer.</l>
+            <l n="1207" xml:id="l1207" part="I">C’est à vous d’y songer.</l>
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l part="Y"><space/><space/>Le conseil en est pris,</l>
+            <l part="F">Le conseil en est pris,</l>
             <l n="1208" xml:id="l1208">Dans ces <ref target="#ressentiment">ressentimens*</ref> Elpenor s’est mespris</l>
             <l n="1209" xml:id="l1209">Il veut perdre Euriloche, et malgré sa complice</l>
             <l n="1210" xml:id="l1210">Il faut qu’il quitte l’isle ou bien qu’il y perisse.<note n="175" place="bottom">La répétition exacte des propos de Phaëtuse (de même au vers 1213) accroît l’intensité dramatique. Les deux sœurs ayant les mêmes résolutions, la mort de l’un des amants apparaît inévitable. </note></l>
@@ -2817,7 +2814,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE IV. <pb n="74"/></head>
+        <head>ACTE IV.<pb n="74"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>La Scene est dans l’Enfer.</stage>
@@ -2833,7 +2830,7 @@
             <l n="1220" xml:id="l1220">Et sans rendre mes bras ny moins <ref target="#lasser">las*</ref>, ny plus forts,</l>
             <l n="1221" xml:id="l1221">Sans amoindrir mon <ref target="#mal">mal*</ref> son assistance vaine<pb n="75"/></l>
             <l n="1222" xml:id="l1222">Soustenant ma foiblesse eternise ma <ref target="#peine">peine*</ref>.</l>
-            <l n="1223" xml:id="l1223"><space>   </space>Rocher accable<note n="178" place="bottom"> Le mot a un sens concret au XVII<hi rend="sup">e</hi> : « faire tomber une chose pesante sur une autre, qui l’oblige à succomber sous un poids excessif » (Furet.)</note> moy sous tant de pesanteur.</l>
+            <l n="1223" xml:id="l1223">Rocher accable<note n="178" place="bottom"> Le mot a un sens concret au XVII<hi rend="sup">e</hi> : « faire tomber une chose pesante sur une autre, qui l’oblige à succomber sous un poids excessif » (Furet.)</note> moy sous tant de pesanteur.</l>
             <l n="1224" xml:id="l1224">Et toy de mon tourment et le juge et l’autheur</l>
             <l n="1225" xml:id="l1225">Grand Dieu<note n="179" place="bottom"> C’est-à-dire Jupiter, interpellé clairement par Sisyphe au vers 1242.</note>, qui pour donner matiere à ta justice,</l>
             <l n="1226" xml:id="l1226">Rens les morts immortels au milieu du supplice,</l>
@@ -2843,19 +2840,19 @@
             <l n="1230" xml:id="l1230">A voir couler sans cesse un deluge de larmes ?</l>
             <l n="1231" xml:id="l1231">Quoy ? le crime d’un jour, le crime d’un moment</l>
             <l n="1232" xml:id="l1232">Doit-il estre puny d’un si long chastiment ?</l>
-            <l n="1233" xml:id="l1233"><space>   </space>Mais <ref target="#cruel">cruel*</ref> enyvré de douceurs et de joye</l>
+            <l n="1233" xml:id="l1233">Mais <ref target="#cruel">cruel*</ref> enyvré de douceurs et de joye</l>
             <l n="1234" xml:id="l1234">Tu braves les souspirs que ma douleur t’envoye.</l>
             <l n="1235" xml:id="l1235">Puis donc qu’à ce <ref target="#travail">travail*</ref><note n="180" place="bottom">Donc puisqu’à ce travail. « Des mots, ou de courtes prépositions s’intercalaient souvent entre deux parties d’une locution conjonctive, emploi qui ne se rencontre plus guère aujourd’hui qu’avec les conjonctions puisque et lorsque. » (Haase)</note> on ne peut m’arracher,</l>
             <l n="1236" xml:id="l1236">Voy comme je m’efforce à pousser ce rocher,</l>
             <l n="1237" xml:id="l1237">Il faudra malgré toy qu’un si cruel supplice.</l>
             <l n="1238" xml:id="l1238">Sous un effort supreme, ou m’accable, ou finisse.</l>
-            <l n="1239" xml:id="l1239"><space>   </space>Enfin je touche au terme, et je puis aujourd’huy…</l>
+            <l n="1239" xml:id="l1239">Enfin je touche au terme, et je puis aujourd’huy…</l>
             <l n="1240" xml:id="l1240">Mais helas ! il retombe, et je tombe avec luy.</l>
             <l n="1241" xml:id="l1241">Triomphe Jupiter, triomphe de ma <ref target="#peine">peine*</ref>.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE II. <pb n="76"/></head>
+          <head>SCENE II.<pb n="76"/></head>
           <sp who="ulisse">
             <speaker>ULISSE <hi rend="i">seul.</hi></speaker>
             <l n="1242" xml:id="l1242">Dans quel gouffre d’horreur ta puissance m’entraine ?</l>
@@ -2878,19 +2875,19 @@
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l n="1252" xml:id="l1252">Quel est ce malheureux ?</l>
+            <l n="1252" xml:id="l1252" part="I">Quel est ce malheureux ?</l>
           </sp>
           <sp who="suite-ulysse">
             <speaker>SIZIPHE.</speaker>
-            <l part="Y"><space/><space/>Ne puis-je l’arrester ?</l>
+            <l part="F">Ne puis-je l’arrester ?</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l n="1253" xml:id="l1253">C’est Siziphe ; luy mesme.</l>
+            <l n="1253" xml:id="l1253" part="I">C’est Siziphe ; luy mesme.</l>
           </sp>
           <sp who="suite-ulysse">
             <speaker>SIZIPHE.</speaker>
-            <l part="Y"><space/><space/>O ! rigoureux suplice !</l>
+            <l part="F">O ! rigoureux suplice !</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.<pb n="78"/></speaker>
@@ -2899,11 +2896,11 @@
           </sp>
           <sp who="suite-ulysse">
             <speaker>SIZIPHE.</speaker>
-            <l n="1256" xml:id="l1256">Ulisse chez les morts !</l>
+            <l n="1256" xml:id="l1256" part="I">Ulisse chez les morts !</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l part="Y"><space/><space/>Ouy, Siziphe, c’est luy.</l>
+            <l part="F">Ouy, Siziphe, c’est luy.</l>
           </sp>
           <sp who="suite-ulysse">
             <speaker>SIZIPHE.</speaker>
@@ -2927,7 +2924,7 @@
             <l n="1274" xml:id="l1274">Ont purgé ton destin et dompté ta nature,</l>
             <l n="1275" xml:id="l1275">Te monstrer si contraire à tous mes sentimens</l>
             <l n="1276" xml:id="l1276">C’est redoubler ma peine ; et croistre mes tourmens.</l>
-            <l n="1277" xml:id="l1277"><space>   </space>Sors, et par tes <ref target="#vertu">vertus*</ref> en ces lieux mesprisées</l>
+            <l n="1277" xml:id="l1277">Sors, et par tes <ref target="#vertu">vertus*</ref> en ces lieux mesprisées</l>
             <l n="1278" xml:id="l1278">Va <ref target="#charmer">charmer*</ref> tes amis dans les champs élizées<note n="185" place="bottom">Dans la mythologie grecque, les Enfers sont répartis en plusieurs lieux selon la gravité des crimes commis (voir le vers 1323) . Les Champs Elysées désignent le lieu où séjournent les âmes vertueuses.</note>.</l>
             <l n="1279" xml:id="l1279">Puisse<note n="186" place="bottom">Voir la note du vers 278.</note>-tu pour armer les remors contre toy</l>
             <l n="1280" xml:id="l1280">Devenir plus infame et plus meschant que moy ?<note n="187" place="bottom">Les points d’interrogation qui suivent jusqu’au vers 1284 ont une valeur exclamative, Sisyphe exprimant des souhaits.</note></l>
@@ -2942,7 +2939,7 @@
             <l n="1286" xml:id="l1286">Je viens vous presenter un objet plus <ref target="#funeste">funeste*</ref> :</l>
             <l n="1287" xml:id="l1287">Tout ce qu’a vostre Enfer de <ref target="#peine">peine*</ref> et de rigueur</l>
             <l n="1288" xml:id="l1288">N’a rien de comparable aux tourmens de mon cœur.</l>
-            <l n="1289" xml:id="l1289"><space>   </space>Mais ma douleur est-elle aussi juste que forte ?</l>
+            <l n="1289" xml:id="l1289">Mais ma douleur est-elle aussi juste que forte ?</l>
             <l n="1290" xml:id="l1290">Siziphe : apprenez moy si Penelope est morte.</l>
             <l n="1291" xml:id="l1291">Mais non, n’en faites rien, dans un coup si <ref target="#fatal">fatal*</ref></l>
             <l n="1292" xml:id="l1292">Je sens quelque douceur à douter de mon <ref target="#mal">mal*</ref>.</l>
@@ -3001,11 +2998,11 @@
           </sp>
           <sp who="suite-ulysse">
             <speaker>SIZIPHE.<pb n="82"/></speaker>
-            <l n="1329" xml:id="l1329">Qu’il me laisse en repos.</l>
+            <l n="1329" xml:id="l1329" part="I">Qu’il me laisse en repos.</l>
           </sp>
           <sp who="suite-ulysse">
             <speaker>TYRESIE.</speaker>
-            <l part="Y"><space/><space/>Cache-toy <ref target="#miserable">miserable*</ref>,</l>
+            <l part="F">Cache-toy <ref target="#miserable">miserable*</ref>,</l>
             <l n="1330" xml:id="l1330">Et delivre nos yeux d’un objet <ref target="#effroyable">effroyable*</ref>.</l>
           </sp>
         </div>
@@ -3025,7 +3022,7 @@
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l n="1336" xml:id="l1336">C’est hayne, c’est amour qui fait couler mes pleurs, <pb n="83"/></l>
+            <l n="1336" xml:id="l1336">C’est hayne, c’est amour qui fait couler mes pleurs,<pb n="83"/></l>
             <l n="1337" xml:id="l1337">Puis-je ne pas pleurer une epouze si belle ?</l>
             <l n="1338" xml:id="l1338">Puis-je ne pas haïr une epouze infidelle ?</l>
             <l n="1339" xml:id="l1339">Son infidelité fait mon <ref target="#ressentiment">ressentiment*</ref>,</l>
@@ -3072,7 +3069,7 @@
             <l n="1368" xml:id="l1368">J’accepte avec <ref target="#transport">transport*</ref> un oracle si doux.</l>
             <l n="1369" xml:id="l1369">Cher truchement des Dieux, fidelle Tyresie,</l>
             <l n="1370" xml:id="l1370">Je vous dois mon repos, mon honneur et ma vie.    </l>
-            <l n="1371" xml:id="l1371"><space>   </space>Ainsi credule <ref target="#amant">amant*</ref> j’ay soubçonné ta <ref target="#foy">foy*</ref>,</l>
+            <l n="1371" xml:id="l1371">Ainsi credule <ref target="#amant">amant*</ref> j’ay soubçonné ta <ref target="#foy">foy*</ref>,</l>
             <l n="1372" xml:id="l1372">Penelope, quels <ref target="#mal">maux*</ref>, quelle assez dure loy</l>
             <l n="1373" xml:id="l1373">Me peut-on imposer pour vanger ton injure ?</l>
             <l n="1374" xml:id="l1374">Mais tu sçais mon amour, et tu vois l’imposture.</l>
@@ -3084,7 +3081,7 @@
             <l n="1380" xml:id="l1380">Circé dans un moment m’a fait courir cent mers.</l>
             <l n="1381" xml:id="l1381">Pour revoir tes beaux yeux, pour revoir nostre Grece</l>
             <l n="1382" xml:id="l1382">J’attens de mon amour ce qu’a fait son adresse.</l>
-            <l n="1383" xml:id="l1383"><space>   </space>Vous en qui le Ciel mit tout le pouvoir des Dieux</l>
+            <l n="1383" xml:id="l1383">Vous en qui le Ciel mit tout le pouvoir des Dieux</l>
             <l n="1384" xml:id="l1384">Qui sçavez mille endroits pour sortir de ces lieux,</l>
             <l n="1385" xml:id="l1385">Sans qu’il doive à Circé cet <ref target="#effort">effort*</ref> <ref target="#favorable">favorable*</ref></l>
             <l n="1386" xml:id="l1386">Enlevez de ces lieux cet <ref target="#amant">amant*</ref> <ref target="#miserable">miserable*</ref>,</l>
@@ -3108,14 +3105,14 @@
           <sp who="suite-ulysse">
             <speaker>TYRESIE.</speaker>
             <l n="1397" xml:id="l1397">Il le faut, cher Ulisse, et desja l’heure presse ;</l>
-            <l n="1398" xml:id="l1398">Mais malgré ses <ref target="#effort">efforts*</ref>, espere en ton adresse ; <pb n="86"/></l>
+            <l n="1398" xml:id="l1398">Mais malgré ses <ref target="#effort">efforts*</ref>, espere en ton adresse ;<pb n="86"/></l>
             <l n="1399" xml:id="l1399">Tu luy doy mille exploits, et ta fidelle amour</l>
             <l n="1400" xml:id="l1400">Par elle doit encor triompher à son tour.    </l>
-            <l n="1401" xml:id="l1401">Adieu.<note n="193" place="bottom"> Le départ de Tirésias ne donne pas lieu à un changement de scène, l’on note que ce changement s’effectue selon les changements du décor  et donc des machines. Voir à ce propos la liste des acteurs et la précision finale.</note></l>
+            <l n="1401" xml:id="l1401" part="I">Adieu.<note n="193" place="bottom"> Le départ de Tirésias ne donne pas lieu à un changement de scène, l’on note que ce changement s’effectue selon les changements du décor  et donc des machines. Voir à ce propos la liste des acteurs et la précision finale.</note></l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE <hi rend="i">seul</hi>.<note n="194" place="bottom">Les règles de répartition des actes en scènes n’étaient pas encore bien établies à cette époque et il restait courant qu’un personnage reste seul sur scène sans que cela entraîne un changement.</note></speaker>
-            <l part="Y"><space/>Quels <ref target="#soin">soins*</ref> ? helas ! pourront sauver ma <ref target="#flamme">flame*</ref></l>
+            <l part="F">Quels <ref target="#soin">soins*</ref> ? helas ! pourront sauver ma <ref target="#flamme">flame*</ref></l>
             <l n="1402" xml:id="l1402">Des pieges, des <ref target="#fureur">fureurs*</ref>, des <ref target="#charme">charmes*</ref> d’une femme ?</l>
             <l n="1403" xml:id="l1403">Amour, par qui Circé dans ses lasches <ref target="#transport">transports*</ref></l>
             <l n="1404" xml:id="l1404">Fait sans cesse et par tout de si puissans <ref target="#effort">efforts*</ref><note n="195" place="bottom">Ulysse interpelle Amour et réclame son aide au vers suivant par le biais de l’impératif.</note></l>
@@ -3149,7 +3146,7 @@
             <l n="1422" xml:id="l1422">A Penelope enfin a desrobé son cœur,</l>
             <l n="1423" xml:id="l1423">Et ce qu’il m’a promis me rend trop asseurée</l>
             <l n="1424" xml:id="l1424">D’une felicité si long-temps desirée.</l>
-            <l n="1425" xml:id="l1425"><space>   </space>Que fais tu malheureuse ? à quelle indignité</l>
+            <l n="1425" xml:id="l1425">Que fais tu malheureuse ? à quelle indignité</l>
             <l n="1426" xml:id="l1426">Abbaisse-tu le sang d’une divinité ?</l>
             <l n="1427" xml:id="l1427">Circé met son bonheur au seul amour d’un homme !</l>
             <l n="1428" xml:id="l1428">Ah ! Soleil, Dieu tesmoin du <ref target="#feu">feu*</ref> qui me consomme,</l>
@@ -3159,7 +3156,7 @@
             <l n="1432" xml:id="l1432">Derobe tes clartez à cette indigne fille ;</l>
             <l n="1433" xml:id="l1433">Ou du feu, dont ma vie emprunte sa vigueur</l>
             <l n="1434" xml:id="l1434">Formant des <ref target="#trait">traits*</ref> mortels perce ce lasche cœur.</l>
-            <l n="1435" xml:id="l1435"><space>   </space>Mais que dis-je, insensée ! helas ! si quelque <ref target="#flamme">flame*</ref></l>
+            <l n="1435" xml:id="l1435">Mais que dis-je, insensée ! helas ! si quelque <ref target="#flamme">flame*</ref></l>
             <l n="1436" xml:id="l1436">Dans celles de mon sang, fut exempte de blasme.</l>
             <l n="1437" xml:id="l1437">En est il sur la terre, en est-il dans les Cieux,</l>
             <l n="1438" xml:id="l1438">Qui se puisse vanter d’un <ref target="#feu">feu*</ref> si glorieux ?<pb n="88"/></l>
@@ -3169,7 +3166,7 @@
             <l n="1442" xml:id="l1442">Pour des mortels sans honte ont conceu de l’amour<note n="196" place="bottom">Vénus, mariée à Vulcain, a eu plusieurs aventures avec des immortels mais aussi des mortels et notamment Anchise, le beau-fils du roi de Troie, qui lui donna Enée. Quant à Thétis, elle a été donnée en mariage par Zeus et Poséidon à un mortel, Pélée, dont l’union donnera naissance à Achille. </note>,</l>
             <l n="1443" xml:id="l1443">Quel Dieu peut condamner ma <ref target="#flamme">flame*</ref> avec justice ?</l>
             <l n="1444" xml:id="l1444">Ceux qu’elles ont aymez valoient-ils mon Ulisse ?</l>
-            <l n="1445" xml:id="l1445"><space>   </space>Non, non, ma <ref target="#flamme">flame*</ref> est juste ; et c’est mal à propos</l>
+            <l n="1445" xml:id="l1445">Non, non, ma <ref target="#flamme">flame*</ref> est juste ; et c’est mal à propos</l>
             <l n="1446" xml:id="l1446">Que cet injuste orgueil vient troubler mon repos.</l>
             <l n="1447" xml:id="l1447">Il falloit l’escouter, quand ce <ref target="#feu">feu*</ref> prit naissance ;</l>
             <l n="1448" xml:id="l1448">Quand on n’avoit pour moy, que de la resistance ;</l>
@@ -3184,12 +3181,12 @@
             <l n="1457" xml:id="l1457">C’est en quoy mon destin est heureux aujourd’huy,</l>
             <l n="1458" xml:id="l1458">Cherissant un mortel de pouvoir plus que luy.</l>
             <l n="1459" xml:id="l1459">En l’aymant je l’esleve, <ref target="#ingrat">ingrat*</ref> je puis l’abatre.</l>
-            <l n="1460" xml:id="l1460"><space>   </space>Mais pourquoy se former des monstres à combatre ?</l>
+            <l n="1460" xml:id="l1460">Mais pourquoy se former des monstres à combatre ?</l>
             <l n="1461" xml:id="l1461">Circé ne doute plus, qu’Ulisse à son retour</l>
             <l n="1462" xml:id="l1462">Ne rende ce qu’il doit à ta fidelle amour.</l>
             <l n="1463" xml:id="l1463">Faut-il parmy les <ref target="#soin">soins*</ref> où mon amour m’engage</l>
             <l n="1464" xml:id="l1464">Qu’à de nouveaux <ref target="#souci">soucis*</ref> encore je me partage ?<pb n="M ; 89"/></l>
-            <l n="1465" xml:id="l1465">Que cherchez-vous ma sœur ?</l>
+            <l n="1465" xml:id="l1465" part="I">Que cherchez-vous ma sœur ?</l>
           </sp>
         </div>
         <div type="scene">
@@ -3197,15 +3194,15 @@
           <stage>PHAETUSE, CIRCÉ.</stage>
           <sp who="phaetuse">
             <speaker>PHAETUSE.</speaker>
-            <l part="Y"><space/><space/>Vous, de qui je me plains,</l>
+            <l part="F">Vous, de qui je me plains,</l>
             <l n="1466" xml:id="l1466">Euriloche, Elpenor, sans doute en sont aux mains.</l>
             <l n="1467" xml:id="l1467">J’ay mis pour les chercher toute la Cour en peine,</l>
             <l n="1468" xml:id="l1468">Au Palais, dans le parc, mais ma recherche est vaine.</l>
-            <l n="1469" xml:id="l1469">Est-ce ainsi…</l>
+            <l n="1469" xml:id="l1469" part="I">Est-ce ainsi…</l>
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l part="Y"><space/><space/>Moderez cet injuste courroux,</l>
+            <l part="F">Moderez cet injuste courroux,</l>
             <l n="1470" xml:id="l1470">De tout cet embarras ne vous plaignez qu’à vous ;</l>
             <l n="1471" xml:id="l1471">Je n’ay rien fait ma sœur, que ce que j’ay dû faire<note n="197" place="bottom"> Dans sa <hi rend="i">Grammaire de la langue française du XVIIe siècle</hi>, Gabriel Spillebout note que l’indicatif passé « est couramment employé au XVIIe siècle là où nous emploierons le conditionnel passé […] ; c’est de règle pour les verbes <hi rend="i">devoir, pouvoir, falloir</hi> » . </note>,</l>
             <l n="1472" xml:id="l1472">Je vous avois promis que jaloux de vous plaire,</l>
@@ -3220,11 +3217,11 @@
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE.</speaker>
-            <l n="1481" xml:id="l1481">Quel <ref target="#charme">charme*</ref> ?</l>
+            <l n="1481" xml:id="l1481" part="I">Quel <ref target="#charme">charme*</ref> ?</l>
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l part="Y"><space/><space/>Merveilleux, qui force vostre <ref target="#amant">amant*</ref></l>
+            <l part="F">Merveilleux, qui force vostre <ref target="#amant">amant*</ref></l>
             <l n="1482" xml:id="l1482">De changer en respects tout son ressentiment,</l>
             <l n="1483" xml:id="l1483">Et qui par la pitié, que vous fera sa peine</l>
             <l n="1484" xml:id="l1484">Doit obtenir de vous la fin de vostre haine.</l>
@@ -3246,7 +3243,7 @@
             <l n="1494" xml:id="l1494">Dans mon ame coupable a jetté tant d’<ref target="#effroy">effroy*</ref></l>
             <l n="1495" xml:id="l1495">Qu’il me semble de voir sans cesse sa colere</l>
             <l n="1496" xml:id="l1496">S’apprester à punir ce que j’ay voulu faire.</l>
-            <l n="1497" xml:id="l1497"><space>   </space>Ah ! de mes laschetez <ref target="#fatal">fatale*</ref> illusion !</l>
+            <l n="1497" xml:id="l1497">Ah ! de mes laschetez <ref target="#fatal">fatale*</ref> illusion !</l>
             <l n="1498" xml:id="l1498">Qui trahis mon amour et mon ambition.</l>
             <l n="1499" xml:id="l1499">Fais place à des pensers, qu’un noble espoir me donne ;</l>
             <l n="1500" xml:id="l1500">Amour de Phaëtuse, amour de la couronne,</l>
@@ -3279,41 +3276,41 @@
             <l n="1519" xml:id="l1519">Ouy j’ay tort, et certain par ce cruel silence</l>
             <l n="1520" xml:id="l1520">Que je vous doy ma mort sans sçavoir mon offense,</l>
             <l n="1521" xml:id="l1521">Je suis trop criminel differant mon trespas</l>
-            <l n="1522" xml:id="l1522">Mais sans plus contester j’y cours Princesse.</l>
+            <l n="1522" xml:id="l1522" part="I">Mais sans plus contester j’y cours Princesse.</l>
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE.</speaker>
-            <l part="Y"><space/><space/>Helas !</l>
+            <l part="F">Helas !</l>
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l n="1523" xml:id="l1523">Ne craignez rien.</l>
+            <l n="1523" xml:id="l1523" part="I">Ne craignez rien.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE <hi rend="i">bas</hi>.</speaker>
-            <l part="Y"><space/><space/>J’aurois contenté ton envie ;</l>
+            <l part="F">J’aurois contenté ton envie ;</l>
             <l n="1524" xml:id="l1524">Mais un <ref target="#charme">charme*</ref> inconnu desarmant ma furie*</l>
             <l n="1525" xml:id="l1525">Retient ce bras levé pour luy percer le cœur,</l>
             <l n="1526" xml:id="l1526">Et me fait souhaiter la fin de son erreur.</l>
-            <l n="1527" xml:id="l1527">Circé vient.</l>
+            <l n="1527" xml:id="l1527" part="I">Circé vient.</l>
           </sp>
           <sp who="elpenor">
             <speaker>ELPENOR.</speaker>
-            <l part="Y"><space/><space/>Dieux vangeurs d’une amour outragée,</l>
+            <l part="F">Dieux vangeurs d’une amour outragée,</l>
             <l n="1528" xml:id="l1528">Qui voyez à quel poinct ma <ref target="#fortune">fortune*</ref> est changée</l>
             <l n="1529" xml:id="l1529">Si mon lasche <ref target="#rival">rival*</ref> me desrobe sa <ref target="#foy">foy*</ref></l>
             <l n="1530" xml:id="l1530">Perdez ce criminel ; justes Dieux vangez moy !</l>
             <l n="1531" xml:id="l1531">Que<note n="199" place="bottom">La conjonction a une valeur adversative. Le déterminant possessif « son » renvoie à Phaëtuse.</note> si ce changement vient de son inconstance</l>
-            <l n="1532" xml:id="l1532">Quelque injuste qu’il soit laissez-le sans vengeance. <pb n="94"/></l>
+            <l n="1532" xml:id="l1532">Quelque injuste qu’il soit laissez-le sans vengeance.<pb n="94"/></l>
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE <hi rend="i">à Circé.</hi></speaker>
             <l n="1533" xml:id="l1533">Je ne puis me resoudre à le voir plus souffrir,</l>
-            <l n="1534" xml:id="l1534">Madame.</l>
+            <l n="1534" xml:id="l1534" part="I">Madame.</l>
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l part="Y"><space/>Hé bien vous mesme allez le secourir.</l>
+            <l part="F">Hé bien vous mesme allez le secourir.</l>
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE.</speaker>
@@ -3353,18 +3350,18 @@
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE <hi rend="i">à Circé.</hi></speaker>
-            <l n="1563" xml:id="l1563">Ah ! ma sœur.</l>
+            <l n="1563" xml:id="l1563" part="I">Ah ! ma sœur.</l>
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ <hi rend="i">à Euriloche.</hi></speaker>
-            <l part="Y"><space/><space/>Il est temps que ce <ref target="#charme">charme*</ref> finisse.</l>
+            <l part="F">Il est temps que ce <ref target="#charme">charme*</ref> finisse.</l>
             <l n="1564" xml:id="l1564">Vous sçavez ce qu’on doit aux prieres d’Ulisse,</l>
             <l n="1565" xml:id="l1565"><ref target="#embrasser">Embrassez*</ref> Elpenor, certain que cette paix</l>
             <l n="1566" xml:id="l1566">Vous va donner le bien où tendent vos souhaits.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l n="1567" xml:id="l1567">Mon desir ne vient pas à vostre cognoissance. <pb n="96"/></l>
+            <l n="1567" xml:id="l1567">Mon desir ne vient pas à vostre cognoissance.<pb n="96"/></l>
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
@@ -3390,16 +3387,16 @@
           </sp>
           <sp who="elpenor">
             <speaker>ELPENOR.</speaker>
-            <l n="1575" xml:id="l1575">A moy, Madame.</l>
+            <l n="1575" xml:id="l1575" part="I">A moy, Madame.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.<pb n="N ; 97"/> </speaker>
-            <l part="Y"><space/>A vous.</l>
+            <l part="M">A vous.</l>
             <stage>(Circé frappe Elpenor de sa verge.)</stage>
           </sp>
           <sp who="elpenor">
             <speaker>ELPENOR.</speaker>
-            <l part="Y"><space/><space/>O secours <ref target="#favorable">favorable*</ref> !</l>
+            <l part="F">O secours <ref target="#favorable">favorable*</ref> !</l>
             <stage>(Le charme finit.)</stage>
             <l n="1576" xml:id="l1576">Ah ! Princesse. Grands Dieux ! surprise espouventable !</l>
             <l n="1577" xml:id="l1577">Est-ce mon ennemy que je viens d’<ref target="#embrasser">embrasser*</ref> ?</l>
@@ -3428,11 +3425,11 @@
             <l n="1588" xml:id="l1588">Fasse le juste Ciel, que cette obeissance<pb n="98"/></l>
             <l n="1589" xml:id="l1589">En destournant les <ref target="#mal">maux*</ref>, qui nous sont preparez</l>
             <l n="1590" xml:id="l1590">Assure le repos que vous en esperez.</l>
-            <l n="1591" xml:id="l1591"><space>   </space>Je ne m’oppose plus à l’<ref target="#heur">heur*</ref> qu’on vous<note n="200" place="bottom">Elpenor s’adresse à Euriloche.</note> destine</l>
+            <l n="1591" xml:id="l1591">Je ne m’oppose plus à l’<ref target="#heur">heur*</ref> qu’on vous<note n="200" place="bottom">Elpenor s’adresse à Euriloche.</note> destine</l>
             <l n="1592" xml:id="l1592">Leucosie est à vous, et sans qu’on examine</l>
             <l n="1593" xml:id="l1593">Qui de nous a failly contre nostre <ref target="#amitie">amitié*</ref></l>
             <l n="1594" xml:id="l1594">D’un cœur qui fut à vous je vous rends la moitié.</l>
-            <l n="1595" xml:id="l1595"><space>   </space>Daignent les Dieux tesmoins si la vostre m’est chere,</l>
+            <l n="1595" xml:id="l1595">Daignent les Dieux tesmoins si la vostre m’est chere,</l>
             <l n="1596" xml:id="l1596">Punir qui de nous deux l’offrira moins sincere.</l>
           </sp>
           <sp who="euriloche">
@@ -3472,30 +3469,30 @@
           <stage>LEUCOSIE, CIRCÉ, PHAETUSE.</stage>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l n="1615" xml:id="l1615">Madame, Ulisse vient.</l>
+            <l n="1615" xml:id="l1615" part="I">Madame, Ulisse vient.</l>
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l part="Y"><space/><space/>Cette heureuse nouvelle    </l>
+            <l part="F">Cette heureuse nouvelle    </l>
             <l n="1616" xml:id="l1616">Pour revoir ce heros au Palais me rappelle.</l>
           </sp>
           <sp who="phaetuse">
-            <speaker>PHAETUSE. <pb n="100"/></speaker>
-            <l n="1617" xml:id="l1617">Nous vous suivons.</l>
+            <speaker>PHAETUSE.<pb n="100"/></speaker>
+            <l n="1617" xml:id="l1617" part="I">Nous vous suivons.</l>
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l part="Y"><space/><space/>Allons. Puisse par ce retour</l>
+            <l part="F">Allons. Puisse par ce retour</l>
             <l n="1618" xml:id="l1618">Ma <ref target="#flamme">flame*</ref> prendre part au bonheur de ce jour.</l>
             <l n="1619" xml:id="l1619">Vous en avez beaucoup dans ce bonheur extreme.</l>
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l n="1620" xml:id="l1620">Comment ?</l>
+            <l n="1620" xml:id="l1620" part="I">Comment ?</l>
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l part="Y"><space/>Vous l’apprendrez du Prince qui vous ayme.</l>
+            <l part="F">Vous l’apprendrez du Prince qui vous ayme.</l>
           </sp>
         </div>
         <div type="scene">
@@ -3511,15 +3508,15 @@
             <speaker> LEUCOSIE.</speaker>
             <l n="1624" xml:id="l1624">Je l’ay veu resolu de retourner en Grece ;<pb n="101"/></l>
             <l n="1625" xml:id="l1625">Emmener s’il se peut Elpenor avec luy,</l>
-            <l n="1626" xml:id="l1626">Echapper à la Reyne.</l>
+            <l n="1626" xml:id="l1626" part="I">Echapper à la Reyne.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/><space/>Et partir.</l>
+            <l part="M">Et partir.</l>
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l part="Y"><space/><space/>Aujourd’huy</l>
+            <l part="F">Aujourd’huy</l>
             <l n="1627" xml:id="l1627">Perimede est allé donner ordre à sa fuite.</l>
           </sp>
           <sp who="euriloche">
@@ -3541,12 +3538,12 @@
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
             <l n="1635" xml:id="l1635">Ce glorieux espoir adoucira ma peine.<pb n="102"/></l>
-            <l n="1636" xml:id="l1636"><space>   </space>Mais quel est ce bonheur dont me parloit la Reine,</l>
-            <l n="1637" xml:id="l1637">Je <ref target="#brusler">brusle*</ref> de l’apprendre.</l>
+            <l n="1636" xml:id="l1636">Mais quel est ce bonheur dont me parloit la Reine,</l>
+            <l n="1637" xml:id="l1637" part="I">Je <ref target="#brusler">brusle*</ref> de l’apprendre.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/><space/>Ah ! Princesse usons mieux</l>
+            <l part="F">Ah ! Princesse usons mieux</l>
             <l n="1638" xml:id="l1638">Qu’en frivoles discours d’un temps si precieux.</l>
             <l n="1639" xml:id="l1639">De l’air que l’entreprise entre nous est conceuë</l>
             <l n="1640" xml:id="l1640">La perte d’un moment en ruine l’issuë.</l>
@@ -3561,18 +3558,18 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE V. <pb n="103"/></head>
+        <head>ACTE V.<pb n="103"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage> La scene est dans une forteresse.</stage>
           <stage>CIRCÉ, MELANTE.</stage>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l n="1647" xml:id="l1647">Que fait mon fugitif ?</l>
+            <l n="1647" xml:id="l1647" part="I">Que fait mon fugitif ?</l>
           </sp>
           <sp who="melante">
             <speaker>MELANTE.</speaker>
-            <l part="Y"><space/><space/>En Ulisse, Madame</l>
+            <l part="F">En Ulisse, Madame</l>
             <l n="1648" xml:id="l1648">Il attend son malheur, et cette grandeur d’ame</l>
             <l n="1649" xml:id="l1649">Le fait voir dans ses <ref target="#fers">fers*</ref>, dans cette <ref target="#affreux">affreuse*</ref> tour</l>
             <l n="1650" xml:id="l1650">Plus qu’il ne fut jamais digne de vostre amour.<note n="206" place="bottom">Comprendre : « le fait qu’Ulysse attende héroïquement son supplice montre encore plus combien il est digne de votre amour » . </note></l>
@@ -3598,11 +3595,11 @@
             <l n="1667" xml:id="l1667">Et je ne trouve point dans toute ma puissance</l>
             <l n="1668" xml:id="l1668">Dequoy perdre l’<ref target="#ingrat">ingrat*</ref> au gré de ma vengeance.</l>
             <l n="1669" xml:id="l1669">Poignard, c’est à toy seul que je la veux devoir,</l>
-            <l n="1670" xml:id="l1670">Fais le venir.</l>
+            <l n="1670" xml:id="l1670" part="I">Fais le venir.</l>
           </sp>
           <sp who="melante">
             <speaker>MELANTE.</speaker>
-            <l part="Y"><space/><space/>Ulisse, où sera ton espoir ?</l>
+            <l part="F">Ulisse, où sera ton espoir ?</l>
           </sp>
         </div>
         <div type="scene">
@@ -3617,7 +3614,7 @@
             <l n="1676" xml:id="l1676">Je le devrois aux Dieux aussi bien qu’à moy-mesme.</l>
             <l n="1677" xml:id="l1677">Et je veux pour vanger l’affront que je reçoy,</l>
             <l n="1678" xml:id="l1678">Qu’il parte des <ref target="#fureur">fureurs*</ref> qui soient toutes à moy.</l>
-            <l n="1679" xml:id="l1679"><space>   </space>La vengeance est un fruit, qu’il faut cueillir soy-mesme ;</l>
+            <l n="1679" xml:id="l1679">La vengeance est un fruit, qu’il faut cueillir soy-mesme ;</l>
             <l n="1680" xml:id="l1680">Le gouster, se souler de sa douceur extresme.</l>
             <l n="1681" xml:id="l1681">Un debris, une foudre auroient dans un moment</l>
             <l n="1682" xml:id="l1682">Consommé loin de moy tout mon <ref target="#ressentiment">ressentiment*</ref>.</l>
@@ -3625,31 +3622,31 @@
             <l n="1684" xml:id="l1684">Donner un long spectacle à ma <ref target="#fureur">fureur*</ref> avide.</l>
             <l n="1685" xml:id="l1685">Percer de mille coups ce flanc, ce traistre flanc,</l>
             <l n="1686" xml:id="l1686">Et voir ma main rougir et fumer de son sang.</l>
-            <l n="1687" xml:id="l1687"><space>   </space>Ce qu’en vain j’ay tenté pour l’amour d’une Reine,<pb n=" 106"/></l>
+            <l n="1687" xml:id="l1687">Ce qu’en vain j’ay tenté pour l’amour d’une Reine,<pb n=" 106"/></l>
             <l n="1688" xml:id="l1688">Ce poignard l’obtiendra pour le bien de ma hayne ;</l>
             <l n="1689" xml:id="l1689">Je voulois estre heureuse en gagnant son amour,</l>
             <l n="1690" xml:id="l1690">Je le suis encor plus en le privant du jour,</l>
             <l n="1691" xml:id="l1691">Esteignant dans son sang le <ref target="#feu">feu*</ref> qui me devore</l>
             <l n="1692" xml:id="l1692">Qui m’oste le repos, et qui me deshonore.</l>
-            <l n="1693" xml:id="l1693"><space>   </space>Mais helas ! qu’est-ce amour ? veus-tu le proteger ?</l>
+            <l n="1693" xml:id="l1693">Mais helas ! qu’est-ce amour ? veus-tu le proteger ?</l>
             <l n="1694" xml:id="l1694">Songe que j’ay l’honneur et toy-mesme à vanger,</l>
             <l n="1695" xml:id="l1695">Si tu parle pour luy ma <ref target="#fureur">fureur*</ref> sera vaine,</l>
             <l n="1696" xml:id="l1696">Abandonne mon cœur au <ref target="#transport">transport*</ref> qui l’entraine ;</l>
             <l n="1697" xml:id="l1697">Qu’il y regne un moment, tu n’as que trop regné ;</l>
             <l n="1698" xml:id="l1698">Je le poignarderois s’il l’avoit espargné.</l>
-            <l n="1699" xml:id="l1699"><space>   </space>Je l’apperçoy, l’<ref target="#ingrat">ingrat*</ref>, il sçaura qu’une femme</l>
+            <l n="1699" xml:id="l1699">Je l’apperçoy, l’<ref target="#ingrat">ingrat*</ref>, il sçaura qu’une femme</l>
             <l n="1700" xml:id="l1700">Peut autant pour sa hayne et plus que pour sa <ref target="#flamme">flame*</ref>.</l>
             <l n="1701" xml:id="l1701">Il sçaura qu’un amour qu’on ose dedaigner,</l>
             <l n="1702" xml:id="l1702">Sçait arracher des cœurs s’il ne peut les gagner.</l>
-            <l n="1703" xml:id="l1703">Il faut mourir.</l>
+            <l n="1703" xml:id="l1703" part="I">Il faut mourir.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE III. <pb n="107"/></head>
+          <head>SCENE III.<pb n="107"/></head>
           <stage>ULISSE, CIRCÉ.</stage>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l part="Y"><space/><space/>Frapez, vous voyez la victime ;</l>
+            <l part="F">Frapez, vous voyez la victime ;</l>
             <l n="1704" xml:id="l1704">Ulisse doit mourir si sa fuite est un crime.</l>
             <l n="1705" xml:id="l1705">Ou plustost pour mourir ne le meritant pas</l>
             <l n="1706" xml:id="l1706">Il suffit que Circé demande son trespas ;</l>
@@ -3705,11 +3702,11 @@
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l n="1744" xml:id="l1744">Ah ! Circé.</l>
+            <l n="1744" xml:id="l1744" part="I">Ah ! Circé.</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l part="Y"><space/><space/>C’est ainsi que je vous ay trompée.</l>
+            <l part="F">C’est ainsi que je vous ay trompée.</l>
             <l n="1745" xml:id="l1745">C’est l’effet des respects qui font vostre courroux.</l>
             <l n="1746" xml:id="l1746">Par eux seuls je pouvois m’acquiter envers vous,</l>
             <l n="1747" xml:id="l1747">Aussi de quelques vœux dont ma femme m’appelle,</l>
@@ -3721,11 +3718,11 @@
             <l n="1750" xml:id="l1750">Les nobles mouvemens de ta propre <ref target="#vertu">vertu*</ref> ;</l>
             <l n="1751" xml:id="l1751">Pour eviter la honte où mon amour m’engage</l>
             <l n="1752" xml:id="l1752">Que ne peut-il la vaincre aussi bien que ma rage ?</l>
-            <l n="1753" xml:id="l1753">Mais, helas !</l>
+            <l n="1753" xml:id="l1753" part="I">Mais, helas !</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.<pb n="110"/></speaker>
-            <l part="Y"><space/><space/>Enfoncez ce poignard dans mon sein.</l>
+            <l part="F">Enfoncez ce poignard dans mon sein.</l>
             <l n="1754" xml:id="l1754">Fuir un coup qui vous plaist n’estoit pas mon dessein ;</l>
             <l n="1755" xml:id="l1755">Mais ne concevant point de suplice si rude,</l>
             <l n="1756" xml:id="l1756">Que de mourir vers vous suspect d’<ref target="#ingrat">ingratitude*</ref>,</l>
@@ -3735,14 +3732,14 @@
           <sp who="circe">
             <speaker> CIRCÉ.</speaker>
             <l n="1759" xml:id="l1759">Ah ! c’en est trop. Soleil seconde ma foiblesse,</l>
-            <l n="1760" xml:id="l1760"><space>   </space>Heros digne en effet des vœux d’une deesse,</l>
+            <l n="1760" xml:id="l1760">Heros digne en effet des vœux d’une deesse,</l>
             <l n="1761" xml:id="l1761">Plus digne encor des miens, daigne excuser en moy</l>
             <l n="1762" xml:id="l1762">Ce que par trop d’amour j’ay commis contre toy.</l>
             <l n="1763" xml:id="l1763">C’est dequoy seulement il faut que je rougisse ;</l>
             <l n="1764" xml:id="l1764">Sans honte je pouvois souspirer pour Ulisse ;</l>
             <l n="1765" xml:id="l1765">Mais non, quand son devoir attache ailleurs son sort,</l>
             <l n="1766" xml:id="l1766">L’arrester, le forcer, et luy donner la mort.</l>
-            <l n="1767" xml:id="l1767"><space>   </space>Sors de mes mains, poignard, ma derniere infamie ;</l>
+            <l n="1767" xml:id="l1767">Sors de mes mains, poignard, ma derniere infamie ;</l>
             <l n="1768" xml:id="l1768">Ta <ref target="#vertu">vertu*</ref> le previent*, desarme une ennemie</l>
             <l n="1769" xml:id="l1769">Et fait qu’enfin ce cœur lassé de soupirer</l>
             <l n="1770" xml:id="l1770">S’enfle du noble orgueil qu’elle veut m’inspirer.</l>
@@ -3756,13 +3753,13 @@
             <l n="1778" xml:id="l1778">Je puis bien malgré moy consentir cet effort,</l>
             <l n="1779" xml:id="l1779">Qu’un depart, puisqu’il faut que mon espoir perisse</l>
             <l n="1780" xml:id="l1780">Plustost que son trespas me separe d’Ulisse.</l>
-            <l n="1781" xml:id="l1781"><space>   </space>Tombez <ref target="#fers">fers*</ref> trop honteux au plus grand des humains,</l>
+            <l n="1781" xml:id="l1781">Tombez <ref target="#fers">fers*</ref> trop honteux au plus grand des humains,</l>
             <l n="1782" xml:id="l1782">Perimede, Euriloche ont trahy tes desseins.</l>
-            <l n="1783" xml:id="l1783">Mais malgré…</l>
+            <l n="1783" xml:id="l1783" part="I">Mais malgré…</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l part="Y"><space/><space/>Justes Dieux ! ils m’ont trahy, Madame ;</l>
+            <l part="F">Justes Dieux ! ils m’ont trahy, Madame ;</l>
             <l n="1784" xml:id="l1784">Eux de qui je tenois l’ordre de cette trame,</l>
             <l n="1785" xml:id="l1785">Je ne m’estonne plus si vous l’ayant apris,</l>
             <l n="1786" xml:id="l1786">Avant<note n="212" place="bottom">Gabriel Spillebout indique que l’on « recontre au XVIIe siècle quatre constructions : avant, avant de, avant que, avant que de, suivis de l’infinitif. » L’auteur précise que la construction « avant + infinitf » est devenue rare.</note> sortir du port mon vaisseau fut surpris.</l>
@@ -3770,7 +3767,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IV. <pb n="112"/></head>
+          <head>SCENE IV.<pb n="112"/></head>
           <stage> LEUCOSIE, CIRCÉ, ULISSE.</stage>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
@@ -3780,11 +3777,11 @@
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l n="1791" xml:id="l1791">De quel crime, ma sœur ?</l>
+            <l n="1791" xml:id="l1791" part="I">De quel crime, ma sœur ?</l>
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l part="Y"><space/><space/>Elpenor, Phaëtuse…</l>
+            <l part="F">Elpenor, Phaëtuse…</l>
             <l n="1792" xml:id="l1792">Helas de tous nos <ref target="#mal">maux*</ref> il faut que je m’accuse.</l>
             <stage>(A Circé monstrant Ulisse.)</stage>
             <l n="1793" xml:id="l1793">J’ay donné des vaisseaux pour sa fuite. Et Seigneur</l>
@@ -3792,21 +3789,21 @@
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l n="1795" xml:id="l1795">L’enlever.</l>
+            <l n="1795" xml:id="l1795" part="I">L’enlever.</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.<pb n="P ; 113"/></speaker>
-            <l part="Y"><space/>Euriloche ô ! Dieux.</l>
+            <l part="M">Euriloche ô ! Dieux.</l>
           </sp>
           <sp who="leucosie">
             <speaker>LEUCOSIE.</speaker>
-            <l part="Y"><space/><space/>Ce traistre à peine</l>
+            <l part="F">Ce traistre à peine</l>
             <l n="1796" xml:id="l1796">Vit que pour obeir aux ordres de la Reyne,</l>
             <l n="1797" xml:id="l1797">Toute la Cour en foule accouroit sur vos pas ;</l>
             <l n="1798" xml:id="l1798">Et laissoit le Palais sans garde<note n="213" place="bottom">Les règles de grammaire admettent la présence d’un –s ou non après « sans » et permettent le respect de l’alexandrin. (Voir le vers 1841)</note>, et sans soldats ;</l>
             <l n="1799" xml:id="l1799">Que Perimede et luy forment cette entreprise.</l>
             <l n="1800" xml:id="l1800">Le <ref target="#desordre">desordre*</ref>, le temps, le lieu les favorise.</l>
-            <l n="1801" xml:id="l1801"><space>   </space>Un bruit <ref target="#confus">confus*</ref> meslé de douleur et d’<ref target="#effroy">effroy*</ref></l>
+            <l n="1801" xml:id="l1801">Un bruit <ref target="#confus">confus*</ref> meslé de douleur et d’<ref target="#effroy">effroy*</ref></l>
             <l n="1802" xml:id="l1802">Du quartier de ma sœur arrivé jusqu’à moy,</l>
             <l n="1803" xml:id="l1803">M’appelle au lieu d’où vient un trouble si <ref target="#funeste">funeste*</ref>,</l>
             <l n="1804" xml:id="l1804">J’y cours ; Dieux que ne puis-je oublier ce qui reste ?</l>
@@ -3821,7 +3818,7 @@
             <l n="1813" xml:id="l1813">Le <ref target="#perfide">perfide*</ref> Euriloche enleve vostre sœur.</l>
             <l n="1814" xml:id="l1814">Que devins-je à ces mots ? jugez de ma douleur</l>
             <l n="1815" xml:id="l1815">Dans l’<ref target="#ardeur">ardeur*</ref> de punir sa noire perfidie*</l>
-            <l n="1816" xml:id="l1816">Laissant à d’autres soins cette mourante vie, <pb n="114"/></l>
+            <l n="1816" xml:id="l1816">Laissant à d’autres soins cette mourante vie,<pb n="114"/></l>
             <l n="1817" xml:id="l1817">J’implore du secours dans ce pressant besoin</l>
             <l n="1818" xml:id="l1818">J’en trouve ; mais, helas ! Euriloche est trop loin.</l>
             <l n="1819" xml:id="l1819">On le suit, mais sans doute une telle poursuite</l>
@@ -3849,7 +3846,7 @@
             <l n="1828" xml:id="l1828">Je rens graces aux Dieux que dans cette <ref target="#querelle">querelle*</ref>,<pb n="115"/></l>
             <l n="1829" xml:id="l1829">Le <ref target="#soin">soin*</ref> de nous vanger sert d’un amusement,</l>
             <l n="1830" xml:id="l1830">Qui dispose mon ame à cet eloignement.</l>
-            <l n="1831" xml:id="l1831"><space>   </space>Sans cela je veux bien t’advoüer ma foiblesse,</l>
+            <l n="1831" xml:id="l1831">Sans cela je veux bien t’advoüer ma foiblesse,</l>
             <l n="1832" xml:id="l1832">Mon cœur, quelque devoir, quelque honneur qui l’en presse,</l>
             <l n="1833" xml:id="l1833">Ne pourroit se resoudre à perdre pour jamais</l>
             <l n="1834" xml:id="l1834">Mon … helas ! je retombe, et crains ce que je fais,</l>
@@ -3857,11 +3854,11 @@
             <l n="1836" xml:id="l1836">Je vous rends aux desirs d’une <ref target="#illustre">illustre*</ref> Princesse.</l>
             <l n="1837" xml:id="l1837">Si jusqu’icy ma <ref target="#flamme">flame*</ref> a retenu vos pas,</l>
             <l n="1838" xml:id="l1838">Je fais assez pour elle en ne vous gardant pas.</l>
-            <l n="1839" xml:id="l1839">Adieu.</l>
+            <l n="1839" xml:id="l1839" part="I">Adieu.</l>
           </sp>
           <sp who="ulisse">
             <speaker>ULISSE.</speaker>
-            <l part="Y"><space/>Que cet effort vous va couvrir de gloire !</l>
+            <l part="F">Que cet effort vous va couvrir de gloire !</l>
             <l n="1840" xml:id="l1840">Qu’ainsi tousjours sur vous emportant la victoire,</l>
             <l n="1841" xml:id="l1841">Une <ref target="#vertu">vertu*</ref> sans tasche et sans obscuritez</l>
             <l n="1842" xml:id="l1842">Monstre en vous dignement le Dieu dont vous sortez ;</l>
@@ -3875,7 +3872,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VI. <pb n="116"/></head>
+          <head>SCENE VI.<pb n="116"/></head>
           <stage>La Scene est dans un vaisseau.</stage>
           <stage>EURILOCHE, PHAETUSE.</stage>
           <sp who="euriloche">
@@ -3909,7 +3906,7 @@
             <speaker>PHAETUSE.</speaker>
             <l n="1871" xml:id="l1871">Monstre horrible à mes yeux vante tes infamies ;</l>
             <l n="1872" xml:id="l1872">J’abhorre ton amour plus que tes perfidies*.</l>
-            <l n="1873" xml:id="l1873"><space>   </space>Cher <ref target="#amant">amant*</ref>, que ce lasche apres tant de forfaits</l>
+            <l n="1873" xml:id="l1873">Cher <ref target="#amant">amant*</ref>, que ce lasche apres tant de forfaits</l>
             <l n="1874" xml:id="l1874">Oze encor reprocher à mes justes souhaits,</l>
             <l n="1875" xml:id="l1875">Quelque part d’où ton ame à peine degagée</l>
             <l n="1876" xml:id="l1876">De ce corps où les Dieux l’avoient si bien logée</l>
@@ -3941,20 +3938,20 @@
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE.</speaker>
-            <l n="1893" xml:id="l1893">Ah ! monstre laisse-moy.</l>
+            <l n="1893" xml:id="l1893" part="I">Ah ! monstre laisse-moy.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/><space/>Donnez des noms plus doux</l>
+            <l part="F">Donnez des noms plus doux</l>
             <l n="1894" xml:id="l1894">A celuy qui bientost doit estre vostre espoux.</l>
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE.</speaker>
-            <l n="1895" xml:id="l1895">Mon espoux !</l>
+            <l n="1895" xml:id="l1895" part="I">Mon espoux !</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
-            <l part="Y"><space/><space/>C’est à quoy vous devez vous resoudre. <pb n="119"/></l>
+            <l part="F">C’est à quoy vous devez vous resoudre.<pb n="119"/></l>
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE.</speaker>
@@ -4032,11 +4029,11 @@
           </sp>
           <sp who="phaetuse">
             <speaker>PHAETUSE <hi rend="i">s’en allant.</hi></speaker>
-            <l n="1942" xml:id="l1942">O ! Dieux.</l>
+            <l n="1942" xml:id="l1942" part="I">O ! Dieux.</l>
           </sp>
           <sp who="perimede">
             <speaker>PERIMEDE.<pb n="122"/></speaker>
-            <l part="Y"><space/>Sauvez là donc, on vient vous l’arracher.</l>
+            <l part="F">Sauvez là donc, on vient vous l’arracher.</l>
           </sp>
           <sp who="euriloche">
             <speaker>EURILOCHE.</speaker>
@@ -4053,11 +4050,11 @@
             <l n="1945" xml:id="l1945">Du trosne où je m’assois dans le plus haut des Cieux,</l>
             <l n="1946" xml:id="l1946">D’où je puis commander les hommes et les Dieux,</l>
             <l n="1947" xml:id="l1947">Je descends jusqu’à toy pour ouyr ta priere ;</l>
-            <l n="1948" xml:id="l1948">Mon fils<note n="222" place="bottom">Jupiter est le premier dieu, le « dieu-père », selon les mythologies le Soleil désigne Apollon, dieu né des amours de Jupiter avec Léto. Toutefois certaines autres versions de la mythologie distinguent le Soleil (ou Hélios) d’Apollon et le disent fils d’Hypérion et de Basilée.</note>, parle.</l>
+            <l n="1948" xml:id="l1948" part="I">Mon fils<note n="222" place="bottom">Jupiter est le premier dieu, le « dieu-père », selon les mythologies le Soleil désigne Apollon, dieu né des amours de Jupiter avec Léto. Toutefois certaines autres versions de la mythologie distinguent le Soleil (ou Hélios) d’Apollon et le disent fils d’Hypérion et de Basilée.</note>, parle.</l>
           </sp>
           <sp who="soleil">
             <speaker>LE SOLEIL.</speaker>
-            <l part="Y"><space/><space/>Asseuré des <ref target="#bonte">bontez*</ref> de mon pere</l>
+            <l part="F">Asseuré des <ref target="#bonte">bontez*</ref> de mon pere</l>
             <l n="1949" xml:id="l1949">Je parle, et quoy qu’instruit que ses <ref target="#soin">soins*</ref> paternels<pb n="123"/></l>
             <l n="1950" xml:id="l1950">Tousjours avec regret perdent les criminels,</l>
             <l n="1951" xml:id="l1951">Plein d’une <ref target="#genereux">genereuse*</ref>, et juste confiance,</l>
@@ -4111,12 +4108,12 @@
             <l n="1993" xml:id="l1993">Voyez-le cet infame, avec quels longs <ref target="#effort">efforts*</ref></l>
             <l n="1994" xml:id="l1994">Il veut forcer mon sang à ses lasches <ref target="#transport">transports*</ref> ;</l>
             <l n="1995" xml:id="l1995">Voyez d’une autre part sur un char qui s’avance</l>
-            <l n="1996" xml:id="l1996">Leucosie et Circé, qui pressent leur vengeance. <pb n="125"/></l>
-            <l n="1997" xml:id="l1997">Je la leur ay promise.</l>
+            <l n="1996" xml:id="l1996">Leucosie et Circé, qui pressent leur vengeance.<pb n="125"/></l>
+            <l n="1997" xml:id="l1997" part="I">Je la leur ay promise.</l>
           </sp>
           <sp who="jupiter">
             <speaker>JUPITER.</speaker>
-            <l part="Y"><space/><space/>Il faut te contenter,</l>
+            <l part="F">Il faut te contenter,</l>
             <l n="1998" xml:id="l1998">Ma justice y consent. Toy sans plus t’arrester</l>
             <l n="1999" xml:id="l1999">Du tribut eternel de ta clarté feconde</l>
             <l n="2000" xml:id="l2000">Va, mon fils, enrichir l’autre moitié du monde.</l>
@@ -4166,7 +4163,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE X. <pb n="127"/></head>
+          <head>SCENE X.<pb n="127"/></head>
           <sp who="jupiter">
             <speaker>JUPITER <hi rend="i">sortant du Ciel assis sur son aigle &amp; lançant la foudre sur le vaisseau d’Euriloche s’adressant à Circé &amp; à Leucosie.</hi></speaker>
             <l n="2027" xml:id="l2027">Nimphes voicy le coup qui vous fera justice</l>
@@ -4181,11 +4178,11 @@
             <speaker>LEUCOSIE.</speaker>
             <l n="2029" xml:id="l2029">Quels feux ! quels feux de joye en cet embrasement ?<note n="225" place="bottom">Le point d’interrogation a une valeur exclamative comme au vers suivant. </note></l>
             <l n="2030" xml:id="l2030">Mais quelle peur succede à mon <ref target="#ressentiment">ressentiment*</ref> ?</l>
-            <l n="2031" xml:id="l2031">Grand Dieu : sauvez ma sœur.</l>
+            <l n="2031" xml:id="l2031" part="I">Grand Dieu : sauvez ma sœur.</l>
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l part="Y"><space/><space/>A ce penser je tremble :<pb n="128"/></l>
+            <l part="F">A ce penser je tremble :<pb n="128"/></l>
             <l n="2032" xml:id="l2032">Quelle vengeance ? ô Dieux ! s’ils perissent ensemble.</l>
             <l n="2033" xml:id="l2033">Mais qui peut la sauver de la flame ou de l’eau.</l>
           </sp>
@@ -4204,15 +4201,15 @@
           </sp>
           <sp who="circe">
             <speaker>CIRCÉ.</speaker>
-            <l n="2038" xml:id="l2038">Phaëtuse, est-ce vous ?</l>
+            <l n="2038" xml:id="l2038" part="I">Phaëtuse, est-ce vous ?</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE DERNIERE. <pb n="R ; 129"/></head>
+          <head>SCENE DERNIERE.<pb n="R ; 129"/></head>
           <stage>PHAETUSE, CIRCÉ, LEUCOSIE.</stage>
           <sp who="phaetuse">
             <speaker>PHAETUSE.</speaker>
-            <l part="Y"><space/><space/>Vous puis-je encor revoir ?</l>
+            <l part="F">Vous puis-je encor revoir ?</l>
             <l n="2039" xml:id="l2039">Vous voyez par quels <ref target="#soin">soins*</ref> les Dieux m’ont protégée,</l>
             <l n="2040" xml:id="l2040">Il est mort l’execrable et ta fille est vangée,</l>
             <l n="2041" xml:id="l2041">Soleil, si ton secours avoit esté moins prompt</l>
@@ -4265,7 +4262,9 @@
       <div type="appendix" xml:id="privilege">
         <head>Extraict du Privilege du Roy.</head>
         <p>Par grace &amp; privilege du Roy donné à Paris le 10. jour de Novembre 1648. Signé, Par le Roy en son Conseil, Le Brun. Il est permis à Toussainct Quinet Marchand Libraire à Paris, d’imprimer ou faire imprimer, vendre &amp; distribuer une pièce de Theatre intitulée <hi rend="i">Ulysse dans l’isle de Circé, ou Euriloche foudroyé, par le sieur Boyer</hi>, durant le temps &amp; espace de cinq ans, à compter du jour qu’il sera achevé d’imprimer : Et defenses sont faites à tous Imprimeurs, Libraires &amp; autres de contrefaire ledit Livre, ny le vendre ou exposer en vente d’autre impression que de celle qu’il a fait faire, à peine de trois mil livres d’amende, &amp; de tous despens, dommages &amp; interests, ainsi qu’il est plus amplement porté par lesdites Lettres, qui sont en vertu du present extrait tenuës pour bien &amp; deuëment signifiees, à ce qu’aucun n’en pretende cause d’ignorance.</p>
-        <p rend="center"><hi rend="i">Achevé d’imprimer pour la premiere fois le <lb/>premier Decembre 1649.</hi></p>
+        <p rend="center">
+          <hi rend="i">Achevé d’imprimer pour la premiere fois le <lb/>premier Decembre 1649.</hi>
+        </p>
         <p rend="center">Les exemplaires ont esté fournis.</p>
       </div>
     </body>

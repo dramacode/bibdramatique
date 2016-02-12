@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -1087,8 +1084,8 @@
       </div>
     </front>
     <body>
-        <div xml:id="dedicace" type="dedication">
-          <head>À SON ALTESSE SERENISSIME MONSEIGNEUR LE DUC D’ENGUIEN<note n="43" place="bottom">Il
+      <div xml:id="dedicace" type="dedication">
+        <head>À SON ALTESSE SERENISSIME MONSEIGNEUR LE DUC D’ENGUIEN<note n="43" place="bottom">Il
               s’agit de Louis II, prince de Condé, dit le Grand Condé (1621-1686) qui se rendit
               célèbre par ses victoires militaires, notamment celle de Rocroi en 1643 contre les
               Espagnols. Il prit la tête de la Fronde des princes en 1651 mais fut battu par Turenne
@@ -1099,89 +1096,89 @@
               Chantilly, dans une semi-disgrâce, protégeant plusieurs écrivains, parmi lesquels
               Molière, qui fit notamment jouer <hi rend="i">le Tartuffe</hi> à Chantilly, en 1668,
               alors qu’il était interdit à Paris.</note>.<pb n="III"/></head>
-          <p><hi rend="i">Monseigneur</hi>,</p>
-          <p>Voicy l’Ombre de Moliere ; c’est une Comédie dont le bonheur sera parfait, <pb n="IV"/>
+        <p><hi rend="i">Monseigneur</hi>,</p>
+        <p>Voicy l’Ombre de Moliere ; c’est une Comédie dont le bonheur sera parfait,<pb n="IV"/>
             si V. A. S. l’honore du moindre coup d’œil. Sans l’autorité que me donne un long usage,
             je ne hazarderois pas de mettre vostre Illustre Nom à la Teste d’un Livre, lors qu’il va
             si glorieusement éclater à la Teste des Armées. Alexandre mettoit Homere sous son
             chevet ; Scipion et Lélie honorerent Térence de leur estime : mais sans le secours de
             ces Exemples, il suffit de celuy de V. A. S. pour justifier que les Armes et les Lettres
-            n’ont rien d’incompatible, et que <pb n="V"/> le Cabinet et le Camp peuvent estre Amis.
+            n’ont rien d’incompatible, et que<pb n="V"/> le Cabinet et le Camp peuvent estre Amis.
             Souffrez donc, <hi rend="sc">Monseigneur</hi>, que les Œuvres de <hi rend="i">Moliere</hi> tiennent quelque rang dans vostre Bibliothèque, et que ma Comedie soit
             une espece de Table pour les siennes.</p>
-          <p>DE V.A.S.</p>
-          <p><hi rend="sc">Monseigneur</hi>,</p>
-          <p>Le tres-humble et tres-obeïssant Serviteur,</p>
-          <p>BRECOURT.</p>
-        </div>
-        <div type="set" xml:id="acteurs">
-          <head>ACTEURS.<pb n="VIII"/></head>
-          <castList>
-            <castItem>
-              <role xml:id="ombre">DEUX OMBRES.</role>
-            </castItem>
-            <castItem>
-              <role xml:id="caron" rend="male">CARON.</role>
-            </castItem>
-            <castItem>
-              <role xml:id="poete" rend="male">LE POETE.</role>
-            </castItem>
-            <castItem>
-              <role xml:id="pluton" rend="male superior">PLUTON.</role>
-            </castItem>
-            <castItem>
-              <role xml:id="radamante" rend="male">RADAMANTE.</role>
-            </castItem>
-            <castItem>
-              <role xml:id="minos" rend="male">MINOS.</role>
-            </castItem>
-            <castItem>
-              <role xml:id="moliere" rend="male">MOLIERE,</role>
-              <roleDesc>Poëte Comique.</roleDesc>
-            </castItem>
-            <castItem>
-              <role xml:id="la-pretieuse" rend="female">LA PRETIEUSE,</role>
-              <roleDesc>de la Comedie des Prétieuses.</roleDesc>
-            </castItem>
-            <castItem>
-              <role xml:id="marquis" rend="male">LE MARQUIS DE MASCARILLE,</role>
-              <roleDesc>de la mesme Comedie.</roleDesc>
-            </castItem>
-            <castItem>
-              <role xml:id="cocu" rend="male">LE COCU,</role>
-              <roleDesc>du Cocu Imaginaire.</roleDesc>
-            </castItem>
-            <castItem>
-              <role xml:id="nicole" rend="female">NICOLE,</role>
-              <roleDesc>du Bourgeois Gentilhomme.</roleDesc>
-            </castItem>
-            <castItem>
-              <role xml:id="pourceaugnac" rend="male">POURCEAUGNAC,</role>
-              <roleDesc>de la Comedie de Pourceaugnac.</roleDesc>
-            </castItem>
-            <castItem>
-              <role xml:id="mme-jourdain" rend="female">MADAME JOURDAIN,</role>
-              <roleDesc>du Bourgeois Gentilhomme.</roleDesc>
-            </castItem>
-            <castItem>
-              <role xml:id="medecins" rend="male">QUATRE MEDECINS,</role>
-              <roleDesc>de la Comedie des Medecins.</roleDesc>
-            </castItem>
-            <castItem>
-              <role xml:id="envie">L’ENVIE.</role>
-            </castItem>
-            <castItem>
-              <role xml:id="oronte" rend="male"/>
-            </castItem>
-            <castItem>
-              <role xml:id="cleante" rend="male"/>
-            </castItem>
-            <castItem>
-              <role xml:id="ames"/>
-            </castItem>
-          </castList>
-          <stage>La Scène est dans les Champs Elysées.</stage>
-        </div>
+        <p>DE V.A.S.</p>
+        <p><hi rend="sc">Monseigneur</hi>,</p>
+        <p>Le tres-humble et tres-obeïssant Serviteur,</p>
+        <p>BRECOURT.</p>
+      </div>
+      <div type="set" xml:id="acteurs">
+        <head>ACTEURS.<pb n="VIII"/></head>
+        <castList>
+          <castItem>
+            <role xml:id="ombre">DEUX OMBRES.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="caron" rend="male">CARON.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="poete" rend="male">LE POETE.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="pluton" rend="male superior">PLUTON.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="radamante" rend="male">RADAMANTE.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="minos" rend="male">MINOS.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="moliere" rend="male">MOLIERE,</role>
+            <roleDesc>Poëte Comique.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="la-pretieuse" rend="female">LA PRETIEUSE,</role>
+            <roleDesc>de la Comedie des Prétieuses.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="marquis" rend="male">LE MARQUIS DE MASCARILLE,</role>
+            <roleDesc>de la mesme Comedie.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="cocu" rend="male">LE COCU,</role>
+            <roleDesc>du Cocu Imaginaire.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="nicole" rend="female">NICOLE,</role>
+            <roleDesc>du Bourgeois Gentilhomme.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="pourceaugnac" rend="male">POURCEAUGNAC,</role>
+            <roleDesc>de la Comedie de Pourceaugnac.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="mme-jourdain" rend="female">MADAME JOURDAIN,</role>
+            <roleDesc>du Bourgeois Gentilhomme.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="medecins" rend="male">QUATRE MEDECINS,</role>
+            <roleDesc>de la Comedie des Medecins.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="envie">L’ENVIE.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="oronte" rend="male"/>
+          </castItem>
+          <castItem>
+            <role xml:id="cleante" rend="male"/>
+          </castItem>
+          <castItem>
+            <role xml:id="ames"/>
+          </castItem>
+        </castList>
+        <stage>La Scène est dans les Champs Elysées.</stage>
+      </div>
       <div type="act">
         <head>PROLOGUE DE L’OMBRE DE MOLIERE<pb n="A ; 1"/></head>
         <stage>ORONTE, CLEANTE.</stage>
@@ -1209,7 +1206,7 @@
                 vers libres inégaux, qui n’a ni la gêne d’un Sonnet, ni la subtilité d’une
                 Epigramme, mais qui se contente d’une pensée tendre et agréable ». <hi rend="i">Dictionnaire Universel</hi> d’Antoine Furetière.</note>, ou de semblables
               bagatelles, croyez que cela ne m’a point donné assez bonne opinion de moy pour
-              entreprendre un <pb n="3"/> Ouvrage que l’on puisse appeller Comédie. C’est un pas, à
+              entreprendre un<pb n="3"/> Ouvrage que l’on puisse appeller Comédie. C’est un pas, à
               la vérité, que presque tous les Gens franchissent aisément ; et il semble qu’il
               suffise d’avoir fait à plusieurs reprises une certaine quantité de médiocres ou de
               mechans Vers pour se donner avec beaucoup d’impunité le nom d’Autheur ; et sous ce
@@ -1220,7 +1217,7 @@
                 comprendre ici que le hasard est forcé ; ce n’est donc plus du hasard, mais quelque
                 chose qui est provoqué. <hi rend="i">Incidents forcés.</hi></note>, et de Galimatias
               redoublez, que l’on baptise effrontément du nom de Comédie. Voila par où plusieurs
-              honnestes Gens ont <pb n="4"/> échoüé dans le monde ; et sur leur exemple, je ne
+              honnestes Gens ont<pb n="4"/> échoüé dans le monde ; et sur leur exemple, je ne
               hazarderay point, mon cher Cleante, de perdre un peu d’estime que d’autres talens que
               la Poësie m’ont acquise. Quand on peut faire quelque chose de mieux qu’une méchante
               Piece, on ne doit point travailler à cet Ouvrage ; et quoy qu’on entreprenne, si l’on
@@ -1229,7 +1226,7 @@
         <sp who="cleante">
           <speaker>Cleante.</speaker>
           <p>Je vous trouve admirable, Oronte, avec tous ces justes et beaux raisonnemens ! Mais
-              ce qui m’en plaît le plus, c’est <pb n="5"/> de vous voir si bien condamner aux autres
+              ce qui m’en plaît le plus, c’est<pb n="5"/> de vous voir si bien condamner aux autres
               une démangeaison dont vous n’avez pû vous défendre. Oüy, morbleu, je vous dis que vous
               avez fait une Comédie.</p>
         </sp>
@@ -1270,7 +1267,7 @@
         <sp who="oronte">
           <speaker>Oronte.</speaker>
           <p>Hé, de grace, dites-moy qui m’auroit pû trahir. C’est une chose que je n’ay confiée
-                <pb n="7"/> qu’à mon Frere et à ma Femme.</p>
+<pb n="7"/> qu’à mon Frere et à ma Femme.</p>
         </sp>
         <sp who="cleante">
           <speaker>Cleante.</speaker>
@@ -1282,7 +1279,7 @@
         </sp>
         <sp who="oronte">
           <speaker>Oronte.</speaker>
-          <p>Ah Cleante ! je vous l’avouë, puis que vous le sçavez : Je <pb n="8"/> m’y suis
+          <p>Ah Cleante ! je vous l’avouë, puis que vous le sçavez : Je<pb n="8"/> m’y suis
               laissé aller ; il est vray, vous tenez mon Ouvrage ; C’est une petite Piece de ma
               façon, et vous estes trop de mes Amis, pour ne pas vous le dire.</p>
         </sp>
@@ -1304,7 +1301,7 @@
         </sp>
         <sp who="cleante">
           <speaker>Cleante.</speaker>
-          <p>Il est vray qu’il a heureusement joüé toutes sortes de <pb n="10"/> matieres ; et son
+          <p>Il est vray qu’il a heureusement joüé toutes sortes de<pb n="10"/> matieres ; et son
               Theâtre nous a servy longtemps d’une divertissante et profitable Ecole.</p>
         </sp>
         <sp who="oronte">
@@ -1314,7 +1311,7 @@
               quelques Esprits mal faits, il tenoit un si juste milieu dans de certaines matieres,
               qu’il s’éloignoit aussi sagement de l’excés, qu’il sçavoit se garder d’une dangereuse
               médiocrité. Mais la chaleur de nostre ancienne amitié m’emporte, et je m’apperçoy
-              qu’insensiblement je <pb n="11"/> ferois son Panegyrique, au lieu de vous demander
+              qu’insensiblement je<pb n="11"/> ferois son Panegyrique, au lieu de vous demander
                 quartier<note n="47" place="bottom"><hi rend="i">Demander quartier</hi> : Terme de
                 guerre : « Signifie le bon traitement qu’on promet à des troupes qui se rendent, qui
                 mettent les armes à bas. Les ennemis ont demandé quartier », c’est-à-dire la pitié
@@ -1329,7 +1326,7 @@
           <speaker>Cleante.</speaker>
           <p>Allez, Oronte, quelque chose que ce soit, le seul sentiment qui vous l’a fait
               entreprendre, vous doit assurer de la reüssite de vostre Ouvrage ; et rien n’est plus
-              honneste à <pb n="12"/> vous, que de montrer au Public avec quelle justice vous
+              honneste à<pb n="12"/> vous, que de montrer au Public avec quelle justice vous
               estimiez un si grand Homme.</p>
         </sp>
         <sp who="oronte">
@@ -1354,7 +1351,7 @@
           </sp>
           <sp who="ombre">
             <speaker>2<hi rend="sup">e</hi> ombre.</speaker>
-            <p>Je n’en feray rien, c’est à <pb n="14"/> moy à balayer icy : Pluton y va venir, et
+            <p>Je n’en feray rien, c’est à<pb n="14"/> moy à balayer icy : Pluton y va venir, et
                 je veux que tout soit net, et propre comme il faut.</p>
           </sp>
           <sp who="ombre">
@@ -1372,7 +1369,7 @@
           </sp>
           <sp who="ombre">
             <speaker>2<hi rend="sup">e</hi> ombre.</speaker>
-            <p>Et quel mérite avois-tu plus <pb n="15"/> que moy en l’autre Monde ? N’estions-nous
+            <p>Et quel mérite avois-tu plus<pb n="15"/> que moy en l’autre Monde ? N’estions-nous
                 pas Laquais tous deux ?</p>
           </sp>
           <sp who="ombre">
@@ -1427,7 +1424,7 @@
                 et nous ne serions pas bien venus à enfiler ce discours. Nous nous échaperions
                 peut-estre à parler contre les Medecins en parlant des Morts. Tu sçais que ces
                 Messieurs sont un peu vindicatifs, et que depuis quelque temps sur tout, nous en
-                avons icy qui ne preschent que la <pb n="18"/> vengeance de ceux qui n’ont pas voulu
+                avons icy qui ne preschent que la<pb n="18"/> vengeance de ceux qui n’ont pas voulu
                 mourir par leurs mains ; Et s’il arrive que nôtre grand Pluton leur accorde quelque
                 empire en ces lieux, comme ils le prétendent, ils pourroient bien étendre leur
                 colere jusques sur nous, pour n’avoir pas parlé d’eux avec tout le respect qu’ils
@@ -1440,7 +1437,7 @@
           </sp>
           <sp who="ombre">
             <speaker>1<hi rend="sup">e</hi> ombre.</speaker>
-            <p>Je ne sçay si c’est pour d’au- <pb n="19"/> tres, ou pour eux ; mais je sçay bien
+            <p>Je ne sçay si c’est pour d’au-<pb n="19"/> tres, ou pour eux ; mais je sçay bien
                 que Pluton s’y doit rendre bientost pour juger une grande Affaire. C’est pourquoy,
                 si tu m’en crois, au lieu de quereller, et de disputer de nos avantages, nous
                 prendrons chacun un Balay, et nous nettoyerons ensemble, pour avoir plutost fait.
@@ -1452,7 +1449,7 @@
           </sp>
           <sp who="ombre">
             <speaker>1<hi rend="sup">e</hi> ombre.</speaker>
-            <p>Attens : Non, non ce n’est pas luy encore ; c’est Caron <pb n="20 "/>avec le Génie
+            <p>Attens : Non, non ce n’est pas luy encore ; c’est Caron<pb n="20 "/>avec le Génie
                 du Poëte Doucet<note n="51" place="bottom">Le <hi rend="i">Poëte Doucet</hi> est une
                   référence au dramaturge Quinault qui, dit-on, « a passé pour la douceur mesme »,
                   ce que Brécourt rappelle à la scène II, p. 25. Cf. Introduction, IV-
@@ -1489,7 +1486,7 @@
           </sp>
           <sp who="caron">
             <speaker>Caron <hi rend="i">le raillant sur le mesme ton.</hi>
-              <pb n="22"/></speaker>
+<pb n="22"/></speaker>
             <p>Helas, Caron ! helas ! A qui diable en as-tu avec tes piteux helas ?</p>
           </sp>
           <sp who="poete">
@@ -1501,7 +1498,7 @@
             <speaker>Caron.</speaker>
             <p>Et où veux-tu que je te fourre, malheureux Génie que tu es ? Veux-tu que je te
                 mette parmy les Poëtes ? Cela est indigne de ton mérite. Que je t’aille nicher aussy
-                parmy des <pb n="23"/> Héros ? Ma foy, tu les as un peu trop bien accommodez<note n="52" place="bottom"><hi rend="i">Accommoder</hi> : «  on dit qu’un Poète a
+                parmy des<pb n="23"/> Héros ? Ma foy, tu les as un peu trop bien accommodez<note n="52" place="bottom"><hi rend="i">Accommoder</hi> : «  on dit qu’un Poète a
                   accommodé un sujet au théâtre, pour dire, qu’il l’a disposé pour paraître agréable
                   sur la scène ». <hi rend="i">Dictionnaire Universel</hi> d’Antoine
                   Furetière.</note>, pour croire qu’ils s’accommodassent de toy.</p>
@@ -1547,7 +1544,7 @@
             <speaker>Caron.</speaker>
             <p>Hé tu n’estois que trop doux, mon Enfant, et un peu de sel t’auroit fait grand
                 bien. Mais je suis las de t’entendre ; nous avons bien d’autres affaires ; Adieu, va
-                te promener. Ne va pas gâter nos belles <pb n="26"/> Allées au moins, ny t’amuser à
+                te promener. Ne va pas gâter nos belles<pb n="26"/> Allées au moins, ny t’amuser à
                 cueillir nos Lauriers. Ce n’est pas viande pour tes Oyseaux.</p>
           </sp>
           <sp who="poete">
@@ -1566,7 +1563,7 @@
           <sp who="caron">
             <speaker>Caron.</speaker>
             <p>Ah, le Bourreau ! Tu ne sortiras pas ? Allons, Balayeurs, faites vostre charge ;
-                Voicy <pb n="27"/> Pluton ; et cet animal n’a que faire icy.</p>
+                Voicy<pb n="27"/> Pluton ; et cet animal n’a que faire icy.</p>
             <stage>Les Ombres chassent le Poëte avec le manche de leurs Balays.</stage>
           </sp>
         </div>
@@ -1576,7 +1573,7 @@
           <sp who="pluton">
             <speaker>Pluton <hi rend="i">assis dans son Tribunal.</hi></speaker>
             <p>Ça, il est donc question de rendre justice aujourd’huy. Fay venir l’Accusé, Caron ;
-                et que l’Envie ameine les Complaignans. Nous avons donc bien des <pb n="28"/>
+                et que l’Envie ameine les Complaignans. Nous avons donc bien des<pb n="28"/>
                 affaires, Messieurs ?</p>
           </sp>
           <sp who="radamante">
@@ -1596,14 +1593,14 @@
             <speaker>Minos.</speaker>
             <p>Je vay vous instruire de tout, afin que vous n’ayiez pas la peine tantost
                 d’interroger les Parties. Il y avoit autrefois là-haut un certain Homme qui se
-                mesloit d’écrire, à ce qu’on dit ; mais il <pb n="29"/> s’estoit rendu si difficile,
+                mesloit d’écrire, à ce qu’on dit ; mais il<pb n="29"/> s’estoit rendu si difficile,
                 que rien ne luy sembloit parfait. Il se mit d’abord à critiquer les façons de parler
                 particulieres ; En suite il donna sur les habillemens ; De là il attaqua les mœurs,
                 et se mit inconsidérement à blâmer toutes les sottises du monde : Il ne pût jamais
                 se résoudre à soufrir tous les abus qui s’y glissoient. Il dévoila le mystere de
                 chaque chose, fit connoître publiquement quel intérest faisoit agir les Hommes, et
                 fit si bien enfin, que par les lumieres qu’il en donnoit, on commençoit de bonne-foy
-                à trouver presque <pb n="30 "/>toutes les choses de la vie un peu ridicules. Il n’y
+                à trouver presque<pb n="30 "/>toutes les choses de la vie un peu ridicules. Il n’y
                 eut pas jusqu’à la Medecine mesme qui n’eut part à sa Censure ; et ce fut une des
                 choses qu’il toucha le plus souvent, et sçeut si bien reüssir en cette matiere, que
                 pour peu qu’il l’eut traittée encore, il y auroit eu lieu de craindre pour les
@@ -1616,7 +1613,7 @@
           </sp>
           <sp who="minos">
             <speaker>Minos.</speaker>
-            <p>Et c’est son arrivée icy qui cause cette Audiance, qui <pb n="31 "/>sans doute ne
+            <p>Et c’est son arrivée icy qui cause cette Audiance, qui<pb n="31 "/>sans doute ne
                 sera pas sans difficulté. Chacun prétend avoir sujet de se plaindre de luy ; Luy
                 prétend n’avoir offensé personne ; Au contraire, de la maniere dont il parle, il
                 semble que tout le monde luy soit obligé, et mesme il en donne d’assez bonnes
@@ -1636,7 +1633,7 @@
           </sp>
           <sp who="minos">
             <speaker>Minos.</speaker>
-            <p>Dans l’Allée des Poëtes, où <pb n="32"/> il a trouvé l’Esprit de Terence et de
+            <p>Dans l’Allée des Poëtes, où<pb n="32"/> il a trouvé l’Esprit de Terence et de
                 Plaute, avec qui il se divertit.</p>
           </sp>
           <sp who="pluton">
@@ -1672,7 +1669,7 @@
           </sp>
           <sp who="caron">
             <speaker>Caron.</speaker>
-            <p>Entendez-vous comme on m’appelle ? Dés qu’ils ont veu <pb n="34"/> que je faisois
+            <p>Entendez-vous comme on m’appelle ? Dés qu’ils ont veu<pb n="34"/> que je faisois
                 entrer cette Ombre, ils ont pensé me dévorer.</p>
           </sp>
           <sp who="ames">
@@ -1815,7 +1812,7 @@
           </sp>
           <sp who="pluton">
             <speaker>Pluton.</speaker>
-            <p>Hé bien, que quelqu’autre <pb n="42"/> entre donc, on jugera tout ensemble.</p>
+            <p>Hé bien, que quelqu’autre<pb n="42"/> entre donc, on jugera tout ensemble.</p>
           </sp>
           <sp who="caron">
             <speaker>Caron.</speaker>
@@ -1831,7 +1828,7 @@
           </sp>
           <sp who="marquis">
             <speaker>Le Marquis <hi rend="i">à Moliere sur un ton de faucet.</hi></speaker>
-            <p>Ah parbleu ! mon petit Monsieur, je suis bien-aise <pb n="43"/> de vous trouver
+            <p>Ah parbleu ! mon petit Monsieur, je suis bien-aise<pb n="43"/> de vous trouver
                 icy.</p>
           </sp>
           <sp who="moliere">
@@ -1860,7 +1857,7 @@
           </sp>
           <sp who="marquis">
             <speaker>Le Marquis.</speaker>
-            <p>Je demande justice pour <pb n="44 "/>mes Rubans, mes Plumes, ma Perruque, ma
+            <p>Je demande justice pour<pb n="44 "/>mes Rubans, mes Plumes, ma Perruque, ma
                 Caleche, et mon Faucet, qu’il a joüez publiquement.</p>
           </sp>
           <sp who="pluton">
@@ -1890,7 +1887,7 @@
                   manières. Qui cause du chagrin. [C’est un fâcheux des plus fâcheux du monde,
                   Molière.] ». <hi rend="i">Dictionnaire François</hi> par P. Richelet. Allusion aux
                     <hi rend="i">Fâcheux</hi>, comédie de Molière qui présente le personnage du
-                  chasseur.</note> de tous nos Morts. Un Chasseur <pb n="45"/> qui s’est cassé la
+                  chasseur.</note> de tous nos Morts. Un Chasseur<pb n="45"/> qui s’est cassé la
                 teste sur son Cheval Alezan, et qui ne parle à tout le monde que de gaulis<note n="58" place="bottom"><hi rend="i">Gaulis</hi> : Terme de Vénerie. Branche d’arbre
                   qu’il faut que les Veneurs plient ou détournent quand ils percent dans le fort
                   d’un bois ». <hi rend="i">Dictionnaire Universel</hi> d’Antoine Furetière.</note>,
@@ -1915,7 +1912,7 @@
           </sp>
           <sp who="pluton">
             <speaker>Pluton.</speaker>
-            <p>L’Ombre d’un Cocu ? Il <pb n="46"/> faut que ce soit un furieux Corps ! Parle, que
+            <p>L’Ombre d’un Cocu ? Il<pb n="46"/> faut que ce soit un furieux Corps ! Parle, que
                 veux-tu ?</p>
           </sp>
         </div>
@@ -1926,13 +1923,13 @@
             <speaker>Le Cocu.</speaker>
             <p>Vous voyez en ma seule Ombre tout le Corps des Cocus ; Vous les voyez icy en moy,
                 dis-je, affligez, outragez, et tout contrits des affronts publics que ce grand Corps
-                a reçeus depuis que <pb n="47"/> malicieusement cet Ennemy juré de nostre repos nous
+                a reçeus depuis que<pb n="47"/> malicieusement cet Ennemy juré de nostre repos nous
                 a rendus le joüet de tout le monde. Il n’est presque aucun Mary qui n’ait senty les
                 traits piquans de sa Satyre ; et depuis qu’il s’est meslé d’annéxer le Cocuage à de
                 certains Maris, il se voit peu de Familles où l’on ne soit persuadé de trouver des
                 Cocus de Pere en Fils. Ce soupçon outrageant est devenu par son moyen comme un Titre
                 de Maison ; et il en a excepté si peu de Gens, que si je ne parle pour tout le
-                monde, il ne s’en faut guére du moins. Voila de quoy se plaint nostre <pb n="48"/>
+                monde, il ne s’en faut guére du moins. Voila de quoy se plaint nostre<pb n="48"/>
                 Illustre Corps, qui avant sa scandaleuse médisance vivoit dans l’état de la premiere
                 innocence. Chacun vivoit content de sa petite réputation ; Le scandale ne regnoit
                 point publiquement comme il fait ; et si l’on avoit le malheur d’estre Cocu, on
@@ -1953,7 +1950,7 @@
           <sp who="moliere">
             <speaker>Moliere.</speaker>
             <p>Rien ; je passe condamnation pour les Cocus, et j’ay trop mal reüssy dans cette
-                affaire pour me pouvoir défendre. Quelque soin que <pb n="50"/> j’aye pris de faire
+                affaire pour me pouvoir défendre. Quelque soin que<pb n="50"/> j’aye pris de faire
                 horreur du Cocuage, j’avoüe de bonne-foy que c’est un vice dont je n’ay pû corriger
                 mon siecle.</p>
           </sp>
@@ -1968,7 +1965,7 @@
           <stage>CARON, PLUTON, MOLIERE, MINOS, RADAMANTE.</stage>
           <sp who="caron">
             <speaker>Caron.</speaker>
-            <p>Je ne sçay d’où nous est venuë encore une plaisante espece d’Ombre : Mais je <pb n="51 "/>croy, si l’on pouvoit trépasser deux fois, qu’elle feroit mourir de rire
+            <p>Je ne sçay d’où nous est venuë encore une plaisante espece d’Ombre : Mais je<pb n="51 "/>croy, si l’on pouvoit trépasser deux fois, qu’elle feroit mourir de rire
                 tous les Morts d’icy-bas.</p>
           </sp>
           <sp who="pluton">
@@ -2008,7 +2005,7 @@
           </sp>
           <sp who="nicole">
             <speaker>Nicole <hi rend="i">riant à gorge déployée.</hi></speaker>
-            <p>Hé, oüy, c’est moy. Quand <pb n="53"/> j’ay appris que vous estiez icy, par ma
+            <p>Hé, oüy, c’est moy. Quand<pb n="53"/> j’ay appris que vous estiez icy, par ma
                 figue, ay-je dit en moy-mesme, il faut que j’aille voir ce pauvre Homme qui m’a tant
                 fait rire en l’autre Monde.</p>
           </sp>
@@ -2039,7 +2036,7 @@
             <speaker>Nicole.</speaker>
             <p>Non, car je ne faisois tous les jours que la même chose, dormir, boire, et manger ;
                 et il me semble que le plaisir de la vie est de changer quelquefois. A cette heure,
-                voulez-vous que je vous dise, il y a <pb n="55 "/>une certaine égalité parmy les
+                voulez-vous que je vous dise, il y a<pb n="55 "/>une certaine égalité parmy les
                 Morts qui ne me déplaît pas. Je ne voy personne icy qui soit plus grand Seigneur
                 l’un que l’autre ; et j’ay pensé étoufer de rire quand j’ay rencontré en venant
                 mille sortes de Gens qui se desesperoient. Un riche Banquier pâle et maigre, qui
@@ -2048,7 +2045,7 @@
                     Universel</hi> d’Antoine Furetière.</note> de s’estre laissé mourir de faim. Un
                 Amoureux qui s’est tué pour une Maitresse qui ne l’aimoit point. Un Alchimiste qui
                 enrageoit d’avoir passé sa vie en fumée ; mais, entr’autres choses, des Dames qui
-                pleuroient de me voir assise aupres d’elles. D’autres qui s’affligeoient <pb n="56"/> de n’avoir plus de Toillettes, de Miroirs, et de petites Boëttes. Il n’y a rien
+                pleuroient de me voir assise aupres d’elles. D’autres qui s’affligeoient<pb n="56"/> de n’avoir plus de Toillettes, de Miroirs, et de petites Boëttes. Il n’y a rien
                 de plus plaisant que de les voir sans rouge, sans mouches, et sans cheveux ; avec
                 leur grand front chauve, leurs yeux creusez, et leurs jouës décharnées ; vous les
                 prendriez pour des Caresme-prenans<note n="63" place="bottom"><hi rend="i">Caresme-prenans</hi> est « le jour du mardi qui précède le Carême, et quelque
@@ -2061,7 +2058,7 @@
           </sp>
           <sp who="nicole">
             <speaker>Nicole.</speaker>
-            <p>Moy ? Par ma figue, je n’ay <pb n="57"/> rien à dire contre luy, c’est une bonne
+            <p>Moy ? Par ma figue, je n’ay<pb n="57"/> rien à dire contre luy, c’est une bonne
                 Ombre ; et tenez, Monsieur Pluton, c’est peut-estre la meilleure Piece de vostre
                   Sac<note n="64" place="bottom">« <hi rend="i">Piece</hi>, en termes de
                     Palais, se dit de tout ce qu’on écrit et produit en un procès pour le mettre en
@@ -2108,7 +2105,7 @@
           <sp who="pluton">
             <speaker>Pluton.</speaker>
             <p>Ostez-moy cette Impudente. Qu’est-ce encore ? Je n’en veux plus entendre ; Qu’on me
-                laisse en repos ; <pb n="59"/> L’Audience est finie, et je vais prononcer<note n="65" place="bottom"><hi rend="i">Prononcer</hi> « signifie, Décider avec
+                laisse en repos ;<pb n="59"/> L’Audience est finie, et je vais prononcer<note n="65" place="bottom"><hi rend="i">Prononcer</hi> « signifie, Décider avec
                   autorité. On a ouït les Avocats, il ne reste qu’à prononcer ». <hi rend="i">Dictionnaire Universel</hi> d’Antoine Furetière. Il s’agit donc de la décision
                   du Juge à la fin du procès.</note>.</p>
           </sp>
@@ -2186,7 +2183,7 @@
           <sp who="moliere">
             <speaker>Moliere.</speaker>
             <p>Comment ? Hé dés qu’il arrive en France quelqu’un qui ait tant-soit-peu vostre air,
-                  <pb n="64"/> de vos gentillesses, et de vos petites façons de faire, fût-ce un
+<pb n="64"/> de vos gentillesses, et de vos petites façons de faire, fût-ce un
                 Prince, ne dit-on pas, voila un vray Pourceaugnac ? Et n’est-ce pas un honneur
                 considérable pour vous, et pour vostre Province, que vostre Nom quelquefois puisse
                 servir d’une Qualité aux Gens de la plus haute Naissance ?</p>
@@ -2200,7 +2197,7 @@
             <speaker>Moliere.</speaker>
             <p>Hé, prenons toûjours les choses du bon costé ; n’allons point envenimer les
                 intentions, et croyons tout à nostre avantage : je n’ay jamais rien fait qu’à vostre
-                honneur et <pb n="F ; 65"/> gloire, et serois bien fâché, Monsieur de Pourceaugnac,
+                honneur et<pb n="F ; 65"/> gloire, et serois bien fâché, Monsieur de Pourceaugnac,
                 que les choses eussent tourné autrement.</p>
           </sp>
           <sp who="pourceaugnac">
@@ -2265,7 +2262,7 @@
           </sp>
           <sp who="pluton">
             <speaker>Pluton.</speaker>
-            <p>Quelle nouvelle espece est-ce encore icy ? Dites-nous <pb n="69 "/>donc ce que vous
+            <p>Quelle nouvelle espece est-ce encore icy ? Dites-nous<pb n="69 "/>donc ce que vous
                 avez ?</p>
           </sp>
           <sp who="mme-jourdain">
@@ -2319,7 +2316,7 @@
             <p>Diable soit la Masque<note n="70" place="bottom"><hi rend="i">Masque</hi> : « Terme
                   injurieux qu’on dit aux femmes du commun peuple, pour leur reprocher leur laideur,
                   ou leur vieillesse ». <hi rend="i">Dictionnaire Universel</hi> d’Antoine
-                  Furetière.</note> ; <pb n="71"/> Que l’on me l’oste d’icy, et que d’aujourd’huy
+                  Furetière.</note> ;<pb n="71"/> Que l’on me l’oste d’icy, et que d’aujourd’huy
                 personne ne me parle. Je suis las de tous ces Extravagans, et me voila dans une
                 colere que je ne me sens pas. Qu’est-ce encore ? Qu’y a-t-il ? Que veut-on ?
                 Seray-je toûjours troublé, persecuté, accablé d’affaires ? Hé, quelle misere
@@ -2437,7 +2434,7 @@
           <sp who="pluton">
             <speaker>Pluton</speaker>
             <p>Je vous suis obligé, et j’ay bien de la joye de vous voir. Ce n’est pas que vous ne
-                m’eussiez esté encore un peu <pb n="78"/> necessaires là-haut, et j’ay eu quelque
+                m’eussiez esté encore un peu<pb n="78"/> necessaires là-haut, et j’ay eu quelque
                 chagrin quand les Parques m’ont dit que vous veniez icy : Mais je m’en suis
                 neantmoins consolé lors que j’ay appris que vous aviez laissé de grands Enfants qui
                 sçavoient assez bien leur mestier, et que mesme il estoit déjà venu icy quelques
@@ -2466,7 +2463,7 @@
           <sp who="medecins">
             <speaker>3<hi rend="sup">e</hi> Medecin.</speaker>
             <p>Il s’est mesme déjà glissé jusques dans ces Lieux une médisance secrette qui nous
-                regarde. Tous les Morts semblent se liguer contre nous ; <pb n="80"/> Il leur échape
+                regarde. Tous les Morts semblent se liguer contre nous ;<pb n="80"/> Il leur échape
                 des Satyres piquantes, et des injures calomnieuses contre les Medecins ; et nous
                 venons icy, Grand Monarque, vous remontrer humblement, de la part de nostre Illustre
                 Corps, de quelle importance il est, pour l’accroissement de vostre Empire, que vous
@@ -2476,7 +2473,7 @@
             <speaker>Pluton</speaker>
             <p>On apprendra à vivre à ces Morts-là. J’entens et je pretens qu’on vous regarde
                 comme les plus fermes appuis de mon Estat. Mais qui sont ces Morts-là qui ont
-                l’impudence d’aller gaster vostre Mestier ? <pb n="81 "/>Nommez, nommez-les moy ;
+                l’impudence d’aller gaster vostre Mestier ?<pb n="81 "/>Nommez, nommez-les moy ;
                 J’en veux faire un bon exemple.</p>
           </sp>
           <sp who="medecins">
@@ -2486,7 +2483,7 @@
                 autres sans les avoir senties. Mais c’est à l’Autheur de nos maux que nous en
                 voulons ; c’est à celuy qui comme un nouveau Caton, s’est venu déchaîner contre nous
                 et qui, apres le mépris évident qu’il a fait de nostre Illustre Corps, a poussé son
-                audace encore jusqu’à nous <pb n="82"/> tourner en Ridicules ; en nous rendant la
+                audace encore jusqu’à nous<pb n="82"/> tourner en Ridicules ; en nous rendant la
                 fable et la risée du Public. C’est cette Ombre, en un mot, cet insolent Fleau de
                 nostre Faculté, dont nous vous demandons une vengeance authentique.</p>
           </sp>
@@ -2499,7 +2496,7 @@
             <p>C’est donc à moy à qui vous en voulez, Messieurs ? Vous demandez vengeance du
                 mépris que j’ay fait de vostre Illustre Corps : Je vous ay tourné en Ridicules, je
                 vous ay rendus la fable et la risée du Public ? Hé bien, il faut vous répondre, et
-                tracer <pb n="83"/> plus naturellement vos traits, afin de vous bien faire
+                tracer<pb n="83"/> plus naturellement vos traits, afin de vous bien faire
                 connoistre. Pluton, je jure icy par le respect que je te dois, que ce n’est point
                 contre ce grand Art de la Médecine que je prétens me déchaîner. J’en adore l’étude,
                 j’en révere la judicieuse pratique, mais j’en abhorre et déteste le pernicieux et
@@ -2542,7 +2539,7 @@
                 Medecine, une chose purge le cerceau, celle-cy échauffe l’estomac, celle-là
                 rafraîchit le foye, et font partir un Breuvage à bride abbatuë, comme si dans ce
                 mélange chaque Remede portoit son Etiquette, et que tous n’allassent pas ensemble
-                sejourner au mesme lieu. Il faut que ces Messieurs soient bien <pb n="87"/> assurez
+                sejourner au mesme lieu. Il faut que ces Messieurs soient bien<pb n="87"/> assurez
                 de l’obeïssance et de la sagesse de leurs Drogues : Car enfin, si par mégarde l’une
                 alloit prendre le chemin de l’autre, et que la partie qui doit estre échauffée vint
                 par méprise à estre refroidie, voyez un peu où le pauvre Malade en seroit !</p>
@@ -2567,13 +2564,13 @@
           </sp>
           <sp who="moliere">
             <speaker>Moliere.</speaker>
-            <p>Il me souvient icy, avec quelque douleur, de la foiblesse d’un de mes Amis qui <pb n="H ; 89"/> s’estoit sottement confié par leurs noires séductions à l’expérience
+            <p>Il me souvient icy, avec quelque douleur, de la foiblesse d’un de mes Amis qui<pb n="H ; 89"/> s’estoit sottement confié par leurs noires séductions à l’expérience
                 d’un Remede. Deux heures apres l’avoir pris, le Medecin qui l’avoit ordonné, luy en
                 vint demander l’effet, et comment il s’en estoit trouvé. J’ay fort sué, luy répondit
                 le Malade. Cela est bon, dit le Medecin. Trois heures en suite, il luy vint demander
                 comment il s’estoit porté depuis. J’ay senti, dit le Patient, un froid extréme, et
                 j’ay fort tremblé. Cela est bon, suivit le Charlatan. Et sur le soir, pour la
-                troisiéme fois, il revint s’informer encore de l’état où il se trouvoit <pb n="90"/>. Je me sens, dit le Malade, enfler par tout, comme d’hydropisie<note n="74" place="bottom"><hi rend="i">Hydropisie</hi> : « Enflure des membres du corps
+                troisiéme fois, il revint s’informer encore de l’état où il se trouvoit<pb n="90"/>. Je me sens, dit le Malade, enfler par tout, comme d’hydropisie<note n="74" place="bottom"><hi rend="i">Hydropisie</hi> : « Enflure des membres du corps
                   causée par une eau qui se coule entre cuir et chair, lorsque le foie ne fait plus
                   ses fonctions ». <hi rend="i">Dictionnaire Universel</hi> d’Antoine
                   Furetière.</note>. Tout cela est bien, répondit le Bourreau. Le lendemain j’allay
@@ -2628,7 +2625,7 @@
                 avantageux.</p>
           </sp>
           <sp who="radamante">
-            <speaker>Radamante. <pb n="94"/></speaker>
+            <speaker>Radamante.<pb n="94"/></speaker>
             <p>Il n’y a qu’honneur à juger en sa faveur.</p>
           </sp>
           <sp who="pluton">
@@ -2644,7 +2641,7 @@
                 Faculté.</p>
           </sp>
           <sp who="radamante">
-            <speaker>Radamante. <pb n="95"/></speaker>
+            <speaker>Radamante.<pb n="95"/></speaker>
             <p>Je suis de cet avis.</p>
           </sp>
           <sp who="pluton">

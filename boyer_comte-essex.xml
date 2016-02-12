@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -290,23 +287,18 @@
           <p>Boyer eut lui aussi ses partisans. Boursault répondit au prétendu bon goût de Boileau par une <hi rend="i">Satire des satires</hi></p>
           <quote>
             <l>
-              <space/>
-              <space/>
               <hi rend="sc">Emilie</hi>
             </l>
             <l>Bon Boyer : Vous le connoissez peu.</l>
             <l>Boyer, quand il compose, est toûjours tout en feu ;</l>
             <l>Dans ses moindres discours on voit ce feu qui brille,</l>
             <l>Et dans les Vers qu’il fait, le Salpestre pétille.</l>
-            <l><space/><space/>[...] <hi rend="sc">Le Marquis</hi></l>
+            <l>[...] <hi rend="sc">Le Marquis</hi></l>
             <l>Boyer fait mal des vers, à ce compte ?</l>
             <l>
-              <space/>
-              <space/>
-              <space>  </space>
               <hi rend="sc">Le Chevalier</hi>
             </l>
-            <l><space/><space/>Au contraire,</l>
+            <l>Au contraire,</l>
             <l>Il seroit malaisé de pouvoir en mieux faire ;</l>
             <l>Il écrit nettement ; et pour dire encor plus,</l>
             <l>Ses Vers ont de la pompe, et ne sont point confus<note n="28" place="bottom"> E. Boursault, <hi rend="i">La Satire des Satires</hi>, 1669.</note></l>
@@ -389,7 +381,7 @@
         <p>Enfin, le poète doit encore prêter à ses personnages des caractères, des passions et des sentiments qui peuvent motiver l’action : le sens de l’honneur et la fierté d’Essex motivent son silence obstiné, la passion d’Elisabeth pour son favori lui fait retarder son exécution causant ainsi ses interventions, la jalousie de la souveraine envers les amants explique le prompt retour de sa sévérité, la haine de Coban entraînant sa jalousie motive ses actions les plus noires… Pour finir, Boyer prête à ses personnages des discours qui révèlent leurs pensées et leurs réflexions sur leurs actes. On trouve même quelques réflexions d’ordre général ou politique dans la bouche des protagonistes :</p>
         <quote>
           <l>Le soubçon suit toujours la grandeur souveraine (v. 364)</l>
-          <l><space/><space/>La vérité</l>
+          <l>La vérité</l>
           <l>Du mensonge toûjours perce l’obscurité (v. 397-398)</l>
         </quote>
         <p>Cependant Boyer, comme Racine, n’en abuse pas et ne noie pas sa tragédie dans de tels discours, privilégiant la peinture de personnages humains (voir chapitre suivant).</p>
@@ -636,11 +628,11 @@
           </sp>
           <sp who="raleg">
             <speaker>RALEG.</speaker>
-            <l n="33" xml:id="l33">Pour la Reine, Coban ?</l>
+            <l n="33" xml:id="l33" part="I">Pour la Reine, Coban ?</l>
           </sp>
           <sp who="coban">
             <speaker>COBAN.</speaker>
-            <l part="Y"><space/><space/>Elle peut faire un Roy :<note n="73" place="bottom">Malgré les nombreux prétendants qui se pressèrent autour d’Elisabeth, celle-ci écarta les plus beaux partis et refusa obstinément de contracter aucune alliance, ce qui lui valut le surnom de « Reine vierge ». Le problème de sa succession se posa donc de manière récurrente.</note></l>
+            <l part="F">Elle peut faire un Roy :<note n="73" place="bottom">Malgré les nombreux prétendants qui se pressèrent autour d’Elisabeth, celle-ci écarta les plus beaux partis et refusa obstinément de contracter aucune alliance, ce qui lui valut le surnom de « Reine vierge ». Le problème de sa succession se posa donc de manière récurrente.</note></l>
             <l n="34" xml:id="l34">C’est par là que la Reine a des charmes pour moy.<pb n=" Aij"/></l>
             <l n="35" xml:id="l35">Le Comte n’estant plus, s’il faut qu’elle choisisse,</l>
             <l n="36" xml:id="l36">Je puis <ref target="#briguer">briguer<hi rend="sup">*</hi></ref> son choix avec quelque justice.</l>
@@ -767,12 +759,12 @@
             <l n="114" xml:id="l114">Elisabeth m’écoute et je sçay vostre amour.</l>
           </sp>
           <sp who="coban">
-            <speaker>COBAN. <pb n="6" xml:id="p6"/></speaker>
-            <l n="115" xml:id="l115">Quel amour ?</l>
+            <speaker>COBAN.<pb n="6" xml:id="p6"/></speaker>
+            <l n="115" xml:id="l115" part="I">Quel amour ?</l>
           </sp>
           <sp who="clarence">
             <speaker>CLARENCE.</speaker>
-            <l part="Y"><space/><space/>Ce n’est plus entre nous un mystere.</l>
+            <l part="F">Ce n’est plus entre nous un mystere.</l>
             <l n="116" xml:id="l116">Coban, tremblez, je sçais et parler et me taire.</l>
             <l n="117" xml:id="l117">Vostre pouvoir est grand, mais je connois le mien.</l>
             <l n="118" xml:id="l118">Si vous hazardez tout, je n’épargneray rien.</l>
@@ -782,11 +774,11 @@
             <l n="119" xml:id="l119">Si vous parlez si haut je cesseray de feindre.</l>
             <l n="120" xml:id="l120">Voyez le sort du Comte et commencez à craindre.</l>
             <l n="121" xml:id="l121">Songez-y bien, craignez un pas si hazardeux :</l>
-            <l n="122" xml:id="l122">Vous vous perdez.</l>
+            <l n="122" xml:id="l122" part="I">Vous vous perdez.</l>
           </sp>
           <sp who="clarence">
             <speaker>CLARENCE.</speaker>
-            <l part="Y"><space/><space/>Hé bien, nous perirons tous deux.</l>
+            <l part="F">Hé bien, nous perirons tous deux.</l>
             <l n="123" xml:id="l123">La Reine vient : qu’elle est accablée, éperduë !</l>
           </sp>
         </div>
@@ -807,11 +799,11 @@
           </sp>
           <sp who="leonor">
             <speaker>LEONOR.</speaker>
-            <l n="127" xml:id="l127">Madame, où courez-vous ?<note n="90" place="bottom">Sur aucune scène, un personnage tel qu’une reine, n’est amené à courir. L’entrée d’Elisabeth est annoncée depuis la fin de la scène précédente, elle ne fait donc pas irruption en courant. Léonor veut simplement lui demander : à quel sentiment vous laissez-vous entraîner ? Ce que Furetière exprime de la façon suivante : « Aspirer à quelque chose. »</note></l>
+            <l n="127" xml:id="l127" part="I">Madame, où courez-vous ?<note n="90" place="bottom">Sur aucune scène, un personnage tel qu’une reine, n’est amené à courir. L’entrée d’Elisabeth est annoncée depuis la fin de la scène précédente, elle ne fait donc pas irruption en courant. Léonor veut simplement lui demander : à quel sentiment vous laissez-vous entraîner ? Ce que Furetière exprime de la façon suivante : « Aspirer à quelque chose. »</note></l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Monstre d’ingratitude,<note n="91" place="bottom">La Calprenède : « Tu mourras, tu mourras, monstre d’ingratitude » (v. 397).</note></l>
+            <l part="F">Monstre d’ingratitude,<note n="91" place="bottom">La Calprenède : « Tu mourras, tu mourras, monstre d’ingratitude » (v. 397).</note></l>
             <l n="128" xml:id="l128">Ton crime est à mon cœur la peine la plus rude,<pb n=" Aiiij"/></l>
             <l n="129" xml:id="l129">Le plus cruel tourment que le Ciel en courroux,</l>
             <l n="130" xml:id="l130">Que l’enfer ait jamais inventé contre nous.</l>
@@ -828,19 +820,19 @@
           </sp>
           <sp who="clarence">
             <speaker>CLARENCE.</speaker>
-            <l n="141" xml:id="l141">Calmez ce desespoir.</l>
+            <l n="141" xml:id="l141" part="I">Calmez ce desespoir.</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Qu’on ne m’en parle plus.</l>
+            <l part="F">Qu’on ne m’en parle plus.</l>
           </sp>
           <sp who="coban">
             <speaker>COBAN.</speaker>
-            <l n="142" xml:id="l142">Faut-il pour un ingrat ?</l>
+            <l n="142" xml:id="l142" part="I">Faut-il pour un ingrat ?</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Vos soins sont superflus.</l>
+            <l part="F">Vos soins sont superflus.</l>
             <l n="143" xml:id="l143">Je sçaurais bien sans vous punir sa perfidie.</l>
             <stage>à Valden.<note n="94" place="bottom">Le baron Howard de Walden faisait parti du jury réuni pour juger Essex. Sa fonction de connétable de la tour de Londres, sordide prison, explique sûrement le choix de ce nom pour le capitaine des gardes.</note></stage>
             <l n="144" xml:id="l144">S’est-on saisi du Comte, et seray-je obeïe ?</l>
@@ -857,7 +849,7 @@
             <l n="149" xml:id="l149">Je veux sans plus tarder.... Hé quoy, vous vous troublez.</l>
           </sp>
           <sp who="coban">
-            <speaker>COBAN. <pb n="p. 8"/></speaker>
+            <speaker>COBAN.<pb n="p. 8"/></speaker>
             <l n="150" xml:id="l150">Le Comte ayant chez luy ses amis assemblez,<note n="95" place="bottom">Son foyer devint le point de rendez-vous des conspirateurs et c’est là que le comte se retrancha lors de sa tentative de rébellion pour soulever la ville de Londres.</note></l>
             <l n="151" xml:id="l151">Madame, permettez s’il se met en deffence</l>
             <l n="152" xml:id="l152">Que j’aille avec les miens forcer sa resistance.</l>
@@ -882,15 +874,15 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE V. <pb n="9" xml:id="p9"/></head>
+          <head>SCENE V.<pb n="9" xml:id="p9"/></head>
           <stage>LA REINE, CLARENCE, ALIX.</stage>
           <sp who="alix">
             <speaker>ALIX.</speaker>
-            <l n="161" xml:id="l161">Le Comte est là.</l>
+            <l n="161" xml:id="l161" part="I">Le Comte est là.</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Le Comte ! Est-ce son desespoir,</l>
+            <l part="F">Le Comte ! Est-ce son desespoir,</l>
             <l n="162" xml:id="l162">Ou sa fierté qui vient defier mon pouvoir ?</l>
           </sp>
           <sp who="alix">
@@ -911,11 +903,11 @@
             <l n="166" xml:id="l166">On dit que vous voulez vous assurer de moy,</l>
             <l n="167" xml:id="l167">Madame, et que Coban craignoit ma resistance :</l>
             <l n="168" xml:id="l168">Qu’il ne craigne plus rien, me voicy sans deffence,</l>
-            <l n="169" xml:id="l169">J’ay <ref target="#prevenir">prevenu<hi rend="sup">*</hi></ref> vostre ordre.</l>
+            <l n="169" xml:id="l169" part="I">J’ay <ref target="#prevenir">prevenu<hi rend="sup">*</hi></ref> vostre ordre.</l>
           </sp>
           <sp who="elizabet">
-            <speaker>LA REINE. <pb n="p. 10"/></speaker>
-            <l part="Y"><space/><space/>Osez-vous en ces lieux</l>
+            <speaker>LA REINE.<pb n="p. 10"/></speaker>
+            <l part="F">Osez-vous en ces lieux</l>
             <l n="170" xml:id="l170">Avec cette fierté vous offrir à mes yeux ?</l>
           </sp>
           <sp who="comte-essex">
@@ -929,7 +921,7 @@
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE <hi rend="i">à sa suite.</hi></speaker>
-            <l n="177" xml:id="l177">Oüy, je vous la rendray. Sortez.</l>
+            <l n="177" xml:id="l177" part="I">Oüy, je vous la rendray. Sortez.</l>
           </sp>
         </div>
         <div type="scene">
@@ -937,7 +929,7 @@
           <stage>LA REINE, LE C. D’ESSEX.</stage>
           <sp who="elizabet">
             <speaker>LA REINE <hi rend="i">continuë.</hi></speaker>
-            <l part="Y"><space/><space/>Leve les yeux :</l>
+            <l part="F">Leve les yeux :</l>
             <l n="178" xml:id="l178">Regarde enfin ta<note n="97" place="bottom"> Durant tout le face à face que constitue cette scène entre la reine et le comte d’Essex, nous remarquerons l’alternance des deuxièmes personnes du singulier et du pluriel. Cette alternance souligne deux niveaux d’énonciation. C’est avant tout un tête à tête entre Elisabeth, la femme amoureuse et son favori, Essex : dès le début, elle le tutoie jusqu’au vers 252. Cependant lorsque le comte a l’audace de déchirer la lettre, Elisabeth redevient reine d’Angleterre et s’exclame « Ce billet déchiré redouble <hi rend="u">vostre</hi> crime. » (Nous soulignons.) Elle continue en reprenant ce ton familier du début dès le vers suivant pour l’abandonner définitivement au vers 279, face à l’obstination d’un sujet si fier. La distance qu’impose leur statut – une reine face à son sujet – marque la fin d’un entretien qui ne peut plus décemment se prolonger sans témoin.</note> Reine et ces augustes lieux</l>
             <l n="179" xml:id="l179">Où les profusions de ma main liberale,<note n="98" place="bottom">La faveur royale fit sa fortune. En 1588, il reçut l’ordre de la Jarretière, puis fut fait maître de la cour, dispensateur des faveurs royales ce qui faisait de lui le second personnage de l’État. En 1597, il devint maréchal d’Angleterre.</note></l>
             <l n="180" xml:id="l180">Et de ton ascendant la puissance fatale<note n="99" place="bottom">Vers dont le sens peut paraître ambigu. Le groupe nominal « de ton ascendant » est complément du nom « puissance fatale » , lui-même sujet avec le nom « profusions » du verbe « ont » (v. 181). « Ascendant » doit être compris dans le sens de « supériorité qu’un homme a sur l’esprit d’un autre » (Furetière). Elisabeth relève la domination qu’exerce sur elle son favori aux caprices duquel elle cède généreusement – « main libérale » (v. 179).</note></l>
@@ -1012,11 +1004,11 @@
           </sp>
           <sp who="comte-essex">
             <speaker>LE C. D’ESSEX.</speaker>
-            <l n="243" xml:id="l243">Vos témoins !</l>
+            <l n="243" xml:id="l243" part="I">Vos témoins !</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Oüy, perfide, et tu les dois connoistre.</l>
+            <l part="F">Oüy, perfide, et tu les dois connoistre.</l>
           </sp>
           <sp who="comte-essex">
             <speaker>LE C. D’ESSEX.</speaker>
@@ -1139,7 +1131,7 @@
             <l n="318" xml:id="l318">Osteray-je à l’Etat ce glorieux secours ?</l>
           </sp>
           <sp who="coban">
-            <speaker>COBAN. <pb n="p. 16"/></speaker>
+            <speaker>COBAN.<pb n="p. 16"/></speaker>
             <l n="319" xml:id="l319">Mille autres dans l’Etat peuvent remplir sa place.</l>
           </sp>
           <sp who="elizabet">
@@ -1155,7 +1147,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE II. <pb n="p. 17 Biij"/></head>
+        <head>ACTE II.<pb n="p. 17 Biij"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>LE C. D’ESSEX, LE C. DE SALISBERY.</stage>
@@ -1180,7 +1172,7 @@
             <l n="336" xml:id="l336">Mais c’est un peu trop loin pousser ton injustice.</l>
           </sp>
           <sp who="salisbery">
-            <speaker>LE C. DE SALISBERY. <pb n="p. 18"/></speaker>
+            <speaker>LE C. DE SALISBERY.<pb n="p. 18"/></speaker>
             <l n="337" xml:id="l337">Si vous avez conceu quelque injuste dessein</l>
             <l n="338" xml:id="l338">Confessez tout, Seigneur, le pardon est certain.</l>
             <l n="339" xml:id="l339">A cét aveu la Reine encore vous convie.<note n="133" place="bottom">convie ? Nous corrigeons.</note></l>
@@ -1276,7 +1268,7 @@
           <sp who="comte-essex">
             <speaker>LE C. D’ESSEX.</speaker>
             <l n="404" xml:id="l404">Ses perfides desseins se font assez connoistre :</l>
-            <l n="405" xml:id="l405">Allez ne craignez rien.</l>
+            <l n="405" xml:id="l405" part="I">Allez ne craignez rien.</l>
           </sp>
         </div>
         <div type="scene">
@@ -1284,12 +1276,12 @@
           <stage>LE C. D’ESSEX, COBAN.</stage>
           <sp who="comte-essex">
             <speaker>LE C. D’ESSEX <hi rend="i">continuë.</hi></speaker>
-            <l part="Y"><space/><space/>Est-ce vous que je voy ?</l>
-            <l n="406" xml:id="l406">D’où me vient cét honneur ?</l>
+            <l part="F">Est-ce vous que je voy ?</l>
+            <l n="406" xml:id="l406" part="I">D’où me vient cét honneur ?</l>
           </sp>
           <sp who="coban">
             <speaker>COBAN.</speaker>
-            <l part="Y"><space/><space/>Je sçay ce que je doy.</l>
+            <l part="F">Je sçay ce que je doy.</l>
           </sp>
           <sp who="comte-essex">
             <speaker>LE C. D’ESSEX.</speaker>
@@ -1333,11 +1325,11 @@
             <l n="432" xml:id="l432">Coban, j’aime l’honneur et vous aimez à vivre.</l>
             <l n="433" xml:id="l433">Ce conseil qu’un grand cœur n’a jamais pardonné,</l>
             <l n="434" xml:id="l434">Je le laisse, Coban, à qui me l’a donné,</l>
-            <l n="435" xml:id="l435">Et dans un autre temps....</l>
+            <l n="435" xml:id="l435" part="I">Et dans un autre temps....</l>
           </sp>
           <sp who="coban">
             <speaker>COBAN.</speaker>
-            <l part="Y"><space/><space/>Je crains peu la menace</l>
+            <l part="F">Je crains peu la menace</l>
             <l n="436" xml:id="l436">Et sçay des malheureux respecter la disgrace :</l>
             <l n="437" xml:id="l437">Le Ciel éclaircira vos injustes soubçons.</l>
           </sp>
@@ -1346,12 +1338,12 @@
             <l n="438" xml:id="l438">Le Ciel éclaircira vos noires trahisons.</l>
           </sp>
           <sp who="coban">
-            <speaker>COBAN. <pb n="p. 22"/></speaker>
-            <l n="439" xml:id="l439">De quoy m’accusez-vous ?</l>
+            <speaker>COBAN.<pb n="p. 22"/></speaker>
+            <l n="439" xml:id="l439" part="I">De quoy m’accusez-vous ?</l>
           </sp>
           <sp who="comte-essex">
             <speaker>LE C. D’ESSEX.</speaker>
-            <l part="Y"><space/><space/>Je sçay que vôtre envie</l>
+            <l part="F">Je sçay que vôtre envie</l>
             <l n="440" xml:id="l440">Fût toûjours d’obscurcir la gloire de ma vie.</l>
             <l n="441" xml:id="l441">Coban se fit toûjours des projets de grandeur</l>
             <l n="442" xml:id="l442">Sur l’éclatant<note n="142" place="bottom">léclatant Nous corrigeons.</note> débris de toute ma faveur.</l>
@@ -1359,11 +1351,11 @@
             <l n="444" xml:id="l444">Ses billets supposez, ses témoins, ses complices,</l>
             <l n="445" xml:id="l445">Et si je ne peris en victime d’Etat,</l>
             <l n="446" xml:id="l446">Je scay que par un lâche et secret attentat....</l>
-            <l n="447" xml:id="l447">Vous m’entendez.<note n="144" place="bottom">C’est-à-dire vous me comprenez.</note></l>
+            <l n="447" xml:id="l447" part="I">Vous m’entendez.<note n="144" place="bottom">C’est-à-dire vous me comprenez.</note></l>
           </sp>
           <sp who="coban">
             <speaker>COBAN.</speaker>
-            <l part="Y"><space/><space/>L’Etat connoît mieux mon courage.</l>
+            <l part="F">L’Etat connoît mieux mon courage.</l>
             <l n="448" xml:id="l448">Vous méme vous pourriez en porter témoignage,</l>
             <l n="449" xml:id="l449">Vous m’avez vû combattre et grace au Ciel mon bras</l>
             <l n="450" xml:id="l450">Pour perdre un ennemy<note n="145" place="bottom"> Forme fautive « ennemis » corrigée dans l’errata.</note> ne se cacheroit pas.</l>
@@ -1397,11 +1389,11 @@
           </sp>
           <sp who="coban">
             <speaker>COBAN.</speaker>
-            <l n="469" xml:id="l469">Est-ce là cét aveu ?</l>
+            <l n="469" xml:id="l469" part="I">Est-ce là cét aveu ?</l>
           </sp>
           <sp who="comte-essex">
             <speaker>LE C. D’ESSEX.</speaker>
-            <l part="Y"><space/><space/>Non, Coban, arrestez.</l>
+            <l part="F">Non, Coban, arrestez.</l>
             <l n="470" xml:id="l470">Allez luy dire encor toutes vos lâchetez.</l>
             <l n="471" xml:id="l471">J’ay part à vos forfaits et ce fût là mon crime</l>
             <l n="472" xml:id="l472">D’avoir voulu pour vous <ref target="#surprendre">surprendre*</ref> son estime,</l>
@@ -1425,7 +1417,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE III. <pb n="p. 24"/></head>
+          <head>SCENE III.<pb n="p. 24"/></head>
           <stage>CLARENCE, LE C. D’ESSEX.</stage>
           <sp who="comte-essex">
             <speaker>LE C. D’ESSEX.</speaker>
@@ -1495,7 +1487,7 @@
             <l n="538" xml:id="l538">Que j’avois destinez à nos tendres amours.</l>
           </sp>
           <sp who="clarence">
-            <speaker>CLARENCE. <pb n="p. 26"/></speaker>
+            <speaker>CLARENCE.<pb n="p. 26"/></speaker>
             <l n="539" xml:id="l539">Pour détourner un coup dont la crainte m’accable,</l>
             <l n="540" xml:id="l540">Aimez la Reine enfin d’un amour veritable.</l>
             <l n="541" xml:id="l541">Le perfide Coban a connu nôtre amour.</l>
@@ -1542,7 +1534,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IV. <pb n="p. 27 Cij"/></head>
+          <head>SCENE IV.<pb n="p. 27 Cij"/></head>
           <stage>LA REINE, CLARENCE, LE C. DE SALISB. COBAN<note n="162" place="bottom">Scène compte rendu des trois visites successives. </note>.</stage>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
@@ -1566,11 +1558,11 @@
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l n="569" xml:id="l569">Il a donc avoüé.....</l>
+            <l n="569" xml:id="l569" part="I">Il a donc avoüé.....</l>
           </sp>
           <sp who="clarence">
             <speaker>CLARENCE.</speaker>
-            <l part="Y"><space/><space/>Le Comte m’a fait voir</l>
+            <l part="F">Le Comte m’a fait voir</l>
             <l n="570" xml:id="l570">Une douleur cruelle, un mortel desespoir,</l>
             <l n="571" xml:id="l571">De se voir soubçonné d’une Reine adorable.</l>
             <l n="572" xml:id="l572">Qu’à toute l’Angleterre il paroissse coupable,</l>
@@ -1583,7 +1575,7 @@
             <l n="576" xml:id="l576">Je veux tout oublier et je ne veux rien croire.</l>
           </sp>
           <sp who="clarence">
-            <speaker>CLARENCE. <pb n="p. 28"/></speaker>
+            <speaker>CLARENCE.<pb n="p. 28"/></speaker>
             <l n="577" xml:id="l577">Je vois qu’il<note n="164" place="bottom">quil. Nous corrigeons.</note> a pour vous un si profond respect,</l>
             <l n="578" xml:id="l578">Qu’il aime mieux mourir que vous estre suspect.</l>
             <l n="579" xml:id="l579">Si dans l’emportement d’une rage insensée,</l>
@@ -1629,11 +1621,11 @@
           </sp>
           <sp who="clarence">
             <speaker>CLARENCE.</speaker>
-            <l n="610" xml:id="l610">De quoy l’accusez-vous ?</l>
+            <l n="610" xml:id="l610" part="I">De quoy l’accusez-vous ?</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Ne m’en parlez jamais.</l>
+            <l part="F">Ne m’en parlez jamais.</l>
             <l n="611" xml:id="l611">Vous ménagez fort mal l’honneur de ma tendresse,</l>
             <l n="612" xml:id="l612">Vous n’abuserez plus tous deux de ma foiblesse.</l>
             <l n="613" xml:id="l613">Je veux pour le juger qu’on s’assemble aujourd’huy.<note n="169" place="bottom">Cet ordre intervient quelques vers avant la fin de l’acte et crée ainsi un effet de suspens.</note></l>
@@ -1661,7 +1653,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE III. <pb n="p. 30"/></head>
+        <head>ACTE III.<pb n="p. 30"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>LE C. D’ESSEX, POPHAM, LE C. DE SALISB. RALEG, COBAN, VALDEN.</stage>
@@ -1681,7 +1673,7 @@
             <l n="638" xml:id="l638">De ce qui peut servir à vous justifier.</l>
           </sp>
           <sp who="comte-essex">
-            <speaker>LE C. D’ESSEX. <pb n="p. 31 Ciiij"/></speaker>
+            <speaker>LE C. D’ESSEX.<pb n="p. 31 Ciiij"/></speaker>
             <l n="639" xml:id="l639">Où me voy-je<note n="178" place="bottom">Forme fautive « voilà » corrigée dans l’errata.</note> reduit ! Il est donc veritable</l>
             <l n="640" xml:id="l640">Que la Reine et l’Etat me traitent de coupable.</l>
             <l n="641" xml:id="l641">Dequoy m’accuse-t’on ?<note n="179" place="bottom">Essex, dans sa tirade de défense, prend le soin de rappeler quelles sont les accusations qui pèsent contre lui – chefs d’accusation que le spectateur ne peut pas avoir entendus, le début du procès s’étant déroulé hors scène. C’est aussi pour le comte un procédé d’orateur : il résume les plaintes pour mieux les réfuter.</note> à peine ma memoire</l>
@@ -1757,7 +1749,7 @@
             <l n="702" xml:id="l702">Coban <ref target="#trancher">tranche*</ref> du Juge équitable et sincere.<note n="194" place="bottom">La Calprenède : « Donc, Barons souverains, donc Juges équitables » (v. 685).</note></l>
           </sp>
           <sp who="raleg">
-            <speaker>RALEG <hi rend="i">à Coban.</hi> <pb n="p. 33"/></speaker>
+            <speaker>RALEG <hi rend="i">à Coban.</hi><pb n="p. 33"/></speaker>
             <l n="703" xml:id="l703">Le Comte en offensant ses Juges souverains</l>
             <l n="704" xml:id="l704">Rend icy ses forfaits plus grands et plus certains.</l>
           </sp>
@@ -1811,11 +1803,11 @@
             <l n="730" xml:id="l730">De toute passion l’ame libre ou maîtresse,</l>
             <l n="731" xml:id="l731">Je vous feray justice avec la mesme foy,</l>
             <l n="732" xml:id="l732">Que je souhaitterois qu’on en usast pour moy.<note n="198" place="bottom">La Calprenède : « J’atteste devant vous le suprême pouvoir/Qu’avec toute équité je ferai mon devoir, /Que d’aucun intérêt mon âme touchée, /Que de ses passions elle s’est détachée, /Et que je rends justice avec la même foi/Que je puis souhaiter qu’on me la rende à moi » (v. 807-812).</note></l>
-            <l n="733" xml:id="l733">N’avez-vous rien à dire ?<note n="199" place="bottom">La même question est déjà posée à la scène précédente par le même personnage à Essex ; ce qui explique la réaction brève de l’accusé qui s’est déjà exprimé : « Je ne changeray point de cœur et de langage » (v. 734).</note></l>
+            <l n="733" xml:id="l733" part="I">N’avez-vous rien à dire ?<note n="199" place="bottom">La même question est déjà posée à la scène précédente par le même personnage à Essex ; ce qui explique la réaction brève de l’accusé qui s’est déjà exprimé : « Je ne changeray point de cœur et de langage » (v. 734).</note></l>
           </sp>
           <sp who="comte-essex">
             <speaker>LE C. D’ESSEX.</speaker>
-            <l part="Y"><space/><space/>En faut-il davantage ?</l>
+            <l part="F">En faut-il davantage ?</l>
             <l n="734" xml:id="l734">Je ne changeray point de cœur et de langage.</l>
             <l n="735" xml:id="l735">Vous sçavez ce que c’est qu’un cœur comme le mien ;<note n="200" place="bottom">Vers qui fait écho au dernier de sa tirade dans la scène précédente : « A des hommes comme eux un homme comme moy. » (v. 680).</note></l>
             <l n="736" xml:id="l736">Je n’ay rien à repondre à qui me connoist bien.</l>
@@ -1831,16 +1823,16 @@
           <stage>LE C. D’ESS. LE C. DE SALISB. POPHAM, etc.</stage>
           <sp who="salisbery">
             <speaker>LE C. DE SALISBERY.</speaker>
-            <l n="739" xml:id="l739">Ne precipitez rien,</l>
+            <l n="739" xml:id="l739" part="I">Ne precipitez rien,</l>
           </sp>
           <sp who="popham">
             <speaker>POPHAM.</speaker>
-            <l part="Y"><space/><space/>Par quel emportement....</l>
+            <l part="F">Par quel emportement....</l>
           </sp>
           <sp who="salisbery">
             <speaker>LE C. DE SALIS.</speaker>
             <l n="740" xml:id="l740">Seigneur, la Reine veut sursoir<note n="202" place="bottom">« Differer le jugement d’une affaire, l’execution d’une contrainte. » (Furetière).</note> le jugement.</l>
-            <l n="741" xml:id="l741">C’est son ordre, elle vient.</l>
+            <l n="741" xml:id="l741" part="I">C’est son ordre, elle vient.</l>
           </sp>
         </div>
         <div type="scene">
@@ -1848,11 +1840,11 @@
           <stage>LA REINE, LE C. D’ESSEX, POPHAM, COBAN, etc.</stage>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Allez, qu’on se separe.</l>
+            <l part="F">Allez, qu’on se separe.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE V. <pb n="p. 36"/></head>
+          <head>SCENE V.<pb n="p. 36"/></head>
           <stage>LA REINE, LE C. D’ESSEX.</stage>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
@@ -1949,7 +1941,7 @@
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l n="817" xml:id="l817">Quel orgueil !</l>
+            <l n="817" xml:id="l817" part="I">Quel orgueil !</l>
           </sp>
         </div>
         <div type="scene">
@@ -1957,7 +1949,7 @@
           <stage>LA REINE, LE C. D’ESSEX, COBAN.</stage>
           <sp who="coban">
             <speaker>COBAN, <hi rend="i">bas.</hi></speaker>
-            <l part="Y"><space/><space/>Quel transport agite ainsi la Reine.</l>
+            <l part="F">Quel transport agite ainsi la Reine.</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE <hi rend="i">aux Gardes.</hi><note n="222" place="bottom">Elisabeth s’adresse d’abord à Coban puis aux gardes ; seul le second hémistiche est à leur attention.</note></speaker>
@@ -1980,7 +1972,7 @@
             <l n="827" xml:id="l827">Sa haine triomphoit, et ce traitre aujourd’huy....</l>
           </sp>
           <sp who="elizabet">
-            <speaker>LA REINE. <pb n="p. 40"/></speaker>
+            <speaker>LA REINE.<pb n="p. 40"/></speaker>
             <l n="828" xml:id="l828">Ah Clarence ! le Comte est plus traitre que luy.</l>
           </sp>
           <sp who="clarence">
@@ -2010,11 +2002,11 @@
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l n="845" xml:id="l845">Et son Rival ! Coban m’aimeroit ?</l>
+            <l n="845" xml:id="l845" part="I">Et son Rival ! Coban m’aimeroit ?</l>
           </sp>
           <sp who="clarence">
             <speaker>CLARENCE.</speaker>
-            <l part="Y"><space/><space/>Oüy, Madame.</l>
+            <l part="F">Oüy, Madame.</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
@@ -2023,7 +2015,7 @@
             <l n="848" xml:id="l848">Ou j’ay toûjours douté de la foy de mes yeux.</l>
           </sp>
           <sp who="clarence">
-            <speaker>CLARENCE. <pb n="p. 41 Diij"/></speaker>
+            <speaker>CLARENCE.<pb n="p. 41 Diij"/></speaker>
             <l n="849" xml:id="l849">Cependant conservant toûjours la mesme audace,</l>
             <l n="850" xml:id="l850">Il veut perdre le Comte et puis prendre sa place.</l>
           </sp>
@@ -2059,7 +2051,7 @@
             <l n="872" xml:id="l872">Il aime, c’est assez nous le ferons parler.<note n="227" place="bottom">La reine, une fois encore, au lieu de mener une enquête – comme lui conseille Clarence (v. 837-840) et comme pouvait le faire supposer le vers 870 – va chercher à faire parler le coupable par tous les moyens. Elle emploie à nouveau la même technique que pour Essex.</note></l>
           </sp>
           <sp who="clarence">
-            <speaker>CLARENCE. <pb n="p. 42"/></speaker>
+            <speaker>CLARENCE.<pb n="p. 42"/></speaker>
             <l n="873" xml:id="l873">Cependant par vostre ordre on va juger le Comte.</l>
             <l n="874" xml:id="l874">Pour le faire perir l’envie ardente et promte.....</l>
           </sp>
@@ -2074,7 +2066,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE IV. <pb n="p. 43 Diiij"/></head>
+        <head>ACTE IV.<pb n="p. 43 Diiij"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>RALEG, COBAN.</stage>
@@ -2141,7 +2133,7 @@
             <l n="912" xml:id="l912">Et je dois à vos soins cét important service.</l>
           </sp>
           <sp who="coban">
-            <speaker>COBAN. <pb n="p. 45"/></speaker>
+            <speaker>COBAN.<pb n="p. 45"/></speaker>
             <l n="913" xml:id="l913">Madame, quand on sert et sa Reine et l’Etat....</l>
           </sp>
           <sp who="elizabet">
@@ -2152,11 +2144,11 @@
           </sp>
           <sp who="coban">
             <speaker>COBAN.</speaker>
-            <l n="917" xml:id="l917">Moy, Madame ?</l>
+            <l n="917" xml:id="l917" part="I">Moy, Madame ?</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Le Ciel vous fit pour ces emplois,</l>
+            <l part="F">Le Ciel vous fit pour ces emplois,</l>
             <l n="918" xml:id="l918">Et vos pareils sont nés pour la gloire des Roys.</l>
           </sp>
           <sp who="coban">
@@ -2173,11 +2165,11 @@
           </sp>
           <sp who="coban">
             <speaker>COBAN.</speaker>
-            <l n="925" xml:id="l925">O Ciel !</l>
+            <l n="925" xml:id="l925" part="I">O Ciel !</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/>Vous vous troublez, et ce trouble à mes yeux</l>
+            <l part="F">Vous vous troublez, et ce trouble à mes yeux</l>
             <l n="926" xml:id="l926">Offre ce qu’on m’a dit<note n="237" place="bottom">La reine persévère dans son erreur (cf. note précédente).</note> et me l’explique mieux.</l>
           </sp>
           <sp who="coban">
@@ -2264,11 +2256,11 @@
             <speaker>LA REINE.</speaker>
             <l n="980" xml:id="l980">Vous le sçavez, Coban, un orgueil inflexible</l>
             <l n="981" xml:id="l981">Perd le Comte : craignez l’exemple, obeissez,</l>
-            <l n="982" xml:id="l982">Parlez.</l>
+            <l n="982" xml:id="l982" part="I">Parlez.</l>
           </sp>
           <sp who="coban">
             <speaker>COBAN.</speaker>
-            <l part="Y"><space/>Vous m’ordonnez de parler, c’est assez.<note n="246" place="bottom">Coban, affectant l’attitude d’un sujet obéissant, accède à la demande de la reine avec plus de zèle encore puisqu’il glisse adroitement dans son aveu une nouvelle accusation contre le comte et Clarence (riposte attendue après la dénonciation faite par celle-ci). Dès lors, dans cette bataille orale, Coban prend définitivement le dessus, ayant su faire parler, se taire jusqu’au moment propice où avouer devient accuser. Sa victoire est immédiatement sensible par le balbutiement et les interrogations d’une reine désorientée, en proie au doute. Coban s’empare de la parole pour accuser (v. 991-992) , témoigner (v. 994) , flatter (v. 997-998) jusqu’à ce que son interlocutrice, excédée, le renvoie.</note></l>
+            <l part="F">Vous m’ordonnez de parler, c’est assez.<note n="246" place="bottom">Coban, affectant l’attitude d’un sujet obéissant, accède à la demande de la reine avec plus de zèle encore puisqu’il glisse adroitement dans son aveu une nouvelle accusation contre le comte et Clarence (riposte attendue après la dénonciation faite par celle-ci). Dès lors, dans cette bataille orale, Coban prend définitivement le dessus, ayant su faire parler, se taire jusqu’au moment propice où avouer devient accuser. Sa victoire est immédiatement sensible par le balbutiement et les interrogations d’une reine désorientée, en proie au doute. Coban s’empare de la parole pour accuser (v. 991-992) , témoigner (v. 994) , flatter (v. 997-998) jusqu’à ce que son interlocutrice, excédée, le renvoie.</note></l>
             <l n="983" xml:id="l983">J’avoüray que <ref target="#flatter">flatté*</ref> d’un espoir favorable,</l>
             <l n="984" xml:id="l984">En voyant dans le Comte un rebelle, un coupable,</l>
             <l n="985" xml:id="l985">J’ay jusques sur son rang osé porter les yeux.</l>
@@ -2279,12 +2271,12 @@
             <l n="990" xml:id="l990">Aime cette perfide autant qu’il est aimé.</l>
           </sp>
           <sp who="elizabet">
-            <speaker>LA REINE. <pb n="p. 48"/></speaker>
-            <l n="991" xml:id="l991">Ciel ! mais quel interest.....</l>
+            <speaker>LA REINE.<pb n="p. 48"/></speaker>
+            <l n="991" xml:id="l991" part="I">Ciel ! mais quel interest.....</l>
           </sp>
           <sp who="coban">
             <speaker>COBAN.</speaker>
-            <l part="Y"><space/><space/>Tous deux d’<ref target="#intelligence">intelligence*</ref><note n="248" place="bottom">Forme fautive « intellegence » corrigée dans l’errata.</note>*</l>
+            <l part="F">Tous deux d’<ref target="#intelligence">intelligence*</ref><note n="248" place="bottom">Forme fautive « intellegence » corrigée dans l’errata.</note>*</l>
             <l n="992" xml:id="l992">Veulent vous enlever la supréme puissance.</l>
           </sp>
           <sp who="elizabet">
@@ -2302,11 +2294,11 @@
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
             <l n="999" xml:id="l999">Croiray-je ce raport, avanture funeste ?</l>
-            <l n="1000" xml:id="l1000">Tous deux me trahiront ?</l>
+            <l n="1000" xml:id="l1000" part="I">Tous deux me trahiront ?</l>
           </sp>
           <sp who="coban">
             <speaker>COBAN.</speaker>
-            <l part="Y"><space/><space/>Ha, Madame ! J’atteste....</l>
+            <l part="F">Ha, Madame ! J’atteste....</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
@@ -2367,11 +2359,11 @@
           </sp>
           <sp who="clarence">
             <speaker>CLARENCE.</speaker>
-            <l n="1039" xml:id="l1039">De quoy m’accusez-vous ?</l>
+            <l n="1039" xml:id="l1039" part="I">De quoy m’accusez-vous ?</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Vantez vostre innocence,</l>
+            <l part="F">Vantez vostre innocence,</l>
             <l n="1040" xml:id="l1040">Au crime de vos feux ajoûtez l’impudence,</l>
             <l n="1041" xml:id="l1041">Perfide, je sçay tout, et Coban m’a tout dit.</l>
           </sp>
@@ -2479,7 +2471,7 @@
             <l n="1126" xml:id="l1126">Faire perir ce traistre et pour vous et pour moy.</l>
           </sp>
           <sp who="clarence">
-            <speaker>CLARENCE. <pb n="p. 53 Eiij"/></speaker>
+            <speaker>CLARENCE.<pb n="p. 53 Eiij"/></speaker>
             <l n="1127" xml:id="l1127">S’il vivoit pour vous seule en vous devant la vie,</l>
             <l n="1128" xml:id="l1128">Pourriez-vous conserver cette cruelle envie ?</l>
             <l n="1129" xml:id="l1129">Si je le ramenois soûmis à vos genoux,</l>
@@ -2597,18 +2589,18 @@
             <l n="1210" xml:id="l1210">J’ay ménagé ma gloire au peril de mes jours.</l>
             <l n="1211" xml:id="l1211">Mais quand il faut pour vous emporter la victoire,</l>
             <l n="1212" xml:id="l1212">Je prens soin de mes jours au peril de ma gloire.<note n="282" place="bottom">C’est un réel coup de force auquel parvient Clarence puisque, jusqu’à ce moment de la pièce, le comte n’avait jamais fait cédé son honneur devant aucun argument.</note></l>
-            <l n="1213" xml:id="l1213">C’est ce don pretieux....</l>
+            <l n="1213" xml:id="l1213" part="I">C’est ce don pretieux....</l>
           </sp>
           <sp who="clarence">
             <speaker>CLARENCE.</speaker>
-            <l part="Y"><space/><space/>Quel est vostre dessein ?</l>
+            <l part="F">Quel est vostre dessein ?</l>
             <l n="1214" xml:id="l1214">Vous-mesme<note n="283" place="bottom">Vous mesme. Nous corrigeons.</note> rendez-luy ce present de sa main.</l>
           </sp>
           <sp who="comte-essex">
             <speaker>LE C. D’ESSEX.</speaker>
             <l n="1215" xml:id="l1215">Menagez ce secours pour un autre moy-mesme,</l>
             <l n="1216" xml:id="l1216">C’est par là<note n="284" place="bottom">la. Nous corrigeons. Par le truchement de la bague, Essex espère parvenir à contourner le dilemme tragique c’est-à-dire à demander grâce sans obscurcir sa gloire : en réalité, il accepte d’avouer sa culpabilité amoureuse et non pas sa culpabilité politique (cf. V, 4, v. 1386-1390). Il confie l’anneau à Clarence ; son silence en le rendant lui-même serait en effet trop éloquent à cet égard.</note> que je veux conserver ce que j’aime,</l>
-            <l n="1217" xml:id="l1217">Sans cela point de grace....</l>
+            <l n="1217" xml:id="l1217" part="I">Sans cela point de grace....</l>
           </sp>
         </div>
         <div type="scene">
@@ -2616,26 +2608,26 @@
           <stage>LE C. D’ESS. LE C. DE SALYSB. CLARENCE.</stage>
           <sp who="salisbery">
             <speaker>LE C. DE SALISBERY.</speaker>
-            <l part="Y"><space/><space/>Ah Madame ! ah Seigneur !</l>
+            <l part="F">Ah Madame ! ah Seigneur !</l>
             <l n="1218" xml:id="l1218">Apprenez que déjà des mutins en fureur,</l>
             <l n="1219" xml:id="l1219">Renversant l’Echaffaut qu’on dressoit dans la place,</l>
             <l n="1220" xml:id="l1220">Ont irrité la Reine et vous ostent sa grace.<note n="285" place="bottom">L’action épisodique de la mutinerie rattrape l’action principale et provoque un nouveau retournement de situation : la reine perd son indulgence.</note></l>
             <l n="1221" xml:id="l1221">Vostre frere à leur teste, animant leur courroux,</l>
-            <l n="1222" xml:id="l1222">Marche vers le Palais.<note n="286" place="bottom"> Situation similaire à celle de <hi rend="i">Nicomède</hi> : « Ce peuple en sa fureur peut les connaître mal » (v.1681) voir note v.658</note></l>
+            <l n="1222" xml:id="l1222" part="I">Marche vers le Palais.<note n="286" place="bottom"> Situation similaire à celle de <hi rend="i">Nicomède</hi> : « Ce peuple en sa fureur peut les connaître mal » (v.1681) voir note v.658</note></l>
           </sp>
           <sp who="clarence">
             <speaker>CLARENCE.</speaker>
-            <l part="Y"><space/><space/>Ciel ! que me dites-vous ?</l>
+            <l part="F">Ciel ! que me dites-vous ?</l>
           </sp>
           <sp who="comte-essex">
             <speaker>LE C. D’ESSEX.</speaker>
             <l n="1223" xml:id="l1223">Ah ! ce n’est pas ainsi qu’on sauve l’innocence.</l>
             <l n="1224" xml:id="l1224">Allez vous opposez à cette violence.</l>
-            <l n="1225" xml:id="l1225">Vostre frere nous<note n="287" place="bottom">vous. Nous corrigeons car, Essex s’adressant à Clarence, l’emploi du pronom personnel « vous » n’a aucun sens tandis que celui du pronom « nous » renvoie à Essex et Clarence.</note> perd.<pb n="p. 57"/></l>
+            <l n="1225" xml:id="l1225" part="I">Vostre frere nous<note n="287" place="bottom">vous. Nous corrigeons car, Essex s’adressant à Clarence, l’emploi du pronom personnel « vous » n’a aucun sens tandis que celui du pronom « nous » renvoie à Essex et Clarence.</note> perd.<pb n="p. 57"/></l>
           </sp>
           <sp who="salisbery">
             <speaker>LE C. DE SALISBERY.</speaker>
-            <l part="Y"><space/><space/>La Reine au desespoir</l>
+            <l part="F">La Reine au desespoir</l>
             <l n="1226" xml:id="l1226">Vous impute ce trouble, et ne veut plus vous voir.</l>
             <l n="1227" xml:id="l1227">Plus le peuple pour vous se mutine contre elle,</l>
             <l n="1228" xml:id="l1228">Plus sa haine en devient inflexible et cruelle.</l>
@@ -2664,7 +2656,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE V. <pb n="p. 58"/></head>
+        <head>ACTE V.<pb n="p. 58"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <sp who="coban">
@@ -2687,7 +2679,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE II. <pb n="p. 59"/></head>
+          <head>SCENE II.<pb n="p. 59"/></head>
           <stage>LA REINE, LEONOR, RALEG, COBAN.</stage>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
@@ -2706,11 +2698,11 @@
             <l n="1263" xml:id="l1263">Remettez-vous, Madame, et rentrez en vous-même<note n="291" place="bottom">vous même. Nous corrigeons.</note>.</l>
             <l n="1264" xml:id="l1264">S’il faut associer à la grandeur supréme,</l>
             <l n="1265" xml:id="l1265">Un sujet qui soit digne, et du Thrône et de vous.</l>
-            <l n="1266" xml:id="l1266">C’est le Comte....</l>
+            <l n="1266" xml:id="l1266" part="I">C’est le Comte....</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Ce nom redouble mon couroux,</l>
+            <l part="F">Ce nom redouble mon couroux,</l>
             <l n="1267" xml:id="l1267">Ne m’en parle jamais, son crime est veritable ;</l>
             <l n="1268" xml:id="l1268">Ce que font les mutins le rend assez coupable.</l>
             <l n="1269" xml:id="l1269">Approchez-vous, Coban, le Comte est criminel,</l>
@@ -2719,7 +2711,7 @@
             <l n="1272" xml:id="l1272">Le Comte est un perfide et vous este fidelle.</l>
           </sp>
           <sp who="coban">
-            <speaker>COBAN.<note n="292" place="bottom"> Ce procédé du « on dit » rapporté par Coban rappelle irrésistiblement la scène 4 de l’acte IV de <hi rend="i">Britannicus</hi> où Narcisse, cette autre « Peste de Cour » , informe Néron de la rumeur publique pour le décider à supprimer son frère : « Agrippine, Seigneur, se l’était bien promis. [...] Elle s’en est vantée assez publiquement.[...] Quoi donc ignorez-vous tout ce qu’ils osent dire ? / <hi rend="i">Néron</hi>, s’ils en sont crus, <hi rend="i">n’est point né pour l’Empire.</hi> /<hi rend="i">Il ne dit, il ne fait, que ce qu’on lui prescrit</hi>, / <hi rend="i">Burrhus conduit son cœur, Sénèque son esprit.</hi> ... ».</note> <pb n="p. 60"/></speaker>
+            <speaker>COBAN.<note n="292" place="bottom"> Ce procédé du « on dit » rapporté par Coban rappelle irrésistiblement la scène 4 de l’acte IV de <hi rend="i">Britannicus</hi> où Narcisse, cette autre « Peste de Cour » , informe Néron de la rumeur publique pour le décider à supprimer son frère : « Agrippine, Seigneur, se l’était bien promis. [...] Elle s’en est vantée assez publiquement.[...] Quoi donc ignorez-vous tout ce qu’ils osent dire ? / <hi rend="i">Néron</hi>, s’ils en sont crus, <hi rend="i">n’est point né pour l’Empire.</hi> /<hi rend="i">Il ne dit, il ne fait, que ce qu’on lui prescrit</hi>, / <hi rend="i">Burrhus conduit son cœur, Sénèque son esprit.</hi> ... ».</note><pb n="p. 60"/></speaker>
             <l n="1273" xml:id="l1273">Madame, vous voyez mon trouble et ma douleur.</l>
             <l n="1274" xml:id="l1274">Voyant avec quels traits, avec quelle fureur</l>
             <l n="1275" xml:id="l1275">Les partisans du Comte attaquent vostre gloire....</l>
@@ -2754,11 +2746,11 @@
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l n="1292" xml:id="l1292">Dittes tout, acchevez.</l>
+            <l n="1292" xml:id="l1292" part="I">Dittes tout, acchevez.</l>
           </sp>
           <sp who="coban">
             <speaker>COBAN.</speaker>
-            <l part="Y"><space/><space/>Pour un dernier outrage,</l>
+            <l part="F">Pour un dernier outrage,</l>
             <l n="1293" xml:id="l1293">Ils répandent par tout d’un ton un peu plus bas,</l>
             <l n="1294" xml:id="l1294">Qu’amoureux de Clarence il brave le trépas ;</l>
             <l n="1295" xml:id="l1295">Qu’il la préferoit à l’Empire, à vous mesme.</l>
@@ -2767,7 +2759,7 @@
             <l n="1298" xml:id="l1298">Il aime mieux perir que régner avec vous.<note n="296" place="bottom">Coban termine par le point le plus sensible à la reine, la trahison amoureuse du comte en l’amplifiant (v. 1295-1298). Par l’intermédiaire des revendications des mutins, il parvient à résumer pour la reine toutes les raisons qu’elle a de le faire exécuter ; conclusion à laquelle il parvient logiquement (v. 1310).</note></l>
           </sp>
           <sp who="elizabet">
-            <speaker>LA REINE. <pb n="p. 61"/></speaker>
+            <speaker>LA REINE.<pb n="p. 61"/></speaker>
             <l n="1299" xml:id="l1299">Ah Coban ! c’en est trop, un si cruel outrage,</l>
             <l n="1300" xml:id="l1300">Ce dernier déplaisir<note n="297" place="bottom">Cf. note du v. 137.</note> accable mon <ref target="#courage">courage*</ref>.</l>
             <l n="1301" xml:id="l1301">Oüy, le traistre, à Clarence ayant donné sa foy,</l>
@@ -2803,7 +2795,7 @@
             <l n="1318" xml:id="l1318">Est-ce pour immoler un Heros glorieux ?</l>
             <l n="1319" xml:id="l1319">Donnez-vous<note n="303" place="bottom">donner. Nous corrigeons.</note> ce spectacle aux Cobans, aux Ceciles ?</l>
             <l n="1320" xml:id="l1320">A ces lâches Sujets, à ces ames serviles ?</l>
-            <l n="1321" xml:id="l1321">Verront-ils à leurs pieds ce grand Homme abbatu ? <pb n="p. 62"/></l>
+            <l n="1321" xml:id="l1321">Verront-ils à leurs pieds ce grand Homme abbatu ?<pb n="p. 62"/></l>
             <l n="1322" xml:id="l1322">La terreur des méchans, l’appuy de la vertu ?</l>
             <l n="1323" xml:id="l1323">Que de gloire immolée à la fureur du crime !</l>
             <l n="1324" xml:id="l1324">Quel indigne attentat ! quel sang ! quelle victime !</l>
@@ -2845,7 +2837,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IV. <pb n="p. 63 Fij"/></head>
+          <head>SCENE IV.<pb n="p. 63 Fij"/></head>
           <stage>LA REINE, LE C. D’ESSEX.</stage>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
@@ -2875,7 +2867,7 @@
             <l n="1374" xml:id="l1374">Sans expirer tous deux de honte et de douleur ?<note n="315" place="bottom">Ces deux vers signifient : et puis-je t’expliquer ton crime et mon malheur, sans que nous expirions tous deux de honte et de douleur ?</note></l>
           </sp>
           <sp who="comte-essex">
-            <speaker>LE C. D’ESSEX. <pb n="p. 64"/></speaker>
+            <speaker>LE C. D’ESSEX.<pb n="p. 64"/></speaker>
             <l n="1375" xml:id="l1375">Ce reproche sanglant et qui semble plausible,</l>
             <l n="1376" xml:id="l1376">S’il estoit bien fondé me seroit trop sensible.</l>
             <l n="1377" xml:id="l1377">Mais pourquoy vous oster si proche du trépas</l>
@@ -2979,11 +2971,11 @@
           </sp>
           <sp who="comte-essex">
             <speaker>LE C. D’ESSEX.</speaker>
-            <l n="1454" xml:id="l1454">Expliquez-vous si mal.....<note n="324" place="bottom">C’est-à-dire comprenez-vous si mal....</note></l>
+            <l n="1454" xml:id="l1454" part="I">Expliquez-vous si mal.....<note n="324" place="bottom">C’est-à-dire comprenez-vous si mal....</note></l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Qu’on l’oste de mes yeux,</l>
+            <l part="F">Qu’on l’oste de mes yeux,</l>
           </sp>
           <sp who="comte-essex">
             <speaker>LE C. D’ESSEX.</speaker>
@@ -3025,17 +3017,17 @@
             <speaker>LA REINE.</speaker>
             <l n="1474" xml:id="l1474">Vous y voyez l’effet de vostre trahison</l>
             <l n="1475" xml:id="l1475">Au Comte, à vostre Amant il en couste la vie.</l>
-            <l n="1476" xml:id="l1476">Et vostre mort....</l>
+            <l n="1476" xml:id="l1476" part="I">Et vostre mort....</l>
           </sp>
           <sp who="clarence">
             <speaker>CLARENCE.</speaker>
-            <l part="Y"><space/><space/>Sur moy contentez vostre envie.</l>
+            <l part="F">Sur moy contentez vostre envie.</l>
             <l n="1477" xml:id="l1477">Le Comte est à <ref target="#couvert">couvert*</ref>, il en a vostre foy.</l>
-            <l n="1478" xml:id="l1478">Ce don de vostre main...</l>
+            <l n="1478" xml:id="l1478" part="I">Ce don de vostre main...</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Ciel, qu’est-ce que je voy ?</l>
+            <l part="F">Ciel, qu’est-ce que je voy ?</l>
           </sp>
           <sp who="clarence">
             <speaker>CLARENCE.</speaker>
@@ -3050,7 +3042,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VII. <pb n="p. 69"/></head>
+          <head>SCENE VII.<pb n="p. 69"/></head>
           <stage>LA REINE, CLARENCE, COBAN.</stage>
           <sp who="coban">
             <speaker>COBAN.</speaker>
@@ -3062,11 +3054,11 @@
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l n="1489" xml:id="l1489">Oüy le Comte vivra.</l>
+            <l n="1489" xml:id="l1489" part="I">Oüy le Comte vivra.</l>
           </sp>
           <sp who="coban">
             <speaker>COBAN.</speaker>
-            <l part="Y"><space/><space/>Quel est ce changement ?</l>
+            <l part="F">Quel est ce changement ?</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE <hi rend="i">à Leonor.</hi></speaker>
@@ -3074,15 +3066,15 @@
           </sp>
           <sp who="coban">
             <speaker>COBAN <hi rend="i">en s’en allant.</hi></speaker>
-            <l n="1491" xml:id="l1491">O Ciel !</l>
+            <l n="1491" xml:id="l1491" part="I">O Ciel !</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VIII. <pb n="p. 70"/></head>
+          <head>SCENE VIII.<pb n="p. 70"/></head>
           <stage>LA REINE, CLARENCE.</stage>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Que vostre amour me rend un bon office !</l>
+            <l part="F">Que vostre amour me rend un bon office !</l>
             <l n="1492" xml:id="l1492">Vous avez arraché le Comte à ma justice.</l>
             <l n="1493" xml:id="l1493">L’amour estoit pour luy, mais l’amour en courroux</l>
             <l n="1494" xml:id="l1494">L’alloit sacrifier à mes transports jaloux.</l>
@@ -3099,33 +3091,33 @@
             <l n="1502" xml:id="l1502">J’ay crû devoir calmer un peuple furieux.</l>
             <l n="1503" xml:id="l1503">Que j’ay souffert d’<ref target="#ennuy">ennuy*</ref> par cette courte absence !</l>
             <l n="1504" xml:id="l1504">Madame, permettez à mon impatience,</l>
-            <l n="1505" xml:id="l1505">Que j’aille...</l>
+            <l n="1505" xml:id="l1505" part="I">Que j’aille...</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>Allons, le Comte a redoublé ses pas,</l>
+            <l part="F">Allons, le Comte a redoublé ses pas,</l>
             <l n="1506" xml:id="l1506">Et montré tant d’ardeur en courant au trépas,</l>
             <l n="1507" xml:id="l1507">Qu’un seul moment perdu peut trahir nostre envie.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IX. <pb n="p. 71"/></head>
+          <head>SCENE IX.<pb n="p. 71"/></head>
           <stage>LA REINE, CLARENCE, LE CAP. DES GARDES.</stage>
           <sp who="valden">
             <speaker>LE C. DES GARDES.</speaker>
-            <l n="1508" xml:id="l1508">Le Comte est mort.</l>
+            <l n="1508" xml:id="l1508" part="I">Le Comte est mort.</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>O Ciel !</l>
+            <l part="M">O Ciel !</l>
           </sp>
           <sp who="clarence">
             <speaker>CLARENCE.</speaker>
-            <l part="Y"><space/><space/>Hélas !</l>
+            <l part="M">Hélas !</l>
           </sp>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l part="Y"><space/><space/>On m’a trahie.</l>
+            <l part="F">On m’a trahie.</l>
             <l n="1509" xml:id="l1509">L’ordre de le sauver trop tard executé....</l>
           </sp>
           <sp who="valden">
@@ -3150,7 +3142,7 @@
             <l n="1521" xml:id="l1521">On le poursuit, bien-tost sa mort ou sa prison...</l>
           </sp>
           <sp who="clarence">
-            <speaker>CLARENCE. <pb n="p. 72"/></speaker>
+            <speaker>CLARENCE.<pb n="p. 72"/></speaker>
             <l n="1522" xml:id="l1522">Son sang ne sçauroit seul laver sa trahison.</l>
             <l n="1523" xml:id="l1523">Prenez le mien, ma flame injuste et temeraire,</l>
             <l n="1524" xml:id="l1524">A contre un malheureux armé vostre colere.</l>
@@ -3174,15 +3166,15 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE DERNIERE. <pb n="p. 73 G"/></head>
+          <head>SCENE DERNIERE.<pb n="p. 73 G"/></head>
           <stage>LA REINE, LE C. DE SALISB.</stage>
           <sp who="elizabet">
             <speaker>LA REINE.</speaker>
-            <l n="1535" xml:id="l1535">Venez, Comte, venez.</l>
+            <l n="1535" xml:id="l1535" part="I">Venez, Comte, venez.</l>
           </sp>
           <sp who="salisbery">
             <speaker>LE C. DE SALISBERY.</speaker>
-            <l part="Y"><space/><space/>Vous me voyez Madame,</l>
+            <l part="F">Vous me voyez Madame,</l>
             <l n="1536" xml:id="l1536">La pitié, la douleur et la fureur dans l’ame.</l>
             <l n="1537" xml:id="l1537">Vous ne sçavez que trop par quel horrible tour,</l>
             <l n="1538" xml:id="l1538">Le Comte infortuné vient de perdre le jour.</l>
@@ -3204,7 +3196,7 @@
             <l n="1554" xml:id="l1554">Triomphe encor du Comte, et joüit de sa mort.</l>
             <l n="1555" xml:id="l1555">Ma mort, dit-il, au moins pour la souffrir sans honte</l>
             <l n="1556" xml:id="l1556">Precede mon suplice et suit celle du Comte,</l>
-            <l n="1557" xml:id="l1557">Il estoit innocent, je suis un imposteur, <pb n="p. 74"/></l>
+            <l n="1557" xml:id="l1557">Il estoit innocent, je suis un imposteur,<pb n="p. 74"/></l>
             <l n="1558" xml:id="l1558">Son indigne rival d’amour et de grandeur :</l>
             <l n="1559" xml:id="l1559">Trop heureux de porter aussi loin que sa gloire,</l>
             <l n="1560" xml:id="l1560">De mon nom odieux l’execrable memoire.</l>

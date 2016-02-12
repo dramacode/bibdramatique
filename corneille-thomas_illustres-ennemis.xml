@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -384,8 +381,7 @@
           <p>Les contrefaçons de 1662 et 1665 ont été faites à partir du texte original de 1657. Les contrefaçons de 1692 [sans nom] suivent le texte édité en 1661. Nous pensons que l’édition de Lyon, chez Bacheton, en 1698, et les éditions faites en Hollande sont des contrefaçons de la version de 1692 de Trabouillet et Besoigne<note n="17" place="bottom"> Lorsque nous ferons référence à ces éditions dorénavant, nous emploierons les abréviations suivantes : <hi rend="b">[ss N]</hi>, pour [sans nom], <hi rend="b">B</hi> pour Besoigne et <hi rend="b">T</hi> pour Trabouillet. Concernant les trois éditions de 1692 sans nom d’éditeur, il existe deux éditions différentes, la première est conservée à l’Arsenal et la seconde (dont il existe deux exemplaires) à la BNF. Toutefois, elles comportent les mêmes différences. Pour cette raison, l’abréviation <hi rend="b">[ss N]</hi> se rapportera donc à ces trois exemplaires.</note>.</p>
           <p>Nous pensons en effet que certaines de ces éditions ont été réalisées illégalement : celles de 1662, 1665 (il s’agit en fait d’invendus de 1662 reliées dans un recueil avec d’autres invendus), 1692 <hi rend="b">[ss N]</hi> et les éditions hollandaises. Nous fondons cette hypothèse sur deux faits : tout d’abord l’absence d’éditeur et la mention suivante qui figure sur les pages de titre de chacune des pièces de ces recueils <hi rend="i">« suivant la copie imprimée à Paris en »</hi> ; ensuite la formulation de la date : au lieu d’être écrite sur le modèle classique M DC XV II ou M DC L XXXX II, elles sont écrites ainsi 
   <!-- IMAGE ? en unicode ? <figure><graphic url="corneille_illustres-ennemis-img/1000000000000098000000164DEED3F8.png"/></figure> --> et 
-  <!-- <figure><graphic url="corneille_illustres-ennemis-img/1000000000000086000000161A9DED28.png"/></figure> -->. Cette formulation est typiquement hollandaise.<note n="18" place="bottom">
-    <!-- <figure><graphic url="corneille_illustres-ennemis-img/10000000000000280000001608AF3C40.png"/></figure> --> : est mis pour M, c’est-à-dire « mille », et 
+  <!-- <figure><graphic url="corneille_illustres-ennemis-img/1000000000000086000000161A9DED28.png"/></figure> -->. Cette formulation est typiquement hollandaise.<note n="18" place="bottom"><!-- <figure><graphic url="corneille_illustres-ennemis-img/10000000000000280000001608AF3C40.png"/></figure> --> : est mis pour M, c’est-à-dire « mille », et 
     <!-- <figure><graphic url="corneille_illustres-ennemis-img/10000000000000180000001686D4AFD3.png"/></figure> -->: est mis pour D, c’est-à-dire « cinq cents ».</note></p>
           <p>Nous ignorons pourquoi ces modifications ont eu lieu, nous supposons qu’elles ont été faites par l’auteur lui-même lors d’un remaniement du texte.</p>
           <p>Nous n’avons trouvé que deux éditions du texte seul, les autres proviennent d’œuvres complètes, parmi celles-ci, les éditions de 1665, de 1792 <hi rend="b">[ss N]</hi> et de 1709 sont des recueils factices.</p>
@@ -495,7 +491,7 @@
           <sp who="enrique">
             <speaker>ENRIQUE</speaker>
             <l n="6" xml:id="l6">Quoy ! j’aurois plus long-temps <ref target="#souffrir">souffert*</ref> son insolence,</l>
-            <l n="7" xml:id="l7"><space/><space/>Et qu’au sang des Guzmans on osast reprocher<pb n="2"/></l>
+            <l n="7" xml:id="l7">Et qu’au sang des Guzmans on osast reprocher<pb n="2"/></l>
             <l n="8" xml:id="l8">Qu’un murmure honteux n’auroit pû les toucher !</l>
             <l n="9" xml:id="l9">Il publie en tous lieux, ce Vieillard temeraire,</l>
             <l n="10" xml:id="l10">Que l’<ref target="#artifice">artifice*</ref> seul nous acquiert un beau-frere,</l>
@@ -528,11 +524,11 @@
             <l n="28" xml:id="l28">Et vangent des affronts qu’ils n’ont jamais receus.</l>
             <l n="29" xml:id="l29">Enfin d’un vain discours dont vostre honneur s’offence,</l>
             <l n="30" xml:id="l30">Au moins D. Lope eust dû partager la vengeance,</l>
-            <l n="31" xml:id="l31">Mais au deceu<note n="22" place="bottom"> Éditions de 1692 <hi rend="b">T/B</hi>, 1701, 1706 et 1709 : à l’insçeu.</note> d’un frere…</l>
+            <l n="31" xml:id="l31" part="I">Mais au deceu<note n="22" place="bottom"> Éditions de 1692 <hi rend="b">T/B</hi>, 1701, 1706 et 1709 : à l’insçeu.</note> d’un frere…</l>
           </sp>
           <sp who="enrique">
             <speaker>ENRIQUE</speaker>
-            <l part="Y"><space/><space/>Ah ! ne me blâmez point,</l>
+            <l part="F">Ah ! ne me blâmez point,</l>
             <l n="32" xml:id="l32">Je sçais que son honneur à mon honneur est joint,</l>
             <l n="33" xml:id="l33">Mais quel que soit l’affront qu’en reçoit sa famille,</l>
             <l n="34" xml:id="l34">Pour se vanger du pere, il aime trop la fille,</l>
@@ -573,11 +569,11 @@
           </sp>
           <sp who="alonse">
             <speaker>ALONSE</speaker>
-            <l n="57" xml:id="l57">Mais il aime sa fille ?</l>
+            <l n="57" xml:id="l57" part="I">Mais il aime sa fille ?</l>
           </sp>
           <sp who="enrique">
             <speaker>ENRIQUE</speaker>
-            <l part="Y"><space/><space/>Ouy, je sçay qu’il l’adore,</l>
+            <l part="F">Ouy, je sçay qu’il l’adore,</l>
             <l n="58" xml:id="l58">Mais je l’ay déja dit, et vous le dis encore,</l>
             <l n="59" xml:id="l59">A quoy que cet amour pûst enfin l’<ref target="#obliger1">obliger*</ref></l>
             <l n="60" xml:id="l60">Ce sera le servir que de l’en dégager.</l>
@@ -639,7 +635,7 @@
             <l n="95" xml:id="l95">Et tu verras bien-tost par quel heureux détour</l>
             <l n="96" xml:id="l96">Sur tes propres conseils j’appuyeray son amour.</l>
             <l n="97" xml:id="l97">Feignant de t’applaudir, j’empescheray peut-estre...</l>
-            <l n="98" xml:id="l98">Mais je voy Blanche.</l>
+            <l n="98" xml:id="l98" part="I">Mais je voy Blanche.</l>
           </sp>
         </div>
         <div type="scene">
@@ -647,16 +643,16 @@
           <stage>ALONSE, BLANCHE.</stage>
           <sp who="alonse">
             <speaker>ALONSE</speaker>
-            <l part="Y"><space/><space/>Et bien, Blanche, que fait ton maistre ?</l>
+            <l part="F">Et bien, Blanche, que fait ton maistre ?</l>
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
             <l n="99" xml:id="l99">Vous l’eussiez rencontré quelques momens plustost,</l>
-            <l n="100" xml:id="l100">Tout à l’heure...</l>
+            <l n="100" xml:id="l100" part="I">Tout à l’heure...</l>
           </sp>
           <sp who="alonse">
             <speaker>ALONSE</speaker>
-            <l part="Y"><space/><space/>Il suffit, je le verray tantost.</l>
+            <l part="F">Il suffit, je le verray tantost.</l>
           </sp>
         </div>
         <div type="scene">
@@ -664,11 +660,11 @@
           <stage>JACINTE, BLANCHE.</stage>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l n="101" xml:id="l101">Qui parloit avec vous, Blanche ?</l>
+            <l n="101" xml:id="l101" part="I">Qui parloit avec vous, Blanche ?</l>
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
-            <l part="Y"><space/><space/>Pour quelque affaire</l>
+            <l part="F">Pour quelque affaire</l>
             <l n="102" xml:id="l102">Alonse de Roxas demandoit vostre pere.</l>
           </sp>
           <sp who="jacinte">
@@ -681,11 +677,11 @@
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
-            <l n="108" xml:id="l108">Madame, vous pleurez ?</l>
+            <l n="108" xml:id="l108" part="I">Madame, vous pleurez ?</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Qui ne pleureroit pas ?</l>
+            <l part="F">Qui ne pleureroit pas ?</l>
             <l n="109" xml:id="l109"><ref target="#souffrir">Souffre*</ref> à mon <ref target="#deplaisir">déplaisir*</ref> dans d’inutiles larmes</l>
             <l n="110" xml:id="l110">La funeste douceur de chercher quelques <ref target="#charme2">charmes*</ref>,</l>
             <l n="111" xml:id="l111">Et qu’au defaut du sang qu’exigent nos malheurs,</l>
@@ -788,7 +784,7 @@
             <speaker>D. LOPE</speaker>
             <l n="181" xml:id="l181">Je vous <ref target="#entendre1">entens*</ref>, Madame, et le sort qui m’accable</l>
             <l n="182" xml:id="l182">Cherche dans vos malheurs à me rendre coupable,</l>
-            <l n="183" xml:id="l183">Un vif ressentiment vous fait déja penser, <pb n="9"/></l>
+            <l n="183" xml:id="l183">Un vif ressentiment vous fait déja penser,<pb n="9"/></l>
             <l n="184" xml:id="l184">Que qui sçait vostre honte auroit dû l’effacer,</l>
             <l n="185" xml:id="l185">Et ce n’est pas pour plaire à vostre ame affligée</l>
             <l n="186" xml:id="l186">Que m’offrir à vos yeux sans vous avoir vangée.</l>
@@ -818,11 +814,11 @@
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="207" xml:id="l207">Mais quand l’âge s’oppose...</l>
+            <l n="207" xml:id="l207" part="I">Mais quand l’âge s’oppose...</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Ah, cessez d’y songer,</l>
+            <l part="F">Ah, cessez d’y songer,</l>
             <l n="208" xml:id="l208">Pour vanger une injure il faut la partager,</l>
             <l n="209" xml:id="l209">Et l’on voit rarement qu’un vieillard qu’on <ref target="#affronter1">affronte</ref></l>
             <l n="210" xml:id="l210">Sur un autre qu’un fils puisse épandre sa honte.</l>
@@ -834,11 +830,11 @@
           <sp who="jacinte">
             <speaker>JACINTE<pb n="10"/></speaker>
             <l n="212" xml:id="l212">Sans doute qu’il le peut, mais que sert s’y penser,</l>
-            <l n="213" xml:id="l213">D. Alvar n’estant plus...</l>
+            <l n="213" xml:id="l213" part="I">D. Alvar n’estant plus...</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Ah ! permettez <ref target="#de-grace">de grace*</ref></l>
+            <l part="F">Ah ! permettez <ref target="#de-grace">de grace*</ref></l>
             <l n="214" xml:id="l214">Que de ce frere mort j’aille tenir la place,</l>
             <l n="215" xml:id="l215">Et que m’offrant pour fils à D. Sanche outragé,</l>
             <l n="216" xml:id="l216">Je tâche à rendre ainsi son malheur partagé.</l>
@@ -880,11 +876,11 @@
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l n="246" xml:id="l246">Quoy, je pourrois <ref target="#souffrir">souffrir*</ref> ce qui me deshonore ?</l>
+            <l n="246" xml:id="l246" part="I">Quoy, je pourrois <ref target="#souffrir">souffrir*</ref> ce qui me deshonore ?</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y">J’asseure vostre honneur, et c’est là vous aimer.</l>
+            <l part="F">J’asseure vostre honneur, et c’est là vous aimer.</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
@@ -909,11 +905,11 @@
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
-            <l n="253" xml:id="l253">Madame.</l>
+            <l n="253" xml:id="l253" part="I">Madame.</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Qu’est-ce Blanche ?</l>
+            <l part="F">Qu’est-ce Blanche ?</l>
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
@@ -926,7 +922,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE V. <pb n="12"/></head>
+          <head>SCENE V.<pb n="12"/></head>
           <stage>D. SANCHE, ALONSE.</stage>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
@@ -952,17 +948,17 @@
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l n="267" xml:id="l267">Et de <ref target="#de-grace">grace*</ref>, son nom ?</l>
+            <l n="267" xml:id="l267" part="I">Et de <ref target="#de-grace">grace*</ref>, son nom ?</l>
           </sp>
           <sp who="alonse">
             <speaker>ALONSE</speaker>
-            <l part="Y"><space/><space/>Quand vous m’aurez promis</l>
+            <l part="F">Quand vous m’aurez promis</l>
             <l n="268" xml:id="l268">D’accepter un accord qui vous doit rendre amis.</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
             <l n="269" xml:id="l269">Quoy, mon lâche ennemy lors mesme qu’il s’accuse</l>
-            <l n="270" xml:id="l270"><space/>En seroit quitte ainsi pour quelque vaine excuse,    </l>
+            <l n="270" xml:id="l270">En seroit quitte ainsi pour quelque vaine excuse,    </l>
             <l n="271" xml:id="l271">Et tant que je vivray l’on verroit sur mon front,</l>
             <l n="272" xml:id="l272">Les <ref target="#traits">traits*</ref> mal effacez d’un si sanglant affront ?</l>
           </sp>
@@ -1096,11 +1092,11 @@
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
             <l n="342" xml:id="l342">Croyez-vous que par là nostre honte s’efface ?</l>
-            <l n="343" xml:id="l343">Ne perdez point de temps.</l>
+            <l n="343" xml:id="l343" part="I">Ne perdez point de temps.</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE<pb n="16"/></speaker>
-            <l part="Y"><space/><space/>Allons voir nos amis,</l>
+            <l part="F">Allons voir nos amis,</l>
             <l n="344" xml:id="l344">Et sçachons quel accord me peut estre permis.</l>
           </sp>
         </div>
@@ -1110,11 +1106,11 @@
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
             <l n="345" xml:id="l345">Prenez ce temps, D. Lope, et de peur qu’on me blâme,</l>
-            <l n="346" xml:id="l346">Si son retour trop prompt...</l>
+            <l n="346" xml:id="l346" part="I">Si son retour trop prompt...</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Je le prendray, Madame,</l>
+            <l part="F">Je le prendray, Madame,</l>
             <l n="347" xml:id="l347">Adieu, mais prenez garde au serment que je fais,</l>
             <l n="348" xml:id="l348">Je vous quitte aujourd’huy pour ne vous voir<note n="39" place="bottom"><hi rend="b">Voir</hi> est mis ici pour revoir.</note> jamais.</l>
             <l n="349" xml:id="l349">Vous engagez ailleurs la <ref target="#foy">foy*</ref> qui m’est promise,</l>
@@ -1166,11 +1162,11 @@
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l n="377" xml:id="l377">Je le feray sans doute.</l>
+            <l n="377" xml:id="l377" part="I">Je le feray sans doute.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Et vous serez sa femme ?</l>
+            <l part="F">Et vous serez sa femme ?</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
@@ -1187,17 +1183,17 @@
             <l n="382" xml:id="l382"><ref target="#connoistre3">Cognoissez*</ref> aujourd’huy mon ame toute entiere,</l>
             <l n="383" xml:id="l383">Et de l’<ref target="#heur">heur*</ref> d’un Rival cessant d’estre jaloux,</l>
             <l n="384" xml:id="l384">Confessez que mon coeur estoit digne de vous.</l>
-            <l n="385" xml:id="l385">L’espoir de mon hymen n’est qu’une attente vaine, <pb n="18"/></l>
+            <l n="385" xml:id="l385">L’espoir de mon hymen n’est qu’une attente vaine,<pb n="18"/></l>
             <l n="386" xml:id="l386">Sous ce trompeur <ref target="#adveu1">adveu*</ref> je le livre à ma haine,</l>
             <l n="387" xml:id="l387">Et luy donnant la main, je séme un faux <ref target="#appas">appas*</ref>,</l>
             <l n="388" xml:id="l388">Qui sans aucun soupçon l’attire dans mes bras,</l>
             <l n="389" xml:id="l389">Où ma main dans son sang, au gré de mon envie,</l>
             <l n="390" xml:id="l390">Vange avec mon honneur le repos de ma vie.</l>
-            <l n="391" xml:id="l391">Estes-vous satisfait ?</l>
+            <l n="391" xml:id="l391" part="I">Estes-vous satisfait ?</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Helas ! si je le suis,</l>
+            <l part="F">Helas ! si je le suis,</l>
             <l n="392" xml:id="l392">Vous mesme jugez-en, jugez si je le puis.</l>
             <l n="393" xml:id="l393">Par luy seul vostre honneur à l’outrage est en bute,</l>
             <l n="394" xml:id="l394">Et quoy que contre luy vostre haine execute,</l>
@@ -1217,19 +1213,19 @@
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="405" xml:id="l405">Ah, Madame, adjoûtez...</l>
+            <l n="405" xml:id="l405" part="I">Ah, Madame, adjoûtez...</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Je n’ay plus rien à dire.</l>
+            <l part="F">Je n’ay plus rien à dire.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="406" xml:id="l406">Que mon Rival...</l>
+            <l n="406" xml:id="l406" part="I">Que mon Rival...</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Sortez, ou bien je me retire.</l>
+            <l part="F">Sortez, ou bien je me retire.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
@@ -1261,7 +1257,7 @@
             <l n="422" xml:id="l422">La façon de la perdre est pour moy si cruelle,</l>
             <l n="423" xml:id="l423">Que toute ma constance et fremit et s’abat</l>
             <l n="424" xml:id="l424">Aux menaces d’un coup dont elle craint l’éclat.</l>
-            <l n="425" xml:id="l425"><space/>Ce n’est point un Rival dont l’amour<note n="43" place="bottom"><hi rend="b">Amour</hi> : on pouvait l’employer indifféremment au masculin comme au féminin au XVII<hi rend="sup">e</hi> siècle, le genre était souvent déterminé en accord avec les épithètes et les participes passés s’y rapportant pour permettre la rime.</note> preferée<pb n="20"/></l>
+            <l n="425" xml:id="l425">Ce n’est point un Rival dont l’amour<note n="43" place="bottom"><hi rend="b">Amour</hi> : on pouvait l’employer indifféremment au masculin comme au féminin au XVII<hi rend="sup">e</hi> siècle, le genre était souvent déterminé en accord avec les épithètes et les participes passés s’y rapportant pour permettre la rime.</note> preferée<pb n="20"/></l>
             <l n="426" xml:id="l426">Me dérobe une <ref target="#foy">foy*</ref> si saintement jurée,</l>
             <l n="427" xml:id="l427">Ce n’est point un vieillard dont l’ordre imperieux</l>
             <l n="428" xml:id="l428">Arrache à mon espoir un bien si precieux.</l>
@@ -1373,7 +1369,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE II. <pb n="23"/></head>
+          <head>SCENE II.<pb n="23"/></head>
           <stage>D. LOPE, CASSANDRE, JACINTE, BLANCHE, FLORE.</stage>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
@@ -1420,15 +1416,15 @@
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l n="532" xml:id="l532">Le voulez-vous sçavoir ? vous, D. Lope.</l>
+            <l n="532" xml:id="l532" part="I">Le voulez-vous sçavoir ? vous, D. Lope.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Moy ?</l>
+            <l part="M">Moy ?</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Vous.</l>
+            <l part="F">Vous.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
@@ -1440,17 +1436,17 @@
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="535" xml:id="l535"><space/>Que le perfide Alonse ait osé m’accuser    535</l>
+            <l n="535" xml:id="l535">Que le perfide Alonse ait osé m’accuser    535</l>
             <l n="536" xml:id="l536">Du crime le plus noir qu’on me pût imposer !</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
             <l n="537" xml:id="l537">Sur vous d’un coup si lâche il fait tomber le blâme,</l>
-            <l n="538" xml:id="l538">Et par vostre ordre seul...</l>
+            <l n="538" xml:id="l538" part="I">Et par vostre ordre seul...</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Le croyez-vous, Madame ?</l>
+            <l part="F">Le croyez-vous, Madame ?</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
@@ -1565,7 +1561,7 @@
             <l n="620" xml:id="l620">Que ce lâche <ref target="#connoistre1">cognû*</ref>, je ne <ref target="#connoistre1">cognois*</ref> plus rien,</l>
             <l n="621" xml:id="l621">Et qu’à quoy que pour vous le respect me convie,</l>
             <l n="622" xml:id="l622">Son bonheur est mal seur<note n="52" place="bottom"><hi rend="b">Mal</hi> : « mal se joint aussi à plusieurs mots » (F), <hi rend="i">mal seur</hi> a ici le sens de <hi rend="i">incertain</hi>.</note> s’il me laisse la vie.</l>
-            <l n="623" xml:id="l623">Adieu.</l>
+            <l n="623" xml:id="l623" part="I">Adieu.</l>
           </sp>
         </div>
         <div type="scene">
@@ -1573,7 +1569,7 @@
           <stage>JACINTE, CASSANDRE, FLORE, BLANCHE.</stage>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/>C’est vous servir avec trop de rigueur</l>
+            <l part="F">C’est vous servir avec trop de rigueur</l>
             <l n="624" xml:id="l624">Du pouvoir que l’amour vous donne sur son coeur.</l>
           </sp>
           <sp who="jacinte">
@@ -1623,7 +1619,7 @@
             <speaker>CASSANDRE</speaker>
             <l n="653" xml:id="l653">Apres un tel <ref target="#adveu2">adveu*</ref> vous oseray-je dire...</l>
             <l n="654" xml:id="l654">Mais que ne dit-on point lors que le coeur soûpire,</l>
-            <l n="655" xml:id="l655">Et que dans ses soûpirs, <ref target="#interdit">interdit*</ref> et confus, <pb n="29"/></l>
+            <l n="655" xml:id="l655">Et que dans ses soûpirs, <ref target="#interdit">interdit*</ref> et confus,<pb n="29"/></l>
             <l n="656" xml:id="l656">Il parle, il s’embarasse, et ne se comprend plus ?</l>
           </sp>
           <sp who="jacinte">
@@ -1674,15 +1670,15 @@
             <l n="696" xml:id="l696">Abandonner aux vents mon espoir le plus doux.</l>
             <l n="697" xml:id="l697">Il partit, et le Ciel pour comble de miseres</l>
             <l n="698" xml:id="l698">Fit suivre son depart du retour de mes freres,</l>
-            <l n="699" xml:id="l699">Ah !</l>
+            <l n="699" xml:id="l699" part="I">Ah !</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/>Si par ce recit...</l>
+            <l part="M">Si par ce recit...</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>Achevons, ce n’est rien.</l>
+            <l part="F">Achevons, ce n’est rien.</l>
             <l n="700" xml:id="l700">Jugez par ce retour quel malheur fut le mien.</l>
             <l n="701" xml:id="l701">A me tyranniser leur amitié consiste,</l>
             <l n="702" xml:id="l702">Un party se presente, ils pressent, je resiste,</l>
@@ -1696,11 +1692,11 @@
             <l n="710" xml:id="l710">Par celuy d’un parent on m’apprend son naufrage<note n="68" place="bottom"> Éditions de 1692 <hi rend="b">T/B</hi>, 1701, 1706 et 1709 : D’un Parent et de luy l’on m’apprend le naufrage.</note>,</l>
             <l n="711" xml:id="l711">Ils s’estoient embarquez dans le mesme vaisseau,</l>
             <l n="712" xml:id="l712">Et la mer de tous deux fut l’injuste tombeau.</l>
-            <l n="713" xml:id="l713">Ah Dieux !</l>
+            <l n="713" xml:id="l713" part="I">Ah Dieux !</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Vostre douleur semble toûjours s’accroistre.</l>
+            <l part="F">Vostre douleur semble toûjours s’accroistre.</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE<pb n="31"/></speaker>
@@ -1710,11 +1706,11 @@
             <l n="717" xml:id="l717">Que Fernand...juste Ciel ! pardonnez ma foiblesse,</l>
             <l n="718" xml:id="l718">A ce funeste nom ma constance me laisse,</l>
             <l n="719" xml:id="l719">Approchez-moy d’un siege, et <ref target="#souffrir">souffrez*</ref> qu’aux abois</l>
-            <l n="720" xml:id="l720">Ma flame...</l>
+            <l n="720" xml:id="l720" part="I">Ma flame...</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>La douleur luy suffoque la voix,</l>
+            <l part="F">La douleur luy suffoque la voix,</l>
             <l n="721" xml:id="l721">Flore vient de sortir, quel <ref target="#conseil">conseil*</ref> dois-je prendre ?</l>
           </sp>
         </div>
@@ -1723,58 +1719,58 @@
           <stage>JACINTE, CASSANDRE, FLORE, BLANCHE.</stage>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l n="722" xml:id="l722">Flore, et viste.</l>
+            <l n="722" xml:id="l722" part="I">Flore, et viste.</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE<hi rend="i">comme en pâmoyson.</hi> </speaker>
-            <l part="Y"><space/><space/>Ah ! pardon, chere Ombre.</l>
+            <l part="M">Ah ! pardon, chere Ombre.</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Voy, Cassandre...</l>
+            <l part="F">Voy, Cassandre...</l>
           </sp>
           <sp who="flore">
             <speaker>FLORE</speaker>
-            <l n="723" xml:id="l723">Ah ! Madame.</l>
+            <l n="723" xml:id="l723" part="I">Ah ! Madame.</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Qu’as-tu ?</l>
+            <l part="M">Qu’as-tu ?</l>
           </sp>
           <sp who="flore">
             <speaker>FLORE</speaker>
-            <l part="Y"><space/><space/>Son amant...</l>
+            <l part="M">Son amant...</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Qui ? Fernand ?</l>
+            <l part="F">Qui ? Fernand ?</l>
           </sp>
           <sp who="flore">
             <speaker>FLORE<pb n="32"/></speaker>
             <l n="724" xml:id="l724">Non, mais par un destin tout à fait surprenant,</l>
-            <l n="725" xml:id="l725">Celuy qu’elle croit mort...</l>
+            <l n="725" xml:id="l725" part="I">Celuy qu’elle croit mort...</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Et bien ?</l>
+            <l part="M">Et bien ?</l>
           </sp>
           <sp who="flore">
             <speaker>FLORE</speaker>
-            <l part="Y"><space/><space/>Est là, qui presse...</l>
+            <l part="F">Est là, qui presse...</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l n="726" xml:id="l726">Que dis-tu ?</l>
+            <l n="726" xml:id="l726" part="I">Que dis-tu ?</l>
           </sp>
           <sp who="flore">
             <speaker>FLORE</speaker>
-            <l part="Y"><space/><space/>Qu’il demande à revoir sa maistresse,</l>
-            <l n="727" xml:id="l727">Mais le voicy luy-mesme, il entre.</l>
+            <l part="F">Qu’il demande à revoir sa maistresse,</l>
+            <l n="727" xml:id="l727" part="I">Mais le voicy luy-mesme, il entre.</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Ah, justes Dieux !</l>
-            <l n="728" xml:id="l728">C’est mon frere.</l>
+            <l part="F">Ah, justes Dieux !</l>
+            <l n="728" xml:id="l728" part="I">C’est mon frere.</l>
           </sp>
         </div>
         <div type="scene">
@@ -1782,7 +1778,7 @@
           <stage>D. ALVAR, JACINTE, CASSANDRE, FLORE, BLANCHE.</stage>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Ah, ma soeur, qui vous met en ces lieux ?</l>
+            <l part="F">Ah, ma soeur, qui vous met en ces lieux ?</l>
             <l n="729" xml:id="l729">Vous trouver à Madrid, et vous croire à Tolede !</l>
           </sp>
           <sp who="jacinte">
@@ -1821,11 +1817,11 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="743" xml:id="l743">Que dit-elle, ma soeur ?</l>
+            <l n="743" xml:id="l743" part="I">Que dit-elle, ma soeur ?</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Elle revient à soy.</l>
+            <l part="F">Elle revient à soy.</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
@@ -1833,44 +1829,44 @@
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l n="745" xml:id="l745">Reprenez vos esprits.</l>
+            <l n="745" xml:id="l745" part="I">Reprenez vos esprits.</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>Et les puis-je reprendre</l>
+            <l part="F">Et les puis-je reprendre</l>
             <l n="746" xml:id="l746">Si je voy ce qu’enfin je ne sçaurois comprendre ?</l>
-            <l n="747" xml:id="l747">D. Alvar vivroit-il ?</l>
+            <l n="747" xml:id="l747" part="I">D. Alvar vivroit-il ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Apprenez-moy son sort,</l>
+            <l part="F">Apprenez-moy son sort,</l>
             <l n="748" xml:id="l748">Vous le sçavez vous seule, est-il vivant ou mort ?</l>
             <l n="749" xml:id="l749">Je sçay que sur un banc échapé du naufrage,</l>
             <l n="750" xml:id="l750">Eschapé des rigueurs d’un étroit esclavage,</l>
             <l n="751" xml:id="l751">Le Ciel qui l’en sauva le renvoyoit au jour,</l>
             <l n="752" xml:id="l752">Mais vivroit il encor s’il n’a plus vostre amour ?</l>
-            <l n="753" xml:id="l753">Parlez, Madame.</l>
+            <l n="753" xml:id="l753" part="I">Parlez, Madame.</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>Helas !</l>
+            <l part="M">Helas !</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR<pb n="34"/></speaker>
-            <l part="Y"><space/><space/>Soûpirer et se taire ?</l>
-            <l n="754" xml:id="l754">Ah ! ma sœur.</l>
+            <l part="F">Soûpirer et se taire ?</l>
+            <l n="754" xml:id="l754" part="I">Ah ! ma sœur.</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>Que dit-il ? D. Alvar vostre frere ?</l>
+            <l part="F">Que dit-il ? D. Alvar vostre frere ?</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l n="755" xml:id="l755">Ouy, vous voyez ce frere...</l>
+            <l n="755" xml:id="l755" part="I">Ouy, vous voyez ce frere...</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Ah ! c’est trop me <ref target="#gener">géner</ref>,</l>
+            <l part="F">Ah ! c’est trop me <ref target="#gener">géner</ref>,</l>
             <l n="756" xml:id="l756">Dites-moy ce qu’enfin je n’ose deviner.</l>
             <l n="757" xml:id="l757">J’eus tort de vous quitter, vous seriez-vous vangée,</l>
             <l n="758" xml:id="l758">Un autre est-il heureux, estes vous engagée ?</l>
@@ -1882,11 +1878,11 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="761" xml:id="l761">Quoy, plus d’espoir pour moy ?</l>
+            <l n="761" xml:id="l761" part="I">Quoy, plus d’espoir pour moy ?</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>La parole est donnée,</l>
+            <l part="F">La parole est donnée,</l>
             <l n="762" xml:id="l762">Et ma main dans deux jours acheve l’hymenée.</l>
           </sp>
           <sp who="d.-alvar">
@@ -1899,22 +1895,22 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="765" xml:id="l765">Et vous m’avez aimé ?</l>
+            <l n="765" xml:id="l765" part="I">Et vous m’avez aimé ?</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>Mon <ref target="#heur">heur*</ref> seroit extrême</l>
+            <l part="F">Mon <ref target="#heur">heur*</ref> seroit extrême</l>
             <l n="766" xml:id="l766">D’oser dire, j’aimay, sans pouvoir dire, j’aime.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="767" xml:id="l767">Ah, s’il vous reste encor...</l>
+            <l n="767" xml:id="l767" part="I">Ah, s’il vous reste encor...</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>Ne me demandez rien,</l>
+            <l part="F">Ne me demandez rien,</l>
             <l n="768" xml:id="l768">Je sçay ce que se doit un coeur comme le mien.</l>
-            <l n="769" xml:id="l769">Tant que vostre retour <ref target="#flatter">flatta*</ref> mon esperance, <pb n="35"/></l>
+            <l n="769" xml:id="l769">Tant que vostre retour <ref target="#flatter">flatta*</ref> mon esperance,<pb n="35"/></l>
             <l n="770" xml:id="l770">En vain l’on essaya d’ébransler ma constance.</l>
             <l n="771" xml:id="l771">Le <ref target="#bruit2">bruit*</ref> de vostre mort a dégagé ma <ref target="#foy">foy*</ref>,</l>
             <l n="772" xml:id="l772">Il vous perd, il me perd, plaignez vous, plaignez moy,</l>
@@ -1940,20 +1936,20 @@
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
             <l n="782" xml:id="l782">Ne pouvant rien pour vous, je ne dois rien <ref target="#entendre2">entendre*</ref>,</l>
-            <l n="783" xml:id="l783">Je ne vous verray plus.</l>
+            <l n="783" xml:id="l783" part="I">Je ne vous verray plus.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Comment donc vous quitter ?</l>
+            <l part="F">Comment donc vous quitter ?</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
             <l n="784" xml:id="l784">Le peril croist toûjours, c’est trop vous écouter,</l>
-            <l n="785" xml:id="l785">Je me retire.</l>
+            <l n="785" xml:id="l785" part="I">Je me retire.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Helas ! ma soeur, quelle injustice !</l>
+            <l part="F">Helas ! ma soeur, quelle injustice !</l>
             <l n="786" xml:id="l786">C’est donc ainsi qu’au port il faut que je perisse.</l>
             <l n="787" xml:id="l787">Ah, que ne suis-je mort, ou pourquoy l’a-t’on crû ?</l>
           </sp>
@@ -1962,11 +1958,11 @@
             <l n="788" xml:id="l788">Ce faux <ref target="#bruit2">bruit*</ref> en deux ans ne s’est que trop accrû,</l>
             <l n="789" xml:id="l789">Aussi me destinant le grand bien qu’il possede,</l>
             <l n="790" xml:id="l790">Mon pere sur ce bruit* voulut quitter Tolede,</l>
-            <l n="791" xml:id="l791">Esperant qu’à Madrid... <pb n="36"/></l>
+            <l n="791" xml:id="l791" part="I">Esperant qu’à Madrid...<pb n="36"/></l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Ah, puisqu’il me croit mort,</l>
+            <l part="F">Ah, puisqu’il me croit mort,</l>
             <l n="792" xml:id="l792">Promettez-moy, ma soeur, de luy cacher mon sort ;</l>
             <l n="793" xml:id="l793">Car enfin si le Ciel s’obstine à me poursuivre,<note n="71" place="bottom"> Éditions de 1692 <hi rend="b">T/B</hi>, 1701, 1706 et 1709 : Aussi bien si le Ciel s’obstine à me poursuivre.</note></l>
             <l n="794" xml:id="l794">Mon espoir estant mort je ne veux point revivre.</l>
@@ -2007,7 +2003,7 @@
             <l n="810" xml:id="l810">Je n’en usois ainsi que pour mieux le <ref target="#surprendre1">surprendre*</ref>,</l>
             <l n="811" xml:id="l811">Sçachant qu’à ne me voir ébranlé qu’à demy,</l>
             <l n="812" xml:id="l812">Il m’eust toûjours caché quel est mon ennemy.</l>
-            <l n="813" xml:id="l813">Il me l’a donc nommé devant ma fille mesme, <pb n="38"/></l>
+            <l n="813" xml:id="l813">Il me l’a donc nommé devant ma fille mesme,<pb n="38"/></l>
             <l n="814" xml:id="l814">Et pour mieux déguiser encor le stratagême,</l>
             <l n="815" xml:id="l815">J’ay voulu devant luy ne luy donner qu’un jour</l>
             <l n="816" xml:id="l816">A disposer son ame à ce funeste amour,</l>
@@ -2028,16 +2024,16 @@
             <speaker>D. RAMIRE.</speaker>
             <l n="823" xml:id="l823">Si toûjours la vangeance occupe vos esprits,</l>
             <l n="824" xml:id="l824">Le Ciel plus à propos n’eust pû vous rendre un fils,</l>
-            <l n="825" xml:id="l825">D. Alvar est vivant.</l>
+            <l n="825" xml:id="l825" part="I">D. Alvar est vivant.</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>Quoy, mon fils, D. Ramire,</l>
-            <l n="826" xml:id="l826">Mon fils seroit vivant ?</l>
+            <l part="F">Quoy, mon fils, D. Ramire,</l>
+            <l n="826" xml:id="l826" part="I">Mon fils seroit vivant ?</l>
           </sp>
           <sp who="d.-ramire">
             <speaker>D. RAMIRE.</speaker>
-            <l part="Y"><space/><space/>Ouy, D. Alvar respire,</l>
+            <l part="F">Ouy, D. Alvar respire,</l>
             <l n="827" xml:id="l827">A deux cens pas d’icy je viens de le quitter.</l>
           </sp>
           <sp who="d.-sanche">
@@ -2056,7 +2052,7 @@
             <l n="836" xml:id="l836">Ah !  si l’on me croit mort, on ne s’abuse pas,</l>
             <l n="837" xml:id="l837">M’a t’il dit, et la mer ne m’a laissé la vie,</l>
             <l n="838" xml:id="l838">Qu’afin que par l’amour elle me fust ravie*,</l>
-            <l n="839" xml:id="l839"><space/><space/>Il a donné l’arrest, il faut l’executer.<pb n="39"/></l>
+            <l n="839" xml:id="l839">Il a donné l’arrest, il faut l’executer.<pb n="39"/></l>
             <l n="840" xml:id="l840">A ces mots s’échapant, sans vouloir m’écouter,</l>
             <l n="841" xml:id="l841">Son pas précipité, le détour d’une ruë,</l>
             <l n="842" xml:id="l842">L’ont sçeu presque aussi-tost dérober à ma veuë.</l>
@@ -2076,11 +2072,11 @@
           </sp>
           <sp who="d.-ramire">
             <speaker>D. RAMIRE.</speaker>
-            <l n="847" xml:id="l847">Mais ignorant l’autheur...</l>
+            <l n="847" xml:id="l847" part="I">Mais ignorant l’autheur...</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>Il l’apprendra de moy</l>
+            <l part="F">Il l’apprendra de moy</l>
             <l n="848" xml:id="l848">Quand sur un tel secret j’auray receu sa <ref target="#foy">foy*</ref>.</l>
             <l n="849" xml:id="l849">Car<note n="74" place="bottom"> Éditions de 1692 <hi rend="b">T/B</hi>, 1701, 1706 et 1709 : Puisqu’.</note> enfin pour punir une action si noire,</l>
             <l n="850" xml:id="l850">Si j’employois un fils, je trahirois sa <ref target="#gloire">gloire*</ref>,</l>
@@ -2097,15 +2093,15 @@
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
             <l n="857" xml:id="l857">Et bien, sans perdre temps, allons chez moy l’écrire,</l>
-            <l n="858" xml:id="l858">Ce billet...</l>
+            <l n="858" xml:id="l858" part="I">Ce billet...</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE II. <pb n="40"/></head>
+          <head>SCENE II.<pb n="40"/></head>
           <stage>D. SANCHE, D. RAMIRE, JACINTE, BLANCHE.</stage>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/>Ah ! ma fille, à la fin je respire,</l>
+            <l part="F">Ah ! ma fille, à la fin je respire,</l>
             <l n="859" xml:id="l859">Et dans l’heureux succez qui <ref target="#flatter">flate*</ref> mes desirs,</l>
             <l n="860" xml:id="l860">Tu peux donner <ref target="#relache">relâche*</ref> à tes tristes soûpirs.</l>
             <l n="861" xml:id="l861">Ta vertu s’est montrée entiere, pure, pleine,</l>
@@ -2167,7 +2163,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IV. <pb n="42"/></head>
+          <head>SCENE IV.<pb n="42"/></head>
           <stage>CASSANDRE, JACINTE, BLANCHE, FLORE.</stage>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
@@ -2206,7 +2202,7 @@
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
             <l n="908" xml:id="l908">J’ay sçeu cette nouvelle assez confusément.</l>
-            <l n="909" xml:id="l909">Avec luy D. Ramire estant en conference, <pb n="43"/></l>
+            <l n="909" xml:id="l909">Avec luy D. Ramire estant en conference,<pb n="43"/></l>
             <l n="910" xml:id="l910">Luy qui de ses secrets reçoit la confidence,</l>
             <l n="911" xml:id="l911">J’ay dû me contenter de ce qu’il m’en a dit ;</l>
             <l n="912" xml:id="l912">Mais je sçay comme il faut ménager son esprit,</l>
@@ -2229,11 +2225,11 @@
           <sp who="flore">
             <speaker>FLORE</speaker>
             <l n="918" xml:id="l918">Ainsi, si vous cessiez de vous estre contraire,</l>
-            <l n="919" xml:id="l919">Vous n’auriez pas à craindre...</l>
+            <l n="919" xml:id="l919" part="I">Vous n’auriez pas à craindre...</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>Ah Flore, que dis-tu ?</l>
+            <l part="F">Ah Flore, que dis-tu ?</l>
           </sp>
           <sp who="flore">
             <speaker>FLORE</speaker>
@@ -2249,13 +2245,13 @@
             <l n="926" xml:id="l926">Sçachant ce que je sçay, seroit-il excusable ?</l>
             <l n="927" xml:id="l927">Il l’eust esté peut-estre, et du moins bien plus beau</l>
             <l n="928" xml:id="l928">Avant que D. Alvar fust sorty du tombeau,</l>
-            <l n="929" xml:id="l929">Mais aujourd’huy qu’il vit, donner lieu qu’on soupçonne, <pb n="44"/></l>
+            <l n="929" xml:id="l929">Mais aujourd’huy qu’il vit, donner lieu qu’on soupçonne,<pb n="44"/></l>
             <l n="930" xml:id="l930">Qu’aux dépens de ma <ref target="#foy">foy*</ref> mon lâche coeur se donne,</l>
-            <l n="931" xml:id="l931">Que je romps...</l>
+            <l n="931" xml:id="l931" part="I">Que je romps...</l>
           </sp>
           <sp who="flore">
             <speaker>FLORE</speaker>
-            <l part="Y"><space/><space/>Le voicy, <ref target="#souffrir">souffrez*</ref>-luy quelque espoir.</l>
+            <l part="F">Le voicy, <ref target="#souffrir">souffrez*</ref>-luy quelque espoir.</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
@@ -2377,11 +2373,11 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1013" xml:id="l1013">Vous me quittez, Madame ?</l>
+            <l n="1013" xml:id="l1013" part="I">Vous me quittez, Madame ?</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>Il y va de ma <ref target="#gloire">gloire*</ref>.</l>
+            <l part="F">Il y va de ma <ref target="#gloire">gloire*</ref>.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
@@ -2389,20 +2385,20 @@
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l n="1015" xml:id="l1015">J’y feray mon pouvoir.</l>
+            <l n="1015" xml:id="l1015" part="I">J’y feray mon pouvoir.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Oyez donc jusqu’au bout,</l>
-            <l n="1016" xml:id="l1016">A quel point ...</l>
+            <l part="F">Oyez donc jusqu’au bout,</l>
+            <l n="1016" xml:id="l1016" part="I">A quel point ...</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>Non, c’est trop.</l>
+            <l part="M">Non, c’est trop.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Je vous suivray par tout,</l>
+            <l part="F">Je vous suivray par tout,</l>
             <l n="1017" xml:id="l1017">Et si vous me quittez, il n’est respect ny crainte</l>
             <l n="1018" xml:id="l1018">Qui m’empesche chez vous d’aller porter ma plainte.</l>
           </sp>
@@ -2418,7 +2414,7 @@
             <l n="1026" xml:id="l1026">Ayant crû vostre mort je me suis engagée,</l>
             <l n="1027" xml:id="l1027">Ce bruit* m’a fait ailleurs disposer de ma <ref target="#foy">foy*</ref>,</l>
             <l n="1028" xml:id="l1028">Vous sçavez qui je suis et ce que je me doy,</l>
-            <l n="1029" xml:id="l1029">Que l’honneur a ses lois que l’on ne peut enfraindre ; <pb n="48"/></l>
+            <l n="1029" xml:id="l1029">Que l’honneur a ses lois que l’on ne peut enfraindre ;<pb n="48"/></l>
             <l n="1030" xml:id="l1030">Plaignez-vous là dessus, si vous osez vous plaindre.</l>
           </sp>
           <sp who="d.-alvar">
@@ -2472,75 +2468,75 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1062" xml:id="l1062">Donc je puis...</l>
+            <l n="1062" xml:id="l1062" part="I">Donc je puis...</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>N’en tirez aucune consequence.</l>
+            <l part="F">N’en tirez aucune consequence.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1063" xml:id="l1063">Esperer que peut-estre...</l>
+            <l n="1063" xml:id="l1063" part="I">Esperer que peut-estre...</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>Injuste et vain espoir !</l>
+            <l part="F">Injuste et vain espoir !</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1064" xml:id="l1064">Mon amour...</l>
+            <l n="1064" xml:id="l1064" part="I">Mon amour...</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>Ne pourra corrompre mon devoir,</l>
-            <l n="1065" xml:id="l1065">Et plustost que...</l>
+            <l part="F">Ne pourra corrompre mon devoir,</l>
+            <l n="1065" xml:id="l1065" part="I">Et plustost que...</l>
           </sp>
           <sp who="flore">
             <speaker>FLORE <hi rend="i">montrant ENRIQUE qui paroist</hi> </speaker>
-            <l part="Y"><space/><space/>Madame.</l>
+            <l part="M">Madame.</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/><space/>O disgrace impréveuë !</l>
+            <l part="F">O disgrace impréveuë !</l>
             <l n="1066" xml:id="l1066">Empeschez qu’on me suive, ou bien je suis perduë.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VII. <pb n="50"/></head>
+          <head>SCENE VII.<pb n="50"/></head>
           <stage>ENRIQUE, D. ALVAR, CASSANDRE, FLORE.</stage>
           <sp who="enrique">
             <speaker>ENRIQUE</speaker>
             <l n="1067" xml:id="l1067">Ne vois-je pas ma soeur ? elle me fuit en vain</l>
-            <l n="1068" xml:id="l1068">Si...</l>
+            <l n="1068" xml:id="l1068" part="I">Si...</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR <hi rend="i">coupant chemin à ENRIQUE
 <lb/>qu’il voit se preparer à suivre Cassandre.</hi> </speaker>
-            <l part="Y"><space/>Vous m’<ref target="#obliger1">obligerez*</ref> de changer de <ref target="#dessein">dessein*</ref>,</l>
-            <l n="1069" xml:id="l1069">Cette Dame me touche.</l>
+            <l part="F">Vous m’<ref target="#obliger1">obligerez*</ref> de changer de <ref target="#dessein">dessein*</ref>,</l>
+            <l n="1069" xml:id="l1069" part="I">Cette Dame me touche.</l>
           </sp>
           <sp who="enrique">
             <speaker>ENRIQUE</speaker>
-            <l part="Y"><space/><space/>Et plus que vous peut-estre</l>
+            <l part="F">Et plus que vous peut-estre</l>
             <l n="1070" xml:id="l1070">Moy-mesme elle me touche, et je la veux <ref target="#connoistre1">cognoistre*</ref>.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1071" xml:id="l1071">J’y pourray mettre obstacle.</l>
+            <l n="1071" xml:id="l1071" part="I">J’y pourray mettre obstacle.</l>
           </sp>
           <sp who="enrique">
             <speaker>ENRIQUE<hi rend="i">mettant l’épée à la main.</hi> </speaker>
-            <l part="Y"><space/><space/>Ah Dieu, me menacer !</l>
+            <l part="F">Ah Dieu, me menacer !</l>
             <l n="1072" xml:id="l1072">Voicy, voicy par où je le sçauray forcer<note n="82" place="bottom"> Éditions de 1692 <hi rend="b">T/B</hi>, 1701, 1706 et 1709 : Voicy par où l’obstacle est facile à forcer.</note>.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1073" xml:id="l1073">Vous reculez pourtant.</l>
+            <l n="1073" xml:id="l1073" part="I">Vous reculez pourtant.</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE<hi rend="i">paroissant apres que D. ALVAR
 <lb/>a fait reculer ENRIQUE hors du Theatre</hi> </speaker>
-            <l part="Y"><space/><space/>Helas ! que dois-je faire ?</l>
+            <l part="F">Helas ! que dois-je faire ?</l>
             <l n="1074" xml:id="l1074">Quel funeste combat d’un amant et d’un frere !</l>
           </sp>
           <sp who="flore">
@@ -2550,11 +2546,11 @@
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
             <l n="1076" xml:id="l1076">Ce quartier est desert, D. Alvar malheureux,</l>
-            <l n="1077" xml:id="l1077">Et la nuit qui survient...</l>
+            <l n="1077" xml:id="l1077" part="I">Et la nuit qui survient...</l>
           </sp>
           <sp who="flore">
             <speaker>FLORE<pb n="51"/></speaker>
-            <l part="Y"><space/><space/>Retirons nous, Madame.</l>
+            <l part="F">Retirons nous, Madame.</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
@@ -2564,7 +2560,7 @@
           <sp who="flore">
             <speaker>FLORE</speaker>
             <l n="1080" xml:id="l1080">Nous ne les voyons plus, ils s’éloignent toûjours,</l>
-            <l n="1081" xml:id="l1081">Mais D. Lope…</l>
+            <l n="1081" xml:id="l1081" part="I">Mais D. Lope…</l>
           </sp>
         </div>
         <div type="scene">
@@ -2572,15 +2568,15 @@
           <stage>D. LOPE, CASSANDRE, FLORE.</stage>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Ah, ma soeur, la funeste nouvelle !</l>
+            <l part="F">Ah, ma soeur, la funeste nouvelle !</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l n="1082" xml:id="l1082">Qu’est-ce, mon frere ?</l>
+            <l n="1082" xml:id="l1082" part="I">Qu’est-ce, mon frere ?</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Alonse est un amy fidelle,</l>
+            <l part="F">Alonse est un amy fidelle,</l>
             <l n="1083" xml:id="l1083">Et cette trahison dont j’osois murmurer,</l>
             <l n="1084" xml:id="l1084">M’asseuroit le seul bien que je puis esperer ;</l>
             <l n="1085" xml:id="l1085">Mais jugez quel espoir me doit rester encore</l>
@@ -2597,45 +2593,45 @@
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
             <l n="1092" xml:id="l1092">Je l’<ref target="#entendre2">entens*</ref> en effet, éloignez-vous, ma soeur.</l>
-            <l n="1093" xml:id="l1093">Je verray ce que c’est.</l>
+            <l n="1093" xml:id="l1093" part="I">Je verray ce que c’est.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IX. <pb n="52"/></head>
+          <head>SCENE IX.<pb n="52"/></head>
           <stage>D. LOPE, D. ALVAR, Trois <ref target="#brave">BRAVES*</ref> le poursuivant.</stage>
           <sp who="brave">
             <speaker>1. <ref target="#brave">BRAVE*</ref></speaker>
-            <l part="Y"><space/><space/>Ta mort suivra la sienne.</l>
+            <l part="F">Ta mort suivra la sienne.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
             <l n="1094" xml:id="l1094">Que ne l’empeschiez-vous, comme je fais<note n="83" place="bottom"> L’emploi du verbe <hi rend="i">faire</hi> pour éviter la répétition d’un verbe est courant au XVII<hi rend="sup">e</hi> siècle. Il remplace ici le verbe <hi rend="i">empêcher</hi>.</note> la mienne,</l>
-            <l n="1095" xml:id="l1095">Lâches ?</l>
+            <l n="1095" xml:id="l1095" part="I">Lâches ?</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/>Quoy, trois contre un ! donnons<note n="84" place="bottom"><hi rend="b">Donnons</hi> : absolument, le verbe donner s’emploie pour commencer le combat, aller à l’assaut (F).</note>, je suis à vous,</l>
-            <l n="1096" xml:id="l1096">Mon cavalier, courage.</l>
+            <l part="F">Quoy, trois contre un ! donnons<note n="84" place="bottom"><hi rend="b">Donnons</hi> : absolument, le verbe donner s’emploie pour commencer le combat, aller à l’assaut (F).</note>, je suis à vous,</l>
+            <l n="1096" xml:id="l1096" part="I">Mon cavalier, courage.</l>
           </sp>
           <sp who="brave">
             <speaker>2. <ref target="#brave">BRAVE*</ref></speaker>
-            <l part="Y"><space/><space/>O Dieu, les rudes coups !</l>
+            <l part="F">O Dieu, les rudes coups !</l>
           </sp>
           <sp who="brave">
             <speaker>3. <ref target="#brave">BRAVE*</ref></speaker>
-            <l n="1097" xml:id="l1097">Ah ! D. Lope...</l>
+            <l n="1097" xml:id="l1097" part="I">Ah ! D. Lope...</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Mon nom dans la bouche d’un lâche ?</l>
+            <l part="F">Mon nom dans la bouche d’un lâche ?</l>
           </sp>
           <sp who="brave">
             <speaker>3. <ref target="#brave">BRAVE*</ref></speaker>
-            <l n="1098" xml:id="l1098">Sçachez...</l>
+            <l n="1098" xml:id="l1098" part="I">Sçachez...</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/>J’ay déja sçeu ce qu’il faut que je sçache.</l>
+            <l part="F">J’ay déja sçeu ce qu’il faut que je sçache.</l>
           </sp>
           <sp who="brave">
             <speaker>2. <ref target="#brave">BRAVE*</ref></speaker>
@@ -2654,11 +2650,11 @@
             <speaker>D. ALVAR<pb n="53"/></speaker>
             <l n="1103" xml:id="l1103">Cependant je dois tout à ce bras <ref target="#genereux">genereux*</ref>,</l>
             <l n="1104" xml:id="l1104">Sans vous ma resistance estoit vaine contre eux,</l>
-            <l n="1105" xml:id="l1105">Vous seul par un <ref target="#secours">secours*</ref>...</l>
+            <l n="1105" xml:id="l1105" part="I">Vous seul par un <ref target="#secours">secours*</ref>...</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Espargnez-moy, <ref target="#de-grace">de grace*</ref>,</l>
+            <l part="F">Espargnez-moy, <ref target="#de-grace">de grace*</ref>,</l>
             <l n="1106" xml:id="l1106">J’ay fait ce que vous mesme eussiez fait en ma place.</l>
           </sp>
           <sp who="d.-alvar">
@@ -2676,11 +2672,11 @@
             <l n="1114" xml:id="l1114">Ne craignez rien, chez moy je vous offre un azile,</l>
             <l n="1115" xml:id="l1115">Allons, et soyez seur qu’<ref target="#besoin">au besoin*</ref> contre tous</l>
             <l n="1116" xml:id="l1116">Je sçauray vous défendre, ou perir avec vous.</l>
-            <l n="1117" xml:id="l1117">Mais sans doute on vous cherche.</l>
+            <l n="1117" xml:id="l1117" part="I">Mais sans doute on vous cherche.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>O malheur redoutable !</l>
+            <l part="F">O malheur redoutable !</l>
           </sp>
         </div>
         <div type="scene">
@@ -2689,23 +2685,23 @@
           <sp who="d.-louis">
             <speaker>D. LOUIS</speaker>
             <l n="1118" xml:id="l1118">Voyez nos <ref target="#soin">soins*</ref>, D. Lope, à trouver un coupable,</l>
-            <l n="1119" xml:id="l1119">Enrique, helas !</l>
+            <l n="1119" xml:id="l1119" part="I">Enrique, helas !</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Et bien ?</l>
+            <l part="M">Et bien ?</l>
           </sp>
           <sp who="d.-louis">
             <speaker>D. LOUIS<pb n="54"/></speaker>
-            <l part="Y"><space/><space/>Vient d’estre assassiné.</l>
+            <l part="F">Vient d’estre assassiné.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="1120" xml:id="l1120">Enrique !</l>
+            <l n="1120" xml:id="l1120" part="I">Enrique !</l>
           </sp>
           <sp who="d.-louis">
             <speaker>D. LOUIS</speaker>
-            <l part="Y"><space/>Et l’assassin par icy détourné,</l>
+            <l part="F">Et l’assassin par icy détourné,</l>
             <l n="1121" xml:id="l1121">Tâchant de garantir sa teste par sa fuitte,</l>
             <l n="1122" xml:id="l1122">Attire sur ses pas nostre juste poursuitte,</l>
             <l n="1123" xml:id="l1123">On l’a veu reculer les armes à la main.</l>
@@ -2713,7 +2709,7 @@
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
             <l n="1124" xml:id="l1124">Par vostre diligence empeschez son <ref target="#dessein">dessein*</ref>,</l>
-            <l n="1125" xml:id="l1125">Je vay pourvoir au reste.</l>
+            <l n="1125" xml:id="l1125" part="I">Je vay pourvoir au reste.</l>
           </sp>
         </div>
         <div type="scene">
@@ -2721,17 +2717,17 @@
           <stage>D. LOPE, D. ALVAR.</stage>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Et vous devant la vie,</l>
-            <l n="1126" xml:id="l1126">Ce n’estoit pas assez...</l>
+            <l part="F">Et vous devant la vie,</l>
+            <l n="1126" xml:id="l1126" part="I">Ce n’estoit pas assez...</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Brisons-là, je vous prie.</l>
-            <l n="1127" xml:id="l1127">Sçavez-vous qui je suis ?</l>
+            <l part="F">Brisons-là, je vous prie.</l>
+            <l n="1127" xml:id="l1127" part="I">Sçavez-vous qui je suis ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>C’estoit pour le sçavoir</l>
+            <l part="F">C’estoit pour le sçavoir</l>
             <l n="1128" xml:id="l1128">Que je vous demandois à vous parler ce soir.</l>
           </sp>
           <sp who="d.-lope">
@@ -2740,11 +2736,11 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1130" xml:id="l1130">Non.</l>
+            <l n="1130" xml:id="l1130" part="I">Non.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/>Sçavez-vous quel sang vous avez sçeu répandre ?</l>
+            <l part="F">Sçavez-vous quel sang vous avez sçeu répandre ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR<pb n="55"/></speaker>
@@ -2767,37 +2763,37 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1138" xml:id="l1138">Pourquoy ?</l>
+            <l n="1138" xml:id="l1138" part="I">Pourquoy ?</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Si je vous dis que le mort est mon frere ?</l>
+            <l part="F">Si je vous dis que le mort est mon frere ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1139" xml:id="l1139">Vostre frere !</l>
+            <l n="1139" xml:id="l1139" part="I">Vostre frere !</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Ouy, mon frere, et vous pouvez juger</l>
+            <l part="F">Ouy, mon frere, et vous pouvez juger</l>
             <l n="1140" xml:id="l1140">Si je puis vous deffendre ayant à le vanger.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1141" xml:id="l1141">Mais vous m’avez promis...</l>
+            <l n="1141" xml:id="l1141" part="I">Mais vous m’avez promis...</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>La promesse est frivole,</l>
+            <l part="F">La promesse est frivole,</l>
             <l n="1142" xml:id="l1142">Jamais contre soy-mesme on ne donne parole.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1143" xml:id="l1143">Que pretendez-vous donc ?</l>
+            <l n="1143" xml:id="l1143" part="I">Que pretendez-vous donc ?</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Monstrer par vostre mort</l>
+            <l part="F">Monstrer par vostre mort</l>
             <l n="1144" xml:id="l1144">Que le devoir du sang est toûjours le plus fort.</l>
           </sp>
           <sp who="d.-alvar">
@@ -2861,29 +2857,29 @@
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="1171" xml:id="l1171">Quoy, vous pourriez me fuir ?</l>
+            <l n="1171" xml:id="l1171" part="I">Quoy, vous pourriez me fuir ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Je fuis avec éclat,</l>
+            <l part="F">Je fuis avec éclat,</l>
             <l n="1172" xml:id="l1172">Quand j’évite en fuyant le peril d’estre ingrat.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
             <l n="1173" xml:id="l1173">Vous me verrez pousser ma vangeance à l’extrême,</l>
-            <l n="1174" xml:id="l1174">Je vous suivray par tout.</l>
+            <l n="1174" xml:id="l1174" part="I">Je vous suivray par tout.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Je vous fuiray de mesme.</l>
+            <l part="F">Je vous fuiray de mesme.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="1175" xml:id="l1175">Je sçauray vous chercher.</l>
+            <l n="1175" xml:id="l1175" part="I">Je sçauray vous chercher.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Et moy vous éviter.</l>
+            <l part="F">Et moy vous éviter.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
@@ -2914,15 +2910,15 @@
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="1185" xml:id="l1185">Nous nous verrons pourtant.</l>
+            <l n="1185" xml:id="l1185" part="I">Nous nous verrons pourtant.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Jamais.</l>
+            <l part="M">Jamais.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE<pb n="58"/></speaker>
-            <l part="Y"><space/><space/>Et ma poursuitte ?</l>
+            <l part="F">Et ma poursuitte ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
@@ -2931,16 +2927,16 @@
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
             <l n="1187" xml:id="l1187">Peut-estre, mais enfin si nous nous rencontrons</l>
-            <l n="1188" xml:id="l1188">Il faudra lors combattre.<note n="87" place="bottom"> Éditions de 1692 <hi rend="b">T/B</hi>, 1701, 1706 et 1709 : Comment ne pas combattre ?</note></l>
+            <l n="1188" xml:id="l1188" part="I">Il faudra lors combattre.<note n="87" place="bottom"> Éditions de 1692 <hi rend="b">T/B</hi>, 1701, 1706 et 1709 : Comment ne pas combattre ?</note></l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Et bien nous combattrons.</l>
+            <l part="F">Et bien nous combattrons.</l>
           </sp>
         </div>
       </div>
       <div type="act">
-        <head>ACTE IV. <pb n="59"/></head>
+        <head>ACTE IV.<pb n="59"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>ALONSE, D. LOPE.</stage>
@@ -3009,7 +3005,7 @@
             <l n="1234" xml:id="l1234">Apres ce que je sçay je n’ay rien à pretendre,</l>
             <l n="1235" xml:id="l1235">Pour paroistre innocent mon effort seroit vain ;</l>
             <l n="1236" xml:id="l1236">Si c’est le mesme sang, qu’importe quelle main ?</l>
-            <l n="1237" xml:id="l1237"><space/><space/>C’est ce malheur du sang dont je suis responsable, <pb n="61 ; f"/></l>
+            <l n="1237" xml:id="l1237">C’est ce malheur du sang dont je suis responsable,<pb n="61 ; f"/></l>
             <l n="1238" xml:id="l1238">Qui me rendra toûjours également coupable,</l>
             <l n="1239" xml:id="l1239">Puisqu’ayant à combatre un destin rigoureux,</l>
             <l n="1240" xml:id="l1240">C’est estre criminel que d’estre malheureux.</l>
@@ -3094,15 +3090,15 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE II. <pb n="63"/></head>
+          <head>SCENE II.<pb n="63"/></head>
           <stage>D. LOPE, D. ALVAR.</stage>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="1288" xml:id="l1288">Me recognoissez-vous ?</l>
+            <l n="1288" xml:id="l1288" part="I">Me recognoissez-vous ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Je vous allois chercher,</l>
+            <l part="F">Je vous allois chercher,</l>
             <l n="1289" xml:id="l1289">Et quelque rigoureux que mon destin se montre,</l>
             <l n="1290" xml:id="l1290">Je luy suis <ref target="#oblige-de">obligé* d’une</ref> telle rencontre.</l>
           </sp>
@@ -3140,11 +3136,11 @@
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE<pb n="64"/></speaker>
-            <l n="1305" xml:id="l1305">Ce discours est obscur.</l>
+            <l n="1305" xml:id="l1305" part="I">Ce discours est obscur.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Pour vous le faire <ref target="#entendre1">entendre*</ref></l>
+            <l part="F">Pour vous le faire <ref target="#entendre1">entendre*</ref></l>
             <l n="1306" xml:id="l1306">Oyez par un billet ce que je viens d’apprendre.</l>
             <l n="1307" xml:id="l1307">Un injuste ennemy par un noir <ref target="#attentat">attentat*</ref>,</l>
             <l n="1308" xml:id="l1308">Envieux de ma <ref target="#gloire">gloire*</ref>, en a terny l’éclat,</l>
@@ -3153,11 +3149,11 @@
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="1311" xml:id="l1311">Et que pensez-vous faire ?</l>
+            <l n="1311" xml:id="l1311" part="I">Et que pensez-vous faire ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>En pouvez-vous douter,</l>
+            <l part="F">En pouvez-vous douter,</l>
             <l n="1312" xml:id="l1312">Et dans de tels malheurs a-t’on à consulter ?</l>
             <l n="1313" xml:id="l1313">Je ne <ref target="#balancer">balance*</ref> point, quelle que soit l’offence,</l>
             <l n="1314" xml:id="l1314">Tout mon sang indigné m’en demande vangeance,</l>
@@ -3217,8 +3213,8 @@
             <l n="1362" xml:id="l1362">Tient pour moy dans ce coeur la haine suspenduë,</l>
             <l n="1363" xml:id="l1363"><ref target="#souffrir">Souffrez*</ref> qu’impatient de m’acquitter vers vous,</l>
             <l n="1364" xml:id="l1364">D’un amy si parfait j’<ref target="#embrasser1">embrasse*</ref> les genoux.</l>
-            <l n="1365" xml:id="l1365">Rendrois-je un moindre hommage à qui je dois la vie ? <pb n="66"/></l>
-            <l part="Y">Mais on veut vous parler, ou bien l’on nous épie.</l>
+            <l n="1365" xml:id="l1365" part="I">Rendrois-je un moindre hommage à qui je dois la vie ?<pb n="66"/></l>
+            <l part="F">Mais on veut vous parler, ou bien l’on nous épie.</l>
           </sp>
         </div>
         <div type="scene">
@@ -3226,46 +3222,46 @@
           <stage>D. LOPE, D. ALVAR, BLANCHE.</stage>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="1366" xml:id="l1366">Ah ! Blanche.</l>
+            <l n="1366" xml:id="l1366" part="I">Ah ! Blanche.</l>
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
-            <l part="Y"><space/><space/>Qu’à propos je vous ay recognû !</l>
-            <l n="1367" xml:id="l1367">L’on m’envoyoit chez vous.</l>
+            <l part="F">Qu’à propos je vous ay recognû !</l>
+            <l n="1367" xml:id="l1367" part="I">L’on m’envoyoit chez vous.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Quoy, qu’est-il survenu ?</l>
+            <l part="F">Quoy, qu’est-il survenu ?</l>
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
-            <l n="1368" xml:id="l1368">Venez, on vous attend.</l>
+            <l n="1368" xml:id="l1368" part="I">Venez, on vous attend.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Moy, Blanche ?</l>
+            <l part="M">Moy, Blanche ?</l>
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
-            <l part="Y"><space/><space/>Ouy, ma maitresse</l>
+            <l part="F">Ouy, ma maitresse</l>
             <l n="1369" xml:id="l1369">Veut resoudre avec vous une affaire qui presse.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="1370" xml:id="l1370">Que je crains...</l>
+            <l n="1370" xml:id="l1370" part="I">Que je crains...</l>
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
-            <l part="Y"><space/><space/>Craignez tout d’un <ref target="#couroux">couroux*</ref> déguisé.</l>
+            <l part="F">Craignez tout d’un <ref target="#couroux">couroux*</ref> déguisé.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
             <l n="1371" xml:id="l1371">Sans doute le vieillard n’est point desabusé,</l>
-            <l n="1372" xml:id="l1372">C’est ce qu’on veut m’apprendre ?</l>
+            <l n="1372" xml:id="l1372" part="I">C’est ce qu’on veut m’apprendre ?</l>
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
-            <l part="Y"><space/><space/>Il est vray qu’il s’emporte.</l>
+            <l part="F">Il est vray qu’il s’emporte.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE<pb n="67"/></speaker>
@@ -3284,11 +3280,11 @@
             <l n="1375" xml:id="l1375"><ref target="#souffrir">Souffre*</ref>-t’on la contrainte entre les vrais amis,</l>
             <l n="1376" xml:id="l1376">Vous m’avez <ref target="#obliger1">obligé*</ref>, mais quel est ce message ?</l>
             <l n="1377" xml:id="l1377">D’autre que d’une fille il m’auroit fait ombrage,</l>
-            <l n="1378" xml:id="l1378">Vous estes tout resveur.</l>
+            <l n="1378" xml:id="l1378" part="I">Vous estes tout resveur.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Peut-estre en ay-je lieu,</l>
+            <l part="F">Peut-estre en ay-je lieu,</l>
             <l n="1379" xml:id="l1379">Mais enfin il est temps que je vous dise adieu.</l>
           </sp>
           <sp who="d.-alvar">
@@ -3305,11 +3301,11 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1386" xml:id="l1386">La faveur vous déplaist ?</l>
+            <l n="1386" xml:id="l1386" part="I">La faveur vous déplaist ?</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>J’aime et je suis aimé,</l>
+            <l part="F">J’aime et je suis aimé,</l>
             <l n="1387" xml:id="l1387">Mais un pere <ref target="#facheux">fâcheux*</ref> tient mon coeur alarmé,</l>
             <l n="1388" xml:id="l1388">Et contre mon espoir cette faveur offerte</l>
             <l n="1389" xml:id="l1389">Est moins faveur pour moy que l’arrest de ma perte :</l>
@@ -3327,33 +3323,33 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1401" xml:id="l1401">Je vous escorteray.</l>
+            <l n="1401" xml:id="l1401" part="I">Je vous escorteray.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Vous ?</l>
+            <l part="M">Vous ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Quoy, vous en deffendre !</l>
+            <l part="F">Quoy, vous en deffendre !</l>
             <l n="1402" xml:id="l1402">Craignez-vous que ce bras ne vous manque <ref target="#besoin">au besoin*</ref> ?</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
             <l n="1403" xml:id="l1403">Un amour si secret fuit un nouveau témoin,</l>
             <l n="1404" xml:id="l1404">Et je dois ce respect à l’objet de ma flame,</l>
-            <l n="1405" xml:id="l1405">De...</l>
+            <l n="1405" xml:id="l1405" part="I">De...</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/>Vous abandonner c’est me couvrir de blâme,</l>
+            <l part="F">Vous abandonner c’est me couvrir de blâme,</l>
             <l n="1406" xml:id="l1406">Et mon coeur est pour vous injuste au dernier point</l>
             <l n="1407" xml:id="l1407">S’il vous <ref target="#souffrir">souffre*</ref> un peril qu’il ne partage point.</l>
-            <l n="1408" xml:id="l1408">Non, non, je vous suivray.</l>
+            <l n="1408" xml:id="l1408" part="I">Non, non, je vous suivray.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Vous ne prenez pas garde</l>
+            <l part="F">Vous ne prenez pas garde</l>
             <l n="1409" xml:id="l1409">A ce qu’en ce projet vostre amitié hazarde,</l>
             <l n="1410" xml:id="l1410">Et que dans ma disgrace oser vous engager,</l>
             <l n="1411" xml:id="l1411">C’est vous mettre en estat de ne vous point vanger,</l>
@@ -3362,21 +3358,21 @@
           <sp who="d.-alvar">
             <speaker>D. ALVAR<pb n="69"/></speaker>
             <l n="1413" xml:id="l1413">Sur l’occasion seule un grand coeur se mesure.</l>
-            <l n="1414" xml:id="l1414">Allons, nous perdons temps.</l>
+            <l n="1414" xml:id="l1414" part="I">Allons, nous perdons temps.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Mais...</l>
+            <l part="M">Mais...</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>C’est trop contester,</l>
+            <l part="F">C’est trop contester,</l>
             <l n="1415" xml:id="l1415">Sçachant ce que je sçay je ne puis vous quitter.</l>
-            <l n="1416" xml:id="l1416">Sur tout, je suis discret.</l>
+            <l n="1416" xml:id="l1416" part="I">Sur tout, je suis discret.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Je n’ay plus rien à dire,</l>
+            <l part="F">Je n’ay plus rien à dire,</l>
             <l n="1417" xml:id="l1417">Mais je vous devray trop, et mon coeur en soûpire,</l>
             <l n="1418" xml:id="l1418">Puisqu’apres cet accord que l’honneur rend permis,</l>
             <l n="1419" xml:id="l1419">Ce mesme honneur nous force à cesser d’estre amis.</l>
@@ -3388,7 +3384,7 @@
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
             <l n="1421" xml:id="l1421">Nous n’irons pas bien loin, voyez d’icy la porte,</l>
-            <l n="1422" xml:id="l1422">J’y dois estre attendu.</l>
+            <l n="1422" xml:id="l1422" part="I">J’y dois estre attendu.</l>
           </sp>
         </div>
         <div type="scene">
@@ -3396,17 +3392,17 @@
           <stage>D. LOPE, D. ALVAR, BLANCHE.</stage>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Blanche.</l>
+            <l part="M">Blanche.</l>
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
-            <l part="Y"><space/><space/>Entrez et sans <ref target="#bruit1">bruit*</ref>,</l>
-            <l n="1423" xml:id="l1423">De peur que...mais que vois-je ?</l>
+            <l part="F">Entrez et sans <ref target="#bruit1">bruit*</ref>,</l>
+            <l n="1423" xml:id="l1423" part="I">De peur que...mais que vois-je ?</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Un amy qui me suit,</l>
-            <l n="1424" xml:id="l1424"><space/><space/>Ne crains rien, sa vertu dans mon sort l’interesse. <pb n="70"/></l>
+            <l part="F">Un amy qui me suit,</l>
+            <l n="1424" xml:id="l1424">Ne crains rien, sa vertu dans mon sort l’interesse.<pb n="70"/></l>
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
@@ -3416,11 +3412,11 @@
             <speaker>D. LOPE</speaker>
             <l n="1426" xml:id="l1426">Va, je t’excuseray, n’en sois point en soucy<note n="94" place="bottom"><hi rend="b">Soucy</hi> : chagrin, inquietude de l’esprit peut-être à cause qu’il fait devenir jaune (comme la fleur) (F).</note>.</l>
             <l n="1427" xml:id="l1427">Amy, j’en use<note n="95" place="bottom"><hi rend="b">User</hi> : se dit aussi en morale, des manieres de vivre, de se comporter avec les autres (F).</note> mal de vous laisser icy,</l>
-            <l n="1428" xml:id="l1428">Seul, de nuit, sans clarté, mais...</l>
+            <l n="1428" xml:id="l1428" part="I">Seul, de nuit, sans clarté, mais...</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Cette excuse est vaine,</l>
+            <l part="F">Cette excuse est vaine,</l>
             <l n="1429" xml:id="l1429">Un desir curieux n’est pas ce qui m’améne,</l>
             <l n="1430" xml:id="l1430">Je vous attens, allez, et ne m’oubliez pas</l>
             <l n="1431" xml:id="l1431">Si vous avez besoin du <ref target="#secours">secours*</ref> de mon bras.</l>
@@ -3448,8 +3444,8 @@
             <l n="1447" xml:id="l1447">Songer à la deffence<note n="97" place="bottom"><hi rend="b">Deffence</hi> : en terme de guerre, se dit de tout ce qui sert à conserver les soldats et les places (F), il s’agirait de tenir la sortie dégagée.</note> est tout ce que je puis,</l>
             <l n="1448" xml:id="l1448">Ne nous découvrons point si l’on ne nous découvre.</l>
             <l n="1449" xml:id="l1449">Mais Dieux ! n’<ref target="#entendre2">entens*</ref>-je pas une porte qui s’ouvre ?</l>
-            <l n="1450" xml:id="l1450">La lumiere paroist, enfin tout est perdu, <pb n="71"/></l>
-            <l n="1451" xml:id="l1451">Que feray-je ?</l>
+            <l n="1450" xml:id="l1450">La lumiere paroist, enfin tout est perdu,<pb n="71"/></l>
+            <l n="1451" xml:id="l1451" part="I">Que feray-je ?</l>
           </sp>
         </div>
         <div type="scene">
@@ -3457,21 +3453,21 @@
           <stage>D. SANCHE, D. ALVAR.</stage>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>Un <ref target="#bruit1">bruit*</ref> sourd vers la porte <ref target="#entendre2">entendu*</ref>,</l>
+            <l part="F">Un <ref target="#bruit1">bruit*</ref> sourd vers la porte <ref target="#entendre2">entendu*</ref>,</l>
             <l n="1452" xml:id="l1452">Dans l’attente d’un fils à mes souhaits si chere...</l>
-            <l n="1453" xml:id="l1453">Mais ne le vois-je pas ? Ah, mon fils !</l>
+            <l n="1453" xml:id="l1453" part="I">Mais ne le vois-je pas ? Ah, mon fils !</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Ah, mon pere.</l>
+            <l part="F">Ah, mon pere.</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l n="1454" xml:id="l1454">Je puis donc te revoir ?</l>
+            <l n="1454" xml:id="l1454" part="I">Je puis donc te revoir ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>C’est donc vous que je voy ?</l>
+            <l part="F">C’est donc vous que je voy ?</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
@@ -3498,11 +3494,11 @@
             <l n="1469" xml:id="l1469">La generosité n’est pas mesme permise,</l>
             <l n="1470" xml:id="l1470">Ne t’inquiéte point de mon honneur perdu,</l>
             <l n="1471" xml:id="l1471">S’il luy faut une vie, on m’en a répondu,</l>
-            <l n="1472" xml:id="l1472">Il perira, le traistre.</l>
+            <l n="1472" xml:id="l1472" part="I">Il perira, le traistre.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Ah, que voulez-vous faire ?</l>
+            <l part="F">Ah, que voulez-vous faire ?</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
@@ -3511,11 +3507,11 @@
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
             <l n="1474" xml:id="l1474">Me reserveriez-vous à cette lâcheté,</l>
-            <l n="1475" xml:id="l1475">De <ref target="#souffrir">souffrir*</ref>...</l>
+            <l n="1475" xml:id="l1475" part="I">De <ref target="#souffrir">souffrir*</ref>...</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>Il aura ce qu’il a merité.</l>
+            <l part="F">Il aura ce qu’il a merité.</l>
             <l n="1476" xml:id="l1476">Où l’offence est indigne et basse et lâche et noire</l>
             <l n="1477" xml:id="l1477">Tout ce qui la repare est toûjours plein de <ref target="#gloire">gloire*</ref>,</l>
             <l n="1478" xml:id="l1478">Fer, poison, tout est beau, quand il n’est point douteux,</l>
@@ -3533,27 +3529,27 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1484" xml:id="l1484">Où courez vous, mon pere ?</l>
+            <l n="1484" xml:id="l1484" part="I">Où courez vous, mon pere ?</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>Il faut que je l’appelle.</l>
+            <l part="F">Il faut que je l’appelle.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1485" xml:id="l1485">Pensez vous...</l>
+            <l n="1485" xml:id="l1485" part="I">Pensez vous...</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE<pb n="73 ; g"/></speaker>
-            <l part="Y"><space/><space/>Ouy, mon fils, tu sçauras mieux tout d’elle.</l>
+            <l part="F">Ouy, mon fils, tu sçauras mieux tout d’elle.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1486" xml:id="l1486">Peut-estre...</l>
+            <l n="1486" xml:id="l1486" part="I">Peut-estre...</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>Je l’améne icy dans un moment.</l>
+            <l part="F">Je l’améne icy dans un moment.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR <hi rend="i">seul</hi></speaker>
@@ -3579,36 +3575,36 @@
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
             <l n="1501" xml:id="l1501">Amy, nostre vieillard m’<ref target="#obliger2">oblige*</ref> à la retraite,</l>
-            <l n="1502" xml:id="l1502">Sortons, et vous sçaurez...</l>
+            <l n="1502" xml:id="l1502" part="I">Sortons, et vous sçaurez...</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Amy, je le cognoy ;</l>
+            <l part="F">Amy, je le cognoy ;</l>
             <l n="1503" xml:id="l1503">Je viens de luy parler, ne craignez rien pour moy.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE<pb n="74"/></speaker>
-            <l n="1504" xml:id="l1504">Vous ?</l>
+            <l n="1504" xml:id="l1504" part="I">Vous ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/>M’en voyant surpris j’ay feint sur quelque affaire</l>
+            <l part="F">M’en voyant surpris j’ay feint sur quelque affaire</l>
             <l n="1505" xml:id="l1505">Qu’une lettre de luy m’étoit fort necessaire,</l>
             <l n="1506" xml:id="l1506">Il est allé l’écrire, et dans cet embarras</l>
             <l n="1507" xml:id="l1507">Je me rendrois suspect à ne l’attendre pas.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="1508" xml:id="l1508">Mais...</l>
+            <l n="1508" xml:id="l1508" part="I">Mais...</l>
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
-            <l part="Y"><space/>Je l’<ref target="#entendre2">entens*</ref> déjà, le rendez vous funeste !</l>
-            <l n="1509" xml:id="l1509">Sortez viste.</l>
+            <l part="F">Je l’<ref target="#entendre2">entens*</ref> déjà, le rendez vous funeste !</l>
+            <l n="1509" xml:id="l1509" part="I">Sortez viste.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Demain je vous diray le reste.</l>
+            <l part="F">Demain je vous diray le reste.</l>
           </sp>
         </div>
         <div type="scene">
@@ -3626,18 +3622,18 @@
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
             <l n="1513" xml:id="l1513">Juste Ciel, se peut-il qu’enfin je le revoye ?</l>
-            <l n="1514" xml:id="l1514">Ah, mon frere, est-ce vous ?</l>
+            <l n="1514" xml:id="l1514" part="I">Ah, mon frere, est-ce vous ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Mon <ref target="#deplaisir">déplaisir*</ref>, ma soeur,</l>
+            <l part="F">Mon <ref target="#deplaisir">déplaisir*</ref>, ma soeur,</l>
             <l n="1515" xml:id="l1515">Me laisse de ce nom mal goûter la douceur.</l>
-            <l n="1516" xml:id="l1516">Quand un pere offensé... <pb n="75"/></l>
+            <l n="1516" xml:id="l1516" part="I">Quand un pere offensé...<pb n="75"/></l>
             <stage>Blanche revient.</stage>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>Dy-luy, dy-luy, ma fille,</l>
+            <l part="F">Dy-luy, dy-luy, ma fille,</l>
             <l n="1517" xml:id="l1517">Cet affront si honteux à toute ma famille,</l>
             <l n="1518" xml:id="l1518">Et si dans mes <ref target="#ennuy">ennuis*</ref> tu veux me soulager,</l>
             <l n="1519" xml:id="l1519">Nomme-luy l’ennemy dont je dois me vanger.</l>
@@ -3658,15 +3654,15 @@
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
-            <l n="1534" xml:id="l1534">Son fils, Madame ?</l>
+            <l n="1534" xml:id="l1534" part="I">Son fils, Madame ?</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Ouy, Blanche.</l>
+            <l part="M">Ouy, Blanche.</l>
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
-            <l part="Y"><space/><space/>O Dieu que ferons-nous !</l>
+            <l part="F">O Dieu que ferons-nous !</l>
             <l n="1535" xml:id="l1535">Il escortoit D. Lope, il sçait le rendez-vous.</l>
           </sp>
           <sp who="jacinte">
@@ -3675,22 +3671,22 @@
           </sp>
           <sp who="blanche">
             <speaker>BLANCHE</speaker>
-            <l n="1537" xml:id="l1537">Luy mesme.</l>
+            <l n="1537" xml:id="l1537" part="I">Luy mesme.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Enfin je cede au soupçon qui m’emporte,</l>
-            <l n="1538" xml:id="l1538">Parlez, ou je croiray...</l>
+            <l part="F">Enfin je cede au soupçon qui m’emporte,</l>
+            <l n="1538" xml:id="l1538" part="I">Parlez, ou je croiray...</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE<pb n="76"/></speaker>
-            <l part="Y"><space/><space/>Croy tout ce que tu peux,</l>
+            <l part="F">Croy tout ce que tu peux,</l>
             <l n="1539" xml:id="l1539">L’affront dont je rougis est encor plus honteux.</l>
-            <l n="1540" xml:id="l1540"><ref target="#connoistre1">Cognois*</ref>-tu les Guzmans ?</l>
+            <l n="1540" xml:id="l1540" part="I"><ref target="#connoistre1">Cognois*</ref>-tu les Guzmans ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Ouy, ce nom est illustre.</l>
+            <l part="F">Ouy, ce nom est illustre.</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
@@ -3699,11 +3695,11 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1543" xml:id="l1543">Quoy, D. Lope...</l>
+            <l n="1543" xml:id="l1543" part="I">Quoy, D. Lope...</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>Ah ! mon fils, <ref target="#daigner">daigne*</ref> épargner ta soeur.</l>
+            <l part="F">Ah ! mon fils, <ref target="#daigner">daigne*</ref> épargner ta soeur.</l>
             <l n="1544" xml:id="l1544">Voy comme trop sensible à l’outrage d’un pere,</l>
             <l n="1545" xml:id="l1545">Le nom d’un ennemy l’enflame de colere.</l>
             <l n="1546" xml:id="l1546">Voy de quels mouvemens son coeur est combatu,</l>
@@ -3712,18 +3708,18 @@
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
             <l n="1548" xml:id="l1548">J’en suis <ref target="#surprendre2">surpris*</ref>  sans doute encor plus que vous n’étes.</l>
-            <l n="1549" xml:id="l1549">D. Lope...</l>
+            <l n="1549" xml:id="l1549" part="I">D. Lope...</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>Voy son <ref target="#trouble">trouble*</ref> au nom que tu repetes,</l>
+            <l part="F">Voy son <ref target="#trouble">trouble*</ref> au nom que tu repetes,</l>
             <l n="1550" xml:id="l1550">Et juge à ces effets de haine et de <ref target="#couroux">couroux*</ref></l>
             <l n="1551" xml:id="l1551">Si j’ay dû consentir d’en faire son époux,</l>
             <l n="1552" xml:id="l1552">On me l’a fait promettre, et j’ay feint...</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l n="1553" xml:id="l1553"><space/><space/>Ah ! mon pere.</l>
+            <l n="1553" xml:id="l1553">Ah ! mon pere.</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
@@ -3734,13 +3730,13 @@
             <l n="1558" xml:id="l1558">T’ayant mis dans le coeur toute sa violence,</l>
             <l n="1559" xml:id="l1559">Tu <ref target="#souffrir">souffrirois*</ref> bien plus à luy donner la main,</l>
             <l n="1560" xml:id="l1560">Qu’à luy plonger toy-mesme un poignard dans le sein.</l>
-            <l n="1561" xml:id="l1561">A ces grands mouvemens abondonne ton ame, <pb n="77"/></l>
+            <l n="1561" xml:id="l1561">A ces grands mouvemens abondonne ton ame,<pb n="77"/></l>
             <l n="1562" xml:id="l1562">Donne-toy toute entiere à l’ardeur qui l’enflame,</l>
-            <l n="1563" xml:id="l1563">Et s’il faut...</l>
+            <l n="1563" xml:id="l1563" part="I">Et s’il faut...</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Cet advis ne nous rend pas l’honneur,</l>
+            <l part="F">Cet advis ne nous rend pas l’honneur,</l>
             <l n="1564" xml:id="l1564">Mon pere, et vous <ref target="#gener">gênez*</ref> la vertu de ma soeur.</l>
           </sp>
           <sp who="d.-sanche">
@@ -3768,21 +3764,21 @@
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l n="1573" xml:id="l1573">Vous, mon pere, et de qui ?</l>
+            <l n="1573" xml:id="l1573" part="I">Vous, mon pere, et de qui ?</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>De cet ennemy mesme</l>
+            <l part="F">De cet ennemy mesme</l>
             <l n="1574" xml:id="l1574">Dont pour toy le seul nom est un supplice extrême.</l>
             <l n="1575" xml:id="l1575">Croy-le déja sans vie, et par un doux <ref target="#transport">transport*</ref></l>
             <l n="1576" xml:id="l1576">Tâche de t’advancer le plaisir de sa mort.</l>
             <l n="1577" xml:id="l1577">Peins-le-toy tout sanglant, blessure sur blessure</l>
             <l n="1578" xml:id="l1578">Par son dernier soûpir expier nostre injure,</l>
-            <l n="1579" xml:id="l1579">Repais de cette image...</l>
+            <l n="1579" xml:id="l1579" part="I">Repais de cette image...</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Elle a beaucoup d’<ref target="#appas">appas*</ref>,</l>
+            <l part="F">Elle a beaucoup d’<ref target="#appas">appas*</ref>,</l>
             <l n="1580" xml:id="l1580">Mais il perit en vain s’il ne vous vange pas.</l>
           </sp>
           <sp who="d.-sanche">
@@ -3794,16 +3790,16 @@
             <l n="1585" xml:id="l1585">Et lors que pour ma <ref target="#gloire">gloire*</ref> il doit cesser de vivre,</l>
             <l n="1586" xml:id="l1586">Son exemple est pour moy le seul exemple à suivre.</l>
             <l n="1587" xml:id="l1587">J’ai préparé le piege, et c’est dans cette nuit</l>
-            <l n="1588" xml:id="l1588">Que des <ref target="#brave">Braves*</ref>…</l>
+            <l n="1588" xml:id="l1588" part="I">Que des <ref target="#brave">Braves*</ref>…</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>O Ciel, où me vois-je réduit ?</l>
-            <l n="1589" xml:id="l1589">Et je m’arreste encor, c’est trop.</l>
+            <l part="F">O Ciel, où me vois-je réduit ?</l>
+            <l n="1589" xml:id="l1589" part="I">Et je m’arreste encor, c’est trop.</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>Que vas-tu faire ?</l>
+            <l part="F">Que vas-tu faire ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
@@ -3811,11 +3807,11 @@
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l n="1591" xml:id="l1591">Quoy ? tu peux condamner…</l>
+            <l n="1591" xml:id="l1591" part="I">Quoy ? tu peux condamner…</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Vous m’arrestez en vain,</l>
+            <l part="F">Vous m’arrestez en vain,</l>
             <l n="1592" xml:id="l1592">Son sang est mal versé si ce n’est par ma main.</l>
             <stage>Il sort</stage>
           </sp>
@@ -3825,11 +3821,11 @@
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l n="1594" xml:id="l1594">Helas !</l>
+            <l n="1594" xml:id="l1594" part="I">Helas !</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/>Ainsi que moy sa foiblesse t’<ref target="#etonner">étonne*</ref>,</l>
+            <l part="F">Ainsi que moy sa foiblesse t’<ref target="#etonner">étonne*</ref>,</l>
             <l n="1595" xml:id="l1595">Mais quoy qu’il ose enfin, cesse d’en soûpirer,</l>
             <l n="1596" xml:id="l1596">Ma partie<note n="105" place="bottom"><hi rend="b">Partie</hi> : ce mot est à prendre ici au sens judiciaire et signifie que Don Sanche est dans son droit, que son action est légitime.</note> est bien faite, et tu peus esperer.</l>
           </sp>
@@ -3909,11 +3905,11 @@
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l n="1643" xml:id="l1643">Mais il vous croit coupable.</l>
+            <l n="1643" xml:id="l1643" part="I">Mais il vous croit coupable.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Il le croira toûjours.</l>
+            <l part="F">Il le croira toûjours.</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE<pb n="81"/></speaker>
@@ -3948,15 +3944,15 @@
             <l n="1663" xml:id="l1663">Dégageant une soeur il <ref target="#obliger1">oblige*</ref> un amy,</l>
             <l n="1664" xml:id="l1664">Mais s’advouër coupable à son propre ennemy,</l>
             <l n="1665" xml:id="l1665">S’exposer à rougir du plus honteux reproche</l>
-            <l n="1666" xml:id="l1666">Que...</l>
+            <l n="1666" xml:id="l1666" part="I">Que...</l>
           </sp>
           <sp who="cassandre">
             <speaker>CASSANDRE</speaker>
-            <l part="Y"><space/>Vous ne voyez pas Jacinte qui s’approche.</l>
+            <l part="F">Vous ne voyez pas Jacinte qui s’approche.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE II. <pb n="82"/></head>
+          <head>SCENE II.<pb n="82"/></head>
           <stage>D. LOPE, JACINTE, CASSANDRE.</stage>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
@@ -3991,11 +3987,11 @@
           <sp who="jacinte">
             <speaker>JACINTE<pb n="83"/></speaker>
             <l n="1688" xml:id="l1688">Pouvez-vous l’ignorer si vous le pustes voir ?</l>
-            <l n="1689" xml:id="l1689">La nuict n’estoit pas sombre.</l>
+            <l n="1689" xml:id="l1689" part="I">La nuict n’estoit pas sombre.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Elle estoit assez claire</l>
+            <l part="F">Elle estoit assez claire</l>
             <l n="1690" xml:id="l1690">Pour voir ce mesme amy qui trompa vostre pere,</l>
             <l n="1691" xml:id="l1691">Qui m’escortant chez vous, n’en sortit qu’apres moy,</l>
             <l n="1692" xml:id="l1692">Mais son visage seul est ce que j’en cognoy.</l>
@@ -4006,11 +4002,11 @@
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="1694" xml:id="l1694">Madame...</l>
+            <l n="1694" xml:id="l1694" part="I">Madame...</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>A l’expliquer mon esprit s’embarrasse,</l>
+            <l part="F">A l’expliquer mon esprit s’embarrasse,</l>
             <l n="1695" xml:id="l1695">Mais c’est ce qui m’améne, et ce fut hier au soir</l>
             <l n="1696" xml:id="l1696">Ce qui me fit encor souhaitter de vous voir.</l>
           </sp>
@@ -4018,25 +4014,25 @@
             <speaker>D. LOPE</speaker>
             <l n="1697" xml:id="l1697">Parlez, et puisqu’enfin il s’agit de vous plaire,</l>
             <l n="1698" xml:id="l1698">Fallut-il me soûmettre à la fureur d’un pere,</l>
-            <l n="1699" xml:id="l1699">Et perdre...</l>
+            <l n="1699" xml:id="l1699" part="I">Et perdre...</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Ah, jugez mieux d’un coeur qui tout à vous</l>
+            <l part="F">Ah, jugez mieux d’un coeur qui tout à vous</l>
             <l n="1700" xml:id="l1700">Deteste les effets d’un injuste <ref target="#couroux">couroux*</ref>.</l>
             <l n="1701" xml:id="l1701">Vous voir recognoissant est toute mon envie,</l>
             <l n="1702" xml:id="l1702">Un incognu pour vous a prodigué sa vie,</l>
             <l n="1703" xml:id="l1703">Et ce qu’à vostre amour je demande aujourd’huy,</l>
             <l n="1704" xml:id="l1704">C’est que jamais ce bras ne s’arme contre luy.</l>
-            <l n="1705" xml:id="l1705">Me le promettez-vous ?</l>
+            <l n="1705" xml:id="l1705" part="I">Me le promettez-vous ?</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Je puis vous le promettre,</l>
+            <l part="F">Je puis vous le promettre,</l>
             <l n="1706" xml:id="l1706">Puisque l’honneur enfin semble me le permettre,</l>
             <l n="1707" xml:id="l1707">Et que sans lâcheté je ne puis à mon tour</l>
             <l n="1708" xml:id="l1708">Combattre un ennemy par qui je vois le jour.</l>
-            <l n="1709" xml:id="l1709"><space/><space/>Mais qui vous peut si-tost avoir dit la nouvelle<pb n="84"/></l>
+            <l n="1709" xml:id="l1709">Mais qui vous peut si-tost avoir dit la nouvelle<pb n="84"/></l>
             <l n="1710" xml:id="l1710">D’une si surprenante et secrette querelle,</l>
             <l n="1711" xml:id="l1711">Et qu’un frere mourant, pour vanger son trépas</l>
             <l n="1712" xml:id="l1712">Contre cet incognu sollicite mon bras ?</l>
@@ -4061,11 +4057,11 @@
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="1722" xml:id="l1722">Doutez-vous de mon coeur ?</l>
+            <l n="1722" xml:id="l1722" part="I">Doutez-vous de mon coeur ?</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Laissons-les seuls, Cassandre,</l>
+            <l part="F">Laissons-les seuls, Cassandre,</l>
             <l n="1723" xml:id="l1723">Et quoy qu’icy pour nous tout soit à redouter,</l>
             <l n="1724" xml:id="l1724">Sçachons leurs sentimens avant que d’éclatter.</l>
           </sp>
@@ -4089,11 +4085,11 @@
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
             <l n="1732" xml:id="l1732">Enfin sommes-nous seuls, puis-je me découvrir ?</l>
-            <l n="1733" xml:id="l1733">Je crains d’estre écouté.</l>
+            <l n="1733" xml:id="l1733" part="I">Je crains d’estre écouté.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Parlez sans vous contraindre,</l>
+            <l part="F">Parlez sans vous contraindre,</l>
             <l n="1734" xml:id="l1734">Quel que soit ce secret, vous n’avez rien à craindre.</l>
           </sp>
           <sp who="d.-alvar">
@@ -4119,11 +4115,11 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1744" xml:id="l1744">Suis-je quitte envers vous ?</l>
+            <l n="1744" xml:id="l1744" part="I">Suis-je quitte envers vous ?</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>C’est moy qui vous dois tout.</l>
+            <l part="F">C’est moy qui vous dois tout.</l>
             <l n="1745" xml:id="l1745">Mais de ce procedé mon amitié s’offence,</l>
             <l n="1746" xml:id="l1746">Est-ce que vous doutez de ma recognoissance ?</l>
           </sp>
@@ -4178,24 +4174,24 @@
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="1769" xml:id="l1769">Quoy, Jacinte...</l>
+            <l n="1769" xml:id="l1769" part="I">Quoy, Jacinte...</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Est ma soeur, et c’est assez vous dire</l>
+            <l part="F">Est ma soeur, et c’est assez vous dire</l>
             <l n="1770" xml:id="l1770">Quel devoir veut par moy que nostre tresve expire...</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
             <l n="1771" xml:id="l1771">Ouy, c’est me dire assez qu’une injuste rigueur</l>
             <l n="1772" xml:id="l1772">Fait un crime pour moy de l’amour d’une soeur,</l>
-            <l n="1773" xml:id="l1773"><space/><space/>Mais j’atteste le Ciel ennemy du parjure, <pb n="87"/></l>
+            <l n="1773" xml:id="l1773">Mais j’atteste le Ciel ennemy du parjure,<pb n="87"/></l>
             <l n="1774" xml:id="l1774">Que je brusle d’un feu dont l’ardeur est si pure,</l>
-            <l n="1775" xml:id="l1775">Que si...</l>
+            <l n="1775" xml:id="l1775" part="I">Que si...</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/>Vous jugez mal de mon ressentiment</l>
+            <l part="F">Vous jugez mal de mon ressentiment</l>
             <l n="1776" xml:id="l1776">D’en croire cet amour l’unique fondement.</l>
             <l n="1777" xml:id="l1777">Je ne condamne point une ardeur legitime,</l>
             <l n="1778" xml:id="l1778">Et comme je cognoy qu’on peut aimer sans crime,</l>
@@ -4239,7 +4235,7 @@
             <l n="1798" xml:id="l1798">Puisqu’enfin je souscris aux sentimens d’un pere,</l>
             <l n="1799" xml:id="l1799">Apporter quelque obstable à ce qu’il a tenté,</l>
             <l n="1800" xml:id="l1800">C’est l’accuser d’erreur et non de lâcheté.</l>
-            <l n="1801" xml:id="l1801"><space/><space/>Il faut, quoy que d’abord un grand coeur s’en offense, <pb n="88"/></l>
+            <l n="1801" xml:id="l1801">Il faut, quoy que d’abord un grand coeur s’en offense,<pb n="88"/></l>
             <l n="1802" xml:id="l1802">Pour le dernier affront la derniere vangeance,</l>
             <l n="1803" xml:id="l1803">L’assassinat est juste où l’outrage est sanglant,</l>
             <l n="1804" xml:id="l1804">Et le meilleur remede est le plus violent.</l>
@@ -4247,11 +4243,11 @@
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
             <l n="1805" xml:id="l1805">Puisque vostre <ref target="#suffrage">suffrage*</ref> en ma faveur s’explique,</l>
-            <l n="1806" xml:id="l1806">Quel crime est donc le mien ?</l>
+            <l n="1806" xml:id="l1806" part="I">Quel crime est donc le mien ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>L’opinion publique.</l>
+            <l part="F">L’opinion publique.</l>
             <l n="1807" xml:id="l1807">C’est peu pour negliger un devoir si pressant</l>
             <l n="1808" xml:id="l1808">Que mon coeur en secret vous declare innocent,</l>
             <l n="1809" xml:id="l1809">A l’erreur du public c’est peu qu’il se refuse,</l>
@@ -4261,20 +4257,20 @@
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l n="1813" xml:id="l1813">Quoy, sur un <ref target="#bruit2">bruit*</ref> si faux...</l>
+            <l n="1813" xml:id="l1813" part="I">Quoy, sur un <ref target="#bruit2">bruit*</ref> si faux...</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Vous m’en devez répondre,</l>
+            <l part="F">Vous m’en devez répondre,</l>
             <l n="1814" xml:id="l1814">Avant que vous revoir j’ay voulu le confondre ;</l>
             <l n="1815" xml:id="l1815">Mais en vain en tous lieux je me suis informé,</l>
             <l n="1816" xml:id="l1816">On ne nomme personne, ou vous estes nommé.</l>
             <l n="1817" xml:id="l1817">J’affoiblis ma vangeance à la voir differée,</l>
-            <l n="1818" xml:id="l1818">Sortons.</l>
+            <l n="1818" xml:id="l1818" part="I">Sortons.</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/>Et l’amitié que vous m’aviez jurée ?</l>
+            <l part="F">Et l’amitié que vous m’aviez jurée ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
@@ -4394,38 +4390,38 @@
           <stage>D. SANCHE, D. LOPE, D. ALVAR, CASSANDRE.</stage>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l n="1894" xml:id="l1894">Ah ! mon fils.</l>
+            <l n="1894" xml:id="l1894" part="I">Ah ! mon fils.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Suspendez <ref target="#de-grace">de grace*</ref> vostre plainte,</l>
+            <l part="F">Suspendez <ref target="#de-grace">de grace*</ref> vostre plainte,</l>
             <l n="1895" xml:id="l1895">Vous venez condamner ce coeur trop partagé,</l>
             <l n="1896" xml:id="l1896">Mais je mourray, mon pere, ou vous serez vangé.</l>
-            <l n="1897" xml:id="l1897">Nous pourrons nous revoir, adieu D. Lope.</l>
+            <l n="1897" xml:id="l1897" part="I">Nous pourrons nous revoir, adieu D. Lope.</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE<pb n="92"/></speaker>
-            <l part="Y"><space/><space/>Arreste,</l>
+            <l part="F">Arreste,</l>
             <l n="1898" xml:id="l1898">Et voy le precipice où ton erreur te jette,<note n="114" place="bottom"> Éditions de 1692 <hi rend="b">T/B</hi>, 1701, 1706 et 1709 : Un heureux calme enfin doit suivre la tempeste.</note></l>
-            <l n="1899" xml:id="l1899">D. Lope est innocent.</l>
+            <l n="1899" xml:id="l1899" part="I">D. Lope est innocent.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Pour en avoir douté</l>
+            <l part="F">Pour en avoir douté</l>
             <l n="1900" xml:id="l1900">Le procedé d’un traistre a trop de lâcheté.</l>
             <l n="1901" xml:id="l1901">Mais enfin avec vous ayant part à l’outrage,</l>
-            <l n="1902" xml:id="l1902">Si je n’en sçay l’autheur...</l>
+            <l n="1902" xml:id="l1902" part="I">Si je n’en sçay l’autheur...</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>Tu sçauras davantage,</l>
+            <l part="F">Tu sçauras davantage,</l>
             <l n="1903" xml:id="l1903">Puisque le Ciel propice à mon ressentiment,</l>
             <l n="1904" xml:id="l1904">Au crime qui le cause a joint le châtiment,</l>
-            <l n="1905" xml:id="l1905">On m’a déja vangé.</l>
+            <l n="1905" xml:id="l1905" part="I">On m’a déja vangé.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Quel bras l’auroit pû faire ?</l>
+            <l part="F">Quel bras l’auroit pû faire ?</l>
             <l n="1906" xml:id="l1906">Jamais autre qu’un fils ne vange bien un pere.</l>
           </sp>
           <sp who="d.-lope">
@@ -4441,11 +4437,11 @@
             <l n="1912" xml:id="l1912">Chez Alonse à moy-mesme a pû se découvrir.</l>
             <l n="1913" xml:id="l1913">Qui l’auroit jamais crû, que cette ame si fiere</l>
             <l n="1914" xml:id="l1914">Eust pû jusqu’au pardon abaisser sa priere,</l>
-            <l n="1915" xml:id="l1915">Que l’orgueilleux Enrique...</l>
+            <l n="1915" xml:id="l1915" part="I">Que l’orgueilleux Enrique...</l>
           </sp>
           <sp who="d.-lope">
             <speaker>D. LOPE</speaker>
-            <l part="Y"><space/><space/>Apres l’avoir nommé,</l>
+            <l part="F">Apres l’avoir nommé,</l>
             <l n="1916" xml:id="l1916">Quelque juste sujet qui vous tienne animé,</l>
             <l n="1917" xml:id="l1917">Songez qu’il est mon frere et m’épargnez la honte.</l>
           </sp>
@@ -4455,11 +4451,11 @@
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE<pb n="93"/></speaker>
-            <l n="1919" xml:id="l1919">Il nous la montre en luy.</l>
+            <l n="1919" xml:id="l1919" part="I">Il nous la montre en luy.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l part="Y"><space/><space/>Mais vous ne sçavez pas</l>
+            <l part="F">Mais vous ne sçavez pas</l>
             <l n="1920" xml:id="l1920">Que le voulant punir il l’a fait par mon bras.</l>
             <l n="1921" xml:id="l1921">Sans sçavoir vostre affront j’en ay tiré vangeance.</l>
           </sp>
@@ -4530,15 +4526,15 @@
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l n="1959" xml:id="l1959">Quoy, voir icy ma fille !</l>
+            <l n="1959" xml:id="l1959" part="I">Quoy, voir icy ma fille !</l>
           </sp>
           <sp who="jacinte">
             <speaker>JACINTE</speaker>
-            <l part="Y"><space/><space/>Avant que m’accuser,</l>
+            <l part="F">Avant que m’accuser,</l>
             <l n="1960" xml:id="l1960">Songez à quoy pour vous j’ay pû me disposer,</l>
             <l n="1961" xml:id="l1961">Ne soupçonnez point<note n="115" place="bottom"> Éditions de 1692 <hi rend="b">T/B</hi>, 1701, 1706 et 1709 : Ainsi me soupçonnez.</note> ny crime ny foiblesse,</l>
             <l n="1962" xml:id="l1962">Dans une passion dont je suis la maistresse.</l>
-            <l n="1963" xml:id="l1963"><space/><space/>C’est vostre interest seul qui plus fort que le mien... <pb n="95"/></l>
+            <l n="1963" xml:id="l1963">C’est vostre interest seul qui plus fort que le mien...<pb n="95"/></l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
@@ -4577,20 +4573,20 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
-            <l n="1975" xml:id="l1975">O Dieux, se pourroit-il ?</l>
+            <l n="1975" xml:id="l1975" part="I">O Dieux, se pourroit-il ?</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>Tu l’aimes donc, mon fils ?</l>
+            <l part="F">Tu l’aimes donc, mon fils ?</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR</speaker>
             <l n="1976" xml:id="l1976">Dans mon <ref target="#ravir2">ravissement</ref> je doute si je vis.</l>
-            <l n="1977" xml:id="l1977">Mon pere...</l>
+            <l n="1977" xml:id="l1977" part="I">Mon pere...</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/><space/>Je t’<ref target="#entendre1">entens*</ref>, obtiens-là d’elle-mesme.</l>
+            <l part="F">Je t’<ref target="#entendre1">entens*</ref>, obtiens-là d’elle-mesme.</l>
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR<hi rend="i">à Cassandre</hi> </speaker>
@@ -4603,11 +4599,11 @@
           </sp>
           <sp who="d.-alvar">
             <speaker>D. ALVAR<pb n="96"/></speaker>
-            <l n="1981" xml:id="l1981">O favorable arrest !</l>
+            <l n="1981" xml:id="l1981" part="I">O favorable arrest !</l>
           </sp>
           <sp who="d.-sanche">
             <speaker>D. SANCHE</speaker>
-            <l part="Y"><space/>C’est le Ciel qui le donne,</l>
+            <l part="F">C’est le Ciel qui le donne,</l>
             <l n="1982" xml:id="l1982">L’ordre de ses decrets n’est cognu de personne,</l>
             <l n="1983" xml:id="l1983">Et souvent de ses <ref target="#soin">soins*</ref> l’infaillible ressort</l>
             <l n="1984" xml:id="l1984">Se plaist par le naufrage à nous conduire au port.</l>

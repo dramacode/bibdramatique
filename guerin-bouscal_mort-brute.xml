@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -1135,7 +1132,7 @@
         <stage>La Scene est en la plaine de Philipes en Macedoine.</stage>
       </div>
       <div>
-        <head>LA VENGEANCE DE LA MORT DE CÆSAR. <lb/>PROLOGUE DE LA RENOMMEE. <pb n="A, 1"/></head>
+        <head>LA VENGEANCE DE LA MORT DE CÆSAR. <lb/>PROLOGUE DE LA RENOMMEE.<pb n="A, 1"/></head>
         <l n="1" xml:id="l1-prologue"><ref target="#espris">Esprise*</ref> d’un ardent désir</l>
         <l>De voir les veritables sources</l>
         <l>Des grands sujets de tant de courses</l>
@@ -1308,7 +1305,7 @@
         <l n="170" xml:id="l170-prologue">Un Trosne bien fondé ne se sçauroit abatre.</l>
       </div>
       <div type="act">
-        <head>ACTE PREMIER. <pb n="B, 9"/></head>
+        <head>ACTE PREMIER.<pb n="B, 9"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>BRUTE, STRATON, et deux Chefs de l’armée de Brute.</stage>
@@ -1549,11 +1546,11 @@
             <l n="155" xml:id="l155">Massala la doit suivre avec un peloton,</l>
             <l n="156" xml:id="l156">Qui sera soûtenu par celuy de Straton:</l>
             <l n="157" xml:id="l157">Et pour perdre en un jour tyrans et tyrannie;</l>
-            <l n="158" xml:id="l158">Mais qu’est-ce que je voy ?</l>
+            <l n="158" xml:id="l158" part="I">Mais qu’est-ce que je voy ?</l>
           </sp>
           <sp who="genie1">
             <speaker>Le Genie.</speaker>
-            <l part="Y">C’est ton mauvais <ref target="#genie">Genie*</ref>,</l>
+            <l part="F">C’est ton mauvais <ref target="#genie">Genie*</ref>,</l>
             <l n="159" xml:id="l159">Qui te vient advertir que dans fort peu de temps<pb n="19"/></l>
             <l n="160" xml:id="l160">Tu le pourras revoir parmy les combatans.</l>
           </sp>
@@ -1574,18 +1571,18 @@
           <stage>PORCIE, BRUTE.</stage>
           <sp who="porcie">
             <speaker>Porcie.</speaker>
-            <l n="169" xml:id="l169">Tu vas donc au combat ?</l>
+            <l n="169" xml:id="l169" part="I">Tu vas donc au combat ?</l>
           </sp>
           <sp who="brute">
             <speaker>Brute.</speaker>
-            <l part="Y">La liberté m’appelle,</l>
+            <l part="F">La liberté m’appelle,</l>
             <l n="170" xml:id="l170">Et je serois content de m’immoler pour elle,</l>
             <l n="171" xml:id="l171">Si je pouvois sçavoir ma Porcie en repos,<pb n="20"/></l>
-            <l n="172" xml:id="l172">Loin des troubles que Mars</l>
+            <l n="172" xml:id="l172" part="I">Loin des troubles que Mars</l>
           </sp>
           <sp who="porcie">
             <speaker>Porcie.</speaker>
-            <l part="Y">Brise là ce propos,</l>
+            <l part="F">Brise là ce propos,</l>
             <l n="173" xml:id="l173">Il choque ma <ref target="#vertu3">vertu*</ref> qui seroit offensee</l>
             <l n="174" xml:id="l174">S’il estoit aprouvé d’une seule pensee;</l>
             <l n="175" xml:id="l175">Quoy ! Brute doute encor que mon affection</l>
@@ -1667,11 +1664,11 @@
             <l n="236" xml:id="l236">Nos noms et nos <ref target="#vertu4">vertus*</ref> demeureront tousjours.</l>
             <l n="237" xml:id="l237">Cependant, mon cher cœur, permets que je m’en aille</l>
             <l n="238" xml:id="l238">Disposer mes soldats à donner la bataille,</l>
-            <l n="239" xml:id="l239">L’heure me presse, adieu.</l>
+            <l n="239" xml:id="l239" part="I">L’heure me presse, adieu.</l>
           </sp>
           <sp who="porcie">
             <speaker>Porcie.</speaker>
-            <l part="Y">Va donc, mon cher <ref target="#soucy">soucy*</ref>,</l>
+            <l part="F">Va donc, mon cher <ref target="#soucy">soucy*</ref>,</l>
             <l n="240" xml:id="l240">Certain que si tu meurs je veux mourir aussi.</l>
           </sp>
         </div>
@@ -1715,7 +1712,7 @@
           <sp who="compagne">
             <speaker>La Compagne.</speaker>
             <l n="272" xml:id="l272">Mais vous ne dites pas qu’il choque la raison,</l>
-            <l n="273" xml:id="l273">Madame, moderez cette boüillante rage, <pb n="D, 25"/></l>
+            <l n="273" xml:id="l273">Madame, moderez cette boüillante rage,<pb n="D, 25"/></l>
             <l n="274" xml:id="l274">Pour mieux voir le danger où vostre esprit s’engage:</l>
             <l n="275" xml:id="l275">Quoy ! sommes-nous tombez en de si foibles mains,</l>
             <l n="276" xml:id="l276">Que vous n’esperiez rien du salut des Romains ?</l>
@@ -2038,7 +2035,7 @@
             <l n="530" xml:id="l530">Tout nous porte aujourd’huy dans un si beau dessein.</l>
           </sp>
           <sp who="brute">
-            <speaker>Brute. <pb n="38"/></speaker>
+            <speaker>Brute.<pb n="38"/></speaker>
             <l n="531" xml:id="l531">Je voy ces lasches cœurs qui rougissent de honte,</l>
             <l n="532" xml:id="l532">D’avoir de leur honneur tenu si peu de compte;</l>
             <l n="533" xml:id="l533">Mais il est déja temps que chacun à son rang</l>
@@ -2113,7 +2110,7 @@
             <l n="582" xml:id="l582">Vous verrez aujourd’huy Brute victorieux.</l>
           </sp>
           <sp who="porcie">
-            <speaker>Porcie. <pb n="F, 41"/></speaker>
+            <speaker>Porcie.<pb n="F, 41"/></speaker>
             <l n="583" xml:id="l583">Les Dieux me sont suspects depuis que leur cholere</l>
             <l n="584" xml:id="l584">En faveur d’un Tyran arma contre mon pere;<note n="227" place="bottom">Contre l’ambition de César, le père de Porcie, Caton d’Utique, soutint le parti pompéien durant la guerre civile qui commença en 49 av. J.-C. Trois ans plus tard, après que César eut gagné la bataille de Thapsus sur les troupes alliées, Caton se suicida à Utique.</note></l>
             <l n="585" xml:id="l585">Allons y toutefois, et par nos actions</l>
@@ -2180,20 +2177,20 @@
           </sp>
           <sp who="cassie">
             <speaker>Cassie.</speaker>
-            <l n="627" xml:id="l627">Tu hazardes beaucoup.</l>
+            <l n="627" xml:id="l627" part="I">Tu hazardes beaucoup.</l>
           </sp>
           <sp who="titine">
             <speaker>Titine.</speaker>
-            <l part="Y">Nul danger n’espouvante</l>
+            <l part="F">Nul danger n’espouvante</l>
             <l n="628" xml:id="l628">Ceux qui sont pour Cassie et pour Rome mourante.</l>
           </sp>
           <sp who="pindare">
             <speaker>Pindare.</speaker>
-            <l n="629" xml:id="l629">J’approuve ce conseil.</l>
+            <l n="629" xml:id="l629" part="I">J’approuve ce conseil.</l>
           </sp>
           <sp who="demetrie">
-            <speaker>Demetrie. <pb n="44"/></speaker>
-            <l part="Y">Et je l’estime aussi.</l>
+            <speaker>Demetrie.<pb n="44"/></speaker>
+            <l part="F">Et je l’estime aussi.</l>
           </sp>
           <sp who="cassie">
             <speaker>Cassie.</speaker>
@@ -2229,11 +2226,11 @@
             <l n="646" xml:id="l646">Indigne qu’il estoit d’un traitement plus beau;</l>
             <l n="647" xml:id="l647">Et la pluspart des siens estendus sur la <ref target="#poudre">poudre*</ref>,</l>
             <l n="648" xml:id="l648">Ont creu que Jupiter nous aydoit de sa foudre.</l>
-            <l n="649" xml:id="l649">Cassie a…</l>
+            <l n="649" xml:id="l649" part="I">Cassie a…</l>
           </sp>
           <sp who="chef1-brute">
             <speaker>i. Chef.</speaker>
-            <l part="Y">L’un des siens s’en vient parler à vous.</l>
+            <l part="F">L’un des siens s’en vient parler à vous.</l>
           </sp>
         </div>
         <div type="scene">
@@ -2241,21 +2238,21 @@
           <stage>BRUTE, TITINE.</stage>
           <sp who="brute">
             <speaker>Brute.</speaker>
-            <l n="650" xml:id="l650">Les Tyrans sont vaincus.</l>
+            <l n="650" xml:id="l650" part="I">Les Tyrans sont vaincus.</l>
           </sp>
           <sp who="titine">
-            <speaker>Titine. <pb n="46"/></speaker>
-            <l part="Y">Ils sont vainqueurs pour nous.</l>
+            <speaker>Titine.<pb n="46"/></speaker>
+            <l part="F">Ils sont vainqueurs pour nous.</l>
           </sp>
           <sp who="brute">
             <speaker>Brute.</speaker>
             <l n="651" xml:id="l651">O Dieux justes et bons ! est-ce donc la coustume</l>
             <l n="652" xml:id="l652">De ne gouster jamais de bien sans amertume ?</l>
-            <l n="653" xml:id="l653">Mais Cassie…</l>
+            <l n="653" xml:id="l653" part="I">Mais Cassie…</l>
           </sp>
           <sp who="titine">
             <speaker>Titine.</speaker>
-            <l part="Y">        Il attend apres votre secours,</l>
+            <l part="F">Il attend apres votre secours,</l>
           </sp>
           <sp who="brute">
             <speaker>Brute.</speaker>
@@ -2325,7 +2322,7 @@
             <l n="711" xml:id="l711">La nonchalance icy seroit bien criminelle.</l>
           </sp>
           <sp who="titine">
-            <speaker>Titine. <pb n="G, 49"/></speaker>
+            <speaker>Titine.<pb n="G, 49"/></speaker>
             <l n="712" xml:id="l712">Je m’en vay luy porter cette heureuse nouvelle.</l>
           </sp>
           <sp who="brute">
@@ -2358,11 +2355,11 @@
             <speaker>Pindare.</speaker>
             <l n="729" xml:id="l729">Vous soupçonnez à tort nostre fidelité,</l>
             <l n="730" xml:id="l730">Mais ce <ref target="#trespasser">trespas*</ref> me semble un peu precipité,</l>
-            <l n="731" xml:id="l731">Titine...</l>
+            <l n="731" xml:id="l731" part="I">Titine...</l>
           </sp>
           <sp who="cassie">
             <speaker>Cassie.</speaker>
-            <l part="Y">Ha ! ce seul nom m’est un sujet de rage,</l>
+            <l part="F">Ha ! ce seul nom m’est un sujet de rage,</l>
           </sp>
           <sp who="pindare">
             <speaker>Pindare.</speaker>
@@ -2382,7 +2379,7 @@
             <l n="742" xml:id="l742">Ne suis-je plus en droit de dire je le veux ?</l>
           </sp>
           <sp who="pindare">
-            <speaker>Pindare. <pb n="51"/></speaker>
+            <speaker>Pindare.<pb n="51"/></speaker>
             <l n="743" xml:id="l743">Devoirs, faveurs, bien-faits, liberté redonnée,</l>
             <l n="744" xml:id="l744">Venez vous presenter à mon ame obstinée;</l>
             <l n="745" xml:id="l745">Chassez ces mouvemens de tendresse et d’amour,</l>
@@ -2463,7 +2460,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE V. <pb n="54"/></head>
+          <head>SCENE V.<pb n="54"/></head>
           <sp who="titine">
             <speaker>TITINE.</speaker>
             <l n="799" xml:id="l799">Pourroit-on justement m’accuser de <ref target="#paresse">paresse*</ref> ?<note n="238" place="bottom"> Cette dernière réplique de Titine pourrait bien marquer un certain écart vis-à-vis de l’histoire. En effet, les auteurs antiques semblent unanimes sur ce point : Titinius se reproche âprement sa lenteur, par laquelle il se considère responsable de la mort de Cassius, lenteur qui vient justifier son suicide (Plutarque, <hi rend="i">Vie de Brutus</hi>, XLIII, 9 ; Dion Cassius, <hi rend="i">Histoire romaine</hi>, livre XLVII, 46 ; Appien, <hi rend="i">Histoire des guerres civiles de la république romaine</hi>, livre IV, chap. XV, CXIII ; Velleius Paterculus, <hi rend="i">Histoire romaine</hi>, livre II, LXX). Plutarque parle de l’« excès de joie » (trad. A.-M. Ozanam, éd. cit.), sans doute communicatif, des cavaliers de Brutus que rencontre Titinius ; Dion Cassius évoque l’insouciance de ce dernier lors de son retour vers Cassius. Chez Valère Maxime cependant, sa lenteur est justifiée avec soin : envoyé vers Brutus de nuit, il doit faire preuve de prudence pour approcher les silhouettes qu’il rencontre en chemin, ce qui implique des détours. Les reproches qu’il se fait sont alors, si l’on peut dire, plus doux, et l’accent est mis sur son amour pour Cassius : « […] on ne saurait passer sous silence la noble conduite de Titinius. Devant le spectacle inattendu de son général gisant sur la poussière, il demeura quelque temps le regard fixe et comme frappé de stupeur ; puis, fondant en larmes, il s’écria : « O mon général, quoique ce soit sans le vouloir que j’ai causé ta mort, je ne veux pas la laisser impunie ; laisse-moi partager ton destin. » En même temps sur le corps inanimé de Cassius, il se plongea toute son épée dans le cou. Ainsi ces deux soldats mêlèrent leur sang et tombèrent en victimes, l’un de son attachement, l’autre de son erreur. » (<hi rend="i">Actions et paroles mémorables</hi>, livre IX, chap. IX, 2, trad. Pierre Constant, Garnier, 1935 ; disponible sur le site remacle.org). Les derniers vers de Titine (notamment le vers 710) montraient bien son empressement et son zèle. Sa responsabilité est ici relative et relativisée, dans la mesure où elle est essentiellement reportée sur les affranchis restés auprès de Cassie.</note></l>
@@ -2494,7 +2491,7 @@
             <l n="824" xml:id="l824">Que je fus innocent d’une action si noire.<note n="244" place="bottom">La mort de Titine est la preuve de son innocence là où la survie des affranchis (de Pindare en particulier) laisse à l’histoire et à la postérité une suspicion de meurtre. Voir la note du vers 814.</note></l>
             <l n="825" xml:id="l825"><ref target="#sus">Sus*</ref> donc mourons, mon cœur, certain que le <ref target="#trespasser">trespas*</ref></l>
             <l n="826" xml:id="l826">Peut faire seulement que nous ne mourons pas.</l>
-            <l n="827" xml:id="l827">Ha, Brute !</l>
+            <l n="827" xml:id="l827" part="I">Ha, Brute !</l>
           </sp>
         </div>
         <div type="scene">
@@ -2502,23 +2499,23 @@
           <stage>BRUTE, UN CHEF.</stage>
           <sp who="brute">
             <speaker>Brute.</speaker>
-            <l part="Y">Quelle voix vient de se faire entendre ?</l>
+            <l part="F">Quelle voix vient de se faire entendre ?</l>
           </sp>
           <sp who="titine">
             <speaker>Titine.</speaker>
             <l n="828" xml:id="l828">Celle d’un innocent que la <ref target="#parque">parque*</ref> va prendre.</l>
           </sp>
           <sp who="chef1-brute">
-            <speaker>Un de la Suite de Brute. <pb n="56"/></speaker>
+            <speaker>Un de la Suite de Brute.<pb n="56"/></speaker>
             <l n="829" xml:id="l829">O malheur sans pareil ! Cassie est aussi mort.</l>
           </sp>
           <sp who="brute">
             <speaker>Brute <hi rend="i">à part soy.</hi></speaker>
-            <l n="830" xml:id="l830">Il faut dissimuler.</l>
+            <l n="830" xml:id="l830" part="I">Il faut dissimuler.</l>
           </sp>
           <sp who="chef1-brute">
             <speaker>Un de la Suite.</speaker>
-            <l part="Y">O dure loy du sort !</l>
+            <l part="F">O dure loy du sort !</l>
           </sp>
           <sp who="brute">
             <speaker>Brute.</speaker>
@@ -2566,7 +2563,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE QUATRIEME. <pb n="58"/></head>
+        <head>ACTE QUATRIEME.<pb n="58"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>OCTAVE, MARC ANTHOINE.</stage>
@@ -2616,7 +2613,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE II. <pb n="60"/></head>
+          <head>SCENE II.<pb n="60"/></head>
           <stage>LE SOLDAT, ANTHOINE, OCTAVE.</stage>
           <sp who="soldat">
             <speaker>Le Soldat.</speaker>
@@ -2639,11 +2636,11 @@
             <l n="904" xml:id="l904">On la verra toujours contre Brute occupée;</l>
             <l n="905" xml:id="l905">Ce traistre ne sçauroit éviter nostre fer,</l>
             <l n="906" xml:id="l906">Et nous l’irions chercher jusque <ref target="#dessus">dedans*</ref> l’Enfer:</l>
-            <l n="907" xml:id="l907">Poursuy.</l>
+            <l n="907" xml:id="l907" part="I">Poursuy.</l>
           </sp>
           <sp who="soldat">
-            <speaker>Le Soldat. <pb n="61"/></speaker>
-            <l part="Y">Le souvenir d’un si sanglant carnage,</l>
+            <speaker>Le Soldat.<pb n="61"/></speaker>
+            <l part="F">Le souvenir d’un si sanglant carnage,</l>
             <l n="908" xml:id="l908">Met mon ame en desordre et glace mon courage,</l>
             <l n="909" xml:id="l909">Jamais le Ciel n’a veu tant de corps renversez,</l>
             <l n="910" xml:id="l910">Et la mort assouvie a crié, c’est assez.</l>
@@ -2695,7 +2692,7 @@
             <l n="956" xml:id="l956">Ils ont fort peu de force, ou beaucoup de malice.<note n="254" place="bottom">Parole qui tend au blasphème.</note></l>
           </sp>
           <sp who="octave">
-            <speaker>Octave. <pb n="63"/></speaker>
+            <speaker>Octave.<pb n="63"/></speaker>
             <l n="957" xml:id="l957">Ha ! pourquoy dans la fin de ces tristes discours,</l>
             <l n="958" xml:id="l958">Ne puis-je rencontrer celle-là de mes jours ?</l>
             <l n="959" xml:id="l959">Destins <ref target="#injurieux">injurieux*</ref>, fortune, <ref target="#parque">parque*</ref>, envie,<note n="255" place="bottom"> Apostrophe à des divinités. Précisons la dernière : « <hi rend="b">Envie.</hi> Cette divinité allégorique, qui porte le nom de <hi rend="i">Phthonos</hi> chez les Grecs et d’<hi rend="i">Invidia</hi> chez les Romains, ne possède aucune légende. Elle personnifie avant tout la fascination du « mauvais œil » qui regarde avec envie ceux ou celles dont il ne peut s’assurer la disposition. Génie malfaisant, au cœur sans cesse dévoré par des serpents, l’Envie est d’une effroyable maigreur : tous les désirs inassouvis la rongent. » (Joël Schmidt, <hi rend="i">op. cit.</hi>, p. 69).</note></l>
@@ -2747,7 +2744,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE III. <pb n="I, 65"/></head>
+          <head>SCENE III.<pb n="I, 65"/></head>
           <stage>DEMETRIE, OCTAVE ET ANTHOINE.</stage>
           <sp who="demetrie">
             <speaker>Demetrie.</speaker>
@@ -2798,7 +2795,7 @@
             <l n="1034" xml:id="l1034">Qui les met à couvert des orages du sort.</l>
           </sp>
           <sp who="marc-anthoine">
-            <speaker>Anthoine. <pb n="67"/></speaker>
+            <speaker>Anthoine.<pb n="67"/></speaker>
             <l n="1035" xml:id="l1035">Cavaliers, vos desirs ont un effet propice,</l>
             <l n="1036" xml:id="l1036">Vous aurez cette place, et rendez nous service.</l>
           </sp>
@@ -2823,7 +2820,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IV. <pb n="68"/></head>
+          <head>SCENE IV.<pb n="68"/></head>
           <sp who="porcie">
             <speaker>PORCIE.</speaker>
             <l n="1047" xml:id="l1047">Protecteurs de la liberté,</l>
@@ -2925,7 +2922,7 @@
             <l n="1130" xml:id="l1130">Agiter nostre esprit et l’esloigner du port.</l>
           </sp>
           <sp who="porcie">
-            <speaker>Porcie. <pb n="72"/></speaker>
+            <speaker>Porcie.<pb n="72"/></speaker>
             <l n="1131" xml:id="l1131">Apres un tel bon-heur qu’est-il que j’aprehende ?</l>
             <l n="1132" xml:id="l1132">Ayant Brute vainqueur, j’ay ce que je demande.</l>
           </sp>
@@ -3006,7 +3003,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE CINQUIEME. <pb n="75"/></head>
+        <head>ACTE CINQUIEME.<pb n="75"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>BRUTE, STRATON, quelques Chefs de l’armée.</stage>
@@ -3165,7 +3162,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE III. <pb n="L, 81"/></head>
+          <head>SCENE III.<pb n="L, 81"/></head>
           <stage>OCTAVE, MARC ANTHOINE, Leur suite.</stage>
           <sp who="octave">
             <speaker>Octave.</speaker>
@@ -3187,7 +3184,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IV. <pb n="82"/></head>
+          <head>SCENE IV.<pb n="82"/></head>
           <stage>BRUTE, STRATON, deux amis de Brute.</stage>
           <sp who="brute">
             <speaker>Brute.</speaker>
@@ -3235,7 +3232,7 @@
             <l n="1352" xml:id="l1352">Je dois sçavoir par là s’il est vray que l’on m’ayme.</l>
           </sp>
           <sp who="ami1-brute">
-            <speaker>L’un des Amis. <pb n="84"/></speaker>
+            <speaker>L’un des Amis.<pb n="84"/></speaker>
             <l n="1353" xml:id="l1353">Avant de consentir à ce coup furieux,</l>
             <l n="1354" xml:id="l1354">Je vay chercher la mort au milieu de l’armée,</l>
             <l n="1355" xml:id="l1355">Et si je ne voy point son bras <ref target="#officieux">officieux*</ref>,</l>
@@ -3369,7 +3366,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE V. <pb n="M, 89"/></head>
+          <head>SCENE V.<pb n="M, 89"/></head>
           <stage>PORCIE, les deux amis de Brute.</stage>
           <sp who="ami1-brute">
             <speaker>i. Des Amis.</speaker>
@@ -3460,18 +3457,18 @@
           </sp>
           <sp who="ami1-brute ami2-brute">
             <speaker>Les deux Amis.</speaker>
-            <l n="1531" xml:id="l1531">Octave vient à nous.</l>
+            <l n="1531" xml:id="l1531" part="I">Octave vient à nous.</l>
           </sp>
           <sp who="porcie">
             <speaker>Porcie.</speaker>
-            <l part="Y">Verray-je ce perfide</l>
+            <l part="F">Verray-je ce perfide</l>
             <l n="1532" xml:id="l1532">Coupable de ma perte et de cét homicide ?</l>
             <l n="1533" xml:id="l1533">Non, fuyons le plustost, et perdons la clarté</l>
             <l n="1534" xml:id="l1534">Puis que Rome a perdu Rome et la liberté.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VI. <pb n="93"/></head>
+          <head>SCENE VI.<pb n="93"/></head>
           <stage>OCTAVE, MARC-ANTHOINE, leur suite.</stage>
           <sp who="octave">
             <speaker>Octave.</speaker>
@@ -3493,7 +3490,7 @@
             <l n="1550" xml:id="l1550">Osse sur Pelion et les en <ref target="#deschasser">deschasser*</ref>.<note n="313" place="bottom"> Tout mettre en œuvre, soulever des montagnes. Les monts Osse (1978 m) et Pélion (1651 m), appartenant au même massif que l’Olympe (2917 m), sont situés en Thessalie. Il s’agit là d’une référence au mythe d’Otos et Ephialte, deux géants qui, à l’âge de neuf ans, pour atteindre le ciel, menacèrent d’« entasser sur l’Olympe l’Ossa et, sur l’Ossa, le Pélion » (Homère, <hi rend="i">Odyssée</hi>, XI, 305-320, trad. Victor Bérard, Gallimard, coll. Bibliothèque de la Pléiade, 1955, p. 703). Sur l’<hi rend="i">hybris</hi> d’Octave, voir notre introduction. Plus tôt (v. 851-852), Brute faisait allusion au mythe, estimant avoir de son côté ce Jupiter qui avait foudroyé les « Geans ».</note></l>
           </sp>
           <sp who="marc-anthoine">
-            <speaker>Anthoine. <pb n="94"/></speaker>
+            <speaker>Anthoine.<pb n="94"/></speaker>
             <l n="1551" xml:id="l1551">J’approuve ce dessein, et fais vœu de le suivre</l>
             <l n="1552" xml:id="l1552">Tout autant que les Dieux me voudront laisser vivre;</l>
             <l n="1553" xml:id="l1553">Mais il faut <ref target="#balancer">balancer*</ref> les choses par raison,</l>
@@ -3545,7 +3542,7 @@
             <l n="1583" xml:id="l1583">Dont l’image tousjours est dans mon cœur emprainte ?</l>
           </sp>
           <sp who="marc-anthoine">
-            <speaker>Anthoine. <pb n="96"/></speaker>
+            <speaker>Anthoine.<pb n="96"/></speaker>
             <l n="1584" xml:id="l1584">Soldat viens et nous dis la cause de ta plainte.</l>
           </sp>
           <sp who="soldat">
@@ -3650,7 +3647,7 @@
         </div>
       </div>
       <div type="act">
-        <head>AUTRES ŒUVRES DU MESME AUTEUR SUR LA GUERISON DE SYLVIE. <pb n="100"/></head>
+        <head>AUTRES ŒUVRES DU MESME AUTEUR SUR LA GUERISON DE SYLVIE.<pb n="100"/></head>
         <div type="scene" xml:id="chanson">
           <head>CHANSON.</head>
           <l>Austere et triste solitude</l>

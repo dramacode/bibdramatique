@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -2824,7 +2821,7 @@
         <stage>La Scene est à Londres.</stage>
       </div>
       <div type="act">
-        <head>ACTE PREMIER. <pb n="A"/></head>
+        <head>ACTE PREMIER.<pb n="A"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>Le Comte de Neucastel, Euric.</stage>
@@ -2883,15 +2880,15 @@
           <stage>Le Duc de Norfolc, le Comte de Neucastel.</stage>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
-            <l n="41" xml:id="l41">Comte.</l>
+            <l n="41" xml:id="l41" part="I">Comte.</l>
           </sp>
           <sp who="le-comte-de-neucastel">
             <speaker>LE COMTE DE NEUCASTEL.</speaker>
-            <l part="Y">Seigneur ?</l>
+            <l part="M">Seigneur ?</l>
           </sp>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
-            <l part="Y">De grace employez tous vos soins</l>
+            <l part="F">De grace employez tous vos soins</l>
             <l n="42" xml:id="l42">A voir si dans ce lieu nous sommes sans témoins.</l>
             <l n="43" xml:id="l43">Haï d’Elizabeth, je ne fais point de doute</l>
             <l n="44" xml:id="l44">Que je ne sois perdu si quelqu’un nous écoute.</l>
@@ -2914,7 +2911,7 @@
             <l n="55" xml:id="l55">Pour peu que la fortune à mes voeux soit contraire</l>
             <l n="56" xml:id="l56">Vos jours sont en danger, je ne puis vous le taire :</l>
             <l n="57" xml:id="l57">Et pour tout privilege, en un <ref target="#degre">degré*</ref> si haut,</l>
-            <l n="58" xml:id="l58">Je vous traîne avec moy sur un même Echaffaut.  <pb n="Aiij 4" xml:id="p4"/></l>
+            <l n="58" xml:id="l58">Je vous traîne avec moy sur un même Echaffaut.<pb n="Aiij 4" xml:id="p4"/></l>
             <l n="59" xml:id="l59">Un coeur tel que le mien n’a point l’art de surprendre.</l>
           </sp>
           <sp who="le-comte-de-neucastel">
@@ -2939,11 +2936,11 @@
           <sp who="le-comte-de-neucastel">
             <speaker>LE COMTE DE NEUCASTEL</speaker>
             <l n="73" xml:id="l73">Oüy, Seigneur : Et bien-tost par mes soins empressez</l>
-            <l n="74" xml:id="l74">Vous connoistrez vous-même à quel point...</l>
+            <l n="74" xml:id="l74" part="I">Vous connoistrez vous-même à quel point...</l>
           </sp>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
-            <l part="Y">C'est assez.</l>
+            <l part="F">C'est assez.</l>
             <l n="75" xml:id="l75">Comte de Neucastel, je vous ouvre mon ame.</l>
             <l n="76" xml:id="l76">Je suis las d’obeïr aux ordres d’une femme.</l>
             <l n="77" xml:id="l77">Depuis qu’Elizabeth regne sur les Anglois</l>
@@ -2958,7 +2955,7 @@
           <sp who="le-comte-de-neucastel">
             <speaker>LE COMTE DE NEUCASTEL</speaker>
             <l n="85" xml:id="l85">Seigneur, des maux passez perdons le souvenir ;</l>
-            <l n="86" xml:id="l86">Il en est de presens, &amp; qu’il faut <ref target="#prevenir">prevenir*</ref>. <pb n="5" xml:id="p5"/></l>
+            <l n="86" xml:id="l86">Il en est de presens, &amp; qu’il faut <ref target="#prevenir">prevenir*</ref>.<pb n="5" xml:id="p5"/></l>
             <l n="87" xml:id="l87">Depuis combien de temps une Reine innocente</l>
             <l n="88" xml:id="l88">Dans les fers, dans l’opprobre est-elle gemissante ?</l>
             <l n="89" xml:id="l89">Verrons-nous sans horreur un <ref target="#ouvrage">ouvrage*</ref><note place="bottom">Il faut sous-entendre « de Dieu ». Il existe dans cette pièce une dimension religieuse, qui était totalement absente des sources.</note> si beau</l>
@@ -2995,7 +2992,7 @@
             <l n="114" xml:id="l114">C'est un crime forcé qu’approuve la Vertu.</l>
             <l n="115" xml:id="l115">S'il vous manque, Seigneur, un bras pour le commettre,</l>
             <l n="116" xml:id="l116">Pour le bien de l’Etat je puis tout me permettre ;</l>
-            <l n="117" xml:id="l117">Ne laissez point languir mon zele impatient. <pb n="6" xml:id="p6"/></l>
+            <l n="117" xml:id="l117">Ne laissez point languir mon zele impatient.<pb n="6" xml:id="p6"/></l>
             <l n="118" xml:id="l118">L'esprit d’Elizabeth, inquiet, défiant,</l>
             <l n="119" xml:id="l119">Tend des pieges secrets que jamais on n’évite</l>
             <l n="120" xml:id="l120">A moins qu’on n’entreprenne aussi-tost qu’on <ref target="#mediter">médite*</ref>
@@ -3038,7 +3035,7 @@
             <speaker>LE COMTE DE NEUCASTEL</speaker>
             <l n="145" xml:id="l145">Oüy, Seigneur, je le suis ; Et c’est par vostre choix<note place="bottom">Une grande ironie tragique réside dans cette apposition qui  souligne le fait que c’est Norfolc lui-même qui fait le choix à l’origine de sa perte. Ce vers souligne aussi la naïveté de Norfolc et sa méprise concernant Neucastel. </note></l>
             <l n="146" xml:id="l146">[Que la Mer Britânique obéït à mes loix.]<note place="bottom">Ce vers était absent de l’édition de 1691 sûrement parce qu’il s’y trouvait en tête à la fois d’une nouvelle page (passage de la p. 6 à la p. 7) et d’un nouveau cahier (passage du cahier A au cahier B) mais aussi parce que les deux vers (146 et 147) présentent une anaphore en « que » rendant vaine l’indication fournie en bas de page à l’intention de l’imprimeur qui lui donne comme repère le premier mot du vers suivant.</note></l>
-            <l n="147" xml:id="l147">Que puis-je ? Commandez. Et quoy que je hazarde...  <pb n="7" xml:id="p7"/></l>
+            <l n="147" xml:id="l147">Que puis-je ? Commandez. Et quoy que je hazarde...<pb n="7" xml:id="p7"/></l>
           </sp>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
@@ -3063,11 +3060,11 @@
             <l n="162" xml:id="l162">La Reine est inflexible &amp; ne pardonne point.</l>
             <l n="163" xml:id="l163">A la Cour, où la <ref target="#foy">foy*</ref> n’ose presque paroistre,</l>
             <l n="164" xml:id="l164">L'espoir de <ref target="#agrandir">s’agrandir*</ref> fait aisément un traitre<note place="bottom">Ces deux vers signifient qu’à la cour on ose à peine se montrer fidèle, que l’on fait rarement preuve de fidélité qui se trouve être une qualité exceptionnelle. Ces vers soulignent combien milieu de la cour est faux, un thème omniprésent dans la pièce.</note>.</l>
-            <l n="165" xml:id="l165">Si vous estes surpris vous vous perdez.</l>
+            <l n="165" xml:id="l165" part="I">Si vous estes surpris vous vous perdez.</l>
           </sp>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
-            <l part="Y">Helas!</l>
+            <l part="F">Helas!</l>
             <l n="166" xml:id="l166">Tout est perdu pour moy si je ne me perds pas.</l>
             <l n="167" xml:id="l167">Des Juges dévoüez, sans honneur, sans naissance,</l>
             <l n="168" xml:id="l168">D'une Reine adorable ont proscrit l’innocence :</l>
@@ -3081,12 +3078,12 @@
             <l n="173" xml:id="l173">Seigneur, à ces <ref target="#raison">raisons*</ref> je n’ose m’opposer :</l>
             <l n="174" xml:id="l174">La grandeur du peril les doit autoriser.</l>
             <l n="175" xml:id="l175">Pour dérober sa vie au sort qui la menace</l>
-            <l n="176" xml:id="l176">Dites-moy quel effort vous voulez que je fasse. <pb n="B 8" xml:id="p8"/></l>
-            <l n="177" xml:id="l177">Encor un coup, Seigneur, je suis prest...</l>
+            <l n="176" xml:id="l176">Dites-moy quel effort vous voulez que je fasse.<pb n="B 8" xml:id="p8"/></l>
+            <l n="177" xml:id="l177" part="I">Encor un coup, Seigneur, je suis prest...</l>
           </sp>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
-            <l part="Y">Qu'il m’est doux</l>
+            <l part="F">Qu'il m’est doux</l>
             <l n="178" xml:id="l178">D'avoir dans mon malheur un amy tel que vous !</l>
             <l n="179" xml:id="l179">Comte, puis que pour moy vostre ardeur est si grande,</l>
             <l n="180" xml:id="l180">L'effort dont j’ay besoin, &amp; que je vous demande,</l>
@@ -3113,25 +3110,25 @@
             <l n="201" xml:id="l201">Pour estre de l’Ecosse injuste possesseur</l>
             <l n="202" xml:id="l202">A son ambition il immole sa sœur.</l>
             <l n="203" xml:id="l203">Le criminel amour dont il a receu l’estre<note place="bottom">Se reporter à la partie historique de notre introduction.</note></l>
-            <l n="204" xml:id="l204">Le condamne...</l>
+            <l n="204" xml:id="l204" part="I">Le condamne...</l>
           </sp>
           <sp who="le-comte-de-neucastel">
             <speaker>LE COMTE DE NEUCASTEL</speaker>
-            <l part="Y">Seigneur, je croy le voir paroistre :</l>
+            <l part="F">Seigneur, je croy le voir paroistre :</l>
             <l n="205" xml:id="l205">Laissez-moy de son coeur penetrer les secrets.</l>
             <l n="206" xml:id="l206">Pour remplir vos desirs je vous suivray de prés<note place="bottom">Neucastel affirme par ces cinq mots qu’il ne s’attardera pas longtemps à parler avec Morray, mais qu’il s’occupera au plus vite de servir la réalisation des projets dont ils viennent de convenir ensemble.</note>.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE III <pb n="9" xml:id="p9"/></head>
+          <head>SCENE III<pb n="9" xml:id="p9"/></head>
           <stage>Le Comte de Morray, le Comte de Neucastel.</stage>
           <sp who="le-comte-de-neucastel">
             <speaker>LE COMTE DE NEUCASTEL</speaker>
-            <l n="207" xml:id="l207">He bien, Seigneur...</l>
+            <l n="207" xml:id="l207" part="I">He bien, Seigneur...</l>
           </sp>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
-            <l part="Y">Souffrez que mon coeur se déploye,</l>
+            <l part="F">Souffrez que mon coeur se déploye,</l>
             <l n="208" xml:id="l208">Et que j’étale icy la grandeur de ma joye.</l>
             <l n="209" xml:id="l209">Rien ne s’oppose plus au succez de mes feux :</l>
             <l n="210" xml:id="l210">Mon plus grand Ennemy<note place="bottom">Le « E » majuscule est une modification à valeur métaphorique apportée par Boursault dans l’édition de 1694. Bien que suivant le texte de l’édition originale (de 1691), nous reproduisons cette majuscule qui ne peut être qu’une correction volontaire et signifiante de l’auteur.</note> met le comble à mes vœux.</l>
@@ -3139,11 +3136,11 @@
             <l n="212" xml:id="l212">Et mon Rival luy-même aide à hâter sa  perte.</l>
             <l n="213" xml:id="l213">Un sincere temoin de tout ce qu’il a dit</l>
             <l n="214" xml:id="l214">En va faire à la Reine un fidele recit.</l>
-            <l n="215" xml:id="l215">Nous triomphons.</l>
+            <l n="215" xml:id="l215" part="I">Nous triomphons.</l>
           </sp>
           <sp who="le-comte-de-neucastel">
             <speaker>LE COMTE DE NEUCASTEL</speaker>
-            <l part="Y">Seigneur, j’ay toûjours même zele :</l>
+            <l part="F">Seigneur, j’ay toûjours même zele :</l>
             <l n="216" xml:id="l216">Mais prestez de la force à mon coeur qui chancelle ;</l>
             <l n="217" xml:id="l217">Et puisque le silence est encor à mon choix,</l>
             <l n="218" xml:id="l218">Laissez-moy vous parler pour la derniere fois.</l>
@@ -3167,11 +3164,11 @@
             <l n="236" xml:id="l236">Nous sçavons, vous &amp; moy, qu’elle n’est point coupable ;</l>
             <l n="237" xml:id="l237">Et si quelque tendresse excitoit vos remors</l>
             <l n="238" xml:id="l238">Jugez en quel peril je me verrois alors.</l>
-            <l n="239" xml:id="l239">Il faudroit que mon sang...</l>
+            <l n="239" xml:id="l239" part="I">Il faudroit que mon sang...</l>
           </sp>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
-            <l part="Y">Moy des remors ! moy, Comte !<note place="bottom">Toute hésitation est vécue par Morray comme une faiblesse, l’idée même qu’il pourrait renoncer ou traverser un moment de doute est insultante car ce serait mettre en question sa détermination, sa volonté.</note></l>
+            <l part="F">Moy des remors ! moy, Comte !<note place="bottom">Toute hésitation est vécue par Morray comme une faiblesse, l’idée même qu’il pourrait renoncer ou traverser un moment de doute est insultante car ce serait mettre en question sa détermination, sa volonté.</note></l>
             <l n="240" xml:id="l240">D'un soupçon qui m’outrage épargnez-moy la honte.</l>
             <l n="241" xml:id="l241">Quelle peur vous allarme ? Et par quel sort fatal</l>
             <l n="242" xml:id="l242">Ay-je pû meriter qu’on me traite si mal ?</l>
@@ -3190,7 +3187,7 @@
             <l n="255" xml:id="l255">La plus ferme Couronne un moment sur sa teste</l>
             <l n="256" xml:id="l256">Dans l’Estat le plus calme excite une tempeste :</l>
             <l n="257" xml:id="l257">Un Sceptre ne sied bien que dans la main des Rois ;</l>
-            <l n="258" xml:id="l258">Et le Trône chancelle à moins qu’il n’ait son poids. <pb n="11" xml:id="p11"/></l>
+            <l n="258" xml:id="l258">Et le Trône chancelle à moins qu’il n’ait son poids.<pb n="11" xml:id="p11"/></l>
           </sp>
           <sp who="le-comte-de-neucastel">
             <speaker>LE COMTE DE NEUCASTEL</speaker>
@@ -3216,11 +3213,11 @@
             <l n="272" xml:id="l272">Aucun de vos pareils ne succede à son pere.</l>
             <l n="273" xml:id="l273">Et d’ailleurs, le feu Roy, quoy qu’on ait entrepris,</l>
             <l n="274" xml:id="l274">N'a jamais avoüé que vous fussiez son fils.</l>
-            <l n="275" xml:id="l275">Qui justifiera...</l>
+            <l n="275" xml:id="l275" part="I">Qui justifiera...</l>
           </sp>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
-            <l part="Y">Qui ? Ma valeur, mon audace<note place="bottom">Voilà quelles sont les qualités qui définissent à ses yeux le caractère royal et auxquelles il n’aura de cesse de prouver qu’il les possède pleinement.</note> :</l>
+            <l part="F">Qui ? Ma valeur, mon audace<note place="bottom">Voilà quelles sont les qualités qui définissent à ses yeux le caractère royal et auxquelles il n’aura de cesse de prouver qu’il les possède pleinement.</note> :</l>
             <l n="276" xml:id="l276">Mon ardeur de regner &amp; de remplir sa place :</l>
             <l n="277" xml:id="l277">Si le Ciel m’eût fait naistre en un degré plus bas,</l>
             <l n="278" xml:id="l278">De si beaux mouvemens ne me dureroient pas.</l>
@@ -3230,7 +3227,7 @@
             <l n="282" xml:id="l282">Aurois-je sur la Reine osé porter les yeux ?</l>
             <l n="283" xml:id="l283">Non que vers ses appas un fol amour m’entraîne ;</l>
             <l n="284" xml:id="l284">Ce qui m’est plus sensible Elisabeth est Reine ;</l>
-            <l n="285" xml:id="l285">A tous les Rois voisins elle impose des loix ; <pb n="Biij 12" xml:id="p12"/></l>
+            <l n="285" xml:id="l285">A tous les Rois voisins elle impose des loix ;<pb n="Biij 12" xml:id="p12"/></l>
             <l n="286" xml:id="l286"><ref target="#etonner">Etonne*</ref> l’Univers du bruit de ses Exploits ;</l>
             <l n="287" xml:id="l287">L'Ecosse où je commande, unie à l’Angleterre,</l>
             <l n="288" xml:id="l288">Je ne craindrois au plus qu’un éclat du Tonnerre,</l>
@@ -3297,7 +3294,7 @@
             <l n="334" xml:id="l334">Que de ses jours sacrez il veut borner le cours.</l>
             <l n="335" xml:id="l335">Enfin, pour la contraindre à la reconnoissance</l>
             <l n="336" xml:id="l336">Du zele le plus pur empruntez l’apparence.</l>
-            <l n="337" xml:id="l337">Accoûtumez son cœur…</l>
+            <l n="337" xml:id="l337" part="I">Accoûtumez son cœur…</l>
           </sp>
         </div>
         <div type="scene">
@@ -3305,7 +3302,7 @@
           <stage>Lancastre, le Comte de Morray, le Comte de Neucastel.</stage>
           <sp who="lancastre">
             <speaker>LANCASTRE</speaker>
-            <l part="Y">Ah, Seigneur, hâtez-vous,</l>
+            <l part="F">Ah, Seigneur, hâtez-vous,</l>
             <l n="338" xml:id="l338">Et venez de la Reine appaiser le courroux.<pb n="Biiij 14" xml:id="p14"/></l>
             <l n="339" xml:id="l339">Je ne puis deviner qui conspire contr'elle ;</l>
             <l n="340" xml:id="l340">Mais elle est resoluë à punir un rebelle,</l>
@@ -3320,11 +3317,11 @@
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
             <l n="348" xml:id="l348">Et quelle ame assez basse ose estre encor rebelle?</l>
-            <l n="349" xml:id="l349">Vous a-t’-on dit le nom du coupable ?</l>
+            <l n="349" xml:id="l349" part="I">Vous a-t’-on dit le nom du coupable ?</l>
           </sp>
           <sp who="lancastre">
             <speaker>LANCASTRE</speaker>
-            <l part="Y">Seigneur,</l>
+            <l part="F">Seigneur,</l>
             <l n="350" xml:id="l350">Je n’ose en soupçonner la Reine vostre Sœur.</l>
             <l n="351" xml:id="l351">Mais un des Officiers qui doit répondre d’elle</l>
             <l n="352" xml:id="l352">A sans doute à la Reine appris quelque nouvelle.</l>
@@ -3378,27 +3375,27 @@
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
             <l n="379" xml:id="l379">Ses amours ! Juste Ciel, que m’apprend-on encore ?</l>
-            <l n="380" xml:id="l380">Et pour qui ?</l>
+            <l n="380" xml:id="l380" part="I">Et pour qui ?</l>
           </sp>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
-            <l part="Y">Pour ma Sœur.</l>
+            <l part="M">Pour ma Sœur.</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y">L'aime-t’il ?</l>
+            <l part="M">L'aime-t’il ?</l>
           </sp>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
-            <l part="Y">Il l’adore.</l>
+            <l part="F">Il l’adore.</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l n="381" xml:id="l381">Il l’adore ! Qu'entens-je ?</l>
+            <l n="381" xml:id="l381" part="I">Il l’adore ! Qu'entens-je ?</l>
           </sp>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
-            <l part="Y">Et quel autre motif</l>
+            <l part="F">Et quel autre motif</l>
             <l n="382" xml:id="l382">D'un Ministre d’Estat feroit un fugitif ?<note place="bottom">Dialogue stichomythique qui traduit la douleur d’Elisabeth et la jubilation de Morray à annoncer ce qui provoque un tel trouble et va éveiller une cruelle jalousie.  </note></l>
           </sp>
           <sp who="elisabeth">
@@ -3450,23 +3447,23 @@
             <l n="421" xml:id="l421">De ce devoir, vous-même, acquittez-vous si bien</l>
             <l n="422" xml:id="l422">Que de la part du Duc il ne m’arrive rien.</l>
             <l n="423" xml:id="l423">Je vous en donne l’ordre, &amp; ce soin vous regarde.</l>
-            <l n="424" xml:id="l424">Hola.</l>
+            <l n="424" xml:id="l424" part="I">Hola.</l>
           </sp>
           <sp who="euric">
             <speaker>EURIC</speaker>
-            <l part="Y">Madame ?</l>
+            <l part="M">Madame ?</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y">Euric, pour commander ma Garde</l>
+            <l part="F">Euric, pour commander ma Garde</l>
             <l n="425" xml:id="l425">Du Comte de Morray je viens de faire choix :</l>
             <l n="426" xml:id="l426">Ayez soin cette nuit d’obeïr à sa voix.</l>
-            <l n="427" xml:id="l427">Je l’ordonne.</l>
+            <l n="427" xml:id="l427" part="I">Je l’ordonne.</l>
           </sp>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
-            <l part="Y">Charmé de cette confiance</l>
-            <l n="428" xml:id="l428">Je jure que vos jours sont en pleine asseurance, <pb n="B vj 18" xml:id="p18"/></l>
+            <l part="F">Charmé de cette confiance</l>
+            <l n="428" xml:id="l428">Je jure que vos jours sont en pleine asseurance,<pb n="B vj 18" xml:id="p18"/></l>
             <l n="429" xml:id="l429">Et que vos ennemis n’iront point jusqu’à vous</l>
             <l n="430" xml:id="l430">Qu'on ne m’ait veu, Madame, expirer sous leurs coups.</l>
             <l n="431" xml:id="l431">Si l’on ne m’a trompé, nous touchons presqu’à l’heure</l>
@@ -3524,11 +3521,11 @@
             <l n="469" xml:id="l469">Parle sans me flatter ; je te fais le témoin</l>
             <l n="470" xml:id="l470">Si mes bontez pour luy pouvoient aller plus loin.</l>
             <l n="471" xml:id="l471">Je croyois sur son coeur ma puissance absoluë.</l>
-            <l n="472" xml:id="l472">Le Traistre !</l>
+            <l n="472" xml:id="l472" part="I">Le Traistre !</l>
           </sp>
           <sp who="lancastre">
             <speaker>LANCASTRE</speaker>
-            <l part="Y">A quoy, Madame, estes-vous resoluë ?</l>
+            <l part="F">A quoy, Madame, estes-vous resoluë ?</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
@@ -3578,7 +3575,7 @@
             <l n="510" xml:id="l510">Pour ses yeux criminels a conceu tant d’amour.</l>
             <l n="511" xml:id="l511">Prisonniere, c’est peu : coupable, condamnée,</l>
             <l n="512" xml:id="l512">Qui croiroit que pour elle on m’eût abandonnée ?</l>
-            <l n="513" xml:id="l513">Et qui, Lancastre, &amp; qui ? Tu le sçais, un Ingrat, <pb n="21" xml:id="p21"/></l>
+            <l n="513" xml:id="l513">Et qui, Lancastre, &amp; qui ? Tu le sçais, un Ingrat,<pb n="21" xml:id="p21"/></l>
             <l n="514" xml:id="l514">Preferé par moy-même à plus d’un Potentat.</l>
           </sp>
           <sp who="lancastre">
@@ -3595,11 +3592,11 @@
             <l n="524" xml:id="l524">C'est trop montrer, Madame, ou de haine ou d’envie ;</l>
             <l n="525" xml:id="l525">Et pour sauver le Duc si les remors sont vains<note place="bottom">« si » signifie « quand » et il faut entendre « quand vos remords ne seront plus d’aucune utilité pour sauver la vie du duc de Norfolc, vous découvrirez que le comte de Moray avait tout intérêt à le faire condamner pour servir son ambition. » Lancastre, comme une servante de comédie plus maline et clairvoyante que ses maîtres,  prédit ici exactement ce qu’il adviendra.</note>,</l>
             <l n="526" xml:id="l526">Vous verrez que le Comte a de plus hauts desseins.</l>
-            <l n="527" xml:id="l527">Il est jeune &amp; sensible : &amp; vos charmes...</l>
+            <l n="527" xml:id="l527" part="I">Il est jeune &amp; sensible : &amp; vos charmes...</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y">Arreste.</l>
+            <l part="F">Arreste.</l>
             <l n="528" xml:id="l528">Mes charmes ne font point de honteuse conqueste...</l>
             <l n="529" xml:id="l529">S'il osoit me tenir les discours que tu tiens</l>
             <l n="530" xml:id="l530">Je luy vendrois<note place="bottom">« vendre » est ici employé au figuré : « <hi rend="i">vendre</hi> bien cher sa vie : défendre bien sa vie &amp; faire périr beaucoup d’ennemis avant de succomber. » Dictionnaire de l’Académie. </note> bien cher de pareils entretiens.</l>
@@ -3660,11 +3657,11 @@
             <l n="566" xml:id="l566">Sur nos fronts desolez peint nostre desespoir.</l>
             <l n="567" xml:id="l567">Preferez le repos à vos soins politiques.</l>
             <l n="568" xml:id="l568">Demain vous vous rendrez aux affaires publiques.</l>
-            <l n="569" xml:id="l569">Demain…</l>
+            <l n="569" xml:id="l569" part="I">Demain…</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y">C'est assez, Duc. Vostre zele est si grand</l>
+            <l part="F">C'est assez, Duc. Vostre zele est si grand</l>
             <l n="570" xml:id="l570">Qu'on ne peut resister à ce qu’il entreprend.</l>
             <l n="571" xml:id="l571">Je viens de reconnoistre à ce conseil sincere</l>
             <l n="572" xml:id="l572">Que malgré mes soupçons je vous suis toûjours chere :</l>
@@ -3711,14 +3708,14 @@
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC<pb n="25" xml:id="p25"/></speaker>
             <l n="598" xml:id="l598">De la Reine captive allez haster les pas.</l>
-            <l n="599" xml:id="l599">Je vous attends.</l>
+            <l n="599" xml:id="l599" part="I">Je vous attends.</l>
           </sp>
         </div>
         <div type="scene">
           <head>SCENE VI</head>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC,  <hi rend="i">seul.</hi></speaker>
-            <l part="Y">O Ciel ! voy pour qui je t’implore.</l>
+            <l part="F">O Ciel ! voy pour qui je t’implore.</l>
             <l n="600" xml:id="l600">Avant que dans ce lieu tu rameines l’aurore</l>
             <l n="601" xml:id="l601">Attends qu’un long espace entre la Reine &amp; nous</l>
             <l n="602" xml:id="l602">Ait mis ce que j’adore à couvert de ses coups.</l>
@@ -3732,11 +3729,11 @@
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
             <l n="605" xml:id="l605">A la Reine d’Ecosse a-t-on manqué de foy ?</l>
-            <l n="606" xml:id="l606">Parlez, Euric.</l>
+            <l n="606" xml:id="l606" part="I">Parlez, Euric.</l>
           </sp>
           <sp who="euric">
             <speaker>EURIC</speaker>
-            <l part="Y">Seigneur, elle vient aprés moy.</l>
+            <l part="F">Seigneur, elle vient aprés moy.</l>
             <l n="607" xml:id="l607">Touché de la frayeur dont son ame est atteinte,</l>
             <l n="608" xml:id="l608">Je devance ses pas pour dissiper sa crainte.</l>
             <l n="609" xml:id="l609">Un peu d’émotion meslée à ses attraits</l>
@@ -3748,11 +3745,11 @@
           <stage>Le Duc de Norfolc, Marie Stuard, Euric, gardes.</stage>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
-            <l n="611" xml:id="l611">Venez, venez, Madame...</l>
+            <l n="611" xml:id="l611" part="I">Venez, venez, Madame...</l>
           </sp>
           <sp who="marie-stuard">
             <speaker>MARIE STUARD</speaker>
-            <l part="Y">Ah ! Duc que j’apprehende</l>
+            <l part="F">Ah ! Duc que j’apprehende</l>
             <l n="612" xml:id="l612">De vous rendre funeste une bonté si grande !</l>
             <l n="613" xml:id="l613">Si la Reine en secret fait observer nos pas,</l>
             <l n="614" xml:id="l614">En voulant me sauver ne vous perdez-vous pas ?</l>
@@ -3780,11 +3777,11 @@
             <speaker>LE DUC DE NORFOLC</speaker>
             <l n="621" xml:id="l621">Ouvre les yeux, de grace, &amp; voy ce que tu fais.</l>
             <l n="622" xml:id="l622">Le bras que tu saisis t’a comblé de bienfaits.</l>
-            <l n="623" xml:id="l623">C'est le Duc de Norfolc, qui cent fois...</l>
+            <l n="623" xml:id="l623" part="I">C'est le Duc de Norfolc, qui cent fois...</l>
           </sp>
           <sp who="killegre">
             <speaker>KILLEGRE</speaker>
-            <l part="Y">Il n’importe.</l>
+            <l part="F">Il n’importe.</l>
             <l n="624" xml:id="l624">Je suis Sujet, Seigneur, &amp; ce devoir l’emporte.<note place="bottom">Ce choix de Killegre illustre le thème de l’Etat envahissant. A l’époque de Louis XIV, l’autorité des maîtres s’efface au profit de celle de l’Etat incarné par le roi. Sans désirer trahir Norfolc, son maître, il privilégie son devoir de sujet sur celui de « créature » ou de « fidèle ». Il en est de même dans les pièces de La Calprenède et de Thomas Corneille.</note></l>
           </sp>
         </div>
@@ -3798,11 +3795,11 @@
           </sp>
           <sp who="marie-stuard">
             <speaker>MARIE STUARD<pb n="28" xml:id="p28"/></speaker>
-            <l n="627" xml:id="l627">Qui, moy, vostre ennemie ! Eh, Madame...</l>
+            <l n="627" xml:id="l627" part="I">Qui, moy, vostre ennemie ! Eh, Madame...</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y">Ah le Traistre !</l>
+            <l part="F">Ah le Traistre !</l>
             <l n="628" xml:id="l628">Enfin, Ingrat, enfin, tu t’es donc fait connoistre ?</l>
             <l n="629" xml:id="l629">A démentir mes yeux ose appliquer tes soins.</l>
             <l n="630" xml:id="l630">Ce sont, pour ton malheur, de fideles témoins.</l>
@@ -3859,11 +3856,11 @@
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l n="657" xml:id="l657">Et les Comtes ?</l>
+            <l n="657" xml:id="l657" part="I">Et les Comtes ?</l>
           </sp>
           <sp who="lancastre">
             <speaker>LANCASTRE</speaker>
-            <l part="Y">Madame, ils vont entrer tous deux.</l>
+            <l part="F">Madame, ils vont entrer tous deux.</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
@@ -3885,7 +3882,7 @@
             <l n="666" xml:id="l666">L'accuse, le <ref target="#convaincre">convainc*</ref> d’un crime capital :</l>
             <l n="667" xml:id="l667">Et que Traistre, une fois, il est de la justice</l>
             <l n="668" xml:id="l668">D'empêcher desormais que l’Ingrat me trahisse.</l>
-            <l n="669" xml:id="l669">Allez.</l>
+            <l n="669" xml:id="l669" part="I">Allez.</l>
           </sp>
         </div>
         <div type="scene">
@@ -3894,8 +3891,8 @@
           <sp who="elisabeth">
             <speaker>ELISABETH </speaker>
             <stage>Elle fait signe aux Gardes de se retirer.</stage>
-            <l part="Y">Approchez, Duc. Si le Ciel l’eût permis</l>
-            <l n="670" xml:id="l670">Vous alliez contre nous servir nos Ennemis. <pb n="S i 31" xml:id="p31"/></l>
+            <l part="F">Approchez, Duc. Si le Ciel l’eût permis</l>
+            <l n="670" xml:id="l670">Vous alliez contre nous servir nos Ennemis.<pb n="S i 31" xml:id="p31"/></l>
             <l n="671" xml:id="l671">Si le Duc de Norfolc nous declaroit la guerre,</l>
             <l n="672" xml:id="l672">Contre un Heros si grand que feroit l’Angleterre ?</l>
             <l n="673" xml:id="l673">Qui prendroit son party dans un pareil malheur,</l>
@@ -3937,7 +3934,7 @@
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
             <l n="699" xml:id="l699">Et quand d’une Princesse odieuse, coupable,</l>
-            <l n="700" xml:id="l700">Je te nommay le Juge, &amp; te crûs équitable<note place="bottom">Juge de Marie Stuard, comme elle l’explique juste après (v. 700 <hi rend="i">sq</hi>.).</note>, <pb n="C 32" xml:id="p32"/></l>
+            <l n="700" xml:id="l700">Je te nommay le Juge, &amp; te crûs équitable<note place="bottom">Juge de Marie Stuard, comme elle l’explique juste après (v. 700 <hi rend="i">sq</hi>.).</note>,<pb n="C 32" xml:id="p32"/></l>
             <l n="701" xml:id="l701">Séduit par le pouvoir de ses honteux appas ;</l>
             <l n="702" xml:id="l702">Pour luy sauver le jour ne me trahis-tu pas ?</l>
             <l n="703" xml:id="l703">Les Pairs qui depuis toy l’ont mieux examinée ;</l>
@@ -3974,7 +3971,7 @@
             <l n="731" xml:id="l731">Enfin, je fus surpris, dans cette conjoncture,</l>
             <l n="732" xml:id="l732">De voir tant d’injustice, &amp; si peu de <ref target="#murmure">murmure*</ref> ;</l>
             <l n="733" xml:id="l733">Et mon coeur de retour de sa prévention</l>
-            <l n="734" xml:id="l734">Ne put se refuser à la compassion. <pb n="33" xml:id="p33"/></l>
+            <l n="734" xml:id="l734">Ne put se refuser à la compassion.<pb n="33" xml:id="p33"/></l>
             <l n="735" xml:id="l735">Je ne présumois pas qu’une Princesse Illustre</l>
             <l n="736" xml:id="l736">M'eût confié son Nom pour en ternir le lustre,</l>
             <l n="737" xml:id="l737">Et par quelle raison l’aurois-je présumé ?</l>
@@ -4011,11 +4008,11 @@
             <l n="765" xml:id="l765">Envisage de prés, pour t’accabler d’ennuis,</l>
             <l n="766" xml:id="l766">L'Echaffaut qui t’attend &amp; le Trône où je suis.</l>
             <l n="767" xml:id="l767">Quelle indigne Beauté vient de te rendre traistre !</l>
-            <l n="768" xml:id="l768">Proscrite, abandonnée...</l>
+            <l n="768" xml:id="l768" part="I">Proscrite, abandonnée...</l>
           </sp>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC<pb n="C ij 34" xml:id="p34"/></speaker>
-            <l part="Y">Et devroit-elle l’estre ?</l>
+            <l part="F">Et devroit-elle l’estre ?</l>
             <l n="769" xml:id="l769">Quel spectacle à nos yeux allez-vous étaller,</l>
             <l n="770" xml:id="l770">Madame ? Et que de droits faites-vous violer ?</l>
             <l n="771" xml:id="l771">De quelles Nations obtiendrez-vous l’estime ?</l>
@@ -4038,11 +4035,11 @@
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
             <l n="787" xml:id="l787">Laisse-là mon devoir &amp; songe au tien, Perfide :</l>
-            <l n="788" xml:id="l788">Ton trépas...</l>
+            <l n="788" xml:id="l788" part="I">Ton trépas...</l>
           </sp>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
-            <l part="Y">Son <ref target="#aspect">aspect*</ref> n’a rien qui m’intimide :</l>
+            <l part="F">Son <ref target="#aspect">aspect*</ref> n’a rien qui m’intimide :</l>
             <l n="789" xml:id="l789">Souvent pour vostre gloire ou pour vos interests</l>
             <l n="790" xml:id="l790">Contre vos Ennemis je l’ay veu d’assez prés ;</l>
             <l n="791" xml:id="l791">Et pour la Verité, qui m’est cent fois plus chere,</l>
@@ -4092,7 +4089,7 @@
             <l n="829" xml:id="l829">Et ma reconnoissance écrite en tant de lieux</l>
             <l n="830" xml:id="l830">Asseure à ma memoire un destin glorieux.</l>
             <l n="831" xml:id="l831">Si mon coeur qu’avec soin vous cherchez à confondre,</l>
-            <l n="832" xml:id="l832">A vos tendres bontez n’a pû si bien répondre ; <pb n="C iij 36" xml:id="p36"/></l>
+            <l n="832" xml:id="l832">A vos tendres bontez n’a pû si bien répondre ;<pb n="C iij 36" xml:id="p36"/></l>
             <l n="833" xml:id="l833">Si par d’autres attraits il s’est laissé toucher,</l>
             <l n="834" xml:id="l834">C'est tout ce qu’à ma foy vous pouvez reprocher.</l>
           </sp>
@@ -4126,11 +4123,11 @@
             <l n="855" xml:id="l855">Que d’avoir essayé d’obtenir un azile</l>
             <l n="856" xml:id="l856">Où la Reine d’Ecosse eût un abry tranquile ;</l>
             <l n="857" xml:id="l857">Examinez l’Ecrit qui paroît à vos yeux :</l>
-            <l n="858" xml:id="l858">Examinez...</l>
+            <l n="858" xml:id="l858" part="I">Examinez...</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y">Les Pairs l’examineront mieux :</l>
+            <l part="F">Les Pairs l’examineront mieux :</l>
             <l n="859" xml:id="l859">Ils doivent s’assembler dans la Salle prochaine.<pb n="37" xml:id="p37"/></l>
             <l n="860" xml:id="l860">Comme ta trahison ma vangeance est certaine.</l>
             <l n="861" xml:id="l861">Pour en joüir plûtost je veux dés ce moment</l>
@@ -4162,7 +4159,7 @@
           <stage>Marie Stuard, le Duc de Norfolc.</stage>
           <sp who="marie-stuard">
             <speaker>MARIE STUARD</speaker>
-            <l n="882" xml:id="l882">He bien, Duc, vos bontez augmentent mes malheurs. <pb n="C iiij 38" xml:id="p38"/></l>
+            <l n="882" xml:id="l882">He bien, Duc, vos bontez augmentent mes malheurs.<pb n="C iiij 38" xml:id="p38"/></l>
             <l n="883" xml:id="l883">Quelle fatalité vous inspira l’envie</l>
             <l n="884" xml:id="l884">De prodiguer vos jours pour conserver ma vie ?</l>
             <l n="885" xml:id="l885">J'ay fait ce que j’ay pû pour vous en empêcher ;</l>
@@ -4233,11 +4230,11 @@
           </sp>
           <sp who="marie-stuard">
             <speaker>MARIE STUARD</speaker>
-            <l n="935" xml:id="l935">O Ciel !</l>
+            <l n="935" xml:id="l935" part="I">O Ciel !</l>
           </sp>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
-            <l part="Y">Vous jugez bien qu’il m’eût esté facile</l>
+            <l part="F">Vous jugez bien qu’il m’eût esté facile</l>
             <l n="936" xml:id="l936">De supprimer l’aveu d’une ardeur inutile,</l>
             <l n="937" xml:id="l937">Si je n’eusse esperé que d’un crime si grand</l>
             <l n="938" xml:id="l938">J'obtiendrois le pardon, au moins en expirant.</l>
@@ -4281,11 +4278,11 @@
             <l n="973" xml:id="l973">Quelque juste envers moy qu’ait esté vostre Arrest</l>
             <l n="974" xml:id="l974">L'amour auprés d’un Juge est un grand interest.</l>
             <l n="975" xml:id="l975">Que ne chassiez-vous, Duc, cet amour de vostre ame ?</l>
-            <l n="976" xml:id="l976">Que ne bannissiez-vous...<pb n="41" xml:id="p41"/></l>
+            <l n="976" xml:id="l976" part="I">Que ne bannissiez-vous...<pb n="41" xml:id="p41"/></l>
           </sp>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
-            <l part="Y">Et l’ay-je pû, Madame ?</l>
+            <l part="F">Et l’ay-je pû, Madame ?</l>
             <l n="977" xml:id="l977">Si les hautes vertus ont droit de tout charmer</l>
             <l n="978" xml:id="l978">Estoit-il à mon choix de ne pas vous aimer ?</l>
             <l n="979" xml:id="l979">Tant que j’ay de la Reine ignoré l’injustice</l>
@@ -4323,11 +4320,11 @@
             <l n="1004" xml:id="l1004">Les Pairs sont assemblez, Seigneur, &amp; vous attendent.</l>
             <l n="1005" xml:id="l1005">On me vient d’ordonner<note place="bottom">Pour <hi rend="i">on vient de m’ordonner.</hi></note> dans le même moment</l>
             <l n="1006" xml:id="l1006">De vous faire rentrer dans vostre Appartement,</l>
-            <l n="1007" xml:id="l1007">Madame.</l>
+            <l n="1007" xml:id="l1007" part="I">Madame.</l>
           </sp>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
-            <l part="Y">Adieu, Madame. Une autre destinée</l>
+            <l part="F">Adieu, Madame. Une autre destinée</l>
             <l n="1008" xml:id="l1008">Termine de vos jours la course infortunée.</l>
             <l n="1009" xml:id="l1009">Quels que soient les tourmens qui me sont preparez</l>
             <l n="1010" xml:id="l1010">Mes maux les plus cruels sont ceux que vous aurez,</l>
@@ -4369,11 +4366,11 @@
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
             <l n="1028" xml:id="l1028">D'un homme tel que toy la pitié me fait honte.</l>
-            <l n="1029" xml:id="l1029">Retire-toy.</l>
+            <l n="1029" xml:id="l1029" part="I">Retire-toy.</l>
           </sp>
           <sp who="le-comte-de-neucastel">
             <speaker>LE COMTE DE NEUCASTEL</speaker>
-            <l part="Y">La Reine attend l’Ordre sacré <note place="bottom">L’<hi rend="i">Ordre sacré</hi> fait à notre avis allusion à l’ordre de la jarretière, une des distinctions anglaises les plus prestigieuses. Au plan littéraire, Boursault revisite ici l’histoire de la bague offerte par Elisabeth à Norfolc en témoignage de son amour et en gage de son éternel soutient. [L’Essex de T. Corneille n’avait qu’à présenter cette bague à la reine pour qu’elle le pardonne mais, étant emprisonné, il confie l’objet de son salut à son ancienne maîtresse, Mme Cécile, afin qu’elle la lui fasse parvenir. Mme Cécile, mariée, garde du ressentiment contre Essex qui l’a trompée alors qu’elle avait sali son honneur pour lui ; cherchant à se venger, elle garde la bague et se rend responsable de la condamnation d’Essex.] L’intrigue est moins romanesque chez Boursault puisque le présent devient une décoration militaire ; elle n’attend pas qu’il la lui rende, comme on rend un témoignage d’amour mais c’est elle qui vient le lui réclamer, parce qu’elle ne l’en croit plus digne.</note></l>
+            <l part="F">La Reine attend l’Ordre sacré <note place="bottom">L’<hi rend="i">Ordre sacré</hi> fait à notre avis allusion à l’ordre de la jarretière, une des distinctions anglaises les plus prestigieuses. Au plan littéraire, Boursault revisite ici l’histoire de la bague offerte par Elisabeth à Norfolc en témoignage de son amour et en gage de son éternel soutient. [L’Essex de T. Corneille n’avait qu’à présenter cette bague à la reine pour qu’elle le pardonne mais, étant emprisonné, il confie l’objet de son salut à son ancienne maîtresse, Mme Cécile, afin qu’elle la lui fasse parvenir. Mme Cécile, mariée, garde du ressentiment contre Essex qui l’a trompée alors qu’elle avait sali son honneur pour lui ; cherchant à se venger, elle garde la bague et se rend responsable de la condamnation d’Essex.] L’intrigue est moins romanesque chez Boursault puisque le présent devient une décoration militaire ; elle n’attend pas qu’il la lui rende, comme on rend un témoignage d’amour mais c’est elle qui vient le lui réclamer, parce qu’elle ne l’en croit plus digne.</note></l>
             <l n="1030" xml:id="l1030">Dont sa main autrefois vous avoit honoré.</l>
             <l n="1031" xml:id="l1031">Cette pompeuse Marque, en ce lieu si cherie,</l>
             <l n="1032" xml:id="l1032">Sous le fer d’un Bourreau luy sembleroit flétrie.</l>
@@ -4390,7 +4387,7 @@
             <l n="1040" xml:id="l1040">Te peut faire prétendre au rang le plus sublime ;<pb n="44" xml:id="p44"/></l>
             <l n="1041" xml:id="l1041">Toy qui né dans la boüe y serois demeuré</l>
             <l n="1042" xml:id="l1042">Si ma compassion ne t’en eût retiré.</l>
-            <l n="1043" xml:id="l1043"><space> </space>Tien, reporte à la Reine un present, qui sans doute,</l>
+            <l n="1043" xml:id="l1043">Tien, reporte à la Reine un present, qui sans doute,</l>
             <l n="1044" xml:id="l1044">Devoit m’appartenir par le sang qu’il me coûte :</l>
             <l n="1045" xml:id="l1045">Et pour joüir en paix de ton malheureux sort</l>
             <l n="1046" xml:id="l1046">Haste, si tu le peux, les momens de ma mort.</l>
@@ -4466,15 +4463,15 @@
             <l n="1100" xml:id="l1100">Semble animer la Reine à perdre sa Rivale ;</l>
             <l n="1101" xml:id="l1101">Et peut-estre ce jour ne se passera pas</l>
             <l n="1102" xml:id="l1102">Sans estre signalé par un double trépas.</l>
-            <l n="1103" xml:id="l1103">J'ay déja fait...</l>
+            <l n="1103" xml:id="l1103" part="I">J'ay déja fait...</l>
           </sp>
           <sp who="le-comte-de-neucastel">
             <speaker>LE COMTE DE NEUCASTEL</speaker>
-            <l part="Y">Seigneur, je voy venir la Reine.</l>
+            <l part="F">Seigneur, je voy venir la Reine.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE III <pb n="47" xml:id="p47"/></head>
+          <head>SCENE III<pb n="47" xml:id="p47"/></head>
           <stage>Elisabeth, le Comte de Morray, le Comte de Neucastel, gardes.</stage>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
@@ -4483,26 +4480,26 @@
             <l n="1106" xml:id="l1106">Le repos de mon coeur m’est plus cher que mon rang.</l>
             <l n="1107" xml:id="l1107">Pour éteindre une ardeur que j’ay laissé trop croître,</l>
             <l n="1108" xml:id="l1108">A de nouveaux mépris je veux forcer un Traistre.</l>
-            <l n="1109" xml:id="l1109">Faites venir le Duc, Gardes.</l>
+            <l n="1109" xml:id="l1109" part="I">Faites venir le Duc, Gardes.</l>
           </sp>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
-            <l part="Y">Que faites-vous,</l>
-            <l n="1110" xml:id="l1110">Madame ?</l>
+            <l part="F">Que faites-vous,</l>
+            <l n="1110" xml:id="l1110" part="I">Madame ?</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH  <hi rend="i">aux Gardes.</hi></speaker>
-            <l part="Y">Obeïssez, ou craignez mon courroux.</l>
+            <l part="F">Obeïssez, ou craignez mon courroux.</l>
           </sp>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
             <l n="1111" xml:id="l1111">Vous fremissez pour luy du sort qui le menace :</l>
             <l n="1112" xml:id="l1112">Et s’il pousse un soûpir il obtiendra sa grace,</l>
-            <l n="1113" xml:id="l1113">Madame.</l>
+            <l n="1113" xml:id="l1113" part="I">Madame.</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y">S'il l’obtient, vous sçaurez à quel prix,</l>
+            <l part="F">S'il l’obtient, vous sçaurez à quel prix,</l>
             <l n="1114" xml:id="l1114">Et peut-estre tous deux en serez-vous surpris.</l>
             <l n="1115" xml:id="l1115">Jamais contre l’ingrat je ne fus plus émeuë.</l>
             <l n="1116" xml:id="l1116">Je demande à le voir, &amp; j’abhorre sa veuë.</l>
@@ -4538,9 +4535,9 @@
             <l n="1139" xml:id="l1139">Je passe en ta faveur pardessus ces maximes,</l>
             <l n="1140" xml:id="l1140">Quelque horreur que pour toy m’ayent inspiré tes crimes :</l>
             <l n="1141" xml:id="l1141">Et pour recompenser d’assez foibles Exploits<note place="bottom">La mauvaise foi d’Elisabeth se manifeste dans cette concession qu’elle fait à Norfolc au sujet de ses « exploits » militaires qu’elle évoque après en avoir tout simplement nié l’existence à l’Acte III, scène 3.</note>
-              <pb n="49" xml:id="p49"/></l>
+<pb n="49" xml:id="p49"/></l>
             <l n="1142" xml:id="l1142">Je veux fermer les yeux sur ce que je me dois.</l>
-            <l n="1143" xml:id="l1143"><space> </space>Conçois-tu, malheureux, une infamie égale</l>
+            <l n="1143" xml:id="l1143">Conçois-tu, malheureux, une infamie égale</l>
             <l n="1144" xml:id="l1144">A l’ardeur criminelle où ton coeur se ravale ?</l>
             <l n="1145" xml:id="l1145">Comblé par mes bontez &amp; de gloire &amp; de biens</l>
             <l n="1146" xml:id="l1146">Pouvois-tu te choisir de plus honteux liens ?</l>
@@ -4577,7 +4574,7 @@
             <l n="1168" xml:id="l1168">Son plus <ref target="#austere">austere*</ref> Juge est plus coupable qu’elle<note place="bottom">Vers à double sens qui est un clin d’œil au spectateur puisque Norfolc était son juge.</note>.</l>
             <l n="1169" xml:id="l1169">Vous souffrez, cependant, qu’on l’envoye au trépas</l>
             <l n="1170" xml:id="l1170">Pour des crimes forgez<note place="bottom"><hi rend="i">forgez</hi> : « figurément, signifie, Controuver, supposer. <hi rend="i">Forger</hi> une bourde, une calomnie. » A. Furetière.</note>, que vous ne croyez pas.</l>
-            <l n="1171" xml:id="l1171">A des Pairs corrompus dont la veuë épouvante <pb n="50" xml:id="p50"/></l>
+            <l n="1171" xml:id="l1171">A des Pairs corrompus dont la veuë épouvante<pb n="50" xml:id="p50"/></l>
             <l n="1172" xml:id="l1172">Vous livrez sans scrupule une Reine innocente</l>
             <l n="1173" xml:id="l1173">Vostre haine obstinée à finir ses destins<note place="bottom">Il faut entendre : « à faire exécuter Marie Stuard, à trancher le fil de son destin. »</note></l>
             <l n="1174" xml:id="l1174">Erige un Tribunal d’un amas d’assassins.</l>
@@ -4618,7 +4615,7 @@
             <l n="1200" xml:id="l1200">En faveur d’un Sujet que vous trouvez coupable,</l>
             <l n="1201" xml:id="l1201">Si d’une Reine auguste, à qui le sang vous joint<note place="bottom">Elisabeth est la cousine de Marie Stuart.</note>,</l>
             <l n="1202" xml:id="l1202">L'innocence est connuë, &amp; ne vous touche point ?</l>
-            <l n="1203" xml:id="l1203">Prest à perdre le jour, si je parle pour elle <pb n="51" xml:id="p51"/></l>
+            <l n="1203" xml:id="l1203">Prest à perdre le jour, si je parle pour elle<pb n="51" xml:id="p51"/></l>
             <l n="1204" xml:id="l1204">Ce n’est point en Amant, c’est en Sujet fidele,</l>
             <l n="1205" xml:id="l1205">Qui voudroit en mourant vous pouvoir dérober</l>
             <l n="1206" xml:id="l1206">Au crime où malgré vous on vous force à tomber.</l>
@@ -4652,7 +4649,7 @@
             <l n="1231" xml:id="l1231">Ce sang qu’en divers temps ont noircy tant de crimes,</l>
             <l n="1232" xml:id="l1232">Ce sang toûjours rebelle à ses Rois legitimes,</l>
             <l n="1233" xml:id="l1233">S'est veu pour ses forfaits par l’acier d’un Bourreau</l>
-            <l n="1234" xml:id="l1234">Privé plus d’une fois des honneurs du Tombeau <pb n="52" xml:id="p52"/></l>
+            <l n="1234" xml:id="l1234">Privé plus d’une fois des honneurs du Tombeau<pb n="52" xml:id="p52"/></l>
             <l n="1235" xml:id="l1235">Tu serois le premier de ta race odieuse</l>
             <l n="1236" xml:id="l1236">Qu'eût rendu memorable une mort glorieuse :</l>
             <l n="1237" xml:id="l1237">Ton Pere &amp; ton Ayeul, dont tu sçais le destin,</l>
@@ -4682,13 +4679,13 @@
             <l n="1258" xml:id="l1258">A privé mes Ayeux des honneurs du Tombeau.</l>
             <l n="1259" xml:id="l1259">Qui voudroit d’aussi prés examiner les choses</l>
             <l n="1260" xml:id="l1260">Trouveroit des Proscrits pour de plus justes causes.</l>
-            <l n="1261" xml:id="l1261">Vous m’entendez<note place="bottom">La tension résultant de la confrontation de Norfolc et d’Elisabeth monte avec cette phrase de seulement quatre syllabes. Expéditive, elle n’en est pas moins lourde de sens. Norfolc après avoir défendu l’honneur de ses ancêtres et mis en valeur leur gloire (surtout à destination des juges que constituent les spectateurs de la salle), fait une allusion acerbe et blessante à Anne de Boleyn et à Henry VIII. Le fait que tout puisse rester implicite prouve que le public connaissait parfaitement cette histoire et entendait l’allusion.</note>.</l>
+            <l n="1261" xml:id="l1261" part="I">Vous m’entendez<note place="bottom">La tension résultant de la confrontation de Norfolc et d’Elisabeth monte avec cette phrase de seulement quatre syllabes. Expéditive, elle n’en est pas moins lourde de sens. Norfolc après avoir défendu l’honneur de ses ancêtres et mis en valeur leur gloire (surtout à destination des juges que constituent les spectateurs de la salle), fait une allusion acerbe et blessante à Anne de Boleyn et à Henry VIII. Le fait que tout puisse rester implicite prouve que le public connaissait parfaitement cette histoire et entendait l’allusion.</note>.</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y">Oüy, Traistre : Et tu ne peux jamais</l>
+            <l part="F">Oüy, Traistre : Et tu ne peux jamais</l>
             <l n="1262" xml:id="l1262">Faire aller plus avant ma haine &amp; tes forfaits.</l>
-            <l n="1263" xml:id="l1263">Je ne sçay rien en moy susceptible d’outrage <pb n="53" xml:id="p53"/></l>
+            <l n="1263" xml:id="l1263">Je ne sçay rien en moy susceptible d’outrage<pb n="53" xml:id="p53"/></l>
             <l n="1264" xml:id="l1264">Qui de ton lâche coeur n’ait éprouvé la rage<note place="bottom">Elle accuse Norfolc d’avoir outragé, profané en elle tout ce qui pouvait recevoir un outrage, c’est-à-dire son cœur, son honneur, son autorité… </note>.</l>
             <l n="1265" xml:id="l1265">Quand j’aurois oublié tes autres attentats,</l>
             <l n="1266" xml:id="l1266">Ta derniere insolence est digne du trépas :</l>
@@ -4701,15 +4698,15 @@
             <l n="1273" xml:id="l1273">Si tu peux concevoir quel effort je me fais</l>
             <l n="1274" xml:id="l1274">Par un effort pareil merite mes bienfaits.</l>
             <l n="1275" xml:id="l1275">Prest à voir par ta mort ma vengeance assouvie,</l>
-            <l n="1276" xml:id="l1276">Veux-tu ta grace ?<note place="bottom">L’action rebondit de manière inattendue. Tout devient possible à nouveau, et le dénouement tragique semble susceptible d’être évité alors qu’on ne se trouve plus qu’à un acte et deux scènes de la fin. Cette apparence d’un autre choix possible, d’un revirement de la part d’Elisabeth qui sauverait le héros de la mort (mort en fait inéluctable car elle appartient au sujet, à la matrice de la tragédie) porte la tension dramatique à son comble et prouve que le mode de composition choisi par Boursault est celui de la « tragédie à dénouement rabattu » (selon la terminologie de G. Forestier). L’extrême tension de ce passage se remarque, au plan stylistique, par l’échange stichomythique extrêmement rapide qui suit (trois répliques en un seul vers).</note></l>
+            <l n="1276" xml:id="l1276" part="I">Veux-tu ta grace ?<note place="bottom">L’action rebondit de manière inattendue. Tout devient possible à nouveau, et le dénouement tragique semble susceptible d’être évité alors qu’on ne se trouve plus qu’à un acte et deux scènes de la fin. Cette apparence d’un autre choix possible, d’un revirement de la part d’Elisabeth qui sauverait le héros de la mort (mort en fait inéluctable car elle appartient au sujet, à la matrice de la tragédie) porte la tension dramatique à son comble et prouve que le mode de composition choisi par Boursault est celui de la « tragédie à dénouement rabattu » (selon la terminologie de G. Forestier). L’extrême tension de ce passage se remarque, au plan stylistique, par l’échange stichomythique extrêmement rapide qui suit (trois répliques en un seul vers).</note></l>
           </sp>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
-            <l part="Y">O Ciel !</l>
+            <l part="M">O Ciel !</l>
           </sp>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
-            <l part="Y">Je ne hais point la vie.</l>
+            <l part="F">Je ne hais point la vie.</l>
             <l n="1277" xml:id="l1277">Si vous me la laissez il me sera bien doux</l>
             <l n="1278" xml:id="l1278">De pouvoir de nouveau la prodiguer pour vous.</l>
             <l n="1279" xml:id="l1279">D'un fidele Sujet l’infatigable zele...</l>
@@ -4721,11 +4718,11 @@
             <l n="1282" xml:id="l1282">Une foy violée est un mauvais garent.</l>
             <l n="1283" xml:id="l1283">C’est par un grand effort qu’un grand crime s’efface ;</l>
             <l n="1284" xml:id="l1284">Et j’en veux un de toy qui merite ta grace ;</l>
-            <l n="1285" xml:id="l1285">Je ne te la promets qu’à ce prix.</l>
+            <l n="1285" xml:id="l1285" part="I">Je ne te la promets qu’à ce prix.</l>
           </sp>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
-            <l part="Y">Commandez.</l>
+            <l part="F">Commandez.</l>
             <l n="1286" xml:id="l1286">Je puis faire encor plus que vous ne demandez.</l>
             <l n="1287" xml:id="l1287">Rien ne m’est impossible, où je voy de la gloire.</l>
             <l n="1288" xml:id="l1288">(Car par respect pour vous j’ay de la peine à croire</l>
@@ -4743,12 +4740,12 @@
             <l n="1297" xml:id="l1297">Qu’en qualité de Pair, zelé pour mes Etats,</l>
             <l n="1298" xml:id="l1298">Tu ne signes<note place="bottom">Entendre : je ne croirai à ta fidélité que lorsque tu auras signé (la condamnation de Marie) en tant que Pair.</note> comme eux l’Arrest de son trépas.</l>
             <l n="1299" xml:id="l1299">Un refus <ref target="#echapper">échapé*</ref> rend ta perte certaine.</l>
-            <l n="1300" xml:id="l1300">Reponds, sans balancer.</l>
+            <l n="1300" xml:id="l1300" part="I">Reponds, sans balancer.</l>
           </sp>
           <sp who="le-duc-de-norfolc">
             <speaker>LE DUC DE NORFOLC</speaker>
-            <l part="Y">Gardes, qu’on me rameine.</l>
-            <l n="1301" xml:id="l1301">C’est ma réponse.</l>
+            <l part="F">Gardes, qu’on me rameine.</l>
+            <l n="1301" xml:id="l1301" part="I">C’est ma réponse.</l>
           </sp>
         </div>
         <div type="scene">
@@ -4756,7 +4753,7 @@
           <stage>Elisabeth, le Comte de Morray, le Comte de Neucastel, suite.</stage>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y">Ah Ciel ! l’Ingrat n’hesite pas !</l>
+            <l part="F">Ah Ciel ! l’Ingrat n’hesite pas !</l>
             <l n="1302" xml:id="l1302">Ma Rivale à la mort va devancer tes pas,</l>
             <l n="1303" xml:id="l1303">Traistre. Dés ce moment pour contenter ma haine<note place="bottom">La colère la rend sincère sur les motivations qui l’animent. Il n’est plus question ici du bien de l’état. Elle ne punit pas Norfolc pour sa trahison mais parce qu’il la dédaigne, même lorsqu’elle s’abaisse à lui faire une dernière proposition, trahissant l’attachement q’elle a pour lui. Pour satisfaire la vengeance que réclame son amour déçu, elle est prête au contraire à mettre en péril les intérêts de l’état.</note></l>
             <l n="1304" xml:id="l1304">Allez y preparer cette coupable Reine.</l>
@@ -4769,7 +4766,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VI <pb n="55" xml:id="p55"/></head>
+          <head>SCENE VI<pb n="55" xml:id="p55"/></head>
           <stage>Le Comte de Morray, le Comte de Neucastel.</stage>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
@@ -4799,7 +4796,7 @@
             <l n="1328" xml:id="l1328">Il en reste une horreur qui jamais ne s’efface :</l>
             <l n="1329" xml:id="l1329">C’est par des flots de sang que l’on doit s’en laver ;</l>
             <l n="1330" xml:id="l1330">Et nous avons trop fait pour ne pas achever<note place="bottom">Ces vers sont faits pour susciter la terreur et l’horreur car c’est de sa sœur que Morray parle ici. </note>.</l>
-            <l n="1331" xml:id="l1331">Puis qu’au Trône où j’aspire une voye est ouverte <pb n="D 56" xml:id="p56"/></l>
+            <l n="1331" xml:id="l1331">Puis qu’au Trône où j’aspire une voye est ouverte<pb n="D 56" xml:id="p56"/></l>
             <l n="1332" xml:id="l1332">De la Reine d’Ecosse allez haster la perte ;</l>
             <l n="1333" xml:id="l1333">Et laissez-moy le soin, dût-il m’estre fatal,</l>
             <l n="1334" xml:id="l1334">D’aller secretement immoler mon Rival.</l>
@@ -4812,7 +4809,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE V <pb n="57" xml:id="p57"/></head>
+        <head>ACTE V<pb n="57" xml:id="p57"/></head>
         <div type="scene">
           <head>SCENE PREMIERE</head>
           <stage>Marie Stuard, Killegre, Melvin, Kenede, Albione, gardes.</stage>
@@ -4824,11 +4821,11 @@
             <l n="1342" xml:id="l1342">Quoy que par mon trépas tous les droits soient trahis.</l>
             <stage>Killegre sort.</stage>
             <stage>à Melvin.</stage>
-            <l n="1343" xml:id="l1343">Le Comte de Morray viendra-t-il ?</l>
+            <l n="1343" xml:id="l1343" part="I">Le Comte de Morray viendra-t-il ?</l>
           </sp>
           <sp who="melvin">
             <speaker>MELVIN</speaker>
-            <l part="Y">Oüy, Madame.</l>
+            <l part="F">Oüy, Madame.</l>
           </sp>
           <sp who="marie-stuard">
             <speaker>MARIE STUARD</speaker>
@@ -4857,11 +4854,11 @@
             <l n="1363" xml:id="l1363">Plût au Ciel que le mien, plus ardent que tout autre,</l>
             <l n="1364" xml:id="l1364">A vos Persecuteurs pût arracher le vostre !</l>
             <l n="1365" xml:id="l1365"> Que vostre injuste mort nous va coûter de pleurs !</l>
-            <l n="1366" xml:id="l1366">Et qu’un jour…</l>
+            <l n="1366" xml:id="l1366" part="I">Et qu’un jour…</l>
           </sp>
           <sp who="marie-stuard">
             <speaker>MARIE STUARD</speaker>
-            <l part="Y">Quelqu’un vient. Contraignez vos douleurs.</l>
+            <l part="F">Quelqu’un vient. Contraignez vos douleurs.</l>
           </sp>
         </div>
         <div type="scene">
@@ -4916,14 +4913,14 @@
             <l n="1404" xml:id="l1404">Vous retirer bien-tost de l’erreur où vous estes !</l>
             <l n="1405" xml:id="l1405">Si par le juste Ciel mes vœux sont écoutez</l>
             <l n="1406" xml:id="l1406">J’en vais faire pour vous qui me persecutez.</l>
-            <l n="1407" xml:id="l1407">Adieu.</l>
+            <l n="1407" xml:id="l1407" part="I">Adieu.</l>
           </sp>
         </div>
         <div type="scene">
           <head>SCENE III</head>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY<hi rend="i"> seul.</hi></speaker>
-            <l part="Y">Je sens mon cœur qui s’émeut, qui chancelle :</l>
+            <l part="F">Je sens mon cœur qui s’émeut, qui chancelle :</l>
             <l n="1408" xml:id="l1408">La voix de la nature au repentir m’appelle.</l>
             <l n="1409" xml:id="l1409">Silence, indigne voix, qui me veux attendrir :</l>
             <l n="1410" xml:id="l1410">Qu’importe pour regner qui je fasse perir ?</l>
@@ -4939,7 +4936,7 @@
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
             <l n="1415" xml:id="l1415">Comte, j’allois vous voir. Malgré toute ma haine</l>
-            <l n="1416" xml:id="l1416">Je ne puis resister au remors qui me <ref target="#gesner">gêne*</ref>. <pb n="61" xml:id="p61"/></l>
+            <l n="1416" xml:id="l1416">Je ne puis resister au remors qui me <ref target="#gesner">gêne*</ref>.<pb n="61" xml:id="p61"/></l>
             <l n="1417" xml:id="l1417">En vain ma politique en veut rompre le cours :</l>
             <l n="1418" xml:id="l1418">Quelque effort que je fasse il me revient toûjours<note place="bottom">Finalement, Élisabeth se rachète par cette velléité de clémence, un peu tardive tout de même. </note>.</l>
             <l n="1419" xml:id="l1419">Je croy de toutes parts entendre le tonnerre ;</l>
@@ -5017,7 +5014,7 @@
             <l n="1476" xml:id="l1476">Si vous voulez lancer ou retenir la foudre.</l>
             <l n="1477" xml:id="l1477">Ma Sœur touche à son terme, &amp; dans quelques instans</l>
             <l n="1478" xml:id="l1478">On voudroit la sauver qu’il ne seroit plus temps.</l>
-            <l n="1479" xml:id="l1479">Suivez vostre panchant sans aucune contrainte. <pb n="63" xml:id="p63"/></l>
+            <l n="1479" xml:id="l1479">Suivez vostre panchant sans aucune contrainte.<pb n="63" xml:id="p63"/></l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
@@ -5029,11 +5026,11 @@
           </sp>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORAY</speaker>
-            <l n="1485" xml:id="l1485">Le Duc, Madame ? O Ciel !</l>
+            <l n="1485" xml:id="l1485" part="I">Le Duc, Madame ? O Ciel !</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y">Tout coupable qu’il est,</l>
+            <l part="F">Tout coupable qu’il est,</l>
             <l n="1486" xml:id="l1486">Il est assez puny de sçavoir son Arrest :</l>
             <l n="1487" xml:id="l1487">Et s’il faut m’expliquer, quoy qu’ait fait son audace,</l>
             <l n="1488" xml:id="l1488">Ce qu’a fait sa valeur sollicite sa grace.</l>
@@ -5060,26 +5057,26 @@
             <l n="1503" xml:id="l1503">Pour joindre à ce mépris de plus sensibles peines,</l>
             <l n="1504" xml:id="l1504">D’un Criminel si cher allez rompre les chaines :</l>
             <l n="1505" xml:id="l1505">Je luy cause des maux où je prends trop de part.</l>
-            <l n="1506" xml:id="l1506">Portez-luy le pardon…  <pb n="64" xml:id="p64"/></l>
+            <l n="1506" xml:id="l1506" part="I">Portez-luy le pardon…<pb n="64" xml:id="p64"/></l>
           </sp>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
-            <l part="Y">Madame, il est trop tard.</l>
-            <l n="1507" xml:id="l1507">Il est mort.</l>
+            <l part="F">Madame, il est trop tard.</l>
+            <l n="1507" xml:id="l1507" part="I">Il est mort.</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y">Il est mort ! Ah, perfide, qu’entens-je !</l>
+            <l part="F">Il est mort ! Ah, perfide, qu’entens-je !</l>
           </sp>
           <sp who="le-comte-de-morray">
             <speaker>LE COMTE DE MORRAY</speaker>
             <l n="1508" xml:id="l1508">Un si juste trépas le punit &amp; vous vange.</l>
             <l n="1509" xml:id="l1509">Coupable envers l’Etat si lâchement trahy,</l>
-            <l n="1510" xml:id="l1510">Condamné par les Pairs, hay de vous…</l>
+            <l n="1510" xml:id="l1510" part="I">Condamné par les Pairs, hay de vous…</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y">Hay !</l>
+            <l part="F">Hay !</l>
             <l n="1511" xml:id="l1511">Ah Traistre ! Dans mon cœur tu sçais ce qui se passe.</l>
             <l n="1512" xml:id="l1512">A la Reine d’Ecosse allez porter sa grace,</l>
             <l n="1513" xml:id="l1513">Lancastre. Ce Perfide, ennemy de sa Sœur,</l>
@@ -5097,7 +5094,7 @@
             <l n="1518" xml:id="l1518">Je ne parois icy que pour vous faire horreur.</l>
             <l n="1519" xml:id="l1519">Je ne m’offre à vos yeux que pour grossir la foudre</l>
             <l n="1520" xml:id="l1520">Dont il faut vous armer pour me reduire en poudre.</l>
-            <l n="1521" xml:id="l1521">Je me serois puny, mais mon sang répandu, <pb n="65" xml:id="p65"/></l>
+            <l n="1521" xml:id="l1521">Je me serois puny, mais mon sang répandu,<pb n="65" xml:id="p65"/></l>
             <l n="1522" xml:id="l1522">L’exemple que je dois auroit esté perdu ;</l>
             <l n="1523" xml:id="l1523">Et pour voir avec fruit ma trahison punie,</l>
             <l n="1524" xml:id="l1524">Il faut que je perisse avec ignominie.</l>
@@ -5122,11 +5119,11 @@
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l n="1537" xml:id="l1537">Vous, ô Ciel !</l>
+            <l n="1537" xml:id="l1537" part="I">Vous, ô Ciel !</l>
           </sp>
           <sp who="le-comte-de-neucastel">
             <speaker>LE COMTE DE NEUCASTEL</speaker>
-            <l part="Y">Moy, Madame. Un aveu si honteux</l>
+            <l part="F">Moy, Madame. Un aveu si honteux</l>
             <l n="1538" xml:id="l1538">Vous anime à ma perte ; &amp; c’est ce que je veux.</l>
             <l n="1539" xml:id="l1539">J’offre à vostre justice une digne matiere.</l>
             <l n="1540" xml:id="l1540">Ne la trahissez point, faites-la toute entiere.</l>
@@ -5145,15 +5142,15 @@
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l n="1553" xml:id="l1553">Hola, Gardes.</l>
+            <l n="1553" xml:id="l1553" part="I">Hola, Gardes.</l>
           </sp>
           <sp who="euric">
             <speaker>EURIC</speaker>
-            <l part="Y">Madame.</l>
+            <l part="M">Madame.</l>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH  <hi rend="i">en montrant le Comte de Morray.</hi></speaker>
-            <l part="Y">Asseurez-vous de luy.</l>
+            <l part="F">Asseurez-vous de luy.</l>
             <l n="1554" xml:id="l1554">Traistre, qui de mon Trône as fait tomber l’appuy,</l>
             <l n="1555" xml:id="l1555">Ton sang, pour le vanger, répandu goute à goute…</l>
           </sp>
@@ -5182,7 +5179,7 @@
             <l n="1576" xml:id="l1576">Croit que pour vous toucher ce nom seul doit suffire.</l>
             <l n="1577" xml:id="l1577">Un Fils que de mes pleurs j’ay souvent arrosé,</l>
             <l n="1578" xml:id="l1578">Au plus grand des malheurs est peut-estre exposé :</l>
-            <l n="1579" xml:id="l1579">Ce sang de tant de Rois le déplorable reste, <pb n="67" xml:id="p67"/></l>
+            <l n="1579" xml:id="l1579">Ce sang de tant de Rois le déplorable reste,<pb n="67" xml:id="p67"/></l>
             <l n="1580" xml:id="l1580">Est peut-estre élevé dans un Culte funeste.</l>
             <l n="1581" xml:id="l1581">Dans un peril si grand devenez son appuy.</l>
             <l n="1582" xml:id="l1582">Contre ses ennemis declarez-vous pour luy.</l>
@@ -5242,16 +5239,16 @@
             <l n="1636" xml:id="l1636">Il faut qu’à leur fureur mon desespoir me livre ;</l>
             <l n="1637" xml:id="l1637">Et pour mieux me punir, s’ils épargnent mes jours,</l>
             <l n="1638" xml:id="l1638">C’est à vostre justice où sera mon recours.</l>
-            <l n="1639" xml:id="l1639">Je l’attends.</l>
+            <l n="1639" xml:id="l1639" part="I">Je l’attends.</l>
             <stage>Il sort.</stage>
           </sp>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y"><space/>Qu’on le suive, &amp; que l’on m’en réponde.</l>
+            <l part="F">Qu’on le suive, &amp; que l’on m’en réponde.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VI <pb n="69" xml:id="p69"/></head>
+          <head>SCENE VI<pb n="69" xml:id="p69"/></head>
           <stage> Elisabeth, le Comte de Morray, Lancastre, gardes.</stage>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
@@ -5300,7 +5297,7 @@
             <l n="1672" xml:id="l1672">L’endroit où j’ay frappé rend vostre attente vaine :</l>
             <l n="1673" xml:id="l1673">Et j’ay la gloire, au moins  dans un sort si fatal,</l>
             <l n="1674" xml:id="l1674">De mourir autrement que n’est mort mon Rival.</l>
-            <l n="1675" xml:id="l1675">J’expire.</l>
+            <l n="1675" xml:id="l1675" part="I">J’expire.</l>
           </sp>
         </div>
         <div type="scene">
@@ -5308,7 +5305,7 @@
           <stage>Elisabeth, Lancastre.</stage>
           <sp who="elisabeth">
             <speaker>ELISABETH</speaker>
-            <l part="Y">Juste Ciel ! quelle suite de crimes !</l>
+            <l part="F">Juste Ciel ! quelle suite de crimes !</l>
             <l n="1676" xml:id="l1676">Que la haine &amp; l’amour ont d’injustes <ref target="#maxime">maximes*</ref> !</l>
             <l n="1677" xml:id="l1677">Et qu’un cœur déreglé, qui suit leurs mouvemens</l>
             <l n="1678" xml:id="l1678">Se condamne soy-même à de cruels tourmens !</l>

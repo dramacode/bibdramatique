@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> 
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -463,7 +460,7 @@
           <sp who="palemon">
             <speaker>PALEMON.</speaker>
             <l n="29" xml:id="l29">C’est la beauté qui commence de plaire,</l>
-            <l n="30" xml:id="l30"><space/>Mais la douceur acheve de charmer.</l>
+            <l n="30" xml:id="l30">Mais la douceur acheve de charmer.</l>
             <stage>Flore respond au Dialogue de Vertumne &amp; de Palemon, par un Menüet* qu’elle chante. Elle fait entendre que l’on ne doit pas perdre le temps des Plaisirs ; &amp; que c’est une folie à la Jeunesse d’estre sans amour. Les Divinitez qui suivent Vertumne &amp; Palemon, meslent leurs dances au chant de Flore, &amp; chacun fait connoistre son empressement à contribuer à la réjoüissance generale.</stage>
           </sp>
         </div>
@@ -493,7 +490,7 @@
               <l n="47" xml:id="l47">De vouloir resister à ses coups ;</l>
               <l n="48" xml:id="l48">Quelque chaîne</l>
               <l n="49" xml:id="l49">Qu’un Amant prenne,</l>
-              <l n="50" xml:id="l50"><space/><space/>La liberté n’a rien qui soit si doux.</l>
+              <l n="50" xml:id="l50">La liberté n’a rien qui soit si doux.</l>
             </lg>
           </sp>
           <stage>Venus descend dans une grande Machine de Nüages qui occupe tout le Theatre, au travers de laquelle on découvre son Palais. Pendant qu’elle descend, les Divinitez de la Terre &amp; des Eaux recommencent de joindre toutes leurs voix, &amp; continüent par leurs Dances de luy témoigner la joye qu’elles ressentent à son abord.</stage>
@@ -651,7 +648,7 @@
         </castList>
       </div>
       <div type="act">
-        <head>ACTE PREMIER. <pb n="1, A"/></head>
+        <head>ACTE PREMIER.<pb n="1, A"/></head>
         <stage>Le Theatre represente un agreable Païsage au pied d’une Montagne qui s’éleve jusqu’au Ciel d’un costé. On voit paroistre de l’autre une Campagne à perte de veuë.</stage>
         <div type="scene">
           <head>SCENE PREMIERE<note n="87" place="bottom">Cette scène commence avec une ritournelle très gaie et dansante en sol majeur. </note>.</head>
@@ -661,7 +658,7 @@
             <l n="77" xml:id="l77">Enfin, ma Sœur, le Ciel est appaisé,</l>
             <l n="78" xml:id="l78">Et le Serpent qui nous rendoit à plaindre</l>
             <l n="79" xml:id="l79">Va n’estre plus à craindre.</l>
-            <l n="80" xml:id="l80"><space/><space/>Tout pour le Sacrifice est icy disposé, <pb n="2"/><note n="88" place="bottom"> À partir de cette page, l’inscription « PSYCHE’, TRAGEDIE. » apparaît en tête de chaque page, dont « Psyché » à la page gauche (paire) et « Tragédie » à la page droite (impaire).  Nous signalons, mais ne reproduisons pas.</note></l>
+            <l n="80" xml:id="l80">Tout pour le Sacrifice est icy disposé,<pb n="2"/><note n="88" place="bottom"> À partir de cette page, l’inscription « PSYCHE’, TRAGEDIE. » apparaît en tête de chaque page, dont « Psyché » à la page gauche (paire) et « Tragédie » à la page droite (impaire).  Nous signalons, mais ne reproduisons pas.</note></l>
             <l n="81" xml:id="l81">Psyché pour l’offrir va s’y rendre.</l>
           </sp>
           <sp who="cidippe">
@@ -704,7 +701,7 @@
             <l n="102" xml:id="l102">Qui brave trop l’Amour doit craindre sa colere.</l>
           </sp>
           <sp who="cidippe">
-            <speaker>CIDIPPE. <pb n="3"/></speaker>
+            <speaker>CIDIPPE.<pb n="3"/></speaker>
             <l n="103" xml:id="l103">Il est un fatal moment,</l>
             <l n="104" xml:id="l104">Où l’Objet le plus severe</l>
             <l n="105" xml:id="l105">Se rend aux vœux d’un Amant,</l>
@@ -713,11 +710,11 @@
           </sp>
           <sp who="aglaure">
             <speaker>AGLAURE.</speaker>
-            <l n="108" xml:id="l108">Lychas vient à nous.</l>
+            <l n="108" xml:id="l108" part="I">Lychas vient à nous.</l>
           </sp>
           <sp who="cidippe">
             <speaker>CIDIPPE.</speaker>
-            <l part="Y"><space/><space/>Son visage</l>
+            <l part="F">Son visage</l>
             <l n="109" xml:id="l109">Nous marque une vive douleur.</l>
           </sp>
         </div>
@@ -726,11 +723,11 @@
           <stage>AGLAURE, CIDIPPE, LYCHAS.</stage>
           <sp who="lychas">
             <speaker>LYCHAS.</speaker>
-            <l n="110" xml:id="l110">Ah ! Princesses !</l>
+            <l n="110" xml:id="l110" part="I">Ah ! Princesses !</l>
           </sp>
           <sp who="aglaure">
             <speaker>AGLAURE.</speaker>
-            <l part="Y"><space/><space/>De quel mal-heur</l>
+            <l part="F">De quel mal-heur</l>
             <l n="111" xml:id="l111">Ce soûpir est-il le presage ?</l>
           </sp>
           <sp who="lychas">
@@ -784,7 +781,7 @@
           <sp who="cidippe">
             <speaker>CIDIPPE.</speaker>
             <l n="136" xml:id="l136">C’est de là que nos maux &amp; les siens sont venus :</l>
-            <l n="137" xml:id="l137"><space/><space/>Qui croiroit que ce fût un crime d’estre belle ?<pb n="5"/></l>
+            <l n="137" xml:id="l137">Qui croiroit que ce fût un crime d’estre belle ?<pb n="5"/></l>
           </sp>
           <sp who="aglaure">
             <speaker>AGLAURE, &amp; CIDIPPE.</speaker>
@@ -841,7 +838,6 @@
             <l n="159" xml:id="l159">Antri cavi, ascose rupi ;</l>
             <l n="160" xml:id="l160"><hi rend="i">Deh, ridite, fondi cupi</hi>,</l>
             <l n="161" xml:id="l161">
-              <space/>
               <hi rend="i">Del mio duolo i mesti accenti.</hi>
               <pb n="8"/>
             </l>
@@ -903,11 +899,11 @@
           <stage>LE ROY, PSYCHE’<note n="94" place="bottom">Voir « PSYCHÉ » dans le lexique mythologique.</note>, AGLAURE, CIDIPPE.</stage>
           <sp who="aglaure">
             <speaker>AGLAURE.</speaker>
-            <l n="182" xml:id="l182">Psyché vient. A la voir je tremble.</l>
+            <l n="182" xml:id="l182" part="I">Psyché vient. A la voir je tremble.</l>
           </sp>
           <sp who="cidippe">
             <speaker>CIDIPPE.</speaker>
-            <l part="Y"><space/><space/>Quel supplice !</l>
+            <l part="F">Quel supplice !</l>
             <l n="183" xml:id="l183">Le moyen de luy dire adieu ?</l>
           </sp>
           <sp who="psyche">
@@ -917,30 +913,30 @@
           </sp>
           <sp who="aglaure">
             <speaker>AGLAURE.</speaker>
-            <l n="186" xml:id="l186">Ah ! ma Sœur !</l>
+            <l n="186" xml:id="l186" part="I">Ah ! ma Sœur !</l>
           </sp>
           <sp who="cidippe">
             <speaker>CIDIPPE.</speaker>
-            <l part="Y"><space/><space/>Ah ! ma Sœur !</l>
+            <l part="M">Ah ! ma Sœur !</l>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
-            <l part="Y"><space/><space/>Quels sont vos déplaisirs ?</l>
+            <l part="F">Quels sont vos déplaisirs ?</l>
             <l n="187" xml:id="l187">Quoy ? dans un jour si remply d’allegresse,</l>
             <l n="188" xml:id="l188">Où du Ciel la colere cesse,</l>
             <l n="189" xml:id="l189">Vous pouvez pousser des soûpirs ?</l>
           </sp>
           <sp who="aglaure">
             <speaker>AGLAURE.</speaker>
-            <l n="190" xml:id="l190">Nous plaignons vostre erreur.</l>
+            <l n="190" xml:id="l190" part="I">Nous plaignons vostre erreur.</l>
           </sp>
           <sp who="cidippe">
             <speaker>CIDIPPE.</speaker>
-            <l part="Y"><space/><space/>Ah ! trop funestes charmes !</l>
+            <l part="F">Ah ! trop funestes charmes !</l>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
-            <l n="191" xml:id="l191"><space/><space/>Dites-moy donc le sujet de vos larmes.<pb n="11"/></l>
+            <l n="191" xml:id="l191">Dites-moy donc le sujet de vos larmes.<pb n="11"/></l>
           </sp>
           <sp who="aglaure">
             <speaker>AGLAURE &amp; CIDIPPE.</speaker>
@@ -965,18 +961,18 @@
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
-            <l n="200" xml:id="l200">Et qui donc perdez-vous ?</l>
+            <l n="200" xml:id="l200" part="I">Et qui donc perdez-vous ?</l>
           </sp>
           <sp who="roy">
             <speaker>LE ROY.</speaker>
-            <l part="Y"><space/><space/>Tout ce qu’en ma Famille</l>
+            <l part="F">Tout ce qu’en ma Famille</l>
             <l n="201" xml:id="l201">J’avois de cher, de precieux,</l>
             <l n="202" xml:id="l202">Le barbare decret des Dieux</l>
             <l n="203" xml:id="l203">Nous demande ton sang, il faut mourir, ma Fille,</l>
             <l n="204" xml:id="l204">Il faut sur ce Rocher t’exposer au Serpent,</l>
             <l n="205" xml:id="l205">Et lors que ma douleur par mes larmes s’exprime,</l>
             <l n="206" xml:id="l206">C’est pour toy, de ces Dieux déplorable Victime,</l>
-            <l n="207" xml:id="l207"><space/><space/>Que ma tendresse les répand. <pb n="12"/></l>
+            <l n="207" xml:id="l207">Que ma tendresse les répand.<pb n="12"/></l>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
@@ -1021,11 +1017,11 @@
           </sp>
           <sp who="roy">
             <speaker>LE ROY.</speaker>
-            <l n="228" xml:id="l228"><space/><space/>Tu me quittes.<pb n="13"/></l>
+            <l n="228" xml:id="l228" part="I">Tu me quittes.<pb n="13"/></l>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
-            <l part="Y"><space/><space/>Je veux vous épargner un crime.</l>
+            <l part="F">Je veux vous épargner un crime.</l>
           </sp>
           <sp who="roy">
             <speaker>LE ROY.</speaker>
@@ -1033,11 +1029,11 @@
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
-            <l n="230" xml:id="l230">Vivez heureux.</l>
+            <l n="230" xml:id="l230" part="I">Vivez heureux.</l>
           </sp>
           <sp who="roy">
             <speaker>LE ROY.</speaker>
-            <l part="Y"><space/><space/>Et le puis-je sans toy ?</l>
+            <l part="F">Et le puis-je sans toy ?</l>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
@@ -1046,11 +1042,11 @@
           <sp who="roy">
             <speaker>LE ROY.</speaker>
             <l n="232" xml:id="l232">Tu vas sur le Rocher, cruelle,</l>
-            <l n="233" xml:id="l233">Arreste, que fais tu ?</l>
+            <l n="233" xml:id="l233" part="I">Arreste, que fais tu ?</l>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’ <hi rend="i">montant sur le Rocher</hi></speaker>
-            <l part="Y"><space/><space/>Je fais ce que je doy.</l>
+            <l part="F">Je fais ce que je doy.</l>
           </sp>
           <sp who="roy">
             <speaker>LE ROY.</speaker>
@@ -1119,7 +1115,7 @@
             <l n="261" xml:id="l261">Et suis ravy de m’employer pour elle.</l>
             <l n="262" xml:id="l262">Venus m’a fait d’étranges tours</l>
             <l n="263" xml:id="l263">Sur la Foy conjugale.</l>
-            <l n="264" xml:id="l264"><space/><space/>Mais je veux l’en punir en prestant mon secours<pb n="16"/></l>
+            <l n="264" xml:id="l264">Mais je veux l’en punir en prestant mon secours<pb n="16"/></l>
             <l n="265" xml:id="l265">Au triomphe de sa Rivale.</l>
           </sp>
           <sp who="zephire">
@@ -1149,7 +1145,7 @@
               <l n="281" xml:id="l281">Travaillez, hastez-vous.</l>
               <l n="282" xml:id="l282">Frapez, redoublez vos coups.</l>
               <l n="283" xml:id="l283">Que l’ardeur de luy plaire</l>
-              <l n="284" xml:id="l284"><space/><space/>Fasse vos soins les plus doux. <pb n="C, 17"/></l>
+              <l n="284" xml:id="l284">Fasse vos soins les plus doux.<pb n="C, 17"/></l>
             </lg>
             <stage>L’Entrée des Cyclopes recommence, apres laquelle Vulcain continuë à leur dire.</stage>
             <lg>
@@ -1178,7 +1174,7 @@
             <l n="296" xml:id="l296">Quoy, vous vous employez pour la fiére Psyché ;</l>
             <l n="297" xml:id="l297">Pour une insolente Mortelle ?</l>
             <l n="298" xml:id="l298">Cét indigne travail vous tient donc attaché,</l>
-            <l n="299" xml:id="l299"><space/><space/>Et l’Espoux de Venus se declare contre elle ? <pb n="18"/></l>
+            <l n="299" xml:id="l299">Et l’Espoux de Venus se declare contre elle ?<pb n="18"/></l>
           </sp>
           <sp who="vulcain">
             <speaker>VULCAIN.</speaker>
@@ -1212,7 +1208,7 @@
             <l n="321" xml:id="l321">La vangeance seroit plus belle,</l>
             <l n="322" xml:id="l322">Mais je suis à ma Forge occupé nuit &amp; jour.</l>
             <l n="323" xml:id="l323">Je n’ay pas le loisir de luy parler d’amour,</l>
-            <l n="324" xml:id="l324">Et je me borne à travailler pour elle. <pb n="19"/></l>
+            <l n="324" xml:id="l324">Et je me borne à travailler pour elle.<pb n="19"/></l>
           </sp>
           <sp who="venus">
             <speaker>VENUS.</speaker>
@@ -1238,7 +1234,7 @@
             <l n="333" xml:id="l333">Est-ce dans ces aimables lieux</l>
             <l n="334" xml:id="l334">Que l’Oracle veut que je meure ?</l>
             <l n="335" xml:id="l335">Je reconnois la rigueur de mon sort,</l>
-            <l n="336" xml:id="l336"><space/><space/>Lors qu’avec tant d’excés je m’en voy poursuivie, <pb n="20"/></l>
+            <l n="336" xml:id="l336">Lors qu’avec tant d’excés je m’en voy poursuivie,<pb n="20"/></l>
             <l n="337" xml:id="l337">Il veut que cette pompe accompagne ma mort,</l>
             <l n="338" xml:id="l338">Pour me faire à regret abandonner la vie.</l>
             <l n="339" xml:id="l339">Cruelle mort, pourquoy tardez-vous tant ?</l>
@@ -1274,7 +1270,7 @@
           <sp who="zephir-cache">
             <speaker>DEUX ZEPHIRS <hi rend="i">cachez ensemble.</hi></speaker>
             <l n="351" xml:id="l351">Aimez, il n’est de beaux ans</l>
-            <l n="352" xml:id="l352"><space/><space/>Que dans l’amoureux Empire.<pb n="21"/></l>
+            <l n="352" xml:id="l352">Que dans l’amoureux Empire.<pb n="21"/></l>
             <l n="353" xml:id="l353">Qui laisse échaper le temps</l>
             <l n="354" xml:id="l354">Quelque-fois trop tard soûpire.</l>
             <l n="355" xml:id="l355">Aimez, il n’est de beaux ans</l>
@@ -1353,7 +1349,7 @@
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
-            <l n="388" xml:id="l388"><space/><space/>Il est donc vray que vous m’aimez ? <pb n="23"/></l>
+            <l n="388" xml:id="l388">Il est donc vray que vous m’aimez ?<pb n="23"/></l>
           </sp>
           <sp who="amour">
             <speaker>L’AMOUR.</speaker>
@@ -1397,7 +1393,7 @@
             <l n="408" xml:id="l408">Qui nous laisse tous deux cachez dans ce Palais.</l>
             <l n="409" xml:id="l409">Vous m’y verrez vous adorer sans cesse,</l>
             <l n="410" xml:id="l410">Sans cesse de mon cœur vous faire un nouveau don.</l>
-            <l n="411" xml:id="l411"><space/><space/>Pourveu que vous sçachiez l’excés de ma tendresse<pb n="24"/></l>
+            <l n="411" xml:id="l411">Pourveu que vous sçachiez l’excés de ma tendresse<pb n="24"/></l>
             <l n="412" xml:id="l412">Qu’importe de sçavoir mon nom ?</l>
             <l n="413" xml:id="l413">Ce n’est point comme un Dieu que je prétens paroistre,</l>
             <l n="414" xml:id="l414">Ce titre ne fait pas aimer plus tendrement,</l>
@@ -1425,7 +1421,7 @@
           <sp who="nymphe3">
             <speaker>II. &amp; III. NYMPHE.</speaker>
             <l n="431" xml:id="l431">Chacun est obligé d’aimer</l>
-            <l n="432" xml:id="l432"><space/><space/>A son tour, <pb n="D, 25"/></l>
+            <l n="432" xml:id="l432">A son tour,<pb n="D, 25"/></l>
             <l n="433" xml:id="l433">Et plus on a dequoy charmer,</l>
             <l n="434" xml:id="l434">Plus on doit à l’Amour.</l>
           </sp>
@@ -1447,7 +1443,7 @@
             <speaker>III<hi rend="sup">e</hi> NYMPHE.</speaker>
             <l n="443" xml:id="l443">Pourquoy se défendre ?</l>
             <l n="444" xml:id="l444">Que sert-il d’attendre ?</l>
-            <l n="445" xml:id="l445"><space/>Quand on perd un jour,    </l>
+            <l n="445" xml:id="l445">Quand on perd un jour,    </l>
             <l n="446" xml:id="l446">On le perd sans retour.</l>
           </sp>
           <sp who="nymphe2">
@@ -1464,7 +1460,7 @@
             <l n="452" xml:id="l452">Rendons luy les armes,</l>
             <l n="453" xml:id="l453">Ses soins &amp; ses pleurs</l>
             <l n="454" xml:id="l454">Ne sont pas sans douceurs ;</l>
-            <l n="455" xml:id="l455"><space/><space/>Un cœur pour le suivre<pb n="26"/></l>
+            <l n="455" xml:id="l455">Un cœur pour le suivre<pb n="26"/></l>
             <l n="456" xml:id="l456">A cent maux se livre.</l>
             <l n="457" xml:id="l457">Il faut pour goûter ses appas</l>
             <l n="458" xml:id="l458">Languir jusqu’au trespas,</l>
@@ -1503,7 +1499,7 @@
             <speaker>II. &amp; III. NYMPHE.</speaker>
             <l n="477" xml:id="l477">S’il faut des soins &amp; des travaux</l>
             <l n="478" xml:id="l478">En aimant,</l>
-            <l n="479" xml:id="l479"><space/><space/>On est payé de mille maux<pb n="27"/></l>
+            <l n="479" xml:id="l479">On est payé de mille maux<pb n="27"/></l>
             <l n="480" xml:id="l480">Par un heureux moment<note n="111" place="bottom">On reprend pour intermède l’« air pour les petits Amours &amp; Zéphirs » avec lequel le divertissement était commencé.</note>.</l>
           </sp>
           <label>FIN DU SECOND ACTE.</label>
@@ -1527,7 +1523,7 @@
               <l n="488" xml:id="l488">De son pouvoir &amp; de mon impuissance.</l>
             </lg>
             <lg>
-              <l n="489" xml:id="l489"><space/><space/>Que le mespris est rigoureux<pb n="29"/></l>
+              <l n="489" xml:id="l489">Que le mespris est rigoureux<pb n="29"/></l>
               <l n="490" xml:id="l490">A qui se croit digne de plaire !</l>
               <l n="491" xml:id="l491">Un seul Objet qu’on nous prefere</l>
               <l n="492" xml:id="l492">Nous fait un destin malheureux.</l>
@@ -1558,7 +1554,7 @@
             <l n="507" xml:id="l507">Mais je n’y voy point ce que j’aime.</l>
             <l n="508" xml:id="l508">Ah ! Qu’une absence d’un moment,</l>
             <l n="509" xml:id="l509">Quand la tendresse est extrême,</l>
-            <l n="510" xml:id="l510"><space/><space/>Est un rigoureux tourment ! <pb n="30"/></l>
+            <l n="510" xml:id="l510">Est un rigoureux tourment !<pb n="30"/></l>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’ <hi rend="i">apercevant Venus.</hi></speaker>
@@ -1597,7 +1593,7 @@
             <l n="531" xml:id="l531">Qu’un peu trop de délicatesse.</l>
             <l n="532" xml:id="l532">Vous n’estes pas les plus heureux</l>
             <l n="533" xml:id="l533">Vous dont l’amour est si pur &amp; si tendre.</l>
-            <l n="534" xml:id="l534"><space/><space/>Si tout vostre repos est reduit à dependre<pb n="31"/></l>
+            <l n="534" xml:id="l534">Si tout vostre repos est reduit à dependre<pb n="31"/></l>
             <l n="535" xml:id="l535">Du moindre scrupule amoureux,</l>
             <l n="536" xml:id="l536">Vous dont l’amour est si pur &amp; si tendre,</l>
             <l n="537" xml:id="l537">Vous n’estes pas les plus heureux.</l>
@@ -1613,15 +1609,15 @@
           </sp>
           <sp who="venus">
             <speaker>VENUS.</speaker>
-            <l n="541" xml:id="l541">Vous me <ref target="#decouvrir">découvrirez*</ref>.</l>
+            <l n="541" xml:id="l541" part="I">Vous me <ref target="#decouvrir">découvrirez*</ref>.</l>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
-            <l part="Y"><space/><space/>Ne craignez rien.</l>
+            <l part="M">Ne craignez rien.</l>
           </sp>
           <sp who="venus">
             <speaker>VENUS.</speaker>
-            <l part="Y"><space/><space/>Je n’ose.</l>
+            <l part="F">Je n’ose.</l>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
@@ -1637,12 +1633,12 @@
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
-            <l n="548" xml:id="l548">Que ne vous doy-je point ?</l>
+            <l n="548" xml:id="l548" part="I">Que ne vous doy-je point ?</l>
           </sp>
           <sp who="venus">
             <speaker>VENUS.</speaker>
-            <l part="Y"><space/><space/>Il faut me retirer,</l>
-            <l n="549" xml:id="l549"><space/><space/>Ma presence nuiroit au desir qui vous presse. <pb n="32"/></l>
+            <l part="F">Il faut me retirer,</l>
+            <l n="549" xml:id="l549">Ma presence nuiroit au desir qui vous presse.<pb n="32"/></l>
           </sp>
         </div>
         <div type="scene">
@@ -1665,8 +1661,8 @@
             <l n="561" xml:id="l561">Ah ! pour le reconnoistre,</l>
             <l n="562" xml:id="l562">Sans le voir dans l’éclat où je le voy paroistre,</l>
             <l n="563" xml:id="l563">Ne suffisoit-il pas de cette prompte ardeur</l>
-            <l n="564" xml:id="l564"><space/>Qu’il a si vivement fait naistre dans mon cœur ?    </l>
-            <l n="565" xml:id="l565"><space/><space/>Si le plaisir d’aimer est un plaisir extrème,<pb n="E, 33"/></l>
+            <l n="564" xml:id="l564">Qu’il a si vivement fait naistre dans mon cœur ?    </l>
+            <l n="565" xml:id="l565">Si le plaisir d’aimer est un plaisir extrème,<pb n="E, 33"/></l>
             <l n="566" xml:id="l566">Quels charmes n’a-t-il pas quand c’est l’Amour qu’on aime ?</l>
             <l n="567" xml:id="l567">Jamais Amant ne fut si beau,</l>
             <l n="568" xml:id="l568">Si digne de toucher un cœur fidele &amp; tendre.</l>
@@ -1688,7 +1684,7 @@
             <speaker>PSYCHE’.</speaker>
             <l n="575" xml:id="l575">Arrestez, cher Amant, où Fuïez-vous si viste ?</l>
             <l n="576" xml:id="l576">Arrestez, Amour, arrestez.</l>
-            <l n="577" xml:id="l577"><space/><space/>Pouvez-vous me laisser triste, seule, interdite ?<pb n="34"/></l>
+            <l n="577" xml:id="l577">Pouvez-vous me laisser triste, seule, interdite ?<pb n="34"/></l>
             <l n="578" xml:id="l578">Je meurs puis que vous me quittez.</l>
             <l n="579" xml:id="l579">J’ay voulu vous voir, c’est mon crime,</l>
             <l n="580" xml:id="l580">Ma tendresse a causé mon trop d’empressement.</l>
@@ -1710,11 +1706,11 @@
           <sp who="venus">
             <speaker>VENUS.</speaker>
             <l n="588" xml:id="l588">Crains-tout, ouvre les yeux, &amp; connois qui je suis.</l>
-            <l n="589" xml:id="l589">C’est Venus que tu vois.</l>
+            <l n="589" xml:id="l589" part="I">C’est Venus que tu vois.</l>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
-            <l part="Y"><space/><space/>Dieux ! se pourroit-il faire !</l>
+            <l part="F">Dieux ! se pourroit-il faire !</l>
             <l n="590" xml:id="l590">Que Venus pour me perdre eût pû se déguiser ?</l>
           </sp>
           <sp who="venus">
@@ -1722,7 +1718,7 @@
             <l n="591" xml:id="l591">Dans l’ardeur de punir ton orgueil temeraire,</l>
             <l n="592" xml:id="l592">Exprés j’ay voulu t’abuser.</l>
             <l n="593" xml:id="l593">Apres que pour flater ta beauté criminelle</l>
-            <l n="594" xml:id="l594"><space/><space/>Mes honneurs m’ont esté ravis,<pb n="35"/></l>
+            <l n="594" xml:id="l594">Mes honneurs m’ont esté ravis,<pb n="35"/></l>
             <l n="595" xml:id="l595">Je souffriray qu’une simple Mortelle</l>
             <l n="596" xml:id="l596">Porte ses vœux jusqu’à mon Fils ?</l>
           </sp>
@@ -1759,7 +1755,7 @@
             <l n="616" xml:id="l616">Pour fléchir la rigueur où mon couroux s’obstine,</l>
             <l n="617" xml:id="l617">Vers les rives du Stix il faut tourner ses pas,</l>
             <l n="618" xml:id="l618">Et m’aporter la <ref target="#boete">Boëte*</ref> où Proserpine</l>
-            <l n="619" xml:id="l619">Enferme ce qui peut augmenter ses appas ; <pb n="36"/></l>
+            <l n="619" xml:id="l619">Enferme ce qui peut augmenter ses appas ;<pb n="36"/></l>
             <l n="620" xml:id="l620">C’est l’employ qu’à tes soins ma vangeance destine.</l>
           </sp>
         </div>
@@ -1827,7 +1823,7 @@
               <l n="648" xml:id="l648">Mais tout affreux que je les voy,</l>
               <l n="649" xml:id="l649">Qu’ils auroient de charmes pour moy</l>
               <l n="650" xml:id="l650">Si j’y rencontrois ce que j’aime !<note n="118" place="bottom">On reprend la ritournelle.</note></l>
-              <l n="651" xml:id="l651"><space/><space/>N’y pensons plus, mon bon-heur a changé, <pb n="39"/></l>
+              <l n="651" xml:id="l651">N’y pensons plus, mon bon-heur a changé,<pb n="39"/></l>
               <l n="652" xml:id="l652">J’ay voulu voir l’Amour, &amp; l’Amour s’est vangé.</l>
             </lg>
             <lg>
@@ -1853,7 +1849,7 @@
             <l n="663" xml:id="l663">Où penses-tu porter tes pas,</l>
             <l n="664" xml:id="l664">Temeraire Mortelle ?</l>
             <l n="665" xml:id="l665">Quel destin parmy-nous t’appelle ?</l>
-            <l n="666" xml:id="l666"><space/><space/>Viens-tu nous braver icy bas ? <pb n="40"/></l>
+            <l n="666" xml:id="l666">Viens-tu nous braver icy bas ?<pb n="40"/></l>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
@@ -1894,7 +1890,7 @@
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
             <l n="685" xml:id="l685">Deux mots, &amp; de ces lieux je suis preste à sortir.</l>
-            <l n="686" xml:id="l686"><space/><space/>Conduisez-moy vers Proserpine. <pb n="F, 41"/></l>
+            <l n="686" xml:id="l686">Conduisez-moy vers Proserpine.<pb n="F, 41"/></l>
           </sp>
           <sp who="furie">
             <speaker>UNE FURIE.</speaker>
@@ -1922,7 +1918,7 @@
             <speaker>LES DEUX NYMPHES.</speaker>
             <l n="695" xml:id="l695">En vain ce <ref target="#soin">soin*</ref> vous embarasse.</l>
             <l n="696" xml:id="l696">Nous avons l’ordre, allez, &amp; nous quittez la place.</l>
-            <stage>Les trois Furies sortent. <pb n="42"/></stage>
+            <stage>Les trois Furies sortent.<pb n="42"/></stage>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
@@ -1968,7 +1964,7 @@
             <l n="715" xml:id="l715">L’amour anime l’Univers,</l>
             <l n="716" xml:id="l716">Tout cede aux ardeurs qu’il inspire,</l>
             <l n="717" xml:id="l717">Et jusques dans les Enfers,</l>
-            <l n="718" xml:id="l718"><space/><space/>On reconnoist son Empire. <pb n="43"/></l>
+            <l n="718" xml:id="l718">On reconnoist son Empire.<pb n="43"/></l>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’.</speaker>
@@ -2010,7 +2006,7 @@
               <l n="735" xml:id="l735">Ce sont icy les Jardins de sa Mere,</l>
               <l n="736" xml:id="l736">Peut-estre en ce moment il luy parle de moy.</l>
               <l n="737" xml:id="l737">Je puis l’y rencontrer. Pour meriter sa foy</l>
-              <l n="738" xml:id="l738"><space/><space/>Cherchons jusqu’au bout à luy plaire. <pb n="45"/></l>
+              <l n="738" xml:id="l738">Cherchons jusqu’au bout à luy plaire.<pb n="45"/></l>
               <l n="739" xml:id="l739">Si mes <ref target="#ennui">ennuis*</ref> ont pû ternir</l>
               <l n="740" xml:id="l740">Ces attraits dont l’éclat m’a sçeu rendre coupable,</l>
               <l n="741" xml:id="l741">Cette <ref target="#boete">Boëte*</ref> me va fournir</l>
@@ -2036,7 +2032,7 @@
             <l n="752" xml:id="l752">Par l’état déplorable où j’ay reduit ton sort,</l>
             <l n="753" xml:id="l753">Voy ce que mon couroux te laisse encor à craindre.</l>
             <l n="754" xml:id="l754">Si tes mal-heurs si tost finissoient par la mort,</l>
-            <l n="755" xml:id="l755"><space/><space/>Ton sort ne seroit pas à plaindre.<pb n="46"/></l>
+            <l n="755" xml:id="l755">Ton sort ne seroit pas à plaindre.<pb n="46"/></l>
           </sp>
           <sp who="psyche">
             <speaker>PSYCHE’ <hi rend="i">couchée sur le Gazon.</hi></speaker>
@@ -2075,7 +2071,7 @@
           <sp who="venus">
             <speaker>VENUS.</speaker>
             <l n="770" xml:id="l770">Quoy, Mercure, on n’aura pour moy que du mépris ?</l>
-            <l n="771" xml:id="l771"><space/><space/>Je pourray me vanger, &amp; n’oseray le faire ? <pb n="47"/></l>
+            <l n="771" xml:id="l771">Je pourray me vanger, &amp; n’oseray le faire ?<pb n="47"/></l>
           </sp>
           <sp who="mercure">
             <speaker>MERCURE.</speaker>
@@ -2112,7 +2108,7 @@
           </sp>
           <sp who="venus">
             <speaker>VENUS.</speaker>
-            <l n="796" xml:id="l796"><space/><space/>On veut donc m’obliger à consentir qu’il aime ? <pb n="48"/></l>
+            <l n="796" xml:id="l796">On veut donc m’obliger à consentir qu’il aime ?<pb n="48"/></l>
           </sp>
           <sp who="mercure">
             <speaker>MERCURE.</speaker>
@@ -2140,7 +2136,7 @@
             <l n="804" xml:id="l804">Si tu ne m’en veux point dédire,</l>
             <l n="805" xml:id="l805">Il n’est rien pour Psyché qui ne me soit permis.</l>
             <l n="806" xml:id="l806">Seule aux yeux de l’Amour elle est aimable &amp; belle,</l>
-            <l n="807" xml:id="l807"><space/><space/>Pour l’égaler à luy je la fais immortelle. <pb n="G, 49"/></l>
+            <l n="807" xml:id="l807">Pour l’égaler à luy je la fais immortelle.<pb n="G, 49"/></l>
           </sp>
           <sp who="venus">
             <speaker>VENUS.</speaker>
@@ -2177,7 +2173,7 @@
             <l n="817" xml:id="l817">Aimez sans trouble &amp; sans alarmes.</l>
             <l n="818" xml:id="l818">Vous, Dieux, accourez tous, &amp; dans cet heureux jour</l>
             <l n="819" xml:id="l819">Celebrez à l’envy la gloire de l’Amour.</l>
-            <stage>Lors que Jupiter appelle l’Amour, &amp; ensuite toutes les Divinitez, l’Amour descend sur la <ref target="#gloire">Gloire*</ref>, &amp; va s’asseoir aux pieds de Jupiter. Venus &amp; Psyché estant enlevées par un nüage, vont se placer aux deux costez de l’Amour, &amp; Apollon, Bacchus, Mome &amp; Mars, descendent dans leurs Machines auprés de leurs Quadrilles. Le Jardin disparoist, &amp; tout le Theatre represente le Ciel. <pb n="50"/></stage>
+            <stage>Lors que Jupiter appelle l’Amour, &amp; ensuite toutes les Divinitez, l’Amour descend sur la <ref target="#gloire">Gloire*</ref>, &amp; va s’asseoir aux pieds de Jupiter. Venus &amp; Psyché estant enlevées par un nüage, vont se placer aux deux costez de l’Amour, &amp; Apollon, Bacchus, Mome &amp; Mars, descendent dans leurs Machines auprés de leurs Quadrilles. Le Jardin disparoist, &amp; tout le Theatre represente le Ciel.<pb n="50"/></stage>
             <stage>Apollon conduit les Muses, &amp; les Arts ; Bacchus est accompagné de Silene<note n="126" place="bottom">Voir « SILENE » dans le lexique mythologique.</note>, des Ægipans &amp; des Mœnades<note n="127" place="bottom">Voir « MENADES » dans le lexique mythologique.</note> ; Mome<note n="128" place="bottom">Voir « MOMUS » dans le lexique mythologique.</note>, Dieu de la Raillerie, méne aprés luy une Troupe enjoüée de <ref target="#polichinel">Polichinelles*</ref>, &amp; de <ref target="#matassins">Matassins*</ref> ; &amp; Mars paroist à la teste d’une Troupe de Guerriers, suivis de Tymbales, de Tambours, &amp; de Trompettes.</stage>
             <stage>Apollon Dieu de l’Harmonie commence le premier à chanter, pour inviter les Dieux à se réjoüir.</stage>
           </sp>
@@ -2230,7 +2226,7 @@
             <l n="848" xml:id="l848">Mes plus fiers Ennemis vaincus ou pleins d’éfroy</l>
             <l n="849" xml:id="l849">Ont veu toûjours ma Valeur triomphante,</l>
             <l n="850" xml:id="l850">L’Amour est le seul qui se vante</l>
-            <l n="851" xml:id="l851"><space/><space/>D’avoir pû triompher de moy. <pb n="52"/></l>
+            <l n="851" xml:id="l851">D’avoir pû triompher de moy.<pb n="52"/></l>
             <stage>Tous les Dieux du Ciel unissent leurs voix, &amp; engagent les Tymbales &amp; les Trompettes à répondre à leurs Chants, &amp; à se méler avec leurs plus doux Concerts.</stage>
           </sp>
           <sp who="choeur">
@@ -2254,7 +2250,7 @@
             <l n="864" xml:id="l864">C’est leur plus doux usage</l>
             <l n="865" xml:id="l865">Que de finir les soins du Jour ;</l>
             <l n="866" xml:id="l866">La Nuit est le partage</l>
-            <l n="867" xml:id="l867"><space/><space/>Des Jeux &amp; de l’Amour. <pb n="53"/></l>
+            <l n="867" xml:id="l867">Des Jeux &amp; de l’Amour.<pb n="53"/></l>
             <l n="868" xml:id="l868">Ce seroit grand dommage</l>
             <l n="869" xml:id="l869">Qu’en ce charmant Séjour</l>
             <l n="870" xml:id="l870">On eût un Cœur sauvage.</l>
@@ -2284,7 +2280,7 @@
               <l n="887" xml:id="l887">Quand il faut que l’on soûpire,</l>
               <l n="888" xml:id="l888">Tout le mal n’est pas de s’enflamer ;</l>
               <l n="889" xml:id="l889">Le martire</l>
-              <l n="890" xml:id="l890"><space/><space/>De le dire,<pb n="54"/></l>
+              <l n="890" xml:id="l890">De le dire,<pb n="54"/></l>
               <l n="891" xml:id="l891">Coûte plus cent fois que d’aimer.</l>
             </lg>
             <stage>Les Mœnades &amp; les Ægipans viennent dancer à leur tour. Bacchus s’avance au milieu d’eux, &amp; chante une Chanson à la loüange du Vin.</stage>
@@ -2313,7 +2309,7 @@
               <l n="904" xml:id="l904">Que sa Cour a d’attraits !</l>
               <l n="905" xml:id="l905">Chantons y bien sa gloire :</l>
               <l n="906" xml:id="l906">Tout le jour on n’y fait que boire,</l>
-              <l n="907" xml:id="l907"><space/><space/>Et la nuit on y dort en paix. <pb n="55"/></l>
+              <l n="907" xml:id="l907">Et la nuit on y dort en paix.<pb n="55"/></l>
             </lg>
             <stage>Deux Satyres<note n="135" place="bottom"> La première didascalie de ce divertissement ne mentionne pas de satyres.  Se confonderaient-ils avec les Aegipans ?</note> se joignent à Silene, &amp; tous trois chantent ensemble un Trio à la loüange de Bacchus, &amp; des douceurs de son Empire.</stage>
           </sp>
@@ -2348,7 +2344,7 @@
             <speaker>TOUS ENSEMBLE.</speaker>
             <l n="917" xml:id="l917">Voulez-vous des douceurs parfaites ?</l>
             <l n="918" xml:id="l918">Ne les cherchez qu’au fonds des Pots.</l>
-            <stage>Une Troupe de <ref target="#polichinel">Polichinelles*</ref> &amp; de <ref target="#matassins">Matassins*</ref> vient joindre leurs plaisanteries &amp; leurs badinages aux Divertissements de cette grande Feste<note n="136" place="bottom">Les matassins et polichinelles ont un très long air sur les violons qui restaure la tonalité mineure pour la « Chanson de Mome ».</note>. Mome qui les conduit chante au milieu d’eux une Chanson enjoüée sur le sujet des avantages &amp; des plaisirs de la Raillerie. <pb n="56"/></stage>
+            <stage>Une Troupe de <ref target="#polichinel">Polichinelles*</ref> &amp; de <ref target="#matassins">Matassins*</ref> vient joindre leurs plaisanteries &amp; leurs badinages aux Divertissements de cette grande Feste<note n="136" place="bottom">Les matassins et polichinelles ont un très long air sur les violons qui restaure la tonalité mineure pour la « Chanson de Mome ».</note>. Mome qui les conduit chante au milieu d’eux une Chanson enjoüée sur le sujet des avantages &amp; des plaisirs de la Raillerie.<pb n="56"/></stage>
           </sp>
           <sp who="mome">
             <speaker><hi rend="i">CHANSON DE</hi> MOME.</speaker>
@@ -2380,7 +2376,7 @@
             <l n="936" xml:id="l936">Cherchons de doux amusements ;</l>
             <l n="937" xml:id="l937">Parmy les Jeux les plus charmants,</l>
             <l n="938" xml:id="l938">Meslons l’image de la Guerre.</l>
-            <stage>Quatre hommes portants des Enseignes, s’en servent à faire paroistre leur adresse en dançant. <pb n="H, 57"/></stage>
+            <stage>Quatre hommes portants des Enseignes, s’en servent à faire paroistre leur adresse en dançant.<pb n="H, 57"/></stage>
           </sp>
           <label>DERNIERE ENTREE.</label>
           <stage>Les quatre Troupes differentes de la Suite d’Apollon, de Bacchus, de Mome &amp; de Mars, apres avoir achevé leurs Entrées particulieres, s’unissent ensemble, &amp; forment la derniere Entrée, qui renferme toutes les autres. Un Chœur de toutes les Voix &amp; de tous les Instruments se joignent à la Dance generale, &amp; termine la Feste des Nopces  de l’Amour &amp; de Psyché.</stage>
@@ -2399,8 +2395,8 @@
         </div>
       </div>
       <div type="appendix" xml:id="privilege">
-        <head>PRIVILEGE DU ROY. <pb n="58"/></head>
-        <p>LOUIS par la grace de Dieu Roy de France &amp; de Navarre : A nos amez &amp; féaux Conseillers, les Gens tenans nos Cours de Parlement, Maistres des Requestes ordinaires de nostre Hostel, &amp; du Palais, Baillifs, Seneschaux, leurs Prevosts, &amp; leurs Lieutenans, &amp; tous autres nos Justiciers &amp; Officiers qu’il appartiendra, SALUT. Nostre bien amé Jean Baptiste Lully Sur-Intendant de la Musique de nostre Chambre, Nous a fait remonstrer que les Airs de Musique qu’il a cy-devant composez, ceux qu’il compose journellement par nos ordres, &amp; ceux qu’il sera obligé de composer à l’avenir pour les Pieces qui seront representées par l’Academie Royale de Musique, laquelle Nous luy avons permis d’établir en nostre bonne Ville de Paris, &amp; autres lieux de nostre Royaume où bon luy semblera, estant purement de son invention, &amp; de telle qualité que le moindre changement ou obmission leur fait perdre leur grace naturelle ; de sorte que comme son esprit seul les produit pour les appliquer aux sujets qu’il y trouve proportionnez, nul autre ne peut si bien que luy rendre lesdits Ouvrages publics dans leur perfection, &amp; avec l’exactitude qui leur est deue. Et d’ailleurs, il est juste que si leur impression doit aporter quelque avantage, il revienne plûtost à l’Autheur pour le recompenser de son travail, &amp; de partie des frais qu’il avance pour l’execution des Desseins qu’il doit faire representer par ladite Academie, qu’à de simples Copistes qui les imprimeroient, sous pretextes de Permissions generales ou particulieres qu’ils peuvent avoir obtenuës par surprises ou autrement ; ce qui l’oblige d’avoir recours à nos Lettres sur ce necessaires. A CES CAUSES ; Voulans favorablement traitter l’Exposant, Nous luy avons permis et accordé, permettons &amp; accordons par ces Presentes, de faire imprimer par tel Libraire ou Imprimeur, en tel volume, marge, caractere, &amp; autant de fois qu’il voudra, avec Planches et Figures, tous &amp; chacuns les Airs de Musique qui seront par luy faits ; comm’aussi les Vers, Paroles, Sujets, Desseins &amp; Ouvrages sur lesquels lesdits Airs de Musique auront esté composez, sans en rien ex- <pb n="59"/> cepter, &amp; cependant le temps de trente années, consecutives, à commencer du jour que chacun desdits Ouvrages seront achevez d’imprimer, iceux vendre &amp; debiter dans tout nostre Royaume, par luy ou par autre ainsi que bon luy semblera, sans qu’aucun trouble ny empéchement quelconque luy puisse estre aporté, mesme par ceux qui pretendent avoir de Nous Privilege pour l’impression des Airs de Musique &amp; Ballets, lesquels pour ce regard en tant que besoin est ou seroit, Nous avons revoqué &amp; revoquons par cesdites presentes ; Faisant tres-expresses inhibitions &amp; défenses à tous Libraires, Imprimeurs, Colporteurs, &amp; autres personnes de quelque qualité qu’elles soient, d’imprimer, faire imprimer, vendre &amp; distribuer lesdites Pieces de Musique, Vers, Paroles, Desseins, Sujets, &amp; generalement tout ce qui a esté &amp; sera composé par ledit Lully, sous quelque pretexte que ce soit, mesme d’impression étrangere &amp; autrement, sans son consentement, ou de ses ayans cause, sur peine de confiscation des Exemplaires contrefaits, dix mil livres d’amende, tant contre ceux qui les auront imprimez &amp; vendus, que contre ceux qui s’en trouveront saisis &amp; de tous dépens, dommages &amp; interests ; à la charge d’en mettre deux Exemplaires en nostre Biblioteque publique, un en nostre Cabinet des livres de nostre Château du Louvre, &amp; un en celle de nostre tres cher &amp; féal Chevalier, Garde des Sceaux de France, le S<hi rend="sup">r</hi> d’Aligre, à peine de nullité des presentes. Du contenu desquelles, vous mandons &amp; enjoignons faire joüir l’Exposant &amp; ses ayans cause plainement &amp; paisiblement, cessant &amp; faisant cesser tous troubles &amp; empeschemens au contraire ; Voulons qu’en mettant au commencement ou à la fin desdits Livres l’Extrait des Presentes, elles soient tenuës deuëment signifiées, &amp; qu’aux copies collationnées par l’un de nos amez &amp; feaux Conseillers &amp; Secretaires, foy soit ajôutée comme à l’Original. Mandons au premier nostre Huissier ou Sergent, faire pour l’execution des presentes, toutes signifiations, défenses, saisies, &amp; autres actes requis &amp; necessaires, sans pour ce demander autre permission, nonobstant oppositions ou appellations quelconques, dont si aucunes interviennent, Nous nous en reservons &amp; à notre Conseil la connoissance, &amp; icelle interdisons &amp; défendons à tous autres Juges : CAR tel est notre plaisir. DONNE’ à Versailles le vingtiéme jour de Septembre, l’an de grace mil six cens soixante-douze, &amp; de nostre Regne le trentiéme. Signé, LOUIS. Et plus bas : Par le Roy, COLBERT. Et scellé du grand Sceau de cire jaune.</p>
+        <head>PRIVILEGE DU ROY.<pb n="58"/></head>
+        <p>LOUIS par la grace de Dieu Roy de France &amp; de Navarre : A nos amez &amp; féaux Conseillers, les Gens tenans nos Cours de Parlement, Maistres des Requestes ordinaires de nostre Hostel, &amp; du Palais, Baillifs, Seneschaux, leurs Prevosts, &amp; leurs Lieutenans, &amp; tous autres nos Justiciers &amp; Officiers qu’il appartiendra, SALUT. Nostre bien amé Jean Baptiste Lully Sur-Intendant de la Musique de nostre Chambre, Nous a fait remonstrer que les Airs de Musique qu’il a cy-devant composez, ceux qu’il compose journellement par nos ordres, &amp; ceux qu’il sera obligé de composer à l’avenir pour les Pieces qui seront representées par l’Academie Royale de Musique, laquelle Nous luy avons permis d’établir en nostre bonne Ville de Paris, &amp; autres lieux de nostre Royaume où bon luy semblera, estant purement de son invention, &amp; de telle qualité que le moindre changement ou obmission leur fait perdre leur grace naturelle ; de sorte que comme son esprit seul les produit pour les appliquer aux sujets qu’il y trouve proportionnez, nul autre ne peut si bien que luy rendre lesdits Ouvrages publics dans leur perfection, &amp; avec l’exactitude qui leur est deue. Et d’ailleurs, il est juste que si leur impression doit aporter quelque avantage, il revienne plûtost à l’Autheur pour le recompenser de son travail, &amp; de partie des frais qu’il avance pour l’execution des Desseins qu’il doit faire representer par ladite Academie, qu’à de simples Copistes qui les imprimeroient, sous pretextes de Permissions generales ou particulieres qu’ils peuvent avoir obtenuës par surprises ou autrement ; ce qui l’oblige d’avoir recours à nos Lettres sur ce necessaires. A CES CAUSES ; Voulans favorablement traitter l’Exposant, Nous luy avons permis et accordé, permettons &amp; accordons par ces Presentes, de faire imprimer par tel Libraire ou Imprimeur, en tel volume, marge, caractere, &amp; autant de fois qu’il voudra, avec Planches et Figures, tous &amp; chacuns les Airs de Musique qui seront par luy faits ; comm’aussi les Vers, Paroles, Sujets, Desseins &amp; Ouvrages sur lesquels lesdits Airs de Musique auront esté composez, sans en rien ex-<pb n="59"/> cepter, &amp; cependant le temps de trente années, consecutives, à commencer du jour que chacun desdits Ouvrages seront achevez d’imprimer, iceux vendre &amp; debiter dans tout nostre Royaume, par luy ou par autre ainsi que bon luy semblera, sans qu’aucun trouble ny empéchement quelconque luy puisse estre aporté, mesme par ceux qui pretendent avoir de Nous Privilege pour l’impression des Airs de Musique &amp; Ballets, lesquels pour ce regard en tant que besoin est ou seroit, Nous avons revoqué &amp; revoquons par cesdites presentes ; Faisant tres-expresses inhibitions &amp; défenses à tous Libraires, Imprimeurs, Colporteurs, &amp; autres personnes de quelque qualité qu’elles soient, d’imprimer, faire imprimer, vendre &amp; distribuer lesdites Pieces de Musique, Vers, Paroles, Desseins, Sujets, &amp; generalement tout ce qui a esté &amp; sera composé par ledit Lully, sous quelque pretexte que ce soit, mesme d’impression étrangere &amp; autrement, sans son consentement, ou de ses ayans cause, sur peine de confiscation des Exemplaires contrefaits, dix mil livres d’amende, tant contre ceux qui les auront imprimez &amp; vendus, que contre ceux qui s’en trouveront saisis &amp; de tous dépens, dommages &amp; interests ; à la charge d’en mettre deux Exemplaires en nostre Biblioteque publique, un en nostre Cabinet des livres de nostre Château du Louvre, &amp; un en celle de nostre tres cher &amp; féal Chevalier, Garde des Sceaux de France, le S<hi rend="sup">r</hi> d’Aligre, à peine de nullité des presentes. Du contenu desquelles, vous mandons &amp; enjoignons faire joüir l’Exposant &amp; ses ayans cause plainement &amp; paisiblement, cessant &amp; faisant cesser tous troubles &amp; empeschemens au contraire ; Voulons qu’en mettant au commencement ou à la fin desdits Livres l’Extrait des Presentes, elles soient tenuës deuëment signifiées, &amp; qu’aux copies collationnées par l’un de nos amez &amp; feaux Conseillers &amp; Secretaires, foy soit ajôutée comme à l’Original. Mandons au premier nostre Huissier ou Sergent, faire pour l’execution des presentes, toutes signifiations, défenses, saisies, &amp; autres actes requis &amp; necessaires, sans pour ce demander autre permission, nonobstant oppositions ou appellations quelconques, dont si aucunes interviennent, Nous nous en reservons &amp; à notre Conseil la connoissance, &amp; icelle interdisons &amp; défendons à tous autres Juges : CAR tel est notre plaisir. DONNE’ à Versailles le vingtiéme jour de Septembre, l’an de grace mil six cens soixante-douze, &amp; de nostre Regne le trentiéme. Signé, LOUIS. Et plus bas : Par le Roy, COLBERT. Et scellé du grand Sceau de cire jaune.</p>
       </div>
     </body>
     <back>
@@ -2572,7 +2568,7 @@
       <div>
         <head>Traduction de la Plainte Italienne</head>
         <p>Ces vers constituent les pages 7 et 9 de l’édition originale (voir note 90, p. 63). Cette traduction est identique à celle qui se trouve dans le texte de la <hi rend="i">Psyché</hi> de 1671, compte tenu des changements de structure entre les deux versions<note n="138" place="bottom"> La longueur de l’acte I est déjà disproportionnée par rapport aux autres actes de l’opéra, surtout l’acte IV.  Lully et Corneille voulurent sans doute raccourcir la plainte afin de rendre l’irrégularité des actes moins flagrante.  Cette plainte fut également remaniée pour les représentations en ville de <hi rend="i">Psyché</hi> (la création était au palais des Tuileries), et pour le <hi rend="i">Ballet des Ballets</hi>.  Il serait inutile de tracer les nombreuses vicissitudes de la structure de cette plainte.  Nous renvoyons le lecteur à l’édition de <hi rend="i">Psyché</hi> (1671) de G. Couton dans les <hi rend="i">Oeuvres complètes</hi> de Molière ou de Pierre Corneille, pour la version « originale ».</note>. Les vers en italien sont de Lully. L’auteur de la traduction n’est pas connu, mais il n’est pas Thomas Corneille puisque ce poète n’avait aucun rôle dans la composition de la <hi rend="i">Psyché</hi> de 1671. Elle est probablement de Quinault, car en tant que poète des intermèdes il avait un contact constant avec Lully<note n="139" place="bottom"> Le Cerf de la Viéville raconte plusieurs anecdotes à propos de la collaboration entre Lully et ses librettistes (voir sa <hi rend="i">Comparaison de la musique italienne et la musique française</hi>, Geneve, Minkoff reprint, 1972).  Il nous apprend surtout que Lully composait d’abord la musique pour ses divertissements et permettait ensuite la composition des paroles, demandant souvent des changements pour rendre les paroles « plus lyriques ».  Vu son exigence, il est peu probable qu’il ait décerné la tâche de la traduction de la Plainte à un autre individu que Quinault ou lui-même.</note>.</p>
-        <p>IMITATION EN VERS FRANCOIS. <pb n="7"/></p>
+        <p>IMITATION EN VERS FRANCOIS.<pb n="7"/></p>
         <quote>
           <l>Femme désolée.</l>
           <l>Meslez vos pleurs avec nos larmes,</l>

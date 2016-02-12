@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?> 
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -1121,11 +1118,11 @@
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l n="81" xml:id="l81">Vous ?</l>
+            <l n="81" xml:id="l81" part="I">Vous ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/>Si de cét adveu ton ame est <ref target="#estonne">estonnée*</ref></l>
+            <l part="F">Si de cét adveu ton ame est <ref target="#estonne">estonnée*</ref></l>
             <l n="82" xml:id="l82">Songe depuis huit jours quelle est ma destinée,</l>
             <l n="83" xml:id="l83">Et qu’affranchie enfin d’un long banissement,</l>
             <l n="84" xml:id="l84">Dans le Palais du Duc j’ay cét appartement,</l>
@@ -1146,11 +1143,11 @@
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l n="99" xml:id="l99">Sçeut-il qui vous estiez ?</l>
+            <l n="99" xml:id="l99" part="I">Sçeut-il qui vous estiez ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/><space/>Il l’apprit aisément,</l>
+            <l part="F">Il l’apprit aisément,</l>
             <l n="100" xml:id="l100">Et son <ref target="#inquietude">inquietude*</ref> égalant mon tourment*</l>
             <l n="101" xml:id="l101">Dans la pressante <ref target="#ardeur">ardeur*</ref> qu’il a de me cognoistre</l>
             <l n="102" xml:id="l102">Chaque jour en ce lieu je le voy seul paroistre,</l>
@@ -1277,20 +1274,20 @@
           </sp>
           <sp who="fenise">
             <speaker>FENISE <hi rend="i">à Laure.</hi></speaker>
-            <l n="171" xml:id="l171">C’est ma voix qui l’attire.</l>
+            <l n="171" xml:id="l171" part="I">C’est ma voix qui l’attire.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/><space/>Et sans vous laisser voir</l>
+            <l part="F">Et sans vous laisser voir</l>
             <l n="172" xml:id="l172">Vous chercherez toûjours à <ref target="#flatter2">flater*</ref> son espoir ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l n="173" xml:id="l173">Sans doute<note n="81" place="bottom"> Comprendre : sans <hi rend="u">aucun</hi> doute. De nos jours, en raison de l’utilisation fréquemment ironique de cette locution, nous avons tendance à entendre « sans doute » avec, paradoxalement, une valeur de doute. Ce n’était absolument pas le cas au XVII<hi rend="sup">e</hi> siècle.</note>.</l>
+            <l n="173" xml:id="l173" part="I">Sans doute<note n="81" place="bottom"> Comprendre : sans <hi rend="u">aucun</hi> doute. De nos jours, en raison de l’utilisation fréquemment ironique de cette locution, nous avons tendance à entendre « sans doute » avec, paradoxalement, une valeur de doute. Ce n’était absolument pas le cas au XVII<hi rend="sup">e</hi> siècle.</note>.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/><space/>Mais par là que pouvez-vous <ref target="#pretendre">prétendre*</ref> ?</l>
+            <l part="F">Mais par là que pouvez-vous <ref target="#pretendre">prétendre*</ref> ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
@@ -1313,7 +1310,7 @@
             <speaker>FEDERIC.</speaker>
             <l n="181" xml:id="l181">Seigneur, si prés de voir arriver la Duchesse</l>
             <l n="182" xml:id="l182">Vous conservez encor cette morne tristesse ?</l>
-            <l n="183" xml:id="l183"><space/>Un espoir si charmant vous en dûst retirer<note n="83" place="bottom"> Vous en dûst retirer : nous sommes en présence d’un cas où « Le subjonctif plus-que-parfait est employé en relative, avec une valeur assertive, comme une phrase indépendante. » (voir N. Fournier, <hi rend="i">Grammaire du français</hi>, p. 339) .</note>.<pb n="9"/></l>
+            <l n="183" xml:id="l183">Un espoir si charmant vous en dûst retirer<note n="83" place="bottom"> Vous en dûst retirer : nous sommes en présence d’un cas où « Le subjonctif plus-que-parfait est employé en relative, avec une valeur assertive, comme une phrase indépendante. » (voir N. Fournier, <hi rend="i">Grammaire du français</hi>, p. 339) .</note>.<pb n="9"/></l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
@@ -1326,11 +1323,11 @@
           <sp who="federic">
             <speaker>FEDERIC.</speaker>
             <l n="189" xml:id="l189">Quoy, comme aux autres lieux l’arrester à Pavie<note n="84" place="bottom">Comprendre : arrêter encore son cortège à Pavie, comme nous l’avons fait déjà dans les autres étapes du voyage.</note> !</l>
-            <l n="190" xml:id="l190">Seigneur…</l>
+            <l n="190" xml:id="l190" part="I">Seigneur…</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y">Mais, Federic, il y va de ma vie,</l>
+            <l part="F">Mais, Federic, il y va de ma vie,</l>
             <l n="191" xml:id="l191">Qu’on ait soin seulement de bien l’y divertir</l>
             <l n="192" xml:id="l192">Tant qu’un ordre nouveau l’oblige d’en partir.</l>
           </sp>
@@ -1361,7 +1358,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IV. <pb n="10"/></head>
+          <head>SCENE IV.<pb n="10"/></head>
           <stage>LE DUC, FABRICE .</stage>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
@@ -1401,7 +1398,7 @@
             <l n="218" xml:id="l218">Non non, il faut aymer, et souffrir<note n="93" place="bottom"> On note le lien établi comme nécessaire entre l’amour et la souffrance, qui relève de l’idéal de l’amour « tendre » (cf. « il y a presques une esgalle necessité, d’estre Amant et malheureux », in <hi rend="i">Timante et Parthenie</hi>, Mlle de Scudéry) .</note>, et me taire,</l>
             <l n="219" xml:id="l219">Attendant que sa fille avecque nous d’accord</l>
             <l n="220" xml:id="l220">Du malheur que je crains m’ayde à braver l’effort.</l>
-            <l n="221" xml:id="l221"><space/><space/>Je sçay de Federic la fiere politique, <pb n="11"/></l>
+            <l n="221" xml:id="l221">Je sçay de Federic la fiere politique,<pb n="11"/></l>
             <l n="222" xml:id="l222">Au seul bien de l’Estat tout son zele s’applique,</l>
             <l n="223" xml:id="l223">Et luy laisser enfin soupçonner mon amour</l>
             <l n="224" xml:id="l224">C’est bannir de nouveau Fenise de la Cour.</l>
@@ -1438,12 +1435,12 @@
             <l n="240" xml:id="l240">Sçachez que ma folie est mon passe-par-tout,</l>
             <l n="241" xml:id="l241">Et que vieux harangueur qu’avec vous on voit rire</l>
             <l n="242" xml:id="l242">J’entre par privilege<note n="98" place="bottom">Comprendre : j’entre grâce à cet avantage, cette chance.</note> en tous lieux sans rien dire.</l>
-            <l n="243" xml:id="l243">Mais quel son musical…</l>
+            <l n="243" xml:id="l243" part="I">Mais quel son musical…</l>
             <stage>On entend quelques accords de Tuorbe<note n="99" place="bottom"> Tuarbe : « On prononce communément, <hi rend="i">Tuorbe</hi>, Espece de lut à long manche, dont on se sert d’ordinaire pour accompagner la voix. <hi rend="i">Joüer du theorbe. le theorbe aide fort à soustenir la voix »</hi> (R) .</note>.</stage>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Fenise va chanter,</l>
+            <l part="F">Fenise va chanter,</l>
             <l n="244" xml:id="l244">C’est le signal, approche, il la faut escouter.</l>
           </sp>
           <sp who="fenise">
@@ -1453,17 +1450,17 @@
               <l n="246" xml:id="l246">Mes soûpirs chaque jour vous adressent ma plainte,</l>
               <l n="247" xml:id="l247">Cessez ruisseaux, d’en murmurer<note n="100" place="bottom">Le chant de Fenise est mélancolique, et reprend certains motifs de l’amour-tendre : la plainte de la jeune fille aux ruisseaux par exemple, est très nettement un motif pastoral, que l’on pouvait trouver dans les romans sentimentaux.</note> ;<pb n="12"/></l>
               <l n="248" xml:id="l248">Quand d’un Astre fâcheux la fatale influence</l>
-              <l n="249" xml:id="l249"><space/>Nous défend l’esperance,</l>
+              <l n="249" xml:id="l249">Nous défend l’esperance,</l>
               <l n="250" xml:id="l250">Il est permis de soûpirer.<note n="101" place="bottom"> Cela est peut-être un détail, mais il est intéressant de souligner que ce chant comporte six vers ; or dans la nouvelle de <hi rend="i">Timante et Parthénie</hi>, il est précisément souligné que Parthénie entonne un chant de six vers, qui permet à Timante de la reconnaître.</note> </l>
             </lg>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l n="251" xml:id="l251">Peste, quels roulements<note n="102" place="bottom"> Roulemens : « <hi rend="i">Terme de Musique</hi> lequel se dit en parlant de la voix. C'est chanter sur une même silabe plusieurs notes avec harmonie » (R) .</note> !</l>
+            <l n="251" xml:id="l251" part="I">Peste, quels roulements<note n="102" place="bottom"> Roulemens : « <hi rend="i">Terme de Musique</hi> lequel se dit en parlant de la voix. C'est chanter sur une même silabe plusieurs notes avec harmonie » (R) .</note> !</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y">Ils enlevent mon ame,</l>
+            <l part="F">Ils enlevent mon ame,</l>
             <l n="252" xml:id="l252">Et bien, Fabrice, et bien, condamnes-tu ma flâme,</l>
             <l n="253" xml:id="l253">Et d’un plus <ref target="#rare">rare*</ref> <ref target="#objet">objet*</ref> puis-je suivre la loy ?</l>
           </sp>
@@ -1476,11 +1473,11 @@
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
             <l n="257" xml:id="l257">Quoy, tu pourrois penser qu’elle manquast d’<ref target="#apas">appas*</ref>,</l>
-            <l n="258" xml:id="l258">Et que chantant si bien…</l>
+            <l n="258" xml:id="l258" part="I">Et que chantant si bien…</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Ne vous y trompez pas.</l>
+            <l part="F">Ne vous y trompez pas.</l>
             <l n="259" xml:id="l259">J’en ay veu telle, moy témoin irreprochable,</l>
             <l n="260" xml:id="l260">Qui chantant comme un Ange auroit fait peur au diable</l>
             <l n="261" xml:id="l261">Et qui, quoy que sa voix semblast venir des Cieux,</l>
@@ -1497,11 +1494,11 @@
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
             <l n="265" xml:id="l265">Peut-estre…mais je crois ouyr encor sa voix,</l>
-            <l n="266" xml:id="l266">Escoute.</l>
+            <l n="266" xml:id="l266" part="I">Escoute.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE, <hi rend="i">à Fenise.</hi> </speaker>
-            <l part="Y"><space/>Un peu plus haut que la premiere fois.</l>
+            <l part="F">Un peu plus haut que la premiere fois.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE <hi rend="i">continuë à chanter.</hi> </speaker>
@@ -1553,11 +1550,11 @@
             <l n="297" xml:id="l297">A songer au bonheur dont ce delay la prive,</l>
             <l n="298" xml:id="l298">On les a veu briller d’une clarté plus vive,</l>
             <l n="299" xml:id="l299">Son teint dont la blancheur eust les lys effacez<note n="107" place="bottom"> Comprendre : son teint qui a perdu de sa blancheur. En effet, Richelet donne au mot « lys » ce sens figuré « Ce mot se dit au figuré en parlant du teint du visage, et signifie <hi rend="i">blancheur ».</hi></note>,</l>
-            <l n="300" xml:id="l300">Souffrant un doux mélange a paru…</l>
+            <l n="300" xml:id="l300" part="I">Souffrant un doux mélange a paru…</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>C’est assez.</l>
+            <l part="F">C’est assez.</l>
           </sp>
         </div>
         <div type="scene">
@@ -1565,11 +1562,11 @@
           <stage>CARLOS, CAMILLE, FABRICE</stage>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l n="301" xml:id="l301">La réponce est bien courte.</l>
+            <l n="301" xml:id="l301" part="I">La réponce est bien courte.</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l part="Y"><space/><space/>O l’estrange <ref target="#caprice">caprice*</ref> !</l>
+            <l part="F">O l’estrange <ref target="#caprice">caprice*</ref> !</l>
             <l n="302" xml:id="l302">D’où luy vient cette humeur ? Arreste, un mot, Fabrice.</l>
             <l n="303" xml:id="l303">Toy qui souvent du Duc partage le <ref target="#soucy">soucy*</ref>,</l>
             <l n="304" xml:id="l304">Apprens moi qui<note n="108" place="bottom"> Apprens moi qui l’oblige :il faut comprendre « ce qui » ; le <hi rend="i">ce</hi> a pu être omis pour des raisons de commodités métriques.</note> l’oblige à me traiter ainsi.</l>
@@ -1579,12 +1576,12 @@
             <l n="308" xml:id="l308">Dont luy mesme avec joye il a signé l’<ref target="#adveu">adveu*</ref>.</l>
             <l n="309" xml:id="l309">Par ce retardement qui <ref target="#gesne">gesne*</ref> la Duhesse</l>
             <l n="310" xml:id="l310">J’ay donné plus de jour à l’<ref target="#ardeur">ardeur*</ref> qui la presse,    </l>
-            <l n="311" xml:id="l311">J’en ay peint tout <ref target="#expres">exprés*</ref> ses desirs traversez, <pb n="15"/></l>
-            <l n="312" xml:id="l312">J’ay parlé de ses yeux, de son teint…</l>
+            <l n="311" xml:id="l311">J’en ay peint tout <ref target="#expres">exprés*</ref> ses desirs traversez,<pb n="15"/></l>
+            <l n="312" xml:id="l312" part="I">J’ay parlé de ses yeux, de son teint…</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/>C’est assez<note n="109" place="bottom"> Dans <hi rend="i">A history of french dramatic litterature</hi>, Henry Carrington Lancaster signale cette réplique comme l’un des changements majeurs que Thomas Corneille aurait apporté à la pièce espagnole : « he kept all that was essential and his additions are unimportant. Among the more effective of the latter are the valet’s comic echo of his master « c’est assez » » (il a gardé l’essentiel [du texte de Moreto] et ses ajouts n’ont pas d’importance. Parmi les plus efficaces on trouve l’écho comique du valet imitant son maître « c’est assez » » ).</note>.</l>
+            <l part="F">C’est assez<note n="109" place="bottom"> Dans <hi rend="i">A history of french dramatic litterature</hi>, Henry Carrington Lancaster signale cette réplique comme l’un des changements majeurs que Thomas Corneille aurait apporté à la pièce espagnole : « he kept all that was essential and his additions are unimportant. Among the more effective of the latter are the valet’s comic echo of his master « c’est assez » » (il a gardé l’essentiel [du texte de Moreto] et ses ajouts n’ont pas d’importance. Parmi les plus efficaces on trouve l’écho comique du valet imitant son maître « c’est assez » » ).</note>.</l>
           </sp>
         </div>
         <div type="scene">
@@ -1592,11 +1589,11 @@
           <stage>CARLOS, CAMILLE.</stage>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l n="313" xml:id="l313">Entendez-vous l’Echo ?</l>
+            <l n="313" xml:id="l313" part="I">Entendez-vous l’Echo ?</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l part="Y"><space/><space/>Tout sert à me <ref target="#confondre">confondre*</ref>.</l>
+            <l part="F">Tout sert à me <ref target="#confondre">confondre*</ref>.</l>
             <l n="314" xml:id="l314">Quoy, le Duc tout à coup s’en va sans me répondre,</l>
             <l n="315" xml:id="l315">Et quand je croy venir soûlager son amour<note n="110" place="bottom">Comprendre : le rassurer dans son amour.</note></l>
             <l n="316" xml:id="l316">Un silence affecté condamne mon retour ?</l>
@@ -1609,11 +1606,11 @@
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
             <l n="319" xml:id="l319">Mille pensers<note n="111" place="bottom"> Mille pensers divers : penser est employé au masculin : « Mot qui n’est usité qu’en vers, et qui veut dire <hi rend="i">pensée »</hi>, Richelet.</note> divers me tiennent <ref target="#diviser">divisé*</ref>.</l>
-            <l n="320" xml:id="l320">Qui le devineroit ?</l>
+            <l n="320" xml:id="l320" part="I">Qui le devineroit ?</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>Il n’est rien plus aisé.</l>
+            <l part="F">Il n’est rien plus aisé.</l>
             <l n="321" xml:id="l321">Nous arrivons tous deux, et sans qu’on vous en presse</l>
             <l n="322" xml:id="l322">Vostre langue s’exerce à loüer la Duchesse.</l>
             <l n="323" xml:id="l323">Le Duc à la harangue ayant les yeux baissez</l>
@@ -1623,11 +1620,11 @@
           </sp>
           <sp who="carlos">
             <speaker>CARLOS. </speaker>
-            <l n="327" xml:id="l327"><space/><space/>Mais enfin le sujet, quel est-il ?<pb n="16"/></l>
+            <l n="327" xml:id="l327" part="I">Mais enfin le sujet, quel est-il ?<pb n="16"/></l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>Pour ce point,</l>
+            <l part="F">Pour ce point,</l>
             <l n="328" xml:id="l328">Il est bien evident que je ne le sçay point,</l>
             <l n="329" xml:id="l329">Mais du reste, si c’est ce qui vous embarrasse,</l>
             <l n="330" xml:id="l330">Sans y rien <ref target="#alterer">alterer*</ref>, voilà ce qui se passe.</l>
@@ -1644,21 +1641,21 @@
             <l n="338" xml:id="l338">A trop fait <ref target="#eclater2">éclater*</ref> quel <ref target="#motif">motif*</ref> l’interesse<note n="112" place="bottom">Comprendre : a trop fait éclater pour quelle raison il s’émeut.</note>,</l>
             <l n="339" xml:id="l339">Et que mes sentiments par un <ref target="#zele">zele*</ref> <ref target="#indiscret">indiscret*</ref></l>
             <l n="340" xml:id="l340">D’un amour que je cache ont trahy le secret.</l>
-            <l n="341" xml:id="l341">Ah, Dieux, s’il est ainsi…</l>
+            <l n="341" xml:id="l341" part="I">Ah, Dieux, s’il est ainsi…</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y">Non, cela ne peut estre.</l>
+            <l part="F">Non, cela ne peut estre.</l>
             <l n="342" xml:id="l342">C’est plustost que le Duc cherchant à se cognoistre,</l>
             <l n="343" xml:id="l343">De peur de trop donner à son temperament*…</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l n="344" xml:id="l344">Et bien ?</l>
+            <l n="344" xml:id="l344" part="I">Et bien ?</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/>Ma foy, brisons<note n="113" place="bottom">Brisons sur le raisonnement : interrompre le raisonnement et la conversation.</note> sur le raisonnement,</l>
+            <l part="F">Ma foy, brisons<note n="113" place="bottom">Brisons sur le raisonnement : interrompre le raisonnement et la conversation.</note> sur le raisonnement,</l>
             <l n="345" xml:id="l345">Il vaudra mieux peut-estre à divers reprises.</l>
           </sp>
           <sp who="carlos">
@@ -1696,11 +1693,11 @@
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l n="362" xml:id="l362">Quel, Seigneur ?</l>
+            <l n="362" xml:id="l362" part="I">Quel, Seigneur ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/>De Carlos qu’il faut que l’on renvoye.</l>
+            <l part="F">De Carlos qu’il faut que l’on renvoye.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.<pb n="18"/></speaker>
@@ -1714,11 +1711,11 @@
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l n="367" xml:id="l367">Que dira Federic ?</l>
+            <l n="367" xml:id="l367" part="I">Que dira Federic ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>C’est ce que je crains peu</l>
+            <l part="F">C’est ce que je crains peu</l>
             <l n="368" xml:id="l368">Si j’obtiens de sa fille un favorable <ref target="#adveu">adveu*</ref>.</l>
             <l n="369" xml:id="l369">Enfin je la verray, cette <ref target="#aimable">aimable*</ref> incognuë.</l>
           </sp>
@@ -1743,11 +1740,11 @@
             <speaker>FABRICE.</speaker>
             <l n="375" xml:id="l375">Pour peu que vous donniez sur les si, sur les mais,</l>
             <l n="376" xml:id="l376">Vous trouverez matière à ne finir jamais.</l>
-            <l n="377" xml:id="l377">L’amour est <ref target="#ombrageux">ombrageux*</ref>.</l>
+            <l n="377" xml:id="l377" part="I">L’amour est <ref target="#ombrageux">ombrageux*</ref>.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/>Et Fenise trop belle</l>
+            <l part="F">Et Fenise trop belle</l>
             <l n="378" xml:id="l378">Pour ne pas craindre tout alors qu’il s’agit d’elle.</l>
           </sp>
           <sp who="fabrice">
@@ -1808,11 +1805,11 @@
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.<pb n="20"/></speaker>
-            <l n="408" xml:id="l408">Je crains…</l>
+            <l n="408" xml:id="l408" part="I">Je crains…</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/>Quoy ? les regards qu’elle va vous lancer ? <note n="125" place="bottom">Le regard amusé de Fabrice qui interrompt son maître, fait apparaître le Duc comme ridicule dans son amour. La réplique ne semble être là que pour souligner les ridicules de l’amoureux transi.</note></l>
+            <l part="F">Quoy ? les regards qu’elle va vous lancer ? <note n="125" place="bottom">Le regard amusé de Fabrice qui interrompt son maître, fait apparaître le Duc comme ridicule dans son amour. La réplique ne semble être là que pour souligner les ridicules de l’amoureux transi.</note></l>
             <l n="409" xml:id="l409">Pour les tendres de cœur la blessure est mal saine.</l>
           </sp>
         </div>
@@ -1821,20 +1818,20 @@
           <stage>LE DUC, FENISE, LAURE, FABRICE.</stage>
           <sp who="fenise">
             <speaker>FENISE, <hi rend="i">à Laure.</hi></speaker>
-            <l n="410" xml:id="l410">As-tu remis ce Lut ?</l>
+            <l n="410" xml:id="l410" part="I">As-tu remis ce Lut ?</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/><space/>N’en soyez point en peine.</l>
+            <l part="F">N’en soyez point en peine.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
             <l n="411" xml:id="l411">Regarde, admire, voy, Fabrice, quel éclat<note n="126" place="bottom"> Comme le montre Gaël Lechevalier dans <hi rend="i">Stratégie des regards, vu et être vu dans le théâtre de Thomas Corneille</hi>, p. 440, le Duc décline ici non seulement les modalités du voir mais propose aussi une description subjective qui révèle autant ses sentiments pour Fénise que la beauté de celle-ci. Le terme « éclat » n’est pas un descriptif neutre, mais bien le témoignage de l’effet de Fénise sur le Duc.</note> !</l>
-            <l n="412" xml:id="l412">Qui n’en seroit charmé ?</l>
+            <l n="412" xml:id="l412" part="I">Qui n’en seroit charmé ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/><ref target="#taster">Tastez*</ref>, le cœur vous bat ?</l>
+            <l part="F"><ref target="#taster">Tastez*</ref>, le cœur vous bat ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
@@ -1848,36 +1845,36 @@
           <sp who="fenise">
             <speaker>FENISE. <hi rend="i">A Laure</hi></speaker>
             <l n="416" xml:id="l416">Dieux, comment jusqu’icy le Duc est-il entré ?</l>
-            <l n="417" xml:id="l417">Feignons grande surprise.</l>
+            <l n="417" xml:id="l417" part="I">Feignons grande surprise.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC. <hi rend="i">A Fenise.</hi></speaker>
-            <l part="Y"><space/><space/>Enfin, je puis, Madame…</l>
+            <l part="F">Enfin, je puis, Madame…</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE<pb n="21"/></speaker>
-            <l n="418" xml:id="l418">Ah Laure, où sommes-nous ?</l>
+            <l n="418" xml:id="l418" part="I">Ah Laure, où sommes-nous ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE. <hi rend="i">Au Duc</hi></speaker>
-            <l part="Y"><space/><space/>Couchez<note n="127" place="bottom"> Couchez vite = parlez-vite, c’est une transposition pour l’oral, de ce qui se dit habituellement de l’écrit <hi rend="i">coucher par écrit.</hi></note> viste de flame.</l>
+            <l part="F">Couchez<note n="127" place="bottom"> Couchez vite = parlez-vite, c’est une transposition pour l’oral, de ce qui se dit habituellement de l’écrit <hi rend="i">coucher par écrit.</hi></note> viste de flame.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="419" xml:id="l419">Ne vous offensez pas…</l>
+            <l n="419" xml:id="l419" part="I">Ne vous offensez pas…</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/><space/>Allons, Laure.</l>
+            <l part="M">Allons, Laure.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE, <hi rend="i">l’arrestant</hi>.</speaker>
-            <l part="Y"><space/><space/>Ah ! tout doux.</l>
-            <l n="420" xml:id="l420">La belle, c’est le Duc.</l>
+            <l part="F">Ah ! tout doux.</l>
+            <l n="420" xml:id="l420" part="I">La belle, c’est le Duc.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/><space/>Que voudroit-il de nous ?</l>
+            <l part="F">Que voudroit-il de nous ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
@@ -1893,15 +1890,15 @@
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="427" xml:id="l427">Quoy, vous ne l’estes point ?</l>
+            <l n="427" xml:id="l427" part="I">Quoy, vous ne l’estes point ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/><space/>Non, Seigneur.</l>
+            <l part="M">Non, Seigneur.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC. <hi rend="i">A Fabrice</hi></speaker>
-            <l part="Y"><space/>Qu’est-ce-cy ?</l>
+            <l part="F">Qu’est-ce-cy ?</l>
             <l n="428" xml:id="l428">Que tousjours le malheur me persecute ainsi !</l>
           </sp>
           <sp who="fabrice">
@@ -1933,11 +1930,11 @@
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC, <hi rend="i">A Fenise</hi></speaker>
-            <l n="438" xml:id="l438">Vous estes donc la Dame ?</l>
+            <l n="438" xml:id="l438" part="I">Vous estes donc la Dame ?</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/><space/>Et moy, je suis son ayde.</l>
+            <l part="F">Et moy, je suis son ayde.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
@@ -1946,11 +1943,11 @@
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="441" xml:id="l441">Et Fenise ?</l>
+            <l n="441" xml:id="l441" part="I">Et Fenise ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/><space/>Pour moy, je ne la quitte guere</l>
+            <l part="F">Pour moy, je ne la quitte guere</l>
             <l n="442" xml:id="l442">Que lors qu’elle reçoit visite de son pere.</l>
             <l n="443" xml:id="l443">Ils ont quelque secret tousjours à consulter.</l>
           </sp>
@@ -1988,11 +1985,11 @@
             <l n="458" xml:id="l458">Veux-tu d’un plein mépris un plus clair témoignage,</l>
             <l n="459" xml:id="l459">Et crois-tu que mes yeux, pour en faire un captif,</l>
             <l n="460" xml:id="l460">Puissent jamais briller d’un éclat assez vif ?</l>
-            <l n="461" xml:id="l461">A peine il me regarde<note n="132" place="bottom"> Nathalie Fournier précise qu’avec l’adverbe <hi rend="i">à peine</hi>, l’antéposition du pronom est toujours possible (voir <hi rend="i">Grammaire du français classique</hi>, p. 36) .</note>.</l>
+            <l n="461" xml:id="l461" part="I">A peine il me regarde<note n="132" place="bottom"> Nathalie Fournier précise qu’avec l’adverbe <hi rend="i">à peine</hi>, l’antéposition du pronom est toujours possible (voir <hi rend="i">Grammaire du français classique</hi>, p. 36) .</note>.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/><space/>Et c’est là ma surprise.</l>
+            <l part="F">Et c’est là ma surprise.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC. <hi rend="i">A Fenise</hi></speaker>
@@ -2015,11 +2012,11 @@
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="469" xml:id="l469">Et vous luy direz tout ?</l>
+            <l n="469" xml:id="l469" part="I">Et vous luy direz tout ?</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/><space/>Celie est <ref target="#ponctuel">ponctuelle*</ref>,</l>
+            <l part="F">Celie est <ref target="#ponctuel">ponctuelle*</ref>,</l>
             <l n="470" xml:id="l470">Quoy que vous luy disiez, je vous respons pour elle,</l>
             <l n="471" xml:id="l471">Qu’avecque tant de soin elle vous servira<pb n="24"/></l>
             <l n="472" xml:id="l472">Que dans le mesme instant Fenise le sçaura.</l>
@@ -2035,22 +2032,22 @@
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l n="479" xml:id="l479">Quoy, vous aymez Fenise ?</l>
+            <l n="479" xml:id="l479" part="I">Quoy, vous aymez Fenise ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Ah, c’est dire trop peu,</l>
+            <l part="F">Ah, c’est dire trop peu,</l>
             <l n="480" xml:id="l480">La plus pressante <ref target="#ardeur">ardeur*</ref> n’égale point mon feu,</l>
             <l n="481" xml:id="l481">Et sa <ref target="#rare">rare*</ref> beauté, pour qui ce cœur souspire,</l>
             <l n="482" xml:id="l482">Est la seule conqueste où mon espoir aspire.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l n="483" xml:id="l483">Vous la croyez donc belle ?</l>
+            <l n="483" xml:id="l483" part="I">Vous la croyez donc belle ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>A former son beau corps</l>
+            <l part="F">A former son beau corps</l>
             <l n="484" xml:id="l484">Le Ciel a desployé ses plus riches tresors,</l>
             <l n="485" xml:id="l485">Jamais de tant d’<ref target="#apas">appas*</ref> beauté ne fut pourveuë.    </l>
           </sp>
@@ -2120,7 +2117,7 @@
             <l n="517" xml:id="l517">Et prenant quelque soin d’observer cette <ref target="#amant">amante*</ref>,</l>
             <l n="518" xml:id="l518">J’ay cognu que Fenise en estoit confidente,</l>
             <l n="519" xml:id="l519">Et je tiens asseuré, comme elle en fait grand cas,</l>
-            <l n="520" xml:id="l520"><space/><space/>Qu’elle vous voudra mal de n’y respondre pas. <pb n="26"/></l>
+            <l n="520" xml:id="l520">Qu’elle vous voudra mal de n’y respondre pas.<pb n="26"/></l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
@@ -2151,11 +2148,11 @@
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l n="530" xml:id="l530">Vous la cognoissez donc ?</l>
+            <l n="530" xml:id="l530" part="I">Vous la cognoissez donc ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Ouy, je croy la cognoistre.</l>
+            <l part="F">Ouy, je croy la cognoistre.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
@@ -2173,7 +2170,7 @@
             <speaker>LE DUC.</speaker>
             <l n="537" xml:id="l537">Ce qui presse le plus c’est qu’auprés de Fenise</l>
             <l n="538" xml:id="l538">Vous daigniez de ma flame appuyer l’entreprise.</l>
-            <l n="539" xml:id="l539">Asseurez-la d’un cœur respectueux, soûmis, <pb n="27"/></l>
+            <l n="539" xml:id="l539">Asseurez-la d’un cœur respectueux, soûmis,<pb n="27"/></l>
             <l n="540" xml:id="l540">Je l’espere de vous, vous me l’avez promis.</l>
             <l n="541" xml:id="l541">Et quant à cette Dame, à qui le Ciel fait prendre</l>
             <l n="542" xml:id="l542">Des sentiments plus doux que je n’en dois pretendre,</l>
@@ -2186,11 +2183,11 @@
           <sp who="fenise">
             <speaker>FENISE.</speaker>
             <l n="547" xml:id="l547">Ah, Laure ! à sa froideur voy quel mépris est joint !</l>
-            <l n="548" xml:id="l548">Que mon malheur est grand !</l>
+            <l n="548" xml:id="l548" part="I">Que mon malheur est grand !</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.<hi rend="i">revenant</hi></speaker>
-            <l part="Y"><space/><space/>Ne vous affligez point.</l>
+            <l part="F">Ne vous affligez point.</l>
             <l n="549" xml:id="l549">Si par hazard vostre ame estoit embarrassée</l>
             <l n="550" xml:id="l550">De quelque trait d’amour dont elle fust pressée,</l>
             <l n="551" xml:id="l551">Advisez et comment, et pour combien, et quand,</l>
@@ -2237,7 +2234,7 @@
             <l n="570" xml:id="l570">Qu’en cessant de me voir avec indifference.</l>
             <l n="571" xml:id="l571">Aussi bien de ce cœur l’espoir ambitieux,</l>
             <l n="572" xml:id="l572">Pour arrester le sien, doit esblouyr ses yeux,</l>
-            <l n="573" xml:id="l573"><space/><space/>Et sans un fort amour, ce n’est qu’une faiblesse<pb n="29"/></l>
+            <l n="573" xml:id="l573">Et sans un fort amour, ce n’est qu’une faiblesse<pb n="29"/></l>
             <l n="574" xml:id="l574">De croire qu’il rompra l’hymen de la Duchesse.</l>
           </sp>
         </div>
@@ -2246,34 +2243,34 @@
           <stage>FENISE, LAURE, CAMILLE.</stage>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l n="575" xml:id="l575">Adieu, Laure.</l>
+            <l n="575" xml:id="l575" part="I">Adieu, Laure.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/><space/>Ah ! c’est-toy, qui t’amène en ce lieu ?</l>
+            <l part="F">Ah ! c’est-toy, qui t’amène en ce lieu ?</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
             <l n="576" xml:id="l576">Tu n’escoutes donc pas ? je viens te dire adieu.</l>
-            <l n="577" xml:id="l577">Touche<note n="139" place="bottom">Touche : comprendre : serre-moi la main, ou embrasse-moi, en tous cas cela renvoie à un geste d’adieu.</note>.</l>
+            <l n="577" xml:id="l577" part="I">Touche<note n="139" place="bottom">Touche : comprendre : serre-moi la main, ou embrasse-moi, en tous cas cela renvoie à un geste d’adieu.</note>.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/>Tu me le dis avec beaucoup de joye.</l>
-            <l n="578" xml:id="l578">Où vas-tu donc ?</l>
+            <l part="F">Tu me le dis avec beaucoup de joye.</l>
+            <l n="578" xml:id="l578" part="I">Où vas-tu donc ?</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>A Parme, où le Duc nous renvoye,</l>
+            <l part="F">A Parme, où le Duc nous renvoye,</l>
             <l n="579" xml:id="l579">Nous avons ordre <ref target="#expres">exprés*</ref> de le démarier.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l n="580" xml:id="l580">Et Carlos ?</l>
+            <l n="580" xml:id="l580" part="I">Et Carlos ?</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>Il y va sans se faire prier.</l>
+            <l part="F">Il y va sans se faire prier.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
@@ -2282,7 +2279,7 @@
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
             <l n="582" xml:id="l582">A le voir on diroit qu’il y trouve son conte<note n="140" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, la graphie ne distinguait pas encore systématiquement les sens de « compte » et de « conte ». Dans toutes les occurrences du terme dans cette pièce, on trouve la graphie « conte » dans le sens de « compte ».</note> .</l>
-            <l n="583" xml:id="l583">Pour le moins il <ref target="#pretendre">prétend*</ref>…mais il vous dira tout. <pb n="30"/></l>
+            <l n="583" xml:id="l583">Pour le moins il <ref target="#pretendre">prétend*</ref>…mais il vous dira tout.<pb n="30"/></l>
           </sp>
           <sp who="laure">
             <speaker>LAURE <hi rend="i">à Fenise.</hi></speaker>
@@ -2303,7 +2300,7 @@
             <l n="589" xml:id="l589">En levant un obstacle à ses <ref target="#dessein2">desseins*</ref> contraire</l>
             <l n="590" xml:id="l590">Il va pour vous fléchir employer vostre frere,</l>
             <l n="591" xml:id="l591">C’est par là que Carlos sans contrainte obeït.</l>
-            <l n="592" xml:id="l592">Mais il entre.</l>
+            <l n="592" xml:id="l592" part="I">Mais il entre.</l>
           </sp>
         </div>
         <div type="scene">
@@ -2311,7 +2308,7 @@
           <stage>CARLOS, FENISE, LAURE, CAMILLE.</stage>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l part="Y"><space/><space/>Ma sœur, la fortune nous rit,</l>
+            <l part="F">Ma sœur, la fortune nous rit,</l>
             <l n="593" xml:id="l593">Et sur nous desormais sa faveur se déploye,</l>
             <l n="594" xml:id="l594">Voyez dans ce billet la cause de ma joye.</l>
           </sp>
@@ -2322,22 +2319,22 @@
               <l n="596" xml:id="l596">Jusques dans ses Estats ramenez la Duchesse,</l>
               <l n="597" xml:id="l597">A trouver un prétexte employez vostre adresse,</l>
               <l n="598" xml:id="l598">Je ne suis point encor en estat de la voir.</l>
-              <l n="599" xml:id="l599">LE DUC.</l>
+              <l n="599" xml:id="l599" part="I">LE DUC.</l>
             </lg>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.<pb n="31"/></speaker>
-            <l part="Y"><space/>Que dites-vous, de l’ordre qu’il me donne ?</l>
+            <l part="F">Que dites-vous, de l’ordre qu’il me donne ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
             <l n="600" xml:id="l600">Sçachant ce qui se passe il n’a rien qui m’estonne,</l>
             <l n="601" xml:id="l601">Mais aprés les bontez que vous avez pour moy,</l>
-            <l n="602" xml:id="l602">Je me dois accuser…</l>
+            <l n="602" xml:id="l602" part="I">Je me dois accuser…</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l part="Y"><space/><space/>Vous, ma sœur, et dequoy ?</l>
+            <l part="F">Vous, ma sœur, et dequoy ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
@@ -2377,7 +2374,7 @@
             <speaker>FENISE. <hi rend="i">A Laure</hi></speaker>
             <l n="619" xml:id="l619">Où m’alloit engager mon imprudence extrême,</l>
             <l n="620" xml:id="l620">Sans sçavoir mon secret il parle pour luy mesme,</l>
-            <l n="621" xml:id="l621"><space/>Pour nous entendre mal j’ay pensé me trahir. <pb n="32"/></l>
+            <l n="621" xml:id="l621">Pour nous entendre mal j’ay pensé me trahir.<pb n="32"/></l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
@@ -2455,7 +2452,7 @@
             <speaker>FENISE.</speaker>
             <l n="679" xml:id="l679">Ah, ne l’en croyez pas c’est un abus extréme</l>
             <l n="680" xml:id="l680">Quand on peut tout pour soy, d’agir contre soy-mesme,</l>
-            <l n="681" xml:id="l681">Le Duc vous authorise à ne rien déguiser, <pb n="34"/></l>
+            <l n="681" xml:id="l681">Le Duc vous authorise à ne rien déguiser,<pb n="34"/></l>
             <l n="682" xml:id="l682">Irritez la Duchesse au lieu de l’appaiser,</l>
             <l n="683" xml:id="l683">Inventez, adjoutez, une couronne est belle,</l>
             <l n="684" xml:id="l684">Et quoy qu’on fasse enfin, tout est permis pour elle.</l>
@@ -2492,11 +2489,11 @@
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l n="699" xml:id="l699">Que dites-vous, Seigneur ?</l>
+            <l n="699" xml:id="l699" part="I">Que dites-vous, Seigneur ?</l>
           </sp>
           <sp who="federic">
             <speaker>FEDERIC.</speaker>
-            <l part="Y"><space/><space/>Moy-mesme je l’ay veuë,</l>
+            <l part="F">Moy-mesme je l’ay veuë,</l>
             <l n="700" xml:id="l700">Elle veut à Milan demeurer inconnuë,</l>
             <l n="701" xml:id="l701">Et tenant de son rang le secret déguisé,</l>
             <l n="702" xml:id="l702">Entretenir le Duc sous un nom supposé.</l>
@@ -2512,11 +2509,11 @@
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l n="706" xml:id="l706">Je sçay ce que je dois.</l>
+            <l n="706" xml:id="l706" part="I">Je sçay ce que je dois.</l>
           </sp>
           <sp who="federic">
             <speaker>FEDERIC.</speaker>
-            <l part="Y"><space/><space/>Allez, je vous rejoins.</l>
+            <l part="F">Allez, je vous rejoins.</l>
           </sp>
         </div>
         <div type="scene">
@@ -2535,11 +2532,11 @@
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
             <l n="714" xml:id="l714">Mais sans se découvrir elle veut luy parler ?</l>
-            <l n="715" xml:id="l715">Quel en est vostre espoir ?</l>
+            <l n="715" xml:id="l715" part="I">Quel en est vostre espoir ?</l>
           </sp>
           <sp who="federic">
             <speaker>FEDERIC.</speaker>
-            <l part="Y"><space/><space/>Qu’esbloüy de ses charmes</l>
+            <l part="F">Qu’esbloüy de ses charmes</l>
             <l n="716" xml:id="l716">Le Duc à sa beauté rendra soudain les armes,</l>
             <l n="717" xml:id="l717">Et que de son chagrin l’effort capricieux</l>
             <l n="718" xml:id="l718">Cedera* sans contrainte à l’esclat de ses yeux.</l>
@@ -2553,11 +2550,11 @@
           <sp who="carlos">
             <speaker>CARLOS.<pb n="D37"/></speaker>
             <l n="725" xml:id="l725">Mais enfin sous quel nom le pretend-elle voir ?</l>
-            <l n="726" xml:id="l726">En quelle qualité ?</l>
+            <l n="726" xml:id="l726" part="I">En quelle qualité ?</l>
           </sp>
           <sp who="federic">
             <speaker>FEDERIC.</speaker>
-            <l part="Y"><space/><space/>C’est ce qu’il faut sçavoir.</l>
+            <l part="F">C’est ce qu’il faut sçavoir.</l>
             <l n="727" xml:id="l727">Comme à l’entretenir le devoir nous appelle,</l>
             <l n="728" xml:id="l728">Allons sans differer en resoudre<note n="145" place="bottom">Comprendre : allons sans différer, voir avec elle ce qu’il en est.</note> avec elle.</l>
           </sp>
@@ -2587,7 +2584,7 @@
             <l n="742" xml:id="l742">Qu’à cet accord le Duc eust peine à consentir,</l>
             <l n="743" xml:id="l743">Ayant sçeu m’echaper de Pavie incognuë,</l>
             <l n="744" xml:id="l744">Pour m’en éclaircir mieux je suis icy venuë,</l>
-            <l n="745" xml:id="l745"><space/>Où l’ordre de Carlos ne m’a que trop appris,<pb n="39"/></l>
+            <l n="745" xml:id="l745">Où l’ordre de Carlos ne m’a que trop appris,<pb n="39"/></l>
             <l n="746" xml:id="l746">Ce qu’il faut que j’oppose à de lâches mépris.</l>
           </sp>
           <sp who="fenise">
@@ -2629,7 +2626,7 @@
             <l n="772" xml:id="l772">Ce n’est pas d’aujourd’huy que je l’ay sçeu cognoistre,</l>
             <l n="773" xml:id="l773">Mais à vous en oüir exaggerer l’<ref target="#ardeur">ardeur*</ref>,</l>
             <l n="774" xml:id="l774">Carlos auprés de vous n’a que de la froideur,</l>
-            <l n="775" xml:id="l775"><space/>Jamais sœur ne prit tant les interests d’un frere.<pb n="40"/></l>
+            <l n="775" xml:id="l775">Jamais sœur ne prit tant les interests d’un frere.<pb n="40"/></l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
@@ -2674,20 +2671,20 @@
           <sp who="fenise">
             <speaker>FENISE.</speaker>
             <l n="792" xml:id="l792">Il est pour attendrir des soûpirs et des larmes,</l>
-            <l n="793" xml:id="l793">S’il s’en servoit, Madame ?</l>
+            <l n="793" xml:id="l793" part="I">S’il s’en servoit, Madame ?</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y"><space/><space/>Il n’en feroit pas mieux.</l>
+            <l part="F">Il n’en feroit pas mieux.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
             <l n="794" xml:id="l794">Mais l’amour quelquefois se glisse par les yeux,</l>
-            <l n="795" xml:id="l795">S’il vous plaisoit enfin ?</l>
+            <l n="795" xml:id="l795" part="I">S’il vous plaisoit enfin ?</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y"><space/>Le Duc pourroit me plaire<note n="148" place="bottom">L’ironie de la Duchesse montre comment s’allient honneur, orgueil et amour.</note> ?</l>
+            <l part="F">Le Duc pourroit me plaire<note n="148" place="bottom">L’ironie de la Duchesse montre comment s’allient honneur, orgueil et amour.</note> ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.<pb n="41"/></speaker>
@@ -2737,33 +2734,33 @@
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
             <l n="819" xml:id="l819">Les accords en sont doux quand la voix les anime,</l>
-            <l n="820" xml:id="l820">Ce talent est <ref target="#aimable">aimable*</ref>.</l>
+            <l n="820" xml:id="l820" part="I">Ce talent est <ref target="#aimable">aimable*</ref>.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.<pb n="42"/></speaker>
-            <l part="Y"><space/><space/>Il vaut ce qu’on l’estime,</l>
+            <l part="F">Il vaut ce qu’on l’estime,</l>
             <l n="821" xml:id="l821">Pendant ma solitude il <ref target="#flatter3">flattoit*</ref> mon <ref target="#soucy">soucy*</ref>.</l>
-            <l n="822" xml:id="l822">Donne.</l>
+            <l n="822" xml:id="l822" part="I">Donne.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE <hi rend="i">Rentrant.</hi></speaker>
-            <l part="Y"><space/>Le Duc, Madame…</l>
+            <l part="M">Le Duc, Madame…</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y"><space/><space/>Et bien ?</l>
+            <l part="M">Et bien ?</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/><space/>Il vient icy.</l>
+            <l part="F">Il vient icy.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l n="823" xml:id="l823">Le Duc ?</l>
+            <l n="823" xml:id="l823" part="I">Le Duc ?</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y"><space/>Pour me cacher usons de stratagème.</l>
+            <l part="F">Pour me cacher usons de stratagème.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
@@ -2787,11 +2784,11 @@
           <stage>LE DUC, LA DUCHESSE, FENISE, LAURE, FABRICE.</stage>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="831" xml:id="l831">Voyons sans estre veus<note n="151" place="bottom">Nous pouvons faire un parallèle avec la scène 2 de l’acte II, dans laquelle le Duc et Fabrice observaient Fénise et Laure à leurs dépends. Mais la situation est ici inversée car les observées savent qu’elles le sont, et observent à leur tour. Comme l’a souligné G. Lechevalier, ce sont elles qui deviennent, non sans ironie, spectatrices des réactions du Duc.</note>.</l>
+            <l n="831" xml:id="l831" part="I">Voyons sans estre veus<note n="151" place="bottom">Nous pouvons faire un parallèle avec la scène 2 de l’acte II, dans laquelle le Duc et Fabrice observaient Fénise et Laure à leurs dépends. Mais la situation est ici inversée car les observées savent qu’elles le sont, et observent à leur tour. Comme l’a souligné G. Lechevalier, ce sont elles qui deviennent, non sans ironie, spectatrices des réactions du Duc.</note>.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Ah, Seigneur, qu’elle est belle !</l>
+            <l part="F">Ah, Seigneur, qu’elle est belle !</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
@@ -2799,11 +2796,11 @@
             <l n="833" xml:id="l833">Et je doute en effet si jamais sans sa voix</l>
             <l n="834" xml:id="l834">La beauté de Fenise eust arresté mon choix,<note n="152" place="bottom">Thomas Corneille cherche ici à donner plus de vraisemblance à l’intrigue, par rapport à la pièce espagnole par exemple, en fondant l’amour du Duc non seulement sur la voix mais encore sur la beauté de Fenise, à laquelle il accorde sa préférence sans savoir que c’est d’elle qu’il parle.</note></l>
             <l n="835" xml:id="l835">Mais elle est belle enfin, et ce charme l’emporte<note n="153" place="bottom"> Le démonstratif est ambigu, car grammaticalement <hi rend="i">ce charme</hi> se réfère à la beauté, or il faut plutôt admettre comme référent la voix de Fenise.</note>.</l>
-            <l n="836" xml:id="l836">Elle accorde son lut, demeurons-là.</l>
+            <l n="836" xml:id="l836" part="I">Elle accorde son lut, demeurons-là.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Qu’importe ?</l>
+            <l part="F">Qu’importe ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
@@ -2812,11 +2809,11 @@
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
             <l n="838" xml:id="l838">Oyez-donc, mais gardez de vous en dégouster,</l>
-            <l n="839" xml:id="l839">Si vous fermiez les yeux ?</l>
+            <l n="839" xml:id="l839" part="I">Si vous fermiez les yeux ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Le conseil ridicule !</l>
+            <l part="F">Le conseil ridicule !</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
@@ -2829,30 +2826,30 @@
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
             <l n="845" xml:id="l845">Ton sens de la folie a toûjours le support<note n="154" place="bottom">Comprendre : ton sens de la folie a toujours le dessus.</note>,</l>
-            <l n="846" xml:id="l846">Tay-toy.</l>
+            <l n="846" xml:id="l846" part="I">Tay-toy.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/>Son instrument est d’un fâcheux accord.</l>
+            <l part="F">Son instrument est d’un fâcheux accord.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE <hi rend="i">à la Duchesse.</hi></speaker>
-            <l n="847" xml:id="l847">Il ne s’avance point.</l>
+            <l n="847" xml:id="l847" part="I">Il ne s’avance point.</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y"><space/><space/>La rencontre est plaisante,</l>
+            <l part="F">La rencontre est plaisante,</l>
             <l n="848" xml:id="l848">Comme il me prend pour vous, il attend que je chante.</l>
             <l n="849" xml:id="l849">J’y vais remedier. Julie est-elle icy<note n="155" place="bottom">Malgré l’absence de la didascalie, cette question doit être prononcée à voix haute, pour être entendue du Duc.</note> ?</l>
             <l n="850" xml:id="l850">Cherchez, Laure, mais Dieux ! qui nous observe ainsi ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l n="851" xml:id="l851">Madame, c’est le Duc.</l>
+            <l n="851" xml:id="l851" part="I">Madame, c’est le Duc.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC, <hi rend="i">à la Duchesse.</hi></speaker>
-            <l part="Y"><space/><space/>Enfin, belle Fenise,</l>
+            <l part="F">Enfin, belle Fenise,</l>
             <l n="852" xml:id="l852">Le Ciel par son <ref target="#adveu">adveu*</ref> soustient mon entreprise,</l>
             <l n="853" xml:id="l853">Puisque malgré vos soins à vous cacher de moy</l>
             <l n="854" xml:id="l854">Il daigne consentir au <ref target="#bien">bien*</ref> que je reçoy.</l>
@@ -2872,7 +2869,7 @@
             <speaker>LE DUC.</speaker>
             <l n="863" xml:id="l863">Vous desadvoüerez donc cette voix adorable</l>
             <l n="864" xml:id="l864">Qui d’un si beau desir m’a sçu rendre capable,</l>
-            <l n="865" xml:id="l865"><space/>Ce charme qui des-ja m’a surpris tant de fois ?<pb n="45"/></l>
+            <l n="865" xml:id="l865">Ce charme qui des-ja m’a surpris tant de fois ?<pb n="45"/></l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
@@ -2892,11 +2889,11 @@
           <sp who="laure">
             <speaker>LAURE.</speaker>
             <l n="872" xml:id="l872">Vous luy laissez penser que c’est elle qui chante,</l>
-            <l n="873" xml:id="l873">C’est par là qu’il se prend.</l>
+            <l n="873" xml:id="l873" part="I">C’est par là qu’il se prend.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/><space/>Qu’il est <ref target="#caprice">capricieux*</ref> !</l>
+            <l part="F">Qu’il est <ref target="#caprice">capricieux*</ref> !</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
@@ -2942,11 +2939,11 @@
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="892" xml:id="l892">Moy marié, Madame ?</l>
+            <l n="892" xml:id="l892" part="I">Moy marié, Madame ?</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y"><space/><space/>Avecque la Duchesse.</l>
+            <l part="F">Avecque la Duchesse.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
@@ -2966,18 +2963,18 @@
             <l n="900" xml:id="l900">Un tel <ref target="#adveu">adveu*</ref>, Seigneur, m’est assez favorable*,</l>
             <l n="901" xml:id="l901">Mais c’est un peu trop tost m’engager vostre <ref target="#foy1">foy*</ref>,</l>
             <l n="902" xml:id="l902">Peut-estre la Duchesse est plus belle que moy<note n="157" place="bottom"> Il y a dans ce vers une ambiguïté due à la place de l’adverbe <hi rend="i">peut-être</hi> : le fait qu’il initialise la phrase surprend car on s’attend alors à une phrase d’initialisation par l’adverbe qui entrainerait la postposition du clitique (voir N. Fournier, <hi rend="i">Grammaire du français classique</hi>, p. 36) . Mais en réalité, il s’agit d’un déplacement étrange de l’adverbe, qui devrait se situer après le verbe, donnant ainsi une phrase plus claire : « La Duchesse est peut-être plus belle que moi. ». Le fait de déplacer l’adverbe revient en fait à obtenir un énoncé assertif « la Duchesse est plus belle que moi », qui a peut-être pour but de persuader le Duc de cela.</note>,</l>
-            <l n="903" xml:id="l903">Et je m’exposerois…</l>
+            <l n="903" xml:id="l903" part="I">Et je m’exposerois…</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Pensez-en mieux de grace,</l>
+            <l part="F">Pensez-en mieux de grace,</l>
             <l n="904" xml:id="l904">Est-il quelque beauté que la vostre n’efface ?</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE, <hi rend="i">à Fenise.</hi></speaker>
             <l n="905" xml:id="l905">J’obtiens sous vostre nom un accueil assez doux,</l>
             <l n="906" xml:id="l906">Voyez ce que je puis luy promettre pour vous,</l>
-            <l n="907" xml:id="l907"><space/>Respondray-je en cruelle<note n="158" place="bottom"> Répondray-je en cruelle : « l’être qui se refuse est dit cruelle » (voir A. Sancier-Château, <hi rend="i">Introduction à la langue du XVII<hi rend="sup">e</hi> siècle</hi>, section vocabulaire, 128, p. 56) . Il faut donc comprendre ce vers comme une véritable question de la Duchesse à Fenise : Refusez-vous l’amour du Duc ou êtes vous favorable à cet amour ?</note>, ou seray-je propice* ?<pb n="47"/></l>
+            <l n="907" xml:id="l907">Respondray-je en cruelle<note n="158" place="bottom"> Répondray-je en cruelle : « l’être qui se refuse est dit cruelle » (voir A. Sancier-Château, <hi rend="i">Introduction à la langue du XVII<hi rend="sup">e</hi> siècle</hi>, section vocabulaire, 128, p. 56) . Il faut donc comprendre ce vers comme une véritable question de la Duchesse à Fenise : Refusez-vous l’amour du Duc ou êtes vous favorable à cet amour ?</note>, ou seray-je propice* ?<pb n="47"/></l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
@@ -3007,24 +3004,24 @@
             <speaker>LA DUCHESSE.</speaker>
             <l n="917" xml:id="l917">Outre que son advis est le seul qui me plaist,</l>
             <l n="918" xml:id="l918">Peut-estre a-t’elle icy quelque peu d’interest,</l>
-            <l n="919" xml:id="l919">Je le dois conserver.</l>
+            <l n="919" xml:id="l919" part="I">Je le dois conserver.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Voy Fabrice<note n="159" place="bottom">La réplique de la Duchesse corrobore l’hypothèse formulée par Fabrice et le Duc à la scène 2 de l’Acte I, qui n’était pas clairement exprimée, et qui est confirmée ici : le Duc a l’intime conviction que Célie l’aime, et parle pour elle, mais il ne pénètre pas le déguisement de celle-ci.</note>.</l>
+            <l part="M">Voy Fabrice<note n="159" place="bottom">La réplique de la Duchesse corrobore l’hypothèse formulée par Fabrice et le Duc à la scène 2 de l’Acte I, qui n’était pas clairement exprimée, et qui est confirmée ici : le Duc a l’intime conviction que Célie l’aime, et parle pour elle, mais il ne pénètre pas le déguisement de celle-ci.</note>.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Ah j’enrage,</l>
+            <l part="F">Ah j’enrage,</l>
             <l n="920" xml:id="l920">Elles sont toutes d’eux d’accord du filoutage<note n="160" place="bottom">Filoutage : Ce mot semble être un néologisme, créé pour la rime car il n’existe dans aucun des dictionnaires contemporains ; on trouve néanmoins « filouterie » chez Richelet, mais avec le sens de « vol » alors qu’ici il s’agit davantage d’un « complot », d’une « tromperie ».</note>.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="921" xml:id="l921">Mais que resolvez-vous ?</l>
+            <l n="921" xml:id="l921" part="I">Mais que resolvez-vous ?</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y"><space/><space/>De prendre vostre amour</l>
+            <l part="F">De prendre vostre amour</l>
             <l n="922" xml:id="l922">Pour un feu qui peut naistre et mourir en un jour,</l>
             <l n="923" xml:id="l923">Pour un aveugle effort d’une premiere idée</l>
             <l n="924" xml:id="l924">Dont sans reflexion vostre ame est possedée,</l>
@@ -3040,26 +3037,26 @@
           </sp>
           <sp who="laure">
             <speaker>LAURE <hi rend="i">à Fenise.</hi></speaker>
-            <l n="931" xml:id="l931">Cela va bien pour vous.</l>
+            <l n="931" xml:id="l931" part="I">Cela va bien pour vous.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>D’ailleurs les miens l’ont veuë,</l>
+            <l part="F">D’ailleurs les miens l’ont veuë,</l>
             <l n="932" xml:id="l932">Et sa beauté par eux ne m’est que trop cognuë ;</l>
             <l n="933" xml:id="l933">Ce sont charmes communs, ce sont mornes <ref target="#apas">appas*</ref></l>
             <l n="934" xml:id="l934">Qui des plus foibles cœurs ne triompheroient pas.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l n="935" xml:id="l935">Et mesme…</l>
+            <l n="935" xml:id="l935" part="I">Et mesme…</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Que dis-tu ?</l>
+            <l part="M">Que dis-tu ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Que vous estes modeste.</l>
+            <l part="F">Que vous estes modeste.</l>
             <l n="936" xml:id="l936">Elle a, vous a-t’on dit, quelque os icy de reste,</l>
             <l n="937" xml:id="l937">Qui n’a jamais voulu se mettre à la raison,</l>
             <l n="938" xml:id="l938">Qu’on ne l’ait mis aux fers et son corps en prison.</l>
@@ -3081,13 +3078,13 @@
             <l n="948" xml:id="l948">Sans scrupule aujourd’huy vous quittez la Duchesse,</l>
             <l n="949" xml:id="l949">Pour me rendre le change, et m’oster vostre <ref target="#foy1">foy*</ref>,</l>
             <l n="950" xml:id="l950">Il ne faudroit demain que chanter mieux que moy,</l>
-            <l n="951" xml:id="l951"><space/>L’exemple me fait peur, et sur cette asseurance<pb n="49"/></l>
+            <l n="951" xml:id="l951">L’exemple me fait peur, et sur cette asseurance<pb n="49"/></l>
             <l n="952" xml:id="l952">Vous pouvez adresser ailleurs vostre inconstance.</l>
-            <l n="953" xml:id="l953">Adieu.</l>
+            <l n="953" xml:id="l953" part="I">Adieu.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/>Quoy ? me quitter ! Madame, encor deux mots.</l>
+            <l part="F">Quoy ? me quitter ! Madame, encor deux mots.</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE, <hi rend="i">à Fenise.</hi></speaker>
@@ -3103,15 +3100,15 @@
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l n="956" xml:id="l956">Moy, Seigneur ?</l>
+            <l n="956" xml:id="l956" part="I">Moy, Seigneur ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Quel mépris !</l>
+            <l part="M">Quel mépris !</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y">Dîtes quelle folie.</l>
+            <l part="F">Dîtes quelle folie.</l>
             <l n="957" xml:id="l957">Mais pour luy donner lieu de s’en mordre les doigts,</l>
             <l n="958" xml:id="l958">Espousons la Duchesse, et <ref target="#nargue">nargue*</ref> de sa voix.</l>
           </sp>
@@ -3148,39 +3145,39 @@
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="972" xml:id="l972">Et c’est ?</l>
+            <l n="972" xml:id="l972" part="I">Et c’est ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/>Vous le sçavez, l’amour de cette Dame,</l>
+            <l part="F">Vous le sçavez, l’amour de cette Dame,</l>
             <l n="973" xml:id="l973">Qui dans sa confidence* eut tousjours tant de part.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="974" xml:id="l974">Mais me dites-vous vray ?</l>
+            <l n="974" xml:id="l974" part="I">Mais me dites-vous vray ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/><space/>Je vous parle sans <ref target="#farder">fard*</ref>.</l>
+            <l part="F">Je vous parle sans <ref target="#farder">fard*</ref>.</l>
             <l n="975" xml:id="l975">Est-ce avec vous, Seigneur, qu’il est permis de feindre ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC, <hi rend="i">à Fabrice.</hi></speaker>
-            <l n="976" xml:id="l976">Qu’elle est folle ! entens-tu ?</l>
+            <l n="976" xml:id="l976" part="I">Qu’elle est folle ! entens-tu ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y">J’ay peine à <ref target="#se-contraindre">me contraindre*</ref>.</l>
+            <l part="F">J’ay peine à <ref target="#se-contraindre">me contraindre*</ref>.</l>
             <l n="977" xml:id="l977">Quoy, ce petit extrait d’original humain,</l>
             <l n="978" xml:id="l978">Pour aspirer à vous a le cœur assez vain ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="979" xml:id="l979">Tu vois.</l>
+            <l n="979" xml:id="l979" part="I">Tu vois.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/>Pour la payer de tous ses badinages,</l>
+            <l part="F">Pour la payer de tous ses badinages,</l>
             <l n="980" xml:id="l980">Mariez-là, Seigneur, à quelqu’un de vos pages.</l>
           </sp>
           <sp who="fenise">
@@ -3198,11 +3195,11 @@
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="985" xml:id="l985">Mais me cognoissez-vous<note n="162" place="bottom">Comprendre : Savez-vous qui je suis ?</note> ?</l>
+            <l n="985" xml:id="l985" part="I">Mais me cognoissez-vous<note n="162" place="bottom">Comprendre : Savez-vous qui je suis ?</note> ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/><space/>En vous vantant son feu,</l>
+            <l part="F">En vous vantant son feu,</l>
             <l n="986" xml:id="l986">Au seul Duc de Milan j’en croy faire l’adveu.</l>
             <l n="987" xml:id="l987">Si vous ne l’estes pas, permettez que j’espere</l>
             <l n="988" xml:id="l988">Qu’il apprendra de vous ce que je n’ay pû taire.</l>
@@ -3229,23 +3226,23 @@
           <stage>LE DUC, FABRICE.</stage>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="999" xml:id="l999">Fabrice, qu’en dis-tu ?</l>
+            <l n="999" xml:id="l999" part="I">Fabrice, qu’en dis-tu ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>J’admire la harangue,</l>
+            <l part="F">J’admire la harangue,</l>
             <l n="1000" xml:id="l1000">Elle a le Diable au corps, ou du moins à la langue,</l>
-            <l n="1001" xml:id="l1001">Comme elle tranche net !</l>
+            <l n="1001" xml:id="l1001" part="I">Comme elle tranche net !</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>J’aime cette fierté</l>
+            <l part="F">J’aime cette fierté</l>
             <l n="1002" xml:id="l1002">Qui releve à mes yeux l’éclat de sa beauté,</l>
-            <l n="1003" xml:id="l1003">Elle est belle après tout.</l>
+            <l n="1003" xml:id="l1003" part="I">Elle est belle après tout.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Mais Fenise plus qu’elle ?</l>
+            <l part="F">Mais Fenise plus qu’elle ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
@@ -3265,7 +3262,7 @@
             <l n="1008" xml:id="l1008">Vous aurez un amour bien sujet au <ref target="#caterre">caterre*</ref>,</l>
             <l n="1009" xml:id="l1009">Il ne faut qu’une toux, un rheume, adieu la voix,</l>
             <l n="1010" xml:id="l1010">C'est-à-dire, à l’amour adieu pour quelques mois.<note n="163" place="bottom"> On retrouve sur un ton badin un argument déjà présenté, de manière plus grave par Parthénie dans la nouvelle qui la concerne : « à ce conte là, un rhume feroit quelquesfois mourir mille Amours ; une fiévre lente denoüeroit mille chaines » (voir <hi rend="i">Artamene ou le Grand Cyrus, Timante et Parthénie</hi>, Scudéry.) </note></l>
-            <l n="1011" xml:id="l1011">Mais voicy Federic.</l>
+            <l n="1011" xml:id="l1011" part="I">Mais voicy Federic.</l>
           </sp>
         </div>
         <div type="scene">
@@ -3273,12 +3270,12 @@
           <stage>LE DUC, FEDERIC, FABRICE.</stage>
           <sp who="federic">
             <speaker>FEDERIC.</speaker>
-            <l part="Y">Seigneur, quelle surprise !</l>
-            <l n="1012" xml:id="l1012">Vous rencontrer icy ?</l>
+            <l part="F">Seigneur, quelle surprise !</l>
+            <l n="1012" xml:id="l1012" part="I">Vous rencontrer icy ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC .</speaker>
-            <l part="Y"><space/><space/>Vous me cachiez Fenise,</l>
+            <l part="F">Vous me cachiez Fenise,</l>
             <l n="1013" xml:id="l1013">Mais enfin malgré vous j’ay veu ce <ref target="#rare">rare*</ref> <ref target="#objet">objet*</ref>.</l>
           </sp>
           <sp who="federic">
@@ -3299,33 +3296,33 @@
           </sp>
           <sp who="federic">
             <speaker>FEDERIC.</speaker>
-            <l n="1024" xml:id="l1024">Que dites-vous, Seigneur ?</l>
+            <l n="1024" xml:id="l1024" part="I">Que dites-vous, Seigneur ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Ce discours vous <ref target="#estonne">estonne*</ref>.</l>
+            <l part="F">Ce discours vous <ref target="#estonne">estonne*</ref>.</l>
             <l n="1025" xml:id="l1025">La surprise pourtant n’aura rien que de doux</l>
             <l n="1026" xml:id="l1026">Si je partage enfin ma couronne avec vous,</l>
             <l n="1027" xml:id="l1027">J’en veux mettre le droit dedans vostre famille.</l>
           </sp>
           <sp who="federic">
             <speaker>FEDERIC.<pb n="54"/></speaker>
-            <l n="1028" xml:id="l1028">Quoy, Seigneur, vous voulez ?</l>
+            <l n="1028" xml:id="l1028" part="I">Quoy, Seigneur, vous voulez ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Espouser vostre fille.</l>
+            <l part="F">Espouser vostre fille.</l>
             <l n="1029" xml:id="l1029">Sa beauté sur mon cœur usant de tous ses droits</l>
             <l n="1030" xml:id="l1030">Vient d’achever en moy le charme de sa voix.</l>
           </sp>
           <sp who="federic">
             <speaker>FEDERIC.</speaker>
             <l n="1031" xml:id="l1031">Ah, dissipez ce charme, et rentrez en vous [-] mesme<note n="164" place="bottom">Comprendre : reprenez vos esprits, recouvrez la raison.</note>.</l>
-            <l n="1032" xml:id="l1032">Vous, l’<ref target="#amant">amant*</ref> de ma fille ?</l>
+            <l n="1032" xml:id="l1032" part="I">Vous, l’<ref target="#amant">amant*</ref> de ma fille ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Ouy, Federic, je l’ayme,</l>
+            <l part="F">Ouy, Federic, je l’ayme,</l>
             <l n="1033" xml:id="l1033">Et rien ne peut changer ce que j’ay resolu.</l>
           </sp>
           <sp who="federic">
@@ -3334,11 +3331,11 @@
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="1035" xml:id="l1035">Non, mon <ref target="#dessein1">dessein*</ref> est juste.</l>
+            <l n="1035" xml:id="l1035" part="I">Non, mon <ref target="#dessein1">dessein*</ref> est juste.</l>
           </sp>
           <sp who="federic">
             <speaker>FEDERIC.</speaker>
-            <l part="Y"><space/><space/>Il ne le faut pas croire,</l>
+            <l part="F">Il ne le faut pas croire,</l>
             <l n="1036" xml:id="l1036">Puisqu’il blesse l’Estat, il blesse vostre gloire.</l>
           </sp>
           <sp who="le-duc">
@@ -3360,11 +3357,11 @@
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
             <l n="1047" xml:id="l1047">Je n’ay que trop suivi cette injuste maxime,</l>
-            <l n="1048" xml:id="l1048">Il faut m’en affranchir.</l>
+            <l n="1048" xml:id="l1048" part="I">Il faut m’en affranchir.</l>
           </sp>
           <sp who="federic">
             <speaker>FEDERIC.<pb n="55"/></speaker>
-            <l part="Y"><space/><space/>Le pouvez-vous sans crime,</l>
+            <l part="F">Le pouvez-vous sans crime,</l>
             <l n="1049" xml:id="l1049">Et songez-vous assez de quel sanglant affront</l>
             <l n="1050" xml:id="l1050">La Duchesse par là verroit rougir son front ?</l>
             <l n="1051" xml:id="l1051">Après qu’en vos Estats on l’a desja reçeuë…</l>
@@ -3411,15 +3408,15 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VI. <pb n="56"/></head>
+          <head>SCENE VI.<pb n="56"/></head>
           <stage>LE DUC, FABRICE.</stage>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="1071" xml:id="l1071">Quelle est cette menace ?</l>
+            <l n="1071" xml:id="l1071" part="I">Quelle est cette menace ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Ah, je rentre en mémoire.</l>
+            <l part="F">Ah, je rentre en mémoire.</l>
             <l n="1072" xml:id="l1072">Apprenez un secret que je n’avois pû croire,</l>
             <l n="1073" xml:id="l1073">Mais par cette menace il est trop esclaircy,</l>
             <l n="1074" xml:id="l1074">Le bruit court que Carlos n’a point party<note n="167" place="bottom"> N’a point party : la concurrence entre <hi rend="i">être</hi> et <hi rend="i">avoir</hi> est particulièrement libre en français classique, et le verbe <hi rend="i">partir</hi> connaît une double auxiliation (voir N. Fournier, <hi rend="i">Grammaire du français classique</hi>, p. 255) .</note> d’icy.</l>
@@ -3430,11 +3427,11 @@
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l n="1076" xml:id="l1076">Il n’en faut point douter.</l>
+            <l n="1076" xml:id="l1076" part="I">Il n’en faut point douter.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Dieux, quelle perfidie !</l>
+            <l part="F">Dieux, quelle perfidie !</l>
             <l n="1077" xml:id="l1077">Helas ! fut-il jamais <ref target="#amant">amant*</ref> plus <ref target="#interdit">interdit*</ref> ?</l>
             <l n="1078" xml:id="l1078">Je me fie à Carlos, et l’ingrat me trahit.</l>
             <l n="1079" xml:id="l1079">Mais ne le vois-je pas ? ah, Dieu, quelle est ma peine ?</l>
@@ -3469,11 +3466,11 @@
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
             <l n="1094" xml:id="l1094">C’est ce que la Duchesse a souhaité de moy,</l>
-            <l n="1095" xml:id="l1095">Et j’ay crû vous servir…</l>
+            <l n="1095" xml:id="l1095" part="I">Et j’ay crû vous servir…</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>J’estime vostre zele,</l>
+            <l part="F">J’estime vostre zele,</l>
             <l n="1096" xml:id="l1096">Je n’aspirois, Carlos, qu’à me dégager d’elle,</l>
             <l n="1097" xml:id="l1097">Et ce seul <ref target="#embarras">embarras*</ref> causoit tout mon chagrin.</l>
           </sp>
@@ -3506,30 +3503,30 @@
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l n="1113" xml:id="l1113">Seigneur…</l>
+            <l n="1113" xml:id="l1113" part="I">Seigneur…</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y">Non, non, j’en croy ce que vous m’avez dit,</l>
+            <l part="F">Non, non, j’en croy ce que vous m’avez dit,</l>
             <l n="1114" xml:id="l1114">Vous voulez estre Duc, Carlos, il me suffit.</l>
             <l n="1115" xml:id="l1115">Allez remplir à Parme une si noble envie,</l>
             <l n="1116" xml:id="l1116">Vous y pourrez aller de mesme qu’à Pavie.</l>
-            <l n="1117" xml:id="l1117">Suivez-moy.</l>
+            <l n="1117" xml:id="l1117" part="I">Suivez-moy.</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l part="Y"><space/><space/>Mon mal-heur me <ref target="#reduire">reduit*</ref>-il au point</l>
-            <l n="1118" xml:id="l1118">De…</l>
+            <l part="F">Mon mal-heur me <ref target="#reduire">reduit*</ref>-il au point</l>
+            <l n="1118" xml:id="l1118" part="I">De…</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y">Suivez-moy, vous dis-je, et ne repliquez point.</l>
+            <l part="F">Suivez-moy, vous dis-je, et ne repliquez point.</l>
           </sp>
           <label>Fin du troisième Acte.</label>
         </div>
       </div>
       <div type="act">
-        <head>ACTE IV. <pb n="59"/></head>
+        <head>ACTE IV.<pb n="59"/></head>
         <div type="scene">
           <head>SCENE PREMIERE.</head>
           <stage>FEDERIC, FENISE, LAURE.</stage>
@@ -3643,11 +3640,11 @@
           <sp who="laure">
             <speaker>LAURE.</speaker>
             <l n="1180" xml:id="l1180">Vous n’en seriez pas là si j’avais été cruë ,</l>
-            <l n="1181" xml:id="l1181">Car vous aymez enfin ?</l>
+            <l n="1181" xml:id="l1181" part="I">Car vous aymez enfin ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.<pb n="62"/></speaker>
-            <l part="Y"><space/><space/>Que te diray-je, helas ?</l>
+            <l part="F">Que te diray-je, helas ?</l>
             <l n="1182" xml:id="l1182">Je sens des mouvements que je ne comprens pas.</l>
             <l n="1183" xml:id="l1183">Dans mon cœur indigné l’interest de ma gloire</l>
             <l n="1184" xml:id="l1184">A mes ressentiments dispute la victoire ,</l>
@@ -3704,11 +3701,11 @@
           <sp who="laure">
             <speaker>LAURE.</speaker>
             <l n="1216" xml:id="l1216">Pour vous en éclaircir il faut sonder Fabrice,</l>
-            <l n="1217" xml:id="l1217">Il vient.</l>
+            <l n="1217" xml:id="l1217" part="I">Il vient.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/>Que voudrois-tu que ce fou nous apprist ?</l>
+            <l part="F">Que voudrois-tu que ce fou nous apprist ?</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE .</speaker>
@@ -3721,23 +3718,23 @@
           <stage>FENISE , LAURE, FABRICE.</stage>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l n="1220" xml:id="l1220">Ne vois-je pas Fabrice ?</l>
+            <l n="1220" xml:id="l1220" part="I">Ne vois-je pas Fabrice ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Ah, Dieu vous gard<note n="172" place="bottom"> Dieu vous gard : l’élision du <hi rend="i">e</hi> final est autorisée dans le français classique lorsque, comme ici, elle permet de respecter le mètre.</note>, les belles.</l>
+            <l part="F">Ah, Dieu vous gard<note n="172" place="bottom"> Dieu vous gard : l’élision du <hi rend="i">e</hi> final est autorisée dans le français classique lorsque, comme ici, elle permet de respecter le mètre.</note>, les belles.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l n="1221" xml:id="l1221">Qui t’a permis d’entrer ?</l>
+            <l n="1221" xml:id="l1221" part="I">Qui t’a permis d’entrer ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Moy[-] mesme.</l>
+            <l part="M">Moy[-] mesme.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/><space/>Et sans refus ?</l>
+            <l part="F">Et sans refus ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.<pb n="64"/></speaker>
@@ -3745,20 +3742,20 @@
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l n="1223" xml:id="l1223">D’où vient donc que le Duc…</l>
+            <l n="1223" xml:id="l1223" part="I">D’où vient donc que le Duc…</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Le Duc n’est pas trop sage.</l>
-            <l n="1224" xml:id="l1224">Ne m’en demande rien.</l>
+            <l part="F">Le Duc n’est pas trop sage.</l>
+            <l n="1224" xml:id="l1224" part="I">Ne m’en demande rien.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/><space/>Que fait-il ?</l>
+            <l part="M">Que fait-il ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Il enrage.</l>
+            <l part="F">Il enrage.</l>
             <l n="1225" xml:id="l1225">L’amour luy bouleverse et l’esprit et les sens.</l>
           </sp>
           <sp who="fenise">
@@ -3771,47 +3768,47 @@
             <l n="1228" xml:id="l1228">Fenise cependant s’en moque et le mesprise,</l>
             <l n="1229" xml:id="l1229">Mais s’il m’en vouloit croire, avant qu’il fust un jour,</l>
             <l n="1230" xml:id="l1230">Fenise pourroit bien enrager à son tour.</l>
-            <l n="1231" xml:id="l1231">J’en sçay bien le secret.</l>
+            <l n="1231" xml:id="l1231" part="I">J’en sçay bien le secret.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/><space/>Tu vas un peu bien viste,</l>
-            <l n="1232" xml:id="l1232">Peut-estre que Fenise…</l>
+            <l part="F">Tu vas un peu bien viste,</l>
+            <l n="1232" xml:id="l1232" part="I">Peut-estre que Fenise…</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>O la bonne hypocrite* !</l>
+            <l part="F">O la bonne hypocrite* !</l>
             <l n="1233" xml:id="l1233">Je parle librement, mais aussi sçait-on bien,</l>
-            <l n="1234" xml:id="l1234">Que vostre langue<note n="173" place="bottom">Comprendre ici : que votre parole ne vaut rien. Voir Furetière : « langue : se dit figurément en Morale et signifie la parole. »</note>…</l>
+            <l n="1234" xml:id="l1234" part="I">Que vostre langue<note n="173" place="bottom">Comprendre ici : que votre parole ne vaut rien. Voir Furetière : « langue : se dit figurément en Morale et signifie la parole. »</note>…</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/><space/>Et bien ? sa langue ?</l>
+            <l part="M">Et bien ? sa langue ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Ne vaut rien.</l>
+            <l part="F">Ne vaut rien.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l n="1235" xml:id="l1235">Je souffre tout de toy.</l>
+            <l n="1235" xml:id="l1235" part="I">Je souffre tout de toy.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/>Croyez que je boufonne,</l>
+            <l part="F">Croyez que je boufonne,</l>
             <l n="1236" xml:id="l1236">Mais le Duc vous cognoit, et vous la garde bonne*.</l>
-            <l n="1237" xml:id="l1237"><space/>C’est vous qui destournez Fenise de l’aimer.<pb n="65"/></l>
+            <l n="1237" xml:id="l1237">C’est vous qui destournez Fenise de l’aimer.<pb n="65"/></l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
             <l n="1238" xml:id="l1238">Le Duc sur l’apparence a pû le presumer,</l>
             <l n="1239" xml:id="l1239">Mais Fenise à dessein, pour esprouver sa flame,</l>
             <l n="1240" xml:id="l1240">Me faisoit luy parler de l’amour d’une Dame ;</l>
-            <l n="1241" xml:id="l1241">J’agissois par son ordre.</l>
+            <l n="1241" xml:id="l1241" part="I">J’agissois par son ordre.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Il n’en estoit donc rien ?</l>
+            <l part="F">Il n’en estoit donc rien ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
@@ -3823,16 +3820,16 @@
           </sp>
           <sp who="fenise">
             <speaker>FENISE</speaker>
-            <l n="1244" xml:id="l1244">Ouy, s’il l’aime en effet.</l>
+            <l n="1244" xml:id="l1244" part="I">Ouy, s’il l’aime en effet.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Il ne faut que l’entendre,</l>
-            <l n="1245" xml:id="l1245">Il perd l’esprit pour elle.</l>
+            <l part="F">Il ne faut que l’entendre,</l>
+            <l n="1245" xml:id="l1245" part="I">Il perd l’esprit pour elle.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l part="Y"><space/><space/>Elle craint toutefois</l>
+            <l part="F">Elle craint toutefois</l>
             <l n="1246" xml:id="l1246">Que feignant de l’aimer il n’aime que sa voix,</l>
             <l n="1247" xml:id="l1247">Et ne croit son amour qu’une amour imparfaite,</l>
             <l n="1248" xml:id="l1248">Si sa seule beauté n’est pas ce qui l’arreste.</l>
@@ -3848,7 +3845,7 @@
             <l n="1255" xml:id="l1255">Ebloüy d’un amas de beautez entassées,</l>
             <l n="1256" xml:id="l1256">Dont chacune à son tour promene ses pensées,</l>
             <l n="1257" xml:id="l1257">Il trouve dans ses yeux, dans sa taille, en son port</l>
-            <l n="1258" xml:id="l1258">Tous les charmes…Bon soir.</l>
+            <l n="1258" xml:id="l1258" part="I">Tous les charmes…Bon soir.</l>
             <stage>Fenise rentre.</stage>
           </sp>
         </div>
@@ -3857,70 +3854,70 @@
           <stage>FABRICE, LAURE.</stage>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>D’où vient donc qu’elle sort ?</l>
+            <l part="F">D’où vient donc qu’elle sort ?</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l n="1259" xml:id="l1259">C’est que tu jases trop.</l>
+            <l n="1259" xml:id="l1259" part="I">C’est que tu jases trop.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Chacun sçait son affaire<note n="174" place="bottom"> Chacun sçait son affaire : On peut voir dans cette expression un proverbe tronqué recensé par Furetière : « Chacun sçait ses <hi rend="i">affaires</hi>, ou du moins les doit sçavoir: et absolument, qu’un homme sçait ses <hi rend="i">affaires</hi>, quand il conduit bien ses <hi rend="i">affaires</hi>, avec prudence. »</note>.</l>
+            <l part="F">Chacun sçait son affaire<note n="174" place="bottom"> Chacun sçait son affaire : On peut voir dans cette expression un proverbe tronqué recensé par Furetière : « Chacun sçait ses <hi rend="i">affaires</hi>, ou du moins les doit sçavoir: et absolument, qu’un homme sçait ses <hi rend="i">affaires</hi>, quand il conduit bien ses <hi rend="i">affaires</hi>, avec prudence. »</note>.</l>
             <l n="1260" xml:id="l1260">Qu’elle s’en fâche ou non, il ne m’importe guere,</l>
             <l n="1261" xml:id="l1261">Elle me fait plaisir me laissant avec toy.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l n="1262" xml:id="l1262">D’où vient ta belle humeur ?</l>
+            <l n="1262" xml:id="l1262" part="I">D’où vient ta belle humeur ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>De ce que je te voy,</l>
+            <l part="F">De ce que je te voy,</l>
             <l n="1263" xml:id="l1263">Friponne, sçais-tu bien lors que tu me regardes…</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l n="1264" xml:id="l1264">Quoy, je te tiens au cœur ?</l>
+            <l n="1264" xml:id="l1264" part="I">Quoy, je te tiens au cœur ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Ma foy, tu le petardes<note n="175" place="bottom"> Petardes : le verbe <hi rend="i">pétarder</hi> existe au XVII<hi rend="sup">e</hi> et il signifie selon Richelet « <hi rend="i">Petarder, .</hi> Faire sauter quelque porte, ou quelque barriere avec le petard, se servir du petard pour rompre quelque obstacle que ce soit. ». Il n’appartient donc pas au langage amoureux ; c’est une métaphore burlesque de Fabrice.</note>,</l>
+            <l part="F">Ma foy, tu le petardes<note n="175" place="bottom"> Petardes : le verbe <hi rend="i">pétarder</hi> existe au XVII<hi rend="sup">e</hi> et il signifie selon Richelet « <hi rend="i">Petarder, .</hi> Faire sauter quelque porte, ou quelque barriere avec le petard, se servir du petard pour rompre quelque obstacle que ce soit. ». Il n’appartient donc pas au langage amoureux ; c’est une métaphore burlesque de Fabrice.</note>,</l>
             <l n="1265" xml:id="l1265">Jusqu’au moindre recoin tes yeux vont ravager.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l n="1266" xml:id="l1266">Je te plais donc ?</l>
+            <l n="1266" xml:id="l1266" part="I">Je te plais donc ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Assez pour me faire enrager.</l>
+            <l part="F">Assez pour me faire enrager.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l n="1267" xml:id="l1267">Déja jusqu’à la rage ?</l>
+            <l n="1267" xml:id="l1267" part="I">Déja jusqu’à la rage ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Et plus qu’il ne te semble ,</l>
+            <l part="F">Et plus qu’il ne te semble ,</l>
             <l n="1268" xml:id="l1268">Mais le plaisir d’amour c’est d’enrager ensemble,</l>
-            <l n="1269" xml:id="l1269"><space/>Ainsi si tu voulois enrager tant soit peu…<pb n="67"/></l>
+            <l n="1269" xml:id="l1269">Ainsi si tu voulois enrager tant soit peu…<pb n="67"/></l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l n="1270" xml:id="l1270">Il y faudra songer.</l>
+            <l n="1270" xml:id="l1270" part="I">Il y faudra songer.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Tu te ris de mon feu.</l>
+            <l part="F">Tu te ris de mon feu.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
             <l n="1271" xml:id="l1271">M’en rire ? je t’en voy la face toute blême<note n="176" place="bottom">Ce jeu sur le visage blême de Fabrice nous a permis d’émettre l’hypothèse suivante : le rôle a dû être interprété par Jodelet, au théâtre du Marais, puisque le comédien était réputé pour son visage enfariné et son aptitude à interpréter les rôles de valet comique (voir l’introduction de la pièce) .</note>.</l>
-            <l n="1272" xml:id="l1272">Mais enfin tout de bon, m’aimes-tu ?</l>
+            <l n="1272" xml:id="l1272" part="I">Mais enfin tout de bon, m’aimes-tu ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Si je t’aime ?</l>
+            <l part="F">Si je t’aime ?</l>
             <l n="1273" xml:id="l1273">J’ai déja depuis hier, pour preuve de ma foy,</l>
             <l n="1274" xml:id="l1274">Tâché plus de six fois à soûpirer pour toy.</l>
           </sp>
@@ -3934,17 +3931,17 @@
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l n="1277" xml:id="l1277">Tu n’as fait que tâcher cependant ?</l>
+            <l n="1277" xml:id="l1277" part="I">Tu n’as fait que tâcher cependant ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>N’est-ce rien ?</l>
+            <l part="F">N’est-ce rien ?</l>
             <l n="1278" xml:id="l1278">Pactisons seulement, et le reste ira bien.</l>
-            <l n="1279" xml:id="l1279">Es-tu traitable ?</l>
+            <l n="1279" xml:id="l1279" part="I">Es-tu traitable ?</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/><space/>Moy ? Cela s’en va sans dire.</l>
+            <l part="F">Moy ? Cela s’en va sans dire.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
@@ -3952,22 +3949,22 @@
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l n="1281" xml:id="l1281">Que t’importe combien ?</l>
+            <l n="1281" xml:id="l1281" part="I">Que t’importe combien ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>C’est là la question.</l>
+            <l part="F">C’est là la question.</l>
             <l n="1282" xml:id="l1282">Je crains en soûpirant quelque indigestion,</l>
             <l n="1283" xml:id="l1283">Il faut s’enfler le cœur, et l’excez est à craindre !</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
             <l n="1284" xml:id="l1284">Ton feu n’iroit pas loin avant que de s’éteindre,</l>
-            <l n="1285" xml:id="l1285">Tu me plains de soûpirs ?</l>
+            <l n="1285" xml:id="l1285" part="I">Tu me plains de soûpirs ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.<pb n="68"/></speaker>
-            <l part="Y"><space/><space/>Je sçay bien qu’il t’en faut,</l>
+            <l part="F">Je sçay bien qu’il t’en faut,</l>
             <l n="1286" xml:id="l1286">Mais j’en voudrois avoir ma quittance au plûtost,</l>
             <l n="1287" xml:id="l1287">Et pour n’en recevoir ny reproche ny honte,</l>
             <l n="1288" xml:id="l1288">N’estre obligé qu’à tant et les fournir par conte.</l>
@@ -3979,17 +3976,17 @@
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
             <l n="1290" xml:id="l1290">Va, si je promets peu, c’est afin de tenir,</l>
-            <l n="1291" xml:id="l1291">Vois-tu bien, je suis franc.</l>
+            <l n="1291" xml:id="l1291" part="I">Vois-tu bien, je suis franc.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/><space/>Donc en toute franchise</l>
+            <l part="F">Donc en toute franchise</l>
             <l n="1292" xml:id="l1292">Dy moy quels sentimens le Duc a pour Fenise.</l>
-            <l n="1293" xml:id="l1293">N’est-ce plus pour sa voix…</l>
+            <l n="1293" xml:id="l1293" part="I">N’est-ce plus pour sa voix…</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/><space/>Que tu le bailles doux !</l>
+            <l part="F">Que tu le bailles doux !</l>
             <l n="1294" xml:id="l1294">Mais les voici tous deux qui s’en viennent à nous,</l>
             <l n="1295" xml:id="l1295">Dispose ta Maistresse à mieux traiter sa flame.</l>
           </sp>
@@ -3999,11 +3996,11 @@
           <stage>LE DUC, LA DUCHESSE, LAURE, FABRICE.</stage>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l n="1296" xml:id="l1296">Quoy, Seigneur, jusqu’icy ?</l>
+            <l n="1296" xml:id="l1296" part="I">Quoy, Seigneur, jusqu’icy ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Me fuyez-vous, Madame,</l>
+            <l part="F">Me fuyez-vous, Madame,</l>
             <l n="1297" xml:id="l1297">Et gardez-vous un cœur assez indifferent</l>
             <l n="1298" xml:id="l1298">Pour refuser mes soins quand l’amour vous les rend ?</l>
           </sp>
@@ -4022,17 +4019,17 @@
             <l n="1306" xml:id="l1306">Le desir de vous plaire a fait tous mes désirs,</l>
             <l n="1307" xml:id="l1307">Et quand il vous fait voir jusqu’au fonds de mon ame,</l>
             <l n="1308" xml:id="l1308">Une injuste rigueur est le prix de ma flame.</l>
-            <l n="1309" xml:id="l1309">Helas !</l>
+            <l n="1309" xml:id="l1309" part="I">Helas !</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE, <hi rend="i">au Duc.</hi></speaker>
-            <l part="Y"><space/>Si vous voulez reüssir cette fois,</l>
+            <l part="F">Si vous voulez reüssir cette fois,</l>
             <l n="1310" xml:id="l1310">Parlez de la beauté plustost que de la voix,</l>
-            <l n="1311" xml:id="l1311">J’ay bien menty pour vous.</l>
+            <l n="1311" xml:id="l1311" part="I">J’ay bien menty pour vous.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Enfin que dois-je attendre ?</l>
+            <l part="F">Enfin que dois-je attendre ?</l>
             <l n="1312" xml:id="l1312">Mes plus profonds respects n’ont-ils rien à <ref target="#pretendre">prétendre*</ref> ,</l>
             <l n="1313" xml:id="l1313">Et mon sceptre et mon coeur à vostre empire offerts</l>
             <l n="1314" xml:id="l1314">Me laissent-ils toûjours indigne de vos fers ?</l>
@@ -4123,15 +4120,15 @@
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
             <l n="1358" xml:id="l1358">N’en parlons plus, Madame, il est justifié ;</l>
-            <l n="1359" xml:id="l1359">Le voicy qui paroist.</l>
+            <l n="1359" xml:id="l1359" part="I">Le voicy qui paroist.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VII. <pb n="72"/></head>
+          <head>SCENE VII.<pb n="72"/></head>
           <stage>LE DUC, LA DUCHESSE, CARLOS, FABRICE, CAMILLE.</stage>
           <sp who="carlos">
             <speaker>CARLOS, <hi rend="i">à Camille.</hi></speaker>
-            <l part="Y"><space/><space/>Que voy-je ? la Duchesse ?</l>
+            <l part="F">Que voy-je ? la Duchesse ?</l>
             <l n="1360" xml:id="l1360">Ah, le Duc la cognoit, et tout espoir me laisse.</l>
           </sp>
           <sp who="le-duc">
@@ -4264,27 +4261,27 @@
           <stage>LA DUCHESSE, CARLOS, CAMILLE.</stage>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l n="1419" xml:id="l1419">Ah, Dieux !</l>
+            <l n="1419" xml:id="l1419" part="I">Ah, Dieux !</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>Voilà que c’est<note n="181" place="bottom"> Voilà que c’est = voilà ce que c’est. Le <hi rend="i">ce</hi> est fréquemment omis.</note> de conter sans son hoste<note n="182" place="bottom"> Compter sans son hoste : il s’agit d’un proverbe tronqué, <hi rend="i">qui compte sans son hoste, compte deux fois</hi> que nous avons retrouvé dans le dictionnaire de Cotgrave, <hi rend="i">A french and english Dictionary</hi>. Il s’adresse en fait à la Duchesse, déjà sortie de scène : Camille sous entend ici que l’on se trompe ordinairement quand on compte sans celui qui a intérêt à l’affaire, quand on espère ou qu’on promet une chose qui ne dépend pas absolument de nous. La Duchesse est allée trop vite en prévoyant épouser Carlos sans penser que celui-ci pourrait y voir une marque de déloyauté envers le Duc.</note>.</l>
+            <l part="F">Voilà que c’est<note n="181" place="bottom"> Voilà que c’est = voilà ce que c’est. Le <hi rend="i">ce</hi> est fréquemment omis.</note> de conter sans son hoste<note n="182" place="bottom"> Compter sans son hoste : il s’agit d’un proverbe tronqué, <hi rend="i">qui compte sans son hoste, compte deux fois</hi> que nous avons retrouvé dans le dictionnaire de Cotgrave, <hi rend="i">A french and english Dictionary</hi>. Il s’adresse en fait à la Duchesse, déjà sortie de scène : Camille sous entend ici que l’on se trompe ordinairement quand on compte sans celui qui a intérêt à l’affaire, quand on espère ou qu’on promet une chose qui ne dépend pas absolument de nous. La Duchesse est allée trop vite en prévoyant épouser Carlos sans penser que celui-ci pourrait y voir une marque de déloyauté envers le Duc.</note>.</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l n="1420" xml:id="l1420">Il la veut épouser, Camille !</l>
+            <l n="1420" xml:id="l1420" part="I">Il la veut épouser, Camille !</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>Est-ce ma faute ?</l>
+            <l part="F">Est-ce ma faute ?</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l n="1421" xml:id="l1421">O malheur !</l>
+            <l n="1421" xml:id="l1421" part="I">O malheur !</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y"><space/><space/>Quoy, Carlos, je t’entens souspirer,</l>
+            <l part="F">Quoy, Carlos, je t’entens souspirer,</l>
             <l n="1422" xml:id="l1422">Quand par l’adveu du Duc tu peux tout esperer ?</l>
           </sp>
           <sp who="carlos">
@@ -4307,11 +4304,11 @@
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l n="1435" xml:id="l1435">Ah, que m’apprenez-vous ?</l>
+            <l n="1435" xml:id="l1435" part="I">Ah, que m’apprenez-vous ?</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y"><space/><space/>Cette froideur m’<ref target="#estonne">estonne*</ref>,</l>
+            <l part="F">Cette froideur m’<ref target="#estonne">estonne*</ref>,</l>
             <l n="1436" xml:id="l1436">Parle enfin, que faut-il, Carlos que j’en soupçonne ?</l>
           </sp>
           <sp who="carlos">
@@ -4322,11 +4319,11 @@
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
             <l n="1439" xml:id="l1439">C’est donc ce que de toy, pour t’avoir osé croire,</l>
-            <l n="1440" xml:id="l1440">Mon amour…</l>
+            <l n="1440" xml:id="l1440" part="I">Mon amour…</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l part="Y"><space/>Ah, Madame, il fait toute ma gloire,</l>
+            <l part="F">Ah, Madame, il fait toute ma gloire,</l>
             <l n="1441" xml:id="l1441">Mais aussi, s’il fut trop pour le peu que je vaux,</l>
             <l n="1442" xml:id="l1442">Je puis dire qu’il fait le plus grand de mes maux.</l>
             <l n="1443" xml:id="l1443">Car lors que par le temps l’amour ne peut s’éteindre,</l>
@@ -4336,11 +4333,11 @@
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l n="1447" xml:id="l1447">Quoy, tu cedes le tien ?</l>
+            <l n="1447" xml:id="l1447" part="I">Quoy, tu cedes le tien ?</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l part="Y"><space/><space/>Ma peine en est extréme,</l>
+            <l part="F">Ma peine en est extréme,</l>
             <l n="1448" xml:id="l1448">Mais je dois tout au Duc, et je voy qu’il vous aime.</l>
           </sp>
           <sp who="la-duchesse">
@@ -4354,7 +4351,7 @@
             <l n="1452" xml:id="l1452">Vous à qui de son cœur il adresse l’hommage,</l>
             <l n="1453" xml:id="l1453">Et que sans lâcheté je ne puis aujourd’huy,</l>
             <l n="1454" xml:id="l1454">Cognoissant son erreur, m’en servir contre luy,</l>
-            <l n="1455" xml:id="l1455"><space/>Je sçay que cet effort où l’honneur me convie<pb n="77"/></l>
+            <l n="1455" xml:id="l1455">Je sçay que cet effort où l’honneur me convie<pb n="77"/></l>
             <l n="1456" xml:id="l1456">Ne peut avoir d’effet sans me coûter la vie,</l>
             <l n="1457" xml:id="l1457">Mais à la trahison on doit peu recourir,</l>
             <l n="1458" xml:id="l1458">Quand pour sauver sa gloire il ne faut que mourir :</l>
@@ -4378,11 +4375,11 @@
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
             <l n="1472" xml:id="l1472">Cet amour m’est bien cher mais mon devoir l’emporte,</l>
-            <l n="1473" xml:id="l1473">Et le respect du Duc…</l>
+            <l n="1473" xml:id="l1473" part="I">Et le respect du Duc…</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y"><space/><space/>Le glorieux projet,</l>
+            <l part="F">Le glorieux projet,</l>
             <l n="1474" xml:id="l1474">D’estre mauvais <ref target="#amant">amant*</ref> pour estre bon sujet !</l>
             <l n="1475" xml:id="l1475">Va, rends à me trahir ta <ref target="#foy2">foy*</ref> brillante et pure,</l>
             <l n="1476" xml:id="l1476">Acheptes-en l’éclat aux dépens d’un parjure,</l>
@@ -4394,39 +4391,39 @@
             <l n="1482" xml:id="l1482">Mes armes poursuivront l’hommage qui m’est dû,</l>
             <l n="1483" xml:id="l1483">Et que pour égaler le supplice à l’offence</l>
             <l n="1484" xml:id="l1484">Le Ciel sur tout Milan estendra ma vangeance,</l>
-            <l n="1485" xml:id="l1485">Je vais y donner ordre, adieu.</l>
+            <l n="1485" xml:id="l1485" part="I">Je vais y donner ordre, adieu.</l>
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE IX. <pb n="78"/></head>
+          <head>SCENE IX.<pb n="78"/></head>
           <stage>CARLOS, CAMILLE.</stage>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>Nous voilà bien.</l>
+            <l part="F">Nous voilà bien.</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l n="1486" xml:id="l1486">O rigueur de mon sort ! que dois-je faire ?</l>
+            <l n="1486" xml:id="l1486" part="I">O rigueur de mon sort ! que dois-je faire ?</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>Rien.</l>
+            <l part="F">Rien.</l>
             <l n="1487" xml:id="l1487">Il n’est fidelle preux<note n="184" place="bottom"> Preux : au XVII<hi rend="sup">e</hi> siècle ce mot est en effet utilisé comme substantif, et non, comme en français moderne, comme adjectif. Richelet signale cependant que cet emploi est vieilli. Le lexique est vecteur de sens ici, puisque Camille est entrain de reprocher à son maître de défendre une conception obsolète de l’honneur, héritée de l’idéal chevaleresque.</note> que vostre <ref target="#foy2">foy*</ref> redoute,</l>
-            <l n="1488" xml:id="l1488">Vous avez assez fait .</l>
+            <l n="1488" xml:id="l1488" part="I">Vous avez assez fait .</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l part="Y"><space/><space/>Que cet effort me coûte !</l>
+            <l part="F">Que cet effort me coûte !</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
             <l n="1489" xml:id="l1489">Ne vous en plaignez point ; ceder une Duché<note n="185" place="bottom">Duché : Richelet et Furetière notent tous deux la concurrence du féminin et du masculin pour ce terme.</note>,</l>
             <l n="1490" xml:id="l1490">Pour se montrer loyal, c’est avoir bon marché.</l>
-            <l n="1491" xml:id="l1491">Vous serez dans l’histoire.</l>
+            <l n="1491" xml:id="l1491" part="I">Vous serez dans l’histoire.</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l part="Y"><space/><space/>Ah, crains de me déplaire.</l>
+            <l part="F">Ah, crains de me déplaire.</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
@@ -4441,26 +4438,26 @@
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
             <l n="1496" xml:id="l1496">Chacun sur cet article a liberté de croire,</l>
-            <l n="1497" xml:id="l1497"><space/>Pour moy, si j’en osois dire mon sentiment,<pb n="79"/></l>
+            <l n="1497" xml:id="l1497">Pour moy, si j’en osois dire mon sentiment,<pb n="79"/></l>
             <l n="1498" xml:id="l1498">Je vous condamnerois tres-authentiquement,</l>
             <l n="1499" xml:id="l1499">Car enfin loin d’avoir quelque excuse valable,</l>
             <l n="1500" xml:id="l1500">Qu’auroit pû faire pis un Heretique, un Diable ?</l>
             <l n="1501" xml:id="l1501">Une belle Duchesse, et tout ce qui la suit,</l>
-            <l n="1502" xml:id="l1502">Sceptre, Couronne…</l>
+            <l n="1502" xml:id="l1502" part="I">Sceptre, Couronne…</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l part="Y"><space/><space/>Helas ! où me vois-je réduit ?</l>
-            <l n="1503" xml:id="l1503">Perdre un <ref target="#objet">objet*</ref> si cher !</l>
+            <l part="F">Helas ! où me vois-je réduit ?</l>
+            <l n="1503" xml:id="l1503" part="I">Perdre un <ref target="#objet">objet*</ref> si cher !</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>Le <ref target="#remede1">remede*</ref> est facile,</l>
-            <l n="1504" xml:id="l1504">Revoyez-la.</l>
+            <l part="F">Le <ref target="#remede1">remede*</ref> est facile,</l>
+            <l n="1504" xml:id="l1504" part="I">Revoyez-la.</l>
           </sp>
           <sp who="carlos">
             <speaker>CARLOS.</speaker>
-            <l part="Y"><space/><space/>Non non, n’en parlons point, Camile ;</l>
+            <l part="F">Non non, n’en parlons point, Camile ;</l>
             <l n="1505" xml:id="l1505">Dans le pressant malheur où me plonge le sort,</l>
             <l n="1506" xml:id="l1506">Si quelque espoir me reste il n’est plus qu’en la mort.</l>
           </sp>
@@ -4535,19 +4532,19 @@
             <l n="1547" xml:id="l1547">Pour finir cette erreur que ma feinte a fait naistre</l>
             <l n="1548" xml:id="l1548">Je vois bien qu’il est temps de me faire cognoistre ;</l>
             <l n="1549" xml:id="l1549">Mais les mépris du Duc que j’ay voulu braver</l>
-            <l n="1550" xml:id="l1550"><space/>Abatent mon espoir au lieu de l’eslever ;    </l>
+            <l n="1550" xml:id="l1550">Abatent mon espoir au lieu de l’eslever ;    </l>
             <l n="1551" xml:id="l1551">Mon orgueil s’en plaignoit, et pour le satisfaire,</l>
             <l n="1552" xml:id="l1552">J’advouay ma beauté de chercher à luy plaire,</l>
-            <l n="1553" xml:id="l1553"><space/>Et j’ai trop reconnu que ses foibles attraits<pb n="82"/></l>
+            <l n="1553" xml:id="l1553">Et j’ai trop reconnu que ses foibles attraits<pb n="82"/></l>
             <l n="1554" xml:id="l1554">Ont obtenu sur luy l’effet de mes souhaits.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l n="1555" xml:id="l1555">Helas !</l>
+            <l n="1555" xml:id="l1555" part="I">Helas !</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y"><space/>Ainsi je crains que son cœur trop sensible</l>
+            <l part="F">Ainsi je crains que son cœur trop sensible</l>
             <l n="1556" xml:id="l1556">N’apporte à nos projets un obstacle invincible,</l>
             <l n="1557" xml:id="l1557">Et que me cognoissant, il n’ose avec esclat</l>
             <l n="1558" xml:id="l1558">Faire agir pour sa flame un interest d’Estat.</l>
@@ -4577,17 +4574,17 @@
             <l n="1576" xml:id="l1576">Je veux de son amour que vous jugiez vous[-] mesme,</l>
             <l n="1577" xml:id="l1577">Et qu’en voyant l’effort, vous puissiez tesmoigner</l>
             <l n="1578" xml:id="l1578">Quels nobles sentimens me le font desdaigner.</l>
-            <l n="1579" xml:id="l1579">Je l’apperçois qui vient.</l>
+            <l n="1579" xml:id="l1579" part="I">Je l’apperçois qui vient.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE, <hi rend="i">à Laure.</hi></speaker>
-            <l part="Y"><space/><space/>Qu’une épreuve si rude</l>
+            <l part="F">Qu’une épreuve si rude</l>
             <l n="1580" xml:id="l1580">A mon cœur alarmé cause d’<ref target="#inquietude">inquietude*</ref> !</l>
-            <l n="1581" xml:id="l1581"><space/>Ah, Laure.<pb n="83"/></l>
+            <l n="1581" xml:id="l1581" part="I">Ah, Laure.<pb n="83"/></l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/>Voila bien dequoy vous tourmenter.</l>
+            <l part="F">Voila bien dequoy vous tourmenter.</l>
             <l n="1582" xml:id="l1582">Quand vous n’en pourrez plus vous n’aurez qu’à chanter.</l>
             <l n="1583" xml:id="l1583">Forcez vous un moment à garder le silence.</l>
           </sp>
@@ -4606,11 +4603,11 @@
           </sp>
           <sp who="fenise">
             <speaker>FENISE, <hi rend="i">à Laure.</hi></speaker>
-            <l n="1590" xml:id="l1590">Dieux, quelle offre !</l>
+            <l n="1590" xml:id="l1590" part="I">Dieux, quelle offre !</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/><space/>Attendez l’effet de ce <ref target="#dessein1">dessein</ref>.</l>
+            <l part="F">Attendez l’effet de ce <ref target="#dessein1">dessein</ref>.</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
@@ -4642,17 +4639,17 @@
           <sp who="fabrice">
             <speaker>FABRICE, <hi rend="i">au Duc.</hi></speaker>
             <l n="1606" xml:id="l1606">Pour ne vous point broüiller laissez la voix à part,</l>
-            <l n="1607" xml:id="l1607">Oubliez-vous ainsi ?</l>
+            <l n="1607" xml:id="l1607" part="I">Oubliez-vous ainsi ?</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y">J’ay donc sujet de croire</l>
+            <l part="F">J’ay donc sujet de croire</l>
             <l n="1608" xml:id="l1608">Qu’à ma voix de vos feux je dois toute la gloire ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
             <l n="1609" xml:id="l1609">Je vous ay desja dit que son divin pouvoir</l>
-            <l n="1610" xml:id="l1610"><space/>Fit naistre en moy d’abord le desir de vous voir ;    </l>
+            <l n="1610" xml:id="l1610">Fit naistre en moy d’abord le desir de vous voir ;    </l>
             <l n="1611" xml:id="l1611">Mais sur mon ame enfin vos beautez sans obstacle</l>
             <l n="1612" xml:id="l1612">Ont d’un charme si doux achevé le miracle.</l>
             <l n="1613" xml:id="l1613">De leur brillant esclat l’imperieux effort</l>
@@ -4664,11 +4661,11 @@
             <speaker>FENISE, <hi rend="i">à Laure.</hi></speaker>
             <l n="1617" xml:id="l1617">C’en est fait, sa beauté l’emporte sur ma voix.</l>
             <l n="1618" xml:id="l1618">Qu’a-t’elle plus que moy qui merite son choix ?</l>
-            <l n="1619" xml:id="l1619">Ah, je perds patience.</l>
+            <l n="1619" xml:id="l1619" part="I">Ah, je perds patience.</l>
           </sp>
           <sp who="laure">
             <speaker>LAURE.</speaker>
-            <l part="Y"><space/>Il n’est pas temps encore.</l>
+            <l part="F">Il n’est pas temps encore.</l>
             <l n="1620" xml:id="l1620">C’est vostre seule voix, vous dis-je, qu’il adore,</l>
             <l n="1621" xml:id="l1621">Quoy qu’il <ref target="#protester">proteste*</ref> icy, l’espreuve en fera foy.</l>
           </sp>
@@ -4750,30 +4747,30 @@
           <sp who="le-duc">
             <speaker>LE DUC</speaker>
             <stage>On entend quelques accords de Lut.</stage>
-            <l n="1659" xml:id="l1659">Ce pouvoir…mais, ô Dieux ?</l>
+            <l n="1659" xml:id="l1659" part="I">Ce pouvoir…mais, ô Dieux ?</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y">Quelle est cette surprise ?</l>
+            <l part="F">Quelle est cette surprise ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="1660" xml:id="l1660">J’entens <ref target="#toucher3">toucher*</ref> un Lut.</l>
+            <l n="1660" xml:id="l1660" part="I">J’entens <ref target="#toucher3">toucher*</ref> un Lut.</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE <hi rend="i">bas se destournant.</hi></speaker>
-            <l part="Y"><space/><space/>Je ne voy plus Fenise.</l>
+            <l part="F">Je ne voy plus Fenise.</l>
             <stage>Haut</stage>
             <l n="1661" xml:id="l1661">Mes filles quelquefois voulant me divertir…</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
             <l n="1662" xml:id="l1662">Leur <ref target="#dessein2">dessein*</ref> est trop juste, et j’y dois consentir,</l>
-            <l n="1663" xml:id="l1663"><space/>Il faut les escouter. Dieux !<pb n="87"/></l>
+            <l n="1663" xml:id="l1663" part="I">Il faut les escouter. Dieux !<pb n="87"/></l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE <hi rend="i">au Duc.</hi></speaker>
-            <l part="Y"><space/><space/>Vostre amour s’alarme ?</l>
+            <l part="F">Vostre amour s’alarme ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
@@ -4826,11 +4823,11 @@
             <speaker>LE DUC, <hi rend="i">bas.</hi><pb n="88"/></speaker>
             <l n="1688" xml:id="l1688">Qui croiroit que mon cœur, malgré sa <ref target="#foy1">foy*</ref> promise,</l>
             <l n="1689" xml:id="l1689">Dans Fenise desja ne trouvast plus Fenise ?</l>
-            <l n="1690" xml:id="l1690">M’auroit-on pû tromper ?</l>
+            <l n="1690" xml:id="l1690" part="I">M’auroit-on pû tromper ?</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l part="Y"><space/><space/>Il faut que sur nos sens</l>
+            <l part="F">Il faut que sur nos sens</l>
             <l n="1691" xml:id="l1691">L’empire du devoir ait des droits bien puissants,</l>
             <l n="1692" xml:id="l1692">Car enfin, quelque esclat qui brille dans vostre ame,</l>
             <l n="1693" xml:id="l1693">Avant que Federic approuvast vostre flame,</l>
@@ -4846,11 +4843,11 @@
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l n="1700" xml:id="l1700">Vous ne répondez point ?</l>
+            <l n="1700" xml:id="l1700" part="I">Vous ne répondez point ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Que puis-je vous répondre,</l>
+            <l part="F">Que puis-je vous répondre,</l>
             <l n="1701" xml:id="l1701">Sinon que vos bontez servent à me <ref target="#confondre">confondre*</ref>,</l>
             <stage>On entend encor le lut</stage>
             <l n="1702" xml:id="l1702">Et que<note n="193" place="bottom">Il existe bien un langage galant et insincère car trop mécanique de l’amour, comme l’illustre ici le Duc : il est tout à l’écoute de Fenise, mais sa bouche profère les compliments d’amour attendus. Cela ne dure cependant pas, et il s’interrompt malgré lui, subjugué par la voix.</note>…mais malgré moy je me sens emporter<note n="194" place="bottom"> C’est bien un coup de foudre auditif qui lie le Duc à Fenise, et l’allitération en <hi rend="i">m</hi> « <hi rend="i">m</hi>ais <hi rend="i">m</hi>algré <hi rend="i">m</hi>oy je <hi rend="i">m</hi>e sens emporter » suggère cette attraction incontrôlable.</note>.</l>
@@ -4875,7 +4872,7 @@
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.</speaker>
-            <l n="1710" xml:id="l1710"><space/>Levons le masque, Duc, enfin c’est assez feindre.<pb n="89"/></l>
+            <l n="1710" xml:id="l1710">Levons le masque, Duc, enfin c’est assez feindre.<pb n="89"/></l>
             <l n="1711" xml:id="l1711">Je vous rends vostre amour, qui pour en bien parler</l>
             <l n="1712" xml:id="l1712">Ne cherchant qu’une voix, n’est qu’un amour en l’air.</l>
             <l n="1713" xml:id="l1713">Si l’espoir de ma main a pû <ref target="#flatter1">flater*</ref> vostre ame,</l>
@@ -4893,11 +4890,11 @@
           <stage>LE DUC, FABRICE.</stage>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l n="1721" xml:id="l1721">Vous voilà bien payé.</l>
+            <l n="1721" xml:id="l1721" part="I">Vous voilà bien payé.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>N’importe, elle m’oblige,</l>
+            <l part="F">N’importe, elle m’oblige,</l>
             <l n="1722" xml:id="l1722">Son mépris me fait grace et n’a rien qui m’afflige,</l>
             <l n="1723" xml:id="l1723">Puisqu’enfin sa beauté, quelques charmes qu’elle eust,</l>
             <l n="1724" xml:id="l1724">Sans celuy de sa voix n’avoit rien qui me plûst.</l>
@@ -4909,11 +4906,11 @@
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="1727" xml:id="l1727">Que Celie ?</l>
+            <l n="1727" xml:id="l1727" part="I">Que Celie ?</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/>Ouy, mes yeux en sont de bons garands,</l>
+            <l part="F">Ouy, mes yeux en sont de bons garands,</l>
             <l n="1728" xml:id="l1728">Eux qui viennent de voir ce que je vous apprens.<note n="195" place="bottom"> Yeux/ bon garands : « Le bouffon du Duc de Milan sert ainsi de relais de regard à son maitre et au spectateur qui connait la situation mais qui en reçoit le témoignage d’un chant qu’il ne fait qu’entendre : témoin oculaire, Fabrice offre enfin au Duc la possibilité de mettre un nom sur le visage de la femme tant désirée, et provoque indirectement le dénouement de la pièce » (voir G. Lechevalier, <hi rend="i">Stratégie des regards</hi>). Il faut ajouter que la mystification continue malgré ce témoignage oculaire, car si la voix a regagné le bon visage à ce moment-là, l’identité de la chanteuse demeure inconnue au Duc.</note></l>
           </sp>
           <sp who="le-duc">
@@ -4925,7 +4922,7 @@
             <l n="1733" xml:id="l1733">Mais qu’en vain sa beauté, qu’en vain sa voix m’enflame,</l>
             <l n="1734" xml:id="l1734">Si ce que je me dois tyrannise mon ame,</l>
             <l n="1735" xml:id="l1735">Et si par ce qu’elle est tout mon esprit détruit</l>
-            <l n="1736" xml:id="l1736">Ne découvre…</l>
+            <l n="1736" xml:id="l1736" part="I">Ne découvre…</l>
           </sp>
         </div>
         <div type="scene">
@@ -4933,23 +4930,23 @@
           <stage>LE DUC, FENISE, FABRICE, LAURE.</stage>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Ah, Celie, où m’avez-vous réduit ?</l>
+            <l part="F">Ah, Celie, où m’avez-vous réduit ?</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l n="1737" xml:id="l1737">De quoy vous plaignez-vous ?</l>
+            <l n="1737" xml:id="l1737" part="I">De quoy vous plaignez-vous ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>D’un amour qui m’accable.</l>
+            <l part="F">D’un amour qui m’accable.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
-            <l n="1738" xml:id="l1738">Vostre malheur est grand.</l>
+            <l n="1738" xml:id="l1738" part="I">Vostre malheur est grand.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Vous en estes coupable.</l>
+            <l part="F">Vous en estes coupable.</l>
           </sp>
           <sp who="fenise">
             <speaker>FENISE.</speaker>
@@ -5026,11 +5023,11 @@
           <stage>LE DUC, FABRICE.</stage>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l n="1781" xml:id="l1781">Elle a l’esprit perdu !</l>
+            <l n="1781" xml:id="l1781" part="I">Elle a l’esprit perdu !</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Qu’en toute son audace</l>
+            <l part="F">Qu’en toute son audace</l>
             <l n="1782" xml:id="l1782">Elle sçait conserver et d’attraits et de grace !</l>
             <l n="1783" xml:id="l1783">Bien loin de m’irriter, sa fierté me <ref target="#ravi">ravit*</ref>.</l>
           </sp>
@@ -5048,7 +5045,7 @@
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
             <l n="1789" xml:id="l1789">De n’aimer que vous seul, et narguer les cruelles,</l>
-            <l n="1790" xml:id="l1790">Aussi bien…</l>
+            <l n="1790" xml:id="l1790" part="I">Aussi bien…</l>
           </sp>
         </div>
         <div type="scene">
@@ -5056,7 +5053,7 @@
           <stage>LE DUC, CAMILLE, FABRICE.</stage>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>Ah, Seigneur, voicy bien des nouvelles.</l>
+            <l part="F">Ah, Seigneur, voicy bien des nouvelles.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
@@ -5064,23 +5061,23 @@
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l n="1792" xml:id="l1792">La Duchesse…</l>
+            <l n="1792" xml:id="l1792" part="I">La Duchesse…</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Et bien parle.</l>
+            <l part="M">Et bien parle.</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>Est arrivée icy.</l>
+            <l part="F">Est arrivée icy.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC. </speaker>
-            <l n="1793" xml:id="l1793">Que dis-tu ? la Duchesse ?</l>
+            <l n="1793" xml:id="l1793" part="I">Que dis-tu ? la Duchesse ?</l>
           </sp>
           <sp who="camille">
             <speaker>CAMILLE.</speaker>
-            <l part="Y"><space/><space/>Elle[-] mesme en personne.</l>
+            <l part="F">Elle[-] mesme en personne.</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
@@ -5093,15 +5090,15 @@
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l n="1797" xml:id="l1797">Qu’avez-vous resolu ?</l>
+            <l n="1797" xml:id="l1797" part="I">Qu’avez-vous resolu ?</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l part="Y"><space/><space/>Rien ne m’en peut distraire,</l>
+            <l part="F">Rien ne m’en peut distraire,</l>
             <l n="1798" xml:id="l1798">L’effort est violent, mais il est nécessaire.</l>
             <l n="1799" xml:id="l1799">Puisque Fenise enfin m’a sceu rendre ma <ref target="#foy1">foy*</ref>,</l>
             <l n="1800" xml:id="l1800">Que par son rang Celie est indigne de moy,</l>
-            <l n="1801" xml:id="l1801"><space/>Il faut qu’à ma vertu soûmettant ma foiblesse<pb n="94"/></l>
+            <l n="1801" xml:id="l1801">Il faut qu’à ma vertu soûmettant ma foiblesse<pb n="94"/></l>
             <l n="1802" xml:id="l1802">Je rende en l’espousant justice à la Duchesse.</l>
           </sp>
           <sp who="fabrice">
@@ -5216,19 +5213,19 @@
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="1863" xml:id="l1863">La Duchesse !</l>
+            <l n="1863" xml:id="l1863" part="I">La Duchesse !</l>
           </sp>
           <sp who="la-duchesse">
             <speaker>LA DUCHESSE.<pb n="I97"/></speaker>
-            <l part="Y"><space/><space/>Ouy, c’est moy, vous en doutez en vain.</l>
+            <l part="F">Ouy, c’est moy, vous en doutez en vain.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC.</speaker>
-            <l n="1864" xml:id="l1864">O Dieux !</l>
+            <l n="1864" xml:id="l1864" part="I">O Dieux !</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE.</speaker>
-            <l part="Y"><space/>Il va crier, ô Dieux ! jusqu’à demain.</l>
+            <l part="F">Il va crier, ô Dieux ! jusqu’à demain.</l>
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC, <hi rend="i">à la Duchesse.</hi></speaker>
@@ -5250,11 +5247,11 @@
           </sp>
           <sp who="le-duc">
             <speaker>LE DUC, <hi rend="i">à la Duchesse.</hi></speaker>
-            <l n="1871" xml:id="l1871">Puis-je assez m’excuser, Madame…</l>
+            <l n="1871" xml:id="l1871" part="I">Puis-je assez m’excuser, Madame…</l>
           </sp>
           <sp who="fabrice">
             <speaker>FABRICE, <hi rend="i">montrant l’assemblée</hi></speaker>
-            <l part="Y"><space/><space/>Arrestez-là,</l>
+            <l part="F">Arrestez-là,</l>
             <l n="1872" xml:id="l1872">Laissez ce monde en paix puisque vous y voila,</l>
             <l n="1873" xml:id="l1873">L’éclaircir plus avant seroit pure sottise.</l>
             <l n="1874" xml:id="l1874">Voit-il<note n="202" place="bottom"> La première partie de la négation est ici omise, mais cet emploi est régulier au XVII<hi rend="sup">e</hi> siècle car « le sens négatif des adverbes <hi rend="b">pas</hi> ou <hi rend="b">point</hi> s’accentua peu à peu, si bien qu’ils finissent par eux seuls la négation. », en particulier dans l’interrogation directe (voir A. Haase, <hi rend="i">Syntaxe française</hi>, p. 252, §101, A) .</note> pas que le Duc espousera Fenise,</l>

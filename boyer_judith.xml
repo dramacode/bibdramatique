@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -810,11 +807,11 @@
             <l n="2" xml:id="l2">Quelques maux, quelque soif que Betulie endure,</l>
             <l n="3" xml:id="l3">Soumettez-vous toujours aux decrets éternels,</l>
             <l n="4" xml:id="l4">Et soyez malheureux sans être criminels.</l>
-            <l n="5" xml:id="l5">Retirez-vous.</l>
+            <l n="5" xml:id="l5" part="I">Retirez-vous.</l>
           </sp>
           <sp who="betulien">
             <speaker>UN BETULIEN</speaker>
-            <l part="Y"><space/><space/>Craignez que ces peuples rebelles...</l>
+            <l part="F">Craignez que ces peuples rebelles...</l>
           </sp>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
@@ -873,14 +870,14 @@
           <sp who="ozias">
             <speaker>OZIAS</speaker>
             <l n="42" xml:id="l42">Je me plains encor plus du Peuple qui murmure,</l>
-            <l n="43" xml:id="l43">Faites ce que j’ai dit.</l>
+            <l n="43" xml:id="l43" part="I">Faites ce que j’ai dit.</l>
           </sp>
         </div>
         <div type="scene">
           <head>SCENE II</head>
           <sp who="ozias">
             <speaker>OZIAS <hi rend="i">seul</hi></speaker>
-            <l part="Y"><space/><space/>Je brûle de sçavoir<pb n="p. 4"/></l>
+            <l part="F">Je brûle de sçavoir<pb n="p. 4"/></l>
             <l n="44" xml:id="l44">Par quel motif Judith usurpe mon pouvoir ;</l>
             <l n="45" xml:id="l45">Et ne pouvant douter de sa sagesse extréme,</l>
             <l n="46" xml:id="l46">Je ne puis retrouver Judith en elle-même.</l>
@@ -891,17 +888,17 @@
           <stage>OZIAS, UN BETULIEN</stage>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
-            <l n="47" xml:id="l47">Pourquoy ce prompt retour ?</l>
+            <l n="47" xml:id="l47" part="I">Pourquoy ce prompt retour ?</l>
           </sp>
           <sp who="betulien">
             <speaker>UN BETULIEN</speaker>
-            <l part="Y"><space/><space/>Je reviens <ref target="#etonne">étonné*</ref></l>
+            <l part="F">Je reviens <ref target="#etonne">étonné*</ref></l>
             <l n="48" xml:id="l48">De voir par des soldats Achior emmené :</l>
-            <l n="49" xml:id="l49">Il vous cherche.</l>
+            <l n="49" xml:id="l49" part="I">Il vous cherche.</l>
           </sp>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
-            <l part="Y"><space/><space/>Achior ! lui chef des Ammonites,</l>
+            <l part="F">Achior ! lui chef des Ammonites,</l>
             <l n="50" xml:id="l50">Lui qu’on pouvoit compter entre nos Proselites,</l>
             <l n="51" xml:id="l51">Et qui fut de nos loix secret observateur ? <note n="46" place="bottom"> C’est-à-dire, qui s’est conformé secrètement aux préceptes de notre religion. Il est à noter que dans le <hi rend="i">Livre de Judith</hi>, Achior ne connaît des Juifs que leur foi et leur coutumes. Il symbolise l’homme de bonne volonté prêt à être touché par la Révélation, et se convertit à la religion juive après avoir vu la tête d’Holoferne entre les mains de Judith (<hi rend="i">Jdt.</hi> XIII, 29). Dans la pièce de Boyer, la fonction d’Achior est différente : il était nécessaire qu’Achior fût déjà connu des Juifs, sous peine d’ajouter un épisode inutile. D’autre part, cela permet de faire de lui le confident de Misaël, et Boyer évite ainsi de multiplier les personnages secondaires.</note></l>
             <l n="52" xml:id="l52">Un si fameux guerrier trahy par son malheur<pb n="p. 5"/></l>
@@ -909,7 +906,7 @@
           </sp>
           <sp who="betulien">
             <speaker>UN BETULIEN</speaker>
-            <l n="54" xml:id="l54">Le voicy.</l>
+            <l n="54" xml:id="l54" part="I">Le voicy.</l>
           </sp>
         </div>
         <div type="scene">
@@ -917,7 +914,7 @@
           <stage>OZIAS, ACHIOR</stage>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
-            <l part="Y"><space/><space/>Quel malheur que je ne puis comprendre,</l>
+            <l part="F">Quel malheur que je ne puis comprendre,</l>
             <l n="55" xml:id="l55">Ou plutôt quel <ref target="#bonheur">bonheur*</ref> vous conduit en ces lieux ?</l>
           </sp>
           <sp who="achior">
@@ -958,11 +955,11 @@
             <l n="86" xml:id="l86">Il vous laisse la vie, et suspend sa vengeance ;</l>
             <l n="87" xml:id="l87">Et pour <ref target="#servir">servir*</ref> sa <ref target="#gloire4">gloire*</ref> autant que son couroux,</l>
             <l n="88" xml:id="l88">Il vous envoye ici pour vous perdre avec nous.<pb n="p. 7"/></l>
-            <l n="89" xml:id="l89">Quel orgueil !</l>
+            <l n="89" xml:id="l89" part="I">Quel orgueil !</l>
           </sp>
           <sp who="achior">
             <speaker>ACHIOR</speaker>
-            <l part="Y"><space/><space/>Cet orgueil se nourrit et s’augmente</l>
+            <l part="F">Cet orgueil se nourrit et s’augmente</l>
             <l n="90" xml:id="l90">Au milieu d’une Cour <ref target="#superbe1">superbe*</ref> et triomphante,</l>
             <l n="91" xml:id="l91">Où sa <ref target="#gloire4">gloire*</ref> est toujours presente à ses regards.</l>
             <l n="92" xml:id="l92">Des peuples à grands flots y vont de toutes parts,</l>
@@ -1049,11 +1046,11 @@
           </sp>
           <sp who="achior">
             <speaker>ACHIOR</speaker>
-            <l n="158" xml:id="l158">Et par quel droit Judith...</l>
+            <l n="158" xml:id="l158" part="I">Et par quel droit Judith...</l>
           </sp>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
-            <l part="Y"><space/><space/>Judith commande, ordonne,</l>
+            <l part="F">Judith commande, ordonne,</l>
             <l n="159" xml:id="l159">Je me rens auprés d’elle et je commence à voir</l>
             <l n="160" xml:id="l160">Jusqu’où le Ciel étend sa <ref target="#gloire5">gloire*</ref> et son pouvoir.</l>
           </sp>
@@ -1081,11 +1078,11 @@
           </sp>
           <sp who="achior">
             <speaker>ACHIOR</speaker>
-            <l n="171" xml:id="l171">Vous <ref target="#flatter1">flatez*</ref> son orgueil.</l>
+            <l n="171" xml:id="l171" part="I">Vous <ref target="#flatter1">flatez*</ref> son orgueil.</l>
           </sp>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
-            <l part="Y"><space/><space/>Etranger en ces lieux</l>
+            <l part="F">Etranger en ces lieux</l>
             <l n="172" xml:id="l172">Donnez-vous le loisir de la connoître mieux.</l>
             <l n="173" xml:id="l173">Vous la verrez <ref target="#modeste">modeste*</ref>, humble dans l’abondance,</l>
             <l n="174" xml:id="l174">Et ne comptant pour bien que la seule innocence ;</l>
@@ -1095,7 +1092,7 @@
             <l n="178" xml:id="l178">Insensible à ses maux et tendre pour les nôtres.</l>
             <l n="179" xml:id="l179">Quand elle prend sur nous un souverain pouvoir,</l>
             <l n="180" xml:id="l180">C’est un ordre du Ciel, Judith sçait son devoir.<pb n="p. 12"/></l>
-            <l n="181" xml:id="l181">Elle vient.</l>
+            <l n="181" xml:id="l181" part="I">Elle vient.</l>
           </sp>
         </div>
         <div type="scene">
@@ -1103,7 +1100,7 @@
           <stage>JUDITH, OZIAS, ACHIOR, ABRA</stage>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
-            <l part="Y"><space/><space/>Voyez-la sans <ref target="#art">art*</ref> et sans parure,</l>
+            <l part="F">Voyez-la sans <ref target="#art">art*</ref> et sans parure,</l>
             <l n="182" xml:id="l182">Se bornant sagement aux soins de la Nature,</l>
             <l n="183" xml:id="l183">Simple, et qui toutefois fait paroître à nos yeux</l>
             <l n="184" xml:id="l184">Sur son auguste front un air imperieux.</l>
@@ -1126,11 +1123,11 @@
           </sp>
           <sp who="achior">
             <speaker>ACHIOR</speaker>
-            <l n="195" xml:id="l195">Si ma presence...</l>
+            <l n="195" xml:id="l195" part="I">Si ma presence...</l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l part="Y"><space/><space/>Non. Il n’est rien entre nous</l>
+            <l part="F">Non. Il n’est rien entre nous</l>
             <l n="196" xml:id="l196">que ne puisse écouter un homme comme vous.</l>
             <stage>à Ozias</stage>
             <l n="197" xml:id="l197">Quand je commande ici j’en dois être confuse :</l>
@@ -1201,11 +1198,11 @@
           </sp>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
-            <l n="250" xml:id="l250">Cet ordre est-il pour nous ?<pb n="p. 16"/></l>
+            <l n="250" xml:id="l250" part="I">Cet ordre est-il pour nous ?<pb n="p. 16"/></l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l part="Y"><space/><space/>Il n’excepte personne.</l>
+            <l part="F">Il n’excepte personne.</l>
           </sp>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
@@ -1214,15 +1211,15 @@
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l n="253" xml:id="l253">Moy.</l>
+            <l n="253" xml:id="l253" part="I">Moy.</l>
           </sp>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
-            <l part="Y"><space/>Vous !</l>
+            <l part="M">Vous !</l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l part="Y"><space/><space/>Plus l’entreprise est hardie et <ref target="#nouveau">nouvelle*</ref>,</l>
+            <l part="F">Plus l’entreprise est hardie et <ref target="#nouveau">nouvelle*</ref>,</l>
             <l n="254" xml:id="l254">Plus ma foy s’affermit quand ma raison chancelle.<note n="82" place="bottom">On trouve dans Jephté (III, 1) un vers assez proche : « Où le Seigneur soutient ma vertu qui chancelle. »</note></l>
           </sp>
           <sp who="achior">
@@ -1240,7 +1237,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCENE VI<note n="83" place="bottom"> Coquille dans J1 et J2 (<hi rend="i">SCENE IV</hi>).</note> <pb n="p. 17"/></head>
+          <head>SCENE VI<note n="83" place="bottom"> Coquille dans J1 et J2 (<hi rend="i">SCENE IV</hi>).</note><pb n="p. 17"/></head>
           <stage>OZIAS, ACHIOR</stage>
           <sp who="achior">
             <speaker>ACHIOR</speaker>
@@ -1286,7 +1283,7 @@
         </div>
       </div>
       <div type="act">
-        <head>ACTE II <pb n="p. 19"/></head>
+        <head>ACTE II<pb n="p. 19"/></head>
         <div type="scene">
           <head>SCENE PREMIERE</head>
           <stage>ACHIOR, MISAEL</stage>
@@ -1330,27 +1327,27 @@
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l n="312" xml:id="l312">Judith ? et quel secours...</l>
+            <l n="312" xml:id="l312" part="I">Judith ? et quel secours...</l>
           </sp>
           <sp who="achior">
             <speaker>ACHIOR</speaker>
-            <l part="Y"><space/><space/>Judith nous l’a promis.</l>
+            <l part="F">Judith nous l’a promis.</l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
             <l n="313" xml:id="l313">Sur la foi de Judith, sur cet espoir frivole.</l>
-            <l n="314" xml:id="l314">Quel gage , quel garand...</l>
+            <l n="314" xml:id="l314" part="I">Quel gage , quel garand...</l>
           </sp>
           <sp who="achior">
             <speaker>ACHIOR</speaker>
-            <l part="Y"><space/><space/>Sa <ref target="#vertu2">vertu*</ref>, sa parole.<pb n="p. 21"/></l>
+            <l part="F">Sa <ref target="#vertu2">vertu*</ref>, sa parole.<pb n="p. 21"/></l>
             <l n="315" xml:id="l315">En faut-il davantage ? ici tout retentit</l>
             <l n="316" xml:id="l316">Du miracle <ref target="#etonne">étonnant*</ref> qu’on attend de Judith.</l>
-            <l n="317" xml:id="l317">Quel trouble, Misael...</l>
+            <l n="317" xml:id="l317" part="I">Quel trouble, Misael...</l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l part="Y"><space/><space/>Ah ! si j’ose vous croire,</l>
+            <l part="F">Ah ! si j’ose vous croire,</l>
             <l n="318" xml:id="l318">Achior, je suis presque affligé de sa <ref target="#gloire1">gloire*</ref>.</l>
           </sp>
           <sp who="achior">
@@ -1359,11 +1356,11 @@
             <l n="320" xml:id="l320">J’ai par des <ref target="#bruit1">bruits*</ref> confus appris vôtre malheur :</l>
             <l n="321" xml:id="l321">Le refus de Judith est un affront sensible ;</l>
             <l n="322" xml:id="l322">Mais d’un pareil refus l’excuse étoit plausible.</l>
-            <l n="323" xml:id="l323">Consacrée au Seigneur, pouvoit-elle...</l>
+            <l n="323" xml:id="l323" part="I">Consacrée au Seigneur, pouvoit-elle...</l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l part="Y"><space/><space/>Ecoutez.</l>
+            <l part="F">Ecoutez.</l>
             <l n="324" xml:id="l324">Le Ciel pourvût Judith de toutes les beautez,</l>
             <l n="325" xml:id="l325">Manassés eut pour elle une tendresse extrême ;</l>
             <l n="326" xml:id="l326">Il l’aima constamment, et je l’aimai de même.</l>
@@ -1420,23 +1417,23 @@
           <stage>ABRA, ACHIOR, MISAEL</stage>
           <sp who="abra">
             <speaker>ABRA</speaker>
-            <l n="361" xml:id="l361">Ah Misael !</l>
+            <l n="361" xml:id="l361" part="I">Ah Misael !</l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l part="Y"><space/><space/>Parlez, qu’avez vous à nous dire ?</l>
+            <l part="F">Parlez, qu’avez vous à nous dire ?</l>
           </sp>
           <sp who="abra">
             <speaker>ABRA</speaker>
-            <l n="362" xml:id="l362">Pour parler sans témoins, faites...</l>
+            <l n="362" xml:id="l362" part="I">Pour parler sans témoins, faites...</l>
           </sp>
           <sp who="achior">
             <speaker>ACHIOR</speaker>
-            <l part="Y"><space/><space/>Je me retire.</l>
+            <l part="F">Je me retire.</l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l n="363" xml:id="l363">Ne vous éloignez pas.<pb n="p. 24"/></l>
+            <l n="363" xml:id="l363" part="I">Ne vous éloignez pas.<pb n="p. 24"/></l>
           </sp>
         </div>
         <div type="scene">
@@ -1444,7 +1441,7 @@
           <stage>ABRA, MISAEL</stage>
           <sp who="misael">
             <speaker>MISAEL </speaker>
-            <l part="Y"><space/><space/>Quel est ce desespoir ?</l>
+            <l part="F">Quel est ce desespoir ?</l>
           </sp>
           <sp who="abra">
             <speaker>ABRA</speaker>
@@ -1510,11 +1507,11 @@
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l n="405" xml:id="l405">Je puis donc esperer...</l>
+            <l n="405" xml:id="l405" part="I">Je puis donc esperer...</l>
           </sp>
           <sp who="abra">
             <speaker>ABRA</speaker>
-            <l part="Y"><space/><space/>Hé<note n="92" place="bottom">Var. : Hé !</note> quelle<note n="93" place="bottom"> Coquille dans J1 (<hi rend="i">qu’elle</hi>) corrigée dans J2.</note> est ta pensée ?</l>
+            <l part="F">Hé<note n="92" place="bottom">Var. : Hé !</note> quelle<note n="93" place="bottom"> Coquille dans J1 (<hi rend="i">qu’elle</hi>) corrigée dans J2.</note> est ta pensée ?</l>
             <l n="406" xml:id="l406">M’a-t-elle dit, croirai-je une ardeur insensée ?</l>
             <l n="407" xml:id="l407">Le salut des Hebreux occupe tout mon cœur.</l>
           </sp>
@@ -1574,15 +1571,15 @@
             <l n="440" xml:id="l440">Je la voy. De quel trait son abord m’a frapé !</l>
             <l n="441" xml:id="l441">Vous me le disiez bien que ce n’est que loin d’elle...</l>
             <l n="442" xml:id="l442">Non, Abra, ce n’est point une beauté mortelle.</l>
-            <l n="443" xml:id="l443">Permettez.</l>
+            <l n="443" xml:id="l443" part="I">Permettez.</l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l part="Y"><space/><space/>Levez-vous, Misael.</l>
+            <l part="M">Levez-vous, Misael.</l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l part="Y"><space/><space/>Laissez-moy</l>
+            <l part="F">Laissez-moy</l>
             <l n="444" xml:id="l444">A ces divins appas rendre ce que je doy.</l>
             <l n="445" xml:id="l445">C’est un present du Ciel qu’en ces lieux il envoye<pb n="p. 29"/></l>
             <l n="446" xml:id="l446">Pour remplir les Hebreux d’esperance et de joye.</l>
@@ -1622,11 +1619,11 @@
             <l n="468" xml:id="l468">Quand il voit tant d’<ref target="#eclat2">éclat*</ref>, quel spectacle pour luy ?</l>
             <l n="469" xml:id="l469">Dans ces jours de douleur qui font cesser nos fêtes</l>
             <l n="470" xml:id="l470">La <ref target="#superbe1">superbe*</ref> Judith va faire des conquêtes.<note n="97" place="bottom">L’ironie mordante du propos de Misaël souligne l’apparente ambiguïté de la conduite de Judith, mais aussi l’aveuglement auquel la passion conduit Misaël. Cet éclat, en montrant l’impulsivité du personnage, aide à rendre crédible sa constante hostilité au projet de Judith. Il est en effet trop partagé entre l’apitoiement sur lui-même et le désir de blesser Judith pour examiner la situation. </note></l>
-            <l n="471" xml:id="l471">Que me répondrez-vous ?</l>
+            <l n="471" xml:id="l471" part="I">Que me répondrez-vous ?</l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l part="Y"><space/><space/>Attendez, <ref target="#admiration2">admirez*</ref></l>
+            <l part="F">Attendez, <ref target="#admiration2">admirez*</ref></l>
             <l n="472" xml:id="l472">Sans rien approfondir, ce que vous ignorez.</l>
             <l n="473" xml:id="l473">Apprenez seulement, et ce mot doit suffire ;<note n="98" place="bottom">Var. : suffire,</note></l>
             <l n="474" xml:id="l474">Que si pour achever ce que le Ciel m’inspire</l>
@@ -1649,22 +1646,22 @@
             <speaker>MISAEL</speaker>
             <l n="489" xml:id="l489">Mais ne pourrai-je au moins, pour calmer mes alarmes,</l>
             <l n="490" xml:id="l490">Ne pourrai-je sçavoir où vous portez vos <ref target="#charme">charmes*</ref> ?</l>
-            <l n="491" xml:id="l491">En quels lieux vous allez....</l>
+            <l n="491" xml:id="l491" part="I">En quels lieux vous allez....</l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l part="Y"><space/><space/>Au Camp des ennemis.</l>
+            <l part="F">Au Camp des ennemis.</l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
             <l n="492" xml:id="l492">Dans le Camp d’Holoferne ? hé vous est-il permis</l>
             <l n="493" xml:id="l493">D’exposer un tresor si <ref target="#charme">charmant*</ref> et si rare</l>
             <l n="494" xml:id="l494">Aux brutales <ref target="#fureur">fureurs*</ref> d’un ennemi barbare ?</l>
-            <l n="495" xml:id="l495">Seule sans suite....</l>
+            <l n="495" xml:id="l495" part="I">Seule sans suite....</l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l part="Y"><space/><space/>Abra ne me quitera pas.</l>
+            <l part="F">Abra ne me quitera pas.</l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
@@ -1684,11 +1681,11 @@
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l n="503" xml:id="l503">Non, je vous le défends.</l>
+            <l n="503" xml:id="l503" part="I">Non, je vous le défends.</l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l part="Y"><space/><space/>Cet important secret</l>
+            <l part="F">Cet important secret</l>
             <l n="504" xml:id="l504">Craint à ce que je vois un témoin indiscret ;</l>
             <l n="505" xml:id="l505">Le salut d’Israël doit être votre ouvrage :</l>
             <l n="506" xml:id="l506">Mais peut-être sans vous nous aurons l’avantage</l>
@@ -1699,19 +1696,19 @@
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l n="511" xml:id="l511">Vous vous perdez.<pb n="p. 33"/></l>
+            <l n="511" xml:id="l511" part="I">Vous vous perdez.<pb n="p. 33"/></l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l part="Y"><space/><space/>Qu’importe ?</l>
+            <l part="M">Qu’importe ?</l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l part="Y"><space/><space/>Arrétez.</l>
+            <l part="M">Arrétez.</l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l part="Y"><space/><space/>Je ne puis.</l>
+            <l part="F">Je ne puis.</l>
             <l n="512" xml:id="l512">Et n’écoute que moi dans l’état où je suis.</l>
             <l n="513" xml:id="l513">Vous esperez au camp une indigne victoire ?</l>
             <l n="514" xml:id="l514">J’y seray devant vous pour sauver votre <ref target="#gloire1">gloire*</ref> ;</l>
@@ -1739,12 +1736,12 @@
             <l n="529" xml:id="l529">Va chercher Achior, même soin le regarde,</l>
             <l n="530" xml:id="l530">Voyant à quels perils Misael se hazarde,</l>
             <l n="531" xml:id="l531">Abra, n’en doute point, dans ce pressant besoin</l>
-            <l n="532" xml:id="l532">Cet ami <ref target="#genereux">genereux*</ref>...</l>
+            <l n="532" xml:id="l532" part="I">Cet ami <ref target="#genereux">genereux*</ref>...</l>
           </sp>
           <sp who="abra">
             <speaker>ABRA</speaker>
-            <l part="Y"><space/><space/>Achior n’est pas loin,<note n="105" place="bottom"> Coquille dans J1 (<hi rend="i">loin</hi> ? ) corrigée dans J2.</note></l>
-            <l n="533" xml:id="l533">Je vais vous l’amener.<note n="106" place="bottom">Var. : l’amener :</note></l>
+            <l part="F">Achior n’est pas loin,<note n="105" place="bottom"> Coquille dans J1 (<hi rend="i">loin</hi> ? ) corrigée dans J2.</note></l>
+            <l n="533" xml:id="l533" part="I">Je vais vous l’amener.<note n="106" place="bottom">Var. : l’amener :</note></l>
           </sp>
         </div>
         <div type="scene">
@@ -1752,11 +1749,11 @@
           <stage>JUDITH</stage>
           <sp who="judith">
             <speaker>JUDITH <hi rend="i">seule</hi></speaker>
-            <l part="Y"><space/><space/>A quoi suis-je forcée,</l>
+            <l part="F">A quoi suis-je forcée,</l>
             <l n="534" xml:id="l534">Quand de tant d’autres soins j’ai l’ame embarassée ?</l>
             <l n="535" xml:id="l535">Que l’état où je suis m’<ref target="#etonne">étonne*</ref> et me confond,</l>
             <l n="536" xml:id="l536">Seigneur ! et qu’à mes yeux ce mystere est profond !</l>
-            <l n="537" xml:id="l537">Quelles armes pour vaincre une <ref target="#fier2">fiere*</ref> puissance <pb n="p. 35"/></l>
+            <l n="537" xml:id="l537">Quelles armes pour vaincre une <ref target="#fier2">fiere*</ref> puissance<pb n="p. 35"/></l>
             <l n="538" xml:id="l538">Voulez-vous que Judith préte à votre vengeance ?</l>
             <l n="539" xml:id="l539">Vous la force du foible, et d’un cœur innocent</l>
             <l n="540" xml:id="l540">L’espoir le plus certain dans un pas si glissant,</l>
@@ -1780,14 +1777,14 @@
           <sp who="misael">
             <speaker>MISAEL</speaker>
             <l n="553" xml:id="l553">Achior m’a parlé, qu’en pouvez-vous attendre ?</l>
-            <l n="554" xml:id="l554">A de lâches conseils<note n="108" place="bottom"><hi rend="i">Conseil</hi> : signifie ici « résolution, décision ».</note> le ferez-vous descendre ? <pb n=" p. 36"/></l>
+            <l n="554" xml:id="l554">A de lâches conseils<note n="108" place="bottom"><hi rend="i">Conseil</hi> : signifie ici « résolution, décision ».</note> le ferez-vous descendre ?<pb n=" p. 36"/></l>
             <l n="555" xml:id="l555">Nôtre amitié sur moi luy donne un plein pouvoir,</l>
             <l n="556" xml:id="l556">Mais loin de condamner mon juste desespoir,</l>
-            <l n="557" xml:id="l557">Touché de mon malheur...</l>
+            <l n="557" xml:id="l557" part="I">Touché de mon malheur...</l>
           </sp>
           <sp who="achior">
             <speaker>ACHIOR</speaker>
-            <l part="Y"><space/><space/>Quand Misael s’emporte</l>
+            <l part="F">Quand Misael s’emporte</l>
             <l n="558" xml:id="l558">Quel frein peut<note n="109" place="bottom">Var. : pour</note> retenir une douleur si forte ?</l>
             <l n="559" xml:id="l559">Quoi-que dans cet état trop<note n="110" place="bottom"> Coquille dans J1 (<hi rend="i">torp</hi>) corrigée dans J2.</note> digne de pitié</l>
             <l n="560" xml:id="l560">Il donne des terreurs à ma tendre amitié,</l>
@@ -1830,7 +1827,7 @@
             <l n="587" xml:id="l587">Juste Ciel quels discours terribles, menaçans !</l>
             <l n="588" xml:id="l588">Vous en sentez la force autant que je la sens,</l>
             <l n="589" xml:id="l589">Misael, je le voi par ce morne silence :</l>
-            <l n="590" xml:id="l590">Tout ce que vous aviez d’ardeur, d’<ref target="#impatience2">impatience*</ref> <pb n="p. 38"/></l>
+            <l n="590" xml:id="l590">Tout ce que vous aviez d’ardeur, d’<ref target="#impatience2">impatience*</ref><pb n="p. 38"/></l>
             <l n="591" xml:id="l591">En écoutant Judith, glacé subitement</l>
             <l n="592" xml:id="l592">Vous laisse devant nous, sans voix, sans mouvement.</l>
           </sp>
@@ -1855,12 +1852,12 @@
             <l n="606" xml:id="l606">Par le hardi dessein que son choix lui confie.</l>
             <l n="607" xml:id="l607">Combatons, j’y consens, mais au moins gardez-vous</l>
             <l n="608" xml:id="l608">D’embarasser  Judith par vos <ref target="#transport">transports*</ref> jaloux ;</l>
-            <l n="609" xml:id="l609">Ou plutôt pour sçavoir le parti qu’il faut prendre<note n="119" place="bottom">Var. : prendre,</note> <pb n="p. 39"/></l>
-            <l n="610" xml:id="l610">Attendons le succés....</l>
+            <l n="609" xml:id="l609">Ou plutôt pour sçavoir le parti qu’il faut prendre<note n="119" place="bottom">Var. : prendre,</note><pb n="p. 39"/></l>
+            <l n="610" xml:id="l610" part="I">Attendons le succés....</l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l part="Y"><space/><space/>Je ne sçaurois attendre ;</l>
+            <l part="F">Je ne sçaurois attendre ;</l>
             <l n="611" xml:id="l611">Je veux sans differer, je veux être éclairci ;</l>
             <l n="612" xml:id="l612">Judith hazarde tout, hazardons tout aussi.</l>
             <l n="613" xml:id="l613">Des plus vaillans Hebreux prenons ce qui nous reste,</l>
@@ -1895,7 +1892,7 @@
             <l n="625" xml:id="l625">Ces rapides succés, Seigneur, ont peu d’appas</l>
             <l n="626" xml:id="l626">Quand ils sont achetez par le sang des soldats,</l>
             <l n="627" xml:id="l627">Et cette soif de vaincre ardente, impetueuse,</l>
-            <l n="628" xml:id="l628">Aprés un long <ref target="#bonheur">bonheur*</ref> n’est pas toujours heureuse. <pb n="p. 41"/></l>
+            <l n="628" xml:id="l628">Aprés un long <ref target="#bonheur">bonheur*</ref> n’est pas toujours heureuse.<pb n="p. 41"/></l>
           </sp>
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
@@ -1924,7 +1921,7 @@
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
             <l n="647" xml:id="l647">Vous voulez ébloüir d’une belle apparence</l>
-            <l n="648" xml:id="l648">Et mon ambition et mon impatience. <pb n="p. 42"/></l>
+            <l n="648" xml:id="l648">Et mon ambition et mon impatience.<pb n="p. 42"/></l>
             <l n="649" xml:id="l649">Je sers un Roi qui veut ardeur, activité,</l>
             <l n="650" xml:id="l650">Vainqueur rapide, heureux, il veut être imité.</l>
             <l n="651" xml:id="l651"><ref target="#fier3">Fier*</ref> d’avoir sçû gagner une pleine victoire</l>
@@ -1946,7 +1943,7 @@
             <l n="667" xml:id="l667">Au nom des Rois, qu’on vit si <ref target="#fier2">fiers*</ref>, si temeraires</l>
             <l n="668" xml:id="l668">Je reçois des honneurs forcez ou volontaires ;</l>
             <l n="669" xml:id="l669">L’encens fume par tout, tout est semé de fleurs ;</l>
-            <l n="670" xml:id="l670">L’air retentit de chants et d’éloges <ref target="#flatter3">flateurs*</ref> ; <pb n="p. 43"/></l>
+            <l n="670" xml:id="l670">L’air retentit de chants et d’éloges <ref target="#flatter3">flateurs*</ref> ;<pb n="p. 43"/></l>
             <l n="671" xml:id="l671">Tout m’applaudit, par tout joye et magnificence</l>
             <l n="672" xml:id="l672">Honorent mon triomphe, élevent ma puissance.</l>
             <l n="673" xml:id="l673">Mais vous voiez ici tout d’un coup arrétez</l>
@@ -1961,7 +1958,7 @@
             <l n="682" xml:id="l682">Soit un seul jour plus tard maître de l’Univers.</l>
             <l n="683" xml:id="l683">Penetrons ces rochers, rien n’est inaccessible</l>
             <l n="684" xml:id="l684">Aux vifs et prompts efforts d’une armée invincible.<note n="128" place="bottom"> Var. : <hi rend="i">invincible.</hi> On retrouve dans cette impatience d’Holoferne l’attitude de Tarquin dans <hi rend="i">Scevole</hi> (I, 1) de Du Ryer : « Forçons, forçons enfin ces superbes murailles ; / Qu’un allant glorieux m’épargne cent batailles ; / Pour rendre la victoire et ses plaisirs tous purs, /Il faut voir le rebelle enterré sous ses murs. »</note></l>
-            <l n="685" xml:id="l685">Mais quels cris m’ont frapé ?</l>
+            <l n="685" xml:id="l685" part="I">Mais quels cris m’ont frapé ?</l>
           </sp>
         </div>
         <div type="scene">
@@ -1969,7 +1966,7 @@
           <stage>UN OFFICIER ASSYRIEN, HOLOFERNE, etc.</stage>
           <sp who="assyrien">
             <speaker>OFFICIER</speaker>
-            <l part="Y"><space/><space/>Nos ennemis, Seigneur,</l>
+            <l part="F">Nos ennemis, Seigneur,</l>
             <l n="686" xml:id="l686">Ont fait une sortie avec tant de vigueur,<note n="129" place="bottom"> L’idée d’une sortie des assiégés repoussée, absente du <hi rend="i">Livre de Judith</hi>, semble être reprise de <hi rend="i">Scevole</hi> (I, 2), dans lequel on trouve ces vers : « Les Romains animés d’un reste de vertu / Ont fait une sortie et l’on a combatu. » Ce combat ajoute une dimension épique à <hi rend="i">Judith</hi> et permet de mettre davantage en valeur la victoire de la faible Judith. Par ailleurs, l’attitude d’Achior conduisant cet assaut désespéré est elle aussi semblable au courage d’Horace (Horatius Cocles) dans <hi rend="i">Scevole</hi>.</note></l>
             <l n="687" xml:id="l687">Que presqu’au haut du mont nos troupes avancées</l>
             <l n="688" xml:id="l688">Par leurs premiers efforts ont été renversées ;</l>
@@ -1985,15 +1982,15 @@
             <l n="698" xml:id="l698">Les Hebreux sont enfin par le nombre accablez.</l>
             <l n="699" xml:id="l699">Cependant Achior <ref target="#fier1">fier*</ref> malgré sa défaite</l>
             <l n="700" xml:id="l700">Rassemble ce qui reste, et combat en retraite ;</l>
-            <l n="701" xml:id="l701">Un gros de Juifs le joint, ardens, desesperez, <pb n="p. 45"/></l>
+            <l n="701" xml:id="l701">Un gros de Juifs le joint, ardens, desesperez,<pb n="p. 45"/></l>
             <l n="702" xml:id="l702">Par mille maux soufferts si fort défigurez,<note n="130" place="bottom">Défigurés par les mille souffrances qu’ils ont endurées.</note></l>
             <l n="703" xml:id="l703">Que nos soldats ont pris d’abord quelque épouvante :</l>
             <l n="704" xml:id="l704">Mais voiant leur ardeur peu durable, impuissante,</l>
-            <l n="705" xml:id="l705">On poursuit...</l>
+            <l n="705" xml:id="l705" part="I">On poursuit...</l>
           </sp>
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
-            <l part="Y"><space/><space/>Ton recit fait perdre trop de temps ;</l>
+            <l part="F">Ton recit fait perdre trop de temps ;</l>
             <l n="706" xml:id="l706">Allons, allons hâter le succés que j’attens.<note n="131" place="bottom">Cette hâte est liée à celle de Judith, qui lui fait écho (v. 244). La hâte d’Holoferne répond au souci de justifier l’accomplissement de l’action en un jour, comme on l’a dit plus haut. De plus, en accentuant le péril, elle confère à la pièce une plus grande intensité dramatique.</note></l>
           </sp>
         </div>
@@ -2009,13 +2006,13 @@
             <l n="711" xml:id="l711">Je l’observe de loin, sa course impatiente<note n="132" place="bottom">Impatiente : rapide, pressée.</note></l>
             <l n="712" xml:id="l712">Par un secret détour le mene à votre tente.</l>
             <l n="713" xml:id="l713">Poursuivi des soldats que j’avois prés de moy,</l>
-            <l n="714" xml:id="l714">Accablé par le nombre il se rend sans effroy ; <pb n="p. 46"/></l>
+            <l n="714" xml:id="l714">Accablé par le nombre il se rend sans effroy ;<pb n="p. 46"/></l>
             <l n="715" xml:id="l715">Son air ferme, intrepide, et sa mine hautaine,</l>
-            <l n="716" xml:id="l716">Font voir qu’un grand projet...</l>
+            <l n="716" xml:id="l716" part="I">Font voir qu’un grand projet...</l>
           </sp>
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
-            <l part="Y"><space/><space/>Commandez qu’on l’amene.</l>
+            <l part="F">Commandez qu’on l’amene.</l>
           </sp>
         </div>
         <div type="scene">
@@ -2024,11 +2021,11 @@
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
             <l n="717" xml:id="l717">Quel étrange dessein te conduit en ces lieux !</l>
-            <l n="718" xml:id="l718">Quel secret attentat....</l>
+            <l n="718" xml:id="l718" part="I">Quel secret attentat....</l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l part="Y"><space/><space/>Un dessein <ref target="#gloire3">glorieux*</ref>.</l>
+            <l part="F">Un dessein <ref target="#gloire3">glorieux*</ref>.</l>
             <l n="719" xml:id="l719">Je voulois par ta mort affranchir une Ville</l>
             <l n="720" xml:id="l720">De la sainte Sion le principal azile.</l>
             <l n="721" xml:id="l721">Dans le dernier combat Achior avec moy</l>
@@ -2083,7 +2080,7 @@
             <l n="764" xml:id="l764">Embraser tous leurs bois si dignes de la foudre,</l>
             <l n="765" xml:id="l765">Ces infames reduits, et dont l’obscurité</l>
             <l n="766" xml:id="l766">Des forfaits les plus noirs cachoient l’impieté.<note n="138" place="bottom">Var. : l’impieté</note></l>
-            <l n="767" xml:id="l767">Tu devois au vray Dieu faire ce sacrifice : <pb n="p. 49"/></l>
+            <l n="767" xml:id="l767">Tu devois au vray Dieu faire ce sacrifice :<pb n="p. 49"/></l>
             <l n="768" xml:id="l768">Mais bien loin de servir sa <ref target="#gloire5">gloire*</ref> et sa justice,</l>
             <l n="769" xml:id="l769">On dit que l’on a vû ton bras victorieux</l>
             <l n="770" xml:id="l770">Renverser les Autels, exterminer les Dieux,</l>
@@ -2109,7 +2106,7 @@
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
             <l n="783" xml:id="l783">Ne crois pas m’éblouïr par cette grande idée</l>
-            <l n="784" xml:id="l784">Que tu nous veux donner du Dieu de la Judée. <pb n="p. 50"/></l>
+            <l n="784" xml:id="l784">Que tu nous veux donner du Dieu de la Judée.<pb n="p. 50"/></l>
             <l n="785" xml:id="l785">Par pitié je fais grace à  ce <ref target="#zele1">zele*</ref> emporté.</l>
             <l n="786" xml:id="l786">Plus tu m’oses braver, plus ton impunité</l>
             <l n="787" xml:id="l787">Te fera voir combien je méprise ta haine,</l>
@@ -2130,11 +2127,11 @@
           </sp>
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
-            <l n="795" xml:id="l795">Qu’on la fasse venir. <pb n="p. 51"/></l>
+            <l n="795" xml:id="l795" part="I">Qu’on la fasse venir.<pb n="p. 51"/></l>
           </sp>
           <sp who="assyrien">
             <speaker>L’OFFICIER</speaker>
-            <l part="Y"><space/><space/>Seigneur, je l’ai laissée</l>
+            <l part="F">Seigneur, je l’ai laissée</l>
             <l n="796" xml:id="l796">Qui marchoit au milieu d’une foule empressée.</l>
             <l n="797" xml:id="l797">Si-tôt qu’elle a paru, le Camp de toutes parts</l>
             <l n="798" xml:id="l798">Vers elle seule a fait aller tous ses regards :</l>
@@ -2153,11 +2150,11 @@
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
             <l n="807" xml:id="l807">Qu’on aille satisfaire à mon impatience,</l>
-            <l n="808" xml:id="l808">Je brûle de la voir.</l>
+            <l n="808" xml:id="l808" part="I">Je brûle de la voir.</l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l part="Y"><space/><space/>Que je crains sa presence !</l>
+            <l part="F">Que je crains sa presence !</l>
           </sp>
         </div>
         <div type="scene">
@@ -2186,7 +2183,7 @@
           <sp who="judith">
             <speaker>JUDITH</speaker>
             <l n="820" xml:id="l820">Quelle <ref target="#flatter2">flateuse*</ref> voix rassure ma foiblesse,</l>
-            <l n="821" xml:id="l821">Et me rend tout à coup l’usage de mes sens ?<note n="144" place="bottom"> Cette attitude de Judith n’est pas dans la Bible ; dans le <hi rend="i">Livre de Judith</hi> (X, 20 - XI, 1), on rapporte seulement qu’elle se prosterne devant Holoferne, et que celui-ci la fait relever en lui assurant qu’elle ne craint rien si elle vient le servir. Or, dans <hi rend="i">Esther</hi>, de Racine, la Reine, après s’être évanouie devant son terrible époux, est ranimée par lui et a ces paroles (II, 6) : « Quelle voix salutaire ordonne que je vive / Et rappelle dans mon sein mon âme fugitive ? »</note> <pb n="p. 53"/></l>
+            <l n="821" xml:id="l821">Et me rend tout à coup l’usage de mes sens ?<note n="144" place="bottom"> Cette attitude de Judith n’est pas dans la Bible ; dans le <hi rend="i">Livre de Judith</hi> (X, 20 - XI, 1), on rapporte seulement qu’elle se prosterne devant Holoferne, et que celui-ci la fait relever en lui assurant qu’elle ne craint rien si elle vient le servir. Or, dans <hi rend="i">Esther</hi>, de Racine, la Reine, après s’être évanouie devant son terrible époux, est ranimée par lui et a ces paroles (II, 6) : « Quelle voix salutaire ordonne que je vive / Et rappelle dans mon sein mon âme fugitive ? »</note><pb n="p. 53"/></l>
             <l n="822" xml:id="l822">Mais en ouvrant les yeux, que de troubles puissans</l>
             <l n="823" xml:id="l823">Reviennent quand j’approche un thrône si terrible,<note n="145" place="bottom">Var. : terrible</note></l>
             <l n="824" xml:id="l824">Qui du thrône éternel est l’image sensible !</l>
@@ -2210,7 +2207,7 @@
             <l n="836" xml:id="l836">Sur un nom si fameux j’ay hazardé ma fuite ;</l>
             <l n="837" xml:id="l837">J’ay dû presumer tout d’un cœur comme le tien,</l>
             <l n="838" xml:id="l838">Dans ton Camp, dans tes fers la <ref target="#vertu3">vertu*</ref> ne craint rien.</l>
-            <l n="839" xml:id="l839">J’aime mieux être icy captive, miserable, <pb n="p. 54"/></l>
+            <l n="839" xml:id="l839">J’aime mieux être icy captive, miserable,<pb n="p. 54"/></l>
             <l n="840" xml:id="l840">Qu’être en proye aux malheurs d’une Ville coupable,</l>
             <l n="841" xml:id="l841">Que le Ciel irrité ne veut plus secourir,</l>
             <l n="842" xml:id="l842">Et que ses jugemens condamnent à perir.</l>
@@ -2266,7 +2263,7 @@
             <speaker>JUDITH</speaker>
             <l n="875" xml:id="l875">Qui ne sont que pour moy ! Suis-je votre complice ?</l>
             <l n="876" xml:id="l876">Et puis-je souhaiter qu’Holoferne perisse,</l>
-            <l n="877" xml:id="l877">Quand je viens à ses pieds implorer sa faveur ? <pb n="p. 56"/></l>
+            <l n="877" xml:id="l877">Quand je viens à ses pieds implorer sa faveur ?<pb n="p. 56"/></l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
@@ -2291,11 +2288,11 @@
           <sp who="misael">
             <speaker>MISAEL</speaker>
             <l n="886" xml:id="l886">Si tu ne me crois pas digne d’être écouté,</l>
-            <l n="887" xml:id="l887">Par une prompte mort...</l>
+            <l n="887" xml:id="l887" part="I">Par une prompte mort...</l>
           </sp>
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
-            <l part="Y"><space/><space/>Ouy, tu mourras, parjure,</l>
+            <l part="F">Ouy, tu mourras, parjure,</l>
             <l n="888" xml:id="l888">Moins pour ton attentât que pour ton imposture.</l>
             <l n="889" xml:id="l889">Qu’on aille l’immoler à mon juste couroux.</l>
           </sp>
@@ -2303,7 +2300,7 @@
             <speaker>JUDITH</speaker>
             <l n="890" xml:id="l890">Non, il cherche à mourir : ce supplice est trop doux.</l>
             <l n="891" xml:id="l891">Il faut que dans les fers il gemisse, il soupire,</l>
-            <l n="892" xml:id="l892">En voyant sur les Juifs étendre ton Empire. <pb n="p. 57"/></l>
+            <l n="892" xml:id="l892">En voyant sur les Juifs étendre ton Empire.<pb n="p. 57"/></l>
             <l n="893" xml:id="l893">Qu’il vive, et qu’apprenant ta <ref target="#gloire2">gloire*</ref> et ton <ref target="#bonheur">bonheur*</ref>,</l>
             <l n="894" xml:id="l894">Il en meure cent fois de rage et de douleur.</l>
           </sp>
@@ -2342,11 +2339,11 @@
             <l n="915" xml:id="l915">Luy seul sera le mien, et déja je commence</l>
             <l n="916" xml:id="l916">De le sentir en vous, d’<ref target="#adorable">adorer*</ref> sa puissance.</l>
             <l n="917" xml:id="l917">Ses plus beaux traits qu’en vous sa main a retracez</l>
-            <l n="918" xml:id="l918">M’inspirent des <ref target="#transport">transports*</ref>...</l>
+            <l n="918" xml:id="l918" part="I">M’inspirent des <ref target="#transport">transports*</ref>...</l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l part="Y"><space/><space/>C’est assez, c’est assez.</l>
+            <l part="F">C’est assez, c’est assez.</l>
             <l n="919" xml:id="l919">Tout <ref target="#flatter1">flate*</ref> mes souhaits ; je voy dans ce langage</l>
             <l n="920" xml:id="l920">Des promesses du Ciel l’asseurance et le gage.</l>
             <l n="921" xml:id="l921">Je vay le consulter pour apprendre quel temps,</l>
@@ -2366,11 +2363,11 @@
           <sp who="abra">
             <speaker>ABRA</speaker>
             <l n="927" xml:id="l927">Holoferne déjà se dispose à se rendre ;</l>
-            <l n="928" xml:id="l928">Vous allez triompher.</l>
+            <l n="928" xml:id="l928" part="I">Vous allez triompher.</l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l part="Y"><space/><space/>Hé, que puis-je prétendre</l>
+            <l part="F">Hé, que puis-je prétendre</l>
             <l n="929" xml:id="l929">D’un triomphe honteux dont j’ay lieu de trembler ?</l>
             <l n="930" xml:id="l930">Si j’ay vû le Tyran s’attendrir, se troubler,</l>
             <l n="931" xml:id="l931">Vois-tu pas quel scrupule empoisonne ma joye ?</l>
@@ -2385,7 +2382,7 @@
             <l n="940" xml:id="l940">Je rachette sa mort par un autre supplice ;</l>
             <l n="941" xml:id="l941">J’exerce contre luy la derniere rigueur ;</l>
             <l n="942" xml:id="l942">Et quand de toute part je luy perce le cœur,</l>
-            <l n="943" xml:id="l943">Je travaille à gagner un Tyran que j’abhorre : <pb n="p. 60"/></l>
+            <l n="943" xml:id="l943">Je travaille à gagner un Tyran que j’abhorre :<pb n="p. 60"/></l>
             <l n="944" xml:id="l944">Et vous y consentez, puissant Dieu que j’<ref target="#adorable">adore*</ref>.</l>
             <l n="945" xml:id="l945">Mais pourquoy ces remords et ces scrupules vains ?</l>
             <l n="946" xml:id="l946">J’ay flechy le plus grand, le plus <ref target="#fier4">fier*</ref> des humains.</l>
@@ -2433,7 +2430,7 @@
             <l n="974" xml:id="l974">Fait passer tout d’un coup un funeste<note n="152" place="bottom"><hi rend="i">Funeste</hi> : mortel.</note> poison.</l>
             <l n="975" xml:id="l975">Quand je voy de quel coup ma <ref target="#gloire1">gloire*</ref> est menacée,</l>
             <l n="976" xml:id="l976">Et de quel air Judith regne dans ma pensée,</l>
-            <l n="977" xml:id="l977">Indigné contre un mal que je ne puis souffrir, <pb n="p. 62"/></l>
+            <l n="977" xml:id="l977">Indigné contre un mal que je ne puis souffrir,<pb n="p. 62"/></l>
             <l n="978" xml:id="l978">Je suis presque tenté de la faire perir.</l>
             <l n="979" xml:id="l979">Prenons nos seuretez contre cette Captive,</l>
             <l n="980" xml:id="l980">Qu’est-ce qu’une beauté suspecte et fugitive ?</l>
@@ -2460,7 +2457,7 @@
             <l n="995" xml:id="l995">Et tout ce que m’impose un devoir necessaire,</l>
             <l n="996" xml:id="l996">Ce que j’ay déja fait, ce qui me reste à faire,</l>
             <l n="997" xml:id="l997">L’embarras de régler à chacun son employ,</l>
-            <l n="998" xml:id="l998">D’écouter tant de voeux qui s’adressent à moy, <pb n="p. 63"/></l>
+            <l n="998" xml:id="l998">D’écouter tant de voeux qui s’adressent à moy,<pb n="p. 63"/></l>
             <l n="999" xml:id="l999">Toute l’attention assiduë et profonde</l>
             <l n="1000" xml:id="l1000">Que je dois au projet de conquerir le monde ;</l>
             <l n="1001" xml:id="l1001">Tout celà ne sauroit bannir de mon esprit,</l>
@@ -2487,7 +2484,7 @@
             <l n="1016" xml:id="l1016">Quand j’aimois<note n="155" place="bottom"> Coquille dans J1 (<hi rend="i">j’amois</hi>) corrigée dans J2.</note> je parlois, et j’étois seur de plaire ;</l>
             <l n="1017" xml:id="l1017">Mais en voyant Judith, frappé d’un trait perçant,</l>
             <l n="1018" xml:id="l1018">Accablé d’un respect <ref target="#timide">timide*</ref>, embarrassant,</l>
-            <l n="1019" xml:id="l1019">Et que jamais mon cœur n’a senti qu’auprés d’elle, <pb n="p. 64"/></l>
+            <l n="1019" xml:id="l1019">Et que jamais mon cœur n’a senti qu’auprés d’elle,<pb n="p. 64"/></l>
             <l n="1020" xml:id="l1020">A peine de ma flâme une foible étincelle,</l>
             <l n="1021" xml:id="l1021">Telle que je la sens, s’est montrée à ses yeux ;</l>
             <l n="1022" xml:id="l1022">Elle impose un respect que je refuse aux Dieux.</l>
@@ -2529,21 +2526,21 @@
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l n="1045" xml:id="l1045">Où me voy-je reduite ? <pb n="p. 66"/></l>
+            <l n="1045" xml:id="l1045" part="I">Où me voy-je reduite ?<pb n="p. 66"/></l>
           </sp>
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
-            <l part="Y"><space/><space/>A de pareils discours</l>
+            <l part="F">A de pareils discours</l>
             <l n="1046" xml:id="l1046">Les <ref target="#modeste">modestes*</ref> beautez s’alarmerent toûjours.</l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH <hi rend="i">bas</hi></speaker>
             <l n="1047" xml:id="l1047">A quoy m’expose, helas ! notre grande entreprise ?</l>
-            <l n="1048" xml:id="l1048">J’en frissonne d’horreur.</l>
+            <l n="1048" xml:id="l1048" part="I">J’en frissonne d’horreur.</l>
           </sp>
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
-            <l part="Y"><space/><space/>Je voy votre surprise :</l>
+            <l part="F">Je voy votre surprise :</l>
             <l n="1049" xml:id="l1049">Mais elle va si loin, votre desordre est tel</l>
             <l n="1050" xml:id="l1050">Que vous semblez vous faire un deplaisir mortel<note n="157" place="bottom">Var. : mortel,</note></l>
             <l n="1051" xml:id="l1051">De ce qui vous éleve à la <ref target="#gloire3">gloire*</ref> supreme.</l>
@@ -2558,7 +2555,7 @@
             <l n="1060" xml:id="l1060">Et sachez, pour jouïr de toute votre <ref target="#gloire2">gloire*</ref>,</l>
             <l n="1061" xml:id="l1061">Que l’<ref target="#aveu">aveu*</ref> que je fais met un Prince à vos pieds</l>
             <l n="1062" xml:id="l1062">Qui voit à ses genoux cent Rois humiliez ;</l>
-            <l n="1063" xml:id="l1063">Il se fait tant d’honneur d’être vôtre conquête, <pb n="p. 67"/></l>
+            <l n="1063" xml:id="l1063">Il se fait tant d’honneur d’être vôtre conquête,<pb n="p. 67"/></l>
             <l n="1064" xml:id="l1064">Qu’il veut que dés ce soir un grand festin s’apprête,</l>
             <l n="1065" xml:id="l1065">Où devant tout le camp on vous voye aujourd’huy</l>
             <l n="1066" xml:id="l1066">Au milieu de nos chefs assise auprés de luy.</l>
@@ -2605,7 +2602,7 @@
             <l n="1095" xml:id="l1095">Ayant brisé les Dieux <ref target="#adorable">adorez*</ref> sur la terre,</l>
             <l n="1096" xml:id="l1096">Et voulant à jamais leur declarer la guerre,</l>
             <l n="1097" xml:id="l1097">Pour placer dignement un nom si <ref target="#gloire3">glorieux*</ref>,</l>
-            <l n="1098" xml:id="l1098">Vous seule et vôtre Dieu vous serez tous mes Dieux. <pb n="p. 69"/></l>
+            <l n="1098" xml:id="l1098">Vous seule et vôtre Dieu vous serez tous mes Dieux.<pb n="p. 69"/></l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
@@ -2614,24 +2611,24 @@
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
             <l n="1100" xml:id="l1100">Pour vous faire un destin plus grand, plus honorable,</l>
-            <l n="1101" xml:id="l1101">Je veux vous épouser.<note n="160" place="bottom"> Ce désir d’Holoferne, absent de la Bible, ressemble davantage à <hi rend="i">Scevole</hi>, de Du Ryer : en effet, Porsenne propose à Junie, qui aime Scevole, de se marier avec son fils. La réaction de Junie est un dégoût semblable à celui de Judith, quoiqu’exposé avec moins de diplomatie. La proposition d’Holoferne accentue encore le péril de Judith, en même temps qu’elle rend plus acceptable aux yeux du public de Saint-Cyr le personnage du général, qui du statut de soudard dans la Bible s’élève presque au rang d’un Phyrrus. </note></l>
+            <l n="1101" xml:id="l1101" part="I">Je veux vous épouser.<note n="160" place="bottom"> Ce désir d’Holoferne, absent de la Bible, ressemble davantage à <hi rend="i">Scevole</hi>, de Du Ryer : en effet, Porsenne propose à Junie, qui aime Scevole, de se marier avec son fils. La réaction de Junie est un dégoût semblable à celui de Judith, quoiqu’exposé avec moins de diplomatie. La proposition d’Holoferne accentue encore le péril de Judith, en même temps qu’elle rend plus acceptable aux yeux du public de Saint-Cyr le personnage du général, qui du statut de soudard dans la Bible s’élève presque au rang d’un Phyrrus. </note></l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l part="Y"><space/><space/>M’épouser !</l>
+            <l part="M">M’épouser !</l>
           </sp>
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
-            <l part="Y"><space/><space/>Avez-vous</l>
+            <l part="F">Avez-vous</l>
             <l n="1102" xml:id="l1102">Tant d’horreur pour un noeud si pretieux, si doux ?</l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l n="1103" xml:id="l1103">Tant d’honneur m’épouvante.</l>
+            <l n="1103" xml:id="l1103" part="I">Tant d’honneur m’épouvante.</l>
           </sp>
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
-            <l part="Y"><space/><space/>Ah ! faites que je voye</l>
+            <l part="F">Ah ! faites que je voye</l>
             <l n="1104" xml:id="l1104">Que vous le recevez avecque plus de joye,</l>
             <l n="1105" xml:id="l1105">Ou craignez qu’un <ref target="#amant">amant*</ref> que vous desesperez...</l>
           </sp>
@@ -2640,7 +2637,7 @@
             <l n="1106" xml:id="l1106">J’accepte avec <ref target="#transport">transport*</ref> l’honneur que vous m’offrez,</l>
             <l n="1107" xml:id="l1107">Et le cœur plein de joye et de reconnoissance,</l>
             <l n="1108" xml:id="l1108">Quand vous poussez si loin vôtre magnificence</l>
-            <l n="1109" xml:id="l1109">J’ose même en faveur d’un Enfant d’Israël...<note n="161" place="bottom"> Coquille dans J1 (<hi rend="i">d’Israël.</hi>) corrigée dans J2.</note> <pb n="p. 70"/></l>
+            <l n="1109" xml:id="l1109">J’ose même en faveur d’un Enfant d’Israël...<note n="161" place="bottom"> Coquille dans J1 (<hi rend="i">d’Israël.</hi>) corrigée dans J2.</note><pb n="p. 70"/></l>
           </sp>
           <sp who="holoferne">
             <speaker>HOLOFERNE</speaker>
@@ -2666,7 +2663,7 @@
             <l n="1123" xml:id="l1123">Je vous laisse ; le Camp demande ma presence ;<note n="162" place="bottom">Var. : presence :</note></l>
             <l n="1124" xml:id="l1124">Mais s’il faut vous quitter, ma juste impatience</l>
             <l n="1125" xml:id="l1125">Me rendra promptement cet entretien si doux<note n="163" place="bottom">Var. : doux,</note></l>
-            <l n="1126" xml:id="l1126">Que mon devoir m’arrache en m’éloignant de vous. <pb n="p. 71"/></l>
+            <l n="1126" xml:id="l1126">Que mon devoir m’arrache en m’éloignant de vous.<pb n="p. 71"/></l>
           </sp>
         </div>
         <div type="scene">
@@ -2694,7 +2691,7 @@
             <l n="1135" xml:id="l1135">Où suis-je ? où me conduit cette étrange avanture ?</l>
             <l n="1136" xml:id="l1136">Je marche sans clarté dans une route obscure,<note n="166" place="bottom"> Traduction du célèbre vers de l’<hi rend="i">Enéide</hi> (VI, v. 268) : « <hi rend="i">Ibant obscuri sola sub nocte per umbram</hi> ». De fait, Judith parvenue au terme de cette <hi rend="i">Nequia</hi>, où elle s’est perdue pour suivre la volonté divine (elle a préféré Dieu à Misaël, puis à sa réputation, sa gloire), peut enfin accomplir son action héroïque.</note></l>
             <l n="1137" xml:id="l1137">Moy, je l’épouserois, le Tyran d’Israël,</l>
-            <l n="1138" xml:id="l1138"><ref target="#amant">Amant*</ref> foible et soûmis, mais ennemy cruel ? <pb n="p. 72"/></l>
+            <l n="1138" xml:id="l1138"><ref target="#amant">Amant*</ref> foible et soûmis, mais ennemy cruel ?<pb n="p. 72"/></l>
             <l n="1139" xml:id="l1139">Ah ! s’il faut à ce prix acheter la victoire...</l>
           </sp>
           <sp who="abra">
@@ -2723,7 +2720,7 @@
             <l n="1152" xml:id="l1152">De voir par des soupçons souïller son innocence.</l>
             <l n="1153" xml:id="l1153">On me reprochera la folle vanité,</l>
             <l n="1154" xml:id="l1154">Toute l’ambition qu’inspire la beauté.</l>
-            <l n="1155" xml:id="l1155">L’horreur d’un tel reproche et de tant d’injustice, <pb n="p. 73"/></l>
+            <l n="1155" xml:id="l1155">L’horreur d’un tel reproche et de tant d’injustice,<pb n="p. 73"/></l>
             <l n="1156" xml:id="l1156">S’oppose puissamment à ce grand sacrifice :</l>
             <l n="1157" xml:id="l1157">Mais le feu que mon <ref target="#zele1">zele*</ref> allume dans mon sein</l>
             <l n="1158" xml:id="l1158">Devore tout obstacle et tout respect humain.</l>
@@ -2746,15 +2743,15 @@
             <l n="1169" xml:id="l1169">Je fais tous ses <ref target="#transport">transports*</ref>, ses perils, son erreur ;</l>
             <l n="1170" xml:id="l1170">Libre par mon secours, il va dans sa <ref target="#fureur">fureur*</ref></l>
             <l n="1171" xml:id="l1171">De tout ce qu’il a veu, de ce qu’il ose croire,</l>
-            <l n="1172" xml:id="l1172">Faire aux Betuliens l’image la plus noire. <pb n="p. 74"/></l>
+            <l n="1172" xml:id="l1172">Faire aux Betuliens l’image la plus noire.<pb n="p. 74"/></l>
           </sp>
           <sp who="abra">
             <speaker>ABRA</speaker>
-            <l n="1173" xml:id="l1173">Il paroist.</l>
+            <l n="1173" xml:id="l1173" part="I">Il paroist.</l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l part="Y"><space/>Ah ! quel est le trouble où je le voy !</l>
+            <l part="F">Ah ! quel est le trouble où je le voy !</l>
           </sp>
         </div>
         <div type="scene">
@@ -2772,7 +2769,7 @@
             <l n="1181" xml:id="l1181">Votre beauté triomphe ; Holoferne est à vous,</l>
             <l n="1182" xml:id="l1182">Et quelque nom qu’il prenne ou d’<ref target="#amant">amant*</ref> ou d’époux,</l>
             <l n="1183" xml:id="l1183">Vous cedez aux appas d’un Vainqueur qui vous aime.</l>
-            <l n="1184" xml:id="l1184">Un Conquerant paré de la grandeur supreme, <pb n="p. 75"/></l>
+            <l n="1184" xml:id="l1184">Un Conquerant paré de la grandeur supreme,<pb n="p. 75"/></l>
             <l n="1185" xml:id="l1185">Environné de <ref target="#gloire4">gloire*</ref> a tenté votre cœur.<note n="168" place="bottom"> Ce doute sur la loyauté de Judith ne se retrouve pas dans la Bible. Il apparaît par contre dans <hi rend="i">Scevole</hi> (II, 2), de Du Ryer : Junie apprend que Scevole, qu’elle croyait mort, est bien vivant, mais qu’il porte un uniforme ennemi. Elle en conclut qu’il a trahi pour sauver sa vie. Il s’agit ici de pouvoir, et non de lâcheté, mais la situation est semblable.</note></l>
           </sp>
           <sp who="judith">
@@ -2798,7 +2795,7 @@
             <l n="1198" xml:id="l1198">Des soins de son amour paroist plus occupé,</l>
             <l n="1199" xml:id="l1199">Que des soins de son Camp et de ceux de sa <ref target="#gloire4">gloire*</ref> ?</l>
             <l n="1200" xml:id="l1200">N’est-ce rien que d’avoir arresté sa victoire,</l>
-            <l n="1201" xml:id="l1201">Et d’avoir trouvé l’art d’enchaîner sa valeur ? <pb n="p. 76"/></l>
+            <l n="1201" xml:id="l1201">Et d’avoir trouvé l’art d’enchaîner sa valeur ?<pb n="p. 76"/></l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL </speaker>
@@ -2826,7 +2823,7 @@
             <l n="1217" xml:id="l1217">Trembler, et dans le fond d’un sejour écarté,</l>
             <l n="1218" xml:id="l1218">Loin des yeux des mortels chercher sa seureté.</l>
             <l n="1219" xml:id="l1219">Cette <ref target="#vertu2">vertu*</ref> <ref target="#modeste">modeste*</ref> et qui fut si <ref target="#timide">timide*</ref>,</l>
-            <l n="1220" xml:id="l1220">Est devenuë enfin orgueilleuse, intrepide. <pb n="p. 77"/></l>
+            <l n="1220" xml:id="l1220">Est devenuë enfin orgueilleuse, intrepide.<pb n="p. 77"/></l>
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
@@ -2850,7 +2847,7 @@
           </sp>
           <sp who="judith">
             <speaker>JUDITH</speaker>
-            <l n="1228" xml:id="l1228">Je vous suis.</l>
+            <l n="1228" xml:id="l1228" part="I">Je vous suis.</l>
           </sp>
         </div>
         <div type="scene">
@@ -2858,7 +2855,7 @@
           <stage>MISAEL, JUDITH, ABRA</stage>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l part="Y"><space/><space/>A cét ordre il est temps de se rendre,</l>
+            <l part="F">A cét ordre il est temps de se rendre,</l>
             <l n="1229" xml:id="l1229">Vous balancez. Allez étaler promptement</l>
             <l n="1230" xml:id="l1230">A cette table impie un objet<note n="173" place="bottom">Style précieux : personne aimée.</note> si charmant* ;</l>
             <l n="1231" xml:id="l1231">Et moy, je vous verray dans cette grande feste,</l>
@@ -2881,7 +2878,7 @@
           <sp who="misael">
             <speaker>MISAEL</speaker>
             <l n="1238" xml:id="l1238">Moy, que j’aille aux Hebreux vanter impudemment</l>
-            <l n="1239" xml:id="l1239">Ce projet criminel, cette infame victoire, <pb n="p. 79"/></l>
+            <l n="1239" xml:id="l1239">Ce projet criminel, cette infame victoire,<pb n="p. 79"/></l>
             <l n="1240" xml:id="l1240">Dont on doit à jamais detester la memoire ?</l>
             <l n="1241" xml:id="l1241">Moy, que j’aille pour vous trahir la verité,</l>
             <l n="1242" xml:id="l1242">Et vous faire jouïr de ma credulité !</l>
@@ -2936,14 +2933,14 @@
             <l n="1262" xml:id="l1262">L’espoir de leur retour ne nous est plus permis.</l>
             <l n="1263" xml:id="l1263">Rien depuis leur départ, nul avis favorable,</l>
             <l n="1264" xml:id="l1264">Nul espoir ne console un peuple miserable.</l>
-            <l n="1265" xml:id="l1265">Le Ciel nous abandonne. <pb n="p. 82"/></l>
+            <l n="1265" xml:id="l1265" part="I">Le Ciel nous abandonne.<pb n="p. 82"/></l>
           </sp>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
-            <l part="Y"><space/><space/>Hé, quel est ce discours ?</l>
+            <l part="F">Hé, quel est ce discours ?</l>
             <l n="1266" xml:id="l1266">Entendray-je gemir et murmurer toujours ?</l>
             <l n="1267" xml:id="l1267">Quand on croit de nos maux la mesure comblée ;</l>
-            <l n="1268" xml:id="l1268">Esperons...</l>
+            <l n="1268" xml:id="l1268" part="I">Esperons...</l>
           </sp>
         </div>
         <div type="scene">
@@ -2951,7 +2948,7 @@
           <stage>OZIAS, ACHIOR , UN BETULIEN</stage>
           <sp who="ozias">
             <speaker>OZIAS <hi rend="i">continuë</hi></speaker>
-            <l part="Y"><space/><space/>Achior l’ame toute troublée...</l>
+            <l part="F">Achior l’ame toute troublée...</l>
           </sp>
           <sp who="achior">
             <speaker>ACHIOR</speaker>
@@ -2965,7 +2962,7 @@
             <l n="1276" xml:id="l1276">Et que pour les punir de leur <ref target="#impatience2">impatience*</ref><note n="175" place="bottom">Var. : impatience,</note></l>
             <l n="1277" xml:id="l1277">Elle les livreroit au pouvoir du vainqueur.</l>
             <l n="1278" xml:id="l1278">Holoferne charmé* d’un si rare <ref target="#bonheur">bonheur*</ref>,</l>
-            <l n="1279" xml:id="l1279">Avec tout l’appareil de la plus belle feste, <pb n="p. 83"/></l>
+            <l n="1279" xml:id="l1279">Avec tout l’appareil de la plus belle feste,<pb n="p. 83"/></l>
             <l n="1280" xml:id="l1280">Celebre dans son camp l’espoir de sa conqueste.</l>
             <l n="1281" xml:id="l1281">Judith le doit conduire au pied de nos remparts,</l>
             <l n="1282" xml:id="l1282">Et si-tost qu’on verra floter ses étendarts,</l>
@@ -2992,7 +2989,7 @@
           <sp who="achior">
             <speaker>ACHIOR</speaker>
             <l n="1293" xml:id="l1293">J’ay douté comme vous, mais je voy Misael :</l>
-            <l n="1294" xml:id="l1294">Son desordre...<note n="176" place="bottom">C’est-à-dire l’égarement de son attitude.</note></l>
+            <l n="1294" xml:id="l1294" part="I">Son desordre...<note n="176" place="bottom">C’est-à-dire l’égarement de son attitude.</note></l>
           </sp>
         </div>
         <div type="scene">
@@ -3000,7 +2997,7 @@
           <stage>MISAEL, OZIAS, ACHIOR , UN BETULIEN</stage>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l part="Y"><space/><space/>Frappé d’un desespoir mortel,</l>
+            <l part="F">Frappé d’un desespoir mortel,</l>
             <l n="1295" xml:id="l1295">Livrant à la douleur mon ame toute entiere,</l>
             <l n="1296" xml:id="l1296">J’ay marché dans la nuit sans guide et sans lumiere,</l>
             <l n="1297" xml:id="l1297">Et m’égarant sans cesse, aprés un long détour,<note n="177" place="bottom">Misaël laisse ainsi le temps à Judith de tuer Holoferne, et à Abra d’arriver sur ses talons.</note></l>
@@ -3015,7 +3012,7 @@
             <l n="1306" xml:id="l1306">Mais Judith de mon crime obtient l’impunité,</l>
             <l n="1307" xml:id="l1307">Et sa pitié cruelle, en me laissant la vie,</l>
             <l n="1308" xml:id="l1308">M’a rendu le témoin de son ignominie.</l>
-            <l n="1309" xml:id="l1309">Ah, qu’une prompte mort m’eust épargné d’horreurs ! <pb n="p. 85"/></l>
+            <l n="1309" xml:id="l1309">Ah, qu’une prompte mort m’eust épargné d’horreurs !<pb n="p. 85"/></l>
           </sp>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
@@ -3066,7 +3063,7 @@
             <l n="1345" xml:id="l1345">C’est ainsi que Judith pour remplir nos souhaits</l>
             <l n="1346" xml:id="l1346">Obtiendra d’Holoferne une odieuse paix.</l>
             <l n="1347" xml:id="l1347">Dure à jamais la guerre, et qu’Israël perisse</l>
-            <l n="1348" xml:id="l1348">S’il faut le delivrer par un tel sacrifice. <pb n="p. 87"/></l>
+            <l n="1348" xml:id="l1348">S’il faut le delivrer par un tel sacrifice.<pb n="p. 87"/></l>
           </sp>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
@@ -3086,7 +3083,7 @@
             <l n="1359" xml:id="l1359">Donner à mes soupçons cette horrible aventure,</l>
             <l n="1360" xml:id="l1360">Et verser tout mon sang pour laver cette injure.</l>
             <l n="1361" xml:id="l1361">Que ne puis-je douter de tout ce que j’ay dit !</l>
-            <l n="1362" xml:id="l1362">Mais j’apperçois Abra.</l>
+            <l n="1362" xml:id="l1362" part="I">Mais j’apperçois Abra.</l>
           </sp>
         </div>
         <div type="scene">
@@ -3094,7 +3091,7 @@
           <stage>MISAEL, ABRA, OZIAS </stage>
           <sp who="misael">
             <speaker>MISAEL <hi rend="i">continuë</hi></speaker>
-            <l part="Y"><space/><space/>Quoy seule, et sans Judith ? <pb n="p. 88"/></l>
+            <l part="F">Quoy seule, et sans Judith ?<pb n="p. 88"/></l>
           </sp>
           <sp who="abra">
             <speaker>ABRA</speaker>
@@ -3121,7 +3118,7 @@
             <l n="1377" xml:id="l1377">Quand Israël <ref target="#instruire">instruit*</ref> d’un si honteux traité</l>
             <l n="1378" xml:id="l1378">Apprendra de quel prix Judith l’a racheté,</l>
             <l n="1379" xml:id="l1379">Elle va devenir sous cette <ref target="#affreux">affreuse*</ref> idée</l>
-            <l n="1380" xml:id="l1380">L’opprobre et le mépris de toute la Judée. <pb n="p. 89"/></l>
+            <l n="1380" xml:id="l1380">L’opprobre et le mépris de toute la Judée.<pb n="p. 89"/></l>
           </sp>
           <sp who="abra">
             <speaker>ABRA</speaker>
@@ -3144,7 +3141,7 @@
             <l n="1397" xml:id="l1397">La laissant sans courage et presque sans espoir,</l>
             <l n="1398" xml:id="l1398">Condamnoit l’entreprise, et tentoit son devoir</l>
             <l n="1399" xml:id="l1399">Mais ce devoir enfin s’opposant à sa fuite,</l>
-            <l n="1400" xml:id="l1400">Judith demeure, et vous, sans attendre la suite... <pb n="p. 90"/></l>
+            <l n="1400" xml:id="l1400">Judith demeure, et vous, sans attendre la suite...<pb n="p. 90"/></l>
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
@@ -3171,7 +3168,7 @@
             <l n="1418" xml:id="l1418">Verse subitement une sainte <ref target="#fureur">fureur*</ref> ;</l>
             <l n="1419" xml:id="l1419">Ses yeux brillent d’un feu plus vif que de coûtume</l>
             <l n="1420" xml:id="l1420">Et d’un éclat plus <ref target="#fier2">fier*</ref> son visage s’allume.</l>
-            <l n="1421" xml:id="l1421">Holoferne endormy se livrant au trépas, <pb n="p. 91"/></l>
+            <l n="1421" xml:id="l1421">Holoferne endormy se livrant au trépas,<pb n="p. 91"/></l>
             <l n="1422" xml:id="l1422">Judith sans balancer sur luy leve le bras,</l>
             <l n="1423" xml:id="l1423">Et prenant ses cheveux d’une main asseurée,</l>
             <l n="1424" xml:id="l1424">Le frappe, et de son corps la teste est separée.<note n="185" place="bottom"> Boyer adoucit considérablement le récit biblique (<hi rend="i">Jdt</hi>, XIII, 1-10). Celui-ci dit en effet : « Elle lui frappa ensuite sur le cou par deux fois, lui coupa la tête ; et ayant tiré un rideau du lit hors des colonnes, elle jeta par terre son corps mort. » La dissimulation du corps est supprimée ; d’autre part, le verbe frapper devient intransitif, donc beaucoup plus neutre. Enfin, la conséquence de l’action de Judith semble détachée de sa cause, si l’on peut s’exprimer ainsi, par l’usage du passif, dont le complément d’agent est volontairement tu. </note></l>
@@ -3191,15 +3188,15 @@
           </sp>
           <sp who="misael">
             <speaker>MISAEL</speaker>
-            <l n="1431" xml:id="l1431">Qu’entens-je ?</l>
+            <l n="1431" xml:id="l1431" part="I">Qu’entens-je ?</l>
           </sp>
           <sp who="achior">
             <speaker>ACHIOR</speaker>
-            <l part="Y"><space/><space/>Juste Ciel !</l>
+            <l part="M">Juste Ciel !</l>
           </sp>
           <sp who="abra">
             <speaker>ABRA</speaker>
-            <l part="Y"><space/><space/>Que pouvez-vous répondre ?</l>
+            <l part="F">Que pouvez-vous répondre ?</l>
           </sp>
           <sp who="ozias">
             <speaker>OZIAS</speaker>
@@ -3237,13 +3234,13 @@
             <l n="1441" xml:id="l1441">N’en parlons plus. Songez qu’Holoferne immolé</l>
             <l n="1442" xml:id="l1442">Livre aux Betuliens tout le Camp desolé.</l>
             <l n="1443" xml:id="l1443">Le jour a revelé la perte qu’il a faite.</l>
-            <l n="1444" xml:id="l1444">Vous, Ozias, allez achever sa défaite. <pb n="p. 93"/></l>
+            <l n="1444" xml:id="l1444">Vous, Ozias, allez achever sa défaite.<pb n="p. 93"/></l>
             <stage>à Achior</stage>
-            <l n="1445" xml:id="l1445">Vous, suivez Ozias.</l>
+            <l n="1445" xml:id="l1445" part="I">Vous, suivez Ozias.</l>
           </sp>
           <sp who="achior">
             <speaker>ACHIOR</speaker>
-            <l part="Y"><space/><space/>J’y cours avec ardeur.</l>
+            <l part="F">J’y cours avec ardeur.</l>
             <l n="1446" xml:id="l1446">Allons par mille morts expier notre- erreur.</l>
           </sp>
         </div>
@@ -3263,7 +3260,7 @@
             <speaker>JUDITH</speaker>
             <l n="1453" xml:id="l1453">Qu’avec tous nos malheurs, dans un profond oubly,</l>
             <l n="1454" xml:id="l1454">Ce que vous avez fait demeure ensevely.</l>
-            <l n="1455" xml:id="l1455">Vos soupçons m’offensoient, perdons-en la memoire, <pb n="p. 94"/></l>
+            <l n="1455" xml:id="l1455">Vos soupçons m’offensoient, perdons-en la memoire,<pb n="p. 94"/></l>
             <l n="1456" xml:id="l1456">Et revoyez Judith avec toute sa <ref target="#gloire1">gloire*</ref>.<note n="188" place="bottom">Var. : gloire,</note></l>
             <l n="1457" xml:id="l1457">Si malgré le penchant que j’eus toujours pour vous,</l>
             <l n="1458" xml:id="l1458">J’ay pû vous preferer un immortel Epoux ;</l>
@@ -3287,7 +3284,7 @@
             <speaker>JUDITH</speaker>
             <l n="1471" xml:id="l1471">Ecoutez, et voyez ce qui suit ma victoire.<note n="191" place="bottom">Var. : victoire</note></l>
             <l n="1472" xml:id="l1472">Vous ne me verrez point <ref target="#fier4">fiere*</ref> de tant de <ref target="#gloire3">gloire*</ref></l>
-            <l n="1473" xml:id="l1473">Retenir cette pompe, et m’offrir aux honneurs, <pb n="p. 95"/></l>
+            <l n="1473" xml:id="l1473">Retenir cette pompe, et m’offrir aux honneurs,<pb n="p. 95"/></l>
             <l n="1474" xml:id="l1474">Aux applaudissemens qu’on prodigue aux vainqueurs.</l>
             <l n="1475" xml:id="l1475">Je vay me dépouïller d’une parure vaine,</l>
             <l n="1476" xml:id="l1476">Ornemens empruntez à la grandeur humaine,</l>

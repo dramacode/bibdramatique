@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -398,8 +395,8 @@
             </quote>
             <p>Les héroïnes doivent  ainsi toujours faire preuve de réserve et de pudeur. Dans notre pièce, Stratonice adopte la même attitude  lorsque Antiochus  lui déclare son amour :</p>
             <quote>
-              <l><space/>Prince, n’abusez point d’une pitié trop tendre</l>
-              <l><space/>Qui m’a fait dire plus qu’on ne devoit entendre,<note n="41" place="bottom"> Thomas Corneille, <hi rend="i">op. cit.</hi>, acte IV, scène IV, v. 1274-1275.</note></l>
+              <l>Prince, n’abusez point d’une pitié trop tendre</l>
+              <l>Qui m’a fait dire plus qu’on ne devoit entendre,<note n="41" place="bottom"> Thomas Corneille, <hi rend="i">op. cit.</hi>, acte IV, scène IV, v. 1274-1275.</note></l>
             </quote>
             <p>Thomas Corneille respecte aussi le concept de l’amour-estime : selon les bienséances, une princesse  doit  dans un premier temps estimer et louer les qualités d’un homme avant de l’aimer. Lorsque Stratonice évoque sa première rencontre avec Antiochus dans la cour de son père, elle  adopte la même attitude :</p>
             <quote>
@@ -519,7 +516,7 @@
             <l n="6" xml:id="l6">J’aime à la voir briller sur la teste d’un Pere,</l>
             <l n="7" xml:id="l7">Et l’orgueil de mes vœux ne s’est jamais porté</l>
             <l n="8" xml:id="l8">Jusqu’à ce grand partage où panche sa bonté.</l>
-            <l n="9" xml:id="l9">De quel front accepter les droits du Diadême, <pb n="2"/></l>
+            <l n="9" xml:id="l9">De quel front accepter les droits du Diadême,<pb n="2"/></l>
             <l n="10" xml:id="l10">Si je n’ay pas appris à regner sur moy-mesme,</l>
             <l n="11" xml:id="l11">Et par quelle aspre soif du vain tiltre de Roy</l>
             <l n="12" xml:id="l12">Prendre un Empire ailleurs que je n’ay pas sur moy ?</l>
@@ -557,7 +554,7 @@
             <l n="38" xml:id="l38">Sa bonté pour un Fils vers<note n="58" place="bottom"><hi rend="b"><hi rend="i">Vers</hi></hi> : « Vers avait dans l’ancienne langue l’acception de envers. » (Haase §127)</note> elle est une injure,</l>
             <l n="39" xml:id="l39">Puisque par ce partage il la prive des droits</l>
             <l n="40" xml:id="l40">D’étendre jusqu’à moy la gloire de ses loix ;</l>
-            <l n="41" xml:id="l41">Ainsi, mon cher Tigrane, à quoy qu’il se prépare, <pb n="3"/></l>
+            <l n="41" xml:id="l41">Ainsi, mon cher Tigrane, à quoy qu’il se prépare,<pb n="3"/></l>
             <l n="42" xml:id="l42">Il faut que mon refus pour elle se declare,</l>
             <l n="43" xml:id="l43">Et mette un prompt obstacle à l’injuste projet</l>
             <l n="44" xml:id="l44">Qui pour me couronner lui dérobe un Sujet.</l>
@@ -635,7 +632,7 @@
             <l n="98" xml:id="l98">Se livre toute entiere au <ref target="#chagrin">chagrin*</ref> qui me tuë,</l>
             <l n="99" xml:id="l99">J’en souffre d’autant plus que le bonheur du Roy</l>
             <l n="100" xml:id="l100">Dépend de l’Hymen seul qu’il differe pour moy.</l>
-            <l n="101" xml:id="l101">Puisqu’enfin jusques là sa bonté l’inquiete, <pb n="5"/></l>
+            <l n="101" xml:id="l101">Puisqu’enfin jusques là sa bonté l’inquiete,<pb n="5"/></l>
             <l n="102" xml:id="l102">Voyez le pour luy faire agréer ma retraite.</l>
             <l n="103" xml:id="l103">Peut-estre un mois ou deux dans un autre sejour</l>
             <l n="104" xml:id="l104">Me rendront le repos que je pers à la Cour,</l>
@@ -662,11 +659,11 @@
           </sp>
           <sp who="tigrane">
             <speaker>TIGRANE</speaker>
-            <l n="119" xml:id="l119">Mais, Seigneur, ce dessein…</l>
+            <l n="119" xml:id="l119" part="I">Mais, Seigneur, ce dessein…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS</speaker>
-            <l part="Y"><space/><space/>Rien ne peut l’ébranler,</l>
+            <l part="F">Rien ne peut l’ébranler,</l>
             <l n="120" xml:id="l120">C’est me servir enfin que d’oser luy parler,</l>
             <l n="121" xml:id="l121">D’un Roy qui vous cherit craignez-vous la colere ?</l>
           </sp>
@@ -681,7 +678,7 @@
           <head>SCENE II</head>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l n="125" xml:id="l125">Suy le juste projet où l’honneur te convie, <pb n="6"/></l>
+            <l n="125" xml:id="l125">Suy le juste projet où l’honneur te convie,<pb n="6"/></l>
             <l n="126" xml:id="l126">Fuy<note n="63" place="bottom"><hi rend="b"><hi rend="i">Fui</hi></hi> : « sui » dans l’édition de 1709.</note> de ces tristes* lieux, ou plustost de la vie,</l>
             <l n="127" xml:id="l127">Ingrat Antiochus, et du moins par ta mort</l>
             <l n="128" xml:id="l128">Tâche de rachepter la honte de ton sort.</l>
@@ -707,7 +704,7 @@
             <l n="148" xml:id="l148">Blesser également  les hommes et les Dieux.</l>
             <l n="149" xml:id="l149">Par ce fatal  Portrait dont la perte t’accable</l>
             <l n="150" xml:id="l150">Ces Dieux semblent t’offrir un secours favorable,</l>
-            <l n="151" xml:id="l151">Il nourrissoit ta flame, il en flatoit l’ardeur, <pb n="7"/></l>
+            <l n="151" xml:id="l151">Il nourrissoit ta flame, il en flatoit l’ardeur,<pb n="7"/></l>
             <l n="152" xml:id="l152">Ce qui charmoit tes yeux se gravoit dans ton cœur,</l>
             <l n="153" xml:id="l153">Et lors qu’à mille <ref target="#soins">soins*</ref><note n="64" place="bottom"><hi rend="b"><hi rend="i">Soins</hi></hi>: « se dit aussi des soucis, des inquietudes qui émeuvent, qui troublent l’ame. » (F.)</note> ce Portrait te convie,</l>
             <l n="154" xml:id="l154">Tu pers en le perdant le seul bien de ta vie.</l>
@@ -739,7 +736,7 @@
           <stage>STRATONICE, ANTIOCHUS, PHENICE.</stage>
           <sp who="stratonice">
             <speaker>STRATONICE</speaker>
-            <l n="176" xml:id="l176"><space/>Quoy, Prince, c’est donc moy qui vous chasse<note n="66" place="bottom"><hi rend="b"><hi rend="i">Chasser</hi></hi> : « Obliger à se retirer. (F.)</note> d’ici ? <pb n="8"/></l>
+            <l n="176" xml:id="l176">Quoy, Prince, c’est donc moy qui vous chasse<note n="66" place="bottom"><hi rend="b"><hi rend="i">Chasser</hi></hi> : « Obliger à se retirer. (F.)</note> d’ici ?<pb n="8"/></l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS</speaker>
@@ -797,29 +794,29 @@
           <sp who="stratonice">
             <speaker>STRATONICE</speaker>
             <l n="209" xml:id="l209">Le Roy trop vivement partage vostre peine,</l>
-            <l n="210" xml:id="l210">Pour ne pas faire efforts…</l>
+            <l n="210" xml:id="l210" part="I">Pour ne pas faire efforts…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS</speaker>
-            <l part="Y"><space/>C’est-là ce  qui me gesne,</l>
+            <l part="F">C’est-là ce  qui me gesne,</l>
             <l n="211" xml:id="l211">Son déplaisir m’accable, et comme un noir destin</l>
             <l n="212" xml:id="l212">Par l’éclat de la Cour redoute mon chagrin,</l>
             <l n="213" xml:id="l213">Je croy pour quelque temps qu’il luy sera moins rude</l>
             <l n="214" xml:id="l214">De souffrir ma retraite en quelque solitude.</l>
             <l n="215" xml:id="l215">Voilà ce qu’aujourd’huy je luy fais demander,</l>
             <l n="216" xml:id="l216">Pour tirer son adveu daignez me seconder,</l>
-            <l n="217" xml:id="l217">Madame, et par vos soins …</l>
+            <l n="217" xml:id="l217" part="I">Madame, et par vos soins …</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE</speaker>
-            <l part="Y"><space/><space/>Quoy, Prince, dois-je croire</l>
+            <l part="F">Quoy, Prince, dois-je croire</l>
             <l n="218" xml:id="l218">Qu’en secret ce chagrin porte envie à ma gloire,</l>
             <l n="219" xml:id="l219">Et que dans vostre cœur un mouvement jaloux,</l>
-            <l n="220" xml:id="l220">Lors qu’on m’appelle au Trône…</l>
+            <l n="220" xml:id="l220" part="I">Lors qu’on m’appelle au Trône…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS<pb n="10"/></speaker>
-            <l part="Y"><space/><space/>Ah, que me dites- vous ?</l>
+            <l part="F">Ah, que me dites- vous ?</l>
             <l n="221" xml:id="l221">Qu’à l’ardeur de mes vœux le juste Ciel réponde,</l>
             <l n="222" xml:id="l222">Et vous estes soudain la Maistresse du Monde ;</l>
             <l n="223" xml:id="l223">Si le Sceptre en est beau, quoy que vous presumiez,</l>
@@ -827,11 +824,11 @@
             <l n="225" xml:id="l225">Dans ce degré pompeux, loin que l’éclat m’en gesne,</l>
             <l n="226" xml:id="l226">Je ne veux qu’adorer, voir, et servir ma Reine,</l>
             <l n="227" xml:id="l227">Elle seule en est digne, et pour mieux l’élever…</l>
-            <l n="228" xml:id="l228">Mais Dieux !</l>
+            <l n="228" xml:id="l228" part="I">Mais Dieux !</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE</speaker>
-            <l part="Y"><space/><space/>Vous avez lieu<note n="68" place="bottom"><hi rend="b"><hi rend="i">Avoir lieu</hi></hi> : « avoir des raisons. » (F.)</note> de ne pas achever,</l>
+            <l part="F">Vous avez lieu<note n="68" place="bottom"><hi rend="b"><hi rend="i">Avoir lieu</hi></hi> : « avoir des raisons. » (F.)</note> de ne pas achever,</l>
             <l n="229" xml:id="l229">Et le trouble sur vous peut prendre quelque empire,</l>
             <l n="230" xml:id="l230">Quand la civilité<note n="69" place="bottom"><hi rend="b"><hi rend="i">Civilité</hi></hi> : « Manière honnête, douce, polie d’agir, de converser ensemble. (F.) <space/></note> vous engage à trop dire.</l>
           </sp>
@@ -860,7 +857,7 @@
           <stage>STRATONICE, PHENICE.</stage>
           <sp who="phenice">
             <speaker>PHENICE</speaker>
-            <l n="241" xml:id="l241"><space/><space/>Ou j’ay peu de lumiere, ou le Prince, Madame, <pb n="11"/></l>
+            <l n="241" xml:id="l241">Ou j’ay peu de lumiere, ou le Prince, Madame,<pb n="11"/></l>
             <l n="242" xml:id="l242">Cherche à cacher un mal dont la source est dans l’ame.</l>
             <l n="243" xml:id="l243">Tandis qu’il vous parloit, ses timides regards,</l>
             <l n="244" xml:id="l244">S’il rencontroit vos yeux, erroient de toutes parts,</l>
@@ -880,11 +877,11 @@
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE</speaker>
-            <l n="252" xml:id="l252">Phenice, qu’as tu dit ?</l>
+            <l n="252" xml:id="l252" part="I">Phenice, qu’as tu dit ?</l>
           </sp>
           <sp who="phenice">
             <speaker>PHENICE</speaker>
-            <l part="Y"><space/><space/>Mais que me dites- vous ?</l>
+            <l part="F">Mais que me dites- vous ?</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE</speaker>
@@ -893,7 +890,7 @@
             <l n="255" xml:id="l255">Et qui de son devoir redoublant les efforts,</l>
             <l n="256" xml:id="l256">Plustost que le trahir, souffrira mille morts ?</l>
             <l n="257" xml:id="l257">Ouy, Seleucus, Phenice<note n="71" place="bottom">Il n’y a pas de virgule après Phenice dans l’édition originale. </note>, aura ce qu’il espere,</l>
-            <l n="258" xml:id="l258">Il a receu ma foy dans la Cour de mon Pere, <pb n="12"/></l>
+            <l n="258" xml:id="l258">Il a receu ma foy dans la Cour de mon Pere,<pb n="12"/></l>
             <l n="259" xml:id="l259">Par là je suis sa Femme, et mon malheur en vain</l>
             <l n="260" xml:id="l260">Fait trembler ma constance à luy donner ma main.</l>
             <l n="261" xml:id="l261">Quand le bien de l’Estat conclut cét hymenée,</l>
@@ -1002,7 +999,7 @@
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE</speaker>
-            <l n="345" xml:id="l345">Quel que soit vostre amour, il me feroit injure, <pb n="15"/></l>
+            <l n="345" xml:id="l345">Quel que soit vostre amour, il me feroit injure,<pb n="15"/></l>
             <l n="346" xml:id="l346">Seigneur, s’il estoufoit la voix de la Nature,</l>
             <l n="347" xml:id="l347">Et vous avoit seduit jusqu’à vous détacher</l>
             <l n="348" xml:id="l348">Des <ref target="#soins">soins*</ref> où vous oblige un interest si  cher.</l>
@@ -1038,11 +1035,11 @@
             <l n="372" xml:id="l372">Par où guerir un mal qu’il se plaist à cacher.</l>
             <l n="373" xml:id="l373">J’ay déja fait effort pour vaincre son silence,</l>
             <l n="374" xml:id="l374">Mais je l’ay veu s’aigrir par cette violence,</l>
-            <l n="375" xml:id="l375">Et craignant d’oser trop…</l>
+            <l n="375" xml:id="l375" part="I">Et craignant d’oser trop…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS</speaker>
-            <l part="Y"><space/><space/>Ah, tout vous est permis, <pb n="16"/></l>
+            <l part="F">Ah, tout vous est permis,<pb n="16"/></l>
             <l n="376" xml:id="l376">Et vous seule avez droit de me rendre mon fils.</l>
             <l n="377" xml:id="l377">Vos soins y peuvent tout, employez-les, de grace,</l>
             <l n="378" xml:id="l378">A détourner un sort dont l’horreur nous menace,</l>
@@ -1067,7 +1064,7 @@
           <stage>ARSINOE, BARSINE.</stage>
           <sp who="barsine">
             <speaker>BARSINE</speaker>
-            <l n="389" xml:id="l389">Quoy, lors que sa langueur va jusques à l’extréme, <pb n="17"/></l>
+            <l n="389" xml:id="l389">Quoy, lors que sa langueur va jusques à l’extréme,<pb n="17"/></l>
             <l n="390" xml:id="l390">Le trouble* qui la suit fait connoistre qu’il aime ?</l>
           </sp>
           <sp who="arsinoe">
@@ -1091,7 +1088,7 @@
           </sp>
           <sp who="barsine">
             <speaker>BARSINE</speaker>
-            <l n="401" xml:id="l401">Peu voudroient  d’un Rival favoriser la flame, <pb n="18"/></l>
+            <l n="401" xml:id="l401">Peu voudroient  d’un Rival favoriser la flame,<pb n="18"/></l>
             <l n="402" xml:id="l402">Mais, Madame, il n’est rien que n’ose une grande ame,</l>
             <l n="403" xml:id="l403">Et Tigrane à son Prince ayant sauvé le jour,</l>
             <l n="404" xml:id="l404">Tout me devient suspect quand il sert son amour.</l>
@@ -1109,15 +1106,15 @@
           </sp>
           <sp who="barsine">
             <speaker>BARSINE</speaker>
-            <l n="413" xml:id="l413">Stratonice ?</l>
+            <l n="413" xml:id="l413" part="I">Stratonice ?</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE</speaker>
-            <l part="Y"><space/><space/>Elle mesme.</l>
+            <l part="M">Elle mesme.</l>
           </sp>
           <sp who="barsine">
             <speaker>BARSINE</speaker>
-            <l part="Y"><space/><space/>Et vous  le pouvez croire</l>
+            <l part="F">Et vous  le pouvez croire</l>
             <l n="414" xml:id="l414">Dans le peu d’interest qu’il montre pour sa gloire ?</l>
             <l n="415" xml:id="l415">Quand chacun à l’envy s’y fait voir empressé</l>
             <l n="416" xml:id="l416">Du  plus foible devoir il se croit dispensé,</l>
@@ -1180,7 +1177,7 @@
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE</speaker>
-            <l n="455" xml:id="l455">C’est exprés que le mien tient la place de l’autre. <pb n="20"/></l>
+            <l n="455" xml:id="l455">C’est exprés que le mien tient la place de l’autre.<pb n="20"/></l>
             <l n="456" xml:id="l456">A moins qu’un tel échange aidast à m’éclaircir,</l>
             <l n="457" xml:id="l457">En vain par cét effay j’y croirois reussir.</l>
             <l n="458" xml:id="l458">Le Prince auroit sur soy peut-estre assez d’empire</l>
@@ -1217,7 +1214,7 @@
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE</speaker>
-            <l n="479" xml:id="l479">Dites que de vos sens le <ref target="#chagrin">chagrin*</ref> est le maistre, <pb n="21"/></l>
+            <l n="479" xml:id="l479">Dites que de vos sens le <ref target="#chagrin">chagrin*</ref> est le maistre,<pb n="21"/></l>
             <l n="480" xml:id="l480">Et que tout vostre cœur s’en laissant accabler,</l>
             <l n="481" xml:id="l481">Ce qui doit l’adoucir sert à le redoubler.</l>
           </sp>
@@ -1228,11 +1225,11 @@
             <l n="484" xml:id="l484">Malgré moy je luy cede, et son subtil poison</l>
             <l n="485" xml:id="l485">D’une vapeur maligne<note n="93" place="bottom"><hi rend="b"><hi rend="i">Maligne</hi></hi> : « nuisible » (F.)</note> infecte ma raison,</l>
             <l n="486" xml:id="l486">Sans cesse s’abysme, et son trouble …de grace,</l>
-            <l n="487" xml:id="l487">Faites …</l>
+            <l n="487" xml:id="l487" part="I">Faites …</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE</speaker>
-            <l part="Y"><space/>Et bien, Seigneur, que faut-il que je fasse ?</l>
+            <l part="F">Et bien, Seigneur, que faut-il que je fasse ?</l>
             <l n="488" xml:id="l488">Vous ne dites plus rien, et tout à coup vos yeux…</l>
           </sp>
           <sp who="antiochus">
@@ -1270,11 +1267,11 @@
             <speaker>ARSINOE </speaker>
             <l n="505" xml:id="l505">J’estimois ce depost, et j’en avois sujet,</l>
             <l n="506" xml:id="l506">Mais je vous l’abandonne, et ne veux pour partage</l>
-            <l n="507" xml:id="l507">Que reprendre un Portrait…</l>
+            <l n="507" xml:id="l507" part="I">Que reprendre un Portrait…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS</speaker>
-            <l part="Y"><space/><space/>Ah, c’est me faire outrage,</l>
+            <l part="F">Ah, c’est me faire outrage,</l>
             <l n="508" xml:id="l508">En me le confiant ne craignez rien pour luy,</l>
             <l n="509" xml:id="l509">Et souffrez que sa veuë amuse mon <ref target="#ennui">ennuy*</ref>,</l>
             <l n="510" xml:id="l510">La Peinture eut toûjours dequoy me satisfaire.</l>
@@ -1284,20 +1281,20 @@
             <l n="511" xml:id="l511">Si j’en croy ce qu’on dit, celle-cy doit vous plaire,</l>
             <l n="512" xml:id="l512">Et comme enfin, Seigneur, vous vous y connoissez,</l>
             <l n="513" xml:id="l513">Dites-moy d’un coup d’œil ce que vous en pensez,</l>
-            <l n="514" xml:id="l514">Les traits en sont hardis, et la main…</l>
+            <l n="514" xml:id="l514" part="I">Les traits en sont hardis, et la main…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS <hi rend="i">l’empeschant d’ouvrir la boëte.</hi></speaker>
-            <l part="Y"><space/><space/>Non, Madame,</l>
+            <l part="F">Non, Madame,</l>
             <l n="515" xml:id="l515">Déja la <ref target="#resver">resverie*</ref> occupe trop mon ame,</l>
             <l n="516" xml:id="l516">Et du moins devant vous c’est à moy d’éviter</l>
             <l n="517" xml:id="l517">Tout ce que je prévoy qui pourroit l’augmenter,</l>
             <l n="518" xml:id="l518">Du Peintre en ce Portrait examinant l’adresse</l>
-            <l n="519" xml:id="l519">J’oublierois malgré moy…</l>
+            <l n="519" xml:id="l519" part="I">J’oublierois malgré moy…</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE</speaker>
-            <l part="Y"><space/><space/>Seigneur, je vous le laisse, .</l>
+            <l part="F">Seigneur, je vous le laisse, .</l>
             <l n="520" xml:id="l520">Quoy que sur ce travail j’aye à vous consulter,</l>
             <l n="521" xml:id="l521">La  Reyne qui paroist m’oblige à vous quitter.</l>
           </sp>
@@ -1307,7 +1304,7 @@
           <stage>STRATONICE, ANTIOCHUS.</stage>
           <sp who="antiochus">
             <speaker>ANTIOCHUS</speaker>
-            <l n="522" xml:id="l522">Et bien, Madame, enfin le Roy me fait-il grace ? <pb n="23"/></l>
+            <l n="522" xml:id="l522">Et bien, Madame, enfin le Roy me fait-il grace ?<pb n="23"/></l>
             <l n="523" xml:id="l523">Consent-il au destin dont la rigueur me chasse,</l>
             <l n="524" xml:id="l524">Et que loin de la Cour  je tâche à retrouver</l>
             <l n="525" xml:id="l525">La douceur du repos dont je me sens priver ?</l>
@@ -1348,11 +1345,11 @@
             <speaker>STRATONICE</speaker>
             <l n="546" xml:id="l546">Quoy ? toûjours ce <ref target="#chagrin">chagrin*</ref> sans m’en dire la cause ?</l>
             <l n="547" xml:id="l547">J’avois creu que sur vous je pouvois quelque chose,</l>
-            <l n="548" xml:id="l548">Mais…</l>
+            <l n="548" xml:id="l548" part="I">Mais…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS</speaker>
-            <l part="Y"><space/>Si dans ce pouvoir vous trouvez quelque <ref target="#appast">appas*</ref>,</l>
+            <l part="F">Si dans ce pouvoir vous trouvez quelque <ref target="#appast">appas*</ref>,</l>
             <l n="549" xml:id="l549">Il ne va que trop loin, ne vous en plaignez pas.</l>
           </sp>
           <sp who="stratonice">
@@ -1388,26 +1385,26 @@
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS</speaker>
-            <l n="566" xml:id="l566">Helas !</l>
+            <l n="566" xml:id="l566" part="I">Helas !</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE</speaker>
-            <l part="Y"><space/>Vous soûpirez !</l>
+            <l part="M">Vous soûpirez !</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS</speaker>
-            <l part="Y"><space/><space/>Il est vray, je soûpire, <pb n="25"/></l>
+            <l part="F">Il est vray, je soûpire,<pb n="25"/></l>
             <l n="567" xml:id="l567">Et dis peut-estre plus que je n’ay crû vous dire ;</l>
             <l n="568" xml:id="l568">Mais si j’explique trop ce qu’en vain je combats,</l>
             <l n="569" xml:id="l569">Songez que c’est à vous à<note n="97" place="bottom"> « <hi rend="i">A</hi> précède un infinitif dans les cas où l’emploi actuel exige de. »</note> ne m’entendre pas.</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE</speaker>
-            <l n="570" xml:id="l570">Quoy, Prince ? il se peut donc que l’amour…</l>
+            <l n="570" xml:id="l570" part="I">Quoy, Prince ? il se peut donc que l’amour…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS</speaker>
-            <l part="Y"><space/>Ah, Madame,</l>
+            <l part="F">Ah, Madame,</l>
             <l n="571" xml:id="l571">Vous avez arraché ce secret de mon ame,</l>
             <l n="572" xml:id="l572">Et quand rien sur ce point ne pouvait m’ébranler,</l>
             <l n="573" xml:id="l573">Vous blasmiez mon silence, il a falu parler ;</l>
@@ -1449,22 +1446,22 @@
             <l n="600" xml:id="l600">Quelque  austere vertu qui la force d’agir,</l>
             <l n="601" xml:id="l601">C’est  un bien qu’elle peut accorder sans rougir.</l>
             <l n="602" xml:id="l602">Pour  moy, si sur son cœur, quand elle a tout le vostre,</l>
-            <l n="603" xml:id="l603">Je puis…</l>
+            <l n="603" xml:id="l603" part="I">Je puis…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS</speaker>
-            <l part="Y"><space/>Vous y pouvez sans doute plus qu’une autre,</l>
+            <l part="F">Vous y pouvez sans doute plus qu’une autre,</l>
             <l n="604" xml:id="l604">Et si je me souffrois l’espoir d’un bien si doux,</l>
             <l n="605" xml:id="l605">Mon amour ne voudroit l’attendre que de vous,</l>
             <l n="606" xml:id="l606">Mais si-tost que j’aurois…Je sçay trop que ma flame…</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE</speaker>
-            <l n="607" xml:id="l607">Et bien Prince, achevez.</l>
+            <l n="607" xml:id="l607" part="I">Et bien Prince, achevez.</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS</speaker>
-            <l part="Y"><space/><space/>N’en parlons plus, Madame,</l>
+            <l part="F">N’en parlons plus, Madame,</l>
             <l n="608" xml:id="l608">J’oubliois un devoir que mon respect soûtient,</l>
             <l n="609" xml:id="l609">Je m’allois égarer, mais ma raison revient,</l>
             <l n="610" xml:id="l610">Et tant qu’un coup fatal borne enfin ma misere,</l>
@@ -1554,11 +1551,11 @@
             <speaker>STRATONICE</speaker>
             <l n="661" xml:id="l661">Pourquoy ce long silence à qui tout est permis ?</l>
             <l n="662" xml:id="l662">Je dois  à ce Portrait  l’adveu de vostre flame ,</l>
-            <l n="663" xml:id="l663">Et sur ce qu’il m’apprend …</l>
+            <l n="663" xml:id="l663" part="I">Et sur ce qu’il m’apprend …</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS</speaker>
-            <l part="Y"><space/><space/>Rendez- le moy, Madame,</l>
+            <l part="F">Rendez- le moy, Madame,</l>
             <l n="664" xml:id="l664">Mon Amour le demande, et dans son desespoir…</l>
           </sp>
           <sp who="stratonice">
@@ -1577,11 +1574,11 @@
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE</speaker>
-            <l n="673" xml:id="l673">Prince, adieu, c’en est trop.</l>
+            <l n="673" xml:id="l673" part="I">Prince, adieu, c’en est trop.</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS</speaker>
-            <l part="Y"><space/><space/>Madame, écoutez-moy .</l>
+            <l part="F">Madame, écoutez-moy .</l>
             <l n="674" xml:id="l674">Si je ne puis forcer mon amour  à se taire,</l>
             <l n="675" xml:id="l675">J’ay  du sang  à répandre, il peut vous satisfaire</l>
             <l n="676" xml:id="l676">Je vous l’offre, et mon mal deviendra plus leger…</l>
@@ -1612,12 +1609,12 @@
           </sp>
           <sp who="antiochus">
             <speaker> ANTIOCHUS</speaker>
-            <l n="685" xml:id="l685">Je vous l’ay déja dit, Tigrane, il faut partir, <pb n="30"/></l>
-            <l n="686" xml:id="l686">C’est tout ce que je sçay.</l>
+            <l n="685" xml:id="l685">Je vous l’ay déja dit, Tigrane, il faut partir,<pb n="30"/></l>
+            <l n="686" xml:id="l686" part="I">C’est tout ce que je sçay.</l>
           </sp>
           <sp who="tigrane">
             <speaker>TIGRANE</speaker>
-            <l part="Y"><space/><space/>Je n’ose vous promettre</l>
+            <l part="F">Je n’ose vous promettre</l>
             <l n="687" xml:id="l687">Que le Roy sur ce point  vueille rien vous permettre,</l>
             <l n="688" xml:id="l688">D’un congé si funeste il condamne l’espoir,</l>
             <l n="689" xml:id="l689">Et plein d’impatience il demande  à vous voir.</l>
@@ -1666,7 +1663,7 @@
           <stage>SELEUCUS, STRATONICE, ANTIOCHUS, <lb/>PHENICE, Suite.</stage>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l n="708" xml:id="l708">Qu’avez-vous  fait pour moy ? Vous avez veu mon Fils, <pb n="32" xml:id="p32"/></l>
+            <l n="708" xml:id="l708">Qu’avez-vous  fait pour moy ? Vous avez veu mon Fils,<pb n="32" xml:id="p32"/></l>
             <l n="709" xml:id="l709">Madame, et de vos <ref target="#soins">soins*</ref> je me suis tout promis,</l>
             <l n="710" xml:id="l710">Dans le trouble où l’engage un destin trop contraire</l>
             <l n="711" xml:id="l711">A-t’il pû  vous cacher ce qu’il aime à nous taire ?</l>
@@ -1689,11 +1686,11 @@
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l n="722" xml:id="l722">Quoy, mon fils aimeroit ?</l>
+            <l n="722" xml:id="l722" part="I">Quoy, mon fils aimeroit ?</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Qu’avez-vous dit, Madame ?</l>
+            <l part="F">Qu’avez-vous dit, Madame ?</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
@@ -1702,7 +1699,7 @@
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l n="725" xml:id="l725">Ah, Madame, est-ce là ce que j’ay crû de vous ? <pb n="33" xml:id="p33"/></l>
+            <l n="725" xml:id="l725">Ah, Madame, est-ce là ce que j’ay crû de vous ?<pb n="33" xml:id="p33"/></l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
@@ -1744,16 +1741,16 @@
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l n="752" xml:id="l752">Hastez la guérison d’un Amant trop discret, <pb n="34" xml:id="p34"/></l>
+            <l n="752" xml:id="l752">Hastez la guérison d’un Amant trop discret,<pb n="34" xml:id="p34"/></l>
             <l n="753" xml:id="l753">Madame, vous sçavez le reste du secret ?</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
-            <l n="754" xml:id="l754">Ouy, Seigneur, et je puis…</l>
+            <l n="754" xml:id="l754" part="I">Ouy, Seigneur, et je puis…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Ne dites rien, Madame,</l>
+            <l part="F">Ne dites rien, Madame,</l>
             <l n="755" xml:id="l755">Vous n’avez que trop fait d’avoir trahy ma flame,</l>
             <l n="756" xml:id="l756">Bornez-la des malheurs qu’on ne peut reparer,</l>
             <l n="757" xml:id="l757">Et laissez-moy  mourir sans me desesperer.</l>
@@ -1786,18 +1783,18 @@
             <l n="775" xml:id="l775">Ne parle point, mon Fils, ny d’exil ny de crime,</l>
             <l n="776" xml:id="l776">Quoi qu’oppose à ta flame un scrupuleux devoir,</l>
             <l n="777" xml:id="l777">C’est trop, c’est trop long-temps luy deffendre l’espoir,</l>
-            <l n="778" xml:id="l778">Je répons du succez, aime sans plus rien craindre . <pb n="35" xml:id="p35"/></l>
+            <l n="778" xml:id="l778">Je répons du succez, aime sans plus rien craindre .<pb n="35" xml:id="p35"/></l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
             <l n="779" xml:id="l779">Que pour moy jusques-là vous vueillez vous contraindre !</l>
             <l n="780" xml:id="l780">Ah, plustost qu’abuser de vos rares bontez,</l>
             <l n="781" xml:id="l781">Puissent croistre ces maux que j’ay trop meritez,</l>
-            <l n="782" xml:id="l782">Puissent…</l>
+            <l n="782" xml:id="l782" part="I">Puissent…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/>Je sçais à quoy ton grand cœur te convie,</l>
+            <l part="F">Je sçais à quoy ton grand cœur te convie,</l>
             <l n="783" xml:id="l783">Tu dois tout à Tigrane, il t’a sauvé la vie,</l>
             <l n="784" xml:id="l784">Mais le trouble où t’abysme un long et dur <ref target="#ennui">ennuy*</ref>,</l>
             <l n="785" xml:id="l785">Quoi qu’il ait fait pour toy, te rend quite vers luy,</l>
@@ -1807,11 +1804,11 @@
             <speaker>ANTIOCHUS.</speaker>
             <l n="787" xml:id="l787">Je crains peu qu’en mon cœur jamais rien l’affoiblisse,</l>
             <l n="788" xml:id="l788">Mais pourquoy m’advertir de ce que je lui doy ?</l>
-            <l n="789" xml:id="l789">Tigrane…</l>
+            <l n="789" xml:id="l789" part="I">Tigrane…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/><space/>Le voicy, laisse parler ton Roy.</l>
+            <l part="F">Le voicy, laisse parler ton Roy.</l>
           </sp>
         </div>
         <div type="scene">
@@ -1824,12 +1821,12 @@
           </sp>
           <sp who="tigrane">
             <speaker>TIGRANE</speaker>
-            <l n="792" xml:id="l792">Au prix de tout mon sang  j’aspire à le montrer, <pb n="36" xml:id="p36"/></l>
-            <l n="793" xml:id="l793">Seigneur…</l>
+            <l n="792" xml:id="l792">Au prix de tout mon sang  j’aspire à le montrer,<pb n="36" xml:id="p36"/></l>
+            <l n="793" xml:id="l793" part="I">Seigneur…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/>Dans ses <ref target="#ennui">ennuys*</ref> on vient de penetrer,</l>
+            <l part="F">Dans ses <ref target="#ennui">ennuys*</ref> on vient de penetrer,</l>
             <l n="794" xml:id="l794">Il en cachoit la cause avec un soin extréme,</l>
             <l n="795" xml:id="l795">Mais tout est éclaircy, te le diray-je ? Il aime,</l>
             <l n="796" xml:id="l796">Et son feu qu’au silence il a toûjours contraint,</l>
@@ -1842,11 +1839,11 @@
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
             <l n="802" xml:id="l802">Moi, Seigneur ? La Princesse ! Ah Dieux ! Qu’à l’hymenée,</l>
-            <l n="803" xml:id="l803">Tigrane…</l>
+            <l n="803" xml:id="l803" part="I">Tigrane…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/>Son malheur tient ton ame estonnée,</l>
+            <l part="F">Son malheur tient ton ame estonnée,</l>
             <l n="804" xml:id="l804">Tu crains de luy ravir ce qui plaist à ses yeux,</l>
             <l n="805" xml:id="l805">Mais enfin à l’Estat tes jours sont precieux.</l>
             <l n="806" xml:id="l806">Quelque atteinte qu’il sente à ce grand coup de foudre,</l>
@@ -1883,11 +1880,11 @@
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l n="822" xml:id="l822">Madame, se peut-il…</l>
+            <l n="822" xml:id="l822" part="I">Madame, se peut-il…</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
-            <l part="Y"><space/> Ouy, perdez vos alarmes,</l>
+            <l part="F"> Ouy, perdez vos alarmes,</l>
             <l n="823" xml:id="l823">Vos vœux pour la Princesse auront assez de charmes,</l>
             <l n="824" xml:id="l824">Et si pour la toucher quelque soin m’est permis,</l>
             <l n="825" xml:id="l825">Je vous y serviray comme je l’ay promis.</l>
@@ -1903,16 +1900,16 @@
             <l n="828" xml:id="l828">Seigneur, il est donc vray qu’un revers trop fatal</l>
             <l n="829" xml:id="l829">M’apprestoit la douleur de vous voir mon Rival,</l>
             <l n="830" xml:id="l830">De voir tout ce qu’on craint dans un malheur extréme</l>
-            <l n="831" xml:id="l831">Porter sur mon amour…</l>
+            <l n="831" xml:id="l831" part="I">Porter sur mon amour…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Quoy, Tigrane, et vous-mesme</l>
+            <l part="F">Quoy, Tigrane, et vous-mesme</l>
             <l n="832" xml:id="l832">Vous croyez que mon cœur pour la Princesse atteint…</l>
           </sp>
           <sp who="tigrane">
             <speaker>TIGRANE.</speaker>
-            <l n="833" xml:id="l833">Ah, ce  n’est pas dequoy ma passion se plaint. <pb n="38" xml:id="p38"/></l>
+            <l n="833" xml:id="l833">Ah, ce  n’est pas dequoy ma passion se plaint.<pb n="38" xml:id="p38"/></l>
             <l n="834" xml:id="l834">Arsinoé sans doute a tous les advantages</l>
             <l n="835" xml:id="l835">Dont l’éclat puisse plaire aux plus nobles courages.</l>
             <l n="836" xml:id="l836">Et comme rien n’échape à qui peut tout charmer,</l>
@@ -1977,7 +1974,7 @@
           <sp who="tigrane">
             <speaker>TIGRANE.</speaker>
             <l n="885" xml:id="l885">Parlez, parlez, Seigneur, ne vous contraignez pas,</l>
-            <l n="886" xml:id="l886">Dites que la princesse agrée en vain ma flame, <pb n="40" xml:id="p40"/></l>
+            <l n="886" xml:id="l886">Dites que la princesse agrée en vain ma flame,<pb n="40" xml:id="p40"/></l>
             <l n="887" xml:id="l887">Qu’elle a tout vostre cœur, qu’elle a toute vostre ame,</l>
             <l n="888" xml:id="l888">Qu’avant que la ceder vous verrez tout perir,</l>
             <l n="889" xml:id="l889">Je mourray de l’entendre, et je cherche à mourir.</l>
@@ -1987,11 +1984,11 @@
             <l n="890" xml:id="l890">Quoy ? Vous me reduirez à vous dire sans cesse</l>
             <l n="891" xml:id="l891">Que je ne pretens rien au cœur de la Princesse,</l>
             <l n="892" xml:id="l892">Que loin que mon espoir combate vostre feu,</l>
-            <l n="893" xml:id="l893">Je suis prest…</l>
+            <l n="893" xml:id="l893" part="I">Je suis prest…</l>
           </sp>
           <sp who="tigrane">
             <speaker>TIGRANE.</speaker>
-            <l part="Y"><space/><space/>Ah, Seigneur, pourquoy ce desaveu ?</l>
+            <l part="F">Ah, Seigneur, pourquoy ce desaveu ?</l>
             <l n="894" xml:id="l894">N’avez-vous pas au Roy déclaré quel empire…</l>
           </sp>
           <sp who="antiochus">
@@ -2002,11 +1999,11 @@
           </sp>
           <sp who="tigrane">
             <speaker>TIGRANE.</speaker>
-            <l n="898" xml:id="l898">Et ce Portrait, Seigneur ?</l>
+            <l n="898" xml:id="l898" part="I">Et ce Portrait, Seigneur ?</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>En vain on me l’oppose,</l>
+            <l part="F">En vain on me l’oppose,</l>
             <l n="899" xml:id="l899">S’il semble avoir trop dit n’en cherchez point la cause,</l>
             <l n="900" xml:id="l900">Mon cœur dont ce mystere augmente l’embarras,</l>
             <l n="901" xml:id="l901">Ne vous peut éclaircir ce qu’il ne conçoit pas.</l>
@@ -2021,7 +2018,7 @@
             <l n="907" xml:id="l907">Si vous y renoncez, j’y renonce de mesme.</l>
             <l n="908" xml:id="l908">Dequoy que la Princesse ait paru me flater,</l>
             <l n="909" xml:id="l909">Vous engager son cœur c’est ne me rien oster.</l>
-            <l n="910" xml:id="l910">Si j’eus lon-temps l’espoir que le Roy vous asseure, <pb n="41" xml:id="p41"/></l>
+            <l n="910" xml:id="l910">Si j’eus lon-temps l’espoir que le Roy vous asseure,<pb n="41" xml:id="p41"/></l>
             <l n="911" xml:id="l911">Je le pris sans amour, je le perds sans murmure,</l>
             <l n="912" xml:id="l912">Sa main pour mon bonheur n’avoit rien d’important,</l>
             <l n="913" xml:id="l913">En est-ce assez, Seigneur, et vivrez-vous content ?</l>
@@ -2064,7 +2061,7 @@
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l n="931" xml:id="l931">Non, Madame, et sa flame en vain s’est alarmée, <pb n="42" xml:id="p42"/></l>
+            <l n="931" xml:id="l931">Non, Madame, et sa flame en vain s’est alarmée,<pb n="42" xml:id="p42"/></l>
             <l n="932" xml:id="l932">Le nom d’Arsinoé ne m’est point échapé,</l>
             <l n="933" xml:id="l933">Et si le Roy se trompe, il veut estre trompé.</l>
           </sp>
@@ -2079,21 +2076,21 @@
             <speaker>ARSINOE.</speaker>
             <l n="938" xml:id="l938">M’a-t’on dit vray, Seigneur, qu’expliquant vostre peine</l>
             <l n="939" xml:id="l939">Vous ayez laissé voir mon Portrait à la Reyne,</l>
-            <l n="940" xml:id="l940">Et souffert que le Roy…</l>
+            <l n="940" xml:id="l940" part="I">Et souffert que le Roy…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Madame, vous sçavez</l>
+            <l part="F">Madame, vous sçavez</l>
             <l n="941" xml:id="l941">Que plaignant les ennuys qui me sont reservez</l>
-            <l n="942" xml:id="l942">Vous-mesme…</l>
+            <l n="942" xml:id="l942" part="I">Vous-mesme…</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE.</speaker>
-            <l part="Y"><space/><space/>Et bien, Seigneur ?</l>
+            <l part="M">Et bien, Seigneur ?</l>
           </sp>
           <sp who="tigrane">
             <speaker>TIGRANE.</speaker>
-            <l part="Y"><space/><space/>Que cherchez-vous, Madame ?</l>
+            <l part="F">Que cherchez-vous, Madame ?</l>
             <l n="943" xml:id="l943">Son trouble n’est-il pas le témoin de sa flame ?</l>
             <l n="944" xml:id="l944">Vous faut-il un témoin plus fort, plus asseuré,</l>
             <l n="945" xml:id="l945">Et Tigrane a-t’il tort s’il meurt desesperé ?</l>
@@ -2103,11 +2100,11 @@
             <l n="946" xml:id="l946">Ses <ref target="#transport">transports*</ref> iront loin si vostre amour n’arreste<note n="104" place="bottom">« Ses transports iront loin si vous luy laissez suivre » dans l’édition de 1702.</note></l>
             <l n="947" xml:id="l947">L’injuste desespoir où ce Portrait le jette,<note n="105" place="bottom">« L’injuste desespoir où ce Portrait le livre » dans l’édition de 1702. </note></l>
             <l n="948" xml:id="l948">Il est vray qu’on l’a veu, mais sans trop s’alarmer,</l>
-            <l n="949" xml:id="l949">Qu’il attende…</l>
+            <l n="949" xml:id="l949" part="I">Qu’il attende…</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE.</speaker>
-            <l part="Y"><space/><space/>Je  voy ce qu’il faut presumer,</l>
+            <l part="F">Je  voy ce qu’il faut presumer,</l>
             <l n="950" xml:id="l950">Et penetre à la fin sous quel secret empire…</l>
           </sp>
           <sp who="antiochus">
@@ -2136,11 +2133,11 @@
           <stage>ARSINOE, TIGRANE, BARSINE.</stage>
           <sp who="tigrane">
             <speaker>TIGRANE.</speaker>
-            <l n="962" xml:id="l962">Madame, c’est donc là…</l>
+            <l n="962" xml:id="l962" part="I">Madame, c’est donc là…</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE.</speaker>
-            <l part="Y"><space/><space/>Vous n’estes pas à plaindre</l>
+            <l part="F">Vous n’estes pas à plaindre</l>
             <l n="963" xml:id="l963">Autant que vostre amour vous engage à le craindre.</l>
             <l n="964" xml:id="l964">Quelque ordre dont l’éclat menace vostre espoir,</l>
             <l n="965" xml:id="l965">Il suffit<note n="106" place="bottom"><hi rend="i">Il suffit</hi> : « Jusqu’au 16<hi rend="sup">ème</hi> siècle on met après les verbes exprimant l’approbation ou le blâme tantôt le subjonctif, tantôt l’indicatif ; ce dernier est d’usage lorqu’il s’agit de mentionner seulement l’action sur laquelle porte le jugement exprimé par le verbe de la principale. Au 17<hi rend="sup">ème</hi> siècle, ce mode figure souvent ».</note> que c’est moy qui dois le recevoir.</l>
@@ -2159,21 +2156,21 @@
             <speaker>TIGRANE.</speaker>
             <l n="970" xml:id="l970">A suivre ce projet quand le Prince vous aime,</l>
             <l n="971" xml:id="l971">Songez-vous que déjà sa langueur est extréme,</l>
-            <l n="972" xml:id="l972">Qu’on en voit chaque jour redoubler les accez, <pb n="44" xml:id="p44"/></l>
-            <l n="973" xml:id="l973">Qu’on tremble de la suite ?</l>
+            <l n="972" xml:id="l972">Qu’on en voit chaque jour redoubler les accez,<pb n="44" xml:id="p44"/></l>
+            <l n="973" xml:id="l973" part="I">Qu’on tremble de la suite ?</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE.</speaker>
-            <l part="Y"><space/><space/>Attendez le succez.</l>
+            <l part="F">Attendez le succez.</l>
           </sp>
           <sp who="tigrane">
             <speaker>TIGRANE.</speaker>
             <l n="974" xml:id="l974">Il y va de sa vie, et quand le peril  presse,</l>
-            <l n="975" xml:id="l975">Vous voulez…</l>
+            <l n="975" xml:id="l975" part="I">Vous voulez…</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE.</speaker>
-            <l part="Y"><space/><space/>Sa vertu bannira sa foiblesse,</l>
+            <l part="F">Sa vertu bannira sa foiblesse,</l>
             <l n="976" xml:id="l976">Ou s’il essaye en vain de contraindre ses vœux,</l>
             <l n="977" xml:id="l977">Le Roy n’a qu’à vouloir, et le Prince est heureux.</l>
           </sp>
@@ -2184,11 +2181,11 @@
           <sp who="arsinoe">
             <speaker>ARSINOE.</speaker>
             <l n="979" xml:id="l979">Vostre heur<note n="107" place="bottom"><hi rend="i">Heur</hi> : « Bonheur ; bonne fortune. Ce mot est bas et commence à estre peu en usage soit en prose, soit en vers. » (F.) </note> est toûjours seur, quelque ombre qui le cache,</l>
-            <l n="980" xml:id="l980">Ne vous alarmez point.</l>
+            <l n="980" xml:id="l980" part="I">Ne vous alarmez point.</l>
           </sp>
           <sp who="tigrane">
             <speaker>TIGRANE.</speaker>
-            <l part="Y"><space/><space/>Quoy ? Garder quelque espoir ?</l>
+            <l part="F">Quoy ? Garder quelque espoir ?</l>
             <l n="981" xml:id="l981">Quand pour le rendre heureux le Roy n’a qu’à vouloir ?</l>
           </sp>
           <sp who="arsinoe">
@@ -2202,11 +2199,11 @@
             <speaker>TIGRANE.</speaker>
             <l n="986" xml:id="l986">C’est sans m’expliquer rien que je puis vous entendre,</l>
             <l n="987" xml:id="l987">Qu’a<note n="108" place="bottom">« à » dans l’édition originale (faute).</note> mon malheur d’obscur pour ne le point comprendre ?</l>
-            <l n="988" xml:id="l988">Ne vois-je pas…</l>
+            <l n="988" xml:id="l988" part="I">Ne vois-je pas…</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE.</speaker>
-            <l part="Y"><space/><space/>Adieu, gardez toûjours ma foy,</l>
+            <l part="F">Adieu, gardez toûjours ma foy,</l>
             <l n="989" xml:id="l989">Je vous en diray plus quand j’auray veu le Roi .</l>
           </sp>
           <label>Fin du troisiéme Acte.</label>
@@ -2218,7 +2215,7 @@
           <head>SCENE PREMIERE.</head>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
-            <l n="990" xml:id="l990">Flateuse illusion que j’ay trop osé croire, <pb n="45" xml:id="p45"/></l>
+            <l n="990" xml:id="l990">Flateuse illusion que j’ay trop osé croire,<pb n="45" xml:id="p45"/></l>
             <l n="991" xml:id="l991">Doux abus de mon cœur par mes desirs trompé,</l>
             <l n="992" xml:id="l992">Cessez pour me punir d’opposer à ma gloire</l>
             <l n="993" xml:id="l993">Le pouvoir que sur luy vous avez usurpé.</l>
@@ -2271,17 +2268,17 @@
           <stage>STRATONICE, PHENICE.</stage>
           <sp who="phenice">
             <speaker>PHENICE.</speaker>
-            <l n="1036" xml:id="l1036">Madame, sçavez-vous que vous estes vangée ? <pb n="47" xml:id="p47"/></l>
+            <l n="1036" xml:id="l1036">Madame, sçavez-vous que vous estes vangée ?<pb n="47" xml:id="p47"/></l>
             <l n="1037" xml:id="l1037">En vain Antiochus se flatoit d’estre heureux,</l>
             <l n="1038" xml:id="l1038">La fiere Arsinoé n’en peut souffrir les vœux,</l>
             <l n="1039" xml:id="l1039">Et si le Roy pretend user de sa puissance,</l>
             <l n="1040" xml:id="l1040">Elle sçait comme<note n="110" place="bottom"><hi rend="i">Comme</hi> : « <hi rend="i">comme</hi> pris dans le sens de <hi rend="i">comment</hi>, amène, les interrogations directes et indirectes au début du 17 ème siècle comme dans l’ancienne langue, tandis qu’à la fin du 17<hi rend="sup">ème</hi> siècle, il ne se construit plus guère qu’avec des interrogations indirectes. Vaugelas (II, 12) exige <hi rend="i">comment</hi> dans l’interrogation directe et après le verbe demander  dans l’interrogation indirecte. Thomas Corneille veut qu’on emploie <hi rend="i">comment</hi> après voici, voilà, savoir. Il admet pourtant <hi rend="i">il verra comme je le traiterai, voyez comme il fait le brave</hi>. (…)  L’Academie est de son avis. » (Haase § 43)</note> il faut signaler sa constance,</l>
             <l n="1041" xml:id="l1041">C’est assez qu’à Tigrane elle ait donné sa foy,</l>
-            <l n="1042" xml:id="l1042">Voilà ce qui se dit.</l>
+            <l n="1042" xml:id="l1042" part="I">Voilà ce qui se dit.</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
-            <l part="Y"><space/><space/>Et que resout le Roy ?</l>
+            <l part="F">Et que resout le Roy ?</l>
           </sp>
           <sp who="phenice">
             <speaker>PHENICE.</speaker>
@@ -2306,7 +2303,7 @@
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE</speaker>
-            <l n="1055" xml:id="l1055">Que tu penetres mal l’ennuy qui me surmonte ! <pb n="48" xml:id="p48"/></l>
+            <l n="1055" xml:id="l1055">Que tu penetres mal l’ennuy qui me surmonte !<pb n="48" xml:id="p48"/></l>
             <l n="1056" xml:id="l1056">Si le Prince est trompé, Phenice, il l’est sans honte,</l>
             <l n="1057" xml:id="l1057">Et n’a point à rougir de s’estre répondu<note n="112" place="bottom"><hi rend="i">Se répondre de</hi> : « compter sur. » (Haase)</note></l>
             <l n="1058" xml:id="l1058">Du succez qu’à sa flame il croyait estre deu.</l>
@@ -2414,11 +2411,11 @@
             <speaker>STRATONICE.</speaker>
             <l n="1136" xml:id="l1136">Peut-estre il n’aime pas autant qu’on le presume,</l>
             <l n="1137" xml:id="l1137">Et puisqu’à son bonheur il cherche à resister</l>
-            <l n="1138" xml:id="l1138">On peut croire…</l>
+            <l n="1138" xml:id="l1138" part="I">On peut croire…</l>
           </sp>
           <sp who="tigrane">
             <speaker>TIGRANE.</speaker>
-            <l part="Y"><space/><space/>Ah, Madame, il n’en faut point douter, <pb n="51" xml:id="p51"/></l>
+            <l part="F">Ah, Madame, il n’en faut point douter,<pb n="51" xml:id="p51"/></l>
             <l n="1139" xml:id="l1139">La Princesse le charme, il l’adore, et son ame</l>
             <l n="1140" xml:id="l1140">Peut à peine suffire à l’excez de sa flame,</l>
             <l n="1141" xml:id="l1141">Jamais un plus beau feu ne regna sur un cœur,</l>
@@ -2435,11 +2432,11 @@
             <l n="1149" xml:id="l1149">Mais au moins vostre amour dans ce revers  fatal</l>
             <l n="1150" xml:id="l1150">N’a point à redouter le bonheur d’un Rival,</l>
             <l n="1151" xml:id="l1151">Puisqu’à vous preferer la Princesse constante</l>
-            <l n="1152" xml:id="l1152">Sçaura trop …</l>
+            <l n="1152" xml:id="l1152" part="I">Sçaura trop …</l>
           </sp>
           <sp who="tigrane">
             <speaker>TIGRANE.</speaker>
-            <l part="Y"><space/><space/>C’est par là que mon malheur s’augmente.</l>
+            <l part="F">C’est par là que mon malheur s’augmente.</l>
             <l n="1153" xml:id="l1153">On m’apprend que le Roy de tant d’amour surpris</l>
             <l n="1154" xml:id="l1154">M’impute pour son choix ce qu’elle a de mépris,</l>
             <l n="1155" xml:id="l1155">Et que si jusqu’au bout il la trouve obstinée</l>
@@ -2454,18 +2451,18 @@
             <l n="1164" xml:id="l1164">J’implore vos bontez contre tant d’injustice,</l>
             <l n="1165" xml:id="l1165">Par pitié de mes maux détournez-en l’effet,</l>
             <l n="1166" xml:id="l1166">Il suffit de l’effort que mon devoir s’est fait,</l>
-            <l n="1167" xml:id="l1167">Pourquoy presser l’éclat d’un desespoir funeste ? <pb n="52" xml:id="p52"/></l>
+            <l n="1167" xml:id="l1167">Pourquoy presser l’éclat d’un desespoir funeste ?<pb n="52" xml:id="p52"/></l>
             <l n="1168" xml:id="l1168">Ma douleur le commence, elle répond du reste,</l>
             <l n="1169" xml:id="l1169">Et n’aura pas besoin, pour terminer mes jours,</l>
             <l n="1170" xml:id="l1170">De souffrir que mon bras luy preste du secours.</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
-            <l n="1171" xml:id="l1171">Si le Prince …</l>
+            <l n="1171" xml:id="l1171" part="I">Si le Prince …</l>
           </sp>
           <sp who="tigrane">
             <speaker>TIGRANE.</speaker>
-            <l part="Y"><space/><space/>A ses yeux il faut cacher mon trouble,</l>
+            <l part="F">A ses yeux il faut cacher mon trouble,</l>
             <l n="1172" xml:id="l1172">Et puisque mon malheur par sa vertu redouble ;</l>
             <l n="1173" xml:id="l1173">Je vous laisse empescher qu’une vaine pitié</l>
             <l n="1174" xml:id="l1174">N’immole dans son cœur l’amour à l’amitié.</l>
@@ -2494,22 +2491,22 @@
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
-            <l n="1187" xml:id="l1187">L’hymen d’Arsinoé…</l>
+            <l n="1187" xml:id="l1187" part="I">L’hymen d’Arsinoé…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Je le voy bien, Madame, <pb n="53" xml:id="p53"/></l>
+            <l part="F">Je le voy bien, Madame,<pb n="53" xml:id="p53"/></l>
             <l n="1188" xml:id="l1188">Vous consentez pour elle au beau feu qui m’enflame,<note n="114" place="bottom">« Vous souffrez que pour elle un feu secret m’enflame » dans l’édition de 1702. </note></l>
             <l n="1189" xml:id="l1189">Mais l’excuseriez-vous si de ce feu charmé</l>
             <l n="1190" xml:id="l1190">J’advoüois que c’est vous qui l’avez allumé ?</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
-            <l n="1191" xml:id="l1191">Moy, Prince ?</l>
+            <l n="1191" xml:id="l1191" part="I">Moy, Prince ?</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Il n’est plus temps, Madame, de vous taire</l>
+            <l part="F">Il n’est plus temps, Madame, de vous taire</l>
             <l n="1192" xml:id="l1192">Qu’Arsinoé n’a rien de ce qui peut me plaire.</l>
             <l n="1193" xml:id="l1193">Ne me demandez point quel fatal contre-temps</l>
             <l n="1194" xml:id="l1194">M’a fait luy donner part aux ennuys que je sens,</l>
@@ -2543,7 +2540,7 @@
             <speaker>ANTIOCHUS.</speaker>
             <l n="1211" xml:id="l1211">N’excusez point mon crime, il n’a rien que j’ignore,</l>
             <l n="1212" xml:id="l1212">C’est vous qui me charmez, vous que mon cœur adore,</l>
-            <l n="1213" xml:id="l1213">Et ce cœur qu’à vous voir un prompt amour surprit, <pb n="54" xml:id="p54"/></l>
+            <l n="1213" xml:id="l1213">Et ce cœur qu’à vous voir un prompt amour surprit,<pb n="54" xml:id="p54"/></l>
             <l n="1214" xml:id="l1214">En vous l’osant jurer, sçait trop bien ce qu’il dit.</l>
           </sp>
           <sp who="stratonice">
@@ -2580,11 +2577,11 @@
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l n="1232" xml:id="l1232">N’achevez point si-tost.</l>
+            <l n="1232" xml:id="l1232" part="I">N’achevez point si-tost.</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
-            <l part="Y"><space/><space/>C’est à moy de me taire,</l>
+            <l part="F">C’est à moy de me taire,</l>
             <l n="1233" xml:id="l1233">Mon destin le demande, il luy faut obeir.</l>
           </sp>
           <sp who="antiochus">
@@ -2593,19 +2590,19 @@
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
-            <l n="1235" xml:id="l1235">Que vous estes cruel ! ah !</l>
+            <l n="1235" xml:id="l1235" part="I">Que vous estes cruel ! ah !</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Vostre cœur soûpire ? <pb n="55" xml:id="p55"/></l>
+            <l part="F">Vostre cœur soûpire ?<pb n="55" xml:id="p55"/></l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
-            <l n="1236" xml:id="l1236">Ce soupir eschapé…</l>
+            <l n="1236" xml:id="l1236" part="I">Ce soupir eschapé…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Parlez, que veut-il dire ?</l>
+            <l part="F">Parlez, que veut-il dire ?</l>
             <l n="1237" xml:id="l1237">M’apprend-il que mes vœux des vostres secondez…</l>
           </sp>
           <sp who="stratonice">
@@ -2646,7 +2643,7 @@
             <l n="1256" xml:id="l1256">C’est à moy cependant à payer<note n="116" place="bottom"> « <hi rend="i">A</hi> precede un infinitif dans des cas où l’emploi actuel exige <hi rend="i">de</hi> » (Haase § 124).</note> pour ce crime,</l>
             <l n="1257" xml:id="l1257">A soûpirer sans cesse, et languir consumé</l>
             <l n="1258" xml:id="l1258">De l’ennuy de pouvoir, et n’oser estre aimé.</l>
-            <l n="1259" xml:id="l1259">Pour en cacher l’excez blasmerez-vous ma fuite ? <pb n="56" xml:id="p56"/></l>
+            <l n="1259" xml:id="l1259">Pour en cacher l’excez blasmerez-vous ma fuite ?<pb n="56" xml:id="p56"/></l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
@@ -2692,7 +2689,7 @@
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l n="1287" xml:id="l1287">Ainsi, quelques <ref target="#ennui">ennuis*</ref> que j’aye encor à craindre, <pb n="57" xml:id="p57"/></l>
+            <l n="1287" xml:id="l1287">Ainsi, quelques <ref target="#ennui">ennuis*</ref> que j’aye encor à craindre,<pb n="57" xml:id="p57"/></l>
             <l n="1288" xml:id="l1288">Vous n’aurez qu’à vouloir pour cesser de m’en plaindre ?</l>
             <l n="1289" xml:id="l1289">Vostre cœur aussi-tost se rendant tout à soy…</l>
           </sp>
@@ -2708,11 +2705,11 @@
             <l n="1294" xml:id="l1294">N’ose plus vous souffrir<note n="119" place="bottom"><hi rend="i">Souffrir</hi> : « On dit par civilité, <hi rend="i">souffrez</hi> que je vous advertisse, pour dire, permettez que je fasse telle chose. »</note> de plaindre mon amour,</l>
             <l n="1295" xml:id="l1295">Attendant que ma mort en efface le crime,</l>
             <l n="1296" xml:id="l1296">Madame, asseurez-moy de toute vostre estime,</l>
-            <l n="1297" xml:id="l1297">Me la promettez-vous ?</l>
+            <l n="1297" xml:id="l1297" part="I">Me la promettez-vous ?</l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
-            <l part="Y"><space/><space/>Ouy, je vous la promets,</l>
+            <l part="F">Ouy, je vous la promets,</l>
             <l n="1298" xml:id="l1298">Fuyez, et s’il se peut, ne me voyez jamais.</l>
           </sp>
           <sp who="antiochus">
@@ -2727,7 +2724,7 @@
           <stage>ANTIOCHUS, ARSINOE.</stage>
           <sp who="arsinoe">
             <speaker>ARSINOE.</speaker>
-            <l n="1302" xml:id="l1302">Seigneur, le Roy me mande, et vous sçavez pourquoy. <pb n="58" xml:id="p58"/></l>
+            <l n="1302" xml:id="l1302">Seigneur, le Roy me mande, et vous sçavez pourquoy.<pb n="58" xml:id="p58"/></l>
             <l n="1303" xml:id="l1303">Avant que luy parler j’ay crû devoir m’instruire<note n="120" place="bottom">« Avant que je luy parle il est bon que je sçache » dans l’édition de 1702.</note></l>
             <l n="1304" xml:id="l1304">De ce que vous jugez que je luy doive dire,<note n="121" place="bottom">« Ce que de vos secrets vous voulez qu’on luy cache, » dans l’édition de 1702.</note></l>
             <l n="1305" xml:id="l1305">J’agiray par vostre ordre, et viens le recevoir.</l>
@@ -2757,19 +2754,19 @@
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
             <l n="1316" xml:id="l1316">Ah, Madame ! pourquoy me l’avez-vous fait dire ?</l>
-            <l n="1317" xml:id="l1317">Vostre Portrait, helas !</l>
+            <l n="1317" xml:id="l1317" part="I">Vostre Portrait, helas !</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE.</speaker>
-            <l part="Y"><space/><space/>Seigneur, il me suffit,</l>
+            <l part="F">Seigneur, il me suffit,</l>
             <l n="1318" xml:id="l1318">Je voy ce que sans vous je m’estois déja dit,</l>
-            <l n="1319" xml:id="l1319">Vous brûlez pour la Reyne, et l’amour…</l>
+            <l n="1319" xml:id="l1319" part="I">Vous brûlez pour la Reyne, et l’amour…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Ouy, Madame,</l>
+            <l part="F">Ouy, Madame,</l>
             <l n="1320" xml:id="l1320">Vous avez malgré moy penetré dans mon ame,</l>
-            <l n="1321" xml:id="l1321">Et ce qu’obstinément j’aurois toûjours caché, <pb n="59" xml:id="p59"/></l>
+            <l n="1321" xml:id="l1321">Et ce qu’obstinément j’aurois toûjours caché,<pb n="59" xml:id="p59"/></l>
             <l n="1322" xml:id="l1322">De ce cœur amoureux vous l’avez arraché,</l>
             <l n="1323" xml:id="l1323">J’adore Stratonice, et l’ardeur qui me presse</l>
             <l n="1324" xml:id="l1324">M’est un ordre absolu de l’adorer sans cesse.</l>
@@ -2785,11 +2782,11 @@
             <speaker>ARSINOE.</speaker>
             <l n="1332" xml:id="l1332">Je sçay vos interests, vous connoistrez mon zele.</l>
             <l n="1333" xml:id="l1333">Quelque excez qu’à son feu le Roy semble souffrir,</l>
-            <l n="1334" xml:id="l1334">Son âge…</l>
+            <l n="1334" xml:id="l1334" part="I">Son âge…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/>Ah, gardez-vous de luy rien découvrir.</l>
+            <l part="F">Ah, gardez-vous de luy rien découvrir.</l>
             <l n="1335" xml:id="l1335">Pour mettre auprés de vous mon crime en évidence</l>
             <l n="1336" xml:id="l1336">Le Destin par surprise a trahy mon silence ;</l>
             <l n="1337" xml:id="l1337">Mais si vous m’accusez, il n’est rien que ma foy</l>
@@ -2808,17 +2805,17 @@
             <l n="1344" xml:id="l1344">Obtenons que demain son Hymen s’accomplisse,</l>
             <l n="1345" xml:id="l1345">Tandis qu’un peu de temps, malgré vos premiers feux,</l>
             <l n="1346" xml:id="l1346">Disposera vostre ame à couronner mes vœux.</l>
-            <l n="1347" xml:id="l1347">Regardant ce delay comme un bonheur supréme, <pb n="60" xml:id="p60"/></l>
+            <l n="1347" xml:id="l1347">Regardant ce delay comme un bonheur supréme,<pb n="60" xml:id="p60"/></l>
             <l n="1348" xml:id="l1348">Promettez tout alors, je promettray de mesme,</l>
             <l n="1349" xml:id="l1349">Et l’hymen achevé, quoy que vueïlle le Roy,</l>
             <l n="1350" xml:id="l1350">Je vous rends à Tigrane en me rendant à moy.</l>
             <l n="1351" xml:id="l1351">Mais ne refusez point, pour soulager ma peine,</l>
             <l n="1352" xml:id="l1352">De remettre en mes mains le Portrait de la Reyne,</l>
-            <l n="1353" xml:id="l1353">Sa veuë adoucira …</l>
+            <l n="1353" xml:id="l1353" part="I">Sa veuë adoucira …</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE.</speaker>
-            <l part="Y"><space/><space/>J’ay sujet d’en douter,</l>
+            <l part="F">J’ay sujet d’en douter,</l>
             <l n="1354" xml:id="l1354">Mais ce n’est point à moy, Seigneur, à resister,</l>
             <l n="1355" xml:id="l1355">Ce Portrait est à vous, je sçauray vous le rendre.</l>
             <l n="1356" xml:id="l1356">Tandis je vay sçavoir quel conseil je dois prendre,</l>
@@ -2835,7 +2832,7 @@
           <stage>SELEUCUS, ARSINOE.</stage>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l n="1359" xml:id="l1359">Princesse, enfin c’est trop vous en vouloir defendre, <pb n="61" xml:id="p61"/></l>
+            <l n="1359" xml:id="l1359">Princesse, enfin c’est trop vous en vouloir defendre,<pb n="61" xml:id="p61"/></l>
             <l n="1360" xml:id="l1360">Il est temps de ceder, il est temps de vous rendre,</l>
             <l n="1361" xml:id="l1361">Le beau feu dont pour vous mon Fils est consumé</l>
             <l n="1362" xml:id="l1362">Ne le rend pas peut-etre indigne d’estre aimé.</l>
@@ -2854,7 +2851,7 @@
             <l n="1372" xml:id="l1372">De pouvoir se resoudre à prononcer qu’on aime ;</l>
             <l n="1373" xml:id="l1373">Quelques charmes d’ailleurs qui flatent nos souhaits,</l>
             <l n="1374" xml:id="l1374">Qui l’a dit une fois ne s’en dédit jamais.</l>
-            <l n="1375" xml:id="l1375">Par d’invincibles nœuds, par de secretes flames, <pb n="62" xml:id="p62"/></l>
+            <l n="1375" xml:id="l1375">Par d’invincibles nœuds, par de secretes flames,<pb n="62" xml:id="p62"/></l>
             <l n="1376" xml:id="l1376">Sans nous, sans nostre adveu le Ciel unit nos ames,</l>
             <l n="1377" xml:id="l1377">Et sur l’heureux rapport qui fait ce doux lien</l>
             <l n="1378" xml:id="l1378">Tigrane est vostre choix, j’y puis regler le mien.</l>
@@ -2897,7 +2894,7 @@
             <l n="1400" xml:id="l1400">Accordez vostre main, le Ciel fera le reste,</l>
             <l n="1401" xml:id="l1401">Et le temps au devoir prendra soin de fournir</l>
             <l n="1402" xml:id="l1402">La force du panchant qui n’a pû vous unir.</l>
-            <l n="1403" xml:id="l1403">D’un Prince infortuné prevenez la disgrace, <pb n="63" xml:id="p63"/></l>
+            <l n="1403" xml:id="l1403">D’un Prince infortuné prevenez la disgrace,<pb n="63" xml:id="p63"/></l>
             <l n="1404" xml:id="l1404">Il y va de ses jours, son destin les menace,</l>
             <l n="1405" xml:id="l1405">Sauvez-le, sauvez-moy, pour l’obtenir de vous</l>
             <l n="1406" xml:id="l1406">Faudra-t’il qu’on me voye embrasser vos genoux ?</l>
@@ -2979,12 +2976,12 @@
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l n="1455" xml:id="l1455">Il aime…</l>
+            <l n="1455" xml:id="l1455" part="I">Il aime…</l>
           </sp>
           <sp who="arsinoe">
             <speaker>ARSINOE</speaker>
-            <l part="Y"><space/>Et quoy, Seigneur ? Vous promettez sans peine,</l>
-            <l n="1456" xml:id="l1456">Et quand il faut agir, l’engagement vous <ref target="#gesne">gesne*</ref>. <pb n="65" xml:id="p65"/></l>
+            <l part="F">Et quoy, Seigneur ? Vous promettez sans peine,</l>
+            <l n="1456" xml:id="l1456">Et quand il faut agir, l’engagement vous <ref target="#gesne">gesne*</ref>.<pb n="65" xml:id="p65"/></l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
@@ -3088,17 +3085,17 @@
           <stage>SELEUCUS, ANTIOCHUS.</stage>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l n="1535" xml:id="l1535">Prince, ostez-moy d’un doute, il ne faut plus rien taire, <pb n="68" xml:id="p68"/></l>
+            <l n="1535" xml:id="l1535">Prince, ostez-moy d’un doute, il ne faut plus rien taire,<pb n="68" xml:id="p68"/></l>
             <l n="1536" xml:id="l1536">Si ce que l’on m’a dit est un rapport sincere,</l>
             <l n="1537" xml:id="l1537">Vous nous trahiriez tous à cacher plus long-temps…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l n="1538" xml:id="l1538">Seigneur.</l>
+            <l n="1538" xml:id="l1538" part="I">Seigneur.</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/>J’en ay receu des advis importants,</l>
+            <l part="F">J’en ay receu des advis importants,</l>
             <l n="1539" xml:id="l1539">Et vous seul pouvez tout pour me tirer de peine.</l>
             <l n="1540" xml:id="l1540">J’apprens qu’au vif éclat des beautez de la Reyne…</l>
             <l n="1541" xml:id="l1541">Ne me déguisez rien, que dit-on à la Cour</l>
@@ -3119,12 +3116,12 @@
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l n="1550" xml:id="l1550">Seigneur, oubliez-vous…</l>
+            <l n="1550" xml:id="l1550" part="I">Seigneur, oubliez-vous…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/><space/>Non, non, parlez, mon Fils,</l>
-            <l n="1551" xml:id="l1551">Je ne demande point que vous flatiez ma flame, <pb n="69" xml:id="p69"/></l>
+            <l part="F">Non, non, parlez, mon Fils,</l>
+            <l n="1551" xml:id="l1551">Je ne demande point que vous flatiez ma flame,<pb n="69" xml:id="p69"/></l>
             <l n="1552" xml:id="l1552">Ouvrez-moy vostre cœur, je vous ouvre mon ame ;</l>
             <l n="1553" xml:id="l1553">Je puis avoir trop crû ce doux empressement</l>
             <l n="1554" xml:id="l1554">Qui m’a fait accepter la qualité d’Amant,</l>
@@ -3160,36 +3157,36 @@
             <l n="1575" xml:id="l1575">Vivez pour Stratonice, et rendez-vous heureux.</l>
             <l n="1576" xml:id="l1576">Aussi bien dans l’accord qu’il vous faudroit enfraindre<pb n="70" xml:id="p70"/></l>
             <l n="1577" xml:id="l1577">Demetrius<note n="131" place="bottom">Demetrius : roi des Macédoniens. </note> son Pere auroit lieu de se plaindre,</l>
-            <l n="1578" xml:id="l1578">Et la guerre aussi-tost…</l>
+            <l n="1578" xml:id="l1578" part="I">Et la guerre aussi-tost…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/><space/>Afin de l’empescher</l>
-            <l n="1579" xml:id="l1579">Il faudroit…</l>
+            <l part="F">Afin de l’empescher</l>
+            <l n="1579" xml:id="l1579" part="I">Il faudroit…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Quoy ! l’affront s’en pourroit-il cacher,</l>
+            <l part="F">Quoy ! l’affront s’en pourroit-il cacher,</l>
             <l n="1580" xml:id="l1580">Et manquer  de parole où l’on voit que la sienne…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
             <l n="1581" xml:id="l1581">Vostre main supléeroit au defaut de la mienne,</l>
-            <l n="1582" xml:id="l1582">Et sans rompre l’Accord…</l>
+            <l n="1582" xml:id="l1582" part="I">Et sans rompre l’Accord…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Que dites-vous Seigneur ?</l>
+            <l part="F">Que dites-vous Seigneur ?</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
             <l n="1583" xml:id="l1583">Je sçay quel coup, mon Fils, c’est porter sur ton cœur,</l>
             <l n="1584" xml:id="l1584">Un changement si dur l’arrache à la Princesse,</l>
-            <l n="1585" xml:id="l1585">Mais…</l>
+            <l n="1585" xml:id="l1585" part="I">Mais…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/>J’ay promis, Seigneur, de vaincre ma faibloisse.</l>
+            <l part="F">J’ay promis, Seigneur, de vaincre ma faibloisse.</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
@@ -3213,22 +3210,22 @@
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l n="1597" xml:id="l1597">J’ay dit sur cét amour ce que j’avois à dire, <pb n="71" xml:id="p71"/></l>
+            <l n="1597" xml:id="l1597">J’ay dit sur cét amour ce que j’avois à dire,<pb n="71" xml:id="p71"/></l>
             <l n="1598" xml:id="l1598">Quelque éclat qu’il ait fait, laissons Tigrane heureux,</l>
             <l n="1599" xml:id="l1599">Le temps fera pour moy, c’est tout ce que je veux ;</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
             <l n="1600" xml:id="l1600">Je sçay qu’il peut beaucoup, mais quitte l’artifice,</l>
-            <l n="1601" xml:id="l1601">Et m’apprens…</l>
+            <l n="1601" xml:id="l1601" part="I">Et m’apprens…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Quoy, Seigneur ?</l>
+            <l part="M">Quoy, Seigneur ?</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/><space/>Aimes-tu Stratonice ?</l>
+            <l part="F">Aimes-tu Stratonice ?</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
@@ -3246,11 +3243,11 @@
             <speaker>ANTIOCHUS.</speaker>
             <l n="1608" xml:id="l1608">Helas ! Pour écouter un feu si temeraire</l>
             <l n="1609" xml:id="l1609">Oublierois-je, Seigneur, que vous estes mon Pere ?</l>
-            <l n="1610" xml:id="l1610">Ah, plustost mille morts…</l>
+            <l n="1610" xml:id="l1610" part="I">Ah, plustost mille morts…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/><space/>Va, c’en est trop, mon Fils,</l>
+            <l part="F">Va, c’en est trop, mon Fils,</l>
             <l n="1611" xml:id="l1611">Je découvre l’abysme où ton respect t’a mis,</l>
             <l n="1612" xml:id="l1612">Quelques charmes d’abord avoient sçeu me surprendre,</l>
             <l n="1613" xml:id="l1613">Mais puisque ton amour peut dégager ma foy,</l>
@@ -3269,11 +3266,11 @@
             <l n="1623" xml:id="l1623">Mais pourquoy m’en promettre une preuve si vaine ?</l>
             <l n="1624" xml:id="l1624">Vous le sçavez, Seigneur, je n’aime point la Reyne,</l>
             <l n="1625" xml:id="l1625">Espousez-la, de grace, et si ce n’est assez…</l>
-            <l n="1626" xml:id="l1626">Mais, ô Dieux !</l>
+            <l n="1626" xml:id="l1626" part="I">Mais, ô Dieux !</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/><space/>A la voir, Prince, vous rougissez,</l>
+            <l part="F">A la voir, Prince, vous rougissez,</l>
             <l n="1627" xml:id="l1627">Parlons-luy, cette épreuve est encor necessaire,</l>
             <l n="1628" xml:id="l1628">Vous sçavez mieux apres ce que vous pourrez faire.</l>
           </sp>
@@ -3295,11 +3292,11 @@
           </sp>
           <sp who="tigrane">
             <speaker>TIGRANE.</speaker>
-            <l n="1635" xml:id="l1635">Seigneur…</l>
+            <l n="1635" xml:id="l1635" part="I">Seigneur…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/>Lors qu’à Tigrane on voit tout si contraire,</l>
+            <l part="F">Lors qu’à Tigrane on voit tout si contraire,</l>
             <l n="1636" xml:id="l1636">Madame, vous pouvez ordonner qu’il espere,</l>
             <l n="1637" xml:id="l1637">Quoy que d’Arsinoé le Prince soit charmé<pb n="73" xml:id="p73"/></l>
             <l n="1638" xml:id="l1638">Il sçaura l’oublier s’il est ailleurs aimé ;</l>
@@ -3314,11 +3311,11 @@
             <l n="1644" xml:id="l1644">Par elles je vous dois et ma main et ma foy,</l>
             <l n="1645" xml:id="l1645">L’une est à vous déja, l’autre est encore a moy,</l>
             <l n="1646" xml:id="l1646">Et si mon Hymenée est pour vous une gesne,</l>
-            <l n="1647" xml:id="l1647">Je puis…</l>
+            <l n="1647" xml:id="l1647" part="I">Je puis…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/>Dans mes Estats vous devez estre Reyne,</l>
+            <l part="F">Dans mes Estats vous devez estre Reyne,</l>
             <l n="1648" xml:id="l1648">Et je ne manque à rien si mon Fils couronné</l>
             <l n="1649" xml:id="l1649">Vous asseure le rang  qui vous est destiné.</l>
             <l n="1650" xml:id="l1650">Mon amour s’en esmeut, mais je voy qu’à mon âge</l>
@@ -3334,37 +3331,37 @@
             <speaker>ANTIOCHUS.</speaker>
             <l n="1655" xml:id="l1655">A ce que veut le Roy gardez-vous de souscrire,</l>
             <l n="1656" xml:id="l1656">Pour moy de sa tendresse il croit trop les <ref target="#appast">appas*</ref>,</l>
-            <l n="1657" xml:id="l1657">Madame, il vous adore.</l>
+            <l n="1657" xml:id="l1657" part="I">Madame, il vous adore.</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/><space/>Et ne l’aimes-tu pas ?</l>
+            <l part="F">Et ne l’aimes-tu pas ?</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l n="1658" xml:id="l1658">Aimer la Reyne ? Ô Ciel !</l>
+            <l n="1658" xml:id="l1658" part="I">Aimer la Reyne ? Ô Ciel !</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/><space/>Et bien, il t’en faut croire,</l>
-            <l n="1659" xml:id="l1659">Mais si de son Hymen tu rejettes la gloire, <pb n="74" xml:id="p74"/></l>
+            <l part="F">Et bien, il t’en faut croire,</l>
+            <l n="1659" xml:id="l1659">Mais si de son Hymen tu rejettes la gloire,<pb n="74" xml:id="p74"/></l>
             <l n="1660" xml:id="l1660">Fay qu’elle-mesme au moins puisse apprendre de toy</l>
             <l n="1661" xml:id="l1661">Que ses charmes sont peu pour surprendre ta foy</l>
-            <l n="1662" xml:id="l1662">Qu’un mépris…</l>
+            <l n="1662" xml:id="l1662" part="I">Qu’un mépris…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Moy, j’aurois du mépris pour la Reyne !</l>
+            <l part="F">Moy, j’aurois du mépris pour la Reyne !</l>
             <l n="1663" xml:id="l1663">Seroit-il pour ce crime une assez rude peine ?</l>
             <l n="1664" xml:id="l1664">Jamais tant de beautez n’eurent droit de charmer,</l>
             <l n="1665" xml:id="l1665">Mais, Seigneur, je ne dois ny ne la veux aimer,</l>
             <l n="1666" xml:id="l1666">J’en atteste les Dieux, et si de ma foiblesse,</l>
-            <l n="1667" xml:id="l1667">Vostre ame…</l>
+            <l n="1667" xml:id="l1667" part="I">Vostre ame…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/><space/>Accepte donc la main de la Princesse,</l>
-            <l n="1668" xml:id="l1668">Je la laisse à ton choix.</l>
+            <l part="F">Accepte donc la main de la Princesse,</l>
+            <l n="1668" xml:id="l1668" part="I">Je la laisse à ton choix.</l>
           </sp>
         </div>
         <div type="scene">
@@ -3372,25 +3369,25 @@
           <stage>SELEUCUS, STRATONICE, ANTIOCHUS, ARSINOE <lb/>TIGRANE, PHENICE,  BARSINE, Suite.</stage>
           <sp who="arsinoe">
             <speaker>ARSINOE.</speaker>
-            <l part="Y"><space/><space/>Elle est à luy, Seigneur,</l>
+            <l part="F">Elle est à luy, Seigneur,</l>
             <l n="1669" xml:id="l1669">S’il peut pour l’accepter faire suivre le cœur,</l>
-            <l n="1670" xml:id="l1670">Mais la Reyne…</l>
+            <l n="1670" xml:id="l1670" part="I">Mais la Reyne…</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Ah, Madame ! et vous-mesme osez dire…</l>
+            <l part="F">Ah, Madame ! et vous-mesme osez dire…</l>
             <l n="1671" xml:id="l1671">Mais, Seigneur, vous voyez à quoy sa flame aspire,</l>
             <l n="1672" xml:id="l1672">Pour épargner Tigrane elle veut m’imputer…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
             <l n="1673" xml:id="l1673">Il est temps de resoudre, et non de consulter,</l>
-            <l n="1674" xml:id="l1674">Puisqu’elle offre sa main c’est à toy de la prendre, <pb n="75" xml:id="p75"/></l>
-            <l n="1675" xml:id="l1675">Je n’en croy que ce gage.</l>
+            <l n="1674" xml:id="l1674">Puisqu’elle offre sa main c’est à toy de la prendre,<pb n="75" xml:id="p75"/></l>
+            <l n="1675" xml:id="l1675" part="I">Je n’en croy que ce gage.</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Et bien, il me faut rendre,</l>
+            <l part="F">Et bien, il me faut rendre,</l>
             <l n="1676" xml:id="l1676">Ceder à mon destin. Donnez, Princesse, hélas !</l>
             <l n="1677" xml:id="l1677">Seigneur, c’est de Tigrane asseurer le trépas,</l>
             <l n="1678" xml:id="l1678">Des jours qu’il m’a sauvez est-la récompense ?</l>
@@ -3404,11 +3401,11 @@
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l n="1683" xml:id="l1683">Connois-tu ce Portrait.</l>
+            <l n="1683" xml:id="l1683" part="I">Connois-tu ce Portrait.</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l part="Y"><space/><space/>Ordonnez de ma peine,</l>
+            <l part="F">Ordonnez de ma peine,</l>
             <l n="1684" xml:id="l1684">Il faut punir le crime où l’amour m’a fait choir,</l>
             <l n="1685" xml:id="l1685">C’est tout ce que je puis et connoistre et sçavoir.</l>
           </sp>
@@ -3432,7 +3429,7 @@
             <l n="1695" xml:id="l1695">Tu dois vaincre ta flame, et la mienne est vaincuë.</l>
             <l n="1696" xml:id="l1696">Je vous l’avois bien dit, que pour sauver ses jours</l>
             <l n="1697" xml:id="l1697">Je n’attendois plus rien que de vostre secours,</l>
-            <l n="1698" xml:id="l1698">Madame à son espoir vous rendrez-vous contraire ? <pb n="76" xml:id="p76"/></l>
+            <l n="1698" xml:id="l1698">Madame à son espoir vous rendrez-vous contraire ?<pb n="76" xml:id="p76"/></l>
           </sp>
           <sp who="stratonice">
             <speaker>STRATONICE.</speaker>
@@ -3445,22 +3442,22 @@
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
-            <l n="1702" xml:id="l1702">Seigneur, encor un coup…</l>
+            <l n="1702" xml:id="l1702" part="I">Seigneur, encor un coup…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/><space/>Obey sans replique,</l>
+            <l part="F">Obey sans replique,</l>
             <l n="1703" xml:id="l1703">C’est tout ce que je veux que ton devoir m’explique.</l>
           </sp>
           <sp who="antiochus">
             <speaker>ANTIOCHUS.</speaker>
             <l n="1704" xml:id="l1704">O bonté sans égale, ô vertu dont l’éclat</l>
             <l n="1705" xml:id="l1705">Loin de punir un Fils récompense un ingrat !</l>
-            <l n="1706" xml:id="l1706">Madame…</l>
+            <l n="1706" xml:id="l1706" part="I">Madame…</l>
           </sp>
           <sp who="seleucus">
             <speaker>SELEUCUS.</speaker>
-            <l part="Y"><space/><space/>Apres l’ennuy des plus rudes alarmes</l>
+            <l part="F">Apres l’ennuy des plus rudes alarmes</l>
             <l n="1707" xml:id="l1707">Tigrane de l’espoir goustera mieux les charmes,</l>
             <l n="1708" xml:id="l1708">S’y rendra tout entier ; attendant l’heureux jour</l>
             <l n="1709" xml:id="l1709">Qui remplissant ses vœux, couronne vostre amour.</l>
