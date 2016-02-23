@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>La Véritable Sémiramis. Tragédie</title>
-        <author>Nicolas Mary, sieur Desfontaines</author>
+        <author key="Desfontaines, Nicolas (15..?-1652)">Nicolas Mary, sieur Desfontaines</author>
         <principal>Georges Forestier</principal>
         <editor>Camille Fréjaville</editor>
       </titleStmt>
@@ -209,38 +206,9 @@
                 <cell><hi rend="i">La Véritable Sémiramis</hi> (IV,5).</cell>
               </row>
               <row>
-                <cell>
-                  <p rend="cell">SOLIMAN.</p>
-                  <p rend="cell">He bien, que feras-tu Soliman ? Ce mespris</p>
-                  <p rend="cell">N’est-il pas suffisant à guerir tes esprits ?</p>
-                  <p rend="cell">Ah bien loing de destruire il augmente ma flame</p>
-                  <p rend="cell">Elle regne en mon cœur, elle embraze mon ame […]</p>
-                  <p rend="cell">Ainsi quand sa froideur vient a choquer ma flame</p>
-                  <p rend="cell">Il se faict seulement un foudre pour mon ame</p>
-                  <p rend="cell">Dont l’invincible trait rend mon cœur abatu</p>
-                  <p rend="cell">Et sans m’oster le jour luy ravis sa Vertu.</p>
-                  <p rend="cell">Songe doncq Soliman a ce que tu veux faire</p>
-                  <p rend="cell">Sois plus respectueux, ou sois plus temeraire,</p>
-                  <p rend="cell">Cesse enfin de languir, &amp; par un prompt effor</p>
-                  <p rend="cell">Choisis sans differer ou l’amour ou la mort.</p>
+                <cell>SOLIMAN.<lb/>He bien, que feras-tu Soliman ? Ce mespris<lb/>N’est-il pas suffisant à guerir tes esprits ?<lb/>Ah bien loing de destruire il augmente ma flame<lb/>Elle regne en mon cœur, elle embraze mon ame […]<lb/>Ainsi quand sa froideur vient a choquer ma flame<lb/>Il se faict seulement un foudre pour mon ame<lb/>Dont l’invincible trait rend mon cœur abatu<lb/>Et sans m’oster le jour luy ravis sa Vertu.<lb/>Songe doncq Soliman a ce que tu veux faire<lb/>Sois plus respectueux, ou sois plus temeraire,<lb/>Cesse enfin de languir, &amp; par un prompt effor<lb/>Choisis sans differer ou l’amour ou la mort.
                 </cell>
-                <cell>
-                  <p rend="cell i">SEMIRAMIS.</p>
-                  <p rend="cell i">Haine, mépris, amour, où me reduisez-vous ?</p>
-                  <p rend="cell i">Où me reduisez-vous, imperieuse flâme ?</p>
-                  <p rend="cell i">Si Melistrate meurt, que deviendra mon ame ? […]</p>
-                  <p rend="cell i">Non, qu’il vive. Mais quoy ? je luy suis en horreur,</p>
-                  <p rend="cell i">Il faut donc, il faut donc qu’il sente ma fureur :</p>
-                  <p rend="cell i">Oüy, oüy, vengeons sur luy l’outrage par l’outrage,</p>
-                  <p rend="cell i">Donnons cet insolent pour victime à ma rage,</p>
-                  <p rend="cell i">Enterrons, &amp; la cause &amp; l’objet de mes feux,</p>
-                  <p rend="cell i">Et puis, s’il est besoin, perdons-nous avec eux.</p>
-                  <p rend="cell i">Son plaisir fait mon deüil, son repos fait ma peine,</p>
-                  <p rend="cell i">Son espoir fait ma crainte, &amp; son amour ma haine ;[…]</p>
-                  <p rend="cell i">Faisons donc reconnoistre à cette ame arrogante,</p>
-                  <p rend="cell i">Que Melistrate est foible, &amp; moy toute puissante ;</p>
-                  <p rend="cell i">Que tout me doit ceder, que mes vœux sont des Loix,</p>
-                  <p rend="cell i">Qu’il n’est rien qu’un sujet, &amp; moy Reyne des Roys.</p>
+                <cell rend="i"><lb/>SEMIRAMIS.<lb/>Haine, mépris, amour, où me reduisez-vous ?<lb/>Où me reduisez-vous, imperieuse flâme ?<lb/>Si Melistrate meurt, que deviendra mon ame ? […]<lb/>Non, qu’il vive. Mais quoy ? je luy suis en horreur,<lb/>Il faut donc, il faut donc qu’il sente ma fureur :<lb/>Oüy, oüy, vengeons sur luy l’outrage par l’outrage,<lb/>Donnons cet insolent pour victime à ma rage,<lb/>Enterrons, &amp; la cause &amp; l’objet de mes feux,<lb/>Et puis, s’il est besoin, perdons-nous avec eux.<lb/>Son plaisir fait mon deüil, son repos fait ma peine,<lb/>Son espoir fait ma crainte, &amp; son amour ma haine ;[…]<lb/>Faisons donc reconnoistre à cette ame arrogante,<lb/>Que Melistrate est foible, &amp; moy toute puissante ;<lb/>Que tout me doit ceder, que mes vœux sont des Loix,<lb/>Qu’il n’est rien qu’un sujet, &amp; moy Reyne des Roys.
                 </cell>
               </row>
             </table>
@@ -338,26 +306,9 @@
                   <cell>La Véritable Sémiramis (I,1).</cell>
                 </row>
                 <row>
-                  <cell>
-                    <p rend="cell">(Récit de Palmedon à Prazimène)</p>
-                    <p rend="cell">[…] l’ennemy de Melistrate se sentant affoiblir, voulut faire un dernier effort pour ne pas perir sans vaincre, mon Maistre chancela du coup effroyable qu’il receut, mais Benzamin cheut à ses pieds. Melistrate qui s’attendoit de remettre le vaincu entre les mains de ses soldats, soit qu’il eust perdu la vie ou qu’il respirat encore, se contentant de la victoire sans y vouloir joindre la captivité […] Que ce fust la destinée de Xydiane, ou celle de Benzamin, qui opera cette merveille, tant y a que mon Maistre vainquit bien mieux desarmé que sous les armes ; &amp; que n’ayant pû venir à bout de son ennemy sans playes, il triompha de Xydiane sans estre blessé.</p>
+                  <cell>(Récit de Palmedon à Prazimène)<lb/>[…] l’ennemy de Melistrate se sentant affoiblir, voulut faire un dernier effort pour ne pas perir sans vaincre, mon Maistre chancela du coup effroyable qu’il receut, mais Benzamin cheut à ses pieds. Melistrate qui s’attendoit de remettre le vaincu entre les mains de ses soldats, soit qu’il eust perdu la vie ou qu’il respirat encore, se contentant de la victoire sans y vouloir joindre la captivité […] Que ce fust la destinée de Xydiane, ou celle de Benzamin, qui opera cette merveille, tant y a que mon Maistre vainquit bien mieux desarmé que sous les armes ; &amp; que n’ayant pû venir à bout de son ennemy sans playes, il triompha de Xydiane sans estre blessé.
                   </cell>
-                  <cell>
-                    <p rend="cell i">(Récit de Merzabane à Sémiramis)</p>
-                    <p rend="cell i">Ils combattent pourtant, &amp; le sort est en peine,</p>
-                    <p rend="cell i">Auquel il veut montrer sa faveur ou sa haine,</p>
-                    <p rend="cell i">Mais à la fin honteux de s’estre démenty,</p>
-                    <p rend="cell i">Il quitte Benzamin, &amp; prend nostre party.</p>
-                    <p rend="cell i">Melistrate vainqueur, &amp; content de sa gloire,</p>
-                    <p rend="cell i">Fut courtois au vaincu, plus qu’on ne le peut croire ;</p>
-                    <p rend="cell i">Et comme il estoit lors à vaincre accoustumé,</p>
-                    <p rend="cell i">Il vainquit combattant, &amp; vainquit desarmé,</p>
-                    <p rend="cell i">Car comme il s’aqueroit un si glorieux titre,</p>
-                    <p rend="cell i">Xidiane des murs, se rendit leur arbitre ;</p>
-                    <p rend="cell i">Et noyant son amour au sang de Benzamin,</p>
-                    <p rend="cell i">En ses legeretez, imita le destin.</p>
-                    <p rend="cell i">Dés lors que le vainqueur se presente à sa veuë,</p>
-                    <p rend="cell i">Son éclat l’ébloüit, elle paroit émeuë ;</p>
+                  <cell rend="i">Récit de Merzabane à Sémiramis)<lb/>Ils combattent pourtant, &amp; le sort est en peine,<lb/>Auquel il veut montrer sa faveur ou sa haine,<lb/>Mais à la fin honteux de s’estre démenty,<lb/>Il quitte Benzamin, &amp; prend nostre party.<lb/>Melistrate vainqueur, &amp; content de sa gloire,<lb/>Fut courtois au vaincu, plus qu’on ne le peut croire ;<lb/>Et comme il estoit lors à vaincre accoustumé,<lb/>Il vainquit combattant, &amp; vainquit desarmé,<lb/>Car comme il s’aqueroit un si glorieux titre,<lb/>Xidiane des murs, se rendit leur arbitre ;<lb/>Et noyant son amour au sang de Benzamin,<lb/>En ses legeretez, imita le destin.<lb/>Dés lors que le vainqueur se presente à sa veuë,<lb/>Son éclat l’ébloüit, elle paroit émeuë ;
                   </cell>
                 </row>
               </table>
@@ -370,18 +321,7 @@
                 </row>
                 <row>
                   <cell>[…] il avoit sçeu d’eu que Termodonte estoit l’auteur &amp; le conducteur de cette entreprise. Que ce n’estoit point pour se vanger de quelque mescontentement quue luy eût procuré le grand Ninus […] ais seulement pour luy ravir la Princesse qu’il possedoit, dont la foy luy estoit engagé auparavant qu’elle ne fust son espouse. Notre reine s’habilloit lors qu’elle apprit cette nouvelle ; et ce fut immediatement à l’heure qu’un des costez de sa tresse estant retroussé, l’autre estoit encore<hi rend="b"> espars</hi> sur sa jouë […] Alors moins en colere de la perte de Babylone, que du sujet de sa prise, [Sémiramis] demanda ses armes [… ] Son bras ne fut pas seul à le frapper ; Sa langue, par des reproches qu’elle luy fit, luy porta autant de coups que son espée. […] Monstre couronné, s’escria t’elle quand il tomba […] Meurs, infame rival du plus grand monarque de la terre, &amp; apprends par la justice de ta mort que Ninus est le seul digne de la possession de Sémiramis.</cell>
-                  <cell>
-                    <p rend="cell">Dans l’horreur de la nuit, le traistre Thermodonte :</p>
-                    <p rend="cell">Voyez la qui s’habille, &amp; qui s’arme à demy,</p>
-                    <p rend="cell">Pour aller repousser ce superbe ennemy,</p>
-                    <p rend="cell">Qui pressé des transports d’une ardeur sans égale,</p>
-                    <p rend="cell">Venoit pour attenter à ma couche Royale :</p>
-                    <p rend="cell">Voyez la teste nuë, &amp; les cheveux épars,</p>
-                    <p rend="cell">Fendre un Peuple surpris en ses propres rempars,</p>
-                    <p rend="cell">Rétablir le desordre, arrester l’insolence,</p>
-                    <p rend="cell">Faire agir la valleur, avec la prudence ;</p>
-                    <p rend="cell">Et d’un bras, par les Dieux à vaincre destiné,</p>
-                    <p rend="cell">Immoler à ses pieds, un Monstre couronné.</p>
+                  <cell>Dans l’horreur de la nuit, le traistre Thermodonte :<lb/>Voyez la qui s’habille, &amp; qui s’arme à demy,<lb/>Pour aller repousser ce superbe ennemy,<lb/>Qui pressé des transports d’une ardeur sans égale,<lb/>Venoit pour attenter à ma couche Royale :<lb/>Voyez la teste nuë, &amp; les cheveux épars,<lb/>Fendre un Peuple surpris en ses propres rempars,<lb/>Rétablir le desordre, arrester l’insolence,<lb/>Faire agir la valleur, avec la prudence ;<lb/>Et d’un bras, par les Dieux à vaincre destiné,<lb/>Immoler à ses pieds, un Monstre couronné.
                   </cell>
                 </row>
               </table>
@@ -436,24 +376,17 @@
                 </row>
                 <row>
                   <cell><hi rend="b">Il aime</hi>, dit-elle, avec un soupir violent, mais Prazimene perduë<hi rend="b">, il n’aime que la gloire</hi></cell>
-                  <cell>
-                    <p rend="cell">S’<hi rend="b">il aime</hi>, Merzabane, <hi rend="b">il n’aime que la gloire</hi></p>
-                    <p rend="cell i">(I,1)</p>
+                  <cell>S’<hi rend="b">il aime</hi>, Merzabane, <hi rend="b">il n’aime que la gloire</hi>(I,1)
                   </cell>
                 </row>
                 <row>
                   <cell>[…] j’auray sujet de vous <hi rend="b">reprocher que vostre affection est trop respectueuse</hi>,</cell>
-                  <cell>
-                    <p rend="cell"><hi rend="b">Je vous reprocheray</hi>, Princesse genereuse,</p>
-                    <p rend="cell i">Que vostre affection est trop respectueuse</p>
-                    <p rend="cell i">(I,3)</p>
+                  <cell><hi rend="b">Je vous reprocheray</hi>, Princesse genereuse,<hi rend="i">Que vostre affection est trop respectueuse (I,3)</hi>
                   </cell>
                 </row>
                 <row>
                   <cell>[…] jusques là <hi rend="b">que de conquerant</hi> vous devinstes <hi rend="b">le conquis.</hi></cell>
-                  <cell>
-                    <p rend="cell">Et <hi rend="b">que de conquerant</hi>, vous fustes <hi rend="b">le conquis</hi>.</p>
-                    <p rend="cell i">(I,3)</p>
+                  <cell>Et <hi rend="b">que de conquerant</hi>, vous fustes <hi rend="b">le conquis</hi>.(I,3)
                   </cell>
                 </row>
                 <row>
@@ -462,9 +395,7 @@
                 </row>
                 <row>
                   <cell>[…]<hi rend="b"> les revolutions en matiere d’Estat</hi> estoient un peu trop <hi rend="b">dangereuses</hi></cell>
-                  <cell>
-                    <p rend="cell"><hi rend="b">Les revolutions</hi>, encore que fameuses,</p>
-                    <p rend="cell"><hi rend="b">En matiere d’Estat</hi>, sont toûjours <hi rend="b">dangereuses ;</hi> (III,1)</p>
+                  <cell><hi rend="b">Les revolutions</hi>, encore que fameuses,<lb/><hi rend="b">En matiere d’Estat</hi>, sont toûjours <hi rend="b">dangereuses ;</hi> (III,1)
                   </cell>
                 </row>
               </table>
@@ -481,60 +412,38 @@
                 </row>
                 <row>
                   <cell>Il <hi rend="b">ayme</hi> bien<hi rend="b"> mieux</hi> que <hi rend="u">son triomphe</hi> soit composé de <hi rend="b">soldats</hi> <hi rend="u">esclaves</hi>, que d’une <hi rend="b">Reyne</hi> amoureuse. (p.3)</cell>
-                  <cell>
-                    <p rend="cell">L’orgueilleux <hi rend="b">aime mieux</hi> que <hi rend="u">sa valeur</hi> enchaisne</p>
-                    <p rend="cell">Des <hi rend="b">soldats</hi> <hi rend="u">subjuguez</hi>, qu’une fameuse <hi rend="b">Reyne</hi>,</p>
-                    <p rend="cell">(I,1)</p>
+                  <cell>L’orgueilleux <hi rend="b">aime mieux</hi> que <hi rend="u">sa valeur</hi> enchaisne<lb/>Des <hi rend="b">soldats</hi> <hi rend="u">subjuguez</hi>, qu’une fameuse <hi rend="b">Reyne</hi>,(I,1)
                   </cell>
                 </row>
                 <row>
-                  <cell>
-                    <p rend="cell">[…] mon Maistre <hi rend="b">vainquit</hi> bien mieux <hi rend="b">desarmé</hi> que <hi rend="u">sous les armes</hi> </p>
+                  <cell>[…] mon Maistre <hi rend="b">vainquit</hi> bien mieux <hi rend="b">desarmé</hi> que <hi rend="u">sous les armes</hi> 
                   </cell>
-                  <cell>
-                    <p rend="cell">Il <hi rend="b">vainquit</hi> <hi rend="u">combattant</hi>, &amp; vainquit <hi rend="b">desarmé</hi></p>
-                    <p rend="cell i">(I,1)</p>
+                  <cell>Il <hi rend="b">vainquit</hi> <hi rend="u">combattant</hi>, &amp; vainquit <hi rend="b">desarmé</hi>(I,1)
                   </cell>
                 </row>
                 <row>
                   <cell>Il est certain qu’en <hi rend="u">un âge si advancé</hi>, <hi rend="b">le trespas</hi> <hi rend="u">ne te peut estre qu’advantageux</hi>, puis qu’il <hi rend="b">mettra à couvert</hi> <hi rend="u">tant de triomphes. Hé que sçait-on si un moment ne les dissipera point</hi> ? </cell>
-                  <cell>
-                    <p rend="cell">Tout prest de succomber <hi rend="u">aux foiblesses de l’âge</hi>,</p>
-                    <p rend="cell"><hi rend="b">Le trépas</hi><hi rend="u">t’est sans doute un heureux avantage</hi>,</p>
-                    <p rend="cell">Puis qu’abregeant tes jours, il peut <hi rend="b">mettre à couvert</hi></p>
-                    <p rend="cell i u">Des Lauriers, que le temps fait souvent que l’on perd </p>
-                    <p rend="cell i">(I,2)</p>
+                  <cell>Tout prest de succomber <hi rend="u">aux foiblesses de l’âge</hi>,<lb/><hi rend="b">Le trépas</hi><hi rend="u">t’est sans doute un heureux avantage</hi>,<lb/>Puis qu’abregeant tes jours, il peut <hi rend="b">mettre à couvert</hi><lb/><hi rend="u">Des Lauriers, que le temps fait souvent que l’on perd</hi>(I,2)
                   </cell>
                 </row>
                 <row>
                   <cell>[…] <hi rend="u">si je suis impuissant à vous contenter</hi>, <hi rend="b">je diray</hi> <hi rend="u">que vous aurés eû raison</hi> <hi rend="b">de m’en taire la cause</hi></cell>
-                  <cell>
-                    <p rend="cell"><hi rend="u">Si pour le soulager, je puis trop peu de chose</hi>,</p>
-                    <p rend="cell"><hi rend="b">Je diray</hi><hi rend="u">qu’à bon droict</hi> vous m’en <hi rend="b">taisez la cause</hi> ;</p>
-                    <p rend="cell i">(I,3)</p>
+                  <cell><hi rend="u">Si pour le soulager, je puis trop peu de chose</hi>,<lb/><hi rend="b">Je diray</hi><hi rend="u">qu’à bon droict</hi> vous m’en <hi rend="b">taisez la cause</hi> ; (I,3)
                   </cell>
                 </row>
                 <row>
                   <cell><hi rend="u">Rois</hi>,<hi rend="b"> qui relevez de ce superbe empire</hi></cell>
-                  <cell>
-                    <p rend="cell"><hi rend="u">Princes</hi>,<hi rend="b"> qui relevez de ce superbe Empire</hi>,</p>
-                    <p rend="cell i">(III,1)</p>
+                  <cell><hi rend="u">Princes</hi>,<hi rend="b"> qui relevez de ce superbe Empire</hi>,(III,1)
                   </cell>
                 </row>
                 <row>
                   <cell><hi rend="u">Apprenez</hi>, Oronclide, que vous <hi rend="b">n’estes point</hi> mon <hi rend="b">fils</hi></cell>
-                  <cell>
-                    <p rend="cell">Et lors <hi rend="u">luy declarant</hi> qu’il <hi rend="b">n’estoit pas</hi> son <hi rend="b">Fils</hi>,</p>
-                    <p rend="cell i">(V,1)</p>
+                  <cell>Et lors <hi rend="u">luy declarant</hi> qu’il <hi rend="b">n’estoit pas</hi> son <hi rend="b">Fils</hi>,(V,1)
                   </cell>
                 </row>
                 <row>
                   <cell>Helas <hi rend="b">ozay-je</hi> bien encore <hi rend="b">prononcer</hi> un <hi rend="u">si beau</hi> <hi rend="b">nom, moy quy suis</hi> le<hi rend="b"> meurtrier execrable du Heros</hi> qui <hi rend="b">le portoit</hi> ?</cell>
-                  <cell>
-                    <p rend="cell"><hi rend="b">Ozay-je prononcer un nom</hi><hi rend="u">si plein de gloire</hi>,</p>
-                    <p rend="cell"><hi rend="b">Moy qui suis l’execrable</hi> &amp; <hi rend="u">perfide</hi> <hi rend="b">meurtrier</hi></p>
-                    <p rend="cell"><hi rend="b">Du Heros</hi>, qui jamais <hi rend="b">l’ait porté</hi> le premier ?</p>
-                    <p rend="cell i">(V,2)</p>
+                  <cell><hi rend="b">Ozay-je prononcer un nom</hi><hi rend="u">si plein de gloire</hi>,<lb/><hi rend="b">Moy qui suis l’execrable</hi> &amp; <hi rend="u">perfide</hi> <hi rend="b">meurtrier</hi><lb/><hi rend="b">Du Heros</hi>, qui jamais <hi rend="b">l’ait porté</hi> le premier ?(V,2)
                   </cell>
                 </row>
               </table>
@@ -552,19 +461,7 @@
                 </row>
                 <row>
                   <cell>Hé bien, luy dit-elle en pleurant, puis que vous me le commandés, je me vay contraindre à vous obeyr. Mais que vostre Majesté considere, s’il lui plaist, que c’est elle qui fait esclatter mon insolence. […] <hi rend="i">Il ne faut point que vos armes joignent toutes les couronnes du monde à celle de l’Asie pour contenter mon ambition</hi>. Il ne faut point que l’<hi rend="b">Amour</hi> vous rende idolatre, &amp; qu’il ne communique vostre<hi rend="b"> idolatrie</hi> à tout l’univers pour ce mesme sujet. […] Mais il me fait permettre de seoir <hi rend="b">seule</hi> sur <hi rend="b">le trosne</hi>, &amp; de disposer souverainement de l’Estat.</cell>
-                  <cell>
-                    <p rend="cell i">Obéïssons pourtant ; mais en cette occurrence,</p>
-                    <p rend="cell i">Souvenez vous, Seigneur, que mon obeïssance</p>
-                    <p rend="cell i">Est plûtost un effet de vostre authorité,</p>
-                    <p rend="cell i">Que de mon imprudence, ou de ma volonté.</p>
-                    <p rend="cell i">Il ne faut pas enfin, pour me rendre contente,</p>
-                    <p rend="cell i">Que l’Univers soûmis, remplisse mon attente,</p>
-                    <p rend="cell i">Que vostre affection oblige les mortels,</p>
-                    <p rend="cell i">A flatter mon orgueil, ny d’encens, ny d’Autels,</p>
-                    <p rend="cell i">Ou que pour satisfaire à mon effronterie,</p>
-                    <p rend="cell">Vostre zele à l’<hi rend="b">amour</hi> joigne l’<hi rend="b">idolâtrie.</hi></p>
-                    <p rend="cell">[…]Si <hi rend="b">seule</hi> j’ay l’honneur pour trois jours seulement,</p>
-                    <p rend="cell">De pouvoir sur <hi rend="b">le Trône</hi> agir absolument,</p>
+                  <cell><hi rend="i">Obéïssons pourtant ; mais en cette occurrence,<lb/>Souvenez vous, Seigneur, que mon obeïssance<lb/>Est plûtost un effet de vostre authorité,<lb/>Que de mon imprudence, ou de ma volonté.<lb/>Il ne faut pas enfin, pour me rendre contente,<lb/>Que l’Univers soûmis, remplisse mon attente,<lb/>Que vostre affection oblige les mortels,<lb/>A flatter mon orgueil, ny d’encens, ny d’Autels,<lb/>Ou que pour satisfaire à mon effronterie,</hi><lb/>Vostre zele à l’<hi rend="b">amour</hi> joigne l’<hi rend="b">idolâtrie.</hi><lb/>[…]Si <hi rend="b">seule</hi> j’ay l’honneur pour trois jours seulement,<lb/>De pouvoir sur <hi rend="b">le Trône</hi> agir absolument,
                   </cell>
                 </row>
               </table>
@@ -607,31 +504,9 @@
                   <cell><hi rend="i">La Véritable Sémiramis</hi>, Desfontaines (III,1)</cell>
                 </row>
                 <row>
-                  <cell>
-                    <p rend="cell">NINUS.</p>
-                    <p rend="cell">Venez, venez, regnez belle Semiramis,</p>
-                    <p rend="cell">Je me veux acquitter de ce que j’ay promis,</p>
-                    <p rend="cell">Que sur un si beau front la couronne a de grace :</p>
-                    <p rend="cell">Mais montez sur le trône, &amp; remplissez ma place.</p>
-                    <p rend="cell">Ninus avec son sceptre a remis en vos mains,</p>
-                    <p rend="cell">L’Empire glorieux qu’il a sur les humains,</p>
-                    <p rend="cell">Luy-mesme reconnoist vostre auguste puissance,</p>
-                    <p rend="cell">Et veut durant cinq jours vous rendre obeissance,</p>
-                    <p rend="cell">Il en jure les Dieux pour vous en asseurer,</p>
-                    <p rend="cell">Faites tous le semblable, &amp; venez l’adorer,</p>
-                    <p rend="cell">Jurez tous d’obeyr à sa grandeur supreme,</p>
-                    <p rend="cell">Rendez luy les respects qu’on rendoit à moy-mesme.</p>
+                  <cell>NINUS.<lb/>Venez, venez, regnez belle Semiramis,<lb/>Je me veux acquitter de ce que j’ay promis,<lb/>Que sur un si beau front la couronne a de grace :<lb/>Mais montez sur le trône, &amp; remplissez ma place.<lb/>Ninus avec son sceptre a remis en vos mains,<lb/>L’Empire glorieux qu’il a sur les humains,<lb/>Luy-mesme reconnoist vostre auguste puissance,<lb/>Et veut durant cinq jours vous rendre obeissance,<lb/>Il en jure les Dieux pour vous en asseurer,<lb/>Faites tous le semblable, &amp; venez l’adorer,<lb/>Jurez tous d’obeyr à sa grandeur supreme,<lb/>Rendez luy les respects qu’on rendoit à moy-mesme.
                   </cell>
-                  <cell>
-                    <p rend="cell i">NINUS.</p>
-                    <p rend="cell">Toutefois, puis qu’enfin un objet si parfait,</p>
-                    <p rend="cell i">Borne là ses desirs, approuvons en l’effet ;</p>
-                    <p rend="cell i">Et luy cedans les droicts de ma toute-puissance,</p>
-                    <p rend="cell i">Rendons luy le premier entiere obeïssance :</p>
-                    <p rend="cell i">Que chacun se dispose à ce juste devoir ;</p>
-                    <p rend="cell i">Rendez comme vassaux, hommage à son pouvoir ;</p>
-                    <p rend="cell i">Prestez luy le serment, &amp; reverez en Reyne,</p>
-                    <p rend="cell i">Celle qui desormais est vostre Souveraine.</p>
+                  <cell><hi rend="i">NINUS.</hi><lb/>Toutefois, puis qu’enfin un objet si parfait,<lb/><hi rend="i">Borne là ses desirs, approuvons en l’effet ;<lb/>Et luy cedans les droicts de ma toute-puissance,<lb/>Rendons luy le premier entiere obeïssance :<lb/>Que chacun se dispose à ce juste devoir ;<lb/>Rendez comme vassaux, hommage à son pouvoir ;<lb/>Prestez luy le serment, &amp; reverez en Reyne,<lb/>Celle qui desormais est vostre Souveraine.</hi>
                   </cell>
                 </row>
               </table>
@@ -642,19 +517,9 @@
                   <cell><hi rend="i">La Véritable Sémiramis</hi>, Desfontaines</cell>
                 </row>
                 <row>
-                  <cell>
-                    <p rend="cell"><hi rend="b">Acte I</hi>- Récit de la victoire de Ménon et Sémiramis ; aveux de Sosarme et de Ninus qui aiment respectivement Ménon et Sémiramis.</p>
-                    <p rend="cell"><hi rend="b">Acte II</hi>- Ninus fait le projet d’épouser Sémiramis en menaçant Ménon de tuer sa femme s’il ne renonce pas à elle.</p>
-                    <p rend="cell"><hi rend="b">Acte III</hi>- Ménon cède au chantage de Ninus, Sémiramis est furieuse de cette décision.</p>
-                    <p rend="cell"><hi rend="b">Acte IV</hi>– Ménon se suicide après avoir épousé Sosarme. Sémiramis décide donc de se venger.</p>
-                    <p rend="cell"><hi rend="b">Acte V</hi>- Sacre de Sémiramis, meurtres de Ninus et de Sosarme.</p>
+                  <cell><hi rend="b">Acte I</hi>- Récit de la victoire de Ménon et Sémiramis ; aveux de Sosarme et de Ninus qui aiment respectivement Ménon et Sémiramis.<lb/><hi rend="b">Acte II</hi>- Ninus fait le projet d’épouser Sémiramis en menaçant Ménon de tuer sa femme s’il ne renonce pas à elle.<lb/><hi rend="b">Acte III</hi>- Ménon cède au chantage de Ninus, Sémiramis est furieuse de cette décision.<lb/><hi rend="b">Acte IV</hi>– Ménon se suicide après avoir épousé Sosarme. Sémiramis décide donc de se venger.<lb/><hi rend="b">Acte V</hi>- Sacre de Sémiramis, meurtres de Ninus et de Sosarme.
                   </cell>
-                  <cell>
-                    <p rend="cell"><hi rend="b">Acte I</hi>– Aveu de l’amour de Sémiramis pour Melistrate. Elle souhaite la mort de Ninus.</p>
-                    <p rend="cell"><hi rend="b">Acte II</hi>– Sémiramis essaye sans succès de convaincre Prazimène de rejeter l’amour de Melistrate.</p>
-                    <p rend="cell"><hi rend="b">Acte III</hi>- Sacre de Sémiramis et meurtre de Ninus.</p>
-                    <p rend="cell"><hi rend="b">Acte IV</hi>- Melistrate refuse la couronne que lui offre Sémiramis, Oronclide devient alors son allié.</p>
-                    <p rend="cell"><hi rend="b">Acte V</hi>– Double scène de reconnaissance d’Oronclide et de Melistrate. Sémiramis comprend que son désir est incestueux et elle souhaite se suicider.</p>
+                  <cell><hi rend="b">Acte I</hi>– Aveu de l’amour de Sémiramis pour Melistrate. Elle souhaite la mort de Ninus.<lb/><hi rend="b">Acte II</hi>– Sémiramis essaye sans succès de convaincre Prazimène de rejeter l’amour de Melistrate.<lb/><hi rend="b">Acte III</hi>- Sacre de Sémiramis et meurtre de Ninus.<lb/><hi rend="b">Acte IV</hi>- Melistrate refuse la couronne que lui offre Sémiramis, Oronclide devient alors son allié.<lb/><hi rend="b">Acte V</hi>– Double scène de reconnaissance d’Oronclide et de Melistrate. Sémiramis comprend que son désir est incestueux et elle souhaite se suicider.
                   </cell>
                 </row>
               </table>
@@ -669,25 +534,9 @@
                   <cell><hi rend="i">La Véritable Sémiramis</hi>, Desfontaines (IV,5)</cell>
                 </row>
                 <row>
-                  <cell>
-                    <p rend="cell">NINUS (à Sémiramis).</p>
-                    <p rend="cell">A mon ardent desir vous ostez l’esperance,</p>
-                    <p rend="cell">Et traitez un Monarque avec indifference,</p>
-                    <p rend="cell">Je ne puis endurer ce cruel traitement,</p>
-                    <p rend="cell">Je voy que je suis Roy quand je me sens Amant,</p>
-                    <p rend="cell">Que l’Univers me sert quand je me nomme Esclave,</p>
-                    <p rend="cell">Un Monarque vainqueur s’offence qu’on le brave,</p>
-                    <p rend="cell">Apres tant de combats dont la Terre est le prix,</p>
-                    <p rend="cell">Je ne sçaurois souffrir la honte d’un mespris.</p>
+                  <cell>NINUS (à Sémiramis).<lb/>A mon ardent desir vous ostez l’esperance,<lb/>Et traitez un Monarque avec indifference,<lb/>Je ne puis endurer ce cruel traitement,<lb/>Je voy que je suis Roy quand je me sens Amant,<lb/>Que l’Univers me sert quand je me nomme Esclave,<lb/>Un Monarque vainqueur s’offence qu’on le brave,<lb/>Apres tant de combats dont la Terre est le prix,<lb/>Je ne sçaurois souffrir la honte d’un mespris.
                   </cell>
-                  <cell>
-                    <p rend="cell i">SEMIRAMIS.</p>
-                    <p rend="cell i">Quoy, loin de m’adorer, l’insolent me dédaigne !</p>
-                    <p rend="cell i">Ah perfide ! C’est trop, tu sçauras que je regne ;</p>
-                    <p rend="cell i">Faisons donc reconnoistre à cette ame arrogante,</p>
-                    <p rend="cell i">Que Melistrate est foible, &amp; moy toute puissante ;</p>
-                    <p rend="cell i">Que tout me doit ceder, que mes vœux sont des Loix,</p>
-                    <p rend="cell i">Qu’il n’est rien qu’un sujet, &amp; moy Reyne des Roys.</p>
+                  <cell rend="i">SEMIRAMIS.<lb/>uoy, loin de m’adorer, l’insolent me dédaigne !<lb/>Ah perfide ! C’est trop, tu sçauras que je regne ;<lb/>Faisons donc reconnoistre à cette ame arrogante,<lb/>Que Melistrate est foible, &amp; moy toute puissante ;<lb/>Que tout me doit ceder, que mes vœux sont des Loix,<lb/>Qu’il n’est rien qu’un sujet, &amp; moy Reyne des Roys.
                   </cell>
                 </row>
               </table>
@@ -702,24 +551,9 @@
                   <cell><hi rend="i">La Véritable Sémiramis</hi>, Desfontaines (V,3)</cell>
                 </row>
                 <row>
-                  <cell>
-                    <p rend="cell">SEMIRAMIS.</p>
-                    <p rend="cell">Ménon mort m’est encor plus cher que cet honneur,</p>
-                    <p rend="cell">Mais montrons un courage au dessus du malheur,</p>
-                    <p rend="cell">Montrons à mes sujets la grandeur de son ame,</p>
-                    <p rend="cell">Qu’un trône est dignement remply par une femme,</p>
-                    <p rend="cell">Qu’en la mort de Ninus, l’Univers a gagné,</p>
-                    <p rend="cell">Et que Semiramis mieux qu’un homme a regné.</p>
+                  <cell>SEMIRAMIS.<lb/>Ménon mort m’est encor plus cher que cet honneur,<lb/>Mais montrons un courage au dessus du malheur,<lb/>Montrons à mes sujets la grandeur de son ame,<lb/>Qu’un trône est dignement remply par une femme,<lb/>Qu’en la mort de Ninus, l’Univers a gagné,<lb/>Et que Semiramis mieux qu’un homme a regné.
                   </cell>
-                  <cell>
-                    <p rend="cell i">SEMIRAMIS.</p>
-                    <p rend="cell i">C’est pourquoy je ne veux dans ma fureur extréme,</p>
-                    <p rend="cell i">Demander du secours desormais qu’à moy-mesme ;</p>
-                    <p rend="cell i">Je ne veux à ce coup employer que mon bras,</p>
-                    <p rend="cell">Trop humains ennemis, je vous rends vos Estats ;[…] Brillante illusion, precieuse fumée,</p>
-                    <p rend="cell i">Dont ce matin encor mon ame estoit charmée,</p>
-                    <p rend="cell i">Je vous quitte, grandeurs, presens empoisonnez,</p>
-                    <p rend="cell i">Qui détruisez toûjours ceux que vous couronnez.</p>
+                  <cell rend="i">SEMIRAMIS.<lb/>C’est pourquoy je ne veux dans ma fureur extréme,<lb/>Demander du secours desormais qu’à moy-mesme ;<lb/>Je ne veux à ce coup employer que mon bras,<lb/>Trop humains ennemis, je vous rends vos Estats ;[…] Brillante illusion, precieuse fumée,<lb/>Dont ce matin encor mon ame estoit charmée,<lb/>Je vous quitte, grandeurs, presens empoisonnez,<lb/>Qui détruisez toûjours ceux que vous couronnez.
                   </cell>
                 </row>
               </table>
@@ -3931,357 +3765,147 @@
               <cell><hi rend="i">La Véritable Sémiramis</hi>, Desfontaines</cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell">(Sémiramis)</p>
-                <p rend="cell"><hi rend="b">Il aime</hi>, dit-elle, avec un soupir violent, mais Prazimene perduë<hi rend="b">, il n’aime que la gloire.</hi></p>
+              <cell>(Sémiramis)<lb/><hi rend="b">Il aime</hi>, dit-elle, avec un soupir violent, mais Prazimene perduë<hi rend="b">, il n’aime que la gloire.</hi>
               </cell>
-              <cell>
-                <p rend="cell i">SEMIRAMIS</p>
-                <p rend="cell">S’<hi rend="b">il aime</hi>, Merzabane, <hi rend="b">il n’aime que la gloire</hi> (I,1)</p>
+              <cell><hi rend="i">SEMIRAMIS</hi><lb/>S’<hi rend="b">il aime</hi>, Merzabane, <hi rend="b">il n’aime que la gloire</hi> (I,1)
               </cell>
             </row>
             <row>
               <cell><hi rend="b">Son courage</hi>, dont l’approche ou l’éloignement <hi rend="u">donne la victoire, ou l’oste aux Assyriens</hi>, est ce qui lui fait <hi rend="u">mespriser</hi> les faveurs que je lui ay si librement <hi rend="u">offertes</hi>.</cell>
-              <cell>
-                <p rend="cell"><hi rend="b">Son courage</hi> qui forme ou calme les tempestes,</p>
-                <p rend="cell"><hi rend="u">Qui détruit</hi>, quand il veut, <hi rend="u">ou produit nos conquestes</hi>,</p>
-                <p rend="cell i">Se plaist dans les hazards dont son coeur est épris,</p>
-                <p rend="cell">Et pour un Sceptre <hi rend="u">offert</hi>, n’auroit que des <hi rend="u">mépris</hi>.</p>
-                <p rend="cell i">(I,1)</p>
+              <cell><hi rend="b">Son courage</hi> qui forme ou calme les tempestes,<lb/><hi rend="u">Qui détruit</hi>, quand il veut, <hi rend="u">ou produit nos conquestes</hi>,<lb/><hi rend="i">Se plaist dans les hazards dont son coeur est épris,</hi><lb/>Et pour un Sceptre <hi rend="u">offert</hi>, n’auroit que des <hi rend="u">mépris</hi>.(I,1)
               </cell>
             </row>
             <row>
               <cell>Il <hi rend="b">ayme</hi> bien<hi rend="b"> mieux</hi> que <hi rend="u">son triomphe</hi> soit composé de <hi rend="b">soldats</hi> <hi rend="u">esclaves</hi>, que d’une <hi rend="b">Reyne</hi> amoureuse.</cell>
-              <cell>
-                <p rend="cell">L’orgueilleux <hi rend="b">aime mieux</hi> que <hi rend="u">sa valeur</hi> enchaisne</p>
-                <p rend="cell">Des <hi rend="b">soldats</hi> <hi rend="u">subjuguez</hi>, qu’une fameuse Reyne,</p>
-                <p rend="cell">(I,1)</p>
+              <cell>L’orgueilleux <hi rend="b">aime mieux</hi> que <hi rend="u">sa valeur</hi> enchaisne<lb/>Des <hi rend="b">soldats</hi> <hi rend="u">subjuguez</hi>, qu’une fameuse Reyne,(I,1)
               </cell>
             </row>
             <row>
               <cell>Tellement que si l’ambition est la fin que tu te proposes, au moins <hi rend="u">ma passion</hi> sera-t’elle le principal <hi rend="b">degré</hi> pour y parvenir</cell>
-              <cell>
-                <p rend="cell i">Hé bien, cher Melistrate, il te faut satisfaire,</p>
-                <p rend="cell i">T’élever aux grandeurs que ton courage espere ;</p>
-                <p rend="cell">Mais il faut que <hi rend="u">mon cœur</hi> soit l’illustre <hi rend="b">degré</hi>,</p>
-                <p rend="cell">Du Trône, où je prétends que tu sois adoré.</p>
-                <p rend="cell">(I,2)</p>
+              <cell><hi rend="i">Hé bien, cher Melistrate, il te faut satisfaire,<lb/>T’élever aux grandeurs que ton courage espere ;</hi><lb/>Mais il faut que <hi rend="u">mon cœur</hi> soit l’illustre <hi rend="b">degré</hi>,<lb/>Du Trône, où je prétends que tu sois adoré. (I,2)
               </cell>
             </row>
             <row>
               <cell>Donne à <hi rend="u">mon bon-heur</hi> les jours qui te restent, &amp; permets <hi rend="b">que ta nuict soit l’Orient</hi> de mon <hi rend="b">Soleil</hi>.</cell>
-              <cell>
-                <p rend="cell">Permets que <hi rend="u">mes plaisirs</hi> naissent de ton desastre,</p>
-                <p rend="cell">Et <hi rend="b">que ta nuict</hi> enfin, <hi rend="b">soit l’orient</hi> d’un Astre,</p>
-                <p rend="cell i">Dont l’éclat icy bas n’eut jamais de pareil,</p>
-                <p rend="cell">Et paroist à mes yeux plus beau que le <hi rend="b">Soleil</hi>.</p>
-                <p rend="cell i">(I,2)</p>
+              <cell>Permets que <hi rend="u">mes plaisirs</hi> naissent de ton desastre,<lb/>Et <hi rend="b">que ta nuict</hi> enfin, <hi rend="b">soit l’orient</hi> d’un Astre,<hi rend="i">Dont l’éclat icy bas n’eut jamais de pareil,</hi><lb/>Et paroist à mes yeux plus beau que le <hi rend="b">Soleil</hi>. (I,2)
               </cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell">Il est certain qu’en <hi rend="u">un âge si advancé</hi>, <hi rend="b">le trespas</hi> <hi rend="u">ne te peut estre qu’advantageux</hi>, puis qu’il <hi rend="b">mettra à couvert</hi> <hi rend="u">tant de triomphes</hi>. Hé que sçait-on si<hi rend="u"> un moment ne les dissipera point</hi> ? </p>
-                <p rend="cell">Qui te peut asseurer que tant de Royaumes genereusement conquis, seront toujours ton Empire ? Ah ! grand Prince, il vaut bien mieux <hi rend="u">mourir</hi> plustost, &amp; mourir <hi rend="u">glorieusement</hi>, que d’estre long-temps parmy les hommes, &amp; voir perir <hi rend="u">sa gloire</hi>.</p>
+              <cell>Il est certain qu’en <hi rend="u">un âge si advancé</hi>, <hi rend="b">le trespas</hi> <hi rend="u">ne te peut estre qu’advantageux</hi>, puis qu’il <hi rend="b">mettra à couvert</hi> <hi rend="u">tant de triomphes</hi>. Hé que sçait-on si<hi rend="u"> un moment ne les dissipera point</hi> ? <lb/>Qui te peut asseurer que tant de Royaumes genereusement conquis, seront toujours ton Empire ? Ah ! grand Prince, il vaut bien mieux <hi rend="u">mourir</hi> plustost, &amp; mourir <hi rend="u">glorieusement</hi>, que d’estre long-temps parmy les hommes, &amp; voir perir <hi rend="u">sa gloire</hi>.
               </cell>
-              <cell>
-                <p rend="cell">Tout prest de succomber <hi rend="u">aux foiblesses de l’âge</hi>,</p>
-                <p rend="cell"><hi rend="b">Le trépas</hi><hi rend="u">t’est sans doute un heureux avantage</hi>,</p>
-                <p rend="cell">Puis qu’abregeant tes jours, il peut <hi rend="b">mettre à couvert</hi></p>
-                <p rend="cell"><hi rend="u">Des Lauriers, que le temps fait souvent que l’on perd</hi> </p>
-                <p rend="cell">Ouÿ, <hi rend="u">ta mort</hi> peut sauver le reste de ta <hi rend="u">gloire</hi>,</p>
-                <p rend="cell i">De tes sanglants projets, effacer la memoire,</p>
-                <p rend="cell i">Et faire quelques jours admïrer aux Humains,</p>
-                <p rend="cell"><hi rend="u">Des Palmes</hi>, qu’<hi rend="u">un moment</hi> peut ravir à tes mains.</p>
-                <p rend="cell i">(I,2)</p>
+              <cell>Tout prest de succomber <hi rend="u">aux foiblesses de l’âge</hi>,<lb/><hi rend="b">Le trépas</hi><hi rend="u">t’est sans doute un heureux avantage</hi>,<lb/>Puis qu’abregeant tes jours, il peut <hi rend="b">mettre à couvert</hi><lb/><hi rend="u">Des Lauriers, que le temps fait souvent que l’on perd</hi> <lb/>Ouÿ, <hi rend="u">ta mort</hi> peut sauver le reste de ta <hi rend="u">gloire</hi>,<lb/><hi rend="i">De tes sanglants projets, effacer la memoire,<lb/>Et faire quelques jours admïrer aux Humains,</hi><lb/><hi rend="u">Des Palmes</hi>, qu’<hi rend="u">un moment</hi> peut ravir à tes mains. (I,2)
               </cell>
             </row>
             <row>
               <cell>Combien m’as tu dit que tu acheterois mes delices au prix de <hi rend="u">ton sang</hi> ? C’est à cette heure que je te somme de tes <hi rend="b">promesses</hi>. Ta foy<hi rend="u"> royale</hi> doit estre exactement observée, mais particulierement dans les rencontres où elle s’est engagée avec son entiere liberté. Prends donc en gré la resolution fatale où je me porte : Expire pour me faire respirer</cell>
-              <cell>
-                <p rend="cell">Esvite mille morts, par une seule <hi rend="u">mort</hi>.</p>
-                <p rend="cell i">Tu m’as juré cent fois qu’elle te seroit chere,</p>
-                <p rend="cell i">Si jamais elle avoit le bon-heur de me plaire</p>
-                <p rend="cell i">Elle me plaist, Ninus, je la veux ; &amp; je croy,</p>
-                <p rend="cell">Qu’il ne faut point douter des <hi rend="b">promesses</hi> d’un <hi rend="u">Roy</hi>.</p>
-                <p rend="cell i">(I,2)</p>
+              <cell>Esvite mille morts, par une seule <hi rend="u">mort</hi>.<hi rend="i">Tu m’as juré cent fois qu’elle te seroit chere,<lb/>Si jamais elle avoit le bon-heur de me plaire<lb/>Elle me plaist, Ninus, je la veux ; &amp; je croy,</hi><lb/>Qu’il ne faut point douter des <hi rend="b">promesses</hi> d’un <hi rend="u">Roy</hi>. (I,2)
               </cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell">(Ninus à Sémiramis)</p>
-                <p rend="cell">Declarez-moy donc ce qui peut faire faire vostre ennuy, &amp; si je suis <hi rend="u">impuissant</hi> à vous <hi rend="u">contenter</hi>, <hi rend="b">je diray</hi> que <hi rend="u">vous aurés eû raison</hi> <hi rend="b">de m’en taire la cause</hi>, de crainte que le regret de ne pouvoir satisfaire me desesperast. Que si au contraire c’est quelque chose difficile, mais possible neantmoins, j’auray sujet de <hi rend="b">vous reprocher que vostre affection est trop respectueuse</hi>, quand elle ne recherche de moy que les choses qui sont communes, &amp; que tout autre qu’un Monarque accorderoit volontiers.</p>
+              <cell>(Ninus à Sémiramis)<lb/>Declarez-moy donc ce qui peut faire faire vostre ennuy, &amp; si je suis <hi rend="u">impuissant</hi> à vous <hi rend="u">contenter</hi>, <hi rend="b">je diray</hi> que <hi rend="u">vous aurés eû raison</hi> <hi rend="b">de m’en taire la cause</hi>, de crainte que le regret de ne pouvoir satisfaire me desesperast. Que si au contraire c’est quelque chose difficile, mais possible neantmoins, j’auray sujet de <hi rend="b">vous reprocher que vostre affection est trop respectueuse</hi>, quand elle ne recherche de moy que les choses qui sont communes, &amp; que tout autre qu’un Monarque accorderoit volontiers.
               </cell>
-              <cell>
-                <p rend="cell i">NINUS</p>
-                <p rend="cell">Si pour le <hi rend="u">soulager</hi>, je puis <hi rend="u">trop peu de chose</hi>,</p>
-                <p rend="cell"><hi rend="b">Je diray</hi><hi rend="u">qu’à bon droict</hi> vous m’en <hi rend="b">taisez la cause</hi> ;</p>
-                <p rend="cell i">Mais si ce rare effet est possible aux humains,</p>
-                <p rend="cell i">Puis que tous vos desirs sont sur moy souverains,</p>
-                <p rend="cell"><hi rend="b">Je vous reprocheray</hi>, Princesse genereuse,</p>
-                <p rend="cell i">Que vostre affection est trop respectueuse,</p>
-                <p rend="cell i">Si ne se fiant pas aux ardeurs d’un Espoux,</p>
-                <p rend="cell i">Elle épargnoit un sang, qu’elle sçait tout à vous.</p>
-                <p rend="cell i">(I,3)</p>
+              <cell><hi rend="i">NINUS</hi><lb/>Si pour le <hi rend="u">soulager</hi>, je puis <hi rend="u">trop peu de chose</hi>,<lb/><hi rend="b">Je diray</hi><hi rend="u">qu’à bon droict</hi> vous m’en <hi rend="b">taisez la cause</hi> ;<lb/><hi rend="i">Mais si ce rare effet est possible aux humains,<lb/>Puis que tous vos desirs sont sur moy souverains,</hi><lb/><hi rend="b">Je vous reprocheray</hi>, Princesse genereuse,<lb/><hi rend="i">Que vostre affection est trop respectueuse,<lb/>Si ne se fiant pas aux ardeurs d’un Espoux,<lb/>Elle épargnoit un sang, qu’elle sçait tout à vous. (I,3)</hi>
               </cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell">(Sémiramis)</p>
-                <p rend="cell">Tout beau, <hi rend="b">Seigneur</hi>, interrompit- elle, ne m’inquietés pas sur un point, dont la seule imagination ne vous peut estre que desagreable : <hi rend="u">Brisés ce discours</hi>, <hi rend="b">de peur que ma vanité</hi> n’altere <hi rend="b">vostre bien-veillance</hi> : Il vous doit suffire que c’est elle qui me rend comme je suis ; mais de dire ce qu’elle prend, <hi rend="u">c’est ce que ma bouche n’exprimera pas, s’il vous plait</hi>.</p>
+              <cell>(Sémiramis)<lb/>Tout beau, <hi rend="b">Seigneur</hi>, interrompit- elle, ne m’inquietés pas sur un point, dont la seule imagination ne vous peut estre que desagreable : <hi rend="u">Brisés ce discours</hi>, <hi rend="b">de peur que ma vanité</hi> n’altere <hi rend="b">vostre bien-veillance</hi> : Il vous doit suffire que c’est elle qui me rend comme je suis ; mais de dire ce qu’elle prend, <hi rend="u">c’est ce que ma bouche n’exprimera pas, s’il vous plait</hi>.
               </cell>
-              <cell>
-                <p rend="cell i">SEMIRAMIS</p>
-                <p rend="cell"><hi rend="b">Seigneur</hi>, <hi rend="u">n’achevez pas ce discours</hi> qui m’offence,</p>
-                <p rend="cell i">Et ne me pressez point de rompre mon silence,</p>
-                <p rend="cell"><hi rend="b">De peur que</hi> mon orgueil, ou ma temerité,</p>
-                <p rend="cell i">Ne me rende odieuse à votre Majesté.</p>
-                <p rend="cell i">Il suffit de sçavoir que je suis femme &amp; vaine,</p>
-                <p rend="cell">Et que <hi rend="b">ma vanité</hi> fait vos soins &amp; ma peine :</p>
-                <p rend="cell">De vous dire à quel poinct mon cœur ose aspirer,</p>
-                <p rend="cell">C’est ce que sans rougir, <hi rend="u">je ne puis declarer</hi> ;</p>
-                <p rend="cell">Que votre Majesté, <hi rend="u">s’il luy plaist</hi>, m’en dispense,</p>
-                <p rend="cell">Ce secret me pourroit oster sa <hi rend="b">bien-veillance</hi>,</p>
-                <p rend="cell i">(I,3)</p>
+              <cell><hi rend="i">SEMIRAMIS</hi><lb/><hi rend="b">Seigneur</hi>, <hi rend="u">n’achevez pas ce discours</hi> qui m’offence,<lb/><hi rend="i">Et ne me pressez point de rompre mon silence,</hi><lb/><hi rend="b">De peur que</hi> mon orgueil, ou ma temerité,<lb/><hi rend="i">Ne me rende odieuse à votre Majesté. <lb/>Il suffit de sçavoir que je suis femme &amp; vaine,</hi><lb/>Et que <hi rend="b">ma vanité</hi> fait vos soins &amp; ma peine :<lb/>De vous dire à quel poinct mon cœur ose aspirer,<lb/>C’est ce que sans rougir, <hi rend="u">je ne puis declarer</hi> ;<lb/>Que votre Majesté, <hi rend="u">s’il luy plaist</hi>, m’en dispense,<lb/>Ce secret me pourroit oster sa <hi rend="b">bien-veillance</hi>, (I,3)
               </cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell">(Ninus)</p>
-                <p rend="cell"><hi rend="b">Il faut</hi> donc, repartit le <hi rend="b">Prince</hi>, que ce secret <hi rend="u">soit de merveilleuse consequence</hi>, puis que vous estes si obstinée à <hi rend="b">le celer</hi>. Dites tout d’un que vous me desirés voir dans <hi rend="u">des gesnes perpetuelles</hi> : Dites que <hi rend="u">ma mort</hi> est un de vos plus grands souhaits, &amp; que vous ferez tout cela sans doute en me celant la cause de vostre melancolie. Mais quoi <hi rend="b">l’ambition</hi>, à ce que vous m’apprenez, est ce <hi rend="b">qui vous rend</hi> ainsi <hi rend="b">languissante</hi> : Certes il est bien facile de chasser ce desplaisir si vous voules déclarer en quoy elle consiste. La plus belle et la plus grande partie, ou peu s’en faut, me reconnois pour son Souverain : Mais si vous desirés que nostre puissance aille plus avant, les deux autres parties de l’Univers qui restent à conquerir seront bien-tost des dependances de <hi rend="b">nostre Empire</hi>. Témoignés seulement que cette proposition vous est agreable, &amp; vos en verrés bien-tost le succez. Que si ce n’est pas assez, mon ame, j’entreprendray encore davantage pour vostre satisfaction. Vous faisant declarer <hi rend="u">Reyne de toute la terre</hi>, bien loing d’estre absolu, je ne partageray pas mesme l’<hi rend="b">authorité</hi> du gouvernement avec vous : Vous serez <hi rend="u">Souveraine en toute chose</hi> ; &amp; il me sera plus doux de vous obëir &amp; vous voir contente, que de regner au despens de vostre joye.</p>
+              <cell>(Ninus)<lb/><hi rend="b">Il faut</hi> donc, repartit le <hi rend="b">Prince</hi>, que ce secret <hi rend="u">soit de merveilleuse consequence</hi>, puis que vous estes si obstinée à <hi rend="b">le celer</hi>. Dites tout d’un que vous me desirés voir dans <hi rend="u">des gesnes perpetuelles</hi> : Dites que <hi rend="u">ma mort</hi> est un de vos plus grands souhaits, &amp; que vous ferez tout cela sans doute en me celant la cause de vostre melancolie. Mais quoi <hi rend="b">l’ambition</hi>, à ce que vous m’apprenez, est ce <hi rend="b">qui vous rend</hi> ainsi <hi rend="b">languissante</hi> : Certes il est bien facile de chasser ce desplaisir si vous voules déclarer en quoy elle consiste. La plus belle et la plus grande partie, ou peu s’en faut, me reconnois pour son Souverain : Mais si vous desirés que nostre puissance aille plus avant, les deux autres parties de l’Univers qui restent à conquerir seront bien-tost des dependances de <hi rend="b">nostre Empire</hi>. Témoignés seulement que cette proposition vous est agreable, &amp; vos en verrés bien-tost le succez. Que si ce n’est pas assez, mon ame, j’entreprendray encore davantage pour vostre satisfaction. Vous faisant declarer <hi rend="u">Reyne de toute la terre</hi>, bien loing d’estre absolu, je ne partageray pas mesme l’<hi rend="b">authorité</hi> du gouvernement avec vous : Vous serez <hi rend="u">Souveraine en toute chose</hi> ; &amp; il me sera plus doux de vous obëir &amp; vous voir contente, que de regner au despens de vostre joye.
               </cell>
-              <cell>
-                <p rend="cell i">NINUS</p>
-                <p rend="cell">Certes, <hi rend="b">il faut</hi> qu’il <hi rend="u">soit d’une importance extréme</hi>,</p>
-                <p rend="cell">Si vous vous défiez d’un <hi rend="b">Prince</hi> qui vous aime,</p>
-                <p rend="cell">Et si vous <hi rend="b">le celez</hi>, à qui voudroit perir,</p>
-                <p rend="cell i">Pour appuyer vos vœux, &amp; vous y secourir.</p>
-                <p rend="cell i">Hé bien, en ce dessein soyez opiniâtre,</p>
-                <p rend="cell">Croyez qu’on vous trahit, quand on vous idolâtre;</p>
-                <p rend="cell i">Et puis que mon tourment vous contente &amp; vous plaist,</p>
-                <p rend="cell i">Ne le finissez point, tout extréme qu’il est.</p>
-                <p rend="cell">Dites qu’en <hi rend="u">ma douleur</hi> vous trouvez vos delices,</p>
-                <p rend="cell">Que votre déplaisir finit par <hi rend="u">mes supplices</hi>,</p>
-                <p rend="cell">Et que vous aimez mieux que <hi rend="u">je meure</hi> enragé,</p>
-                <p rend="cell i">Que de rendre d’un mot mon esprit allegé.</p>
-                <p rend="cell">Si c’est <hi rend="b">l’ambition qui vous rend languissante</hi>,</p>
-                <p rend="cell i">Dites-moy son objet, &amp; quelle est votre attente ;</p>
-                <p rend="cell i">Et d’un soin merveilleux j’emploiray mon pouvoir,</p>
-                <p rend="cell i">A la porter plus loin, mesme que vostre espoir.</p>
-                <p rend="cell"><hi rend="b">Notre Empire</hi> s’étend sur cent belles Provinces,</p>
-                <p rend="cell i">Nous avons pour vassaux, &amp; des Roys &amp; des Princes,</p>
-                <p rend="cell i">Et si tant de grandeur est peu pour vos projets,</p>
-                <p rend="cell i">Bien-tost tous les humains deviendront vos sujets ;</p>
-                <p rend="cell">Et lors que vous serez <hi rend="u">la Maistresse du monde</hi>,</p>
-                <p rend="cell">Si vostre a<hi rend="b">uthorité</hi> veut estre sans seconde,</p>
-                <p rend="cell i">Moy-mesme vous cedant, &amp; mon Sceptre &amp; mes droits,</p>
-                <p rend="cell i">Je seray le premier à fléchir sous vos loix.</p>
-                <p rend="cell i">(I,3)</p>
+              <cell><hi rend="i">NINUS</hi><lb/>Certes, <hi rend="b">il faut</hi> qu’il <hi rend="u">soit d’une importance extréme</hi>,<lb/>Si vous vous défiez d’un <hi rend="b">Prince</hi> qui vous aime,<lb/>Et si vous <hi rend="b">le celez</hi>, à qui voudroit perir,<lb/><hi rend="i">Pour appuyer vos vœux, &amp; vous y secourir.<lb/>Hé bien, en ce dessein soyez opiniâtre,</hi><lb/>Croyez qu’on vous trahit, quand on vous idolâtre;<lb/><hi rend="i">Et puis que mon tourment vous contente &amp; vous plaist,<lb/>Ne le finissez point, tout extréme qu’il est.</hi><lb/>Dites qu’en <hi rend="u">ma douleur</hi> vous trouvez vos delices,<lb/>Que votre déplaisir finit par <hi rend="u">mes supplices</hi>,<lb/>Et que vous aimez mieux que <hi rend="u">je meure</hi> enragé,<lb/><hi rend="i">Que de rendre d’un mot mon esprit allegé.</hi><lb/>Si c’est <hi rend="b">l’ambition qui vous rend languissante</hi>,<lb/><hi rend="i">Dites-moy son objet, &amp; quelle est votre attente ;<lb/>Et d’un soin merveilleux j’emploiray mon pouvoir,<lb/>A la porter plus loin, mesme que vostre espoir.</hi><lb/><hi rend="b">Notre Empire</hi> s’étend sur cent belles Provinces,<lb/><hi rend="i">Nous avons pour vassaux, &amp; des Roys &amp; des Princes,<lb/>Et si tant de grandeur est peu pour vos projets,<lb/>Bien-tost tous les humains deviendront vos sujets ;</hi><lb/>Et lors que vous serez <hi rend="u">la Maistresse du monde</hi>,<lb/>Si vostre a<hi rend="b">uthorité</hi> veut estre sans seconde,<lb/><hi rend="i">Moy-mesme vous cedant, &amp; mon Sceptre &amp; mes droits,<lb/>Je seray le premier à fléchir sous vos loix.<lb/>(I,3)</hi>
               </cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell">Non, reprit-il assez promptement, je e m’arresteray point aux choses que je viens de dire : Je veux passez outre, &amp; porter vostre ambition au point où elle ne s’est peut-estre jamais esleuvé. Quand je seray le victorieux de <hi rend="b">l’univers</hi>, j’ordonneray que vous soyés seule la saincteté des temples et l’objet des sacrifices ; &amp; pour esmouvoir les peuples par l’exemple, je commenceray tout le premier à vous offrir des prieres &amp; des vœux, de sorte que quiconque manquera de vous rendre <hi rend="u">ces justes devoirs</hi>, sera doublement criminel, joignant le mespris de mes commandemens à celuy de <hi rend="u">la divinité</hi>. Apres cela, laissay-je quelque chose à faire à vos souhaits ? ou plustost n’estes-vous pas en liberté de descouvrir vos sentimens ?</p>
+              <cell>Non, reprit-il assez promptement, je e m’arresteray point aux choses que je viens de dire : Je veux passez outre, &amp; porter vostre ambition au point où elle ne s’est peut-estre jamais esleuvé. Quand je seray le victorieux de <hi rend="b">l’univers</hi>, j’ordonneray que vous soyés seule la saincteté des temples et l’objet des sacrifices ; &amp; pour esmouvoir les peuples par l’exemple, je commenceray tout le premier à vous offrir des prieres &amp; des vœux, de sorte que quiconque manquera de vous rendre <hi rend="u">ces justes devoirs</hi>, sera doublement criminel, joignant le mespris de mes commandemens à celuy de <hi rend="u">la divinité</hi>. Apres cela, laissay-je quelque chose à faire à vos souhaits ? ou plustost n’estes-vous pas en liberté de descouvrir vos sentimens ?
               </cell>
-              <cell>
-                <p rend="cell i">Si vous le desirez, je feray plus encore,</p>
-                <p rend="cell i">Je feray dans ces lieux, que chacun vous adore,</p>
-                <p rend="cell">Et que tout<hi rend="b"> l’Univers</hi> vous dressant des Autels,</p>
-                <p rend="cell">Vous rende <hi rend="u">les honneurs</hi>, qu’on rend aux <hi rend="u">immortels</hi>.</p>
-                <p rend="cell">Apres ce zele ardent, &amp; cette deference,</p>
-                <p rend="cell i">Pouvez-vous, ma Princesse, observer le silence ?</p>
-                <p rend="cell i">Ah ! parlez ; &amp; croyez que pour vous obeïr,</p>
-                <p rend="cell i">Je seray prest à tout, jusques à me trahir.</p>
-                <p rend="cell i">(I,3)</p>
+              <cell><lb/><hi rend="i">Si vous le desirez, je feray plus encore,<lb/>Je feray dans ces lieux, que chacun vous adore,</hi><lb/>Et que tout<hi rend="b"> l’Univers</hi> vous dressant des Autels,<lb/>Vous rende <hi rend="u">les honneurs</hi>, qu’on rend aux <hi rend="u">immortels</hi>.<lb/>Apres ce zele ardent, &amp; cette deference,<lb/><hi rend="i">Pouvez-vous, ma Princesse, observer le silence ?<lb/>Ah ! parlez ; &amp; croyez que pour vous obeïr,<lb/>Je seray prest à tout, jusques à me trahir. (I,3)</hi>
               </cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell">(Sémiramis)</p>
-                <p rend="cell">Vous ne commencerez <hi rend="b">pas d’aujourd’huy</hi> à m’apprendre, que vous n’avés point pour moy une<hi rend="b"> affection</hi> commune. Le jour que tout rayonnant de gloire, vous fustes <hi rend="u">enflammé</hi> de mon amour […] si tost que <hi rend="b">vos yeux</hi> se virent esbloüis des foibles apparences de mon visage, jusques là <hi rend="b">que de conquerant</hi> vous devinstes <hi rend="b">le conquis.</hi> Voila, divin Ninus, les premiers preuves de la passion que vous ressentistes pour moy.</p>
+              <cell>(Sémiramis)<lb/>Vous ne commencerez <hi rend="b">pas d’aujourd’huy</hi> à m’apprendre, que vous n’avés point pour moy une<hi rend="b"> affection</hi> commune. Le jour que tout rayonnant de gloire, vous fustes <hi rend="u">enflammé</hi> de mon amour […] si tost que <hi rend="b">vos yeux</hi> se virent esbloüis des foibles apparences de mon visage, jusques là <hi rend="b">que de conquerant</hi> vous devinstes <hi rend="b">le conquis.</hi> Voila, divin Ninus, les premiers preuves de la passion que vous ressentistes pour moy.
               </cell>
-              <cell>
-                <p rend="cell i">SEMIRAMIS</p>
-                <p rend="cell">Ce n’est <hi rend="b">pas d’aujourd’hui</hi> que j’ai vû grand Monarque,</p>
-                <p rend="cell">De votre <hi rend="b">affection</hi>, une infaillible marque.</p>
-                <p rend="cell">Dés lors que j’eus l’honneur de parestre à <hi rend="b">vos yeux</hi>,</p>
-                <p rend="cell">Je reconnus en vous <hi rend="u">ce feu</hi> prodigieux,</p>
-                <p rend="cell i">Qui n’ayant pour objet que fort peu de merites,</p>
-                <p rend="cell i">N’a jamais eu pourtant ny bornes, ny limites,</p>
-                <p rend="cell i">Puis qu’en vous combattant, enfin je vous acquis,</p>
-                <p rend="cell">Et <hi rend="b">que de conquerant</hi>, vous fustes <hi rend="b">le conquis</hi>.</p>
-                <p rend="cell">(I,3)</p>
+              <cell><hi rend="i">SEMIRAMIS</hi><lb/>Ce n’est <hi rend="b">pas d’aujourd’hui</hi> que j’ai vû grand Monarque,<lb/>De votre <hi rend="b">affection</hi>, une infaillible marque.<lb/>Dés lors que j’eus l’honneur de parestre à <hi rend="b">vos yeux</hi>,<lb/>Je reconnus en vous <hi rend="u">ce feu</hi> prodigieux,<lb/><hi rend="i">Qui n’ayant pour objet que fort peu de merites,<lb/>N’a jamais eu pourtant ny bornes, ny limites,<lb/>Puis qu’en vous combattant, enfin je vous acquis,</hi><lb/>Et <hi rend="b">que de conquerant</hi>, vous fustes <hi rend="b">le conquis</hi>. (I,3)
               </cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell">Toutefois quoy que<hi rend="b"> ma vanité</hi> n’aille pas si haut que tant de superbes promesses, &amp; qu’il faille beaucoup moins <hi rend="u">pour la contenter</hi>, je n’ose vous en faire l’ouverture, considerant que si j’ay toujours esté indigne des premieres faveurs, je la suis encore plus des dernieres. […]</p>
-                <p rend="cell">Hé bien, luy dit-elle en pleurant, puis que vous me le commandés, je me vay contraindre à vous <hi rend="u">obeyr</hi>. Mais que <hi rend="u">vostre Majesté</hi> considere, s’il lui plaist, que c’est elle qui fait esclatter mon <hi rend="u">insolence</hi>. […] Il ne faut point que vos armes joignent toutes les couronnes du monde à celle de <hi rend="b">l’Asie</hi> pour contenter mon <hi rend="b">ambition</hi>. Il ne faut point que<hi rend="b"> l’Amour</hi> vous rende idolatre, &amp; qu’il ne communique vostre<hi rend="b"> idolatrie</hi> à tout l’univers pour ce mesme sujet.</p>
+              <cell>Toutefois quoy que<hi rend="b"> ma vanité</hi> n’aille pas si haut que tant de superbes promesses, &amp; qu’il faille beaucoup moins <hi rend="u">pour la contenter</hi>, je n’ose vous en faire l’ouverture, considerant que si j’ay toujours esté indigne des premieres faveurs, je la suis encore plus des dernieres. […] <lb/>Hé bien, luy dit-elle en pleurant, puis que vous me le commandés, je me vay contraindre à vous <hi rend="u">obeyr</hi>. Mais que <hi rend="u">vostre Majesté</hi> considere, s’il lui plaist, que c’est elle qui fait esclatter mon <hi rend="u">insolence</hi>. […] Il ne faut point que vos armes joignent toutes les couronnes du monde à celle de <hi rend="b">l’Asie</hi> pour contenter mon <hi rend="b">ambition</hi>. Il ne faut point que<hi rend="b"> l’Amour</hi> vous rende idolatre, &amp; qu’il ne communique vostre<hi rend="b"> idolatrie</hi> à tout l’univers pour ce mesme sujet.
               </cell>
-              <cell>
-                <p rend="cell"><hi rend="u">Obéïssons</hi> pourtant ; mais en cette occurrence,</p>
-                <p rend="cell">Souvenez vous, <hi rend="u">Seigneur</hi>, que mon <hi rend="u">obeïssance</hi></p>
-                <p rend="cell i">Est plûtost un effet de vostre authorité,</p>
-                <p rend="cell i">Que de mon imprudence, ou de ma volonté.</p>
-                <p rend="cell">Il ne faut pas enfin, <hi rend="u">pour me rendre contente</hi>,</p>
-                <p rend="cell i">Que l’Univers soûmis, remplisse mon attente,</p>
-                <p rend="cell i">Que vostre affection oblige les mortels,</p>
-                <p rend="cell i">A flatter mon orgueil, ny d’encens, ny d’Autels,</p>
-                <p rend="cell">Ou que pour satisfaire à mon <hi rend="u">effronterie</hi>,</p>
-                <p rend="cell">Vostre zele à<hi rend="b"> l’amour</hi> joigne l’<hi rend="b">idolâtrie.</hi></p>
-                <p rend="cell">J’ay de l’<hi rend="b">ambition</hi>, mais je la sçay regler ;</p>
-                <p rend="cell">Et pour <hi rend="b">la vanité</hi> dont mon ame est saisie,</p>
-                <p rend="cell">Il suffira, <hi rend="u">grand Roy</hi>, du Sceptre de <hi rend="b">l’Asie</hi>.</p>
-                <p rend="cell">(I,3)</p>
+              <cell><hi rend="u">Obéïssons</hi> pourtant ; mais en cette occurrence,<lb/>Souvenez vous, <hi rend="u">Seigneur</hi>, que mon <hi rend="u">obeïssance</hi><lb/><hi rend="i">Est plûtost un effet de vostre authorité,<lb/>Que de mon imprudence, ou de ma volonté.</hi><lb/>Il ne faut pas enfin, <hi rend="u">pour me rendre contente</hi>,<lb/><hi rend="i">Que l’Univers soûmis, remplisse mon attente,<lb/>Que vostre affection oblige les mortels,<lb/>A flatter mon orgueil, ny d’encens, ny d’Autels,</hi><lb/>Ou que pour satisfaire à mon <hi rend="u">effronterie</hi>,<lb/>Vostre zele à<hi rend="b"> l’amour</hi> joigne l’<hi rend="b">idolâtrie.</hi><lb/>J’ay de l’<hi rend="b">ambition</hi>, mais je la sçay regler ;<lb/>Et pour <hi rend="b">la vanité</hi> dont mon ame est saisie,<lb/>Il suffira, <hi rend="u">grand Roy</hi>, du Sceptre de <hi rend="b">l’Asie</hi>. (I,3)
               </cell>
             </row>
             <row>
               <cell>Mais il me fait permettre de seoir <hi rend="b">seule</hi> sur <hi rend="b">le trosne</hi>, &amp; de <hi rend="u">disposer souverainement</hi> de l’Estat.</cell>
-              <cell>
-                <p rend="cell">Si <hi rend="b">seule</hi> j’ay l’honneur pour trois jours seulement,</p>
-                <p rend="cell">De pouvoir sur <hi rend="b">le Trône</hi> <hi rend="u">agir absolument</hi> (I,3)</p>
+              <cell>Si <hi rend="b">seule</hi> j’ay l’honneur pour trois jours seulement,<lb/>De pouvoir sur <hi rend="b">le Trône</hi> <hi rend="u">agir absolument</hi> (I,3)
               </cell>
             </row>
             <row>
               <cell><hi rend="b">Vous sçavez</hi> bien <hi rend="u">grand Monarque</hi> […] que j’ay paru, toute femme que je suis, autant au dessus de <hi rend="b">vos Capitaines</hi>, que ma <hi rend="b">gloire</hi> à toujours esté<hi rend="b"> au dessous de la vostre.</hi></cell>
-              <cell>
-                <p rend="cell"><hi rend="b">Vous sçavez</hi>, <hi rend="u">ô Ninus</hi>, par des preuves certaines,</p>
-                <p rend="cell">Que j’ay toûjours fait honte à tous <hi rend="b">vos Capitaines</hi> ; […]</p>
-                <p rend="cell">Et leur<hi rend="b"> gloire</hi> est autant au dessous de la nostre,</p>
-                <p rend="cell">Que la mienne paroist <hi rend="b">au dessous de la vostre</hi></p>
-                <p rend="cell">(I,3)</p>
+              <cell><hi rend="b">Vous sçavez</hi>, <hi rend="u">ô Ninus</hi>, par des preuves certaines,<lb/>Que j’ay toûjours fait honte à tous <hi rend="b">vos Capitaines</hi> ; […]<lb/>Et leur<hi rend="b"> gloire</hi> est autant au dessous de la nostre,<lb/>Que la mienne paroist <hi rend="b">au dessous de la vostre</hi> (I,3)
               </cell>
             </row>
             <row>
               <cell><hi rend="b">Ou si vous repugnés</hi> de condescendre à cette incivile Requeste, promettez-moy de faire un si grand <hi rend="b">effort</hi> sur vostre memoire, qu’il ne vous en <hi rend="u">ressouvienne</hi> jamais</cell>
-              <cell>
-                <p rend="cell"><hi rend="b">Ou si vous repugnez</hi> au desir qui me presse,</p>
-                <p rend="cell">Faites un autre <hi rend="b">effort</hi>, oubliez ma foiblesse ;[…]</p>
-                <p rend="cell">Chassez en desormais jusques au <hi rend="u">souvenir</hi>.</p>
+              <cell><hi rend="b">Ou si vous repugnez</hi> au desir qui me presse,<lb/>Faites un autre <hi rend="b">effort</hi>, oubliez ma foiblesse ;[…] <lb/>Chassez en desormais jusques au <hi rend="u">souvenir</hi>.
               </cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell">(Sémiramis à Merzabane)</p>
-                <p rend="cell">[…] ou tout au moins ayez des yeux pour <hi rend="b">voir une femme</hi> <hi rend="u">executer genereusement</hi> ce qu’elle propose, puis qu’apres vostre refus elle a plus besoin <hi rend="b">d’admirateurs</hi> que de <hi rend="u">compagnons</hi>.</p>
+              <cell>(Sémiramis à Merzabane)<lb/>[…] ou tout au moins ayez des yeux pour <hi rend="b">voir une femme</hi> <hi rend="u">executer genereusement</hi> ce qu’elle propose, puis qu’apres vostre refus elle a plus besoin <hi rend="b">d’admirateurs</hi> que de <hi rend="u">compagnons</hi>.
               </cell>
-              <cell>
-                <p rend="cell i">SEMIRAMIS</p>
-                <p rend="cell">Oüy, oüy, si vous tremblez, venez <hi rend="b">voir une femme</hi>,</p>
-                <p rend="cell"><hi rend="u">Achever hardiment</hi> le complot qu’elle trame,</p>
-                <p rend="cell i">Et vous faire advoüer, qu’elle n’aura pas moins</p>
-                <p rend="cell">De grands <hi rend="b">admirateurs</hi>, qu’elle aura de <hi rend="u">témoins</hi>.</p>
-                <p rend="cell">(II,3)</p>
+              <cell><hi rend="i">SEMIRAMIS</hi><lb/>Oüy, oüy, si vous tremblez, venez <hi rend="b">voir une femme</hi>,<lb/><hi rend="u">Achever hardiment</hi> le complot qu’elle trame,<lb/><hi rend="i">Et vous faire advoüer, qu’elle n’aura pas moins</hi><lb/>De grands <hi rend="b">admirateurs</hi>, qu’elle aura de <hi rend="u">témoins</hi>. (II,3)
               </cell>
             </row>
             <row>
               <cell>Merzabane prostestant qu’l estoit trop <hi rend="b">fidele</hi> au sujet de sa Majesté, &amp; trop affectionné envers sa <hi rend="b">patrie</hi> pour <hi rend="b">consentir</hi> à un (p.73) <hi rend="b">changement</hi> <hi rend="u">si extaordinaire</hi>, dit que <hi rend="b">les revolutions en matiere d’Estat</hi> estoient un peu trop <hi rend="b">dangereuses’</hi></cell>
-              <cell>
-                <p rend="cell i">MERZABANE</p>
-                <p rend="cell">Que j’ay pour ma <hi rend="b">patrie</hi> une <hi rend="b">ame trop fidelle</hi>,</p>
-                <p rend="cell i">Pour faire jamais rien, qui soit indigne d’elle,</p>
-                <p rend="cell">Ou souffrir que mon cœur <hi rend="b">consente</hi> lâchement,</p>
-                <p rend="cell">A <hi rend="u">ce prodigieux</hi> &amp; triste <hi rend="b">changement</hi>.</p>
-                <p rend="cell"><hi rend="b">Les revolutions</hi>, encore que fameuses,</p>
-                <p rend="cell"><hi rend="b">En matiere d’Estat</hi>, sont toûjours <hi rend="b">dangereuses</hi> ;</p>
-                <p rend="cell">(III,1)</p>
+              <cell><hi rend="i">MERZABANE</hi><lb/>Que j’ay pour ma <hi rend="b">patrie</hi> une <hi rend="b">ame trop fidelle</hi>,<lb/><hi rend="i">Pour faire jamais rien, qui soit indigne d’elle,</hi><lb/>Ou souffrir que mon cœur <hi rend="b">consente</hi> lâchement,<lb/>A <hi rend="u">ce prodigieux</hi> &amp; triste <hi rend="b">changement</hi>.<lb/><hi rend="b">Les revolutions</hi>, encore que fameuses,<lb/><hi rend="b">En matiere d’Estat</hi>, sont toûjours <hi rend="b">dangereuses</hi> ; (III,1)
               </cell>
             </row>
             <row>
               <cell>[…] qu’il ne devoit <hi rend="u">pas estre le premier à parler</hi> sur cette haute resolution : Mais qu’ayant vû que nul de ceux à qui plus legitimement qu’à luy appartenoit d’en dire leur sentiment, n’avoir <hi rend="b">pas le cœur</hi> d’en faire une remonstrance nécessaire, Il avoit mieux aymé <hi rend="u">commettre une faute</hi> par affection &amp; par devoir, que d’en commetre une plus reprehensible par <hi rend="u">crainte</hi> ou par <hi rend="b">complaisance</hi></cell>
-              <cell>
-                <p rend="cell i">Et parmy vos vassaux, je ne sçaurois nier,</p>
-                <p rend="cell">Que <hi rend="u">mon advis ne doive estre dit le dernier</hi> :</p>
-                <p rend="cell">Mais voyant qu’ils n’ont pas <hi rend="b">le cœur</hi> ny l’asseurance,</p>
-                <p rend="cell i">De parler en un fait de telle consequence ;</p>
-                <p rend="cell">J’aime bien mieux <hi rend="u">faillir</hi> par ma sincerité,</p>
-                <p rend="cell">Que par ma <hi rend="b">complaisance</hi>, ou par ma <hi rend="u">lâcheté</hi>.</p>
-                <p rend="cell i">(III,1)</p>
+              <cell><hi rend="i">Et parmy vos vassaux, je ne sçaurois nier,</hi><lb/>Que <hi rend="u">mon advis ne doive estre dit le dernier</hi> :<lb/>Mais voyant qu’ils n’ont pas <hi rend="b">le cœur</hi> ny l’asseurance,<lb/><hi rend="i">De parler en un fait de telle consequence ;</hi><lb/>J’aime bien mieux <hi rend="u">faillir</hi> par ma sincerité,<lb/>Que par ma <hi rend="b">complaisance</hi>, ou par ma <hi rend="u">lâcheté</hi>. (III,1)
               </cell>
             </row>
             <row>
               <cell><hi rend="b">Que la Reyne</hi> lui <hi rend="b">pardonnât</hi>, s’il supplioit tres-humblement sa Majesté de l’oster du nombre sur qui elle veoit exercer un pouvoir si absolu ; &amp; que pour ne rendre pas son authorité moindre par un si petit deffaut, <hi rend="u">il se retiroit</hi> de <hi rend="b">la Cour</hi> le peu de <hi rend="b">temps</hi><hi rend="u"> qu’elle administreroit l’Estat</hi>.</cell>
-              <cell>
-                <p rend="cell"><hi rend="b">Que la Reyne</hi>, ô grand Roy, s’il luy plaist<hi rend="b">, me</hi> [<hi rend="b">pardonne</hi>,</p>
-                <p rend="cell i">Si du joug de ses Loix, j’affranchis ma personne ;</p>
-                <p rend="cell i">Ne la pouvant subir, j’aime mieux dés ce jour,</p>
-                <p rend="cell">Pour le <hi rend="b">temps</hi> <hi rend="u">de son Regne, abandonner</hi> <hi rend="b">la Cour</hi></p>
-                <p rend="cell i">(III,1)</p>
+              <cell><hi rend="b">Que la Reyne</hi>, ô grand Roy, s’il luy plaist<hi rend="b">, me</hi> [<hi rend="b">pardonne</hi>,<lb/><hi rend="i">Si du joug de ses Loix, j’affranchis ma personne ;<lb/>Ne la pouvant subir, j’aime mieux dés ce jour,</hi><lb/>Pour le <hi rend="b">temps</hi> <hi rend="u">de son Regne, abandonner</hi> <hi rend="b">la Cour</hi> (III,1)
               </cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell">(Ninus)</p>
-                <p rend="cell"><hi rend="u">Rois</hi>,<hi rend="b"> qui relevez de ce superbe empire</hi></p>
+              <cell>(Ninus)<lb/><hi rend="u">Rois</hi>,<hi rend="b"> qui relevez de ce superbe empire</hi>
               </cell>
-              <cell>
-                <p rend="cell i">NINUS</p>
-                <p rend="cell"><hi rend="u">Princes</hi>,<hi rend="b"> qui relevez de ce superbe Empire</hi></p>
-                <p rend="cell i">(III,1)</p>
+              <cell><hi rend="i">NINUS</hi><lb/><hi rend="u">Princes</hi>,<hi rend="b"> qui relevez de ce superbe Empire</hi> (III,1)
               </cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell">(Oronclide à Melistrate)</p>
-                <p rend="cell">Il ne <hi rend="b">vous faut</hi> qu’<hi rend="b">aimer</hi>, &amp; vous deviendrez le plus grand Monarque de l’Univers.</p>
+              <cell>(Oronclide à Melistrate) <lb/>Il ne <hi rend="b">vous faut</hi> qu’<hi rend="b">aimer</hi>, &amp; vous deviendrez le plus grand Monarque de l’Univers.
               </cell>
-              <cell>
-                <p rend="cell i">ORONCLIDE</p>
-                <p rend="cell i">Le coup qui l’a détruit, vous laisse une Couronne ;</p>
-                <p rend="cell i">Et que pour ce bonheur qui dévroit vous charmer,</p>
-                <p rend="cell">Il <hi rend="b">vous faut</hi> seulement vous resoudre d’<hi rend="b">aimer</hi>.</p>
-                <p rend="cell i">(IV,1)</p>
+              <cell><hi rend="i">ORONCLIDE<lb/>Le coup qui l’a détruit, vous laisse une Couronne ;<lb/>Et que pour ce bonheur qui dévroit vous charmer,</hi><lb/>Il <hi rend="b">vous faut</hi> seulement vous resoudre d’<hi rend="b">aimer</hi>. (IV,1)
               </cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell">(Palmedon à Prazimène)</p>
-                <p rend="cell">Que ce fust la destinée de Xydiane , ou celle de Benzamin, qui opera cette merveille, tant y a que mon Maistre <hi rend="b">vainquit</hi> bien mieux <hi rend="b">desarmé</hi> que <hi rend="u">sous le armes</hi> ; &amp; que n’ayant pû venir à bout de son ennemy sans playes, il <hi rend="b">triompha</hi> de Xydiane sans estre blessé.</p>
+              <cell>(Palmedon à Prazimène) <lb/>Que ce fust la destinée de Xydiane , ou celle de Benzamin, qui opera cette merveille, tant y a que mon Maistre <hi rend="b">vainquit</hi> bien mieux <hi rend="b">desarmé</hi> que <hi rend="u">sous le armes</hi> ; &amp; que n’ayant pû venir à bout de son ennemy sans playes, il <hi rend="b">triompha</hi> de Xydiane sans estre blessé.
               </cell>
-              <cell>
-                <p rend="cell i">MERZABANE</p>
-                <p rend="cell i">Melistrate vainqueur, &amp; content de sa gloire,</p>
-                <p rend="cell i">Fut courtois au vaincu, plus qu’on ne le peut croire ;</p>
-                <p rend="cell i">Et comme il estoit lors à vaincre accoustumé,</p>
-                <p rend="cell">Il <hi rend="b">vainquit</hi> <hi rend="u">combattant</hi>, &amp; <hi rend="b">vainquit desarmé</hi>, […]</p>
-                <p rend="cell">Le vainqueur, comme au camp, <hi rend="b">triomphe</hi> dans son ame. </p>
-                <p rend="cell i">(I,1)</p>
+              <cell><hi rend="i">MERZABANE<lb/>Melistrate vainqueur, &amp; content de sa gloire,<lb/>Fut courtois au vaincu, plus qu’on ne le peut croire ;<lb/>Et comme il estoit lors à vaincre accoustumé,</hi><lb/>Il <hi rend="b">vainquit</hi> <hi rend="u">combattant</hi>, &amp; <hi rend="b">vainquit desarmé</hi>, […] <lb/>Le vainqueur, comme au camp, <hi rend="b">triomphe</hi> dans son ame. (I,1)
               </cell>
             </row>
             <row>
               <cell>Cependant le mal-heureux Benzamin n’estoit pas agité de semblables mouvements : le desespoir &amp; la rage furent les moindres passions qui le possederent […] il se releva <hi rend="u">tout à coup</hi> ; &amp; voyant mon Maistre en action de luy aider croyant qu’il voulust faire ce que nous avions entrepris, du mesme poignard dont elle s’estoit frappé, [..] <hi rend="u">luy porta deux coups dans l’estomach</hi> ; &amp; sans le moindre intervalle <hi rend="u">s’en fit autant dans le sien</hi></cell>
-              <cell>
-                <p rend="cell i">Benzamin est surpris, &amp; pense qu’on l’outrage,</p>
-                <p rend="cell i">Quand il voit que l’on traitte avec tant de mépris,</p>
-                <p rend="cell i">Celle dont il estoit si tendrement épris.</p>
-                <p rend="cell i">Xidiane en son sang, lave sa perfidie ;</p>
-                <p rend="cell">Et <hi rend="u">soudain</hi> son Amant, d’une main plus hardie,</p>
-                <p rend="cell i">Pour venger son trépas, fait un dernier effort,</p>
-                <p rend="cell"><hi rend="u">Blesse au sein</hi> Melistrate, &amp; <hi rend="u">se donne la mort.</hi></p>
-                <p rend="cell i">(I,1)</p>
+              <cell><hi rend="i">Benzamin est surpris, &amp; pense qu’on l’outrage,<lb/>Quand il voit que l’on traitte avec tant de mépris,<lb/>Celle dont il estoit si tendrement épris.<lb/>Xidiane en son sang, lave sa perfidie ;</hi><lb/>Et <hi rend="u">soudain</hi> son Amant, d’une main plus hardie,<lb/><hi rend="i">Pour venger son trépas, fait un dernier effort,<lb/>Blesse au sein Melistrate, &amp; se donne la mort. (I,1)</hi>
               </cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell">(Merzabane)</p>
-                <p rend="cell"><hi rend="u">Apprenez</hi>, Oronclide, que vous <hi rend="u">n’estes point</hi> mon <hi rend="b">fils</hi></p>
+              <cell>(Merzabane)<lb/><hi rend="u">Apprenez</hi>, Oronclide, que vous <hi rend="u">n’estes point</hi> mon <hi rend="b">fils</hi>
               </cell>
-              <cell>
-                <p rend="cell i">MERZABANE</p>
-                <p rend="cell">Et lors luy <hi rend="u">declarant</hi> qu’il <hi rend="u">n’estoit pas</hi> son <hi rend="b">Fils</hi></p>
-                <p rend="cell i">(V,1)</p>
+              <cell><hi rend="i">MERZABANE</hi><lb/>Et lors luy <hi rend="u">declarant</hi> qu’il <hi rend="u">n’estoit pas</hi> son <hi rend="b">Fils</hi> (V,1)
               </cell>
             </row>
             <row>
-              <cell>
-                <p rend="cell i">(Merzabane à Oronclide)</p>
-                <p rend="cell">Helas <hi rend="b">ozay-je</hi> bien encore <hi rend="b">prononcer</hi> un <hi rend="u">si beau</hi> <hi rend="b">nom, moy quy suis</hi> le<hi rend="b"> meurtrier execrable du Heros</hi> qui <hi rend="b">le portoit</hi> ?</p>
+              <cell><hi rend="i">(Merzabane à Oronclide)</hi><lb/>Helas <hi rend="b">ozay-je</hi> bien encore <hi rend="b">prononcer</hi> un <hi rend="u">si beau</hi> <hi rend="b">nom, moy quy suis</hi> le<hi rend="b"> meurtrier execrable du Heros</hi> qui <hi rend="b">le portoit</hi> ?
               </cell>
-              <cell>
-                <p rend="cell i">MERZABANE</p>
-                <p rend="cell"><hi rend="b">Ozay-je prononcer un nom</hi><hi rend="u">si plein de gloire</hi>,</p>
-                <p rend="cell"><hi rend="b">Moy qui suis l’execrable</hi> &amp; <hi rend="u">perfide</hi> <hi rend="b">meurtrier</hi></p>
-                <p rend="cell"><hi rend="b">Du Heros</hi>, qui jamais <hi rend="b">l’ait porté</hi> le premier ?</p>
-                <p rend="cell i">(V,2)</p>
+              <cell><hi rend="i">MERZABANE</hi><lb/><hi rend="b">Ozay-je prononcer un nom</hi><hi rend="u">si plein de gloire</hi>,<lb/><hi rend="b">Moy qui suis l’execrable</hi> &amp; <hi rend="u">perfide</hi> <hi rend="b">meurtrier</hi><lb/><hi rend="b">Du Heros</hi>, qui jamais <hi rend="b">l’ait porté</hi> le premier ? (V,2)
               </cell>
             </row>
           </table>
@@ -4292,29 +3916,17 @@
             <row>
               <cell/>
               <cell>Ninus</cell>
-              <cell>
-                <p rend="cell">Sémi-</p>
-                <p rend="cell">ramis</p>
+              <cell>Sémiramis
               </cell>
-              <cell>
-                <p rend="cell">Prazi-</p>
-                <p rend="cell">mène</p>
+              <cell>Prazimène
               </cell>
-              <cell>
-                <p rend="cell">Melist-</p>
-                <p rend="cell">rate</p>
+              <cell>Melistrate
               </cell>
-              <cell>
-                <p rend="cell">Oronc-</p>
-                <p rend="cell">lide</p>
+              <cell>Oronclide
               </cell>
-              <cell>
-                <p rend="cell">Merza-</p>
-                <p rend="cell">bane</p>
+              <cell>Merzabane
               </cell>
-              <cell>
-                <p rend="cell">Zenop-</p>
-                <p rend="cell">hire</p>
+              <cell>Zenophire
               </cell>
               <cell>Cambises</cell>
               <cell>Palmedon</cell>
@@ -4744,13 +4356,9 @@
               <cell>Ninus</cell>
               <cell>Melistrate</cell>
               <cell>Oronclide</cell>
-              <cell>
-                <p rend="cell">Palme-</p>
-                <p rend="cell">don</p>
+              <cell>Palmedon
               </cell>
-              <cell>
-                <p rend="cell">Zenop-</p>
-                <p rend="cell">hire</p>
+              <cell>Zenophire
               </cell>
               <cell>Cambi-ses</cell>
               <cell>Total</cell>
