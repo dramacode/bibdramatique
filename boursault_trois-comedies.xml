@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
   <fileDesc>
@@ -33,7 +30,7 @@
       <idno type="epub">http://bibdramatique.paris-sorbonne.fr/boursault_trois-comedies.epub</idno>
     </publicationStmt>
     <sourceDesc>
-      <bibl><title>Le Jaloux endormy, Comédie</title>. Representée sur le Theatre Royal du Marais. <author rend="i">Par le Sieur BOURSAULT, Secretaire de Madame la Duchesse d'Angoulesme.</author> A PARIS, Chez ESTIENNE LOYSON, au Palais, à l'entrée de la Gallerie des Prisonnieers, au Nom de Jésus. M. DC. LXII.<hi rend="i">Avec Privilege du Roy.</hi></bibl>
+      <bibl><title>Le Jaloux endormy, Comédie</title>. Representée sur le Theatre Royal du Marais. <author>Par le Sieur BOURSAULT, Secretaire de Madame la Duchesse d'Angoulesme.</author> A PARIS, Chez ESTIENNE LOYSON, au Palais, à l'entrée de la Gallerie des Prisonnieers, au Nom de Jésus. M. DC. LXII.<hi rend="i">Avec Privilege du Roy.</hi></bibl>
       <bibl><title>Le Mort vivant, Comédie</title>. DEDIEE A MONSEIGNEUR LE DUC DE GUISE. Representée par les Comédies du Roy ;<author>Et composée par le Sieur Boursault</author>. A PARIS, Chez N. PEPINGUÉ, en la grande Salle du Palais, vis à vis les Consultations, au Soleil d'or. M. DC. LXII.</bibl>
       <bibl><title>Le Medecin volant, Comédie</title>. <author>Par Mr BOURSAULT</author> A PARIS, Chez N. PEPINGUÉ, à l'entrée de la ruë de la Huchette. Et en sa boutique au premier Pilier de la grande Salle du Palais, vis à vis les Consultations, au Soleil d'or. M. DC. LXV.</bibl>
     </sourceDesc>
@@ -57,12 +54,12 @@
         <div>
           <head>Edme Boursault illustre inconnu du théâtre français</head>
           <quote>
-            <p>Un écrivain fort médiocre, mais intéressant à consulter parce qu’il a recueilli la tradition des auteurs comiques immédiatement postérieurs à Molière […] si l’on suit de près l’histoire de la scène française dans cette période, on y rencontre un écrivain, très inégal sans doute, mais qui a ses heures d’inspiration, et qui, entre deux écoles dont nous venons de parler [les contemporains de Molière qui lui ont survécu et une nouvelle génération de poètes qui apparaît], eut le bonheur d’attirer l’attention et de mériter l’estime de l’Europe<note place="bottom"><hi rend="color_161616">Saint-René Taillandier, <hi rend="i">Un poète comique du temps de Molière, Boursault, sa vie et ses œuvres</hi>, Paris, 1881, p. 7.</hi></note>.</p>
+            <p>Un écrivain fort médiocre, mais intéressant à consulter parce qu’il a recueilli la tradition des auteurs comiques immédiatement postérieurs à Molière […] si l’on suit de près l’histoire de la scène française dans cette période, on y rencontre un écrivain, très inégal sans doute, mais qui a ses heures d’inspiration, et qui, entre deux écoles dont nous venons de parler [les contemporains de Molière qui lui ont survécu et une nouvelle génération de poètes qui apparaît], eut le bonheur d’attirer l’attention et de mériter l’estime de l’Europe<note place="bottom">Saint-René Taillandier, <hi rend="i">Un poète comique du temps de Molière, Boursault, sa vie et ses œuvres</hi>, Paris, 1881, p. 7.</note>.</p>
           </quote>
           <div>
             <head>Une vie chaotique</head>
             <quote>
-              <p>Il y a deux époques bien marquées dans sa vie. La première nous le montre très-affairé, très-répandu, fort occupé de fêtes, de voyages, de petits vers et d’aventures galantes […] Dans la seconde époque, fixé à Montluçon, venant toujours plus rarement à Paris, plus recueilli, plus sédentaire, attentif à sa maison, préoccupé par l’avenir  de ses enfants, plus que jamais attaché à la religion, tout son talent s’épure et ce qu’il écrit respire une sorte de gravité pieuse, qui va parfois jusqu’à la tristesse. Même il devient sermonneur, sans gronder pourtant, ni affecter des airs pédantesques, mais en homme convaincu, dont la sagesse est expansive et s’insinue doucement dans l’âme du voisin<note place="bottom">L. Jully, <hi xml:lang="en" rend="i">Étude sur Boursault</hi>, Troyes, 1865, p. 4-5.</note>. <space rend="tab">    </space></p>
+              <p>Il y a deux époques bien marquées dans sa vie. La première nous le montre très-affairé, très-répandu, fort occupé de fêtes, de voyages, de petits vers et d’aventures galantes […] Dans la seconde époque, fixé à Montluçon, venant toujours plus rarement à Paris, plus recueilli, plus sédentaire, attentif à sa maison, préoccupé par l’avenir  de ses enfants, plus que jamais attaché à la religion, tout son talent s’épure et ce qu’il écrit respire une sorte de gravité pieuse, qui va parfois jusqu’à la tristesse. Même il devient sermonneur, sans gronder pourtant, ni affecter des airs pédantesques, mais en homme convaincu, dont la sagesse est expansive et s’insinue doucement dans l’âme du voisin<note place="bottom">L. Jully, <hi rend="i">Étude sur Boursault</hi>, Troyes, 1865, p. 4-5.</note>. <space rend="tab">    </space></p>
             </quote>
             <p>Edme Boursault naquit au début d’octobre 1638 – nous n’avons pas la date précise – dans une grande famille de Mussy-l’Evêque, ville champenoise de laquelle les évêques de Langres étaient les seigneurs et où ils avaient restauré un château. Ludovic Jully dans son <hi rend="i">Étude sur Boursault</hi> rapporte les paroles de l’auteur : « Ma mère, dit-il, n’est jamais sortie de son pays. Mon père, qui, pour s’enrichir, fut longtemps guerrier, rôda partout et plus dans la Franche-Comté qu’ailleurs. ». Rien ne le prédestinait à l’écriture ; il ne reçut pas une éducation littéraire poussée, ne connaissait rien au latin et au grec et peinait à s’exprimer en français : « [son père] ne se mettoit gueres en peine que son fils fût mieux élevé, et devînt plus habile homme que lui : et quoiqu’il fût assez riche, il eût regretté un écu qu’il eût coûté à ses plaisirs, pour donner à ses enfans une éducation qui eût suppléé au tort qu’il leur faisoit d’ailleurs, et au peu de bien qu’ils avoient à esperer de son dérangement de conduite<note place="bottom"><hi rend="i">Théâtre de feu Monsieur Boursault</hi>, t. I, Paris, 1725, « Avertissement ».</note> ». Il fut pourtant envoyé à Paris en 1651 par Sébastien Zamet, évêque de Langres et fut protégé par Des Barreaux<note place="bottom">Jacques Vallée, seigneur des Barreaux est un poète libertin et épicurien. Il a de nombreuses relations avec les grands hommes de son temps et introduit Boursault dans la haute société.</note> auprès de qui il apprit à manier la langue française et qui s’occupa de lui comme un père. Sa petite-fille Hiacinthe Boursault ne tarit pas d’éloge quant à la grande capacité d’apprentissage de son aïeul : « Cependant en peu de mois ce jeune homme sçut de lui-même se tirer de cette barbarie ; et il parvint en moins de deux ans à pénétrer toutes les beautez et toutes les délicatesses d’une langue qu’il a possédée dans la plus exacte et la plus parfaite pureté<note place="bottom"><hi rend="i">Théâtre de feu Monsieur Boursault, op. cit.</hi></note> ». Il se lia rapidement d’amitié avec les frères Corneille et entretint avec eux une correspondance, il resta lié avec eux toute sa vie et prit notamment la défense du « Grand Corneille » dès que l’occasion se présenta.</p>
             <p>En 1660, il devint secrétaire des commandements de la duchesse d’Angoulême et commença sa vie littéraire : « dès cette époque, il se montra avant tout poète et homme de lettres, reçu dans les grands hôtels, bien accueilli de ce que la cour et la ville avaient de considérable ; tantôt à Chantilly, chez Condé, tantôt à Paris, chez le président Perrault<note place="bottom">L. Jully, <hi rend="i">op. cit.</hi>, p. 3.</note>. ». Envoyé à Sens par la duchesse en 1661, il lui rapporta son voyage dans des lettres qu’elle jugea fines et amusantes au point de les faire lire à tous ceux qui l’entouraient. Tous les trouvèrent pleines d’esprit et voulurent entretenir une correspondance avec lui. À son retour, Boursault se lança donc dans l’écriture d’une gazette en vers burlesques qui ne parvint pas à s’imposer face à celle de Loret. Il se tourna alors vers le théâtre.</p>
@@ -73,25 +70,25 @@
               <l>Dont les noms en cent lieux, placés comme en leurs niches</l>
               <l>Vont de vos vers malins remplir les hémistiches ?</l>
               <l>Ce qu’ils font vous ennuie ? O le plaisant détour !</l>
-              <l>Ils ont bien ennuyé le Roi, toute la cour<note place="bottom"><p xml:lang="en">Satire IX des<hi rend="i"> Satires et épîtres</hi> de Boileau.</p><p xml:lang="en">Par la suite le nom de Boursault sera remplacé par celui de Hainaut.</p></note> !</l>
+              <l>Ils ont bien ennuyé le Roi, toute la cour<note place="bottom"><p>Satire IX des<hi rend="i"> Satires et épîtres</hi> de Boileau.</p><p>Par la suite le nom de Boursault sera remplacé par celui de Hainaut.</p></note> !</l>
             </quote>
             <p>Et aussi :</p>
             <quote>
               <l>Puisque vous le voulez, je vais changer de style.</l>
               <l>Je le déclare donc : Quinault est un Virgile,</l>
-              <l>Boursault comme un soleil en nos ans a paru<note place="bottom"><p xml:lang="en"><hi rend="i">Ibid.</hi><hi rend="color_161616">Par la suite le nom de Boursault sera remplacé par celui de Pradon.</hi> </p></note>.</l>
+              <l>Boursault comme un soleil en nos ans a paru<note place="bottom"><p><hi rend="i">Ibid.</hi>Par la suite le nom de Boursault sera remplacé par celui de Pradon. </p></note>.</l>
             </quote>
             <p>Il se maria en 1666 avec Michèle Milley avec laquelle il fonda une grande famille ; Boursault accorda une place importante à l’éducation de ses enfants, leur accordant la chance qu’il n’avait pas eu lui-même. Il rédigea une critique dramatique des <hi rend="i">Satires</hi> de Boileau, <hi rend="i">La Satire des satires</hi>, publiée en 1669 sans avoir jamais été représentée puisque Boileau la fit interdire par le Parlement dès que les affiches annonçant la représentation furent mises en place. Cette querelle demeura sans suite ; Boileau retira le nom de Boursault de ses <hi rend="i">Satires</hi>, allant même jusqu’à confesser à son ami Brosette « Monsieur Boursault est, à mon sens, de tous les auteurs que j’ai critiqués, celui qui a le plus de mérite<note place="bottom">Lettre du 1<hi rend="sup">er</hi> avril 1700.</note> ». Hiacinthe rapporte en outre une anecdote selon laquelle Boileau se serait retrouvé à cours d’argent lors d’une cure « dans les eaux de <hi rend="i">Bourbon</hi> <note place="bottom"><hi rend="i">Théâtre de feu Monsieur Boursault</hi>, tome I, Paris, 1725, « Avertissement ».</note>» qui aurait duré plus longtemps que prévu et aurait été aidé par Boursault. À partir de cet épisode, une amitié naquit entre eux et Boileau fut touché par la « générosité » de cet homme qu’il avait attaqué : « il se réconcilia sincerement, et lia avec M. Boursault une étroite et tendre amitié, qui a duré toute leur vie, avec autant de fidélité, que de justice de part et d’autre. Ils s’en sont donnez dans leurs Ouvrages, de mutuelles preuves<note place="bottom"><hi rend="i">Ibid.</hi></note> ».</p>
             <p>De même il ouvrit le prologue de son roman <hi rend="i">Artémise et Poliante</hi> (1670) par le récit satirique de la première de <hi rend="i">Britannicus</hi> de Racine.</p>
             <p>Il écrivit <hi rend="i">La Véritable Étude des souverains</hi> en 1671 destinée à l’éducation du dauphin. Selon Hiacinthe Boursault, l’ouvrage aurait été commandé par le Roi, mais rien n’est assuré. Ceci entraîna le fait que « Montausier et Louis XIV aient songé un instant à le nommer sous-précepteur du dauphin<note place="bottom"><hi rend="i">Théâtre de feu Monsieur Boursault, op. cit.</hi></note> ». Jully pense que Boursault a refusé la proposition à cause de ses lacunes en langues anciennes, outils essentiels de l’éducation d’un futur roi au XVII<hi rend="sup">e</hi>. La place de sous-précepteur fut donc occupée par Pierre-Daniel Huet<note place="bottom">Pierre-Daniel Huet (1630-1721) érudit et homme d’église français. C’est un très bon latiniste et helléniste ce qui lui vaudra sa place de sous-précepteur du roi. Il est impliqué dans le domaine littéraire et prend notamment part à la querelle des Anciens et des Modernes du côté des Anciens.</note>.</p>
-            <p>D’après Bénédicte Louvat-Molozay <hi rend="i">Le Mercure galant</hi> fut donné en 1683 comme une œuvre de Poisson pour éviter les foudres de Donneau de Visé<note place="bottom">Nous avons trouvé cette information dans son article « Les “Oeuvres complètes” des comédiens-auteurs. Les exemples de Poisson et de Montfleury », dans <hi rend="i">Le Parnasse du théâtre, les recueils d’œuvres complètes de théâtre au XVII<hi rend="sup">e</hi> siècle</hi>, dir. G. Forestier, E. Caldicott, C. Bourqui, p. 302. La pièce est jouée pour la première fois à la Comédie-Française le vendredi 5 mars 1683 selon le registre de La Grange.</note>. En effet, la pièce a lieu « dans la maison de l’Auteur du Mercure Galant<note place="bottom"><hi rend="color_161616"><hi rend="i">La Comédie sans titre, revue et corrigée par son véritable auteur</hi>, Paris, 1694.</hi></note> » et est une succession de portraits plus comiques les uns que les autres inspirés par le journal <hi rend="i">Le Mercure galant</hi> ; la petite-fille de l’auteur définit la pièce ainsi « sans attaquer directement le <hi rend="i">Mercure</hi>, ni son Auteur, on se contente de produire quantité de sots et de ridicules, qui viennent y demander place ou apportent leurs Ouvrages. C’est d’un bout à l’autre, un badinage si vif et si divertissant, qu’on ne pouvait se lasser de le voir, et qu’elle fut joüée de suite plus de quatre-vingt fois <hi rend="i">au double</hi><note place="bottom"><hi rend="i">Théâtre de feu Monsieur Boursault</hi>, tome I, Paris, 1725, « Avertissement ».</note>. ». La même année, la pièce fut publiée avec un « Avis au lecteur » expliquant la situation. Suite à une requête de Donneau de Visé la pièce fut renommée <hi rend="i">La Comédie sans titre</hi>. Poisson annexa la pièce à ses propres pièces dans le recueil de 1687 ; par la suite, les éditeurs reprirent le recueil tel quel.</p>
-            <p>« Nous ne savons pas au juste quand<note place="bottom">Il semblerait que ce soit en 1672.</note> ni comment Boursault devint receveur des fermes de Montluçon. Ce qu’on peut affirmer, c’est qu’il fut un médiocre financier<note place="bottom">L. Jully, <hi xml:lang="en" rend="i">op. cit.</hi>, p. 8.</note>» ; il éprouva de la pitié pour ceux qu’il devait taxer. Il fut révoqué en 1688 pour son manque d’obéissance envers son fermier général Lejariel.</p>
+            <p>D’après Bénédicte Louvat-Molozay <hi rend="i">Le Mercure galant</hi> fut donné en 1683 comme une œuvre de Poisson pour éviter les foudres de Donneau de Visé<note place="bottom">Nous avons trouvé cette information dans son article « Les “Oeuvres complètes” des comédiens-auteurs. Les exemples de Poisson et de Montfleury », dans <hi rend="i">Le Parnasse du théâtre, les recueils d’œuvres complètes de théâtre au XVII<hi rend="sup">e</hi> siècle</hi>, dir. G. Forestier, E. Caldicott, C. Bourqui, p. 302. La pièce est jouée pour la première fois à la Comédie-Française le vendredi 5 mars 1683 selon le registre de La Grange.</note>. En effet, la pièce a lieu « dans la maison de l’Auteur du Mercure Galant<note place="bottom"><hi rend="i">La Comédie sans titre, revue et corrigée par son véritable auteur</hi>, Paris, 1694.</note> » et est une succession de portraits plus comiques les uns que les autres inspirés par le journal <hi rend="i">Le Mercure galant</hi> ; la petite-fille de l’auteur définit la pièce ainsi « sans attaquer directement le <hi rend="i">Mercure</hi>, ni son Auteur, on se contente de produire quantité de sots et de ridicules, qui viennent y demander place ou apportent leurs Ouvrages. C’est d’un bout à l’autre, un badinage si vif et si divertissant, qu’on ne pouvait se lasser de le voir, et qu’elle fut joüée de suite plus de quatre-vingt fois <hi rend="i">au double</hi><note place="bottom"><hi rend="i">Théâtre de feu Monsieur Boursault</hi>, tome I, Paris, 1725, « Avertissement ».</note>. ». La même année, la pièce fut publiée avec un « Avis au lecteur » expliquant la situation. Suite à une requête de Donneau de Visé la pièce fut renommée <hi rend="i">La Comédie sans titre</hi>. Poisson annexa la pièce à ses propres pièces dans le recueil de 1687 ; par la suite, les éditeurs reprirent le recueil tel quel.</p>
+            <p>« Nous ne savons pas au juste quand<note place="bottom">Il semblerait que ce soit en 1672.</note> ni comment Boursault devint receveur des fermes de Montluçon. Ce qu’on peut affirmer, c’est qu’il fut un médiocre financier<note place="bottom">L. Jully, <hi rend="i">op. cit.</hi>, p. 8.</note>» ; il éprouva de la pitié pour ceux qu’il devait taxer. Il fut révoqué en 1688 pour son manque d’obéissance envers son fermier général Lejariel.</p>
             <p>Le XVII<hi rend="sup">e</hi> siècle fut tiraillé par les problèmes de morales que posait le théâtre à l’Église. Boursault en bon chrétien s’interrogea sur la portée de son écriture et s’en confessa auprès d’un prêtre qui lui conseilla de consulter un théologien sur la question. Il fit part de ces interrogations au père Caffaro, supérieur du couvent des Théatins dans lequel le fils de Boursault, Chrysostome était élève. L’homme n’était pas spécialiste de la question et connaissait peu les œuvres théâtrales de son temps. Boursault ouvre ainsi le premier volume de ses <hi rend="i">Pièces de théâtre</hi> en 1694 par la « Lettre d’un Theologien illustre par sa qualité et par son merite, consulté par l’auteur pour sçavoir si la Comédie peut estre permise, ou doit estre absolument deffendüe ». Cette lettre anonyme a été écrite par nul autre que le père Caffaro et est favorable au théâtre en s’appuyant sur les écrits de Saint-Thomas :</p>
             <quote>
-              <p>De ces paroles de Saint THOMAS, il vous est aisé de juger, Monsieur, que sous le nom de jeux il comprend aussi la Comédie, quand il dit : Que ce relâchement de l’esprit, qui est une vertu, se fait par des paroles et par des actions divertissantes. Qu’y a-t-il de plus propre et de plus particulier à la Comédie, qui ne consiste qu’en des paroles et dans des actions risibles et ingénieuses, qui font plaisir et qui délassent l’esprit<note place="bottom">Extrait de la <hi rend="color_161616"><hi rend="i">Lettre d’un Theologien illustre par sa qualité et par son merite, consulté par l’auteur pour sçavoir si la Comédie peut estre permise, ou doit estre absolument deffendüe</hi>.</hi></note> ?</p>
+              <p>De ces paroles de Saint THOMAS, il vous est aisé de juger, Monsieur, que sous le nom de jeux il comprend aussi la Comédie, quand il dit : Que ce relâchement de l’esprit, qui est une vertu, se fait par des paroles et par des actions divertissantes. Qu’y a-t-il de plus propre et de plus particulier à la Comédie, qui ne consiste qu’en des paroles et dans des actions risibles et ingénieuses, qui font plaisir et qui délassent l’esprit<note place="bottom">Extrait de la <hi rend="i">Lettre d’un Theologien illustre par sa qualité et par son merite, consulté par l’auteur pour sçavoir si la Comédie peut estre permise, ou doit estre absolument deffendüe</hi>.</note> ?</p>
             </quote>
             <p>Cette lettre déclencha une nouvelle querelle sur la comédie et la moralité au théâtre. Bossuet, évêque de Meaux, répondit à cette lettre dans ses <hi rend="i">Maximes et réflexions sur la comédie</hi> qui montrent l’immoralité du théâtre et le danger des émotions qu’il suscite sans s’attaquer directement à Boursault. Le père Caffaro se rétracta et se soumit à la volonté de l’évêque de Meaux.</p>
-            <p>La même année, Boursault fit paraître <hi rend="i">La Comédie sans titre, revue et corrigée par son véritable auteur</hi> et affirma le but de son œuvre « Mon dessein, en faisant cette Piece de Theâtre, n’a pas esté de donner aucune atteinte à un Livre que son débit justifie assez ; mais seulement de satiriser un nombre de Gens de differens caracteres, qui prétendent estre en droit d’occuper dans le Mercure Galant la place qu’y pourroient legitimement tenir des personnes d’un veritable merite<note place="bottom"><hi rend="color_161616"><hi rend="i">La Comédie sans titre, revue et corrigée par son véritable auteur</hi>,</hi><hi rend="i">op. cit.</hi></note> ».</p>
+            <p>La même année, Boursault fit paraître <hi rend="i">La Comédie sans titre, revue et corrigée par son véritable auteur</hi> et affirma le but de son œuvre « Mon dessein, en faisant cette Piece de Theâtre, n’a pas esté de donner aucune atteinte à un Livre que son débit justifie assez ; mais seulement de satiriser un nombre de Gens de differens caracteres, qui prétendent estre en droit d’occuper dans le Mercure Galant la place qu’y pourroient legitimement tenir des personnes d’un veritable merite<note place="bottom"><hi rend="i">La Comédie sans titre, revue et corrigée par son véritable auteur</hi>,<hi rend="i">op. cit.</hi></note> ».</p>
             <p>Boursault connut encore quelques succès avec, entre autres, ses deux plus fameuses comédies : <hi rend="i">Les Fables d’Ésope</hi> et <hi rend="i">Ésope à la cour</hi>. Cette dernière ne fut représentée qu’après la mort de son auteur, en 1701.</p>
             <p>Il tomba malade à 63 ans. Après avoir survécu une semaine à une opération il mourut le 15 septembre 1701 à Paris, probablement d’une colique. Il fut inhumé au cimetière des Théatins ; ordre auquel appartenait son fils Chrysostome.</p>
           </div>
@@ -102,8 +99,8 @@
             </quote>
             <div>
               <head>L’homme de théâtre</head>
-              <p>Boursault a écrit seize pièces. Celles auxquelles nous allons nous intéresser sont des petites comédies en un acte, inspirées de sujets italiens et espagnols, souvent désignées comme des « œuvres de jeunesse » de l’auteur ; <hi rend="i">Le Médecin volant</hi> représenté en 1661 puis publié en 1664, <hi rend="i">Le Mort Vivant</hi> et <hi rend="i">Le Jaloux endormy</hi> publiés en 1662. Les trois pièces sont mises en relation et décrites ainsi par Taillandier : « des études de style, du style comique du temps. L’invention est confuse, la langue est un peu vulgaire ; çà et là cependant l’entrain, la bonne humeur, une certaine franchise de dialogue, annoncent des qualités aimables et un esprit bien doué<note place="bottom"><hi rend="color_161616">Saint-René Taillandier, <hi rend="i">Un poète comique du temps de Molière, Boursault, sa vie et ses œuvres</hi>, Paris, 1881, p. 32.</hi></note> ». Hiacinthe Boursault quant à elle y voit « les premieres saillies d’un esprit vif et enjoüé, et comme les coups-d’essai d’un génie heureux et facile, qui sans avoir eu dans son enfance aucune teinture de lettres produisoit de son propre fonds, et sembloit n’ignorer de rien, quoiqu’il n’eût jamais rien appris<note place="bottom"><hi rend="i">Théâtre de feu Monsieur Boursault</hi>, tome I, Paris, 1725, « Avertissement ».</note> ». <hi rend="i">Le Portrait du peintre ou la contre-critique de l’École des femmes</hi>, rédigé lors de son implication dans la querelle de <hi rend="i">L’École des femmes</hi> en 1663 reproche à Molière son réalisme et son habitude au mélange des genres. La pièce se retournera contre son auteur en déclenchant l’écriture de <hi rend="i">L’impromptu de Versailles</hi> par Molière. Il écrivit sa première pièce en cinq actes en 1664 : <hi rend="i">Les Nicandres ou les menteurs qui ne mentent point</hi><note place="bottom">Pièce disponible dans la Bibliothèque dramatique : édition critique établie par Vanessa Viola sous la direction de Georges Forestier (2003-2004).</note>. Il la réécrivit finalement en une pièce en trois actes, « ôt[ant] tout ce qui lui parut de moins intéressant et de superflu<note place="bottom"><hi rend="i">Ibid.</hi>.</note> ».</p>
-              <p>À partir de 1665, il composa une pastorale, <hi rend="i">La Métamorphose des Yeux de Philis changez en astres</hi>, inspirée d’un poème de l’Abbé de Cérisy<note place="bottom">Germain Habert, Abbé de Cérisy (1610-1654) est un ecclésiastique et écrivain français. Il fréquente l’Hôtel de Rambouillet et s’adonne à la poésie précieuse et galante. Son poème <hi rend="color_161616"><hi rend="i">La Métamorphose des Yeux de Philis changez en astres</hi> est considéré par ses contemporains comme un chef d’œuvre.</hi></note> très en vogue à l’époque. Sa petite-fille affirme dans son Avertissement au tome I du<hi rend="i"> Théâtre de feu Monsieur Boursault</hi> que « L’Auteur pria M de Boursault de donner à son Ouvrage la forme et le jeu d’une <hi rend="i">Pastorale</hi> ». Ce détail est impossible dans la mesure où l’Abbé de Cérisy décède en 1654 ; Boursault n’était alors à Paris que depuis trois ans environ.</p>
+              <p>Boursault a écrit seize pièces. Celles auxquelles nous allons nous intéresser sont des petites comédies en un acte, inspirées de sujets italiens et espagnols, souvent désignées comme des « œuvres de jeunesse » de l’auteur ; <hi rend="i">Le Médecin volant</hi> représenté en 1661 puis publié en 1664, <hi rend="i">Le Mort Vivant</hi> et <hi rend="i">Le Jaloux endormy</hi> publiés en 1662. Les trois pièces sont mises en relation et décrites ainsi par Taillandier : « des études de style, du style comique du temps. L’invention est confuse, la langue est un peu vulgaire ; çà et là cependant l’entrain, la bonne humeur, une certaine franchise de dialogue, annoncent des qualités aimables et un esprit bien doué<note place="bottom">Saint-René Taillandier, <hi rend="i">Un poète comique du temps de Molière, Boursault, sa vie et ses œuvres</hi>, Paris, 1881, p. 32.</note> ». Hiacinthe Boursault quant à elle y voit « les premieres saillies d’un esprit vif et enjoüé, et comme les coups-d’essai d’un génie heureux et facile, qui sans avoir eu dans son enfance aucune teinture de lettres produisoit de son propre fonds, et sembloit n’ignorer de rien, quoiqu’il n’eût jamais rien appris<note place="bottom"><hi rend="i">Théâtre de feu Monsieur Boursault</hi>, tome I, Paris, 1725, « Avertissement ».</note> ». <hi rend="i">Le Portrait du peintre ou la contre-critique de l’École des femmes</hi>, rédigé lors de son implication dans la querelle de <hi rend="i">L’École des femmes</hi> en 1663 reproche à Molière son réalisme et son habitude au mélange des genres. La pièce se retournera contre son auteur en déclenchant l’écriture de <hi rend="i">L’impromptu de Versailles</hi> par Molière. Il écrivit sa première pièce en cinq actes en 1664 : <hi rend="i">Les Nicandres ou les menteurs qui ne mentent point</hi><note place="bottom">Pièce disponible dans la Bibliothèque dramatique : édition critique établie par Vanessa Viola sous la direction de Georges Forestier (2003-2004).</note>. Il la réécrivit finalement en une pièce en trois actes, « ôt[ant] tout ce qui lui parut de moins intéressant et de superflu<note place="bottom"><hi rend="i">Ibid.</hi>.</note> ».</p>
+              <p>À partir de 1665, il composa une pastorale, <hi rend="i">La Métamorphose des Yeux de Philis changez en astres</hi>, inspirée d’un poème de l’Abbé de Cérisy<note place="bottom">Germain Habert, Abbé de Cérisy (1610-1654) est un ecclésiastique et écrivain français. Il fréquente l’Hôtel de Rambouillet et s’adonne à la poésie précieuse et galante. Son poème <hi rend="i">La Métamorphose des Yeux de Philis changez en astres</hi> est considéré par ses contemporains comme un chef d’œuvre.</note> très en vogue à l’époque. Sa petite-fille affirme dans son Avertissement au tome I du<hi rend="i"> Théâtre de feu Monsieur Boursault</hi> que « L’Auteur pria M de Boursault de donner à son Ouvrage la forme et le jeu d’une <hi rend="i">Pastorale</hi> ». Ce détail est impossible dans la mesure où l’Abbé de Cérisy décède en 1654 ; Boursault n’était alors à Paris que depuis trois ans environ.</p>
               <p>La même année, une dame lui demanda d’écrire en secret les paroles d’un opéra destiné au Roi sur le thème de Méléagre. Ce projet n’aboutit pas parce que la surprise fut dévoilée au grand jour et que la commanditaire refusa qu’on la mette en musique. Elle devint tout de même la tragédie lyrique <hi rend="i">Méléagre</hi> qui fut représentée. Sur le même modèle, en 1690, Boursault écrivit <hi rend="i">La Fête de la Seine</hi> pour une soirée donnée par la duchesse de Brunswich.</p>
               <p><hi rend="i">Les Fables d’Ésope</hi>, en 1690, insufflèrent un nouvel air dans l’œuvre de Boursault : il décida de transposer les fables d’Ésope sur scène en comédie héroïque. La pièce a lieu en Orient, à la Cour de Crésus, roi de Lydie mais elle fait allusion aux mœurs contemporaines des spectateurs. Ce nouveau genre fut un succès : la pièce fut jouée de nombreuses fois, on en fit plusieurs éditions en France mais aussi en Angleterre, en Allemagne, en Italie.  Par la suite, la pièce fut rebaptisée <hi rend="i">Ésope à la ville. Ésope à la cour</hi> n’a pas pu être corrigé par Boursault mort prématurément. Elle ne fut représentée qu’après la mort de l’auteur le 16 décembre 1701, telle qu’il l’avait laissée et avec des suppressions faites lors de la représentation.</p>
               <p>En 1691, <hi rend="i">Phaëton</hi>, une autre comédie héroïque en vers libres n’eut pas le succès espéré : Boursault en attendait un succès plus important que celui remporté par <hi rend="i">Les Fables d’Ésope</hi>, mais la promotion faite par les comédiens, le succès qu’ils en espéraient (ils auraient refusé de jouer toute autre pièce que celle-ci) a développé, selon Hiacinthe Boursault, une cabale d’auteur qui ont détruit la pièce aux yeux du public qui en fut déçu, y compris ceux qui ne l’avaient pas vu représentée. Fort heureusement, <hi rend="i">Les Mots à la mode</hi>, une petite pièce qui comme son titre l’indique porte sur les tournures et les expressions à la mode au XVII<hi rend="sup">e</hi> siècle, furent plutôt bien reçus en 1694, « avec beaucoup d’applaudissement et de plaisir<note place="bottom"><hi rend="i">Ibid.</hi></note>. ».</p>
@@ -172,7 +169,7 @@
               <l>N’est pas encore preste à faire son retour (v. 707-709).</l>
             </quote>
             <p>Si nous nous intéressons à l’unité de lieu la conclusion est différente. <hi rend="i">Le Médecin volant</hi> donne une localisation précise, « devant la maison de Fernand », qui implique donc peu de changements de lieu possibles ; l’action est concentrée autour de la maison de Fernand. <hi rend="i">Le jaloux endormy</hi> et <hi rend="i">Le Mort vivant</hi> ont des localisations beaucoup plus vastes, le lieu donné pour référence est une ville entière, respectivement Toulon et Séville. Ceci implique des changements de lieu beaucoup plus souples. Pour la première des deux pièces, l’action semble concentrée autour d’un même lieu, la maison de Spadarille et d’Olimpie pour que le jeu d’enfermement puisse avoir lieu. Dans la seconde pièce, il n’est pas évident que l’action implique un seul lieu. Les deux premiers actes peuvent se dérouler dans un même lieu, un « jardin » comme le précise Gusman. Le dernier acte, quant à lui, a lieu dans une auberge.</p>
-            <p>En ce qui concerne l’unité d’action seul <hi rend="i">Le Jaloux endormy</hi> pose problème pour une raison très simple. Nous sommes face à une exposition problématique comme nous le verrons par la suite : le texte de la première édition ne précise pas le plan monté par Alcidor et Cléandre pour tromper le jaloux Spadarille et délivrer Olimpie ; tous les fils de l’action ne sont donc pas noués lors de l’exposition et défaits au dénouement. En ce qui concerne le troisième point, Scherer explique : « le développement de l’intrigue principale aussi bien que des intrigues accessoires dépend exclusivement des données de l’exposition, sans introduction tardive d’événements dus au hasard pur<note place="bottom"><hi xml:lang="en" rend="i">Ibid.</hi></note> ». Cela sous-entend que toutes les actions s’enchaînent de manière nécessaire sans que le hasard ne soit convoqué. Ce point est difficile à satisfaire pour de nombreux dramaturges du XVII<hi rend="sup">e</hi>. Ils doivent effectivement lutter contre un goût du public pour les événements inattendus qui viennent entrainer un dénouement différent de celui pressenti lors de l’exposition. Nous pouvons donc nous interroger sur le fondement du deuxième déguisement de Crispin dans <hi rend="i">Le Médecin volant</hi>. Le valet est contraint d’inventer un nouveau stratagème parce qu’il croise Fernand dans la rue, comme par hasard, alors qu’il est en habit de valet. Ce déguisement ne semble pouvoir être justifié que pour mettre à nouveau en scène les talents du comédien qui joue Crispin et en faire un médecin volant au sens propre du terme. Il n’est nullement motivé par une contrainte de l’intrigue. Dans <hi rend="i">Le Mort vivant</hi>, le mariage entre Fabrice et Stéphanie qui semble être une cause totalement perdue tout au long de la pièce est permis par le dévoilement soudain de l’identité du père de la jeune femme qui est aussi celui du jeune homme qu’elle aime. C’est un coup de théâtre : aucun élément n’annonce cet événement et cause un revirement de l’action. Le personnage d’Henriquez de Galas n’intervient que pour le dénouement de la pièce, pour dévoiler la véritable identité de Stéphanie et rendre le dénouement possible. Nous pouvons le comparer à une sorte de <hi rend="i">deus ex machina</hi>. Intéressons-nous désormais au dernier point et non des moindres : « chaque intrigue accessoire exerce une influence sur le déroulement de l’intrigue principale<note place="bottom"><hi xml:lang="en" rend="i">Ibid.</hi></note> ». Ce point est assez complexe à étudier. Scherer fournit donc des éléments qui nous permettent d’y voir plus clair. Pour que l’intrigue principale et les intrigues accessoires soient liées, il faut tout d’abord que l’intrigue principale influence les intrigues accessoires. Mais il faut aussi nécessairement que l’intrigue principale n’ait lieu que grâce à l’existence de l’intrigue accessoire. Celle-ci doit influencer l’intrigue principale qui, en quelque sorte, en est le résultat. La subordination qui existe entre l’intrigue principale et les intrigues accessoires se fait de l’accessoire vers la principale. Dans les trois pièces, les déguisements de Crispin en médecin, de Gusman en ambassadeur et d’Olimpie en Aspasie servent l’intrigue principale et permettent sa réalisation.</p>
+            <p>En ce qui concerne l’unité d’action seul <hi rend="i">Le Jaloux endormy</hi> pose problème pour une raison très simple. Nous sommes face à une exposition problématique comme nous le verrons par la suite : le texte de la première édition ne précise pas le plan monté par Alcidor et Cléandre pour tromper le jaloux Spadarille et délivrer Olimpie ; tous les fils de l’action ne sont donc pas noués lors de l’exposition et défaits au dénouement. En ce qui concerne le troisième point, Scherer explique : « le développement de l’intrigue principale aussi bien que des intrigues accessoires dépend exclusivement des données de l’exposition, sans introduction tardive d’événements dus au hasard pur<note place="bottom"><hi rend="i">Ibid.</hi></note> ». Cela sous-entend que toutes les actions s’enchaînent de manière nécessaire sans que le hasard ne soit convoqué. Ce point est difficile à satisfaire pour de nombreux dramaturges du XVII<hi rend="sup">e</hi>. Ils doivent effectivement lutter contre un goût du public pour les événements inattendus qui viennent entrainer un dénouement différent de celui pressenti lors de l’exposition. Nous pouvons donc nous interroger sur le fondement du deuxième déguisement de Crispin dans <hi rend="i">Le Médecin volant</hi>. Le valet est contraint d’inventer un nouveau stratagème parce qu’il croise Fernand dans la rue, comme par hasard, alors qu’il est en habit de valet. Ce déguisement ne semble pouvoir être justifié que pour mettre à nouveau en scène les talents du comédien qui joue Crispin et en faire un médecin volant au sens propre du terme. Il n’est nullement motivé par une contrainte de l’intrigue. Dans <hi rend="i">Le Mort vivant</hi>, le mariage entre Fabrice et Stéphanie qui semble être une cause totalement perdue tout au long de la pièce est permis par le dévoilement soudain de l’identité du père de la jeune femme qui est aussi celui du jeune homme qu’elle aime. C’est un coup de théâtre : aucun élément n’annonce cet événement et cause un revirement de l’action. Le personnage d’Henriquez de Galas n’intervient que pour le dénouement de la pièce, pour dévoiler la véritable identité de Stéphanie et rendre le dénouement possible. Nous pouvons le comparer à une sorte de <hi rend="i">deus ex machina</hi>. Intéressons-nous désormais au dernier point et non des moindres : « chaque intrigue accessoire exerce une influence sur le déroulement de l’intrigue principale<note place="bottom"><hi rend="i">Ibid.</hi></note> ». Ce point est assez complexe à étudier. Scherer fournit donc des éléments qui nous permettent d’y voir plus clair. Pour que l’intrigue principale et les intrigues accessoires soient liées, il faut tout d’abord que l’intrigue principale influence les intrigues accessoires. Mais il faut aussi nécessairement que l’intrigue principale n’ait lieu que grâce à l’existence de l’intrigue accessoire. Celle-ci doit influencer l’intrigue principale qui, en quelque sorte, en est le résultat. La subordination qui existe entre l’intrigue principale et les intrigues accessoires se fait de l’accessoire vers la principale. Dans les trois pièces, les déguisements de Crispin en médecin, de Gusman en ambassadeur et d’Olimpie en Aspasie servent l’intrigue principale et permettent sa réalisation.</p>
             <p>Les unités d’action et de lieu impliquent une donnée de la structure externe de la pièce : la liaison des scènes. Chaque scène, dans les trois pièces, correspond à l’entrée ou à la sortie d’un personnage, ce qui représente déjà un premier niveau d’enchaînement. Cependant, la nécessité de la liaison des scènes est plutôt motivée avant tout par des contraintes matérielles. Nous l’avons dit, seul l’avant de la scène est éclairé, il faut donc que le comédien arrive depuis les coulisses jusqu’à l’avant-scène. Pendant ce temps-là, le temps doit être meublé. Les auteurs préfèrent donc un monologue, fut-il, maladroit à un silence. Ce phénomène est clairement visible dans la structure du <hi rend="i">Médecin volant</hi>. Sur les vingt-cinq scènes que compte la pièce, huit sont des monologues. En outre, pour que les scènes soient liées il est nécessaire qu’il y ait une évolution dans l’action sans que la scène ne soit cependant vide à aucun instant. L’abbé d’Aubignac dans sa <hi rend="i">Pratique du théâtre</hi>, distingue quatre sortes de liaisons de scènes : de présence, de recherche, de bruit et de temps. La liaison de présence est la seule qui soit utilisée dans les trois pièces ; elle est la forme de liaison la plus couramment utilisée dans le théâtre du XVII<hi rend="sup">e</hi>. Elle a lieu lorsqu’un même personnage reste sur scène d’une scène à l’autre. Nous avons relevé le cas vingt-et-une fois dans <hi rend="i">Le Médecin volant</hi> (entre toutes les scènes de la scène 1 à la scène 20 puis de la scène 22 à la dernière scène), dix-sept fois dans <hi rend="i">Le Mort vivant</hi> (entre toutes les scènes de la scène 2 de l’acte I jusqu’à la fin de l’acte puis de la première scène de l’acte II à la scène 6 du même acte et enfin entre toutes les scènes de l’acte III) et quatorze fois dans <hi rend="i">Le Jaloux endormy</hi> (entre toutes les scènes de la pièce). La liaison entre les scènes 21 et 22 du <hi rend="i">Médecin volant</hi> se fait par le biais de la vision : Philipin est seul sur scène mais il dit voir Crispin sauter par la fenêtre au vers 427. Le lien entre ces scènes n’est pas très rigoureux ce qui est confirmé par les didascalies : à la scène 20 Fernand est « seul » sur scène puis à la scène 21 Crispin est « à la fenestre » et enfin à la scène 22 Philipin sort de scène alors que son maître était censé être seul deux scènes avant. Par cette analyse, nous avons pu remarquer que certaines scènes ne sont pas liées. Dans <hi rend="i">Le Médecin volant</hi>, c’est le cas entre les scènes 20 et 21 ; la scène 20 est un monologue de Fernand qui s’enchaîne avec un monologue de Crispin « à la fenestre ». Le cas du<hi rend="i"> Mort vivant</hi> dépasse le simple souci de la liaison des scènes puisqu’il est aussi divisé en trois actes. Entre l’acte I et l’acte II, un même personnage, Fabrice, reparait. Cet usage n’est pas apprécié par les critiques et l’abbé d’Aubignac le précise clairement « le même acteur qui ferme un acte ne doit pas ouvrir celui qui suit<note place="bottom">Abbé d’Aubignac, <hi rend="i">Pratique du théâtre</hi>, L. III, ch. 5, p. 231. </note> ». Ceci s’explique aisément, il faut qu’il y ait une rupture entre les actes pour que le découpage en actes soit justifié, pour cela quoi de plus simple que de changer de personnages d’un acte à un autre. La rupture que marque l’entracte est l’occasion de s’occuper d’événements qui ne feraient pas progresser l’action ou qui seraient trop longs, trop ennuyeux à représenter sur scène. Cependant, dans le cas de Fabrice, il part à la fin de l’acte I en compagnie de Gusman pour préparer le déguisement de ce dernier comme il le dit aux vers 340 à 342 puis son ami Lazarille le rejoint au début de l’acte II pour lui montrer une lettre de son oncle. Une action a donc eu lieu hors-scène justifiant l’entracte : une action suffisamment courte pour que le passage d’un acte à l’autre ne soit pas invraisemblable. En outre, l’action du deuxième acte semble commencer dans un nouveau lieu puisque c’est Lazarille qui vient trouver son ami. Le passage de l’acte II à l’acte III est plus conventionnel, les personnages tout comme le lieu de l’action sont différents. Boursault respecte la tradition selon laquelle chaque acte doit développer une scène plus importante que les autres, un clou de l’intrigue. Dans l’acte I, le clou se trouve dans les scènes 5 et 6 qui mettent en place l’amour des deux jeunes hommes pour la même femme, pour l’acte II il s’agit naturellement de l’apparition de Gusman déguisé en Ambassadeur d’Afrique durant les scènes 2 et 3 et enfin concernant l’acte III, la scène finale qui modifie le dénouement attendu par le spectateur.</p>
             <p>Nous ne nous intéresserons pas au couple vraisemblance et bienséance qui n’est pas important dans les petites comédies. Contrairement à la tragédie, le théâtre comique est indifférent à ces critères sauf dans la comédie sérieuse.</p>
             <p>Relevons par exemple les principales invraisemblances de nos petites comédies qui ne sont cependant pas perçues comme telles puisqu’elles font partie de la construction de la pièce. Dans <hi rend="i">Le Médecin volant</hi> la scène de l’urine très développée peut certes choquer le public de l’époque mais ce surdéveloppement ne permet pas l’enrichissement comique de la scène ; cela n’apporte rien de plus pour l’évolution de la pièce. En outre, le fait qu’un vrai médecin ne reconnaisse pas l’imposture de Crispin le rend ridicule. Ceci s’inscrit dans la tradition comique contre la médecine très développée au XVII<hi rend="sup">e</hi> siècle. Dans <hi rend="i">Le Jaloux endormy</hi>, il est totalement invraisemblable que Spadarille ne cherche pas à mettre Olimpie et Aspasie en présence l’un de l’autre dès que naît son soupçon quant à l’identité de cette dernière. Sa première réaction en voyant arriver Olimpie déguisée est la bonne : il reconnaît la jeune femme de loin mais en la voyant de près il se laisse duper par les dires de Cléandre et d’Aspasie, ce qui est tout de même assez paradoxal. En ce qui concerne <hi rend="i">Le Mort vivant</hi>, l’arrivée d’Henriquez de Galas au troisième acte permet de dénouer toute l’intrigue. Il arrive comme un sauveur mettant fin au déguisement de Gusman en esprit mais aussi au conflit entre Fabrice et Lazarille pour la main de Stéphanie. Il est invraisemblable qu’un seul homme vienne permettre un tel dénouement d’autant plus qu’il n’apparaît qu’au dernier acte.</p>
@@ -197,8 +194,8 @@
             <head>Le style comique</head>
             <p>Le style comique s’appuie sur la rhétorique. Nous pouvons relever par exemple sa tendance à élargir une situation particulière à une tendance générale. Ceci se manifeste par l’emploi de l’article indéfini à la place d’un article possessif  qui « gomme les aspects spécifiques de la scène pour en souligner la dimension archétypale<note place="bottom">G. Conesa, « Le style de la comédie », <hi rend="i">Littératures classiques</hi>, nº 28, automne 1996, p. 96.</note> ». Ainsi dans <hi rend="i">Le Jaloux endomy</hi>, dans la première scène Spadarille évoque « les femmes » (v. 19) avant de passer à « ma femme » (v. 24).</p>
             <p>Pour renforcer ce phénomène,  nous pouvons noter l’usage du présent gnomique qui contribue à élargir la portée de la situation jouée sur scène et de la rendre la plus objective possible. Dans <hi rend="i">Le Jaloux endormy</hi>, nous pouvons relever le discours prononcé par Spadarille lors de la première scène alors qu’il énonce à sa femme les raisons de son enfermement. Nous pouvons relever pour exemple les vers 41 et 42 qui se présentent comme des maximes : « Nous savons mieux que vous ce que ces autres font, / Et ne pretendons pas devenir ce qu’ils sont. ». L’emploi de la première personne du pluriel permet d’élargir la portée des paroles de Spadarille qui ne parle plus pour lui seul mais au nom de tous les hommes qui subissent les actions de leur femme infidèle. Il en va de même dans les vers 27 et 28 « Que si vostre Mary dans ce lieu vous enferme, / C’est qu’il croit votre honneur n’estre pas assez ferme, ». Spadarille parle de lui à la troisième personne du singulier se détachant de son discours en faisant donc une ligne de conduite à suivre, la parole d’un autre. Cette construction permet par exemple de pouvoir comparer les discours de Spadarille et d’Arnolphe sur la nécessité d’enfermer les femmes.</p>
-            <p>La comédie se fait donc le porte-parole d’une culture et d’un temps comme en témoignent les expressions conventionnelles que nous pouvons retrouver dans de nombreuses pièces du XVII<hi rend="sup">e</hi> siècle. À travers ces paroles « le personnage prend moins position à titre personnel que comme porte-parole d’une culture<note place="bottom"><hi xml:lang="es" rend="i">Ibid.</hi>, p. 97.</note>. »</p>
-            <p>Depuis Corneille, le parler familier et les images du quotidien sont introduits dans le style de la comédie. Boursault ne se prive pas de cette nouveauté. Nous pouvons trouver dans ses pièces des allusions au jeu de cartes, dans <hi rend="i">Le Médecin volant</hi> « taupe à tout » (v. 426) dans <hi rend="i">Le Jaloux endormy</hi>  l’allusion à la « prime » (v. 92 et 94) ou encore à la chasse au v. 171 de la même pièce « droit de chasse ». En outre, le grand dramaturge insuffle une autre caractéristique au langage comique, il introduit l’émotivité. Les personnages comiques ont ainsi accès à des sentiments qui leur donne un minimum de relief. Ceci peut apparaître dans le vocabulaire mais aussi dans les « diverses exclamations et appuis du discours, qui permettent aux comédiens de précieux effets d’intonation et d’inflexion<note place="bottom"><hi xml:lang="es" rend="i">Ibid.</hi>, p. 101.</note> ». Les trois pièces sont riches en ce genre d’expression, nous ne relèverons donc pas les nombreuses occurrences de « Ah » ou « Oh » qui les ponctuent.</p>
+            <p>La comédie se fait donc le porte-parole d’une culture et d’un temps comme en témoignent les expressions conventionnelles que nous pouvons retrouver dans de nombreuses pièces du XVII<hi rend="sup">e</hi> siècle. À travers ces paroles « le personnage prend moins position à titre personnel que comme porte-parole d’une culture<note place="bottom"><hi rend="i">Ibid.</hi>, p. 97.</note>. »</p>
+            <p>Depuis Corneille, le parler familier et les images du quotidien sont introduits dans le style de la comédie. Boursault ne se prive pas de cette nouveauté. Nous pouvons trouver dans ses pièces des allusions au jeu de cartes, dans <hi rend="i">Le Médecin volant</hi> « taupe à tout » (v. 426) dans <hi rend="i">Le Jaloux endormy</hi>  l’allusion à la « prime » (v. 92 et 94) ou encore à la chasse au v. 171 de la même pièce « droit de chasse ». En outre, le grand dramaturge insuffle une autre caractéristique au langage comique, il introduit l’émotivité. Les personnages comiques ont ainsi accès à des sentiments qui leur donne un minimum de relief. Ceci peut apparaître dans le vocabulaire mais aussi dans les « diverses exclamations et appuis du discours, qui permettent aux comédiens de précieux effets d’intonation et d’inflexion<note place="bottom"><hi rend="i">Ibid.</hi>, p. 101.</note> ». Les trois pièces sont riches en ce genre d’expression, nous ne relèverons donc pas les nombreuses occurrences de « Ah » ou « Oh » qui les ponctuent.</p>
           </div>
           <div>
             <head>Un dénouement caractéristique : le mariage</head>
@@ -380,15 +377,7 @@
                 <cell>La Jalousie du Barbouillé, Molière</cell>
               </row>
               <row>
-                <cell>
-                  <p rend="cell">Ah friande !</p>
-                  <p rend="cell">Que si je m’empeschois de vous estre cruel,</p>
-                  <p rend="cell">L’honneur dont vous parlez deviendroit casuel;</p>
-                  <p rend="cell">Et que sachant les tours dont les femmes sont dignes,</p>
-                  <p rend="cell">On nous prendroit bien-tost dans le Ciel pour des Signes,</p>
-                  <p rend="cell">Puisque de vos plaisirs un bon Frere garny</p>
-                  <p rend="cell">Produiroit Capricorne, et feroit Gemini!</p>
-                  <p rend="cell">(scène 1, v. 16-22)<space rend="tab">    </space></p>
+                <cell>Ah friande !<lb/>Que si je m’empeschois de vous estre cruel,<lb/>L’honneur dont vous parlez deviendroit casuel;<lb/>Et que sachant les tours dont les femmes sont dignes,<lb/>On nous prendroit bien-tost dans le Ciel pour des Signes,<lb/>Puisque de vos plaisirs un bon Frere garny<lb/>Produiroit Capricorne, et feroit Gemini!<lb/>(scène 1, v. 16-22)
                 </cell>
                 <cell>ha! Madame la carogne, je vous trouve avec un homme, après toutes les défenses que je vous ai faites, et vous me voulez envoyer de Gemini en Capricorne ! (scène 4)</cell>
               </row>
@@ -400,20 +389,9 @@
                 <cell>L’Ecole des femmes, Molière</cell>
               </row>
               <row>
-                <cell>
-                  <p rend="cell">Sachez que de tout temps j’appréhende le blasme,</p>
-                  <p rend="cell">Qu’au gré de mon désir je gouverne ma femme,</p>
-                  <p rend="cell">Que sans en murmurer il faut suivre ma loy,</p>
-                  <p rend="cell">Et que quand je vous pris ce ne fut que pour moy.</p>
-                  <p rend="cell">(scène 1, v. 23-26)</p>
+                <cell>Sachez que de tout temps j’appréhende le blasme,<lb/>Qu’au gré de mon désir je gouverne ma femme,<lb/>Que sans en murmurer il faut suivre ma loy,<lb/>Et que quand je vous pris ce ne fut que pour moy.<lb/>(scène 1, v. 23-26)
                 </cell>
-                <cell>
-                  <p rend="cell">Celle qu’un lien honnête,</p>
-                  <p rend="cell">Fait entrer au lit d’autrui:</p>
-                  <p rend="cell">Doit se mettre dans la tête,</p>
-                  <p rend="cell">Malgré le train d’aujourd’hui,</p>
-                  <p rend="cell">Que l’homme qui la prend, ne la prend que pour lui.</p>
-                  <p rend="cell">(Acte III, scène 2, v. 747-751)</p>
+                <cell>Celle qu’un lien honnête,<lb/>Fait entrer au lit d’autrui:<lb/>Doit se mettre dans la tête,<lb/>Malgré le train d’aujourd’hui,<lb/>Que l’homme qui la prend, ne la prend que pour lui.<lb/>(Acte III, scène 2, v. 747-751)
                 </cell>
               </row>
             </table>
@@ -435,7 +413,7 @@
             <head>Une pièce qui inspire à son tour…</head>
             <p>L’acteur Du Perche réalise une copie en octosyllabes du <hi rend="i">Mort vivant</hi> publiée en 1666 et intitulée <hi rend="i">L’Ambassadeur d’Affrique</hi>. Pour Lancaster, cela témoigne d’une certaine popularité acquise par la pièce. Du Perche réutilise les première et dernière scènes de l’acte I, les deuxième et troisième de l’acte II et aucune de l’acte III selon Lancaster. Les noms des personnages sont changés, mais il conserve le héros, son valet, l’héroïne et son père qu’il ne fait pas apparaître sur scène tout comme les personnages en rapport avec l’auberge. Certains personnages sont ajoutés : la jeune femme a une servante, Béatris, son père un valet nommé l’Allemand et le faux Ambassadeur a un valet et une suite. Chez Du Perche, l’héroïne n’a pas été adoptée et son père n’a donc pas l’intention de l’épouser. Il a promis sa main à un Docteur. Les deux amoureux de la jeune femme ne sont pas des amis proches ; par conséquent, tous les moyens mis en œuvres par Fabrice pour que son ami quitte la ville ne sont pas réexploités, le valet complice ne rédige pas une fausse lettre, il se déguise seulement en ambassadeur d’Afrique. N’ayant plus lieu d’être, la scène de reconnaissance dans l’auberge est effacée. Du Perche invente une langue africaine qui renforce le côté comique du déguisement du valet en ambassadeur. Il effectue des modifications sur l’action notamment en imitant d’autres pièces que celle de Boursault :</p>
             <quote>
-              <p>Le changement dans la première scène entre le valet du héros et la servante de l’héroïne en tant que conseiller du jeune homme peut avoir été suggéré par le <hi rend="i">Mariage de Rien</hi> de Montfleury, l’utilisation d’un langage supposément africain, par <hi rend="i">Mary sans femme</hi> du même auteur, l’introduction d’un français germanisé par <hi rend="i">l’Etourdi</hi> de Molière ou <hi rend="i">l’Après Soupé</hi> de Poisson<note place="bottom">« <hi xml:lang="en" rend="i">Change in the first scene from the heroe's valet to the heroine's maid as the young man’s adviser may have been suggested by Montfleury's</hi> Mariage de Rien, <hi xml:lang="en" rend="i">the use of supposedly African langage, by the same author's</hi> Mary sans femme,<hi xml:lang="en" rend="i"> the introduction of Germanized French by Moliere's</hi> Etourdi<hi xml:lang="en" rend="i"> or Poisson’s</hi> Après Soupé<hi rend="color_222222">. » </hi>H. Lancaster<hi rend="color_222222">,<hi rend="i"> op. cit.</hi>, p. 315.</hi></note>.</p>
+              <p>Le changement dans la première scène entre le valet du héros et la servante de l’héroïne en tant que conseiller du jeune homme peut avoir été suggéré par le <hi rend="i">Mariage de Rien</hi> de Montfleury, l’utilisation d’un langage supposément africain, par <hi rend="i">Mary sans femme</hi> du même auteur, l’introduction d’un français germanisé par <hi rend="i">l’Etourdi</hi> de Molière ou <hi rend="i">l’Après Soupé</hi> de Poisson<note place="bottom">« <hi rend="i">Change in the first scene from the heroe's valet to the heroine's maid as the young man’s adviser may have been suggested by Montfleury's</hi> Mariage de Rien, <hi rend="i">the use of supposedly African langage, by the same author's</hi> Mary sans femme,<hi rend="i"> the introduction of Germanized French by Moliere's</hi> Etourdi<hi rend="i"> or Poisson’s</hi> Après Soupé. » H. Lancaster,<hi rend="i"> op. cit.</hi>, p. 315.</note>.</p>
             </quote>
             <p>Dans <hi rend="i">L’Ambassadeur d’Affrique</hi>, le dénouement n’est pas le même que celui de la pièce de Boursault. Ceci s’explique aisément par le fait que Du Perche a modifié l’action et n’a pas introduit de père adoptif. La pièce se termine par l’annonce de la mort du père par son valet l’allemand : la jeune femme est donc libérée de l’engagement que celui-ci avait pris auprès du Docteur et peut épouser son amoureux. Tout comme dans la pièce de Boursault, le déguisement du valet n’aura pas directement permis le mariage.</p>
           </div>
@@ -556,7 +534,7 @@
             </div>
             <div>
               <head>Lazarille, jeune premier désespéré</head>
-              <p>À première vue, le suffixe « ille » qu’on retrouve dans de nombreux noms de personnages du XVII<hi rend="sup">e</hi> siècle<note place="bottom">Dans <hi xml:lang="zxx" rend="i">El desdén con el desdén</hi>, dont Molière tirera <hi rend="i">La Princesse d’Élide</hi> en 1664, le valet se nomme Polilla, celui de <hi xml:lang="zxx" rend="i">L'Esprit follet</hi> (1642) de D'Ouville s’appelle Carrille tout comme celui de <hi rend="i">La Dupe amoureuse</hi> (1671) de Rosimond.</note>, rappelle les noms de personnages hispaniques et implique donc une référence au personnage du <hi rend="i">gracioso</hi>. Cependant, le personnage de Boursault n’est pas un valet, c’est un jeune premier. Il n’est donc pas question ici d’une allusion au personnage du <hi rend="i">gracioso</hi> et à son héritage. Nous pouvons supposer que l’auteur à utilisé ce suffixe simplement pour donner une touche hispanique à son personnage comme il l’a probablement fait aussi en nommant Gusman, même si ce nom est largement donné aux valets du XVII<hi rend="sup">e</hi> siècle français. Dans sa thèse Francesca Borello affirme que</p>
+              <p>À première vue, le suffixe « ille » qu’on retrouve dans de nombreux noms de personnages du XVII<hi rend="sup">e</hi> siècle<note place="bottom">Dans <hi rend="i">El desdén con el desdén</hi>, dont Molière tirera <hi rend="i">La Princesse d’Élide</hi> en 1664, le valet se nomme Polilla, celui de <hi rend="i">L'Esprit follet</hi> (1642) de D'Ouville s’appelle Carrille tout comme celui de <hi rend="i">La Dupe amoureuse</hi> (1671) de Rosimond.</note>, rappelle les noms de personnages hispaniques et implique donc une référence au personnage du <hi rend="i">gracioso</hi>. Cependant, le personnage de Boursault n’est pas un valet, c’est un jeune premier. Il n’est donc pas question ici d’une allusion au personnage du <hi rend="i">gracioso</hi> et à son héritage. Nous pouvons supposer que l’auteur à utilisé ce suffixe simplement pour donner une touche hispanique à son personnage comme il l’a probablement fait aussi en nommant Gusman, même si ce nom est largement donné aux valets du XVII<hi rend="sup">e</hi> siècle français. Dans sa thèse Francesca Borello affirme que</p>
               <quote>
                 <p>Fabrice et Lazarille (<hi rend="i">Le Mort vivant</hi>) sont si semblables, ont un caractère si prononcé et possèdent une telle utilité pour l’action dramatique qu’il est presque impossible de déterminer réellement quel est celui qui occupe une fonction centrale<note place="bottom">Borello Francesca, <hi rend="i">La Dramaturgie d’Edme Boursault</hi>, thèse de doctorat, dir. Robert Garapon, Paris, 1991, p. 14.</note>.</p>
               </quote>
@@ -574,12 +552,12 @@
             <head>Création et représentation</head>
             <p>Le privilège du <hi rend="i">Médecin volant</hi> date du 31 octobre 1664. Le texte est republié à Lyon en 1665 chez Charles Mathevet. Lancaster établit donc la première représentation la même année rejetant l’idée des frères Parfaict dans leur <hi rend="i">Dictionnaire des théâtres de</hi> Paris, idée selon laquelle la première représentation aurait eu lieu en 1661 à l’Hôtel de Bourgogne, information qu’on retrouve aussi chez Fournel dans <hi rend="i">Les Contemporains de Molière</hi> qui affirme que <hi rend="i">Le Médecin volant</hi> aurait été joué pour la première fois en novembre 1661 :</p>
             <quote>
-              <p>Ce dernier [Hoffmann], suivant les frères Parfaict, la Bibliothèque du théâtre français et Fournel, donne la date de la première représentation est 1661, mais il n’apporte aucune preuve. La date de l’impression  fait qu’il est plus probable qu’elle ait été jouée pour la première fois en 1664, année au cours de laquelle la pièce du même titre attribué à Molière a été jouée quatre fois<note place="bottom">«<hi rend="i">The latter [Hoffmann] following the frères Parfaict, the</hi> Bibliothèque du théâtre français<hi rend="i"> and Fournel, gives the date of the first performance is 1661, but offers no evidence. The date of printing makes it more probable that it was first acted in 1664, a year in which the play of the same title attributed to Molière was performed four times</hi>. <hi rend="color_222222">» H. Lancaster, <hi rend="i">op. cit.</hi>, p. 683.</hi></note>.</p>
+              <p>Ce dernier [Hoffmann], suivant les frères Parfaict, la Bibliothèque du théâtre français et Fournel, donne la date de la première représentation est 1661, mais il n’apporte aucune preuve. La date de l’impression  fait qu’il est plus probable qu’elle ait été jouée pour la première fois en 1664, année au cours de laquelle la pièce du même titre attribué à Molière a été jouée quatre fois<note place="bottom">«<hi rend="i">The latter [Hoffmann] following the frères Parfaict, the</hi> Bibliothèque du théâtre français<hi rend="i"> and Fournel, gives the date of the first performance is 1661, but offers no evidence. The date of printing makes it more probable that it was first acted in 1664, a year in which the play of the same title attributed to Molière was performed four times</hi>. » H. Lancaster, <hi rend="i">op. cit.</hi>, p. 683.</note>.</p>
             </quote>
             <p>Cependant, Lancaster laisse de côté les représentations de la pièce de Molière qui ont eu lieu avant 1664, selon le <hi rend="i">Registre de La Grange</hi>, le 14 juin 1661, le 25 octobre 1661, le 24 mars 1662, les 28 et 30 avril 1662, le 15 mai 1663 et effectivement quatre fois en 1664, le 29 juin, les 4, 6 et 8 juillet. Nous retrouvons la pièce de Boursault dans le répertoire d’une troupe de province en 1668.</p>
             <p>La pièce est inspirée d’un sujet italien très en vogue à l’époque, celui du <hi rend="i">Medico volante</hi>. De nombreuses comparaisons peuvent être effectuées avec la pièce de Molière comme nous le verrons par la suite. Lancaster affirme que la déclaration de Boursault dans l’<hi rend="i">Avis au lecteur</hi> selon laquelle sa pièce est une adaptation d’un sujet italien et qui plus est le meilleur qui soit, est vraie :</p>
             <quote>
-              <p>ils ne sont pas suffisamment étayées par des preuves pour justifier le rejet de la déclaration de Boursault, toutes les ressemblances entre les deux pièces de théâtre français peuvent être expliquées par leur source commune […] comme l’autre <hi rend="i">Médecin volant</hi> n’avait pas encore été publié, Boursault a sans doute eu quelques difficultés à l’imiter<note place="bottom">« […] <hi xml:lang="en" rend="i">they are not sufficiently supported by evidence to justify the rejection of Boursault’s statement, for all the ressemblances between the two french plays can be explained by their common source</hi> […] <hi xml:lang="en" rend="i">as the other</hi> Médecin volant<hi xml:lang="en" rend="i"> had not been published, Boursault would probably have had some difficulty in imitating</hi>. <hi rend="color_222222">» <hi xml:lang="en" rend="i">ibid.</hi></hi></note>.</p>
+              <p>ils ne sont pas suffisamment étayées par des preuves pour justifier le rejet de la déclaration de Boursault, toutes les ressemblances entre les deux pièces de théâtre français peuvent être expliquées par leur source commune […] comme l’autre <hi rend="i">Médecin volant</hi> n’avait pas encore été publié, Boursault a sans doute eu quelques difficultés à l’imiter<note place="bottom">« […] <hi rend="i">they are not sufficiently supported by evidence to justify the rejection of Boursault’s statement, for all the ressemblances between the two french plays can be explained by their common source</hi> […] <hi rend="i">as the other</hi> Médecin volant<hi rend="i"> had not been published, Boursault would probably have had some difficulty in imitating</hi>. » <hi rend="i">ibid.</hi></note>.</p>
             </quote>
             <p>L’argument de la non publication de la pièce de Molière qui justifierait le fait que Boursault n’ait pas copié la pièce du grand dramaturge ne nous semble pas suffisante. Nous savons effectivement que les textes des éditions dites « pirates » sont réalisés par des personnes qui copient la pièce lors d’une représentation. Molière a été victime de ce phénomène. Une édition « pirate » des <hi rend="i">Précieuses ridicules</hi> l’a contraint d’imprimer lui-même sa petite comédie qu’il ne comptait pourtant pas publier. Cela se reproduit avec <hi rend="i">Sganarelle ou le Cocu imaginaire</hi> que le libraire Jean Ribou parvient à publier à son nom. En outre, Lancaster pense que pour son <hi rend="i">Médecin malgré lui</hi>, Molière a pu chercher son inspiration dans son propre <hi rend="i">Médecin volant</hi> mais aussi dans celui de Boursault. Seulement, l’analyse de Georges Forestier et de Claude Bourqui à ce sujet-là, dans la <hi rend="i">Notice</hi> du <hi rend="i">Médecin volant</hi> de l’édition des <hi rend="i">Œuvres complètes</hi> de Molière (2010) dans la collection de la Pléiade, nous semble plus pertinente.</p>
             <quote>
@@ -742,9 +720,7 @@
                   </row>
                   <row>
                     <cell>Si tu veux entreprendre cela, va, je te donnerai dix pistoles (scène 2)</cell>
-                    <cell>
-                      <p rend="cell">Sans perdre icy d’inutiles paroles,</p>
-                      <p rend="cell">Ce service rendu te vaudra six pistoles (scène 3)</p>
+                    <cell>Sans perdre icy d’inutiles paroles,<lb/>Ce service rendu te vaudra six pistoles (scène 3)
                     </cell>
                   </row>
                   <row>
@@ -756,11 +732,7 @@
                   </row>
                   <row>
                     <cell>Hippocrate dit et Galien par vives raisons persuade qu’une personne ne se porte pas bien quand elle est malade (scène 4)</cell>
-                    <cell>
-                      <p rend="cell">Je say par le moyen du plus noble des Arts,</p>
-                      <p rend="cell">Que qui meurt en Fevrier n’est plus malade en <space>                                                                   </space>Mars</p>
-                      <p rend="cell">Que de quatre saisons une année est pourveuë,</p>
-                      <p rend="cell">Et que le mal des yeux est contraire à la veuë. (scène 7)</p>
+                    <cell>Je say par le moyen du plus noble des Arts,<lb/>Que qui meurt en Fevrier n’est plus malade en Mars<lb/>Que de quatre saisons une année est pourveuë,<lb/>Et que le mal des yeux est contraire à la veuë. (scène 7)
                     </cell>
                   </row>
                   <row>
@@ -768,85 +740,35 @@
                   </row>
                   <row>
                     <cell>Salamalec, Salamalec, Rodrigue as-tu du cœur ? Signor, si Signor, non per omnia saecula saeculorum (scène 4)</cell>
-                    <cell>
-                      <p rend="cell">Pythagore, Platon,</p>
-                      <p rend="cell">Masche-à-vuide, Pancrace, Hesiode, Caton (scène 7)</p>
+                    <cell>Pythagore, Platon,<lb/>Masche-à-vuide, Pancrace, Hesiode, Caton (scène 7)
                     </cell>
                   </row>
                   <row>
                     <cell cols="2">Scène de confusion entre le bras du père et de la fille ; le valet-médecin tâte le bras du père pour diagnostiquer la maladie de sa fille.</cell>
                   </row>
                   <row>
-                    <cell>
-                      <p rend="cell">Mais encore voyons un peu. - Hé! ce n’est pas lui qui est malade, c’est sa fille. - Il n’importe: le sang du père et de la fille ne sont qu’une même chose; et par l’altération de celui du père, je puis connaître la maladie de la fille. (scène 4)<note place="bottom">La scène se retrouve aussi  à la scène 5 de l’acte III de <hi rend="i">L’Amour médecin</hi> de Molière : « CLITANDRE, <hi rend="i">tâtant le pouls à Sganarelle</hi>.- Votre fille est bien malade. - Vous connaissez cela ici? - Oui, par la sympathie qu’il y a entre le père et la fille. »</note></p>
+                    <cell>Mais encore voyons un peu. - Hé! ce n’est pas lui qui est malade, c’est sa fille. - Il n’importe: le sang du père et de la fille ne sont qu’une même chose; et par l’altération de celui du père, je puis connaître la maladie de la fille. (scène 4)<note place="bottom">La scène se retrouve aussi  à la scène 5 de l’acte III de <hi rend="i">L’Amour médecin</hi> de Molière : « CLITANDRE, <hi rend="i">tâtant le pouls à Sganarelle</hi>.- Votre fille est bien malade. - Vous connaissez cela ici? - Oui, par la sympathie qu’il y a entre le père et la fille. »</note>
                     </cell>
-                    <cell>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">Votre bras, que je tâte</p>
-                      <p rend="cell">Si pour vous il est vrai que la mort ait si hâte,</p>
-                      <p rend="cell">Donnez, dis-je.</p>
-                      <p rend="cell">Au lieu de prendre le bras de Lucresse, il prend celui de son père et dit :</p>
-                      <p rend="cell">Tu Dieu ! comme il bat, votre pouls,</p>
-                      <p rend="cell">J’aurais bien de la peine à répondre de vous,</p>
-                      <p rend="cell">Et votre maladie est sans doute mortelle,</p>
-                      <p rend="cell">Prenez-y garde.</p>
-                      <p rend="cell">FERNAND</p>
-                      <p rend="cell">O Dieux ! quelle triste nouvelle;</p>
-                      <p rend="cell">Je suis donc bien malade, ô Monsieur ?</p>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">Vous, pourquoi ?</p>
-                      <p rend="cell">FERNAND</p>
-                      <p rend="cell">Vous n’avez pris le bras à personne qu’à moi.</p>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">Et cela vous étonne ! Une tendresse extrême</p>
-                      <p rend="cell">Rend la fille le père, et le père elle-même. (scène 11)</p>
+                    <cell>CRISPIN<lb/>Votre bras, que je tâte<lb/>Si pour vous il est vrai que la mort ait si hâte,<lb/>Donnez, dis-je.<lb/>Au lieu de prendre le bras de Lucresse, il prend celui de son père et dit :<lb/>Tu Dieu ! comme il bat, votre pouls,<lb/>J’aurais bien de la peine à répondre de vous,<lb/>Et votre maladie est sans doute mortelle,<lb/>Prenez-y garde.<lb/>FERNAND<lb/>O Dieux ! quelle triste nouvelle;<lb/>Je suis donc bien malade, ô Monsieur ?<lb/>CRISPIN<lb/>Vous, pourquoi ?<lb/>FERNAND<lb/>Vous n’avez pris le bras à personne qu’à moi.<lb/>CRISPIN<lb/>Et cela vous étonne ! Une tendresse extrême<lb/>Rend la fille le père, et le père elle-même. (scène 11)
                     </cell>
                   </row>
                   <row>
                     <cell cols="2">Importance de l’ordonnance d’un médecin pour pouvoir mourir.</cell>
                   </row>
                   <row>
-                    <cell>
-                      <p rend="cell">Monsieur le médecin, j’ai grand’peur qu’elle ne meure. - Ah! qu’elle s’en garde bien! Il ne faut pas qu’elle s’amuse à se laisser mourir sans l’ordonnance du médecin. (scène 4)<note place="bottom">La scène se retrouve aussi à la scène 4 de l’acte II du <hi rend="i">Médecin malgré lui</hi> de Molière : « Je n’ai qu’elle de fille: et j’aurais tous les regrets du monde, si elle venait à mourir. - Qu'elle s’en garde bien, il ne faut pas qu’elle meure, sans l’ordonnance du médecin. » Nous trouvons une variante de cette formule à la scène 1 de l’acte II de <hi rend="i">L’Amour médecin</hi> : « Est-ce que votre fille ne peut pas bien mourir, sans le secours de ces messieurs-là ? »</note></p>
+                    <cell>Monsieur le médecin, j’ai grand’peur qu’elle ne meure. - Ah! qu’elle s’en garde bien! Il ne faut pas qu’elle s’amuse à se laisser mourir sans l’ordonnance du médecin. (scène 4)<note place="bottom">La scène se retrouve aussi à la scène 4 de l’acte II du <hi rend="i">Médecin malgré lui</hi> de Molière : « Je n’ai qu’elle de fille: et j’aurais tous les regrets du monde, si elle venait à mourir. - Qu'elle s’en garde bien, il ne faut pas qu’elle meure, sans l’ordonnance du médecin. » Nous trouvons une variante de cette formule à la scène 1 de l’acte II de <hi rend="i">L’Amour médecin</hi> : « Est-ce que votre fille ne peut pas bien mourir, sans le secours de ces messieurs-là ? »</note>
                     </cell>
-                    <cell>
-                      <p rend="cell">Elle a donc quelque mauvais dessein,</p>
-                      <p rend="cell">Puisqu’elle veut mourir sans aucune ordonnance ;</p>
-                      <p rend="cell">De ces sortes de morts notre école s’offense :</p>
-                      <p rend="cell">Quand un homme se trouve en état de périr</p>
-                      <p rend="cell">Toujours un médecin doit l’aider à mourir. (scène 6)<note place="bottom">Nous retrouvons une variante de cette formule dans l’épître dédicatoire de la pièce : « souffrez que je vous avertisse de peur d’equivoque, que je n’estime la Medecine qu’en ce qu’elle peut estre utile à la conservation, ou au recouvrement de ma Santé, parce que je mourray bien sans le secours de personne, et particulierement de vostre Faculté » [II].</note></p>
+                    <cell>Elle a donc quelque mauvais dessein,<lb/>Puisqu’elle veut mourir sans aucune ordonnance ;<lb/>De ces sortes de morts notre école s’offense :<lb/>Quand un homme se trouve en état de périr<lb/>Toujours un médecin doit l’aider à mourir. (scène 6)<note place="bottom">Nous retrouvons une variante de cette formule dans l’épître dédicatoire de la pièce : « souffrez que je vous avertisse de peur d’equivoque, que je n’estime la Medecine qu’en ce qu’elle peut estre utile à la conservation, ou au recouvrement de ma Santé, parce que je mourray bien sans le secours de personne, et particulierement de vostre Faculté » [II].</note>
                     </cell>
                   </row>
                   <row>
-                    <cell cols="2">
-                      <p rend="cell"><hi rend="b">Cet épisode se retrouve dans toutes les versions italiennes et françaises de la pièce mais aussi dans des 
-              entremés</hi><note place="bottom">« courtes pièces comiques à fonction d’intermèdes », <hi rend="i">Œuvres complètes</hi> de Molière, t. II, éd. cit., p. 1728.</note><hi rend="b"> espagnols où il est précisé qu’il ne s’agit pas d’urine mais de vin blanc que la servante, complice, apporte au médecin.</hi> </p>
+                    <cell cols="2"><hi rend="b">Cet épisode se retrouve dans toutes les versions italiennes et françaises de la pièce mais aussi dans des 
+              entremés</hi><note place="bottom">« courtes pièces comiques à fonction d’intermèdes », <hi rend="i">Œuvres complètes</hi> de Molière, t. II, éd. cit., p. 1728.</note><hi rend="b"> espagnols où il est précisé qu’il ne s’agit pas d’urine mais de vin blanc que la servante, complice, apporte au médecin.</hi> 
                     </cell>
                   </row>
                   <row>
                     <cell>Monsieur Gorgibus, y aurait-il moyen de voir de l’urine de l’égrotante ? - Oui-da; Sabine, vite allez quérir de l’urine de ma fille. Monsieur le médecin, j’ai grand’peur qu’elle ne meure. - Ah! qu’elle s’en garde bien! Il ne faut pas qu’elle s’amuse à se laisser mourir sans l’ordonnance du médecin. Voilà de l’urine qui marque grande chaleur, grande inflammation dans les intestins: elle n’est pas tant mauvaise pourtant. - Hé quoi? Monsieur, vous l’avalez ? (scène 4)</cell>
-                    <cell>
-                      <p rend="cell">De la fille égrotante apportez de l’urine » (scène 8)</p>
-                      <p rend="cell">LISE, avec de l’urine.</p>
-                      <p rend="cell">En voilà.</p>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">Voyez-vous, comme elle est enflammée ?</p>
-                      <p rend="cell">Mauvais signe.</p>
-                      <p rend="cell">FERNAND</p>
-                      <p rend="cell">O bons Dieux, il en boit.</p>
-                      <p rend="cell">CRISPIN, après avoir tout bu.</p>
-                      <p rend="cell">Je crois bien;</p>
-                      <p rend="cell">Mais qui boit pour si peu ne comprend jamais rien,</p>
-                      <p rend="cell">Allez en quérir d’autre. […]</p>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">Mon Prince,</p>
-                      <p rend="cell">Assez d’autres Docteurs d’une estoffe plus mince</p>
-                      <p rend="cell">Se seraient contentés du rapport de leurs yeux;</p>
-                      <p rend="cell">Mais à croire sa langue on en juge bien mieux :</p>
-                      <p rend="cell">BoisRobert nous enseigne en sa Belle Plaideuse</p>
-                      <p rend="cell">Que le goût est solide, et la vue est trompeuse,</p>
-                      <p rend="cell">Et qu’un grand Médecin quand il fait ce qu’il doit,</p>
-                      <p rend="cell">Il sent mieux une chose à la langue qu’au doigt. (scène 11) </p>
+                    <cell>De la fille égrotante apportez de l’urine » (scène 8)<lb/>LISE, avec de l’urine.<lb/>En voilà.<lb/>CRISPIN<lb/>Voyez-vous, comme elle est enflammée ?<lb/>Mauvais signe.<lb/>FERNAND<lb/>O bons Dieux, il en boit.<lb/>CRISPIN, après avoir tout bu.<lb/>Je crois bien;<lb/>Mais qui boit pour si peu ne comprend jamais rien,<lb/>Allez en quérir d’autre. […]<lb/>CRISPIN<lb/>Mon Prince,<lb/>Assez d’autres Docteurs d’une estoffe plus mince<lb/>Se seraient contentés du rapport de leurs yeux;<lb/>Mais à croire sa langue on en juge bien mieux :<lb/>BoisRobert nous enseigne en sa Belle Plaideuse<lb/>Que le goût est solide, et la vue est trompeuse,<lb/>Et qu’un grand Médecin quand il fait ce qu’il doit,<lb/>Il sent mieux une chose à la langue qu’au doigt. (scène 11) 
                     </cell>
                   </row>
                   <row>
@@ -854,96 +776,47 @@
                   </row>
                   <row>
                     <cell>Quoi? Monsieur Gorgibus, votre fille ne pisse que des gouttes? voilà une pauvre pisseuse que votre fille; je vois bien qu’il faudra que je lui ordonne une potion pissative. (scène 4)</cell>
-                    <cell>
-                      <p rend="cell">LISE, avec encore un peu d’urine.</p>
-                      <p rend="cell">A pisser comme il faut ma Maistresse s’aplique,</p>
-                      <p rend="cell">Monsieur, et cependant je n’en ay qu’un filet,</p>
-                      <p rend="cell">Voyez.</p>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">Pauvre pisseuse !</p>
-                      <p rend="cell">Apres avoir encore beu, il dit :</p>
-                      <p rend="cell">Allez au Robinet</p>
-                      <p rend="cell">En tirer.</p>
-                      <p rend="cell">LISE</p>
-                      <p rend="cell">Mais Monsieur…</p>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">Mais que cette pisseuse</p>
-                      <p rend="cell">Fasse une ample pissée, et qui soit copieuse,</p>
-                      <p rend="cell">Copieuse.</p>
-                      <p rend="cell">LISE</p>
-                      <p rend="cell">Ma foy, ma Maistresse ne peut,</p>
-                      <p rend="cell">On n’a pas le pouvoir de pisser quand on veut.</p>
-                      <p rend="cell">(scène 10)</p>
+                    <cell>LISE, avec encore un peu d’urine.<lb/>A pisser comme il faut ma Maistresse s’aplique,<lb/>Monsieur, et cependant je n’en ay qu’un filet,<lb/>Voyez.<lb/>CRISPIN<lb/>Pauvre pisseuse !<lb/>Apres avoir encore beu, il dit :<lb/>Allez au Robinet<lb/>En tirer.<lb/>LISE<lb/>Mais Monsieur…<lb/>CRISPIN<lb/>Mais que cette pisseuse<lb/>Fasse une ample pissée, et qui soit copieuse,<lb/>Copieuse.<lb/>LISE<lb/>Ma foy, ma Maistresse ne peut,<lb/>On n’a pas le pouvoir de pisser quand on veut.<lb/>(scène 10)
                     </cell>
                   </row>
                   <row>
                     <cell cols="2">Effet comique produit par des réponses brèves telles que « tant pis » ou « tant mieux » chez Boursault.</cell>
                   </row>
                   <row>
-                    <cell>
-                      <p rend="cell">Mademoiselle, vous êtes malade?- Oui, Monsieur.- Tant pis! c’est une marque que vous ne vous portez pas bien. (scène 5)<note place="bottom">La scène se retrouve aussi à la scène 4 de l’acte II du <hi rend="i">Médecin malgré lui</hi> de Molière : « Vous l’avez fait rire, Monsieur. - Tant mieux : lorsque le médecin fait rire le malade, c’est le meilleur signe du monde […] Ce mal l’oppresse-t-il beaucoup? - Oui, Monsieur. - Tant mieux » et « Je me porte le mieux du monde. - Tant pis nourrice, tant pis » puis à la scène 5 de l’acte III « Comment se porte la malade ? - Un peu plus mal depuis votre remède. - Tant mieux: c’est signe qu’il opère » ainsi que dans la scène 8 de l’acte I de <hi rend="i">Monsieur de Pourceaugnac</hi> : « Mangez-vous bien, Monsieur ? Oui, et bois encore mieux. - Tant pis : cette grande appétition du froid et de l’humide est une indication de la chaleur et sécheresse qui est au dedans. »</note></p>
+                    <cell>Mademoiselle, vous êtes malade?- Oui, Monsieur.- Tant pis! c’est une marque que vous ne vous portez pas bien. (scène 5)<note place="bottom">La scène se retrouve aussi à la scène 4 de l’acte II du <hi rend="i">Médecin malgré lui</hi> de Molière : « Vous l’avez fait rire, Monsieur. - Tant mieux : lorsque le médecin fait rire le malade, c’est le meilleur signe du monde […] Ce mal l’oppresse-t-il beaucoup? - Oui, Monsieur. - Tant mieux » et « Je me porte le mieux du monde. - Tant pis nourrice, tant pis » puis à la scène 5 de l’acte III « Comment se porte la malade ? - Un peu plus mal depuis votre remède. - Tant mieux: c’est signe qu’il opère » ainsi que dans la scène 8 de l’acte I de <hi rend="i">Monsieur de Pourceaugnac</hi> : « Mangez-vous bien, Monsieur ? Oui, et bois encore mieux. - Tant pis : cette grande appétition du froid et de l’humide est une indication de la chaleur et sécheresse qui est au dedans. »</note>
                     </cell>
-                    <cell>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">Elle n’est donc pas morte ?</p>
-                      <p rend="cell">FERNAND</p>
-                      <p rend="cell">Elle ? Nenni.</p>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">Tant mieux,</p>
-                      <p rend="cell">Je m’en réjouis fort.</p>
-                      <p rend="cell">FERNAND</p>
-                      <p rend="cell">Et de quoi ? Cette vie</p>
-                      <p rend="cell">Avant la fin du jour lui peut être ravie.</p>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">Tant pis, l’a-t-on fait voir à quelque médecin ? </p>
-                      <p rend="cell">(scène 6)</p>
+                    <cell>CRISPIN<lb/>Elle n’est donc pas morte ?<lb/>FERNAND<lb/>Elle ? Nenni.<lb/>CRISPIN<lb/>Tant mieux,<lb/>Je m’en réjouis fort.<lb/>FERNAND<lb/>Et de quoi ? Cette vie<lb/>Avant la fin du jour lui peut être ravie.<lb/>CRISPIN<lb/>Tant pis, l’a-t-on fait voir à quelque médecin ?<lb/>(scène 6)
                     </cell>
                   </row>
                   <row>
                     <cell cols="2">Citation du premier aphorisme d’Hippocrate par le savant présent sur scène : l’avocat chez Molière et le véritable médecin chez Boursault.</cell>
                   </row>
                   <row>
-                    <cell>
-                      <p rend="cell">c’est fort à propos qu’Hippocrate dit dans son premier Aphorisme, Vita brevis, ars vero longa, occasio autem praeceps, expérimentum periculosum, Judicium difficile. (scène 8<note place="bottom">On retrouve partiellement l’aphorisme dans <hi rend="i">L’Amour médecin</hi> à la scène 5 de l’acte II « Car ce n’est pas ici des jeux d’enfant ; et quand on a failli, il n’est pas aisé de réparer le manquement, et de rétablir ce qu’on a gâté. <hi rend="i">Experimentum periculosum</hi>. »</note>)</p>
+                    <cell>c’est fort à propos qu’Hippocrate dit dans son premier Aphorisme, Vita brevis, ars vero longa, occasio autem praeceps, expérimentum periculosum, Judicium difficile. (scène 8<note place="bottom">On retrouve partiellement l’aphorisme dans <hi rend="i">L’Amour médecin</hi> à la scène 5 de l’acte II « Car ce n’est pas ici des jeux d’enfant ; et quand on a failli, il n’est pas aisé de réparer le manquement, et de rétablir ce qu’on a gâté. <hi rend="i">Experimentum periculosum</hi>. »</note>)
                     </cell>
-                    <cell>
-                      <p rend="cell">Medecine est, dit-il, une longue science,</p>
-                      <p rend="cell">Tout à fait dangereuse en son experience,</p>
-                      <p rend="cell">Car touchant nostre vie elle passe si tost</p>
-                      <p rend="cell">Qu’on n’a pas le loisir d’en juger comme il faut.</p>
-                      <p rend="cell">Vita brevis, ars vero longa, occasio autem praceps,</p>
-                      <p rend="cell">Experimentum periculosum, Judicium difficile (scène 12)</p>
+                    <cell>Medecine est, dit-il, une longue science,<lb/>Tout à fait dangereuse en son experience,<lb/>Car touchant nostre vie elle passe si tost<lb/>Qu’on n’a pas le loisir d’en juger comme il faut.<lb/>Vita brevis, ars vero longa, occasio autem praceps,<lb/>Experimentum periculosum, Judicium difficile (scène 12)
                     </cell>
                   </row>
                   <row>
-                    <cell cols="2">
-                      <p rend="cell"><hi rend="b">Molière reprend un « adage fréquemment invoqué dans les débats scientifiques de la seconde moitié du XVI
+                    <cell cols="2"><hi rend="b">Molière reprend un « adage fréquemment invoqué dans les débats scientifiques de la seconde moitié du XVI
               
                 <hi rend="sup">e</hi>
               
-               siècle</hi><note place="bottom"><hi rend="i">Œuvres complètes</hi> de Molière, t. II, éd. cit., p. 1729.</note><hi rend="b"> » qui oppose la médecine rationnelle et la médecine expérimentale</hi><note place="bottom">La médecine rationnelle consiste en un raisonnement comme son nom l’indique qui met en relation les symptômes avec les préceptes des grands médecins antiques. La médecine expérimentale recourt à des substances pour soigner le mal ; cette pratique est d’abord associée aux charlatans.</note><hi rend="b">. Boursault crée quant à lui une citation latine.</hi> </p>
+               siècle</hi><note place="bottom"><hi rend="i">Œuvres complètes</hi> de Molière, t. II, éd. cit., p. 1729.</note><hi rend="b"> » qui oppose la médecine rationnelle et la médecine expérimentale</hi><note place="bottom">La médecine rationnelle consiste en un raisonnement comme son nom l’indique qui met en relation les symptômes avec les préceptes des grands médecins antiques. La médecine expérimentale recourt à des substances pour soigner le mal ; cette pratique est d’abord associée aux charlatans.</note><hi rend="b">. Boursault crée quant à lui une citation latine.</hi> 
                     </cell>
                   </row>
                   <row>
                     <cell>Vous n’êtes pas de ces Médecins qui ne vous appliquez qu’à la Médecine qu’on appelle rationale ou dogmatique, et je crois que vous l’exercez tous les jours avec beaucoup de succès, Experientia Rerum. (scène 8)</cell>
-                    <cell>
-                      <p rend="cell">Mortem medicamentis removet medicus expers.</p>
-                      <p rend="cell">Je ne puis approuver l’importune metode… (scène 12)</p>
+                    <cell>Mortem medicamentis removet medicus expers.<lb/>Je ne puis approuver l’importune metode… (scène 12)
                     </cell>
                   </row>
                   <row>
                     <cell cols="2">Jugement péjoratif de la part du valet-médecin quant au savoir du « savant » qui tend à le discréditer.</cell>
                   </row>
                   <row>
-                    <cell>
-                      <p rend="cell">Que vous semble de cet homme-là? - Il sait quelque petite chose. (scène 8)</p>
+                    <cell>Que vous semble de cet homme-là? - Il sait quelque petite chose. (scène 8)
                     </cell>
-                    <cell>
-                      <p rend="cell">FERNAND</p>
-                      <p rend="cell">He bien, ce Médecin, vous voyez comme il cause,</p>
-                      <p rend="cell">Qu’en dites-vous ?</p>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">Il sait quelque petite chose. (scène 13)</p>
+                    <cell>FERNAND<lb/>He bien, ce Médecin, vous voyez comme il cause,<lb/>Qu’en dites-vous ?<lb/>CRISPIN<lb/>Il sait quelque petite chose. (scène 13)
                     </cell>
                   </row>
                   <row>
@@ -951,45 +824,16 @@
                   </row>
                   <row>
                     <cell>Monsieur, je viens de rencontrer Monsieur votre frère, qui est tout à fait fâché de…- C’est un coquin, Monsieur Gorgibus. - Je vous réponds qu’il est tellement contrit de vous avoir mis en colère… - C’est un ivrogne, Monsieur Gorgibus.  (scène 12)</cell>
-                    <cell>
-                      <p rend="cell">FERNAND</p>
-                      <p rend="cell">Votre frère, il a tant de douleur,</p>
-                      <p rend="cell">Que j’ai droit d’espérer…</p>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">C’est un Coquin, Monsieur.</p>
-                      <p rend="cell">FERNAND</p>
-                      <p rend="cell">Il a tort, il l’avoue, il se nomme coupable;</p>
-                      <p rend="cell">Mais, Monsieur, une faute est toujours pardonnable :</p>
-                      <p rend="cell">Désormais, il en jure, il veut être meilleur,</p>
-                      <p rend="cell">Vous aimer, vous servir.</p>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">C’est un fripon, Monsieur.</p>
-                      <p rend="cell">FERNAND</p>
-                      <p rend="cell">Ne vous puis-je résoudre à la miséricorde ?</p>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">C’est un Pendard, Monsieur, qui mérite la corde.</p>
-                      <p rend="cell">(scène 17)</p>
+                    <cell>FERNAND<lb/>Votre frère, il a tant de douleur,<lb/>Que j’ai droit d’espérer…<lb/>CRISPIN<lb/>C’est un Coquin, Monsieur.<lb/>FERNAND<lb/>Il a tort, il l’avoue, il se nomme coupable;<lb/>Mais, Monsieur, une faute est toujours pardonnable :<lb/>Désormais, il en jure, il veut être meilleur,<lb/>Vous aimer, vous servir.<lb/>CRISPIN<lb/>C’est un fripon, Monsieur.<lb/>FERNAND<lb/>Ne vous puis-je résoudre à la miséricorde ?<lb/>CRISPIN<lb/>C’est un Pendard, Monsieur, qui mérite la corde.<lb/>(scène 17)
                     </cell>
                   </row>
                   <row>
                     <cell cols="2">Jeu de scène du dédoublement du valet qui joue à la fois le médecin et le frère de celui-ci.</cell>
                   </row>
                   <row>
-                    <cell>
-                      <p rend="cell">Mais faites-moi la grâce de le faire paraître avec vous, et de l’embrasser devant moi à la fenêtre. […] - Hé bien! ne les voilà pas tous deux? (scène 15)</p>
+                    <cell>Mais faites-moi la grâce de le faire paraître avec vous, et de l’embrasser devant moi à la fenêtre. […] - Hé bien! ne les voilà pas tous deux? (scène 15)
                     </cell>
-                    <cell>
-                      <p rend="cell">FERNAND à haute voix.</p>
-                      <p rend="cell">Seras-tu trop honteux si ton frère t’embrasse,</p>
-                      <p rend="cell">L’enfermé ?</p>
-                      <p rend="cell">CRISPIN</p>
-                      <p rend="cell">- C’est à lui … - Paix, Monsieur le Badaud,</p>
-                      <p rend="cell">Paix fripon, paix belître, et venez ici haut :</p>
-                      <p rend="cell">Crispin met son chapeau sur son coude, et puis l’embrasse si adroitement, qu’il semble que ce soit une autre personne.</p>
-                      <p rend="cell">C’est moins par amitié que ce n’est par contrainte;</p>
-                      <p rend="cell">Venez, dis-je.</p>
-                      <p rend="cell">FERNAND à Philipin.</p>
-                      <p rend="cell">Tu vois, ce n’est pas une feinte. (scène 15)</p>
+                    <cell>FERNAND à haute voix.<lb/>Seras-tu trop honteux si ton frère t’embrasse,<lb/>L’enfermé ?<lb/>CRISPIN<lb/>- C’est à lui … - Paix, Monsieur le Badaud,<lb/>Paix fripon, paix belître, et venez ici haut :<lb/>Crispin met son chapeau sur son coude, et puis l’embrasse si adroitement, qu’il semble que ce soit une autre personne.<lb/>C’est moins par amitié que ce n’est par contrainte;<lb/>Venez, dis-je.<lb/>FERNAND à Philipin.<lb/>Tu vois, ce n’est pas une feinte. (scène 15)
                     </cell>
                   </row>
                   <row>
@@ -997,12 +841,7 @@
                   </row>
                   <row>
                     <cell>Je le tiens sous mon bras, voilà le Coquin qui faisait le Médecin, et qui vous trompe. » (scène 15)</cell>
-                    <cell>
-                      <p rend="cell">PHILIPIN ramassant la soutane de Crispin</p>
-                      <p rend="cell"><space rend="tab">    </space>Ah, je tiens votre guesne,</p>
-                      <p rend="cell">Doctissime. […]</p>
-                      <p rend="cell">PHILIPIN montrant Crispin et sa soutane.</p>
-                      <p rend="cell">Voila l’un, voila l’autre.</p>
+                    <cell>PHILIPIN ramassant la soutane de Crispin<lb/>Ah, je tiens votre guesne,<lb/>Doctissime. […]<lb/>PHILIPIN montrant Crispin et sa soutane.<lb/>Voila l’un, voila l’autre.
                     </cell>
                   </row>
                 </table>
@@ -1022,75 +861,36 @@
                       <cell cols="2">Importance de mourir dans les « formes » ; ces passages peuvent être mis en relation avec ceux que nous avons vu dans les deux Médecin volant qui vantent la présence nécessaire d’un médecin pour pouvoir mourir.</cell>
                     </row>
                     <row>
-                      <cell>
-                        <p rend="cell">Vous aurez la consolation qu’elle sera morte dans les formes. - Il vaut mieux mourir selon les règles, que de réchapper contre les règles.<note place="bottom">La scène se retrouve aussi à la scène 4 des <hi rend="i">Précieuses ridicules</hi> : « Il faut qu’un amant, pour être agréable, sache […] pousser le doux, le tendre et le passionné et que sa recherche soit dans les formes » ; à la scène 9 du <hi rend="i">Mariage forcé</hi> : « Vous nous manquez de parole: je me veux battre contre vous, vous refusez de vous battre : je vous donne des coups de bâton, tout cela est dans les formes; et vous êtes trop honnête homme, pour ne pas approuver mon procédé » ; à la scène 6 de l’acte I de <hi rend="i">Georges Dandin</hi> : « - Il suffit, Monsieur. - Non, je veux qu’il achève, et que tout aille dans les formes » ; à la scène 5 de l’acte II du <hi rend="i">Malade imaginaire</hi> « On n’est obligé qu’à traiter les gens dans les formes. »</note> </p>
-                        <p rend="cell">(Acte II, scène 5)</p>
+                      <cell>Vous aurez la consolation qu’elle sera morte dans les formes. - Il vaut mieux mourir selon les règles, que de réchapper contre les règles.<note place="bottom">La scène se retrouve aussi à la scène 4 des <hi rend="i">Précieuses ridicules</hi> : « Il faut qu’un amant, pour être agréable, sache […] pousser le doux, le tendre et le passionné et que sa recherche soit dans les formes » ; à la scène 9 du <hi rend="i">Mariage forcé</hi> : « Vous nous manquez de parole: je me veux battre contre vous, vous refusez de vous battre : je vous donne des coups de bâton, tout cela est dans les formes; et vous êtes trop honnête homme, pour ne pas approuver mon procédé » ; à la scène 6 de l’acte I de <hi rend="i">Georges Dandin</hi> : « - Il suffit, Monsieur. - Non, je veux qu’il achève, et que tout aille dans les formes » ; à la scène 5 de l’acte II du <hi rend="i">Malade imaginaire</hi> « On n’est obligé qu’à traiter les gens dans les formes. »</note> <lb/>(Acte II, scène 5)
                       </cell>
-                      <cell>
-                        <p rend="cell">Quand un homme se trouve en estat de perir</p>
-                        <p rend="cell">Tousjours un Medecin doit l’ayder à mourir,</p>
-                        <p rend="cell">Et c’est faire éclater des malices enormes</p>
-                        <p rend="cell">Que vouloir refuser de mourir dans les formes.</p>
-                        <p rend="cell">(scène 7, v. 143-146)</p>
+                      <cell>Quand un homme se trouve en estat de perir<lb/>Tousjours un Medecin doit l’ayder à mourir,<lb/>Et c’est faire éclater des malices enormes<lb/>Que vouloir refuser de mourir dans les formes.<lb/>(scène 7, v. 143-146)
                       </cell>
                     </row>
                     <row>
                       <cell cols="2">Épisode montrant que le pucelage trop longtemps gardé peut être une source de maladie chez une jeune femme.</cell>
                     </row>
                     <row>
-                      <cell>
-                        <p rend="cell">C’est un mari qu’elle veut. - Je l’abandonne. - Un mari. - Je la déteste. - Un mari. - Et la renonce pour ma fille. - Un mari. - Non, ne m’en parlez point. - Un mari.- Ne m’en parlez point. - Un mari. - Ne m’en parlez point. - Un mari, un mari, un mari. </p>
-                        <p rend="cell">(Acte I, scène 3)</p>
+                      <cell>C’est un mari qu’elle veut. - Je l’abandonne. - Un mari. - Je la déteste. - Un mari. - Et la renonce pour ma fille. - Un mari. - Non, ne m’en parlez point. - Un mari.- Ne m’en parlez point. - Un mari. - Ne m’en parlez point. - Un mari, un mari, un mari. <lb/>(Acte I, scène 3)
                       </cell>
-                      <cell>
-                        <p rend="cell">PHILIPIN</p>
-                        <p rend="cell">C’est à vous que j’en donne le blasme,</p>
-                        <p rend="cell">A la pourvoir d’un homme on a trop retardé,</p>
-                        <p rend="cell">Un pucelage nuit quand il est trop gardé,</p>
-                        <p rend="cell">C’est cela qui l’étouffe, et ces sortes de choses…</p>
-                        <p rend="cell">(scène 5, v. 78-81)</p>
+                      <cell>PHILIPIN<lb/>C’est à vous que j’en donne le blasme,<lb/>A la pourvoir d’un homme on a trop retardé,<lb/>Un pucelage nuit quand il est trop gardé,<lb/>C’est cela qui l’étouffe, et ces sortes de choses… <lb/>(scène 5, v. 78-81)
                       </cell>
                     </row>
                     <row>
                       <cell cols="2">Épisode mettant en valeur l’agitation des deux jeunes filles</cell>
                     </row>
                     <row>
-                      <cell>
-                        <p rend="cell">Votre fille toute saisie des paroles que vous lui avez dites, et de la colère effroyable où elle vous a vu contre elle, est montée vite dans sa chambre </p>
-                        <p rend="cell">(Acte I, scène 6)</p>
+                      <cell>Votre fille toute saisie des paroles que vous lui avez dites, et de la colère effroyable où elle vous a vu contre elle, est montée vite dans sa chambre <lb/>(Acte I, scène 6)
                       </cell>
-                      <cell>
-                        <p rend="cell">LISE</p>
-                        <p rend="cell">Ah, Monsieur, vostre fille est fort mal !</p>
-                        <p rend="cell">FERNAND</p>
-                        <p rend="cell">Que fait-elle ? Je tremble.</p>
-                        <p rend="cell">LISE</p>
-                        <p rend="cell"><space rend="tab">    </space><space rend="tab">    </space>Elle se plaint du ventre,</p>
-                        <p rend="cell">Elle sort de son lict, puis apres elle y rentre,</p>
-                        <p rend="cell">Se promene, se sied, veut dormir, veut veiller,</p>
-                        <p rend="cell">Malgré-moy de ce pas je la viens d’habiller…</p>
-                        <p rend="cell">FERNAND</p>
-                        <p rend="cell">D’habiller !</p>
-                        <p rend="cell">LISE</p>
-                        <p rend="cell"><space rend="tab">    </space>D’habiller ; sa boutade m’estonne,</p>
-                        <p rend="cell">(scène 8, v. 152-157)</p>
+                      <cell>LISE<lb/>Ah, Monsieur, vostre fille est fort mal !<lb/>FERNAND<lb/>Que fait-elle ? Je tremble.<lb/>LISE<lb/>Elle se plaint du ventre,<lb/>Elle sort de son lict, puis apres elle y rentre,<lb/>Se promene, se sied, veut dormir, veut veiller,<lb/>Malgré-moy de ce pas je la viens d’habiller…<lb/>FERNAND<lb/>D’habiller !<lb/>LISE<lb/>D’habiller ; sa boutade m’estonne,<lb/>(scène 8, v. 152-157)
                       </cell>
                     </row>
                     <row>
                       <cell cols="2">Épisode marquant l’évanescence de la vie de la patiente.</cell>
                     </row>
                     <row>
-                      <cell>
-                        <p rend="cell">Je l’ai fait revenir: mais cela lui reprend de moment en moment, et je crois qu’elle ne passera pas la journée</p>
-                        <p rend="cell">(Acte I, scène 6)</p>
+                      <cell>Je l’ai fait revenir: mais cela lui reprend de moment en moment, et je crois qu’elle ne passera pas la journée<lb/>(Acte I, scène 6)
                       </cell>
-                      <cell>
-                        <p rend="cell">FERNAND</p>
-                        <p rend="cell"><space rend="tab">    </space><space rend="tab">    </space>Et dequoy ? Cette vie</p>
-                        <p rend="cell">Avant la fin du jour luy peut être ravie.</p>
-                        <p rend="cell">CRISPIN</p>
-                        <p rend="cell">Tant pis, l’a-t-on fait voir à quelque Medecin ?</p>
-                        <p rend="cell">(scène 7, v. 137-139)</p>
+                      <cell>FERNAND<lb/>Et dequoy ? Cette vie<lb/>Avant la fin du jour luy peut être ravie.<lb/>CRISPIN<lb/>Tant pis, l’a-t-on fait voir à quelque Medecin ?<lb/>(scène 7, v. 137-139)
                       </cell>
                     </row>
                     <row>
@@ -1103,20 +903,9 @@
                       </cell>
                     </row>
                     <row>
-                      <cell>
-                        <p rend="cell">Nous ne sommes pas les seuls, comme vous savez, qui tâchons à nous prévaloir de la faiblesse humaine. C’est là que va l’étude de la plupart du monde, et chacun s’efforce de prendre les hommes par leur faible, pour en tirer quelque profit. […] les diseurs d’horoscopes, par leurs prédictions trompeuses profitent de la vanité et de l’ambition des crédules esprits.</p>
-                        <p rend="cell">(Acte III, scène 1)</p>
+                      <cell>Nous ne sommes pas les seuls, comme vous savez, qui tâchons à nous prévaloir de la faiblesse humaine. C’est là que va l’étude de la plupart du monde, et chacun s’efforce de prendre les hommes par leur faible, pour en tirer quelque profit. […] les diseurs d’horoscopes, par leurs prédictions trompeuses profitent de la vanité et de l’ambition des crédules esprits.<lb/>(Acte III, scène 1)
                       </cell>
-                      <cell>
-                        <p rend="cell">Or le mal dominant par d’occultes ressorts,</p>
-                        <p rend="cell">Il corrompt la matiere, il ravage le corps,</p>
-                        <p rend="cell">L’individu qui souffre au moment qu’il s’épure</p>
-                        <p rend="cell">D’un peu d’Apoteose entretient sa nature,</p>
-                        <p rend="cell">La vapeur de la terre opposée à ce mal,</p>
-                        <p rend="cell">Dans l’humaine vessie establit un canal.</p>
-                        <p rend="cell">Le Cancer froidureux, rend l’humeur taciturne,</p>
-                        <p rend="cell">Le vaillant Zodiaque envisage Saturne<note place="bottom">Crispin fait ici un amalgame entre médecine et astrologie ce qui est très fréquent au XVII<hi rend="sup">e</hi> siècle.</note>,</p>
-                        <p rend="cell">(scène 7, v. 123-130)</p>
+                      <cell>Or le mal dominant par d’occultes ressorts,<lb/>Il corrompt la matiere, il ravage le corps,<lb/>L’individu qui souffre au moment qu’il s’épure<lb/>D’un peu d’Apoteose entretient sa nature,<lb/>La vapeur de la terre opposée à ce mal,<lb/>Dans l’humaine vessie establit un canal.<lb/>Le Cancer froidureux, rend l’humeur taciturne,<lb/>Le vaillant Zodiaque envisage Saturne<note place="bottom">Crispin fait ici un amalgame entre médecine et astrologie ce qui est très fréquent au XVII<hi rend="sup">e</hi> siècle.</note>,<lb/>(scène 7, v. 123-130)
                       </cell>
                     </row>
                   </table>
@@ -1149,27 +938,9 @@
                       <cell>Monsieur de Pourceaugnac, Molière</cell>
                     </row>
                     <row>
-                      <cell>
-                        <p rend="cell">CRISPIN</p>
-                        <p rend="cell">Avez-vous de la fievre ?</p>
-                        <p rend="cell">LUCRESSE</p>
-                        <p rend="cell">Je ne say.</p>
-                        <p rend="cell">CRISPIN</p>
-                        <p rend="cell"><space rend="tab">    </space>Non ?</p>
-                        <p rend="cell">LUCRESSE</p>
-                        <p rend="cell"><space rend="tab">    </space><space rend="tab">    </space>Non.</p>
-                        <p rend="cell">CRISPIN</p>
-                        <p rend="cell"><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Fy.</p>
-                        <p rend="cell">FERNAND</p>
-                        <p rend="cell"><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Dequoy ?</p>
-                        <p rend="cell">CRISPIN</p>
-                        <p rend="cell"><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Mauvais régal,</p>
-                        <p rend="cell">Par fois sans qu’on le sache on se porte fort mal,</p>
-                        <p rend="cell">(scène 11)</p>
+                      <cell>CRISPIN<lb/>Avez-vous de la fievre ?<lb/>LUCRESSE<lb/>Je ne say.<lb/>CRISPIN<lb/>Non ?<lb/>LUCRESSE<lb/>Non.<lb/>CRISPIN<lb/>Fy.<lb/>FERNAND<lb/>Dequoy ?<lb/>CRISPIN<lb/>Mauvais régal,<lb/>Par fois sans qu’on le sache on se porte fort mal,<lb/>(scène 11)
                       </cell>
-                      <cell>
-                        <p rend="cell">Parbleu ! je ne suis pas malade. - Mauvais signe, lorsqu’un malade ne sent pas son mal </p>
-                        <p rend="cell">(Acte I, scène 8)</p>
+                      <cell>Parbleu ! je ne suis pas malade. - Mauvais signe, lorsqu’un malade ne sent pas son mal <lb/>(Acte I, scène 8)
                       </cell>
                     </row>
                   </table>
@@ -1217,7 +988,7 @@
           <div>
             <head>Dans <hi rend="i">Le Mort vivant</hi></head>
             <p>Ou ([III]) nous avons rétabli l’accent à demi effacé.</p>
-            <p>Nous avons ajouté la rubrique de personnage « FERDINAND » au vers 156. Nous avons ajouté la mention [SCENE V] au début de la <pb n="10"/> qui n’était pas mentionnée. À partir de là, nous avons modifié les mentions de scène qui étaient donc fautives.</p>
+            <p>Nous avons ajouté la rubrique de personnage « FERDINAND » au vers 156. Nous avons ajouté la mention [SCENE V] au début de la p. 10 qui n’était pas mentionnée. À partir de là, nous avons modifié les mentions de scène qui étaient donc fautives.</p>
             <p>Où (v. 405)</p>
             <p>? (v. 450)</p>
             <p>? (v. 466)</p>
@@ -2198,11 +1969,11 @@
               <l part="F">Ou je me trompe, ou j’auray du baston.</l>
             </sp>
             <sp who="spadarille">
-              <speaker>SPADARILLE <hi xml:lang="es" rend="i">continuë</hi></speaker>
+              <speaker>SPADARILLE <hi rend="i">continuë</hi></speaker>
               <l n="315" xml:id="l315" part="I">Olimpie ! ah j’enrage.</l>
             </sp>
             <sp who="alcidor">
-              <speaker xml:lang="es">ALCIDOR</speaker>
+              <speaker>ALCIDOR</speaker>
               <l part="F">Il s’eschauffe la bile.</l>
             </sp>
             <sp who="cascaret">
@@ -2215,7 +1986,7 @@
               <l part="M">Poltron fieffé<note place="bottom">Désigne un lâche « Qui a quelque vice, quelque mauvaise habitude, au supréme degré. » (<hi rend="i">Dictionnaire de l’Académie française</hi>, 1694).</note>.</l>
             </sp>
             <sp who="spadarille">
-              <speaker>SPADARILLE <hi xml:lang="es" rend="i">continuë</hi></speaker>
+              <speaker>SPADARILLE <hi rend="i">continuë</hi></speaker>
               <l part="F">Tout cecy me confond<note place="bottom">Le verbe <hi rend="i">confondre</hi> est employé ici au sens propre de <hi rend="i">rendre confus</hi>.</note>.</l>
               <l n="318" xml:id="l318">Olimpie ! écoutez comme elle me répond !</l>
               <l n="319" xml:id="l319">De ce tracas, Beau-pere, en un mot que vous semble.</l>
@@ -2335,9 +2106,9 @@
           </div>
           <div type="scene">
             <head>SCENE IX</head>
-            <stage xml:lang="es">SPADARILLE, CLEANDRE, ALCIDOR</stage>
+            <stage>SPADARILLE, CLEANDRE, ALCIDOR</stage>
             <sp who="spadarille">
-              <speaker xml:lang="es">SPADARILLE</speaker>
+              <speaker >SPADARILLE</speaker>
               <l n="351" xml:id="l351">Or ça, notre Beau-pere, et vous Sire Cleandre,<pb n="22" xml:id="p22"/></l>
               <l n="352" xml:id="l352">Qui jadis malgré luy vouliez estre son gendre,</l>
               <l n="353" xml:id="l353">Je vais vous faire voir Olimpie à l’instant.</l>
@@ -2403,9 +2174,9 @@
           </div>
           <div type="scene">
             <head>SCENE XI</head>
-            <stage xml:lang="es">SPADARILLE, OLIMPIE, CLEANDRE, ALCIDOR</stage>
+            <stage >SPADARILLE, OLIMPIE, CLEANDRE, ALCIDOR</stage>
             <sp who="spadarille">
-              <speaker xml:lang="es">SPADARILLE</speaker>
+              <speaker >SPADARILLE</speaker>
               <l part="F">Mes cadenats sont ouverts. Hola<note place="bottom">« Interjection qui sert pour appeller des gens de basse condition, des laquais. » (Furetière) ; il faut tout de même noter que Spadarille s’adresse ici à sa femme, le peu de considération qu’il a pour elle apparaît clairement.</note> la Belle,<pb n="24" xml:id="p24"/></l>
               <l n="380" xml:id="l380">Venez-ça. Pourquoy donc se frotter la prunelle ?</l>
               <l n="381" xml:id="l381" part="I">Qu’avez-vous ?</l>
@@ -2639,9 +2410,9 @@
           </div>
           <div type="scene">
             <head>SCENE XII</head>
-            <stage xml:lang="es">SPADARILLE, CLEANDRE, ALCIDOR</stage>
+            <stage >SPADARILLE, CLEANDRE, ALCIDOR</stage>
             <sp who="spadarille">
-              <speaker xml:lang="es">SPADARILLE</speaker>
+              <speaker >SPADARILLE</speaker>
               <l n="459" xml:id="l459" part="I">Vous voyez.</l>
             </sp>
             <sp who="cleandre">
@@ -2891,15 +2662,15 @@
               <l part="F">Je n’ay pas le loisir.</l>
             </sp>
             <sp who="spadarille">
-              <speaker xml:lang="es">SPADARILLE</speaker>
+              <speaker >SPADARILLE</speaker>
               <l n="526" xml:id="l526" part="I">Vous m’enfermez !</l>
             </sp>
             <sp who="alcidor">
-              <speaker xml:lang="es">ALCIDOR</speaker>
+              <speaker >ALCIDOR</speaker>
               <l part="M">D’accord.</l>
             </sp>
             <sp who="spadarille">
-              <speaker xml:lang="es">SPADARILLE</speaker>
+              <speaker >SPADARILLE</speaker>
               <l part="M">Pourquoy ?</l>
             </sp>
             <sp who="alcidor">
@@ -3565,11 +3336,11 @@
               <l n="198" xml:id="l198-mov">Cessant d’estre mon Pere il devient mon <ref target="#amant-mov">Amant*</ref>.</l>
             </sp>
             <sp who="fabrice">
-              <speaker xml:lang="en">FABRICE</speaker>
+              <speaker>FABRICE</speaker>
               <l n="199" xml:id="l199-mov" part="I">Ferdinand l’<ref target="#aimer">ayme*</ref> aussi, Gusman !</l>
             </sp>
             <sp who="gusman">
-              <speaker xml:lang="en">GUSMAN</speaker>
+              <speaker>GUSMAN</speaker>
               <l part="F">Belle demande ;<pb n="11" xml:id="p11-mov"/></l>
               <l n="200" xml:id="l200-mov">Manque-t-on d’appetit prés de si belle viande<note place="bottom">« Se dit burlesquement de la chair de l’homme. » (Furetière).</note> ?</l>
             </sp>
@@ -3669,7 +3440,7 @@
               <speaker>STEPHANIE</speaker>
               <l n="229" xml:id="l229-mov">Moy, je suy vostre exemple, et j’invoque les Dieux,</l>
               <l n="230" xml:id="l230-mov">Pour me voir delivrer d’un <ref target="#amant-mov">Amant*</ref> odieux.</l>
-              <stage xml:lang="en">Lazarille sort</stage>
+              <stage>Lazarille sort</stage>
             </sp>
           </div>
           <div type="scene">
@@ -3730,9 +3501,9 @@
           </div>
           <div type="scene">
             <head>SCENE VI[I]</head>
-            <stage xml:lang="en">FABRICE, GUSMAN</stage>
+            <stage>FABRICE, GUSMAN</stage>
             <sp who="fabrice">
-              <speaker xml:lang="en">FABRICE</speaker>
+              <speaker>FABRICE</speaker>
               <l n="252" xml:id="l252-mov" part="I">Ah, Gusman mon Valet !  <pb n="14" xml:id="p14-mov"/></l>
             </sp>
             <sp who="gusman">
@@ -4951,7 +4722,7 @@
           </div>
           <div type="scene">
             <head>SCENE III</head>
-            <stage xml:lang="es">LAZARILLE, HENRIQUEZ endormis,</stage>
+            <stage >LAZARILLE, HENRIQUEZ endormis,</stage>
             <sp who="gusman">
               <speaker>GUSMAN <hi rend="i">faisant l’Esprit</hi></speaker>
               <l n="715" xml:id="l715-mov">Peste tout tourne, où suis-je ? Ô Cambrouse<note place="bottom">Mot d’argot pour désigner une campagne reculée.</note> endiablée !<pb n="39" xml:id="p39-mov"/></l>
@@ -5287,7 +5058,7 @@
           </div>
           <div type="scene">
             <head>SCENE IV</head>
-            <stage xml:lang="es">L’HOTE, LAZARILLE, HENRIQUEZ, GUSMAN</stage>
+            <stage >L’HOTE, LAZARILLE, HENRIQUEZ, GUSMAN</stage>
             <sp who="l-hote">
               <speaker>L’HÔTE, <hi rend="i">avec une chandelle.</hi></speaker>
               <l n="860" xml:id="l860-mov">Pourquoy faire Messieurs un si grand tintamare ?</l>
@@ -5523,11 +5294,11 @@
               <l n="920" xml:id="l920-mov" part="I">Vous, mon Pere !</l>
             </sp>
             <sp who="ferdinand">
-              <speaker xml:lang="es">FERDINAND</speaker>
+              <speaker >FERDINAND</speaker>
               <l part="M">Luy-mesme.</l>
             </sp>
             <sp who="henriquez">
-              <speaker xml:lang="es">HENRIQUEZ</speaker>
+              <speaker >HENRIQUEZ</speaker>
               <l part="F">Ah ! Que je vous embrasse</l>
               <l n="921" xml:id="l921-mov">Ma Fille. Lazarille amortis ton ardeur,</l>
               <l n="922" xml:id="l922-mov">Au lieu d’une Maistresse envisage une Sœur.</l>
@@ -7789,7 +7560,7 @@
               <head>Sites web</head>
               <p>CESAR, Calendrier Electronique des Spectacles sous l’Ancien Régime : http://www.cesar.org.uk</p>
               <p>GALLICA, Bibliothèque numérique de la Bnf : www.gallica.bnf.fr</p>
-              <p xml:lang="es">MOLIERE 21 : www.moliere.paris-sorbonne.fr</p>
+              <p >MOLIERE 21 : www.moliere.paris-sorbonne.fr</p>
               <p>THEÂTRE CLASSIQUE : www.theatre-classique.fr</p>
               <p>Bibliothèque de Besançon : http://memoirevive.besancon.fr</p>
             </div>
@@ -7802,7 +7573,7 @@
                 <bibl><hi rend="sc">Borello</hi> Francesca, <hi rend="i">La Dramaturgie d’Edme Boursault</hi>, thèse sous la direction de Robert Garapon, Paris, 1991.</bibl>
                 <bibl><hi rend="sc">Dubois</hi>, Julien, <title>Boursault et la comédie italienne</title>, Troyes, 1904.</bibl>
                 <bibl><hi rend="sc">Fournel</hi>, Victor, <title>Les Contemporains de Molière</title>, notice sur Edme Boursault, t. I, Paris, Firmin Didot Frères, Fils et Cie, 1863. </bibl>
-                <bibl><hi rend="sc">Jully</hi>, Ludovic, <title xml:lang="en">Étude sur Boursault</title>, Troyes, 1865.</bibl>
+                <bibl><hi rend="sc">Jully</hi>, Ludovic, <title>Étude sur Boursault</title>, Troyes, 1865.</bibl>
                 <bibl><hi rend="sc">Saint-René Taillandier</hi>, <title>Un Poète comique du temps de Molière, Boursault, sa vie et ses œuvres</title>, Paris, 1881.</bibl>
             </div>
             <div>
@@ -7815,9 +7586,9 @@
                 <bibl><hi rend="sc">Forestier</hi>, Georges, <title>Esthétique de l’identité dans le théâtre français (1550-1680). Le déguisement et ses avatars</title>, Genève, Droz, 1988. </bibl>
                 <bibl><hi rend="sc">Forestier</hi> Georges, <title>Introduction à l’analyse des textes classiques</title>, Paris, Armand Colin, 2012. </bibl>
                 <bibl><hi rend="sc">Forestier</hi>, Georges, <hi rend="sc">Caldicott</hi>, Edric, <hi rend="sc">Bourqui</hi>, Claude (dir.), <title>Le Parnasse du théâtre. Les recueils d’œuvres complètes de théâtre au XVII<hi rend="sup">e</hi> siècle</title>, Paris, PUPS, 2007.</bibl>
-                <bibl><hi rend="sc">Lancaster</hi>, Henry Carrington, <title xml:lang="en">A History of French Dramatic Literature in the Seventeenth Century</title>, Part III <title xml:lang="en">The Period of Molière (1652-1672)</title>, vol. 1 et 2, Baltimore, Johns Hopkins Press, 1929-1942. </bibl>
+                <bibl><hi rend="sc">Lancaster</hi>, Henry Carrington, <title>A History of French Dramatic Literature in the Seventeenth Century</title>, Part III <title>The Period of Molière (1652-1672)</title>, vol. 1 et 2, Baltimore, Johns Hopkins Press, 1929-1942. </bibl>
                 <bibl><hi rend="sc">Lebègue</hi>, Raymond, <title>Le Théâtre comique en France de Pathelin à Mélite</title>, Paris, Hatier, 1972. </bibl>
-                <bibl><hi rend="sc">Morales Raya</hi>, Remedios et <hi rend="sc">González Dengra</hi>, Miguel (dir.), <title xml:lang="es">La Pasión de los celos en el teatro del Siglo de Oro</title>, Granada, Universidad de Granada, 2007.</bibl>
+                <bibl><hi rend="sc">Morales Raya</hi>, Remedios et <hi rend="sc">González Dengra</hi>, Miguel (dir.), <title>La Pasión de los celos en el teatro del Siglo de Oro</title>, Granada, Universidad de Granada, 2007.</bibl>
                 <bibl><hi rend="sc">Pasquier</hi>, Pierre et <hi rend="sc">Surgers</hi>, Anne (dir.), <title>La Représentation théâtrale en France au XVII<hi rend="sup">e</hi> siècle</title>, Paris, Armand Colin, 2011.</bibl>
                 <bibl><hi rend="sc">Scherer</hi>, Jacques, <title>La Dramaturgie classique en France</title>, Paris, Armand Colin, 2014. </bibl>
             </div>
