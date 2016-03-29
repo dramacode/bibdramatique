@@ -1,13 +1,9 @@
 <?php
-// prendre le pot
-include (dirname(__FILE__).'/teipot/Teipot.php');
-// mettre le sachet SQLite dans le pot
-$pot=new Teipot(dirname(__FILE__).'/bibdramatique.sqlite', 'fr');
-// est-ce qu’un fichier statique (ex: epub) est attendu pour ce chemin ? 
-// Si oui, l’envoyer maintenant depuis la base avant d’avoir écrit la moindre ligne
-$pot->file($pot->path);
-// Si un document correspond à ce chemin, charger un tableau avec différents composants (body, head, breadcrumb…)
-$doc=$pot->doc($pot->path);
+$pdo = new PDO('sqlite:'.dirname(__FILE__).'/bibdramatique.sqlite');
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+$qobj = $pdo->prepare("SELECT * FROM object WHERE playcode = ? AND type = ?");
+// $play = $pdomol->query("SELECT * FROM play WHERE code = ".$pdomol->quote($playcode))->fetch();
+
 $themeHref = Web::basehref() . 'teipot/';
 
 
@@ -15,7 +11,7 @@ $themeHref = Web::basehref() . 'teipot/';
 <html>
   <head>
     <meta charset="UTF-8" />
-    <?php 
+    <?php
 if(isset($doc['head'])) echo $doc['head'];
 else echo '<title>Bibliothèque dramatique</title>';
     ?>
@@ -30,7 +26,7 @@ else echo '<title>Bibliothèque dramatique</title>';
       <header id="header">
         <h1>
            <a href="<?php echo Web::basehref() ?>">Bibliothèque dramatique</a>  |  <a href="http://cellf.paris-sorbonne.fr">Le CELLF</a>
-          
+
         </h1>
         <?php // liens de téléchargements
           // if ($doc['downloads']) echo "\n".'<nav id="downloads"><small>Télécharger :</small> '.$doc['downloads'].'</nav>';
@@ -38,16 +34,16 @@ else echo '<title>Bibliothèque dramatique</title>';
       </header>
       <div id="main">
         <nav id="toolbar">
-          <?php 
+          <?php
   echo '<a href="' . Web::basehref() . '">Bibliothèque dramatique</a> » ';
           // nous avons un livre, glisser aussi les liens de téléchargement
-  if (isset($doc['breadcrumb'])) echo $doc['breadcrumb']; 
+  if (isset($doc['breadcrumb'])) echo $doc['breadcrumb'];
           ?>
         </nav>
         <div id="article">
         <?php
   if (isset($doc['bookname'])) {
-    
+
     if (isset($doc['body'])) echo $doc['body'];
     else {}; // bug back
     // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
@@ -60,15 +56,15 @@ else echo '<title>Bibliothèque dramatique</title>';
     echo $pot->report(); // nombre de résultats
     echo $pot->biblio(array('byline', 'title', 'date', 'editor', 'download'=>array('epub', 'html', 'pdf', 'tei', 'txt'))); // présentation bibliographique des résultats
     echo $pot->concByBook(); // concordance s’il y a recherche plein texte
-    
+
     ?><div class="linkOld" style="width: 100%; text-align: center;"><a style="color: gray; font-size: 14px; border-bottom: none;" href="http://www.bibliothequedramatique.fr/">Suite des pièces…</a><span style="width: 20px; white-space: nowrap;"></span>|<span style="width: 20px; white-space: nowrap;"</span><a style="color: gray; font-size: 14px; border-bottom: none;" href="http://cellf.paris-sorbonne.fr">Site du CELLF</a></div><?php
-    
+
   }
         ?>
-        
-        
-        
-        
+
+
+
+
         </div>
       </div>
       <aside id="aside">
@@ -95,64 +91,17 @@ else {
   ';
 }
 ?>
-	<span id="ruler"></span>
       </aside>
-      
-    </div>
-    
-    
-    
-    <footer id="footer">
 
-    </footer>
+    </div>
+
+
     <script type="text/javascript" src="<?php echo $themeHref; ?>Tree.js">//</script>
     <script type="text/javascript" src="<?php echo $themeHref; ?>Sortable.js">//</script>
-    
-    
-    <!-- Pour l'alignement des vers -->
-    <script type="text/javascript">
-        
-        function getStringWidth(theString) {
-        	$("#ruler").html(theString);
-        	return $("#ruler").width();
-      	}
-        
-        
-        (function() {
-        // Cool! il y a juste des IE un peu paumés, mais tant pis , c’est trop simple http://quirksmode.org/dom/core/#t11
-        var tempText;
-        var theGoodPrevious;
-        var verse;
-        var op;
-      
-      	$("#ruler").addClass("l");
-        
-        $(".part-Y").each(function() {
-        
-        
-        	theGoodPrevious = $(this).parent().prev(".sp").find(".l").last();
-        	//theGoodPrevious = theGoodPrevious.remove(".l-n");
-       		
-        	var sizeOf = getStringWidth(theGoodPrevious.html());
-        	//var sizeOf = getStringWidth(test.prev(".l").html());¨
-        	
-        	if ($(this).find(".l-n").length) {
-        		verse = $(this).find(".l-n")[0].outerHTML;
-        		$(this).find(".l-n").empty();
-        		tempText = verse + "<span class=\"space\" style=\"width:" + sizeOf + "px\"></span>" + $(this).html();
-        	}
-        	else {
-        		tempText = "<span class=\"space\" style=\"width:" + sizeOf + "px\"></span>" + $(this).html();
-        	}
-       
-        	$(this).html(tempText); 
-        })
-    })();
-    <!-- Fin -->
-    </script>    <!-- Fin -->
-    
-    
+
+
+
   </body>
-  
-  
+
+
 </html>
