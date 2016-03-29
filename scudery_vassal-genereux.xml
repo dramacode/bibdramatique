@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Le Vassal généreux. Tragi-comédie</title>
-        <author>Georges de Scudéry</author>
+        <author key="Scudéry, Georges de (1601-1667)">Georges de Scudéry</author>
 <principal>Georges Forestier</principal>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie dans le cadre d'un mémoire de
          master 1 sous la direction de Georges Forestier (2007)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16-18</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2014"/>
-        <idno>?</idno>
         <availability status="restricted">
-          <licence target="?">CELLF 16-18</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/scudery_vassal-genereux/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/scudery_vassal-genereux.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/scudery_vassal-genereux.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/scudery_vassal-genereux.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/scudery_vassal-genereux.epub</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl><title>Le Vassal généreux. Poème tragi-comique</title>, <author>Par MONSIEUR DE SCUDERY</author>. A PARIS, Chez AUGUSTIN COURBÉ, Imprimeur et Libraire de Monsieur frere du Roy, dans la petite Salle du Palais, à la Palme. M. DC. XXXVI. AVEC PRIVILEGE DU ROY.</bibl>
@@ -36,7 +41,7 @@
         <date when="1636"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -892,7 +897,7 @@
           <head>EXTRAIT DU PRIVILEGE DU ROY<note place="bottom">Nous ne rendons ici que quelques parties du <hi rend="i">Privilege du Roy</hi> qui se trouvait à la fin de l’édition d’Antoine Courbé.</note></head>
           <p>Nostre bien-aimé AUGUSTIN COURBE, Marchand Libraire en nostre bonne ville de Paris, nous a fait remonstrer qu’il a recouvré deux Tragi-Comedies nouvelles, composées par le Sieur SCUDERY, intitulées ; l’une, <hi rend="i">Le Vassal genereux</hi> ; et l’autre, <hi rend="i">Le Prince Déguisé</hi>, lesquelles il desireroit faire imprimer, s’il avoit sur ce nos Lettres necessaires ; lesquelles il nous a tres-humblement supplié de luy accorder. A CES CAUSES, Nous avons permis et permettons par ces présentes à l’exposant, d’imprimer et faire imprimer, vendre et debiter en tous les lieux de nostre obeyssance, lesdites deux Tragi-Comedies, conjoitement ou separément ; en telles marges, et tels caracteres, et autant de fois que bon luy semblera, durant l’espace de neufs ans entiers et accomplis, à compter du jour que chacune sera achevée d’imprimer pour la premiere fois. Faisans tres-expresses deffenses à toutes personnes, de quelque qualité et condition qu’elles soient, d’imprimer, ny faire imprimer, vendre ou distribuer lesdites Tragi-Comedies en aucun lieu de ce Royaume durant ledit temps, sans le consentement de l’exposant ; sous pretexte d’augmentation, correction, ou autrement, en quelque sorte et maniere que ce soit ; ny mesme d’en extraire aucune chose, ou d’en contrefaire le titre. Mandons au premier Huissier ou Sergent sur ce requis, de faire pour l’execution du contenu cy-dessus, tous exploicts necessaires, sans demander autre permission. CAR TEL EST nostre plaisir. Donné à paris le onziesme jour d’Aoust, l’an de grace mil six cens trente cinq. Et de nostre regne le vingt-sixiesme.</p>
           <p rend="b">Par le Roy en son Conseil. </p>
-          <p rend="right b">CONRART. </p>
+          <p rend="right"><hi rend="b">CONRART</hi>. </p>
           <p rend="center">Achevé d’imprimé ce premier Septembre 1635.</p>
           <p rend="center">Les Exemplaires ont esté fournis, ainsi qu’il est porté<lb/>par le Privilege.</p>
         </div>
@@ -950,7 +955,7 @@
           <castItem>
             <role xml:id="rosimar" rend="male">ROSIMAR,</role>
             <roleDesc>Prince Gaulois. </roleDesc>
-          </castItem>
+          </castItem>s
           <castItem>
             <role xml:id="menocrite" rend="male">MENOCRITE,</role>
             <roleDesc>Prince Gaulois. </roleDesc>
@@ -973,10 +978,14 @@
           <castItem>
             <role xml:id="choeur-trompettes">Chœur de Trompettes.</role>
           </castItem>
+            <castItem>
+              <role xml:id="un-citoyen"></role>
+            </castItem>
           </castList>
         </div>
         <div type="act">
-          <head>ACTE PREMIER. <pb n="1" xml:id="p1"/></head>
+          <pb n="1" xml:id="p1"/>
+          <head>ACTE PREMIER.</head>
           <div type="scene">
             <head>SCENE PREMIERE.</head>
             <stage>THEANDRE, ROSILEE. </stage>
@@ -1074,7 +1083,8 @@
               <l n="60" xml:id="l60">Je vous ay voulu voir aussi tost que le jour.</l>
             </sp>
             <sp who="theandre">
-              <speaker>THEANDRE.<space rend="tab">    </space><pb n="5" xml:id="p5"/></speaker>
+              <speaker>THEANDRE.</speaker>
+              <pb n="5" xml:id="p5"/>
               <l n="61" xml:id="l61">Je prens comme je dois l’honneur de vos caresses<note place="bottom">« Démonstration d’amitié ou de bienveillance qu’on fait à quelqu’un par un accueil gracieux, par quelque cageolleries » </note>;</l>
               <l n="62" xml:id="l62">C’est dans ces lieux sacrez qu’on doit voir les Deesses,</l>
               <l n="63" xml:id="l63">C’est dans ces lieux icy<note place="bottom">Redondance fréquente au XVII<hi rend="sup">e</hi> siècle, qui insiste sur le lieu où l’on est.</note> qu’on les doit honorer;</l>
@@ -1126,7 +1136,8 @@
               <l n="88" xml:id="l88">Je veux qu’il sçache encor que j’aime plus que luy.</l>
             </sp>
             <sp who="theandre">
-              <speaker>THEANDRE.<space rend="tab">    </space><pb n="7" xml:id="p7"/></speaker>
+              <speaker>THEANDRE.</speaker>
+              <pb n="7" xml:id="p7"/>
               <l n="89" xml:id="l89">Ha trop heureux Amant! plaisir incomparable!</l>
               <l n="90" xml:id="l90">O bon-heur<note place="bottom">« Félicité parfaite », « sort favorable ».</note> infiny, pourveu qu’il soit durable!</l>
               <l n="91" xml:id="l91" part="I">Mais........</l>
@@ -1219,7 +1230,8 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE SECONDE.<pb n="11" xml:id="p11"/></head>
+            <pb n="11" xml:id="p11"/>
+            <head>SCENE SECONDE.</head>
             <stage>LUCIDAN, ROSILEE, POLICRANE.</stage>
             <sp who="lucidan">
               <speaker>LUCIDAN <hi rend="i">seul.</hi> </speaker>
@@ -2073,7 +2085,8 @@
               <l part="F">le Mouchoir.</l>
             </sp>
             <sp who="lucidan">
-              <speaker>LUCIDAN. <space rend="tab">    </space> [46]</speaker>
+              <speaker>LUCIDAN.</speaker>
+              <pb n="46" xml:id="p46"/>
               <l n="665" xml:id="l665" part="I">Indiscret,</l>
             </sp>
             <sp who="rosilee">
@@ -2665,7 +2678,9 @@
               <l n="1057" xml:id="l1057">Sont les plus subjects à la foudre:</l>
               <l n="1058" xml:id="l1058">Elle n’en veut qu’à leur orgueil;</l>
               <l n="1059" xml:id="l1059">Et ce Sceptre qui porte un œil</l>
+              </lg>
               <stage>Hieroglifique de Dieu selon les Egyptiens.</stage>
+              <lg>
               <l n="1060" xml:id="l1060">Brise tous les autres en poudre;</l>
               <l n="1061" xml:id="l1061">Et qui regne, doit se resoudre,</l>
               <l n="1062" xml:id="l1062">A faire d’un Throsne un cercueil.</l>
@@ -2763,8 +2778,8 @@
               <l n="1132" xml:id="l1132">Je tasche de bannir vostre <ref target="#melancolie">melancolie*</ref>:</l>
             </sp>
             <sp who="rosilee">
-              <pb n="98" xml:id="p98"/>
               <speaker>ROSILEE.</speaker>
+              <pb n="98" xml:id="p98"/>
               <l n="1133" xml:id="l1133">D’un remede plus fort ma douleur a besoin:</l>
             </sp>
             <sp who="artesie">
@@ -3265,8 +3280,8 @@
               <l n="1452" xml:id="l1452">Le fidele Vassal qui l’a fait revenir.</l>
             </sp>
             <sp who="rosilee">
-              <pb n="118" xml:id="p118"/>
               <speaker>ROSILEE.</speaker>
+              <pb n="118" xml:id="p118"/>
               <l n="1453" xml:id="l1453">Seigneur, mon<note place="bottom">Il faut lire « votre intérêt pour moi ».</note> interest vous fit prendre les armes;</l>
               <l n="1454" xml:id="l1454">Pour le mesme aujourd’huy donnez-les à mes larmes;</l>
               <l n="1455" xml:id="l1455">Sur la foy de Theandre il est icy venu;</l>
