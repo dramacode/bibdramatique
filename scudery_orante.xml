@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Orante. Tragi-comédie</title>
-        <author>Georges de Scudéry</author>
+        <author key="Scudéry, Georges de (1601-1667)">Georges de Scudéry</author>
+        <principal>Georges Forestier</principal>
         <editor>Vanessa Thomann</editor>
       </titleStmt>
       <editionStmt>
         <edition>Édition critique établie par Vanessa Thomann dans le cadre d'un mémoire de
           maîtrise sous la direction de Georges Forestier (2000-2001)</edition>
         <respStmt>
-          <name>Georges Forestier</name>
-          <resp>CELLF 16e-18e/Université Paris-Sorbonne</resp>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>publié par Amélie Canu pour le CELLF 16-18</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2014"/>
-        <idno>?</idno>
         <availability status="restricted">
-          <licence target="?">CELLF 16-18</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
         </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/scudery_orante/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/scudery_orante.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/scudery_orante.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/scudery_orante.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/scudery_orante.epub</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl><title>Orante. Tragi-comédie</title>, <author>Par MONSIEUR DE SCUDERY</author>, A PARIS, Chez AUGUSTIN COURBÉ, imprimeur Libraire de Monsieur frere du Roy, dans la Petite salle du Palais, à la Palme. M. DC. XXXVI. AVEC PRIVILEGE DU ROY.</bibl>
@@ -977,8 +983,7 @@
         </div>
 </front>
       <body>
-        <head>ORANTE</head>
-        <head>TRAGI-COMEDIE</head>
+        <head>ORANTE<lb/>TRAGI-COMEDIE</head>
         <div>
           <head>A MADAME,<lb/>MADAME<lb/>LA DUCHESSE DE LONGUEVILLE<note place="bottom"><hi rend="i">Orante</hi> est dédicacée à madame de Longueville. Elle est la sœur du prince de Condé, qui est le protecteur de Scudéry. Scudéry restera toujours fidèle à cette famille, même quand leurs affaires sont au plus mal. En effet, Il fait même parvenir au prince le quatrième et le cinquième volume de <hi rend="i">Cyrus</hi>, lorsque celui-ci est en prison à Vincennes. Il semble que Scudéry renforce son amitié, un exercice de bravoure en quelques sortes. Il dit lui-même que son amitié est « assez généreuse pour mépriser tout ce que les autres craignent ». Pendant la fronde, son attachement à cette famille lui vaudra six ans d’exil en Normandie.</note></head>
           <p>Madame,</p>
@@ -1067,14 +1072,15 @@
             <role xml:id="argamor" rend="male">ARGAMOR</role>
             <roleDesc>Brave<note place="bottom">« Fier, intrépide ; vaillant ; courageux ; qui affronte les périls, &amp; qui s’exposent sans craindre la mort. » (Furetière).</note>.</roleDesc>
           </castItem>
-          <castItem xml:id="gertimant" rend="male">
-            <role>GERTIMANT</role>
+          <castItem>
+            <role xml:id="gertimant" rend="male">GERTIMANT</role>
             <roleDesc>Brave.</roleDesc>
           </castItem>
           </castList>
         </div>
         <div type="act">
-          <head>ACTE PREMIER. <pb n="1"/></head>
+          <head>ACTE PREMIER. </head>
+          <pb n="1"/>
           <stage>ROSIMOND, ISIMANDRE, ORMIN, CLINDOR, NERINE, LUCINDE, FLORANGE, PALINICE, ORANTE.</stage>
           <div type="scene">
             <head>SCENE PREMIERE.</head>
@@ -1168,7 +1174,7 @@
             </sp>
             <sp who="rosimond">
               <speaker>ROSIMOND.</speaker>
-              <l n="55" xml:id="l55">De sçavoir quelle<note place="bottom">Cet adjectif interrogatif était employé au XVII<hi rend="sup">e</hi> siècle à propos de l’identité. Mais il a complètement disparu en français moderne (G. Spillebout, <hi xml:lang="nl" rend="i">op. cit.</hi>, p. 170).</note> elle est, le desir vient de naistre :<pb n="5"/></l>
+              <l n="55" xml:id="l55">De sçavoir quelle<note place="bottom">Cet adjectif interrogatif était employé au XVII<hi rend="sup">e</hi> siècle à propos de l’identité. Mais il a complètement disparu en français moderne (G. Spillebout, <hi  rend="i">op. cit.</hi>, p. 170).</note> elle est, le desir vient de naistre :<pb n="5"/></l>
             </sp>
             <sp who="isimandre">
               <speaker>ISIMANDRE.</speaker>
@@ -1495,16 +1501,18 @@
                 <l n="275" xml:id="l275">Vivant en ton penser<note place="bottom">« Penser » est utilisé pour pensée, « n’est guerre usité qu’en poésie » (<hi rend="i">Dictionnaire de l’Académie Française</hi>).</note>, je mourray sans douleur :</l>
                 <l n="276" xml:id="l276">Dieux, ce sang est de flame, il en a la couleur ;</l>
                 <l n="277" xml:id="l277">Reçois au lieu d’encens l’agreable fumée,</l>
+              </lg>
                 <stage>Elle desbande le bras.</stage>
+              <lg>
                 <l n="278" xml:id="l278">Qui sort parmy le sang de la personne aimée,</l>
                 <l n="279" xml:id="l279">Ce sont là des esprits qui vont chercher le tien :</l>
                 <l n="280" xml:id="l280">La mort n’est point un mal, à qui la connoist bien :</l>
                 <l n="281" xml:id="l281">Mais puisque ce papier se trouve favorable,</l>
                 <l n="282" xml:id="l282">Taschons de consoler l’esprit d’un miserable ;</l>
                 <l n="283" xml:id="l283">Faisons voir que la mort ne peut rien sur l’Amour :</l>
+              </lg>
                 <stage>Elle escrit de son sang.</stage>
                 <l n="284" xml:id="l284">Adieu cher Isimandre, adieu, je perds le jour.</l>
-              </lg>
             </sp>
           </div>
           <div type="scene">
@@ -2108,7 +2116,7 @@
               <l n="627" xml:id="l627">L’œil d’un Amant jaloux, voit tout, peut tout percer ;</l>
               <l n="628" xml:id="l628">Et mesme dans l’esprit il surprend un penser :</l>
               <l n="629" xml:id="l629">Un sousris<note place="bottom">« Action de sourire » (Furetière.)</note>, une larme, un souspir, une œillade,</l>
-              <l n="630" xml:id="l630">Sont indices <note place="bottom">« L’omission de l’article s’explique ici par le fait que logiquement le substantif attribut a plus d’extension que le substantif sujet. » (G. Spillebout, <hi xml:lang="nl" rend="i">op. cit</hi>., p. 45).</note> certains que l’esprit est malade,</l>
+              <l n="630" xml:id="l630">Sont indices <note place="bottom">« L’omission de l’article s’explique ici par le fait que logiquement le substantif attribut a plus d’extension que le substantif sujet. » (G. Spillebout, <hi rend="i">op. cit</hi>., p. 45).</note> certains que l’esprit est malade,</l>
               <l n="631" xml:id="l631">Sur quoy l’homme subtil fonde son jugement :</l>
               <l n="632" xml:id="l632">Celuy qui souffre un mal le connoist aisément.</l>
               <l n="633" xml:id="l633">Il n’est que trop certain qu’Orante aime Isimandre :</l>
@@ -2145,9 +2153,9 @@
               <l n="651" xml:id="l651">Orante ! ce beau nom, me charme, &amp; me ravit ; <pb n="50"/></l>
               <l n="652" xml:id="l652">Mais bien-heureux papier, redis moy qu’elle vit.</l>
               <p rend="center">LETTRE.</p>
-              <lg>
               <l n="653" xml:id="l653">L’esperance m’estant ostée,</l>
               <stage>Il lit.</stage>
+              <lg>
               <l n="654" xml:id="l654">Le trespas me sembla fort doux ;</l>
               <l n="655" xml:id="l655">L’amour me fit mourir, &amp; m’a ressuscitée<note place="bottom">Dans l’<hi rend="i">Astrée</hi>, éd. cit, p. 401, Clarine envoie une lettre à Arimant : « Elle mourut certes quand je vous manday, mais les dieux l’ont ressuscitée pour vous. »</note></l>
               <l n="656" xml:id="l656">Mais je veux que ce soit pour vous.</l>
@@ -2158,9 +2166,9 @@
                 <l n="659" xml:id="l659">Miracle de nos jours, incomparable <ref target="#foy">foy*</ref>,</l>
               <l n="660" xml:id="l660">Que ne vous dois-je point ? vivre &amp; mourir pour moy !</l>
               </lg>
-              <lg>
                 <l n="661" xml:id="l661">Mon sang a marqué mon <ref target="#courage">courage*</ref> ;</l>
               <stage>Il lit encore.</stage>
+              <lg>
               <l n="662" xml:id="l662">Mais apprenez de ce discours ;</l>
               <l n="663" xml:id="l663">Que pour sauver le reste, apres ce grand orage,</l>
               <l n="664" xml:id="l664">J’ay besoin de vostre secours.</l>
@@ -2171,9 +2179,9 @@
               <l n="667" xml:id="l667">J’auray pour obeïr à ce divin escrit,<pb n="51"/></l>
               <l n="668" xml:id="l668">Autant de force au bras, comme vous en l’esprit.</l>
               </lg>
-              <lg>
               <l n="669" xml:id="l669">Soyez discret, soyez fidelle,</l>
               <stage>Il acheve de lire.</stage>
+              <lg>
               <l n="670" xml:id="l670">Sans estre connu dans ce lieu :</l>
               <l n="671" xml:id="l671">Orante vous permet de venir aupres d’elle ;</l>
               <l n="672" xml:id="l672">Vollez s’il est possible ; adieu.</l>
@@ -3089,7 +3097,8 @@
               <l n="1084" xml:id="l1084">Ha ! chassez ce phantosme il desplait à mes yeux.</l>
             </sp>
             <sp who="florange">
-              <speaker>FLORANGE<pb n="89"/></speaker>
+              <speaker>FLORANGE</speaker>
+              <pb n="89"/>
               <l n="1085" xml:id="l1085">Que par l’ombre du bien l’ame est souvent trompée :</l>
               <stage>Il parle bas.</stage>
             </sp>
@@ -3308,17 +3317,18 @@
           </div>
         </div>
         <div type="act">
+          <pb n="98"/>
           <head>ACTE CINQUIESME.</head>
-          <stage>ISIMANDRE, LERISTE, ORANTE, POLIANTE, LUCINDE, PALINICE, ORMIN, FLORANGE, GERTIMANT, ARGAMOR, CLINDOR, NERINE.<pb n="98"/></stage>
+          <stage>ISIMANDRE, LERISTE, ORANTE, POLIANTE, LUCINDE, PALINICE, ORMIN, FLORANGE, GERTIMANT, ARGAMOR, CLINDOR, NERINE.</stage>
           <div type="scene">
             <head>SCENE PREMIERE.</head>
             <stage>ISIMANDRE, LERISTE.</stage>
             <sp who="isimandre">
               <speaker>ISIMANDRE.</speaker>
               <p rend="center"><ref target="#cartel">CARTEL*</ref>.</p>
-              <lg>
               <l n="1201" xml:id="l1201">Isimandre, Orante trompée,</l>
               <stage>Il lit.</stage>
+              <lg>
               <l n="1202" xml:id="l1202">Oblige Ormin à te punir ;</l>
               <l n="1203" xml:id="l1203">Je t’attends avec une espée,</l>
               <l n="1204" xml:id="l1204">Souviens toy que tu dois venir.<pb n="99"/></l>
@@ -3383,7 +3393,8 @@
             <head>SCENE SECONDE</head>
             <stage>ORANTE, ISIMANDRE.</stage>
             <sp who="orante">
-              <speaker>ORANTE<pb n="101"/></speaker>
+              <speaker>ORANTE</speaker>
+              <pb n="101"/>
               <l n="1249" xml:id="l1249">Cruel, que ne fais tu ce que ta voix m’ordonne ?</l>
             </sp>
             <sp who="isimandre">
@@ -3540,7 +3551,8 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE QUATRIESME. <pb n="107"/></head>
+            <head>SCENE QUATRIESME.</head>
+            <pb n="107"/>
             <stage>CLINDOR, POLIANTE, ORANTE.</stage>
             <sp who="clindor">
               <speaker>CLINDOR.</speaker>
@@ -3617,7 +3629,7 @@
           </div>
           <div type="scene">
             <head>SCENE SIXIESME.</head>
-            <stage xml:lang="en">FLORANGE, ARGAMOR, GERTIMANT, ORMIN.</stage>
+            <stage>FLORANGE, ARGAMOR, GERTIMANT, ORMIN.</stage>
             <sp who="florange">
               <speaker>FLORANGE.</speaker>
               <l n="1361" xml:id="l1361" part="I">Main basse Compagnons:</l>
@@ -3659,11 +3671,11 @@
               <l n="1369" xml:id="l1369">La seconde rencontre, acheve la premiere :<pb n="111"/></l>
             </sp>
             <sp who="argamor">
-              <speaker xml:lang="en">ARGAMOR.</speaker>
+              <speaker>ARGAMOR.</speaker>
               <l n="1370" xml:id="l1370" part="I">Fuyons,</l>
             </sp>
             <sp who="florange">
-              <speaker xml:lang="en">FLORANGE.</speaker>
+              <speaker>FLORANGE.</speaker>
               <l part="F">Je perds l’espoir, avecque la lumiere<note place="bottom">Il meurt, blessé par Isimandre.</note>.</l>
             </sp>
             <sp who="isimandre">
@@ -3702,7 +3714,7 @@
               <l n="1396" xml:id="l1396">Le chemin de son ame est un chemin aisé ;</l>
               <l n="1397" xml:id="l1397">Le repos est un bien que son esprit souhaite :</l>
               <l n="1398" xml:id="l1398">Mais Monsieur il est temps de faire la retraite ;</l>
-              <l n="1399" xml:id="l1399">Naples vous peut revoir, y venant quant &amp;<note place="bottom">« Quant et » est utilisé pour signifier « avec ». C’est un emploi perdu dans le français moderne. (G. Spillebout, <hi xml:lang="nl" rend="i">op. cit</hi>., p. 242).</note> moy :</l>
+              <l n="1399" xml:id="l1399">Naples vous peut revoir, y venant quant &amp;<note place="bottom">« Quant et » est utilisé pour signifier « avec ». C’est un emploi perdu dans le français moderne. (G. Spillebout, <hi rend="i">op. cit</hi>., p. 242).</note> moy :</l>
             </sp>
             <sp who="ormin">
               <speaker>[ORMIN]<note place="bottom">Dans le texte, on nous signale qu’Orante prend la parole. Nous corrigeons l’erreur.</note>.</speaker>
@@ -3710,7 +3722,8 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE HUICTIESME.<pb n="113"/></head>
+            <head>SCENE HUICTIESME.</head>
+            <pb n="113"/>
             <stage>LUCINDE, PALINICE.</stage>
             <sp who="lucinde">
               <speaker>LUCINDE.</speaker>
@@ -3786,7 +3799,8 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE DIXIESME.<pb n="116"/></head>
+            <head>SCENE DIXIESME.</head>
+            <pb n="116"/>
             <stage>ORMIN, POLIANTE, ISIMANDRE, CLINDOR, LERISTE.</stage>
             <sp who="ormin">
               <speaker>ORMIN.</speaker>
@@ -3845,7 +3859,8 @@
               <l n="1468" xml:id="l1468">Et la nuit les separe avec bien du regret.</l>
             </sp>
             <sp who="ormin">
-              <speaker>ORMIN.<pb n="118"/></speaker>
+              <speaker>ORMIN.</speaker>
+              <pb n="118"/>
               <l n="1469" xml:id="l1469">Je me doute à peu pres quel amy ce peut estre :</l>
               <l n="1470" xml:id="l1470">Ha ! sans faute c’est luy, car je le voy paroistre ;</l>
               <l n="1471" xml:id="l1471">Mais souz un autre habit que vous ne l’avez veu :</l>
@@ -3869,7 +3884,8 @@
               <l n="1476" xml:id="l1476">Et je ne la reprens que pour vous la donner,</l>
             </sp>
             <sp who="orante">
-              <speaker>ORANTE.<pb n="119"/></speaker>
+              <speaker>ORANTE.</speaker>
+              <pb n="119"/>
               <l n="1477" xml:id="l1477">Mon silence, &amp; mon teint vous parlent de ma honte :</l>
             </sp>
             <sp who="lucinde">
