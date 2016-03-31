@@ -1119,15 +1119,15 @@
         </castList>
         <stage>La Scene est dans une des Salles de la maison de Vitelle.</stage>
       </div>
-      <div type="act">
+      <div xml:id="I" type="act">
         <head>ACTE I</head>
         <p>
           <title rend="center b">LES ENFANS DE BRUTE. TRAGEDIE</title>
         </p>
-        <div type="scene">
+        <div type="scene" xml:id="I01">
           <head>SCENE PREMIERE</head>
           <stage>TITE, VITELLE, TIBERE.</stage>
-          <sp who="tite">
+          <sp xml:id="I01-1" who="tite">
             <speaker>TITE.</speaker>
             <l n="1" xml:id="l1">Ouy Rome est inflexible, et cette criminelle<pb n="A, 1"/></l>
             <l n="2" xml:id="l2">Joint le titre d’injuste à celuy de <ref target="#rebelle">rebelle*</ref>,</l>
@@ -1137,7 +1137,7 @@
 <pb n="2"/>
             </l>
           </sp>
-          <sp who="vitelle">
+          <sp xml:id="I01-2" who="vitelle">
             <speaker>VITELLE.</speaker>
             <l n="6" xml:id="l6">Ah ! malheureux Tarquin, ah ! Prince <ref target="#deplorable">déplorable*</ref> !</l>
             <l n="7" xml:id="l7">Où rencontreras-tu quelque fidelle appuy,</l>
@@ -1187,7 +1187,7 @@
             <l n="51" xml:id="l51">Ma mort qui <ref target="#prevenir">previendra*</ref> ses suprémes malheurs,</l>
             <l n="52" xml:id="l52">Armera mes amis, et touchera vos coeurs.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="I01-3" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="53" xml:id="l53">Ceux à qui vous parlez, ne sont pas inflexibles,<pb n="4"/></l>
             <l n="54" xml:id="l54">Nos coeurs pour les Tarquins ne sont que trop sensibles.</l>
@@ -1207,7 +1207,7 @@
             <l n="68" xml:id="l68">A servir un <ref target="#tyrannie">tyran*</ref>, et prendre son party,</l>
             <l n="69" xml:id="l69">Voila de sa <ref target="#vertu">vertu*</ref> l’<ref target="#illustre">illustre*</ref> <ref target="#caractere">charactère</ref><note n="305" place="bottom"> Cette évocation imagée, « s’arracheroit le coeur », de la force d’âme de Brute capable de se sacrifier pour servir Rome rappelle son statut d’exemplum et fait écho aux autres témoignages héroïques de ce zèle officieux pour la République romaine. Autre héros livien, Mucius Scaevola chargé d’assassiner un ennemi de la République, Porsenna, n’hésita pas, une fois découvert, à plonger sa main droite dans le feu d’un brasier allumé pour un sacrifice, et regardant Porsenna d’un visage ferme et d’un œil menaçant, il aurait déclaré si l’on en croit Tite-Live dans l’Histoire romaine, livre II, 12 : « Vois, vois combien le corps est peu de chose pour ceux qui n’ont en vue que la gloire » (<hi rend="i">Oeuvres de Tite-Live, Histoire romaine</hi>, trad. Jean-Marie-Napoléon-Désiré Nisard, 1864).</note>.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="I01-4" who="tite">
             <speaker>TITE.</speaker>
             <l n="70" xml:id="l70">Seigneur, pour confirmer tout ce qu’a dit mon frere,</l>
             <l n="71" xml:id="l71">Et que, ce qu’ont d’horreur les plus noirs assassins,</l>
@@ -1237,7 +1237,7 @@
             <l n="95" xml:id="l95">Il nous sera permis, ne l’osant secourir,<note n="307" place="bottom">Le texte original propose un « point » cependant la phrase se poursuit et nous avons donc introduit une virgule à la place.</note></l>
             <l n="96" xml:id="l96">De partager un mal que l’on ne peut guerir.</l>
           </sp>
-          <sp who="vitelle">
+          <sp xml:id="I01-5" who="vitelle">
             <speaker>VITELLE.</speaker>
             <l n="97" xml:id="l97">Ah ! Princes ces <ref target="#raison1">raisons*</ref> que Brute vous oppose,</l>
             <l n="98" xml:id="l98">Ce <ref target="#zele">zele*</ref> du public dont il soustient la cause,</l>
@@ -1252,11 +1252,11 @@
             <l n="107" xml:id="l107">Voulez-vous maintenant pour comble de ses maux,</l>
             <l n="108" xml:id="l108">Abandonner son Pere, et <ref target="#flatter1">flatter*</ref> ses bourreaux ?</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="I01-6" who="tite">
             <speaker>TITE.</speaker>
             <l n="109" xml:id="l109" part="I">Helas !</l>
           </sp>
-          <sp who="vitelle">
+          <sp xml:id="I01-7" who="vitelle">
             <speaker>VITELLE.</speaker>
             <l part="F">Espargnez-vous ces inutiles larmes*.
             </l>
@@ -1285,20 +1285,20 @@
             <l n="132" xml:id="l132">Tascher de destourner ses yeux de dessus vous,</l>
             <l n="133" xml:id="l133">Pour luy cacher l’horreur de vostre perfidie.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="I01-8" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="134" xml:id="l134">Pourquoy me parlez-vous du malheur de Tullie ?</l>
             <l n="135" xml:id="l135">Que vous avons-nous fait pour nous entretenir</l>
             <l n="136" xml:id="l136">D’un object si <ref target="#cruel">cruel*</ref> à nostre souvenir ?</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="I01-9" who="tite">
             <speaker>TITE.</speaker>
             <l n="137" xml:id="l137">Frere ingrat à Tullie autant qu’à vostre <ref target="#gloire">gloire*</ref>,</l>
             <l n="138" xml:id="l138">Que vous a-t-elle fait pour bannir sa memoire ?</l>
             <l n="139" xml:id="l139">Aymons un souvenir qui nous doit affliger,</l>
             <l n="140" xml:id="l140">Et qui met dans nos coeurs l’<ref target="#ardeur1">ardeur*</ref> de nous vanger.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="I01-10" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="141" xml:id="l141">Ah ! que de vostre part ce reproche me touche !<pb n="8"/></l>
             <l n="142" xml:id="l142">Qu’un soupçon m’est <ref target="#cruel">cruel*</ref> venant de vostre bouche,</l>
@@ -1328,7 +1328,7 @@
             <l n="166" xml:id="l166">Apaisons d’un sang pur ses manes <ref target="#adorable">adorables*</ref>.</l>
             <l n="167" xml:id="l167" part="I">Mourons.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="I01-11" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Mourons Tibere, et qu’un beau <ref target="#desespoir">desespoir*</ref> :</l>
             <l n="168" xml:id="l168">Fasse sans plus tarder nostre premier <ref target="#devoir">devoir*</ref> ;</l>
@@ -1343,35 +1343,35 @@
             <l n="177" xml:id="l177" part="I">Mourons.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I02">
           <head>SCENE II</head>
           <stage>TULLIE, TITE, TIBERE, VITELLE.</stage>
-          <sp who="tullie">
+          <sp xml:id="I02-1" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="F">Ah vous vivrés<note n="314" place="bottom">On remarque la graphie « és » et non « ez » pour conjuguer à la deuxième personne du pluriel.</note> Princes, si vostre vie</l>
             <l n="178" xml:id="l178">Par ma mort seulemen vous peut estre ravie.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="I02-2" who="tite">
             <speaker>TITE.</speaker>
             <l n="179" xml:id="l179" part="I">Ah ! mon frère ! ah Seigneur.<pb n="B, 10"/></l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="I02-3" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="F">Mon frère ! justes Dieux !</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="I02-4" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="180" xml:id="l180" part="I">Me méconnoissez-vous ?</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="I02-5" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Que voyez-vous mes yeux ?</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="I02-6" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="181" xml:id="l181" part="I">Est-ce nostre Princesse ?</l>
           </sp>
-          <sp who="vitelle">
+          <sp xml:id="I02-7" who="vitelle">
             <speaker>VITELLE.</speaker>
             <l part="F">Oüy, Princes ; c’est Tullie,</l>
             <l n="182" xml:id="l182">Et c’est ce qui me reste encor de Servilie.</l>
@@ -1380,7 +1380,7 @@
             <l n="185" xml:id="l185">Encore fallut-il qu’une esclave en sa place,</l>
             <l n="186" xml:id="l186">Arrestast les <ref target="#fureur">fureurs*</ref> de cette populace.<note n="315" place="bottom"> Le récit expliquant la survie de Tullie par une mystification est un procédé que l’on retrouvera notamment dans <hi rend="i">Andromaque</hi> de Racine (1667) qui manipule le matériau historique prétendant que c’est l’enfant d’une esclave qui est présenté à Ulysse sur les murs de Troie et non le fils d’Hector et qui se trouve ainsi sacrifié à sa place.</note> </l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="I02-8" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="187" xml:id="l187">Oüy, c’est vostre Tullie, elle que son bon-heur,</l>
             <l n="188" xml:id="l188">Et Vitelle ont sauvé du destin de sa soeur.<note n="316" place="bottom">La présence d’un point à la fin de ce vers est contestable, on peut considérer que la phrase se poursuit du fait d’une conjonction de coordination en amorce du vers suivant.</note></l>
@@ -1401,7 +1401,7 @@
             <l n="203" xml:id="l203">Je puis estre mourant ce qu’autresfois je fus,</l>
             <l n="204" xml:id="l204"><ref target="#cruel">Cruels*</ref> ! vous m’aymerez quand je ne seray plus.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="I02-9" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="205" xml:id="l205">Avecque trop d’<ref target="#ardeur1">ardeur*</ref> vous blasmez un silence :</l>
             <l n="206" xml:id="l206">Qui vient de nostre joye, et de vostre presence,</l>
@@ -1424,7 +1424,7 @@
             <l n="223" xml:id="l223">Et servans à Tarquin de victime ou d’apuy,</l>
             <l n="224" xml:id="l224">Relevons sa fortune, ou tombons avec luy.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="I02-10" who="tite">
             <speaker>TITE.</speaker>
             <l n="225" xml:id="l225">Vangeons-les : mais Madame en cette conjoncture,</l>
             <l n="226" xml:id="l226">Que direz-vous des fils qui <ref target="#denature">forçans la nature*</ref><note n="317" place="bottom">Le verbe « forcer » dans l’expression « forcer la nature » signifie « aller à l’encontre » des lois de celle-ci ; il s’agit d’un acte condamnable qui rendrait les fils de Brute indignes de l’amour que leur porte la princesse.</note>;</l>
@@ -1438,7 +1438,7 @@
             <l n="234" xml:id="l234">Je ne manque envers vous ny de coeur ny de <ref target="#zele">zele*</ref> ?</l>
             <l n="235" xml:id="l235" part="I">Mais.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="I02-11" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="F">Vous vous abusez, j’ayme trop vostre <ref target="#honneur">honneur</ref>,<pb n="13"/></l>
             <l n="236" xml:id="l236">Pour vouloir par sa perte achepter mon bon-heur.</l>
@@ -1475,12 +1475,12 @@
               <note n="320" place="bottom">« A mesme temps » signifie « en même temps ».</note>Brute, Tullie, et Rome.
             </l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="I02-12" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="267" xml:id="l267">Je n’y <ref target="#balancer1">balance*</ref> point, le sort en est jetté,</l>
             <l n="268" xml:id="l268">Vous, Tite, <ref target="#soupir">souspirez*</ref> d’avoir tant resisté.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="I02-13" who="tite">
             <speaker>TITE.</speaker>
             <l n="269" xml:id="l269">Je cede avec <ref target="#raison2">raison*</ref> à ces <ref target="#raison1">raisons*</ref> puissantes</l>
             <l n="270" xml:id="l270">Qui rendent nos <ref target="#ardeur1">ardeurs*</ref> et nos mains innocentes,</l>
@@ -1491,7 +1491,7 @@
             <l n="275" xml:id="l275">La <ref target="#vertu">vertu*</ref> que les Dieux font éclater en vous,</l>
             <l n="276" xml:id="l276">Nous persuade assez qu’ils combatront pour nous.</l>
           </sp>
-          <sp who="vitelle">
+          <sp xml:id="I02-14" who="vitelle">
             <speaker>VITELLE.</speaker>
             <l n="277" xml:id="l277">Les hommes, et les Dieux tous conspirent de méme :</l>
             <l n="278" xml:id="l278">A remettre en vos mains la puissance supréme,</l>
@@ -1513,18 +1513,18 @@
             <l n="294" xml:id="l294">Voyons les conjurez, vous cachez-vous Madame ;</l>
             <l n="295" xml:id="l295">La <ref target="#haine">hayne*</ref> des Romains nous pourroit soupçonner.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="I02-15" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="296" xml:id="l296">Au point d’avoir le thrône, ou de l’abandonner,</l>
             <l n="297" xml:id="l297">Je ne paroistray point dans ce <ref target="#desordre">desordre*</ref> <ref target="#extreme">extréme*</ref>.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="I02-16" who="tite">
             <speaker>TITE.</speaker>
             <l n="298" xml:id="l298">Non, ne paroissez plus qu’avec le diadéme.</l>
             <l n="299" xml:id="l299">Bien-tost, si ce grand <ref target="#coup4">coup*</ref> ne depend que de nous,</l>
             <l n="300" xml:id="l300">Vous pourrez sans rougir paroistre aux yeux de tous.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="I02-17" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="301" xml:id="l301">Bien-tost si le succez repond à nostre attente :<pb n="16"/></l>
             <l n="302" xml:id="l302">Tarquin sera remis, et vous serez contente,</l>
@@ -1533,12 +1533,12 @@
           </sp>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="II" type="act">
         <head>ACTE II</head>
-        <div type="scene">
+        <div type="scene" xml:id="II01">
           <head>SCENE PREMIERE</head>
           <stage>BRUTE, TITE, TIBERE.</stage>
-          <sp who="brute">
+          <sp xml:id="II01-1" who="brute">
             <speaker>BRUTE.</speaker>
             <l n="305" xml:id="l305">Mes enfans, les Romains se rendent à vos larmes,<pb n="C, 17"/></l>
             <l n="306" xml:id="l306">Si l’orgueil des Tarquins leur fit prendre les armes,</l>
@@ -1555,19 +1555,19 @@
             <l n="317" xml:id="l317">On leur rend tout leur bien; quoy, Tite ? quoy Tibere ?</l>
             <l n="318" xml:id="l318" part="I">Vous <ref target="#soupir">soûpirez*</ref> !</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II01-2" who="tite">
             <speaker>TITE.</speaker>
             <l part="M">Helas !</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II01-3" who="tibere">
             <speaker>TIBERE.<note n="324" place="bottom">Une coquille dans le texte source apparaît ici dans la dénomination du personnage, la première exclamation du vers 317 « Ah mon frère ! » est en effet attribuée à Tullie et non à l’un des fils de Brute, nous en avons logiquement déduit qu’il s’agissait de Tibère, le changement d’énonciateur indiquant que Tite répond en écho.</note></speaker>
             <l part="M">Ah ! mon frère !</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II01-4" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Ah ! mon frère !</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="II01-5" who="brute">
             <speaker>BRUTE.</speaker>
             <l n="319" xml:id="l319">Quoy, Tibere ? quoy, Tite ? est-ce avec des <ref target="#soupir">soûpirs*</ref>,</l>
             <l n="320" xml:id="l320">Que l’on reçoit un bien qui bornoit vos desirs ?</l>
@@ -1581,7 +1581,7 @@
             <l n="328" xml:id="l328">Que pour en recevoir cette ingrate froideur ?</l>
             <l n="329" xml:id="l329" part="I">Fils ingrats !</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II01-6" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="F">Ah ! Seigneur en l’estat <ref target="#deplorable">déplorable*</ref> ;<pb n=" 19"/></l>
             <l n="330" xml:id="l330">Où nous met la rigueur d’un sort inexorable,</l>
@@ -1597,11 +1597,11 @@
             <l n="340" xml:id="l340">Et je caresserois une main qui me <ref target="#perdre1">perd</ref>.</l>
             <l n="341" xml:id="l341" part="I">Ah ! que plustost, Seigneur.</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="II01-7" who="brute">
             <speaker>BRUTE.</speaker>
             <l part="F">Que dittes-vous Tibere !</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II01-8" who="tite">
             <speaker>TITE.</speaker>
             <l n="342" xml:id="l342">Excusez la douleur qui fait parler mon frere :</l>
             <l n="343" xml:id="l343">Nous sçavons bien, Seigneur, que la <ref target="#tragique">tragique*</ref> mort</l>
@@ -1615,7 +1615,7 @@
             <l n="351" xml:id="l351">Et de quelques bien faits qu’on <ref target="#flatter3">flatte*</ref> nos douleurs,</l>
             <l n="352" xml:id="l352">Nous ne les recevrons qu’en rependant des <ref target="#pleur">pleurs*</ref>.</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="II01-9" who="brute">
             <speaker>BRUTE.</speaker>
             <l n="353" xml:id="l353">Puisque vostre douleur ne sçauroit se contraindre,</l>
             <l n="354" xml:id="l354">Plaignez*-vous, sans que Rome ait sujet de se <ref target="#plaindre">plaindre*</ref>.</l>
@@ -1627,14 +1627,14 @@
             <l n="360" xml:id="l360">Devorer<note n="330" place="bottom">« Dévorer » est utilisé dans le sens de « ravaler ».</note>par respect vos <ref target="#soupir">soûpirs*</ref>, et vos <ref target="#pleur">pleurs*</ref> :</l>
             <l n="361" xml:id="l361">Voyla d’un vray Romain le <ref target="#genereux">genereux*</ref> langage.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II01-10" who="tite">
             <speaker>TITE.</speaker>
             <l n="362" xml:id="l362">Ces <ref target="#vertu">vertus*</ref> sont pour nous de difficile usage,</l>
             <l n="363" xml:id="l363">Seigneur, mais le respect qu’on doit à vos bontez,</l>
             <l n="364" xml:id="l364">Nous fera triompher de ces difficultez ;</l>
             <l n="365" xml:id="l365" part="I">Nous vous obeyrons.</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="II01-11" who="brute">
             <speaker>BRUTE.</speaker>
             <l part="F">Eh bien voyez Vitelle:</l>
             <l n="366" xml:id="l366">Donnez-luy de ma part cette heureuse nouvelle,</l>
@@ -1642,18 +1642,18 @@
             <l n="368" xml:id="l368">Adieu, prenez pour eux des sentimens meilleurs.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II02">
           <head>SCENE II<note n="331" place="bottom"> Cette scène de déploration où Tite et Tibère se plaignent tour à tour du sort défavorable n’est pas sans évoquer la situation de Séleucus et d’Antiochus dans la scène 5de l’acte III de <hi rend="i">Rodogune</hi> ; exhortés par leur mère et leur amante à se dresser contre l’une et l’autre, les fils de Cléopâtre n’aperçoivent pas plus que ceux de Brute d’issue possible.</note></head>
           <stage>TIBERE, TITE.</stage>
-          <sp who="tibere">
+          <sp xml:id="II02-1" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="369" xml:id="l369" part="I">Quel est vostre dessein !</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II02-2" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Et le votre mon frère ?</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II02-3" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="370" xml:id="l370">J’ay voulu par mes <ref target="#pleur">pleurs*</ref> attendrir nostre pere,</l>
             <l n="371" xml:id="l371">Et luy* faisant quitter le party des Romains,</l>
@@ -1663,7 +1663,7 @@
             <l n="375" xml:id="l375">Mais par un mouvement qu’on ne peut excuser</l>
             <l n="376" xml:id="l376" part="I">Vous avez :</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II02-4" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">J’ay tâché de vous des-abuser,</l>
             <l n="377" xml:id="l377">Osez-vous esperer qu’à l’aspect de vos larmes,</l>
@@ -1679,12 +1679,12 @@
             <l n="387" xml:id="l387">Qui de deux pour victime a choisi vostre bras ?</l>
             <l n="388" xml:id="l388" part="I">Est-ce Brute, ou Tullie ?</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II02-5" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="F">Ah ! ne me pressez pas.</l>
             <l n="389" xml:id="l389">Je puis venger Tullie, et respecter mon Pere.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II02-6" who="tite">
             <speaker>TITE.</speaker>
             <l n="390" xml:id="l390">Cessez de vous <ref target="#flatter4">flatter*</ref> d’un bien imaginaire ;</l>
             <l n="391" xml:id="l391">L’espoir de ce bon-heur ne nous est plus permis,</l>
@@ -1696,7 +1696,7 @@
             <l n="397" xml:id="l397">Et pour comble de maux cette heureuse <ref target="#rebelle">rebelle*</ref>,</l>
             <l n="398" xml:id="l398">Nous oste tout sujet de murmurer contre-elle.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II02-7" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="399" xml:id="l399">Et c’est de ses faveurs dont il la faut punir,                      [23]</l>
             <l n="400" xml:id="l400">J’ay donné ma parole, et je la veux tenir :</l>
@@ -1708,18 +1708,18 @@
             <l n="406" xml:id="l406">Que pour dernier secours Brute soit à leur teste,</l>
             <l n="407" xml:id="l407" part="I">J’iray sans <ref target="#balancer1">balancer*</ref>.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II02-8" who="tite">
             <speaker>TITE.</speaker>
             <l part="M">Où mon frere ?</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II02-9" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="F">A la mort.</l>
             <l n="408" xml:id="l408">Puisque mal-gré l’<ref target="#ardeur1">ardeur*</ref> de ce boüillant <ref target="#transport">transport*</ref> :</l>
             <l n="409" xml:id="l409">Avec quelques beautez que je la considère,</l>
             <l n="410" xml:id="l410">Elle ne me sçauroit armer contre mon Pere.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II02-10" who="tite">
             <speaker>TITE.</speaker>
             <l n="411" xml:id="l411">Ah que nostre destin est digne de pitié !</l>
             <l n="412" xml:id="l412">Sentimens estouffez d’<ref target="#amour2">amour*</ref>, et d’<ref target="#amitie1">amitié*</ref>,<note n="332" place="bottom">Le vers rappelle celui de Rodogune de l’acte III, 3, v. 855 : « Sentiments étouffés de colère et de haine » à la différence qu’ici se sont deux sentiments positifs puissants qui submergent les deux frères au point qu’ils ne peuvent plus les réprimer « les étouffer » et que ces derniers leur interdisent de choisir de suivre l’amour (pour Tullie) plutôt que l’amitié (qui mêle attachement filial et fraternel).</note></l>
@@ -1728,13 +1728,13 @@
             <l n="415" xml:id="l415">Ou puisque l’un et l’autre ont pour nous tant d’appas,<pb n="24"/></l>
             <l n="416" xml:id="l416">En déchirant nos coeurs, donnez-nous le trespas.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II02-11" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="417" xml:id="l417">Que ne connoissez-vous trop aymable Tullie,</l>
             <l n="418" xml:id="l418">De quels divins <ref target="#transport">transports*</ref> nostre ame est assaillie !</l>
             <l n="419" xml:id="l419">De quels combats l’<ref target="#amour2">amour*</ref> reste victorieux !</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II02-12" who="tite">
             <speaker>TITE.</speaker>
             <l n="420" xml:id="l420">Allons, mon frere, allons l’exposer à ses yeux :</l>
             <l n="421" xml:id="l421">Sans doute que. Mais las quel destin est le nostre ?</l>
@@ -1744,11 +1744,11 @@
             <l n="425" xml:id="l425">Ce remede est pour nous pire que le mal méme,</l>
             <l n="426" xml:id="l426">Puis qu’enfin vous l’aymez, et qu’avec vous je l’aime.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II02-13" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="427" xml:id="l427">Me considerez-vous comme vostre rival ?</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II02-14" who="tite">
             <speaker>TITE.</speaker>
             <l n="428" xml:id="l428">Je sçay qu’à tous les deux ce penser est <ref target="#fatal2">fatal*</ref>,</l>
             <l n="429" xml:id="l429">Mais de quelque façon que je vous considere,</l>
@@ -1756,7 +1756,7 @@
             <l n="431" xml:id="l431">Et si je veux pour vous la fin de vostre mal,</l>
             <l n="432" xml:id="l432">Quand vous serez heureux, je verray mon rival.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II02-15" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="433" xml:id="l433">Ah ! ne vous faites point un sort si <ref target="#deplorable">déplorable*</ref> ;<pb n=" D, 25"/></l>
             <l n="434" xml:id="l434">Tullie entre nous deux sera Juge équitable,</l>
@@ -1775,7 +1775,7 @@
             <l n="447" xml:id="l447">Trop heureux en mourant, et pour elle, et pour vous,</l>
             <l n="448" xml:id="l448">Je verray vos plaisirs sans en estre jaloux.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II02-16" who="tite">
             <speaker>TITE.</speaker>
             <l n="449" xml:id="l449">Que je merite peu cette <ref target="#amitie1">amitié*</ref> parfaicte !</l>
             <l n="450" xml:id="l450">Vous me la souhaitez, et je vous la souhaite ;</l>
@@ -1788,7 +1788,7 @@
             <l n="457" xml:id="l457">Allons à ses genoux demander cette <ref target="#grace2">grace*</ref>,</l>
             <l n="458" xml:id="l458" part="I">Je l’obtiendray pour vous.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II02-17" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="F">D’où vous naist cette <ref target="#audace1">audace*</ref> ?</l>
             <l n="459" xml:id="l459">Pouvons-nous esperer un si <ref target="#superbe2">superbe*</ref> prix,</l>
@@ -1803,15 +1803,15 @@
             <l n="468" xml:id="l468">Luy demandent pour nous ce glorieux Arrest :</l>
             <l n="469" xml:id="l469">Allons y travailler, que tardons-nous mon frere ?</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II02-18" who="tite">
             <speaker>TITE.</speaker>
             <l n="470" xml:id="l470">Pouvez-vous approuver cet effort temeraire ?</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II02-19" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="471" xml:id="l471">Pouvez-vous <ref target="#balancer1">balancer*</ref> après l’avoir promis ?</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II02-20" who="tite">
             <speaker>TITE.</speaker>
             <l n="472" xml:id="l472">Nous devions la servir contre ses ennemis,</l>
             <l n="473" xml:id="l473">Contre des revoltez dont la <ref target="#fureur">fureur*</ref><ref target="#extreme">extréme*</ref><pb n="27"/></l>
@@ -1826,7 +1826,7 @@
             <l n="482" xml:id="l482">Satisfaire à l’<ref target="#amour2">Amour*</ref>, sans <ref target="#denature">blesser la nature</ref> :</l>
             <l n="483" xml:id="l483" part="I">Il ne faut que la voir.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II02-21" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="F">Dieux ! quel aveuglement,</l>
             <l n="484" xml:id="l484">Tullie écouteroit un si bas sentiment ?</l>
@@ -1844,40 +1844,40 @@
             <l n="496" xml:id="l496">Suivez, suivez tout seul, ce barbare dessein,</l>
             <l n="497" xml:id="l497" part="I">Je ne la verray point.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II02-22" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Vous la verrez, mon frere.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II02-23" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="498" xml:id="l498" part="I">Ah ! ce n’est pas l’aymer.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II02-24" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">C’est perdre nostre Pere.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II02-25" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="499" xml:id="l499">Dures <ref target="#extreme">extremitez*</ref> qu’on ne peut accorder !</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II02-26" who="tite">
             <speaker>TITE.</speaker>
             <l n="500" xml:id="l500">J’aperçoy la Princesse, il la faut aborder.</l>
             <l n="501" xml:id="l501" part="I">Arrestez.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II02-27" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="F">Faudra-t-il qu’à ce poinct je m’oublie !</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II03">
           <head>SCENE III</head>
           <stage>TULLIE, TIBERE, TITE.</stage>
-          <sp who="tullie">
+          <sp xml:id="II03-1" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="502" xml:id="l502">Et bien, Princes, quel est le destin de Tullie ?<pb n="29"/></l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II03-2" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="503" xml:id="l503">Et le vostre et le nostre, et celuy des Romains,</l>
             <l n="504" xml:id="l504">Quoy qui puisse arriver, sont en vos seules mains :</l>
@@ -1900,44 +1900,44 @@
             <l n="521" xml:id="l521">Et vous donnant pour Rome un sentiment contraire,</l>
             <l n="522" xml:id="l522" part="I">Vous pourrez.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="II03-3" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="M">Poursuivez.
             </l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II03-4" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="M">Las !</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="II03-5" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="F">Dites tout, Tibere.</l>
             <l n="523" xml:id="l523">Ne me deguisez point l’excez de mon malheur ;</l>
             <l n="524" xml:id="l524">Que vous perdez bien-tost cette aymable chaleur !</l>
             <l n="525" xml:id="l525" part="I">Tibere, dites tout.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II03-6" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="F">Je ne sçaurois, mon frere
             </l>
             <l n="526" xml:id="l526">J’en ay déja trop dit pour craindre sa colere.</l>
             <l n="527" xml:id="l527" part="I">Achevez.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="II03-7" who="tullie">
             <speaker>TULLIE</speaker>
             <l part="F">Quel malheur vous oblige à me fuir ?</l>
             <l n="528" xml:id="l528" part="I">Ah ! Tibère arrestez.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="II03-8" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="F">Ce seroit vous trahir,</l>
             <l n="529" xml:id="l529">Madame, je ne puis, vous l’aprendrez de Tite.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II04">
           <head>SCENE IV</head>
           <stage>TULLIE, TITE.</stage>
-          <sp who="tullie">
+          <sp xml:id="II04-1" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="530" xml:id="l530">Dans quel nouveau malheur le sort me precipite !<pb n="31"/></l>
             <l n="531" xml:id="l531">Auroit-il sur Tarquin porté ses derniers <ref target="#coup1">coups*</ref> ?</l>
@@ -1946,44 +1946,44 @@
             <l n="534" xml:id="l534">Puisse faire la paix entre Rome et Tullie ?<note n="334" place="bottom">Les propos qui, dans la réplique, précèdent l’adresse à Tite semblent constituer une aparté, en effet Tibère vient de quitter la scène et ne peut donc pas recevoir les paroles de Tullie.</note></l>
             <l n="535" xml:id="l535">Vous me connoissez mal. Tite, apprenez-moy tout.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II04-2" who="tite">
             <speaker>TITE.</speaker>
             <l n="536" xml:id="l536">Ne vous l’a-t-il pas dit, de l’un à l’autre bout ?<note n="335" place="bottom">On relève une incohérence ici, Tite présent dans la scène précédente ne peut ignorer que Tibère n’a pas répondu aux questions de Tullie d’autant que son frère s’adresse à lui pour l’appeler à répondre à sa place v. 525-527. Il peut s’agir d’une stratégie d’évitement, dans le but de ne pas déplaire à la princesse ; Tite feindrait alors que les insinuations de Tibère suffisent à éclaircir Tullie et qu’il n’a pas à expliciter son propos.</note></l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="II04-3" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="537" xml:id="l537">Prince songez à vous. Tibere m’a quittée.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II04-4" who="tite">
             <speaker>TITE.</speaker>
             <l n="538" xml:id="l538">Pour fuir le déplaisir de vous voir irritée,</l>
             <l n="539" xml:id="l539">Tibere sans parler s’est éloigné de vous,</l>
             <l n="540" xml:id="l540">Et je dois comme luy craindre vostre couroux.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="II04-5" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="541" xml:id="l541">Et bien, Tite, fuyez, fuyez impitoyable,<pb n=" 32"/></l>
             <l n="542" xml:id="l542">Abandonnés Tullie au malheur qui l’accable :</l>
             <l n="543" xml:id="l543">Mais pour le moins touché de sa forte douleur,</l>
             <l n="544" xml:id="l544">Prince, en l’abandonnant, dites-luy son malheur.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II04-6" who="tite">
             <speaker>TITE.</speaker>
             <l n="545" xml:id="l545">Ne me reprochez point que je vous abandonne,</l>
             <l n="546" xml:id="l546">Je fais en vous quittant ce que l’<ref target="#amour2">Amour*</ref> m’ordonne :</l>
             <l n="547" xml:id="l547">Quand sans considerer, Brute ny ses desseins,</l>
             <l n="548" xml:id="l548">Je cours braver sa <ref target="#haine">haine*</ref> et celle des Romains.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="II04-7" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="549" xml:id="l549">Quel est donc ce malheur dont je suis poursuivie,</l>
             <l n="550" xml:id="l550">Parlez Tite, Tarquin a-t-il perdu la vie ?<note n="336" place="bottom">Dans le texte source, on remarque qu’il manque le pronom élidé de la deuxième personne du singulier « t » ; s’ensuit une difficulté de diction, un hiatus du fait de l’accolement des voyelles « a » et « i ». Le phénomène se répète au vers 1203.</note></l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II04-8" who="tite">
             <speaker>TITE.</speaker>
             <l n="551" xml:id="l551">Madame, Tarquin vit ; mais Brute et les Romains.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="II04-9" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="552" xml:id="l552">Ah ! J’aperçoy le <ref target="#coup2">coup*</ref><note n="337" place="bottom">Un espace manquant dans le texte original entre l’article « le » et le substantif « coup » a été ajouté.</note> dont nous sommes atteins :</l>
             <l n="553" xml:id="l553">Donc Brute et les Romains ont juré vostre perte ?</l>
@@ -1991,25 +1991,25 @@
             <l n="555" xml:id="l555">Brute épargne tes fils: et vous venés sur moy,</l>
             <l n="556" xml:id="l556">Romains, <ref target="#monstre2">Monstres*</ref> voicy le sang de vostre Roy.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II04-10" who="tite">
             <speaker>TITE.</speaker>
             <l n="557" xml:id="l557">Ah ! Madame perdés ces injustes alarmes.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II05">
           <head>SCENE V</head>
           <stage>TULLIE, VITELLE, TITE.</stage>
-          <sp who="tullie">
+          <sp xml:id="II05-1" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="558" xml:id="l558">Cher Vitelle, est-ce assez de vous donner des larmes* ?<pb n=" E, 33"/></l>
             <l n="559" xml:id="l559">Et puisque je vous pers apres de tels malheurs,</l>
             <l n="560" xml:id="l560">Devrois-je pas verser mon sang au lieu de <ref target="#pleur">pleurs*</ref> ?<note n="338" place="bottom"> La tournure amplificatrice suggère la métamorphose des « larmes » en « sang » dans l’extériorisation d’un extrême désespoir. En effet, « On dit d’un grand malheur, d’un accident funeste qu’il devroit estre pleuré avec des larmes de sang, pour dire, qu’on ne le sçauroit trop pleurer, ni en avoir une trop vive douleur. » <hi rend="i">Dictionnaire de l’Académie françoise</hi>, édition de 1694.</note></l>
           </sp>
-          <sp who="vitelle">
+          <sp xml:id="II05-2" who="vitelle">
             <speaker>VITELLE.</speaker>
             <l n="561" xml:id="l561">D’où vous naissent ; ma soeur, des peurs si dangereuses ?</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II05-3" who="tite">
             <speaker>TITE.</speaker>
             <l n="562" xml:id="l562">Ah ! ne prodiguez pas ces larmes* precieuses,</l>
             <l n="563" xml:id="l563">Mesnagez des <ref target="#soupir">soûpirs*</ref> dont nous aurons besoin,</l>
@@ -2021,7 +2021,7 @@
             <l n="569" xml:id="l569">Leur bonté s’accordant avec nostre priere,</l>
             <l n="570" xml:id="l570" part="I">Desarme nos desseins.</l>
           </sp>
-          <sp who="vitelle">
+          <sp xml:id="II05-4" who="vitelle">
             <speaker>VITELLE.</speaker>
             <l part="F">Je l’ay sceu de Tibere ;
 <pb n="34"/>
@@ -2033,13 +2033,13 @@
             <l n="575" xml:id="l575">Et ce Prince de qui vous faisiez tant de cas,</l>
             <l n="576" xml:id="l576" part="I">Tite le veut, Madame.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II05-5" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Ah ! ne le croyez pas.
             </l>
             <l n="577" xml:id="l577" part="I">Princesse que plustost.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="II05-6" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="F">Cher Vitelle, de <ref target="#grace3">grace*</ref></l>
             <l n="578" xml:id="l578"><ref target="#prevenir">Prevenons*</ref> les malheurs dont le Ciel nous menace,</l>
@@ -2055,7 +2055,7 @@
             <l n="588" xml:id="l588">Que s’il falloit <ref target="#pleur">pleurer*</ref>, et pour eux et pour vous :</l>
             <l n="589" xml:id="l589">Ne me reduisez pas à ce malheur <ref target="#extreme">extréme*</ref>.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II05-7" who="tite">
             <speaker>TITE.</speaker>
             <l n="590" xml:id="l590">Donc vous prenez party pour nous contre vous-méme,<note n="341" place="bottom">Coquille : L’initiale de la dernière réplique de Tibère comporte une inversion manifeste des pronoms personnels objets « vous » et « nous » dans « Donc vous prenez party pour vous contre nous-méme » ; le vers contredit la suite de la réplique qui met en avant les sacrifices qu’est prête à faire Tullie pour sauver les fils de Brute.</note></l>
             <l n="591" xml:id="l591">Et thrône, et pere, et soeur vous sont moins chers que nous :</l>
@@ -2066,12 +2066,12 @@
             <l n="596" xml:id="l596">Que je <ref target="#choquer">choque*</ref> un <ref target="#devoir">devoir*</ref> et si saint et si doux :</l>
             <l n="597" xml:id="l597" part="I">Allons, Vitelle, allons.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="II05-8" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="M">Ah ! Vitelle.
             </l>
           </sp>
-          <sp who="vitelle">
+          <sp xml:id="II05-9" who="vitelle">
             <speaker>VITELLE.<note n="342" place="bottom">Coquille : Sur le texte source, Tullie est successivement désignée comme celle qui prononce des paroles introduites dans des répliques qui se succèdent et se répondent. La réplique initiée au vers 597 « Princesse […] », qui blâme Tullie pour ses craintes et donne des indications précises sur la réunion des conjurés est vraisemblablement prononcée par Vitelle.</note></speaker>
             <l part="F">Princesse,</l>
             <l n="598" xml:id="l598">Ces indignes frayeurs marquent trop de foiblesse ;</l>
@@ -2087,32 +2087,32 @@
             <l n="608" xml:id="l608">Déja suivy des siens s’avance sourdement :</l>
             <l n="609" xml:id="l609">L’affaire en cét état, que voulez-vous qu’on fasse ?</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II05-10" who="tite">
             <speaker>TITE.</speaker>
             <l n="610" xml:id="l610">La pousser jusqu’au bout, reparer sa <ref target="#disgrace1">disgrace*</ref></l>
             <l n="611" xml:id="l611" part="I">La<note n="344" place="bottom">Le référent du pronom est obscur, il s’agit probablement de Tullie qui a subi l’injure des Romains. Pourtant Tarquin auquel la vengeance de l’injure peut également s’appliquer est un référent plus proche contrairement à Tullie qui implique un renvoi au vers 596 ; il faudrait alors faire la supposition qu’il s’agit d’une coquille et remplacer le pronom féminin « la » par un masculin « le ».</note> vanger des Romains.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="II05-11" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="F">Et pour le moins songer,</l>
             <l n="612" xml:id="l612">Prince, à vous conserver autant qu’à nous vanger.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="II05-12" who="tite">
             <speaker>TITE.</speaker>
             <l n="613" xml:id="l613">Que je merite mal une bonté si rare !</l>
           </sp>
-          <sp who="vitelle">
+          <sp xml:id="II05-13" who="vitelle">
             <speaker>VITELLE.</speaker>
             <l n="614" xml:id="l614">Princesse, Adieu ! La nuict veut que l’on se separe.</l>
           </sp>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="III" type="act">
         <head>ACTE III</head>
-        <div type="scene">
+        <div type="scene" xml:id="III01">
           <head>SCENE PREMIERE</head>
           <stage>TITE, TIBERE, LIVIE.</stage>
-          <sp who="tibere">
+          <sp xml:id="III01-1" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="615" xml:id="l615">Advertis-la, Livie, il sera fort aisé,<pb n="37"/></l>
             <l n="616" xml:id="l616">De dissiper l’<ref target="#ennui">ennuy*</ref> que ce songe<note n="345" place="bottom"> Le terme de « songe » conserve son acceptation de pensée confuse (quoiqu’il s’applique ici à l’état de veille) et fait référence à la méprise de Tullie dans la scène précédente : « Ah ! J’aperçoy le coup dont nous sommes atteins :/Donc Brute et les Romains ont juré vostre perte ? » (v. 552-553). Les conjectures erronées de la princesse sont responsables d’une forte émotion : « Princesse, /Ces indignes frayeurs marquent trop de faiblesse » (v. 597-598). Tibère sollicite donc Livie pour achever de désabuser la princesse et dissiper son trouble.</note> a causé :<note n="346" place="bottom">Une note imprimée en marge du texte sur la droite indique « Livie s’en va », il s’agit vraisemblablement de la seule didascalie de la pièce (absence d’italiques significative). </note></l>
@@ -2120,7 +2120,7 @@
             <l n="618" xml:id="l618">Et conduit à sa fin nostre <ref target="#illustre">illustre*</ref> entreprise,</l>
             <l n="619" xml:id="l619">Faut-il faire paroistre un visage <ref target="#estonner">estonné*</ref> ?</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="III01-2" who="tite">
             <speaker>TITE.</speaker>
             <l n="620" xml:id="l620">Ah ! laisse <ref target="#soupir">soûpirer*</ref> ce coeur infortuné,</l>
             <l n="621" xml:id="l621">Et dans un attentat qui n’est pas legitime,</l>
@@ -2134,7 +2134,7 @@
             <l n="629" xml:id="l629">Funeste conjoncture, et qui me desespere,</l>
             <l n="630" xml:id="l630">Que ne faut-il agir contre un autre qu’un pere !</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="III01-3" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="631" xml:id="l631">Ah ! ne nous rendons point criminels sans sujet,</l>
             <l n="632" xml:id="l632">Brute de nos efforts n’est point icy l’objet,</l>
@@ -2147,7 +2147,7 @@
             <l n="639" xml:id="l639">Et relever l’éclat de ce thrône abbatu,</l>
             <l n="640" xml:id="l640">Que le Ciel avoit fait le prix de sa <ref target="#vertu">vertu*.</ref></l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="III01-4" who="tite">
             <speaker>TITE.</speaker>
             <l n="641" xml:id="l641">Cessons de nous <ref target="#flatter4">flater*</ref>, et connoissons mieux Brute,</l>
             <l n="642" xml:id="l642">L’ennemy des Tarquins, et l’auteur de leur cheute.</l>
@@ -2160,7 +2160,7 @@
             <l n="649" xml:id="l649">Oüy dans son sentiment estre à Rome perfide,</l>
             <l n="650" xml:id="l650">C’est estre plus qu’<ref target="#impiete">impie*</ref> et plus que parricide.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="III01-5" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="651" xml:id="l651">Que fera donc Tullie en ce pressant besoin ?</l>
             <l n="652" xml:id="l652">Voulez-vous de sa cause abandonner le <ref target="#soin2">soin*</ref> ?</l>
@@ -2168,7 +2168,7 @@
             <l n="654" xml:id="l654">Ne prester que des voeux à cette infortunée ?</l>
             <l n="655" xml:id="l655" part="I">Enfin que ferons-nous ?</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="III01-6" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Mon frere sur ce point,</l>
             <l n="656" xml:id="l656">Quoy qui puisse arriver, je ne <ref target="#balancer1">balance*</ref> point :</l>
@@ -2193,7 +2193,7 @@
             <l n="675" xml:id="l675">Qu’elle regne mon frere: et vous vivez heureux</l>
             <l n="676" xml:id="l676">J’expieray le crime et mouray pour tous deux.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="III01-7" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="677" xml:id="l677">Que je meure plûstost, et vous vivez mon frère,</l>
             <l n="678" xml:id="l678">De si beaux sentimens vous la rendront <ref target="#prospere">prospere*</ref> :</l>
@@ -2204,11 +2204,11 @@
             <l n="683" xml:id="l683">Sa garde l’accompagne, ah ! grands Dieux qu’est cecy ?</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III02">
           <head>SCENE II</head>
           <stage>BRUTE, TITE, TIBERE.</stage>
           <stage>Troupe de Gardes.</stage>
-          <sp who="brute">
+          <sp xml:id="III02-1" who="brute">
             <speaker>BRUTE.</speaker>
             <l n="684" xml:id="l684">Qu’on saisisse Vitelle, et qu’on l’amene icy :<pb n="F, 41"/></l>
             <l n="685" xml:id="l685">Le Ciel a mis au jour ses lâches artifices ;</l>
@@ -2232,11 +2232,11 @@
             <l n="703" xml:id="l703">Et pour le faire choir, il faudra qu’aujourd’huy,</l>
             <l n="704" xml:id="l704">D’un semblable revers Brute tombe avec luy.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="III02-2" who="tite">
             <speaker>TITE.</speaker>
             <l n="705" xml:id="l705" part="I">Seigneur.</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="III02-3" who="brute">
             <speaker>BRUTE.</speaker>
             <l part="F">M’oseriez-vous parler en leur defense,</l>
             <l n="706" xml:id="l706">Voyez en quel peril nous met trop d’indulgence :</l>
@@ -2276,11 +2276,11 @@
             <l n="740" xml:id="l740">Je hasteray sa perte avec plus de plaisir.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III03">
           <head>SCENE III</head>
           <stage>VITELLE, BRUTE, TITE, TIBERE.</stage>
           <stage>Troupe de Gardes<note n="351" place="bottom">La scène 3 de l’acte III constitue le coeur de la réflexion politique de la pièce sur le bien fondé du soulèvement contre le souverain pour instaurer une république. Une défense de l’ordre divin s’oppose à un éloge de la liberté.</note>.</stage>
-          <sp who="brute">
+          <sp xml:id="III03-1" who="brute">
             <speaker>BRUTE.</speaker>
             <l n="741" xml:id="l741">Vitelle ? car enfin le <ref target="#soin1">soin*</ref> de la vangeance<pb n=" 44"/></l>
             <l n="742" xml:id="l742">M’oste les sentimens que donne l’alliance<note n="352" place="bottom">Diérèse : «  a-lli-ance », le mot compte pour trois syllabes.</note> ;</l>
@@ -2311,15 +2311,15 @@
             <l n="767" xml:id="l767">Et pour chers qu’ils nous soient, il faut qu’<ref target="#egal1">également*</ref></l>
             <l n="768" xml:id="l768">Tous subissent l’arrest d’un juste chastiment.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="III03-2" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="769" xml:id="l769" part="I">Et bien Brute.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="III03-3" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Osez-vous irriter sa cholere ?</l>
           </sp>
-          <sp who="vitelle">
+          <sp xml:id="III03-4" who="vitelle">
             <speaker>VITELLE.</speaker>
             <l n="770" xml:id="l770">En faveur de Vitelle appaisez vous mon frere.<note n="354" place="bottom"> L’appellation « mon frère » dans la bouche de Vitelle ne peut renvoyer à un lien de parenté direct et doit certainement être entendue comme une expression hypocoristique dans la mesure où Tibère tente de parler en sa faveur, lui offrant son soutien et que Vitelle s’en trouve touché. Il avait de la même façon nommé Tullie sa soeur au v. 561. La notion de fraternité rappelle également l’égale compromission des personnages, unis par leurs convictions politiques autant que par l’amitié.</note></l>
             <l n="771" xml:id="l771">Rome usant envers moy d’une telle rigueur,</l>
@@ -2342,7 +2342,7 @@
             <l n="788" xml:id="l788">D’avoir rompu le joug qu’ils nous ont imposé ;</l>
             <l n="789" xml:id="l789">Et nos <ref target="#zele">zeles*</ref> icy sont des <ref target="#zele">zeles*</ref> profanes.</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="III03-5" who="brute">
             <speaker>BRUTE.</speaker>
             <l n="790" xml:id="l790">Souvent de leur couroux nous sommes les organes,</l>
             <l n="791" xml:id="l791">Les Dieux ne daignans pas les fraper de leurs mains,</l>
@@ -2350,7 +2350,7 @@
             <l n="793" xml:id="l793">Et s’ils eussent voulu condamner nostre ouvrage,</l>
             <l n="794" xml:id="l794">Son restablissement en rendoit témoignage.</l>
           </sp>
-          <sp who="vitelle">
+          <sp xml:id="III03-6" who="vitelle">
             <speaker>VITELLE.</speaker>
             <l n="795" xml:id="l795">Ah ! ne vous flatez point d’un faux <ref target="#raison2">raisonnement*</ref>    </l>
             <l n="796" xml:id="l796">Puis qu’ils n’ont désiré ce restablissement,</l>
@@ -2378,7 +2378,7 @@
             <l n="818" xml:id="l818">Pour épargner le tien prens celuy de mes veines,</l>
             <l n="819" xml:id="l819">Que ton brulant couroux en soit desaltéré.</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="III03-7" who="brute">
             <speaker>BRUTE.</speaker>
             <l n="820" xml:id="l820">Quoy ? donques mes enfans ont aussi conspiré !</l>
             <l n="821" xml:id="l821">Mes enfans ont conçeu cét attentat <ref target="#horrible">horrible*</ref> !</l>
@@ -2404,7 +2404,7 @@
             <l n="841" xml:id="l841">Oüy puisque vostre esprit à ma <ref target="#gloire">gloire*</ref> si traistre,</l>
             <l n="842" xml:id="l842">Croid qu’il est trop bon Pere, il cessera de l’estre.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="III03-8" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="843" xml:id="l843">Vitelle cessés d’être et surpris et <ref target="#fascher">fasché*</ref>,</l>
             <l n="844" xml:id="l844">Pour avoir découvert ce qu’on n’eust pas caché,</l>
@@ -2423,12 +2423,12 @@
             <l n="857" xml:id="l857">Nous ne l’avons pas fait : mais mal-gré nostre Pere,</l>
             <l n="858" xml:id="l858">Nous le ferions encor si nous le pouvions faire.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="III03-9" who="tite">
             <speaker>TITE.</speaker>
             <l n="859" xml:id="l859">Ayons mon frere, ayons un esprit plus sousmis,</l>
             <l n="860" xml:id="l860">Et mourons innocens, autant qu’il est permis.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="III03-10" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="861" xml:id="l861">Mais mon frere plustost cessons de nous contraindre ;</l>
             <l n="862" xml:id="l862">Si nous n’esperons rien, nous n’aurons rien à craindre :</l>
@@ -2443,7 +2443,7 @@
             <l n="871" xml:id="l871">Brute, je vous declare icy tous nos desseins,</l>
             <l n="872" xml:id="l872">S’il nous estoit permis, nous perdrions<note n="358" place="bottom">Synérèse : « per-drions, le mot compte pour deux syllabes.</note> les Romains.</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="III03-11" who="brute">
             <speaker>BRUTE.</speaker>
             <l n="873" xml:id="l873">Ah ! c’en est trop, fuyez, <ref target="#monstre1">Monstres*</ref> remplis d’<ref target="#audace1">audace*</ref>,</l>
             <l n="874" xml:id="l874">De peur qu’en ce moment ainsi qu’un autre Horace,<note n="359" place="bottom">Autre « exemplum » de l’austère vertu romaine, la figure d’Horace, reprise dans une pièce de Corneille représentée en 1640, exalte la dévotion de l’individu à la grandeur et au salut de sa patrie qui va jusqu’au sacrifice d’un être cher ; Horace après avoir remporté la victoire contre les Curiaces pour sauvegarder Rome, n’avait en effet pas hésité à mettre à mort sa propre soeur coupable de blasphème envers la patrie.</note></l>
@@ -2453,11 +2453,11 @@
             <l n="878" xml:id="l878">Et contre mon dessein, que je suis vostre Pere.<note n="361" place="bottom"> Brute se réfère ici à la loi antique du <hi rend="i">pater familias</hi> qui a toute autorité sur les membres de sa famille même adultes et dont l’une des prérogatives est de déterminer le sort de ses enfants ; ayant droit de vie ou de mort sur eux, il peut décider de les faire mourir s’il se considère déshonoré par eux.</note></l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III04">
           <head>SCENE IV</head>
           <stage>BRUTE, VITELLE, TULLIE, TITE, </stage>
           <stage>TIBERE, Troupe de Gardes.</stage>
-          <sp who="tullie">
+          <sp xml:id="III04-1" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="879" xml:id="l879">Epargne-toy ce crime, esprit <ref target="#denature">denaturé*</ref>,<note n="362" place="bottom">L’adjectif employé par Tullie s’inscrit dans une continuité, elle file la métaphore de la « monstruosité », dans le sens de ce qui heurte les lois de la nature, contrevient à l’ordre naturel des choses. Ici le manquement de Brute concerne les présupposés des relations interpersonnelles et familiales ; la tendresse et l’indulgence attendues d’un père envers ses enfants font défaut à Brute.</note></l>
             <l n="880" xml:id="l880">Le Ciel te donne plus que tu n’as désiré.</l>
@@ -2476,7 +2476,7 @@
             <l n="893" xml:id="l893">Et me voulant punir dans ta <ref target="#fureur">fureur*</ref> <ref target="#extreme">extréme*</ref>,</l>
             <l n="894" xml:id="l894"><ref target="#cruel">Cruel*</ref> ne punis pas ton pays et toy-mesme.</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="III04-2" who="brute">
             <speaker>BRUTE.</speaker>
             <l n="895" xml:id="l895">Que vois-je, justes Dieux ! veillay-je ou si je dors !<note n="363" place="bottom">L’association de l’illusion au songe est traditionnelle, héritée de l’âge baroque elle renforce ici le sentiment de surprise éprouvé par Brute. Par ailleurs, le contexte dans lequel se manifeste Tullie justifie la description qu’en fait Brute. Elle lui apparaît comme dans un songe, comme le possible fruit d’une illusion puisqu’il la supposait morte ; on comprend mieux que celui-ci stupéfié insiste sur la nature envoûtante et mystificatrice de la dame. </note></l>
             <l n="896" xml:id="l896">Du tombeau pour ma peine arrachés-vous les morts ?</l>
@@ -2491,11 +2491,11 @@
             <l n="905" xml:id="l905">Ils seront exposez à toute ma cholere,</l>
             <l n="906" xml:id="l906">Parce que tu leur plais, et qu’ils ont pû te plaire.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="III04-3" who="tite">
             <speaker>TITE.</speaker>
             <l n="907" xml:id="l907">Qu’avez-vous fait Princesse, et que demandez-vous ?<pb n="52"/></l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="III04-4" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="908" xml:id="l908">Seigneur, n’irritez point un injuste couroux :</l>
             <l n="909" xml:id="l909">On n’en peut contre un Pere avoir de legitime,</l>
@@ -2507,7 +2507,7 @@
             <l n="915" xml:id="l915">Que s’ils l’osoient <ref target="#choquer">choquer*</ref> d’un mot injurieux,</l>
             <l n="916" xml:id="l916">Nous nous revolterions mesme contre les Dieux.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="III04-5" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="917" xml:id="l917">Moderez ces <ref target="#transport">transports*</ref> et rentrez en vous-mesmes,<note n="367" place="bottom"> L’expression « rentrez en vous-mesmes » rappelle l’injonction du monologue d’Auguste dans <hi rend="i">Cinna</hi>, de Corneille : « Rentre en toi-même, Octave, et cesse de te plaindre (acte IV, 2, v. 1130). »</note></l>
             <l n="918" xml:id="l918">Toy loin de condamner ces innocens blasphemes<note n="368" place="bottom"> L’expression « innocens blasphèmes » constitue un oxymore ; l’accès de colère de Tibère est répréhensible et nuit au personnage, étant donné qu’un gentilhomme ne laisse pas libre cours à sa colère. Les traités de civilité rappellent en effet qu’un galant homme ne saurait fulminer. Le héros tragique ne doit donc pas se départir de la constance, de la modération et du respect à l’égard des pairs et des dieux sous peine de susciter l’indignation du spectateur : « Les Personnes vertueuses supportent les infortunes avec assez de constance pour e pas irriter le Ciel, et scandaliser la terre par des propos sacrilège. Et si l’excès de la douleur leur arrache quelques paroles qui ne soient pas raisonnables, elles les condamnent bientôt comme une chose indigne d’elles, et blâment l’impatience qui a causé cette saillie » (Jules de La Mesnardière, <hi rend="i">La Poétique</hi>, Genève, Slatkine Reprints, 1972, p. 102). Tullie fait valoir un mobile amoureux comme excuse ; l’amour dépénalise donc, dans une certaine mesure, les deux frères. On peut établir un parallèle avec les imprécations de Camille dans <hi rend="i">Horace</hi> de Corneille, qui en amante blessée s’indigne, s’insurge et profère des malédictions non pas contre une divinité mais contre la ville de Rome à laquelle son amant Curiace s’est vu sacrifier : « Rome, l’unique objet de mon ressentiment ! /Rome, à qui vient ton bras d’immoler mon amant ! /Rome qui t’a vu naître, et que ton coeur adore ! /Rome enfin que je hais parce qu’elle t’honore ! » (acte IV, 5 v. 1301-1304)</note>  :</l>
@@ -2516,12 +2516,12 @@
             <l n="921" xml:id="l921">Vien-t-en jusqu’en mon sang en chercher l’origine,</l>
             <l n="922" xml:id="l922">Et pour oster le mal en couper la racine</l>
           </sp>
-          <sp who="vitelle">
+          <sp xml:id="III04-6" who="vitelle">
             <speaker>VITELLE.</speaker>
             <l n="923" xml:id="l923">Puisque seul j’ay causé leur <ref target="#illustre">illustre*</ref> attentat,</l>
             <l n="924" xml:id="l924">Fay que je serve seul de victime à l’Estat.</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="III04-7" who="brute">
             <speaker>BRUTE.</speaker>
             <l n="925" xml:id="l925">Ce qui doit vous punir, est tout vostre refuge,<pb n="53"/></l>
             <l n="926" xml:id="l926">Je me modere icy parce que je suis Juge,</l>
@@ -2533,35 +2533,35 @@
             <l n="932" xml:id="l932">C’est de vous qu’au Senat on me <ref target="#raison3">fera raison*</ref>,</l>
             <l n="933" xml:id="l933">Qu’on oste de ses yeux mes Enfans et Vitelle.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="III04-8" who="tite">
             <speaker>TITE.</speaker>
             <l n="934" xml:id="l934" part="I">O rigoureux arrest !</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="III04-9" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="F">O sentence mortelle !</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="III04-10" who="tite">
             <speaker>TITE.</speaker>
             <l n="935" xml:id="l935">Si nous mourons tous seuls, que nostre sort est doux !</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="III04-11" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="936" xml:id="l936">Je ne vivray jamais un moment apres vous.</l>
           </sp>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="IV" type="act">
         <head>ACTE IV</head>
-        <div type="scene">
+        <div type="scene" xml:id="IV01">
           <head>SCENE PREMIERE</head>
           <stage>TULLIE, JULIE<note n="369" place="bottom">Apparition d’un nouveau personnage non mentionné dans la liste en début de pièce, personnage qui donne la réplique à Tullie, tente de lui redonner espoir et lui apporte des informations sur le déroulement des événements. Ses interventions en font une seconde confidente, une adjuvante.</note>, LIVIE.</stage>
           <pb n="54"/>
-          <sp who="julie">
+          <sp xml:id="IV01-1" who="julie">
             <speaker>JULIE.</speaker>
             <l n="937" xml:id="l937" part="I">Un Pere peut flechir.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV01-2" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="F">Ah, frivole esperance !</l>
             <l n="938" xml:id="l938">Ne m’as-tu pas fait voir qu’elle est sa violence,<note n="370" place="bottom">Diérèse : « vi-o-lence », le mot compte pour trois syllabes.</note></l>
@@ -2572,11 +2572,11 @@
             <l n="943" xml:id="l943">Il les veut <ref target="#perdre2">perdre*</ref> enfin, mais las ! il fait bien pis,</l>
             <l n="944" xml:id="l944">Sa bouche parricide a condamné ses fils.</l>
           </sp>
-          <sp who="julie">
+          <sp xml:id="IV01-3" who="julie">
             <speaker>JULIE.</speaker>
             <l n="945" xml:id="l945">La voix de la nature a d’invincibles <ref target="#charme">charmes*</ref>.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV01-4" who="tullie">
             <speaker>TULLIE.</speaker>
             <pb n="55"/>
             <l n="946" xml:id="l946">Sa soif ne s’esteint point avec l’eau de nos larmes ;</l>
@@ -2594,16 +2594,16 @@
             <l n="956" xml:id="l956">L’espoir me faisoit vivre, et je meurs avec luy :</l>
             <l n="957" xml:id="l957">Ne pouvant me venger, je renonce à la vie.</l>
           </sp>
-          <sp who="livie">
+          <sp xml:id="IV01-5" who="livie">
             <speaker>LIVIE.</speaker>
             <l n="958" xml:id="l958">Perdez au nom des Dieux cette funeste envie,</l>
             <l n="959" xml:id="l959">Si Brute est sans pitié, Rome en aura pour luy.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV01-6" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="960" xml:id="l960">Dieux ! quel est notre espoir, si Rome est son appuy ?</l>
           </sp>
-          <sp who="livie">
+          <sp xml:id="IV01-7" who="livie">
             <speaker>LIVIE.</speaker>
             <l n="961" xml:id="l961">Le Senat <ref target="#estonner">estonné*</ref> de sa rigueur <ref target="#extreme">extreme*</ref>,</l>
             <l n="962" xml:id="l962">De la mort de ses fils plus touché que luy-mesme,</l>
@@ -2616,22 +2616,22 @@
             <l n="969" xml:id="l969">Cette derniere <ref target="#grace1">grace*</ref> exprime sa tendresse,</l>
             <l n="970" xml:id="l970">Puis qu’il leur a permis de revoir leur Princesse.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV01-8" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="971" xml:id="l971">Helas ! nous nous verrons pour faire nos Adieux,</l>
             <l n="972" xml:id="l972">N’importe voyons-les, et mourons à leurs yeux :</l>
             <l n="973" xml:id="l973">Mais helas ! de quel air verray-je ces victimes,</l>
             <l n="974" xml:id="l974">Que pour m’avoir aymée on veut charger de crimes ?</l>
           </sp>
-          <sp who="livie">
+          <sp xml:id="IV01-9" who="livie">
             <speaker>LIVIE.</speaker>
             <l n="975" xml:id="l975" part="I">J’aperçoy Tite.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV02">
           <head>SCENE II</head>
           <stage>TULLIE, TITE, LIVIE.</stage>
-          <sp who="tullie">
+          <sp xml:id="IV02-1" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="F">He bien chers Princes je vous perds,<pb n="H, 57"/></l>
             <l n="976" xml:id="l976">Et c’est moy, qui vous livre à tant de maux divers :</l>
@@ -2652,7 +2652,7 @@
             <l n="991" xml:id="l991">Et lors que vous servez ma <ref target="#gloire">gloire*</ref> et mon bon-heur,</l>
             <l n="992" xml:id="l992">Il vous frape d’un <ref target="#coup1">coup*</ref>, qui vous oste l’<ref target="#honneur">honneur*</ref>.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV02-2" who="tite">
             <speaker>TITE.</speaker>
             <l n="993" xml:id="l993">Ne faites point coupable une <ref target="#ardeur2">ardeur*</ref> legitime ;<pb n=" 58"/></l>
             <l n="994" xml:id="l994">Et sauvez nostre <ref target="#amour2">amour*</ref> de reproche et de crime ;</l>
@@ -2667,7 +2667,7 @@
             <l n="1003" xml:id="l1003">Et nous faisant justice et grace à mesme jour<note n="375" place="bottom">L’expression « à mesme jour » signifie « le même jour ».</note> </l>
             <l n="1004" xml:id="l1004">Elle sçait contenter sa <ref target="#haine">haine*</ref> et vostre <ref target="#amour2">amour*</ref>.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV02-3" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1005" xml:id="l1005">Donc, Tibere n’est plus, et vous osez survivre<note n="376" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, le verbe peut s’employer sans préposition : « survivre quelqu’un » et non « à quelqu’un ».</note></l>
             <l n="1006" xml:id="l1006">Un frere si <ref target="#charme">charmant*</ref> que je brule de suivre ?</l>
@@ -2676,17 +2676,17 @@
               <note n="377" place="bottom">Le verbe « devoir » conjugué ici au conditionnel passé « a dû » présente une valeur modale. Par l’emploi d’un temps virtuel orienté en direction du passé, un temps qui convient bien à l’expression du regret, Tullie indique sous la forme d’un reproche que Tite aurait dû périr à la place de son frère.</note>
             </l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV02-4" who="tite">
             <speaker>TITE.</speaker>
             <l n="1009" xml:id="l1009">Tibere vit, Madame, et le Ciel plus propice</l>
             <l n="1010" xml:id="l1010">Remet entre vos mains sa vie et son supplice :</l>
             <l n="1011" xml:id="l1011">Vous pouvez avancer, ou reculer sa fin.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV02-5" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1012" xml:id="l1012" part="I">Comment ?<pb n="59"/></l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV02-6" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Apprenez donc quel est nostre destin.
             </l>
@@ -2703,7 +2703,7 @@
             <l n="1023" xml:id="l1023">N’en immolant qu’un seul, conserve l’un de nous,</l>
             <l n="1024" xml:id="l1024">Et par cette pitié se degage envers vous.<note n="380" place="bottom"> Cette scène dans laquelle Tite en son nom et celui de Tibère sollicite Tullie pour faire un choix décisif rappelle le comportement de Séleucus et Antiochus, dans la pièce de Corneille <hi rend="i">Rodogune</hi>, acte III, 4, les deux frères réclament de la princesse dont ils sont épris qu’elle les départage. Ce choix reste déterminant (Rodogune couronnera un prince en le désignant comme celui qu’elle veut prendre pour époux) même s’il n’engage pas <hi rend="i">a priori</hi> la vie des princes.</note></l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV02-7" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1025" xml:id="l1025">Helas ! que sa pitié me doit estre funeste,</l>
             <l n="1026" xml:id="l1026">De deux frères si chers quel faut-il qui me reste !</l>
@@ -2723,7 +2723,7 @@
             <l n="1040" xml:id="l1040">Est-ce là l’<ref target="#amitie1">amitié*</ref> qu’il attendoit de vous ?</l>
             <l n="1041" xml:id="l1041" part="I">He bien, Tite : mais las !</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV02-8" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Prononcez, ma Princesse,</l>
             <l n="1042" xml:id="l1042">Prononcez contre moy, puisque ce choix vous blesse :</l>
@@ -2742,7 +2742,7 @@
             <l n="1055" xml:id="l1055">Je lis desja l’Arrest que vous devez porter,<pb n="61"/></l>
             <l n="1056" xml:id="l1056">Et pour vous obeyr, je vay l’executer.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV02-9" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1057" xml:id="l1057">Arrestez, arrestez, Prince trop magnanime,</l>
             <l n="1058" xml:id="l1058">Si vous cherchez la mort ; monstrez moy vostre crime,</l>
@@ -2757,7 +2757,7 @@
             <l n="1067" xml:id="l1067">Je ne soupçonne point celuy que vous ferés,</l>
             <l n="1068" xml:id="l1068">Et j’accepte l’Arrest que vous prononcerés.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV02-10" who="tite">
             <speaker>TITE.</speaker>
             <l n="1069" xml:id="l1069">Dieux ! de quel nouveau <ref target="#coup1">coup*</ref> mon ame est abbatuë,</l>
             <l n="1070" xml:id="l1070">Pour vous faire justice, il faut que je me tuë !</l>
@@ -2769,22 +2769,22 @@
             <l n="1076" xml:id="l1076">M’apprend vostre justice, et ma mort à la fois ;</l>
             <l n="1077" xml:id="l1077">Eh bien ce sera moy qui seray la victime.<pb n="62"/></l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV02-11" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1078" xml:id="l1078">Ah ! Ce choix me surprend, il n’est pas legitime</l>
             <l n="1079" xml:id="l1079">Je reprend le pouvoir que je vous ay rendu,</l>
             <l n="1080" xml:id="l1080">Je ne rougiray point de vous avoir perdu,</l>
             <l n="1081" xml:id="l1081" part="I">Non vous ne mourrez point.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV02-12" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Que deviendra Tibere ?</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV03">
           <head>SCENE III</head>
           <stage>TIBERE, TITE, TULLIE, JULIE.</stage>
-          <sp who="tibere">
+          <sp xml:id="IV03-1" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="1082" xml:id="l1082">N’en soyez point en peine, il mourra pour son frere,</l>
             <l n="1083" xml:id="l1083">Cher Tite consentez à ce juste projet,</l>
@@ -2794,7 +2794,7 @@
             <l n="1087" xml:id="l1087">Par un Roy malheureux que vos vaillantes mains</l>
             <l n="1088" xml:id="l1088">Rendront heureusement<note n="383" place="bottom"> L’adverbe signifie avec bonheur, « d’une manière heureuse », Antoine Furetière, <hi rend="i">Dictionnaire universel</hi>, 1690.</note> au thrône des Romains.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV03-2" who="tite">
             <speaker>TITE.</speaker>
             <l n="1089" xml:id="l1089">Quoy l’un et l’autre icy conspirent pour m’abatre ;<pb n="63"/></l>
             <l n="1090" xml:id="l1090">Assez foible contre un, j’en ay deux à combatre* ?</l>
@@ -2807,7 +2807,7 @@
             <l n="1097" xml:id="l1097">Pour faire à tous les deux une entiere justice,</l>
             <l n="1098" xml:id="l1098">Faites que par ma mort nostre combat finisse.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV03-3" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1099" xml:id="l1099">Helas ! que ce combat a pour moy de rigueur !</l>
             <l n="1100" xml:id="l1100">Où la mort seulement est le prix du vainqueur.</l>
@@ -2824,7 +2824,7 @@
             <l n="1111" xml:id="l1111">Faites cheoir sur mon chef ce <ref target="#foudre">foudre*</ref> suspendu,<pb n="64"/></l>
             <l n="1112" xml:id="l1112">Et renversez sur moy ce qu’ils ont attendu.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="IV03-4" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="1113" xml:id="l1113">Que cent <ref target="#foudre">foudres*</ref> plustost tombent dessus nos testes.<note n="384" place="bottom">L’expression de la force de leur amour pour la princesse s’appuie sur des hyperboles, tropes de l’amplification particulièrement topiques en matière de discours amoureux et galant. On retrouve fréquemment l’expression que le corps ou l’esprit souffrent mille morts. Les frères se livrent ainsi à une surenchère dans la manifestation de leur passion sous la forme des souffrances qu’ils sont prêts à endurer par amour.</note> </l>
             <l n="1114" xml:id="l1114">A les <ref target="#souffrir1">souffrir*</ref> pour vous, elles sont toutes prestes :</l>
@@ -2839,77 +2839,77 @@
             <l n="1123" xml:id="l1123" part="I">Et je pourrois.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV04">
           <head>SCENE IV</head>
           <stage>TULLIE, JUNIE, TIBERE, TITE, JULIE, MARCELLE.</stage>
-          <sp who="tullie">
+          <sp xml:id="IV04-1" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="M">He bien ! Madame.<pb n="I, 65"/></l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="IV04-2" who="junie">
             <speaker>JUNIE.</speaker>
             <l part="F">Il faut mourir.
             </l>
             <l n="1124" xml:id="l1124">………………………………………………………………………………<note n="385" place="bottom">La ligne de pointillés signale un vers manquant.</note></l>
           </sp>
-          <sp who="julie">
+          <sp xml:id="IV04-3" who="julie">
             <speaker>JULIE.</speaker>
             <l n="1125" xml:id="l1125">Est-ce un d’eux ou Tullie ? est-ce tous trois ensemble ?</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="IV04-4" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1126" xml:id="l1126" part="I">Triste éclaircissement !</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV04-5" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="F">Ha je frémis ! je tremble !</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="IV04-6" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1127" xml:id="l1127">Délivrés-vous enfin d’un si <ref target="#cruel">cruel*</ref> <ref target="#soucy">soucy*</ref>.</l>
             <l n="1128" xml:id="l1128" part="I">C’est vous Tite.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="IV04-7" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="M">Ah ! rigueur.
 <pb n="66"/>
             </l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="IV04-8" who="junie">
             <speaker>JUNIE.</speaker>
             <l part="F">Et vous Tibere aussi.
             </l>
             <l n="1129" xml:id="l1129" part="I">Oüy je vous perds tous deux.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV04-9" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="M">Vos deux fils ?</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="IV04-10" who="junie">
             <speaker>JUNIE.</speaker>
             <l part="F">L’un et l’autre.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV04-11" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1130" xml:id="l1130" part="I">O comble de malheur !</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV04-12" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Quel bon-heur *est le nostre ?</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="IV04-13" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1131" xml:id="l1131">Mes <ref target="#pleur">pleurs*</ref> et les Romains sauvoient l’un de vous deux ;</l>
             <l n="1132" xml:id="l1132">Mais Brute pour pouvoir s’acquiter envers eux,</l>
             <l n="1133" xml:id="l1133">Leur fait de tous les deux un entier sacrifice.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="IV04-14" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="1134" xml:id="l1134">Ce <ref target="#zele">zele*</ref> officieux enfin nous fait justice,</l>
             <l n="1135" xml:id="l1135">Nous voila delivrés d’un si funeste choix.</l>
             <l n="1136" xml:id="l1136" part="I">Adieu Princesse.<pb n="67"/></l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV04-15" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Adieu, pour la derniere fois.</l>
             <l n="1137" xml:id="l1137">Princesse nous mourrons sans vous avoir servie ;</l>
@@ -2917,21 +2917,21 @@
             <l n="1139" xml:id="l1139">Trop heureux si pour vous, allant <ref target="#perdre2">perdre*</ref> le jour,</l>
             <l n="1140" xml:id="l1140">Nostre dernier <ref target="#soupir">soûpir*</ref> est un <ref target="#soupir">soûpir*</ref> d’<ref target="#amour2">amour*</ref>.<note n="386" place="bottom">La répétition du terme « soûpir » constitue ici une antonomase, le terme est répété dans deux sens différents. La première occurrence constitue une référence imagée à la mort : « rendre son dernier soupir », tandis que la seconde évoque de manière plus concrète et immédiate une manifestation extérieure de la tristesse.</note> </l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="IV04-16" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1141" xml:id="l1141">Adieu, Princes, Adieu, je meurs pour l’un et l’autre,</l>
             <l n="1142" xml:id="l1142">Vous estes ma victime, et je seray la vostre.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV04-17" who="tite">
             <speaker>TITE.</speaker>
             <l n="1143" xml:id="l1143">Ah ! vivez : va Julie, et prens <ref target="#soin1">soin*</ref> de ses jours,</l>
             <l n="1144" xml:id="l1144">On nous garde, et sans toy Tullie est sans secours.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV05">
           <head>SCENE V</head>
           <stage>JUNIE, TIBERE, TITE, MARCELLE.</stage>
-          <sp who="junie">
+          <sp xml:id="IV05-1" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1145" xml:id="l1145">Mes fils, je ne viens pas vous arracher des larmes, *
 <pb n="68"/>
@@ -2958,24 +2958,24 @@
             <l n="1165" xml:id="l1165">Et que d’un front <ref target="#egal2">égal*</ref> vostre peine soufferte</l>
             <l n="1166" xml:id="l1166">Luy fasse voir enfin la grandeur de sa perte.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="IV05-2" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="1167" xml:id="l1167" part="I">Helas !</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="IV05-3" who="junie">
             <speaker>JUNIE.</speaker>
             <l part="F">Quelle douleur mes fils ! quels <ref target="#deplaisir">deplaisirs*</ref><note n="388" place="bottom">Coquille : Un espace incorrectement placé à l’intérieur du mot : « de plaisirs » a été supprimé.</note></l>
             <l n="1168" xml:id="l1168">Font sortir devant moy ces indignes <ref target="#soupir">soûpirs*</ref> !</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV05-4" who="tite">
             <speaker>TITE.</speaker>
             <l n="1169" xml:id="l1169" part="I">Madame.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="IV05-5" who="junie">
             <speaker>JUNIE.</speaker>
             <l part="F">Craignez-vous d’abandonner la vie ?</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV05-6" who="tite">
             <speaker>TITE.</speaker>
             <l n="1170" xml:id="l1170">Oüy, puis que nous mourons sans secourir Tullie.</l>
             <l n="1171" xml:id="l1171">Elle n’est pas vangée et nous perdons le jour,</l>
@@ -2983,7 +2983,7 @@
             <l n="1173" xml:id="l1173">Que je mourrois heureux, si le <ref target="#coup2">coup*</ref> qui m’accable</l>
             <l n="1174" xml:id="l1174">Faisoit à ma Tullie un sort plus favorable !</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="IV05-7" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="1175" xml:id="l1175">Que le mien seroit doux si mon sang répandu</l>
             <l n="1176" xml:id="l1176">Luy pouvoit redonner tout ce qu’elle a perdu !</l>
@@ -2996,7 +2996,7 @@
             <l n="1183" xml:id="l1183">Ny le <ref target="#coup1">coup*</ref>, ny la main dont nous devons perir ;</l>
             <l n="1184" xml:id="l1184">Regardez seulement ce qu’elle doit <ref target="#souffrir1">souffrir*</ref>.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="IV05-8" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1185" xml:id="l1185">Puis qu’à vos propres maux vos coeurs inaccessibles,</l>
             <l n="1186" xml:id="l1186">Pour les malheurs d’autruy paroissent si sensibles,</l>
@@ -3020,7 +3020,7 @@
             <l n="1204" xml:id="l1204">Le sang si fort sur moy soit si foible envers luy ?</l>
             <l n="1205" xml:id="l1205" part="I">Ah ! mes fils.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="IV05-9" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="F">En faveur d’une <ref target="#vertu">vertu*</ref> si rare,</l>
             <l n="1206" xml:id="l1206">Quelque suplice* <ref target="#affreux">affreux*</ref> que Rome nous prepare,</l>
@@ -3028,20 +3028,20 @@
             <l n="1208" xml:id="l1208">Vous ne rougirez point en nous voyant perir :</l>
             <l n="1209" xml:id="l1209" part="I">Mais.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="IV05-10" who="junie">
             <speaker>JUNIE.</speaker>
             <l part="F">Que vois-je ? grands Dieux ! je lis sur ce visage,</l>
             <l n="1210" xml:id="l1210">De nos derniers malheurs l’infaillible presage.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV06">
           <head>SCENE VI</head>
           <stage>TITE, MARCELLIN, IVNIE, TIBERE.</stage>
-          <sp who="tite">
+          <sp xml:id="IV06-1" who="tite">
             <speaker>TITE.</speaker>
             <l n="1211" xml:id="l1211" part="I">Que veux-tu Marcellin ?<pb n=" 72"/></l>
           </sp>
-          <sp who="marcellin">
+          <sp xml:id="IV06-2" who="marcellin">
             <speaker>MARCELLIN.</speaker>
             <l part="F">Princes il faut partir,</l>
             <l n="1212" xml:id="l1212">L’ordre presse, et je vien pour vous en advertir.</l>
@@ -3056,20 +3056,20 @@
             <l n="1221" xml:id="l1221">Mais quelque sentiment qui regne sur son ame,</l>
             <l n="1222" xml:id="l1222" part="I">Il demande ses fils.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="IV06-3" who="junie">
             <speaker>JUNIE.</speaker>
             <l part="M"><ref target="#cruel">Cruel*</ref> !</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="IV06-4" who="tibere">
             <speaker>TIBERE.</speaker>
             <l part="F">Adieu, Madame ;</l>
             <l n="1223" xml:id="l1223">Nous nous quittons, la mort nous esloigne de vous.<pb n="K, 73"/></l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV06-5" who="tite">
             <speaker>TITE.</speaker>
             <l n="1224" xml:id="l1224">Vivez, Madame, au moins plus heureuse que nous.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="IV06-6" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1225" xml:id="l1225">Faites, faites pour moy des voeux plus legitimes :</l>
             <l n="1226" xml:id="l1226">Vous allez donc mourir innocentes victimes ?</l>
@@ -3077,14 +3077,14 @@
             <l n="1228" xml:id="l1228">Je derobe à vos yeux un <ref target="#courage">courage*</ref> abbatu.</l>
             <l n="1229" xml:id="l1229" part="I">Adieu mes fils.</l>
           </sp>
-          <sp who="tite">
+          <sp xml:id="IV06-7" who="tite">
             <speaker>TITE.</speaker>
             <l part="F">Alors qu’il faut aux yeux des hommes,</l>
             <l n="1230" xml:id="l1230">Signaler nostre <ref target="#amour2">amour*</ref> et monstrer qui nous sommes,</l>
             <l n="1231" xml:id="l1231">On me verra perir d’un <ref target="#courage">courage*</ref> si fort,</l>
             <l n="1232" xml:id="l1232">Que j’en feray trembler les auteurs de ma mort.</l>
           </sp>
-          <sp who="tibere">
+          <sp xml:id="IV06-8" who="tibere">
             <speaker>TIBERE.</speaker>
             <l n="1233" xml:id="l1233">Qu’on redouble la honte et l’<ref target="#horreur1">horreur*</ref> du supplice,</l>
             <l n="1234" xml:id="l1234">Rien ne peut m’esbranler au bord du precipice :</l>
@@ -3093,28 +3093,28 @@
           </sp>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="V" type="act">
         <head>ACTE V</head>
-        <div type="scene">
+        <div type="scene" xml:id="V01">
           <head>SCENE PREMIERE</head>
           <stage>JUNIE, MARCELLE.</stage>
-          <sp who="junie">
+          <sp xml:id="V01-1" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1237" xml:id="l1237">Laisse-moy preparer au <ref target="#coup2">coup*</ref> qui me menace,<pb n=" 74"/></l>
             <l n="1238" xml:id="l1238">Et ne m’entretien* plus de l’espoir de leur <ref target="#grace2">grace*</ref>.</l>
           </sp>
-          <sp who="marcelle">
+          <sp xml:id="V01-2" who="marcelle">
             <speaker>MARCELLE.</speaker>
             <l n="1239" xml:id="l1239">Quand le Ciel se dispose à finir leur mal-heur,</l>
             <l n="1240" xml:id="l1240">Vous laisser si long-temps en proye* à la douleur,</l>
             <l n="1241" xml:id="l1241">C’est vous rendre, Madame, un dangereux office.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V01-3" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1242" xml:id="l1242">Et bien dy moy leur sort rigoureux ou propice :</l>
             <l n="1243" xml:id="l1243" part="I">Mais ne deguise rien.</l>
           </sp>
-          <sp who="marcelle">
+          <sp xml:id="V01-4" who="marcelle">
             <speaker>MARCELLE.</speaker>
             <l part="F">Si tost que vos deux fils
 <pb n=" 75"/></l>
@@ -3172,36 +3172,36 @@
             <l n="1295" xml:id="l1295">L’executeur tout prest à faire son <ref target="#devoir">devoir*</ref>.</l>
             <l n="1296" xml:id="l1296" part="I">Leve le bras.<note n="392" place="bottom">Le récit descriptif que propose Marcelle est l’occasion d’un déploiement de figures rhétoriques. Sur un plan macro structural, on remarque que l’ensemble de la tirade repose sur le procédé exacerbé de l’hypotypose qui convoque de nombreuses images. Le spectateur peut se figurer par le récit de Marcelle une situation irreprésentable sur la scène, celle d’une exécution y participent les métaphores (« theatre tragique » v. 1246 , « ardant de colere » v. 1249, « sang » v. 1269 et v. 1275, « tonnerre » v. 1270, « beau Torphée » v. 1274), comparaisons (v. 1318) et personnifications (v. 1261). Insistant sur le champ lexical de la vue, la tirade de Marcelle se trouve émaillée par quelques références plus techniques au lexique de la peinture (« peinte » v. 1257 ; « image » v. 1260, ...). Le personnage dresse littéralement le tableau d’une scène à la fois touchante et édifiante. Sur un plan micro structural, la plupart des tropes et tournures stylistiques relèvent d’un processus d’amplification qui doit susciter l’émotion de l’auditoire par la sollicitation de la vue ; on relève notamment une anadiplose aux vers v. 1247 et v. 1249 : « Brute les voit venir (…) il les voit » et un polyptote sur le verbe « voir » : « voit » (v. 1247, v. 1249, v. 1250) « voir » (v. 1250, v. 1253) et des dérivés « ? il/yeux » (v. 1249, v. 1255) et « regards » (v. 1256). Puisque le récit de Marcelle tient de la description d’un tableau, il est intéressant de noter que cette scène centrale (quoique interrompue pour conserver un certain suspens) qui scelle le sort des protagonistes a pu donner lieu à des compositions picturales (voir les annexes).</note> </l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V01-5" who="junie">
             <speaker>JUNIE.</speaker>
             <l part="F">Helas ! quel est donc nostre espoir ?</l>
             <l n="1297" xml:id="l1297">Doncques Tite n’est plus, Brute, Rome, Tullie,</l>
             <l n="1298" xml:id="l1298">Qui de vous trois m’enleve une si chere vie ?</l>
             <l n="1299" xml:id="l1299" part="I">Cher Tite.</l>
           </sp>
-          <sp who="marcelle">
+          <sp xml:id="V01-6" who="marcelle">
             <speaker>MARCELLE.</speaker>
             <l part="F">Il vit encor, moderez ce <ref target="#transport">transport*</ref>.
               </l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V01-7" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1300" xml:id="l1300">Et quel Dieu favorable a destourné sa mort ?</l>
           </sp>
-          <sp who="marcelle">
+          <sp xml:id="V01-8" who="marcelle">
             <speaker>MARCELLE.</speaker>
             <l n="1301" xml:id="l1301">Sur le bras du bourreau l’on voit sauter Tibere :</l>
             <l n="1302" xml:id="l1302">Arreste luy dit-il, et me laisse mon frere :</l>
             <l n="1303" xml:id="l1303">Pendant que je vivray, Tite ne peut mourir.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V01-9" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1304" xml:id="l1304">Ah ! ce n’est pas ainsi qu’il les faut secourir,</l>
             <l n="1305" xml:id="l1305">Tendresse, Amour, Pitié, que la Nature inspire</l>
             <l n="1306" xml:id="l1306">Sur un Pere <ref target="#cruel">cruel*</ref> estendez vostre Empire,</l>
             <l n="1307" xml:id="l1307">Autrement vos efforts ne les sçauroient sauver.<pb n=" 78"/></l>
           </sp>
-          <sp who="marcelle">
+          <sp xml:id="V01-10" who="marcelle">
             <speaker>MARCELLE.</speaker>
             <l n="1308" xml:id="l1308">Oyés ce que les Dieux font pour les conserver,<note n="393" place="bottom"> Le récit de Marcelle, laissant espérer une issue favorable pour les deux frères alors que tout semble perdu, constitue un cas de changement de fortune ; ce changement soudain correspond à ce que prévoient les textes théoriques : « un événement imprévu qui dément les apparences, et par une révolution qui n’était point attendue, vient changer la face des choses. » (La Mesnardière, <hi rend="i">La Poétique</hi>, 1639). On parle plus communément d’un « coup de théâtre ». </note></l>
             <l n="1309" xml:id="l1309">On voit douze <ref target="#licteur">licteurs*</ref><note n="394" place="bottom">Le terme « licteurs » désigne dans l’Antiquité des officiers publics qui marchaient devant les premiers magistrats de Rome, et qui portaient une hache placée dans un faisceau de verges. Les licteurs faisaient à la fois office d’appariteurs et de bourreaux. </note>s’avancer vers la place :</l>
@@ -3224,7 +3224,7 @@
             <l n="1326" xml:id="l1326">Sachant le <ref target="#desespoir">desespoir*</ref> dont vous estiez atteinte,</l>
             <l n="1327" xml:id="l1327">Mon <ref target="#zele">zele*</ref> m’a ravy le loisir de l’oüir.<note n="395" place="bottom"> Le messager use d’un procédé qui consiste à interrompre le récit pour laisser libre cours aux émois qu’il provoque dans le cercle féminin et qui maintient en suspens le sort des protagonistes en laissant attendre un retournement de situation. Ce procédé rappelle à une moindre échelle (le récit des événements est achevé à la scène 3), le récit entrecoupé et partiel que fait Julie du combat dans <hi rend="i">Horace</hi>, récit incluant des rebondissements inattendus, responsables, comme ici, de fausses espérances de l’auditoire féminin et qui s’étend de l’acte IV scène 2 à l’acte V scène 2 dans la pièce de Corneille. Les similitudes sont nombreuses : Camille ne croit pas plus que Tullie en la possibilité de voir les Romains renoncer à la mise à mort. L’intervention des spectateurs en faveur des protagonistes qui interrompt momentanément le déroulement du combat et de l’exécution constitue une autre similitude notable entre les deux pièces.</note></l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V01-11" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1328" xml:id="l1328">Doux espoir dont mon coeur ose à peine joüir,</l>
             <l n="1329" xml:id="l1329">Dont la triste clarté tient encor des tenebres,<pb n=" 79"/></l>
@@ -3235,36 +3235,36 @@
             <l n="1334" xml:id="l1334">Allons luy faire part d’un sort si favorable :</l>
             <l n="1335" xml:id="l1335" part="I">Je le dois à mes fils.</l>
           </sp>
-          <sp who="marcelle">
+          <sp xml:id="V01-12" who="marcelle">
             <speaker>MARCELLE.</speaker>
             <l part="F">Madame, je la voy.
             </l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V02">
           <head>SCENE II</head>
           <stage>TULLIE, JUNIE, MARCELLE.</stage>
-          <sp who="tullie">
+          <sp xml:id="V02-1" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1336" xml:id="l1336">On me garde, Madame, et je ne sçay pourquoy,</l>
             <l n="1337" xml:id="l1337">Brute m’avoit promis liberté toute entiere ;</l>
             <l n="1338" xml:id="l1338">Cependant je connois que je suis prisonniere.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V02-2" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1339" xml:id="l1339">Madame, l’on vous tient ce qu’on vous a promis,</l>
             <l n="1340" xml:id="l1340">On vous garde, mais c’est contre vos ennemis ;</l>
             <l n="1341" xml:id="l1341">Ceux qui sont prés de vous, y sont pour vous defendre.<pb n="80"/></l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="V02-3" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1342" xml:id="l1342" part="I">Et de qui ?</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V02-4" who="junie">
             <speaker>JUNIE.</speaker>
             <l part="F">Des Romains qui vous pourroient surprendre.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="V02-5" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1343" xml:id="l1343">Les Romains contre moy ne sçauroient faire pis,</l>
             <l n="1344" xml:id="l1344">Je suis en leur pouvoir puis qu’ils tiennent vos fils,</l>
@@ -3283,7 +3283,7 @@
             <l n="1357" xml:id="l1357">Je m’offriray pour eux, ou plustost pour moy-méme,</l>
             <l n="1358" xml:id="l1358">Pour expier mon crime, et sauver ce que j’ayme.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V02-6" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1359" xml:id="l1359">Ah ! Madame perdés cét injuste <ref target="#transport">transport*</ref>,</l>
             <l n="1360" xml:id="l1360">Pensez-vous les sauver en courant à la mort ?</l>
@@ -3294,7 +3294,7 @@
             <l n="1365" xml:id="l1365">Et se <ref target="#plaindre">plaindre*</ref> du sort qui leur sauvant la vie,</l>
             <l n="1366" xml:id="l1366">Leur ravit le bon-heur de mourir pour Tullie.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="V02-7" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1367" xml:id="l1367">Las ! de quelque succez que je m’ose <ref target="#flatter4">flater*</ref>,</l>
             <l n="1368" xml:id="l1368">Mon coeur sent des frayeurs qu’il ne peut surmonter !</l>
@@ -3307,7 +3307,7 @@
             <l n="1375" xml:id="l1375">Si bien qu’à peine encore echapés de leurs mains,</l>
             <l n="1376" xml:id="l1376">Ils ont des ennemis pires que les Romains.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V02-8" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1377" xml:id="l1377">C’est à vous à regler leur destin et le vostre,</l>
             <l n="1378" xml:id="l1378">Vous pouvez hardiment couronner l’un et l’autre :</l>
@@ -3315,74 +3315,74 @@
             <l n="1380" xml:id="l1380">En faisant l’un heureux, fasse l’autre jaloux :</l>
             <l n="1381" xml:id="l1381" part="I">Ne me le cachez plus.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="V02-9" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="F">Faut-il que je m’explique ?<pb n="82"/></l>
           </sp>
-          <sp who="marcelle">
+          <sp xml:id="V02-10" who="marcelle">
             <speaker>MARCELLE.</speaker>
             <l n="1382" xml:id="l1382" part="I">Madame, Marcellin.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V03">
           <head>SCENE III</head>
           <stage>MARCELLIN, JUNIE, TULLIE, MARCELLE.</stage>
-          <sp who="marcellin">
+          <sp xml:id="V03-1" who="marcellin">
             <speaker>MARCELLIN.</speaker>
             <l part="F">O fin vrayement <ref target="#tragique">tragique*</ref> !</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V03-2" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1383" xml:id="l1383" part="I">Qu’est cecy Marcellin ?</l>
           </sp>
-          <sp who="marcellin">
+          <sp xml:id="V03-3" who="marcellin">
             <speaker>MARCELLIN.</speaker>
             <l part="F">Helas ! tout est perdu.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V03-4" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1384" xml:id="l1384" part="I">Quoy ! mes fils.</l>
           </sp>
-          <sp who="marcellin">
+          <sp xml:id="V03-5" who="marcellin">
             <speaker>MARCELLIN.</speaker>
             <l part="M">C’en est fait.
             </l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="V03-6" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="F">O Dieux ! qu’ay-je entendu ?<pb n="83"/></l>
           </sp>
-          <sp who="marcellin">
+          <sp xml:id="V03-7" who="marcellin">
             <speaker>MARCELLIN.</speaker>
             <l n="1385" xml:id="l1385">Ne me demandés point un recit si funeste.</l>
             <l n="1386" xml:id="l1386">Brute vient, et luy seul vous peut dire le reste.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V04">
           <head>SCENE IV</head>
           <stage>BRUTE, TULLIE, JUNIE, MARCELLIN, MARCELLE.</stage>
-          <sp who="brute">
+          <sp xml:id="V04-1" who="brute">
             <speaker>BRUTE.</speaker>
             <l n="1387" xml:id="l1387">Laisse-moy <ref target="#soupir">soûpirer*</ref> <ref target="#tyrannie">tyrannique*</ref> <ref target="#vertu">vertu*</ref>,</l>
             <l n="1388" xml:id="l1388">Je t’ay donné mes fils, Rome, que me veux-tu ?</l>
             <l n="1389" xml:id="l1389">J’ay donné tout mon sang à tes moindres alarmes,</l>
             <l n="1390" xml:id="l1390">Souffre qu’à tout mon sang je donne quelques larmes.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="V04-2" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1391" xml:id="l1391" part="I">Donc ces Princes si chers.</l>
           </sp>
-          <sp who="marcellin">
+          <sp xml:id="V04-3" who="marcellin">
             <speaker>MARCELLIN.</speaker>
             <l part="F">Ils ont perdu le jour.</l>
             <l n="1392" xml:id="l1392">De Brute et des Romains l’esperance et l’<ref target="#amour1">amour*</ref>,<pb n="84"/></l>
             <l n="1393" xml:id="l1393">Par son ordre aux Romains ont servy de victime.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V04-4" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1394" xml:id="l1394">Ah ! Marcelle est-ce<note n="396" place="bottom">Un espace manquant a été ajouté ; le texte original proposait en effet un tour incorrect de la phrase : « Marcellin est cela cét espoir legitime ? ».</note> la cét espoir legitime ?</l>
           </sp>
-          <sp who="marcellin">
+          <sp xml:id="V04-5" who="marcellin">
             <speaker>MARCELLIN.</speaker>
             <l n="1395" xml:id="l1395">Tout le monde, Madame, esperoit comme vous,</l>
             <l n="1396" xml:id="l1396">Brute exprimoit déja des sentimens plus doux :</l>
@@ -3395,16 +3395,16 @@
             <l n="1403" xml:id="l1403">Il fait mourir ses fils en Juge rigoureux,</l>
             <l n="1404" xml:id="l1404">Et <ref target="#pleur">pleure*</ref> aprés leur mort en Pere malheureux.</l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="V04-6" who="tullie">
             <speaker>TULLIE.</speaker>
             <l n="1405" xml:id="l1405" part="I">Ah ! Tygre.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V04-7" who="junie">
             <speaker>JUNIE.</speaker>
             <l part="M">Ah ! mes enfans .
             </l>
           </sp>
-          <sp who="tullie">
+          <sp xml:id="V04-8" who="tullie">
             <speaker>TULLIE.</speaker>
             <l part="F">Mais helas ! C’est leur Pere,</l>
             <l n="1406" xml:id="l1406">J’entre dans vos respects cher Tite, cher Tibere,</l>
@@ -3418,14 +3418,14 @@
             <l n="1414" xml:id="l1414">Vous me possederez et j’auray ce que j’aime.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V05">
           <head>SCENE V</head>
           <stage>JUNIE, BRUTE.</stage>
-          <sp who="junie">
+          <sp xml:id="V05-1" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1415" xml:id="l1415" part="I">Qu’as-tu fait de ton sang, Brute ?</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="V05-2" who="brute">
             <speaker>BRUTE.</speaker>
             <l part="F">Je l’ay versé,</l>
             <l n="1416" xml:id="l1416">Femme viens achever ce que j’ay commencé :</l>
@@ -3440,20 +3440,20 @@
               <note n="398" place="bottom">On relève la rime significative des vers 1494 et 1495 « Inhumain/Romain » : l’appartenance au peuple romain ne constitue plus le comble de l’honneur pour Brute, au contraire elle est associée à une profonde dénaturation.</note>
             </l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V05-3" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1425" xml:id="l1425" part="I">Rens-moy mes fils, <ref target="#cruel">cruel*</ref>.</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="V05-4" who="brute">
             <speaker>BRUTE.</speaker>
             <l part="F">Ils ont perdu la vie,</l>
             <l n="1426" xml:id="l1426">Et la mienne par toy me doit estre ravie.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V05-5" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1427" xml:id="l1427" part="I">Helas !</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="V05-6" who="brute">
             <speaker>BRUTE.</speaker>
             <l part="F">Que tes douleurs font un puissant effet,</l>
             <l n="1428" xml:id="l1428">Qu’estes vous devenus mes enfans, qu’ay-je fait ?</l>
@@ -3466,15 +3466,15 @@
             <l n="1435" xml:id="l1435">Fuis de moy, femme, fuis et cachant tes douleurs,</l>
             <l n="1436" xml:id="l1436">Souviens-toy qu’un Romain punit jusques aux <ref target="#pleur">pleurs*</ref>.<note n="399" place="bottom"> Ce vers constitue une référence explicite à la pièce de Corneille, <hi rend="i">Horace</hi> (référence déjà présente dans la bouche du personnage). Le personnage éponyme menaçait puis assassinait sa soeur Camille coupable de verser des larmes pour son amant Curiace, ennemi de Rome (acte IV, 5).</note> </l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V05-7" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1437" xml:id="l1437" part="I">He bien puny*-moy donc.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V06">
           <head>SCENE DERNIERE</head>
           <stage>LIVIE, JUNIE, BRUTE.</stage>
-          <sp who="livie">
+          <sp xml:id="V06-1" who="livie">
             <speaker>LIVIE.</speaker>
             <l part="F">Ah ! Pere impitoyable !<pb n=" 87"/></l>
             <l n="1438" xml:id="l1438">De ton <ref target="#zele">zele*</ref> <ref target="#cruel">cruel*</ref> voy la suitte effroyable :</l>
@@ -3487,7 +3487,7 @@
             <l n="1445" xml:id="l1445">Qu’aux cendres de vos fils sa cendre confonduë,</l>
             <l n="1446" xml:id="l1446">Monstre qu’en les perdant, son <ref target="#amour2">amour*</ref> l’a perduë.</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="V06-2" who="brute">
             <speaker>BRUTE.</speaker>
             <l n="1447" xml:id="l1447">Je deplore sa perte autant que mes malheurs,</l>
             <l n="1448" xml:id="l1448">Mais aussi je rougis d’avoir versé des <ref target="#pleur">pleurs*</ref>.</l>
@@ -3500,12 +3500,12 @@
             <l n="1455" xml:id="l1455">Et qu’ils disent de moy voyant ce que je fis,<pb n="88"/></l>
             <l n="1456" xml:id="l1456">Il fut Pere de Rome, et plus que de ses fils.</l>
           </sp>
-          <sp who="junie">
+          <sp xml:id="V06-3" who="junie">
             <speaker>JUNIE.</speaker>
             <l n="1457" xml:id="l1457">Mal-gré le <ref target="#desespoir">desespoir*</ref> qui regne dans mon ame,</l>
             <l n="1458" xml:id="l1458">Je prens tes sentimens, et suis enfin ta femme.</l>
           </sp>
-          <sp who="brute">
+          <sp xml:id="V06-4" who="brute">
             <speaker>BRUTE.</speaker>
             <l n="1459" xml:id="l1459">Ta <ref target="#vertu">vertu*</ref> rend icy mon esprit confondu,</l>
             <l n="1460" xml:id="l1460">Et me redonne enfin plus que je n’ay perdu.</l>

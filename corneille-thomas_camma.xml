@@ -962,14 +962,14 @@
         </castList>
         <stage>La Scene est dans la Capitale de Galatie<note n="123" place="bottom"><hi rend="i">La Galatie</hi> : Région de l’Asie Mineure, occupée par les Celtes venus de la Gaule vers 235 av. J.-C. L’ethnique « Galates » est d’origine celtique et aurait d’abord servi à désigner chez les Celtes les nations auxiliaires telles que celles des Belges par exemple. </note>.</stage>
       </div>
-      <div type="act">
+      <div xml:id="I" type="act">
         <head rend="center">CAMMA REINE DE GALATIE, <hi rend="i">TRAGEDIE.</hi></head>
         <pb n="A ; 1"/>
         <head>ACTE I.</head>
-        <div type="scene">
+        <div type="scene" xml:id="I01">
           <head>SCENE PREMIERE.</head>
           <stage>SINORIX, PHAEDIME.</stage>
-          <sp who="sinorix">
+          <sp xml:id="I01-1" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1" xml:id="l1">Tu dis vray<note n="124" place="bottom">Amorce intéressante car il semble que Sinorix confirme une supposition avancée par Phaedime avant le début de la représentation. L’entrée dans le sujet de la pièce est, de cette façon, plus vive, plus dynamique. </note>, cher Phaedime, on auroit peine à croire</l>
             <l n="2" xml:id="l2">Qu’un grand cœur soûpirast au milieu de la gloire,</l>
@@ -988,7 +988,7 @@
             <l n="15" xml:id="l15">Si du plus digne Objet trop vivement charmé,</l>
             <l n="16" xml:id="l16">J’aime pour mon supplice, et ne puis estre aimé.</l>
           </sp>
-          <sp who="phaedime">
+          <sp xml:id="I01-2" who="phaedime">
             <speaker>PHAEDIME.</speaker>
             <l n="17" xml:id="l17">C’est vous plaire, Seigneur, à croistre<note n="128" place="bottom"><hi rend="i">Var. 1692</hi> : nourrir</note> vostre peine,</l>
             <l n="18" xml:id="l18">Que d’expliquer si mal les refus de la Reine,</l>
@@ -1011,7 +1011,7 @@
             <l n="35" xml:id="l35">Ostez-luy cet obstacle,  et vous verrez soudain</l>
             <l n="36" xml:id="l36">Que son cœur adoucy vous répond de sa main.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="I01-3" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="37" xml:id="l37">Je voy bien qu’il le faut mais le puis-je,  Phaedime,</l>
             <l n="38" xml:id="l38">Sans m’exposer encor à trembler de mon crime,</l>
@@ -1030,7 +1030,7 @@
             <l n="51" xml:id="l51">Et pour <ref target="#forcer1">forcer*</ref> les maux dont mon cœur est atteint,</l>
             <l n="52" xml:id="l52">Son exil est un ordre où je me vois contraint.</l>
           </sp>
-          <sp who="phaedime">
+          <sp xml:id="I01-4" who="phaedime">
             <speaker>PHAEDIME.</speaker>
             <l n="53" xml:id="l53">Mais luy-mesme à sa perte engagea vostre <ref target="#flame">flame*</ref>,</l>
             <l n="54" xml:id="l54">Il vous donnoit sa Fille, et vous aimiez sa femme,</l>
@@ -1041,7 +1041,7 @@
             <l n="59" xml:id="l59">Et dans quelques horreurs qu’on ait pû se porter,</l>
             <l n="60" xml:id="l60">Pour estre absous de tout, il suffit d’y monter<note n="130" place="bottom">Prendre le pouvoir lave tous les péchés. Le pouvoir légitime tous les crimes passés. Voir Acte II, 1 de <hi rend="i">Cinna</hi> où Cinna explique à Auguste que son pouvoir est juste dans la mesure où il est monté sur le trône et où son autorité est maintenant reconnue par le peuple : « Gouvernant justement, ils [les conquérants] s’en font justes princes ». (<hi rend="i">Corneille, Œuvres Complètes</hi>, éd. Georges Couton, Gallimard, Pléiade, vol. I, 1980, vers 426). De la même façon, Livie, aussi « machiavélique » que Phaedime, exprime la même idée que cette dernière : « Tous ces crimes d’Etat qu’on fait pour la couronne, / Le Ciel nous en absout alors qu’il nous la donne ; / (…) / Qui pour y parvenir ne peut être coupable ; / Quoi qu’il ait fait ou fasse, il est inviolable » (<hi rend="i">Cinna</hi>, Corneille Pierre, <hi rend="i">Ed. Cit</hi>, vers 1609-1614). </note></l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="I01-5" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="61" xml:id="l61">Ce sont là des Tyrans les damnables maximes<note n="131" place="bottom"><hi rend="i">Tyran</hi> : vient du grec τύραννος« maître ». Chez les Grecs, celui qui s’emparait du pouvoir par la force. Plus tard désigne une personne qui, ayant le pouvoir suprême, l’exerce de manière absolue, oppressive.  Personnage assez fréquent dans les tragédies classiques.  Ce vers se retrouve pratiquement mot pour mot dans <hi rend="i">Pertharite</hi> de Corneille, II, 3, v. 563 : « Porte, porte aux tyrans tes damnables maximes »</note></l>
             <l n="62" xml:id="l62">En qui l’impunité fait le pardon des crimes,</l>
@@ -1056,7 +1056,7 @@
             <l n="71" xml:id="l71">Un vif et dur remords n’en est jamais banny,<pb n="4" xml:id="p4"/></l>
             <l n="72" xml:id="l72">Et coupable un moment on est tousjours puny<note n="133" place="bottom">Sentence populaire qui exprime une idée générale mais le « on » cache ici, de manière imparfaite, le « je ». En effet, il s’agit pour Sinorix d’exprimer toute la culpabilité qu’il peut ressentir. </note>.</l>
           </sp>
-          <sp who="phaedime">
+          <sp xml:id="I01-6" who="phaedime">
             <speaker>PHAEDIME.</speaker>
             <l n="73" xml:id="l73">C’est beaucoup que du moins cette mort qui vous <ref target="#gener">gêne*</ref></l>
             <l n="74" xml:id="l74">Soit toûjours un secret ignoré de la Reine,</l>
@@ -1067,7 +1067,7 @@
             <l n="79" xml:id="l79">Et ses <ref target="#soins1">soins*</ref> n’ont-ils pû la faire <ref target="#balancer">balancer*</ref></l>
             <l n="80" xml:id="l80">Sur l’hymen où pour luy vous la voulez <ref target="#forcer2">forcer*</ref> ?</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="I01-7" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="81" xml:id="l81">Il la voit chaque jour, Phaedime, et je puis dire</l>
             <l n="82" xml:id="l82">Que ce cher Confident partage mon martyre,</l>
@@ -1082,7 +1082,7 @@
             <l n="91" xml:id="l91">J’ay fait naistre sa flame*, et je luy dois offrir,</l>
             <l n="92" xml:id="l92">L’eloignant de ses yeux, une aide à le guerir.</l>
           </sp>
-          <sp who="phaedime">
+          <sp xml:id="I01-8" who="phaedime">
             <speaker>PHAEDIME.</speaker>
             <l n="93" xml:id="l93">Sostrate est <ref target="#genereux1">genereux*</ref>, et jamais un vray zele</l>
             <l n="94" xml:id="l94">Ne marquera pour vous une ame plus fidelle,</l>
@@ -1093,7 +1093,7 @@
             <l n="99" xml:id="l99">Et pretendre à son cœur, c’est <ref target="#presser3">presser</ref> son couroux</l>
             <l n="100" xml:id="l100">D’accepter une main qui la vange de vous.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="I01-9" who="sinorix">
             <speaker>SINORIX.</speaker>
             <pb n="5" xml:id="p5"/>
             <l n="101" xml:id="l101">Contre moy de Sostrate il n’est rien qu’elle obtienne,</l>
@@ -1106,24 +1106,24 @@
             <l n="108" xml:id="l108">Mais je la voy qui passe à son appartement.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I02">
           <head>SCENE II.</head>
           <stage>SINORIX, CAMMA, PHAEDIME, PHENICE.</stage>
-          <sp who="sinorix">
+          <sp xml:id="I02-1" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="109" xml:id="l109">Vos yeux de vostre cœur marquant l’impatience<note n="139" place="bottom">Diérèse.</note>,</l>
             <l n="110" xml:id="l110">Madame, et tant de <ref target="#soins1">soins*</ref> d’eviter ma presence,</l>
             <l n="111" xml:id="l111">Ne me font que trop voir le peu qu’il prend de part</l>
             <l n="112" xml:id="l112">Au bonheur impréveu que m’offre le hazard<note n="140" place="bottom">Camma a l’air de tenter d’éviter de se retrouver face à Sinorix. Ce comportement fait penser à la manière dont Andromaque se comportait face à Pyrrhus : « Me cherchiez-vous, Madame ? / Un espoir si charmant me serait-il permis ? // Je passais jusqu’aux lieux où l’on garde mon fils. / Puisqu’une fois le jour vous souffrez que je voie / Le seul bien qui me reste et d’Hector et de Troie, / J’allais, Seigneur, pleurer un instant avec lui : / Je ne l’ai point encore embrassé aujourd’hui. » (<hi rend="i">Andromaque</hi>, dans Racine, <hi rend="i">Œuvres Complètes</hi>, éd. G. Forestier, Paris, Gallimard, Pléiade, 1999, Acte I, 4 vers 259-264).</note>.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I02-2" who="camma">
             <speaker>CAMMA</speaker>
             <l n="113" xml:id="l113">Le <ref target="#chagrin">chagrin*</ref> où je vis me rend si peu <ref target="#traitable">traitable*</ref>,</l>
             <l n="114" xml:id="l114">Que souvent malgré moy son <ref target="#aigreur">aigreur*</ref> vous accable,</l>
             <l n="115" xml:id="l115">Et mon zéle pour vous osant s’en indigner</l>
             <l n="116" xml:id="l116">Par ces <ref target="#soins1">soins*</ref> de vous fuïr cherche à vous l’épargner.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="I02-3" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="117" xml:id="l117">Ah,  si ce n’est qu’au prix d’une si chere veuë,</l>
             <l n="118" xml:id="l118">Perdez une bonté dont la rigueur me tuë,</l>
@@ -1138,7 +1138,7 @@
             <l n="127" xml:id="l127">Et dans l’âpre douleur de ce qu’il faut oüir,</l>
             <l n="128" xml:id="l128">S’il ne peut l’etouffer, il la sçait <ref target="#eblouir">ebloüir*</ref><note n="142" place="bottom"> « Ce charme… ebloüir »  : Sinorix a la certitude que son amour pourra séduire la cruauté de Camma.</note>.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I02-4" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="129" xml:id="l129">J’ignore quels mépris je vous ay fais paroistre,</l>
             <l n="130" xml:id="l130">Mais je sçay qu’en m’aimant vous m’avez dû connoître<note n="143" place="bottom"><hi rend="i">M’avez dû connoistre</hi> : en Français classique, il est très fréquent d’avoir ce type de construction que Nathalie Fournier, dans <hi rend="i">Grammaire du français classique</hi>, Belin sup, appelle construction avec montée du clitique (2002, p. 80). De plus, « vous m’avez dû connoistre » équivaut à « vous auriez dû me connaître ». </note>,</l>
@@ -1161,7 +1161,7 @@
             <l n="147" xml:id="l147">Et pour des droits honteux quittant un bien constant,</l>
             <l n="148" xml:id="l148">Je pourrois davantage, et ne ferois pas tant.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="I02-5" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="149" xml:id="l149">Ouy, gardez vostre rang, vous le perdrez, Madame,</l>
             <l n="150" xml:id="l150">Si d’un Usurpateur vous devenez la Femme,</l>
@@ -1172,14 +1172,14 @@
             <l n="155" xml:id="l155">Et quel crime ay-je fait, quand secondé des Dieux<pb n="7"/></l>
             <l n="156" xml:id="l156">J’ay rentré par leur ordre au bien de mes Ayeux ? <note n="146" place="bottom"><hi rend="i">Rentrer à</hi> : pouvait se conjuguer intransitivement avec l’auxiliaire avoir. Signifie « revenir à ». Sinorix considère son pouvoir comme légitime et comme légal car c’est un bien qui lui revient de sa famille. </note></l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I02-6" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="157" xml:id="l157">Pour <ref target="#eblouir">ébloüir*</ref> mes sens c’est une foible <ref target="#amorce">amorce*</ref></l>
             <l n="158" xml:id="l158">Qu’un droit qu’expliqua moins la raison que la force,</l>
             <l n="159" xml:id="l159">Le Peuple fut <ref target="#timide">timide*</ref>, et vous voyant <ref target="#armer">armer*</ref>,</l>
             <l n="160" xml:id="l160">Préfera le Tyran qui pouvoit l’opprimer.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="I02-7" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="161" xml:id="l161">Et bien, je suis Tyran, ma seule violence<note n="147" place="bottom">Diérèse : le mot compte pour trois syllabes. </note></l>
             <l n="162" xml:id="l162">Fut le droit qui m’acquit la supréme puissance,</l>
@@ -1190,7 +1190,7 @@
             <l n="167" xml:id="l167">Et seul au vol d’un Trône ayant sçeu me <ref target="#forcer2">forcer*</ref>,</l>
             <l n="168" xml:id="l168">Je ne l’ay fait du moins que pour vous y placer.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I02-8" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="169" xml:id="l169">Et lors qu’à cet excez monte vostre injustice,</l>
             <l n="170" xml:id="l170">Vous trouvez glorieux de m’en rendre complice,</l>
@@ -1205,7 +1205,7 @@
             <l n="179" xml:id="l179">Et luy rendant des vœux à sa <ref target="#flame">flame*</ref> échapez,</l>
             <l n="180" xml:id="l180">Possedez justement ce que vous usurpez. <note n="148" place="bottom">Opposition entre « possession » et « usurpation ». L’idée de possession est une idée d’appréhension, de jouissance totales du pouvoir alors qu’elle n’est que vain abus, perverti, une usurpation (le mot signifiant l’action de s’emparer par usage) pour l’instant. La possession dans ce cas peut s’acquérir de plein droit par le mariage avec la fille légitime du défunt roi. </note></l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="I02-9" who="sinorix">
             <speaker>SINORIX</speaker>
             <l n="181" xml:id="l181">Si j’en formay pour elle, on ne les vit paroistre</l>
             <l n="182" xml:id="l182">Que quand mon cœur pour vous n’osoit se bien connoistre,</l>
@@ -1225,7 +1225,7 @@
             <l n="196" xml:id="l196">Il manquoit seulement que vous peussiez aimer.</l>
             <l n="197" xml:id="l197">Vous le pouvez, Madame, et de vos vœux maistresse…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I02-10" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="198" xml:id="l198">Non, non, c’est présumer en moy trop de foiblesse,</l>
             <l n="199" xml:id="l199">Quoy qu’un Trône ait d’éclat, il n’a rien d’assez doux</l>
@@ -1239,7 +1239,7 @@
             <l n="207" xml:id="l207">Et l’on ne verra point qu’infidelle à ce sang</l>
             <l n="208" xml:id="l208">J’aide à la Tyrannie à luy voler son rang.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="I02-11" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="209" xml:id="l209">Ah, puisque vous prenez quelque soin de ma gloire,</l>
             <l n="210" xml:id="l210">Sauvez-la d’un peril plus grand qu’on ne peut croire,</l>
@@ -1251,13 +1251,13 @@
             <l n="216" xml:id="l216">Dedans son desespoir, est capable de tout.<note n="155" place="bottom"><hi rend="i">Var. 1692</hi> : S’il suit son désespoir, est capable de tout. </note></l>
             <l n="217" xml:id="l217">Daignez m’en épargner la fatale <ref target="#disgrace">disgrace*</ref><note n="156" place="bottom">Menace sourde envers Camma. </note>.<pb n="9" xml:id="p9"/></l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I02-12" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="218" xml:id="l218">Vous avancez beaucoup d’employer<note n="157" place="bottom"><hi rend="i">D’employer</hi> : de nos jours l’infinitif serait remplacé par un gérondif « en employant ».  Phrase teintée d’ironie. </note> la menace.</l>
             <l n="219" xml:id="l219">Je ne vous diray point s’il la faut redoubler,</l>
             <l n="220" xml:id="l220">Mais mon cœur est à vous quand il pourra trembler<note n="158" place="bottom">Camma lui signifie qu’elle ne se donnera que dans la peur. Propos ironiques car c’est une manière de dire qu’aucune violence ne peut l’effrayer. </note>.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="I02-13" who="sinorix">
             <speaker>SYNORIX.</speaker>
             <l n="221" xml:id="l221">Et bien, pour me punir allez jusqu’à l’outrage,</l>
             <l n="222" xml:id="l222">Noircissez ce beau <ref target="#feu">feu*</ref> dont vous fuyez l’hommage,</l>
@@ -1270,23 +1270,23 @@
             <l n="229" xml:id="l229" part="I">Je vous laisse y penser, Madame.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I03">
           <head>SCENE III.</head>
           <stage>CAMMA, PHENICE.</stage>
-          <sp who="camma">
+          <sp xml:id="I03-1" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Ah, le perfide !</l>
             <l n="230" xml:id="l230">Il veut donc achever son lâche <ref target="#parricide">parricide*</ref>,</l>
             <l n="231" xml:id="l231">Joindre la Fille au Pere ! ô mon unique espoir<note n="162" place="bottom">Le sous-entendu de Sinorix à la fin de la scène précédente est rendu explicite par Camma.</note> ?</l>
             <l n="232" xml:id="l232">O vangeance, est-ce ainsi que tu sers mon devoir ?</l>
           </sp>
-          <sp who="phenice">
+          <sp xml:id="I03-2" who="phenice">
             <speaker>PHENICE.</speaker>
             <l n="233" xml:id="l233">Si dans vos <ref target="#deplaisir">déplaisirs*</ref> la vangeance vous <ref target="#flater2">flate*</ref>,</l>
             <l n="234" xml:id="l234">Pour en jouïr, Madame, il est temps qu’elle éclate,</l>
             <l n="235" xml:id="l235">Sinorix menaceant<note n="163" place="bottom"><hi rend="i">Sinorix menaceant</hi>  : proposition participiale formée d’un élément prédicatif (ici d’un participe présent sous-entendu puisqu’il s’agit vraisemblablement du verbe « être » ) et d’un GN support du prédicat, ici Sinorix. A une valeur causale. </note>, rien n’est à négliger.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I03-3" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="236" xml:id="l236">Quoy, tu doutes encor si je veux me vanger<note n="164" place="bottom">« (…) si je veux me vanger » : éventualité, fait conçu comme possible. On peut reformuler cette proposition par une subordonnée conjonctive « que je veuille me venger » ou par un groupe nominale « de ma vengeance ». </note> ?</l>
             <l n="237" xml:id="l237">Par le noir <ref target="#attentat">attentat*</ref> de ce Tyran infame<pb n="10" xml:id="p10"/></l>
@@ -1302,7 +1302,7 @@
             <l n="247" xml:id="l247">Et m’annonça dés lors les funestes malheurs</l>
             <l n="248" xml:id="l248">Qui <ref target="#presser3">pressent</ref> ma vangeance, et font couler mes pleurs.</l>
           </sp>
-          <sp who="phenice">
+          <sp xml:id="I03-4" who="phenice">
             <speaker>PHENICE.</speaker>
             <l n="249" xml:id="l249">Pour bien l’executer, si vous m’en voulez croire,</l>
             <l n="250" xml:id="l250">Il faut que la Princesse en partage la gloire ;</l>
@@ -1314,14 +1314,14 @@
             <l n="256" xml:id="l256">Vous fait souffrir assez pour la tirer d’erreur,</l>
             <l n="257" xml:id="l257" part="I">Vous sçavez sa <ref target="#fierte1">fierté*</ref><note n="169" place="bottom"><hi rend="i">Savoir</hi> : ici connaître. Hétérométrie avec cet hexasyllabe en fin de réplique. Cela  crée un effet de chute.</note>.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I03-5" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Dequoy qu’elle m’accuse,</l>
             <l n="258" xml:id="l258">Il n’est pas temps encor que je la <ref target="#desabuser">desabuse*</ref>,</l>
             <l n="259" xml:id="l259">Si la gloire en secret me pousse à me vanger,</l>
             <l n="260" xml:id="l260">Ce seroit l’affoiblir que de la partager.</l>
           </sp>
-          <sp who="phenice">
+          <sp xml:id="I03-6" who="phenice">
             <speaker>PHENICE.</speaker>
             <l n="261" xml:id="l261">Mais Sostrate l’aimant, peut-estre que par elle</l>
             <l n="262" xml:id="l262">Il vous seroit aisé d’en corrompre le zele<note n="170" place="bottom">Phenice est aussi dans l’erreur car elle croit, comme Sinorix,  qu’Hésione est aimée de Sostrate et qu’elle peut donc l’amadouer pour qu’il les aide à se débarrasser de Sinorix. </note>.</l>
@@ -1330,18 +1330,18 @@
             <l n="265" xml:id="l265">Il vous faut l’acquerir, et l’amour qui le <ref target="#flater2">flate*</ref></l>
             <l n="266" xml:id="l266" part="I">Le peut seul <ref target="#obliger2">obliger</ref>…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I03-7" who="camma">
             <speaker>CAMMA.</speaker>
             <pb n="11" xml:id="p11"/>
             <l part="F">Tu connois mal Sostrate,</l>
             <l n="267" xml:id="l267">Il aime, il cherche à plaire, et toutefois, helas !</l>
             <l n="268" xml:id="l268">Son cœur contre un Tyran craint d’advoüer son bras.<note n="172" place="bottom">Ce vers signifie que Sostrate a toutes les difficultés, à cause de son affection pour Sinorix, à se retourner contre celui-ci pour venger Camma. </note></l>
           </sp>
-          <sp who="phenice">
+          <sp xml:id="I03-8" who="phenice">
             <speaker>PHENICE.</speaker>
             <l n="269" xml:id="l269" part="I">Vous le sçavez, Madame ?</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I03-9" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Apprens par quelle adresse,</l>
             <l n="270" xml:id="l270"><ref target="#bruler">Brûlant*</ref> pour une Reine, il feint pour la Princesse<note n="173" place="bottom"><hi rend="i">Brûler et feindre</hi> : Vis-à vis de Camma et d’Hésione, il a, respectivement,  des sentiments à l’extrême l’un de l’autre. <space/></note>,</l>
@@ -1355,11 +1355,11 @@
             <l n="278" xml:id="l278">Qu’en me niant ce crime il veut que je le croye<note n="174" place="bottom"><hi rend="i">Le</hi> : croire Sostrate et donc conséquemment Sinorix.</note>,</l>
             <l n="279" xml:id="l279">On penetre aisément dans le cœur des Amants.</l>
           </sp>
-          <sp who="phenice">
+          <sp xml:id="I03-10" who="phenice">
             <speaker>PHENICE.</speaker>
             <l n="280" xml:id="l280">Mais, Madame, pour luy quels sont vos sentiments ?</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I03-11" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="281" xml:id="l281">Te parler sans <ref target="#aigreur">aigreur*</ref> de l’ardeur qui le <ref target="#presser3">presse</ref>,</l>
             <l n="282" xml:id="l282">Phenice, n’est ce pas t’advoüer ma foiblesse,</l>
@@ -1387,10 +1387,10 @@
             <l n="304" xml:id="l304">La Princesse abusée a creu… mais la voicy.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I04">
           <head>SCENE IV.</head>
           <stage>CAMMA, HESIONE, PHENICE.</stage>
-          <sp who="hesione">
+          <sp xml:id="I04-1" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="305" xml:id="l305">Madame, je ne sçay si dans ce qui se passe</l>
             <l n="306" xml:id="l306">De mes ressentimens vous approuvez l’audace,</l>
@@ -1398,37 +1398,37 @@
             <l n="308" xml:id="l308">N’a rien pour Sinorix qui contraigne vos <ref target="#voeu">vœux*</ref>.</l>
             <l n="309" xml:id="l309" part="I">Il tâche à les seduire, et le Trône…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I04-2" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Ouy, Princesse,</l>
             <l n="310" xml:id="l310">Mais qu’ils cedent ou non, que ce scrupule cesse,</l>
             <l n="311" xml:id="l311">L’<ref target="#injure">injure*</ref> qu’on vous fait et qu’il faut reparer,</l>
             <l n="312" xml:id="l312">A leur ambition n’a rien à <ref target="#deferer">déferer*</ref>.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="I04-3" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="313" xml:id="l313">Un zéle dont l’ardeur me sera tousjours chere,</l>
             <l n="314" xml:id="l314">M’<ref target="#obliger2">oblige</ref> à respecter la Vefve de mon Pere,</l>
             <l n="315" xml:id="l315">Et je ne croirois pas y répondre assez bien<pb n="B;13"/></l>
             <l n="316" xml:id="l316">Si sur vostre interest je ne reglois le mien.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I04-4" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="317" xml:id="l317">Donc si j’ose accepter l’offre d’une Couronne,</l>
             <l n="318" xml:id="l318">Ce zéle <ref target="#genereux1">genereux*</ref> soudain me l’abandonne<note n="178" place="bottom">Camma, par cette question, est ironique car elle ne pense pas qu’Hésione fasse tout cela dans un but désintéressé. </note> ? </l>
             <l n="319" xml:id="l319">Sans vouloir rien pretendre, il m’en cede l’espoir ?</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="I04-5" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="320" xml:id="l320">Pour m’y resoudre au moins je voudrois le sçavoir.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I04-6" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="321" xml:id="l321">Si ma façon d’agir vous l’a fait mal comprendre,</l>
             <l n="322" xml:id="l322">Par de plus grands effets il faudra vous l’apprendre,</l>
             <l n="323" xml:id="l323">D’un doute trop cruel vostre esprit est atteint.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="I04-7" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="324" xml:id="l324">Je sçay que Sinorix vous accuse, et se plaint ;</l>
             <l n="325" xml:id="l325">Mais souvent le dehors n’est qu’une adroite feinte,</l>
@@ -1436,11 +1436,11 @@
             <l n="327" xml:id="l327">Et cet amusement des credules esprits</l>
             <l n="328" xml:id="l328">Fait subsister l’espoir au milieu des mépris<note n="180" place="bottom">Hésione, malgré sa déférence du début,  critique l’attitude de Camma et sous-entend qu’en agissant de la sorte c’est-à-dire en « jouant » le dépit amoureux, elle donne de l’espoir à Sinorix. Pour Hésione, ce n’est qu’une parade car en repoussant les avances de Sinorix, elle n’étouffe pas tous ses espoirs. </note>.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I04-8" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="329" xml:id="l329">A d’étranges soupçons le <ref target="#chagrin">chagrin*</ref> vous expose.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="I04-9" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="330" xml:id="l330">Je veux bien l’advoüer, Sostrate en est la cause,</l>
             <l n="331" xml:id="l331">Il vous voit si souvent que comme il m’ose aimer,</l>
@@ -1449,49 +1449,49 @@
             <l n="334" xml:id="l334">Que mon cœur luy seroit une conqueste aisée,</l>
             <l n="335" xml:id="l335">Et c’est à quoy sans doute il tâche à vous porter ?</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I04-10" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="336" xml:id="l336">Il en a l’ordre au moins s’il veut l’executer.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="I04-11" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="337" xml:id="l337" part="I">Qui l’en empescheroit ?</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I04-12" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Ma volonté peut-estre,</l>
             <l n="338" xml:id="l338">Ou quelque autre raison que l’on ne peut connoître.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="I04-13" who="hesione">
             <speaker>HESIONE.</speaker>
             <pb n="14" xml:id="p14"/>
             <l n="339" xml:id="l339">Mais vous l’auriez <ref target="#souffrir">souffert*</ref> un peu plus rarement.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I04-14" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="340" xml:id="l340">Je n’ay pas crû devoir en user autrement<note n="181" place="bottom">Le « l’ « du vers précédent et le « en »  du vers suivant réfèrent à la « volonté ». </note>.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="I04-15" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="341" xml:id="l341">Quand on ne pretend rien on doit peu se contraindre.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I04-16" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="342" xml:id="l342">Il est bon quelquefois de se <ref target="#forcer2">forcer*</ref> à feindre<note n="182" place="bottom">Phrase à entendre à deux niveaux : pour Camma, la « feinte » c’est la ruse ; en d’autres termes, c’est un bon moyen pour se venger car l’effet de surprise est optimum dans la mesure où les buts véritables de toute action sont dissimulés jusqu’à la fin. Tandis que pour Hésione la  « feinte » est synonyme d’hypocrisie, de malhonnêté (cf. vers suivant).  </note>.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="I04-17" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="343" xml:id="l343">C’est pour une grande ame un sentiment trop bas.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I04-18" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="344" xml:id="l344">Ouy, mais j’ay des secrets qu’on ne penetre pas.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="I04-19" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="345" xml:id="l345">Je n’ay pas merité d’en sçavoir le mystere.<note n="183" place="bottom">Dans l’édition originale, c’est le point comme signe de ponctuation qui a été privilégié alors qu’on peut entendre cette phrase comme une interrogation. On  peut  conserver ce signe car il s’agit d’une question rhétorique, c’est-à-dire d’une question qui n’attend pas de réponse. </note></l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="I04-20" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="346" xml:id="l346">Vous en usez si mal que j’ay lieu de me taire,</l>
             <l n="347" xml:id="l347">Mais enfin je pardonne à l’<ref target="#aigreur">aigreur*</ref> où vous met</l>
@@ -1502,17 +1502,17 @@
             <l n="352" xml:id="l352">Des moyens les plus seurs de bien l’executer.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I05">
           <pb n="15" xml:id="p15"/>
           <head>SCENE V.</head>
           <stage>HESIONE, SOSTRATE.</stage>
-          <sp who="hesione">
+          <sp xml:id="I05-1" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="353" xml:id="l353">Viens, Sostrate, il est temps que je t’ouvre mon ame</l>
             <l n="354" xml:id="l354">Sur<note n="184" place="bottom"><hi rend="i">Sur</hi> : sens plus étendu qu’aujourd’hui. Ici s’emploie à la place de « au sujet de, relativement à ».</note> l’espoir dont enfin tu peux <ref target="#flater1">flater*</ref> ta <ref target="#flame">flame*</ref>.</l>
             <l n="355" xml:id="l355">Tes <ref target="#soins1">soins*</ref> de mon orgueil en poursuivent l’<ref target="#adveu3">adveu*</ref> ?<note n="185" place="bottom">Hésione s’interroge. Est-ce que les attentions de Sostrate à son égard ne cherchent pas à lui faire avouer sa flame ?</note></l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="I05-2" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="356" xml:id="l356">Madame, le respect accompagne mon <ref target="#feu">feu*</ref>,</l>
             <l n="357" xml:id="l357">Sinorix jusqu’à vous en a porté l’audace,</l>
@@ -1520,7 +1520,7 @@
             <l n="359" xml:id="l359">Vous me pouvez toûjours défendre d’esperer,</l>
             <l n="360" xml:id="l360">Sans que mon cœur jamais en ose murmurer.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="I05-3" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="361" xml:id="l361">Tu me l’as fait paroistre, et j’aurois lieu sans doute</l>
             <l n="362" xml:id="l362">D’admirer les <ref target="#effort2">efforts*</ref> que ton respect te coûte,</l>
@@ -1528,12 +1528,12 @@
             <l n="364" xml:id="l364">Ne laissoit contre moy séduire ta vertu<note n="186" place="bottom"><hi rend="i">Ne pas laisser séduire ta vertu contre moi</hi> : Ce tour, très littéraire, est de nos jours très peu utilisé. Il faut comprendre cette phrase comme  « séduire malgré tout ta vertu contre moi ». Le système hypothétique marque la perplexité d’Hésione car elle considère que l’amour de Sostrate envers elle est trompeur car son but premier est de servir son maître. </note>.</l>
             <l n="365" xml:id="l365"> Ta <ref target="#foy1">foy*</ref> pour Sinorix cherche à gagner la Reine ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="I05-4" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="366" xml:id="l366">Vers toute autre ce <ref target="#soins2">soin*</ref> pourroit vous mettre en peine,</l>
             <l n="367" xml:id="l367" part="I">Mais tant de <ref target="#fier1">fiers*</ref> mépris…</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="I05-5" who="hesione">
             <speaker>HESIONE.</speaker>
             <l part="F">Ne les vante point tant,</l>
             <l n="368" xml:id="l368">J’en connoy l’<ref target="#artifice">artifice*</ref>, et voy ce qu’elle attend.</l>
@@ -1546,13 +1546,13 @@
             <l n="375" xml:id="l375">Et d’oser présumer qu’un cœur comme le mien</l>
             <l n="376" xml:id="l376">Par mon hymen jamais authorise le sien.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="I05-6" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="377" xml:id="l377">Il est juste, Madame, et l’ardeur de vous plaire</l>
             <l n="378" xml:id="l378">N’enfle pas mes desirs d’un orgueil temeraire,</l>
             <l n="379" xml:id="l379">Jusqu’à pretendre enfin qu’elle aura le pouvoir…</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="I05-7" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="380" xml:id="l380">Va, c’est un peu trop tost renoncer à l’espoir ;</l>
             <l n="381" xml:id="l381">Non que par cet <ref target="#adveu1">adveu*</ref> que tu n’osois attendre,</l>
@@ -1576,11 +1576,11 @@
             <l n="399" xml:id="l399">Ou du <ref target="#feu">feu*</ref> qui te <ref target="#bruler">brûle*</ref> écoute moins l’<ref target="#appas1">appas*</ref>,</l>
             <l n="400" xml:id="l400">Ou ne m’offre ton cœur qu’en suite de ton bras.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="I05-8" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="401" xml:id="l401" part="I">Quoy…</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="I05-9" who="hesione">
             <speaker>HESIONE.</speaker>
             <l part="F">Ne réplique point ; quand ce grand coup t’<ref target="#estonner1">étonne*</ref>,</l>
             <l n="402" xml:id="l402">Voy que je suis ta Reine, et que je te l’ordonne,</l>
@@ -1588,7 +1588,7 @@
             <l n="404" xml:id="l404">Ne me le fais sçavoir qu’en ne me voyant plus.</l>
             <l n="405" xml:id="l405" part="I">C’en sera l’asseurance*, adieu.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="I05-10" who="sostrate">
             <speaker>SOSTRATE <hi rend="i">seul.</hi></speaker>
             <l part="F">Que fuir ta veuë</l>
             <l n="406" xml:id="l406">N’est-ce tout le peril d’un ordre qui me tuë !<note n="189" place="bottom"><hi rend="i">Que</hi> : cet adverbe interro-exclamatif signifie « le fait de ». De plus, la négation « n’ « est un « ne » explétif c’est-à-dire qu’il ne conserve qu’une trace ténue de cette valeur négative. Sa présence n’est donc pas indispensable. </note></l>
@@ -1598,13 +1598,13 @@
           <label>Fin du premier Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="II" type="act">
         <pb n="18" xml:id="p18"/>
         <head>ACTE II</head>
-        <div type="scene">
+        <div type="scene" xml:id="II01">
           <head>SCENE PREMIERE.</head>
           <stage>SINORIX, HESIONE, PHAEDIME.</stage>
-          <sp who="sinorix">
+          <sp xml:id="II01-1" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="409" xml:id="l409">Je vous le dis encor<note n="190" place="bottom"><hi rend="i">Je vous le dis encor</hi> : une première entrevue a dû avoir lieu entre les deux protagonistes pendant l’entracte. </note>, c’est à vous de resoudre.</l>
             <l n="410" xml:id="l410">Il est en vostre choix de repousser la <ref target="#foudre">foudre*</ref>,</l>
@@ -1615,7 +1615,7 @@
             <l n="415" xml:id="l415">Je sçay ce que je dois à ses <ref target="#feu">feux*</ref> méprisez</l>
             <l n="416" xml:id="l416">Au defaut de l’<ref target="#adveu1">adveu*</ref> que vous luy refusez.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="II01-2" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="417" xml:id="l417">Certes, jusques icy l’exemple est assez rare</l>
             <l n="418" xml:id="l418">Que contre l’injustice un Tyran se declare<note n="193" place="bottom">Ironie acerbe d’Hésione : rare pour un « tyran » de se lever contre l’injustice car c’est lui qui habituellement la commet. </note>.</l>
@@ -1634,7 +1634,7 @@
             <l n="431" xml:id="l431">Alors tu connoistras s’il faut me reprocher</l>
             <l n="432" xml:id="l432">Que l’amour d’un Heros ne puisse me toucher.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="II01-3" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="433" xml:id="l433">Cessez de vous <ref target="#flater5">flater*</ref> d’un droit imaginaire</l>
             <l n="434" xml:id="l434">Qui vous laisse pretendre à la grandeur d’un Pere,</l>
@@ -1661,7 +1661,7 @@
             <l n="455" xml:id="l455">Et c’est un peu trop loin en pousser la rigueur</l>
             <l n="456" xml:id="l456">Que vouloir sur le Trône assujettir mon cœur.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="II01-4" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="457" xml:id="l457">Moy, que par une lâche et honteuse foiblesse<pb n="20" xml:id="p20"/></l>
             <l n="458" xml:id="l458">Je cherche de ton cœur à me rendre Maistresse ?</l>
@@ -1676,7 +1676,7 @@
             <l n="467" xml:id="l467">Et d’un rang où t’éleve un indigne <ref target="#attentat">attentat*</ref>,</l>
             <l n="468" xml:id="l468">Prendre sur moy la honte, et t’asseurer l’éclat.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="II01-5" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="469" xml:id="l469">Rejettez-la, Madame, et sauvez vostre gloire</l>
             <l n="470" xml:id="l470">Du peril odieux d’une tache si noire<note n="203" place="bottom">Ironie, fausse magnanimité de la part de Sinorix. </note> ;</l>
@@ -1695,7 +1695,7 @@
             <l n="483" xml:id="l483">Et si toûjours Sostrate est par vous outragé,</l>
             <l n="484" xml:id="l484">Ne pouvant estre heureux, il peut estre vangé.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="II01-6" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="485" xml:id="l485">Va, ne croy pas qu’icy son interest m’abuse,</l>
             <l n="486" xml:id="l486">D’un faux zele pour luy je vois l’indigne ruse,</l>
@@ -1714,7 +1714,7 @@
             <l n="499" xml:id="l499">Et tous mes <ref target="#deplaisir">déplaisirs*</ref> semblent s’évanoüir</l>
             <l n="500" xml:id="l500">Quand tu fais un parjure, et n’en sçaurois jouïr.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="II01-7" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="501" xml:id="l501">J’en jouïrai, Madame, et puisque vostre audace</l>
             <l n="502" xml:id="l502">Ose <ref target="#presser3">presser</ref> l’effet d’une juste menace,</l>
@@ -1722,7 +1722,7 @@
             <l n="504" xml:id="l504">A trouver les moyens de nuire à mon amour,</l>
             <l n="505" xml:id="l505" part="I">L’Arrest en est donné.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="II01-8" who="hesione">
             <speaker>HESIONE.</speaker>
             <l part="F">Fay donc qu’on l’execute.</l>
             <l n="506" xml:id="l506">C’est par là que les Dieux ont resolu ta cheute,</l>
@@ -1734,17 +1734,17 @@
             <l n="512" xml:id="l512">Je vay faire des vœux afin de les haster.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II02">
           <pb n="22" xml:id="p22"/>
           <head>SCENE II.</head>
           <stage>SINORIX, PHAEDIME.</stage>
-          <sp who="phaedime">
+          <sp xml:id="II02-1" who="phaedime">
             <speaker>PHAEDIME.</speaker>
             <l n="513" xml:id="l513">Je l’avois bien preveu, Seigneur, que la menace,</l>
             <l n="514" xml:id="l514">Loin d’<ref target="#estonner1">étonner*</ref> sa haine, <ref target="#aigreur">aigriroit*</ref> son audace,</l>
             <l n="515" xml:id="l515">Il falloit sans la voir en venir aux effets.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="II02-2" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="516" xml:id="l516">Ah, laisse moy trembler du dessein que je fais,</l>
             <l n="517" xml:id="l517">Et <ref target="#souffrir-a">souffre à*</ref> ma vertu, que mon amour opprime,</l>
@@ -1769,18 +1769,18 @@
             <l n="536" xml:id="l536">S’il faut cesser d’aimer  pour cesser de souffrir<note n="216" place="bottom">« Et qu’il n’est point de maux… pour cesser de souffrir » : Il n’est pas prêt à supporter de fortes douleurs pour arrêter d’aimer, même si cela fait cesser la souffrance de ne pas être aimé en retour. </note>.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II03">
           <pb n="23" xml:id="p23"/>
           <head>SCENE III.</head>
           <stage>SINORIX, SOSTRATE, PHAEDIME.</stage>
-          <sp who="sinorix">
+          <sp xml:id="II03-1" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="537" xml:id="l537">Et bien ? as-tu, Sostrate, entretenu la Reine ?</l>
             <l n="538" xml:id="l538">La Princesse toûjours régle-t’elle sa haine,</l>
             <l n="539" xml:id="l539">Et sur ses interests son indigne rigueur<note n="217" place="bottom"><hi rend="i">Sa haine</hi> : il s’agit ici de la haine de Camma. Pour Sinorix, Hésione est responsable des refus de Camma. <hi rend="i">Ses interests</hi> : il s’agit des interêts d’Hésione. </note></l>
             <l n="540" xml:id="l540">S’obstine-t’elle encor au refus de mon cœur ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="II03-2" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="541" xml:id="l541">Si vostre amour du temps n’attend quelque miracle,</l>
             <l n="542" xml:id="l542">En vain de son orgueil il croit vaincre l’obstacle<note n="218" place="bottom">En français classique, le verbe de la principale dans une proposition subordonnée hypothétique est au présent, alors qu’en Français moderne, si le verbe de la subordonnée est au présent, le verbe de la principale est au futur. Sostrate lui avoue que ce n’est qu’avec le temps que Sinorix pourra espérer vaincre l’orgueil et l’amour-propre de Camma.</note>.</l>
@@ -1791,7 +1791,7 @@
             <l n="547" xml:id="l547">Vostre pouvoir est grand, mais pour <ref target="#forcer2">forcer*</ref> sa <ref target="#foy3">foy*</ref>,</l>
             <l n="548" xml:id="l548">Il n’étend point vos droits sur la Vefve d’un Roy.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="II03-3" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="549" xml:id="l549">Ouy, Sostrate, elle peut me dédaigner sans craindre</l>
             <l n="550" xml:id="l550">Que mon amour s’emporte à la vouloir contraindre.</l>
@@ -1802,12 +1802,12 @@
             <l n="555" xml:id="l555">Et te vanger des maux où t’a précipité</l>
             <l n="556" xml:id="l556">L’inutile secours que ton <ref target="#feu">feu*</ref> m’a presté.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="II03-4" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="557" xml:id="l557">Quoy, contre la Princesse armer vostre colere ?<pb n="24" xml:id="p24"/></l>
             <l n="558" xml:id="l558" part="I">Ah, Seigneur, songez-vous…</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="II03-5" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l part="F">L’arrest t’en doit déplaire,</l>
             <l n="559" xml:id="l559">Tu l’aimes, je le sçais, et ton amour soûmis</l>
@@ -1815,27 +1815,27 @@
             <l n="561" xml:id="l561">Garde ces sentiments, tandis que ma vangeance</l>
             <l n="562" xml:id="l562" part="I"><ref target="#presser4">Pressant</ref>…</l>
           </sp>
-          <sp who="phaedime">
+          <sp xml:id="II03-6" who="phaedime">
             <speaker>PHAEDIME.</speaker>
             <l part="F">Voyez, Seigneur, que la Reine s’advance.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="II03-7" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="563" xml:id="l563">La Reine vient icy ! qu’en dois-je présumer ?</l>
             <l n="564" xml:id="l564">Dieux, rendez-la <ref target="#flexible">flexible*</ref>, ou m’empeschez d’aimer.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II04">
           <head>SCENE IV.</head>
           <stage>SINORIX, CAMMA, SOSTRATE, PHAEDIME.</stage>
-          <sp who="sinorix">
+          <sp xml:id="II04-1" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="565" xml:id="l565">Madame, quel dessein en ce lieu vous amene ?</l>
             <l n="566" xml:id="l566">Y venez-vous chercher à jouïr de ma peine,</l>
             <l n="567" xml:id="l567">Et dans le desespoir où vous m’avez reduit,</l>
             <l n="568" xml:id="l568">Par ce <ref target="#triste">triste*</ref> spectacle en goûter mieux le fruit ?</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="II04-2" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="569" xml:id="l569">Je veux bien l’advoüer, vous m’aviez sçeu contraindre</l>
             <l n="570" xml:id="l570">A croire en vous ce <ref target="#feu">feu*</ref> dont je vous oyais plaindre<note n="220" place="bottom"><hi rend="i">Var. 1692</hi> : A croire en vous ce feu dont vous osez vous plaindre ; </note>,</l>
@@ -1854,7 +1854,7 @@
             <l n="583" xml:id="l583">Nous verrons qui des deux en fera plus juger<note n="222" place="bottom"><hi rend="i">En fera plus juger</hi>  : sera jugé par le plus grand nombre. Ici, « juger » est pris dans un sens négatif.</note>,</l>
             <l n="584" xml:id="l584">Ou vous pour la punir, ou moy pour la vanger.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="II04-3" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="585" xml:id="l585">Ce dessein de vangeance est l’effet d’un beau zele,</l>
             <l n="586" xml:id="l586">Mais vous <ref target="#repondre">répondez-vous*</ref> qu’il fasse assez pour elle,</l>
@@ -1869,7 +1869,7 @@
             <l n="595" xml:id="l595">Et ce sera pour vous un genre de forfait</l>
             <l n="596" xml:id="l596">D’avoir pû l’empescher, et ne l’avoir pas fait.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="II04-4" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="597" xml:id="l597">Et bien, sans respecter le sang qui la fit naistre</l>
             <l n="598" xml:id="l598">Commence enfin, Tyran, à te faire connoistre,</l>
@@ -1884,7 +1884,7 @@
             <l n="607" xml:id="l607">Et que contre ses vœux, la plus <ref target="#presser2">pressante*</ref> loy</l>
             <l n="608" xml:id="l608">Ne sçauroit le reduire à disposer de soy.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="II04-5" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="609" xml:id="l609">Dans les cruels mépris qui troublent ma constance</l>
             <l n="610" xml:id="l610">Le refus que j’ay fait d’user de violence</l>
@@ -1895,24 +1895,24 @@
             <l n="615" xml:id="l615">Nos desirs sont sa regle, et contraint d’obeïr,</l>
             <l n="616" xml:id="l616">Il prend d’eux le panchant d’aimer ou de haïr.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="II04-6" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="617" xml:id="l617">Si ce <ref target="#divers">divers*</ref> panchant est un droit qu’il nous laisse,</l>
             <l n="618" xml:id="l618">Tâche de m’en convaincre en aimant la Princesse,</l>
             <l n="619" xml:id="l619">Et puisque ton amour se soûmet à ton choix</l>
             <l n="620" xml:id="l620">Dispose en sa faveur d’un cœur que tu luy dois,</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="II04-7" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="621" xml:id="l621">Me contraindre à l’aimer ! et vostre erreur est telle…    </l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="II04-8" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="622" xml:id="l622">Quoy ? puis-je plus pour toy que tu ne peux pour elle,</l>
             <l n="623" xml:id="l623">Et ce penible <ref target="#effort2">effort*</ref> où ton cœur ne peut rien,</l>
             <l n="624" xml:id="l624">Suis-je plus en pouvoir de l’obtenir du mien ?</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="II04-9" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="625" xml:id="l625">Ouy, Madame, et ce cœur ne pourroit se défendre</l>
             <l n="626" xml:id="l626">Des <ref target="#soins1">soins*</ref> qu’à la Princesse il refuse de rendre,</l>
@@ -1944,10 +1944,10 @@
             <l n="652" xml:id="l652">Si tost que sa réponse aura reglé mon sort.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II05">
           <head>SCENE V.</head>
           <stage>CAMMA, SOSTRATE.</stage>
-          <sp who="camma">
+          <sp xml:id="II05-1" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="653" xml:id="l653">Ton silence, Sostrate, a droit de me <ref target="#confondre1">confondre*</ref>,</l>
             <l n="654" xml:id="l654">Sinorix a parlé, c’est à toy de répondre,</l>
@@ -1962,7 +1962,7 @@
             <l n="663" xml:id="l663">Et je m’appreste en vain à couronner ton <ref target="#feu">feu*</ref></l>
             <l n="664" xml:id="l664">Si Sinatus vangé ne m’en donne l’<ref target="#adveu1">adveu*</ref>.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="II05-2" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="665" xml:id="l665">Madame, il est aisé par mon desordre extrême</l>
             <l n="666" xml:id="l666">De juger des combats que je rends en moy-mesme,</l>
@@ -1981,7 +1981,7 @@
             <l n="679" xml:id="l679">Et si j’ose sur luy porter de lâches coups,</l>
             <l n="680" xml:id="l680">Me soüiller de son sang, suis-je digne de vous ?</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="II05-3" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="681" xml:id="l681">Ouy, tu l’es, puisqu’enfin c’est en servant ma haine</l>
             <l n="682" xml:id="l682">Que tu peux égaler le destin d’une Reine,</l>
@@ -1996,14 +1996,14 @@
             <l n="691" xml:id="l691">Mais s’il le dédaignait, pourquoy te déguiser<note n="237" place="bottom"><hi rend="i">Il</hi> : ce pronom désigne le « courage ». La variante de 1692 «  Qui peut-estre jamais n’a touché ton courage. / Si tu le dédaignois, pourquoy te déguiser, » permet d’éclaircir le sens. </note>,</l>
             <l n="692" xml:id="l692">Et differer tousjours à me <ref target="#desabuser">desabuser*</ref> ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="II05-4" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="693" xml:id="l693">J’ay promis, il est vray, c’est ce qui fait ma peine,</l>
             <l n="694" xml:id="l694">Mais j’ay crû que l’amour fléchiroit vostre haine,</l>
             <l n="695" xml:id="l695">Et que pour en calmer les transports éclatants</l>
             <l n="696" xml:id="l696">Il falloit seulement avoir recours au temps.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="II05-5" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="697" xml:id="l697">Dy plustost qu’alarmé de l’amour de ton Maistre</l>
             <l n="698" xml:id="l698">Ton <ref target="#feu">feu*</ref> desesperoit d’oser jamais paroistre,</l>
@@ -2030,18 +2030,18 @@
             <l n="719" xml:id="l719">Et que je plains en toy, si ton <ref target="#feu">feu*</ref> l’entreprend,</l>
             <l n="720" xml:id="l720">L’inutile <ref target="#vertu2">vertu*</ref> que cet espoir te rend.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="II05-6" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="721" xml:id="l721" part="I">Ah ! que me dites-vous ?<pb n="30" xml:id="p30"/></l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="II05-7" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Ce que je te dois dire,</l>
             <l n="722" xml:id="l722">Que jamais sur ton cœur la gloire n’eut d’empire,</l>
             <l n="723" xml:id="l723">Et qu’un lâche interest qu’il vient de mettre au jour</l>
             <l n="724" xml:id="l724">Le rend traître ou fidelle au gré de ton amour.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="II05-8" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="725" xml:id="l725">Et bien, pour épargner ce soupçon à ma gloire,</l>
             <l n="726" xml:id="l726">Il faut oser icy ce qu’on ne pourra croire,</l>
@@ -2080,7 +2080,7 @@
             <l n="759" xml:id="l759">Et si j’ay merité qu’on m’accuse en ce jour</l>
             <l n="760" xml:id="l760">D’estre traistre ou fidelle au gré de mon amour<note n="243" place="bottom">Echo volontaire du vers 736. </note>.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="II05-9" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="761" xml:id="l761">Le rare et seur moyen d’<ref target="#eblouir">ébloüir*</ref> ma vangeance !</l>
             <l n="762" xml:id="l762">Les maux que tu te fais ne sont qu’en apparence,</l>
@@ -2091,11 +2091,11 @@
             <l n="767" xml:id="l767">Et laisser sa vangeance à decider au Sort<note n="244" place="bottom">Ce vers signifie : « laisser le soin au Destin de décider de la vengeance de Sinatus ». </note>,</l>
             <l n="768" xml:id="l768">N’est-ce pas devenir complice de sa mort ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="II05-10" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="769" xml:id="l769">Tousjours sur cette mort vous croyez vostre haine<note n="245" place="bottom">Pour Sostrate, la mort de Sinatus ne vaut pas que Camma veuille se venger. Il cache la vérité puiqu’il sait que Sinorix a empoisonné Sinatus (I, 1). </note>.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="II05-11" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="770" xml:id="l770">Non, non, le crime est seur et l’<ref target="#injure">injure*</ref> certaine,</l>
             <l n="771" xml:id="l771">Sinatus, mais trop tard, connut la trahison,</l>
@@ -2106,35 +2106,35 @@
             <l n="776" xml:id="l776">A trahir la Princesse, et <ref target="#soupirer">soûpirer pour*</ref> moy<note n="247" place="bottom"><hi rend="i">Var. 1692</hi> : Quand quittant la Princesse, il soûpire pour moy. </note>.</l>
             <l n="777" xml:id="l777">J’en sçay trop, et ton zéle en vain le justifie.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="II05-12" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="778" xml:id="l778">L’apparence souvent abuse qui s’y fie,</l>
             <l n="779" xml:id="l779">Et contre Sinorix c’est un faible garand</l>
             <l n="780" xml:id="l780">Que d’avoir seulement le soupçon d’un mourant.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="II05-13" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="781" xml:id="l781">Va, si l’indice est foible, ose pour sa défence<pb n="32" xml:id="p32"/></l>
             <l n="782" xml:id="l782">Me répondre qu’en luy j’outrage l’innocence,</l>
             <l n="783" xml:id="l783">Je t’en veux croire seul, mais aussi souviens-toy</l>
             <l n="784" xml:id="l784">Que s’il n’est point coupable, il est digne de moy.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="II05-14" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="785" xml:id="l785">Ah, c’est pousser trop loin un <ref target="#effort2">effort*</ref> magnanime,</l>
             <l n="786" xml:id="l786">Vous luy rendrez justice à le croire sans crime,</l>
             <l n="787" xml:id="l787" part="I">Mais…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="II05-15" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Mais tes vœux ardents à luy sauver le <ref target="#jour3">jour</ref></l>
             <l n="788" xml:id="l788">Languiront si je songe à payer son amour ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="II05-16" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="789" xml:id="l789" part="I">Madame…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="II05-17" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Il me suffit ; puisque c’est te déplaire</l>
             <l n="790" xml:id="l790">Porte luy ma réponce, et dy luy qu’il espere,</l>
@@ -2144,20 +2144,20 @@
           <label>Fin du second Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="III" type="act">
         <pb n="33" xml:id="p33"/>
         <head>ACTE III.</head>
-        <div type="scene">
+        <div type="scene" xml:id="III01">
           <head>SCENE PREMIERE.</head>
           <stage>SINORIX, PHAEDIME.</stage>
-          <sp who="phaedime">
+          <sp xml:id="III01-1" who="phaedime">
             <speaker>PHAEDIME.</speaker>
             <l n="793" xml:id="l793">Ce changement, Seigneur, n’offre rien qui m’<ref target="#estonner1">étonne*</ref>,</l>
             <l n="794" xml:id="l794">Je connois ce que peut l’éclat d’une Couronne,</l>
             <l n="795" xml:id="l795">Et n’ay jamais douté, malgré son feint couroux,</l>
             <l n="796" xml:id="l796">Que la Reine en secret ne fist des <ref target="#voeu">vœux*</ref> pour vous.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III01-2" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="797" xml:id="l797">Quoy qu’encore contre moy quelque interest <ref target="#combatre">combate*</ref>,</l>
             <l n="798" xml:id="l798">Elle m’a confirmé le rapport de Sostrate,</l>
@@ -2165,19 +2165,19 @@
             <l n="800" xml:id="l800">Mais il faut que le temps aide à me rendre heureux,</l>
             <l n="801" xml:id="l801">J’ay voulu luy ceder pour montrer plus de <ref target="#zele">zéle*</ref>.</l>
           </sp>
-          <sp who="phaedime">
+          <sp xml:id="III01-3" who="phaedime">
             <speaker>PHAEDIME.</speaker>
             <l n="802" xml:id="l802">Non, non, <ref target="#presser1">pressez*</ref>, Seigneur, vous obtiendrez tout d’elle,</l>
             <l n="803" xml:id="l803">Déja son <ref target="#fier2">fier*</ref> devoir voudroit estre forcé.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III01-4" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="804" xml:id="l804">D’un <ref target="#scrupule">scrupule*</ref> de gloire il est embarassé.</l>
             <l n="805" xml:id="l805">Aprés ses longs refus, un peu de bienseance<pb n="34"/></l>
             <l n="806" xml:id="l806">Doit l’<ref target="#obliger2">obliger</ref> encor à quelque resistance<note n="248" place="bottom">« Aprés ses longs refus… resistance » : la notion de bienséance ici rend compte du concept de « bien-agir » et de « bien-penser » de la tragédie classique. En effet, Camma ne peut pas céder tout de suite aux avances de Sinorix dans la mesure où cela ne serait pas conforme aux exigences de l’époque. </note>,</l>
             <l n="807" xml:id="l807">C’est ce qu’à mon amour elle vient d’opposer.</l>
           </sp>
-          <sp who="phaedime">
+          <sp xml:id="III01-5" who="phaedime">
             <speaker>PHAEDIME.</speaker>
             <l n="808" xml:id="l808">Sur un <ref target="#adveu1">adveu*</ref> si doux vous pouvez tout oser,</l>
             <l n="809" xml:id="l809">Menacez, contraignez, rien ne luy peut déplaire.</l>
@@ -2185,7 +2185,7 @@
             <l n="811" xml:id="l811">Tout vous rit, tout vous <ref target="#flater2">flate*</ref>, et cependant, Seigneur,</l>
             <l n="812" xml:id="l812">Je voy qu’un noir <ref target="#chagrin">chagrin*</ref> trouble vostre bonheur.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III01-6" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="813" xml:id="l813">Ouy, Phaedime, et mon ame <ref target="#estonner1">étonnée*</ref>, <ref target="#interdit">interdite*</ref>,</l>
             <l n="814" xml:id="l814">Se veut en vain soustraire à l’horreur<note n="249" place="bottom"><hi rend="i">Horreur</hi> : ce mot conserve toute sa force étymologique (Horror : hérissement). Voir le rêve d’Athalie dans <hi rend="i">Athalie</hi> de Jean Racine, II, 5, vers 490 : « C’était pendant l’horreur d’une profonde nuit » (<hi rend="i">Racine, Œuvres Complètes</hi>, éd. G. Forestier, Paris, Gallimard, 1999, Bibliothèque de la Pléiade).</note> qui l’agite.</l>
@@ -2216,7 +2216,7 @@
             <l n="839" xml:id="l839">Et sans cesse agitant mon esprit incertain</l>
             <l n="840" xml:id="l840">Me montre un bras levé pour me percer le sein<note n="254" place="bottom">Hallucination qui laisse présager une mort certaine pour Sinorix mais l’article indéfini « un » dans « un bras levé » jette un doute sur l’identité du meurtrier. </note>.</l>
           </sp>
-          <sp who="phaedime">
+          <sp xml:id="III01-7" who="phaedime">
             <speaker>PHAEDIME.</speaker>
             <l n="841" xml:id="l841">De ces vaines frayeurs il vaut mieux vous defendre,</l>
             <l n="842" xml:id="l842">Seigneur, qui contre vous oseroit entreprendre<note n="255" place="bottom">Face aux visions de Sinorix, Phaedime laisse libre cours à une logique raisonnée. </note> ?</l>
@@ -2227,17 +2227,17 @@
             <l n="847" xml:id="l847">Et tout ce grand éclat où l’<ref target="#enhardir">enhardit*</ref> son rang</l>
             <l n="848" xml:id="l848">Aspire à vostre main, et non à vostre sang.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III01-8" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="849" xml:id="l849">Mais puisqu’elle sçaura que j’ay fléchy la Reine,</l>
             <l n="850" xml:id="l850">Que ne permettra-t’elle aux transports de sa haine ?</l>
             <l n="851" xml:id="l851">Déjà, déjà peut-estre elle en sçait le secret.</l>
           </sp>
-          <sp who="phaedime">
+          <sp xml:id="III01-9" who="phaedime">
             <speaker>PHAEDIME.</speaker>
             <l n="852" xml:id="l852">Quoy, Sostrate, Seigneur, seroit si peu discret ?</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III01-10" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="853" xml:id="l853">Comme j’aime Sostrate à l’égal de moy-mesme</l>
             <l n="854" xml:id="l854">Je sçay bien que pour moy sa tendresse est extréme,</l>
@@ -2251,14 +2251,15 @@
             <l n="862" xml:id="l862">Que long-temps dans sa rage un grand cœur se contraigne,</l>
             <l n="863" xml:id="l863">Fais agir ton adresse à lire dans le sien.</l>
           </sp>
-          <sp who="phaedime">
+          <sp xml:id="III01-11" who="phaedime">
             <speaker>PHAEDIME.</speaker>
             <l n="864" xml:id="l864">Je connois mon devoir et n’épargneray rien.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE II.</head><pb n="36"/>
-          <sp who="sinorix">
+        <div type="scene" xml:id="III02">
+          <head>SCENE II.</head>
+          <pb n="36"/>
+          <sp xml:id="III02-1" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="865" xml:id="l865">Dieux, dont les loix pour nous doivent estre <ref target="#adorable">adorables*</ref>,</l>
             <l n="866" xml:id="l866">Est-ce ainsi que j’ay crû vous trouver <ref target="#exorable">exorables*</ref></l>
@@ -2293,42 +2294,42 @@
             <l n="895" xml:id="l895">Dieux, hâtez-en la peine, ou m’ostez ces soupçons<note n="258" place="bottom"><hi rend="i">M’ostez ces soupçons</hi>  : le français classique , comme le français moderne, « oppose l’impératif affirmatif avec un pronom postposé et l’impératif négatif avec un clitique atone antéposé (…) à l’exception des séquences avec impératifs coordonnés, qui conservent le schéma du moyen français. (…) Cette construction a pour effet de lier fortement les deux verbes au sein de l’énoncé. » (N. Fournier, <hi rend="i">Grammaire du français classique</hi>, Belin Sup-Lettres, 2002, p. 84). </note>.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III03">
           <head>SCENE III.</head>
           <stage>SINORIX, CAMMA, SOSTRATE.</stage>
-          <sp who="camma">
+          <sp xml:id="III03-1" who="camma">
             <speaker>CAMMA <hi rend="i">paroissant à un des costez du Theatre</hi>,</speaker>
             <stage>Et tirant un poignard.</stage>
             <l n="896" xml:id="l896">L’occasion est belle, il est seul, advançons.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III03-2" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="897" xml:id="l897" part="I">O Sinatus !</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="III03-3" who="sostrate">
             <speaker>SOSTRATE <hi rend="i">paroissant à l’autre costé du theatre, et voyant Camma qui s’advance vers Sinorix un poignard à la main.</hi><note n="259" place="bottom">Configuration particulière de la scène : schéma triangulaire de manière à faire un acte sans être vu. Sinorix est au centre mais il ne voit rien : cela révèle le fait qu’il est hors de la vérité, dans l’illusion. </note></speaker>
             <l part="M">Que vois-je ! Ah !</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="III03-4" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Perdons cét infame.</l>
             <stage>Dans l’instant que la Reine leve le bras pour fraper Sinorix, Sostrate luy saisit la main, Sinorix se détourne, et le poignard tombe sans qu’il puisse connoistre de quelle main.</stage>
             <l n="898" xml:id="l898" part="I">Que fais-tu, mal-heureux ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="III03-5" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l part="F">Que faites-vous, Madame ?<pb n="38" xml:id="p38"/></l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III03-6" who="sinorix">
             <speaker>SINORIX <hi rend="i">se détournant et se saisissant du poignard.</hi></speaker>
             <l n="899" xml:id="l899">Justes Dieux, un Poignard ! On en veut à mes <ref target="#jour3">jours</ref>,</l>
             <l n="900" xml:id="l900">A moy, Gardes, à moy, qu’on vienne à mon secours.</l>
           </sp>
-          <sp who="sosime">
+          <sp xml:id="III03-7" who="sosime">
             <speaker>SOSIME <hi rend="i">entrant avec des Gardes.</hi></speaker>
             <l n="901" xml:id="l901" part="I">Seigneur.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III03-8" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l part="F">La trahison d’un faux succez suivie</l>
             <l n="902" xml:id="l902">Vient d’employer ce fer pour m’arracher la vie ;</l>
@@ -2351,28 +2352,28 @@
             <l n="919" xml:id="l919">Et mon cœur qu’en <ref target="#confondre2">confond</ref> le projet odieux,</l>
             <l n="920" xml:id="l920">Cherche sur tant de rage à démentir mes yeux.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="III03-9" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="921" xml:id="l921">Vous avez peu besoin que je vous éclaircisse,</l>
             <l n="922" xml:id="l922">Un autre peut icy vous rendre cet <ref target="#office">office*</ref>,</l>
             <l n="923" xml:id="l923">Et dans l’effort* douteux<note n="261" place="bottom"><hi rend="i">Effort douteux</hi> : le coup porté à l’encontre de Sinorix est « douteux » car il n’a pas encore la preuve que Sostrate est coupable de cet acte.</note> qui vous comble d’effroy</l>
             <l n="924" xml:id="l924">Le fidelle Sostrate a plus de part que moy.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III03-10" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="925" xml:id="l925">Et bien, parle, Sostrate, et me tire de peine.<pb n="39" xml:id="p39"/></l>
             <l n="926" xml:id="l926">Suivras-tu contre moy l’exemple de la Reine,</l>
             <l n="927" xml:id="l927">Et voudras-tu comme elle en cét évenement</l>
             <l n="928" xml:id="l928">Refuser quelque <ref target="#jour1">jour*</ref> à mon aveuglement ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="III03-11" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="929" xml:id="l929">Non, Seigneur, c’est en vain que je voudrois me taire,</l>
             <l n="930" xml:id="l930">Vous avez veu l’<ref target="#effort1">effort*</ref> que mon bras vient de faire ;</l>
             <l n="931" xml:id="l931">Le crime veut du sang, et sans rien <ref target="#balancer">balancer*</ref>,</l>
             <l n="932" xml:id="l932">Sçachant ce qui m’est dû, vous devez prononcer.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III03-12" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="933" xml:id="l933">Traistre, par cét <ref target="#adveu3">adveu*</ref> mets le comble à ta rage,</l>
             <l n="934" xml:id="l934">Je ne voyois que trop le crime qui t’engage,</l>
@@ -2396,7 +2397,7 @@
             <l n="952" xml:id="l952">Ne tâche aux yeux de tous d’en supléer l’effet<note n="265" place="bottom">« Et si l’indigne adveu…suppléer l’effet. » : Sinorix se rend compte que pour Sostrate cet acte, dans la mesure où il n’a pas eu « d’effort », n’est rien sans son aveu. Ce qui est le plus important c’est que tout le monde sache ce qui a été tenté. Sinorix dans ses propos est tout à fait cynique. </note>.</l>
             <l n="953" xml:id="l953">Ingrat, de mes bienfaits est-ce la recompense ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="III03-13" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="954" xml:id="l954">Ils sont tous dans mon cœur mieux gravez qu’on ne pense ;<pb n="40" xml:id="p40"/></l>
             <l n="955" xml:id="l955">Mais enfin, je l’advouë, il ne peut consentir</l>
@@ -2407,7 +2408,7 @@
             <l n="960" xml:id="l960">En mesme occasion auroit mesme dessein ;</l>
             <l n="961" xml:id="l961">Que cent fois de nouveau l’<ref target="#effort1">effort*</ref> qu’elle a sçeu faire…</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III03-14" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="962" xml:id="l962">Quoy, traistre jusques-là ta rage te peut plaire ?</l>
             <l n="963" xml:id="l963">Et bien, sçache à ton tour que plus tu me fus cher,</l>
@@ -2430,7 +2431,7 @@
             <l n="980" xml:id="l980">Que songer à punir plustost qu’à m’acquiter.</l>
             <l n="981" xml:id="l981" part="I"><ref target="#souffrir">Souffrez*</ref> donc qu’à vos pieds…    </l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="III03-15" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Ah, c’est trop me <ref target="#confondre1">confondre*</ref>.</l>
             <l n="982" xml:id="l982">Je voy, j’entens, j’écoute, et ne sçay que répondre,</l>
@@ -2441,11 +2442,11 @@
             <l n="987" xml:id="l987">Et lors qu’en sa faveur la pitié m’entretient,</l>
             <l n="988" xml:id="l988">Un autre sentiment m’inspire, et me retient<note n="266" place="bottom">Le discours de Camma est un discours à entendre à deux niveaux : pour Sinorix, son attitude n’est pas compréhensible, mais pour le spectateur qui sait de quelle manière les choses se sont passées, Camma est tiraillée entre la pitié et la colère puisque Sostrate l’a empêchée de tuer Sinorix. </note>.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III03-16" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="989" xml:id="l989">Vous, Madame, defendre un perfide, un infame ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="III03-17" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="990" xml:id="l990">Non, non, de grace, non, ne dites rien, Madame,</l>
             <l n="991" xml:id="l991">Et sans vouloir pour moy tenter un vain <ref target="#effort2">effort*</ref></l>
@@ -2455,14 +2456,14 @@
             <l n="995" xml:id="l995">Par là mon desespoir se verroit achevé,</l>
             <l n="996" xml:id="l996">Et je mourrois cent fois si vous m’aviez sauvé.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III03-18" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="997" xml:id="l997">Par cette lâche ardeur de perir pour son crime,</l>
             <l n="998" xml:id="l998">Admirez contre moy quelle rage l’anime,</l>
             <l n="999" xml:id="l999">Et le charme qu’il trouve à se rendre aujourd’huy</l>
             <l n="1000" xml:id="l1000">Indigne des bontez que vous auriez pour luy.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="III03-19" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1001" xml:id="l1001">A quoy<note n="267" place="bottom"><hi rend="i">A quoy</hi> : forme la plus souvent usitée avec un référent non-animé. </note> qu’en son malheur sa <ref target="#fierte2">fierté*</ref> le hazarde,</l>
             <l n="1002" xml:id="l1002">Je ne vous dis plus rien sur ce qui le regarde,</l>
@@ -2474,7 +2475,7 @@
             <l n="1008" xml:id="l1008">Sont des maux  qu’aujourd’huy vous souffrez malgré moy,</l>
             <l n="1009" xml:id="l1009">Qu’à vous les épargner aussi prompte qu’ardente…</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III03-20" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1010" xml:id="l1010">O de bonté pour moy preuve trop obligeante !</l>
             <l n="1011" xml:id="l1011">Je me tais tout remply de ce que vous pensez,<pb n="42" xml:id="p42"/></l>
@@ -2485,7 +2486,7 @@
             <l n="1016" xml:id="l1016">Engageoit ton audace à resoudre ma mort.</l>
             <l n="1017" xml:id="l1017">Sous l’<ref target="#effort2">effort*</ref> de ton bras apprens-nous qui conspire.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="III03-21" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1018" xml:id="l1018">Je vous ay dit, Seigneur, ce que j’avois à dire ;</l>
             <l n="1019" xml:id="l1019">Nommez ce que le Ciel vient de vous faire voir</l>
@@ -2495,7 +2496,7 @@
             <l n="1023" xml:id="l1023">Vous avez leur rapport, prononcez là-dessus,</l>
             <l n="1024" xml:id="l1024">J’ay parlé, j’ay tout dit, et ne sçay rien de plus.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III03-22" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1025" xml:id="l1025">Quoy ? garder le silence est ta plus seure adresse</l>
             <l n="1026" xml:id="l1026">Pour tâcher de ton crime à sauver la Princesse ?</l>
@@ -2505,7 +2506,7 @@
             <l n="1030" xml:id="l1030">Tu n’as pû refuser un forfait à sa haine ?</l>
             <l n="1031" xml:id="l1031">Tu t’es montré soudain prest à m’assassiner ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="III03-23" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1032" xml:id="l1032">Ah, contre-elle, Seigneur, qu’osez-vous soupçonner ?</l>
             <l n="1033" xml:id="l1033">J’<ref target="#attester">atteste*</ref> tous les Dieux, et je veux que leur <ref target="#foudre">foudre*</ref></l>
@@ -2514,22 +2515,22 @@
             <l n="1036" xml:id="l1036">On peut à la Princesse imputer quelque part.</l>
             <l n="1037" xml:id="l1037">C’est moy seul dont le sang doit laver vostre <ref target="#injure">injure*</ref>.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III03-24" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1038" xml:id="l1038">Les sermens d’un perfide entraînent un parjure,</l>
             <l n="1039" xml:id="l1039">En vain tu crois par là nous <ref target="#eblouir">ébloüir*</ref> les yeux,</l>
             <l n="1040" xml:id="l1040">Qui peut perdre son Roy ne connoit point de Dieux<note n="269" place="bottom">C’est l’idée qu’un traître est nécessairement impie.</note>.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III04">
           <pb n="43" xml:id="p43"/>
           <head>SCENE IV.</head>
           <stage>SINORIX, CAMMA, HESIONE, SOSTRATE, PHAEDIME, SOSIME, GARDES.</stage>
-          <sp who="sinorix">
+          <sp xml:id="III04-1" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1041" xml:id="l1041">Phaedime, aurois-tu crû l’<ref target="#attentat">attentat*</ref> d’un perfide ?</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="III04-2" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1042" xml:id="l1042">Nomme mieux un beau <ref target="#zele">zéle*</ref> où la gloire préside.</l>
             <l n="1043" xml:id="l1043">Je sçay par quel malheur son projet avorté</l>
@@ -2555,42 +2556,42 @@
             <l n="1063" xml:id="l1063">Et le coup m’en plaira, s’il me peut épargner<pb n="44" xml:id="p44"/></l>
             <l n="1064" xml:id="l1064">L’horreur de te voir Maistre, où je devrois regner.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III04-3" who="sinorix">
             <speaker>SINORIX <hi rend="i">à Sostrate.</hi></speaker>
             <l n="1065" xml:id="l1065">Et bien ? j’ay fait sans doute <ref target="#injure">injure*</ref> à la Princesse,</l>
             <l n="1066" xml:id="l1066">Lâche, ton <ref target="#attentat">attentat*</ref> n’a rien qui l’interesse,</l>
             <l n="1067" xml:id="l1067">Et j’ay dû<note n="271" place="bottom"><hi rend="i">J’ay dû</hi> : j’aurais dû. </note>, quand ton bras s’arme contre ton Roy,</l>
             <l n="1068" xml:id="l1068">Recevoir tes sermens pour garands de ta <ref target="#foy2">foy*</ref> ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="III04-4" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1069" xml:id="l1069">Qu’avez-vous dit, Madame, et que faites-vous croire ?</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="III04-5" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1070" xml:id="l1070">J’ay dit ce qu’a voulu l’interest de ma gloire,</l>
             <l n="1071" xml:id="l1071">Et quand ce grand motif à mon cœur vient s’offrir,</l>
             <l n="1072" xml:id="l1072">Si je ne sçais aimer, du moins je sçay mourir<note n="272" place="bottom"><hi rend="i">Si je ne sçais aimer, du moins je sçay mourir</hi> : à la scène 5 de l’acte I, Hésione disait à Sostrate : « Mais si je n’aime pas, du moins je puis aimer ». L’amour semble donc plus difficile à appréhender que la mort. </note>.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III04-6" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1073" xml:id="l1073">Non, vous ne mourrez point, et puisque par ma perte</l>
             <l n="1074" xml:id="l1074">L’asseurance du Trône à vos vœux est offerte,</l>
             <l n="1075" xml:id="l1075">J’aurois tort si j’osois retrancher de vos droits</l>
             <l n="1076" xml:id="l1076">Le pouvoir d’attenter une seconde fois.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="III04-7" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1077" xml:id="l1077">Une si juste ardeur suivra tousjours ma haine,</l>
             <l n="1078" xml:id="l1078">Mais je dois respecter les projets de la Reine,</l>
             <l n="1079" xml:id="l1079">Et ne poursuivre plus d’un <ref target="#effort2">effort*</ref> si constant</l>
             <l n="1080" xml:id="l1080">Un Trône, où je découvre enfin qu’elle pretend.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="III04-8" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1081" xml:id="l1081">Ce <ref target="#chagrin">chagrin*</ref> inquiet <ref target="#incessamment">incessamment*</ref> vous <ref target="#gener">gêne*</ref>.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="III04-9" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1082" xml:id="l1082">J’ay soupçonné d’abord, mais je parle certaine,</l>
             <l n="1083" xml:id="l1083">Et je ne vous fais icy qu’un reproche trop dû,</l>
@@ -2600,7 +2601,7 @@
             <l n="1087" xml:id="l1087">Et qui<note n="273" place="bottom"><hi rend="i">Qui</hi> : celle qui, c’est-à-dire Camma.</note> dans cette honte a voulu s’engager,</l>
             <l n="1088" xml:id="l1088">N’en asseure le fruit que pour le partager.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="III04-10" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1089" xml:id="l1089">Sans me justifier, quoy que vous vueilliez croire<note n="274" place="bottom"><hi rend="i">Var. 1692</hi> : quoy que vous puissiez croire, </note>,<pb n="45" xml:id="p45"/></l>
             <l n="1090" xml:id="l1090">Il suffit que mon cœur ait l’appuy de ma gloire,</l>
@@ -2612,10 +2613,10 @@
             <l n="1096" xml:id="l1096">Avec plus de succez aura conduit ses <ref target="#voeu">vœux*</ref>.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III05">
           <head>SCENE V.</head>
           <stage>SINORIX, HESIONE, SOSTRATE, PHAEDIME, SOSIME, GARDES.</stage>
-          <sp who="sinorix">
+          <sp xml:id="III05-1" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1097" xml:id="l1097">Princesse, tant d’orgueil lasse ma patience,</l>
             <l n="1098" xml:id="l1098">La Reine icy toûjours garde pleine puissance,</l>
@@ -2625,7 +2626,7 @@
             <l n="1102" xml:id="l1102">Si je veux consentir à me faire justice,</l>
             <l n="1103" xml:id="l1103">Et si vous ne songez<note n="278" place="bottom"><hi rend="i">Var. 1692</hi> : C’est à vous de songer</note> à vous mieux secourir…</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="III05-2" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1104" xml:id="l1104">A quelle indignité je te voy recourir !</l>
             <l n="1105" xml:id="l1105">Quoy, sur ce vain couroux tu crois que je me rende ?</l>
@@ -2641,7 +2642,7 @@
             <l n="1115" xml:id="l1115">Et j’ay la joye au moins que ton heureux projet,</l>
             <l n="1116" xml:id="l1116">S’il te fait mon Tyran, te laisse mon Sujet.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III05-3" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1117" xml:id="l1117">Mais un pareil Sujet en peut aimer le titre</l>
             <l n="1118" xml:id="l1118">Quand du Sort de la Reine il s’est rendu l’arbitre,</l>
@@ -2653,49 +2654,49 @@
             <l n="1124" xml:id="l1124">De mon ressentiment doit s’estendre l’éclat,</l>
             <l n="1125" xml:id="l1125">J’en sçay dont en ma Cour l’appuy secret vous <ref target="#flater5">flate*</ref>.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="III05-4" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1126" xml:id="l1126">Je les <ref target="#eprouver">éprouve*</ref> donc plus lâches que Sostrate.</l>
             <l n="1127" xml:id="l1127">C’est luy seul dont le zéle à mes desirs se rend,</l>
             <l n="1128" xml:id="l1128">Je m’explique, il est prest, j’ordonne, il entreprend,</l>
             <l n="1129" xml:id="l1129">Tu tiens le criminel, je t’offre sa complice.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="III05-5" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1130" xml:id="l1130">Madame, qui vous porte à vous faire injustice,</l>
             <l n="1131" xml:id="l1131">A vouloir de mon sort partager le couroux ?</l>
             <l n="1132" xml:id="l1132">J’entreprens, il est vray, mais ce n’est pas pour vous,</l>
             <l n="1133" xml:id="l1133" part="I">Par mon seul interest j’ay dû…</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="III05-6" who="hesione">
             <speaker>HESIONE.</speaker>
             <l part="F">Qu’oses-tu dire ?</l>
             <l n="1134" xml:id="l1134">Je t’ay sollicité, c’est ton bras qui conspire,</l>
             <l n="1135" xml:id="l1135">Et tu cherches en vain à rejetter sur toy</l>
             <l n="1136" xml:id="l1136">Les motifs d’un beau coup qui ne sont deus qu’à moy<note n="280" place="bottom">Hésione a partiellement  raison : dans l’Acte I, elle lui avait demandé (I, 5) de la venger de l’affront que lui faisait Sinorix. En échange, elle se donnait la possibilité de l’aimer. Il s’agit ici d’un quiproquo car comme elle ne connaissait pas les désirs de Camma et de Sostrate, il ne pouvait s’agir dans son esprit que de la conjuration qu’elle a elle-même pensée et réfléchie. </note>.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="III05-7" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1137" xml:id="l1137" part="I">Mais, Madame…<pb n="47" xml:id="p47"/></l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="III05-8" who="hesione">
             <speaker>HESIONE.</speaker>
             <l part="F">Non, non, c’est m’offencer, Sostrate,</l>
             <l n="1138" xml:id="l1138">Souffre d’un grand projet que la gloire me <ref target="#flater2">flate*</ref>.</l>
             <l n="1139" xml:id="l1139">Où le peril est beau m’empescher d’y courir,</l>
             <l n="1140" xml:id="l1140">C’est m’arracher la part que j’en puis acquerir.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III05-9" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1141" xml:id="l1141">Quoy, <ref target="#genereux1">genereuse*</ref> assez pour ne luy pas survivre ?</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="III05-10" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1142" xml:id="l1142">Ne pouvant le sauver, du moins je le dois suivre<note n="281" place="bottom"><hi rend="i">Var. 1692</hi> : Ne pouvant le sauver, du moins je dois le suivre,</note>,</l>
             <l n="1143" xml:id="l1143">Et n’aurois dans mon sort à me plaindre de rien,</l>
             <l n="1144" xml:id="l1144">Si te donnant mon sang je conservois le sien.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III05-11" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1145" xml:id="l1145">Et bien, pour satisfaire à cette noble envie</l>
             <l n="1146" xml:id="l1146">Je vous mets en pouvoir de luy sauver la vie.</l>
@@ -2706,21 +2707,21 @@
             <l n="1151" xml:id="l1151">Et sa grace pour vous est un effet certain</l>
             <l n="1152" xml:id="l1152">Si pour prix de son crime il obtient vostre main.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="III05-12" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1153" xml:id="l1153">Non, Seigneur, ordonnez la peine qui m’est deuë ;</l>
             <l n="1154" xml:id="l1154">Quand je verrois pour moy la Princesse renduë,</l>
             <l n="1155" xml:id="l1155">Sçachant quelle contrainte elle en pourroit sentir,</l>
             <l n="1156" xml:id="l1156">Jamais, jamais ce cœur n’y voudroit consentir.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III05-13" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1157" xml:id="l1157">Fay, fay le magnanime<note n="282" place="bottom"><hi rend="i">Fay, fay le magnanime</hi> : propos ironique de la part de Sinorix. </note>, et <ref target="#souffrir-a">souffre à*</ref> ton audace</l>
             <l n="1158" xml:id="l1158">De braver ma vangeance et rejetter ma grace,</l>
             <l n="1159" xml:id="l1159">Mais j’en jure les Dieux qui m’ont soûmis ton sort,</l>
             <l n="1160" xml:id="l1160">Elle n’a que ce choix, son hymen, ou ta mort.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="III05-14" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1161" xml:id="l1161">Le détour est adroit, et me mettroit en peine<pb n="48" xml:id="p48"/></l>
             <l n="1162" xml:id="l1162">S’il pouvoit m’empescher de voir que je suis Reine,</l>
@@ -2731,7 +2732,7 @@
             <l n="1167" xml:id="l1167">Et tu m’ostes ainsi par tes lâches forfaits</l>
             <l n="1168" xml:id="l1168">Le pouvoir d’accepter l’offre que tu me fais.                 1190</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III05-15" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1169" xml:id="l1169">Il mourra donc, Madame, et vous aurez la <ref target="#gene">gêne*</ref></l>
             <l n="1170" xml:id="l1170">De voir que vos mépris feront toute sa peine,</l>
@@ -2742,7 +2743,7 @@
             <l n="1175" xml:id="l1175">Et de voir qu’en effet, qui doit le secourir,</l>
             <l n="1176" xml:id="l1176">Quand je veux le sauver, le condamne à perir.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="III05-16" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1177" xml:id="l1177">Va, nous sçaurons dans peu, malgré ta lâche audace,</l>
             <l n="1178" xml:id="l1178">Si sa peine à ton tour n’a rien qui t’embarasse,</l>
@@ -2753,11 +2754,11 @@
             <l n="1183" xml:id="l1183">Et que hors mon hymen ne luy refusant rien,</l>
             <l n="1184" xml:id="l1184">Il aura pour victime, ou son sang, ou le mien.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="III05-17" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1185" xml:id="l1185">Ah, Madame, cessez de vous laissez surprendre…</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="III05-18" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1186" xml:id="l1186">Fay le mettre en lieu seur, je suis las de l’entendre,</l>
             <l n="1187" xml:id="l1187">Sosime. Vous, Madame, <ref target="#adviser">advisez à*</ref> ce choix,</l>
@@ -2766,7 +2767,7 @@
             <l n="1190" xml:id="l1190">La <ref target="#foudre">foudre*</ref> l’est déjà pour lancer sur sa teste,</l>
             <l n="1191" xml:id="l1191" part="I">Songez-y.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="III05-19" who="hesione">
             <speaker>HESIONE.</speaker>
             <l part="F">Tu pers temps<note n="285" place="bottom"><hi rend="i">Tu pers temps</hi> : locution verbale à détermination zéro. Cette locution existe toujours aujourd’hui mais il a été ajouté un déterminant. </note> ; puisque sa mort te plaist,</l>
             <l n="1192" xml:id="l1192">Tonne contre tous deux, j’attendray ton arrest.</l>
@@ -2774,27 +2775,27 @@
           <label>Fin du troisiéme Acte</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="IV" type="act">
         <pb n="50" xml:id="p50"/>
         <head>ACTE IV.</head>
-        <div type="scene">
+        <div type="scene" xml:id="IV01">
           <head>SCENE PREMIERE.</head>
           <stage>CAMMA, PHENICE.</stage>
-          <sp who="camma">
+          <sp xml:id="IV01-1" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1193" xml:id="l1193">L’Arrest en est donné ! que me dis-tu, Phenice<note n="286" place="bottom">Cette question fait référence à une déclaration de Phenice pendant l’entracte.</note> ?</l>
           </sp>
-          <sp who="phenice">
+          <sp xml:id="IV01-2" who="phenice">
             <speaker>PHENICE.</speaker>
             <l n="1194" xml:id="l1194">Qu’on dresse l’<ref target="#appareil">appareil*</ref> d’un funeste supplice,</l>
             <l n="1195" xml:id="l1195">Et que c’est par sa mort qu’un Tyran inhumain</l>
             <l n="1196" xml:id="l1196">Punit ce <ref target="#fier3">fier*</ref> refus de luy donner la main.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV01-3" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1197" xml:id="l1197">Quoy, cet amy si cher ne trouve point de grace ?</l>
           </sp>
-          <sp who="phenice">
+          <sp xml:id="IV01-4" who="phenice">
             <speaker>PHENICE.</speaker>
             <l n="1198" xml:id="l1198">Enfin l’effet est prest de suivre la menace.</l>
             <l n="1199" xml:id="l1199">Jamais tant de fureur ne se peut concevoir</l>
@@ -2804,18 +2805,18 @@
             <l n="1203" xml:id="l1203">Et le rang qu’en son cœur Sostrate a sçeu tenir</l>
             <l n="1204" xml:id="l1204">Semble augmenter sa rage à le vouloir punir.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV01-5" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1205" xml:id="l1205">Phenice, il est donc temps que ma vangeance cede,<pb n="51" xml:id="p51"/></l>
             <l n="1206" xml:id="l1206">Qu’au mal que j’ay causé j’oppose le remede,</l>
             <l n="1207" xml:id="l1207">Et qu’à tant de fureur, ce cœur reconnoissant</l>
             <l n="1208" xml:id="l1208">Par l’offre du coupable arrache l’innocent.</l>
           </sp>
-          <sp who="phenice">
+          <sp xml:id="IV01-6" who="phenice">
             <speaker>PHENICE.</speaker>
             <l n="1209" xml:id="l1209">Vous découvrir, Madame ? ah, que voulez-vous faire ?</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV01-7" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1210" xml:id="l1210">Espargner à Sostrate une mort volontaire,</l>
             <l n="1211" xml:id="l1211">Et ne permettre pas qu’il expie aujourd’huy</l>
@@ -2833,7 +2834,7 @@
             <l n="1223" xml:id="l1223">A luy montrer le bras qui s’immoloit ses <ref target="#jour3">jours</ref>,</l>
             <l n="1224" xml:id="l1224">Et des Dieux pour le reste attendre le secours.</l>
           </sp>
-          <sp who="phenice">
+          <sp xml:id="IV01-8" who="phenice">
             <speaker>PHENICE.</speaker>
             <l n="1225" xml:id="l1225">Comme il faudra pour luy que vostre haine éclate,</l>
             <l n="1226" xml:id="l1226">Vous l’allez irriter sans secourir Sostrate.</l>
@@ -2844,7 +2845,7 @@
             <l n="1231" xml:id="l1231">Il ne haste une mort dont par quelque interest</l>
             <l n="1232" xml:id="l1232">Il peut songer encor à suspendre l’arrest.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV01-9" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1233" xml:id="l1233">Mais quand je luy diray qu’une ardeur de vangeance<pb n="52" xml:id="p52"/></l>
             <l n="1234" xml:id="l1234">M’a fait de ses forfaits cacher la connoissance ;</l>
@@ -2859,7 +2860,7 @@
             <l n="1243" xml:id="l1243">Crois-tu que ce rapport trouve si peu de <ref target="#foy5">foy*</ref></l>
             <l n="1244" xml:id="l1244">Qu’il le laisse douter entre Sostrate et moy ?</l>
           </sp>
-          <sp who="phenice">
+          <sp xml:id="IV01-10" who="phenice">
             <speaker>PHENICE.</speaker>
             <l n="1245" xml:id="l1245">Le voicy qui paroist ; avant que <ref target="#rien">rien*</ref> éclate</l>
             <l n="1246" xml:id="l1246">Songez à Sinatus, jettez l’œil sur Sostrate,</l>
@@ -2867,10 +2868,10 @@
             <l n="1248" xml:id="l1248">L’un ne soit sans vangeance, et l’autre sans secours.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV02">
           <head>SCENE II.</head>
           <stage>SINORIX, CAMMA, PHENICE, PHAEDIME, Suite de Sinorix.</stage>
-          <sp who="sinorix">
+          <sp xml:id="IV02-1" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1249" xml:id="l1249">Madame, je sçay bien que vous devant la vie,</l>
             <l n="1250" xml:id="l1250">Que sans vostre secours un lâche m’eust ravie,</l>
@@ -2881,14 +2882,14 @@
             <l n="1255" xml:id="l1255">Sans cesse, je l’advouë, il me vient animer,<pb n="53" xml:id="p53"/></l>
             <l n="1256" xml:id="l1256">Et toute mon estude a peine à le calmer.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV02-2" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1257" xml:id="l1257">La cause en est trop juste où le crime est extrême,</l>
             <l n="1258" xml:id="l1258">Mais souvent il est beau de se vaincre soy-mesme,</l>
             <l n="1259" xml:id="l1259">Et d’attacher sa gloire à ce <ref target="#pompeux">pompeux*</ref> éclat</l>
             <l n="1260" xml:id="l1260">Dont brille le pardon d’un indigne <ref target="#attentat">attentat*</ref>.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="IV02-3" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1261" xml:id="l1261">Madame, c’est à quoy j’avois sçeu me contraindre,</l>
             <l n="1262" xml:id="l1262">A Sostrate déjà j’ostois tout lieu de craindre,</l>
@@ -2899,12 +2900,12 @@
             <l n="1267" xml:id="l1267">Qu’il faut qu’un châtiment aussi juste que prompt</l>
             <l n="1268" xml:id="l1268">Par le sang du perfide en repare l’affront.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV02-4" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1269" xml:id="l1269">Quoy, la pitié pour luy ne touche point vostre ame,</l>
             <l n="1270" xml:id="l1270" part="I">Luy qui vous fut si cher, luy qu’enfin…</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="IV02-5" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l part="F">Ah, Madame,</l>
             <l n="1271" xml:id="l1271">Que vous concevez mal, en <ref target="#presser3">pressant</ref> ma pitié,</l>
@@ -2918,7 +2919,7 @@
             <l n="1279" xml:id="l1279">Et trouve plus de peine en ce rude combat</l>
             <l n="1280" xml:id="l1280">A haïr un amy qu’à punir un ingrat.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV02-6" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1281" xml:id="l1281">Mais enfin à present que je me vois remise</l>
             <l n="1282" xml:id="l1282">De ce trouble où tantost m’engageoit la surprise,</l>
@@ -2929,27 +2930,27 @@
             <l n="1287" xml:id="l1287">Mais si vous tenez tout d’un <ref target="#genereux1">genereux*</ref> secours,</l>
             <l n="1288" xml:id="l1288">Pour les vostres sauvez je demande ses <ref target="#jour3">jours</ref>.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="IV02-7" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1289" xml:id="l1289">Quel indigne party la pitié vous fait prendre !</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV02-8" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1290" xml:id="l1290">Estant sans interest je voudrois m’en défendre,</l>
             <l n="1291" xml:id="l1291">Mais quoy que vostre haine ait droit d’en murmurer,</l>
             <l n="1292" xml:id="l1292">Ayant fait son malheur je dois le reparer.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="IV02-9" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1293" xml:id="l1293">Mais songez qu’évitant la peine qu’il merite…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV02-10" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1294" xml:id="l1294">Mais songez que c’est moy qui vous en sollicite,</l>
             <l n="1295" xml:id="l1295">Et qu’aprés tant de vœux que j’ay peu<note n="292" place="bottom"><hi rend="i">Peu</hi> : il s’agit du participe passé du verbe « pouvoir ». </note> dédaigner,</l>
             <l n="1296" xml:id="l1296">S’ils sont ardents pour moy, c’est mal le témoigner.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="IV02-11" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1297" xml:id="l1297">S’ils sont ardents pour vous ? qu’on améne Sostrate.</l>
             <l n="1298" xml:id="l1298">La vangeance déjà n’a plus rien qui me <ref target="#flater2">flate*</ref>,</l>
@@ -2964,13 +2965,13 @@
             <l n="1307" xml:id="l1307">Et mon couroux vaincu peut-estre a merité</l>
             <l n="1308" xml:id="l1308">L’entier et prompt <ref target="#adveu3">adveu*</ref> de ma felicité.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV02-12" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1309" xml:id="l1309">Donc ces fortes raisons par vous mesme approuvées<pb n="55" xml:id="p55"/></l>
             <l n="1310" xml:id="l1310">Sont chimeres en l’air que ma crainte a resvées ?</l>
             <l n="1311" xml:id="l1311">J’ay montré ma foiblesse à leur trop déferer ?</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="IV02-13" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1312" xml:id="l1312">Il suffisoit <ref target="#tantot">tantost*</ref> de me faire esperer,</l>
             <l n="1313" xml:id="l1313">Mais contre ce devoir et cette bienseance</l>
@@ -2979,12 +2980,12 @@
             <l n="1316" xml:id="l1316">Authorise l’hymen dont j’ose vous <ref target="#presser3">presser</ref> ;</l>
             <l n="1317" xml:id="l1317">A ce prix seulement mon cœur vous l’abandonne.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV02-14" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1318" xml:id="l1318">C’est là ce grand pouvoir que vostre amour me donne ?</l>
             <l n="1319" xml:id="l1319">Vous m’osez refuser quand j’ay crû ne devoir…</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="IV02-15" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1320" xml:id="l1320">C’est blesser cét amour, j’en suis au desespoir,</l>
             <l n="1321" xml:id="l1321">Mais contre les fureurs d’une <ref target="#fier1">fiere*</ref> Princesse</l>
@@ -2997,11 +2998,11 @@
             <l n="1328" xml:id="l1328">Luy coûte la douleur de m’avoir fait heureux.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV03">
           <head>SCENE III.</head>
           <pb n="56" xml:id="p56"/>
           <stage>SINORIX, CAMMA, SOSTRATE, PHAEDIME, SOSIME, PHENICE, GARDES.</stage>
-          <sp who="sinorix">
+          <sp xml:id="IV03-1" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1329" xml:id="l1329">Approche, et quoy qu’ait pû ta criminelle audace,</l>
             <l n="1330" xml:id="l1330">Pour la seconde fois viens recevoir ta grace.</l>
@@ -3009,20 +3010,20 @@
             <l n="1332" xml:id="l1332">En faveur de la Reine ose me l’arracher,</l>
             <l n="1333" xml:id="l1333">Elle est entre ses mains, tu peux l’obtenir d’elle.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV03-2" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1334" xml:id="l1334">Est-ce me la donner qu’abuser de mon zéle,</l>
             <l n="1335" xml:id="l1335">Et m’imposer des loix dont le fatal accord,</l>
             <l n="1336" xml:id="l1336">Ou hazarde ma gloire, ou le livre à la mort ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV03-3" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1337" xml:id="l1337">Ah, Madame, il se peut que ce choix vous arreste ?</l>
             <l n="1338" xml:id="l1338">Mon destin est trop beau pour en estre inquiete<note n="295" place="bottom"><hi rend="i">Pour en estre inquiete</hi> : cela signifie : pour que vous vous en  inquiétez. <hi rend="i">Var. 1692</hi> : pour craindre la tempête. </note>,</l>
             <l n="1339" xml:id="l1339">C’est en ternir l’éclat que de me secourir,</l>
             <l n="1340" xml:id="l1340">Conservez vostre gloire, et me laissez mourir.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="IV03-4" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1341" xml:id="l1341">Quoy, traistre, jusqu’au bout obstiné dans ta rage</l>
             <l n="1342" xml:id="l1342">L’effet de mes bontez te tiendra lieu d’outrage<note n="296" place="bottom"><hi rend="i">Var. 1692</hi> : Tu m’oses faire voir que ma bonté t’outrage ? </note> ?</l>
@@ -3036,12 +3037,12 @@
             <l n="1350" xml:id="l1350">Fais encor vanité de voir punir tes crimes,</l>
             <l n="1351" xml:id="l1351">Aux bontez de la Reine oppose tes refus.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV03-5" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1352" xml:id="l1352">Quoy, j’aurois fait pour luy des <ref target="#effort2">efforts*</ref> superflus ?</l>
             <l n="1353" xml:id="l1353" part="I">Ah, songez…</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="IV03-6" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l part="F">Non, Madame, il y va de ma gloire,</l>
             <l n="1354" xml:id="l1354"><ref target="#souffrir-a">Souffrez à*</ref> mon amour cette juste victoire ;</l>
@@ -3065,36 +3066,36 @@
             <l n="1372" xml:id="l1372">S’ils <ref target="#flater3">flatent*</ref> vos souhaits, puissent estre suivis.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV04">
           <head>SCENE IV.</head>
           <pb n="58" xml:id="p58"/>
           <stage>CAMMA, SOSTRATE.</stage>
-          <sp who="camma">
+          <sp xml:id="IV04-1" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1373" xml:id="l1373">Sous quel voile trompeur le lâche se déguise !</l>
             <l n="1374" xml:id="l1374">A me tyranniser sa gloire l’authorise,</l>
             <l n="1375" xml:id="l1375">Quand il m’arrache l’ame, il agit par vertu ?<note n="298" place="bottom">Il s’agit ici plutôt d’une exclamation que d’une véritable question. Au XVII<hi rend="sup">e</hi> siècle d’ailleurs, le point d’interrogation et le point d’exclamation étaient souvent interchangeables. </note></l>
             <l n="1376" xml:id="l1376">Ah, Sostrate, Sostrate,  à quoy me reduis-tu ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV04-2" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1377" xml:id="l1377">A daigner<note n="299" place="bottom"><hi rend="i">Var. 1692</hi> : Voudrez-vous,</note>, pour le prix de l’amour le plus rare,</l>
             <l n="1378" xml:id="l1378">Avoüer<note n="300" place="bottom"><hi rend="i">Avoüer</hi> : accepter, approuver.</note> mon destin de l’<ref target="#heur">heur*</ref> qu’il me prepare,</l>
             <l n="1379" xml:id="l1379">Et laissant Sinorix dans son aveuglement,</l>
             <l n="1380" xml:id="l1380">Honorer d’un soûpir la perte d’un Amant.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV04-3" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1381" xml:id="l1381">Tu dois estre content si ton erreur t’est chere,</l>
             <l n="1382" xml:id="l1382">Ton amour l’a fait naistre, et je sçauray la taire,</l>
             <l n="1383" xml:id="l1383">Tu le veux, j’y consents, elle aura son effet.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV04-4" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1384" xml:id="l1384">Ah, puisqu’il est ainsi, que je meurs satisfait !</l>
             <l n="1385" xml:id="l1385" part="I">Madame…<note n="301" place="bottom">Quiproquo puisque Sostrate a cru que Camma acceptait finalement de le laisser mourir sans rien révéler.</note></l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV04-5" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Quoy, mourir ? tu me crois assez lâche</l>
             <l n="1386" xml:id="l1386">Pour te livrer au sort dont ta vertu m’arrache ?</l>
@@ -3109,28 +3110,28 @@
             <l n="1395" xml:id="l1395">Et quand je te la dois c’est à moy de trouver</l>
             <l n="1396" xml:id="l1396">L’infaillible moyen de te la conserver.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV04-6" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1397" xml:id="l1397">Quel moyen où l’amour n’a point eu de puissance ?</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV04-7" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1398" xml:id="l1398">Celuy que d’un Tyran m’offre la violence.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV04-8" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1399" xml:id="l1399" part="I">Quoy, Madame…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV04-9" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Je tremble à me le proposer,</l>
             <l n="1400" xml:id="l1400">J’en fremis, mais enfin il le faut épouser.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV04-10" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1401" xml:id="l1401">Luy contre qui <ref target="#tantot">tantost*</ref> vous osiez entreprendre ?</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV04-11" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1402" xml:id="l1402">Luy dont encor le sang me plairoit à répandre,</l>
             <l n="1403" xml:id="l1403">Luy dont, si le hazard m’offroit un coup certain,</l>
@@ -3152,7 +3153,7 @@
             <l n="1419" xml:id="l1419">Mais je raisonne en vain sur un point resolu<note n="305" place="bottom"><hi rend="i">Je raisonne en vain sur un point resolu</hi> : cela signifie : « je continue à m’exprimer inutilement sur une décision déjà prise ». </note>,<pb n="60" xml:id="p60"/></l>
             <l n="1420" xml:id="l1420">Il n’y faut plus penser, c’est toy qui l’as voulu.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV04-12" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1421" xml:id="l1421">Et bien, de tous ces maux où seul je vous expose</l>
             <l n="1422" xml:id="l1422"><ref target="#souffrir-a">Souffrez vous*</ref> la douceur de voir punir la cause,</l>
@@ -3160,12 +3161,12 @@
             <l n="1424" xml:id="l1424">Qui de tant de malheurs affranchit vostre sort.</l>
             <l n="1425" xml:id="l1425">Par ce profond respect dont l’asseurance offerte…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV04-13" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1426" xml:id="l1426">Moy, que si lâchement je consente à ta perte ?</l>
             <l n="1427" xml:id="l1427">Que te devant le <ref target="#jour3">jour</ref> je t’en laisse priver ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV04-14" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1428" xml:id="l1428">Helas, Madame helas ! pouvez-vous me sauver<note n="306" place="bottom">Cri pathétique de Sostrate, tonalité élégiaque : situation qui, pour lui, est aporétique et sans espoir. </note> ?</l>
             <l n="1429" xml:id="l1429">En l’estat où je suis ma mort est asseurée,</l>
@@ -3185,7 +3186,7 @@
             <l n="1443" xml:id="l1443">Et ne remettez point à mes vives douleurs</l>
             <l n="1444" xml:id="l1444">A contraindre ma main de finir mes malheurs.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV04-15" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1445" xml:id="l1445">Le dessein que je prens t’est un rude supplice,</l>
             <l n="1446" xml:id="l1446">Je le sçay, mais toy-mesme en loüeras la justice,</l>
@@ -3204,7 +3205,7 @@
             <l n="1459" xml:id="l1459">Et de tes <ref target="#jour3">jours</ref> sauvez te faisant un tourment,</l>
             <l n="1460" xml:id="l1460">Au prix qui les rachete il joint le châtiment.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV04-16" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1461" xml:id="l1461">Quelle justice, helas, vostre haine authorise ?</l>
             <l n="1462" xml:id="l1462">J’ay rompu, je l’advouë, une <ref target="#triste">triste*</ref> entreprise,</l>
@@ -3215,7 +3216,7 @@
             <l n="1467" xml:id="l1467">Et pour vous satisfaire en de si rudes coups</l>
             <l n="1468" xml:id="l1468">La mort que je demande en est-elle un trop doux ?</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV04-17" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1469" xml:id="l1469">Si la <ref target="#severite">severité*</ref> qu’exerce ma vangeance</l>
             <l n="1470" xml:id="l1470">Paroist à ton amour au dessus de l’offence,</l>
@@ -3230,14 +3231,14 @@
             <l n="1479" xml:id="l1479">Deshonorer mon rang, obscurcir ma vertu.</l>
             <l n="1480" xml:id="l1480">Sostrate, encor un coup<note n="314" place="bottom">« Encor un coup » : encore une fois. </note>, à quoy me reduis-tu<note n="315" place="bottom">« A quoy me réduis-tu ? » : écho de l’Acte IV, 4 vers 1401. </note> ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV04-18" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1481" xml:id="l1481">Mais vous mesme obstinée à me perdre, à vous nuire,<pb n="62" xml:id="p62"/></l>
             <l n="1482" xml:id="l1482">A quoy, Madame, à quoy vous osez-vous reduire ?</l>
             <l n="1483" xml:id="l1483">Au plus honteux projet vostre cœur se resout,</l>
             <l n="1484" xml:id="l1484" part="I">Il le sçait, il le voit.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV04-19" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Je vois tout, je sçais tout,</l>
             <l n="1485" xml:id="l1485">Mais en vain de mon sort l’épouventable image</l>
@@ -3245,7 +3246,7 @@
             <l n="1487" xml:id="l1487">Pour te sauver le <ref target="#jour3">jour</ref> l’<ref target="#effort1">effort*</ref> est resolu,</l>
             <l n="1488" xml:id="l1488">Je te l’ay déjà dit, c’est toy qui l’as voulu.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV04-20" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1489" xml:id="l1489">Dites, dites plustost que du Trône touchée</l>
             <l n="1490" xml:id="l1490">Vostre ame à la vangeance enfin s’est arrachée,</l>
@@ -3270,17 +3271,17 @@
             <l n="1509" xml:id="l1509">Mon amour s’abandonne au torrent qui l’entraîne<note n="321" place="bottom">Ce vers semble annoncer de ce vers d’Oreste dans <hi rend="i">Andromaque</hi> : « Je me livre en aveugle au transport qui m’entraîne » (I, 1, vers 98. <hi rend="i">Andromaque</hi> de Jean Racine dans <hi rend="i">Racine Œuvres complètes</hi>, éd. G. Forestier, Gallimard, Pléiade, 1999). </note>.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV05">
           <head>SCENE V.</head>
           <pb n="63" xml:id="p63"/>
           <stage>CAMMA, HESIONE, SOSTRATE.</stage>
-          <sp who="sostrate">
+          <sp xml:id="IV05-1" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1510" xml:id="l1510">Ah, Madame, empeschez le dessein de la Reine,</l>
             <l n="1511" xml:id="l1511">Trop injuste pour vous, trop aveugle pour moy,</l>
             <l n="1512" xml:id="l1512">Pour me sauver la vie, elle épouse le Roy.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="IV05-2" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1513" xml:id="l1513">On m’apprend à quel prix il t’est permis de vivre,</l>
             <l n="1514" xml:id="l1514">Et je n’ay point douté de ce que je voy suivre.</l>
@@ -3292,11 +3293,11 @@
             <l n="1520" xml:id="l1520">Je n’offre que du sang, elle donne la main.</l>
             <l n="1521" xml:id="l1521">D’un plus noble triomphe eut-on jamais la gloire ?</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV05-3" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1522" xml:id="l1522">Il peut me coûter plus que vous ne voudrez croire.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="IV05-4" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1523" xml:id="l1523">Comme de son éclat tout mon cœur est surpris,</l>
             <l n="1524" xml:id="l1524">Je l’examine assez pour en sçavoir le prix.</l>
@@ -3305,7 +3306,7 @@
             <l n="1527" xml:id="l1527">Pour l’arracher au sort dont il est <ref target="#combatre">combatu*</ref>,</l>
             <l n="1528" xml:id="l1528">C’est l’effet d’une rare et sublime vertu.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV05-5" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1529" xml:id="l1529">Chacun dans ses malheurs est juge de la sienne,<pb n="64" xml:id="p64"/></l>
             <l n="1530" xml:id="l1530">Mais, Princesse, aujourd’huy que rien ne vous retienne,</l>
@@ -3314,7 +3315,7 @@
             <l n="1533" xml:id="l1533">Puisqu’il empesche seul un injuste supplice,</l>
             <l n="1534" xml:id="l1534" part="I">Puisqu’il sauve Sostrate…</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV05-6" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l part="F">Ah, <ref target="#souffrir">souffrez*</ref> qu’il perisse,</l>
             <l n="1535" xml:id="l1535">Qu’il remplisse en mourant la gloire de son sort.</l>
@@ -3322,23 +3323,23 @@
             <l n="1536" xml:id="l1536">Madame, s’il se peut, obtenez-moy la mort,</l>
             <l n="1537" xml:id="l1537">Empeschez l’injustice où se porte la Reine.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="IV05-7" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1538" xml:id="l1538">Non, non, Sostrate, non, ton esperance est vaine,</l>
             <l n="1539" xml:id="l1539">Lors que l’offre d’un Trône a droit de nous <ref target="#flater2">flater*</ref>,</l>
             <l n="1540" xml:id="l1540">Quels qu’en soient les degrez, il est beau d’y monter.</l>
             <l n="1541" xml:id="l1541">C’est par là qu’on s’asseure une illustre memoire<note n="322" place="bottom">Le trône est un monument où le souvenir est conservé, impérissable. Mais ici Hésione semble jouer ironiquement avec ce thème. Voir la tirade d’Auguste dans <hi rend="i">Cinna</hi>, Acte V, 3, vers 1695 à 1700, où le pouvoir est présenté comme ce qui permet de rendre compte à la postérité de ce qui a été : « Je suis maître de moi comme de l’univers ; / Je le suis, je veux l’être. Ô siècles, ô mémoire, / Conservez à jamais ma dernière victoire ! / Je triomphe aujourd’hui du plus juste courroux / De qui le souvenir puisse aller jusqu’à vous » (<hi rend="i">Cinna</hi>, Pierre Corneille, <hi rend="i">Corneille Œuvres Complètes</hi>, éd. G. Couton, Pléiade, Gallimard, 1980). </note>.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV05-8" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1542" xml:id="l1542">Il est <ref target="#divers">divers*</ref> chemins qui ménent à la gloire<note n="323" place="bottom">Il est possible qu’elle fasse référence à son devoir de vengeance. </note>.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="IV05-9" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1543" xml:id="l1543">Y pretendre arriver par des moyens si bas,</l>
             <l n="1544" xml:id="l1544">Ce sont de vos secrets qu’on ne penetre pas.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="IV05-10" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1545" xml:id="l1545">Je n’ay point d’autre choix dans celuy qu’on me laisse,</l>
             <l n="1546" xml:id="l1546">Nommez-en les motifs injustice, bassesse,</l>
@@ -3346,17 +3347,17 @@
             <l n="1548" xml:id="l1548">Je porte ma réponce, et n’écoute plus rien.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV06">
           <head>SCENE VI.</head>
           <pb n="65" xml:id="p65"/>
           <stage>HESIONE, SOSTRATE.</stage>
-          <sp who="sostrate">
+          <sp xml:id="IV06-1" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1549" xml:id="l1549">Madame… elle nous quitte. O cœur impitoyable !</l>
             <l n="1550" xml:id="l1550">Pouvois-je craindre, helas ! un sort plus effroyable ?</l>
             <l n="1551" xml:id="l1551" part="I">Princesse…</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="IV06-2" who="hesione">
             <speaker>HESIONE.</speaker>
             <l part="F">Va, c’est trop, quitte ce desespoir,</l>
             <l n="1552" xml:id="l1552">Sostrate, ton amour a bien fait son devoir.</l>
@@ -3366,13 +3367,13 @@
             <l n="1556" xml:id="l1556">N’en estant point garand, je ne t’impute rien,</l>
             <l n="1557" xml:id="l1557">Calme ces <ref target="#deplaisir">déplaisirs*</ref> à qui<note n="324" place="bottom"><hi rend="i">A qui</hi> : la consigne majeure concerne la restriction à l’animé humain de « qui ». Mais  « Qui » prépositionnel réfère tout au long du siècle, et malgré les grammairiens, à un antécédent non-humain (nom abstrait notamment). Ici, le « qui » réfère au substantif « déplaisirs ». </note> ta raison cede.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV06-3" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1558" xml:id="l1558">Ne me consolez point, mes maux sont sans remede,</l>
             <l n="1559" xml:id="l1559">Et quand le Ciel s’obstine à me pousser à bout,</l>
             <l n="1560" xml:id="l1560">Madame, c’est à moy de répondre de tout.</l>
           </sp>
-          <sp who="hesione">
+          <sp xml:id="IV06-4" who="hesione">
             <speaker>HESIONE.</speaker>
             <l n="1561" xml:id="l1561">Si pour t’obtenir grace aprés ton entreprise</l>
             <l n="1562" xml:id="l1562">A l’hymen d’un Tyran la Reine s’authorise,</l>
@@ -3388,16 +3389,16 @@
             <l n="1572" xml:id="l1572">Que tu peux, si je regne, esperer tout de moy.</l>
             <stage>Elle sort et Sosime rentre.</stage>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV06-5" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1573" xml:id="l1573">Quel espoir où je vois abysme sur abysme,</l>
             <l n="1574" xml:id="l1574">Où les Dieux irritez, où la Reine… Ah, Sosime<note n="326" place="bottom">L’entrée en scène de Sosime est capitale : en effet, à la fin de cet acte, la tension est à son comble puisque son arrivée fait croire à Sostrate que la mort est proche pour lui. </note> !</l>
           </sp>
-          <sp who="sosime">
+          <sp xml:id="IV06-6" who="sosime">
             <speaker>SOSIME.</speaker>
             <l n="1575" xml:id="l1575">Seigneur, si la pitié que j’ay de vostre sort…</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="IV06-7" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1576" xml:id="l1576">Allons, et s’il se peut, qu’on me méne à la mort.</l>
           </sp>
@@ -3406,18 +3407,18 @@
           </label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="V" type="act">
         <pb n="67" xml:id="p67"/>
         <head>ACTE V.</head>
-        <div type="scene">
+        <div type="scene" xml:id="V01">
           <head>SCENE PREMIERE.</head>
           <stage>SOSTRATE, SOSIME.<note n="327" place="bottom">Cet acte commence avec des personnages qui terminaient le précédent. En général, la dramaturgie classique évite soigneusement cela. </note></stage>
-          <sp who="sostrate">
+          <sp xml:id="V01-1" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1577" xml:id="l1577">Quoy, d’un si dur revers ma <ref target="#disgrace">disgrace*</ref> est suivie,</l>
             <l n="1578" xml:id="l1578">Sosime, et malgré moy l’on me laisse la vie<note n="328" place="bottom">À la fin de l’Acte IV, Sostrate était persuadé que la nature de son châtiment allait être la mort mais au début de l’Acte V, Sostrate apprend avec horreur qu’il s’agit du contaire. </note> ?</l>
           </sp>
-          <sp who="sosime">
+          <sp xml:id="V01-2" who="sosime">
             <speaker>SOSIME.</speaker>
             <l n="1579" xml:id="l1579">Seigneur, vous plaignez-vous quand cét illustre <ref target="#effort1">effort*</ref></l>
             <l n="1580" xml:id="l1580">Vous épargne l’horreur d’une honteuse mort ?</l>
@@ -3426,12 +3427,12 @@
             <l n="1583" xml:id="l1583">Ce qui suit, quoy que juste, <ref target="#estonner1">estonnant*</ref> vos desirs</l>
             <l n="1584" xml:id="l1584">Vous contraindra sans doute à pousser des soûpirs.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V01-3" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1585" xml:id="l1585">Je sçay quel coup affreux la Fortune me garde,</l>
             <l n="1586" xml:id="l1586" part="I">La Reine…</l>
           </sp>
-          <sp who="sosime">
+          <sp xml:id="V01-4" who="sosime">
             <speaker>SOSIME.</speaker>
             <l part="F">Ce malheur n’a rien qui la regarde,</l>
             <l n="1587" xml:id="l1587">C’est à vostre amour seul qui s’offre à redouter.</l>
@@ -3449,15 +3450,15 @@
             <l n="1599" xml:id="l1599">Je crains que cét <ref target="#effort1">effort*</ref> imprudemment tenté</l>
             <l n="1600" xml:id="l1600">Ne le force à l’exil qu’il avoit arresté.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V01-5" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1601" xml:id="l1601">Mais la Reine, Sosime, à quand son hymenée<note n="329" place="bottom">Alors que Sosime lui annonce qu’Hésione risque fort d’être exilée, Sostrate change de sujet et tente d’aborder le cas de Camma. </note> ?</l>
           </sp>
-          <sp who="sosime">
+          <sp xml:id="V01-6" who="sosime">
             <speaker>SOSIME.</speaker>
             <l n="1602" xml:id="l1602">La <ref target="#pompe2">pompe*</ref> vient, Seigneur, d’en estre terminée.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V01-7" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1603" xml:id="l1603">Quoy, c’en est déjà fait ? ah destins ennemis !</l>
             <l n="1604" xml:id="l1604">La Reine est mariée, et les Dieux l’ont permis.</l>
@@ -3465,7 +3466,7 @@
             <l n="1606" xml:id="l1606">Ce qu’elle a témoigné de douleur, de contrainte.</l>
             <l n="1607" xml:id="l1607">C’est pour moy qu’à l’hymen son cœur violenté…</l>
           </sp>
-          <sp who="sosime">
+          <sp xml:id="V01-8" who="sosime">
             <speaker>SOSIME.</speaker>
             <l n="1608" xml:id="l1608">Cessez, cessez, Seigneur, d’en estre inquieté<note n="330" place="bottom">Quiproquo car Sosime croit que Sostrate a peur que Camma ne se soit mariée que par dépit. En fait Sostrate n’en a pas peur, il souhaite au contraire entendre cela. </note>.</l>
             <l n="1609" xml:id="l1609">Dans les biens les plus grands que le Ciel nous envoye</l>
@@ -3490,7 +3491,7 @@
             <l n="1628" xml:id="l1628">En vous sauvant la vie, elle a remply ses vœux.</l>
             <l n="1629" xml:id="l1629">Il est doux d’<ref target="#obliger1">obliger*</ref> quand on gagne un Empire.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V01-9" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1630" xml:id="l1630">Ah, Sosime, c’est trop, <ref target="#souffrir-a">souffre*</ref> que je respire,</l>
             <l n="1631" xml:id="l1631">Si mes maux sont si grands laisse-moy l’ignorer,</l>
@@ -3508,21 +3509,21 @@
             <l n="1643" xml:id="l1643">La Reine est mariée, et pour finir mes <ref target="#jour3">jours</ref></l>
             <l n="1644" xml:id="l1644">Mon desespoir n’attend que ce <ref target="#triste">triste*</ref> secours.</l>
           </sp>
-          <sp who="sosime">
+          <sp xml:id="V01-10" who="sosime">
             <speaker>SOSIME.</speaker>
             <l n="1645" xml:id="l1645">Que dites-vous, Seigneur, et que viens-je d’entendre ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V01-11" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1646" xml:id="l1646">Ce qu’au Roy, ce qu’à tous il faut enfin apprendre,<pb n="70" xml:id="p70"/></l>
             <l n="1647" xml:id="l1647">Dans les maux où le Ciel a voulu m’exposer,</l>
             <l n="1648" xml:id="l1648">Qui n’espere plus rien n’a rien à déguiser<note n="336" place="bottom">Il décide d’avouer la vérité et de ne plus rien dissimuler. Il est déjà mort à lui-même puisqu’il ne peut pas vivre son amour avec Camma et donc il souhaite que la révélation qu’il va faire entraîne sa mort. </note>.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V02">
           <head>SCENE II.</head>
           <stage>SINORIX, SOSTRATE, SOSIME, Suite de Sinorix.</stage>
-          <sp who="sinorix">
+          <sp xml:id="V02-1" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1649" xml:id="l1649">Tu parois encor, lâche, et quand ta perfidie</l>
             <l n="1650" xml:id="l1650">Joint ta gloire soüillée à l’amitié trahie,</l>
@@ -3533,7 +3534,7 @@
             <l n="1655" xml:id="l1655">Et quoy que ton audace aime à le <ref target="#soutenir">soûtenir*</ref>,</l>
             <l n="1656" xml:id="l1656">C’est en te dédaignant que je te veux punir.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V02-2" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1657" xml:id="l1657">Seigneur, puisqu’à ce point ma peine vous est chere,</l>
             <l n="1658" xml:id="l1658">Aprenez que le Ciel cherche à vous satisfaire,</l>
@@ -3545,13 +3546,13 @@
             <l n="1664" xml:id="l1664">Accablent ma raison, et <ref target="#confondre1">confondent*</ref> mes sens,</l>
             <l n="1665" xml:id="l1665">Tout me nuit, tout me perd, tout me devient funeste<note n="337" place="bottom">Isotopie de la douleur, il est écrasé par elle. Ce dernier vers au rythme ternaire se rapproche du vers de <hi rend="i">Phèdre</hi> de Jean Racine, Acte I, 3 vers 161 : « Tout m’afflige et me nuit, et conspire à me nuire » (<hi rend="i">Racine Œuvres Complètes, Ed. Cit.</hi>).</note>.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="V02-3" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1666" xml:id="l1666">Quoy, de tant de <ref target="#fierte2">fierté*</ref> c’est-là ce qui te reste,</l>
             <l n="1667" xml:id="l1667">Et las à me braver de perdre tes <ref target="#effort2">efforts*</ref>,<pb n="71" xml:id="p71"/></l>
             <l n="1668" xml:id="l1668">Tu ne crois plus honteux de ceder au remords ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V02-4" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1669" xml:id="l1669">Non, Seigneur, au remords rien ne peut me résoudre,</l>
             <l n="1670" xml:id="l1670">Quand vous me condamnez la gloire sait m’absoudre,</l>
@@ -3583,7 +3584,7 @@
             <l n="1696" xml:id="l1696">A vous laisser joüir de tout mon desespoir,</l>
             <l n="1697" xml:id="l1697">Je l’estale à vos yeux, triomphez de ma peine.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="V02-5" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1698" xml:id="l1698">C’est donc là d’où partoient les refus de la Reine ?<pb n="72" xml:id="p72"/></l>
             <l n="1699" xml:id="l1699">Toûjours traistre, toûjours infidelle à ton Roy</l>
@@ -3602,10 +3603,10 @@
             <l n="1712" xml:id="l1712">En me privant du <ref target="#jour3">jour</ref>, l’empeschoit de regner.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V03">
           <head>SCENE III.</head>
           <stage>SINORIX, CAMMA, SOSTRATE, SOSIME, PHENICE, Suite.</stage>
-          <sp who="sinorix">
+          <sp xml:id="V03-1" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1713" xml:id="l1713">Madame, sçavez-vous quelle esperance offerte</l>
             <l n="1714" xml:id="l1714">Avoit poussé Sostrate à resoudre ma perte ?</l>
@@ -3613,7 +3614,7 @@
             <l n="1716" xml:id="l1716">S’indignoit d’un hymen qui me rendoit heureux,</l>
             <l n="1717" xml:id="l1717" part="I">Et ma mort…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V03-2" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F"> Je le sçay, mais, Sinorix, écoute,<pb n="G ;73"/></l>
             <l n="1718" xml:id="l1718">Il est d’autres secrets dont tu peux estre en doute,</l>
@@ -3644,11 +3645,11 @@
             <l n="1743" xml:id="l1743">Et découvris enfin, sans qu’on l’ait soupçonné,</l>
             <l n="1744" xml:id="l1744">Que ce Roy malheureux mourut empoisonné.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="V03-3" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1745" xml:id="l1745">Empoisonné, Madame ? ah, coupable entreprise !</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V03-4" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1746" xml:id="l1746">Il n’est pas temps encore de montrer ta surprise,</l>
             <l n="1747" xml:id="l1747">S’il t’est advantageux de la faire éclater,<pb n="74" xml:id="p74"/></l>
@@ -3670,43 +3671,43 @@
             <l n="1763" xml:id="l1763">Que sa mort de mes vœux soit l’objet le plus doux,</l>
             <l n="1764" xml:id="l1764">Je n’ai pû m’<ref target="#affranchir">affranchir*</ref> d’en faire mon Espoux<note n="343" place="bottom">Le réquisitoire de Camma, commencé une tirade plus haut, se clôt sur une pointe tragique puisqu’elle révèle par périphrase le nom du coupable. « En » d’ailleurs renvoie à « Coupable » (v. 1790). </note>.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="V03-5" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1765" xml:id="l1765" part="I">Quoy, Madame…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V03-6" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Tu vois, t’expliquant l’entreprise,</l>
             <l n="1766" xml:id="l1766">Si j’avois lieu d’abord d’arrester ta surprise,</l>
             <l n="1767" xml:id="l1767">Et de dire, en parlant d’un poison odieux,</l>
             <l n="1768" xml:id="l1768">Que ce qui le suivoit la meriteroit mieux ?</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="V03-7" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1769" xml:id="l1769" part="I">Ah, Madame…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V03-8" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Non, non, Sinorix, tu t’abuses</l>
             <l n="1770" xml:id="l1770">Si tu crois que je veüille entendre des excuses,</l>
             <l n="1771" xml:id="l1771">A des vœux criminels tu t’es abandonné,</l>
             <l n="1772" xml:id="l1772">Sinatus leur nuisoit, tu l’as empoisonné.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="V03-9" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1773" xml:id="l1773">Pour asseurer sa <ref target="#flame">flame*</ref>, et détruire ma gloire,</l>
             <l n="1774" xml:id="l1774">C’est-là ce qu’un perfide ose vous faire croire ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V03-10" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1775" xml:id="l1775" part="I">Moy, Seigneur ?<pb n="75" xml:id="p75"/></l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="V03-11" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l part="F">Vous aimant, il a crû reüssir</l>
             <l n="1776" xml:id="l1776">Si de quelque grand crime il pouvoit me noircir ?</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V03-12" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1777" xml:id="l1777">C’est le connoistre mal ; pour un Maistre infidelle</l>
             <l n="1778" xml:id="l1778">Je puis répondre, helas ! qu’il n’a que trop de zele,</l>
@@ -3717,13 +3718,13 @@
             <l n="1783" xml:id="l1783">Et ne puisse opposer qu’un inutile <ref target="#effort2">effort*</ref></l>
             <l n="1784" xml:id="l1784">A cette avidité de poursuivre ta mort.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="V03-13" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1785" xml:id="l1785">Vous, la poursuivre ! vous, dont le secours propice</l>
             <l n="1786" xml:id="l1786">Du coup qui me perdoit a rompu l’injustice !</l>
             <l n="1787" xml:id="l1787">Vous, qui me dérobant aux fureurs d’un ingrat…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V03-14" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1788" xml:id="l1788">Va, ne t’abuse point sur ce noble <ref target="#attentat">attentat*</ref>,</l>
             <l n="1789" xml:id="l1789">Et cesse à ma pitié, dans l’erreur qui te <ref target="#flater3">flate*</ref>,</l>
@@ -3738,7 +3739,7 @@
             <l n="1798" xml:id="l1798">Voilà dequoy j’ay crû te devoir confidence,</l>
             <l n="1799" xml:id="l1799">C’est à toy là-dessus à te bien consulter.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="V03-15" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1800" xml:id="l1800">Non, vous cherchez en vain à me faire douter.</l>
             <l n="1801" xml:id="l1801">Les soupçons qu’en vostre ame on aime à faire naistre<note n="344" place="bottom">« On aime à faire naistre » : le « on » fait référence à Sostrate. </note><pb n="76" xml:id="p76"/></l>
@@ -3746,7 +3747,7 @@
             <l n="1803" xml:id="l1803">Sa mort rend de couroux vostre cœur embrasé,</l>
             <l n="1804" xml:id="l1804">Et m’en croyant l’autheur vous m’auriez épousé ?</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V03-16" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1805" xml:id="l1805">L’affront m’en fait rougir, l’affront m’en desespere,</l>
             <l n="1806" xml:id="l1806">Mais puis que je l’ay fait, croy que je l’ay dû faire<note n="345" place="bottom"><hi rend="i">Croy que je l’ay dû faire</hi> : nécessité morale et pas seulement une obligation. </note>,</l>
@@ -3754,7 +3755,7 @@
             <l n="1808" xml:id="l1808">Je sçay ta perfidie, tu connois mon devoir.</l>
             <l n="1809" xml:id="l1809">C’est t’expliquer assez les projets de ma haine.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="V03-17" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1810" xml:id="l1810">Pour les executer vous aurez peu de peine,</l>
             <l n="1811" xml:id="l1811">Et la vie à mes vœux n’est pas un bien si doux</l>
@@ -3768,7 +3769,7 @@
             <l n="1819" xml:id="l1819">Il est prest, et par luy tout mon sang répandu</l>
             <l n="1820" xml:id="l1820" part="I">Sçaura…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V03-18" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Non, mieux que toy je sçay ce qui t’est dû.</l>
             <l n="1821" xml:id="l1821">Ma vangeance par là <ref target="#flater4">flateroit*</ref> peu ma peine,</l>
@@ -3780,22 +3781,22 @@
             <l n="1827" xml:id="l1827">Et que le coup heureux qu’il refuse à ton bras</l>
             <l n="1828" xml:id="l1828">Me vange de ton crime, et ne l’efface pas.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="V03-19" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1829" xml:id="l1829">Quoy, ce parfait amour dont l’ardeur forte et tendre<pb n="77"/></l>
             <l n="1830" xml:id="l1830">Contre la calomnie auroit dû me defendre,</l>
             <l n="1831" xml:id="l1831">Cet hommage soûmis, ce respect dont jamais…</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V04">
           <head>SCENE IV.</head>
           <stage>SINORIX, CAMMA, SOSTRATE, PHAEDIME, PHENICE, SOSIME, Suite.</stage>
-          <sp who="phaedime">
+          <sp xml:id="V04-1" who="phaedime">
             <speaker>PHAEDIME.</speaker>
             <l n="1832" xml:id="l1832">Ah, Seigneur, les Mutins assiegent le Palais,</l>
             <l n="1833" xml:id="l1833">Et chacun à hauts cris demandant la Princesse …</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V04-2" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1834" xml:id="l1834">Voy par là que le Ciel avec moy s’interesse<note n="347" place="bottom"><hi rend="i">S’interesse avec</hi> : prendre intérêt pour, entrer dans les intérêts de quelqu’un. </note>,</l>
             <l n="1835" xml:id="l1835">De ma vangeance enfin secondant les projets</l>
@@ -3803,7 +3804,7 @@
             <l n="1837" xml:id="l1837">Crains tout de leur revolte, et de l’ardeur soudaine</l>
             <l n="1838" xml:id="l1838" part="I">Qu’a mise…</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="V04-3" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l part="F">Ah, je ne crains que vostre seule haine.</l>
             <l n="1839" xml:id="l1839">Madame, au nom des Dieux daignez regler mon sort,</l>
@@ -3812,12 +3813,12 @@
             <l n="1842" xml:id="l1842">Pourquoy le differer si je suis crû coupable ?</l>
             <l n="1843" xml:id="l1843">Pourquoy n’ordonner pas qu’aux Manes d’un Heros…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V04-4" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1844" xml:id="l1844">Va, songe à tes Mutins, et me laisse en repos,</l>
             <l n="1845" xml:id="l1845">Si le Trône t’est dû, cherche à n’en point descendre.</l>
           </sp>
-          <sp who="sinorix">
+          <sp xml:id="V04-5" who="sinorix">
             <speaker>SINORIX.</speaker>
             <l n="1846" xml:id="l1846">Pour vous le conserver il faut l’aller défendre,<pb n="78" xml:id="p78"/></l>
             <l n="1847" xml:id="l1847">J’y cours, et pour dompter de lâches Factieux</l>
@@ -3828,16 +3829,16 @@
             <l n="1852" xml:id="l1852">Ne prend plus que de moy les ordres de mourir<note n="349" place="bottom">« Mais après…mourir » : si après son succès contre les mutins elle est toujours impassible, il prendra lui-même la décision de mourir. </note>.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V05">
           <head>SCENE V.</head>
           <stage>CAMMA, SOSTRATE, PHENICE.</stage>
-          <sp who="camma">
+          <sp xml:id="V05-1" who="camma">
             <speaker>CAMMA.<note n="350" place="bottom"><hi rend="i">Var. 1692</hi> : Camma, <hi rend="i">voyant Sostrate qui veut s’éloigner.</hi></note> </speaker>
             <l n="1853" xml:id="l1853">Quoy, le peuple peut-estre en veut à ma personne</l>
             <l n="1854" xml:id="l1854">Et dans ce grand peril Sostrate m’abandonne ?</l>
             <l n="1855" xml:id="l1855">Arreste, j’ay besoin icy de ton secours.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V05-2" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1856" xml:id="l1856">Le Destin veut ma mort, il la <ref target="#presser3">presse</ref>, et j’y cours,</l>
             <l n="1857" xml:id="l1857">La vouloir retarder dans l’<ref target="#ennuy">ennuy*</ref> qui m’accable</l>
@@ -3849,7 +3850,7 @@
             <l n="1863" xml:id="l1863">Ostez en le pouvoir à mon juste couroux,</l>
             <l n="1864" xml:id="l1864">Et me laissez mourir sans me plaindre de vous.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V05-3" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1865" xml:id="l1865">Que l’on m’approche un siege<note n="352" place="bottom"><hi rend="i">Que l’on m’approche un siège</hi> : cette expression se rapproche de celle de <hi rend="i">Cinna</hi> de Pierre Corneille, Acte V, 1, vers 1425 : « prends un siège, Cinna (…) ». (<hi rend="i">Corneille, Œuvres Complètes</hi>, Georges Couton (éd.), Gallimard, Pléiade, 1980, vol.1). </note>. Il n’est plus temps, Sostrate,</l>
             <l n="1866" xml:id="l1866">D’empescher contre moy que ce couroux n’éclate.</l>
@@ -3859,7 +3860,7 @@
             <l n="1870" xml:id="l1870">Ce que tu viens d’oüir t’auroit dû satisfaire,</l>
             <l n="1871" xml:id="l1871">Le sort de Sinorix n’est pas un sort trop doux.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V05-4" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1872" xml:id="l1872">Madame, il est haï, mais il est vostre époux.</l>
             <l n="1873" xml:id="l1873">A la vangeance en vain le devoir vous entraîne,</l>
@@ -3899,41 +3900,41 @@
             <l n="1907" xml:id="l1907">Heureux, s’il m’est permis, pour tromper mes malheurs,</l>
             <l n="1908" xml:id="l1908">De vous dire en mourant, c’est pour vous que je meurs.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V05-5" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1909" xml:id="l1909">Tout t’est permis, Sostrate, et tu vois mon silence</l>
             <l n="1910" xml:id="l1910"><ref target="#souffrir">Souffrir*</ref> de ta douleur l’entiere violence,</l>
             <l n="1911" xml:id="l1911">Parle, accuse, condamne un projet important,</l>
             <l n="1912" xml:id="l1912">Peut-estre l’heure est proche où tu seras content.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V05-6" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1913" xml:id="l1913">Où je seray content ? Et le puis-je, Madame,</l>
             <l n="1914" xml:id="l1914">Dans l’affreux desespoir où vous voyez ma <ref target="#flame">flame*</ref> ?</l>
             <l n="1915" xml:id="l1915">Tout l’augmente, et je fais cent <ref target="#effort2">efforts*</ref> superflus…</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V06">
           <pb n="81" xml:id="p81"/>
           <head>SCENE VI.</head>
           <stage>CAMMA, SOSTRATE, SOSIME, PHENICE, Suite.</stage>
-          <sp who="sosime">
+          <sp xml:id="V06-1" who="sosime">
             <speaker>SOSIME.</speaker>
             <l n="1916" xml:id="l1916" part="I">Ah, Madame, le Roy…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V06-2" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="M">Parle, et bien ?</l>
           </sp>
-          <sp who="sosime">
+          <sp xml:id="V06-3" who="sosime">
             <speaker>SOSIME.</speaker>
             <l part="F">Ne vit plus.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V06-4" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1917" xml:id="l1917">Quoy, de nos Factieux la troupe mutinée…<note n="354" place="bottom">Sostrate croit au début que c’est une cause externe qui est à l’origine de la mort de Sinorix comme la mutinerie au palais. </note></l>
           </sp>
-          <sp who="sosime">
+          <sp xml:id="V06-5" who="sosime">
             <speaker>SOSIME.</speaker>
             <l n="1918" xml:id="l1918">Non, Seigneur, apprenez la <ref target="#triste">triste*</ref> destinée.</l>
             <l n="1919" xml:id="l1919">A peine pour punir leurs nouveaux <ref target="#attentat">attentats*</ref></l>
@@ -3967,17 +3968,17 @@
             <l n="1947" xml:id="l1947">Il meurt, et sur ce bruit chacun de voix en voix</l>
             <l n="1948" xml:id="l1948">Esleve la Princesse au Trône de nos Rois.</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V06-6" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1949" xml:id="l1949">Enfin, Sostrate, enfin, grace à mon hymenée,</l>
             <l n="1950" xml:id="l1950">Voicy pour mes desirs une illustre journée,</l>
             <l n="1951" xml:id="l1951">Ma vangeance est remplie, et je meurs sans regret.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V06-7" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1952" xml:id="l1952" part="I">Quoy…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V06-8" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Dy qu’un Trône a sçeu m’<ref target="#eblouir">ébloüir*</ref> en secret,</l>
             <l n="1953" xml:id="l1953">Dy qu’il m’a fait tahir une <ref target="#amour">amour*</ref> sans égale ;</l>
@@ -3985,32 +3986,32 @@
             <l n="1955" xml:id="l1955">Et n’ay donné ma <ref target="#foy2">foy*</ref> que sur le doux espoir</l>
             <l n="1956" xml:id="l1956">D’en obtenir la mort que j’ay fait recevoir.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V06-9" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1957" xml:id="l1957" part="I">La Reine empoisonnée<note n="357" place="bottom">L’exclamation de Sostrate est assez expressive puisque au lieu de crier le nom de Sinorix, il crie celui de Camma dès qu’il comprend qu’elle aussi va mourir car elle a bu dans cette coupe. </note> !</l>
           </sp>
-          <sp who="phenice">
+          <sp xml:id="V06-10" who="phenice">
             <speaker>PHENICE.</speaker>
             <l part="M">Ah, Madame !</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V06-11" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l part="F">Ah, Phenice,</l>
             <l n="1958" xml:id="l1958" part="I">Viste, à la secourir…</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V06-12" who="camma">
             <speaker>CAMMA.</speaker>
             <l part="F">Tu me fais injustice,<pb n="83" xml:id="p83"/></l>
             <l n="1959" xml:id="l1959">Si la douceur de vivre eust <ref target="#flater2">flaté*</ref> ma raison</l>
             <l n="1960" xml:id="l1960">J’aurois sçeu prévenir la force du poison,</l>
             <l n="1961" xml:id="l1961">Laisse agir son pouvoir, le Sort ainsi l’ordonne.</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V06-13" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1962" xml:id="l1962">Qu’aux lâchetez du Sort ce cœur vous abandonne !</l>
             <l n="1963" xml:id="l1963">Que mes <ref target="#soins2">soins*</ref>, mes malheurs, tout soit perdu pour moy !</l>
           </sp>
-          <sp who="camma">
+          <sp xml:id="V06-14" who="camma">
             <speaker>CAMMA.</speaker>
             <l n="1964" xml:id="l1964">Je n’ay rien oublié de ce que je te doy,</l>
             <l n="1965" xml:id="l1965">Mais dans l’estat honteux où de peur de te nuire</l>
@@ -4026,16 +4027,16 @@
             <l n="1975" xml:id="l1975">Qu’on m’emporte, je meurs, et mes sens <ref target="#interdit">interdits*</ref>…</l>
             <stage>On luy aide à marcher pendant qu’elle dit ce dernier vers.</stage>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V06-15" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1976" xml:id="l1976">O peu sensible amant ! elle meurt, et tu vis.</l>
             <l n="1977" xml:id="l1977" part="I">Préviens, lâche, préviens…</l>
           </sp>
-          <sp who="sosime">
+          <sp xml:id="V06-16" who="sosime">
             <speaker>SOSIME <hi rend="i">luy retenant la main qu’il porte sur son épée.</hi></speaker>
             <l part="F">Seigneur, qu’allez-vous faire ?</l>
           </sp>
-          <sp who="sostrate">
+          <sp xml:id="V06-17" who="sostrate">
             <speaker>SOSTRATE.</speaker>
             <l n="1978" xml:id="l1978">Que vous sert d’empescher un coup si necessaire ?</l>
             <l n="1979" xml:id="l1979">Pour m’arrester le bras en de pareils <ref target="#ennuy">ennuis*</ref>,</l>

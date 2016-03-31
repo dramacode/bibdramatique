@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -9,8 +10,7 @@
         <editor>Sévag Tachdjian</editor>
       </titleStmt>
       <editionStmt>
-        <edition>Édition critique établie par Sévag Tachdjian dans le cadre d'un mémoire de
-      maîtrise sous la direction de Georges Forestier (2002-2003)</edition>
+        <edition>Édition critique établie par Sévag Tachdjian dans le cadre d'un mémoire de maîtrise sous la direction de Georges Forestier (2002-2003)</edition>
         <respStmt>
           <name>Amélie Canu</name>
           <resp>Édition XML/TEI</resp>
@@ -33,7 +33,7 @@
         <idno type="epub">http://bibdramatique.paris-sorbonne.fr/corneille-thomas_bellerophon.epub</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Thomas Corneille</author>. <title>Bellerophon. Tragédie</title>. On la vend  A PARIS,  A l’Entrée de la porte de l’Académie Royale de  Musique, au Palais Royal rue S. Honoré.  Imprimée aux dépens de ladite Académie. Par MILLE DE BEAUJEV, Imprimeur.  M. DC. LXXIX.  Avec Privilège de Sa Majesté.</bibl>
+        <bibl><author>Thomas Corneille</author>. <title>Bellerophon. Tragédie</title>. On la vend A PARIS, A l’Entrée de la porte de l’Académie Royale de Musique, au Palais Royal rue S. Honoré. Imprimée aux dépens de ladite Académie. Par MILLE DE BEAUJEV, Imprimeur. M. DC. LXXIX. Avec Privilège de Sa Majesté.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -54,14 +54,13 @@
           <titlePart type="sub">REPRESENTÉE<lb/>PAR L’ACADEMIE ROYALE<lb/>DE MUSIQUE</titlePart>
         </docTitle>
         <docImprint>On la vend <lb/>A PARIS, <lb/>A l’Entrée de la porte de l’Académie Royale de <lb/>Musique, au Palais Royal rue S. Honoré. <lb/>Imprimée aux dépens de ladite Académie.<lb/>Par MILLE DE BEAUJEV, Imprimeur. <lb/>M. DC. LXXIX. <lb/>Avec Privilège de Sa Majesté.</docImprint>
-        <docEdition>Édition critique établie par Sévag Tachdjian dans le cadre d'un mémoire de
-      maîtrise sous la direction de Georges Forestier (2002-2003)</docEdition>
+        <docEdition>Édition critique établie par Sévag Tachdjian dans le cadre d'un mémoire de maîtrise sous la direction de Georges Forestier (2002-2003)</docEdition>
       </titlePage>
       <div>
         <head>Introduction</head>
         <quote>
           <p>La mort de la tragédie, au contraire, produisit une impression universelle et profonde de vide monstrueux. Comme au temps de Tibère des navigateurs grecs égarés dans une île solitaire entendirent un jour cette terrifiante clameur : « Le grand Pan est mort ! » – ainsi retentit alors, à travers le monde hellène, comme un cri de douleur : « La tragédie est morte ! Perdue, avec elle la poésie ! Silence ! Taisez-vous, épigones étioles et pâles ! Aux Enfers ! afin que vous puissiez là-bas vous gaver des miettes des vieux maîtres ! ». Et lorsque apparut enfin une nouvelle forme d’art, qui saluait dans la tragédie son ancêtre et sa suzeraine, on dut constater avec effroi que cette forme reproduisait bien les traits de sa mère, mais justement ceux que celle-ci avait montrés au cours de sa longue agonie.</p>
-          <p>Friedrich Nietzsche,  <hi rend="i">La Naissance de la tragédie.</hi></p>
+          <p>Friedrich Nietzsche, <hi rend="i">La Naissance de la tragédie.</hi></p>
         </quote>
         <p>Il est de bon ton, depuis que la Renaissance a relégué plus d’un millénaire d’une exceptionnelle richesse esthétique au simple stade de « moyen âge », de dénigrer et de critiquer la production artistique des époques précédentes en en soulignant les limites, les défauts et les incohérences. Le Classicisme français, loin d’échapper à cette tradition, en est même l’illustration la plus aboutie : plusieurs générations de Lumières, de Romantiques, et de Structuralistes ont profondément déformé l’image de cet art ancré dans une époque précise et ont finalement conduit, sous prétexte de l’expliquer et de le révéler, à son incompréhension plus ou moins totale. La production dramatique du XVII<hi rend="sup">e</hi> siècle est l’une des plus importantes tout en étant l’une des moins bien connues : la multitude des genres et sous-genres qui se succèdent, se mélangent et se concurrencent n’a pas manqué de gêner la lisibilité de la production de cette époque – tout au plus en schématise-t-on les principaux enjeux littéraires à la trop réductrice opposition entre Classicisme et Baroque. La réalité est heureusement beaucoup plus complexe et autrement plus riche puisque l’art français au XVII<hi rend="sup">e</hi> siècle se trouve écartelé entre diverses tendances : le désir de développer un art original et profondément national dans lequel un pays encore fragilisé par de récentes guerres intestines puisse se reconnaître totalement, la fascination pour un art italien qui tente à plusieurs reprises de s’installer au-delà des Alpes et dont les tendances « baroques » sont réprimées plutôt qu’elles ne sont véritablement rejetées, la nostalgie enfin d’un idéal antique, sorte d’âge d’or à jamais perdu que l’on tente d’approcher le plus possible… Cet écartèlement souligne donc à la fois l’ambiguïté fondamentale des goûts du public et, s’il était besoin de le prouver, l’enjeu et le rôle éminemment politique de l’art louis-quatorzien.</p>
         <p>L’édition critique de pièces ignorées depuis le XVII<hi rend="sup">e</hi> siècle s’inscrit dans cette volonté de démêler les véritables influences et enjeux de la production littéraire de cette époque en les appliquant et les confrontant à un ouvrage précis. Le <hi rend="i">Bellérophon</hi> de Thomas Corneille occupe dans ce contexte une place de choix : succès sans précédent dans l’histoire encore récente de la tragédie en musique, l’œuvre reflète à la fois les questions esthétiques, les enjeux politiques, et la dimension sociale des arts et des spectacles au temps de Louis XIV. Il s’agit donc pour nous, au-delà de la simple analyse de la pièce, d’observer comment et dans quelle mesure une œuvre dramatique s’inscrit dans un système plus vaste que la seule sphère littéraire et nous renseigne autant sur les mœurs politiques, idéologiques et sociales de son époque. Il convient donc de rester particulièrement critique face aux idées reçues en tachant de proposer toujours des outils de jugement et des critères adaptés à la notion étudiée et d’éviter tout anachronisme dans les jugements esthétiques et éthiques : gardons-nous bien d’appliquer à une œuvre écrite au XVII<hi rend="sup">e</hi> siècle pour un public du XVII<hi rend="sup">e</hi> siècle des critères d’analyse issus de la critique moderne. Lorsque Gustave Reynier, l’un des premiers à avoir étudié de manière approfondie et rigoureuse le théâtre de Thomas Corneille, écrit par exemple « quand on songe que ces fantoches [les archétypes du théâtre cornélien] aux traits immuables paraissaient toujours dans le même cadre, on ne peut s’empêcher d’admirer la patience des spectateurs et l’on se demande ce que ces honnêtes gens venaient chercher au théâtre »<note n="1" place="bottom"> Gustave Reynier, <hi rend="i">Thomas Corneille sa vie et son théâtre</hi>, Paris, Hachette, 1892 [Slatkine Reprints, Genève 1970] , p. 141.</note>, force est de constater que l’auteur se place dans l’optique d’un lecteur ou d’un spectateur qui envisage la création littéraire comme une innovation permanente et le théâtre comme le lieu d’un renouvellement constant, alors que le spectateur du XVII<hi rend="sup">e</hi> siècle allait avant tout au théâtre pour voir le Monde et y être vu, pour se divertir et s’amuser. On ne peut donc se faire une idée précise du rôle et de la fonction du théâtre à cette époque qu’en le comparant à une institution équivalente de notre époque<note n="2" place="bottom"> Le cinéma et surtout la télévision, initialement outils de culture et d’instruction de masse – on retrouve le <hi rend="i">ducere et placere</hi> cher à l’aristotélisme à la française – mais dont les excès sont critiqués et condamnés, peuvent ainsi être à juste titre considérés comme un bon équivalent du théâtre à l’époque classique.</note>, comparaison qui seule permettrait de restituer les exacts enjeux et fonctions (tant littéraires que sociaux) du théâtre au XVII<hi rend="sup">e</hi> siècle. Le fait que <hi rend="i">Bellérophon</hi> se situe à une époque où la tragédie dramatique se remet en question face à l’émergence et au succès de la tragédie lyrique ne fait que rendre plus évidente et plus nécessaire une telle démarche : voilà bien l’exemple d’un genre qui se constitue et se définit non pas seulement par des critères purement esthétiques mais aussi en fonction d’une situation sociale, culturelle et surtout politique précise et déterminée. En définitive, « quoi qu’on fasse, on reconstruit toujours le monument à sa manière. Mais c’est déjà beaucoup de n’employer que des pierres authentiques… »<note n="3" place="bottom"> Marguerite Yourcenar, <hi rend="i">Carnet de notes aux Mémoires d’Hadrien</hi>, Paris, Gallimard, 1951 [1974] , p. 328.</note></p>
@@ -253,7 +252,7 @@
           <head>Des personnages fortement caractérisés</head>
           <p>Le théâtre classique étant placé sous le signe de la <hi rend="i">mimèsis</hi>, d’une imitation de la nature qui ne cherche pas tant à inventer qu’à tenter d’approcher le plus possible des modèles antiques, les dramaturges se voient contraints à traiter constamment des sujets semblables et des schémas identiques. On comprend donc qu’au-delà de l’intrigue, c’est par le traitement même des personnages que l’auteur va personnaliser son œuvre et lui conférer une spécificité et une originalité que l’écriture et la versification vont compléter. Mais là encore, les règles restent précises : une typologie rigoureuse s’accompagne d’une règle de convenance qui limitent la liberté du poète. Mais on peut néanmoins déceler, au détour d’un propos, d’une action ou d’une exclamation, une individualité qui laisse deviner une psychologie chez les protagonistes du drame, si sommaire qu’elle soit.</p>
           <p>Dans le cas de <hi rend="i">Bellérophon</hi>, remarquons tout d’abord combien reste traditionnelle la classification des personnages, tant dans l’optique de la tragédie lyrique que dans celle d’une dramaturgie cornélienne : la liste des « acteurs » le souligne déjà assez bien, faisant succéder déesse, roi et reine, prince et princesse, confident et autres protagonistes dans une hiérarchie immuable. Mais c’est surtout leur répartition (le roi, le couple des amants, celui des « méchants », la confidente, le peuple) et leur relation (la chaîne amoureuse qui veut qu’Amisodar aime Sténobée qui aime Bellérophon qui aime et est aimé de Philonoé) qui restent invariables dans nombreuses tragédies : il s’agit de créer un cadre traditionnel afin de faciliter la lisibilité et la compréhension de l’action.</p>
-          <p>Le roi Iobate, s’il n’était qu’un souverain représentant l’autorité à laquelle les autres personnages doivent se conformer, aurait été d’une insignifiance et d’une transparence psychologique évidente. Or nous avons souligné, en parlant de la dramaturgie cornélienne, combien l’auteur se plaisait depuis ses premières tragédies à confronter au sein d’un même personnage devoir et sentiment personnel : en faisant du roi le père de la promise, Corneille accumule chez un même personnage différentes fonctions qui, à terme, vont engendrer un conflit intérieur dont il va sortir grandi. Le personnage du roi complète en effet la glorification du Roi-Soleil entreprise par l’intermédiaire du héros : lorsqu’il déclare à Bellérophon que « la valeur obtient tout des cœurs reconnaissans » (v. 209), c’est moins pour souligner la valeur du personnage que pour prouver sa propre capacité à récompenser et gratifier les êtres méritants. Il en est de même de son geste de clémence (v. 223), qui est, depuis l’auguste exemple déjà mis en scène par l’illustre frère dans <hi rend="i">Cinna</hi>, le geste suprême par lequel un roi s’affirme comme un souverain d’une grandeur exceptionnelle. Mais c’est surtout à la suite de l’oracle que le roi, se voyant confronté à un véritable dilemme, va devoir faire preuve de grandeur et de noblesse : « rien n’est préférable au repos de ces lieux » tranche-t-il, parlant en garant de l’ordre public plus qu’en père. Préférant le bonheur de son peuple à celui de sa fille, il achève le portrait du souverain exemplaire mais acquérant néanmoins une certaine originalité, à défaut  d’une véritable épaisseur psychologique.</p>
+          <p>Le roi Iobate, s’il n’était qu’un souverain représentant l’autorité à laquelle les autres personnages doivent se conformer, aurait été d’une insignifiance et d’une transparence psychologique évidente. Or nous avons souligné, en parlant de la dramaturgie cornélienne, combien l’auteur se plaisait depuis ses premières tragédies à confronter au sein d’un même personnage devoir et sentiment personnel : en faisant du roi le père de la promise, Corneille accumule chez un même personnage différentes fonctions qui, à terme, vont engendrer un conflit intérieur dont il va sortir grandi. Le personnage du roi complète en effet la glorification du Roi-Soleil entreprise par l’intermédiaire du héros : lorsqu’il déclare à Bellérophon que « la valeur obtient tout des cœurs reconnaissans » (v. 209), c’est moins pour souligner la valeur du personnage que pour prouver sa propre capacité à récompenser et gratifier les êtres méritants. Il en est de même de son geste de clémence (v. 223), qui est, depuis l’auguste exemple déjà mis en scène par l’illustre frère dans <hi rend="i">Cinna</hi>, le geste suprême par lequel un roi s’affirme comme un souverain d’une grandeur exceptionnelle. Mais c’est surtout à la suite de l’oracle que le roi, se voyant confronté à un véritable dilemme, va devoir faire preuve de grandeur et de noblesse : « rien n’est préférable au repos de ces lieux » tranche-t-il, parlant en garant de l’ordre public plus qu’en père. Préférant le bonheur de son peuple à celui de sa fille, il achève le portrait du souverain exemplaire mais acquérant néanmoins une certaine originalité, à défaut d’une véritable épaisseur psychologique.</p>
           <p>Le couple des amants se voit pour sa part quelque peu déséquilibré, puisqu’à la grandeur et à l’héroïsme de Bellérophon, la princesse Philonoé n’a rien à proposer de comparable et reste immanquablement en retrait : elle est l’amoureuse traditionnelle tel que le théâtre en offre une multitude d’exemples. Mais peut-être est-ce dans son silence, sa résignation et son impersonnalité qu’il faut chercher la clé du personnage : d’abord fille soumise puis amante et épouse fidèle, elle n’existe que par rapport à l’autorité masculine dont elle dépend. Elle devient une « marchandise » successivement destinée à Bellérophon, puis au fils de Neptune, puis à nouveau à Bellérophon et qui n’a aucun mot à dire sinon ceux de l’acceptation… Ses apparitions et ses propos sont tous subordonnés à son amour : sa confession à Sténobée, son chant d’allégresse et d’amour avec les Amazones puis avec Bellérophon, sa plainte désespérée de voir son amant courir à la mort puis d’être définitivement séparée de lui, sa béatitude lorsque le héros lui est rendu… Hors de son amour, elle n’est rien – et il suffit que ses propos sortent de ce cadre précis pour apparaître d’une fadeur et d’une insignifiance évidentes : que l’on pense à l’exclamation convenue à la mort de Sténobée « quel excés de fureur ? » qui achève d’affirmer la supériorité de caractère de sa rivale, et surtout à l’indéfendable « n’y pensons plus » alors même que son amant lui jure, au comble du désespoir, une foi et un dévouement éternels…</p>
           <p>Son vainqueur, justement, se distingue au contraire par la richesse non pas psychologique, mais plutôt interprétative qu’il propose. Si nous reviendrons par la suite sur la dimension allégorique du Roi-Soleil que Thomas Corneille entreprend par l’intermédiaire de son héros, insistons davantage ici sur l’aspect initiatique de l’évolution du personnage. Si dans les faits, le Bellérophon qui s’écrie au premier acte « puis-je encor me connoistre moy-mesme » et celui qui affirme au dernier « enfin je vous revoy, Princesse incomparable » peuvent sembler identiques, un nouvel exploit ayant tout au plus ajouté quelques lauriers à une couronne déjà bien garnie, le personnage vit en réalité entre ces deux moments une profonde mutation, faisant successivement l’expérience du néant et de la béatitude retrouvée. Si au départ, tout est donné à Bellérophon, la tragédie va nous permettre en effet de suivre le parcours du héros qui, ayant tout perdu, devra tout regagner et le mériter par sa valeur et sa magnanimité : cette lecture est d’ailleurs encouragée par les derniers mots du roi qui dresse de l’œuvre une morale particulièrement claire :</p>
           <quote>
@@ -271,7 +270,7 @@
             <l>Je cours m’offrir au Monstre asseuré de perir,</l>
             <l>Mais je m’en fais un bien supréme.</l>
             <l>Quand on a perdu ce qu’on aime,</l>
-            <l>Il ne reste plus qu’à mourir  (v. 711-716).</l>
+            <l>Il ne reste plus qu’à mourir (v. 711-716).</l>
           </quote>
           <p>l’image même du héros kierkegaardien, qui, à l’instar d’Abraham, ne retrouve définitivement l’objet de sa passion que parce qu’il a décidé d’y renoncer physiquement de manière irrévocable, tout en gardant en son for intérieur l’essence – et donc l’essentiel – de cet amour ? « Seul celui qui va aux enfers retrouve Eurydice ; seul celui qui tire le couteau reçoit Isaac » nous dit Kierkegaard<note n="61" place="bottom"> Cité par Jean Wahl dans son introduction à <hi rend="i">Crainte et tremblement, op. cit.</hi>, p. XII.</note>. Bellérophon, en renonçant à la Princesse, va la regagner définitivement de même que son identité réelle et le trône de Lycie. Ce n’est pas par lâcheté que Bellérophon s’abandonne à une mort certaine, c’est bien au contraire pour préserver intact son amour tel qu’il l’avait déjà déclaré à la fin du troisième acte :</p>
           <quote>
@@ -407,7 +406,7 @@
           <list type="dialogue">
             <item>– alors même qu’il n’est nullement question ici du Monstre que le Héros a défait, mais d’une Paix qui renvoie d’avantage à celle de Nimègue… La Chimère quant à elle, en tant que monstre composite issu de trois monstres, peut représenter la coalition des pays ennemis; alors que ses ravages, décrits avec une précision et un réalisme peu courants, peignent les désastres de la guerre. Il est assez étonnant de voir à quel point l’allégorie fonctionne et comment tous les éléments prennent une dimension symbolique en regard à la situation de la France en ces années 1670.</item>
           </list>
-          <p>La musique, on le sait depuis longtemps<note n="91" place="bottom"> Voir Jean-Marie Apostolidès dans <hi rend="i">Le Roi machine</hi> et <hi rend="i">Le Prince sacrifié</hi>,  et Chantal Grell dans <hi rend="i">Histoire intellectuelle et culturelle de la France du Grand Siècle</hi>, qui ont longuement étudiés les rapports entre musique et politique sous le règne de Louis XIV.</note>, était le domaine exclusif du roi dans son projet d’asseoir son pouvoir et de consolider son règne grâce aux différentes formes d’expression artistique : s’il déléguait volontiers à Colbert l’organisation des lettres et des arts plastiques, la musique n’était confiée à Lully que parce que ce dernier en référait directement à lui,</p>
+          <p>La musique, on le sait depuis longtemps<note n="91" place="bottom"> Voir Jean-Marie Apostolidès dans <hi rend="i">Le Roi machine</hi> et <hi rend="i">Le Prince sacrifié</hi>, et Chantal Grell dans <hi rend="i">Histoire intellectuelle et culturelle de la France du Grand Siècle</hi>, qui ont longuement étudiés les rapports entre musique et politique sous le règne de Louis XIV.</note>, était le domaine exclusif du roi dans son projet d’asseoir son pouvoir et de consolider son règne grâce aux différentes formes d’expression artistique : s’il déléguait volontiers à Colbert l’organisation des lettres et des arts plastiques, la musique n’était confiée à Lully que parce que ce dernier en référait directement à lui,</p>
           <quote>
             <p>l’opéra était la chose du roi. C’était, de toutes les affaires de la cour, ce à quoi il tenait le plus. Bossuet, qui tonne en chaire contre la comédie, n’aura pas un mot sur l’opéra avant 1694<note n="92" place="bottom"> Philippe Beaussant, <hi rend="i">op. cit.</hi>, p. 588.</note>.</p>
           </quote>
@@ -478,7 +477,7 @@
         <p>Cet exemplaire a été imprimé à l’occasion de la première représentation de l’ouvrage donnée à Saint-Germain devant le roi. Il contient la liste complète des interprètes de cette représentation au cours de laquelle le roi endossait les costumes de Bacchus au Prologue et de la Pythie dans la Tragédie ; de même qu’il détaille le nom des chanteurs et des danseurs de chaque divertissement. La <hi rend="i">Permission</hi> et le <hi rend="i">Privilège</hi> sont également reproduits en fin de volume.</p>
         <list>
           <item>– Rés 1145 (Bibliothèque de l’Opéra) in-12° : BELLEROPHON / <hi rend="i">TRAGEDIE</hi> / REPRESENTEE / PAR L’ACADEMIE ROYALE / DE MUSIQUE. / <hi rend="i">Représentée devant sa Majesté le Janvier</hi> / <hi rend="i">1679.</hi> / [globe] <hi rend="i">/ Imprimée à Paris, &amp; on les vend</hi> / <hi rend="i">A ANVERS</hi>, / Chez <hi rend="sc">Henry van Dunnaldt</hi>, Librai- / re au Marché aux Œufs, aux Trois / Moines. 1688. /</item>
-          <item>– Liv 17 [ 107  (Bibliothèque de l’Opéra) in-12° : BELLEROPHON / <hi rend="i">TRAGEDIE</hi>, / REPRESENTEE / PAR L’ACADEMIE ROYALE / DE MUSIQUE / [arbre] / Suivant la [partie ? ] imprimée / A PARIS / [barre] / DICIDCLXXXII /</item>
+          <item>– Liv 17 [ 107 (Bibliothèque de l’Opéra) in-12° : BELLEROPHON / <hi rend="i">TRAGEDIE</hi>, / REPRESENTEE / PAR L’ACADEMIE ROYALE / DE MUSIQUE / [arbre] / Suivant la [partie ? ] imprimée / A PARIS / [barre] / DICIDCLXXXII /</item>
         </list>
         <p>Il s’agit de deux éditions pirates, la première éditée à Anvers, la seconde provient d’Amsterdam (éditée par Antoine Scheffe) et date de 1682. Ces éditions in-12° ne comportent quasiment aucune frise ni d’écusson en fin d’acte. Les coquilles sont généralement corrigées mais il en subsiste de différentes dans chacun des deux exemplaires.</p>
         <list>
@@ -488,7 +487,7 @@
         <list>
           <item>– Rés – YF – 1865 : BELLEROPHON / <hi rend="i">TRAGEDIE</hi> / REPRESENTEE / PAR L’ACADEMIE ROYALE / DE MUSIQUE. / l’An 1679. / Remise au Theatre le Jeudy dixiéme Décembre 1705. / [écusson] / A PARIS, / Chez <hi rend="sc">Christophe Ballard</hi>, seul Imprimeur du Roy / pour la Musique, ruë S. Jean de Beauvais, au Mont-Parnasse. / [barre] / M. DCCV. / <hi rend="i">Avec Privilège de Sa Majesté.</hi> / LE PRIX EST DE TRENTE SOLS.</item>
           <item>– BELLEROPHON / <hi rend="i">TRAGEDIE</hi> / REPRESENTEE POUR LA PREMIERE FOIS / PAR L’ACADEMIE ROYALE / DE MUSIQUE. / l’An 1679. Remise au Theatre pour la seconde fois le Jeudi / dixiéme Décembre 1705. &amp; pour la troisiéme fois / le Mardi onziéme Janvier 1718. / Le prix est de trente sols. / [écusson] / A PARIS, / Chez <hi rend="sc">Pierre Ribou</hi>, seul Libraire de l’Academie / Royale de Musique, Quai des Augustins, à la / Descente du Pont-Neuf, à l’Image S.Loüis. / [barre] / M. DCC XVIII. / <hi rend="i">Avec Approbation &amp; Privilège du Roy.</hi></item>
-          <item>– BELLEROPHON / <hi rend="i">TRAGEDIE</hi> / REPRESENTEE A PARIS, / PAR L’ACADEMIE ROYALE / DE MUSIQUE. / l’An 1679. &amp; le 3. Janvier de l’Année suivante 1680. / à Saint Germain en Laye, devant <hi rend="sc">Le Roy</hi>, / à l’arrivée de Madame la Dauphine, / Remise au Theatre le Mardy sixiéme d’Avril 1728. / N’ayant point été représentée depuis 1718. / [écusson] / DE L’IMPRIMERIE, / De  <hi rend="sc">Jean-Baptiste-Christophe Ballard</hi>, / Seul Imprimeur du Roy et de l’Académie Royale de Musique. / [barre] / M. DCCV XXVIII. / <hi rend="i">Avec Privilège de Sa Majesté.</hi> / LE PRIX EST DE XXX SOLS.</item>
+          <item>– BELLEROPHON / <hi rend="i">TRAGEDIE</hi> / REPRESENTEE A PARIS, / PAR L’ACADEMIE ROYALE / DE MUSIQUE. / l’An 1679. &amp; le 3. Janvier de l’Année suivante 1680. / à Saint Germain en Laye, devant <hi rend="sc">Le Roy</hi>, / à l’arrivée de Madame la Dauphine, / Remise au Theatre le Mardy sixiéme d’Avril 1728. / N’ayant point été représentée depuis 1718. / [écusson] / DE L’IMPRIMERIE, / De <hi rend="sc">Jean-Baptiste-Christophe Ballard</hi>, / Seul Imprimeur du Roy et de l’Académie Royale de Musique. / [barre] / M. DCCV XXVIII. / <hi rend="i">Avec Privilège de Sa Majesté.</hi> / LE PRIX EST DE XXX SOLS.</item>
         </list>
         <p>Le recueil conservé à la BNF regroupe plusieurs exemplaires de notre pièce et nous permet de suivre les reprises et réimpressions de l’ouvrage sur près d’un demi-siècle : malgré les fréquents changements d’éditeur, le texte est toujours le même (notamment dans l’édition de Jean-Baptiste Christophe Ballard qui enchaîne à la page de titre reproduite ci-dessus, l’édition de Christophe Ballard [Rés. 1115] Bibliothèque de l’Opéra…)</p>
         <p>Le texte reproduit dans la présente édition suit exactement celui de l’exemplaire de la Bibliothèque de l’Arsenal, dont nous avons conservé la pagination ainsi que la division en cahiers entre crochets à la droite du texte [9/B] et dont nous avons signalé les pages non numérotées en chiffres romains [IX] .</p>
@@ -513,80 +512,78 @@
       </div>
     </front>
     <body>
-      <pb n="I"/>
       <head>BELLEROPHON<lb/>TRAGEDIE.<lb/>REPRESENTÉE<lb/>PAR L’ACADEMIE ROYALE<lb/>DE MUSIQUE. </head>
-      <pb n="II"/>
-      <div type="set" xml:id="argument" n="1">
-        <head>[Argument]</head>
+      <div n="1" type="set" xml:id="argument">
         <pb n="III"/>
+        <head>[Argument]</head>
         <p rend="i">Le Roy ayant donné la Paix à l’Europe, l’Académie Royale de Musique a creu devoir marquer la part qu’elle prend à la joye publique par un Spectacle, où elle pust faire entrer les témoignages de son zele pour la gloire de cet Auguste Monarque. Elle s’y est creuë d’autant plus obligée que la protection qu’il donne aux beaux Arts les a toûjours fait joüir, pendant le cours méme de la Guerre, de l’heureuse tranquillité qui leur est si nécessaire. C’est ce qui a donné occasion à cette Tragedie en Musique. Le Theatre represente d’abord le Parnasse François. Apollon y vient avec les Muses celebrer le retour d’une paix si glorieuse à la France. <ref target="#pan-lexique">Pan</ref> &amp; Bacchus y arrivent en méme temps, &amp; signalent leur joye par des Danses &amp; par des Chants d’allegresse. Mais Apollon pour mieux divertir le plus Grand Prince de la Terre, imagine sur le champ un Spectacle, où luy-méme avec les Muses veut représenter l’Histoire de Bellerophon. Chacun sçait que ce Heros combatit autrefois la <ref target="#chimere">Chimere*</ref>, monté sur <ref target="#pegase">Pegase*</ref>, &amp; que ce fut d’un coup de<pb n="/ IV"/>/ pied de ce Cheval que nâquit ensuite la fameuse Fontaine qui inspire les Vers, &amp; qui a fait naître la Poësie<note n="98" place="bottom">Voir la note n° 4 p.68 sur la Fontaine d’Hélicon.</note>. On ne sçait pas trop bien qui estoit le Pere de Bellerophon. Les uns tiennent que c’estoit Glaucus, les autres le font Fils de Neptune ; &amp; c’est sur cette diversité d’opinions qu’on a formé l’intrigue de cette Piece, &amp; l’Oracle qui en fut le nœud. Amisodar est un Personnage Episodique, fondé sur ce que quelques Mythologistes raportent sur cette Fable, qu’il y a eu une Femme nommée <ref target="#chimere">Chimere*</ref>, qui épousa un Roy de <ref target="#lycie">Lycie*</ref>, appellé Amisodar.</p>
       </div>
-      <div type="set" xml:id="acteurs-prologue" n="2">
+      <div n="2" type="set" xml:id="acteurs-prologue">
         <head>Acteurs du Prologue.</head>
         <pb n="V"/>
         <castList>
           <castItem>
-            <role xml:id="apollon" rend="male superior">APOLLON.</role>
+            <role rend="male superior" xml:id="apollon">APOLLON.</role>
           </castItem>
           <castItem>
-            <role xml:id="muses" rend="female superior">LES NEUF MUSES.</role>
+            <role rend="female superior" xml:id="muses">LES NEUF MUSES.</role>
           </castItem>
           <castItem>
-            <role xml:id="bacchus" rend="male superior">BACCHUS.</role>
+            <role rend="male superior" xml:id="bacchus">BACCHUS.</role>
           </castItem>
           <castItem>
-            <role xml:id="pan" rend="male superior">PAN.</role>
+            <role rend="male superior" xml:id="pan">PAN.</role>
           </castItem>
           <castItem>
-            <role xml:id="aegipans-menades" rend="inferior">CHŒUR d’Ægipans et de Ménades.</role>
+            <role rend="inferior" xml:id="aegipans-menades">CHŒUR d’Ægipans et de Ménades.</role>
           </castItem>
           <castItem>
-            <role xml:id="choeur-bergers" rend="inferior">CHŒUR de Bergers et de Bergères.</role>
-            <role xml:id="berger" rend="male inferior"/>
+            <role rend="inferior" xml:id="choeur-bergers">CHŒUR de Bergers et de Bergères.</role>
+            <role rend="male inferior" xml:id="berger"/>
           </castItem>
           <castItem>
-            <role xml:id="dryade" rend="female inferior"/>
-            <role xml:id="napee" rend="inferior"/>
+            <role rend="female inferior" xml:id="dryade"/>
+            <role rend="inferior" xml:id="napee"/>
           </castItem>
         </castList>
       </div>
-      <div type="set" xml:id="acteurs-tragedie" n="3">
+      <div n="3" type="set" xml:id="acteurs-tragedie">
         <head>Acteurs de la Tragédie.</head>
         <pb n="VI"/>
         <castList>
           <castItem>
-            <role xml:id="pallas" rend="male">PALLAS<note n="99" place="bottom">Epithète d’Athéna.</note>.</role>
+            <role rend="male" xml:id="pallas">PALLAS<note n="99" place="bottom">Epithète d’Athéna.</note>.</role>
           </castItem>
           <castItem>
-            <role xml:id="iobate" rend="male superior veteran">IOBATE,</role>
+            <role rend="male superior veteran" xml:id="iobate">IOBATE,</role>
             <roleDesc>Roy de Lycie.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="stenobee" rend="female superior veteran">STENOBEE,</role>
+            <role rend="female superior veteran" xml:id="stenobee">STENOBEE,</role>
             <roleDesc>Veuve de Pretus, Roy d’Argos.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="philonoe" rend="female junior">PHILONOE,</role>
+            <role rend="female junior" xml:id="philonoe">PHILONOE,</role>
             <roleDesc>Fille d’Iobate.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="bellerophon" rend="male junior">BELLEROPHON,</role>
+            <role rend="male junior" xml:id="bellerophon">BELLEROPHON,</role>
             <roleDesc>creu Fils de Glaucus.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="amisodar" rend="male">AMISODAR,</role>
+            <role rend="male" xml:id="amisodar">AMISODAR,</role>
             <roleDesc>Prince Lycien, Sçavant en Magie, Amoureux de Sténobée.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="argie" rend="female inferior">ARGIE,</role>
+            <role rend="female inferior" xml:id="argie">ARGIE,</role>
             <roleDesc>Confidente de Sténobée.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="sacrificateur" rend="male exterior">LE SACRIFICATEUR.</role>
+            <role rend="male exterior" xml:id="sacrificateur">LE SACRIFICATEUR.</role>
             <roleDesc>Ministres du Temple d’Apollon.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="pythie" rend="female superior">LA PYTHIE.</role>
+            <role rend="female superior" xml:id="pythie">LA PYTHIE.</role>
           </castItem>
           <castItem>
             <role xml:id="amazones">TROUPE d’Amazones.</role>
@@ -600,7 +597,7 @@
             <role xml:id="magiciens">TROUPE de Magiciens.</role>
           </castItem>
           <castItem>
-            <role xml:id="choeur-peuple" rend="inferior">CHŒUR de Peuple. </role>
+            <role rend="inferior" xml:id="choeur-peuple">CHŒUR de Peuple. </role>
           </castItem>
           <castItem>
             <role xml:id="tous"/>
@@ -614,10 +611,11 @@
         </castList>
         <stage>LA SCENE EST A PATARE<note n="100" place="bottom">Capitale du royaume de Lycie, qui fut également un des lieux du culte d’Apollon.</note> CAPTALE du Royaume de <ref target="#lycie">Lycie*</ref>.</stage>
       </div>
-      <div type="preface" xml:id="prologue">
-        <head>Prologue<pb n="VII"/></head>
+      <div type="preface" xml:id="A">
+        <pb n="VII"/>
+<head>Prologue</head>
         <stage>Le Theatre représente une agreable Vallée, en forme de Costeaux delicieux, au fond desquels paroist le Mont <ref target="#parnasse">Parnasse*</ref> à double sommet, &amp; entre les deux, la Source de la Fontaine d’Helicon<note n="101" place="bottom">Chaîne de montagnes en Béotie, non loin du golfe de Corinthe, qui était l’un des séjours d’Apollon et des Muses. Lors du concours de chant qui opposa celles-ci aux filles de Piéros, l’Hélicon se gonfla de plaisir et menaça d’atteindre les Cieux. Pégase, sur l’ordre de Poséidon, frappa du sabot la montagne qui reprit sa dimension normale ; mais à cet endroit jaillit une source : la source d’Hippocrène ou source du Cheval.</note>. <ref target="#apollon-musagete">Apollon*</ref> est assis au haut de cette Montagne, accompagné des Neuf Muses, qui sont aussi assises des deux costez.</stage>
-        <sp who="apollon">
+        <sp who="apollon" xml:id="A-1">
           <speaker>APOLLON</speaker>
           <l n="1" xml:id="l1">Muses, preparons nos Concerts.</l>
           <l n="2" xml:id="l2">Le plus grand Roy de l’Univers</l>
@@ -626,12 +624,12 @@
           <l n="5" xml:id="l5">Apres avoir chanté les <ref target="#fureurs">fureurs*</ref> de la Guerre,</l>
           <l n="6" xml:id="l6">Chantons les douceurs de la Paix.</l>
         </sp>
-        <sp who="muses">
+        <sp who="muses" xml:id="A-2">
           <speaker>Chœur de Muses</speaker>
           <l n="7" xml:id="l7">Apres avoir chanté les fureurs de la Guerre,</l>
           <l n="8" xml:id="l8">Chantons les douceurs de la Paix.</l>
         </sp>
-        <sp who="apollon">
+        <sp who="apollon" xml:id="A-3">
           <speaker>APOLLON</speaker>
           <l n="9" xml:id="l9">Par cet Auguste Roy la discorde est bannie.</l>
           <l n="10" xml:id="l10">Pour tous les Dieux sa gloire a tant d’<ref target="#appas">appas*</ref>,<pb n="VIII"/></l>
@@ -641,57 +639,57 @@
           <l n="14" xml:id="l14">Pour rendre nos accords plus charmants &amp; plus doux.</l>
           <stage>Bacchus entre icy<note n="104" place="bottom"> Sens latin d’<hi rend="i">hic</hi> (maintenant, à ce moment-là) : adverbe de temps qui marque le temps présent.</note> d’un costé, accompagné d’ Ægipans<note n="105" place="bottom"> Divinités fantastiques des bois au même titre que les Satyres ou les Silènes. Fils d’Egas et de Pan (d’où leur nom de <hi rend="i">chèvre-pan</hi>), ils sont généralement représentés comme de petits hommes velus avec des cornes et des pieds de chèvre.</note> &amp; de Ménades<note n="106" place="bottom">Bacchantes divines, « femmes possédées » suivantes de Dionysos. On les représentait nues ou vêtues d’un voile léger; couronnées de lierre, portant à la main une thyrse, parfois une canthare ou jouant de la double flûte ou encore frappant du tambourin en se livrant à une danse violente. </note>, &amp; Pan entre de l’autre, suivy de Bergers &amp; de Bergeres.</stage>
         </sp>
-        <sp who="bacchus">
+        <sp who="bacchus" xml:id="A-4">
           <speaker>BACCHUS</speaker>
           <l n="15" xml:id="l15">Du fameux bord de l’Inde<note n="107" place="bottom">Fils de Zeus et Sémélé, Bacchus grandit loin de l’Olympe, dans les campagnes de Nysa, ville fabuleuse des Indes dont il fit la conquête avec une troupe d’hommes et de femmes portant, au lieu d’armes, des thyrses et des tambours.</note>, où toûjours la Victoire</l>
           <l n="16" xml:id="l16">Rangea les Peuples sous ma Loy,</l>
           <l n="17" xml:id="l17">Je viens prendre part à la <ref target="#gloire">gloire*</ref></l>
           <l n="18" xml:id="l18">D’un Vainqueur aussi grand que moy.</l>
         </sp>
-        <sp who="pan">
+        <sp who="pan" xml:id="A-5">
           <speaker>PAN</speaker>
           <l n="19" xml:id="l19">J’ay quitté les Forests où je tiens mon Empire</l>
           <l n="20" xml:id="l20">Pour venir comme vous admirer ce <ref target="#heros">Heros*</ref>.</l>
           <l n="21" xml:id="l21">Nos Plaines &amp; nos Bois luy doivent leur repos,</l>
           <l n="22" xml:id="l22">C’est par luy seul qu’en<note n="108" place="bottom">« En » permet de construire un complément de lieu : on trouve de nombreuses expressions où « en » est courant pour signifier « dans » si le substantif est précédé d’un autre déterminant – ici, « nos » (Sancier p. 107).</note> nos Champs on respire.</l>
         </sp>
-        <sp who="tous">
+        <sp who="tous" xml:id="A-6">
           <speaker>TOUS ensemble</speaker>
           <l n="23" xml:id="l23">Chantons le plus grand des Mortels,</l>
           <l n="24" xml:id="l24">Chantons un Roy digne de nos Autels.</l>
         </sp>
-        <sp who="apollon muses">
+        <sp who="apollon muses" xml:id="A-7">
           <speaker>CHŒUR d’Apollon et des Muses</speaker>
           <l n="25" xml:id="l25">Par luy tous nos champs refleurissent.</l>
         </sp>
-        <sp who="bacchus pan">
+        <sp who="bacchus pan" xml:id="A-8">
           <speaker>CHŒUR de Bacchus &amp; de Pan</speaker>
           <pb n="IX"/>
           <l n="26" xml:id="l26">Les tranquilles plaisirs par<note n="109" place="bottom">« Par » permet de construire un complément circonstanciel exprimant le rapport causal et s’emploie à la place de « à cause de » (Sancier p. 110)</note> luy sont de retour.</l>
         </sp>
-        <sp who="apollon muses">
+        <sp who="apollon muses" xml:id="A-9">
           <speaker>CHŒUR d’Apollon &amp; des Muses</speaker>
           <l n="27" xml:id="l27">De son nom seul les Echos retentissent.</l>
         </sp>
-        <sp who="bacchus pan">
+        <sp who="bacchus pan" xml:id="A-10">
           <speaker>CHŒUR de Bacchus &amp; de Pan</speaker>
           <l n="28" xml:id="l28">Si l’on soûpire encor, ce n’est plus que d’amour.</l>
         </sp>
-        <sp who="apollon muses">
+        <sp who="apollon muses" xml:id="A-11">
           <speaker>CHŒUR d’Apollon &amp; des Muses</speaker>
           <l n="29" xml:id="l29">Tout rit dans nos douces retraites.</l>
         </sp>
-        <sp who="bacchus pan">
+        <sp who="bacchus pan" xml:id="A-12">
           <speaker>CHŒUR de Bacchus &amp; de Pan</speaker>
           <l n="30" xml:id="l30">Rien ne vient plus troubler le son de nos Musetes<note n="110" place="bottom">Instrument à vent, symbole de la musique champêtre.</note>.</l>
         </sp>
-        <sp who="tous">
+        <sp who="tous" xml:id="A-13">
           <speaker>TOUS ensemble</speaker>
           <l n="31" xml:id="l31">Chantons le plus grand des Mortels,</l>
           <l n="32" xml:id="l32">Chantons un Roy digne des Autels.</l>
           <stage>Les Bergers &amp; les Bergeres commencent icy une <ref target="#entree">Entrée*</ref>, apres laquelle un Berger chante les deux couplets suivants, qui sont entremeslez de Dances.</stage>
         </sp>
-        <sp who="berger">
+        <sp who="berger" xml:id="A-14">
           <speaker><hi rend="i">CHANSON du</hi> Berger</speaker>
           <l n="33" xml:id="l33">Pourquoy n’avoir pas le cœur tendre ?</l>
           <l n="34" xml:id="l34">Rien n’est si doux que d’aimer.</l>
@@ -703,32 +701,32 @@
           <l n="40" xml:id="l40">Non, non, non, rien n’échappe à l’Amour.</l>
           <stage>Apres cette Chanson, les Ægipans &amp; les Ménades font une <ref target="#entree">Entrée*</ref>, laquelle estant finie, les Bergers &amp; les Bergeres se meslent avec eux ; &amp; ils dansent tous ensemble. Cette dernière Danse est suivie de ce Dialogue de Bacchus &amp; de Pan.</stage>
         </sp>
-        <sp who="pan">
+        <sp who="pan" xml:id="A-15">
           <speaker>PAN</speaker>
           <l n="41" xml:id="l41">Tout est paisible sur la Terre,</l>
           <l n="42" xml:id="l42">Voicy l’heureux temps des Amours.</l>
         </sp>
-        <sp who="bacchus">
+        <sp who="bacchus" xml:id="A-16">
           <speaker>BACCHUS</speaker>
           <l n="43" xml:id="l43">Ils n’ont plus à craindre la Guerre,</l>
           <l n="44" xml:id="l44">Qui des Amants troubloit les plus beaux jours.</l>
         </sp>
-        <sp who="pan">
+        <sp who="pan" xml:id="A-17">
           <speaker>PAN</speaker>
           <l n="45" xml:id="l45">Aimez, Bergers, aimez, Bergeres,</l>
           <l n="46" xml:id="l46">Suivez vos plus tendres desirs.</l>
         </sp>
-        <sp who="bacchus">
+        <sp who="bacchus" xml:id="A-18">
           <speaker>BACCHUS</speaker>
           <l n="47" xml:id="l47">Si l’Amour a des maux, il a mille plaisirs</l>
           <l n="48" xml:id="l48">Qui rendent ses peines legeres.</l>
         </sp>
-        <sp who="bacchus pan">
+        <sp who="bacchus pan" xml:id="A-19">
           <speaker>BACCHUS &amp; PAN</speaker>
           <l n="49" xml:id="l49">Si l’Amour a des maux, il a mille plaisirs</l>
           <l n="50" xml:id="l50">Qui rendent ses peines legeres.</l>
         </sp>
-        <sp who="apollon">
+        <sp who="apollon" xml:id="A-20">
           <speaker>APOLLON</speaker>
           <pb n="XI"/>
           <l n="51" xml:id="l51">Quittez de si vaines Chansons.</l>
@@ -741,7 +739,7 @@
           <l n="58" xml:id="l58">Allons, pour ce grand Roy redoublez vos <ref target="#efforts">efforts*</ref>,</l>
           <l n="59" xml:id="l59">Preparez vos plus doux accords.</l>
         </sp>
-        <sp who="tous">
+        <sp who="tous" xml:id="A-21">
           <speaker>TOUS ensemble</speaker>
           <l n="60" xml:id="l60">Pour ce Grand Roy redoublons nos efforts,</l>
           <l n="61" xml:id="l61">Preparons nos plus doux accords.</l>
@@ -753,10 +751,10 @@
       <div type="act" xml:id="acte1">
         <head>ACTE PREMIER</head>
         <stage>Le Theatre represente une avant-cour du Palais du Roy, au fond de laquelle paroist un grand Arc de Triomphe, &amp; au delà, on découvre la Ville de Patare, Capitale du Royaume de <ref target="#lycie">Lycie*</ref>.</stage>
-        <div type="scene">
+        <div type="scene" xml:id="acte101">
           <head>SCENE PREMIERE</head>
           <stage>STENOBEE, ARGIE</stage>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte101-1">
             <speaker>STENOBEE</speaker>
             <l n="62" xml:id="l62">Non, les soûlevements d’une Ville rebelle</l>
             <l n="63" xml:id="l63">Ne m’ont point fait quitter Argos<note n="112" place="bottom">Ville du royaume de Péloponnèse qu’Argos, fils de Zeus et Niobé, reçue en partage après avoir été reconnu par son père.</note>.</l>
@@ -768,12 +766,12 @@
             <l n="69" xml:id="l69">Et viens en cette Cour faire un dernier <ref target="#efforts">effort*</ref></l>
             <l n="70" xml:id="l70">Sur le cœur d’un <ref target="#ingrat">Ingrat*</ref> que j’aime.</l>
           </sp>
-          <sp who="argie">
+          <sp who="argie" xml:id="acte101-2">
             <speaker>ARGIE</speaker>
             <l n="71" xml:id="l71">Quoy, de Bellerophon l’outrageante froideur</l>
             <l n="72" xml:id="l72">Ne peut de cet amour dégager<note n="113" place="bottom">Au sens ici de « rendre libre, débarrasser, détacher une personne d’une obligation ou d’un engagement ».</note> vostre cœur ?</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte101-3">
             <speaker>STENOBEE</speaker>
             <l n="73" xml:id="l73">Malgré tous mes mal-heurs je serois trop heureuse,</l>
             <l n="74" xml:id="l74">Si les mépris pouvoient guerir l’amour.</l>
@@ -783,14 +781,14 @@
             <l n="78" xml:id="l78">Malgré tous mes mal-heurs je serois trop heureuse,</l>
             <l n="79" xml:id="l79">Si les mépris pouvoient guerir l’amour.</l>
           </sp>
-          <sp who="argie">
+          <sp who="argie" xml:id="acte101-4">
             <speaker>ARGIE</speaker>
             <l n="80" xml:id="l80">Contre Bellerophon vostre aveugle colere<note n="115" place="bottom"> La place de l’adjectif qualificatif ne conduit pas au XVII<hi rend="sup">e</hi> siècle à une variation de sens; l’antéposition ne modifie pas le sens même si théoriciens établissent des raisons rythmiques et sémantiques (il en est de même pour le vers 340…).</note></l>
             <l n="81" xml:id="l81">Aux plus sanglants <ref target="#effets">effets*</ref> devoit s’authoriser ;</l>
             <l n="82" xml:id="l82">L’amour vous le fait voir toûjours digne de plaire,</l>
             <l n="83" xml:id="l83">C’est assez pour vous apaiser.</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte101-5">
             <speaker>STENOBEE</speaker>
             <l n="84" xml:id="l84">Helas ! à quel excez je portay ma vangeance !</l>
             <l n="85" xml:id="l85">Je l’accusay malgré son innocence</l>
@@ -804,7 +802,7 @@
             <l n="93" xml:id="l93">Helas ! quand il se faut vanger<note n="116" place="bottom"> L’infinitif régime fait corps au XVII<hi rend="sup">e</hi> siècle avec le verbe régent, et le pronom régime précède le plus souvent le syntagme verbal (Sancier p. 121)</note> de ce qu’on aime,</l>
             <l n="94" xml:id="l94">Qu’il en coûte pour se vanger !</l>
           </sp>
-          <sp who="argie">
+          <sp who="argie" xml:id="acte101-6">
             <speaker>ARGIE</speaker>
             <l n="95" xml:id="l95">Ne redoutez plus rien ; ce <ref target="#heros">Heros*</ref> invincible</l>
             <l n="96" xml:id="l96">Aux plus affreux perils tant de fois exposé,</l>
@@ -812,7 +810,7 @@
             <l n="98" xml:id="l98">Quel <ref target="#triomphe2">triomphe*</ref> pour vous s’il vous estoit aisé<note n="117" place="bottom">Aisé est ici employé au sens de « qui ne fait point de difficulté, qui est possible ».</note></l>
             <l n="99" xml:id="l99">De rendre enfin son cœur <ref target="#sensible">sensible*</ref> !</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte101-7">
             <speaker>STENOBEE</speaker>
             <l n="100" xml:id="l100">Du moins Bellerophon n’a jamais rien aimé,</l>
             <l n="101" xml:id="l101">C’est à la <ref target="#gloire">gloire*</ref> qu’il se donne,</l>
@@ -829,10 +827,11 @@
             <l n="112" xml:id="l112">Pourquoy suspendre ma vangeance ?</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE II</head><pb n="4"/>
+        <div type="scene" xml:id="acte102">
+          <head>SCENE II</head>
+          <pb n="4"/>
           <stage>STENOBEE, PHILONOE, ARGIE</stage>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte102-1">
             <speaker>PHILONOE</speaker>
             <l n="113" xml:id="l113">Reyne, vous sçavez qu’en ce jour</l>
             <l n="114" xml:id="l114">Je reçois un Espoux de la main de mon Pere.</l>
@@ -847,20 +846,21 @@
             <l n="123" xml:id="l123">Qu’il est doux de trouver dans un Amant qu’on aime</l>
             <l n="124" xml:id="l124">Un Espoux que l’on doit aimer.</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte102-2">
             <speaker>STENOBEE</speaker>
             <l n="125" xml:id="l125">Quoy, Princesse, à l’amour vous auriez pû vous rendre ?</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte102-3">
             <speaker>PHILONOE</speaker>
             <l n="126" xml:id="l126">En vain j’ay voulu m’en défendre.</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte102-4">
             <speaker>STENOBEE</speaker>
             <l n="127" xml:id="l127">Et qui donc aimez-vous ?</l>
           </sp>
-          <sp who="philonoe">
-            <speaker>PHILONOE</speaker><pb n="5"/>
+          <sp who="philonoe" xml:id="acte102-5">
+            <speaker>PHILONOE</speaker>
+            <pb n="5"/>
             <l n="128" xml:id="l128">Un <ref target="#heros">Heros*</ref> que les Dieux</l>
             <l n="129" xml:id="l129">Ont fait des Conquerans l’exemple glorieux.</l>
             <l n="130" xml:id="l130">Estimé dans la paix, redouté dans la guerre,</l>
@@ -870,11 +870,11 @@
             <l n="134" xml:id="l134">Et s’il aime, il n’est point de cœur qui se défend</l>
             <l n="135" xml:id="l135">De ses premiers regards.</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte102-6">
             <speaker>STENOBEE</speaker>
-            <l n="136" xml:id="l136" part="I">Ah ! C’est Bellerophon.</l>
+            <l n="136" part="I" xml:id="l136">Ah ! C’est Bellerophon.</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte102-7">
             <speaker>PHILONOE</speaker>
             <l part="F">C’est luy, je le confesse,</l>
             <l n="137" xml:id="l137">Ne condamnez point ma <ref target="#tendresse">tendresse*</ref>.</l>
@@ -888,22 +888,23 @@
             <l n="145" xml:id="l145">Reyne, favorisez une si belle <ref target="#flame">flâme*</ref>.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE III</head><pb n="6"/>
+        <div type="scene" xml:id="acte103">
+          <head>SCENE III</head>
+          <pb n="6"/>
           <stage>STENOBEE, ARGIE</stage>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte103-1">
             <speaker>STENOBEE</speaker>
             <l n="146" xml:id="l146">Et je croyois qu’aucune <ref target="#ardeur">ardeur*</ref></l>
             <l n="147" xml:id="l147">N’eût jamais enflamé<note n="122" place="bottom"> On se servait souvent au XVII<hi rend="sup">e</hi> siècle du plus-que-parfait du subjonctif comme moyen d’insister sur le caractère hypothétique d’une pensée (Haase §67 B) : on relève ici un tel emploi du subjonctif, qui est plus apte à rendre compte du potentiel contenue dans la proposition complétive. </note> son cœur ?</l>
           </sp>
-          <sp who="argie">
+          <sp who="argie" xml:id="acte103-2">
             <speaker>ARGIE</speaker>
             <l n="148" xml:id="l148">Un cœur qui paroist invincible</l>
             <l n="149" xml:id="l149">Peut estre un temps sans se laisser charmer ;</l>
             <l n="150" xml:id="l150">Mais on a beau se défendre d’aimer,</l>
             <l n="151" xml:id="l151">Le moment vient d’estre sensible*.</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte103-3">
             <speaker>STENOBEE</speaker>
             <l n="152" xml:id="l152">C’en est fait, l’outrage est trop grand.</l>
             <l n="153" xml:id="l153">Si ses cruels refus faisoient tort à ma gloire,</l>
@@ -923,15 +924,15 @@
             <l n="167" xml:id="l167">Qui porte le ravage &amp; la flâme en ces lieux,</l>
             <l n="168" xml:id="l168">Il m’aime, &amp; si sur luy je veux jeter les yeux…</l>
           </sp>
-          <sp who="argie">
+          <sp who="argie" xml:id="acte103-4">
             <speaker>ARGIE</speaker>
             <l n="169" xml:id="l169">Le Roy vient, contraignez l’<ref target="#ennuy">ennuy*</ref> qui vous accable.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte104">
           <head>SCENE IV</head>
           <stage>LE ROY, STENOBEE, ARGIE, SUITE</stage>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte104-1">
             <speaker>LE ROY</speaker>
             <l n="170" xml:id="l170">Contre Bellerophon, j’ay fait jusqu’à ce jour</l>
             <l n="171" xml:id="l171">Ce que Pretus pouvoit attendre</l>
@@ -946,52 +947,52 @@
             <l n="180" xml:id="l180">Je dois me conserver son bras.</l>
             <l n="181" xml:id="l181">Ma Fille est l’objet de sa flâme,</l>
             <l n="182" xml:id="l182">Aujourd’huy de ma main elle attend un Espoux,<pb n="8"/></l>
-            <l n="183" xml:id="l183" part="I">C’est luy que je choisis.</l>
+            <l n="183" part="I" xml:id="l183">C’est luy que je choisis.</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte104-2">
             <speaker>STENOBEE</speaker>
             <l part="F">Ciel, que me dites-vous ?</l>
             <l n="184" xml:id="l184">Choisir Bellerophon ! &amp; qui l’auroit pû croire ?</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte104-3">
             <speaker>LE ROY</speaker>
             <l n="185" xml:id="l185">Ses Exploits l’ont rendu digne de cette gloire.</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte104-4">
             <speaker>STENOBEE</speaker>
             <l n="186" xml:id="l186">Songez-vous que Pretus vous demanda sa mort ?</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte104-5">
             <speaker>LE ROY</speaker>
             <l n="187" xml:id="l187">Les Dieux ne m’ont point fait arbitre de son sort.</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte104-6">
             <speaker>STENOBEE</speaker>
             <l n="188" xml:id="l188">Quoy, vous soûtenez un Coupable ?</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte104-7">
             <speaker>LE ROY</speaker>
             <l n="189" xml:id="l189">Quoy, vôtre haine est implacable ?</l>
           </sp>
-          <sp who="iobate stenobee">
+          <sp who="iobate stenobee" xml:id="acte104-8">
             <speaker>TOUS DEUX</speaker>
             <l n="190" xml:id="l190">Ah, cessez de vous obstiner.</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte104-9">
             <speaker>LE ROY</speaker>
             <l n="191" xml:id="l191">Malgré vôtre jalouse envie,</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte104-10">
             <speaker>STENOBEE</speaker>
             <l n="192" xml:id="l192">Malgré vos soins pour luy sauver la vie,</l>
           </sp>
-          <sp who="iobate stenobee">
+          <sp who="iobate stenobee" xml:id="acte104-11">
             <speaker>TOUS DEUX</speaker>
-            <l n="193" xml:id="l193">Il merite le prix  que je luy veux donner. la mort</l>
+            <l n="193" xml:id="l193">Il merite le prix que je luy veux donner. la mort</l>
             <stage>On entend icy des Timbales &amp; des Trompetes.</stage>
             <pb n="9/B"/>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte104-12">
             <speaker>STENOBEE</speaker>
             <l n="194" xml:id="l194">A ce bruit éclatant je <ref target="#connoistre">connois*</ref> qu’il s’avance.</l>
             <l n="195" xml:id="l195">Je ne vous dis plus rien, mais vous devez songer</l>
@@ -1000,22 +1001,22 @@
             <stage>Apres que Stenobée est sortie, on voit entrer une Troupe d’Amazones<note n="128" place="bottom"> Peuple de femmes descendant d’Arès et de la nymphe Harmonie dont on situe le royaume en Thrace. Elles se gouvernaient elles-mêmes et ne toléraient les hommes que comme serviteurs. Mutilant ou tuant leurs enfants mâles, elles ne gardaient que les enfants femelles à qui elles enlevaient un sein (- celles qui n’ont pas de sein). Divers légendes racontent les combats soutenus par les héros grecs contres ces guerrières dont celui que Bellérophon mena sur l’ordre d’Iobates.</note>, &amp; de Solymes<note n="129" place="bottom">Selon diverses légendes, ces fils de Zeus ou d’Arès formaient une peuplade vivant en Asie Mineure.</note> enchaînez, dont ceux qui les conduisent portent les Armes. La Marche que cette Troupe fait sur le Theatre est une espece de <ref target="#triomphe1">Triomphe*</ref> pour Bellerophon qui entre apres que les Amazones &amp; les Solymes ont passé devant le Roy, &amp; pris leur place.</stage>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte105">
           <head>SCENE V</head>
           <stage>LE ROY, BELLEROPHON, Troupe </stage>
           <stage>d’Amazones et de Solymes</stage>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte105-1">
             <speaker>LE ROY</speaker>
             <l n="198" xml:id="l198">Venez, venez, goûter les doux fruits de la gloire,</l>
             <l n="199" xml:id="l199">Qui dans tout l’Univers vous fait tant de jaloux.</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte105-2">
             <speaker>BELLEROPHON</speaker>
             <l n="200" xml:id="l200">Seigneur, quand on combat pour vous</l>
             <l n="201" xml:id="l201">N’est-on pas seur de la victoire ?</l>
           </sp>
           <pb n="10"/>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte105-3">
             <speaker>LE ROY</speaker>
             <l n="202" xml:id="l202">Apres avoir rangé deux Peuples sous mes Loix,</l>
             <l n="203" xml:id="l203">Prince, vôtre rare vaillance</l>
@@ -1024,11 +1025,11 @@
             <l n="206" xml:id="l206">Vous l’aimez, elle vous aime,</l>
             <l n="207" xml:id="l207">Soyez heureux, j’y consens.</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte105-4">
             <speaker>BELLEROPHON</speaker>
             <l n="208" xml:id="l208">Ah Seigneur ! puis je encor me <ref target="#connoistre">connoistre*</ref> moy-mesme ?</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte105-5">
             <speaker>LE ROY</speaker>
             <l n="209" xml:id="l209">La <ref target="#valeur1">valeur*</ref> obtient tout des cœurs reconnaissans.</l>
             <l n="210" xml:id="l210">Un <ref target="#heros">Heros*</ref> que la gloire éleve</l>
@@ -1036,7 +1037,7 @@
             <l n="212" xml:id="l212">Et c’est peu si l’amour n’acheve</l>
             <l n="213" xml:id="l213">Ce que la Gloire a commencé.</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte105-6">
             <speaker>BELLEROPHON</speaker>
             <l n="214" xml:id="l214">Surpris de tant d’honneurs je ne puis que me taire.</l>
             <l n="215" xml:id="l215">Quel service assez grand pouvoit les meriter ?</l>
@@ -1045,36 +1046,36 @@
             <l n="218" xml:id="l218">Moy qu’un Frere a chassé d’Ephyre<note n="130" place="bottom">Ville fondée par Sisyphe qui prit par la suite le nom de Corinthe. </note>,</l>
             <l n="219" xml:id="l219">Où mon Pere Glaucus avait donné la Loy.</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte105-7">
             <speaker>LE ROY</speaker>
             <l n="220" xml:id="l220">Estre l’appuiy de mon Empire,</l>
             <l n="221" xml:id="l221">C’est meriter assez d’y regner apres moy.</l>
             <l n="222" xml:id="l222">Qu’aucun ne garde icy des sujets de tristesse.<pb n="11"/></l>
             <l n="223" xml:id="l223">A vos Captifs je rends la liberté.</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte105-8">
             <speaker>BELLEROPHON, <hi rend="i">aux Amazones &amp; aux Solymes</hi></speaker>
             <l n="224" xml:id="l224">Faites tous voir vôtre allegresse</l>
             <l n="225" xml:id="l225">En sortant de captivité.</l>
             <stage>Le Roy &amp; Bellerophon estant sortis, ceux qui ont conduit les Amazones &amp; les Solymes, leur ostent les fers, &amp; rendent l’espée aux unes, &amp; la lance aux autres.</stage>
           </sp>
-          <sp who="amazones">
+          <sp who="amazones" xml:id="acte105-9">
             <speaker>AMAZONES</speaker>
             <l n="226" xml:id="l226">Quand un Vainqueur est tout brillant de gloire,</l>
             <l n="227" xml:id="l227">Qu’il est doux de porter ses <ref target="#fers">fers*</ref> !</l>
           </sp>
-          <sp who="solymes">
+          <sp who="solymes" xml:id="acte105-10">
             <speaker>SOLYMES</speaker>
             <l n="228" xml:id="l228">Celuy qui nous soûmit commande à la Victoire,</l>
             <l n="229" xml:id="l229">Il soûmettra tout l’Univers.</l>
           </sp>
-          <sp who="amazones solymes">
+          <sp who="amazones solymes" xml:id="acte105-11">
             <speaker>CHŒUR des Amazones &amp; des Solymes</speaker>
             <l n="230" xml:id="l230">Disons cent fois ce qu’on ne peut trop dire,</l>
             <l n="231" xml:id="l231">Heureux qui vît sous son empire !</l>
             <stage>Les Amazones &amp; les Solymes commencent icy leurs Danses, &amp; chantent ensuite les paroles suivantes, dont chaque couplet se chante apres une <ref target="#entree">Entrée*</ref>.</stage>
           </sp>
-          <sp who="amazones solymes">
+          <sp who="amazones solymes" xml:id="acte105-12">
             <speaker>AMAZONES &amp; SOLYMES</speaker>
             <l n="232" xml:id="l232">Faisons cesser nos <ref target="#alarmes">alarmes*</ref>,</l>
             <l n="233" xml:id="l233">Goûtons les biens que rend la liberté.</l>
@@ -1093,12 +1094,13 @@
         </div>
       </div>
       <div type="act" xml:id="acte2">
-        <head>Acte II</head><pb n="13"/>
+        <head>Acte II</head>
+        <pb n="13"/>
         <stage>Le Theatre represente un Jardin delicieux, au milieu duquel paroist un Berceau<note n="132" place="bottom">Il s’agit d’une treille de jardin faite de charpentes couverte de plantes grimpantes telles que le pampre ou la vigne.</note> en forme de Dôme, soûtenu à l’entour de plusieurs Termes. Au travers de ce Berceau on découvre trois Allées, dont celle du milieu est terminée par un superbe Palais en éloignement. Les deux autres finissent à perte de veuë.</stage>
-        <div type="scene">
+        <div type="scene" xml:id="acte201">
           <head>SCENE PREMIERE</head>
           <stage>PHILONOE, DEUX AMAZONES</stage>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte201-1">
             <speaker>PHILONOE</speaker>
             <l n="244" xml:id="l244">Amour, mes vœux sont satisfaits,</l>
             <l n="245" xml:id="l245">Il m’est doux de porter tes <ref target="#chaines">chaînes*</ref>,</l>
@@ -1109,34 +1111,35 @@
             <l n="250" xml:id="l250">Si j’ay souffert vos tourments les plus rudes,</l>
             <l n="251" xml:id="l251">Je n’ay pas trop payé les douceurs que je sens.</l>
           </sp>
-          <sp who="amazone1">
-            <speaker>I. AMAZONE</speaker><pb n="14"/>
+          <sp who="amazone1" xml:id="acte201-2">
+            <speaker>I. AMAZONE</speaker>
+            <pb n="14"/>
             <l n="252" xml:id="l252">Les douceurs que l’amour fait trouver dans ses chaînes,</l>
             <l n="253" xml:id="l253">Aux plus heureux Amans ont coûté des soûpirs.</l>
           </sp>
-          <sp who="amazone2">
+          <sp who="amazone2" xml:id="acte201-3">
             <speaker>II. AMAZONE</speaker>
             <l n="254" xml:id="l254">Les plaisirs qui n’ont point commencé par les peines,</l>
             <l n="255" xml:id="l255">Ne font jamais de vrais plaisirs.</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte201-4">
             <speaker>PHILONOE</speaker>
             <l n="256" xml:id="l256">Chantez, chantez la <ref target="#valeur1">valeur*</ref> éclatante</l>
             <l n="257" xml:id="l257">Du plus grand des <ref target="#heros">Heros*</ref> ;</l>
             <l n="258" xml:id="l258">Si la <ref target="#lycie">Lycie*</ref> est triomphante,</l>
             <l n="259" xml:id="l259">C’est à luy qu’elle doit sa gloire &amp; son repos.</l>
           </sp>
-          <sp who="amazone1">
+          <sp who="amazone1" xml:id="acte201-5">
             <speaker>I. AMAZONE</speaker>
             <l n="260" xml:id="l260">Que de Lauriers sur une seule teste !</l>
             <l n="261" xml:id="l261">Avec luy la Victoire a peine à respirer<note n="133" place="bottom">Puissante divinité, fille du Styx et de Pallas, la Victoire avait plusieurs temples en Grèce, en Italie et à Rome. On la représente ailée pour souligner sa versatilité, tenant d’une main une couronne de laurier, et de l’autre une palme. L’image d’une Victoire parvenant avec peine à suivre les exploits du guerrier pour le couronner de laurier ne manque cependant pas d’humour.</note>.</l>
           </sp>
-          <sp who="amazone2">
+          <sp who="amazone2" xml:id="acte201-6">
             <speaker>II. AMAZONE</speaker>
             <l n="262" xml:id="l262">De l’Univers entier il eut fait la conqueste,</l>
             <l n="263" xml:id="l263">Si son grand cœur n’eût sçeu se moderer.</l>
           </sp>
-          <sp who="amazones">
+          <sp who="amazones" xml:id="acte201-7">
             <speaker>TOUTES DEUX</speaker>
             <l n="264" xml:id="l264">Chantons, chantons la valeur éclatante</l>
             <l n="265" xml:id="l265">Du plus grand des <ref target="#heros">Heros*</ref> ;</l>
@@ -1144,17 +1147,17 @@
             <l n="267" xml:id="l267">C’est à luy qu’elle doit sa gloire &amp; son repos.<pb n="15"/></l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte202">
           <head>SCENE II</head>
           <stage>BELLEROPHON, PHILONOE, AMAZONES</stage>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte202-1">
             <speaker>BELLEROPHON</speaker>
             <l n="268" xml:id="l268">Princesse, tout conspire<note n="134" place="bottom">Valeur positive de « s’unir, se liguer pour faire réussir une entreprise, un dessin, pour faciliter le succès d’un destin ».</note> à couronner ma <ref target="#flame">flâme*</ref>,</l>
             <l n="269" xml:id="l269">Tout s’apreste pour mon bon-heur.</l>
             <l n="270" xml:id="l270">Sentez-vous les plaisirs qui regnent dans mon ame,</l>
             <l n="271" xml:id="l271">Et les mesmes <ref target="#transports">transports*</ref> charment-ils vôtre cœur ?</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte202-2">
             <speaker>PHILONOE</speaker>
             <l n="272" xml:id="l272">L’amour qui unit par de si douces <ref target="#chaines">chaînes*</ref></l>
             <l n="273" xml:id="l273">A dés long-temps uny tous nos desirs ;</l>
@@ -1162,41 +1165,41 @@
             <l n="275" xml:id="l275">Et si j’ay partagé vos peines,</l>
             <l n="276" xml:id="l276">Je dois partager vos plaisirs.</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte202-3">
             <speaker>BELLEROPHON</speaker>
             <l n="277" xml:id="l277">Qu’un si doux aveu doit<note n="135" place="bottom"> Le verbe « devoir » a au XVII<hi rend="sup">e</hi> siècle une valeur modale que le français moderne préfère traduire en employant le conditionnel. Il en est de même avec le verbe « croire » (v. 324)</note> me plaire !</l>
             <l n="278" xml:id="l278">Qu’il rend mon destin glorieux !</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte202-4">
             <speaker>PHILONOE</speaker>
             <l n="279" xml:id="l279">Quand<note n="136" place="bottom">L’adverbe a ici la valeur d’un « si » hypothétique comme dans la locution affective « quand bien même ».</note> ma bouche pourroit se taire,</l>
             <l n="280" xml:id="l280">L’amour feroit parler mes yeux.</l>
           </sp>
-          <sp who="philonoe bellerophon">
+          <sp who="philonoe bellerophon" xml:id="acte202-5">
             <speaker>TOUS DEUX</speaker>
             <l n="281" xml:id="l281">Que tout parle à l’<ref target="#envy">envy*</ref> de nôtre amour extrême,</l>
             <l n="282" xml:id="l282">A ses <ref target="#transports">transports*</ref> abandonnons nos cœurs,<pb n="16"/></l>
             <l n="283" xml:id="l283">Et pour goûter toujours de nouvelles douceurs,</l>
             <l n="284" xml:id="l284">Disons-nous cent fois : je vous aime.</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte202-6">
             <speaker>PHILONOE <hi rend="i">voyant Stenobée</hi>,</speaker>
             <l n="285" xml:id="l285">Prince, Adieu ; mon devoir m’appelle auprés du Roy,</l>
             <l n="286" xml:id="l286">Je vous laisse le soin d’entretenir<note n="137" place="bottom"> Le XVII<hi rend="sup">e</hi> siècle connaît une certaine instabilité dans la construction des régimes des verbes : les verbes réfléchis admettent fréquemment l’omission du pronom réfléchi sans que le sens en soit altéré (Sancier p. 74). </note> la Reyne.</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte202-7">
             <speaker>BELLEROPHON</speaker>
             <l n="287" xml:id="l287">Quel cruel supplice pour moy !</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte203">
           <head>SCENE III</head>
           <stage>STENOBEE, BELLEROPHON, ARGIE</stage>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte203-1">
             <speaker>STENOBEE</speaker>
             <l n="288" xml:id="l288">Ma présence icy te fait peine.</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte203-2">
             <speaker>BELLEROPHON</speaker>
             <l n="289" xml:id="l289">Il est vrai, je frêmis lors que je vous revoy.</l>
             <l n="290" xml:id="l290">Quel destin ennemy vous améne en <ref target="#lycie">Lycie*</ref> ?</l>
@@ -1204,7 +1207,7 @@
             <l n="292" xml:id="l292">Vous m’avez fait bannir d’Argos,</l>
             <l n="293" xml:id="l293">Ne verray-je jamais vôtre haine adoucie ?</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte203-3">
             <speaker>STENOBEE</speaker>
             <l n="294" xml:id="l294">S’il te souvient des maux que je t’ay faits,</l>
             <l n="295" xml:id="l295">Qu’il te souvienne aussi de ma <ref target="#tendresse">tendresse*</ref> extrême ;<pb n="17/C"/></l>
@@ -1216,7 +1219,7 @@
             <l n="301" xml:id="l301">Plus sur mon cœur il a pris de pouvoir,</l>
             <l n="302" xml:id="l302">Et je ne t’ay jamais haï qu’en apparence.</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte203-4">
             <speaker>BELLEROPHON</speaker>
             <l n="303" xml:id="l303">Vous m’avez sans relâche accablé de mal-heurs,</l>
             <l n="304" xml:id="l304">Je n’ay point reconnû l’amour dans vos <ref target="#fureurs">fureurs*</ref>.</l>
@@ -1228,10 +1231,11 @@
             <l n="310" xml:id="l310">De ma plus mortelle Ennemie.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE IV</head><pb n="18"/>
+        <div type="scene" xml:id="acte204">
+          <head>SCENE IV</head>
+          <pb n="18"/>
           <stage>STENOBEE, ARGIE</stage>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte204-1">
             <speaker>STENOBEE</speaker>
             <l n="311" xml:id="l311">Tu me quittes, <ref target="#cruel">cruel*</ref> ! arreste. Il fuit, helas !</l>
             <l n="312" xml:id="l312">Mon amour voit sa honte, &amp; n’en profite pas.</l>
@@ -1242,28 +1246,29 @@
             <l n="317" xml:id="l317">L’amour trop heureux s’affoiblit,</l>
             <l n="318" xml:id="l318">Mais l’amour mal-heureux s’augmente<note n="138" place="bottom"> Certains verbes sont réfléchis au XVII<hi rend="sup">e</hi> siècle et ne le sont plus de nos jours tels « s’apparaître », « se bouger », « se commencer » (voir également v. 414 et 669).</note>.</l>
           </sp>
-          <sp who="argie">
+          <sp who="argie" xml:id="acte204-2">
             <speaker>ARGIE</speaker>
             <l n="319" xml:id="l319">Quoy, vous pourrez toûjours souffrir</l>
             <l n="320" xml:id="l320">Qu’on vous brave, qu’on vous dédaigne ?</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte204-3">
             <speaker>STENOBEE</speaker>
             <l n="321" xml:id="l321">Non, il faut dans son sang que mon amour s’éteigne.</l>
             <l n="322" xml:id="l322"><ref target="#perdre">Perdons*</ref> tout , faisons tout perir.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE V</head><pb n="19"/>
+        <div type="scene" xml:id="acte205">
+          <head>SCENE V</head>
+          <pb n="19"/>
           <stage>STENOBEE, AMISODAR, ARGIE</stage>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte205-1">
             <speaker>STENOBEE</speaker>
             <l n="323" xml:id="l323">Vous me jurez sans cesse une amour<note n="139" place="bottom">En poésie, « amour » peut être masculin ou féminin au singulier : c’est en fait l’adjectif ou le participe passé à la rime qui détermine le genre.</note> eternelle.</l>
             <l n="324" xml:id="l324">Croiray-je, Amisodar, croiray-je vos serments ?</l>
             <l n="325" xml:id="l325">Me serez vous assez fidelle</l>
             <l n="326" xml:id="l326">Pour ne refuser rien à mes ressentiments ?</l>
           </sp>
-          <sp who="amisodar">
+          <sp who="amisodar" xml:id="acte205-2">
             <speaker>AMISODAR</speaker>
             <l n="327" xml:id="l327">Lorsque l’amour vous asservit mon ame,</l>
             <l n="328" xml:id="l328">Votre insensible cœur devroit se contenter</l>
@@ -1275,7 +1280,7 @@
             <l n="334" xml:id="l334">Et viens vous demander pour toute recompense</l>
             <l n="335" xml:id="l335">Que vous n’en doutiez pas.</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte205-3">
             <speaker>STENOBEE</speaker>
             <l n="336" xml:id="l336">Bellerophon m’a fait une mortelle injure,</l>
             <l n="337" xml:id="l337">Le Roy la connoist &amp; l’endure,</l>
@@ -1285,7 +1290,7 @@
             <l n="341" xml:id="l341">Dont le seul souvenir<pb n="20"/></l>
             <l n="342" xml:id="l342">Fasse trembler tout l’avenir.</l>
           </sp>
-          <sp who="amisodar">
+          <sp who="amisodar" xml:id="acte205-4">
             <speaker>AMISODAR</speaker>
             <l n="343" xml:id="l343">Je puis de la nuit infernale,</l>
             <l n="344" xml:id="l344">Faire sortir un Monstre furieux :</l>
@@ -1298,7 +1303,7 @@
             <l n="351" xml:id="l351">Et nos champs ne seront semez</l>
             <l n="352" xml:id="l352">Que de restes affreux de Victimes sanglantes.</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte205-5">
             <speaker>STENOBEE</speaker>
             <l n="353" xml:id="l353">Que ce Spectacle sera doux</l>
             <l n="354" xml:id="l354">A la <ref target="#fureurs">fureur*</ref> qui me transporte !</l>
@@ -1308,7 +1313,7 @@
             <l n="358" xml:id="l358">Hastez-vous, hastez-vous</l>
             <l n="359" xml:id="l359">De servir mon couroux.</l>
           </sp>
-          <sp who="amisodar">
+          <sp who="amisodar" xml:id="acte205-6">
             <speaker>AMISODAR</speaker>
             <l n="360" xml:id="l360">Jusqu’au fond des Enfers je vay me faire entendre,</l>
             <l n="361" xml:id="l361">Fuyez, Reyne, fuyez ;</l>
@@ -1316,9 +1321,10 @@
             <l n="363" xml:id="l363">De l’horreur qu’en ces lieux mes <ref target="#charmes">Charmes*</ref> vont répandre.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE VI</head><pb n="21"/>
-          <sp who="amisodar">
+        <div type="scene" xml:id="acte206">
+          <head>SCENE VI</head>
+          <pb n="21"/>
+          <sp who="amisodar" xml:id="acte206-1">
             <speaker>AMISODAR <hi rend="i">seul.</hi></speaker>
             <l n="364" xml:id="l364">Que ce jardin se change en Desert affreux.</l>
             <stage>Le Jardin disparoist, &amp; l’on voit en sa place une espece de prison horrible taillée dans les Rochers, &amp; percée à perte de veuë, avec plusieurs Chaînes, Cordages, &amp; Grilles de fer qui la remplissent de toutes parts.</stage>
@@ -1330,14 +1336,15 @@
             <stage>Quatre Magiciens &amp; quatre Magiciennes paroissent, &amp; témoignent en dançant l’ardeur avec laquelle ils se preparent à servir Amisodar. Apres cette <ref target="#entree">Entrée*</ref>, d’autres Magiciens, au nombre de quatorze, viennent faire avec luy la Scene suivante.</stage>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE VII</head><pb n="22"/>
+        <div type="scene" xml:id="acte207">
+          <head>SCENE VII</head>
+          <pb n="22"/>
           <stage>AMISODAR, MAGICIENS</stage>
-          <sp who="magiciens">
+          <sp who="magiciens" xml:id="acte207-1">
             <speaker>MAGICIENS</speaker>
             <l n="370" xml:id="l370">Parle, nous voilà prests, tout nous sera possible.</l>
           </sp>
-          <sp who="amisodar">
+          <sp who="amisodar" xml:id="acte207-2">
             <speaker>AMISODAR</speaker>
             <l n="371" xml:id="l371">Faisons sortir un Monstre horrible.</l>
             <l n="372" xml:id="l372">Pour l’évoquer employez l’Acheron,</l>
@@ -1346,7 +1353,7 @@
             <l n="375" xml:id="l375">C’est moy qui vous l’ordonne.</l>
             <stage>Les Magiciens se jettent icy contre terre pour l’évocation.</stage>
           </sp>
-          <sp who="magiciens">
+          <sp who="magiciens" xml:id="acte207-3">
             <speaker>MAGICIENS</speaker>
             <l n="376" xml:id="l376">Par ce pressant commandement,</l>
             <l n="377" xml:id="l377">Promptement, promptement.,</l>
@@ -1355,7 +1362,7 @@
             <l n="380" xml:id="l380">Cocyte, Phlegeton, il nous faut du secours,</l>
             <l n="381" xml:id="l381">Pour nous entendre arrestez vôtre cours.</l>
           </sp>
-          <sp who="amisodar">
+          <sp who="amisodar" xml:id="acte207-4">
             <speaker>AMISODAR</speaker>
             <l n="382" xml:id="l382">Poursuivez. Que pour moy vôtre pouvoir éclate ;</l>
             <l n="383" xml:id="l383">Par Cerbere<note n="143" place="bottom">Chien d’Hadès qui gardait l’Empire des morts, empêchant les vivants d’y entrer et quiconque d’en sortir. L’imagerie traditionnelle le représente avec trois têtes de chien et une queue de serpent et sur le dos une multitude de têtes de serpents. Il est le fruit de l’union de la vipère Echidna et du géant Typhon. En plus de sa parenté avec la Chimère, il est également le frère d’Orthus, de l’Hydre de Lerne et du Lion de Némée.</note> &amp; la triple Hecate<note n="144" place="bottom">Déesse apparentée à Artémis, descendante directe des Titans. Considérée comme divinité présidant à la magie et aux enchantements, elle est liée au monde des ombres, apparaissant aux magiciens avec une torche dans chaque main. C’est à elle que l’on fait remonter l’invention de la sorcellerie (Médée est sa descendante) et comme magicienne, elle préside aux carrefours où l’on dresse sa statue sous la forme dune femme à trois corps ou à trois têtes.</note> ;</l>
@@ -1363,14 +1370,14 @@
             <l n="385" xml:id="l385">Et la Mort &amp; la Nuit.</l>
             <stage>Les Magiciens se jettent de nouveau contre terre.</stage>
           </sp>
-          <sp who="magiciens">
+          <sp who="magiciens" xml:id="acte207-5">
             <speaker>MAGICIENS</speaker>
             <l n="386" xml:id="l386">Nuit, Mort, Cerbere, Hecate, Erebe<note n="145" place="bottom">Séjour ténébreux à mi-chemin entre le Tartare et la voûte du ciel auquel on accède, d’après Homère, par une avenue de hauts peupliers à l’extrémité de laquelle veille Cerbère.</note>, Averne<note n="146" place="bottom">Lac proche de la Campanie dont les gouffres étaient considérés par les Romains comme l’entrée des Enfers.</note>,</l>
             <l n="387" xml:id="l387">Noires Filles du Stix<note n="147" place="bottom">Fleuve des Enfers, la Styx est une nymphe mariée à Pallas (le titan, fils de Crios et Eurybié) avec lequel elle engendre Zélos (le Zèle), Nikè (la Victoire), Cratos (le Pouvoir) et Bia (la Force). Elle est en outre la garante des serments solennels prononcés par les dieux.</note> que la <ref target="#fureurs">fureur*</ref> gouverne,</l>
             <l n="388" xml:id="l388">Entendez nos cris, servez-vous,</l>
             <l n="389" xml:id="l389">Nous travaillons pour vous.</l>
           </sp>
-          <sp who="amisodar">
+          <sp who="amisodar" xml:id="acte207-6">
             <speaker>AMISODAR</speaker>
             <l n="390" xml:id="l390">Le Charme est fait, les Monstres vont paroistre,</l>
             <l n="391" xml:id="l391">La Terre s’ouvre, &amp; me fait connoistre.</l>
@@ -1378,8 +1385,9 @@
             <l n="393" xml:id="l393">Les honneurs que de nous elles ont méritez.</l>
             <stage>La Terre s’ouvre, &amp; on en voit sortir trois Monstres qui s’élevent au dessus de trois Bûchers ardens, l’un en forme de Dragon, l’autre de Lyon, &amp; le dernier de Bouc. Trois des Magiciens montent dessus; Apres quoi, les quatre qui ont désja dancé font une nouvelle <ref target="#entree">Entrée*</ref> avec les quatre Magiciennes, pour marquer leur joye de ce que le Charme a reüssi. Leur Dance estant finie, les trois Magiciens qui sont sur les Monstres chantent alternativement les paroles suivantes avec les autres Magiciens.</stage>
           </sp>
-          <sp who="magiciens">
-            <speaker>MAGICIENS</speaker><pb n="24"/>
+          <sp who="magiciens" xml:id="acte207-7">
+            <speaker>MAGICIENS</speaker>
+            <pb n="24"/>
             <l n="394" xml:id="l394">La Terre nous ouvre</l>
             <l n="395" xml:id="l395">Ses Gouffres profonds,</l>
             <l n="396" xml:id="l396">L’Enfer se découvre.</l>
@@ -1395,7 +1403,7 @@
             <l n="406" xml:id="l406">De tout surmonter.</l>
             <l n="407" xml:id="l407">Non, non, rien ne peut nous resister.</l>
           </sp>
-          <sp who="amisodar">
+          <sp who="amisodar" xml:id="acte207-8">
             <speaker>AMISODAR</speaker>
             <l n="408" xml:id="l408">Un Monstre seul causeroit peu d’effroy,</l>
             <l n="409" xml:id="l409">Il faut unir ces trois Monstres ensemble.</l>
@@ -1412,10 +1420,10 @@
         <pb n="25/D"/>
         <head>ACTE III</head>
         <stage>Le Theatre represente le Vestibule du Temple fameux, où Apollon rendoit ses Oracles dans la Ville de Patare. Ce Temple paroist d’abord fermé dans le fond, &amp; ne s’ouvre que lors que la Ceremonie commence à paroistre .</stage>
-        <div type="scene">
+        <div type="scene" xml:id="acte301">
           <head>SCENE PREMIERE</head>
           <stage>STENOBEE, ARGIE</stage>
-          <sp who="argie">
+          <sp who="argie" xml:id="acte301-1">
             <speaker>ARGIE</speaker>
             <l n="415" xml:id="l415">Que vous faites couler &amp; de sang &amp; de larmes</l>
             <l n="416" xml:id="l416">Dans ces tristes climats.</l>
@@ -1424,8 +1432,9 @@
             <l n="419" xml:id="l419">Et le Monstre animé par la force des <ref target="#charmes">Charmes*</ref></l>
             <l n="420" xml:id="l420">Marque de mille morts la trace de ses pas.</l>
           </sp>
-          <sp who="stenobee">
-            <speaker>STENOBEE</speaker><pb n="26"/>
+          <sp who="stenobee" xml:id="acte301-2">
+            <speaker>STENOBEE</speaker>
+            <pb n="26"/>
             <l n="421" xml:id="l421">Lieux désolez, &amp; remplis de carnage,</l>
             <l n="422" xml:id="l422">Campagnes où le Monstre a semé tant d’horreur,</l>
             <l n="423" xml:id="l423">Ne me reprochez point ma jalouse <ref target="#fureurs">fureur*</ref>,</l>
@@ -1433,12 +1442,12 @@
             <l n="425" xml:id="l425">L’amour desesperé qui regne dans mon cœur</l>
             <l n="426" xml:id="l426">Vous vange assez de ce ravage.</l>
           </sp>
-          <sp who="argie">
+          <sp who="argie" xml:id="acte301-3">
             <speaker>ARGIE</speaker>
             <l n="427" xml:id="l427">Quoi, vous ne goûtez point la secrette douceur</l>
             <l n="428" xml:id="l428">D’avoir troublé l’<ref target="#hymen">Hymen*</ref> qui vous a outragé ?</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte301-4">
             <speaker>STENOBEE</speaker>
             <l n="429" xml:id="l429">Impuissante vangeance ! inutile secours !</l>
             <l n="430" xml:id="l430">Dequoy peux-tu servir quand on aime toûjours ?</l>
@@ -1450,10 +1459,11 @@
             <l n="436" xml:id="l436">Dequoy<note n="149" place="bottom">Forme soudée de la formule interrogative « de quoi » employé là où le français moderne préfère dire « à quoi ».</note> peux-tu servir quand on aime toûjours ?</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE II</head><pb n="27"/>
+        <div type="scene" xml:id="acte302">
+          <head>SCENE II</head>
+          <pb n="27"/>
           <stage>LE ROY, STENOBEE, ARGIE</stage>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte302-1">
             <speaker>LE ROY</speaker>
             <l n="437" xml:id="l437">Que de mal-heurs accablent la <ref target="#lycie">Lycie*</ref> ?</l>
             <l n="438" xml:id="l438">Si le Ciel luy gardoit de si funestes coups,</l>
@@ -1464,7 +1474,7 @@
             <l n="443" xml:id="l443">Et je partage comme Roy</l>
             <l n="444" xml:id="l444">Les maux que mes Sujets ressentent.</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte302-2">
             <speaker>STENOBEE</speaker>
             <l n="445" xml:id="l445">Quand vous voyez vos Peuples abbatus,</l>
             <l n="446" xml:id="l446">Reconnaissez du Ciel la justice suprême.</l>
@@ -1479,20 +1489,21 @@
             <l n="455" xml:id="l455">Puisque son crime vous attire.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE III</head><pb n="28"/>
+        <div type="scene" xml:id="acte303">
+          <head>SCENE III</head>
+          <pb n="28"/>
           <stage>LE ROY, BELLEROPHON</stage>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte303-1">
             <speaker>BELLEROPHON</speaker>
             <l n="456" xml:id="l456">Vous venez consulter l’Oracle d’<ref target="#apollon-oraculaire">Apollon*</ref> ?</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte303-2">
             <speaker>LE ROY</speaker>
             <l n="457" xml:id="l457">Je viens luy demander ce qu’il faut que j’espere ;</l>
             <l n="458" xml:id="l458">De mes Estats c’est le Dieu tutelaire.</l>
             <l n="459" xml:id="l459">Il écoute ma voix, quand j’implore son nom.</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte303-3">
             <speaker>BELLEROPHON</speaker>
             <l n="460" xml:id="l460">Ce Dieu qui cherit la <ref target="#lycie">Lycie*</ref></l>
             <l n="461" xml:id="l461">Dans ses mal-heurs voudra la secourir,</l>
@@ -1503,66 +1514,67 @@
             <l n="466" xml:id="l466">Verray-je sans rien entreprendre</l>
             <l n="467" xml:id="l467">Que par luy dans ces lieux tout soit remply d’horreur ?</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte303-4">
             <speaker>LE ROY</speaker>
             <l n="468" xml:id="l468">Ah, Prince, songez-vous que trois Monstres ensemble</l>
             <l n="469" xml:id="l469">Sont unis dans ce Monstre affreux ?</l>
             <l n="470" xml:id="l470">A son aspect il n’est rien qui ne tremble,</l>
             <l n="471" xml:id="l471">De sa brûlante haleine il pousse mille feux.</l>
           </sp>
-          <sp who="bellerophon">
-            <speaker>BELLEROPHON</speaker><pb n="29"/>
+          <sp who="bellerophon" xml:id="acte303-5">
+            <speaker>BELLEROPHON</speaker>
+            <pb n="29"/>
             <l n="472" xml:id="l472">Ces trois Monstres unis n’ont rien qui m’épouvante ;</l>
             <l n="473" xml:id="l473">Plus le Combat coûte au Vainqueur,</l>
             <l n="474" xml:id="l474">Plus la Victoire est éclatante,</l>
             <l n="475" xml:id="l475">Et c’est ce qui flatte un grand Cœur.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte304">
           <head>SCENE IV</head>
           <stage>LE ROY, PHILONOE, BELLEROPHON</stage>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte304-1">
             <speaker>PHILONOE</speaker>
             <l n="476" xml:id="l476">Seigneur, à vôtre voix je viens joindre la mienne,</l>
             <l n="477" xml:id="l477">Aux vœux que vous offrez je viens méler mes pleurs,</l>
             <l n="478" xml:id="l478">Et demander au Ciel que la <ref target="#lycie">Lycie*</ref> obtienne</l>
             <l n="479" xml:id="l479">La fin de ses mal-heurs.</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte304-2">
             <speaker>LE ROY</speaker>
             <l n="480" xml:id="l480">Contre le Monstre qui les cause</l>
             <l n="481" xml:id="l481">Bellerophon veut employer son bras.</l>
             <l n="482" xml:id="l482">Consentirez-vous qu’il s’expose ?</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte304-3">
             <speaker>PHILONOE</speaker>
             <l n="483" xml:id="l483">Ah, vous-mesme Seigneur, vous n’y consentez pas ;</l>
             <l n="484" xml:id="l484">Souffrirez-vous qu’il coure où la mort est certaine ?</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte304-4">
             <speaker>BELLEROPHON</speaker>
             <l n="485" xml:id="l485">On court à la Victoire en s’exposant pour vous,</l>
             <l n="486" xml:id="l486">Croyez-en l’<ref target="#ardeur">ardeur*</ref> qui m’entraîne.</l>
             <l n="487" xml:id="l487">Helas ! sans les frayeurs dont la <ref target="#lycie">Lycie*</ref> est pleine,<pb n="30"/></l>
             <l n="488" xml:id="l488">Je serois desja vostre Espoux.</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte304-5">
             <speaker>PHILONOE</speaker>
             <l n="489" xml:id="l489">Esperons tout des Dieux ; un violent orage</l>
             <l n="490" xml:id="l490">Améne quelquefois le calme le plus doux.</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte304-6">
             <speaker>LE ROY</speaker>
             <l n="491" xml:id="l491">Le Temple s’ouvre ; entrons, &amp; par un juste hommage</l>
             <l n="492" xml:id="l492">Meritons que le Ciel appaise son couroux.</l>
             <stage>Le Sacrificateur paroist avec ses Ministres, &amp; un grand nombre de Peuple qui entre dans le Temple en dançant. Apres la premiere Dance, le Chœur du Peuple chante les paroles qui suivent.</stage>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte305">
           <head>SCENE V</head>
           <stage>LE ROY, BELLEROPHON, PHILONOE, SACRIFICATEUR, </stage>
           <stage>MINISTRES du Temple, CHŒUR de Peuple.</stage>
-          <sp who="choeur-peuple">
+          <sp who="choeur-peuple" xml:id="acte305-1">
             <speaker>CHŒUR de Peuple</speaker>
             <l n="493" xml:id="l493">Le mal-heur qui nous accable</l>
             <l n="494" xml:id="l494">Demande un Dieu favorable.</l>
@@ -1582,17 +1594,17 @@
             <l n="507" xml:id="l507">Viens nous secourir.</l>
             <l n="508" xml:id="l508">Hâte-toy, sauve nous, ou bien nous allons périr.</l>
           </sp>
-          <sp who="sacrificateur">
+          <sp who="sacrificateur" xml:id="acte305-2">
             <speaker>SACRIFICATEUR</speaker>
             <l n="509" xml:id="l509">Reçois, grand <ref target="#apollon-musagete">Apollon*</ref>, reçois ce Sacrifice,</l>
             <l n="510" xml:id="l510">Fais que le Ciel nous soit propice.</l>
           </sp>
-          <sp who="choeur-peuple">
+          <sp who="choeur-peuple" xml:id="acte305-3">
             <speaker>CHŒUR de Peuple</speaker>
             <l n="511" xml:id="l511">D’un Cœur soûmis nous t’adressons nos vœux,</l>
             <l n="512" xml:id="l512">Ecoute un Peuple mal-heureux.</l>
           </sp>
-          <sp who="sacrificateur">
+          <sp who="sacrificateur" xml:id="acte305-4">
             <speaker>SACRIFICATEUR, <hi rend="i">versant du vin</hi><note n="152" place="bottom"> Image de l’union avec le dieu de l’Extase, le vin est réputé pour être un révélateur des vérités divines. Dans le rituel romain, l’animal était conduit à l’autel pour y recevoir la libation préliminaire du vin et de l’encens. Puis l’officiant procédait à l’<hi rend="i">immolatio</hi> en saupoudrant la tête de la victime de <hi rend="i">mola salsa</hi> (farine de froment préparée par les Vestales) et de vin.</note> <hi rend="i">sur la teste de la victime</hi></speaker>
             <l n="513" xml:id="l513">Par ce vin répandu fais cesser nos allarmes,</l>
             <l n="514" xml:id="l514">Arreste le cours de nos larmes.</l>
@@ -1602,18 +1614,18 @@
             <l n="518" xml:id="l518">Avancez, il est temps d’immoler la Victime.</l>
             <stage>Les Ministres du Temple s’avancent auprès du Sacrificateur, &amp; immolent la victime.</stage>
           </sp>
-          <sp who="choeur-peuple">
+          <sp who="choeur-peuple" xml:id="acte305-5">
             <speaker>CHŒUR de Peuple</speaker>
             <l n="519" xml:id="l519">Dieux, qui connoissez nos mal-heurs,</l>
             <l n="520" xml:id="l520">Laissez-vous toucher de nos pleurs.</l>
           </sp>
-          <sp who="sacrificateur">
+          <sp who="sacrificateur" xml:id="acte305-6">
             <speaker>SACRIFICATEUR, <hi rend="i">monstrant le cœur de la Victime</hi></speaker>
             <l n="521" xml:id="l521">Esperons, je ne voy que Signes<note n="153" place="bottom">Dans les expressions du type verbe/substantif objet, l’omission de l’article est courante lorsque le nom renvoie à une notion ou une chose abstraite (Sancier p. 20).</note> favorables.</l>
             <l n="522" xml:id="l522">Nos vœux au Ciel doivent estre agreables.</l>
             <stage>Il jette le cœur &amp; les entrailles dans le feu.</stage>
           </sp>
-          <sp who="choeur-peuple">
+          <sp who="choeur-peuple" xml:id="acte305-7">
             <speaker>CHŒUR de Peuple</speaker>
             <l n="523" xml:id="l523">Aprés un <ref target="#augure">augure*</ref> si doux,</l>
             <l n="524" xml:id="l524">Tâchons de meriter que les Dieux soient pour<note n="154" place="bottom">La préposition s’emploie pour marquer la faveur, le parti, là où le français moderne utilise « avec ».</note> nous.</l>
@@ -1635,13 +1647,13 @@
             <l n="537" xml:id="l537">Ne craignons plus rien de contraire,</l>
             <l n="538" xml:id="l538">Nos maux ont touché les Dieux.</l>
           </sp>
-          <sp who="sacrificateur">
+          <sp who="sacrificateur" xml:id="acte305-8">
             <speaker>SACRIFICATEUR</speaker>
             <l n="539" xml:id="l539">Tout m’apprend qu’<ref target="#apollon-musagete">Apollon*</ref> dans nos vœux s’interesse,</l>
             <l n="540" xml:id="l540">Redoublez à l’<ref target="#envy">envy*</ref> vos marques d’allegresse.</l>
             <stage>Le Peuple commence une nouvelle Dance à l’entour du Feu, &amp; chante les paroles qui suivent.</stage>
           </sp>
-          <sp who="choeur-peuple">
+          <sp who="choeur-peuple" xml:id="acte305-9">
             <speaker>[CHŒUR de Peuple]</speaker>
             <l n="541" xml:id="l541">Assez de pleurs</l>
             <l n="542" xml:id="l542">Ont suivy nos malheurs ;</l>
@@ -1668,13 +1680,13 @@
             <l n="563" xml:id="l563">Rapelle icy tous ses charmes,</l>
             <l n="564" xml:id="l564">Toy que ses <ref target="#traits">traits*</ref> ont tant de fois soûmis.</l>
           </sp>
-          <sp who="sacrificateur">
+          <sp who="sacrificateur" xml:id="acte305-10">
             <speaker>SACRIFICATEUR</speaker>
             <l n="565" xml:id="l565">Digne Fils de Latone<note n="156" place="bottom">Nymphe appartenant à la première génération divine, Latone – ou plutôt Léto – était fille du Titan Cœos et de la Titanide Phœbé et mère d’Apollon. Elle encourue la jalousie d’Héra et on raconte que c’est pour la sauver qu’Apollon tua le serpent Python qui la menaçait.</note> &amp; du plus grand des Dieux,</l>
             <l n="566" xml:id="l566">Parle, &amp; daigne regler le destin de ces lieux.</l>
             <stage>L’Autel qui a parû s’enfonce, &amp; la Pythie<note n="157" place="bottom">Prophétesse inspirée, qui dans ses accès de délire divinatoire prédisait l’avenir au temple d’Apollon. C’est sur un trépied au-dessus des vapeurs qu’elle prononçait des paroles incohérentes que les prêtres avaient mission d’interpréter – délires qui n’étaient d’ailleurs pas toujours simulés.</note> sort de son antre les cheveux épars. En mesme temps on entend de grands éclats de Tonnerre. Le Temple tremble, &amp; on le voit tout brillant d’éclairs.</stage>
           </sp>
-          <sp who="pythie">
+          <sp who="pythie" xml:id="acte305-11">
             <speaker>LA PYTHIE</speaker>
             <l n="567" xml:id="l567">Gardez tous un silence extrême,</l>
             <l n="568" xml:id="l568"><ref target="#apollon-musagete">Apollon*</ref> vous entend &amp; va parler luy-mesme.</l>
@@ -1686,7 +1698,7 @@
             <l n="574" xml:id="l574">A son aspect fremissez comme moy.<pb n="35"/></l>
             <stage>La Pythie se panche vers la Terre, tandis qu’Apollon paroist en Statuë d’or, &amp; prononce l’Oracle qui suit.</stage>
           </sp>
-          <sp who="apollon">
+          <sp who="apollon" xml:id="acte305-12">
             <speaker>APOLLON</speaker>
             <l n="575" xml:id="l575">Que vostre crainte cesse.</l>
             <l n="576" xml:id="l576">Un des fils de Neptune appaisera pour vous</l>
@@ -1695,7 +1707,7 @@
             <l n="579" xml:id="l579">Le prenne pour Espoux.</l>
             <stage>La Pythie s’enfonce dans l’Antre d’où elle est sortie. Apollon disparoist, &amp; le peuple se retire.</stage>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte305-13">
             <speaker>LE ROY <hi rend="i">à Bellérophon et à Philonoé</hi></speaker>
             <l n="580" xml:id="l580">Vous l’avez entendu, je n’ay rien à vous dire,</l>
             <l n="581" xml:id="l581">Je plains vos déplaisirs, comme vous j’en soûpire,</l>
@@ -1703,60 +1715,62 @@
             <l n="583" xml:id="l583">Soûmettons-nous aux Dieux.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte306">
           <head>SCENE VI</head>
           <stage>BELLEROPHON, PHILONOE</stage>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte306-1">
             <speaker>BELLEROPHON</speaker>
             <l n="584" xml:id="l584">Dans quel accablement cet Oracle me laisse !</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte306-2">
             <speaker>PHILONOE</speaker>
             <l n="585" xml:id="l585">Ah, cruelle surprise<note n="158" place="bottom">Sens fort à connotation négative d’étonnement face à une tromperie, une chose faite contre l’ordre.</note> !</l>
           </sp>
-          <sp who="bellerophon">
-            <speaker>BELLEROPHON</speaker><pb n="36"/>
+          <sp who="bellerophon" xml:id="acte306-3">
+            <speaker>BELLEROPHON</speaker>
+            <pb n="36"/>
             <l n="586" xml:id="l586">O funeste revers !</l>
             <l n="587" xml:id="l587">Quoy ? je vous pers, belle Princesse ?</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte306-4">
             <speaker>PHILONOE</speaker>
             <l n="588" xml:id="l588">Quoy ? Bellerophon, je vous pers ?</l>
           </sp>
-          <sp who="philonoe bellerophon">
+          <sp who="philonoe bellerophon" xml:id="acte306-5">
             <speaker>TOUS DEUX</speaker>
             <l n="589" xml:id="l589">Helas ! n’avons nous eû le destin favorable,</l>
             <l n="590" xml:id="l590">Que pour mieux ressentir le coup qui nous accable ?</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte306-6">
             <speaker>BELLEROPHON</speaker>
             <l n="591" xml:id="l591">Mes vœux allaient estre contents</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte306-7">
             <speaker>PHILONOE</speaker>
             <l n="592" xml:id="l592">Jamais sort n’eust esté plus heureux que le nostre.</l>
           </sp>
-          <sp who="philonoe bellerophon">
+          <sp who="philonoe bellerophon" xml:id="acte306-8">
             <speaker>TOUS DEUX</speaker>
             <l n="593" xml:id="l593">Qui croiroit que deux cœurs si tendres, si constants,</l>
             <l n="594" xml:id="l594">Ne fussent pas destinez l’un pour l’autre ?</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte306-9">
             <speaker>BELLEROPHON</speaker>
             <l n="595" xml:id="l595">Vous ne serez donc point à moy ?</l>
             <l n="596" xml:id="l596">Quel prix d’une <ref target="#ardeur">ardeur*</ref> si fidelle !</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte306-10">
             <speaker>PHILONOE</speaker>
-            <l n="597" xml:id="l597" part="I">N’y pensons plus.</l>
+            <l n="597" part="I" xml:id="l597">N’y pensons plus.</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte306-11">
             <speaker>BELLEROPHON</speaker>
             <l part="F">Quoy ? vous pourrez<note n="159" place="bottom"> Les verbes « pouvoir » et « devoir » ont au XVII<hi rend="sup">e</hi> siècle une valeur modale lorsqu’ils sont employés au passé (voir aussi v. 102 et 277), le français moderne préférant utiliser le conditionnel.</note>, cruelle,</l>
             <l n="598" xml:id="l598">Engager ailleurs votre foy ?</l>
           </sp>
-          <sp who="philonoe">
-            <speaker>PHILONOE</speaker><pb n="37"/>
+          <sp who="philonoe" xml:id="acte306-12">
+            <speaker>PHILONOE</speaker>
+            <pb n="37"/>
             <l n="599" xml:id="l599">Brisez, brisez une fatale chaîne.</l>
             <l n="600" xml:id="l600">Quand j’ay receu l’hommage de vos vœux,</l>
             <l n="601" xml:id="l601">Je croyois que le Ciel consentiroit sans peine</l>
@@ -1764,7 +1778,7 @@
             <l n="603" xml:id="l603">Et je n’attendois pas l’Oracle rigoureux</l>
             <l n="604" xml:id="l604">Qui nous sacrifie à la haine.</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte306-13">
             <speaker>BELLEROPHON</speaker>
             <l n="605" xml:id="l605">Non, non, quoy qu’il ait ordonné,</l>
             <l n="606" xml:id="l606">On ne verra jamais que mon amour s’éteigne<note n="160" place="bottom"> La langue du XVII<hi rend="sup">e</hi> siècle emploie une proposition relative alors que le français moderne recourt systématiquement avec les verbes de perception à la périphrase verbale « voir s’éteindre ».</note>,</l>
@@ -1775,16 +1789,16 @@
             <l n="611" xml:id="l611">Au moins je puis etre fidelle,</l>
             <l n="612" xml:id="l612">Si je ne sçaurois estre heureux.</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte306-14">
             <speaker>PHILONOE</speaker>
             <l n="613" xml:id="l613">Se peut-il que le Ciel contre un amour si tendre</l>
             <l n="614" xml:id="l614">Exerce toutes ses rigueurs ?</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte306-15">
             <speaker>BELLEROPHON</speaker>
             <l n="615" xml:id="l615">De ses ordres cruels l’Amour doit-il dépendre ?</l>
           </sp>
-          <sp who="philonoe bellerophon">
+          <sp who="philonoe bellerophon" xml:id="acte306-16">
             <speaker>TOUS DEUX</speaker>
             <l n="616" xml:id="l616">Aimons nous malgré nos mal-heurs,</l>
             <l n="617" xml:id="l617">Ce n’est pas au Destin à separer les cœurs.</l>
@@ -1793,11 +1807,12 @@
         </div>
       </div>
       <div type="act" xml:id="acte4">
-        <head>ACTE IV</head><pb n="38"/>
+        <head>ACTE IV</head>
+        <pb n="38"/>
         <stage>Des Rochers forts hauts &amp; forts escarpez, couverts de Sapins &amp; d’autres Arbres solitaires font la Decoration de cét Acte. Au fond du Theatre paroist un Rocher de la méme hauteur, &amp; garny des mémes Arbres. Il est percé par trois Grotes, au travers desquelles on découvre un Païsage à perte de veuë.</stage>
-        <div type="scene">
+        <div type="scene" xml:id="acte401">
           <head>SCENE PREMIERE</head>
-          <sp who="amisodar">
+          <sp who="amisodar" xml:id="acte401-1">
             <speaker>AMISODAR</speaker>
             <l n="618" xml:id="l618">Quel Spectacle charmant pour mon cœur amoureux !</l>
             <l n="619" xml:id="l619">Ces Morts de tous costez étendus dans les plaines</l>
@@ -1816,10 +1831,10 @@
             <l n="632" xml:id="l632">Qu’importe à quel prix ?</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte402">
           <head>SCENE II</head>
           <stage>ARGIE, AMISODAR <note n="161" place="bottom"> La partition ayant servi aux représentations de Saint-Germain conservée à la Bibliothèque de l’Opéra de Paris (Microfilm A11a) présente une importante variante de cette scène, puisque c’est Sténobée elle-même qui vient pour tenter de convaincre Amisodar d’épargner Bellérophon : “ 633    Sténobée     - Il faut satisfaire ma haine, / Il faut rendre le Monstre à l’eternelle nuit […] / 645    Amisodar     - Quoi ? Vous pouvez vous allarmer / Au moment d’accomplir une heureuse vengeance ? / Est-ce le haïr ou l’aimer ? / 648    Sténobée     - Montrez que vostre cœur ne cherche qu’à me plaire, / Pourquoi vouloir penetrer dans le mien ? […] / 654    Ou faites moi ce sacrifice, / Ou renoncez à vostre amour.”</note></stage>
-          <sp who="argie">
+          <sp who="argie" xml:id="acte402-1">
             <speaker>ARGIE</speaker>
             <l n="633" xml:id="l633">Il faut, pour contenter la Reyne,</l>
             <l n="634" xml:id="l634">Rendre le Monstre à l’eternelle nuit ;</l>
@@ -1833,130 +1848,133 @@
             <l n="642" xml:id="l642">Voir aux mains d’un Rival l’Objet de sa <ref target="#tendresse">tendresse*</ref>,</l>
             <l n="643" xml:id="l643">C’est tous les jours endurer mille morts.</l>
           </sp>
-          <sp who="amisodar">
-            <speaker>AMISODAR</speaker><pb n="40"/>
+          <sp who="amisodar" xml:id="acte402-2">
+            <speaker>AMISODAR</speaker>
+            <pb n="40"/>
             <l n="644" xml:id="l644">Le laisser vivre ! O Dieux ! que faut-il que je pense ?</l>
             <l n="645" xml:id="l645">Je voy pour luy la Reyne s’alarmer</l>
             <l n="646" xml:id="l646">Lors que sa mort est preste à remplir sa vangeance.</l>
             <l n="647" xml:id="l647">Est-ce le haïr ou l’aimer ?</l>
           </sp>
-          <sp who="argie">
+          <sp who="argie" xml:id="acte402-3">
             <speaker>ARGIE</speaker>
             <l n="648" xml:id="l648">Montrez que vostre cœur ne cherche qu’à luy plaire.</l>
             <l n="649" xml:id="l649">Pourquoy penetrer dans le sien ?</l>
             <l n="650" xml:id="l650">Quand l’objet aimé parle, un Amant doit tout faire,</l>
             <l n="651" xml:id="l651">Et n’<ref target="#examiner">examiner*</ref> rien.</l>
           </sp>
-          <sp who="amisodar">
+          <sp who="amisodar" xml:id="acte402-4">
             <speaker>AMISODAR</speaker>
             <l n="652" xml:id="l652">Non, non, que mon Rival perisse,</l>
             <l n="653" xml:id="l653">Est-ce à moy d’empécher qu’il ne <ref target="#perdre">perde*</ref> le jour ?</l>
           </sp>
-          <sp who="argie">
+          <sp who="argie" xml:id="acte402-5">
             <speaker>ARGIE</speaker>
             <l n="654" xml:id="l654">Il faut faire à la Reine encor ce Sacrifice,</l>
             <l n="655" xml:id="l655">Ou renoncer à vostre amour.</l>
           </sp>
-          <sp who="voix-derriere-theatre">
+          <sp who="voix-derriere-theatre" xml:id="acte402-6">
             <speaker>VOIX <hi rend="i">derriere le Theatre.</hi></speaker>
             <l n="656" xml:id="l656">Tout est perdu, le Monstre avance,</l>
             <l n="657" xml:id="l657">Sauvons-nous, sauvons-nous.</l>
           </sp>
-          <sp who="amisodar">
+          <sp who="amisodar" xml:id="acte402-7">
             <speaker>AMISODAR</speaker>
             <l n="658" xml:id="l658">Le Monstre approche, éloignez-vous.</l>
           </sp>
-          <sp who="argie">
+          <sp who="argie" xml:id="acte402-8">
             <speaker>ARGIE</speaker>
             <l n="659" xml:id="l659">Ciel, contre sa <ref target="#fureurs">fureur*</ref> embrasse ma défense.<pb n="41/F"/></l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte403">
           <head>SCENE III</head>
           <stage>UNE NAPEE, UNE DRYADE</stage>
-          <sp who="napee dryade">
+          <sp who="napee dryade" xml:id="acte403-1">
             <speaker>ENSEMBLE</speaker>
             <l n="660" xml:id="l660">Plaignons, plaignons<note n="162" place="bottom"> Le verbe est intransitif au XVII<hi rend="sup">e</hi> siècle : il admet un complément d’objet direct mais est employé sans valeur factive, là où le français moderne emploie le verbe « déplorer » ou la forme réfléchie « se plaindre de ».</note> les maux qui desolent ces lieux</l>
             <l n="661" xml:id="l661">Les pleurs qu’ils font couler devroient toucher les Dieux.</l>
           </sp>
-          <sp who="dryade">
+          <sp who="dryade" xml:id="acte403-2">
             <speaker>DRYADE <note n="163" place="bottom"> Nymphes protectrices des forêts et des bois dont le nom grec signifie le « chêne », les Dryades étaient des divinités aussi robustes que fraîches et légères : elles pouvaient se déplacer en toute liberté, voire même se marier, à l’instar d’Eurydice.</note></speaker>
             <l n="662" xml:id="l662">Il n’est plus d’herbes dans les plaines.</l>
           </sp>
-          <sp who="napee">
+          <sp who="napee" xml:id="acte403-3">
             <speaker>NAPEE <note n="164" place="bottom">Divinités dont le nom est dérivé du mot désignant le « vallon », les Napées sont représentées comme de belles et gracieuses nymphes qui habitent les bois, les collines et les prairies, et s’aventurant quelquefois jusqu’au bord des ruisseaux solitaires.</note></speaker>
             <l n="663" xml:id="l663">Il n’est plus d’eaux dans les fontaines.</l>
           </sp>
-          <sp who="dryade">
+          <sp who="dryade" xml:id="acte403-4">
             <speaker>DRYADE</speaker>
             <l n="664" xml:id="l664">Tout perit.</l>
           </sp>
-          <sp who="napee">
+          <sp who="napee" xml:id="acte403-5">
             <speaker>NAPEE</speaker>
             <l n="665" xml:id="l665">Tout tarit.</l>
           </sp>
-          <sp who="dryade">
+          <sp who="dryade" xml:id="acte403-6">
             <speaker>DRYADE</speaker>
-            <l n="666" xml:id="l666" part="I">Quel excés d’<ref target="#ennuy">ennuis*</ref> !</l>
+            <l n="666" part="I" xml:id="l666">Quel excés d’<ref target="#ennuy">ennuis*</ref> !</l>
           </sp>
-          <sp who="napee">
+          <sp who="napee" xml:id="acte403-7">
             <speaker>NAPEE</speaker>
             <l part="F">Quelles peines !</l>
           </sp>
-          <sp who="napee dryade">
+          <sp who="napee dryade" xml:id="acte403-8">
             <speaker>ENSEMBLE</speaker>
             <l n="667" xml:id="l667">Plaignons, plaignons les maux qui désolent ces lieux</l>
             <l n="668" xml:id="l668">Les pleurs qu’ils font couler devroient toucher les Dieux.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE IV</head><pb n="42"/>
+        <div type="scene" xml:id="acte404">
+          <head>SCENE IV</head>
+          <pb n="42"/>
           <stage>DIEUX des Bois, NAPEE, DRYADE</stage>
-          <sp who="dieux-bois">
+          <sp who="dieux-bois" xml:id="acte404-1">
             <speaker>DIEUX des Bois</speaker>
             <l n="669" xml:id="l669">Les Forests sont en feu, le ravage s’augmente,</l>
             <l n="670" xml:id="l670">Ce n’est partout qu’épouvante &amp; horreur.</l>
           </sp>
-          <sp who="napee dryade">
+          <sp who="napee dryade" xml:id="acte404-2">
             <speaker>NAPEE &amp; DRYADE</speaker>
             <l n="671" xml:id="l671">Du Monstre comme vous nous sentons la <ref target="#fureurs">fureur*</ref>,</l>
             <l n="672" xml:id="l672">Voyez cette Plaine brûlante.</l>
           </sp>
-          <sp who="dieux-bois">
+          <sp who="dieux-bois" xml:id="acte404-3">
             <speaker>DIEUX des Bois</speaker>
             <l n="673" xml:id="l673">Helas ! que sont-ils devenus</l>
             <l n="674" xml:id="l674">Ces Bois dont nous faisions nos retraites tranquilles ?</l>
           </sp>
-          <sp who="napee dryade">
+          <sp who="napee dryade" xml:id="acte404-4">
             <speaker>NAPEE &amp; DRYADE</speaker>
             <l n="675" xml:id="l675">Ces Eaux qui serpentoient dans ces Plaines fertiles,</l>
             <l n="676" xml:id="l676">Ces Eaux, helas, ne coulent plus.</l>
           </sp>
-          <sp who="dieux-bois">
+          <sp who="dieux-bois" xml:id="acte404-5">
             <speaker>DIEUX des Bois</speaker>
             <l n="677" xml:id="l677">Que de tristess !</l>
           </sp>
-          <sp who="napee dryade">
+          <sp who="napee dryade" xml:id="acte404-6">
             <speaker>NAPEE &amp; DRYADE</speaker>
             <l n="678" xml:id="l678">Que de sujets de larmes !</l>
           </sp>
-          <sp who="napee dryade">
+          <sp who="napee dryade" xml:id="acte404-7">
             <speaker>TOUS ENSEMBLE</speaker>
             <l n="679" xml:id="l679">Pour adoucir le Ciel qui voit tant de malheurs,</l>
             <l n="680" xml:id="l680">Joignons nos soûpirs &amp; nos pleurs.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE V</head><pb n="43"/>
+        <div type="scene" xml:id="acte405">
+          <head>SCENE V</head>
+          <pb n="43"/>
           <stage>LE ROY, BELLEROPHON</stage>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte405-1">
             <speaker>LE ROY</speaker>
             <l n="681" xml:id="l681">Ah Prince ! où vous emporte une <ref target="#ardeur">ardeur*</ref> trop guerriere ?</l>
             <l n="682" xml:id="l682">En vain à cent perils on vous a veu courir,</l>
             <l n="683" xml:id="l683">En vain vostre grand nom remplit la Terre entière,</l>
             <l n="684" xml:id="l684">Vous cherchez un Combat où vous allez perir.</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte405-2">
             <speaker>BELLEROPHON</speaker>
             <l n="685" xml:id="l685">Je ne vay point combattre un Monstre redoutable</l>
             <l n="686" xml:id="l686">Pour remplir de mon nom l’Univers étonné<note n="165" place="bottom">Sens étymologique de « frapper de stupeur » ou encore de « causer une émotion violente par l’admiration ou la crainte ».</note>,</l>
@@ -1967,17 +1985,18 @@
             <l n="691" xml:id="l691">Ce que j’ay fait animé par la <ref target="#gloire">gloire*</ref>,</l>
             <l n="692" xml:id="l692">Ne le pourrai-je faire animé par l’amour ?</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte405-3">
             <speaker>LE ROY</speaker>
             <l n="693" xml:id="l693">Suivre un amour trop temeraire,</l>
             <l n="694" xml:id="l694">C’est vous livrer vous-mesme au plus funeste sort.</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte405-4">
             <speaker>BELLEROPHON</speaker>
             <l n="695" xml:id="l695">Accablé de mal-heurs, puis-je craindre la mort ?</l>
           </sp>
-          <sp who="iobate">
-            <speaker>LE ROY</speaker><pb n="44"/>
+          <sp who="iobate" xml:id="acte405-5">
+            <speaker>LE ROY</speaker>
+            <pb n="44"/>
             <l n="696" xml:id="l696">Ménagez vostre vie, elle m’est toujours chere.</l>
             <l n="697" xml:id="l697">Par ces aimables <ref target="#noeuds">nœuds*</ref></l>
             <l n="698" xml:id="l698">Que je vous destinois avec mon Diadéme,</l>
@@ -1987,14 +2006,14 @@
             <l n="702" xml:id="l702">Allons sçavoir<note n="166" place="bottom"> Le verbe s’emploie au XVII<hi rend="sup">e</hi> siècle en parlant des « connaissances qu’on rend publique par des proclamations » (Furetière) – ici les oracles.</note> ses volontez,</l>
             <l n="703" xml:id="l703">Peut-estre il nous sera propice ?</l>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte405-6">
             <speaker>BELLEROPHON</speaker>
             <l n="704" xml:id="l704">En vain, Seigneur, vous me flattez.</l>
             <l n="705" xml:id="l705">Puis qu’à son Fils vous devez la Princesse,</l>
             <l n="706" xml:id="l706">Au moins en combattant laissez-moi faire voir</l>
             <l n="707" xml:id="l707">Que mon amour meritoit sa <ref target="#tendresse">tendresse*</ref>.</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte405-7">
             <speaker>LE ROY</speaker>
             <l n="708" xml:id="l708">Ah, que je crains pour vous ce fatal desespoir !</l>
             <l n="709" xml:id="l709">Adieu, quand le peril ne vous peut émouvoir,</l>
@@ -2002,10 +2021,11 @@
             <stage>On commence à voir icy tout le Païsage de l’enfoncement du Theatre, remply de feu &amp; de fumée, pour marquer le dégast que fait la <ref target="#chimere">Chimere*</ref> dans le Païs.</stage>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE VI</head><pb n="45"/>
+        <div type="scene" xml:id="acte406">
+          <head>SCENE VI</head>
+          <pb n="45"/>
           <stage>BELLEROPHON, seul</stage>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte406-1">
             <speaker>BELLEROPHON</speaker>
             <l n="711" xml:id="l711">Heureuse mort, tu vas me secourir</l>
             <l n="712" xml:id="l712">Dans mon mal-heur extrême.</l>
@@ -2016,38 +2036,39 @@
             <stage>On voit icy Pallas dans un Char de Nüages du costé droit, &amp; en mesme temps paroist un autre Char vuide qui descend jusques sur le Theatre du costé gauche.</stage>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte407">
           <head>SCENE VII</head>
           <stage>PALLAS dans son Char, BELLEROPHON</stage>
-          <sp who="pallas">
+          <sp who="pallas" xml:id="acte407-1">
             <speaker>PALLAS</speaker>
             <l n="717" xml:id="l717">Espere en ta <ref target="#valeur1">valeur*</ref>, Bellerophon, espere,</l>
             <l n="718" xml:id="l718">Pallas descend du Ciel pour t’ofrir son secours.</l>
           </sp>
-          <sp who="bellerophon">
-            <speaker>BELLEROPHON</speaker><pb n="46"/>
+          <sp who="bellerophon" xml:id="acte407-2">
+            <speaker>BELLEROPHON</speaker>
+            <pb n="46"/>
             <l n="719" xml:id="l719">Déesse, en vain tu prens soin de mes jours,</l>
             <l n="720" xml:id="l720">Quand la mort seule peut me plaire.</l>
           </sp>
-          <sp who="pallas">
+          <sp who="pallas" xml:id="acte407-3">
             <speaker>PALLAS</speaker>
             <l n="721" xml:id="l721">Ton sort est marqué dans les Cieux,</l>
             <l n="722" xml:id="l722">Viens, monte dans ce Char, &amp; t’abandonne<note n="168" place="bottom"> Lorsque deux ou plusieurs impératifs sont coordonnés, il est constant au XVII<hi rend="sup">e</hi> siècle que le régime direct à la forme atone vienne se placer devant le dernier impératif.</note> aux Dieux.</l>
             <stage>Bellerophon monte dans le Char, &amp; est enlevé sur le Ceintre, avec Pallas. Cependant on entend le Peuple qui exprime sa desolation par ces Vers.</stage>
           </sp>
-          <sp who="voix-derriere-theatre">
+          <sp who="voix-derriere-theatre" xml:id="acte407-4">
             <speaker>CHŒUR de Peuple <hi rend="i">derrière le Theatre</hi></speaker>
             <l n="723" xml:id="l723">Quelle horreur ! quel triste ravage !</l>
             <l n="724" xml:id="l724">Le Monstre redouble sa rage.</l>
             <stage>Pendant qu’on entend les cris des Peuples épouvantez, la <ref target="#chimere">Chimere*</ref> paroist au font du Theatre &amp; en mesme temps Bellerophon monté sur <ref target="#pegase">Pegase*</ref> fond du haut de l’air, &amp; apres un premier Combat avec la Chimere, il se sauve dans les airs, &amp; traverse tout le Theatre.</stage>
           </sp>
-          <sp who="voix-derriere-theatre">
+          <sp who="voix-derriere-theatre" xml:id="acte407-5">
             <speaker>CHŒUR de Peuple <hi rend="i">derrière le Theatre, pendant le combat de Bellerophon</hi></speaker>
             <l n="725" xml:id="l725">Un <ref target="#heros">Heros*</ref> s’expose pour nous,</l>
-            <l n="726" xml:id="l726">Dieux, soûtenez son bras, et conduisez ses coups.</l>
-            <stage>Bellerophon fond une seconde fois sur la Chimere, au milieu du Theatre, &amp; apres qu’il a disparu un<pb n="47"/> moment en s’élevant sur le Ceintre, il paroist pour la troisiéme fois, descend sur le devant du Theatre, attaque de nouveau la Chimere, la blesse à mort, &amp; se sauve en l’air, faisant son vol en rond, &amp; apres trois tours, on le voit se perdre dans les nuës. Cependant la Chimere tombe morte entre les Rochers ; ce qui donne lieu à la joye que marque le Peuple par les Vers suivants.</stage>
+            <l n="726" xml:id="l726">Dieux, soûtenez son bras, et conduisez ses coups.</l><pb n="47"/>
+            <stage>Bellerophon fond une seconde fois sur la Chimere, au milieu du Theatre, &amp; apres qu’il a disparu un moment en s’élevant sur le Ceintre, il paroist pour la troisiéme fois, descend sur le devant du Theatre, attaque de nouveau la Chimere, la blesse à mort, &amp; se sauve en l’air, faisant son vol en rond, &amp; apres trois tours, on le voit se perdre dans les nuës. Cependant la Chimere tombe morte entre les Rochers ; ce qui donne lieu à la joye que marque le Peuple par les Vers suivants.</stage>
           </sp>
-          <sp who="voix-derriere-theatre">
+          <sp who="voix-derriere-theatre" xml:id="acte407-6">
             <speaker>CHŒUR de Peuple <hi rend="i">derrière le Theatre</hi></speaker>
             <l n="727" xml:id="l727">Le Monstre est défait<note n="169" place="bottom">Mettre quelqu’un hors de combat, le mettre en déroute, l’obliger à fuir ou le tuer.</note>. Quelle <ref target="#gloire">gloire*</ref> !</l>
             <l n="728" xml:id="l728">Bellerophon remporte la victoire.</l>
@@ -2056,12 +2077,13 @@
         </div>
       </div>
       <div type="act" xml:id="acte5">
-        <head>ACTE V</head><pb n="48"/>
+        <head>ACTE V</head>
+        <pb n="48"/>
         <stage>Le Theatre represente une grande avant-cour d’un Palais qui paroist élevé dans la Gloire. On y monte par deux grands degrez qui forment les deux costez de cette Decoration en ovale, &amp; qui sont enfermez par deux grands Bâtiments d’Architecture, d’une hauteur extraordinaire. Les deux Degrez &amp; les Galleries qui les environnent sont remplis des Peuples de la <ref target="#lycie">Lycie*</ref> assemblez en ce lieu pour y recevoir Bellerophon que Pallas doit ramener apres la défaite de la Chimere.</stage>
-        <div type="scene">
+        <div type="scene" xml:id="acte501">
           <head>SCENE PREMIERE</head>
           <stage>LE ROY, PHILONOE, CHŒUR de Peuple</stage>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte501-1">
             <speaker>LE ROY</speaker>
             <l n="729" xml:id="l729">Preparez vos chants d’allegresse,</l>
             <l n="730" xml:id="l730">Peuples, c’est en ce lieu que pour nostre bon-heur</l>
@@ -2080,64 +2102,65 @@
             <l n="743" xml:id="l743">Il voulut que Glaucus feignist d’estre son pere ;</l>
             <l n="744" xml:id="l744">Il revient Triomphant, celebrez son retour.</l>
           </sp>
-          <sp who="choeur-peuple">
+          <sp who="choeur-peuple" xml:id="acte501-2">
             <speaker>CHŒUR de Peuple</speaker>
             <l n="745" xml:id="l745">Viens, digne Sang des Dieux, joüir de ta victoire,</l>
             <l n="746" xml:id="l746">Chacun est <ref target="#charmer">charmé*</ref> de ta gloire,</l>
             <l n="747" xml:id="l747">Et pour chanter tes grands exploits,</l>
             <l n="748" xml:id="l748">Nous allons tous joindre nos voix.</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte501-3">
             <speaker>LE ROY</speaker>
             <l n="749" xml:id="l749">Et toy, ma Fille, abandonne ton ame</l>
             <l n="750" xml:id="l750">Aux <ref target="#transports">transports*</ref> de sa <ref target="#flame">flâme*</ref>.</l>
             <l n="751" xml:id="l751">Bellerophon t’est donné pour Espoux.</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte501-4">
             <speaker>PHILONOE</speaker>
             <l n="752" xml:id="l752">Apres tant de rudes <ref target="#alarmes">alarmes*</ref>,</l>
             <l n="753" xml:id="l753">Pouvons nous trop goûter les charmes</l>
             <l n="754" xml:id="l754">D’un changement si doux ?</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte501-5">
             <speaker>LE ROY</speaker>
             <l n="755" xml:id="l755">Qu’il est grand ce <ref target="#heros">Heros*</ref>, qui ne voit point d’obstacles !</l>
             <l n="756" xml:id="l756">Que le Sort contre luy ne forme vainement !</l>
           </sp>
-          <sp who="philonoe">
-            <speaker>PHILONOE</speaker><pb n="50"/>
+          <sp who="philonoe" xml:id="acte501-6">
+            <speaker>PHILONOE</speaker>
+            <pb n="50"/>
             <l n="757" xml:id="l757">Pour tout vaincre, il suffit qu’un <ref target="#heros">Heros*</ref> soit Amant,</l>
             <l n="758" xml:id="l758">La <ref target="#valeur1">valeur*</ref> &amp; l’amour font toûjours des miracles.</l>
           </sp>
-          <sp who="philonoe iobate">
+          <sp who="philonoe iobate" xml:id="acte501-7">
             <speaker>TOUS DEUX</speaker>
             <l n="759" xml:id="l759">La valeur &amp; l’amour font toûjours des miracles.</l>
           </sp>
-          <sp who="choeur-peuple">
+          <sp who="choeur-peuple" xml:id="acte501-8">
             <speaker>CHŒUR de Peuple</speaker>
             <l n="760" xml:id="l760">O jour pour la <ref target="#lycie">Lycie*</ref> à jamais glorieux,</l>
             <l n="761" xml:id="l761">Où le Sang de nos Rois s’unit au Sang des Dieux !</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte502">
           <head>SCENE II</head>
           <stage>LE ROY, STENOBEE, PHILONOE, ARGIE,</stage>
           <stage>CHŒUR de Peuple</stage>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte502-1">
             <speaker>LE ROY</speaker>
             <l n="762" xml:id="l762">Venez vous partager l’allegresse publique ?</l>
             <l n="763" xml:id="l763">Enfin pour nous le Ciel s’explique,</l>
             <l n="764" xml:id="l764">Neptune a reconnu Bellerophon pour Fils.</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte502-2">
             <speaker>STENOBEE</speaker>
             <l n="765" xml:id="l765">Je sais tout. Dieux cruels, vous l’avez donc permis ?</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte502-3">
             <speaker>LE ROY</speaker>
             <l n="766" xml:id="l766">Bellerophon cause-t-il cette plainte ?</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte502-4">
             <speaker>STENOBEE</speaker>
             <l n="767" xml:id="l767">C’est luy seul, il est vray, qui fait mon desespoir.</l>
             <l n="768" xml:id="l768">Du plus ardent amour, j’eûs pour luy l’ame atteinte,</l>
@@ -2149,21 +2172,21 @@
             <l n="774" xml:id="l774">Et le Monstre par luy remplissant tout d’<ref target="#alarmes">alarmes*</ref>,</l>
             <l n="775" xml:id="l775">N’a versé que pour moy le sang de vos Sujets.</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte502-5">
             <speaker>LE ROY</speaker>
-            <l n="776" xml:id="l776" part="I">Le Traistre ! qu’on l’arreste.</l>
+            <l n="776" part="I" xml:id="l776">Le Traistre ! qu’on l’arreste.</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte502-6">
             <speaker>STENOBEE</speaker>
             <l part="F">Il s’est mis par la fuite</l>
             <l n="777" xml:id="l777">A couvert de vostre poursuite ;</l>
             <l n="778" xml:id="l778">Mais il traisne avec luy son crime &amp; son amour.</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte502-7">
             <speaker>LE ROY</speaker>
             <l n="779" xml:id="l779">Quoy, le Ciel souffre encor que vous voyiez le jour ?</l>
           </sp>
-          <sp who="stenobee">
+          <sp who="stenobee" xml:id="acte502-8">
             <speaker>STENOBEE</speaker>
             <l n="780" xml:id="l780">J’ay prevenu tout ce que peut sa haine.</l>
             <l n="781" xml:id="l781">La justice que je me rends</l>
@@ -2183,11 +2206,11 @@
             <l n="795" xml:id="l795">Voy mes derniers soûpirs, impitoyable Amour,</l>
             <l n="796" xml:id="l796">J’expire.</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte502-9">
             <speaker>PHILONOE</speaker>
-            <l n="797" xml:id="l797" part="I">Quel excés de <ref target="#fureurs">fureur*</ref> ?</l>
+            <l n="797" part="I" xml:id="l797">Quel excés de <ref target="#fureurs">fureur*</ref> ?</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte502-10">
             <speaker>LE ROY</speaker>
             <l part="F">Sa mort en est le prix,</l>
             <l n="798" xml:id="l798">Mais oublions &amp; son crime &amp; sa peine,</l>
@@ -2196,11 +2219,11 @@
             <stage>On voit Pallas dans un Char, &amp; Bellerophon avec elle. Tandis qu’elle descend, le Peuple marque sa joye par le son des Timbales, des Trompetes &amp; de tous les autres Instruments.</stage>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte503">
           <head>SCENE III</head>
           <stage>PALLAS, LE ROY, BELLEROPHON, PHILONOE, </stage>
           <stage>CHŒUR de Peuple</stage>
-          <sp who="pallas">
+          <sp who="pallas" xml:id="acte503-1">
             <speaker>PALLAS</speaker>
             <l n="801" xml:id="l801"><ref target="#connoistre">Connoissez*</ref> le Fils de Neptune</l>
             <l n="802" xml:id="l802">Dans ce jeune <ref target="#heros">Heros*</ref>.</l>
@@ -2212,20 +2235,20 @@
             <l n="808" xml:id="l808">Et rendez grace aux Dieux.</l>
             <stage>Bellerophon descend du Char, &amp; Pallas est enlevée sur le Ceintre.</stage>
           </sp>
-          <sp who="bellerophon">
+          <sp who="bellerophon" xml:id="acte503-2">
             <speaker>BELLEROPHON <hi rend="i">à Philonoé</hi></speaker>
             <l n="809" xml:id="l809">Enfin je vous revoy, Princesse incomparable.</l>
           </sp>
-          <sp who="philonoe">
+          <sp who="philonoe" xml:id="acte503-3">
             <speaker>PHILONOE</speaker>
             <l n="810" xml:id="l810">O changement à mes vœux favorables !</l>
           </sp>
-          <sp who="philonoe iobate">
+          <sp who="philonoe iobate" xml:id="acte503-4">
             <speaker>TOUS DEUX</speaker>
             <l n="811" xml:id="l811">Quel plaisir de voir en ce jour</l>
             <l n="812" xml:id="l812">Le Destin ceder à l’Amour !</l>
           </sp>
-          <sp who="iobate">
+          <sp who="iobate" xml:id="acte503-5">
             <speaker>LE ROY</speaker>
             <l n="813" xml:id="l813">Joüissez des douceurs que l’<ref target="#hymen">Hymen*</ref> vous prepare,</l>
             <l n="814" xml:id="l814">Vivez heureux, vivez toûjours Amants.</l>
@@ -2235,15 +2258,16 @@
             <l n="818" xml:id="l818">Ce qu’un sort rigoureux vous causa de tourments.</l>
             <stage>On entend icy les Timbales &amp; les Trompetes, &amp; tous les autres Instruments, dont le son se mesle aux acclamations du Peuple qui chante les Vers suivants.</stage>
           </sp>
-          <sp who="choeur-peuple">
-            <speaker>CHŒUR de Peuple</speaker><pb n="54"/>
+          <sp who="choeur-peuple" xml:id="acte503-6">
+            <speaker>CHŒUR de Peuple</speaker>
+            <pb n="54"/>
             <l n="819" xml:id="l819">Le plus grand des <ref target="#heros">Heros*</ref> rend le calme à la Terre,</l>
             <l n="820" xml:id="l820">Il fait cesser les horreur de la Guerre.</l>
             <l n="821" xml:id="l821">Joüissons à jamais</l>
             <l n="822" xml:id="l822">Des douceurs de la Paix.</l>
             <stage>Neuf Lyciens se détachent, &amp; font ici une <ref target="#entree">Entrée*</ref>, après laquelle le Peuple chante les deux couplets qui suivent, au mesme son des Timbales, des Trompetes, &amp; de tous les autres Instruments.</stage>
           </sp>
-          <sp who="choeur-peuple">
+          <sp who="choeur-peuple" xml:id="acte503-7">
             <speaker>CHŒUR de Peuple</speaker>
             <l n="823" xml:id="l823">Les plaisirs nous preparent leurs charmes,</l>
             <l n="824" xml:id="l824">Ne songeons plus qu’à passer de beaux jours.</l>
@@ -2282,7 +2306,7 @@
         </entryFree>
         <entryFree xml:id="apollon-musagete">
           <form>Apollon Musagète</form>
-          <def>Divinité tutélaire des arts, symbole du soleil et de la lumière civilisatrice qui reflète le génie artistique grec, l’idéal de la jeunesse, de la beauté et du progrès. En tant qu’inspirateur des musiciens et des poètes, il est lié aux neuf Muses (filles de Zeus et de Mnémosyne – la Mémoire) avec lesquelles il se promenait en chœur, couronné de laurier,  et séjournait sur les monts Olympe, Parnasse, Piéros et Hélicon.</def>
+          <def>Divinité tutélaire des arts, symbole du soleil et de la lumière civilisatrice qui reflète le génie artistique grec, l’idéal de la jeunesse, de la beauté et du progrès. En tant qu’inspirateur des musiciens et des poètes, il est lié aux neuf Muses (filles de Zeus et de Mnémosyne – la Mémoire) avec lesquelles il se promenait en chœur, couronné de laurier, et séjournait sur les monts Olympe, Parnasse, Piéros et Hélicon.</def>
           <xr>Prologue, <ref target="#l495">495</ref>, <ref target="#l503">503</ref>, <ref target="#l509">509</ref>, <ref target="#l539">539</ref>, <ref target="#l568">568</ref></xr>
         </entryFree>
         <entryFree xml:id="apollon-oraculaire">
@@ -2506,7 +2530,8 @@
         </div>
         <div>
           <head>PERMISSION <lb/>pour tenir l’Académie Royale <lb/>de Musique, en faveur du Sieur de Lully.</head>
-          <p rend="i"><hi rend="sc">Louis</hi>, par la Grace de Dieu, Roy de France &amp; de Navarre ; A tous presens &amp; à venir, <hi rend="sc">Salut</hi>. Les Sciences &amp; les Arts étant les Ornemens les plus considerables des Estats ; Nous n’avons point eû de plus agreables Divertissemens, depuis que Nous avons donné la Paix à nos Peuples, que de les faire revivre, en appellant prés de Nous tous ceux qui se sont acquis la reputation d’y exceller, non seulement dans l’étenduë de Nôtre Royaume ; mais aussi dans les Païs Etrangers; &amp; pour les obliger d’avantage de s’y perfectionner ; Nous les avons honorez des marques de nôtre estime &amp; de nôtre bien-veillance : Et comme entre les Arts Libéraux, la Musique y tient un des premiers rangs, Nous aurions dans le dessein de la faire reüssir avec tous ces avantages, par nos Lettres Parentes du 28. Juin 1669. accordé au Sieur Perrin une Permission d’établir à nôtre bonne Ville de Paris, &amp; auprès de nôtre Royaume, des Academies de Musique pour chanter en public des Pieces de Theatre, comme il se pratique en Italie, Allemagne &amp; en Angleterre, pendant l’espace de douze années ; Mais ayant esté depuis informé que les peines &amp; les soins que ledit Sieur Perrin a pris pour cet établissement n’ont pû seconder pleinement nôtre intention, &amp; élever la Musique au point où nous nous l’étions promis ; Nous avons crû, pour y mieux reüssir, qu’il étoit à propos d’en donner la conduite à une personne, dont l’experience et la capacité Nous fussent connuës, &amp; qui eût assez de suffisance pour fournir des esleves, tant pour bien chanter &amp; actionner sur le Theatre, qu’à dresser des bandes de Violons, Flûtes, &amp; autres Instrumens. A CES CAUSES, bien informez de l’intelligence &amp; grande connoissance que s’est acquis nôtre cher &amp; bien aimé Jean-Baptiste Lully au fait de la Musique, dont il nous a donné &amp; donne journellement des tres-agreables preuves depuis plusieurs années qu’il s’est attaché à nôtre service, qui Nous ont convié de l’honorer de la Charge de Sur-Intendant &amp; Compositeur de la Musique de nôtre Chambre ; Nous avons audit Sieur Lully permis &amp; accordé, permettons &amp; accordons par ces presentes signées de nôtre main, d’établir une Academie Royale de Musique dans nôtre bonne Ville de Paris, qui sera composée de tel nombre et qualité de personnes qui avisera bon estre, que Nous choisirons &amp; arresterons sur le rapport qu’il Nous en fera, pour faire des Representations devant Nous, quand il nous plaira, des pieces de Musique qui seront composées, tant en Vers François, qu’autres Langues étrangères, pareilles &amp; semblables aux Academies d’Italie ; Pour joüir sa vie durant, &amp; aprés luy, celuy de ses enfans qui sera pourveu &amp; receu en survivance de ladite Charge de Sur-Intendant de la Musique de nôtre Chambre, avec pouvoir d’associer avec luy qui bon luy semblera, pour l’etablissement de ladite Academie, &amp; pour le dédommager des grands frais qu’il conviendra faire pour lesdites Representations, tant à cause des Theatre, Machines, Decorations, Habits, qu’autres choses necessaires. Nous luy permettons de donner au public toutes les pieces qu’il aura composées, mesme celles qui auront esté representées devant Nous, sans neanmoins qu’il puisse se servir pour l’execution desdites Pieces, des Musiciens qui sont à nos gages : Comme aussi de prendre telle somme qu’il jugera à propos, &amp; d’établir des Gardes &amp; autres gens necessaires aux portes des lieux où se feront lesdites Representations : Faisant tres-expresses inhibitions &amp; deffenses à toutes personnes de quelque qualité &amp; condition qu’elles soient, mesme aux Officiers de nôtre Maison d’y entrer sans payer : Comme aussi de faire chanter aucune Piece entiere en Musique, soit en Vers François, ou autres Langues, sans la permission par écrit dudit Sieur Lully, à peine de dix mil livres d’amandes, &amp; de confiscation des Theatre, Machines, Decorations, Habits, &amp; autres choses, applicables un tiers à Nous, un tiers à l’Hopital General, &amp; l’autre tiers audit Sieur Lully : Lequel pourra aussi établir des Escoles particulieres de Musique en nôtre bonne Ville de Paris, &amp; par tout où il jugea necessaire pour le bien &amp; l’avantage de ladite Academie Royale. Et d’autant que Nous érigeons sur le pied de celles des Académies d’Italie, où les Gentils-hommes chantent publiquement en Musique sans déroger : VOULONS ET NOUS PLAIST, que tous Gentils-hommes &amp; Demoiselles puissent chanter ausdites Pieces &amp; Representations de nôtre Academie Royale, sans que pour ce ils soient censez déroger audit Titre de Noblesse, &amp; à leurs privilèges, Charges, Droits &amp; Immunitez : Revoquons, cassons, &amp; annullons par cesdites Presentes, toutes Permissions &amp; Privileges que Nous pourrions avoir cy-devant données &amp; accordées, mesme celuy dudit Perrin, pour raison desdites Pieces de Theatre en Musique, sous quelques noms, qualitez, conditions &amp; pretextes que ce puisse estre. SI DONNONS EN MANDEMENT à nos amez &amp; feaux Conseillers, les Gens tenans nôtre Cour de Parlement à Paris, &amp; autres nos Justiciers &amp; Officiers qu’il appartiendra ; Que ces Presentes ils ayent à faire lire, publier &amp; enregistrer, &amp; du contenu en icelles, faire joüir &amp; user ledit Exposant pleinement &amp; paisiblement, cessant &amp; faisant cesser tous troubles &amp; empeschemens au contraire : Car tel est nôtre plaisir : Et afin que ce soit chose ferme &amp; stable à toujours, Nous avons fait mette nôtre Scel à cesdites Presentes. <hi rend="sc">Donne’</hi> à Versailles au mois de Mars, l’an de grace mil six cens soixante-douze : Et de nôtre Regne le vingt-neufiéme. Signé, LOUIS. Et à costé, Visa, LOUIS. Et plus bas, Par le Roy, <hi rend="sc">Colbert</hi>. Et encore est écrit. </p>
+          <p rend="i"><hi rend="sc">Louis</hi>, par la Grace de Dieu, Roy de France &amp; de Navarre ; A tous presens &amp; à venir, <hi rend="sc">Salut</hi>. Les Sciences &amp; les Arts étant les Ornemens les plus considerables des Estats ; Nous n’avons point eû de plus agreables Divertissemens, depuis que Nous avons donné la Paix à nos Peuples, que de les faire revivre, en appellant prés de Nous tous ceux qui se sont acquis la reputation d’y exceller, non seulement dans l’étenduë de Nôtre Royaume ; mais aussi dans les Païs Etrangers; &amp; pour les obliger d’avantage de s’y perfectionner ; Nous les avons honorez des marques de nôtre estime &amp; de nôtre bien-veillance : Et comme entre les Arts Libéraux, la Musique y tient un des premiers rangs, Nous aurions dans le dessein de la faire reüssir avec tous ces avantages, par nos Lettres Parentes du 28. Juin 1669. accordé au Sieur Perrin une Permission d’établir à nôtre bonne Ville de Paris, &amp; auprès de nôtre Royaume, des Academies de Musique pour chanter en public des Pieces de Theatre, comme il se pratique en Italie, Allemagne &amp; en Angleterre, pendant l’espace de douze années ; Mais ayant esté depuis informé que les peines &amp; les soins que ledit Sieur Perrin a pris pour cet établissement n’ont pû seconder pleinement nôtre intention, &amp; élever la Musique au point où nous nous l’étions promis ; Nous avons crû, pour y mieux reüssir, qu’il étoit à propos d’en donner la conduite à une personne, dont l’experience et la capacité Nous fussent connuës, &amp; qui eût assez de suffisance pour fournir des esleves, tant pour bien chanter &amp; actionner sur le Theatre, qu’à dresser des bandes de Violons, Flûtes, &amp; autres Instrumens. A CES CAUSES, bien informez de l’intelligence &amp; grande connoissance que s’est acquis nôtre cher &amp; bien aimé Jean-Baptiste Lully au fait de la Musique, dont il nous a donné &amp; donne journellement des tres-agreables preuves depuis plusieurs années qu’il s’est attaché à nôtre service, qui Nous ont convié de l’honorer de la Charge de Sur-Intendant &amp; Compositeur de la Musique de nôtre Chambre ; Nous avons audit Sieur Lully permis &amp; accordé, permettons &amp; accordons par ces presentes signées de nôtre main, d’établir une Academie Royale de Musique dans nôtre bonne Ville de Paris, qui sera composée de tel nombre et qualité de personnes qui avisera bon estre, que Nous choisirons &amp; arresterons sur le rapport qu’il Nous en fera, pour faire des Representations devant Nous, quand il nous plaira, des pieces de Musique qui seront composées, tant en Vers François, qu’autres Langues étrangères, pareilles &amp; semblables aux Academies d’Italie ; Pour joüir sa vie durant, &amp; aprés luy, celuy de ses enfans qui sera pourveu &amp; receu en survivance de ladite Charge de Sur-Intendant de la Musique de nôtre Chambre, avec pouvoir d’associer avec luy qui bon luy semblera, pour l’etablissement de ladite Academie, &amp; pour le dédommager des grands frais qu’il conviendra faire pour lesdites Representations, tant à cause des Theatre, Machines, Decorations, Habits, qu’autres choses necessaires. Nous luy permettons de donner au public toutes les pieces qu’il aura composées, mesme celles qui auront esté representées devant Nous, sans neanmoins qu’il puisse se servir pour l’execution desdites Pieces, des Musiciens qui sont à nos gages : Comme aussi de prendre telle somme qu’il jugera à propos, &amp; d’établir des Gardes &amp; autres gens necessaires aux portes des lieux où se feront lesdites Representations : Faisant tres-expresses inhibitions &amp; deffenses à toutes personnes de quelque qualité &amp; condition qu’elles soient, mesme aux Officiers de nôtre Maison d’y entrer sans payer : Comme aussi de faire chanter aucune Piece entiere en Musique, soit en Vers François, ou autres Langues, sans la permission par écrit dudit Sieur Lully, à peine de dix mil livres d’amandes, &amp; de confiscation des Theatre, Machines, Decorations, Habits, &amp; autres choses, applicables un tiers à Nous, un tiers à l’Hopital General, &amp; l’autre tiers audit Sieur Lully : Lequel pourra aussi établir des Escoles particulieres de Musique en nôtre bonne Ville de Paris, &amp; par tout où il jugea necessaire pour le bien &amp; l’avantage de ladite Academie Royale. Et d’autant que Nous érigeons sur le pied de celles des Académies d’Italie, où les Gentils-hommes chantent publiquement en Musique sans déroger : VOULONS ET NOUS PLAIST, que tous Gentils-hommes &amp; Demoiselles puissent chanter ausdites Pieces &amp; Representations de nôtre Academie Royale, sans que pour ce ils soient censez déroger audit Titre de Noblesse, &amp; à leurs privilèges, Charges, Droits &amp; Immunitez : Revoquons, cassons, &amp; annullons par cesdites Presentes, toutes Permissions &amp; Privileges que Nous pourrions avoir cy-devant données &amp; accordées, mesme celuy dudit Perrin, pour raison desdites Pieces de Theatre en Musique, sous quelques noms, qualitez, conditions
+            &amp; pretextes que ce puisse estre. SI DONNONS EN MANDEMENT à nos amez &amp; feaux Conseillers, les Gens tenans nôtre Cour de Parlement à Paris, &amp; autres nos Justiciers &amp; Officiers qu’il appartiendra ; Que ces Presentes ils ayent à faire lire, publier &amp; enregistrer, &amp; du contenu en icelles, faire joüir &amp; user ledit Exposant pleinement &amp; paisiblement, cessant &amp; faisant cesser tous troubles &amp; empeschemens au contraire : Car tel est nôtre plaisir : Et afin que ce soit chose ferme &amp; stable à toujours, Nous avons fait mette nôtre Scel à cesdites Presentes. <hi rend="sc">Donne’</hi> à Versailles au mois de Mars, l’an de grace mil six cens soixante-douze : Et de nôtre Regne le vingt-neufiéme. Signé, LOUIS. Et à costé, Visa, LOUIS. Et plus bas, Par le Roy, <hi rend="sc">Colbert</hi>. Et encore est écrit. </p>
           <p rend="i">Registrées, oüy le Procureur General du Roy, pour estre executées, &amp; joüir par l’Impetrant effet &amp; contenu en icelles selon leur forme et teneur, suivant l’Arrest de ce jour. A Paris en Parlement le vingt-septiéme Iuin mil six cens soixante-douze. Signé ROBERT.</p>
         </div>
         <div>
@@ -2532,32 +2557,25 @@
           </row>
           <row>
             <cell>Prologue</cell>
-            <cell rend="i">Vaste montagne dont les sommets inégaux portent le faîte jusque dans les nues et dont le pied est percé par une grotte profonde.
-              </cell>
+            <cell rend="i">Vaste montagne dont les sommets inégaux portent le faîte jusque dans les nues et dont le pied est percé par une grotte profonde. </cell>
             <cell><hi rend="i">Agréable vallée au fond duquel paraît le Mont Parnasse et la Fontaine d’Hélicon.</hi><lb/>Apollon exhorte les Muses à fêter le plus grand roi de l’univers, bientôt rejoint par Bacchus et Pan.</cell>
             <cell/>
           </row>
           <row>
             <cell>Acte I</cell>
-            <cell rend="i">Place publique de la ville capitale de Céphée. Deux côtés et fond du théâtre sont constitués de magnifiques palais.
-              </cell>
-            <cell><hi rend="i">Avant-cour du palais du roi au fond de laquelle apparaît un Arc de triomphe et plus loin, la ville de Patare.</hi><lb/>Désespoir de Sténobée face à l’indifférence puis à l’ingratitude de Bellérophon qui aime Philonoé et voit son amour récompensé.
-              </cell>
-            <cell>Souffrance de Sténobée de ne pouvoir avouer son amour à Bellérophon qui, lassé de ses menaces, décide de quitter le royaume de son ami Prœtus.
-              </cell>
+            <cell rend="i">Place publique de la ville capitale de Céphée. Deux côtés et fond du théâtre sont constitués de magnifiques palais. </cell>
+            <cell><hi rend="i">Avant-cour du palais du roi au fond de laquelle apparaît un Arc de triomphe et plus loin, la ville de Patare.</hi><lb/>Désespoir de Sténobée face à l’indifférence puis à l’ingratitude de Bellérophon qui aime Philonoé et voit son amour récompensé. </cell>
+            <cell>Souffrance de Sténobée de ne pouvoir avouer son amour à Bellérophon qui, lassé de ses menaces, décide de quitter le royaume de son ami Prœtus. </cell>
           </row>
           <row>
             <cell>Acte II</cell>
-            <cell rend="i">Jardin délicieux orné de statues, de jets d’eau, d’orangers où Andromède cueille des fleurs en compagnie de nymphes.
-              </cell>
+            <cell rend="i">Jardin délicieux orné de statues, de jets d’eau, d’orangers où Andromède cueille des fleurs en compagnie de nymphes. </cell>
             <cell><hi rend="i">Jardin délicieux où paraît un berceau de fleurs qui laisse découvrir trois allées. <lb/>Désert affreux : prison horrible taillée dans les rochers.</hi><lb/>Philonoé chante son amour en compagnie de deux Amazones. Scène d’amour des deux amants, interrompue par Sténobée. Formation du monstre par Amisodar.</cell>
-            <cell>Discussion de Sténobée et Philonoé sur Bellérophon.<lb/>Aveu amoureux mutuel des deux amants : Bellérophon et Philonoé.
-              </cell>
+            <cell>Discussion de Sténobée et Philonoé sur Bellérophon.<lb/>Aveu amoureux mutuel des deux amants : Bellérophon et Philonoé. </cell>
           </row>
           <row>
             <cell>Acte III</cell>
-            <cell rend="i">Rochers affreux. Vagues s’emparent de la scène et forment un golfe enfermé entre deux rangs de falaises.
-              </cell>
+            <cell rend="i">Rochers affreux. Vagues s’emparent de la scène et forment un golfe enfermé entre deux rangs de falaises. </cell>
             <cell><hi rend="i">Vestibule du Temple, puis intérieur du Temple d’Apollon. <lb/>Apparition de la Pythie et du dieu.</hi><lb/>Scène de peuple : consultation de l’oracle d’Apollon. <lb/>Désespoir des deux amants.</cell>
             <cell>Confrontation de Bellérophon avec Sténobée qui lui propose d’épouser Philonoé. Fureur de la reine lorsque celui-ci accepte sa proposition.</cell>
           </row>
@@ -2569,12 +2587,9 @@
           </row>
           <row>
             <cell>Acte V</cell>
-            <cell rend="i">Temple magnifique composé de deux rangs de colonnes et surmonté d’un superbe dôme. Galerie brillante d’or laisse voir par trois portes l’intérieur du temple.
-              </cell>
-            <cell><hi rend="i">Avant-cour du palais royal élevé dans la gloire. Décoration en ovale composée de deux grands escaliers et de galeries.</hi><lb/>Aveux et suicide de Sténobée. Reconnaissance et apothéose de Bellérophon. Chants et danses.
-              </cell>
-            <cell>Mort supposée de Bellérophon, victime de la Chimère. Suicide de Sténobée malgré l’annonce de la victoire réelle du héros. Félicité des deux amants.
-              </cell>
+            <cell rend="i">Temple magnifique composé de deux rangs de colonnes et surmonté d’un superbe dôme. Galerie brillante d’or laisse voir par trois portes l’intérieur du temple. </cell>
+            <cell><hi rend="i">Avant-cour du palais royal élevé dans la gloire. Décoration en ovale composée de deux grands escaliers et de galeries.</hi><lb/>Aveux et suicide de Sténobée. Reconnaissance et apothéose de Bellérophon. Chants et danses. </cell>
+            <cell>Mort supposée de Bellérophon, victime de la Chimère. Suicide de Sténobée malgré l’annonce de la victoire réelle du héros. Félicité des deux amants. </cell>
           </row>
         </table>
       </div>
@@ -2582,7 +2597,7 @@
         <head>Œuvres du Sieur Thomas Corneille de l’Isle</head>
         <p><hi rend="b">1651</hi>     <hi rend="i">Le Feint Astrologue</hi>, comédie</p>
         <p><hi rend="b">1652</hi>     <hi rend="i">Don Bertran de Cigaral</hi>, comédie</p>
-        <p><hi rend="b">1653</hi>      <hi rend="i">L’Amour à la mode</hi>, comédie</p>
+        <p><hi rend="b">1653</hi>     <hi rend="i">L’Amour à la mode</hi>, comédie</p>
         <p><hi rend="b">1653</hi>     <hi rend="i">Le Berger extravagant</hi>, pastorale burlesque</p>
         <p><hi rend="b">1656</hi>     <hi rend="i">Le Geôlier de soy-mesme</hi>, comédie</p>
         <p><hi rend="b">1658</hi>     <hi rend="i">Timocrate</hi>, tragédie</p>
@@ -2595,20 +2610,20 @@
         <p><hi rend="b">1666</hi>     <hi rend="i">Antiochus</hi>, tragi-comédie</p>
         <p><hi rend="b">1668</hi>     <hi rend="i">Laodice</hi>, reyne de Cappadoce, tragédie</p>
         <p><hi rend="b">1669</hi>     <hi rend="i">Le Baron d’Albikrac</hi>, comédie</p>
-        <p><hi rend="b">1670</hi>      <hi rend="i">La Mort d’Annibal</hi>, tragédie</p>
+        <p><hi rend="b">1670</hi>     <hi rend="i">La Mort d’Annibal</hi>, tragédie</p>
         <p><hi rend="b">1672</hi>     <hi rend="i">Ariane</hi>, tragédie</p>
         <p><hi rend="b">1673</hi>     <hi rend="i">Théodat</hi>, tragédie</p>
         <p><hi rend="b">1675</hi>     <hi rend="i">L’Inconnu</hi>, comédie meslée d’ornemens</p>
         <p><hi rend="b">1676</hi>     <hi rend="i">Le Triomphe des Dames</hi>, comédie meslée d’ornemens</p>
         <p><hi rend="b">1676</hi>     <hi rend="i">Don César d’Avalos</hi>, comédie</p>
         <p><hi rend="b">1678</hi>     <hi rend="i">Psyché</hi>, tragédie en musique</p>
-        <p><hi rend="b">1678</hi>      <hi rend="i">Le Comte d’Essex</hi>, tragédie</p>
+        <p><hi rend="b">1678</hi>     <hi rend="i">Le Comte d’Essex</hi>, tragédie</p>
         <p><hi rend="b">1679     <hi rend="i">Bellérophon</hi></hi>, tragédie en musique</p>
         <p><hi rend="b">1679</hi>     <hi rend="i">La Comtesse d’Orgueil</hi>, comédie</p>
-        <p><hi rend="b">1680</hi>      <hi rend="i">La Devineresse ou les faux enchantemens</hi>, comédie</p>
+        <p><hi rend="b">1680</hi>     <hi rend="i">La Devineresse ou les faux enchantemens</hi>, comédie</p>
         <p><hi rend="b">1680</hi>     <hi rend="i">Le Deuil</hi>, comédie par le sieur de Hauteroche</p>
         <p><hi rend="b">1681</hi>     <hi rend="i">La Pierre philosophale</hi>, comédie par Donneau de Visé</p>
-        <p><hi rend="b">1685</hi>      <hi rend="i">La Dame invisible</hi>, comédie par M. Hauteroche</p>
+        <p><hi rend="b">1685</hi>     <hi rend="i">La Dame invisible</hi>, comédie par M. Hauteroche</p>
         <p><hi rend="b">1689</hi>     <hi rend="i">Les Engagemens du hazard</hi>, comédie</p>
         <p><hi rend="b">1690</hi>     <hi rend="i">Pyrrhus, roi d’Épire</hi>, tragédie</p>
         <p><hi rend="b">1690</hi>     <hi rend="i">Persée et Démétrius</hi>, tragédie</p>
@@ -2617,10 +2632,10 @@
         <p><hi rend="b">1690</hi>     <hi rend="i">La Mort d’Achille</hi>, tragédie</p>
         <p><hi rend="b">1691</hi>     <hi rend="i">Le Charme de la voix</hi>, comédie</p>
         <p><hi rend="b">1693</hi>     <hi rend="i">Médée</hi>, tragédie en musique</p>
-        <p><hi rend="b">1696</hi>      <hi rend="i">Bradamante</hi>, tragédie</p>
+        <p><hi rend="b">1696</hi>     <hi rend="i">Bradamante</hi>, tragédie</p>
         <p><hi rend="b">1696</hi>     <hi rend="i">Les Dames vengées ou la dupe de soi-même</hi>, comédie par D. de Visé</p>
         <p><hi rend="b">1704</hi>     <hi rend="i">Observations de M. Corneille sur les Remarques de M. de Vaugelas</hi></p>
-        <p><hi rend="b">1708</hi>      <hi rend="i">Dictionnaire universel géographique et historique</hi></p>
+        <p><hi rend="b">1708</hi>     <hi rend="i">Dictionnaire universel géographique et historique</hi></p>
       </div>
       <div>
         <head>Bibliographie</head>
@@ -2642,7 +2657,7 @@
           <head>Ouvrages sur le théâtre du XVII<hi rend="sup">e</hi> siècle</head>
           <bibl><hi rend="sc">Abou-Ghazala</hi> Abbas Ismaïl, <title>Spectacles et divertissements à la Cour de France 1661-1680</title>, Thèse pour le Doctorat d’Etat, Paris III, 1986.</bibl>
           <bibl><hi rend="sc">Bénichou</hi> Paul, <title>L’ Écrivain et ses Travaux</title>, Corti, 1967.</bibl>
-          <bibl><hi rend="sc">Brereton</hi> Geoffrey, <title>French Tragic Drama in the XVI<hi rend="sup">th</hi>  and XVII<hi rend="sup">th</hi> century</title>, Londres, Methueu &amp; Co Ltd, 1973. </bibl>
+          <bibl><hi rend="sc">Brereton</hi> Geoffrey, <title>French Tragic Drama in the XVI<hi rend="sup">th</hi> and XVII<hi rend="sup">th</hi> century</title>, Londres, Methueu &amp; Co Ltd, 1973. </bibl>
           <bibl><hi rend="sc">Delmas</hi> Christian, <title>La Tragédie de l’âge classique</title>, Seuil, 1994.</bibl>
           <bibl><hi rend="sc">Louvat</hi> Bénédicte, <title>Poétique de la tragédie</title>, SEDES, 1998.</bibl>
           <bibl><hi rend="sc">Scherer</hi> Jacques, <title>La Dramaturgie classique en France</title>, Nizet, 1950.</bibl>

@@ -495,13 +495,13 @@
           </castItem>
         </castList>
       </div>
-      <div type="act">
+      <div xml:id="I" type="act">
         <pb n="A 1"/>
         <head>ACTE I.</head>
-        <div type="scene">
+        <div type="scene" xml:id="I01">
           <head>SCENE PREMIERE.</head>
           <stage>PRUSIAS, ATTALE, ARAXE.</stage>
-          <sp who="attale">
+          <sp xml:id="I01-1" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1" xml:id="l1">Seigneur, ne croyez pas qu’un Trône<note resp="editor">Attale a été capturé par Hannibal, qui l’a remis aux mains de Prusias. Son frère aîné, Eumène II, roi de Pergame, passe pour mort après la bataille de Marmara : Attale devient donc l’héritier légitime du trône de Pergame. C’est pourquoi, au début de la pièce, Prusias le lui rend, pour pouvoir conclure le traité de paix voulu par les Romains.</note> m’<ref target="#eblouir1">éblouisse*</ref><note resp="editor">Phénomène de diérèse. Voir la liste des diérèses en introduction.</note></l>
             <l n="2" xml:id="l2">Jusqu’à rendre<note resp="editor"><hi rend="i">Jusqu’à rendre</hi> : au point de rendre.</note> mon cœur capable d’injustice,</l>
@@ -517,7 +517,7 @@
             <l n="12" xml:id="l12">Que chercher<note resp="editor"><hi rend="i">Que chercher</hi> : au XVII<hi rend="sup">e</hi> siècle, le « que » comparatif est souvent suivi directement de l’infinitif qu’il introduit, sans la préposition « de » (voir HAASE, A., <hi rend="i">Syntaxe française du XVII<hi rend="sup">e</hi> siècle</hi>, Delagrave, 1965, § 88, p. 203-206).</note> les moyens de m’acquiter vers vous<note resp="editor"><hi rend="i">M’acquiter vers vous</hi> : me tenir quitte de ce que je vous dois. <hi rend="i">Acquiter</hi> : se dit aussi en chose morale ; c’est quelqu’un qui s’acquite bien de tous les devoirs d’un Chrétien (Furetière).</note>.</l>
             <l n="13" xml:id="l13" part="I">Quoy qu’Eumene…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I01-2" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Seigneur, ne parlons plus d’Eumene.<note resp="editor"><hi rend="i">Var. 1692</hi> : Eumene ; </note></l>
             <l n="14" xml:id="l14">Il eust nourry pour nous une eternelle haine<note resp="editor"> Les sources anciennes n’indiquent pas la raison de cette haine. Cornelius Nepos précise seulement qu’Eumène était tout dévoué aux Romains, et que c’est ce qui a poussé Hannibal à le combattre avec autant de virulence : « Ce Prince [Prusias] était alors en guerre avec Eumène, roi de Pergame, entièrement dévoué aux Romains, ce qui excitait encore Annibal à sa perte » (Cornelius Nepos, <hi rend="i">Vies des Grands Capitaines</hi>, Annibal, X, p. 69). Ici, Thomas Corneille invente.</note>,</l>
@@ -540,7 +540,7 @@
             <l n="31" xml:id="l31">Pergame est tout à vous, et je vous ay rendu</l>
             <l n="32" xml:id="l32">Ce qu’à<note resp="editor"><hi rend="i">Ce qu’à</hi> : l’usage du « que » adverbe était très répandu en lieu et place d’un pronom relatif précédé d’une préposition (voir HAASE, A., <hi rend="i">op. cit</hi>., § 36, p. 71). Ici, en langue actuelle, on emploierait « dont » et non « que » : « ce dont on sçait ».</note> droit de conqueste on sçait qui m’estoit dû.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="I01-3" who="attale">
             <speaker>ATTALE</speaker>
             <l n="33" xml:id="l33">Ce rare et grand effort<note resp="editor"> Au XVII<hi rend="sup">e</hi> siècle, l’adjectif précède souvent le nom (voir HAASE, A., <hi rend="i">op. cit</hi>., § 155, B, p. 421-422).</note> d’une <ref target="#vertu">vertu*</ref> sublime</l>
             <l n="34" xml:id="l34">De l’Univers entier vous asseure l’estime ;</l>
@@ -553,11 +553,11 @@
             <l n="41" xml:id="l41">Deux beaux yeux en secret captivoient ma <ref target="#franchise">franchise*</ref><note resp="editor"><hi rend="i">Captivoient ma franchise</hi> : me tenaient captif.</note>.</l>
             <l n="42" xml:id="l42">J’avois, j’avois trop veu l’incomparable Elise.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I01-4" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="43" xml:id="l43" part="I">La Fille d’Annibal ?<note resp="editor"><hi rend="i">Var. 1692</hi> : d’Annibal !</note></l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="I01-5" who="attale">
             <speaker>ATTALE</speaker>
             <l part="F">Oüy, je l’aime, Seigneur,</l>
             <l n="44" xml:id="l44">L’absence ny le temps<note resp="editor"><hi rend="i">L’absence ny le temps</hi> : bien que des grammairiens comme Vaugelas blâment la non-répétition du « ni » devant chacun des sujets, le procédé est banal au XVII<hi rend="sup">e</hi> siècle  (voir HAASE, A., <hi rend="i">op. cit</hi>., § 140, Remarque III, p. 386).</note> n’ont pû changer mon cœur,</l>
@@ -570,7 +570,7 @@
             <l n="51" xml:id="l51">Deux Rois pourront tenir son Destin affermy</l>
             <l n="52" xml:id="l52">S’il en a l’un pour Gendre, et l’autre pour amy<note resp="editor"><hi rend="i">S’il en a l’un pour Gendre, et l’autre pour amy</hi> : s’il a l’un des deux pour gendre, et l’un des deux pour allié. Le remplacement du partitif « de » uni au pronom de troisième personne par le pronom « en » est exceptionnel au XVII<hi rend="sup">e</hi> siècle (voir HAASE, A., <hi rend="i">op. cit</hi>., 1965, § 9, II, E, p. 22-23). Ici, le pronom « en » renvoie aux « deux Rois » du vers précédent. </note>.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I01-6" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="53" xml:id="l53">La <ref target="#vertu">vertu*</ref> d’Annibal paroist si peu commune</l>
             <l n="54" xml:id="l54">Que sans doute il est beau d’embrasser sa fortune<note resp="editor"><hi rend="i">Embrasser sa fortune</hi> : joindre son sort à celui d’Hannibal.</note>,</l>
@@ -589,7 +589,7 @@
             <l n="67" xml:id="l67">Et dois trop aux serments qu’il a receus de moy<pb n="4"/></l>
             <l n="68" xml:id="l68">Pour rien faire jamais<note resp="editor"><hi rend="i">Pour rien faire jamais</hi> : l’adverbe « rien » est si négatif qu’il n’est pas obligatoirement accompagné d’une négation au XVII<hi rend="sup">e</hi> siècle (voir HAASE, A., <hi rend="i">op. cit</hi>., § 51, B, p. 108-110).</note> qui démente ma <ref target="#foi">foy*</ref>.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="I01-7" who="attale">
             <speaker>ATTALE</speaker>
             <l n="69" xml:id="l69">Aussi ne suis-je pas assez vain pour prétendre</l>
             <l n="70" xml:id="l70">Qu’Annibal dust me suivre en m’acceptant pour Gendre,</l>
@@ -597,7 +597,7 @@
             <l n="72" xml:id="l72">Je le verray, Seigneur, vivre dans vos Estats.</l>
             <l n="73" xml:id="l73">Ainsi le retenant<note resp="editor"><hi rend="i">Le retenant</hi> : tout en le gardant dans vos États.</note> vous pouvez sans scrupule…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I01-8" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="74" xml:id="l74">Seigneur, il ne faut point que je vous dissimule,</l>
             <l n="75" xml:id="l75">Je doute qu’Annibal n’imputast à mépris</l>
@@ -605,13 +605,13 @@
             <l n="77" xml:id="l77">Vous sçavez prés de luy quel rang ce Fils possede,</l>
             <l n="78" xml:id="l78" part="I">Que tout jeune qu’il est…</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="I01-9" who="attale">
             <speaker>ATTALE</speaker>
             <l part="F">Ah, Seigneur, je luy cede<note resp="editor"><hi rend="i">Je luy cede</hi> : je m’efface devant lui.</note>,</l>
             <l n="79" xml:id="l79">Quoy qu’Elise à mes yeux fasse briller d’appas,</l>
             <l n="80" xml:id="l80" part="I">Si le Prince y prétend…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I01-10" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Non, il n’y pense pas,</l>
             <l n="81" xml:id="l81">Mais il faut éviter, en cherchant mon suffrage</l>
@@ -622,74 +622,76 @@
             <l n="86" xml:id="l86">Faites-les agréer, j’en auray de la joye.<note resp="editor"><hi rend="i">Var. 1692</hi> : joye,</note></l>
             <l n="87" xml:id="l87">Mais laissez-moy me taire où vos feux parleront.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="I01-11" who="attale">
             <speaker>ATTALE</speaker>
             <l n="88" xml:id="l88">Seigneur, vous apprendrez le succez qu’ils auront.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE II.</head><pb n="5"/>
+        <div type="scene" xml:id="I02">
+          <head>SCENE II.</head>
+          <pb n="5"/>
           <stage>PRUSIAS, ARAXE.</stage>
-          <sp who="araxe">
+          <sp xml:id="I02-1" who="araxe">
             <speaker>ARAXE</speaker>
             <l n="89" xml:id="l89">Me trompay-je, Seigneur, dans ce que je présume ?</l>
             <l n="90" xml:id="l90">Attale craint qu’un jour la guerre se rallume,</l>
             <l n="91" xml:id="l91">Et de peur qu’Annibal n’ose vous secourir</l>
             <l n="92" xml:id="l92">En épousant sa Fille il veut se l’acquerir.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I02-2" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="93" xml:id="l93">J’ignore les motifs du dessein qu’il m’<ref target="#expliquer">explique*</ref>,</l>
             <l n="94" xml:id="l94">Mais enfin soit amour, Araxe, ou Politique<note resp="editor"><hi rend="i">Soit amour, Araxe, ou Politique</hi> : l’emploi de la construction « soit… ou… » n’est pas inhabituelle en langue classique (voir HAASE, A., <hi rend="i">op. cit</hi>., § 143, Remarque, p. 390-391).</note>,</l>
             <l n="95" xml:id="l95" part="I">Cet hymen… Dieux !</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="I02-3" who="araxe">
             <speaker>ARAXE</speaker>
             <l part="M">D’où vient…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I02-4" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Qu’il doit m’estre fatal !<note resp="editor">Noter que, sans examiner la situation d’un point de vue politique, Prusias la réduit immédiatement aux difficultés personnelles qu’elle implique pour lui.</note></l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="I02-5" who="araxe">
             <speaker>ARAXE</speaker>
             <l n="96" xml:id="l96" part="I">A vous, Seigneur ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I02-6" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Tu vois qu’il nous oste Annibal.</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="I02-7" who="araxe">
             <speaker>ARAXE</speaker>
             <l n="97" xml:id="l97">Pouvez-vous regreter qu’il chasse ailleurs un homme</l>
             <l n="98" xml:id="l98">Dont la <ref target="#retraite1">retraite*</ref> icy vous rend suspect à Rome ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I02-8" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="99" xml:id="l99" part="I">Mais il faudra qu’Elise…</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="I02-9" who="araxe">
             <speaker>ARAXE</speaker>
             <l part="F">Eh bien, quel interest…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I02-10" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="100" xml:id="l100" part="I">Quoy, d’Elise…</l>
           </sp>
-          <sp who="araxe">
-            <speaker>ARAXE</speaker><pb n="6"/>
+          <sp xml:id="I02-11" who="araxe">
+            <speaker>ARAXE</speaker>
+            <pb n="6"/>
             <l part="F">Seigneur, je crois qu’elle vous plaist ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I02-12" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="101" xml:id="l101" part="I">A moy ? qui te l’a dit ?</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="I02-13" who="araxe">
             <speaker>ARAXE</speaker>
             <l part="F">Je l’apprens de vous-mesme,</l>
             <l n="102" xml:id="l102" part="I">Ce trouble…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I02-14" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Il me trahit, je l’avouë, oüy, je l’aime,</l>
             <l n="103" xml:id="l103">Et par mille combats rendus jusqu’à ce jour</l>
@@ -699,12 +701,12 @@
             <l n="107" xml:id="l107">Elise a tous mes <ref target="#voeux">vœux*</ref>, Elise a tout mon cœur,</l>
             <l n="108" xml:id="l108">Et pour moy sans Elise il n’est point de <ref target="#bonheur1">bonheur*</ref>.</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="I02-15" who="araxe">
             <speaker>ARAXE</speaker>
             <l n="109" xml:id="l109">Mais en vous declarant doutez-vous qu’avec joye</l>
             <l n="110" xml:id="l110" part="I">Annibal…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I02-16" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Non, je sçay ce qu’il faut que j’en croye.</l>
             <l n="111" xml:id="l111">Mon hymen d’Annibal rempliroit tous les <ref target="#voeux">vœux*</ref>,</l>
@@ -743,10 +745,10 @@
             <l n="144" xml:id="l144">Par de nouveaux serments il<note resp="editor">Nicomède.</note> peut… mais je le voy.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I03">
           <head>SCENE III.</head>
           <stage>PRUSIAS, NICOMEDE, ARAXE.</stage>
-          <sp who="prusias">
+          <sp xml:id="I03-1" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="145" xml:id="l145">Prince, Annibal sans doute aura quelques alarmes</l>
             <l n="146" xml:id="l146">De voir qu’Attale et moy nous mettions bas les armes,</l>
@@ -761,7 +763,7 @@
             <l n="155" xml:id="l155">Et l’éclat d’un refus pour nous trop hazardeux</l>
             <l n="156" xml:id="l156">Au lieu d’un Ennemy, nous en attiroit deux.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="I03-2" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="157" xml:id="l157">Quelque bouillante ardeur que la guerre m’inspire,</l>
             <l n="158" xml:id="l158">Vous preferez la paix, c’est à moi d’y souscrire ;</l>
@@ -772,7 +774,7 @@
             <l n="163" xml:id="l163">L’adroit<note resp="editor"><hi rend="i">Adroit</hi> : se prend quelquefois en mauvaise part, et se dit d’un homme fin et rusé qui se sert de son esprit pour tromper (Furetière).</note> Flaminius a beau dissimuler,</l>
             <l n="164" xml:id="l164" part="I">Il ne vient…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I03-3" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">C’est surquoy<note resp="editor"><hi rend="i">Surquoy</hi> : les graphies contractées « surquoy » et « dequoy » sont communes au XVII<hi rend="sup">e</hi> siècle. </note> je voulais vous parler.</l>
             <l n="165" xml:id="l165">Depuis que dans ces lieux Flaminius m’observe,</l>
@@ -786,28 +788,29 @@
             <l n="173" xml:id="l173">Que le Romain<note resp="editor">Il s’agit de Flaminius.</note> party, je dois trop à ma gloire</l>
             <l n="174" xml:id="l174" part="I">Pour…</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="I03-4" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l part="F">Il est un moyen de luy faire tout croire.</l>
             <l n="175" xml:id="l175" part="I">Si vous l’autorisez…</l>
           </sp>
-          <sp who="prusias">
-            <speaker>PRUSIAS</speaker><pb n="9"/>
+          <sp xml:id="I03-5" who="prusias">
+            <speaker>PRUSIAS</speaker>
+            <pb n="9"/>
             <l part="F">Quel que soit ce moyen,</l>
             <l n="176" xml:id="l176">Offrez, promettez tout, je ne <ref target="#reserver1">reserve*</ref> rien.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="I03-6" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="177" xml:id="l177">Aprés ce doux <ref target="#aveu1">aveu*</ref>, Seigneur, j’ose vous dire</l>
             <l n="178" xml:id="l178">Que mon cœur en secret depuis long-temps soûpire,</l>
             <l n="179" xml:id="l179">Et que par un pouvoir à mon repos fatal,</l>
             <l n="180" xml:id="l180" part="I">Elise…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I03-7" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Vous aimez la Fille d’Annibal ?</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="I03-8" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="181" xml:id="l181">Oüy, Seigneur, je l’adore, et ne puis plus vous taire</l>
             <l n="182" xml:id="l182">Que la Fille sur moy peut autant que le Pere,</l>
@@ -815,24 +818,24 @@
             <l n="184" xml:id="l184">Pour la beauté de l’autre il est tout enflamé,</l>
             <l n="185" xml:id="l185">Et dans la passion où ce cœur s’abandonne…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I03-9" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="186" xml:id="l186">N’avez-vous découvert<note resp="editor"><hi rend="i">Découvert</hi> : fait connaître.</note> cet amour à personne ?</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="I03-10" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="187" xml:id="l187">Il est connu d’Elise, à qui j’ay crû devoir…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I03-11" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="188" xml:id="l188" part="I">Vous en estes aimé<note resp="editor"> On ne conçoit pas bien, en un premier temps, la logique du raisonnement de Nicomède, puisque les questions de Prusias ne lui laissent pas le temps d’expliciter son point de vue. Ce qu’il suggère ici, c’est qu’en tant que fils de Prusias, son alliance avec Elise lierait ce dernier à  Hannibal. Ce qui rassurerait totalement ce dernier sur les sympathies du roi de Bithynie. </note>  ?</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="I03-12" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l part="F">Je n’ay pû le sçavoir,</l>
             <l n="189" xml:id="l189">Mais sans doute son choix suivra celuy d’un Pere<note resp="editor">Imaginer un silence entre les deux répliques : Prusias, rassuré pour un temps, prend le temps de se ressaisir pour essayer d’ébranler Nicomède. </note>.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I03-13" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="190" xml:id="l190">Je pardonne à vostre âge un <ref target="#aveu1">aveu*</ref> temeraire,</l>
             <l n="191" xml:id="l191">Prince, vous estes jeune, et vostre aveuglement</l>
@@ -855,7 +858,7 @@
             <l n="208" xml:id="l208">Sous qui déja par tout gemissent tant de Rois,</l>
             <l n="209" xml:id="l209">Profitons de l’exemple, et craignons leur disgrace.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="I03-14" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="210" xml:id="l210">Les exemples, Seigneur, n’ont rien qui m’embarrasse,</l>
             <l n="211" xml:id="l211">Chacun a sa conduite, et tel peut succomber</l>
@@ -877,8 +880,9 @@
             <l n="227" xml:id="l227">Toute l’Asie aspire à voir briser ses fers,</l>
             <l n="228" xml:id="l228">Tirez-la d’esclavage, et vangez l’Univers.</l>
           </sp>
-          <sp who="prusias">
-            <speaker>PRUSIAS</speaker><pb n="11"/>
+          <sp xml:id="I03-15" who="prusias">
+            <speaker>PRUSIAS</speaker>
+            <pb n="11"/>
             <l n="229" xml:id="l229">Voila les sentiments que l’amour vous inspire ?</l>
             <l n="230" xml:id="l230">Elise vous apprend ce que vous m’osez dire,</l>
             <l n="231" xml:id="l231">Et ce parfait rapport de haine et d’interest</l>
@@ -896,7 +900,7 @@
             <l n="243" xml:id="l243">Et de chercher comme eux par d’illustres desseins</l>
             <l n="244" xml:id="l244">A servir de triomphe aux armes des Romains.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="I03-16" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="245" xml:id="l245">Du moins, Seigneur, du moins j’auray cét avantage</l>
             <l n="246" xml:id="l246">Qu’ils<note resp="editor">La construction « ce… que » est tirée du latin « is…qui », et n’a pas de valeur d’insistance particulière.</note> ne pourront jamais sousmettre mon <ref target="#courage1">courage*</ref>,</l>
@@ -905,7 +909,7 @@
             <l n="249" xml:id="l249">Je n’imiteray point l’abaissement extréme</l>
             <l n="250" xml:id="l250">Qui va les mandier jusques dans Rome mesme.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I03-17" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="251" xml:id="l251">Et moy, je sçauray bien, si vous vous emportez,</l>
             <l n="252" xml:id="l252"><ref target="#arreter1">Arrester*</ref> la fureur de vos temeritez<note resp="editor">Cette menace n’est pas une simple formule : elle préfigure et rend vraisemblable la réaction finale de Prusias qui, poussé à bout, ira lui-même prendre les armes contre son fils (V, 5). Thomas Corneille prépare donc son dénouement dès le premier acte.</note> ;</l>
@@ -919,7 +923,7 @@
             <l n="260" xml:id="l260">Ma justice n’immole au repos de l’Estat.    </l>
             <l n="261" xml:id="l261" part="I">Pensez-y meurement, allez.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="I03-18" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l part="F">Je me retire,</l>
             <l n="262" xml:id="l262">Mais trouvez bon, Seigneur, que j’ose encor vous dire</l>
@@ -927,10 +931,10 @@
             <l n="264" xml:id="l264">Elle peut de bonne heure<note resp="editor"><hi rend="i">De bonne heure</hi> : bientôt. </note> ordonner de mon sang<note resp="editor"><hi rend="i">Ordonner de mon sang</hi> : disposer de ma vie.</note>.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I04">
           <head>SCENE IV.</head>
           <stage>PRUSIAS, ARAXE.</stage>
-          <sp who="prusias">
+          <sp xml:id="I04-1" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="265" xml:id="l265">Qui jamais en aimant plus que moy fut à plaindre ?</l>
             <l n="266" xml:id="l266">Un Rival m’alarmoit, j’en trouve deux à craindre,</l>
@@ -944,14 +948,14 @@
             <l n="274" xml:id="l274">Je cherche à ne point voir ce que je luy découvre.<note resp="editor"><hi rend="i">Var. 1692</hi> : découvre,</note></l>
             <l n="275" xml:id="l275">Quel conseil prendre, Araxe, en ces extrémitez ?</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="I04-2" who="araxe">
             <speaker>ARAXE</speaker>
             <l n="276" xml:id="l276">La raison le dira si vous l’en consultez<note resp="editor"><hi rend="i">Si vous l’en consultez</hi> : nous avons ici un « en » anaphorique, qui fait référence à la décision que veut prendre Prusias, au vers précédent (voir FOURNIER N., <hi rend="i">op. cit.</hi>, § 271-272, p. 192).</note>.</l>
             <l n="277" xml:id="l277">L’amitié des Romains faisant vostre asseurance</l>
             <l n="278" xml:id="l278">Il vous faut d’Annibal éviter l’alliance.</l>
             <l n="279" xml:id="l279">Seigneur, servez Attale, et secondez ses feux.<pb n="B 13"/></l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I04-3" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="280" xml:id="l280">Quoy, je pourrois <ref target="#souffrir2">souffrir*</ref> qu’Attale fust heureux ?</l>
             <l n="281" xml:id="l281">Je sçay que quelques <ref target="#soin3">soins*</ref> que l’amour me suggere,</l>
@@ -963,19 +967,19 @@
             <l n="287" xml:id="l287">Attaquons ce Rival, et cherchons du repos</l>
             <l n="288" xml:id="l288" part="I">A détruire…</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="I04-4" who="araxe">
             <speaker>ARAXE</speaker>
             <l part="F">Seigneur, elle vient à propos.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I05">
           <head>SCENE V.</head>
           <stage>PRUSIAS, ELISE, ARAXE, ALCINE.</stage>
-          <sp who="prusias">
+          <sp xml:id="I05-1" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="289" xml:id="l289">Quoy, Madame, toûjours cet air <ref target="#melancolie">melancolique*</ref> <note resp="editor"> Echo aux propos de l’Attale de Pierre Corneille: « Quoi, Madame, toujours un front inexorable ? » (CORNEILLE P., <hi rend="i">Nicomède</hi>, I, 2, v. 119, in éd. cit., p. 649). Thomas Corneille réutilise ici un motif caractéristique de l’amant éconduit, qui se plaint de l’intransigeance de la femme qu’il aime.</note> ?</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="I05-2" who="elise">
             <speaker>ELISE</speaker>
             <l n="290" xml:id="l290">Quelle joye en mes yeux voulez-vous qui s’<ref target="#expliquer">explique*</ref>,</l>
             <l n="291" xml:id="l291">Seigneur, lors que par tout les Destins conjurez</l>
@@ -988,8 +992,9 @@
             <l n="298" xml:id="l298">Un seul homme fait peur à ces Maistres du monde.</l>
             <l n="299" xml:id="l299">A nous voir vostre appuy<note resp="editor"><hi rend="i">A nous voir vostre appuy</hi> : comme ils vous voient nous venir en aide.</note>, leur trouble est sans égal.</l>
           </sp>
-          <sp who="prusias">
-            <speaker>PRUSIAS</speaker><pb n="14"/>
+          <sp xml:id="I05-3" who="prusias">
+            <speaker>PRUSIAS</speaker>
+            <pb n="14"/>
             <l n="300" xml:id="l300">Madame, je ne sçay ce qu’en juge Annibal,</l>
             <l n="301" xml:id="l301">Mais si j’ay le malheur qu’aprés mille asseurances</l>
             <l n="302" xml:id="l302">Rome le fasse entrer en quelques <ref target="#defiance">défiances*</ref>,</l>
@@ -1000,7 +1005,7 @@
             <l n="307" xml:id="l307">Que pour vous obtenir, vos Amants aujourd’huy</l>
             <l n="308" xml:id="l308">Implorent mon suffrage, et briguent mon appuy.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="I05-4" who="elise">
             <speaker>ELISE</speaker>
             <l n="309" xml:id="l309">Que parlez-vous d’Amants, Seigneur ? est-il croyable</l>
             <l n="310" xml:id="l310">Qu’en l’état où je suis on pust me croire aimable,</l>
@@ -1015,7 +1020,7 @@
             <l n="319" xml:id="l319">La pitié que mes maux s’attirent chaque jour</l>
             <l n="320" xml:id="l320">Laisse dans ces soûpirs peu de part à l’amour.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I05-5" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="321" xml:id="l321">Et ce sont ces malheurs qui vous rendent à craindre.<note resp="editor"><hi rend="i">Var. 1692</hi> : craindre</note></l>
             <l n="322" xml:id="l322">Pour estre tout à vous il ne faut que vous plaindre,</l>
@@ -1028,8 +1033,9 @@
             <l n="329" xml:id="l329">Mais l’adoucissement qu’y meslent vos disgraces</l>
             <l n="330" xml:id="l330" part="I">Fait briller…</l>
           </sp>
-          <sp who="elise">
-            <speaker>ELISE</speaker><pb n="15"/>
+          <sp xml:id="I05-6" who="elise">
+            <speaker>ELISE</speaker>
+            <pb n="15"/>
             <l part="F">Ces douceurs<note resp="editor"><hi rend="i">Douceurs</hi> : à prendre péjorativement dans la bouche d’Élise.</note> sont pour les ames basses,</l>
             <l n="331" xml:id="l331">Seigneur, et mon orgueil s’en accommode mal,</l>
             <l n="332" xml:id="l332">De grace, traitez mieux la Fille d’Annibal.</l>
@@ -1040,7 +1046,7 @@
             <l n="337" xml:id="l337">Et l’éclat de ce Trône où je le voy qui monte</l>
             <l n="338" xml:id="l338">N’a pas encor assez effacé cette honte.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I05-7" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="339" xml:id="l339">Ah, que cette fierté paroist digne de vous !</l>
             <l n="340" xml:id="l340">J’en conçois pour mon Fils un augure bien doux,</l>
@@ -1049,7 +1055,7 @@
             <l n="343" xml:id="l343">Il n’aime qu’à vous plaire ; à des feux si soumis,</l>
             <l n="344" xml:id="l344">Madame, <ref target="#expliquer">expliquez*</ref>-vous, quel espoir est permis ?</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="I05-8" who="elise">
             <speaker>ELISE</speaker>
             <l n="345" xml:id="l345">Quoy, vous croyez qu’Elise ait l’ame assez ingrate</l>
             <l n="346" xml:id="l346">Pour pouvoir consentir<note resp="editor"><hi rend="i">Consentir</hi> : Aquiescer à quelque chose (Académie). Ici, le terme signifie reconnaître, admettre.</note> que cet amour la flate,</l>
@@ -1064,7 +1070,7 @@
             <l n="355" xml:id="l355">Et quoy que vous fist croire un dépit genereux,</l>
             <l n="356" xml:id="l356">Pour regner seurement, il faut regner par eux<note resp="editor"> Reprise ironique des propos du Flaminius de Pierre Corneille par Élise : « [Qu’] Être allié de Rome et s’en faire un appui / C’est l’unique moyen de régner aujourd’hui » (CORNEILLE P., <hi rend="i">Nicomède</hi>, III, 2, v. 877-878, in éd. cit., t. 2, p. 675).</note>.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I05-9" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="357" xml:id="l357">De ma fidelité Rome a trop d’asseurance</l>
             <l n="358" xml:id="l358">Pour me laisser long temps craindre sa <ref target="#defiance">défiance*</ref>,</l>
@@ -1073,7 +1079,7 @@
             <l n="361" xml:id="l361">Pourveu que de mon Fils vous approuviez la flame,</l>
             <l n="362" xml:id="l362" part="I">Que ses <ref target="#voeux">vœux*</ref>…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="I05-10" who="elise">
             <speaker>ELISE</speaker>
             <l part="F">Connoissez, Seigneur, toute mon ame,</l>
             <l n="363" xml:id="l363">Le Prince a des <ref target="#vertu">vertus*</ref> qu’on ne peut égaler,</l>
@@ -1089,10 +1095,10 @@
             <l n="373" xml:id="l373" part="I">Adieu, Seigneur.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I06">
           <head>SCENE VI.</head>
           <stage>PRUSIAS, ARAXE.</stage>
-          <sp who="prusias">
+          <sp xml:id="I06-1" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Et bien, quelle preuve plus claire</l>
             <l n="374" xml:id="l374">Que mon Fils est aimé, que c’est luy qu’on prefere ?</l>
@@ -1107,13 +1113,13 @@
             <l n="383" xml:id="l383">Et demain avec luy, sans en faire d’éclat,</l>
             <l n="384" xml:id="l384">Sous pretexte d’honneur l’envoyer au Senat.</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="I06-2" who="araxe">
             <speaker>ARAXE</speaker>
             <l n="385" xml:id="l385">Mais si vous regardez son amour comme un crime,</l>
             <l n="386" xml:id="l386">Comment rendre, Seigneur, le vostre legitime ?</l>
             <l n="387" xml:id="l387">Rome vous verra-t’elle impunément joüir…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I06-3" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="388" xml:id="l388">Mon zele aura paru, c’est dequoy l’<ref target="#eblouir2">ébloüir*</ref>.</l>
             <l n="389" xml:id="l389">Peut-estre qu’elle mesme, <ref target="#obliger1">obligée*</ref> à se rendre</l>
@@ -1121,13 +1127,13 @@
             <l n="391" xml:id="l391">Et s’asseurer par moy de l’<ref target="#inquietude">inquiete*</ref> ardeur,</l>
             <l n="392" xml:id="l392">Qui l’a toûjours rendu jaloux de sa grandeur<note resp="editor"><hi rend="i">S’asseurer par moy de l’inquiete ardeur, / Qui l’a toûjours rendu jaloux de sa grandeur</hi> : Rome, à travers Prusias, veut réduire la haine glorieuse d’Hannibal à l’impuissance. </note>.</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="I06-4" who="araxe">
             <speaker>ARAXE</speaker>
             <l n="393" xml:id="l393">Mais d’une et d’autre part vostre esperance est vaine,</l>
             <l n="394" xml:id="l394">Elise veut, Seigneur, qu’on épouse sa haine,</l>
             <l n="395" xml:id="l395" part="I">Et que…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="I06-5" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Lors qu’il s’agit de voir nos <ref target="#voeux">vœux*</ref> contents,</l>
             <l n="396" xml:id="l396">Promettons tout, Araxe, et laissons faire au temps.</l>
@@ -1135,17 +1141,17 @@
           <label>Fin du premier Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="II" type="act">
         <pb n="18"/>
         <head>ACTE II.</head>
-        <div type="scene">
+        <div type="scene" xml:id="II01">
           <head>SCENE PREMIERE.</head>
           <stage>ELISE, ALCINE.</stage>
-          <sp who="elise">
+          <sp xml:id="II01-1" who="elise">
             <speaker>ELISE</speaker>
             <l n="397" xml:id="l397">Le Prince doit partir ! ne t’es-tu point trompée ?</l>
           </sp>
-          <sp who="alcine">
+          <sp xml:id="II01-2" who="alcine">
             <speaker>ALCINE</speaker>
             <l n="398" xml:id="l398">J’ay douté de ce bruit d’abord qu’il<note resp="editor"><hi rend="i">D’abord que</hi> : dès que.</note> m’a frapée,</l>
             <l n="399" xml:id="l399">Mais dans toute la Cour, Madame, il fait éclat<note resp="editor"><hi rend="i">Faire éclat</hi> : faire grand bruit.</note>.</l>
@@ -1154,51 +1160,52 @@
             <l n="402" xml:id="l402"><ref target="#expliquer">Expliquer*</ref> à quel point ce grand Accord le touche,</l>
             <l n="403" xml:id="l403">Flaminius l’emmene, ils partent dés demain.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II01-3" who="elise">
             <speaker>ELISE</speaker>
             <l n="404" xml:id="l404" part="I">Et le Prince y consent ?</l>
           </sp>
-          <sp who="alcine">
+          <sp xml:id="II01-4" who="alcine">
             <speaker>ALCINE</speaker>
             <l part="F">Son refus seroit vain.</l>
             <l n="405" xml:id="l405">Où l’ordre est absolu, que peut sa resistance ?</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II01-5" who="elise">
             <speaker>ELISE</speaker>
             <l n="406" xml:id="l406">Quoy, son cœur à ceder n’a point de repugnance ?</l>
           </sp>
-          <sp who="alcine">
-            <speaker>ALCINE</speaker><pb n="19"/>
+          <sp xml:id="II01-6" who="alcine">
+            <speaker>ALCINE</speaker>
+            <pb n="19"/>
             <l n="407" xml:id="l407">J’ay peu l’art de connoistre un cœur comme le sien.</l>
             <l n="408" xml:id="l408" part="I">Mais pourquoy…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II01-7" who="elise">
             <speaker>ELISE</speaker>
             <l part="F">C’est assez, je ne demande rien,</l>
             <l n="409" xml:id="l409">Ma curiosité sans doute est indiscrette.</l>
           </sp>
-          <sp who="alcine">
+          <sp xml:id="II01-8" who="alcine">
             <speaker>ALCINE</speaker>
             <l n="410" xml:id="l410">Au moins vous en aviez quelque raison secrette<note resp="editor"><hi rend="i">Au moins</hi> : du moins.</note> ?</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II01-9" who="elise">
             <speaker>ELISE</speaker>
             <l n="411" xml:id="l411">Je ne sçay<note resp="editor"> Le « ne » peut exprimer la négation à lui seul dans la langue classique (voir HAASE, A. <hi rend="i">op. cit.</hi>, § 100, B, p. 251-252).</note>, mais enfin ce que j’aime à sçavoir</l>
             <l n="412" xml:id="l412">C’est que mon triste cœur n’en devroit pas avoir.</l>
           </sp>
-          <sp who="alcine">
+          <sp xml:id="II01-10" who="alcine">
             <speaker>ALCINE</speaker>
             <l n="413" xml:id="l413">Ne dissimulez point. Le Prince a sçeu vous plaire.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II01-11" who="elise">
             <speaker>ELISE</speaker>
             <l n="414" xml:id="l414" part="I">Moy l’aimer ?</l>
           </sp>
-          <sp who="alcine">
+          <sp xml:id="II01-12" who="alcine">
             <speaker>ALCINE</speaker>
             <l part="F">Sa <ref target="#vertu">vertu*</ref> vous doit estre assez chere.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II01-13" who="elise">
             <speaker>ELISE</speaker>
             <l n="415" xml:id="l415">Il est vray qu’il sçait joindre à l’éclat de son rang</l>
             <l n="416" xml:id="l416">Toutes les qualitez que demande un beau sang,</l>
@@ -1207,20 +1214,20 @@
             <l n="419" xml:id="l419">Moy-mesme je me sents forcée à l’estimer<note resp="editor">Sur les rapports de l’amour et de l’estime, voir le chapitre « La politique souveraine » dans l’introduction (V, 1).</note>,</l>
             <l n="420" xml:id="l420">J’admire sa <ref target="#vertu">vertu*</ref>, mais ce n’est pas l’aimer.</l>
           </sp>
-          <sp who="alcine">
+          <sp xml:id="II01-14" who="alcine">
             <speaker>ALCINE</speaker>
             <l n="421" xml:id="l421">Avec tant de chaleur loüer ce qu’on estime,</l>
             <l n="422" xml:id="l422">Madame, croyez-moy, c’est l’amour qui s’exprime.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II01-15" who="elise">
             <speaker>ELISE</speaker>
             <l n="423" xml:id="l423">Quoy, tu crois que je l’aime, et que pour faire cas…</l>
           </sp>
-          <sp who="alcine">
+          <sp xml:id="II01-16" who="alcine">
             <speaker>ALCINE</speaker>
             <l n="424" xml:id="l424">Mais vous mesme avec moy ne le croyez-vous pas ?</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II01-17" who="elise">
             <speaker>ELISE</speaker>
             <l n="425" xml:id="l425">Je veux bien t’advouër que son depart m’afflige,</l>
             <l n="426" xml:id="l426">Que l’ordre qu’on luy donne à soûpirer m’<ref target="#obliger1">oblige*</ref>,</l>
@@ -1232,39 +1239,39 @@
             <l n="432" xml:id="l432">N’ait pas la fermeté de nous garder sa <ref target="#foi">foy*</ref>.</l>
             <l n="433" xml:id="l433">Son fils estoit pour nous un appuy necessaire.</l>
           </sp>
-          <sp who="alcine">
+          <sp xml:id="II01-18" who="alcine">
             <speaker>ALCINE</speaker>
             <l n="434" xml:id="l434">J’en croiray ce motif<note resp="editor"><hi rend="i">J’en croiray ce motif</hi> : je croirai que c’est là le motif de votre tristesse.</note> s’il s’agit de vous plaire,</l>
             <l n="435" xml:id="l435">Le Prince peut icy vous manquer au besoin<note resp="editor"><hi rend="i">Le prince peut icy vous manquer au besoin</hi> : Nicomède pourrait, il est vrai, vous faire défaut alors que vous aurez besoin de lui. <hi rend="i">Au besoin</hi> : en cas de nécessité.</note>,</l>
             <l n="436" xml:id="l436">Mais on ne prévoit pas les malheurs de si loin,</l>
             <l n="437" xml:id="l437">Et lors que tant d’ardeur fait que l’on s’interesse…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II01-19" who="elise">
             <speaker>ELISE</speaker>
             <l n="438" xml:id="l438">Qui te porte à vouloir joüir de ma foiblesse ?</l>
             <l n="439" xml:id="l439">Ne force point mon cœur à se trop declarer,</l>
             <l n="440" xml:id="l440">Et s’il aime en secret laisse-moy l’ignorer.</l>
             <l n="441" xml:id="l441" part="I">Voicy le Prince, ah Dieux !</l>
           </sp>
-          <sp who="alcine">
+          <sp xml:id="II01-20" who="alcine">
             <speaker>ALCINE</speaker>
             <l part="F">Redoutez-vous sa veuë ?</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II01-21" who="elise">
             <speaker>ELISE</speaker>
             <l n="442" xml:id="l442">Je sents que tout à coup mon ame s’est <ref target="#emouvoir">émeuë*</ref>,</l>
             <l n="443" xml:id="l443">Mais ce trouble, inconnu pour moy jusqu’à ce jour,</l>
             <l n="444" xml:id="l444">Se donne à sa disgrace, et non pas à l’amour<note resp="editor"><hi rend="i">Se donne à sa disgrace, et non pas à l’amour</hi> : Élise attribue son trouble à la pitié qu’elle éprouve pour Nicomède, et non au fait qu’elle l’aime.</note>.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II02">
           <head>SCENE II.</head>
           <stage>NICOMEDE, ELISE, ALCINE.</stage>
-          <sp who="elise">
+          <sp xml:id="II02-1" who="elise">
             <speaker>ELISE</speaker>
             <l n="445" xml:id="l445" part="I">Vous vous éloignez, Prince ?</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II02-2" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l part="F">On m’y force, Madame,</l>
             <l n="446" xml:id="l446">Mais dans ce déplaisir ce qui flate mon ame,</l>
@@ -1272,19 +1279,19 @@
             <l n="448" xml:id="l448">N’aura plus contre vous d’empire sur le Roy.</l>
             <l n="449" xml:id="l449">Son depart en ces lieux asseure vostre azyle.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II02-3" who="elise">
             <speaker>ELISE</speaker>
             <l n="450" xml:id="l450">Rome pour nous troubler trouvera tout facile,<note resp="editor"><hi rend="i">Var.1692</hi> : facile :</note></l>
             <l n="451" xml:id="l451">Elle a d’autres Agents dont le secret pouvoir</l>
             <l n="452" xml:id="l452">De vostre éloignement sçaura se prévaloir.</l>
             <l n="453" xml:id="l453">Quoy qu’ils vueillent<note resp="editor">Variante graphique courante pour « veuillent ».</note> oser, nous restons sans défence.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II02-4" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="454" xml:id="l454">Madame, attendez tout de mon <ref target="#impatience">impatience*</ref>,</l>
             <l n="455" xml:id="l455">Par un retour si prompt<note resp="editor">Le « si » a ici valeur d’intensif, et signifie « très ».</note>, s’il vous faut mon secours…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II02-5" who="elise">
             <speaker>ELISE</speaker>
             <l n="456" xml:id="l456">Ah Prince, vous party, vous l’estes pour toûjours.<note resp="editor"><hi rend="i">Var.1692</hi> : toûjours, </note></l>
             <l n="457" xml:id="l457">Ne vous offencez point de ce triste presage,</l>
@@ -1292,11 +1299,11 @@
             <l n="459" xml:id="l459">Et vous n’en reviendrez qu’apres que nos Tyrans</l>
             <l n="460" xml:id="l460">De sa ruine entiere auront de seurs garands.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II02-6" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="461" xml:id="l461" part="I">Quoy, le Roy soufriroit…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II02-7" who="elise">
             <speaker>ELISE</speaker>
             <l part="F">J’oseray plus vous dire,</l>
             <l n="462" xml:id="l462">A vous voir éloigné le Roy luy mesme aspire,</l>
@@ -1307,48 +1314,49 @@
             <l n="467" xml:id="l467">Ma veuë est le seul bien dont il cherche à joüir,</l>
             <l n="468" xml:id="l468">Et souvent j’entens plus que je ne veux oüir.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II02-8" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="469" xml:id="l469">Pardonnez mon desordre à ma surprise extréme.</l>
             <l n="470" xml:id="l470">Quoy, Madame, il se peut que Prusias vous aime,</l>
             <l n="471" xml:id="l471" part="I">Que l’ordre de partir…</l>
           </sp>
-          <sp who="elise">
-            <speaker>ELISE</speaker><pb n="22"/>
+          <sp xml:id="II02-9" who="elise">
+            <speaker>ELISE</speaker>
+            <pb n="22"/>
             <l part="F">Si vous obeïssez,</l>
             <l n="472" xml:id="l472">Prince, voyez de grace à qui vous me laissez.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II02-10" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="473" xml:id="l473">Si j’osois le bien voir je craindrois de trop dire.</l>
             <l n="474" xml:id="l474" part="I">Adieu, Madame.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II02-11" who="elise">
             <speaker>ELISE</speaker>
             <l part="M">Helas !</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II02-12" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l part="F">Quoy, vostre cœur soûpire ?</l>
             <l n="475" xml:id="l475">A quoy dois-je imputer ce tendre mouvement ?</l>
             <l n="476" xml:id="l476">Quand je trouve un Rival l’obtiens-je comme Amant ?<note resp="editor"> Au XVII<hi rend="sup">e</hi> siècle, l’amant est celui dont l’amour est payé de retour, contrairement à l’amoureux. Il faut donc comprendre : « suis-je le rival heureux de mon père ? ».</note></l>
             <l n="477" xml:id="l477" part="I">Parlez.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II02-13" who="elise">
             <speaker>ELISE</speaker>
             <l part="M">Que vous diray-je ?</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II02-14" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l part="F"><ref target="#expliquer">Expliquez*</ref> vous de grace.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II02-15" who="elise">
             <speaker>ELISE</speaker>
             <l n="478" xml:id="l478">Un soûpir dit beaucoup quand le cœur s’embarasse,</l>
             <l n="479" xml:id="l479">Et qui peut l’arracher apres mille combats</l>
             <l n="480" xml:id="l480">Le meriteroit peu s’il ne l’entendoit pas.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II02-16" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="481" xml:id="l481">O trop<note resp="editor"> Trop s’emploie souvent au sens de « très » dans la langue classique » (voir HAASE, A. <hi rend="i">op.cit.</hi>, § 98, p. 245).</note> charmant <ref target="#aveu1">aveu*</ref> de la plus belle flame</l>
             <l n="482" xml:id="l482">Dont ait pû jusqu’icy brûler une grande ame !</l>
@@ -1363,12 +1371,13 @@
             <l n="491" xml:id="l491">Et par ce sacrifice apprendre assez à tous</l>
             <l n="492" xml:id="l492">Que peut-estre mon cœur estoit digne de vous.</l>
           </sp>
-          <sp who="elise">
-            <speaker>ELISE</speaker><pb n="23"/>
+          <sp xml:id="II02-17" who="elise">
+            <speaker>ELISE</speaker>
+            <pb n="23"/>
             <l n="493" xml:id="l493">Quoy, si ce pur amour fait toute vostre gloire,</l>
             <l n="494" xml:id="l494">Il faut m’abandonner pour me le faire croire ?</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II02-18" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="495" xml:id="l495">Quoy, pour vostre repos je pourrois lâchement</l>
             <l n="496" xml:id="l496">Refuser de souscrire à mon éloignement ?</l>
@@ -1380,25 +1389,25 @@
             <l n="502" xml:id="l502">Mon exil évité seroit l’arrest du vostre.</l>
             <l n="503" xml:id="l503">Cedons, cedons, Madame, à d’injustes projets.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II02-19" who="elise">
             <speaker>ELISE</speaker>
             <l n="504" xml:id="l504">Ainsi vous me quittez peut-estre pour jamais ?</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II02-20" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="505" xml:id="l505">Le Ciel adoucira cette rigueur extréme.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II02-21" who="elise">
             <speaker>ELISE</speaker>
             <l n="506" xml:id="l506" part="I">Que faire <ref target="#cependant1">cependant*</ref> ?</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II02-22" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l part="F">Songer que je vous aime,</l>
             <l n="507" xml:id="l507">Et si le Roy vous presse, accepter de sa <ref target="#foi">foy*</ref></l>
             <l n="508" xml:id="l508">Ce que je ne veux pas que vous perdiez pour moy<note resp="editor">Ici Nicomède enjoint à Elise d’accepter la couronne que lui offre Prusias pour être à l’abri des coups perfides de Flaminius.</note>.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II02-23" who="elise">
             <speaker>ELISE</speaker>
             <l n="509" xml:id="l509">Ah, Prince, songez-vous jusqu’où va cét outrage,</l>
             <l n="510" xml:id="l510">Et quand mon interest<note resp="editor"><hi rend="i">Mon interest</hi> : l’intérêt que vous me portez.</note> à l’exil vous engage,</l>
@@ -1409,8 +1418,9 @@
             <l n="515" xml:id="l515">Et les fers que dans Rome on vous feroit traisner</l>
             <l n="516" xml:id="l516">Me vaudroient la douceur de me voir couronner ?</l>
           </sp>
-          <sp who="nicomede">
-            <speaker>NICOMEDE</speaker><pb n="24"/>
+          <sp xml:id="II02-24" who="nicomede">
+            <speaker>NICOMEDE</speaker>
+            <pb n="24"/>
             <l n="517" xml:id="l517">Et quel repos pour moy pretendre en Bithynie</l>
             <l n="518" xml:id="l518">Si faute d’en partir je vous en vois bannie,</l>
             <l n="519" xml:id="l519">Et de nouveau reduite au funeste <ref target="#revers">revers*</ref></l>
@@ -1431,40 +1441,40 @@
             <l n="534" xml:id="l534" part="I">Mais Annibal…<note resp="editor"><hi rend="i">Var. 1692</hi> : Annibal.</note></l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II03">
           <head>SCENE III.</head>
           <stage>ANNIBAL, NICOMEDE, ELISE.</stage>
-          <sp who="annibal">
+          <sp xml:id="II03-1" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l part="F">J’apprens que vous allez à Rome,</l>
             <l n="535" xml:id="l535" part="I">Prince.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II03-2" who="elise">
             <speaker>ELISE</speaker>
             <l part="F">Rompez, Seigneur, cet injuste projet.</l>
             <l n="536" xml:id="l536">De sa hayne par vous les Romains sont l’objet<note resp="editor"><hi rend="i">De sa hayne par vous les Romains sont l’objet</hi> : c’est vous qui avez inspiré à Nicomède la haine qu’il porte à Rome. </note>.</l>
             <l n="537" xml:id="l537">Laisseriez-vous ainsi détruire vostre ouvrage<note resp="editor"><hi rend="i">Vostre ouvrage</hi> : Élise fait référence à Nicomède, qu’Hannibal a élevé et formé.</note> ?</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="II03-3" who="annibal">
             <speaker>ANNIBAL</speaker>
             <pb n="C 25"/>
             <l n="538" xml:id="l538">J’ay d’asseurez moyens de rompre ce voyage,</l>
             <l n="539" xml:id="l539" part="I">Ne vous alarmez point.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="II03-4" who="elise">
             <speaker>ELISE</speaker>
             <l part="F">Ah, je le jugeois bien,</l>
             <l n="540" xml:id="l540" part="I">Que si…</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="II03-5" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l part="F">Laissez-nous seuls, et n’apprehendez rien.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II04">
           <head>SCENE IV.</head>
           <stage>ANNIBAL, NICOMEDE.</stage>
-          <sp who="nicomede">
+          <sp xml:id="II04-1" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="541" xml:id="l541">Seigneur, n’enviez point à ma reconnoissance<note resp="editor"><hi rend="i">N’enviez point à ma reconnoissance</hi> : ne m’ôtez pas l’occasion que j’ai de montrer ma gratitude envers vous en partant à Rome.</note></l>
             <l n="542" xml:id="l542">La gloire d’un depart qui fait vostre asseurance,</l>
@@ -1475,7 +1485,7 @@
             <l n="547" xml:id="l547">Et que c’est sous luy seul que l’on peut à son choix</l>
             <l n="548" xml:id="l548">Apprendre les <ref target="#vertu">vertus*</ref> les plus dignes des Rois.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="II04-2" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="549" xml:id="l549">Si mes foibles avis ont eu l’heur de vous plaire,</l>
             <l n="550" xml:id="l550">Ce me doit estre, Prince, une gloire trop chere</l>
@@ -1483,21 +1493,21 @@
             <l n="552" xml:id="l552">Me dérobent l’effet que je m’en suis promis.</l>
             <l n="553" xml:id="l553" part="I">Vous n’irez point à Rome.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II04-3" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l part="F">Ah, Seigneur, prenez garde…</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="II04-4" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="554" xml:id="l554">Ne vous alarmez point de ce qui me regarde,</l>
             <l n="555" xml:id="l555">Je sçay par où<note resp="editor"><hi rend="i">Par où</hi> : par quel moyen.</note> je puis tourner l’esprit du Roy,<pb n="26"/></l>
             <l n="556" xml:id="l556" part="I">J’en répons.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II04-5" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l part="M">Mais, Seigneur…</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="II04-6" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l part="F">De grace, écoutez-moy.</l>
             <l n="557" xml:id="l557">J’eus toujours pour vous, Prince, une tendresse extrême,</l>
@@ -1537,7 +1547,7 @@
             <l n="591" xml:id="l591">Et mon depart rompant un ordre rigoureux</l>
             <l n="592" xml:id="l592">Vous laissera paisible<note resp="editor"><hi rend="i">Paisible</hi> : qui est en repos, sans guerre, sans procès, sans differend (Furetière).</note>, et Prusias heureux.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II04-7" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="593" xml:id="l593">Vous perdre est un malheur que merite mon Pere,</l>
             <l n="594" xml:id="l594">Mais sçavez-vous, Seigneur, ce que vous allez faire ?</l>
@@ -1549,7 +1559,7 @@
             <l n="600" xml:id="l600">Mes soûpirs, mes langueurs, vous en ont dit assez,</l>
             <l n="601" xml:id="l601">Combien m’avez-vous veu pour la charmante Elise…</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="II04-8" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="602" xml:id="l602">Oüy, Prince, il ne faut point que je vous le déguise,</l>
             <l n="603" xml:id="l603">J’ay connu vostre amour, et comme il m’a fait voir</l>
@@ -1559,7 +1569,7 @@
             <l n="607" xml:id="l607">Mais quoy que pour vos feux il puisse m’inspirer,</l>
             <l n="608" xml:id="l608">Vous me connoissez trop pour en rien esperer.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II04-9" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="609" xml:id="l609">Pour en rien esperer ! Ah, Seigneur, par quel crime</l>
             <l n="610" xml:id="l610">Ay-je pû meriter de perdre vostre estime ?</l>
@@ -1570,7 +1580,7 @@
             <l n="615" xml:id="l615">Et si de vostre haine il faut prendre la loy,</l>
             <l n="616" xml:id="l616">Detester vos Tyrans, qui les hait plus que moy ?</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="II04-10" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="617" xml:id="l617">Je dois vous l’avouër ;  j’ay beau chercher une ame</l>
             <l n="618" xml:id="l618">Que du solide honneur l’interest seul enflame,</l>
@@ -1613,7 +1623,7 @@
             <l n="655" xml:id="l655">Et faire negliger à ses transports mourants</l>
             <l n="656" xml:id="l656">L’heureuse occasion d’abaisser<note resp="editor"><hi rend="i">Abaisser</hi> : mettre à bas.</note> mes Tyrans.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II04-11" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="657" xml:id="l657">Eh, pleust aux Dieux, Seigneur, que pour flater ma peine</l>
             <l n="658" xml:id="l658">Vous connussiez l’amour aussi-bien que la haine,</l>
@@ -1636,14 +1646,14 @@
             <l n="675" xml:id="l675">Et voir dans ce moment d’un regard de pitié<pb n="30"/></l>
             <l n="676" xml:id="l676">Ce que par moy l’amour immole à l’amitié.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="II04-12" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="677" xml:id="l677">Ah, Prince, c’en est trop, cachez-moy tant de zele,</l>
             <l n="678" xml:id="l678">Ma haine à vous ouïr déja presque chancelle,</l>
             <l n="679" xml:id="l679">Et jamais les Romains pour fléchir mon couroux</l>
             <l n="680" xml:id="l680">N’eurent un Partisan plus à craindre que vous.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="II04-13" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="681" xml:id="l681">Vostre haine pour eux ne peut estre assez fiere,</l>
             <l n="682" xml:id="l682">Je ne l’attaque point, gardez-la toute entiere,</l>
@@ -1653,7 +1663,7 @@
             <l n="686" xml:id="l686">N’attend que son départ pour se faire connoistre<note resp="editor"><hi rend="i">Se faire connoistre</hi> : révéler ses véritables intentions. Connoistre signifie quelquefois découvrir, faire voir ce qu’on est (Furetière).</note>,</l>
             <l n="687" xml:id="l687">Pour vous laisser de Rome affranchir son Estat<note resp="editor"><hi rend="i">Pour vous laisser de Rome affranchir son Estat</hi> : pour vous laisser libérer la Bithynie du joug romain.</note>.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="II04-14" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="688" xml:id="l688">Et c’est dans ce dessein qu’il vous livre au Senat ?</l>
             <l n="689" xml:id="l689">Je veux bien luy parler, et d’un honteux voyage</l>
@@ -1662,10 +1672,10 @@
             <l n="692" xml:id="l692">Qu’aprés que Prusias… laissez-nous, je le voy.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II05">
           <head>SCENE V.</head>
           <stage>PRUSIAS, ANNIBAL, ARAXE.</stage>
-          <sp who="prusias">
+          <sp xml:id="II05-1" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="693" xml:id="l693">Et bien, Seigneur, enfin me rendrez-vous justice ?<note resp="editor"><hi rend="i">Var. 1692</hi> : justice, </note></l>
             <l n="694" xml:id="l694">Ay-je fait aux Romains un honteux sacrifice,</l>
@@ -1673,8 +1683,9 @@
             <l n="696" xml:id="l696">Vous répond-il assez que mon cœur est à vous ?</l>
             <l n="697" xml:id="l697">Vous restez dans ma Cour, et je vous tiens parole.</l>
           </sp>
-          <sp who="annibal">
-            <speaker>ANNIBAL</speaker><pb n="31"/>
+          <sp xml:id="II05-2" who="annibal">
+            <speaker>ANNIBAL</speaker>
+            <pb n="31"/>
             <l n="698" xml:id="l698">Je voy qu’il s’est flaté d’une attente frivole,</l>
             <l n="699" xml:id="l699">Et vous dois d’autant plus, Seigneur, qu’en vain par luy</l>
             <l n="700" xml:id="l700">Rome a tout employé pour m’oster vostre appuy.</l>
@@ -1711,14 +1722,14 @@
             <l n="731" xml:id="l731">Ou par quelque dessein dont nous verrons l’éclat,</l>
             <l n="732" xml:id="l732">Va-t’il comme Espion <ref target="#amuser1">amuser*</ref> le Senat ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="II05-3" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="733" xml:id="l733">Jugez par là, Seigneur, si mon zele est extréme.</l>
             <l n="734" xml:id="l734">Je cherche à détourner vos malheurs sur moy mesme,</l>
             <l n="735" xml:id="l735">Et pour vous soustenir contre vos ennemis,</l>
             <l n="736" xml:id="l736">Me garder tout à vous, je leur livre mon Fils.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="II05-4" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="737" xml:id="l737">Et pourquoy vous sousmettre à l’affront volontaire</l>
             <l n="738" xml:id="l738">De recevoir la loy quand vous la pouviez faire ?</l>
@@ -1735,7 +1746,7 @@
             <l n="749" xml:id="l749">Où pourrez vous jamais pour vanger vos outrages</l>
             <l n="750" xml:id="l750">Recouvrer à la fois de pareils avantages ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="II05-5" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="751" xml:id="l751">Ils estoient grands sans doute avec un tel secours,</l>
             <l n="752" xml:id="l752">Mais pour esperer vaincre on ne vainc pas toûjours,</l>
@@ -1760,7 +1771,7 @@
             <l n="771" xml:id="l771">Pour voir Attale à moy je le rends mon égal,</l>
             <l n="772" xml:id="l772">Fais des Amis par tout, et retiens Annibal.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="II05-6" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="773" xml:id="l773">Ces projets déguisez dont vostre ame est charmée</l>
             <l n="774" xml:id="l774">Marquent une prudence et rare et consommée ;</l>
@@ -1786,7 +1797,7 @@
             <l n="794" xml:id="l794">Ma haine en liberté, Rome sans <ref target="#defiance">défiance*</ref>.</l>
             <l n="795" xml:id="l795" part="I">Ainsi <ref target="#souffrir1">souffrez*</ref>, Seigneur…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="II05-7" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Vouloir quitter un Roy</l>
             <l n="796" xml:id="l796">Qui ne <ref target="#reserver1">reserve*</ref> rien pour vous prouver sa <ref target="#foi">foy*</ref>,</l>
@@ -1794,7 +1805,7 @@
             <l n="798" xml:id="l798"><ref target="#respect2">Respecter*</ref> dans sa Cour à l’égal de luy-mesme,</l>
             <l n="799" xml:id="l799" part="I">Et pour vostre repos…</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="II05-8" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l part="F">C’est me connoistre mal.</l>
             <l n="800" xml:id="l800">Quoy, parler de repos pour moy, pour Annibal ?<note resp="editor"><hi rend="i">Var. 1692</hi> : Annibal !</note></l>
@@ -1819,10 +1830,10 @@
             <l n="819" xml:id="l819">J’attens vostre réponse, et vous laisse y resver.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II06">
           <head>SCENE VI.</head>
           <stage>PRUSIAS, ARAXE.</stage>
-          <sp who="prusias">
+          <sp xml:id="II06-1" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="820" xml:id="l820">A quoy le Ciel encor me veut-il <ref target="#reserver2">reserver*</ref> ?</l>
             <l n="821" xml:id="l821">Pour garder Annibal en faveur de ma flame,</l>
@@ -1837,13 +1848,13 @@
           <label rend="i">Fin du second Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="III" type="act">
         <pb n="36"/>
         <head>ACTE III.</head>
-        <div type="scene">
+        <div type="scene" xml:id="III01">
           <head>SCENE PREMIERE.</head>
           <stage>ATTALE, ELISE, ALCINE.</stage>
-          <sp who="attale">
+          <sp xml:id="III01-1" who="attale">
             <speaker>ATTALE</speaker>
             <l n="829" xml:id="l829">Qu’obtiendra mon <ref target="#respect2">respect*</ref> ? vous le voyez, Madame,</l>
             <l n="830" xml:id="l830">Je viens mettre à vos pieds mon espoir et ma flame,<note resp="editor"><hi rend="i">Var. 1692</hi> : flame.</note></l>
@@ -1853,7 +1864,7 @@
             <l n="834" xml:id="l834">S’il coustoit à vos <ref target="#voeux">vœux*</ref> la moindre violence,</l>
             <l n="835" xml:id="l835">Ainsi quoi qu’Annibal m’ait permis d’esperer…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="III01-2" who="elise">
             <speaker>ELISE</speaker>
             <l n="836" xml:id="l836">Vous l’avez déja veu, faites-le declarer<note resp="editor"><hi rend="i">Faites-le declarer</hi> : faites en sorte qu’Hannibal se déclare sur le sort qu’il me réserve.</note>,</l>
             <l n="837" xml:id="l837">Seigneur, ses ordres seuls reglent ma destinée,</l>
@@ -1877,7 +1888,7 @@
             <l n="855" xml:id="l855">Renoncez à des nœuds qui pourroient vous trahir</l>
             <l n="856" xml:id="l856">Jusqu’à vous dérober la honte d’obeïr.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="III01-3" who="attale">
             <speaker>ATTALE</speaker>
             <l n="857" xml:id="l857">Que Rome à sa fierté jamais m’assujetisse !</l>
             <l n="858" xml:id="l858">Que mon cœur se ravale à s’en faire complice,</l>
@@ -1898,7 +1909,7 @@
             <l n="873" xml:id="l873">Croira-t’il qu’une ardeur et si tendre et si forte,</l>
             <l n="874" xml:id="l874" part="I">Touche assez vos desirs…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="III01-4" who="elise">
             <speaker>ELISE</speaker>
             <l part="F">Seigneur, que vous importe ?</l>
             <l n="875" xml:id="l875">Si jamais vous avez le nom de mon Epoux,<pb n="38"/></l>
@@ -1920,27 +1931,28 @@
             <l n="891" xml:id="l891">Et l’Espoux me plaira<note resp="editor"><hi rend="i">Et l’Espoux me plaira, dont l’intrepidité / M’offrira les moyens d’en braver la fierté</hi> : il me plaira de prendre pour époux celui qui me donnera les moyens de braver Rome.</note>, dont l’intrepidité</l>
             <l n="892" xml:id="l892">M’offrira les moyens d’en braver la fierté.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="III01-5" who="attale">
             <speaker>ATTALE</speaker>
             <l n="893" xml:id="l893">Ah, que plûtost sur moy le sort le plus funeste…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="III01-6" who="elise">
             <speaker>ELISE</speaker>
             <l n="894" xml:id="l894">J’aperçois Annibal, vous lui direz le reste.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III02">
           <head>SCENE II.</head>
           <stage>ANNIBAL, ATTALE. </stage>
-          <sp who="attale">
+          <sp xml:id="III02-1" who="attale">
             <speaker>ATTALE</speaker>
             <l n="895" xml:id="l895">Seigneur, de quel espoir puis-je enfin me flater ?</l>
             <l n="896" xml:id="l896">Mon cœur vous est offert, venez-vous l’accepter,</l>
             <l n="897" xml:id="l897">Et du grand Annibal ma flame obtiendra-t’elle</l>
             <l n="898" xml:id="l898">Qu’une heureuse union soit le prix de mon zele ?</l>
           </sp>
-          <sp who="annibal">
-            <speaker>ANNIBAL</speaker><pb n="39"/>
+          <sp xml:id="III02-2" who="annibal">
+            <speaker>ANNIBAL</speaker>
+            <pb n="39"/>
             <l n="899" xml:id="l899">Il doit m’estre bien doux de voir que mon malheur</l>
             <l n="900" xml:id="l900">A mes Amis pour moi laisse tant de chaleur.</l>
             <l n="901" xml:id="l901">D’un Prince tel que vous l’alliance m’honore,</l>
@@ -1953,20 +1965,20 @@
             <l n="908" xml:id="l908">Peut-estre en vostre cœur l’amour <ref target="#allentir">s’allentira*</ref>.</l>
             <l n="909" xml:id="l909">Le grand nom d’Allié que le Senat vous donne…</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="III02-3" who="attale">
             <speaker>ATTALE</speaker>
             <l n="910" xml:id="l910">Pour disposer de moy prens-je loy de personne ?</l>
             <l n="911" xml:id="l911">Seigneur, j’en croy ma flame, et ne consulte plus<note resp="editor"><hi rend="i">[Je] ne consulte plus</hi> : on peut comprendre cette phrase en deux sens. Soit Attale signifie à Hannibal qu’il n’a plus à consulter Flaminius, auquel cas on prend le verbe « consulter » au sens de « demander advis à des gens sages et expérimentés dans un art, sur les difficultez qu’on a en certaines occurrences » (Furetière). On peut également comprendre le terme au sens « d’estre irresolu, incertain quel party on doit choisir » (Furetière), ce qui signifie, dans ce cas, qu’Attale ne compte plus tergiverser plus longtemps, et que sa décision est prise.</note>.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="III02-4" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="912" xml:id="l912">Vous vous <ref target="#expliquer">expliquerez*</ref>, voicy Flaminius.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III03">
           <head>SCENE III.</head>
           <stage>FLAMINIUS, ANNIBAL, ATTALE.</stage>
-          <sp who="flaminius">
+          <sp xml:id="III03-1" who="flaminius">
             <speaker>FLAMINIUS, <hi rend="i">à Attale</hi></speaker>
             <l n="913" xml:id="l913">Seigneur, par le pouvoir qu’on m’a daigné <ref target="#commission1">commettre*</ref></l>
             <l n="914" xml:id="l914">Jusques dans vos Estats j’aurois dû vous remettre,</l>
@@ -1976,8 +1988,9 @@
             <l n="918" xml:id="l918">De vous offrir encor un secours qui vous lasse,</l>
             <l n="919" xml:id="l919">On vous a mis au Trône, et cela vous suffit.</l>
           </sp>
-          <sp who="attale">
-            <speaker>ATTALE</speaker><pb n="40"/>
+          <sp xml:id="III03-2" who="attale">
+            <speaker>ATTALE</speaker>
+            <pb n="40"/>
             <l n="920" xml:id="l920">Je ne sçay pas, Seigneur, ce que l’on vous a dit,</l>
             <l n="921" xml:id="l921">Mais ce que je vous dois m’asseure trop de gloire</l>
             <l n="922" xml:id="l922">Pour <ref target="#souffrir2">souffrir*</ref> que jamais j’en perde la memoire,</l>
@@ -1986,71 +1999,72 @@
             <l n="925" xml:id="l925">Comme j’agis par tout d’un cœur franc et sincere</l>
             <l n="926" xml:id="l926">Ce n’est pas un secret que je cherche à vous faire.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III03-3" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="927" xml:id="l927">Dans le sein de la guerre ayant toûjours vescu</l>
             <l n="928" xml:id="l928">Il vous apprendra l’art de n’estre plus vaincu,</l>
             <l n="929" xml:id="l929">Et quelques Ennemis qui pensent vous abatre</l>
             <l n="930" xml:id="l930">Pour triompher <ref target="#abord1">d’abord*</ref> vous n’aurez qu’à combatre.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="III03-4" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="931" xml:id="l931">S’il n’apprend pas de moy l’art de vaincre aisément,</l>
             <l n="932" xml:id="l932">Il apprendra celuy de fuir l’abaissement,</l>
             <l n="933" xml:id="l933">Et de rester toûjours par un pouvoir suprême</l>
             <l n="934" xml:id="l934">Maistre de son destin malgré le Destin mesme.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III03-5" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="935" xml:id="l935">De si grandes leçons ont dequoy faire bruit,</l>
             <l n="936" xml:id="l936">Le faste m’en plairoit, mais j’en craindrois le fruit<note resp="editor"><hi rend="i">Fruit</hi> : ici, le terme se prend au sens figuré, et signifie « conséquence », « résultat ».</note>,</l>
             <l n="937" xml:id="l937">Et si je l’ose dire, Antiochus peut-estre</l>
             <l n="938" xml:id="l938">Se seroit bien passé de vous avoir pour Maistre.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="III03-6" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="939" xml:id="l939">Pour peu qu’en mes leçons il se fust affermy</l>
             <l n="940" xml:id="l940">Il vous eust mis en teste<note resp="editor"><hi rend="i">Mis en teste</hi> : On dit mettre un homme en tête à quelqu’un pour dire : lui opposer quelqu’un qui puisse lui résister (Académie). </note> un facheux Ennemy,</l>
             <l n="941" xml:id="l941">Mais son insuffisance à les mettre en usage</l>
             <l n="942" xml:id="l942">Vous a vendu sa gloire, et livré son <ref target="#courage1">courage*</ref>.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III03-7" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="943" xml:id="l943">Leur pratique est en vous ce qu’il faut admirer,</l>
             <l n="944" xml:id="l944">De Royaume en Royaume elle vous fait errer,</l>
             <l n="945" xml:id="l945">Et chercher dans l’exil tout ce que l’on peut croire</l>
             <l n="946" xml:id="l946">Que doive un grand <ref target="#courage1">courage*</ref> au soucy de sa gloire<note resp="editor"><hi rend="i">Et chercher dans l’exil tout ce que l’on peut croire / Que doive un grand courage au soucy de sa gloire</hi> : vous cherchez dans l’exil ce qu’un cœur valeureux, dit-on, doit à sa gloire. </note>.</l>
           </sp>
-          <sp who="annibal">
-            <speaker>ANNIBAL</speaker><pb n="41"/>
+          <sp xml:id="III03-8" who="annibal">
+            <speaker>ANNIBAL</speaker>
+            <pb n="41"/>
             <l n="947" xml:id="l947">Cet exil qui déja m’a fait voir tant d’Estats</l>
             <l n="948" xml:id="l948">Vous couste quelques <ref target="#soin2">soins*</ref> que vous ne dites pas,</l>
             <l n="949" xml:id="l949">Et pour tenir vostre ame en tous lieux alarmée,</l>
             <l n="950" xml:id="l950">C’est beaucoup d’Annibal, et mesme sans armée.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III03-9" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="951" xml:id="l951">On doit craindre en effet le <ref target="#bonheur3">bonheur*</ref> qui le suit<note resp="editor"><hi rend="i">Suit</hi> : la graphie ancienne du « s » en début ou milieu de mot étant presque semblable au « f », deux interprétations sont possibles. Nous avons employé ici la graphie « s », qui apparaît dans l’édition d’origine : Flaminius, en ce cas, ironise avec beaucoup de subtilité, et fait mine de s’accorder avec Hannibal pour dire qu’il faut craindre les prétendus succès qu’il remporte, ce qui correspond plus au ton de la scène. Si l’on adopte l’autre graphie, que l’on trouve dans certaines éditions ultérieures, l’ironie est moins fine, mais plus cinglante : on comprend que Rome n’a tout simplement pas à craindre Hannibal, puisque le succès le fuit. </note>,</l>
             <stage>A Attale.</stage>
             <l n="952" xml:id="l952">Mais faites-moy raison, Seigneur, d’un autre bruit,</l>
             <l n="953" xml:id="l953">On dit que vous songez à faire Elise Reyne.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="III03-10" who="annibal">
             <speaker>ANNIBAL, <hi rend="i">à Attale.</hi></speaker>
             <l n="954" xml:id="l954">Que ma presence n’ait, Seigneur, rien qui vous <ref target="#gene">gesne*</ref>,</l>
             <l n="955" xml:id="l955" part="I">Vous sçavez que…</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="III03-11" who="attale">
             <speaker>ATTALE, <hi rend="i">à Annibal.</hi></speaker>
             <l part="F">Seigneur, donnez-moy vostre <ref target="#aveu2">aveu*</ref>,</l>
             <l n="956" xml:id="l956">Et l’hymen dés demain couronnera mon feu.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="III03-12" who="annibal">
             <speaker>ANNIBAL, <hi rend="i">à Flaminius.</hi></speaker>
             <l n="957" xml:id="l957">Vous voyez que malgré les malheurs qu’on m’oppose</l>
             <l n="958" xml:id="l958">L’honneur d’estre mon Gendre est encor quelque chose.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III03-13" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="959" xml:id="l959">Attale a fait sans doute un choix bien glorieux,</l>
             <l n="960" xml:id="l960">Mais s’il m’en vouloit croire il y penseroit mieux.</l>
@@ -2061,7 +2075,7 @@
             <l n="964" xml:id="l964">Prenez pour y songer le reste de ce jour,</l>
             <l n="965" xml:id="l965">Pour ne vous perdre pas<note resp="editor"><hi rend="i">Pour ne vous perdre pas</hi> : pour ne pas causer votre perte. Perdre signifie aussi ruiner, et se dit de tout ce qui peut deshonorer, décréditer et causer du préjudice à la fortune de quelqu’un, à sa réputation, à sa santé (Furetière).</note> ma bonté vous le donne.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="III03-14" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="966" xml:id="l966">Pour moy, j’ignore l’art de contraindre personne,</l>
             <l n="967" xml:id="l967">Et sans m’<ref target="#inquietude">inquieter*</ref> de ce qu’il resoudra</l>
@@ -2071,11 +2085,11 @@
             <l n="971" xml:id="l971">Et que jamais l’exil d’un homme tel que moy</l>
             <l n="972" xml:id="l972">N’aura rien dont l’éclat fasse rougir un Roy.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III03-15" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="973" xml:id="l973">Vous avez le cœur haut, le bel orgueil y regne<note resp="editor">L’on arrive ici à l’acmé de l’affrontement, où Flaminius se moque ouvertement d’Hannibal en l’attaquant sur sa nature même de héros glorieux : c’est la pire atteinte qu’il pouvait lui porter. C’est pourquoi, dramatiquement, Thomas Corneille ne pouvait faire retomber la tension qu’à partir de ce moment.</note>.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="III03-16" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="974" xml:id="l974">Assez pour empescher qu’aucun Roy ne vous craigne,</l>
             <l n="975" xml:id="l975">Et si de Prusias mes conseils sont suivis</l>
@@ -2084,21 +2098,21 @@
             <l n="978" xml:id="l978">Est tout ce qui me peut chasser de Bithynie.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III04">
           <head>SCENE IV.</head>
           <stage>ANNIBAL, PRUSIAS, FLAMINIUS, ATTALE, ARAXE.</stage>
-          <sp who="annibal">
+          <sp xml:id="III04-1" who="annibal">
             <speaker>ANNIBAL, <hi rend="i">à Prusias.</hi></speaker>
             <l n="979" xml:id="l979">Parlez, Seigneur, enfin qu’avez-vous resolu ?</l>
             <l n="980" xml:id="l980">Vostre Rome aura-t’elle un pouvoir absolu ?</l>
             <l n="981" xml:id="l981"><ref target="#obliger1">Obligez</ref>-vous* le Prince à faire le voyage ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III04-2" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="982" xml:id="l982">La paix qu’elle nous donne à ce devoir m’engage,</l>
             <l n="983" xml:id="l983">Mon Fils d’un tel honneur a lieu d’estre jaloux.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="III04-3" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="984" xml:id="l984" part="I">Il me suffit ;</l>
             <stage>A Attale.</stage>
@@ -2106,14 +2120,15 @@
             <l n="985" xml:id="l985">Seigneur, deliberez, vous avez ma réponse.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE V.</head><pb n="43"/>
+        <div type="scene" xml:id="III05">
+          <head>SCENE V.</head>
+          <pb n="43"/>
           <stage>FLAMINIUS, PRUSIAS, ATTALE, ARAXE.</stage>
-          <sp who="flaminius">
+          <sp xml:id="III05-1" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="986" xml:id="l986">C’est donc ainsi qu’Attale à ses Amis renonce ?</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="III05-2" who="attale">
             <speaker>ATTALE</speaker>
             <l n="987" xml:id="l987">Je connois mal, Seigneur, par où j’ay merité</l>
             <l n="988" xml:id="l988">Un reproche si dur à ma fidelité.</l>
@@ -2127,7 +2142,7 @@
             <l n="996" xml:id="l996"><ref target="#cependant2">Cependant*</ref> ce qu’il fit blessa-t’il les esprits ?</l>
             <l n="997" xml:id="l997">Vous parut-il suspect de pratiques secretes ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III05-3" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="998" xml:id="l998">Je ne condamne rien au projet que vous faites,</l>
             <l n="999" xml:id="l999">Mais assez de couleurs pourroient le palier<note resp="editor"><hi rend="i">Palier</hi> : adoucir, excuser, desguiser une faute (Furetière).</note>,</l>
@@ -2139,39 +2154,40 @@
             <l n="1005" xml:id="l1005">Et l’on me voit pour Rome une <ref target="#foi">foy*</ref> trop sincere    </l>
             <l n="1006" xml:id="l1006">Pour douter des motifs de ce que j’osay faire.</l>
           </sp>
-          <sp who="attale">
-            <speaker>ATTALE</speaker><pb n="44"/>
+          <sp xml:id="III05-4" who="attale">
+            <speaker>ATTALE</speaker>
+            <pb n="44"/>
             <l n="1007" xml:id="l1007">Ce zele si vanté dont vous estes jaloux</l>
             <l n="1008" xml:id="l1008">N’est pas moins fort en moy qu’il pourroit l’estre en vous.</l>
             <l n="1009" xml:id="l1009">Et quand vers Annibal ma parole m’engage</l>
             <l n="1010" xml:id="l1010">Rome n’a pas plus lieu d’en prendre de l’<ref target="#ombrage">ombrage*</ref>.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III05-5" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1011" xml:id="l1011">Son azyle estoit seur, vous l’y pouviez laisser.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="III05-6" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1012" xml:id="l1012">Vous voyez toutefois qu’il y veut renoncer,</l>
             <l n="1013" xml:id="l1013">Et que dans vostre <ref target="#foi">foy*</ref> le vif éclat qui brille</l>
             <l n="1014" xml:id="l1014" part="I">Ne sçauroit…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III05-7" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Mais enfin vous épousez sa Fille ?</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="III05-8" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1015" xml:id="l1015">Je n’avois pas préveu que contre le Senat</l>
             <l n="1016" xml:id="l1016">Disposer de mon cœur deust estre un attentat.</l>
             <l n="1017" xml:id="l1017">Pour Elise, il est vray, l’amour me sollicite,</l>
             <l n="1018" xml:id="l1018">Mais dequoy m’accuser lors que je vous imite ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III05-9" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1019" xml:id="l1019">Quoy l’on me voit pretendre au nom de son Espoux ?</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="III05-10" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1020" xml:id="l1020">Non, Seigneur, ce soupçon ne tombe point sur vous,</l>
             <l n="1021" xml:id="l1021">L’hymen vous sieroit mal, et dans l’âge où vous estes</l>
@@ -2183,7 +2199,7 @@
             <l n="1027" xml:id="l1027">Et l’empescher de mettre en de mauvaises mains</l>
             <l n="1028" xml:id="l1028">Un dépost dont la garde est utile aux Romains.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III05-11" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1029" xml:id="l1029">J’ay voulu vous laisser par ces raisons frivoles</l>
             <l n="1030" xml:id="l1030">Estaler vostre esprit<note resp="editor"><hi rend="i">Etaler vostre esprit</hi> : exprimer votre pensée.</note> et perdre des paroles.</l>
@@ -2210,7 +2226,7 @@
             <l n="1051" xml:id="l1051">Le temps vous apprendra s’il vous estoit permis</l>
             <l n="1052" xml:id="l1052">De vous unir contre elle avec ses ennemis.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="III05-12" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1053" xml:id="l1053">Touchant quelque hauteur qui semble me confondre<note resp="editor"><hi rend="i">Touchant quelque hauteur qui semble me confondre</hi> : concernant cet orgueil, dont je devrais prétendument avoir honte. Attale répond ici au reproche d’audace que Flaminius vient de lui faire (1033-1036). </note></l>
             <l n="1054" xml:id="l1054">Je laisse à Prusias le soin de vous répondre,</l>
@@ -2227,10 +2243,10 @@
             <l n="1065" xml:id="l1065">Voyez bien seulement si j’en paroistray digne<note resp="editor"><hi rend="i">Voyez bien seulement si j’en paroistray digne</hi> : examinez bien si je mérite réellement d’être puni.</note>.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III06">
           <head>SCENE VI.</head>
           <stage>FLAMINIUS, PRUSIAS, ARAXE.</stage>
-          <sp who="prusias">
+          <sp xml:id="III06-1" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1066" xml:id="l1066">N’espargnez point mon zele en ce peril insigne,</l>
             <l n="1067" xml:id="l1067">Aprés deux ans d’azyle Annibal qui me fuit</l>
@@ -2239,7 +2255,7 @@
             <l n="1070" xml:id="l1070">J’empescherois le coup en retenant Elise,</l>
             <l n="1071" xml:id="l1071">Parlez, et dans ma Cour je la fais <ref target="#arreter3">arrester*</ref>.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-2" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1072" xml:id="l1072">Vostre amitié pour nous ne peut mieux éclater,</l>
             <l n="1073" xml:id="l1073">Seigneur, et j’auray soin que Rome soit instruite</l>
@@ -2248,7 +2264,7 @@
             <l n="1076" xml:id="l1076">Jusqu’où l’orgueil du Trône enfle ce jeune Roy ?</l>
             <l n="1077" xml:id="l1077">Pour l’empescher d’aimer il n’est rien qui l’<ref target="#etonner">étonne*</ref>.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-3" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1078" xml:id="l1078">On s’oublie aisément avec une Couronne,</l>
             <l n="1079" xml:id="l1079">Il est jeune, et l’amour qu’anime la fierté</l>
@@ -2256,7 +2272,7 @@
             <l n="1081" xml:id="l1081">Ainsi voyez, Seigneur, ce que Rome hazarde</l>
             <l n="1082" xml:id="l1082" part="I">A <ref target="#souffrir2">souffrir*</ref> qu’Annibal…</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-4" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l part="F">C’est à quoy je prens garde,</l>
             <l n="1083" xml:id="l1083">Mais aussi je ne puis voir tout à coup perdus</l>
@@ -2274,28 +2290,28 @@
             <l n="1095" xml:id="l1095">Et sur cet hymenée où je le voy porté</l>
             <l n="1096" xml:id="l1096">Sa <ref target="#foi">foy*</ref> nous répondra de sa sincerité.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-5" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1097" xml:id="l1097">Quoi, vous consentiriez à luy donner Elise ?</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-6" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1098" xml:id="l1098">C’est à quoy du Senat l’interest m’autorise.</l>
             <l n="1099" xml:id="l1099">Ne pouvant éviter qu’elle prenne un Espoux,</l>
             <l n="1100" xml:id="l1100">Si je refuse Attale, où le choisirons-nous ?</l>
             <l n="1101" xml:id="l1101">Par qui mieux que par luy pouvoir s’asseurer d’elle ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-7" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1102" xml:id="l1102">Par moy, Seigneur, par moy dont vous sçavez le zele,</l>
             <l n="1103" xml:id="l1103">Et qui tout au Senat ne puis voir sans rougir</l>
             <l n="1104" xml:id="l1104">Que je parle, et qu’un autre ait la gloire d’agir.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-8" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1105" xml:id="l1105" part="I">Que dites-vous, Seigneur ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-9" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Que pour vous estre utile</l>
             <l n="1106" xml:id="l1106">Je voulus qu’Annibal chez moy trouvast azile,</l>
@@ -2303,51 +2319,51 @@
             <l n="1108" xml:id="l1108">J’acheveray pour vous ce que j’ay commencé.</l>
             <l n="1109" xml:id="l1109" part="I">J’épouseray sa Fille.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-10" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l part="F">O digne effort d’un zele</l>
             <l n="1110" xml:id="l1110">Qui ne cherchant que Rome immole tout pour elle !</l>
             <l n="1111" xml:id="l1111">Vous forcer à l’Hymen ! vous m’en voyez surpris.<pb n="48"/></l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-11" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1112" xml:id="l1112">Je sers la Republique<note resp="editor"><hi rend="i">La Republique</hi> : il s’agit de Rome.</note>, et j’en reçois le prix.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-12" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1113" xml:id="l1113">Non, non, elle doit trop à vos rares services</l>
             <l n="1114" xml:id="l1114">Pour accepter de vous de pareils sacrifices.</l>
             <l n="1115" xml:id="l1115">Quoy qu’Annibal impute à ses justes rigueurs,</l>
             <l n="1116" xml:id="l1116">Elle se connoist mal à contraindre les cœurs<note resp="editor"><hi rend="i">Quoy qu’Annibal impute à ses justes rigueurs</hi> : quoi qu’Hannibal reproche à Rome et à sa sévérité. <hi rend="i">Elle se connoist mal à contraindre les cœurs</hi> : reprise hypocrite des propos que tient Hannibal à la scène 3 de l’acte III (v. 966-967).</note>.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-13" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1117" xml:id="l1117">Le mien ne promet rien que ma <ref target="#foi">foy*</ref> n’accomplisse.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-14" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1118" xml:id="l1118">Un Hymen sans amour est un trop dur supplice.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-15" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1119" xml:id="l1119">Jamais je n’en auray le moindre repentir,</l>
             <l n="1120" xml:id="l1120" part="I">Et pourveu…</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-16" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l part="F">Non, Seigneur, je n’y puis consentir,</l>
             <l n="1121" xml:id="l1121">Aux interests de Rome Attale peut suffire.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-17" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1122" xml:id="l1122">Et bien, j’aime, Seigneur, puisqu’il faut vous le dire,</l>
             <l n="1123" xml:id="l1123">Joüissez d’un <ref target="#aveu1">aveu*</ref> qu’il vous plaist d’arracher.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-18" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1124" xml:id="l1124">Vous aimeriez Elise, et l’auriez pû cacher ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-19" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1125" xml:id="l1125">Jugez par cet effort si je vous suis fidelle.</l>
             <l n="1126" xml:id="l1126">Envain mes yeux cent fois m’ont dit qu’elle estoit belle,</l>
@@ -2370,7 +2386,7 @@
             <l n="1143" xml:id="l1143">Et j’atteste les Dieux qu’en un si grand projet</l>
             <l n="1144" xml:id="l1144">Tout mon cœur est pour elle, et n’a point d’autre objet<note resp="editor"> La situation relève de la comédie : on la retrouve dans <hi rend="i">L’Avare</hi> de Molière (IV, 3), lorsqu’Harpagon annonce à son fils Cléante qu’il épousera lui-même Marianne, « puisque Cléante ne l’aime pas ». Désespéré, Cléante avoue innocemment son amour. Ici, Flaminius procède de la même façon : il argue du fait que « Prusias n’aime pas Elise » pour mieux le pousser à l’aveu. Le procédé n’est pas noble : le fait d’avoir recours à ce genre de méthodes montre à quel point Rome compromet sa grandeur, et combien elle diffère du personnage glorieux d’Hannibal, qui se refuse à « dégénérer » ainsi (« Elle doit à vos yeux estre d’autant plus chere / Que l’on voit chaque jour que Rome degenere », V, 8, v. 1861-1862).</note>.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-20" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1145" xml:id="l1145">Apres tant de <ref target="#vertu">vertu*</ref> Rome seroit ingrate</l>
             <l n="1146" xml:id="l1146">Si vos feux n’obtenoient l’heureux prix qui les flatte.</l>
@@ -2379,17 +2395,17 @@
             <l n="1149" xml:id="l1149">Elle a quelque sujet d’esperer qu’un beau zele</l>
             <l n="1150" xml:id="l1150">Vous fera faire aussi quelque chose pour elle.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-21" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1151" xml:id="l1151">Luy devant tout, Seigneur, qu’aurois-je à refuser ?</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-22" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1152" xml:id="l1152">Ainsi de vostre main vous pouvez disposer<note resp="editor">Flaminius, ici, donne la permission à Prusias de disposer de lui, ce qui ne laisse à ce dernier qu’une illusion bien faible du pouvoir royal. Nous avons donc ici un bel exemple de la conception romaine de la royauté : l’asservissement au Sénat.</note>.</l>
             <l n="1153" xml:id="l1153">Rome approuve l’ardeur dont vostre ame est éprise.</l>
             <l n="1154" xml:id="l1154">Livrez nous Annibal, elle vous donne Elise.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-23" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1155" xml:id="l1155">Vous livrer Annibal ! Ah, Seigneur, voulez-vous</l>
             <l n="1156" xml:id="l1156">Me mettre en bute aux Dieux<note resp="editor"><hi rend="i">Me mettre en bute aux Dieux</hi> : m’exposer à la colère divine.</note>, m’attirer leur courroux ?</l>
@@ -2398,7 +2414,7 @@
             <l n="1159" xml:id="l1159"><ref target="#souffrir2">Souffre-t’il*</ref><note resp="editor"><hi rend="i">Souffre-t-il</hi> : ici, l’on s’attendrait plutôt à rencontrer la troisième personne du pluriel, qui renverrait aux serments évoqués par Prusias au vers précédent. Cependant, on ne trouve cette orthographe que dans des éditions pirates non supervisées par l’auteur. Il semblerait donc que le sujet de ce verbe soit Hannibal, bien que cela ne soit pas évident au premier abord.</note> que mon cœur <ref target="#eblouir3">ébloüy*</ref> de ses feux<pb n="50"/></l>
             <l n="1160" xml:id="l1160" part="I">Ose…</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-24" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l part="F">Et quoy, Prusias, vous estes scrupuleux ?</l>
             <l n="1161" xml:id="l1161">Apprenez, apprenez pour solides maximes,</l>
@@ -2407,14 +2423,14 @@
             <l n="1164" xml:id="l1164">Quand il est fait pour luy doit passer pour <ref target="#vertu">vertu*</ref><note resp="editor">Véritable profession de foi machiavélienne de Flaminius.</note> ;</l>
             <l n="1165" xml:id="l1165">Que par tout cette gloire est la seule qu’on prise.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-25" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1166" xml:id="l1166">Et par où <ref target="#cependant2">cependant*</ref> gagner le cœur d’Elise ?</l>
             <l n="1167" xml:id="l1167">Mettre en vostre pouvoir ce qu’elle a de plus cher,</l>
             <l n="1168" xml:id="l1168">Sera-ce le moyen, Seigneur, de la toucher ?</l>
             <l n="1169" xml:id="l1169">Obtiendray-je par là que son amour s’<ref target="#expliquer">explique*</ref> ?</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-26" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1170" xml:id="l1170">C’est ne voir guere loin pour un grand Politique.</l>
             <l n="1171" xml:id="l1171">Sans livrer Annibal laissez-nous l’enlever,</l>
@@ -2422,23 +2438,23 @@
             <l n="1173" xml:id="l1173">Flattez Elise ensuite, <ref target="#armer2">armez*</ref> pour son offence<note resp="editor"><hi rend="i">Armez pour son offence</hi> : faites prendre les armes à vos soldats pour venger l’offense faite à Élise.</note>,</l>
             <l n="1174" xml:id="l1174">Et recevez sa main pour prix de sa vangeance.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-27" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1175" xml:id="l1175">Maistres de tant de Roix, soûmis, obeïssants,</l>
             <l n="1176" xml:id="l1176">Craignez-vous d’un vieillard les destins impuissants ?</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-28" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1177" xml:id="l1177">Quoy, nous vous laisserons au pouvoir d’une femme</l>
             <l n="1178" xml:id="l1178">Dont la haine à son gré sçaura tourner vostre ame<note resp="editor">Flaminius parle en connaissance de cause : Rome a déjà eu affaire à Sophonisbe, qui a retourné Syphax contre elle, contre toute attente, et a bien failli y réussir une seconde fois avec Massinissa. Flaminius, prudent, envisage donc toutes les possibilités, et considère que Prusias, imprévisible comme il est, serait fort capable de défier Rome pour complaire à une épouse aimée : il ne veut donc prendre aucun risque. </note> ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-29" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1179" xml:id="l1179">Si cet hymen vous porte à soupçonner ma <ref target="#foi">foy*</ref>,</l>
             <l n="1180" xml:id="l1180">N’aurez-vous pas mon Fils qui répondra de moy ?</l>
             <l n="1181" xml:id="l1181">Vous en puis-je donner un gage plus sincere ?</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-30" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1182" xml:id="l1182">Non, si c’estoit un Fils que vous vissiez en Pere.</l>
             <l n="1183" xml:id="l1183">Mais ce Fils aime Elise, et vos transports jaloux<pb n="51"/></l>
@@ -2449,22 +2465,22 @@
             <l n="1188" xml:id="l1188">Nous vous rendons le Prince, il nous faut Annibal,</l>
             <l n="1189" xml:id="l1189">Ce n’est qu’à ce prix seul que l’on obtient Elise.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-31" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1190" xml:id="l1190">Me soüiller par l’horreur d’une telle entreprise ?</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-32" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1191" xml:id="l1191">Ces scrupules sont beaux, mais craignez que pour nous</l>
             <l n="1192" xml:id="l1192">Attale plus zelé n’en ait pas tant que vous,</l>
             <l n="1193" xml:id="l1193">Il aime, et vos refus <ref target="#obliger2">obligeront*</ref> sa flame.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-33" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1194" xml:id="l1194">Attale, quoy qu’il aime, a trop de fierté d’ame,</l>
             <l n="1195" xml:id="l1195">Et bien loin que pour luy le crime ait quelque appas…</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III06-34" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1196" xml:id="l1196">Son esprit m’est connu, ne vous y fiez pas,</l>
             <l n="1197" xml:id="l1197">Je ne vous ay que trop observez l’un et l’autre.</l>
@@ -2473,43 +2489,44 @@
             <l n="1200" xml:id="l1200">Je voulois vostre bras, j’emprunteray sa main.</l>
             <l n="1201" xml:id="l1201">Rome aprés, entre vous fera la difference.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="III06-35" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1202" xml:id="l1202">Adieu, Seigneur, je voy Procule qui s’avance,</l>
             <l n="1203" xml:id="l1203">Consultez avec luy si mon zele et ma <ref target="#foi">foy*</ref></l>
             <l n="1204" xml:id="l1204">Ne peuvent meriter que l’on me traite en Roy.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE VII.</head><pb n="52"/>
+        <div type="scene" xml:id="III07">
+          <head>SCENE VII.</head>
+          <pb n="52"/>
           <stage>FLAMINIUS, PROCULE.</stage>
-          <sp who="procule">
+          <sp xml:id="III07-1" who="procule">
             <speaker>PROCULE</speaker>
             <l n="1205" xml:id="l1205">Seigneur, sur un secret d’une importance extréme</l>
             <l n="1206" xml:id="l1206">Un Soldat Phrygien veut s’ouvrir à vous mesme.</l>
             <l n="1207" xml:id="l1207">A trente pas d’icy je viens de le quitter.</l>
             <l n="1208" xml:id="l1208" part="I">Il presse fort.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="III07-2" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l part="F">Allons, il le faut écouter.</l>
           </sp>
           <label rend="i">Fin du troisiéme Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="IV" type="act">
         <pb n="53"/>
         <head>ACTE IV.</head>
-        <div type="scene">
+        <div type="scene" xml:id="IV01">
           <head>SCENE PREMIERE.</head>
           <stage>FLAMINIUS, PROCULE.</stage>
-          <sp who="procule">
+          <sp xml:id="IV01-1" who="procule">
             <speaker>PROCULE</speaker>
             <l n="1209" xml:id="l1209">Apres quelque chagrin que faut-il que je croye</l>
             <l n="1210" xml:id="l1210">De voir sur vostre front éclater tant de joye ?</l>
             <l n="1211" xml:id="l1211">Auriez-vous pû, Seigneur, ébranler Prusias ?</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="IV01-2" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1212" xml:id="l1212">J’estois embarassé, je ne le cele pas.</l>
             <l n="1213" xml:id="l1213">Deux Rois épris d’amour me paroissoient à craindre,</l>
@@ -2519,11 +2536,11 @@
             <l n="1217" xml:id="l1217">Une heureuse nouvelle a fait cesser ma peine,</l>
             <l n="1218" xml:id="l1218">J’ay sçeu du Phrygien la fausse mort d’Eumene.</l>
           </sp>
-          <sp who="procule">
+          <sp xml:id="IV01-3" who="procule">
             <speaker>PROCULE</speaker>
             <l n="1219" xml:id="l1219" part="I">Eumene vit encor ?</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="IV01-4" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l part="F">Cette lettre est de luy,</l>
             <l n="1220" xml:id="l1220">Par elle contre Attale il cherche mon appuy,</l>
@@ -2537,11 +2554,11 @@
             <l n="1228" xml:id="l1228">M’ont promis en secret de n’obeïr qu’à moy.</l>
             <l n="1229" xml:id="l1229">Ainsi tous ses projets n’ont plus rien qui me <ref target="#gene">gesne*</ref>.</l>
           </sp>
-          <sp who="procule">
+          <sp xml:id="IV01-5" who="procule">
             <speaker>PROCULE</speaker>
             <l n="1230" xml:id="l1230">Mais la mort de ce Frere avoit paru certaine ?</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="IV01-6" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1231" xml:id="l1231">Sautant de bord en bord pour animer les Siens</l>
             <l n="1232" xml:id="l1232">Dans un combat Naval contre les Rhodiens,</l>
@@ -2554,11 +2571,11 @@
             <l n="1239" xml:id="l1239">Et son <ref target="#bonheur2">bon-heur*</ref> fut tel que par un prompt secours</l>
             <l n="1240" xml:id="l1240">Sans le faire connoistre on prit soin de ses jours.</l>
           </sp>
-          <sp who="procule">
+          <sp xml:id="IV01-7" who="procule">
             <speaker>PROCULE</speaker>
             <l n="1241" xml:id="l1241" part="I">C’est ce qu’Attale ignore ?</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="IV01-8" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l part="F">Et ce qu’il faut luy taire</l>
             <l n="1242" xml:id="l1242">Jusqu’au flateur hymen que son amour espere.</l>
@@ -2573,26 +2590,26 @@
             <l n="1251" xml:id="l1251">Attale à ce défaut d’Elise estant l’Epoux</l>
             <l n="1252" xml:id="l1252" part="I">Nous ostera…</l>
           </sp>
-          <sp who="procule">
+          <sp xml:id="IV01-9" who="procule">
             <speaker>PROCULE</speaker>
             <l part="F">Voyez qu’il s’avance vers vous.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV02">
           <head>SCENE II.</head>
           <stage>FLAMINIUS, ATTALE, PROCULE.</stage>
-          <sp who="flaminius">
+          <sp xml:id="IV02-1" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1253" xml:id="l1253">Sans doute vous aurez d’une ame plus tranquille</l>
             <l n="1254" xml:id="l1254">Examiné quel choix vous est le plus utile,</l>
             <l n="1255" xml:id="l1255" part="I">Rome vaut bien…</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV02-2" who="attale">
             <speaker>ATTALE</speaker>
             <l part="F">Seigneur, je connois mon devoir,</l>
             <l n="1256" xml:id="l1256" part="I">Et ce que j’ay pensé…</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="IV02-3" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l part="F">Je n’en veux rien sçavoir.</l>
             <l n="1257" xml:id="l1257">La fierté qui tantost soustenoit vostre flame,</l>
@@ -2608,13 +2625,13 @@
             <l n="1267" xml:id="l1267">J’y consents, et vois trop qu’aprouver vos desseins<pb n="56"/></l>
             <l n="1268" xml:id="l1268">C’est mettre ce dépost en de fideles mains.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV02-4" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1269" xml:id="l1269">Cet heureux changement a dequoy me surprendre.</l>
             <l n="1270" xml:id="l1270">Seigneur, à mon amour vous daignez donc vous rendre,</l>
             <l n="1271" xml:id="l1271">Confier Annibal et sa haine à ma <ref target="#foi">foy*</ref> ?</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="IV02-5" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1272" xml:id="l1272">Rome sert qui l’honore ; elle vous a fait Roy,</l>
             <l n="1273" xml:id="l1273">Et veut par cét hymen qu’elle rend legitime</l>
@@ -2622,11 +2639,11 @@
             <l n="1275" xml:id="l1275">Demeurez luy fidelle, et n’oubliez jamais</l>
             <l n="1276" xml:id="l1276">Qu’elle a tousiours puny les ingrats qu’elle a faits<note resp="editor">Le spectateur perçoit immédiatement toute la portée d’un tel propos. Mais Attale, lui, ne sait pas que son frère est toujours en vie. Il ne peut donc pas se douter de la gravité de l’insinuation, et de tout ce qu’elle implique : cependant, il sent malgré tout poindre une menace. C’est pourquoi, méfiant, il répond fièrement qu’il « aime la gloire ». Mais cela ne dure qu’un instant, et la félicité balaye rapidement le doute.</note>.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV02-6" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1277" xml:id="l1277">Seigneur, j’aime la gloire, et c’est assez vous dire.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="IV02-7" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1278" xml:id="l1278">Pressons cet hymenée où vostre flame aspire.</l>
             <l n="1279" xml:id="l1279">Dans le rang que je tiens c’est peu d’y consentir.</l>
@@ -2640,36 +2657,37 @@
             <l n="1287" xml:id="l1287">Vous pourrez avec luy, Seigneur, vous declarer.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE III.</head><pb n="57"/>
+        <div type="scene" xml:id="IV03">
+          <head>SCENE III.</head>
+          <pb n="57"/>
           <stage>PRUSIAS, ATTALE, ARAXE.</stage>
-          <sp who="prusias">
+          <sp xml:id="IV03-1" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1288" xml:id="l1288">Si mon abord vous nuit je vay me retirer,</l>
             <l n="1289" xml:id="l1289">Si-tost que je parois Flaminius vous quitte.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV03-2" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1290" xml:id="l1290">Veniez-vous à dessein de luy rendre visite ?</l>
             <l n="1291" xml:id="l1291">Vous n’auriez qu’à le suivre, il peut la recevoir.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV03-3" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1292" xml:id="l1292">Je n’ay point de secret qui m’<ref target="#obliger1">oblige*</ref> à le voir,</l>
             <l n="1293" xml:id="l1293">Mais si vous me <ref target="#souffrir2">souffrez*</ref> un peu de confidence,</l>
             <l n="1294" xml:id="l1294">Quel estoit le sujet de vostre conference ?</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV03-4" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1295" xml:id="l1295">Un projet, grand, illustre, et des plus importants,</l>
             <l n="1296" xml:id="l1296">Et que je vous diray quand il en sera temps.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV03-5" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1297" xml:id="l1297">S’il est tel que vos feux permettent qu’on le croye,</l>
             <l n="1298" xml:id="l1298">Vous pourriez sans peril m’avancer cette joye.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV03-6" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1299" xml:id="l1299">Il est vray qu’aimant Rome au point que vous l’aimez</l>
             <l n="1300" xml:id="l1300">Vous prendrez part à l’heur qui tient mes sens charmez,</l>
@@ -2678,90 +2696,92 @@
             <l n="1303" xml:id="l1303">J’ay sceu si bien entrer dans tous ses interests</l>
             <l n="1304" xml:id="l1304">Que par l’hymen d’Elise il comble mes souhaits.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV03-7" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1305" xml:id="l1305" part="I">Flaminius consent…</l>
           </sp>
-          <sp who="attale">
-            <speaker>ATTALE</speaker><pb n="58"/>
+          <sp xml:id="IV03-8" who="attale">
+            <speaker>ATTALE</speaker>
+            <pb n="58"/>
             <l part="F">Oüy, que j’épouse Elise,</l>
             <l n="1306" xml:id="l1306">Vous en voyez ma joye, envain je la déguise,</l>
             <l n="1307" xml:id="l1307" part="I">Mes yeux la font paroistre.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV03-9" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Et pour un si grand bien</l>
             <l n="1308" xml:id="l1308">Vous avez crû devoir ne luy refuser rien<note resp="editor">Prusias sous-entend qu’Attale n’a pas hésité à livrer Hannibal pour obtenir la main d’Élise. Mais Attale n’a pas les moyens de savoir ce que Flaminius a exigé de Prusias à l’acte précédent, et ne peut pas comprendre le sous-entendu. Le malentendu n’est possible que grâce à l’imprécision des propos de Prusias.</note> ?</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV03-10" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1309" xml:id="l1309">Il n’est vers le Senat aucun refus sans crime,</l>
             <l n="1310" xml:id="l1310">Quoy qu’il veuille exiger il rend tout legitime<note resp="editor">Ce vers constitue un écho tragique, car innocent, aux propos machiavéliques tenus par Flaminius à la scène 6 de l’acte III (« Apprenez, apprenez pour solides maximes, / Que qui sert le Senat ne peut faire de crimes, / Et que de mille horreurs un forfait revestu / Quand il est fait pour luy doit passer pour vertu », v. 1161-1164). Il annonce en outre l’indignation d’Attale qui, à la scène 3 de l’acte V, aura finalement compris la vérité et la portée de ce propos (v. 1751-1752).</note> ;    </l>
             <l n="1311" xml:id="l1311">Et puis, pour un Objet où brillent mille appas,</l>
             <l n="1312" xml:id="l1312">Quand l’amour est pressant, que ne feroit-on pas ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV03-11" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1313" xml:id="l1313">Quoy, ceder à l’amour, et s’en laisser surprendre,</l>
             <l n="1314" xml:id="l1314" part="I">Jusqu’à…</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV03-12" who="attale">
             <speaker>ATTALE</speaker>
             <l part="F">Que voulez-vous, Seigneur, j’ay le cœur tendre,</l>
             <l n="1315" xml:id="l1315">Et n’ay pas tant vescu qu’on doive présumer</l>
             <l n="1316" xml:id="l1316">Que déja je me fasse une honte d’aimer.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV03-13" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1317" xml:id="l1317">C’est à fuir ce qui plaist qu’on montre son <ref target="#courage1">courage*</ref>.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV03-14" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1318" xml:id="l1318">Ce genre de prudence est un effet de l’âge,</l>
             <l n="1319" xml:id="l1319">Et jeune, et plein d’amour, au point où je me voy,</l>
             <l n="1320" xml:id="l1320">Peut-estre seriez-vous aussi foible que moy.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV03-15" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1321" xml:id="l1321">Et jeune, et plein d’amour j’aurois soin de ma gloire.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV03-16" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1322" xml:id="l1322">Vous estes hors d’estat de me le faire croire,</l>
             <l n="1323" xml:id="l1323">Mais puis-je de la mienne asseurer mieux l’éclat</l>
             <l n="1324" xml:id="l1324">Qu’à ne pretendre rien sans l’<ref target="#aveu2">adveu*</ref> du Senat ?</l>
           </sp>
-          <sp who="prusias">
-            <speaker>PRUSIAS</speaker><pb n="59"/>
+          <sp xml:id="IV03-17" who="prusias">
+            <speaker>PRUSIAS</speaker>
+            <pb n="59"/>
             <l n="1325" xml:id="l1325">C’est dont pourtant <ref target="#abord2">d’abord*</ref> vous faisiez peu de compte<note resp="editor"><hi rend="i">C’est dont pourtant d’abord vous faisiez peu de compte</hi> : il est courant de trouver un « dont » suivant directement un « c’est », sans pronom démonstratif de rappel entre les deux (voir HAASE, A., <hi rend="i">op. cit.</hi>, § 37, D, p. 75-76).</note>.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV03-18" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1326" xml:id="l1326">Selon l’occasion on peut changer sans honte.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV03-19" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1327" xml:id="l1327">J’en penetre la cause, et j’ay quelques clartez…</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV03-20" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1328" xml:id="l1328">Songez-vous bien, Seigneur, que vous vous emportez,</l>
             <l n="1329" xml:id="l1329">Et que d’autres que moy soupçonneroient peut-estre</l>
             <l n="1330" xml:id="l1330">Que vostre cœur n’est pas tout ce qu’il veut paroistre.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV03-21" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1331" xml:id="l1331">Qu’y soupçonneroit-on qui pust répondre mal…</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV03-22" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1332" xml:id="l1332">Voyez l’Ambassadeur, j’entre chez Annibal.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV04">
           <head>SCENE IV.</head>
           <stage>PRUSIAS, ARAXE.</stage>
-          <sp who="prusias">
+          <sp xml:id="IV04-1" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1333" xml:id="l1333">Va, traistre, et puisqu’enfin le crime peut te plaire</l>
             <l n="1334" xml:id="l1334">Pour obtenir la Fille assassine le Pere.</l>
@@ -2787,28 +2807,28 @@
             <l n="1354" xml:id="l1354">Amour, Rome, Annibal, qui de vous dois-je croire ?</l>
             <l n="1355" xml:id="l1355">Qui de vous deux mon cœur doit enfin l’emporter ?</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="IV04-2" who="araxe">
             <speaker>ARAXE</speaker>
             <l n="1356" xml:id="l1356">Sçachant ce qui se passe avez-vous à douter !</l>
             <l n="1357" xml:id="l1357">Il faut perdre Annibal ; cette seule entreprise</l>
             <l n="1358" xml:id="l1358">Affermit vostre Trône, et vous acquiert Elise,</l>
             <l n="1359" xml:id="l1359" part="I">Par là vous gagnez tout.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV04-3" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Perdre Annibal ! helas !</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="IV04-4" who="araxe">
             <speaker>ARAXE</speaker>
             <l n="1360" xml:id="l1360">Estes-vous en estat de ne le perdre pas ?</l>
             <l n="1361" xml:id="l1361" part="I">Decidant de ses jours Attale…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV04-5" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Ah le perfide !</l>
             <l n="1362" xml:id="l1362">Mais le feray-je moins si ma flame en decide ?</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="IV04-6" who="araxe">
             <speaker>ARAXE</speaker>
             <l n="1363" xml:id="l1363">De tels crimes au Sort doivent estre imputez.</l>
             <l n="1364" xml:id="l1364">Il a donné l’arrest, et vous l’executez.</l>
@@ -2817,12 +2837,12 @@
             <l n="1367" xml:id="l1367">Voyez Flaminius, et sans plus differer,<pb n="F 61"/></l>
             <l n="1368" xml:id="l1368">Quoy qu’Attale ait promis, faites-vous préferer<note resp="editor"><hi rend="i">Faites-vous preferer</hi> : faites en sorte que Flaminius préfère vous faire l’époux d’Élise plutôt qu’Attale. On retrouve ici le raisonnement que tiennent Photin, Achillas et Septime, les mauvais conseillers de Ptolomée au premier acte de <hi rend="i">La Mort de Pompée</hi>, lorsqu’ils lui enjoignent de livrer Pompée défait à César : tout comme eux, Araxe voit en Hannibal une « fortune et une valeur trompée » (CORNEILLE P., <hi rend="i">La Mort de Pompée</hi>, I, 1, v. 118, in éd. cit., t. 1, p. 1082), qu’il n’est pas profitable de soutenir. </note>.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV04-7" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1369" xml:id="l1369">Mais c’est flater mon feu d’un espoir inutile</l>
             <l n="1370" xml:id="l1370" part="I">Si l’on voit que par moy…</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="IV04-8" who="araxe">
             <speaker>ARAXE</speaker>
             <l part="F">Le remede est facile.</l>
             <l n="1371" xml:id="l1371">Employez des Romains, et par eux seulement</l>
@@ -2832,7 +2852,7 @@
             <l n="1375" xml:id="l1375">Enfin quand le succez manqueroit à vos feux</l>
             <l n="1376" xml:id="l1376">C’est beaucoup d’empescher qu’un Rival soit heureux<note resp="editor">Noter que Prusias a utilisé ce même motif au premier acte (« Quoy, je pourrois souffrir qu’Attale fust heureux ? » I, 4, v. 280). On voit bien ici qu’Araxe sait parfaitement comment lui complaire, et flatter ses bas instincts.</note>.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV04-9" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1377" xml:id="l1377">Tu dis vray, je me rends, ma passion l’ordonne.</l>
             <l n="1378" xml:id="l1378">A ces brûlants transports tout mon cœur s’abandonne ;</l>
@@ -2845,10 +2865,10 @@
             <l n="1385" xml:id="l1385" part="I">Le voicy.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV05">
           <head>SCENE V.</head>
           <stage>PRUSIAS, NICOMEDE, ARAXE.</stage>
-          <sp who="prusias">
+          <sp xml:id="IV05-1" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Viens sçavoir, et venger tout ensemble</l>
             <l n="1386" xml:id="l1386">Un crime dont encor l’horreur fait que je tremble.</l>
@@ -2857,12 +2877,12 @@
             <l n="1389" xml:id="l1389">Pour prix d’une si lâche et honteuse entreprise</l>
             <l n="1390" xml:id="l1390">Attale qui le vend reçoit la main d’Elise.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="IV05-2" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="1391" xml:id="l1391">Attale ! Et bien, avant qu’on me livre aux Romains,</l>
             <l n="1392" xml:id="l1392">Il faut mettre, Seigneur, Elise entre vos mains<note resp="editor">Cas notoire d’ironie tragique : Nicomède croit en effet protéger Élise en la remettant à Prusias, alors que c’est là jouer point par point le jeu de l’adversaire.</note>.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="IV05-3" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1393" xml:id="l1393">A sauver Annibal l’honneur, tout nous convie,</l>
             <l n="1394" xml:id="l1394">Adieu, je vay luy faire un rempart de ma vie.</l>
@@ -2870,57 +2890,58 @@
             <l n="1396" xml:id="l1396">Et si tu sçais aimer, voy le prix qui t’attend.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV06">
           <head>SCENE VI.</head>
           <stage>ELISE, NICOMEDE.</stage>
-          <sp who="elise">
+          <sp xml:id="IV06-1" who="elise">
             <speaker>ELISE</speaker>
             <l n="1397" xml:id="l1397">Que vous disoit le Roy, Prince, et d’où naist ce trouble ?</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="IV06-2" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="1398" xml:id="l1398">Dans mon cœur à vous voir je le sents qui redouble,</l>
             <l n="1399" xml:id="l1399">Mais, Madame, jugez s’il doit estre pressant,</l>
             <l n="1400" xml:id="l1400">Aux <ref target="#voeux">vœux*</ref> de mon Rival Flaminius consent,<note resp="editor"><hi rend="i">Var. 1692</hi> : consent.</note></l>
             <l n="1401" xml:id="l1401" part="I">Attale vous obtient.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV06-3" who="elise">
             <speaker>ELISE</speaker>
             <l part="F">C’est ce qui vous <ref target="#etonner">estonne*</ref> ?</l>
             <l n="1402" xml:id="l1402">Pour tirer mon <ref target="#aveu2">adveu*</ref> la voye est assez bonne,</l>
             <l n="1403" xml:id="l1403">Et Rome à qui je porte un <ref target="#courage3">courage*</ref> soûmis</l>
             <l n="1404" xml:id="l1404">Peut répondre de moy quand elle aura promis.</l>
           </sp>
-          <sp who="nicomede">
-            <speaker>NICOMEDE</speaker><pb n="63"/>
+          <sp xml:id="IV06-4" who="nicomede">
+            <speaker>NICOMEDE</speaker>
+            <pb n="63"/>
             <l n="1405" xml:id="l1405">Mais on livre Annibal, et c’est ce qu’on vous cache.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV06-5" who="elise">
             <speaker>ELISE</speaker>
             <l n="1406" xml:id="l1406" part="I">Mon Pere ?</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="IV06-6" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l part="F">Il est le prix de l’<ref target="#aveu2">adveu*</ref> qu’on arrache ;</l>
             <l n="1407" xml:id="l1407">Ne craignez rien pourtant de cette trahison,</l>
             <l n="1408" xml:id="l1408">Je vay trouver Attale, il m’en fera raison,</l>
             <l n="1409" xml:id="l1409" part="I">Et s’il ose…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV06-7" who="elise">
             <speaker>ELISE</speaker>
             <l part="F"><ref target="#arreter4">Arrestez*</ref>, que pretendez-vous faire ?</l>
             <l n="1410" xml:id="l1410">Cet advis m’est suspect, il part de vostre Pere,</l>
             <l n="1411" xml:id="l1411">Qui craignant deux Rivaux, pour en venir à bout,</l>
             <l n="1412" xml:id="l1412">Veut perdre l’un par l’autre, et desaduoüer tout<note resp="editor">Le spectateur, qui dispose de tous les éléments, et pour qui tout est parfaitement clair, en vient à oublier à quel point la situation, entre vérité et mensonge, est complexe. Si Élise entrevoit la vérité, c’est-à-dire l’innocence d’Attale, c’est pour de mauvaises raisons : convaincue de la perfidie de Prusias, elle pense qu’il ment, alors qu’il a dénoncé ce dernier en toute bonne foi. Thomas Corneille présente donc ici une situation tout à fait inintelligible pour ses personnages, bien que parfaitement claire pour le spectateur.</note>.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="IV06-8" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="1413" xml:id="l1413">Ainsi donc il vous plaist que sans rien entreprendre</l>
             <l n="1414" xml:id="l1414">Je laisse à mon Rival le temps de vous surprendre,</l>
             <l n="1415" xml:id="l1415">Ou si l’advis est faux, vous voulez que ma <ref target="#foi">foy*</ref></l>
             <l n="1416" xml:id="l1416">Cede à ses <ref target="#voeux">vœux*</ref> un cœur qui sembloit estre à moy ?</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV06-9" who="elise">
             <speaker>ELISE</speaker>
             <l n="1417" xml:id="l1417">Si l’advis n’est pas vray, je veux que vostre flame</l>
             <l n="1418" xml:id="l1418">Prenne pour seul objet la fierté de mon ame,</l>
@@ -2940,30 +2961,30 @@
             <l n="1432" xml:id="l1432">Je feray vanité de me donner à luy.</l>
             <l n="1433" xml:id="l1433">Voila de mon orgueil quelles sont les maximes.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="IV06-10" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="1434" xml:id="l1434">Ces sentiments sont grands, illustres, magnanimes,</l>
             <l n="1435" xml:id="l1435">Mais quoy que l’on promette à leur noble fierté</l>
             <l n="1436" xml:id="l1436">Quel cœur de vostre haine aura la fermeté ?</l>
             <l n="1437" xml:id="l1437">Qui vous asseurera qu’Attale soit sincere ?</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV06-11" who="elise">
             <speaker>ELISE</speaker>
             <l n="1438" xml:id="l1438">N’en soyez point en peine, il entretient mon Pere,</l>
             <l n="1439" xml:id="l1439">Et s’il obtient de luy ce que vous meritez,</l>
             <l n="1440" xml:id="l1440">Ma main en se donnant prendra ses seuretez<note resp="editor"><hi rend="i">Prendra ses seuretez</hi> : Élise entend par là qu’elle saura s’assurer de la bonne foi d’Attale si jamais son père compte lui accorder sa main.</note>.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="IV06-12" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="1441" xml:id="l1441">En est-il dont la suite offre à vostre disgrace<note resp="editor">La fin de phrase manquante rend quelque peu difficile l’interprétation de ce vers, mais on peut le comprendre en ce sens : ces assurances prises seront-elles suivies de faits qui vengeront votre disgrâce ?</note>…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV06-13" who="elise">
             <speaker>ELISE</speaker>
             <l n="1442" xml:id="l1442">Ayez soin seulement de voir ce qui se passe,</l>
             <l n="1443" xml:id="l1443">Et croyez que l’effort où s’appreste ma <ref target="#foi">foy*</ref>,</l>
             <l n="1444" xml:id="l1444">Quoy qu’il ait de fâcheux, sera digne de moy.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="IV06-14" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="1445" xml:id="l1445">Et bien, Madame, il faut dans ce peril extréme</l>
             <l n="1446" xml:id="l1446">Oser tout, faire tout pour vous contre moi-mesme,</l>
@@ -2974,7 +2995,7 @@
             <l n="1451" xml:id="l1451">Que qui cherche à mourir pour en rompre les coups</l>
             <l n="1452" xml:id="l1452">Pouvoit sans trop d’audace oser vivre pour vous.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV06-15" who="elise">
             <speaker>ELISE</speaker>
             <l n="1453" xml:id="l1453">Prince, mon cœur est juste, et sçait ce qu’il doit faire.</l>
             <l n="1454" xml:id="l1454">Adieu, je vois Attale, il sort avec mon Pere,</l>
@@ -2982,10 +3003,11 @@
             <l n="1456" xml:id="l1456">Tandis que j’apprendray ce qu’Annibal resout.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE VII.</head><pb n="65"/>
+        <div type="scene" xml:id="IV07">
+          <head>SCENE VII.</head>
+          <pb n="65"/>
           <stage>ANNIBAL, ATTALE, ELISE.</stage>
-          <sp who="annibal">
+          <sp xml:id="IV07-1" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="1457" xml:id="l1457">C’est trop voir le Destin confondre mon attente<note resp="editor"><hi rend="i">Confondre mon attente</hi> : décevoir mon attente.</note>,</l>
             <l n="1458" xml:id="l1458">Il est temps de fixer vostre fortune errante,</l>
@@ -2996,7 +3018,7 @@
             <l n="1463" xml:id="l1463">Et croiray triompher de ses plus rudes coups</l>
             <l n="1464" xml:id="l1464">Si j’empesche par là qu’ils n’aillent jusqu’à vous.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV07-2" who="elise">
             <speaker>ELISE</speaker>
             <l n="1465" xml:id="l1465">Qu’ils n’aillent jusqu’à moy ! s’il faut mourir ou vivre,</l>
             <l n="1466" xml:id="l1466">C’est vostre exemple seul, Seigneur, que je veux suivre.</l>
@@ -3012,22 +3034,23 @@
             <l n="1476" xml:id="l1476">Sçavez-vous à quel prix Attale la reçoit ?</l>
             <l n="1477" xml:id="l1477" part="I">Il vous livre aux Romains.</l>
           </sp>
-          <sp who="attale">
-            <speaker>ATTALE</speaker><pb n="66"/>
+          <sp xml:id="IV07-3" who="attale">
+            <speaker>ATTALE</speaker>
+            <pb n="66"/>
             <l part="F">Ah, Madame, je jure</l>
             <l n="1478" xml:id="l1478" part="I">Qu’on me fera…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV07-4" who="elise">
             <speaker>ELISE, <hi rend="i">à Attale.</hi></speaker>
             <l part="F">Seigneur, ce peut estre imposture,</l>
             <l n="1479" xml:id="l1479">Mais quand on vous accuse, à vous parler sans fard,</l>
             <l n="1480" xml:id="l1480">L’apparence au soupçon vous donne grande part<note resp="editor"><hi rend="i">L’apparence au soupçon vous donne grande part</hi> : les apparences sont contre vous.</note>.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV07-5" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1481" xml:id="l1481" part="I">Quoy, me tenir suspect, moy qui…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV07-6" who="elise">
             <speaker>ELISE</speaker>
             <l part="F">Sçachons, de grace,</l>
             <l n="1482" xml:id="l1482">D’où vient que du Romain la colere se passe,</l>
@@ -3038,7 +3061,7 @@
             <l n="1487" xml:id="l1487">Et tout à l’heure encor, que peut-on concevoir</l>
             <l n="1488" xml:id="l1488">Du secret entretien que vous venez d’avoir ?</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV07-7" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1489" xml:id="l1489">Saisi d’<ref target="#etonner">étonnement*</ref>, je n’ay que le silence</l>
             <l n="1490" xml:id="l1490">Qui puisse contre vous prouver mon innocence,</l>
@@ -3066,7 +3089,7 @@
             <l n="1511" xml:id="l1511">Et fais que Rome enfin, toute fiere qu’elle est,</l>
             <l n="1512" xml:id="l1512">Se sousmet à ma flame, et veut ce qui me plaist.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="IV07-8" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="1513" xml:id="l1513">Ouy, Seigneur, c’est envain qu’on voudroit me surprendre,</l>
             <l n="1514" xml:id="l1514">Je fais un digne choix en vous prenant pour Gendre,</l>
@@ -3087,23 +3110,23 @@
             <l n="1529" xml:id="l1529">Moy seul je puis pretendre à cet honneur supréme,</l>
             <l n="1530" xml:id="l1530">Et pour perdre Annibal il faut Annibal mesme<note resp="editor">Cette affirmation, bien évidemment, est significative dans la bouche de celui qui se suicidera à la fin de la pièce.</note>.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV07-9" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1531" xml:id="l1531">Ah, Seigneur, qui pourroit avoir le cœur si bas…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV07-10" who="elise">
             <speaker>ELISE, <hi rend="i">à Attale.</hi></speaker>
             <l n="1532" xml:id="l1532">Je veux bien n’accuser ny vous ny Prusias,</l>
             <l n="1533" xml:id="l1533">Mais dans ce qu’on publie, il est de la prudence<note resp="editor"><hi rend="i">Il est de la prudence</hi> : l’emploi partitif de « de » avant un déterminatif est courant à l’époque classique (voir HAASE, A., <hi rend="i">op. cit.</hi>, § 118, p. 306-309).</note><pb n="68"/></l>
             <l n="1534" xml:id="l1534">De ne pas s’exposer à trop de confiance.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV07-11" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1535" xml:id="l1535">Dites, dites plutost que mon espoir est vain,</l>
             <l n="1536" xml:id="l1536">Que vous me soupçonnez pour m’oster vostre main,</l>
             <l n="1537" xml:id="l1537">Et que des feux plus doux l’emportant sur ma flame…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV07-12" who="elise">
             <speaker>ELISE</speaker>
             <l n="1538" xml:id="l1538">Quoy, vous croyez en moy tant de bassesse d’ame ?</l>
             <l n="1539" xml:id="l1539">Quand j’aurois de l’amour il sçauroit m’obeïr,</l>
@@ -3122,10 +3145,10 @@
             <l n="1552" xml:id="l1552">Se mesle insolemment de me donner à vous !</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV08">
           <head>SCENE VIII.</head>
           <stage>ANNIBAL, ELISE, ATTALE, ALCINE.</stage>
-          <sp who="alcine">
+          <sp xml:id="IV08-1" who="alcine">
             <speaker>ALCINE</speaker>
             <l n="1553" xml:id="l1553">Ah, Madame ! Ah, Seigneur, songez à vous défendre,</l>
             <l n="1554" xml:id="l1554">Sans doute les Romains cherchent à vous surprendre.</l>
@@ -3133,20 +3156,20 @@
             <l n="1556" xml:id="l1556">Ils ont presque investy tout cet apartement.</l>
             <l n="1557" xml:id="l1557">Jugez s’ils auront peine à s’y faire passage.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV08-2" who="elise">
             <speaker>ELISE</speaker>
             <l n="1558" xml:id="l1558">Et bien, Attale, et bien, mon soupçon vous outrage ?</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV08-3" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1559" xml:id="l1559" part="I">Les Romains nous surprendre !</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV08-4" who="elise">
             <speaker>ELISE</speaker>
             <l part="F">Et pour ce coup fatal,</l>
             <l n="1560" xml:id="l1560">Tandis qu’on s’y prepare, on <ref target="#amuser2">amuse*</ref> Annibal.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="IV08-5" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1561" xml:id="l1561">Madame, les effets me vont faire connoistre<note resp="editor"><hi rend="i">Les effets me vont faire connoistre</hi> : mes actions vont montrer qui je suis réellement.</note>,</l>
             <l n="1562" xml:id="l1562">Je voy la trahison, et trouveray le traistre,</l>
@@ -3157,11 +3180,11 @@
             <l n="1567" xml:id="l1567">Et j’atteste les Dieux qu’en ce pressant danger,</l>
             <l n="1568" xml:id="l1568">Je periray moi-mesme, ou sçauray vous vanger.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV08-6" who="elise">
             <speaker>ELISE</speaker>
             <l n="1569" xml:id="l1569">Seigneur, vous fierez-vous à des serments frivoles ?</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="IV08-7" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="1570" xml:id="l1570">Le temps nous est trop cher pour le perdre en paroles<note resp="editor"> Racine se souviendra de ce vers dans <hi rend="i">Bajazet</hi> en faisant dire à Roxane : « Je ne vous ferai point des reproches frivoles. Les moments sont trop chers pour les perdre en paroles » (RACINE J., <hi rend="i">Bajazet</hi>, V, 4, v. 1473-1474, in Racine, <hi rend="i">Œuvres Complètes</hi>, éd. G. Forestier, t. 1, Gallimard (coll. Pléiade), 1999, p. 611).</note>,    </l>
             <l n="1571" xml:id="l1571">Sans trop chercher l’Autheur de cette trahison,</l>
@@ -3177,7 +3200,7 @@
             <l n="1581" xml:id="l1581">Vivez, et s’il vous peut estre honteux de vivre,</l>
             <l n="1582" xml:id="l1582">Vous aurez mon exemple, apprenez à le suivre.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="IV08-8" who="elise">
             <speaker>ELISE</speaker>
             <l n="1583" xml:id="l1583">Pour vous quitter, Seigneur, je sçay trop mon devoir.</l>
             <l n="1584" xml:id="l1584">L’exemple sera grand, je vay le recevoir.</l>
@@ -3185,20 +3208,20 @@
           <label rend="i">Fin du quatriéme Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="V" type="act">
         <pb n="71"/>
         <head>ACTE V.</head>
-        <div type="scene">
+        <div type="scene" xml:id="V01">
           <head>SCENE PREMIERE.</head>
           <stage>ELISE, PRUSIAS, ARAXE.</stage>
-          <sp who="elise">
+          <sp xml:id="V01-1" who="elise">
             <speaker>ELISE</speaker>
             <l n="1585" xml:id="l1585">Quoy, je vous voy, Seigneur, et bien que l’insolence</l>
             <l n="1586" xml:id="l1586">Dont on use envers nous vous demande vangeance,</l>
             <l n="1587" xml:id="l1587">Vostre honneur, vostre <ref target="#foi">foy*</ref> sont des Fantômes vains</l>
             <l n="1588" xml:id="l1588">Lors qu’il faut s’opposer au crime des Romains ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="V01-2" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1589" xml:id="l1589">Pour détruire un projet à nos <ref target="#voeux">vœux*</ref> si contraire</l>
             <l n="1590" xml:id="l1590">Je n’ay rien oublié de ce que j’ay pû faire.</l>
@@ -3213,17 +3236,18 @@
             <l n="1599" xml:id="l1599">Voila ce qui m’amene, et je viens vous offrir</l>
             <l n="1600" xml:id="l1600">Tout ce que peut un Roy qui veut vous secourir.</l>
           </sp>
-          <sp who="elise">
-            <speaker>ELISE</speaker><pb n="72"/>
+          <sp xml:id="V01-3" who="elise">
+            <speaker>ELISE</speaker>
+            <pb n="72"/>
             <l n="1601" xml:id="l1601">Ce zele est <ref target="#obliger2">obligeant*</ref><note resp="editor">La réplique est ironique.</note>, genereux, magnanime.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="V01-4" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1602" xml:id="l1602">Ah, si vous connoissiez l’ardeur dont il m’anime,</l>
             <l n="1603" xml:id="l1603">Quels feux depuis long-temps dans mon cœur renfermez</l>
             <l n="1604" xml:id="l1604" part="I">Vous ont faite…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V01-5" who="elise">
             <speaker>ELISE</speaker>
             <l part="F">Oüy, Seigneur, je sçay que vous m’aimez,</l>
             <l n="1605" xml:id="l1605">Mais enfin il falloit, si vous me vouliez plaire,</l>
@@ -3235,7 +3259,7 @@
             <l n="1611" xml:id="l1611">Mes efforts pour sortir ont esté superflus,</l>
             <l n="1612" xml:id="l1612">On m’<ref target="#arreter3">arreste*</ref>, et peut-estre Annibal ne vit plus.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="V01-6" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1613" xml:id="l1613">Si le Ciel aujourd’huy me met dans l’impuissance</l>
             <l n="1614" xml:id="l1614">D’empescher une injuste et lâche violence,</l>
@@ -3247,7 +3271,7 @@
             <l n="1620" xml:id="l1620">Contre ses Assassins ne tente mon couroux,</l>
             <l n="1621" xml:id="l1621">Rien qu’à son sang versé ma passion n’immole.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V01-7" who="elise">
             <speaker>ELISE</speaker>
             <l n="1622" xml:id="l1622">C’est donc là comme un Roy luy doit tenir parole ?</l>
             <l n="1623" xml:id="l1623">Vous voyez qu’on l’attaque, et fuyant le danger</l>
@@ -3258,28 +3282,28 @@
             <l n="1628" xml:id="l1628">Vos lâches Partisans l’auront fait <ref target="#arreter3">arrester*</ref>,</l>
             <l n="1629" xml:id="l1629">Il ne peut rien pour nous, et tout nous abandonne.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="V01-8" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1630" xml:id="l1630">Quoy, du crime d’Attale il faut qu’on me soupçonne,</l>
             <l n="1631" xml:id="l1631">Et quand ouvertement on voit que le Romain</l>
             <l n="1632" xml:id="l1632">Pour prix de son forfait luy donne vostre main,</l>
             <l n="1633" xml:id="l1633" part="I">Cet Attale…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V01-9" who="elise">
             <speaker>ELISE</speaker>
             <l part="F">Du moins il fait ce qu’il doit faire,</l>
             <l n="1634" xml:id="l1634">Il anime les siens à défendre mon Pere,</l>
             <l n="1635" xml:id="l1635">Se donne pour exemple, et les enhardissant…</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="V01-10" who="prusias">
             <speaker>PRUSIAS, <hi rend="i">montrant Attale.</hi></speaker>
             <l n="1636" xml:id="l1636">Voyez si c’est pour eux un exemple pressant.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V02">
           <head>SCENE II.</head>
           <stage>ELISE, PRUSIAS, ATTALE, ARAXE.</stage>
-          <sp who="attale">
+          <sp xml:id="V02-1" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1637" xml:id="l1637">Madame, craignons tout, c’est peu qu’on vous trahisse,</l>
             <l n="1638" xml:id="l1638">De ses pieges sur moy Rome étend l’artifice,</l>
@@ -3299,7 +3323,7 @@
             <l n="1652" xml:id="l1652">Servons-nous des moyens qui se pourront offrir,</l>
             <l n="1653" xml:id="l1653">J’ose tout entreprendre, et puisque je vous aime…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V02-2" who="elise">
             <speaker>ELISE</speaker>
             <l n="1654" xml:id="l1654">L’asseurance est pour moy d’une douceur extrême.</l>
             <l n="1655" xml:id="l1655">Venez, venez tous deux, nobles Heros d’Amour,</l>
@@ -3313,38 +3337,39 @@
             <l n="1663" xml:id="l1663">Pour m’arracher au Sort, en braver le couroux,</l>
             <l n="1664" xml:id="l1664">S’il ne faut que mourir, je mourray bien sans vous.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="V02-3" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1665" xml:id="l1665">D’un reproche si dur l’injustice m’<ref target="#etonner">étonne*</ref>.</l>
             <l n="1666" xml:id="l1666">J’abandonne, il est vray, mais quand on m’abandonne,</l>
             <l n="1667" xml:id="l1667">Et je rendray bientost vostre esprit éclaircy,</l>
             <l n="1668" xml:id="l1668">Si c’est pour m’épargner que je parois icy<note resp="editor"><hi rend="i">Et je rendray bientost vostre esprit éclaircy / Si c’est pour m’épargner que je parois icy</hi> : et vous saurez bientôt si j’ai agi pour m’épargner ou pour vous sauver.</note>.</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="V02-4" who="prusias">
             <speaker>PRUSIAS, <hi rend="i">à Attale.</hi></speaker>
             <l n="1669" xml:id="l1669">Par les commencements on peut prévoir la suite,</l>
             <l n="1670" xml:id="l1670">Vous trouvez, distes-vous, vostre Garde seduite,</l>
             <l n="1671" xml:id="l1671">Et le mesme interest qui retient vos Soldats</l>
             <l n="1672" xml:id="l1672">Sur le point d’oser tout retiendra vostre bras.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="V02-5" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1673" xml:id="l1673">Gardez qu’à vos dépens vous le puissiez connoistre,</l>
             <l n="1674" xml:id="l1674">Si la trahison plaist on abhorre le Traistre,</l>
             <l n="1675" xml:id="l1675">Et pour gouster le fruit de vos desseins jaloux,</l>
             <l n="1676" xml:id="l1676">Tout mon sang à verser est de l’employ pour vous.</l>
           </sp>
-          <sp who="prusias">
-            <speaker>PRUSIAS</speaker><pb n="75"/>
+          <sp xml:id="V02-6" who="prusias">
+            <speaker>PRUSIAS</speaker>
+            <pb n="75"/>
             <l n="1677" xml:id="l1677">Nous verrons s’il sera difficile à répandre</l>
             <l n="1678" xml:id="l1678">Quand vous attaquerez ce que je viens défendre.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="V02-7" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1679" xml:id="l1679">Ouy, le sang d’Annibal doit estre défendu,</l>
             <l n="1680" xml:id="l1680">Mais de ses Défenseurs on sçait qui l’a vendu.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V02-8" who="elise">
             <speaker>ELISE</speaker>
             <l n="1681" xml:id="l1681">Qu’importe qui de vous m’asseure d’un vray zele</l>
             <l n="1682" xml:id="l1682">Quand Annibal vous voit l’un et l’autre infidelle ?</l>
@@ -3380,17 +3405,17 @@
             <l n="1712" xml:id="l1712">S’il n’est plus d’Annibal, plus de Trônes pour vous.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V03">
           <head>SCENE III.</head>
           <stage>FLAMINIUS, ELISE, PRUSIAS, ATTALE, PROCULE, ARAXE.</stage>
-          <sp who="elise">
+          <sp xml:id="V03-1" who="elise">
             <speaker>ELISE</speaker>
             <l n="1713" xml:id="l1713">Et bien, Flaminius, ton Ambassade est faite<note resp="editor"><hi rend="i">Ton Ambassade est faite</hi> : tu as mené ton ambassade à terme, et c’est un succès. On retrouve le second hémistiche presque mot pour mot dans le <hi rend="i">Nicomède</hi> de Pierre Corneille, lorsque Laodice dit à Flaminius : « Suivez le Roi, Seigneur, votre ambassade est faite » (<hi rend="i">ibid.</hi>, III, 2, v. 808, p. 673). À ceci près que le ton d’Élise est agressif, tandis que celui de Laodice est bien plus ironique : le tutoiement d’Elise est d’ailleurs significatif sur ce point.</note> ?</l>
             <l n="1714" xml:id="l1714">Un lâche t’a vendu ce que Rome souhaite,</l>
             <l n="1715" xml:id="l1715">Pour combler ton triomphe, et le voir sans égal,</l>
             <l n="1716" xml:id="l1716">Viens-tu joindre mon sang à celuy d’Annibal ?</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="V03-2" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1717" xml:id="l1717">Moderez un transport dont j’aurois à me plaindre,</l>
             <l n="1718" xml:id="l1718">Pour le sang d’Annibal vous n’avez rien à craindre.</l>
@@ -3409,7 +3434,7 @@
             <l n="1731" xml:id="l1731">Et quelques biens par là qui vous soient accordez,</l>
             <l n="1732" xml:id="l1732">Voyez toûjours la main de qui vous dépendez.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V03-3" who="elise">
             <speaker>ELISE</speaker>
             <l n="1733" xml:id="l1733">Et bien, mes Défenseurs, me voicy donc Esclave,</l>
             <l n="1734" xml:id="l1734">Sans rien faire pour moy vous <ref target="#souffrir2">souffrez*</ref> qu’on me brave,</l>
@@ -3420,7 +3445,7 @@
             <l n="1739" xml:id="l1739">Et quand il faut montrer qu’un de vous ne l’est pas,</l>
             <l n="1740" xml:id="l1740">Que devient vostre cœur, que devient vostre bras ?</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="V03-4" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1741" xml:id="l1741">C’est trop, c’est trop <ref target="#souffrir2">souffrir*</ref> qu’un Perfide se cache.</l>
             <l n="1742" xml:id="l1742">Vous l’allez voir ce cœur qui vous a paru lâche,</l>
@@ -3443,36 +3468,36 @@
             <l n="1758" xml:id="l1758">J’y renonce, et d’Elise entreprens la défence,</l>
             <l n="1759" xml:id="l1759">Point d’autres loix pour moy que son ressentiment.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="V03-5" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1760" xml:id="l1760">Pour un Roy de deux jours c’est parler hautement.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="V03-6" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1761" xml:id="l1761">La Majesté des Rois toûjours brillante et pure</l>
             <l n="1762" xml:id="l1762">N’a ny vos volontez ny le temps pour mesure<note resp="editor"> Réminiscence du <hi rend="i">Cid</hi> possible : « Je suis jeune il est vrai mais aux âmes bien nées / La valeur n’attend pas le nombre des années » (CORNEILLE P., <hi rend="i">Le Cid</hi>, II, 2, v. 407-408, in éd. cit., t. 1, p. 725).</note>,</l>
             <l n="1763" xml:id="l1763">Et qui l’est un moment, doit contre vos souhaits</l>
             <l n="1764" xml:id="l1764">Prendre assez de fierté pour n’obeïr jamais.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="V03-7" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1765" xml:id="l1765">Je plains de cet orgueil l’aveuglement extrême,</l>
             <l n="1766" xml:id="l1766">Pour me connoistre mieux connoissez-vous vous-mesme,</l>
             <l n="1767" xml:id="l1767">Et sur ce que pour vous le Trône a d’éclatant,</l>
             <l n="1768" xml:id="l1768">Retournez à Pergame, Eumene vous attend.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="V03-8" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1769" xml:id="l1769" part="I">Eumene !</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="V03-9" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l part="F">Ouy, c’est par luy que le Ciel y rappelle<note resp="editor"> « Y » se rapporte  à « Pergame », au vers précédent. Il faut donc comprendre ici que le Ciel a rappelé Eumène du royaume des morts pour qu’il retourne à Pergame.</note></l>
             <l n="1770" xml:id="l1770">Que vous avez trouvé vostre Garde infidelle,</l>
             <l n="1771" xml:id="l1771">Quand nous le croyions mort, la mer nous l’a rendu,</l>
             <l n="1772" xml:id="l1772">Et vous sçaurez de luy le <ref target="#respect1">respect*</ref> qui m’est dû.</l>
           </sp>
-          <sp who="attale">
+          <sp xml:id="V03-10" who="attale">
             <speaker>ATTALE</speaker>
             <l n="1773" xml:id="l1773">Faites, faites regner un Fantosme<note resp="editor">Il s’agit d’Eumène : comprendre « fantôme » dans le sens de « pantin ». </note> en ma place,</l>
             <l n="1774" xml:id="l1774">Je vous fais peur au Trône, il faut que l’on m’en chasse ;</l>
@@ -3481,23 +3506,24 @@
             <l n="1777" xml:id="l1777">Mais pour vous et pour moy je vay faire connoistre</l>
             <l n="1778" xml:id="l1778">Que je sçay mieux punir que seconder un Traistre.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="V03-11" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1779" xml:id="l1779">Qu’on l’observe, et <ref target="#abord1">d’abord*</ref>, s’il ose rien tenter<note resp="editor"><hi rend="i">S’il ose rien tenter</hi> : s’il ose tenter quoi que ce soit.</note>,</l>
             <l n="1780" xml:id="l1780">Donnez ordre, Procule, à le faire <ref target="#arreter3">arrester*</ref>.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE IV.</head><pb n="79"/>
+        <div type="scene" xml:id="V04">
+          <head>SCENE IV.</head>
+          <pb n="79"/>
           <stage>ELISE, PRUSIAS, FLAMINIUS, ARAXE.</stage>
-          <sp who="elise">
+          <sp xml:id="V04-1" who="elise">
             <speaker>ELISE, <hi rend="i">à Prusias.</hi></speaker>
             <l n="1781" xml:id="l1781">Seigneur, c’est donc à vous que de ce grand ouvrage</l>
             <l n="1782" xml:id="l1782">Doit enfin enfin sans debat demeurer l’avantage,</l>
             <l n="1783" xml:id="l1783">Et grace à vos bontez, tout l’honneur vous est dû</l>
             <l n="1784" xml:id="l1784">Et d’Elise trahie, et d’Annibal vendu ?</l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="V04-2" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l n="1785" xml:id="l1785">Quels que soient les malheurs qui vous font plaindre un Pere,</l>
             <l n="1786" xml:id="l1786">Madame, je n’ay fait que ce que j’ay dû faire,</l>
@@ -3506,27 +3532,27 @@
             <l n="1789" xml:id="l1789">Pour fuir avec honneur celuy qui vous menace,</l>
             <l n="1790" xml:id="l1790">Prenez mon Trône offert, je vous y donne place.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V04-3" who="elise">
             <speaker>ELISE</speaker>
             <l n="1791" xml:id="l1791" part="I">Vostre Trône ?</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="V04-4" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l part="F">Ouy, Madame, et si vous balancez</l>
             <l n="1792" xml:id="l1792">J’oseray contre vous plus que vous ne pensez,</l>
             <l n="1793" xml:id="l1793">J’<ref target="#arreter1">arresteray*</ref> le cours de cette humeur altiere.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V04-5" who="elise">
             <speaker>ELISE</speaker>
             <l n="1794" xml:id="l1794">Parles-tu de mourir ? La menace est legere.</l>
             <l n="1795" xml:id="l1795">Pour qui porte en son cœur le pur sang d’Annibal,</l>
             <l n="1796" xml:id="l1796">Ce qui finit les maux ne sçauroit estre un mal.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="V04-6" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1797" xml:id="l1797">Si vous bravez la Mort, le triomphe peut-estre…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V04-7" who="elise">
             <speaker>ELISE</speaker>
             <l n="1798" xml:id="l1798">Il sera beau pour toy d’avoir séduit un Traistre<note resp="editor"><hi rend="i">Il sera beau pour toy d’avoir séduit un Traistre</hi> : tu tireras de la gloire d’avoir corrompu un traître. Le propos est bien entendu ironique.</note>,<pb n="80"/></l>
             <l n="1799" xml:id="l1799">Et tes fourbes, dont l’art nous a mis sous tes loix,</l>
@@ -3540,20 +3566,20 @@
             <l n="1807" xml:id="l1807">De son manque de <ref target="#foi">foy*</ref> quoy qu’il se soit promis…</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V05">
           <head>SCENE V.</head>
           <stage>ELISE, FLAMINIUS, PRUSIAS, ALCINE, ARAXE.</stage>
-          <sp who="alcine">
+          <sp xml:id="V05-1" who="alcine">
             <speaker>ALCINE</speaker>
             <l n="1808" xml:id="l1808">Madame, esperez tout, les Dieux nous sont amis,</l>
             <l n="1809" xml:id="l1809">Au point que les Romains enlevoient vostre Pere,</l>
             <l n="1810" xml:id="l1810" part="I">Le Prince…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V05-2" who="elise">
             <speaker>ELISE</speaker>
             <l part="M">Et bien ?</l>
           </sp>
-          <sp who="alcine">
+          <sp xml:id="V05-3" who="alcine">
             <speaker>ALCINE</speaker>
             <l part="F">A fait tout ce que l’on peut faire.</l>
             <l n="1811" xml:id="l1811">Fort d’un nombre d’Amis à la haste amassez</l>
@@ -3561,11 +3587,12 @@
             <l n="1813" xml:id="l1813">Et tous, tremblant d’effroy dés qu’ils l’ont veu paroistre,</l>
             <l n="1814" xml:id="l1814">Negligeant Annibal, l’en ont laissé le maistre.</l>
           </sp>
-          <sp who="prusias">
-            <speaker>PRUSIAS</speaker><pb n="81"/>
+          <sp xml:id="V05-4" who="prusias">
+            <speaker>PRUSIAS</speaker>
+            <pb n="81"/>
             <l n="1815" xml:id="l1815" part="I">Mon Fils a l’insolence…</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="V05-5" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l part="F">Eclatez, Prusias,</l>
             <l n="1816" xml:id="l1816">L’entreprise est manquée, et je n’en doute pas.</l>
@@ -3577,7 +3604,7 @@
             <l n="1822" xml:id="l1822">Vous donnez d’une main, et retenez de l’autre,</l>
             <l n="1823" xml:id="l1823" part="I">Mais Rome…<note resp="editor"><hi rend="i">Var. 1692</hi> : Mais Rome.</note></l>
           </sp>
-          <sp who="prusias">
+          <sp xml:id="V05-6" who="prusias">
             <speaker>PRUSIAS</speaker>
             <l part="F">Et bien, Seigneur, aux dépens de mon Fils</l>
             <l n="1824" xml:id="l1824">Vous me verrez tenir tout ce que j’ay promis.</l>
@@ -3587,23 +3614,24 @@
             <l n="1828" xml:id="l1828">S’il est dans ce qu’il ose armé de mon pouvoir.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V06">
           <head>SCENE VI.</head>
           <stage>ELISE, FLAMINIUS, ALCINE.</stage>
-          <sp who="elise">
+          <sp xml:id="V06-1" who="elise">
             <speaker>ELISE</speaker>
             <l n="1829" xml:id="l1829">Poursuy, Flaminius, et pour te satisfaire</l>
             <l n="1830" xml:id="l1830">Contre le sang du Fils <ref target="#armer1">arme*</ref> le bras du Pere.</l>
             <l n="1831" xml:id="l1831">Tu vois par Annibal échapé de tes mains</l>
             <l n="1832" xml:id="l1832">Comme le Ciel par tout seconde tes desseins.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="V06-2" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1833" xml:id="l1833">La victoire pour vous n’est pas encore entiere,</l>
             <l n="1834" xml:id="l1834">Et je vay donner ordre à vous revoir moins fiere.</l>
           </sp>
-          <sp who="elise">
-            <speaker>ELISE</speaker><pb n="82"/>
+          <sp xml:id="V06-3" who="elise">
+            <speaker>ELISE</speaker>
+            <pb n="82"/>
             <l n="1835" xml:id="l1835">Je te conseillerois de ne t’éloigner pas.</l>
             <l n="1836" xml:id="l1836">Que sçais-tu si le Prince est maistre de son bras <note resp="editor">Elise sous-entend ici que Nicomède, fidèle à Hannibal, peut recevoir de lui l’ordre de capturer et éliminer Flaminius au besoin.</note> ?</l>
             <l n="1837" xml:id="l1837">Tu peux avoir besoin que je t’obtienne grace,</l>
@@ -3611,67 +3639,68 @@
             <l n="1839" xml:id="l1839">Je te dédaigne assez pour fuir l’abaissement</l>
             <l n="1840" xml:id="l1840">D’abandonner ta vie à mon ressentiment.</l>
           </sp>
-          <sp who="flaminius">
+          <sp xml:id="V06-4" who="flaminius">
             <speaker>FLAMINIUS</speaker>
             <l n="1841" xml:id="l1841">Rome de ces mépris sçaura vous tenir compte.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V07">
           <head>SCENE VII.</head>
           <stage>ELISE, ALCINE.</stage>
-          <sp who="alcine">
+          <sp xml:id="V07-1" who="alcine">
             <speaker>ALCINE</speaker>
             <l n="1842" xml:id="l1842">Madame, à le braver n’estes-vous point trop prompte ?</l>
             <l n="1843" xml:id="l1843">Le Prince perira plûtost que vous trahir,</l>
             <l n="1844" xml:id="l1844">Mais est-il en estat de se faire obeïr ?</l>
             <l n="1845" xml:id="l1845">Prusias est le Maistre, et comme il se declare…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V07-2" who="elise">
             <speaker>ELISE</speaker>
             <l n="1846" xml:id="l1846">Va, va, je sçay l’accueil que Rome nous prepare<note resp="editor"><hi rend="i">L’accueil que Rome nous prepare</hi> : le triomphe.</note>,</l>
             <l n="1847" xml:id="l1847">Et consents qu’elle songe à se faire valoir</l>
             <l n="1848" xml:id="l1848">Quand je seray d’humeur à l’aller recevoir<note resp="editor">Comprendre qu’Élise n’ira à Rome subir le triomphe que quand elle y sera disposée.</note>.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE VIII.</head><pb n="83"/>
+        <div type="scene" xml:id="V08">
+          <head>SCENE VIII.</head>
+          <pb n="83"/>
           <stage>ANNIBAL, ELISE, NICOMEDE, ALCINE.</stage>
-          <sp who="elise">
+          <sp xml:id="V08-1" who="elise">
             <speaker>ELISE, <hi rend="i">à Annibal.</hi></speaker>
             <l n="1849" xml:id="l1849" part="I">Ah, Seigneur, c’est donc vous ?</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="V08-2" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l part="F">Ouy, que le Ciel ramene,</l>
             <l n="1850" xml:id="l1850">Pour vous faire encor mieux heriter de ma haine.</l>
             <l n="1851" xml:id="l1851">De nos mauvais destins si vous venez à bout,</l>
             <l n="1852" xml:id="l1852">Voicy le bras, ma Fille, à qui vous devrez tout.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="V08-3" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="1853" xml:id="l1853">Seigneur, le Ciel peut-il favoriser un Traistre ?</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V08-4" who="elise">
             <speaker>ELISE</speaker>
             <l n="1854" xml:id="l1854">Mais ce Traistre à vos yeux ne s’est pas fait connoistre,</l>
             <l n="1855" xml:id="l1855">Vous allez trembler, Prince, au nom de Prusias.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="V08-5" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="1856" xml:id="l1856" part="I">Quoy, mon Pere…</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V08-6" who="elise">
             <speaker>ELISE</speaker>
             <l part="F">Ouy, de luy viennent ces attentats.</l>
             <l n="1857" xml:id="l1857">L’innocence d’Attale est assez averée.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="V08-7" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="1858" xml:id="l1858">O triomphe pour moy de trop peu de durée !</l>
             <l n="1859" xml:id="l1859">N’importe, osons, Seigneur, tant que j’auray du sang</l>
             <l n="1860" xml:id="l1860">J’appuyeray vostre haine, et soûtiendray mon rang.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="V08-8" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l n="1861" xml:id="l1861">Elle doit à vos yeux estre d’autant plus chere</l>
             <l n="1862" xml:id="l1862">Que l’on voit chaque jour que Rome degenere<note resp="editor"><hi rend="i">Degenerer</hi> : devenir moindre en valeur, en merite, que ceux qui ont precedé (Furetière).</note>.</l>
@@ -3683,27 +3712,27 @@
             <l n="1868" xml:id="l1868">Et pour perdre Annibal, elle corrompt les Rois.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V09">
           <head>SCENE IX.</head>
           <stage>ANNIBAL, NICOMEDE, ELISE, ARAXE, ALCINE.</stage>
-          <sp who="araxe">
+          <sp xml:id="V09-1" who="araxe">
             <speaker>ARAXE, <hi rend="i">à Nicomède.</hi></speaker>
             <l n="1869" xml:id="l1869">Seigneur, de Prusias plaignez la destinée.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="V09-2" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="1870" xml:id="l1870" part="I">Araxe.</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="V09-3" who="araxe">
             <speaker>ARAXE</speaker>
             <l part="M">Il ne vit plus.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="V09-4" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l part="F">O funeste journée !</l>
             <l n="1871" xml:id="l1871" part="I">Mon Pere ne vit plus.</l>
           </sp>
-          <sp who="araxe">
+          <sp xml:id="V09-5" who="araxe">
             <speaker>ARAXE</speaker>
             <l part="F">A peine a-t-il appris</l>
             <l n="1872" xml:id="l1872">Ce que pour Annibal vous avez entrepris,</l>
@@ -3724,14 +3753,14 @@
             <l n="1887" xml:id="l1887">L’<ref target="#arreter3">arrestent*</ref>, et craignant quelques malheurs nouveaux,</l>
             <l n="1888" xml:id="l1888">Flaminius, dit-on, regagne ses vaisseaux.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="V09-6" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l n="1889" xml:id="l1889">O succez déplorable ! ô perte trop amere !</l>
             <l n="1890" xml:id="l1890">Romains, qui me coustez la <ref target="#vertu">vertu*</ref> de mon Pere,</l>
             <l n="1891" xml:id="l1891">Vous m’en ferez raison ; pour ce noble soucy,</l>
             <l n="1892" xml:id="l1892">Donnez l’ordre, Seigneur, vous estes maistre icy.</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="V09-7" who="annibal">
             <speaker>ANNIBAL, <hi rend="i">à Elise.</hi></speaker>
             <l n="1893" xml:id="l1893">C’est trop, il ne faut plus que vostre amour se cache,</l>
             <l n="1894" xml:id="l1894">Le Prince vous merite, il est enfin sans tache<note resp="editor">Hannibal reprochait à Nicomède, à la scène 4 de l’acte II, de ne pas être roi (« Et quand je vous compare avec nos plus grands Rois, / Dans le foible honteux qu’ils laissent tous paroistre, / Je ne vois que vous seul qui meritiez de l’estre, / Mais pour moy ce merite est un bien imparfait, / C’est peu qu’en estre digne, il faut l’estre en effet », v. 620-624), et c’est pourquoi il refusait de lui donner la main de sa fille. Mais maintenant que Prusias est mort, Nicomède accède au trône de Bithynie, et dispose d’une armée pour combattre Rome : Hannibal peut donc lui accorder Élise. </note>,</l>
@@ -3746,11 +3775,11 @@
             <l n="1903" xml:id="l1903">Se déchirer l’un l’autre, et d’un acier fatal</l>
             <l n="1904" xml:id="l1904">Eux-mesmes s’immoler aux Manes d’Annibal<note resp="editor">Ici, Hannibal prophétise les guerres civiles qui ensanglantent Rome au premier siècle av. J.-C. (Marius et Sylla, César et Pompée, Octave et Marc-Antoine…). </note>.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V09-8" who="elise">
             <speaker>ELISE</speaker>
             <l n="1905" xml:id="l1905" part="I">Aux Manes d’Annibal ?</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="V09-9" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l part="F">Quoy, vous auriez pû croire</l>
             <l n="1906" xml:id="l1906">Que j’eusse pris si peu l’interest de ma gloire,</l>
@@ -3759,11 +3788,11 @@
             <l n="1909" xml:id="l1909">Cet anneau<note resp="editor">L’anneau en question est une bague au chaton creux, dans lequel Hannibal conserve du poison.</note> m’a fourny dequoy ne les pas craindre,<pb n="86"/></l>
             <l n="1910" xml:id="l1910" part="I">Je meurs empoisonné.</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="V09-10" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l part="M">Dieux !</l>
           </sp>
-          <sp who="annibal">
+          <sp xml:id="V09-11" who="annibal">
             <speaker>ANNIBAL</speaker>
             <l part="F">Gardez de me plaindre<note resp="editor"><hi rend="i">Gardez de me plaindre</hi> : l’omission du pronom réfléchi est très répandue en langue classique (voir HAASE, A., <hi rend="i">op. cit.</hi>, § 61, p. 146).</note>,</l>
             <l n="1911" xml:id="l1911">Avecque trop d’éclat j’ay sçeu remplir mon sort</l>
@@ -3773,11 +3802,11 @@
             <l n="1915" xml:id="l1915">Envisageant toûjours sa rigueur sans effroy,</l>
             <l n="1916" xml:id="l1916">Bravez la Tyrannie, et mourez comme moy.</l>
           </sp>
-          <sp who="elise">
+          <sp xml:id="V09-12" who="elise">
             <speaker>ELISE</speaker>
             <l n="1917" xml:id="l1917" part="I">C’en est fait, il expire, ah, Seigneur !</l>
           </sp>
-          <sp who="nicomede">
+          <sp xml:id="V09-13" who="nicomede">
             <speaker>NICOMEDE</speaker>
             <l part="F">Ah, Madame !</l>
             <l n="1918" xml:id="l1918">Que d’<ref target="#ennui">ennuis*</ref> à la fois s’emparent de mon ame !</l>

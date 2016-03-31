@@ -392,12 +392,12 @@
           </castItem>
         </castList>
       </div>
-      <div type="act">
+      <div xml:id="I" type="act">
         <head>ACTE PREMIER</head>
-        <div type="scene">
+        <div type="scene" xml:id="I01">
           <head>SCENE PREMIERE</head>
           <stage>FLORICE, ALCANDRE</stage>
-          <sp who="florice">
+          <sp xml:id="I01-1" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1" xml:id="l1">Mon frère confessés que toute l’Italie,<pb n="A, 1"/></l>
             <l n="2" xml:id="l2">Encore que le Ciel l’ait beaucoup embellie,</l>
@@ -425,7 +425,7 @@
             <l n="24" xml:id="l24">Nous semblent à l’envy se vouloir surpasser,</l>
             <l n="25" xml:id="l25">Dites-m’en vostre advis, mon frère, je vous prie.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-2" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="26" xml:id="l26">Puis que vous le voulez il faut que je vous die<note n="49" place="bottom"> L’orthographe de la 2<hi rend="sup">e</hi> et de la 3<hi rend="sup">e</hi> personne du pluriel était souvent la même au XVII<hi rend="sup">e</hi> siècle pour le présent de l’indicatif et pour le subjonctif.</note><pb n="3"/></l>
             <l n="27" xml:id="l27">Que l’Italie est belle, et que là les plaisirs</l>
@@ -445,26 +445,26 @@
             <l n="41" xml:id="l41">Tout rit dessous ses pas, et la nature assemble</l>
             <l n="42" xml:id="l42">En cet ouvrage seul la beauté tout ensemble.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-3" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="43" xml:id="l43">Ne passez pas plus outre, Alcandre, et m’advoüés<note n="51" place="bottom"> Comprendre : « avouez-moi ».</note></l>
             <l n="44" xml:id="l44">Que vous aimez un peu celle que vous <ref target="#louer">loüez*</ref>.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-4" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="45" xml:id="l45">Comment, un peu, ma sœur ? j’aime plus que ma vie</l>
             <l n="46" xml:id="l46">L’adorable beauté qui m’a l’ame ravie,<pb n="4"/></l>
             <l n="47" xml:id="l47">Et s’il falloit mourir pour avoir seulement</l>
             <l n="48" xml:id="l48">Le bien de la <ref target="#servir">servir*</ref>, je mourrois <ref target="#constamment">constamment*</ref>.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-5" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="49" xml:id="l49">Un feu si violent<note n="52" place="bottom"> Diérèse, ici et aux vers 693, 1062 le mot compte pour 3 syllabes. Violente, v. 334, le mot compte pour 4 syllabes. Violence, v. 1371, le mot compte pour 3 syllabes.</note>, comme vous me le faites,</l>
             <l n="50" xml:id="l50">Ne devroit pas avoir de <ref target="#flames">flames*</ref> si secrettes,</l>
             <l n="51" xml:id="l51">Et principalement pour  celle dont le soin</l>
             <l n="52" xml:id="l52">Vous y pourroit servir, s’il en estoit besoin.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-6" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="53" xml:id="l53">Il est vray que je fais tout ce qui m’est possible</l>
             <l n="54" xml:id="l54">Pour cacher mon amour : mais il est trop visible,</l>
@@ -473,17 +473,17 @@
             <l n="57" xml:id="l57">Je n’aime qu’à rèver et mon bon-heur extrême</l>
             <l n="58" xml:id="l58">Est de penser tousjours à la beauté que j’aime.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-7" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="59" xml:id="l59">Je l’ay bien remarqué ; mais parlons franchement,</l>
             <l n="60" xml:id="l60">Et me dites l’<ref target="#objet">objet*</ref> de vostre embrasement,</l>
             <l n="61" xml:id="l61">Nous tascherons après d’alléger vostre peine.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-8" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="62" xml:id="l62">Vous le voulez sçavoir, c’est la belle Circeine.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-9" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="63" xml:id="l63">Circeine, où pensez-vous ? je pleins vostre malheur,</l>
             <l n="64" xml:id="l64">Et je ne puis sçavoir vostre amour sans douleur,<pb n="5"/></l>
@@ -494,7 +494,7 @@
             <l n="69" xml:id="l69">Clorian la possède avec un tel <ref target="#empire">empire*</ref>,</l>
             <l n="70" xml:id="l70">Qu’il ne souhaite<note n="53" place="bottom"> Diérèse, le mot compte pour 3 syllabes.</note> rien qu’elle ne le désire.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-10" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="71" xml:id="l71">Je m’estonne pourtant qu’une telle beauté</l>
             <l n="72" xml:id="l72">Laisse au vouloir d’autruy reigler sa volonté,</l>
@@ -502,7 +502,7 @@
             <l n="74" xml:id="l74">Pour avoir en ce poinct l’ame deffectueuse,</l>
             <l n="75" xml:id="l75">Elle donne des lois plustost qu’en recevoir.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-11" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="76" xml:id="l76">Vous prenez mal mon sens à ce que je puis voir,</l>
             <l n="77" xml:id="l77">Si je dis que Circeine est ailleurs engagée,</l>
@@ -514,44 +514,44 @@
             <l n="83" xml:id="l83">Et Palinice <ref target="#servir">sert*</ref> avecques passion</l>
             <l n="84" xml:id="l84">Son frère Clorian dans son affection</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-12" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="85" xml:id="l85">Qu’est-ce donc qui retarde un heureux mariage ?<pb n="6"/></l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-13" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="86" xml:id="l86" part="I">Palinice.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-14" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">Comment, c’est elle qui l’engage,</l>
             <l n="87" xml:id="l87" part="I">Et la presse en faveur de son frère.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-15" who="florice">
             <speaker>FLORICE.</speaker>
             <l part="F">Escoutés,</l>
             <l n="88" xml:id="l88">Et vous sçaurez le nœud de  ces difficultés.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-16" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="89" xml:id="l89" part="I">Vous me ferez plaisir.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-17" who="florice">
             <speaker>FLORICE.</speaker>
             <l part="F">Vous cognoissez Sileine.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-18" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="90" xml:id="l90">Ouy je le cognoy bien, c’est l’aisné de Circeine.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-19" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="91" xml:id="l91">Il aime Palinice avec beaucoup d’ardeur ;</l>
             <l n="92" xml:id="l92">Mais elle le reçoit avec quelque froideur :</l>
             <l n="93" xml:id="l93">Tellement que fâché qu’on mesprise sa <ref target="#flames">flame*</ref>,</l>
             <l n="94" xml:id="l94">Il nuist à Clorian auprès de vostre Dame.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-20" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="95" xml:id="l95">Ah ! que par ces discours, ma sœur, vous m’<ref target="#obliger">obligés*</ref>,</l>
             <l n="96" xml:id="l96">Mes maux sont maintenant à demy soulagés,<pb n="7"/></l>
@@ -560,41 +560,41 @@
             <l n="99" xml:id="l99">J’y prendray tant de soins j’y feray tant de pas</l>
             <l n="100" xml:id="l100">Que j’auray du malheur si je ne l’obtiens pas.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-21" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="101" xml:id="l101">Mon frère, si j’osois je vous dirois encore</l>
             <l n="102" xml:id="l102">Un secret important au feu qui vous dévore,</l>
             <l n="103" xml:id="l103" part="I">Mais je crains.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-22" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">Craignez-vous de me trop <ref target="#obliger">obliger*</ref> ?</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-23" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="104" xml:id="l104">Je crains en vous <ref target="#servir">servant*</ref> de me trop engager.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-24" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="105" xml:id="l105">Non, non, ma chère sœur, <ref target="#seconder">secondez*</ref> mon envie,</l>
             <l n="106" xml:id="l106">Et ne me cachez rien si vous aimez ma vie.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-25" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="107" xml:id="l107">Sçachez que si Sileine est porté contre vous,</l>
             <l n="108" xml:id="l108">Que son oncle Arimant se portera pour nous,</l>
             <l n="109" xml:id="l109" part="I">Il est fort amoureux.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-26" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="M">Et de qui ?</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-27" who="florice">
             <speaker>FLORICE</speaker>
             <l part="F">De moy-mesme</l>
             <l n="110" xml:id="l110" part="I">Mais il est <ref target="#importun">importun*</ref>.<pb n="8"/></l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-28" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">O le bon-heur extrême :</l>
             <l n="111" xml:id="l111">Ah ! ma sœur vous tenez ma vie entre vos mains,</l>
@@ -604,13 +604,13 @@
             <l n="115" xml:id="l115">Et vous pour ce <ref target="#sujet">sujet*</ref> faites luy bon acceuil,</l>
             <l n="116" xml:id="l116">Agréez son amour, voyez le de bon œil.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-29" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="117" xml:id="l117">Quoy faire bon accueil à cette vieille souche,</l>
             <l n="118" xml:id="l118">Dont l’œil pleure les dents qui manquent à la bouche,</l>
             <l n="119" xml:id="l119" part="I">Vous vous moquez, mon frère.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-30" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">Au contraire, ma sœur,</l>
             <l n="120" xml:id="l120">Sçachez que tant de biens dont il est possesseur,</l>
@@ -619,7 +619,7 @@
             <l n="123" xml:id="l123">L’or fait paroistre jeune un homme desja <ref target="#blanc">blanc*</ref>,</l>
             <l n="124" xml:id="l124">Et luy <ref target="#servir">sert*</ref> en amour de chaleur et de sang.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-31" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="125" xml:id="l125">Mais vous ne dites pas que leur ame enflamée</l>
             <l n="126" xml:id="l126">Dans un corps tout glacé se trouvant enfermée<pb n="B, 9"/></l>
@@ -628,7 +628,7 @@
             <l n="129" xml:id="l129">La vieillesse amoureuse est un monstre en nature,</l>
             <l n="130" xml:id="l130">Si ce n’est qu’elle veuille aimer la sépulture.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-32" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="131" xml:id="l131">Ma chère sœur pardonne à mon affection,</l>
             <l n="132" xml:id="l132">Je cognoy comme toy son imperfection,</l>
@@ -636,54 +636,54 @@
             <l n="134" xml:id="l134">Mais c’est que ton secours me peut sauver la vie,</l>
             <l n="135" xml:id="l135">Feins un temps avec luy pour m’oster de <ref target="#soucy">soucy*</ref>.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-33" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="136" xml:id="l136">Ne vous affligez plus je le veux faire aussi,</l>
             <l n="137" xml:id="l137">Et par mille moyens je feray mon possible</l>
             <l n="138" xml:id="l138">De rendre à vostre amour Circeine plus sensible.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I01-34" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="139" xml:id="l139" part="I">Le feras-tu ma sœur ?</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I01-35" who="florice">
             <speaker>FLORICE.</speaker>
             <l part="F">Ouy, je la voy venir.</l>
             <l n="140" xml:id="l140">Donnez nous le loisir de nous entretenir.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I02">
           <head>SCEINE  II</head>
           <stage>CIRCEINE, FLORICE.</stage>
-          <sp who="circeine">
+          <sp xml:id="I02-1" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="141" xml:id="l141">En me voyant venir vostre frère vous quitte,<pb n="10"/></l>
             <l n="142" xml:id="l142">Trouve-t’il point mauvais lors que je vous visite ?</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I02-2" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="143" xml:id="l143">Non ma compagne, non, et ce nouvel <ref target="#amant">amant*</ref></l>
             <l n="144" xml:id="l144">Trouve en vostre beauté tout son contentement,</l>
             <l n="145" xml:id="l145">Et Circeine <ref target="#rire">se rit*</ref> de sa <ref target="#flames">flame*</ref> amoureuse.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I02-3" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="146" xml:id="l146">Vous avez bonne grace à faire la <ref target="#gausseuse">gausseuse*</ref>,</l>
             <l n="147" xml:id="l147">Mais si vous le voulez je le veux croire ainsi,</l>
             <l n="148" xml:id="l148">Aussi bien n’est ce pas ce qui m’emmene icy,</l>
             <l n="149" xml:id="l149" part="I">Voyez  dedans ces gands,</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I02-4" who="florice">
             <speaker>FLORICE.</speaker>
             <l part="F">Voicy quelque surprise.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I02-5" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="150" xml:id="l150">Non non, vous cognoistrez l’auteur de l’entreprise,</l>
             <l n="151" xml:id="l151">Tirez en ce papier, et le lisez apres,</l>
             <l n="152" xml:id="l152">Je veux que vous sçachiez mes desseins plus secrets<pb n="11"/></l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I02-6" who="florice">
             <speaker>FLORICE.</speaker>
             <stage>Lit les vers qui sont dans les gands.</stage>
             <l n="153" xml:id="l153">Si je ments lors que  je vous jure,</l>
@@ -691,27 +691,27 @@
             <l n="155" xml:id="l155">Que le ciel m’oste la clarté,</l>
             <l n="156" xml:id="l156">Et qu’il me punisse en parjure.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I02-7" who="florice">
             <speaker>FLORICE.</speaker>
             <stage>Après les avoir leus.</stage>
             <l n="157" xml:id="l157" part="I">Et comment cet amour dure encor.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I02-8" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l part="F">Quel Amour ?</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I02-9" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="158" xml:id="l158">L’amour de Clorian plus cognu que le jour.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I02-10" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="159" xml:id="l159">Il est vray que ce fou dit par tout sa <ref target="#folie">folie*</ref> :</l>
             <l n="160" xml:id="l160">Mais je n’ay point de part en sa mélancholie,</l>
             <l n="161" xml:id="l161">Et les vers sont d’un autre, et vous le cognoistrez</l>
             <l n="162" xml:id="l162">Si vous considérez la lettre de plus prés.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I02-11" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="163" xml:id="l163">Après avoir consideré l’escriture</l>
             <l n="164" xml:id="l164">Je le cognois d’effect, et je suis bien faschée</l>
@@ -719,76 +719,76 @@
             <l n="166" xml:id="l166">J’ay fait ce que j’ay peu pour l’oster de vos <ref target="#fers">fers*</ref>:<pb n="12"/></l>
             <l n="167" xml:id="l167">Mais on mettroit plustost les morts hors des enfers.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I02-12" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="168" xml:id="l168">Vrayment je vous croyais d’une autre humeur, Florice</l>
             <l n="169" xml:id="l169">Vous me voulez donc rendre un si mauvais office.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I02-13" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="170" xml:id="l170">Ce n’est pas mon dessein, mais je voy clairement</l>
             <l n="171" xml:id="l171">Qu’Alcandre en vous <ref target="#servir">servant*</ref> travaille vainement,</l>
             <l n="172" xml:id="l172">Et qu’il ne doit jamais espérer cette grace</l>
             <l n="173" xml:id="l173">Que le feu de son sein eschauffe vostre glace.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I02-14" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="174" xml:id="l174" part="I">Sçavez vous l’advenir ?</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I02-15" who="florice">
             <speaker>FLORICE.</speaker>
             <l part="F">Non, mais par le passé</l>
             <l n="175" xml:id="l175">Je juge qu’il sera fort mal recompencé,</l>
             <l n="176" xml:id="l176">Vous le sçavez Circeine aussi bien que moi- mesme,</l>
             <l n="177" xml:id="l177">Chacun ne sçait-il pas que Clorian vous aime ?</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I02-16" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="178" xml:id="l178">Ouy, mais si mon humeur me dure longuement</l>
             <l n="179" xml:id="l179">Il se verra bien loin de son contentement,</l>
             <l n="180" xml:id="l180">Je ne dis pas cela pour engager Alcandre.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I02-17" who="florice">
             <speaker>FLORICE <hi rend="i">tout bas</hi>.</speaker>
             <l n="181" xml:id="l181">Elle rougit pourtant, elle est preste à se rendre.<pb n="13"/></l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I02-18" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="182" xml:id="l182">Ce sera m’<ref target="#obliger">obliger*</ref> que de l’en destourner,</l>
             <l n="183" xml:id="l183">Je croy qu’il le fera sans beaucoup se peiner.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I02-19" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="184" xml:id="l184">Et moy je ne croy pas que l’ardeur de sa <ref target="#flames">flame*</ref></l>
             <l n="185" xml:id="l185">S’esteigne dans son sein qu’alors qu’il<note n="54" place="bottom"> Comprendre « lorsque » pour « alors que ».</note> rendra l’ame,<note n="55" place="bottom"> Cette construction grammaticale ancienne s’explique par la règle qui veut que le verbe de la proposition dépendante se mette au subjonctif lorsque la principale est négative.</note></l>
             <l n="186" xml:id="l186">J’ay trop bien recognu son amoureux soucy.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I02-20" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="187" xml:id="l187">Dieux, voicy Clorian, retirons nous d’icy,</l>
             <l n="188" xml:id="l188">Je ne puis faire un pas qu’aussi tost il ne suive.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I02-21" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="189" xml:id="l189">A ce que je puis voir vous estes bien captive.</l>
             <l n="190" xml:id="l190">Ah ! que mon frère aura du mal en son amour.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I02-22" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="191" xml:id="l191" part="I">Adieu</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="I02-23" who="florice">
             <speaker>FLORICE.</speaker>
             <l part="M">Vous verra-t’on,</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I02-24" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l part="F">A quelque heure du jour.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I03">
           <head>SCENE III</head>
-          <sp who="clorian">
+          <sp xml:id="I03-1" who="clorian">
             <speaker>CLORIAN <hi rend="i">Seul</hi>.</speaker>
             <l n="192" xml:id="l192">Amour que les mortels qui sont en ta puissance<pb n="14"/></l>
             <l n="193" xml:id="l193">Ont des astres malins autheurs de leur naissance,</l>
@@ -828,55 +828,55 @@
             <l n="227" xml:id="l227">Ma peur peut tout sur elle, il faut qu’elle l’en presse.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I04">
           <head>SCENE IIII</head>
           <stage>PALINICE, CLORIAN.</stage>
-          <sp who="palinice">
+          <sp xml:id="I04-1" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="228" xml:id="l228">Que fait icy  mon frère, absent de sa maistresse <note n="57" place="bottom"> Signifie : « qui ne se dit qu’avec le pronom personnel, Se retirer, s’éloigner de la presence des autres. », Furetière.</note> ?<pb n="16"/></l>
             <l n="229" xml:id="l229">Si j’avois un <ref target="#amant">Amant*</ref> si négligent que vous,</l>
             <l n="230" xml:id="l230">Je prendrois le plaisir de le rendre jaloux.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="I04-2" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="231" xml:id="l231">Me parlez vous ainsi de la part de la belle,</l>
             <l n="232" xml:id="l232">Qui tire vanité d’estre ingrate et cruelle<note n="58" place="bottom"> Diérèse, le mot compte pour 3 syllabes.</note> ?</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I04-3" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="233" xml:id="l233">Non, je n’y pense pas, au contraire je croy</l>
             <l n="234" xml:id="l234">Que Circeine vous aime autant ou plus que moy.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="I04-4" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="235" xml:id="l235">Vous ne sçavez donc rien de tout ce qui se passe,</l>
             <l n="236" xml:id="l236">Elle est à mon ardeur plus froide que la glace.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I04-5" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="237" xml:id="l237">Dites moy, depuis quand un si grand changement ?</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="I04-6" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="238" xml:id="l238">Depuis qu’elle reçoit Alcandre comme <ref target="#amant">Amant*</ref>,</l>
             <l n="239" xml:id="l239">Qu’elle rit avec luy, qu’il est tousjours chez elle.<pb n="C, 17"/></l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I04-7" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="240" xml:id="l240" part="I">Et de là vous jugez,</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="I04-8" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l part="F">Qu’elle m’est infidèlle.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I04-9" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="241" xml:id="l241">Ostez de vostre esprit ce dangereux soupçon,</l>
             <l n="242" xml:id="l242">Qui vous troublant les sens vous gaste la raison,</l>
             <l n="243" xml:id="l243">Circeine ne reçoit les visites d’Alcandre,</l>
             <l n="244" xml:id="l244">Que comme elle reçoit Calidor et Tersandre.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="I04-10" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="245" xml:id="l245">Non, non, je les ay veus se parler à l’escart,</l>
             <l n="246" xml:id="l246">Et faire en ma présence un entretien à part ;</l>
@@ -885,31 +885,31 @@
             <l n="249" xml:id="l249">Et lors qu’ils ont cogneu que je les avois veus,</l>
             <l n="250" xml:id="l250">Surpris d’estonnement ils ont rougi tous deux.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I04-11" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="251" xml:id="l251">Ne vous laissez pas vaincre à cette fantaisie<note n="59" place="bottom"> Signifie : « la determination de l’esprit à croire ou à vouloir les choses selon les impressions des sens. », Furetière.</note>,</l>
             <l n="252" xml:id="l252">L’amour meurt aussi tost  que naist la jalousie,</l>
             <l n="253" xml:id="l253">Elle est fille cruelle, et rend tout languissant</l>
             <l n="254" xml:id="l254">L’amour qui l’a fait naistre, ou l’estouffe en naissant.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="I04-12" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="255" xml:id="l255">Au contraire, ma sœur, mon amour s’en augmente,<pb n="18"/></l>
             <l n="256" xml:id="l256">Mon ardeur tous les jours devient plus vehemente,</l>
             <l n="257" xml:id="l257">Et ne me laisse pas un moment de <ref target="#repos">repos*</ref>.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I04-13" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="258" xml:id="l258">Ne me tenez jamais de semblables propos,</l>
             <l n="259" xml:id="l259">Je vay trouver Circeine, elle est assez prudente</l>
             <l n="260" xml:id="l260">Pour n’entreprendre rien qui trompe vostre attente.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="I04-14" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="261" xml:id="l261">Allez donc, vous pouvez oster de mon penser</l>
             <l n="262" xml:id="l262">Ce fantosme jaloux qui me vient <ref target="#traverser">traverser*</ref>.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I04-15" who="palinice">
             <speaker>PALINICE <hi rend="i">Seule</hi>.</speaker>
             <l n="263" xml:id="l263">Ah ! que la jalousie en amour est nuisible</l>
             <l n="264" xml:id="l264">Elle montre à nos yeux ce qui n’est pas visible,</l>
@@ -927,9 +927,9 @@
             <l n="276" xml:id="l276">Et craint sans en avoir des ennemis sans nombre.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I05">
           <head>SCENE V</head>
-          <sp who="circeine">
+          <sp xml:id="I05-1" who="circeine">
             <speaker>CIRCEINE  <hi rend="i">Seule</hi>.</speaker>
             <l n="277" xml:id="l277">Que de diversitez travaillent<note n="60" place="bottom"> Signifie : « Faire souffrir de la douleur. », Furetière.</note> mes esprits,</l>
             <l n="278" xml:id="l278">Je laisse à tous momens le dessein que j’ay pris,</l>
@@ -951,10 +951,10 @@
             <l n="294" xml:id="l294">Feignons de nous vouloir destourner de ses yeux.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I06">
           <head>SCENE VI</head>
           <stage>ALCANDRE, CIRCEINE.</stage>
-          <sp who="alcandre">
+          <sp xml:id="I06-1" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="295" xml:id="l295">Cet Argus<note n="63" place="bottom"> « Ce mot est venu en usage dans la Langue, pour signifier un homme prudent et clairvoyant, qui voit de loin des yeux du corps, et qui prevoit toutes les choses des yeux de l’esprit. Regnier a dit agreablement en parlant d’une nuit obscure. », Furetière.</note> <ref target="#importun">importun*</ref>, qui sans cesse m’esclaire,</l>
             <l n="296" xml:id="l296">Qui presse ma maistresse en faveur de son frère,</l>
@@ -989,7 +989,7 @@
             <l n="325" xml:id="l325">La beauté de ces fleurs, dont le parterre est peint,</l>
             <l n="326" xml:id="l326">N’a rien de comparable aux fleurs de vostre teint.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I06-2" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="327" xml:id="l327">Que vous estes hardy de me venir surprendre,</l>
             <l n="328" xml:id="l328">Je n’eusse jamais creu cette audace d’Alcandre,</l>
@@ -999,7 +999,7 @@
             <l n="332" xml:id="l332">A recueillir des fleurs pour en orner sa teste,</l>
             <l n="333" xml:id="l333">Pour les mettre en son sein, ou flairer leur odeur.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I06-3" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="334" xml:id="l334">Ah ! ma belle excusez ma violente ardeur,</l>
             <l n="335" xml:id="l335">Si je viens interrompre un si doux <ref target="#exercices">exercice*</ref>,</l>
@@ -1015,7 +1015,7 @@
             <l n="345" xml:id="l345">Et que tout ce qu’on voit d’excellent et de beau</l>
             <l n="346" xml:id="l346">Paroist auprès de vous comme au jour un flambeau.<note n="68" place="bottom"> Comprendre : « Toutes ces fleurs sont ternes auprès de vous comme un flambeau est pâle à la lumière du jour ».</note></l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I06-4" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="347" xml:id="l347">Vous m’en dites beaucoup pour m’en faire peu croire,</l>
             <l n="348" xml:id="l348">Je ne me <ref target="#repaitre">repais*</ref> point d’une si fausse gloire,</l>
@@ -1026,98 +1026,98 @@
             <l n="353" xml:id="l353">Vous venez de bien loin pour en vouloir conter,<note n="69" place="bottom"> Aucune différence ne se faisait également pour « conter » et « compter ».</note></l>
             <l n="354" xml:id="l354">A qui se trouveroit dans l’humeur d’escouter.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I06-5" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="355" xml:id="l355">Si ma bouche dit rien contre ce que je pense,</l>
             <l n="356" xml:id="l356">Que le ciel en courroux punisse mon offence,</l>
             <l n="357" xml:id="l357">Et je sçay bien que c’est une témérité,</l>
             <l n="358" xml:id="l358">De vous oser aymer, mais c’est la vérité.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I06-6" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="359" xml:id="l359">Ou véritable ou faux, si vous me voulez plaire,</l>
             <l n="360" xml:id="l360" part="I">N’en parlons plus.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I07">
           <head>SCENE VII</head>
           <stage>PALINICE, CIRCEINE, ALCANDRE.</stage>
-          <sp who="palinice">
+          <sp xml:id="I07-1" who="palinice">
             <speaker>PALINICE.</speaker>
             <l part="F">Circeine, et bien cette onde claire<pb n="24"/></l>
             <l n="361" xml:id="l361">Parle t’elle pour vous advantageusement</l>
             <l n="362" xml:id="l362">Comme fait le discours de ce parfaict <ref target="#amant">amant*</ref>.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I07-2" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="363" xml:id="l363" part="I">Que vous m’avez surprise !</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I07-3" who="palinice">
             <speaker>PALINICE.</speaker>
             <l part="F">Au moins il me le semble,</l>
             <l n="364" xml:id="l364">Et vous ne pouvez pas vous ennuyer ensemble,</l>
             <l n="365" xml:id="l365">Alcandre a l’esprit bon, il a beaucoup d’aquis<note n="70" place="bottom"> « Ce qu’on a rendu sien par son industrie, par son travail, par son argent. Cet homme a bien de l’acquis, de la science, du bien, de la capacité, de l’experience, de la reputation. » Furetière.</note></l>
             <l n="366" xml:id="l366">Pour vous faire trouver son entretien exquis.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I07-4" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="367" xml:id="l367">Je ne le trouve pas plus excellent qu’un autre,</l>
             <l n="368" xml:id="l368">Et je le quiterois pour obtenir le vostre.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I07-5" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="369" xml:id="l369">Il ne vous disoit rien qui  vous fust <ref target="#importun">importun*</ref>.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I07-6" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="370" xml:id="l370">Son entretien n’estoit qu’un entretien commun.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I07-7" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="371" xml:id="l371" part="I">Je croy ce qu’il vous plaist.<pb n="D, 25"/></l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I07-8" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">Mauvaise Palinice,</l>
             <l n="372" xml:id="l372">Je n’ay jamais rien fait contre vostre <ref target="#service">service*</ref>.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I07-9" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="373" xml:id="l373">Ny moy rien contre vous ; mais je desirerois</l>
             <l n="374" xml:id="l374">D’entretenir Circeine, et n’estre pas tous trois.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I07-10" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="375" xml:id="l375">C’est me donner congé d’une assez bonne grace,</l>
             <l n="376" xml:id="l376">Puis que vous le voulez je vous quite la place.</l>
             <l n="377" xml:id="l377" part="I">Adieu belles.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I07-11" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l part="M">Adieu.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="I07-12" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">Je crains cet entretien,</l>
             <l n="378" xml:id="l378">Je prevoy que l’on va disputer de mon bien,</l>
             <l n="379" xml:id="l379">Palinice peut tout sur l’esprit de Circeine,</l>
             <l n="380" xml:id="l380">Et son authorité me fera de la peine.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I07-13" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="381" xml:id="l381">Dites la vérité, j’ay desja remarqué</l>
             <l n="382" xml:id="l382">Que pour vostre <ref target="#sujet">sujet*</ref> il semble bien piqué,</l>
             <l n="383" xml:id="l383">Qu’il vous aime, ou qu’il feint avecques tant d’adresse</l>
             <l n="384" xml:id="l384">Que je parle de vous comme de sa maistresse.<pb n="26"/></l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I07-14" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="385" xml:id="l385">Si la civilité doit passer pour amour,</l>
             <l n="386" xml:id="l386">Alcandre m’ayma donc dès qu’il fust de retour :</l>
             <l n="387" xml:id="l387">C’est dès le premier jour qu’il a véscu de mesme,</l>
             <l n="388" xml:id="l388">Sans que dans ses discours j’aye aperceu qu’il m’aime.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I07-15" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="389" xml:id="l389">Je croy bien que pour vous vous ne le recevez</l>
             <l n="390" xml:id="l390">Quel que soit son dessein, que comme vous devez :</l>
@@ -1136,7 +1136,7 @@
             <l n="403" xml:id="l403">Jugez avec quel œil je verrois ce <ref target="#divorce">divorce*</ref>,</l>
             <l n="404" xml:id="l404">Si je le souffrirois qu’avec beaucoup de force.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I07-16" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="405" xml:id="l405">Continuez tousjours, Madame, de m’aymer<pb n="27"/></l>
             <l n="406" xml:id="l406">Et moy de vous <ref target="#servir">servir*</ref>, et de vous estimer,</l>
@@ -1147,23 +1147,23 @@
             <l n="411" xml:id="l411">Il le faut toutesfois cacher à vostre frère,</l>
             <l n="412" xml:id="l412">J’ayme mieux l’<ref target="#obliger">obliger*</ref> que non pas luy déplaire.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="I07-17" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="413" xml:id="l413">C’est m’<ref target="#obliger">obliger*</ref>, Circeine, et je recognoistray</l>
             <l n="414" xml:id="l414">Cette <ref target="#obliger">obligation*</ref>, de ce que je pourray.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="I07-18" who="circeine">
             <speaker>CIRCEINE  <hi rend="i">Seule</hi>.</speaker>
             <l n="415" xml:id="l415">Pour ne les fascher point, il me faudra contraindre<note n="71" place="bottom"> Comprendre : « Il faudra me contraindre ».</note>,</l>
             <l n="416" xml:id="l416">L’on vient à bout de tout pourveu qu’on sçache feindre.</l>
           </sp>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="II" type="act">
         <head>ACTE SECOND</head>
-        <div type="scene">
+        <div type="scene" xml:id="II01">
           <head>SCENE I</head>
-          <sp who="cerinte">
+          <sp xml:id="II01-1" who="cerinte">
             <speaker>CERINTE <hi rend="i">Seul.</hi></speaker>
             <lg>
               <l n="417" xml:id="l417">Divin sujet de mes douleurs<pb n="28"/></l>
@@ -1225,14 +1225,14 @@
             </lg>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II02">
           <head>SCENE II</head>
           <stage>FLORICE, CERINTE.</stage>
-          <sp who="florice">
+          <sp xml:id="II02-1" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="465" xml:id="l465">Cerinte quel sujet a vostre humeur réveuse ?<pb n="31"/></l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="II02-2" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="466" xml:id="l466">Vous le sçavez ma belle, une cause amoureuse</l>
             <l n="467" xml:id="l467">Qui fera voir bien tost  ma mort si le secours</l>
@@ -1252,23 +1252,23 @@
             <l n="481" xml:id="l481">Ces fontaines, ces prez et ces plaisans ombrages</l>
             <l n="482" xml:id="l482">Hors de vostre présence ont des <ref target="#objet">objects*</ref> sauvages.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="II02-3" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="483" xml:id="l483">Est-ce là vostre mal ? il vous faut secourir,</l>
             <l n="484" xml:id="l484">Vous estes trop bien fait pour vous laisser mourir,</l>
             <l n="485" xml:id="l485">Vous mourez bien souvent, mais ce n’est que de bouche,</l>
             <l n="486" xml:id="l486">Et souffrez aisément la douleur qui vous touche.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="II02-4" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="487" xml:id="l487">Si vous voyez jamais que je mente en un point,</l>
             <l n="488" xml:id="l488">Deffendez-moy de vivre et de ne vous voir point.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="II02-5" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="489" xml:id="l489">Vous souffririez sans mal la dernière déffence,</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="II02-6" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="490" xml:id="l490">C’est faire à mon amour une trop grande offence,</l>
             <l n="491" xml:id="l491">Le trait que vos beaux yeux ont poussé là dedans</l>
@@ -1282,7 +1282,7 @@
             <l n="499" xml:id="l499">Seule vous gouvernez mon <ref target="#heur">heur*</ref> et mon mal-heur</l>
             <l n="500" xml:id="l500">De vous seule depend ma joye et ma douleur.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="II02-7" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="501" xml:id="l501">S’il est ainsi, vostre <ref target="#heur">heur*</ref> dépend de peu de chose,</l>
             <l n="502" xml:id="l502">Et vous serez heureux pourveu que j’en dispose,</l>
@@ -1291,19 +1291,19 @@
             <l n="505" xml:id="l505">Mais n’est-ce point un <ref target="#heur">heur*</ref> de vos croyances folles ?</l>
             <l n="506" xml:id="l506" part="I">En quoy consiste t’il ?</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="II02-8" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l part="F">A dire deux paroles,</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="II02-9" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="507" xml:id="l507" part="I">Qui sont ?</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="II02-10" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l part="M">J’ayme Cerinte,</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="II02-11" who="florice">
             <speaker>FLORICE.</speaker>
             <l part="F">Et je l’avois jugé,</l>
             <l n="508" xml:id="l508">Si je dis donc ces mots vous estes allégé</l>
@@ -1311,27 +1311,27 @@
             <l n="510" xml:id="l510">Les Dieux désireront d’estre ce que nous sommes,<pb n="34"/></l>
             <l n="511" xml:id="l511">S’il ne tient qu’à cela je vous rendray content.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="II02-12" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="512" xml:id="l512">C’est le dernier bon-heur où  mon ame prétend,</l>
             <l n="513" xml:id="l513">Après cela les Dieux me porteront envie,</l>
             <l n="514" xml:id="l514">Et leur éternité sera moins que ma vie.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="II02-13" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="515" xml:id="l515">J’ayme Cerinte, et bien estes vous satisfait ?</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="II02-14" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="516" xml:id="l516">Ces paroles ainsi n’ont point aucun effect,</l>
             <l n="517" xml:id="l517">Il faut que le cœur parle, et que vostre œil le die.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="II02-15" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="518" xml:id="l518">Vous estes tous frapez de mesme maladie,</l>
             <l n="519" xml:id="l519" part="I">Adieu le bien heureux,</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="II02-16" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l part="F">Après ce trait moqueur</l>
             <l n="520" xml:id="l520">Je devrois effacer son portrait de mon cœur,</l>
@@ -1339,9 +1339,9 @@
             <l n="522" xml:id="l522">Elle se changera, souffrons, c’est une femme.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II03">
           <head>SCENE III</head>
-          <sp who="arimant">
+          <sp xml:id="II03-1" who="arimant">
             <speaker>ARIMANT <hi rend="i">Seul</hi>.</speaker>
             <l n="523" xml:id="l523">Amour puissant demon, qui régis les mortels,<pb n="35"/></l>
             <l n="524" xml:id="l524">Dois-je encore porter l’encens sur tes autels ?</l>
@@ -1374,25 +1374,25 @@
             <l n="551" xml:id="l551">Circeine depuis peu le voit bien froidement.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II04">
           <head>SCENE IV</head>
           <stage>ALCANDRE, ARIMANT.</stage>
-          <sp who="alcandre">
+          <sp xml:id="II04-1" who="alcandre">
             <speaker>ALCANDRE <hi rend="i">voyant Arimant.</hi></speaker>
             <l n="552" xml:id="l552">Me voilà trop heureux, servons-nous d’Arimant,</l>
             <l n="553" xml:id="l553">Comme oncle il peut beaucoup sur ma chère <ref target="#maistresse">maistresse*</ref>.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="II04-2" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="554" xml:id="l554">D’où vient  que ce visage est couvert de tristesse ?<pb n="37"/></l>
             <l n="555" xml:id="l555">Palinice vous nuit, et Clorian aussi.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="II04-3" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="556" xml:id="l556">Il est vray, ce sont eux qui causent mon <ref target="#soucy">soucy*</ref>,</l>
             <l n="557" xml:id="l557">Parce qu’ils peuvent tout sur l’esprit de ma belle.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="II04-4" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="558" xml:id="l558">Et je leur feray voir qu’elle est sous ma tutelle,</l>
             <l n="559" xml:id="l559">Que malgré leurs desseins elle dépend de moy,</l>
@@ -1402,13 +1402,13 @@
             <l n="563" xml:id="l563">Dites moy franchement ce que je puis pour vous,</l>
             <l n="564" xml:id="l564">Et vous reconnoistrez que je puis plus que tous.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="II04-5" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="565" xml:id="l565">Ah ! que vous m’<ref target="#obliger">obligez*</ref> sans que je le mérite,</l>
             <l n="566" xml:id="l566">Pour n’estre point ingrat, ma puissance est petite,</l>
             <l n="567" xml:id="l567" part="I">Mais ce que je pourray</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="II04-6" who="arimant">
             <speaker>ARIMANT. </speaker>
             <l part="F">Vous le sçaurez après,</l>
             <l n="568" xml:id="l568">Dites moy seulement d’où naissent vos regrets,</l>
@@ -1419,39 +1419,39 @@
             <l n="573" xml:id="l573">Elle fait plus d’estat de vostre amour discrette</l>
             <l n="574" xml:id="l574" part="I">Que vous ne pensez pas,</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="II04-7" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">Elle est donc bien secrette,</l>
             <l n="575" xml:id="l575">Puis que quand Clorian ou Palinice y sont,</l>
             <l n="576" xml:id="l576">Et qu’elle m’aperçoit elle change de front.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="II04-8" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="577" xml:id="l577">Elle les  craint tous deux, et cette folle crainte</l>
             <l n="578" xml:id="l578">La rend en vostre endroit assez souvent contrainte.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="II04-9" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="579" xml:id="l579">Parlez doncques pour moy, dites-luy mon ardeur,</l>
             <l n="580" xml:id="l580">Et l’estat où m’a mis sa mortelle froideur,</l>
             <l n="581" xml:id="l581">Et luy donnez ces vers qu’en ma douleur cruelle,</l>
             <l n="582" xml:id="l582">Je viens de souspirer dedans ce bois pour elle.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="II04-10" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="583" xml:id="l583">Je feray plus encore que je ne vous promets.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="II04-11" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="584" xml:id="l584">Ma vie avec ces vers en vos mains je remets.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="II04-12" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="585" xml:id="l585">Mais Alcandre un bien-fait vous en demande un autre,<pb n="39"/></l>
             <l n="586" xml:id="l586">Travaillez pour mon bien, comme moy pour le vostre,</l>
             <l n="587" xml:id="l587">Faites que vostre sœur approuve mon dessein.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="II04-13" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="588" xml:id="l588">Je sçay qu’elle est l’ardeur qui vous brule le sein,</l>
             <l n="589" xml:id="l589">Florice n’oseroit en cela me déplaire,</l>
@@ -1459,15 +1459,15 @@
             <l n="591" xml:id="l591">Vostre dessein l’honore, et je puis l’engager</l>
             <l n="592" xml:id="l592" part="I">Selon vostre désir,</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="II04-14" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l part="F">Adieu c’est m’<ref target="#obliger">obliger*</ref>.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II05">
           <head>SCENE V</head>
           <stage>SILEINE, PALINICE.</stage>
-          <sp who="sileine">
+          <sp xml:id="II05-1" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="593" xml:id="l593">Dois-je encore long-temps supporter mes supplices,</l>
             <l n="594" xml:id="l594">Ne devez-vous jamais agréer mes <ref target="#service">services*</ref> ?</l>
@@ -1483,7 +1483,7 @@
             <l n="604" xml:id="l604">Que dans ma passion à cette heure je sens,</l>
             <l n="605" xml:id="l605">Dans vos commandemens ont trouvé leur naissance.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="II05-2" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="606" xml:id="l606">Je sçay bien que Sileine est la mesme innocence<note n="75" place="bottom"> Comprendre : « l’innocence même ».</note>,</l>
             <l n="607" xml:id="l607">Que Dorise jamais ne fut sa passion,</l>
@@ -1493,7 +1493,7 @@
             <l n="611" xml:id="l611">D’oublier cet amour dont vous m’asseurez tant,</l>
             <l n="612" xml:id="l612">Pour un nouvel objet, c’est bien estre <ref target="#constant">constant*</ref>.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="II05-3" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="613" xml:id="l613">Je ne me dédis pas d’avoir servy Dorise,<pb n="F, 41"/></l>
             <l n="614" xml:id="l614">Mais vous sçavez pourquoy se fit cette entreprise,</l>
@@ -1509,26 +1509,26 @@
             <l n="624" xml:id="l624">Que tout ce que j’en sceus fut l’accomplissement,</l>
             <l n="625" xml:id="l625">Et puis ce sera moy qui seray le coulpable.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="II05-4" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="626" xml:id="l626" part="I">C’est moy,</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="II05-5" who="sileine">
             <speaker>SILEINE.</speaker>
             <l part="F">C’est vous d’effect<note n="76" place="bottom"> Comprendre : « C’est vous effectivement ».</note>, et moy le misérable</l>
             <l n="627" xml:id="l627">Qui souffre le tourment qu’un autre a mérité.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="II05-6" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="628" xml:id="l628">Vous n’estes pas encor tout à fait acquitté.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="II05-7" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="629" xml:id="l629">Que me reste-t’il donc pour vous rendre assouvie ?</l>
             <l n="630" xml:id="l630">Demandez-vous mon sang ? demandez-vous ma vie ?<pb n="42"/></l>
             <l n="631" xml:id="l631">Je les perdray tous deux si c’est vostre désir.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="II05-8" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="632" xml:id="l632">Vous ne le sçauriez faire et me faire plaisir,</l>
             <l n="633" xml:id="l633">Ce que je vous demande est de me laisser vivre</l>
@@ -1540,7 +1540,7 @@
             <l n="639" xml:id="l639">Adieu, vous m’amusez<note n="77" place="bottom"> Signifie : « Arrester quelqu’un, luy faire perdre le temps inutilement », Furetière.</note> icy trop longuement,</l>
             <l n="640" xml:id="l640">J’ay donné rendés-vous à mon nouvel <ref target="#amant">amant*</ref>.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="II05-9" who="sileine">
             <speaker>SILEINE  <hi rend="i">Seul.</hi></speaker>
             <l n="641" xml:id="l641">Et puis asseurez-vous en ces ames légères,</l>
             <l n="642" xml:id="l642">Dont toutes les vertus sont d’estre mensongères,</l>
@@ -1553,12 +1553,12 @@
           </sp>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="III" type="act">
         <head>ACTE TROISIEME</head>
-        <div type="scene">
+        <div type="scene" xml:id="III01">
           <head>SCENE I</head>
           <stage>ARIMANT, CIRCEINE.</stage>
-          <sp who="arimant">
+          <sp xml:id="III01-1" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="649" xml:id="l649">Circeine vous sçavez que j’adore Florice,<pb n="43"/></l>
             <l n="650" xml:id="l650">Qu’Alcandre m’y peut nuire, ou m’y rendre service</l>
@@ -1566,7 +1566,7 @@
             <l n="652" xml:id="l652">Si vous continuez vous me donnez la mort,</l>
             <l n="653" xml:id="l653">Vous sçavez qu’il vous ayme, et ses feux sont honestes,</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-2" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="654" xml:id="l654">Vous avez bonne grace en cet âge où vous estes,</l>
             <l n="655" xml:id="l655">De vous estre sousmis aux traverses d’amour,</l>
@@ -1580,7 +1580,7 @@
             <l n="663" xml:id="l663">L’amour est un enfant, la vieillesse luy nuit,</l>
             <l n="664" xml:id="l664">Ce n’est que la jeunesse et la beauté qu’il suit.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-3" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="665" xml:id="l665">Ces choses ne sont pas de vostre cognoissance,</l>
             <l n="666" xml:id="l666">Vous ignorez d’amour l’immortelle puissance,</l>
@@ -1590,7 +1590,7 @@
             <l n="670" xml:id="l670">Je sçay que son ardeur sera <ref target="#constant">constante*</ref> et forte,</l>
             <l n="671" xml:id="l671">Il est fait pour aymer plustost que pour hayr.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-4" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="672" xml:id="l672">Je voudrois de bon cœur vous pouvoir obeyr,</l>
             <l n="673" xml:id="l673">Mais Clorian, mon frère, et Palinice ensemble,</l>
@@ -1602,7 +1602,7 @@
             <l n="679" xml:id="l679">Et si plein de respect et de civilité,</l>
             <l n="680" xml:id="l680">Que je me dois loüer<note n="78" place="bottom"> Diérèse, ici, le mot compte pour 2 syllabes. Tuer, v. 1210, le mot compte pour 2 syllabes. Loüanges, v. 1297, le mot compte pour 3 syllabes.</note> de son honesteté.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-5" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="681" xml:id="l681">Changez- donc de dessein, et leur faites cognoistre,</l>
             <l n="682" xml:id="l682">Qu’avec la liberté les Dieux vous ont fait naistre,</l>
@@ -1615,14 +1615,14 @@
             <l n="689" xml:id="l689">L’un brusle et ne dit mot, et l’autre le publie</l>
             <l n="690" xml:id="l690">Avecque des transports qui sentent sa folie.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-6" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="691" xml:id="l691">Ce n’est pas d’aujourd’huy<note n="79" place="bottom"> Diérèse, ici, le mot compte pour 4 syllabes. Resjoüir, v. 920, le mot compte pour  3 syllabes.</note> que je l’ay recognu,</l>
             <l n="692" xml:id="l692">Mais il faut qu’une fille ait l’esprit retenu,</l>
             <l n="693" xml:id="l693">Et sans cet interest où vostre amour vous porte,</l>
             <l n="694" xml:id="l694">Vous ne parleriez pas avec moy de la sorte.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-7" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="695" xml:id="l695">Hors de leur interest tous les autres aussi.</l>
             <l n="696" xml:id="l696">Ne vous préfferoient pas avec tant de <ref target="#soucy">soucy*</ref>,<pb n="46"/></l>
@@ -1631,7 +1631,7 @@
             <l n="699" xml:id="l699">Lors que vous aurez leu ces vers qui sont de luy,</l>
             <l n="700" xml:id="l700">Qui monstrent son amour et son cruel <ref target="#ennuy">ennuy*</ref>.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-8" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="701" xml:id="l701">Je sçay bien que son ame à l’estude occupée,</l>
             <l n="702" xml:id="l702">A joint parfaictement la plume avec l’espée :</l>
@@ -1693,60 +1693,60 @@
               <l n="750" xml:id="l750">Dedans sa passion.</l>
             </lg>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-9" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="751" xml:id="l751">Voyés en quel estat est son ame affligée.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-10" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="752" xml:id="l752">Si ce qu’il dit est vray je luy suis <ref target="#obliger">obligée*</ref>,</l>
             <l n="753" xml:id="l753">Et soyez asseuré que pour l’amour de vous<pb n="G, 49"/></l>
             <l n="754" xml:id="l754">Il recevra de moy des traictements plus doux.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-11" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="755" xml:id="l755">Ne faisant que cela ce ne seroit rien faire,</l>
             <l n="756" xml:id="l756">Pour m’obliger la sœur <ref target="#obliger">obligés*</ref>-vous le frère,</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-12" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="757" xml:id="l757">Je ne puis toutesfois autrement l’<ref target="#obliger">obliger*</ref>.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-13" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="758" xml:id="l758" part="I">Escrivés-luy,</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-14" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l part="F">Non non, se seroit m’engager,</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-15" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="759" xml:id="l759" part="I">J’escriray donc pour vous,</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-16" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l part="F">Arimant, l’un vaut l’autre.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-17" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="760" xml:id="l760">Circeine, je ne sçay quelle humeur est la vostre,</l>
             <l n="761" xml:id="l761" part="I">Parlez-moy franchement,</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-18" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l part="F">Bien je vous le promets.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-19" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="762" xml:id="l762">Hayssez-vous Alcandre, ou bien si<note n="81" place="bottom"> Comprendre : « ou bien est-ce que ».</note> vous l’aimés.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-20" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="763" xml:id="l763">Pourquoy haïr Alcandre, il a des avantages,<pb n="50"/></l>
             <l n="764" xml:id="l764">Qui le feroient aymer aux ames plus sauvages.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-21" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="765" xml:id="l765">Si c’est vostre croyance, et sçachant son ardeur</l>
             <l n="766" xml:id="l766">Pourquoy le traictez vous avec tant de froideur ?</l>
@@ -1756,13 +1756,13 @@
             <l n="770" xml:id="l770">Qui pourroient emporter les plus sages esprits :</l>
             <l n="771" xml:id="l771">Et vous faites encor estat de son <ref target="#service">service*</ref>.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-22" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="772" xml:id="l772">Quoy que vieil, en amour vous n’estes qu’un novice,</l>
             <l n="773" xml:id="l773">Une fille d’esprit pour cacher son dessein,</l>
             <l n="774" xml:id="l774">A la haine à la bouche, et l’amour dans le sein.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-23" who="arimant">
             <speaker>ARIMANT.</speaker>
             <stage>Tire du papier pour la faire escrire.</stage>
             <l n="775" xml:id="l775">Ah ! qu’il seroit heureux contre son espérance,</l>
@@ -1772,37 +1772,37 @@
             <l n="779" xml:id="l779">Un petit mot d’escrit redonnera la vie<pb n="51"/></l>
             <l n="780" xml:id="l780">A qui vos cruautés l’ont à demy ravie.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-24" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="781" xml:id="l781" part="I">Je ne veux pas escrire,</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-25" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l part="F">Et bien non j’escriray :</l>
             <l n="782" xml:id="l782">Mais vous approuverez ce que je luy diray.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-26" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="783" xml:id="l783">Non je ne le veux pas, les hommes s’advantagent</l>
             <l n="784" xml:id="l784">De semblables escrits, et les filles s’engagent.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-27" who="arimant">
             <speaker>ARIMANT.</speaker>
             <stage>Commence d’escrire.</stage>
             <l n="785" xml:id="l785">Ouy tout autre que luy, mais sa discrétion</l>
             <l n="786" xml:id="l786">Vous a fait voir assés quelle est sa passion.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-28" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <stage>Le voyant escrire</stage>
             <l n="787" xml:id="l787">N’escrivez rien pourtant contre la bien-séance.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-29" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="788" xml:id="l788">Que ces soins <ref target="#importun">importuns*</ref> se sentent de l’enfance :</l>
             <l n="789" xml:id="l789" part="I">Et bien qu’y trouvés-vous à redire.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-30" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <stage>Après avoir veu.</stage>
             <l part="F">A la fin</l>
@@ -1810,22 +1810,22 @@
             <l n="791" xml:id="l791">Et quand je signeray n’est-ce pas tout de mesme,</l>
             <l n="792" xml:id="l792">Que si j’avois escrit Alcandre je vous ayme ?</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-31" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="793" xml:id="l793">Que voyla de façons, signés le seulement,</l>
             <l n="794" xml:id="l794">Ne désesperés point un si parfait <ref target="#amant">amant*</ref>.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-32" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <stage>Après avoir signé.</stage>
             <l n="795" xml:id="l795">Mais s’il arrive aussi qu’un jour il en abuse,</l>
             <l n="796" xml:id="l796">La faute sera vostre, et n’aura point d’excuse.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="III01-33" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="797" xml:id="l797" part="I">Je le veux bien, Adieu.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III01-34" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l part="F">Le plaisant amoureux,</l>
             <l n="798" xml:id="l798">En obligeant Alcandre il se croit bien-heureux,</l>
@@ -1837,10 +1837,10 @@
             <l n="804" xml:id="l804">Clorian que voicy m’importune et m’afflige.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III02">
           <head>SCENE II</head>
           <stage>CLORIAN, CIRCEINE.</stage>
-          <sp who="clorian">
+          <sp xml:id="III02-1" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="805" xml:id="l805">Je cognois bien Circeine en vos <ref target="#deportemens">déportemens*</ref>,<pb n="53"/></l>
             <l n="806" xml:id="l806">Que je suis malheureux entre tous vos <ref target="#amant">amans*</ref>,    </l>
@@ -1849,54 +1849,54 @@
             <l n="809" xml:id="l809">Je me voy le dernier<note n="82" place="bottom"> Diérèse, le mot compte pour 3 syllabes.</note>, et le moins advancé,</l>
             <l n="810" xml:id="l810">Si j’ay <ref target="#servir">servy*</ref> quelqu’autre en est récompencé.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="III02-2" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="811" xml:id="l811">En un mot Clorian, vostre discours m’outrage,</l>
             <l n="812" xml:id="l812">Je n’ay pas resolu d’en souffrir d’advantage,</l>
             <l n="813" xml:id="l813">Parlés en autres termes, ou ne me parlés plus.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="III02-3" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="814" xml:id="l814">Mes services, mes soins seront donc superflus.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="III02-4" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="815" xml:id="l815">Vous vous plaignés tousjours, vostre humeur ombrageuse</l>
             <l n="816" xml:id="l816">Est trop insupportable, et m’est trop dangereuse.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="III02-5" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="817" xml:id="l817">Pleust à Dieu qu’il fust vray, que mes soubçons trompeurs<pb n="54"/></l>
             <l n="818" xml:id="l818">Ne fussent rien qu’un ombre<note n="83" place="bottom"> Mot habituellement au féminin.</note>, ou que vaines vapeurs :</l>
             <l n="819" xml:id="l819">Mais je suis asseuré, qu’un autre amour vous touche,</l>
             <l n="820" xml:id="l820">Qu’Alcandre est dans le cœur, et moy dedans la bouche.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="III02-6" who="circeine">
             <speaker>CIRCEINE  <hi rend="i">s’en allant</hi>.</speaker>
             <l n="821" xml:id="l821">Vous me piquez trop fort pour ne m’en ressentir</l>
             <l n="822" xml:id="l822">Je vous empescheray peut estre de mentir.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="III02-7" who="clorian">
             <speaker>CLORIAN <hi rend="i">Seul.</hi></speaker>
             <l n="823" xml:id="l823">Ah ! quelle ingratitude, après tant de <ref target="#service">services*</ref></l>
             <l n="824" xml:id="l824">Que ce sexe s’emporte, aisément dans les vices :</l>
             <l n="825" xml:id="l825">Mais elle a laissé cheoir un de ses gands icy.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III03">
           <head>SCENE III</head>
           <stage>SILEINE, CLORIAN.</stage>
-          <sp who="sileine">
+          <sp xml:id="III03-1" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="826" xml:id="l826">Clorian m’a promis de prendre le <ref target="#soucy">soucy*</ref><pb n="55"/></l>
             <l n="827" xml:id="l827">D’apaiser Palinice, il faut que je le trouve.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="III03-2" who="clorian">
             <speaker>CLORIAN.</speaker>
             <stage>Trouve les vers dans le gand.</stage>
             <l n="828" xml:id="l828">Voicy de son forfaict, une certaine preuve.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="III03-3" who="sileine">
             <speaker>SILEINE.</speaker>
             <stage>Voyant Clorian</stage>
             <l n="829" xml:id="l829">Je le voy : cher ami, n’as-tu rien faict pour moy,</l>
@@ -1904,17 +1904,17 @@
             <l n="831" xml:id="l831">Ta sœur s’est elle point quelque peu relaschée,</l>
             <l n="832" xml:id="l832" part="I">Ne me le cache point,</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="III03-4" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l part="F">Elle estoit bien fachée,</l>
             <l n="833" xml:id="l833">Mais j’ay tant fait pour toy, qu’elle t’a pardonné,</l>
             <l n="834" xml:id="l834">Voy ce qu’en ta faveur, elle mesme a donné.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="III03-5" who="sileine">
             <speaker>SILEINE<note n="84" place="bottom"> Erreur dans l’éditon originale. Clorian dit les vers destinés à Sileine. Ce qui entraine un véritable contre-sens dans le texte. Nous sommes permis de réparer cette méprise.</note>.</speaker>
             <l n="835" xml:id="l835" part="I">O que je suis heureux,<pb n="56"/></l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="III03-6" who="clorian">
             <speaker>CLORIAN</speaker>
             <l part="F">Lorsqu’elle a veu ta lettre</l>
             <l n="836" xml:id="l836">J’ay beaucoup travaillé devant que le remettre,</l>
@@ -1925,27 +1925,27 @@
             <l n="841" xml:id="l841">Mais sans nous amuser regarde là dedans,</l>
             <l n="842" xml:id="l842">Si la lettre respond à tes désirs ardents.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="III03-7" who="sileine">
             <speaker>SILEINE.</speaker>
             <stage>Lit la lettre de Palinice.</stage>
             <p>J’ay long- temps contesté si je devois recevoir les excuses de Sileine, après m’avoir si souvent offencée, et je m’estois desja resoluë de ne l’escouter plus, quand les asseurances que Clorian m’a donnée de sa répentance, m’ont obligée à luy accorder le pardon qu’il me demande, à condition que s’il retombe dans sa première faute, il ne doit espérer plus rien en Palinice.</p>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="III03-8" who="sileine">
             <speaker>SILEINE.</speaker>
             <stage>Après l’avoir leu.</stage>
             <l n="843" xml:id="l843">Que j’adore ce nom, que je baise et rebaise<pb n="57"/></l>
             <l n="844" xml:id="l844">Ce papier bien-heureux, instrument de mon aise,</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="III03-9" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="845" xml:id="l845">De mon costé Sileine, il n’en est pas ainsi.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="III03-10" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="846" xml:id="l846">Quel <ref target="#accident">accident*</ref> nouveau te donne du <ref target="#soucy">soucy*</ref>,</l>
             <l n="847" xml:id="l847">Ma sœur pour t’<ref target="#obliger">obliger*</ref> ne veut plus voir Alcandre.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="III03-11" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="848" xml:id="l848">Hélas si tu sçavois ce que je viens d’entendre,</l>
             <l n="849" xml:id="l849">Et ce que j’ay trouvé, tu me confesserois</l>
@@ -1955,36 +1955,36 @@
             <l n="853" xml:id="l853">Alcandre est tout son cœur, c’est luy qu’elle chérit,</l>
             <l n="854" xml:id="l854">Et c’est moy qu’elle trompe alors qu’elle me rit.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="III03-12" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="855" xml:id="l855">Quel tesmoignage as-tu d’une action<note n="85" place="bottom"> « Ce mot se disant des personnes signifie, fait. Chose que fait une personne. », Furetière.</note> si noire,</l>
             <l n="856" xml:id="l856">Je ne le cele<note n="86" place="bottom"> « Tenir quelque chose cachée, secrette, dissimuler. », Furetière.</note> point je ne la sçaurois croire,</l>
             <l n="857" xml:id="l857">Son peu d’expérience en ces ruses d’amour,</l>
             <l n="858" xml:id="l858" part="I">Me le déffend,</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="III03-13" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l part="F">Sileine on les sçait dans un jour,<pb n="58"/></l>
             <l n="859" xml:id="l859">L’amour est un bon maistre, aide de la nature,</l>
             <l n="860" xml:id="l860">Tu t’en esclairciras voyant cette escriture :</l>
             <l n="861" xml:id="l861" part="I">Coignois-tu de qui c’est ?</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="III03-14" who="sileine">
             <speaker>SILEINE.</speaker>
             <l part="M">d’Alcandre</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="III03-15" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l part="F">Il est certain.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="III03-16" who="sileine">
             <speaker>SILEINE.</speaker>
             <stage>Après avoir veu ce qu’il luy monstre.</stage>
             <l n="862" xml:id="l862">Mais à ce que je voy ce n’est rien qu’un quatrain</l>
             <l n="863" xml:id="l863">Dans lequel il tesmoigne une flame amoureuse,</l>
             <l n="864" xml:id="l864" part="I">Sans y nommer personne,</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="III03-17" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l part="F">Et c’en est là la ruse.</l>
             <l n="865" xml:id="l865">Ta sœur qui ne veut pas  qu’on sçache son ardeur,</l>
@@ -2000,12 +2000,12 @@
             <l n="875" xml:id="l875">Tu diras avec moy que ta sœur est sçavante</l>
             <l n="876" xml:id="l876">Dans les subtilités d’une amour décevante<note n="87" place="bottom"> Comprendre : « d’un amour trompeur », Furetière.</note>.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="III03-18" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="877" xml:id="l877">Ne me tiens doncques plus dedans cette langueur</l>
             <l n="878" xml:id="l878">Mon ame impatiente abhorre la longueur.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="III03-19" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="879" xml:id="l879">J’estois dedans ce bois lors que  je l’ay trouvée</l>
             <l n="880" xml:id="l880">Aupres de cette masse en rocher eslevée,</l>
@@ -2022,7 +2022,7 @@
             <l n="891" xml:id="l891">Dans ce gand j’ay trouvé cette marque funeste,</l>
             <l n="892" xml:id="l892">De tout mon desplaisir toy juge après du reste.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="III03-20" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="893" xml:id="l893">Elle nous a trompés, trompons à nostre tour,<pb n="60"/></l>
             <l n="894" xml:id="l894">Les ruses sont souvent permises en amour.</l>
@@ -2031,58 +2031,58 @@
             <l n="897" xml:id="l897">Et qui monstre pourtant que vostre affection</l>
             <l n="898" xml:id="l898">Est tantost à la fin de son intention</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="III03-21" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="899" xml:id="l899">Mais elle se sera de sa perte apercuë,</l>
             <l n="900" xml:id="l900">Ainsi mal-aisement sera-t-elle déceuë.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="III03-22" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="901" xml:id="l901">Laisse m’en le <ref target="#soucy">soucy*</ref>, fais les vers seulement,</l>
             <l n="902" xml:id="l902">Je feray bien le reste assez subtilement.</l>
           </sp>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="IV" type="act">
         <head>ACTE QUATRIESME</head>
-        <div type="scene">
+        <div type="scene" xml:id="IV01">
           <head>SCENE I</head>
           <stage>CERINTE, ARIMANT.</stage>
           <stage>Sortant par divers endroits</stage>
-          <sp who="cerinte">
+          <sp xml:id="IV01-1" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="903" xml:id="l903">On me vient d’advertir que Florice est allée<pb n="61"/></l>
             <l n="904" xml:id="l904">Prendre seule le frais au bout de cette allée.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV01-2" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="905" xml:id="l905">Je dois trouver ma belle autour de ces beaux lieux,</l>
             <l n="906" xml:id="l906">Où l’ombrage défend l’ardeur de l’œil des cieux,</l>
             <l n="907" xml:id="l907">Sans qu’un fascheux rival vienne troubler mon aise.</l>
             <l n="908" xml:id="l908">Mais le voicy venir, ô rencontre mauvaise,</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV01-3" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="909" xml:id="l909">J’apperçois Arimant, tesmoignons froidement<pb n="62"/></l>
             <l n="910" xml:id="l910">Que je viens en ce lieu par divertissement.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV01-4" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="911" xml:id="l911">Cerinte est seul icy, ce n’est pas sa coustume.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV01-5" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="912" xml:id="l912">Cerinte qui n’a point de bien sans amertume,</l>
             <l n="913" xml:id="l913">Aime la promenade, et se plait à rêver :</l>
             <l n="914" xml:id="l914">Mais il se retiroit venant de l’achever.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV01-6" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="915" xml:id="l915">Et je la commençois pour resjouïr ma veuë</l>
             <l n="916" xml:id="l916">Des beautez dont la terre est maintenant pourveuë :</l>
             <l n="917" xml:id="l917">Après je me pourrois retirer comme vous.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV01-7" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="918" xml:id="l918">Adieu donc, je voy bien qu’amour <ref target="#rire">se rit*</ref> de nous,</l>
             <l n="919" xml:id="l919">Nous cherchons mesme chose ou mon esprit se trompe :</l>
@@ -2091,15 +2091,15 @@
             <l n="922" xml:id="l922">Mais Alcandre et ses biens me nuisent plus que luy,</l>
             <l n="923" xml:id="l923">Destournons par icy, j’y puis aller de mesme.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV01-8" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="924" xml:id="l924">Il s’en va, courons donc vers la beauté que j’aime.<pb n="63"/></l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV02">
           <head>SCENE II</head>
           <stage>FLORICE, ARIMANT, CERINTE.</stage>
-          <sp who="florice">
+          <sp xml:id="IV02-1" who="florice">
             <speaker>FLORICE <hi rend="i">Seule</hi>.</speaker>
             <lg>
               <l n="925" xml:id="l925">Amour, démon malicieux</l>
@@ -2150,77 +2150,77 @@
               <l n="958" xml:id="l958">Sans en faire semblant laissons les approcher.</l>
             </lg>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV02-2" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="959" xml:id="l959">Si je pouvois trouver cette beauté divine</l>
             <l n="960" xml:id="l960">Desirant mon repos plustost que ma ruine<note n="89" place="bottom"> Diérèse, ici, et aux vers 965, 1081, 1543, le mot compte pour 3 syllabes.</note>,</l>
             <l n="961" xml:id="l961">Que je croirois heureux mes <ref target="#travaux">travaux*</ref> et mes pas.</l>
             <l n="962" xml:id="l962">Je la vois, allons viste adorer ses <ref target="#apas">apas*</ref>.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV02-3" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="963" xml:id="l963">Ne vous hastez pas tant, je suis de la partie,</l>
             <l n="964" xml:id="l964">Pourveu que sa beauté n’en soit pas divertie.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV02-4" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="965" xml:id="l965">Si vous n’en estiez point j’en serois plus content.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV02-5" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="966" xml:id="l966">Si vous en estiés loing j’en dirois bien autant.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV02-6" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="967" xml:id="l967">Quand vous y seriés seul vous ou luy l’advantage</l>
             <l n="968" xml:id="l968" part="I">En seroit bien petit,</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV02-7" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l part="F">Mauvaise ce langage</l>
             <l n="969" xml:id="l969">Devroit avoir changé pour mon subject au moins.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV02-8" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="970" xml:id="l970" part="I">Pourquoy plustost pour vous que pour moy.<pb n="66"/></l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV02-9" who="florice">
             <speaker>FLORICE.</speaker>
             <l part="F">Tous vos soins</l>
             <l n="971" xml:id="l971">Et vos discours d’amour sont choses innutiles.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV02-10" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="972" xml:id="l972">J’auray donques semé des terres infertiles.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV02-11" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="973" xml:id="l973">Et moy servi sans fruict une ingrate beauté</l>
             <l n="974" xml:id="l974">Qui n’a que des mespris et de la cruauté.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV02-12" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="975" xml:id="l975">Pour vous brave Arimant, à cause de vostre âge,</l>
             <l n="976" xml:id="l976">Il faut que par raison vostre mal je soulage :    </l>
             <l n="977" xml:id="l977">Mais pour luy qui fort jeune, est pour beaucoup souffrir,</l>
             <l n="978" xml:id="l978">Je riray de ses <ref target="#voeux">vœux*</ref> s’il me les vient offrir.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV02-13" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="979" xml:id="l979">Mauvaise, finissez ces traicts de moquerie,</l>
             <l n="980" xml:id="l980">N’augmentez point mon mal par vostre raillerie.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV02-14" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="981" xml:id="l981">Cruelle, recevez en des termes plus doux,</l>
             <l n="982" xml:id="l982">Les offres d’un <ref target="#amant">amant*</ref> qui veut mourir pour vous.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV02-15" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="983" xml:id="l983">Voyons si je pourray contenter l’un et l’autre,<pb n="67"/></l>
             <l n="984" xml:id="l984">Que me demandez-vous, quel desir est le vostre ?</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV02-16" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="985" xml:id="l985">Qu’est ce que je demande, et quoy les maux soufferts</l>
             <l n="986" xml:id="l986">Depuis deux ou trois ans que je porte vos fers</l>
@@ -2229,21 +2229,21 @@
             <l n="989" xml:id="l989">Ne vous ont pas apris ce que veut Arimant.</l>
             <l n="990" xml:id="l990">Vous en faut il parler encor plus clairement.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV02-17" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="991" xml:id="l991">Ce langage pour moy n’est pas intelligible.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV02-18" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="992" xml:id="l992">Ingrate, il le seroit si vous estiez sensible :</l>
             <l n="993" xml:id="l993">Alcandre vostre frère est trop de mes amis,</l>
             <l n="994" xml:id="l994">Pour ne me tenir pas ce qu’il m’avoit promis.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV02-19" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="995" xml:id="l995" part="I">Qu’a-t’il promis ?</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV02-20" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l part="F">De faire avecque vous en sorte</l>
             <l n="996" xml:id="l996">Que vous recognoistriez l’amour que je vous porte.</l>
@@ -2252,17 +2252,17 @@
             <l n="999" xml:id="l999">Promettez m’en autant, et mon ame contente,</l>
             <l n="1000" xml:id="l1000">Recueillera le fruict qu’on doit à son attente.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV02-21" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1001" xml:id="l1001">Pour l’amour de mon frère Alcandre, je promets,</l>
             <l n="1002" xml:id="l1002">De ne regarder point vostre rival jamais,</l>
             <l n="1003" xml:id="l1003" part="I">Estes-vous satisfait ?</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV02-22" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l part="F">Plus qu’homme de la terre.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV02-23" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1004" xml:id="l1004">Dieux ! je ne suis pas mort de ce coup de tonnerre,</l>
             <l n="1005" xml:id="l1005">En ma presence encor, et j’ay le cœur si bas</l>
@@ -2272,38 +2272,38 @@
             <l n="1009" xml:id="l1009">Et ses biens prévaudront sur mon fidèlle amour.</l>
             <l n="1010" xml:id="l1010">Non non, après cela je dois perdre le jour.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV02-24" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1011" xml:id="l1011">Mais je voy que Cerinte a l’ame bien troublée.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV02-25" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1012" xml:id="l1012">Dites plustost qu’elle est de douleur accablée.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV02-26" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1013" xml:id="l1013">Je vous veux toutes fois oster de ce <ref target="#soucy">soucy*</ref><pb n="69"/></l>
             <l n="1014" xml:id="l1014">Pour l’amour de vous seul je le veux fuir aussi :</l>
             <l n="1015" xml:id="l1015">Et pour l’amour de moy, forçant ce labirinte</l>
             <l n="1016" xml:id="l1016">Je ne veux jamais voir Arimant ny Cerinte.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV02-27" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1017" xml:id="l1017">Nous voilà satifaicts tous deux également.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV02-28" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1018" xml:id="l1018">Bon pour vous qui causez mon mescontement,</l>
             <l n="1019" xml:id="l1019">Qui rompant l’amitié gardée entre nos pères,</l>
             <l n="1020" xml:id="l1020">Venez vous déclarer entre mes adversaires :</l>
             <l n="1021" xml:id="l1021">Mais enfin je pourrois la rompre comme vous.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV02-29" who="cerinte">
             <speaker>CERINTE <hi rend="i">S’en allant.</hi></speaker>
             <l n="1022" xml:id="l1022">Qu’à cela prés, amour me fust un peu plus doux,</l>
             <l n="1023" xml:id="l1023">Et que vous fussiés d’âge à vous pouvoir défendre.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV02-30" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1024" xml:id="l1024">Ce fer me défendra si tu me veux attendre,</l>
             <l n="1025" xml:id="l1025">Va je suis assez fort pour me vanger de tous.</l>
@@ -2324,10 +2324,10 @@
             <l n="1040" xml:id="l1040">Désobligeons Alcandre, et tachons de luy plaire.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV03">
           <head>SCENE III</head>
           <stage>CLORIAN, ARIMANT.</stage>
-          <sp who="clorian">
+          <sp xml:id="IV03-1" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1041" xml:id="l1041">La ruse est bien conduite, Ah ! que c’est dextrement,</l>
             <l n="1042" xml:id="l1042">Par une contre ruse affiner un <ref target="#amant">amant*</ref> :</l>
@@ -2342,21 +2342,21 @@
             <l n="1051" xml:id="l1051">Il en est amoureux, quoy qu’il semble que l’âge</l>
             <l n="1052" xml:id="l1052">Le devroit dispenser de l’amoureux servage.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV03-2" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1053" xml:id="l1053">Clorian s’entretient de ses pensers secrets.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="IV03-3" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1054" xml:id="l1054">Clorian s’entretient de ses justes regrets,</l>
             <l n="1055" xml:id="l1055" part="I">Ils naissent,</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV03-4" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l part="F">quelquesfois<note n="91" place="bottom"> Rétablissement de la minuscule car c’est la même phrase qui continue.</note> d’une cause légère,</l>
             <l n="1056" xml:id="l1056">Le bon-heur peut venir lors qu’on en désespere.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="IV03-5" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1057" xml:id="l1057">Que pourrois je esperer dans un mal violant,</l>
             <l n="1058" xml:id="l1058">Qui ne me vient pourtant que d’un <ref target="#sexe">sexe*</ref> insolent,</l>
@@ -2365,41 +2365,41 @@
             <l n="1061" xml:id="l1061">Qui rit de ceux qu’il tient, et qui croit en amour,</l>
             <l n="1062" xml:id="l1062">C’est estre criminel d’aimer plus que d’un jour.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV03-6" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1063" xml:id="l1063">Il est vray que ce <ref target="#sexe">sexe*</ref> a par fois  des follies,<pb n="72"/></l>
             <l n="1064" xml:id="l1064">Qui luy font à tout coup faire mille <ref target="#saillies">saillies*</ref> :</l>
             <l n="1065" xml:id="l1065">Mais je sçay mieux que vous d’où vient tout vostre mal.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="IV03-7" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1066" xml:id="l1066">Il ne vient que de vous qui portez<note n="92" place="bottom"> Comprendre : « Proteger, favoriser. », Furetière.</note> mon rival.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV03-8" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1067" xml:id="l1067">Il est vray, mais je veux vous faire recognoistre</l>
             <l n="1068" xml:id="l1068">Que je pourray guerir le mal que j’ay fait naistre,</l>
             <l n="1069" xml:id="l1069">Alcandre m’a trompé, sa sœur rit de mes feux :</l>
             <l n="1070" xml:id="l1070">Je suis donc obligé de <ref target="#traverser">traverser*</ref> ses <ref target="#voeux">vœux*</ref>.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="IV03-9" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1071" xml:id="l1071">Si vous entreprenez de me remettre en grace,</l>
             <l n="1072" xml:id="l1072">Je me tiens asseuré de l’oster de ma place.</l>
             <l n="1073" xml:id="l1073">Secourez au besoin <note n="93" place="bottom"> Comprendre : en « Manque de quelque chose. », Furetière.</note>un <ref target="#amant">amant*</ref> affligé.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV03-10" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1074" xml:id="l1074">Circeine à ma prière, a tantost <ref target="#obliger">obligé*</ref></l>
             <l n="1075" xml:id="l1075">Alcandre d’une lettre, et moy je l’ay portée.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="IV03-11" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1076" xml:id="l1076">J’ay bien veu qu’on avoit ma ruine arrestée.</l>
             <l n="1077" xml:id="l1077">Voila ce que jamais elle n’a fait pour moy,</l>
             <l n="1078" xml:id="l1078">Depuis deux ou trois ans que je vy sous sa loy.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV03-12" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1079" xml:id="l1079">Ne vous tourmentez point, je veux par cette lettre<pb n="K, 73"/></l>
             <l n="1080" xml:id="l1080">Désobliger Alcandre, et bien-tost vous remettre,</l>
@@ -2409,16 +2409,16 @@
             <l n="1084" xml:id="l1084">De voir que vous sçachiez une affaire cachée,</l>
             <l n="1085" xml:id="l1085" part="I">Laissez là, je feray tout le reste,</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="IV03-13" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l part="F">Arimant</l>
             <l n="1086" xml:id="l1086">Vous rapellez en vie un malheureux <ref target="#amant">amant*</ref>.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV03-14" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1087" xml:id="l1087">Adieu voicy venir vostre belle Circeine.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="IV03-15" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1088" xml:id="l1088">Il faut tout hazarder pour soulager ma peine,</l>
             <l n="1089" xml:id="l1089">La voila qui descend du costé du chasteau.</l>
@@ -2429,10 +2429,10 @@
             <l n="1094" xml:id="l1094">Tel a vaincu souvent qui n’a pas combatu.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV04">
           <head>SCENE IIII</head>
           <stage>CIRCEINE, CLORIAN.</stage>
-          <sp who="circeine">
+          <sp xml:id="IV04-1" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1095" xml:id="l1095">Que la condition quelquesfois est nuisible,<pb n="74"/></l>
             <l n="1096" xml:id="l1096">Que les plus eslevez sont subjets à tomber,</l>
@@ -2463,160 +2463,160 @@
             <l n="1121" xml:id="l1121">Devant que par la force</l>
             <l n="1122" xml:id="l1122">Ou comme entre ennemis on vienne à le finir.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="IV04-2" who="clorian">
             <speaker>CLORIAN <hi rend="i">l’arrestant.</hi></speaker>
             <l n="1123" xml:id="l1123">Je suis garde des ponts, vous devez le passage.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="IV04-3" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1124" xml:id="l1124">Vous me feriez juger que vous n’estes pas sage,<pb n="76"/></l>
             <l n="1125" xml:id="l1125">Que vous m’avez fait peur de me surprendre ainsi,</l>
             <l n="1126" xml:id="l1126">Et quelle est vostre humeur de vous cacher icy.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="IV04-4" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1127" xml:id="l1127">L’humeur d’un malheureux à qui tout est nuisible.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="IV04-5" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1128" xml:id="l1128">Vostre malheur est grand, mais il est invisible.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="IV04-6" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1129" xml:id="l1129">Autant que vostre lettre à qui l’a voulu voir.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="IV04-7" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1130" xml:id="l1130" part="I">Quelle lettre</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="IV04-8" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l part="F">Il est vray je n’en puis rien sçavoir,</l>
             <l n="1131" xml:id="l1131">Alcandre est si secret que je ne l’ay pas veuë,</l>
             <l n="1132" xml:id="l1132">Plustost qu’un seul moment apres l’avoir receuë.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="IV04-9" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1133" xml:id="l1133">Il n’en peut rien monstrer encores qu’il soit vain.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="IV04-10" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1134" xml:id="l1134">Hors l’escrit d’Arimant signé de vostre main,</l>
             <l n="1135" xml:id="l1135">Où vous estimez tant son mérite et sa flame,</l>
             <l n="1136" xml:id="l1136">Que vous ne pouvez pas le mespriser sans blasme.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="IV04-11" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1137" xml:id="l1137">Alcandre, Clorian, ny mortel quel qu’il soit,<pb n="77"/></l>
             <l n="1138" xml:id="l1138" part="I">Ne sera plus oüy,</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="IV04-12" who="clorian">
             <speaker>CLORIAN <hi rend="i">s’en allant.</hi></speaker>
             <l part="F">Ma feinte la déçoit.</l>
             <l n="1139" xml:id="l1139">C’est assez laissons la descharger sa colère.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="IV04-13" who="circeine">
             <speaker>CIRCEINE <hi rend="i">seule</hi>.</speaker>
             <l n="1140" xml:id="l1140">Tu ne pouvois ingrat autrement me desplaire,</l>
             <l n="1141" xml:id="l1141">Et je te feray voir avec ta vanité,</l>
             <l n="1142" xml:id="l1142">Que ma lettre est l’effect d’une importunité.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV05">
           <head>SCENE V</head>
           <stage>FLORICE, ARIMANT, CERINTE.</stage>
-          <sp who="florice">
+          <sp xml:id="IV05-1" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1143" xml:id="l1143">Estes-vous resolus encor<note n="94" place="bottom"> Vers faux à cause de la présence d’un « e » final.</note> de me poursuivre ?</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV05-2" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1144" xml:id="l1144">Ouy moy de vous servir ou de cesser de vivre.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV05-3" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1145" xml:id="l1145">Et moy de vous servir ou de perdre le jour,</l>
             <l n="1146" xml:id="l1146">Encor que vos mespris <ref target="#traverser">traversent*</ref> mon amour,</l>
             <l n="1147" xml:id="l1147">Et que vous souhaitiés que ma flame fust morte</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV05-4" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1148" xml:id="l1148">Et moy j’ay résolu de vivre d’autre sorte,<pb n="78"/></l>
             <l n="1149" xml:id="l1149">Et de n’endurer plus vostre importunité.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV05-5" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1150" xml:id="l1150">Elle ne vient pourtant que de vostre beauté.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV05-6" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1151" xml:id="l1151">Et de ces yeux, qui seuls gouvernent mon génie.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV05-7" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1152" xml:id="l1152">Vous me voulez chasser de vostre compagnie,</l>
             <l n="1153" xml:id="l1153">Si vous m’en parlez plus, je fuiray loin de vous,</l>
             <l n="1154" xml:id="l1154">Comme on voit la brebis fuir à l’<ref target="#abord">abord*</ref> des loups.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV05-8" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1155" xml:id="l1155">Cruelle mon amour tousjours continuée,</l>
             <l n="1156" xml:id="l1156">Sans que vos longs mespris l’ayent diminuée.</l>
             <l n="1157" xml:id="l1157">Ne vous peut obliger à traicter autrement,</l>
             <l n="1158" xml:id="l1158">Un homme comme moy, que ce nouvel <ref target="#amant">amant*</ref>.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV05-9" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1159" xml:id="l1159">Mauvaise mon amour, dont la discrète flame</l>
             <l n="1160" xml:id="l1160">Doit éternellement durer dedans mon ame.</l>
             <l n="1161" xml:id="l1161">Peust elle vous porter à me traiter si mal,</l>
             <l n="1162" xml:id="l1162">Et dois-je estre puni des défauts d’un rival ?</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV05-10" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1163" xml:id="l1163">Je vous ay là-dessus expliqué ma pensée,</l>
             <l n="1164" xml:id="l1164">Je ne désire plus de me voir si pressée,<pb n="79"/></l>
             <l n="1165" xml:id="l1165">Tant que vous serez deux à me persécuter,</l>
             <l n="1166" xml:id="l1166">Je ne puis vous souffrir et moins vous contenter.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV05-11" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1167" xml:id="l1167">A la fin ma colère avec raison conceuë,</l>
             <l n="1168" xml:id="l1168">Se vengera sur toy de ma flame deceuë.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV05-12" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1169" xml:id="l1169">Le respect de ma belle, et ton âge cassé</l>
             <l n="1170" xml:id="l1170">M’empeschent de punir ton discours insensé.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV05-13" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1171" xml:id="l1171">Deffends toy seulement, et tu verras que l’âge</l>
             <l n="1172" xml:id="l1172">Ne te sçauroit donner sur moy de l’avantage.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV05-14" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1173" xml:id="l1173">Ne me presse pas tant et me laisse en repos.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV05-15" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1174" xml:id="l1174" part="I">Comment lache, tu fuis</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV05-16" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l part="F">Ces insolents propos</l>
             <l n="1175" xml:id="l1175">Ne se peuvent souffrir sans y perdre la vie.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV05-17" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1176" xml:id="l1176">Que ma présence au moins vous en donne l’envie.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV05-18" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1177" xml:id="l1177">Puis que l’un ne veut pas à l’autre vous céder,</l>
             <l n="1178" xml:id="l1178">La mort nous fera voir qui vous doit posséder.<pb n="80"/></l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV05-19" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1179" xml:id="l1179">Vous estes trop mauvais dedans vostre colere,</l>
             <l n="1180" xml:id="l1180">Demeurés dans l’humeur de me vouloir desplaire.</l>
@@ -2624,26 +2624,26 @@
             <l n="1182" xml:id="l1182">Dessus vos volontés, vous me le ferés voir,</l>
             <l n="1183" xml:id="l1183">Remettant vostre espée, et luy quittant la place<note n="95" place="bottom"> « QUITTER, signifie encore, Sortir hors de quelque lieu, abandonner quelque chose. », Furetière.</note>.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV05-20" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1184" xml:id="l1184">Il n’est rien que pour vous, ma belle, je ne face.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV05-21" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1185" xml:id="l1185">Obeïssés moy donc, et vous ostés d’icy.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="IV05-22" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1186" xml:id="l1186">Puis que vous le voulez je le vay faire aussi.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="IV05-23" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1187" xml:id="l1187">Tu fuis, tu fuis poltron, et cette barbe grise</l>
             <l n="1188" xml:id="l1188">Que tu mesprisois tant, te fait donc quitter prise.</l>
             <l n="1189" xml:id="l1189">Nous nous retrouverons, à quelque heure du jour,</l>
             <l n="1190" xml:id="l1190">En lieu propre, <ref target="#vuider">vuider*</ref> nos querelles d’amour.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="IV05-24" who="florice">
             <speaker>FLORICE <hi rend="i">Seule</hi>.</speaker>
             <l n="1191" xml:id="l1191">Que ce vieil amoureux a de belles <ref target="#saillies">saillies*</ref>,</l>
             <l n="1192" xml:id="l1192">Et je serois subjette à toutes ses follies.</l>
@@ -2654,11 +2654,11 @@
           </sp>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="V" type="act">
         <head>ACTE CINQUIESME</head>
-        <div type="scene">
+        <div type="scene" xml:id="V01">
           <head>SCENE I</head>
-          <sp who="alcandre">
+          <sp xml:id="V01-1" who="alcandre">
             <speaker>ALCANDRE <hi rend="i">Seul.</hi></speaker>
             <l n="1197" xml:id="l1197">Qu’on ne me parle plus de ces cruels tourments,</l>
             <l n="1198" xml:id="l1198">Que le demon des cœurs fait souffrir aux <ref target="#amant">amants*</ref>,</l>
@@ -2700,10 +2700,10 @@
             <l n="1234" xml:id="l1234">Les marques que j’y mets de mon contentement.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V02">
           <head>SCENE II</head>
           <stage>CIRCEINE, ALCANDRE.</stage>
-          <sp who="circeine">
+          <sp xml:id="V02-1" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1235" xml:id="l1235">Alcandre qui tenoit sa flame si secrète,</l>
             <l n="1236" xml:id="l1236">Seroit il devenu d’une humeur indiscrète,</l>
@@ -2711,7 +2711,7 @@
             <l n="1238" xml:id="l1238">Dans les loix du devoir, et de l’honnesteté.</l>
             <l n="1239" xml:id="l1239">Mais il escrit icy sur l’escorce d’un arbre.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-2" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <stage>Après avoir escrit,</stage>
             <l n="1240" xml:id="l1240">Garde le mieux encor que ne feroit le marbre.</l>
@@ -2720,11 +2720,11 @@
             <l n="1243" xml:id="l1243">Adorable Circeine, est il doncques possible,</l>
             <l n="1244" xml:id="l1244">Qu’à mon affection tu te montre sensible ?<pb n="84"/></l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-3" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1245" xml:id="l1245">Il est en beau chemin escoutons seulement.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-4" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1246" xml:id="l1246">S’il est vray, peut on voir un plus heureux <ref target="#amant">amant*</ref>,</l>
             <l n="1247" xml:id="l1247">En pourrois-je douter, puis que par son seing mesme</l>
@@ -2732,36 +2732,36 @@
             <l n="1249" xml:id="l1249">Mais si le seing aussi n’estoit pas de sa main,</l>
             <l n="1250" xml:id="l1250">Qu’Arimant l’eust signée en estant l’escrivain.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-5" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1251" xml:id="l1251">Cette doute me plaist, elle me sert d’indice,</l>
             <l n="1252" xml:id="l1252">Que le faux Clorian use icy de malice,</l>
             <l n="1253" xml:id="l1253">Aprochons le plus prés que je pourray de luy.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-6" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <stage>Tirant la lettre</stage>
             <l n="1254" xml:id="l1254">Souverain appareil de mon cruel ennuy,</l>
             <l n="1255" xml:id="l1255">Devant que de t’ouvrir, que cent fois je te baise.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-7" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1256" xml:id="l1256">Si je m’en puis saisir j’interrompray ton aise.</l>
             <p rend="i">Lettre de Circeine à Alcandre.</p>
             <p>La discrétion et l’honneteté d’Alcandre m’obligent en fin à l’asseurer que ses services me sont agréables, qu’il vive donc content après cette asseurance, et qu’il sçache que j’estime trop ses mérites, pour ne vouloir pas qu’il continuë d’aimer Circeine.<pb n="85"/></p>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-8" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <stage>Après l’avoir leuë</stage>
             <l n="1257" xml:id="l1257">Ouy c’est son propre seing, il n’en faut plus douter,</l>
             <l n="1258" xml:id="l1258">Un Dieu ne pourroit pas ces faveurs mériter.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-9" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <stage>Prenant la lettre</stage>
             <l n="1259" xml:id="l1259" part="I">Non, non</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-10" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">Dieux, qu’est cecy qu’un voleur me l’emporte,</l>
             <l n="1260" xml:id="l1260">Impie, oses-tu bien y toucher de la sorte,</l>
@@ -2769,62 +2769,62 @@
             <l n="1262" xml:id="l1262" part="I">Attens</l>
             <stage>Il se leve en disant cela le poignard à la main.</stage>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-11" who="circeine">
             <speaker>CIRCEINE  <hi rend="i">l’arrestant</hi>.</speaker>
             <l part="F">Vous n’estes pas Alcandre en bon estat,</l>
             <l n="1263" xml:id="l1263">Sans doute vous dormiez, et vostre fantaisie<note n="98" place="bottom"> Comprendre : « imagination ».</note></l>
             <l n="1264" xml:id="l1264">A jetté vostre esprit dans quelque frénésie,</l>
             <l n="1265" xml:id="l1265" part="I">Me voulez vous tuer ?</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-12" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">Ah ! que plustost ce <ref target="#fers">fer*</ref><pb n="86"/></l>
             <l n="1266" xml:id="l1266">Plongé dedans mon sein, me pousse dans l’enfer,</l>
             <l n="1267" xml:id="l1267">Ma belle pardonnez l’action insolente</l>
             <l n="1268" xml:id="l1268" part="I">Que je viens de commettre.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-13" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l part="F">Elle est trop violente.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-14" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1269" xml:id="l1269">Ouy pour vous : mais un autre en seroit desja mort</l>
             <l n="1270" xml:id="l1270">Ayant eu le dessein de me faire ce tort.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-15" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1271" xml:id="l1271">C’est pour vous advertir que ces lieux solitaires</l>
             <l n="1272" xml:id="l1272">Ne sont pas bien souvent fidèlles secrétaires.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-16" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1273" xml:id="l1273">Pardon belle Circeine, et je vous fais serment</l>
             <l n="1274" xml:id="l1274">De ne m’emporter plus dans mon contentement.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-17" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1275" xml:id="l1275">Nous en pourrons parler, lisons cette escriture</l>
             <l n="1276" xml:id="l1276">Que vous avez gravée en cette escorce dure.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-18" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1277" xml:id="l1277">Ce ne sont que des vers qui disent que vos yeux</l>
             <l n="1278" xml:id="l1278">Me peuvent abismer ou m’eslever aux cieux.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-19" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1279" xml:id="l1279" part="I">Je les veux voir pourtant.<pb n="87"/></l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-20" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">C’est chose bien aisée.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-21" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1280" xml:id="l1280" part="I">Lisez-les</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-22" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">Qui voudroit vous avoir refusée.</l>
             <stage>Il lit les vers qui sont sur l’escorce.</stage>
@@ -2836,30 +2836,30 @@
             <l n="1286" xml:id="l1286">Ta mort du feu du ciel qui brusle ta racine,</l>
             <l n="1287" xml:id="l1287">La mienne des ardeurs des deux yeux pleins d’apas.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-23" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <stage>Après les avoir leus.</stage>
             <l n="1288" xml:id="l1288">Voila ce que je laisse à ce bel arbre en garde,</l>
             <l n="1289" xml:id="l1289">Puis qu’avecque douceur ce bel œil me regarde.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-24" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1290" xml:id="l1290">Alcandre en tous endroits occupe ses esprits</l>
             <l n="1291" xml:id="l1291" part="I">Seul ou non<pb n="88"/></l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-25" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">Rendés moy ce que vous m’avés pris.</l>
             <l n="1292" xml:id="l1292">Apres je recevray de bon cœur vos loüanges.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-26" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1293" xml:id="l1293">Qu’en leurs déguisements les hommes sont estranges,</l>
             <l n="1294" xml:id="l1294">Vous n’en avez que faire, Alcandre est satisfaict,</l>
             <l n="1295" xml:id="l1295">Tout le monde l’a veuë, Clorian le sçait :</l>
             <l n="1296" xml:id="l1296">Mais je sçay qu’en cela mon oncle m’a surprise<note n="99" place="bottom"> Comprendre : « une tromperie, une chose qu’on fait contre l’ordre, ou sur la confiance d’autruy. », Furetière.</note>.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-27" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1297" xml:id="l1297">Si depuis qu’Arimant en mes mains l’a remise,</l>
             <l n="1298" xml:id="l1298">Autre que vous l’a veuë avec moy que les dieux,</l>
@@ -2878,13 +2878,13 @@
             <l n="1311" xml:id="l1311">Mais nous ne sommes pas sous une mesme loy.</l>
             <l n="1312" xml:id="l1312">Je suis trop amoureux et vous trop dédaigneuse.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-28" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1313" xml:id="l1313">Et pour vous faire voir que j’en suis plus soigneuse.</l>
             <l n="1314" xml:id="l1314">Vous trouverez vos vers où vous les avez mis,</l>
             <l n="1315" xml:id="l1315" part="I">Prenez ce gand,</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V02-29" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">Cet <ref target="#heur">heur*</ref> ne m’estoit  pas promis</l>
             <stage>Il tire et lit les quatre vers que Clorian y avoit supposez<note n="100" place="bottom"> « Signifie, Mettre une chose à la place d’une autre par fraude et tromperie. », Furetière.</note>.</stage>
@@ -2904,7 +2904,7 @@
             <l n="1328" xml:id="l1328">Adieu cruelle, adieu, c’est par ce coup fatal,</l>
             <l n="1329" xml:id="l1329">Que Clorian ou moy nous verrons sans rival.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V02-30" who="circeine">
             <speaker>CIRCEINE <hi rend="i">seule.</hi></speaker>
             <l n="1330" xml:id="l1330">Il me laisse en colére, Alcandre brave Alcandre,</l>
             <l n="1331" xml:id="l1331">Il est desja si loin qu’il ne me peut entendre,</l>
@@ -2914,15 +2914,15 @@
             <l n="1335" xml:id="l1335">Et je me vangeray de sa supercherie.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V03">
           <head>SCENE II</head>
           <stage>FLORICE, PALINICE.</stage>
-          <sp who="florice">
+          <sp xml:id="V03-1" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1336" xml:id="l1336">Et bien que dites vous du divertissement</l>
             <l n="1337" xml:id="l1337">Que me vient de donner l’amoureux Arimant.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V03-2" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="1338" xml:id="l1338">Qu’il n’est rien de pareil à sa mélancholie,</l>
             <l n="1339" xml:id="l1339">Et que sa passion ressent fort sa <ref target="#folie">folie*</ref>.<pb n="91"/></l>
@@ -2932,64 +2932,64 @@
             <l n="1343" xml:id="l1343">Ils se sont querelez pour l’amour de Circeine.</l>
             <l n="1344" xml:id="l1344">Et je crains qu’à la fin ils n’en viennent aux mains.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V03-3" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1345" xml:id="l1345">Pourroient-ils devenir à ce point inhumains ?</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V03-4" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="1346" xml:id="l1346">Je le crois, et voudrois avoir veu cette belle,</l>
             <l n="1347" xml:id="l1347">Pour en pouvoir sçavoir la verité par elle.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V04">
           <head>SCENE III</head>
           <stage>CIRCEINE, FLORICE, PALINICE.</stage>
-          <sp who="circeine">
+          <sp xml:id="V04-1" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1348" xml:id="l1348">En vain je l’ay suivi, je n’ay peu l’attraper,</l>
             <l n="1349" xml:id="l1349">Je voudrois toutesfois le pouvoir détromper,</l>
             <l n="1350" xml:id="l1350">Que les plaisirs d’amour sont de peu de durée,</l>
             <l n="1351" xml:id="l1351">Je dois estre pourtant de sa flame asseurée.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V04-2" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1352" xml:id="l1352">Allons donc la chercher, mais la voicy venir,</l>
             <l n="1353" xml:id="l1353">Qui seule dans ce lieu semble s’entretenir.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V04-3" who="palinice">
             <speaker>PALINICE, <hi rend="i">parlant à Circeine.</hi></speaker>
             <l n="1354" xml:id="l1354">Que vous vous espargnez d’une grande courvée<note n="102" place="bottom"> « CORVÉE, ou Courvée, se dit aussi par extension, d’une peine, d’un travail qu’on veut bien prendre en consideration d’un Superieur ou d’un amy, sans en esperer aucun salaire ni avantage. », Furetière. </note>,<pb n="92"/></l>
             <l n="1355" xml:id="l1355">Le bon-heur nous en veut de vous avoir trouvée.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V04-4" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1356" xml:id="l1356">Il vous est arrivé ce que je désirois.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V04-5" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1357" xml:id="l1357">L’entretien sera bon estant de toutes trois.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V04-6" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="1358" xml:id="l1358">Mais il faut nous parler sans aucune contrainte,</l>
             <l n="1359" xml:id="l1359">Et dire nos pensers, et sans fard et sans crainte.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V04-7" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1360" xml:id="l1360">Je l’ay bien résolu, mon esprit offencé,</l>
             <l n="1361" xml:id="l1361">Dans tout ce qui se passe est trop intéressé,</l>
             <l n="1362" xml:id="l1362">Pour ne vous dire pas nettement nos pensées.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V04-8" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1363" xml:id="l1363">Je crains que nous soyons toutes intéressées.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V04-9" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="1364" xml:id="l1364" part="I">Dites nous donc que c’est,</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V04-10" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l part="F">Vous sçaurez qu’aujourd’huy</l>
             <l n="1365" xml:id="l1365">Vos frères m’ont donné de grands <ref target="#sujet">subjets*</ref> d’<ref target="#ennuy">ennuy*</ref>.</l>
@@ -3005,36 +3005,36 @@
             <l n="1375" xml:id="l1375">Et montrant qu’il avoit de l’aigreur contre Alcandre,</l>
             <l n="1376" xml:id="l1376" part="I">S’en est allé faché.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V04-11" who="palinice">
             <speaker>PALINICE.</speaker>
             <l part="F">C’est fort mal procéder</l>
             <l n="1377" xml:id="l1377">Alcandre n’est pas homme à luy vouloir céder,</l>
             <l n="1378" xml:id="l1378">Et j’avois tousjours craint qu’en fin sa jalousie</l>
             <l n="1379" xml:id="l1379">Porteroit son esprit à cette frénésie.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V04-12" who="circeine">
             <speaker>CIRCEINE <hi rend="i">tout bas</hi>.</speaker>
             <l n="1380" xml:id="l1380">Que j’ay subtilement déduit<note n="103" place="bottom"> « DEDUIRE, signifie aussi, Soustraire, diminuer, retrancher. », Furetière.</note> mon intérest,</l>
             <l n="1381" xml:id="l1381">Leur cachant ce qui doit estre tenu secret.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V04-13" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1382" xml:id="l1382">Que vous a dit Alcandre après cette <ref target="#saillies">saillie*</ref> ?</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V04-14" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1383" xml:id="l1383">Rien, mais il s’est jetté dans la mélancholie,</l>
             <l n="1384" xml:id="l1384">Et sans me dire mot a voulu me quitter,</l>
             <l n="1385" xml:id="l1385">J’ay fait ce que j’ay peu taschant de l’arrester,<pb n="94"/></l>
             <l n="1386" xml:id="l1386" part="I">Mais je ne l’ay peu faire</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V04-15" who="palinice">
             <speaker>PALINICE <hi rend="i">parlant à Florice, et s’en allant tous deux.</hi></speaker>
             <l part="F">Allons belle compagne</l>
             <l n="1387" xml:id="l1387">Envoyer leurs amis par toute la campagne,</l>
             <l n="1388" xml:id="l1388" part="I">Ils se sont allez battre.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V04-16" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l part="F">Elles sont en <ref target="#soucy">soucy*</ref>,</l>
             <l n="1389" xml:id="l1389">Mais je voudrois desja que cela fut ainsi,</l>
@@ -3044,128 +3044,128 @@
             <l n="1393" xml:id="l1393">Quelque accident nouveau les assemble tous deux.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V05">
           <head>SCENE IIII</head>
           <stage>SILEINE, CERINTE, CIRCEINE.</stage>
-          <sp who="sileine">
+          <sp xml:id="V05-1" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="1394" xml:id="l1394">Nous decouvrons d’icy presque toute la plaine.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="V05-2" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1395" xml:id="l1395">Nous le pourrions sçavoir de vostre sœur Circeine</l>
             <l n="1396" xml:id="l1396" part="I">La voicy toute seule.<pb n="95"/></l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V05-3" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l part="F">Où courez vous si fort ?</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="V05-4" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1397" xml:id="l1397">Empescher deux amans de se donner la mort,</l>
             <l n="1398" xml:id="l1398" part="I">Les avez-vous point veux ?</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V05-5" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l part="M">Qui sont ils ?</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="V05-6" who="sileine">
             <speaker>SILEINE.</speaker>
             <l part="F">C’est Alcandre.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V05-7" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1399" xml:id="l1399" part="I">Et l’autre.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="V05-8" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l part="M">Clorian</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V05-9" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l part="F">C’est beaucoup entreprendre,</l>
             <l n="1400" xml:id="l1400">Mais je ne sçay que faire à des esprits si fous,</l>
             <l n="1401" xml:id="l1401">Les deux sœurs que voicy les cherchent comme vous.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V05-10" who="florice">
             <speaker>FLORICE.</speaker>
             <stage>revenant avec Palinice</stage>
             <l n="1402" xml:id="l1402">Nous n’en avons encor apris nulle nouvelle.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="V05-11" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="1403" xml:id="l1403">Ils sont pourtant sortis pour <ref target="#vuider">vuider*</ref> leur querelle.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="V05-12" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1404" xml:id="l1404">Ils ne sçauroient aller qu’à l’entour de ces lieux,<pb n="96"/></l>
             <l n="1405" xml:id="l1405">Tournons de tous costez vostre oreille et vos yeux.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V06">
           <head>SCENE V</head>
           <stage>ALCANDRE, CLORIAN, FLORICE, CIRCEINE, PALINICE, CERINTE, SILEINE</stage>
           <stage>ALCANDRE ET CLORIAN.</stage>
-          <sp who="alcandre">
+          <sp xml:id="V06-1" who="alcandre">
             <speaker>ALCANDRE. </speaker>
             <l n="1406" xml:id="l1406">Puis que l’amour le veut : et qu’il est impossible</l>
             <l n="1407" xml:id="l1407">Que nous possédions d’eux ce miracle visible,</l>
             <l n="1408" xml:id="l1408">Et que l’on ne veut point à l’autre le céder,</l>
             <l n="1409" xml:id="l1409">Voyons à qui le fer le fera posséder.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="V06-2" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1410" xml:id="l1410">Hastons nous donc de peur que l’on ne nous sépare,</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V06-3" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1411" xml:id="l1411">Les voila sur Florice le point d’une action barbare.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V06-4" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="1412" xml:id="l1412">Ne nous amusons pas, courons les empescher.<pb n="N, 97"/></l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="V06-5" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="1413" xml:id="l1413">Courons, ils ne sçauroit à nos yeux se cacher,</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="V06-6" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1414" xml:id="l1414">Circeine fera plus envers eux que nous quatre,</l>
             <l n="1415" xml:id="l1415">Sa parole les peut empescher de se battre.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V06-7" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1416" xml:id="l1416">Finissons par ce coup on nous viens séparer.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="V06-8" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1417" xml:id="l1417">Finissons ou mourons, c’est trop long temps durer.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="V06-9" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1418" xml:id="l1418">Ils montrent par leurs coups l’ardeur de leur colere,</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="V06-10" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="1419" xml:id="l1419">C’est assez cher amis, que pensez vous de faire ?</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V06-11" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1420" xml:id="l1420">Alcandre, Clorian, est-ce ainsi qu’on me <ref target="#servir">sert*</ref> ?</l>
             <l n="1421" xml:id="l1421">Non, non, arrestez-vous, c’est par là qu’on me perd.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V06-12" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1422" xml:id="l1422">Voilà mes armes bas, je n’ay plus de déffence,</l>
             <l n="1423" xml:id="l1423">Puis que cette action ma belle vous offence.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="V06-13" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1424" xml:id="l1424">Que vous avez sur nous un pouvoir souverain,</l>
             <l n="1425" xml:id="l1425">De nous faire tomber les armes de la main.<pb n="98"/></l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V06-14" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1426" xml:id="l1426">Qu’un effort généreux se faisant dans vos ames,</l>
             <l n="1427" xml:id="l1427">Rende vostre raison maistresse de vos flames.</l>
@@ -3174,39 +3174,39 @@
             <l n="1430" xml:id="l1430">Qui selon les objets qu’ils ont aux fantaisies<note n="104" place="bottom"> Comprendre : « dans l’imagination ».</note>,</l>
             <l n="1431" xml:id="l1431">Forment à mes despens de folles jalousies.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V06-15" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1432" xml:id="l1432">Belle que j’ay tousjours fidèlement servy,</l>
             <l n="1433" xml:id="l1433">Pardonnez mon offense ou bien m’ostez la vie.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="V06-16" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1434" xml:id="l1434">Si j’ay jamais rien fait qui vous puisse offencer,</l>
             <l n="1435" xml:id="l1435">Madame asseurez-moy de jamais n’y penser.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V06-17" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1436" xml:id="l1436">Je pardonne à tous deux, à la charge pourtant,</l>
             <l n="1437" xml:id="l1437">De ne penser jamais à m’en refaire autant.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="V06-18" who="cerinte">
             <speaker>CERINTE. <hi rend="i">parlant à Florice</hi></speaker>
             <l n="1438" xml:id="l1438">Belle dois je tousjours vivre sans espérance,</l>
             <l n="1439" xml:id="l1439">Et n’aurez vous pour moy que de l’indifférence ?</l>
             <l n="1440" xml:id="l1440">Ce vieillard qui n’a plus que la peau sur les os,</l>
             <l n="1441" xml:id="l1441">Est-il assez puissant pour troubler mon repos ?</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V06-19" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1442" xml:id="l1442">Le voicy qui s’en vient tout prest à vous respondre.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V07">
           <head>SCENE  VI</head>
           <stage>ARIMANT,  SILEINE,  PALINICE</stage>
           <stage>FLORICE,  CIRCEINE,  ALCANDRE</stage>
           <stage>CERINTE,  CLORIAN.</stage>
-          <sp who="arimant">
+          <sp xml:id="V07-1" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1443" xml:id="l1443">Voicy, voicy le bras qui te pourra confondre,<pb n="99"/></l>
             <l n="1444" xml:id="l1444">Alcandre et Clorian n’ont rien fait qu’à demy,</l>
@@ -3214,30 +3214,30 @@
             <l n="1446" xml:id="l1446">Tu ne peux t’en dédire*, il faut que par les armes</l>
             <l n="1447" xml:id="l1447">Nous voyons qui de nous doit pretendre à ses charmes.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="V07-2" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="1448" xml:id="l1448">Mon oncle quel démon ennemy de vos jours</l>
             <l n="1449" xml:id="l1449">Vous a mis dans l’esprit de si folles amours ?</l>
             <l n="1450" xml:id="l1450">Remettez vostre espée, et vous monstrez plus sage,</l>
             <l n="1451" xml:id="l1451">L’amour est <ref target="#importun">importun*</ref> aux hommes de vostre âge.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="V07-3" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1452" xml:id="l1452">Ces jeunes estourdis me voudroient reformer,</l>
             <l n="1453" xml:id="l1453">Et me persuader qu’ils doivent seuls aymer.<pb n="100"/></l>
             <l n="1454" xml:id="l1454">Non non, il faut mourir ou posséder Florice,</l>
             <l n="1455" xml:id="l1455" part="I">L’espée au poing Cerinte.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V07-4" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l part="F">O le plaisant caprice !</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V07-5" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1456" xml:id="l1456">Je ne puis plus souffrir cette importunité,</l>
             <l n="1457" xml:id="l1457">C’est trop nous faire voir vostre témérité.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V07-6" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="1458" xml:id="l1458">Voyant les <ref target="#accident">accidens*</ref> que vostre amour apporte,</l>
             <l n="1459" xml:id="l1459">Trouvons quelque moyen de vivre d’autre sorte.    </l>
@@ -3245,7 +3245,7 @@
             <l n="1461" xml:id="l1461">Les uns seront aimez, les autres rejettez,</l>
             <l n="1462" xml:id="l1462">Souffrez donc que leur chois librement en dispose.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="V07-7" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1463" xml:id="l1463">J’accepte de bon cœur ce que ma sœur propose,</l>
             <l n="1464" xml:id="l1464">A la charge pourtant que les deux malheureux</l>
@@ -3253,51 +3253,51 @@
             <l n="1466" xml:id="l1466">Et se retireront n’ayant plus d’espérance,</l>
             <l n="1467" xml:id="l1467">Ou verront ces beautez avec indifference.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V07-8" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1468" xml:id="l1468" part="I">Je n’y contredis point.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="V07-9" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l part="F">J’en suis fort satisfaict.<pb n="101"/></l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V07-10" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1469" xml:id="l1469" part="I">Et vous qu’en dites vous ?</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="V07-11" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l part="F">Que le moyen m’en plait.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V07-12" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1470" xml:id="l1470">Il dépend donc de vous de nous tirer de peine.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V07-13" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="1471" xml:id="l1471">Florice, c’est à vous, et de suite à Circeine.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V07-14" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1472" xml:id="l1472">Je feray quant à moy tout ce que l’on voudra.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V07-15" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1473" xml:id="l1473">Et moy j’approuveray ce que l’on resoudra.</l>
             <l n="1474" xml:id="l1474">Je voudrois bien pourtant ne nous voir pas forcées,</l>
             <l n="1475" xml:id="l1475">De dire là-dessus clairement nos pensées.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="V07-16" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1476" xml:id="l1476" part="I">Il vous y faut resoudre</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V07-17" who="florice">
             <speaker>FLORICE.</speaker>
             <l part="F">Il est vray, mais jurez</l>
             <l n="1477" xml:id="l1477">Qu’à ce que nous dirons vous vous conformerez,</l>
             <l n="1478" xml:id="l1478">Et que vous garderez nos volontez dernières.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="V07-18" who="sileine">
             <speaker>SILEINE.</speaker>
             <pb n="102"/>
             <stage>Parlant à Palinice</stage>
@@ -3305,24 +3305,24 @@
             <l n="1480" xml:id="l1480">Considerez en fin que depuis si long temps</l>
             <l n="1481" xml:id="l1481">Malgré tous vos mespris mes feux sont si <ref target="#constant">constans*</ref>.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V07-19" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="1482" xml:id="l1482">Donnez vous patience, escoutons ces deux dames,</l>
             <l n="1483" xml:id="l1483">Apres nous parlerons de soulager vos flames.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="V07-20" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="1484" xml:id="l1484">Puis que vous le voulez, je le veux bien aussi.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V07-21" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1485" xml:id="l1485" part="I">Nous le promettez-vous ?</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="V07-22" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l part="F">Nous le jurons ainsi.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V07-23" who="florice">
             <speaker>FLORICE.</speaker>
             <stage>Parlant à Arimant et à Cerinte</stage>
             <l n="1486" xml:id="l1486">Vous qui sçavez pourquoy mon ame est agitée,</l>
@@ -3340,11 +3340,11 @@
             <l n="1498" xml:id="l1498">Son feu devant le vostre est de ma cognoissance</l>
             <l n="1499" xml:id="l1499">Le sien est desja vieux le vostre en sa naissance.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="V07-24" who="arimant">
             <speaker>ARIMANT.    <hi rend="i">tout bas</hi></speaker>
             <l n="1500" xml:id="l1500">Courage à mon parti l’amour la va ranger.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="V07-25" who="cerinte">
             <speaker>CERINTE.    <hi rend="i">tout bas</hi></speaker>
             <l n="1501" xml:id="l1501">Je voy bien que mon sort ne se peut pas changer,</l>
             <l n="1502" xml:id="l1502">Cette vielle<note n="105" place="bottom"> A cette époque, « vieille » s’orthographiait aussi « vielle » sans dictinction de sens, Richelet.</note> amitié prévaudra sur la mienne</l>
@@ -3352,14 +3352,14 @@
             <l n="1504" xml:id="l1504">L’amour de ce vieux tronc pour quelque peu de bien</l>
             <l n="1505" xml:id="l1505">Sans aucune raison prevaudra sur le mien.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V07-26" who="florice">
             <speaker>FLORICE. <hi rend="i">Continuant</hi></speaker>
             <l n="1506" xml:id="l1506">Pardonnés Arimant à mon humeur cruelle</l>
             <l n="1507" xml:id="l1507">Si j’ay faict peu d’estat de vostre amour fidelle.</l>
             <l n="1508" xml:id="l1508">Puisque pour des raisons que je ne diray pas,</l>
             <l n="1509" xml:id="l1509">Cerinte aura seul part en ce que j’ay d’apas.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="V07-27" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1510" xml:id="l1510">Le Ciel a-t-il fait naistre une chose si rare,<pb n="104"/></l>
             <l n="1511" xml:id="l1511">Pour luy donner apres une ame si barbare ?</l>
@@ -3369,31 +3369,31 @@
             <l n="1515" xml:id="l1515">Lors que nous desirons d’estre en sa compagnie,</l>
             <l n="1516" xml:id="l1516">Et bien vivez heureux Cerinte à mes despens.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="V07-28" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1517" xml:id="l1517">Que vous m’avez tenu longuement en suspens.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V07-29" who="florice">
             <speaker>FLORICE.</speaker>
             <l n="1518" xml:id="l1518">Circeine c’est à vous de conclure l’affaire.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="V07-30" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1519" xml:id="l1519">Souvenez-vous du tort que l’on vient de me faire.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V07-31" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1520" xml:id="l1520">Les interests icy ne sont point recognus.</l>
             <l n="1521" xml:id="l1521">Nous devons faire voir nos sentimens tous nus.</l>
             <l n="1522" xml:id="l1522">Ma compagne desja m’en a donné l’exemple.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V07-32" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1523" xml:id="l1523">Amour dont ces beaux yeux sont l’autel et le temple,</l>
             <l n="1524" xml:id="l1524">Et mon cœur la victime oblige un pauvre <ref target="#amant">amant*</ref>,</l>
             <l n="1525" xml:id="l1525">Et donne en ma faveur ce dernier jugement.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V07-33" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1526" xml:id="l1526">J’eusse bien désiré de n’estre pas contrainte<pb n="O, 105"/></l>
             <l n="1527" xml:id="l1527">De vous donner jamais aucun subject de plainte :</l>
@@ -3408,23 +3408,23 @@
             <l n="1536" xml:id="l1536">Qu’il a pris mille soins pour m’obliger à luy,</l>
             <l n="1537" xml:id="l1537">Que j’ay participé dans son cruel ennuy.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V07-34" who="alcandre">
             <speaker>ALCANDRE. <hi rend="i">tout bas</hi></speaker>
             <l n="1538" xml:id="l1538">Veux-je plus clairement entendre ma ruine,</l>
             <l n="1539" xml:id="l1539">Et l’arrest de ma mort par sa bouche divine ?</l>
             <l n="1540" xml:id="l1540">Non non, rompons icy les respects amoureux,</l>
             <l n="1541" xml:id="l1541">Et faisons l’action d’un homme généreux.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V07-35" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1542" xml:id="l1542" part="I">Mais,</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V07-36" who="alcandre">
             <speaker>ALCANDRE. <hi rend="i">tout bas</hi></speaker>
             <l part="F">Ah ! ce mais ! remet toute mon espérance,</l>
             <l n="1543" xml:id="l1543">Et donne à mon esprit quelque peu d’asseurance.<pb n="106"/></l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V07-37" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1544" xml:id="l1544">Alcandre d’autre part m’a fait voir mille fois</l>
             <l n="1545" xml:id="l1545">Qu’un amour violent l’arrestoit sous mes loix,</l>
@@ -3432,71 +3432,71 @@
             <l n="1547" xml:id="l1547">De m’en ressouvenir qu’il ne me soit sensible,</l>
             <l n="1548" xml:id="l1548" part="I">Et pour luy monstrer</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="V07-38" who="clorian">
             <speaker>CLORIAN. <hi rend="i">tout bas</hi></speaker>
             <l part="F">O Dieux, quel changement !</l>
             <l n="1549" xml:id="l1549">Elle estime ma flame, et prend un autre <ref target="#amant">amant*</ref>.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V07-39" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1550" xml:id="l1550">S’il est vray qu’il luy reste encore dedans l’ame</l>
             <l n="1551" xml:id="l1551">Apres mon jugement quelque reste de flame,</l>
             <l n="1552" xml:id="l1552">Et qu’il ait le dessein de tousjours m’obliger,</l>
             <l n="1553" xml:id="l1553" part="I">Qu’il aime Clorian.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="V07-40" who="clorian">
             <speaker>CLORIAN. <hi rend="i">tout bas</hi></speaker>
             <l part="F">Mon soupçon est léger,</l>
             <l n="1554" xml:id="l1554">Elle va prononcer à son désadvantage.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V07-41" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1555" xml:id="l1555">On m’a fait voir le port où je feray naufrage.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V07-42" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1556" xml:id="l1556">Et moy je veux aymer le reste de mes jours</l>
             <l n="1557" xml:id="l1557">Alcandre de qui seul j’approuve les amours.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="V07-43" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1558" xml:id="l1558">Le pilote qui voit fondre dessus sa teste<pb n="107"/></l>
             <l n="1559" xml:id="l1559">Durant un temps serain une horrible tempeste,</l>
             <l n="1560" xml:id="l1560">Qui voit rompre ses mats, voit briser son vaisseau,</l>
             <l n="1561" xml:id="l1561">Est moins surpris que moy par un coup si nouveau.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V07-44" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1562" xml:id="l1562">Emporté de trop d’aise, et presque hors de moy mesme,</l>
             <l n="1563" xml:id="l1563">Je me trouve interdit dans le bon heur extrême,</l>
             <l n="1564" xml:id="l1564">Je crains que quelque songe en son illusion</l>
             <l n="1565" xml:id="l1565">Me vienne icy flater dans mon affection.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="V07-45" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1566" xml:id="l1566" part="I">Ingrate</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="V07-46" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l part="F">Clorian laissons ces plaintes vaines,</l>
             <l n="1567" xml:id="l1567">Allons loin de ces lieux mettre fin à nos peines.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="V07-47" who="clorian">
             <speaker>CLORIAN.</speaker>
             <l n="1568" xml:id="l1568">Pour moy je veux chercher mon vray repos ailleurs,</l>
             <l n="1569" xml:id="l1569">Et prendre désormais des mouvements meilleurs.</l>
           </sp>
-          <sp who="arimant">
+          <sp xml:id="V07-48" who="arimant">
             <speaker>ARIMANT.</speaker>
             <l n="1570" xml:id="l1570">Et moy me retirant dans une solitude,<pb n="108"/></l>
             <l n="1571" xml:id="l1571">Je veux rire à loisir de son ingratitude.</l>
           </sp>
-          <sp who="clorian">
+          <sp xml:id="V07-49" who="clorian">
             <speaker>CLORIAN. <hi rend="i">s’en allant</hi></speaker>
             <l n="1572" xml:id="l1572">Pour oublier du tout ces esprits inconstans,</l>
             <l n="1573" xml:id="l1573">Prenons pour médecins le dépit et le temps.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="V07-50" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="1574" xml:id="l1574">Me laisserés-vous seul aimable Palinice,</l>
             <l n="1575" xml:id="l1575">Et n’obtiendray-je rien pour un si long service ?</l>
@@ -3504,69 +3504,69 @@
             <l n="1577" xml:id="l1577">Nous verrions qui des deux seroit le plus heureux,</l>
             <l n="1578" xml:id="l1578" part="I">Nommez le moy.</l>
           </sp>
-          <sp who="florice">
+          <sp xml:id="V07-51" who="florice">
             <speaker>FLORICE.</speaker>
             <l part="F">Sçachant sa longue servitude</l>
             <l n="1579" xml:id="l1579">Vous le devez tirer de son inquietude,</l>
             <l n="1580" xml:id="l1580">Vous devez comme nous dire vos sentiments,</l>
             <l n="1581" xml:id="l1581">Et perdre son espoir ou finir ses tourments.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V07-52" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="1582" xml:id="l1582">Vous parlez sans sçavoir s’il s’y voudroit résoudre.</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="V07-53" who="sileine">
             <speaker>SILEINE.</speaker>
             <l n="1583" xml:id="l1583">Que la foudre à vos yeux me vienne mettre en poudre :</l>
             <l n="1584" xml:id="l1584">Si je n’obeys pas à vostre volonté.</l>
           </sp>
-          <sp who="circeine">
+          <sp xml:id="V07-54" who="circeine">
             <speaker>CIRCEINE.</speaker>
             <l n="1585" xml:id="l1585">Palinice montrez icy vostre bonté,<pb n="109"/></l>
             <l n="1586" xml:id="l1586">Dites luy franchement quelle est vostre pensée.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V07-55" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1587" xml:id="l1587"><ref target="#obliger">Obligez*</ref> cet <ref target="#amant">amant*</ref>, vous en estes pressée.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="V07-56" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1588" xml:id="l1588">Ma sœur  ne rompez point vostre vieille amitié,</l>
             <l n="1589" xml:id="l1589">Ses peines vous devroient esmouvoir à pitié.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V07-57" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="1590" xml:id="l1590">Puis qu’il faut s’expliquer, Sileine je vous aime,</l>
             <l n="1591" xml:id="l1591">Et vous n’eustes jamais de rival que vous mesme.</l>
             <l n="1592" xml:id="l1592" part="I">Que voulez-vous de plus ?</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="V07-58" who="sileine">
             <speaker>SILEINE.</speaker>
             <l part="F">Rien qu’un point seulement</l>
             <l n="1593" xml:id="l1593">Pour couronner ma flame et mon contentement.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V07-59" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="1594" xml:id="l1594" part="I">Que demandez-vous donc ?</l>
           </sp>
-          <sp who="sileine">
+          <sp xml:id="V07-60" who="sileine">
             <speaker>SILEINE.</speaker>
             <l part="F">Qu’un hymen nous assemble</l>
             <l n="1595" xml:id="l1595">Pour vivre desormais heureusement ensemble.</l>
           </sp>
-          <sp who="alcandre">
+          <sp xml:id="V07-61" who="alcandre">
             <speaker>ALCANDRE.</speaker>
             <l n="1596" xml:id="l1596">Je croy que vos desseins se conforment icy,</l>
             <l n="1597" xml:id="l1597">Si vous le désirez nous le voulons aussi.</l>
           </sp>
-          <sp who="palinice">
+          <sp xml:id="V07-62" who="palinice">
             <speaker>PALINICE.</speaker>
             <l n="1598" xml:id="l1598">Il s’y faudra résoudre, et passer une vie<pb n="110"/></l>
             <l n="1599" xml:id="l1599">Qui nous mette à couvert des efforts de l’envie.</l>
             <l n="1600" xml:id="l1600">Mes compaignes et moy chérissons vos plaisirs,</l>
             <l n="1601" xml:id="l1601">Et nous accordons tout à vos chastes désirs.</l>
           </sp>
-          <sp who="cerinte">
+          <sp xml:id="V07-63" who="cerinte">
             <speaker>CERINTE.</speaker>
             <l n="1602" xml:id="l1602">Que nous sommes heureux après tant de <ref target="#traverser">traverses*</ref></l>
             <l n="1603" xml:id="l1603">De voir un tel succez à nos peines diverses.</l>

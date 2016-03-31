@@ -1509,12 +1509,12 @@
           </castItem>
         </castList>
       </div>
-      <div type="act" xml:id="acte1">
+      <div xml:id="acte1" type="act">
         <head>CORIOLAN. <lb/> TRAGEDIE.</head>
         <head>ACTE PREMIER.</head>
-        <div type="scene">
+        <div type="scene" xml:id="acte101">
           <head>SCENE PREMIERE.</head>
-          <sp who="senateur">
+          <sp xml:id="acte101-1" who="senateur">
             <speaker>UN SENATEUR.</speaker>
             <l n="1" xml:id="l1">Nous nous sommes punis en le voulant punir,</l>
             <l n="2" xml:id="l2">Nous fismes nostre perte en le pensant bannir<note n="137" place="bottom"> Le Sénateur évoque, dès les premiers vers de la pièce, les événements précédents de l’histoire de Coriolan : le général romain a déjà été « banni », condamnation précise évoquée par Plutarque (<hi rend="i">Vie de Coriolan</hi>, 20 : « la peine prononcée fut le bannissement perpétuel » ), alors que Tite-Live indique que son exil fut volontaire, puisqu’il n’était pas présent lors de son procès (II, XXXV : « <hi rend="i">Ipse cum die dicta non adesset</hi> » ). Par cette simple mention, Chevreau précise qu’il suit de plus près la source grecque que la source latine.</note> ;</l>
@@ -1543,7 +1543,7 @@
             <l n="25" xml:id="l25">Et je treuve qu’en fin vous l’avez <ref target="#obliger2">obligé*</ref>    </l>
             <l n="26" xml:id="l26">De<note n="146" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, les deux constructions de l’infinitif complément indirect <hi rend="i">à + Inf / de + Inf</hi> coexistent sans que l’une ou l’autre ne prenne le pas sur sa concurrente, voir aussi au vers 689.</note> vanger un affront qu’il n’avoit pas vangé<note n="147" place="bottom">Le sénateur fait ici une référence à la fronde du peuple menée par les tribuns qui empêcha la candidature de Coriolan au consulat. Plutarque note que « cet échec affecta péniblement le sénat, qui le regarda comme un affront fait à lui-même plutôt qu’à Marcius » (15, 4)</note>.</l>
           </sp>
-          <sp who="senateur">
+          <sp xml:id="acte101-2" who="senateur">
             <speaker>UN AUTRE SENATEUR.</speaker>
             <l n="27" xml:id="l27">Tout nous presse pourtant dans cét estat <ref target="#funeste1">funeste*</ref>,</l>
             <l n="28" xml:id="l28">Nous sommes combatus de famine &amp; de peste<note n="148" place="bottom">Etonnante confusion ici : la famine est bien signalée à Rome par Plutarque et Tite-Live, mais cela avant la campagne vengeresse de Coriolan ; c’est même à propos du prix du blé, dont les importations ont repris, que le patricien entra en conflit ouvert avec le peuple, qui voulait en abaisser le prix : « Marcius s’étant levé attaqua violemment ceux qui voulaient complaire à la multitude, les traitant de démagogues et de traîtres à la noblesse. » (Plutarque, 16, 4). Quant à la peste, la seule mention de la maladie chez les auteurs antiques concerne en fait les Volsques (ex : Tite-Live, II, XXXIV, 5), touchés par la peste lors de l’attaque romaine menée par Marcius, soit bien avant le début de l’action dans la pièce de Chevreau. Celui-ci regroupe sans doute les deux éléments pour accentuer la dimension pathétique de la supplique.</note> :</l>
@@ -1574,8 +1574,9 @@
             <l n="53" xml:id="l53">Bref, sans vous retenir, qu’il y doit commander</l>
             <l n="54" xml:id="l54">C’est tout ce qu’à plus prés<note n="153" place="bottom"><hi rend="i">A plus près</hi> est mis pour <hi rend="i">à peu près</hi> (Boissière, p. 433). Voir aussi aux vers 483 et 1150.</note> on luy peut demander.</l>
           </sp>
-          <sp who="sicinie">
-            <speaker>SICINIE.</speaker><pb n="4"/>
+          <sp xml:id="acte101-3" who="sicinie">
+            <speaker>SICINIE.</speaker>
+            <pb n="4"/>
             <l n="55" xml:id="l55">Dans ma commission<note n="154" place="bottom"> La diérèse finale sur le groupe « -<hi rend="i">ion</hi> » est très fréquente. Voir par ailleurs au vers 278, et de même : « occasion » (v.263, 575) ; « Religions » (v.271) ; « accusation » (v.329) ; « passion » (v.277) ; « confusion » (v.588) ; « action » (v. 353, 988, 1147) ; « punition » (v.354), « condition » (v.777) ; « inclinations » (778)</note> je feray mon possible</l>
             <l n="56" xml:id="l56">Pour le rendre bien tost<note n="155" place="bottom">« Dans peu de temps » (Académie Française). Voir aussi aux vers 104, 303, 336, 390, 771, 1122, 1229, 1264.</note> plus doux &amp; plus <ref target="#sensible1">sensible*</ref> ;</l>
             <l n="57" xml:id="l57">Je n’épargneray rien qui puisse l’émouvoir :</l>
@@ -1595,9 +1596,10 @@
             <l n="70" xml:id="l70">Je ne puis en tout cas endurer qu’une mort.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE DEUXIESME.</head><pb n="5"/>
-          <sp who="coriolan">
+        <div type="scene" xml:id="acte102">
+          <head>SCENE DEUXIESME.</head>
+          <pb n="5"/>
+          <sp xml:id="acte102-1" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="71" xml:id="l71">Vous voyez aujourd’huy que son inquietude<note n="156" place="bottom"> Le terme « inquietude » porte une diérèse sur -<hi rend="i">ie</hi>-, de même que « patience » (v.135), « audience » (v.136), « seditieux » (v.149), « glorieux » (v.265, 548, 923), « factieux » (v.399), « ancienne » (v.331), « impietez » (v.510), « furieux » (v.650, 715, 1228), « nier » (v.729), « injurieux » (v.1227), « odieux » (v.402, 1452).</note></l>
             <l n="72" xml:id="l72">Est un tragique effect de son ingratitude :</l>
@@ -1638,8 +1640,9 @@
             <l n="107" xml:id="l107">Et faire en fin que l’air devienne si <ref target="#funeste1">funeste*</ref></l>
             <l n="108" xml:id="l108">Que mesme les corbeaux y meurent de la peste.</l>
           </sp>
-          <sp who="sancine">
-            <speaker>SANCINE.</speaker><pb n="7"/>
+          <sp xml:id="acte102-2" who="sancine">
+            <speaker>SANCINE.</speaker>
+            <pb n="7"/>
             <l n="109" xml:id="l109">Vous n’estes pas l’autheur de tout ce qui leur nuit,</l>
             <l n="110" xml:id="l110">Eux mesmes ont causé le mal-heur qui les suit ;</l>
             <l n="111" xml:id="l111">Vostre vangeance est juste, &amp; leur mal legitime,</l>
@@ -1657,7 +1660,7 @@
             <l n="123" xml:id="l123">Mais la vangeance encor n’en peut estre assouvie,</l>
             <l n="124" xml:id="l124">C’est aujourd’huy trop peu que la fin de leur vie.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte102-3" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="125" xml:id="l125">Laissons-en pour monstrer qu’on les<note n="166" place="bottom"> En français classique, et jusqu’à la fin du XVIII<hi rend="sup">e</hi> siècle, la « montée du clitique » (N. Fournier), qui était la forme normale pendant la période de l’ancien français, est encore la plus usitée, mais coexiste avec la construction qui sera gardée en français moderne (« on a su les punir » ). Voir aussi aux vers 138, et 569.</note> a sçeu<note n="167" place="bottom"> Orthographe habituelle du verbe <hi rend="i">savoir</hi> depuis le XVI<hi rend="sup">e</hi> siècle, faisant référence à une fausse étymologie latine. Les copistes de la Renaissance ont cru voir, à tort, l’étymologie du mot dans le verbe <hi rend="i">scire</hi>, alors que la véritable origine est <hi rend="i">sapere</hi>. Le « ç » fait donc office de fausse graphie historique. L’usage s’est maintenu pendant le XVIIème siècle. Voir aussi aux vers : 150, 414, 570, 625, 672, 722, 725, 737, 754, 758, 770, 782, 807, 916, 921, 974, 981, 1139, 1182, 1243, 1284, 1285, 1297, 1303, 1321, 1357, 1468, 1480, 1487.</note> punir,</l>
             <l n="126" xml:id="l126">Une <ref target="#fidelle2">fidelle*</ref> marque aux siecles à venir :</l>
@@ -1671,25 +1674,25 @@
             <l n="134" xml:id="l134">Et que Rome a passé comme passe son eau.</l>
             <l n="135" xml:id="l135">Mais un Romain s’approche ; <ref target="#estrange">estrange*</ref> patience<note n="171" place="bottom">« Vertu, fermeté, constance qui fait souffrir la douleur, l’adversité sans se plaindre, sans murmurer. » (Furetière).</note> !</l>
           </sp>
-          <sp who="sancine">
+          <sp xml:id="acte102-4" who="sancine">
             <speaker>SANCINE.</speaker>
             <l n="136" xml:id="l136">Vous pouvez librement luy donner audience.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte102-5" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="137" xml:id="l137">Il ne trouvera pas dequoy se consoler ;</l>
             <l n="138" xml:id="l138">Voyons-le toute-fois, &amp; l’entendons parler.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte103">
           <head>SCENE TROISIESME.</head>
           <pb n="B, 9"/>
-          <sp who="sicinie">
+          <sp xml:id="acte103-1" who="sicinie">
             <speaker>SICINIE.</speaker>
             <l n="139" xml:id="l139">Dans les <ref target="#ressentiment1">ressentimens*</ref> d’une peine infinie,</l>
             <l n="140" xml:id="l140" part="I">Et parmy les remords…    </l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte103-2" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l part="F">C’est donc toy, Sicinie ?</l>
             <l n="141" xml:id="l141">Dans mes premiers regrets tu m’as abandonné,</l>
@@ -1711,7 +1714,7 @@
             <l n="157" xml:id="l157">Parle, que je t’entende, &amp; que sur tes propos</l>
             <l n="158" xml:id="l158">Je vous fasse esperer la mort, ou le repos.</l>
           </sp>
-          <sp who="sicinie">
+          <sp xml:id="acte103-3" who="sicinie">
             <speaker>SICINIE.</speaker>
             <l n="159" xml:id="l159">Helas ! nous confessons quand nous formons nos plaintes,</l>
             <l n="160" xml:id="l160">Que nos maux sont legers au respect de<note n="174" place="bottom">A proportion, à l’égarde de (Furetière).</note> nos craintes ;</l>
@@ -1736,7 +1739,7 @@
             <l n="179" xml:id="l179">Mais rentrez dedans Rome, &amp; pour vostre salaire,</l>
             <l n="180" xml:id="l180">Regnez-y, grand Guerrier, comme un Dieu tutelaire.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte103-4" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="181" xml:id="l181">Traistres, dissimulez, pour fléchir mon courrous</l>
             <l n="182" xml:id="l182">Vous me venez offrir ce qui n’est plus à vous.</l>
@@ -1777,12 +1780,13 @@
             <l n="217" xml:id="l217">En fin j’ateins mes gens : car dans cét Element</l>
             <l n="218" xml:id="l218">Nous vismes tous perir mon vaisseau seulement.</l>
           </sp>
-          <sp who="sicinie">
-            <speaker>SICINIE.</speaker><pb n="13"/>
+          <sp xml:id="acte103-5" who="sicinie">
+            <speaker>SICINIE.</speaker>
+            <pb n="13"/>
             <l n="219" xml:id="l219">Seigneur, je suis témoin de vostre grand courage,</l>
             <l n="220" xml:id="l220">Je vis vostre conduitte aussi bien que l’orage.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte103-6" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="221" xml:id="l221">Nous vinsmes tout d’un coup par un subit éfort</l>
             <l n="222" xml:id="l222">Des approches aux mains, &amp; des mains à la mort :</l>
@@ -1809,25 +1813,26 @@
             <l n="243" xml:id="l243">Que je boiray leur sang ; que j’auray l’esprit libre</l>
             <l n="244" xml:id="l244">Si j’en puis voir un fleuve aussi grand que le Tybre.</l>
           </sp>
-          <sp who="sicinie">
+          <sp xml:id="acte103-7" who="sicinie">
             <speaker>SICINIE</speaker>
             <stage>bas.</stage>
             <l n="245" xml:id="l245">Ruiner son païs, &amp; tuer<note n="190" place="bottom"> « Tuer » porte une diérèse sur -<hi rend="i">ue</hi>-, de même que « louër » (vers 695) et « muet » (vers 1220).</note> ses <ref target="#parens">parens*</ref>,</l>
             <l n="246" xml:id="l246">N’a rien de <ref target="#genereux1">genereux*</ref> ; c’est le fait des Tyrans.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE QUATRIESME</head><pb n="15"/>
-          <sp who="aufidie">
+        <div type="scene" xml:id="acte104">
+          <head>SCENE QUATRIESME</head>
+          <pb n="15"/>
+          <sp xml:id="acte104-1" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="247" xml:id="l247" part="I">Que vouloit ce Romain ?</l>
           </sp>
-          <sp who="sicinie">
+          <sp xml:id="acte104-2" who="sicinie">
             <speaker>SICINIE.</speaker>
             <l part="F">Qu’au fort<note n="191" place="bottom">Comprendre « au plus fort de nos tempêtes ».</note> de nos tempestes</l>
             <l n="248" xml:id="l248">Il vous plût d’écouter nos tres-humbles requestes.</l>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte104-3" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="249" xml:id="l249">Vous estes des aigneaux : mais dans vostre courrous</l>
             <l n="250" xml:id="l250">Vous avez la coustume<note n="192" place="bottom">« Habitude contractée. Se dit aussi de ce qui se pratique ordinairement en de certains pays » (Académie française).</note> &amp; la rage des loups.</l>
@@ -1857,7 +1862,7 @@
             <l n="274" xml:id="l274">Et que vous reverez ceux qui vous font du <ref target="#bien2">bien*</ref>.</l>
             <l n="275" xml:id="l275">Qu’a dit Coriolan ? vous aime-t’il encore ?</l>
           </sp>
-          <sp who="sicinie">
+          <sp xml:id="acte104-4" who="sicinie">
             <speaker>SICINIE.</speaker>
             <l n="276" xml:id="l276">Nous le supplions tous, &amp; tous il nous abhorre,</l>
             <l n="277" xml:id="l277">Il parle contre nous avecque passion,</l>
@@ -1867,7 +1872,7 @@
             <l n="281" xml:id="l281">Je suis bien asseuré que j’en viendrois à bout,</l>
             <l n="282" xml:id="l282">Je me ferois ouvrir pour le répandre tout<note n="196" place="bottom"> Dans un sens adverbial, <hi rend="i">tout</hi> signifie : « Entierement. Tout à fait. » (Richelet). Voir également aux vers 306, 966. Comprendre « Je me ferais ouvrir pour pouvoir répandre mon sang entièrement ».</note>.</l>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte104-5" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="283" xml:id="l283">J’estime vos <ref target="#bontez">bontez*</ref> ; vous estes charitable,</l>
             <l n="284" xml:id="l284">Mais vous courez danger de mourir <ref target="#miserable">miserable*</ref>.</l>
@@ -1880,19 +1885,19 @@
             <l n="291" xml:id="l291">Il faut que vous mouriez ; que Rome toute entiere,</l>
             <l n="292" xml:id="l292">Et pour elle &amp; pour vous serve de cimetiere.</l>
           </sp>
-          <sp who="sicinie">
+          <sp xml:id="acte104-6" who="sicinie">
             <speaker>SICINIE.</speaker>
             <l n="293" xml:id="l293">Dieux nous sommes perdus ! n’esperons plus de bien*,</l>
             <l n="294" xml:id="l294">Nostre meilleure attente est de n’attendre rien<note n="197" place="bottom"> Un vers antithétique qui rappelle Corneille : « Ma plus douce espérance est de perdre l’espoir » (<hi rend="i">Le Cid</hi>, v. 129).</note>.</l>
           </sp>
         </div>
       </div>
-      <div type="act" xml:id="acte2">
+      <div xml:id="acte2" type="act">
         <pb n="18"/>
         <head>ACTE II.</head>
-        <div type="scene">
+        <div type="scene" xml:id="acte201">
           <head>SCENE PREMIERE.</head>
-          <sp who="senateur">
+          <sp xml:id="acte201-1" who="senateur">
             <speaker>UN SENATEUR.</speaker>
             <l n="295" xml:id="l295">Sicinie est-il vray ? seroit-il bien croyable</l>
             <l n="296" xml:id="l296">Que l’ingrat à nos maux parust <ref target="#impitoyable">impitoyable*</ref> ?</l>
@@ -1907,12 +1912,12 @@
             <l n="305" xml:id="l305">Destruire son païs de l’un à l’autre bout,<pb n="19"/></l>
             <l n="306" xml:id="l306">En allumant un feu qui le <ref target="#consommer">consomme*</ref> tout.</l>
           </sp>
-          <sp who="sicinie">
+          <sp xml:id="acte201-2" who="sicinie">
             <speaker>SICINIE.</speaker>
             <l n="307" xml:id="l307">N’atendons jamais rien du secours de nos larmes,</l>
             <l n="308" xml:id="l308">Esperons tout du Ciel, &amp; du succez des armes.</l>
           </sp>
-          <sp who="senateur">
+          <sp xml:id="acte201-3" who="senateur">
             <speaker>UN SECOND SENATEUR.</speaker>
             <l n="309" xml:id="l309">Nos Sacrificateurs ont senty son courous,</l>
             <l n="310" xml:id="l310">Et ne l’ont pas treuvé plus <ref target="#sensible1">sensible*</ref> que vous.</l>
@@ -1958,8 +1963,9 @@
             <l n="349" xml:id="l349">Et de quelle façon vous nous avez traittez</l>
             <l n="350" xml:id="l350">Par vostre jalousie, &amp; par vos laschetez.</l>
           </sp>
-          <sp who="sicinie">
-            <speaker>SICINIE.</speaker><pb n="21"/>
+          <sp xml:id="acte201-4" who="sicinie">
+            <speaker>SICINIE.</speaker>
+            <pb n="21"/>
             <l n="351" xml:id="l351">Je ne m’excuse point : je n’en suis pas capable</l>
             <l n="352" xml:id="l352">Je ne suis toute-fois innocent ny coupable ;</l>
             <l n="353" xml:id="l353">Ou si l’on me punit d’une telle action</l>
@@ -1983,8 +1989,9 @@
             <l n="371" xml:id="l371">On me loüa tout haut d’une telle <ref target="#entreprise">entreprise*</ref>,</l>
             <l n="372" xml:id="l372">Où je n’eus d’<ref target="#interest1">interest*</ref> que pour nostre <ref target="#franc">franchise*</ref><note n="217" place="bottom"> Comprendre ici : <hi rend="i">« dans laquelle je n’ai cherché qu’à sauver notre liberté ».</hi></note>.</l>
           </sp>
-          <sp who="senateur">
-            <speaker>UN AUTRE SENATEUR.</speaker><pb n="22"/>
+          <sp xml:id="acte201-5" who="senateur">
+            <speaker>UN AUTRE SENATEUR.</speaker>
+            <pb n="22"/>
             <l n="373" xml:id="l373">Mais lors qu’on veut punir un puissant ennemy,</l>
             <l n="374" xml:id="l374">On ne le doit choquer ny punir à demy.</l>
             <l n="375" xml:id="l375">On doit chercher sa mort alors qu’il la mérite,</l>
@@ -1996,7 +2003,7 @@
             <l n="381" xml:id="l381">Outre que le Senat n’apreuva nullement</l>
             <l n="382" xml:id="l382">Ny vostre procedé, ny son banissement.</l>
           </sp>
-          <sp who="sicinie">
+          <sp xml:id="acte201-6" who="sicinie">
             <speaker>SICINIE.</speaker>
             <l n="383" xml:id="l383">Il falloit recourir à cette medecine,</l>
             <l n="384" xml:id="l384">Puis qu’on devoit couper le mal dans sa racine.</l>
@@ -2027,7 +2034,7 @@
             <l n="409" xml:id="l409">Et contre un qui vouloit la qualité de Roy<note n="223" place="bottom">Dans cette Rome républicaine, qui abhorre le souvenir de la royauté tyrannique dont les événements sanglants sont tous rappelés par Sicinie, cette accusation est une des pires imaginables, et l’occasion de se placer dans la lignée légendaire de Brutus.</note></l>
             <l n="410" xml:id="l410">J’ay tenté ce que Brute a tenté devant moy.</l>
           </sp>
-          <sp who="senateur">
+          <sp xml:id="acte201-7" who="senateur">
             <speaker>UN SENATEUR.</speaker>
             <l n="411" xml:id="l411">Lors qu’ils furent chassez tout estoit legitime,</l>
             <l n="412" xml:id="l412">Tarquin nous haïssoit, le fils commit un crime<note n="224" place="bottom">Le viol de Lucrèce.</note>,</l>
@@ -2044,10 +2051,10 @@
             <l n="422" xml:id="l422">Vous verserez du sang si nous versons des pleurs.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte202">
           <head>SCENE DEUXIESME.</head>
           <pb n="D, 25"/>
-          <sp who="verginie">
+          <sp xml:id="acte202-1" who="verginie">
             <speaker>VERGINIE.</speaker>
             <l n="423" xml:id="l423">Allons, Madame, allons, &amp; que ce nom de mere</l>
             <l n="424" xml:id="l424">Nous fasse rencontrer un destin moins contraire.</l>
@@ -2086,8 +2093,9 @@
             <l n="457" xml:id="l457">Ainsi qu’un temps serain précede bien souvent</l>
             <l n="458" xml:id="l458">Quelque grande tempeste, &amp; quelque horrible vent.</l>
           </sp>
-          <sp who="velumnie">
-            <speaker>VELUMNIE.</speaker><pb n="27"/>
+          <sp xml:id="acte202-2" who="velumnie">
+            <speaker>VELUMNIE.</speaker>
+            <pb n="27"/>
             <l n="459" xml:id="l459">J’advois eu cy-devant<note n="231" place="bottom"><hi rend="i">Cy-devant</hi> est mis pour « Auparavant » (Boissière, p. 433). Voir aussi au vers 530.</note> une esperance haute,</l>
             <l n="460" xml:id="l460">Mais j’ay donné la vie à celuy qui me l’oste,</l>
             <l n="461" xml:id="l461">Et qui dedans ce mal dont il nous peut guerir</l>
@@ -2117,7 +2125,7 @@
             <l n="485" xml:id="l485">S’enfoncent d’ordinaire avec beaucoup de bruit</l>
             <l n="486" xml:id="l486">Dedans les mesmes lieux qu’elles ont tout détruit<note n="234" place="bottom"> L’accord du participe passé avec le sujet du verbe avoir en cas de complément direct antéposé, comme c’est le cas ici, s’il est la règle, n’est pas systématique au XVII<hi rend="sup">e</hi>. Vaugelas autorise des « exceptions ». Dans cet exemple, c’est le facteur phonétique qui intervient : <hi rend="i">détruit</hi> doit rimer avec <hi rend="i">bruit</hi>.</note>.</l>
           </sp>
-          <sp who="verginie">
+          <sp xml:id="acte202-3" who="verginie">
             <speaker>VERGINIE.</speaker>
             <l n="487" xml:id="l487">Il est bien vray, Madame ; &amp; dans son <ref target="#entreprise">entreprise*</ref></l>
             <l n="488" xml:id="l488">Au point qu’il perd l’honneur nous perdons la <ref target="#franc">franchise*</ref> ;</l>
@@ -2153,9 +2161,10 @@
             <l n="518" xml:id="l518">Nous vangerons sur nous l’afront qu’il veut vanger.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE TROISIESME.</head><pb n="30"/>
-          <sp who="sancine">
+        <div type="scene" xml:id="acte203">
+          <head>SCENE TROISIESME.</head>
+          <pb n="30"/>
+          <sp xml:id="acte203-1" who="sancine">
             <speaker>SANCINE.</speaker>
             <l n="519" xml:id="l519">Vostre <ref target="#gloire">gloire*</ref> sur tout <ref target="#troubler1">trouble*</ref> sa <ref target="#fantaisie">fantaisie*</ref>,</l>
             <l n="520" xml:id="l520">Et vostre grand credit le met en jalousie.</l>
@@ -2176,7 +2185,7 @@
             <l n="535" xml:id="l535">Ne méprisez donc pas les Conseils* de Sancine</l>
             <l n="536" xml:id="l536">Qui n’a jamais eu peur que de vostre ruine.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte203-2" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="537" xml:id="l537">Icy la prévoyance* est une lascheté</l>
             <l n="538" xml:id="l538">Contre un peuple qui craint ma générosité</l>
@@ -2187,23 +2196,24 @@
             <l n="543" xml:id="l543">Je suy ses <ref target="#interest1">interests*</ref>, &amp; songe je te prie</l>
             <l n="544" xml:id="l544">Que pour les conserver je détruis ma Patrie.</l>
           </sp>
-          <sp who="sancine">
+          <sp xml:id="acte203-3" who="sancine">
             <speaker>SANCINE.</speaker>
             <l n="545" xml:id="l545">Donc si vous m’en croyez, triomphons promptement</l>
             <l n="546" xml:id="l546">Pour ne luy pas laisser un soupçon seulement.</l>
           </sp>
-          <sp who="coriolan">
-            <speaker>CORIOLAN.</speaker><pb n="32"/>
+          <sp xml:id="acte203-4" who="coriolan">
+            <speaker>CORIOLAN.</speaker>
+            <pb n="32"/>
             <l n="547" xml:id="l547">J’y suis bien resolu ; la chose est déjà <ref target="#prevoyance">preste</ref>,</l>
             <l n="548" xml:id="l548">Mon <ref target="#sort">sort*</ref> est glorieux<note n="240" place="bottom">« Qui s’est acquis, qui merite beaucoup de gloire, beaucoup de loüange et d’honneur » (Académie Française).</note> d’une telle conqueste,</l>
             <l n="549" xml:id="l549">Et je meurs trop content en ce que j’ay soubmis</l>
             <l n="550" xml:id="l550">Soubmettant les Romains, mes plus grands ennemis.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte204">
           <head>SCENE QUATRIESME.</head>
           <pb n="E, 33"/>
-          <sp who="aufidie">
+          <sp xml:id="acte204-1" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="551" xml:id="l551">A quoy reservons nous la force de nos armes,</l>
             <l n="552" xml:id="l552">Leur sang seroit-il bien épargné par leurs larmes ?</l>
@@ -2219,7 +2229,7 @@
             <l n="562" xml:id="l562">Il semble que leur mort cause vostre douleur</l>
             <l n="563" xml:id="l563" part="I">Vous ont-ils pas<note n="242" place="bottom"> L’omission de <hi rend="i">ne</hi> dans une interrogative directe était très courante au XVII<hi rend="sup">e</hi> siècle.</note> bany ?<pb n="34"/></l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte204-2" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l part="F"><ref target="#genereux2">Genereux*</ref> Aufidie,</l>
             <l n="564" xml:id="l564">Ne me soupçonnez point d’aucune perfidie ;</l>
@@ -2230,7 +2240,7 @@
             <l n="569" xml:id="l569">Puis qu’avec injustice ils m’ont voulu bannir,</l>
             <l n="570" xml:id="l570">Je sçay que mon exil est encore à punir.</l>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte204-3" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="571" xml:id="l571">Digne Autheur de mon <ref target="#bien3">bien*</ref> &amp; de ceste victoire ;</l>
             <l n="572" xml:id="l572">Combien dans ce dessein emportez vous de <ref target="#gloire">gloire*</ref> !</l>
@@ -2242,8 +2252,9 @@
             <l n="577" xml:id="l577">Apaisons par leur sang nos esprits <ref target="#irriter1">irritez*</ref>,</l>
             <l n="578" xml:id="l578">Et ne diferons plus des tourmens meritez.</l>
           </sp>
-          <sp who="coriolan">
-            <speaker>CORIOLAN.</speaker><pb n="35"/>
+          <sp xml:id="acte204-4" who="coriolan">
+            <speaker>CORIOLAN.</speaker>
+            <pb n="35"/>
             <l n="579" xml:id="l579">Je serois mal-heureux s’ils ne le pouvoient estre :</l>
             <l n="580" xml:id="l580">Mais<note n="244" place="bottom"><hi rend="i">Mais</hi> peut signifier « Mais même, bien plus, mieux encore » (Cayrou).</note> dans mes cruautez je leur feray connestre</l>
             <l n="581" xml:id="l581">Que j’eus dés mon exil toute Rome en horreur ;</l>
@@ -2253,21 +2264,21 @@
           </sp>
         </div>
       </div>
-      <div type="act" xml:id="acte3">
+      <div xml:id="acte3" type="act">
         <pb n="36"/>
         <head>ACTE III.</head>
-        <div type="scene">
+        <div type="scene" xml:id="acte301">
           <head>SCENE PREMIERE.</head>
-          <sp who="coriolan">
+          <sp xml:id="acte301-1" who="coriolan">
             <speaker>CORIOLAN</speaker>
             <stage>dans son Camp<note n="246" place="bottom">Cette didascalie nous apprend que l’unité de lieu, « aujourd’huy si necessaire », revendiquée par Chevreau dans « l’Advertissement au Lecteur » semble être une position plus formelle qu’une réelle contrainte imposée puisque la mention de « camp » implique une distorsion spatiale dans la succession des événements.</note> levant sa fame qui est à genoux.</stage>
             <l n="585" xml:id="l585">Madame en cét estat je ne puis vous parler.</l>
           </sp>
-          <sp who="verginie">
+          <sp xml:id="acte301-2" who="verginie">
             <speaker>VERGINIE.</speaker>
             <l n="586" xml:id="l586">Mais aurai-je autrement de quoy me consoler ?</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte301-3" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="587" xml:id="l587">Esperez tout de moy, considerez*, Madame,</l>
             <l n="588" xml:id="l588">Dans ces confusions que vous estes ma fame ?</l>
@@ -2304,7 +2315,7 @@
             <l n="619" xml:id="l619">Pourveu que l’<ref target="#interest1">interest*</ref> de la race Romaine</l>
             <l n="620" xml:id="l620">Ne se confonde* point avecque vostre peine.</l>
           </sp>
-          <sp who="verginie">
+          <sp xml:id="acte301-4" who="verginie">
             <speaker>VERGINIE.</speaker>
             <l n="621" xml:id="l621">Pour qui croyez vous donc que je puisse parler ?</l>
             <l n="622" xml:id="l622">Hé quoy nostre <ref target="#interest1">interest*</ref> doit-il pas se mesler ?</l>
@@ -2345,7 +2356,7 @@
             <l n="657" xml:id="l657">Que j’ay favorisé vostre banissement</l>
             <l n="658" xml:id="l658">Sans avoir soupiré de cét éloignement.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte301-5" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="659" xml:id="l659">Ah ! Madame, ce mot me met à la torture,</l>
             <l n="660" xml:id="l660">Vous avez soupiré dans ma <ref target="#triste">triste*</ref> avanture,</l>
@@ -2356,14 +2367,14 @@
             <l n="665" xml:id="l665">Et je suis si confus de causer vos douleurs</l>
             <l n="666" xml:id="l666">Qu’à peine devant vous retiendray-je mes pleurs.</l>
           </sp>
-          <sp who="velumnie">
+          <sp xml:id="acte301-6" who="velumnie">
             <speaker>VELUMNIE.</speaker>
             <l n="667" xml:id="l667"><ref target="#sensible2">Sensible*</ref> cruauté, fatale destinée !</l>
             <l n="668" xml:id="l668">Je demande la vie à qui je l’ay donnée,</l>
             <l n="669" xml:id="l669">Et par un accident<note n="257" place="bottom">Ici « hasard, coup de fortune. » (Furetière)</note> que je ne connois pas</l>
             <l n="670" xml:id="l670">Celuy que j’ay fait naistre avance mon trepas.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte301-7" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="671" xml:id="l671">O Dieux ! n’achevez point ; quelque chose qu’on die<note n="258" place="bottom"> Forme ancienne du subjonctif du verbe <hi rend="i">dire</hi>, notamment destinée à la rime. Voir aussi au vers 873.</note>,</l>
             <l n="672" xml:id="l672">Je ne sçaurois tremper dans cette perfidie ;</l>
@@ -2390,7 +2401,7 @@
             <l n="693" xml:id="l693">Si bien qu’ils m’ont donné pour finir mon <ref target="#ennui">ennuy*</ref></l>
             <l n="694" xml:id="l694">Ce que dans mon mal-heur je n’obtins pas de luy.</l>
           </sp>
-          <sp who="velumnie">
+          <sp xml:id="acte301-8" who="velumnie">
             <speaker>VELUMNIE.</speaker>
             <l n="695" xml:id="l695">On ne vous peut loüer de ceste tyrannie</l>
             <l n="696" xml:id="l696">Dont l’effet<note n="263" place="bottom">« Pratique, execution. » (Furetière)</note> vous aporte une joye infinie.</l>
@@ -2399,7 +2410,7 @@
             <l n="699" xml:id="l699">Et qu’on aura forcé<note n="264" place="bottom"><hi rend="i">Forcer</hi> signifie ici « Violer une femme, une fille, pour dire, la prendre par <hi rend="i">force</hi> pour luy ravir son honneur. » (Furetière)</note> tant de Dames Romaines,</l>
             <l n="700" xml:id="l700">Serez vous plus vangé qu’en finissant nos peines ?</l>
           </sp>
-          <sp who="verginie">
+          <sp xml:id="acte301-9" who="verginie">
             <speaker>VERGINIE.</speaker>
             <l n="701" xml:id="l701">Comment ! verriez vous bien des Volsques triomphans,</l>
             <l n="702" xml:id="l702">D’un païs, d’une mere, &amp; de vos chers enfans ?</l>
@@ -2422,16 +2433,17 @@
             <l n="719" xml:id="l719" part="I">Ma mort est un exemple.</l>
             <stage>Coriolan la saisit par la main, &amp; luy oste le poignard<note n="266" place="bottom">Dans l’édition originale, cette didascalie, placée en marge, englobe les vers 717 à 719.</note></stage>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte301-10" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l part="F">Ah, Madame, je tremble !</l>
           </sp>
-          <sp who="velumnie">
+          <sp xml:id="acte301-11" who="velumnie">
             <speaker>VELUMNIE.</speaker>
             <l n="720" xml:id="l720">Mon fils, que de mal-heurs vous causerez ensemble !</l>
           </sp>
-          <sp who="verginie">
-            <speaker>VERGINIE.</speaker><pb n="43"/>
+          <sp xml:id="acte301-12" who="verginie">
+            <speaker>VERGINIE.</speaker>
+            <pb n="43"/>
             <l n="721" xml:id="l721">C’est par là seulement qu’il se faut secourir,</l>
             <l n="722" xml:id="l722">Je sçay comme on doit vivre, &amp; comme<note n="267" place="bottom"> Dans les deux cas, <hi rend="i">comme</hi> signifie « comment ».</note> on peut mourir,</l>
             <l n="723" xml:id="l723">Et je ne puis manquer dans ce dessein tragique</l>
@@ -2451,7 +2463,7 @@
             <l n="737" xml:id="l737">Car vous devez sçavoir que mon destin est tel</l>
             <l n="738" xml:id="l738">Qu’on ne luy donne coup qui ne me soit mortel.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte301-13" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="739" xml:id="l739">Vos propos tout d’un coup viennent de me <ref target="#confondre">confondre*</ref></l>
             <l n="740" xml:id="l740">Et dedans cét estat je ne vous puis répondre.</l>
@@ -2464,15 +2476,16 @@
             <l n="747" xml:id="l747">Je feray mes efforts pour rendre contente,</l>
             <l n="748" xml:id="l748">Et contre l’aparence, &amp; contre vostre atente.</l>
           </sp>
-          <sp who="verginie">
+          <sp xml:id="acte301-14" who="verginie">
             <speaker>VERGINIE.</speaker>
             <l n="749" xml:id="l749">Durant ce peu de temps je vais prier les Dieux</l>
             <l n="750" xml:id="l750">Qu’ils veuillent vous ouvrir, &amp; l’esprit &amp; les yeux.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE DEUXIESME.</head><pb n="45"/>
-          <sp who="aufidie">
+        <div type="scene" xml:id="acte302">
+          <head>SCENE DEUXIESME.</head>
+          <pb n="45"/>
+          <sp xml:id="acte302-1" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="751" xml:id="l751">Sancine j’ay bien peur qu’en fin tant de paroles</l>
             <l n="752" xml:id="l752">Ne rendent tout d’un coup mes attentes <ref target="#frivole">frivoles*</ref> ;</l>
@@ -2505,7 +2518,7 @@
             <l n="779" xml:id="l779">J’ay bien peur que le <ref target="#sort">sort*</ref> ne nous soit pas <ref target="#prospere">prospere*</ref></l>
             <l n="780" xml:id="l780">Car je voy des enfans, une fame, une mere.</l>
           </sp>
-          <sp who="sancine">
+          <sp xml:id="acte302-2" who="sancine">
             <speaker>SANCINE.</speaker>
             <l n="781" xml:id="l781">Non, non, dans ce dessein Rome doit succomber,</l>
             <l n="782" xml:id="l782">Coriolan sçait bien qu’elle est preste à tomber,</l>
@@ -2518,7 +2531,7 @@
             <l n="789" xml:id="l789">Et je croy que leurs pleurs y serviront si peu</l>
             <l n="790" xml:id="l790">Qu’il ne leur parlera que de sang &amp; de feu.</l>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte302-3" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="791" xml:id="l791">Contente moy Sancine, &amp; pour m’oster la crainte</l>
             <l n="792" xml:id="l792">Forme luy de ma part quelque sujet de plainte :</l>
@@ -2530,9 +2543,10 @@
             <l n="798" xml:id="l798">Il faut que son païs soit tout à fait détruit.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE TROISIESME.</head><pb n="48"/>
-          <sp who="coriolan">
+        <div type="scene" xml:id="acte303">
+          <head>SCENE TROISIESME.</head>
+          <pb n="48"/>
+          <sp xml:id="acte303-1" who="coriolan">
             <speaker>CORIOLAN</speaker>
             <stage>seul dans son Camp.</stage>
             <lg>
@@ -2619,13 +2633,13 @@
             </lg>
             <l n="867" xml:id="l867">Puis qu’il me ressouvient que tu m’as pû banir</l>
             <l n="868" xml:id="l868">Je te rendray l’horreur des siecles à venir.</l>
-            <l/>
+            <l n="869"/>
             <l n="869" xml:id="l869">Sancine vient icy, que luy pourray-je dire !<pb n="52"/></l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte304">
           <head>SCENE QUATRIESME.</head>
-          <sp who="coriolan">
+          <sp xml:id="acte304-1" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="870" xml:id="l870">S’il se peut cher amy, soulage mon martire<note n="277" place="bottom">« Se dit aussi de toutes les peines et difficultez de la vie. » (Furetière)</note></l>
             <l n="871" xml:id="l871">Et tasche à consoler mon esprit abatu</l>
@@ -2635,7 +2649,7 @@
             <l n="875" xml:id="l875">Livrent à mon esprit de si puissans combats</l>
             <l n="876" xml:id="l876">Que je n’oze accorder ny finir leur débats.</l>
           </sp>
-          <sp who="sancine">
+          <sp xml:id="acte304-2" who="sancine">
             <speaker>SANCINE.</speaker>
             <l n="877" xml:id="l877">Quoy, vous suivez encore une route incertaine ?</l>
             <l n="878" xml:id="l878">Ce dernier procedé nous a tous mis en peine ;</l>
@@ -2649,7 +2663,7 @@
             <l n="886" xml:id="l886">Qui fera quelque jour l’ornement de l’histoire ;</l>
             <l n="887" xml:id="l887" part="I">Que pouvez vous réver<note n="280" place="bottom"> Beaucoup de verbes, intransitifs aujourd’hui, étaient à l’époque transitifs, comme dans l’ancienne langue. C’est le cas pour le verbe <hi rend="i">rêver</hi> qui se construisait avec la forme directe « rêver quelque chose » (Haase).</note> ?</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte304-3" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l part="F">Non, je ne réve plus ;</l>
             <l n="888" xml:id="l888">Car ces empeschemens seront tous superflus,</l>
@@ -2660,12 +2674,12 @@
           </sp>
         </div>
       </div>
-      <div type="act" xml:id="acte4">
+      <div xml:id="acte4" type="act">
         <pb n="54"/>
         <head>ACTE IV.</head>
-        <div type="scene">
+        <div type="scene" xml:id="acte401">
           <head>SCENE PREMIERE.</head>
-          <sp who="aufidie">
+          <sp xml:id="acte401-1" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="893" xml:id="l893">C’est ainsi qu’il faut prendre un si bel avantage,</l>
             <l n="894" xml:id="l894">Pour nous faire loüer vostre noble courage.</l>
@@ -2692,7 +2706,7 @@
             <l n="915" xml:id="l915">Et leur representez vostre banissement</l>
             <l n="916" xml:id="l916">Puis qu’elles n’en sçauroient blâmer le châtiment.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte401-2" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="917" xml:id="l917">Je vous dois confesser que leur <ref target="#triste">triste*</ref> visage</l>
             <l n="918" xml:id="l918">Avoit pour quelque temps suspendu mon courage,</l>
@@ -2703,14 +2717,14 @@
             <l n="923" xml:id="l923">Si bien que leurs torrens dont je restay vainqueur<pb n="56"/></l>
             <l n="924" xml:id="l924">Me moüillerent les yeux sans m’atendrir le cœur.</l>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte401-3" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="925" xml:id="l925">Ne les tenez donc plus si long temps en haleine</l>
             <l n="926" xml:id="l926">Vostre retardement les pourroit mettre en peine<note n="283" place="bottom"><hi rend="i">Mettre en peine de</hi> : Mettre dans l’embarras, dans la pénible nécessité de, dans la cruelle alternative de (Cayrou).</note> ;</l>
             <l n="927" xml:id="l927">Allez leur asseurer que Rome doit perir,</l>
             <l n="928" xml:id="l928">Et qu’en differant trop vous me faites mourir.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte401-4" who="coriolan">
             <speaker>CORIOLAN</speaker>
             <stage>en s’en allant.</stage>
             <l n="929" xml:id="l929">Allons, Coriolan, treuvons toutes nos forces,</l>
@@ -2720,14 +2734,14 @@
             <l n="932" xml:id="l932">Ne m’abandonnez pas, &amp; combatez pour moy.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte402">
           <head>SCENE DEUXIESME.</head>
           <pb n="H, 57"/>
-          <sp who="aufidie">
+          <sp xml:id="acte402-1" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="933" xml:id="l933">Sancine tout va bien, je voy l’afaire preste.</l>
           </sp>
-          <sp who="sancine">
+          <sp xml:id="acte402-2" who="sancine">
             <speaker>SANCINE.</speaker>
             <l n="934" xml:id="l934">Je m’en tiens assuré, j’en répons de ma teste,</l>
             <l n="935" xml:id="l935">Je l’y voy disposé par ces derniers propos,</l>
@@ -2747,7 +2761,7 @@
             <l n="949" xml:id="l949">Et son esprit <ref target="#subtil">subtil*</ref> les flate en aparence,</l>
             <l n="950" xml:id="l950">Ou de quelque plaisir, ou de quelque esperance.</l>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte402-3" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="951" xml:id="l951">Je l’en estime plus en ce qu’il va les voir,</l>
             <l n="952" xml:id="l952">Afin de se soubmettre à ce dernier devoir.</l>
@@ -2779,9 +2793,10 @@
             <l n="978" xml:id="l978">Le moindre qu’ils auront est le fer &amp; la flame.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE TROISIESME.</head><pb n="60"/>
-          <sp who="coriolan">
+        <div type="scene" xml:id="acte403">
+          <head>SCENE TROISIESME.</head>
+          <pb n="60"/>
+          <sp xml:id="acte403-1" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="979" xml:id="l979">J’y résve bien encore, &amp; je ne puis treuver</l>
             <l n="980" xml:id="l980">Que je me doive perdre afin de les sauver<note n="290" place="bottom">Comprendre : « J’y songe encore souvent, et la seule solution que je trouve, c’est de me sacrifier pour les sauver. »</note> :</l>
@@ -2792,7 +2807,7 @@
             <l n="985" xml:id="l985">Et qu’en fin pour conclurre, en cette Tragedie,</l>
             <l n="986" xml:id="l986">Le premier personnage est celuy d’Aufidie ?</l>
           </sp>
-          <sp who="verginie">
+          <sp xml:id="acte403-2" who="verginie">
             <speaker>VERGINIE.</speaker>
             <l n="987" xml:id="l987">Vous vous estes acquis par vos <ref target="#soin">soins*</ref> diligens,</l>
             <l n="988" xml:id="l988">Et par vos actions du pouvoir sur ses gens,</l>
@@ -2803,21 +2818,21 @@
             <l n="993" xml:id="l993">Vous serez satisfait, &amp; je seray contente</l>
             <l n="994" xml:id="l994">D’avoir mis en vous seul une si douce attente.</l>
           </sp>
-          <sp who="velumnie">
+          <sp xml:id="acte403-3" who="velumnie">
             <speaker>VELUMNIE.</speaker>
             <l n="995" xml:id="l995">Vous pouvez <ref target="#irriter2">irriter*</ref> le mal &amp; le guerir ;</l>
             <l n="996" xml:id="l996">Forcez nous donc de vivre, ou nous faites mourir<note n="291" place="bottom"> Cette construction, avec antéposition du pronom, très courante au XVII<hi rend="sup">e</hi> siècle dans le cas de deux impératifs coordonnés par <hi rend="i">et/ou</hi> est aujourd’hui archaïque.</note>.</l>
             <l n="997" xml:id="l997">Deux mots y suffiront, prononcez-les sans crainte,</l>
             <l n="998" xml:id="l998">Finissez prontement, ou ma vie ou ma plainte.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte403-4" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="999" xml:id="l999">Certes mal-aisément<note n="292" place="bottom"><hi rend="i">Malaisé</hi> signifie « Difficile ». Voir aussi aux vers 1224 et 1360.</note> vous puis-je consoler ;</l>
             <l n="1000" xml:id="l1000">C’est pourquoy je soupire, &amp; je crains de parler.</l>
             <l n="1001" xml:id="l1001">Mon ame en ces <ref target="#transport">transports*</ref> est assez <ref target="#irriter1">irritée*</ref> :</l>
             <l n="1002" xml:id="l1002">Mais Rome doit perir, la chose est <ref target="#arreter1">arrestée*</ref>.</l>
           </sp>
-          <sp who="velumnie">
+          <sp xml:id="acte403-5" who="velumnie">
             <speaker>VELUMNIE.</speaker>
             <l n="1003" xml:id="l1003">Quoy, Rome doit perir ! tu veux donc triompher ?</l>
             <l n="1004" xml:id="l1004">Toy que dés le berceau je devois<note n="293" place="bottom"> Latinisme : la valeur modale des verbes <hi rend="i">devoir, pouvoir</hi> et <hi rend="i">vouloir</hi> est à remarquer. L’imparfait a ici valeur de conditionnel (il faut comprendre « j’aurais dû » ).</note> étoufer ?</l>
@@ -2879,7 +2894,7 @@
             <l n="1059" xml:id="l1059">Non, non, je veux mourir embrassant vos genoux,</l>
             <l n="1060" xml:id="l1060">Je mourray doucement<note n="302" place="bottom">« D'une maniere douce, lentement et sans bruit » (Furetière).</note> si je meurs prés de vous.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte403-6" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="1061" xml:id="l1061">Ah ! mere trop credule, aurez vous quelque <ref target="#gloire">gloire*</ref></l>
             <l n="1062" xml:id="l1062">De remporter ainsi cette <ref target="#triste">triste*</ref> victoire ?</l>
@@ -2918,7 +2933,7 @@
             <l n="1095" xml:id="l1095">Et qu’en fin l’ennemy me perceroit de coups</l>
             <l n="1096" xml:id="l1096">Pour assouvir<note n="306" place="bottom">« Se dit figurément en Morale, pour dire, Contenter ses desirs, ses passions. » (Furetière)</note> sur moy son plus juste courroux.</l>
           </sp>
-          <sp who="verginie">
+          <sp xml:id="acte403-7" who="verginie">
             <speaker>VERGINIE.</speaker>
             <l n="1097" xml:id="l1097">Mon cher Coriolan que faut-il que je fasse ?</l>
             <l n="1098" xml:id="l1098"><ref target="#souffrir2">Soufrez*</ref> que je vous baise, &amp; que je vous embrasse ?</l>
@@ -2937,7 +2952,7 @@
             <l n="1111" xml:id="l1111">Et je treuve aussi bien que dans ce meme jour</l>
             <l n="1112" xml:id="l1112">Mon courage s’acorde avecque mon amour.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte403-8" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="1113" xml:id="l1113">Ouy, je vous le permets, &amp; je vous le demande :</l>
             <l n="1114" xml:id="l1114">Mais je treuve pour vous cette <ref target="#entreprise">entreprise*</ref> grande.</l>
@@ -2954,16 +2969,17 @@
             <l n="1125" xml:id="l1125">Que je leve le siege en faveur de vos larmes</l>
             <l n="1126" xml:id="l1126">Et qu’elles m’ont forcé de mettre bas les armes.</l>
           </sp>
-          <sp who="verginie">
+          <sp xml:id="acte403-9" who="verginie">
             <speaker>VERGINIE.</speaker>
             <stage>Elles s’en vont.</stage>
             <l n="1127" xml:id="l1127">Ouy, j’y vais de bon cœur, &amp; demain du matin</l>
             <l n="1128" xml:id="l1128">Je vous suivray par tout où voudra mon destin.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE QUATRIESME.</head><pb n="68"/>
-          <sp who="aufidie">
+        <div type="scene" xml:id="acte404">
+          <head>SCENE QUATRIESME.</head>
+          <pb n="68"/>
+          <sp xml:id="acte404-1" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="1129" xml:id="l1129">J’ay bien peur qu’à la fin la <ref target="#pitie">pitié*</ref> ne le tente,</l>
             <l n="1130" xml:id="l1130">Sancine, il est long temps, ce delay me tourmente ;</l>
@@ -2975,21 +2991,21 @@
             <l n="1136" xml:id="l1136">Il me semble à tous coups qu’il craint de revenir ;</l>
             <l n="1137" xml:id="l1137" part="I">Sancine, qu’en crois-tu ?</l>
           </sp>
-          <sp who="sancine">
+          <sp xml:id="acte404-2" who="sancine">
             <speaker>SANCINE.</speaker>
             <l part="F">Qu’il vous fera parestre</l>
             <l n="1138" xml:id="l1138">Qu’il hait ce peuple ingrat, &amp; qu’il n’est pas un traistre</l>
             <l n="1139" xml:id="l1139">Qu’il sçait executer tout ce qu’il a promis,<pb n="69"/></l>
             <l n="1140" xml:id="l1140">Et qu’il voit les Romains comme ses ennemis.</l>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte404-3" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="1141" xml:id="l1141">C’est prester du secours à mon ame abatuë,</l>
             <l n="1142" xml:id="l1142">Je voy tousjours sa mere, &amp; c’est ce qui me tuë ;</l>
             <l n="1143" xml:id="l1143">Sa fame, ses enfans, leurs souspirs &amp; leurs pleurs</l>
             <l n="1144" xml:id="l1144">Me font par fois <ref target="#souffrir3">soufrir</ref> de <ref target="#sensible1">sensibles*</ref> douleurs.</l>
           </sp>
-          <sp who="sancine">
+          <sp xml:id="acte404-4" who="sancine">
             <speaker>SANCINE.</speaker>
             <l n="1145" xml:id="l1145">Aprenez donc aussi que vostre crainte est vaine,</l>
             <l n="1146" xml:id="l1146">Je connois dés long temps ce vaillant Capitaine,</l>
@@ -2997,9 +3013,10 @@
             <l n="1148" xml:id="l1148">Outre que son <ref target="#humeur2">humeur*</ref> le porte à se vanger.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE CINQUIESME.</head><pb n="70"/>
-          <sp who="coriolan">
+        <div type="scene" xml:id="acte405">
+          <head>SCENE CINQUIESME.</head>
+          <pb n="70"/>
+          <sp xml:id="acte405-1" who="coriolan">
             <speaker>CORIOLAN</speaker>
             <stage>à Aufidie.</stage>
             <l n="1149" xml:id="l1149">Elles rentrent dans Rome, &amp; sans aucune envie</l>
@@ -3013,8 +3030,9 @@
             <l n="1157" xml:id="l1157">Ma fame en portera la premiere nouvelle,</l>
             <l n="1158" xml:id="l1158">Et vous verrez par là si je leur suis <ref target="#fidelle1">fidelle*</ref>.</l>
           </sp>
-          <sp who="aufidie">
-            <speaker>AUFIDIE.</speaker><pb n="71"/>
+          <sp xml:id="acte405-2" who="aufidie">
+            <speaker>AUFIDIE.</speaker>
+            <pb n="71"/>
             <l n="1159" xml:id="l1159">O Dieux ! Coriolan, je meurs dans ces <ref target="#transport">transports*</ref>,</l>
             <l n="1160" xml:id="l1160">Je ne redoute plus tous les plus grands éforts.</l>
             <l n="1161" xml:id="l1161">Si vous avez pû vaincre une fame, une mere,</l>
@@ -3023,9 +3041,10 @@
             <l n="1164" xml:id="l1164">Je m’en vais donner ordre à ce qu’il faut tenter.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE SIXIESME.</head><pb n="72"/>
-          <sp who="coriolan">
+        <div type="scene" xml:id="acte406">
+          <head>SCENE SIXIESME.</head>
+          <pb n="72"/>
+          <sp xml:id="acte406-1" who="coriolan">
             <speaker>CORIOLAN</speaker>
             <stage>avec Sancine.</stage>
             <l n="1165" xml:id="l1165">Il n’a pas bien compris ce que je viens de dire,</l>
@@ -3034,7 +3053,7 @@
             <l n="1168" xml:id="l1168">Ma parole est donnée, il n’y faut plus songer :</l>
             <l n="1169" xml:id="l1169" part="I">Je pardonne aux Romains.</l>
           </sp>
-          <sp who="sancine">
+          <sp xml:id="acte406-2" who="sancine">
             <speaker>SANCINE.</speaker>
             <l part="F">Ce pardon m’épouvante,</l>
             <l n="1170" xml:id="l1170">Gardez bien que le <ref target="#sort">sort*</ref> ne trompe vostre attente ;</l>
@@ -3042,24 +3061,25 @@
             <l n="1172" xml:id="l1172">S’ils sont en liberté, vous serez sans repos</l>
             <l n="1173" xml:id="l1173">Remarquez<note n="309" place="bottom"><hi rend="i">Remarquer</hi> peut signifier « Prendre garde à quelques signes ou marques dont nous avons besoin » (Furetière). Voir aussi au vers 1287.</note>, Aufidie, &amp; dessus toutes choses…<pb n="K, 73"/></l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte406-3" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="1174" xml:id="l1174">Je ne m’attache pas à ce que tu proposes.</l>
             <l n="1175" xml:id="l1175">L’afaire est déja faite, il ne peut l’empescher.</l>
           </sp>
-          <sp who="sancine">
+          <sp xml:id="acte406-4" who="sancine">
             <speaker>SANCINE.</speaker>
             <l n="1176" xml:id="l1176">Non, non, son <ref target="#interest1">interest*</ref> vous doit estre plus cher<note n="310" place="bottom">Voir la note du vers 206.</note>.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte406-5" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="1177" xml:id="l1177">Ayant mal commencé, je doy finir de mesme :</l>
             <l n="1178" xml:id="l1178">Mais suy moy seulement si tu veux que je t’aime.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE SEPTIESME.</head><pb n="74"/>
-          <sp who="verginie">
+        <div type="scene" xml:id="acte407">
+          <head>SCENE SEPTIESME.</head>
+          <pb n="74"/>
+          <sp xml:id="acte407-1" who="verginie">
             <speaker>VERGINIE.</speaker>
             <l n="1179" xml:id="l1179">Ouy, je vous en asseure, il pardonne aux Romains,</l>
             <l n="1180" xml:id="l1180">Mes pleurs ont fait tomber les armes de ses mains.</l>
@@ -3068,7 +3088,7 @@
             <l n="1183" xml:id="l1183">Et qu’avant que le jour vienne fraper nos yeux,</l>
             <l n="1184" xml:id="l1184">Il doit lever le siege, &amp; sortir de ces lieux.</l>
           </sp>
-          <sp who="senateur">
+          <sp xml:id="acte407-2" who="senateur">
             <speaker>UN SENATEUR.</speaker>
             <l n="1185" xml:id="l1185">Nos Sacrificateurs ont moins fait que vous autres<note n="311" place="bottom">Voir la note au vers 32.</note>,</l>
             <l n="1186" xml:id="l1186">Et vos pleurs en éfet ont essuyé les nostres.</l>
@@ -3085,12 +3105,12 @@
           </sp>
         </div>
       </div>
-      <div type="act" xml:id="acte5">
+      <div xml:id="acte5" type="act">
         <pb n="76"/>
         <head>ACTE V.</head>
-        <div type="scene">
+        <div type="scene" xml:id="acte501">
           <head>SCENE PREMIERE.</head>
-          <sp who="aufidie">
+          <sp xml:id="acte501-1" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="1197" xml:id="l1197">Quoy ! le siege est levé ? voulez vous qu’Aufidie</l>
             <l n="1198" xml:id="l1198">Trempe si lâchement dans cette perfidie ?</l>
@@ -3115,22 +3135,23 @@
             <l n="1217" xml:id="l1217"><ref target="#cependant">Cependant*</ref> vous tremblez alors qu’on vous reclame,</l>
             <l n="1218" xml:id="l1218">Et pour vous retenir il ne faut qu’une fame !</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte501-2" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="1219" xml:id="l1219">Ouy, dites contre moy tout ce que vous pensez.</l>
             <l n="1220" xml:id="l1220">Je demeure muet lors que vous m’ofensez :</l>
             <l n="1221" xml:id="l1221">Mais ne vous <ref target="#troubler2">troublez*</ref> pas, ou mon cœur vous conjure,</l>
             <l n="1222" xml:id="l1222">Si vous parlez de moy de parler sans <ref target="#injure">injure*</ref>.</l>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte501-3" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="1223" xml:id="l1223">Dedans cette action, lors qu’on parle de vous</l>
             <l n="1224" xml:id="l1224">Il est bien mal-aisé de parler sans courous.</l>
             <l n="1225" xml:id="l1225">Vous nous avez trahy, vous nous faites connestre</l>
             <l n="1226" xml:id="l1226">Que vous estes ingrat, &amp; que vous estes traistre.</l>
           </sp>
-          <sp who="coriolan">
-            <speaker>CORIOLAN.</speaker><pb n="78"/>
+          <sp xml:id="acte501-4" who="coriolan">
+            <speaker>CORIOLAN.</speaker>
+            <pb n="78"/>
             <l n="1227" xml:id="l1227">Ne vous emportez plus, ces mots injurieux</l>
             <l n="1228" xml:id="l1228">Treuveroient contre vous un esprit furieux</l>
             <l n="1229" xml:id="l1229">J’eusse rendu bien tost vostre <ref target="#sort">sort*</ref> plus <ref target="#prospere">prospere*</ref> :</l>
@@ -3144,7 +3165,7 @@
             <l n="1237" xml:id="l1237">Vous m’avez <ref target="#obliger2">obligé*</ref> de vanger ma querelle :</l>
             <l n="1238" xml:id="l1238">Mais Rome est mon païs, luy pui-je estre <ref target="#infidelle">infidelle*</ref> ?</l>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte501-5" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="1239" xml:id="l1239">Vous nous engagiez tous dans ce <ref target="#triste">triste*</ref> party,</l>
             <l n="1240" xml:id="l1240">Et j’en voy maintenant vostre esprit diverty <note n="318" place="bottom"> « Détourner, distraire : <hi rend="i">Divertir quelqu’un de ses occupations</hi> » (Académie Française).</note>:</l>
@@ -3157,7 +3178,7 @@
             <l n="1247" xml:id="l1247">Voyez à quel estat vostre honneur est soubmis<pb n="79"/></l>
             <l n="1248" xml:id="l1248">D’avoir ainsi traité vos plus forts ennemis.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte501-6" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="1249" xml:id="l1249">Vous direz, s’il vous plaist quelque chose de pire :</l>
             <l n="1250" xml:id="l1250">Mais je vois à plus prés ce qu’on en poura dire :</l>
@@ -3166,7 +3187,7 @@
             <l n="1253" xml:id="l1253">Et l’on ne peut blâmer ma <ref target="#pitie">pitié*</ref> naturelle</l>
             <l n="1254" xml:id="l1254">Qui veut que je sois lâche en leur estant <ref target="#fidelle1">fidelle*</ref>.</l>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte501-7" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="1255" xml:id="l1255">Ne vous excusez plus ; cette <ref target="#fidelite">fidelité*</ref></l>
             <l n="1256" xml:id="l1256">Est un visible éfet de vostre lâcheté ;</l>
@@ -3175,35 +3196,35 @@
             <l n="1259" xml:id="l1259">Il ne vous restoit plus pour marquer vos douleurs,</l>
             <l n="1260" xml:id="l1260">Et pour bien l’imiter que de verser des pleurs.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte501-8" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="1261" xml:id="l1261">Et pour vous bien vanger d’un si <ref target="#sensible1">sensible*</ref> outrage,</l>
             <l n="1262" xml:id="l1262">Il ne vous reste plus qu’à tenter mon courage :</l>
             <l n="1263" xml:id="l1263" part="I">N’allez pas plus avant.<pb n="80"/></l>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte501-9" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l part="F">Peut-estre que les Dieux</l>
             <l n="1264" xml:id="l1264">Reconnétront bien tost vos <ref target="#soin">soins*</ref> officieux<note n="321" place="bottom"><hi rend="i">Officieux</hi> : Prompts à rendre service.</note>.</l>
             <stage>Il s’en va</stage>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte501-10" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="1265" xml:id="l1265">Je poursuy mes desseins, &amp; mal-gré tous les vostres</l>
             <l n="1266" xml:id="l1266">Je me puis bien sauver si je sauve les autres.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte502">
           <head>SCENE DEUXIESME.</head>
           <pb n="L, 81"/>
-          <sp who="verginie">
+          <sp xml:id="acte502-1" who="verginie">
             <speaker>VERGINIE.</speaker>
             <l n="1267" xml:id="l1267">Apres tous ces honneurs il faut le visiter<note n="322" place="bottom">« Faire une visite » (Furetière), rencontrer.</note>,</l>
             <l n="1268" xml:id="l1268">Camille c’est en vain que tu veux m’<ref target="#arreter1">arrester*</ref> ;</l>
             <l n="1269" xml:id="l1269">Nous nous sommes jurez une <ref target="#foy">foy*</ref> mutuelle,</l>
             <l n="1270" xml:id="l1270">Et si je ne le suy je me treuve <ref target="#infidelle">infidelle*</ref>.</l>
           </sp>
-          <sp who="camille">
+          <sp xml:id="acte502-2" who="camille">
             <speaker>CAMILLE.</speaker>
             <l n="1271" xml:id="l1271">Les guerres desormais seront donc vos <ref target="#ebat">ébats*</ref> ?</l>
             <l n="1272" xml:id="l1272">Vous irez avec luy dans les plus grands combats ?</l>
@@ -3223,14 +3244,14 @@
             <l n="1286" xml:id="l1286">Capables de forcer &amp; les cœurs &amp; les armes ;</l>
             <l n="1287" xml:id="l1287" part="I">Mais vous remarquerez…</l>
           </sp>
-          <sp who="verginie">
+          <sp xml:id="acte502-3" who="verginie">
             <speaker>VERGINIE.</speaker>
             <l part="F">Camille tout va bien,</l>
             <l n="1288" xml:id="l1288">Avec Coriolan je n’aprehende rien.</l>
             <l n="1289" xml:id="l1289">Ce point seul me soulage, &amp; je suis assurée</l>
             <l n="1290" xml:id="l1290">De gouster des plaisirs d’une longue durée.</l>
           </sp>
-          <sp who="camille">
+          <sp xml:id="acte502-4" who="camille">
             <speaker>CAMILLE.</speaker>
             <l n="1291" xml:id="l1291">Non, non, vous n’aurez pas ce que vous en pensez,</l>
             <l n="1292" xml:id="l1292">L’esperance vous flatte, &amp; vous vous ofensez.</l>
@@ -3239,8 +3260,9 @@
             <l n="1295" xml:id="l1295">Mais nostre sexe est foible, &amp; vous ne songez pas</l>
             <l n="1296" xml:id="l1296">Qu’un peril l’épouvante, &amp; qu’il craint le trépas</l>
           </sp>
-          <sp who="verginie">
-            <speaker>VERGINIE.</speaker><pb n="83"/>
+          <sp xml:id="acte502-5" who="verginie">
+            <speaker>VERGINIE.</speaker>
+            <pb n="83"/>
             <l n="1297" xml:id="l1297">Sçache que de bon cœur je m’éloigne de Rome ;</l>
             <l n="1298" xml:id="l1298">J’ay les mains d’une fame, &amp; j’ay le cœur d’un homme ;</l>
             <l n="1299" xml:id="l1299">Je ne puis estre lâche en voyant devant moy</l>
@@ -3258,15 +3280,16 @@
             <l n="1311" xml:id="l1311">Que je le dois aimer, &amp; que malgré le <ref target="#sort">sort*</ref></l>
             <l n="1312" xml:id="l1312">Nous devons partager une semblable mort.</l>
           </sp>
-          <sp who="camille">
+          <sp xml:id="acte502-6" who="camille">
             <speaker>CAMILLE.</speaker>
             <l n="1313" xml:id="l1313">Madame, je le veux, je vous suy sans contrainte :</l>
             <l n="1314" xml:id="l1314">Mais pourtant ce dessein me fait trembler de crainte.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE TROISIESME.</head><pb n="84"/>
-          <sp who="aufidie">
+        <div type="scene" xml:id="acte503">
+          <head>SCENE TROISIESME.</head>
+          <pb n="84"/>
+          <sp xml:id="acte503-1" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="1315" xml:id="l1315">Observez mes amis le tout de point en point,</l>
             <l n="1316" xml:id="l1316">Cherchez-le sans tarder, &amp; ne me trompez point.</l>
@@ -3295,7 +3318,7 @@
             <l n="1339" xml:id="l1339">Et nous ne devons pas aujourd’huy negliger</l>
             <l n="1340" xml:id="l1340">Le temps de le convaincre &amp; de nous bien vanger.</l>
           </sp>
-          <sp who="lieutenant-volsque">
+          <sp xml:id="acte503-2" who="lieutenant-volsque">
             <speaker>LIEUTENANT DES VOLSQUES.</speaker>
             <l n="1341" xml:id="l1341">De tant de lâchetez ce sera la derniere.</l>
             <l n="1342" xml:id="l1342">Pour nous avoir trahis, il perdra la lumiere.</l>
@@ -3304,7 +3327,7 @@
             <l n="1345" xml:id="l1345">Le traistre perira, sa perte est conjurée<note n="328" place="bottom"> « Conspirer avec une ou plusieurs personnes pour quelque dessein qui d’ordinaire est pernicieux. En ce sens, il est parfois actif : <hi rend="i">conjurer la mort de quelqu’un</hi> » (Académie Française). Il faut donc comprendre : « sa perte a été résolue » (sous-entendu : entre nous).</note>,</l>
             <l n="1346" xml:id="l1346">Et malgré son pouvoir sa mort est assurée.</l>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte503-3" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="1347" xml:id="l1347">Je seray satisfait si vous executez</l>
             <l n="1348" xml:id="l1348">Apres un tel afront, ce que vous prométez</l>
@@ -3319,27 +3342,27 @@
             <l n="1357" xml:id="l1357">Et par des trahisons qu’il sçait mettre en pratique,</l>
             <l n="1358" xml:id="l1358">Il pouroit eviter une fin si tragique.</l>
           </sp>
-          <sp who="lieutenant-volsque">
+          <sp xml:id="acte503-4" who="lieutenant-volsque">
             <speaker>UN AUTRE LIEUTENANT des Volsques.</speaker>
             <l n="1359" xml:id="l1359">Apres sa trahison il peut bien s’excuser :</l>
             <l n="1360" xml:id="l1360">Mais il est mal-aisé* qu’il nous puisse abuser :</l>
             <l n="1361" xml:id="l1361">Outre que pour vanger nos douleurs sans pareilles,</l>
             <l n="1362" xml:id="l1362">Nous preparons nos mains, &amp; non pas nos oreilles.</l>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte503-5" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="1363" xml:id="l1363">Vangez nous donc sans peur de tant de maux passez,</l>
             <l n="1364" xml:id="l1364">L’afaire est importante, &amp; nous sommes pressez. </l>
             <l n="1365" xml:id="l1365">Courez-y sans regret, rien ne vous épouvante<note n="329" place="bottom">Le verbe est ici conjugué au subjonctif présent, et a valeur optative.</note>.</l>
           </sp>
-          <sp who="soldat-volsque">
+          <sp xml:id="acte503-6" who="soldat-volsque">
             <speaker>UN SOLDAT DES VOLSQUES.</speaker>
             <l n="1366" xml:id="l1366">Vostre ame en un moment se treuvera contente.</l>
             <l n="1367" xml:id="l1367">Nous nous pouvons vanger avec juste raison<pb n="87"/></l>
             <l n="1368" xml:id="l1368">Puis qu’on ne le punit que de sa trahison</l>
             <stage>Ils s’en vont</stage>
           </sp>
-          <sp who="aufidie">
+          <sp xml:id="acte503-7" who="aufidie">
             <speaker>AUFIDIE.</speaker>
             <l n="1369" xml:id="l1369">Ne desesperons plus puis qu’on vange Aufidie</l>
             <l n="1370" xml:id="l1370">Du lâche &amp; traistre autheur de cette perfidie.</l>
@@ -3349,9 +3372,10 @@
             <l n="1374" xml:id="l1374">Aussi couvert de sang qu’il nous couvre de honte.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE QUATRIESME.</head><pb n="88"/>
-          <sp who="coriolan">
+        <div type="scene" xml:id="acte504">
+          <head>SCENE QUATRIESME.</head>
+          <pb n="88"/>
+          <sp xml:id="acte504-1" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="1375" xml:id="l1375">Fais ce que je te dis si tu veux m’<ref target="#obliger3">obliger*</ref>,</l>
             <l n="1376" xml:id="l1376">C’est toy seul desormais qui me dois soulager :</l>
@@ -3360,7 +3384,7 @@
             <l n="1379" xml:id="l1379">Jure luy de ma part que son éloignement</l>
             <l n="1380" xml:id="l1380">Retarde mon départ &amp; mon contentement.</l>
           </sp>
-          <sp who="sancine">
+          <sp xml:id="acte504-2" who="sancine">
             <speaker>SANCINE.</speaker>
             <l n="1381" xml:id="l1381">Que son éloignement aujourd’huy vous retarde :</l>
             <l n="1382" xml:id="l1382">Mais voyez s’il vous plaist un point qui vous regarde ;</l>
@@ -3399,22 +3423,23 @@
             <l n="1415" xml:id="l1415">Et qu’enpruntant les bras de tous nos ennemis</l>
             <l n="1416" xml:id="l1416">Vous feriez pour le moins ce qui leur fut promis,</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte504-3" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="1417" xml:id="l1417">Va, cours, parle à ma fame, &amp; si tu me l’ameines</l>
             <l n="1418" xml:id="l1418">Tu te pouras vanter d’avoir finy mes peines.</l>
             <l n="1419" xml:id="l1419">Si tu veux m’<ref target="#obliger3">obliger*</ref> tu n’as rien qu’à courir,</l>
             <l n="1420" xml:id="l1420">Et tu n’as qu’à tarder pour me faire mourir.</l>
           </sp>
-          <sp who="sancine">
+          <sp xml:id="acte504-4" who="sancine">
             <speaker>SANCINE.</speaker>
             <l n="1421" xml:id="l1421">J’ay suivy vos desseins sans regret &amp; sans crainte,</l>
             <l n="1422" xml:id="l1422">Et je vous obeïs encore sans contrainte.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE CINQUIESME.</head><pb n="91"/>
-          <sp who="coriolan">
+        <div type="scene" xml:id="acte505">
+          <head>SCENE CINQUIESME.</head>
+          <pb n="91"/>
+          <sp xml:id="acte505-1" who="coriolan">
             <speaker>CORIOLAN.</speaker>
             <l n="1423" xml:id="l1423">Il est vray que j’ay tort, &amp; je dois l’advouër,</l>
             <l n="1424" xml:id="l1424"><ref target="#obliger3">Obligeant*</ref> des ingrats on ne m’en peut loüer.</l>
@@ -3432,9 +3457,10 @@
             <l n="1436" xml:id="l1436">D’avoir servy des gens qui m’avoient <ref target="#irriter1">irrité*</ref><note n="332" place="bottom">Comprendre : « Et je serai trop aimé par la postérité pour avoir servi des gens qui m’avaient mis en colère. »</note>.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE SIXIESME.</head><pb n="92"/>
-          <sp who="lieutenant-volsque">
+        <div type="scene" xml:id="acte506">
+          <head>SCENE SIXIESME.</head>
+          <pb n="92"/>
+          <sp xml:id="acte506-1" who="lieutenant-volsque">
             <speaker>UN LIEUTENANT des Volsques.</speaker>
             <l n="1437" xml:id="l1437">Il est tout à propos, nostre <ref target="#entreprise">entreprise*</ref> est belle</l>
             <l n="1438" xml:id="l1438">Suivez moy seulement je vous seray <ref target="#fidelle1">fidelle*</ref>,</l>
@@ -3448,14 +3474,15 @@
             <l n="1446" xml:id="l1446">Ne luy donnons pas lieu d’épreuver son courage.</l>
             <l n="1447" xml:id="l1447">Ah traistre ! tu mourras, c’est un arrest* du <ref target="#sort">sort*</ref>.</l>
           </sp>
-          <sp who="coriolan">
+          <sp xml:id="acte506-2" who="coriolan">
             <speaker>CORIOLAN</speaker>
             <stage>en tombant.</stage>
             <stage>Ils se jettent sür Coriolan</stage>
             <l n="1448" xml:id="l1448">O Dieux ! je suis blessé, je tombe, je suis mort !</l>
           </sp>
-          <sp who="soldat-volsque">
-            <speaker>UN VOLSQUE.</speaker><pb n="93"/>
+          <sp xml:id="acte506-3" who="soldat-volsque">
+            <speaker>UN VOLSQUE.</speaker>
+            <pb n="93"/>
             <l n="1449" xml:id="l1449">Encore un coup, perfide ; il est mort l’<ref target="#infidelle">infidelle*</ref>,</l>
             <l n="1450" xml:id="l1450">L’Enfer va recevoir son ame criminelle.</l>
             <l n="1451" xml:id="l1451">Mais ne demeurons pas davantage en ces lieux</l>
@@ -3464,25 +3491,26 @@
             <l n="1454" xml:id="l1454">Et la fuitte pour nous est icy la meilleure.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte507">
           <head>SCENE SEPTIESME.</head>
-          <sp who="verginie">
+          <sp xml:id="acte507-1" who="verginie">
             <speaker>VERGINIE.</speaker>
             <l n="1455" xml:id="l1455">Camille attens moy là, je reviens prontement,</l>
             <l n="1456" xml:id="l1456">Afin de luy parler je ne veux qu’un moment ;</l>
             <l n="1457" xml:id="l1457">Et lors tu connétras jusqu’où va ma <ref target="#franc">franchise*</ref>,</l>
             <l n="1458" xml:id="l1458">Et jusqu’où peut aller toute nostre <ref target="#entreprise">entreprise*</ref>.</l>
           </sp>
-          <sp who="camille">
-            <speaker>CAMILLE.</speaker><pb n="94"/>
+          <sp xml:id="acte507-2" who="camille">
+            <speaker>CAMILLE.</speaker>
+            <pb n="94"/>
             <l n="1459" xml:id="l1459">Je vous attens, Madame, il faut vous obeïr :</l>
             <l n="1460" xml:id="l1460">Mais songez apres tout à ne vous pas trahir.</l>
             <stage>Camille rentre<note n="334" place="bottom"><hi rend="i">Rentrer</hi> signifie ici « sortir de scène ».</note> derriere le Theatre</stage>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="acte508">
           <head>SCENE DERNIERE.</head>
-          <sp who="verginie">
+          <sp xml:id="acte508-1" who="verginie">
             <speaker>VERGINIE.</speaker>
             <l n="1461" xml:id="l1461">L’amour, Coriolan, me force de<note n="335" place="bottom">Voir note vers 26.</note> te suivre,</l>
             <l n="1462" xml:id="l1462">Puisque le Ciel sans toy ne me peut faire vivre.</l>
@@ -3965,7 +3993,8 @@
         <pb n="N"/>
         <head>Annexe nº 1 : Œuvres diverses</head>
         <div>
-          <head>A <lb/>MONSEIGNEUR <lb/>L’EMINENTISSIME <lb/>CARDINAL DUC <lb/>DE RICHELIEU <lb/>* <lb/>ODE <lb/>*</head><pb n="99"/>
+          <head>A <lb/>MONSEIGNEUR <lb/>L’EMINENTISSIME <lb/>CARDINAL DUC <lb/>DE RICHELIEU <lb/>* <lb/>ODE <lb/>*</head>
+          <pb n="99"/>
           <quote>
             <lg>
               <l>Quand la France connoit vostre fidelité</l>
@@ -4100,7 +4129,8 @@
           </quote>
         </div>
         <div>
-          <head>A MADAME <lb/>LA DUCHESSE <lb/>DE LORRAINE. <lb/>* <lb/>STANCES <lb/>*</head><pb n="104"/>
+          <head>A MADAME <lb/>LA DUCHESSE <lb/>DE LORRAINE. <lb/>* <lb/>STANCES <lb/>*</head>
+          <pb n="104"/>
           <quote>
             <lg>
               <l>Adorable Princesse, objet de mille cœurs</l>
@@ -4218,7 +4248,8 @@
           </quote>
         </div>
         <div>
-          <head>MADRIGAL.</head><pb n="109"/>
+          <head>MADRIGAL.</head>
+          <pb n="109"/>
           <quote>
             <l>Alors qu’un objet de merite</l>
             <l>Se vient presenter à mes yeux,</l>
@@ -4285,7 +4316,8 @@
           </quote>
         </div>
         <div>
-          <head>RONDEAU.</head><pb n="111"/>
+          <head>RONDEAU.</head>
+          <pb n="111"/>
           <quote>
             <lg>
               <l>Elle a tout fait le mal que je ressens,</l>
@@ -4311,7 +4343,8 @@
           </quote>
         </div>
         <div>
-          <head>POUR UN PORTRAIT.  <lb/>* <lb/>SONNET <lb/>*</head><pb n="112"/>
+          <head>POUR UN PORTRAIT.  <lb/>* <lb/>SONNET <lb/>*</head>
+          <pb n="112"/>
           <quote>
             <lg>
               <l>Ha ‘Peintre que ton huile entretient bien ma flamme !</l>

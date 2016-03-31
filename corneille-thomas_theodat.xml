@@ -442,13 +442,13 @@
           </castItem>
         </castList>
       </div>
-      <div type="act">
+      <div xml:id="I" type="act">
         <pb n="1"/>
         <head>ACTE PREMIER</head>
-        <div type="scene">
+        <div type="scene" xml:id="I01">
           <head>SCENE PREMIERE</head>
           <stage>THEODAT, EUTHAR.</stage>
-          <sp who="euthar">
+          <sp xml:id="I01-1" who="euthar">
             <speaker>EUTHAR.</speaker>
             <l n="1" xml:id="l1">Du <ref target="#trouble">trouble*</ref> où je vous voy, Seigneur, que puis-je croire ?</l>
             <l n="2" xml:id="l2">Il n’est rien dont l’<ref target="#eclat">éclat*</ref> ne cede à vostre <ref target="#gloire">gloire*</ref>;</l>
@@ -462,7 +462,7 @@
             <l n="10" xml:id="l10">De tout ce grand pouvoir ne soit pas satisfaite,</l>
             <l n="11" xml:id="l11">Que la Fortune avare ait trop peu fait pour vous ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I01-2" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="12" xml:id="l12">Elle répand sur moy ce qu’elle a de plus doux,</l>
             <l n="13" xml:id="l13">Je m’en plaindrois à tort ; quelque faveur nouvelle</l>
@@ -481,12 +481,12 @@
             <l n="26" xml:id="l26">Je n’ay qu’à m’enhardir, &amp; parler d’hymenée.</l>
             <l n="27" xml:id="l27">Voy par là si mon sort doit faire des Jalous.</l>
           </sp>
-          <sp who="euthar">
+          <sp xml:id="I01-3" who="euthar">
             <speaker>EUTHAR.</speaker>
             <l n="28" xml:id="l28">La Reyne vous estime, &amp; fera tout pour vous,</l>
             <l n="29" xml:id="l29">Son cœur à vostre amour ne chercher qu’à se rendre.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I01-4" who="theodat">
             <speaker>THEODAT .</speaker>
             <l n="30" xml:id="l30">Je n’en sçaurois douter, si je la veux entendre,</l>
             <l n="31" xml:id="l31">Elle n’en dit que trop ; mais plus que ses discours,</l>
@@ -496,7 +496,7 @@
             <l n="35" xml:id="l35">Et de chercher toûjours à me faire un secret<note n="51" place="bottom"> Faire toujours semblant de ne pas voir l’amour qu’elle cache difficilement. « Secret » se prononce  « segret » pour rimer avec « regret ».</note></l>
             <l n="36" xml:id="l36">D’un amour que je voy qu’elle étoufe à regret.</l>
           </sp>
-          <sp who="euthar">
+          <sp xml:id="I01-5" who="euthar">
             <speaker>EUTHAR .</speaker>
             <l n="37" xml:id="l37">Je ne conçois pas bien quel scrupule vous <ref target="#gesner">gesne*</ref>,<pb n="3"/></l>
             <l n="38" xml:id="l38">Quand vous n’osez répondre aux faveurs de la Reyne.</l>
@@ -511,7 +511,7 @@
             <l n="47" xml:id="l47">Vouloir que cet amour s’explique jusqu’au bout,</l>
             <l n="48" xml:id="l48">C’est outrager la Reyne à qui vous devez tout.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I01-6" who="theodat">
             <speaker>THEODAT .</speaker>
             <l n="49" xml:id="l49">La Reyne a des <ref target="#bontez">bontez*</ref> dont je ne suis point digne.</l>
             <l n="50" xml:id="l50">Pour elle quelquefois ma <ref target="#gloire">gloire*</ref> s’en indigne,<note n="52" place="bottom">Il a quelque fois honte de son attitude envers la reine. </note></l>
@@ -519,7 +519,7 @@
             <l n="52" xml:id="l52">Que je meriteray les biens que j’en reçoy ;</l>
             <l n="53" xml:id="l53">Un peu d’effort me rend la victoire certaine.</l>
           </sp>
-          <sp who="euthar">
+          <sp xml:id="I01-7" who="euthar">
             <speaker>EUTHAR .</speaker>
             <l n="54" xml:id="l54">C’est à vous d’y penser, vous connoissez la Reyne.</l>
             <l n="55" xml:id="l55">Sur le plus foible outrage elle croit que son rang</l>
@@ -527,12 +527,12 @@
             <l n="57" xml:id="l57">Et lors que vostre espoir sur ses <ref target="#bontez">bontez*</ref> se fonde,</l>
             <l n="58" xml:id="l58" part="I">Je craindrois…</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I01-8" who="theodat">
             <speaker>THEODAT .</speaker>
             <l part="F">Honoric voit souvent Ildegonde.</l>
             <l n="59" xml:id="l59">Crois-tu qu’il reüssisse, &amp; qu’il en soit aimé ?</l>
           </sp>
-          <sp who="euthar">
+          <sp xml:id="I01-9" who="euthar">
             <speaker>EUTHAR .</speaker>
             <l n="60" xml:id="l60">J’ignore entr’eux, Seigneur, quel amour s’est formé ;</l>
             <l n="61" xml:id="l61">Il luy rend quelques soins; mais quoy qu’il en puisse estre,</l>
@@ -540,7 +540,7 @@
             <l n="63" xml:id="l63">Par l’hymen de la Reyne il vous aura pour Roy,</l>
             <l n="64" xml:id="l64" part="I">Et la Princesse en vain…</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I01-10" who="theodat">
             <speaker>THEODAT .</speaker>
             <l part="F">Moy ? la contraindre, moy ?<pb n="4"/></l>
             <l n="65" xml:id="l65">Non, Euthar, elle peut, sans que j’y mette obstacle,</l>
@@ -553,13 +553,13 @@
             <l n="72" xml:id="l72">Me doit trop consoler de ses honteux mépris.</l>
             <l n="73" xml:id="l73">S’il t’en souvient, Euthar, qu’ils ont eu d’injustice !</l>
           </sp>
-          <sp who="euthar">
+          <sp xml:id="I01-11" who="euthar">
             <speaker>EUTHAR .</speaker>
             <l n="74" xml:id="l74">Ildegonde sans doute a trop crû son caprice ;</l>
             <l n="75" xml:id="l75">Et ce tendre <ref target="#respect">respect*</ref> qui soûtenoit vos vœux,</l>
             <l n="76" xml:id="l76">Meritoit aupres d’elle un succés plus heureux.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I01-12" who="theodat">
             <speaker>THEODAT .</speaker>
             <l n="77" xml:id="l77">Encor<note n="54" place="bottom">« encor », l’absence de « e » final, est une licence orthographique courante pour des raisons prosodiques. Il signifie « si au moins ». </note> si dans le temps que mon ame charmée<note n="55" place="bottom">Du temps où j’étais sous son charme. </note></l>
             <l n="78" xml:id="l78">Luy marquoit tant d’amour, Honoric l’eust aimée,</l>
@@ -571,13 +571,13 @@
             <l n="84" xml:id="l84">Se faire une <ref target="#vertu">vertu*</ref> de dédaigner ma <ref target="#foy">foy*</ref> !</l>
             <l n="85" xml:id="l85">C’est, quand je l’examine , un si cruel outrage …</l>
           </sp>
-          <sp who="euthar">
+          <sp xml:id="I01-13" who="euthar">
             <speaker>EUTHAR .</speaker>
             <l n="86" xml:id="l86">L’espérance du Trône est un grand <ref target="#avantage">avantage*</ref>.</l>
             <l n="87" xml:id="l87">Regnez, dans ce haut rang il vous sera bien doux</l>
             <l n="88" xml:id="l88">De punir les mépris qu’Ildegonde eut pour vous.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I01-14" who="theodat">
             <speaker>THEODAT .</speaker>
             <l n="89" xml:id="l89">Oüy, sans me souvenir de l’avoir adorée,</l>
             <l n="90" xml:id="l90">Quand la Reyne avec moy se sera declarée,</l>
@@ -590,14 +590,14 @@
             <l n="97" xml:id="l97">Cent reproches sanglans pour confondre l’Ingrate …</l>
             <l n="98" xml:id="l98" part="I">Quel triomphe !</l>
           </sp>
-          <sp who="euthar">
+          <sp xml:id="I01-15" who="euthar">
             <speaker>EUTHAR .</speaker>
             <l part="F">L’image en est douce, &amp; vous flate ;</l>
             <l n="99" xml:id="l99">Mais quelque <ref target="#fier">fier*</ref> couroux qu’on pense mettre au jour,</l>
             <l n="100" xml:id="l100">Les reproches souvent sont des restes d’amour.</l>
             <l n="101" xml:id="l101">Qui se plaint, s’adoucit, &amp; voudroit des excuses.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I01-16" who="theodat">
             <speaker>THEODAT .</speaker>
             <l n="102" xml:id="l102">Je l’aimerois encor ! Non, Euthar, tu t’abuses.</l>
             <l n="103" xml:id="l103">Je ne le <ref target="#celer">cele*</ref> point ; avant que sa <ref target="#fierte2">fierté*</ref></l>
@@ -623,13 +623,13 @@
             <l n="123" xml:id="l123">Et loin de s’offencer que j’aye éteint mes feux,<pb n="6"/></l>
             <l n="124" xml:id="l124">Honoric parle, s’ofre, elle accepte ses vœux.</l>
           </sp>
-          <sp who="euthar">
+          <sp xml:id="I01-17" who="euthar">
             <speaker>EUTHAR .</speaker>
             <l n="125" xml:id="l125">C’est ce qui doit, Seigneur, apres son arrogance</l>
             <l n="126" xml:id="l126">Vous obliger pour elle à plus d’indifférence.</l>
             <l n="127" xml:id="l127">Honoric, Trasimond<note n="57" place="bottom">Trasimond, historiquement, était un roi Vandale. Dans la pièce il est un personnage toujours absent de la scène, un ami de Theodat, dont Amalasonte aurait fait assassiner le père. </note>, tout choix vous est égal.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I01-18" who="theodat">
             <speaker>THEODAT .</speaker>
             <l n="128" xml:id="l128">Mais, Euthar, c’est toûjours me donner un Rival.</l>
             <l n="129" xml:id="l129">Au moins si ce mépris qui me fut si <ref target="#sensible">sensible*</ref></l>
@@ -638,7 +638,7 @@
             <l n="132" xml:id="l132">Que le Ciel l’auroit fait incapapble d’aimer.</l>
             <l n="133" xml:id="l133" part="I">Mais Honoric …</l>
           </sp>
-          <sp who="euthar">
+          <sp xml:id="I01-19" who="euthar">
             <speaker>EUTHAR .</speaker>
             <l part="F">Seigneur, je croiray pour vous plaire,</l>
             <l n="134" xml:id="l134">Que vous conserverez toute vostre colere ;</l>
@@ -648,7 +648,7 @@
             <l n="138" xml:id="l138">Comment vous assurer de l’amour de la Reyne ?</l>
             <l n="139" xml:id="l139">Vous pourrez-vous contraindre à meriter son choix ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I01-20" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="140" xml:id="l140">Il faut te l’avoüer, j’en tremble quelquefois ;</l>
             <l n="141" xml:id="l141">Et s’il falloit si-tost disposer de moy-mesme,</l>
@@ -658,17 +658,18 @@
             <l n="145" xml:id="l145">Ma raison sur mes sens reprendra son <ref target="#empire">empire*</ref>,</l>
             <l n="146" xml:id="l146" part="I">Et le temps qui peut tout…</l>
           </sp>
-          <sp who="euthar">
+          <sp xml:id="I01-21" who="euthar">
             <speaker>EUTHAR .</speaker>
             <l part="F">Seigneur, je me retire ;</l>
             <l n="147" xml:id="l147"> Quoy que peut-estre icy je fusse peu suspect,</l>
             <l n="148" xml:id="l148"> La Reyne qui paroist m’oblige à ce <ref target="#respect">respect*</ref>.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE II</head><pb n="7"/>
+        <div type="scene" xml:id="I02">
+          <head>SCENE II</head>
+          <pb n="7"/>
           <stage>AMALASONTE, THEODAT, GEPILDE</stage>
-          <sp who="amalasonte">
+          <sp xml:id="I02-1" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="149" xml:id="l149">Enfin Justinian<note n="58" place="bottom">Justinien I<hi rend="sup">er</hi>  (482-565) empereur byzantin, ennemi de la reine Amalasonte. Il régna sur Constantinople à partir de 519. Il entreprit la reconquête de l’Occident en 526, l’année de la fin du règne de Théodoric I<hi rend="sup">er</hi>, père d’Amaladonte. Cette guerre dura vingt-neuf ans. Elle s’acheva par la défaite du royaume des Ostrogths, et la reconquête byzantine en 555.</note> n’a pû voir sans <ref target="#alarmes">alarmes*</ref></l>
             <l n="150" xml:id="l150">L’effroy qu’ont pris les Siens du succès de nos armes ;</l>
@@ -683,7 +684,7 @@
             <l n="159" xml:id="l159">Mais quand chacun vous doit son repos le plus doux,</l>
             <l n="160" xml:id="l160">Sçavez-vous, Théodat, que je me plains de vous ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I02-2" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="161" xml:id="l161">De moy , Madame ? En quoy, pour vous estre fidelle,</l>
             <l n="162" xml:id="l162">Aurois-je pû manquer &amp; d’ardeur &amp; de <ref target="#zele">zele*</ref> ?</l>
@@ -692,7 +693,7 @@
             <l n="165" xml:id="l165">M’a-t-on veu reculer, ou d’une ame contrainte</l>
             <l n="166" xml:id="l166" part="I">Chercher dans le péril…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="I02-3" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Ce n’est pas là ma plainte.</l>
             <l n="167" xml:id="l167">Vostre sang m’est d’un prix à qui tout doit ceder,</l>
@@ -706,7 +707,7 @@
             <l n="175" xml:id="l175">Et vous croyez vous estre assez bien acquité</l>
             <l n="176" xml:id="l176">De tout ce que de vous mes soins ont merité ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I02-4" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="177" xml:id="l177">Par quel aveuglement pourrois-je le pretendre ?</l>
             <l n="178" xml:id="l178">Quoy que jamais pour vous ma <ref target="#foy">foy*</ref> puisse entreprendre,</l>
@@ -716,13 +717,13 @@
             <l n="182" xml:id="l182">Mais, Madame, que peut un Sujet pour sa Reyne ?</l>
             <l n="183" xml:id="l183">Il doit tout ce qu’il fait, &amp; par là ne fait rien<note n="63" place="bottom">Tout ce qu’il fait pour sa reine est normal, c’est comme s’il ne prenait aucune initiative pour faire ce qu’il lui doit.</note>.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="I02-5" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="184" xml:id="l184">Qui cherche à s’acquiter, en trouve le moyen ;</l>
             <l n="185" xml:id="l185">Et quoy que les Sujets des Souverains reçoivent,</l>
             <l n="186" xml:id="l186">Il ne faut que le cœur pour payer ce qu’ils doivent.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I02-6" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="187" xml:id="l187">Ah , si le cœur<note n="64" place="bottom">La reine emploi le mot « cœur » au sens d’amour, alors que lui feint de comprendre « cœur » au sens de « courage ».</note> suffit, dans ce que je vous doy</l>
             <l n="188" xml:id="l188">Vous n’avez pas sujet de vous plaindre de moy.</l>
@@ -732,7 +733,7 @@
             <l n="192" xml:id="l192">Qu’attendiez-vous de plus qu’un <ref target="#zele">zele*</ref> si parfait ?</l>
             <l n="193" xml:id="l193">Qu’un <ref target="#zele">zele*</ref> à qui pour vous rien ne sçauroit suffire ?</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="I02-7" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="194" xml:id="l194">Je suis <ref target="#fier">fiere*</ref>, gardez<note n="65" place="bottom">Forme non pronominale, impératif. </note> de me le faire dire.</l>
             <l n="195" xml:id="l195">Si j’avois expliqué ce qui m’a fait agir,</l>
@@ -746,7 +747,7 @@
             <l n="203" xml:id="l203">Theodat, pense-t-il qu’au rang où je le mets,</l>
             <l n="204" xml:id="l204">Sur son merite seul je regle mes bienfaits ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I02-8" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="205" xml:id="l205">Moy, Madame, j’aurois un orgueil si coupable ?</l>
             <l n="206" xml:id="l206">Jugez mieux de mon cœur, il n’en est point capable.</l>
@@ -760,7 +761,7 @@
             <l n="214" xml:id="l214">Quelle autre cause eust pû m’attirer tant de <ref target="#gloire">gloire*</ref>,</l>
             <l n="215" xml:id="l215">Vous faire à mes <ref target="#conseil2">conseils*</ref> confier vos Estats<note n="66" place="bottom">Vous poussez à me confier la responsabilité de vos Etats (de votre royaume).</note> ?</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="I02-9" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="216" xml:id="l216">Puis que vous l’ignorez, elle ne vous plaist pas<note n="67" place="bottom">S’il ne comprend pas, c’est qu’il ne partage pas ses sentiments.</note>.</l>
             <l n="217" xml:id="l217">Tout autre pénétrant le chagrin qui m’emporte,</l>
@@ -777,14 +778,14 @@
             <l n="228" xml:id="l228">Qui donnent sans reserve, &amp; je les puis avoir.</l>
             <l n="229" xml:id="l229" part="I">Ce sont eux que tout autre…</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I02-10" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Ah, j’en connois, Madame,<pb n="10"/></l>
             <l n="230" xml:id="l230">Que je voudrois oser découvrir dans vostre ame ;</l>
             <l n="231" xml:id="l231">Mais prest à les chercher, je m’arreste, &amp; je crains,</l>
             <l n="232" xml:id="l232" part="I">Mon <ref target="#respect">respect*</ref> qui s’<ref target="#etonner">étonne*</ref>…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="I02-11" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Et c’est dont je me plains.</l>
             <l n="233" xml:id="l233">Oüy, je prens pour affront ce <ref target="#respect">respect*</ref> trop <ref target="#timide">timide*</ref>,</l>
@@ -800,7 +801,7 @@
             <l n="243" xml:id="l243">Le temps pour vous guerir est un foible secours,</l>
             <l n="244" xml:id="l244">Et malgré ses mépris, vous l’adorez toûjours.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I02-12" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="245" xml:id="l245">Ah, ne le pensez point ; d’abord, je le confesse,</l>
             <l n="246" xml:id="l246">Je sentis quelque peine à vaincre ma foiblesse,</l>
@@ -815,14 +816,14 @@
             <l n="255" xml:id="l255">Et montre par ce choix qu’elle fait vanité<note n="73" place="bottom">Elle s’enorgueillit.</note></l>
             <l n="256" xml:id="l256">De m’avoir jugé seul digne de sa <ref target="#fierte2">fierté*</ref>.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="I02-13" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="257" xml:id="l257">L’éclat* en fut injuste, &amp; je l’en ay blâmée ;<pb n="11"/></l>
             <l n="258" xml:id="l258">Mais puis que cet amour vous tient l’ame alarmée,</l>
             <l n="259" xml:id="l259">Pour vanger vostre <ref target="#gloire">gloire*</ref>, allez, je vous promets</l>
             <l n="260" xml:id="l260">Qu’Honoric, quoy qu’aimé, ne l’obtiendra jamais.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="I02-14" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="261" xml:id="l261">Non, Madame, il ne faut repousser cette offence</l>
             <l n="262" xml:id="l262">Que par le froid mépris qui suit l’indifférence.</l>
@@ -836,7 +837,7 @@
             <l n="270" xml:id="l270">Qu’adorant ses <ref target="#bontez">bontez*</ref>, je m’en sens l’ame pleine,</l>
             <l n="271" xml:id="l271">Que pour les meriter il n’est ny vœux ny soins…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="I02-15" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="272" xml:id="l272">Le cœur contre soy-mesme a de secrets témoins<note n="75" place="bottom">Vers inspiré d’<hi rend="i">Andromaque</hi>, acte IV, scène 5 : « Et mon Cœur soulevant mille secrets témoins, » v. 1315, dans l’édition de G. Forestier, ou v. 1307 dans les autres éditions.</note>,</l>
             <l n="273" xml:id="l273">Vous les consulterez, &amp; me ferez connoistre</l>
@@ -850,10 +851,11 @@
             <l n="281" xml:id="l281" part="I">Laissez-moy seule.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE III</head><pb n="12"/>
+        <div type="scene" xml:id="I03">
+          <head>SCENE III</head>
+          <pb n="12"/>
           <stage>AMALASONTE, GEPILDE.</stage>
-          <sp who="gepilde">
+          <sp xml:id="I03-1" who="gepilde">
             <speaker>GEPILDE.</speaker>
             <l part="F">Enfin vous le voyez, Madame ;</l>
             <l n="282" xml:id="l282">Mieux que vous ne pensiez j’avois leu dans son ame,</l>
@@ -861,18 +863,18 @@
             <l n="284" xml:id="l284">N’aspiroient qu’à pouvoir se déclarer pour vous.</l>
             <l n="285" xml:id="l285">Que de <ref target="#charmes">charmes*</ref> pour luy dans ce surcroist de <ref target="#gloire">gloire*</ref> !</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="I03-2" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="286" xml:id="l286">Il m’aime ! Ah, comme toy que ne le puis-je croire !</l>
             <l n="287" xml:id="l287">La peur d’estre exposée aux plus mortels <ref target="#ennuy">ennuis*</ref>,</l>
             <l n="288" xml:id="l288">Ne me jetteroit pas dans le <ref target="#trouble">trouble*</ref> où je suis.</l>
           </sp>
-          <sp who="gepilde">
+          <sp xml:id="I03-3" who="gepilde">
             <speaker>GEPILDE.</speaker>
             <l n="289" xml:id="l289">Un pur <ref target="#zele">zele*</ref> pour vous est tout ce qu’il écoute,</l>
             <l n="290" xml:id="l290" part="I">Et vous voulez douter que son cœur…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="I03-4" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Oüy, j’en doute.</l>
             <l n="291" xml:id="l291">En vain ma passion cherche à me <ref target="#decevoir">décevoir*</ref>,</l>
@@ -882,14 +884,14 @@
             <l n="295" xml:id="l295">C’est moy qui le mandie, &amp; dont l’abaissement</l>
             <l n="296" xml:id="l296">Peut-estre malgré luy me l’acquiert pour Amant.</l>
           </sp>
-          <sp who="gepilde">
+          <sp xml:id="I03-5" who="gepilde">
             <speaker>GEPILDE.</speaker>
             <l n="297" xml:id="l297">Blâmez-en vostre rang, dont l’orgueil tyrannique</l>
             <l n="298" xml:id="l298">Empesche qu’en aimant un Sujet ne s’explique,</l>
             <l n="299" xml:id="l299">Et qui par son <ref target="#eclat">éclat*</ref> luy rendant tout suspect,</l>
             <l n="300" xml:id="l300">Dés qu’il cherche à parler, l’<ref target="#immoler">immole*</ref> à son <ref target="#respect">respect*</ref><note n="76" place="bottom">C’est le respect qu’il doit à la reine qui l’empêche de se déclarer.</note>.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="I03-6" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="301" xml:id="l301">Ah, le <ref target="#respect">respect*</ref> n’est point un tyran si severe,<pb n="13"/></l>
             <l n="302" xml:id="l302">Ou si l’on en reçoit quelque ordre de se taire,</l>
@@ -934,7 +936,7 @@
             <l n="341" xml:id="l341">Theudis<note n="85" place="bottom">Comme Trasimond, il est toujours absent de la scène. Theudis était historiquement un roi Wisigoth, ostrogoth d’origine.</note> s’en plaint encor, Trasimond en murmure,</l>
             <l n="342" xml:id="l342">Et Theodat sçait trop que <ref target="#sensible">sensible*</ref> à l’injure …</l>
           </sp>
-          <sp who="gepilde">
+          <sp xml:id="I03-7" who="gepilde">
             <speaker>GEPILDE.</speaker>
             <l n="343" xml:id="l343">Mais, Madame, sur quoy soupçonner Theodat</l>
             <l n="344" xml:id="l344">De pouvoir se résoudre à devenir ingrat ?</l>
@@ -948,7 +950,7 @@
             <l n="352" xml:id="l352">Il vous porte luy-mesme à couronner ses vœux,</l>
             <l n="353" xml:id="l353">Pour vous marquer sa <ref target="#foy">foy*</ref> que pouvoit-il plus faire ?</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="I03-8" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="354" xml:id="l354">L’indifférence est forte, &amp; n’a pû me déplaire,</l>
             <l n="355" xml:id="l355">Elle offre quelque calme à mon espoir flotant ;</l>
@@ -961,13 +963,13 @@
           <label>Fin du Premier Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="II" type="act">
         <pb n="15"/>
         <head>ACTE II</head>
-        <div type="scene">
+        <div type="scene" xml:id="II01">
           <head>SCENE PREMIERE</head>
           <stage>ILDEGONDE, VALMIRE.</stage>
-          <sp who="valmire">
+          <sp xml:id="II01-1" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="361" xml:id="l361">Ce pouvoir absolu que la Reyne luy donne,</l>
             <l n="362" xml:id="l362">Permet peu de douter qu’elle ne le couronne,</l>
@@ -978,85 +980,85 @@
             <l n="367" xml:id="l367">Il est aimé du Peuple, &amp; tous à haute voix</l>
             <l n="368" xml:id="l368">Semblent briguer pour luy la <ref target="#gloire">gloire*</ref> de ce choix.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-2" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="369" xml:id="l369">Theodat est heureux, d’avoir tant de suffrages.</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-3" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="370" xml:id="l370">La valeur confirmée a de grands <ref target="#avantage">avantages*</ref> ;</l>
             <l n="371" xml:id="l371">Et le Trône n’est pas un prix trop haut pour luy,</l>
             <l n="372" xml:id="l372">Quand relevant sa chute, il s’en montre l’appuy<note n="88" place="bottom">C’est Theodat qui est l’appui du trône, c’est lui qui a empêché sa chute, il n’est donc pas un prix trop haut pour l’homme qui l’a sauvé.  Il mérite bien le titre de roi.</note>.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-4" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="373" xml:id="l373">Et sur ce grand Hymen dont chacun est en peine<note n="89" place="bottom">« Peine » est à lire dans le sens de « souci ». </note>,<pb n="16"/></l>
             <l n="374" xml:id="l374">Dit-on que Theodat ait fort pressé la Reyne ?</l>
             <l n="375" xml:id="l375">Qu’il trouve en sa beauté de si puissans appas ?</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-5" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="376" xml:id="l376">Il luy rend trop de soins, pour ne le croire pas.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-6" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="377" xml:id="l377" part="I">Il en est donc <ref target="#charmer">charmé*</ref> ?</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-7" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l part="F">Du moins il le doit estre.</l>
             <l n="378" xml:id="l378">Mais quelle inquietude en faites-vous paroistre ?</l>
             <l n="379" xml:id="l379">Croyez-vous qu’à la Reyne un tel choix soit honteux ?</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-8" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="380" xml:id="l380">Pourquoy ? N’est-elle pas maistresse de ses vœux ?</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-9" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="381" xml:id="l381">Il semble cependant que vostre cœur <ref target="#soupirer">soûpire*</ref> ?</l>
             <l n="382" xml:id="l382" part="I">Apprenez-m’en la cause.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-10" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">Et comment te la dire,</l>
             <l n="383" xml:id="l383">Puis que loin qu’avec toy j’ose me déclarer,</l>
             <l n="384" xml:id="l384">Moy-mesme, s’il se peut, je la veux ignorer ?</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-11" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="385" xml:id="l385">Quoy que vous vous taisiez, je voy ce qui vous <ref target="#gesner">gesne*</ref> ;</l>
             <l n="386" xml:id="l386">Jamais pour Theodat vous n’avez eu que haine,</l>
             <l n="387" xml:id="l387">Et cette aversion vous fait voir à regret</l>
             <l n="388" xml:id="l388">L’<ref target="#eclat">éclat*</ref> brillant du rang où ce grand choix le met.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-12" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="389" xml:id="l389">Un pareil sentiment te paroist condamnable ?</l>
             <l n="390" xml:id="l390">Plût au Ciel cependant que j’en fusse capable !</l>
             <l n="391" xml:id="l391">Je sentirois bien moins la rigueur de ce choix,</l>
             <l n="392" xml:id="l392">Si je le haïssois autant que tu le crois.</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-13" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="393" xml:id="l393">Du moins c’est par mépris que d’une ame jalouse</l>
             <l n="394" xml:id="l394">Vous voyez aujourd’huy que la Reyne l’épouse,</l>
             <l n="395" xml:id="l395">Puis que de son amour la plus soûmise ardeur<pb n="17"/></l>
             <l n="396" xml:id="l396">N’eut jamais le pouvoir de toucher vostre cœur.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-14" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="397" xml:id="l397">Si dans ses vœux offerts, la <ref target="#fierte1">fierté*</ref> qui me dompte…</l>
             <l n="398" xml:id="l398">Mais comment me résoudre à t’expliquer ma honte ?</l>
             <l n="399" xml:id="l399">Et que penseras-tu, si l’<ref target="#ennuy">ennuy*</ref> qui m’abat</l>
             <l n="400" xml:id="l400">Vient,<note n="90" place="bottom">Cette virgule est expressément destinée à marquer une suspension avant l’aveu inattendu.</note> de me voir réduite à ceder Theodat ?</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-15" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="401" xml:id="l401">Theodat vous plairoit luy qui sous vostre <ref target="#empire">empire*</ref></l>
             <l n="402" xml:id="l402" part="I">S’est veu cent &amp; cent fois…</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-16" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">Etonne-t-en, Valmire.</l>
             <l n="403" xml:id="l403">Quoy qu’ait ce changement d’incroyable pour toy,</l>
@@ -1102,11 +1104,11 @@
             <l n="443" xml:id="l443">De cent <ref target="#trouble">troubles*</ref> secrets le dedans combatu</l>
             <l n="444" xml:id="l444">Me fit payer bien cher cette fausse <ref target="#vertu">vertu*</ref>.</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-17" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="445" xml:id="l445">Theodat eut pour vous l’ame d’amour si pleine…</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-18" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="446" xml:id="l446">Mais cependant tu vois qu’il brule pour la Reyne,</l>
             <l n="447" xml:id="l447">Ma douleur s’en réveille, &amp; je n’y puis penser,</l>
@@ -1117,21 +1119,21 @@
             <l n="452" xml:id="l452">Le dépit contre moy ne l’eust point revolté,</l>
             <l n="453" xml:id="l453">Il eust crû<note n="94" place="bottom">« crû » ici est au sens d’écouter. </note> son amour plutost que sa colere.</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-19" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="454" xml:id="l454">Que vouliez-vous qu’il fist ? Il ne pouvoit vous plaire.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-20" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="455" xml:id="l455">Que l’ardeur de ses soins combatist mes froideurs,<pb n="19"/></l>
             <l n="456" xml:id="l456">Qu’il soufrist, ou du moins qu’il n’aimast point ailleurs ;</l>
             <l n="457" xml:id="l457">Son cœur pour d’autres yeux devoit estre invincible.</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-21" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="458" xml:id="l458">Mais vous seriez toûjours demeurée <ref target="#sensible">insensible*</ref>.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-22" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="459" xml:id="l459">Je l’avouë, &amp; sans doute encor mesme aujourd’huy,</l>
             <l n="460" xml:id="l460">S’il n’avoit rien aimé, je la serois pour luy<note n="95" place="bottom">S’il n’en avait pas aimé une autre, je serais demeurée insensible. </note> ;</l>
@@ -1142,7 +1144,7 @@
             <l n="465" xml:id="l465">Et ce que fait soufrir la disgrace fatale</l>
             <l n="466" xml:id="l466">De voir passer son bien aux mains d’une Rivale !</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-23" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="467" xml:id="l467">Si ce suplice est tel, je l’aurois <ref target="#prevenir">prévenu*</ref>,</l>
             <l n="468" xml:id="l468">Le cœur de Theodat vous estoit trop connu ;</l>
@@ -1151,7 +1153,7 @@
             <l n="471" xml:id="l471">Vos regards adoucis n’auroient pas eu d’abord,</l>
             <l n="472" xml:id="l472">Pour vous le ramener, besoin de grand effort.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-24" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="473" xml:id="l473">Moy, pour tout le repos qu’il faudra qu’il m’en couste,</l>
             <l n="474" xml:id="l474">J’aurois de mon orgueil laissé le moindre doute<note n="96" place="bottom">Moi, j’aurais pu donner matière à  douter de mon orgueil absolu.</note> !</l>
@@ -1162,12 +1164,12 @@
             <l n="479" xml:id="l479">Et je m’<ref target="#immoler">immoleray*</ref> d’un cœur ferme &amp; constant</l>
             <l n="480" xml:id="l480">A tout ce que de moy son injustice attend.</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-25" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="481" xml:id="l481">Quoy que vous résolviez<note n="97" place="bottom">« résolviez » :décidiez.</note>, si negligeant la Reyne,</l>
             <l n="482" xml:id="l482" part="I">Theodat vous pressoit…</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-26" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">Il y perdroit sa peine ;<pb n="20"/></l>
             <l n="483" xml:id="l483">Je l’aime, je le sens, mais malgré est cet amour,</l>
@@ -1177,7 +1179,7 @@
             <l n="487" xml:id="l487">Puis qu’à l’aimer la Reyne a voulu l’engager ;</l>
             <l n="488" xml:id="l488">C’est un mal sans remede, il n’y faut plus songer.</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-27" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="489" xml:id="l489">Je vous plains des malheurs qu’un scrupule vous cause,</l>
             <l n="490" xml:id="l490">Mais ce qui me surprend plus que tout autre chose,</l>
@@ -1185,7 +1187,7 @@
             <l n="492" xml:id="l492">Qu’Honoric pour sa flame ose tout esperer.</l>
             <l n="493" xml:id="l493">Pourquoy si hautement permettre qu’il vous aime ?</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II01-28" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="494" xml:id="l494">Par <ref target="#gloire">gloire*</ref>, par chagrin, par haine pour moy-mesme.</l>
             <l n="495" xml:id="l495">L’Amour, de ma <ref target="#fierte1">fierté*</ref> n’a pû rien obtenir ;</l>
@@ -1206,15 +1208,15 @@
             <l n="510" xml:id="l510">Ce suplice est perdu, je ne suis point vangée,</l>
             <l n="511" xml:id="l511">Et d’un Amant fâcheux l’importun embarras…</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="II01-29" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="512" xml:id="l512">Madame, je le voy, ne vous emportez pas.<pb n="21"/></l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II02">
           <head>SCENE II.</head>
           <stage>ILDEGONDE, HONORIC, VALMIRE.</stage>
-          <sp who="honoric">
+          <sp xml:id="II02-1" who="honoric">
             <speaker>HONORIC.</speaker>
             <l n="513" xml:id="l513">Enfin de Theodat la <ref target="#gloire">gloire*</ref> est assurée,</l>
             <l n="514" xml:id="l514">La Reyne en sa faveur s’est tout haut déclarée,</l>
@@ -1228,12 +1230,12 @@
             <l n="522" xml:id="l522">Que son choix à l’Estat le destine pour Maistre.</l>
             <l n="523" xml:id="l523">Toute la Cour s’empresse à l’en féliciter.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II02-2" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="524" xml:id="l524">L’<ref target="#eclat">éclat*</ref> d’une Couronne a de quoy le flater.</l>
             <l n="525" xml:id="l525">Sa joye est grande à voir le glorieux partage…</l>
           </sp>
-          <sp who="honoric">
+          <sp xml:id="II02-3" who="honoric">
             <speaker>HONORIC.</speaker>
             <l n="526" xml:id="l526">L’amour qui le charmoit acheve son ouvrage,</l>
             <l n="527" xml:id="l527">Et vous pouvez juger quels doux ravissemens</l>
@@ -1255,30 +1257,30 @@
             <l n="543" xml:id="l543">N’a-t-il pû meriter que pour prix de ma <ref target="#foy">foy*</ref></l>
             <l n="544" xml:id="l544" part="I">J’ose…</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II02-4" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">Oüy, voyez la Reyne, &amp; répondez de moy.</l>
           </sp>
-          <sp who="honoric">
+          <sp xml:id="II02-5" who="honoric">
             <speaker>HONORIC.</speaker>
             <l n="545" xml:id="l545">Ah, puis que vostre flame est propice à la mienne…</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II02-6" who="ildegonde">
             <speaker>ILDEGONDE. </speaker>
             <l n="546" xml:id="l546"><ref target="#prevenir">Prévenez*</ref> Theodat, de peur qu’il vous prévienne*.</l>
             <l n="547" xml:id="l547">Allez, si mon hymen est un bonheur si doux,</l>
             <l n="548" xml:id="l548">Le temps doit estre cher à qui craint comme vous<note n="104" place="bottom">Le temps est précieux pour celui qui, comme vous, est inquiet.</note>.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II03">
           <head>SCENE III.</head>
           <stage>ILDEGONDE, VALMIRE.</stage>
-          <sp who="valmire">
+          <sp xml:id="II03-1" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="549" xml:id="l549">Qu’avez-vous dit, Madame, &amp; par quelle injustice</l>
             <l n="550" xml:id="l550">Faire de vostre cœur un si dur sacrifice ?</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II03-2" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="551" xml:id="l551">Il est dur, je l’avouë, &amp; promettant ma main,</l>
             <l n="552" xml:id="l552">Ce n’est pas sans trembler que j’en prends le dessein ;</l>
@@ -1311,19 +1313,19 @@
             <l n="579" xml:id="l579">Luy me chercher ! Valmire, éloignons-nous d’icy.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II04">
           <head>SCENE IV.</head>
           <stage>THEODAT, ILDEGONDE, VALMIRE.</stage>
-          <sp who="theodat">
+          <sp xml:id="II04-1" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="580" xml:id="l580">Quoy, Madame, il vous plaist de m’éviter ainsi ?<pb n="24"/></l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-2" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="581" xml:id="l581">M’estant si rarement forcée à vous entendre,</l>
             <l n="582" xml:id="l582">Ma retraite n’a rien qui vous doive surprendre.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-3" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="583" xml:id="l583">Eh, Madame, de grace, un peu moins de <ref target="#fierte2">fierté*</ref>.</l>
             <l n="584" xml:id="l584">Sans trahir vos mépris je puis estre écouté,</l>
@@ -1332,12 +1334,12 @@
             <l n="587" xml:id="l587">Ils m’ont fait un destin, si grand, si beau, si doux,</l>
             <l n="588" xml:id="l588">Que je n’ay plus sujet à me plaindre de vous.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-4" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="589" xml:id="l589">J’apprens avec plaisir cette haute fortune,</l>
             <l n="590" xml:id="l590">Puis qu’elle me défait d’une plainte importune.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-5" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="591" xml:id="l591">C’est un malheur qu’en vain j’ay voulu détourner ;</l>
             <l n="592" xml:id="l592">Mon feu n’a jamais fait que vous importuner,</l>
@@ -1350,47 +1352,47 @@
             <l n="599" xml:id="l599">Et je puis effacer, en recevant sa main,</l>
             <l n="600" xml:id="l600">La honte des <ref target="#soupirer">soûpirs*</ref> que j’ay poussez en vain.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-6" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="601" xml:id="l601">Les voyant rejettez, il vous estoit facile<pb n="25"/></l>
             <l n="602" xml:id="l602">De ne leur pas soufrir<note n="109" place="bottom">De ne pas leur permettre.</note> un <ref target="#eclat">éclat*</ref> inutile.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-7" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="603" xml:id="l603">J’avois de la foiblesse, il faut le confesser.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-8" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="604" xml:id="l604">Qui l’a si bien connu<note n="110" place="bottom">Qui en a si bien conscience.</note>, pouvoit y renoncer.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-9" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="605" xml:id="l605">J’eus tort, &amp; vos dédains ont trop terny ma <ref target="#gloire">gloire*</ref>.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-10" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="606" xml:id="l606">Ils s’expliquoient assez, vous n’aviez qu’à les croire.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-11" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="607" xml:id="l607">L’outrage est réparé par tant d’heureux effets…</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-12" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="608" xml:id="l608">Il suffit que tous deux nous soyons satisfaits.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-13" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="609" xml:id="l609">J’ay tout sujet de l’estre ; Une Reyne qui m’aime,</l>
             <l n="610" xml:id="l610">Joint au don de son cœur celuy du Diadéme.</l>
             <l n="611" xml:id="l611">Pourtant, pourtant, Madame, il n’a tenu qu’à vous</l>
             <l n="612" xml:id="l612">Qu’on ne m’ait encor veu joüir d’un sort plus doux.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-14" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="613" xml:id="l613" part="I">Qu’à moy ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-15" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Jamais amour<note n="111" place="bottom">« amour », l’absence de déterminant indique une personnification, on se serait attendu à une majuscule. </note> ne m’ofrit tant de <ref target="#charmes">charmes*</ref>.</l>
             <l n="614" xml:id="l614">J’en appelle à témoins mes <ref target="#soupirer">soûpirs*</ref> &amp; mes larmes,</l>
@@ -1401,13 +1403,13 @@
             <l n="619" xml:id="l619">Vous avez au mépris adjoûté le couroux,</l>
             <l n="620" xml:id="l620" part="I">Vostre ingrate rigueur…</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-16" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">De quoy vous plaignez-vous ?</l>
             <l n="621" xml:id="l621">N’estes-vous pas <ref target="#content">content*</ref> qu’elle vous ait fait naistre<pb n="26"/></l>
             <l n="622" xml:id="l622" part="I">La noble ambition …</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-17" who="theodat">
             <speaker>THEODAT. </speaker>
             <l part="F">Non, je ne le puis estre,</l>
             <l n="623" xml:id="l623">Et ce Trône où m’appelle un hymen glorieux,</l>
@@ -1418,28 +1420,28 @@
             <l n="628" xml:id="l628">Qui de vos fiers mépris sur luy seul s’est vangé,</l>
             <l n="629" xml:id="l629">Qui se donnant ailleurs, tremble du sacrifice …</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-18" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="630" xml:id="l630">Et qui vous a forcé de choisir ce suplice ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-19" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="631" xml:id="l631">Vous me le demandez, vous qui m’avez causé</l>
             <l n="632" xml:id="l632">Toute l’horreur des maux où je suis exposé ?</l>
             <l n="633" xml:id="l633" part="I">Hé bien, je vais encor …</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-20" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">Non, cela doit suffire,</l>
             <l n="634" xml:id="l634">Je ne veux rien sçavoir, vous n’avez rien à dire.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-21" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="635" xml:id="l635">Craignez-vous que ces maux trop vivement dépeints,</l>
             <l n="636" xml:id="l636">Ne vous reprochent trop vos injustes dédains ;</l>
             <l n="637" xml:id="l637">Que malgré vous touchée, à voir un feu si tendre …</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-22" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="638" xml:id="l638">Moy touchée ? Et comment le pourriez-vous prétendre ?</l>
             <l n="639" xml:id="l639">Par quel constant effort avez-vous merité</l>
@@ -1447,7 +1449,7 @@
             <l n="641" xml:id="l641">La Reyne, dont si-tost vostre ame fut <ref target="#charmer">charmée*</ref>…</l>
             <l n="642" xml:id="l642">Non, Theodat, jamais vous ne m’avez aimée.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-23" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="643" xml:id="l643">Ah, si vostre injustice a pû le présumer,</l>
             <l n="644" xml:id="l644">Dites-moy donc comment il vous falloit aimer,</l>
@@ -1455,11 +1457,11 @@
             <l n="646" xml:id="l646">Dont vous n’avez reçeu les tendres sacrifices ?</l>
             <l n="647" xml:id="l647">Plutost que me résoudre à voir mes feux éteints…</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-24" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="648" xml:id="l648">Vous en estes le maistre, est-ce que je m’en plains ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-25" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="649" xml:id="l649">Ne vous repentez point, s’il se peut, de le faire,</l>
             <l n="650" xml:id="l650">Et m’accordez de grace, un moment de colere.</l>
@@ -1470,36 +1472,36 @@
             <l n="655" xml:id="l655">Vous ne m’avez montré ny chagrin, ny dépit,</l>
             <l n="656" xml:id="l656" part="I">Marqué rien qui parust…</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-26" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">Je vous en ay trop dit.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-27" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="657" xml:id="l657" part="I">Vous m’en avez trop dit ! Vous ?</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-28" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">Oüy, trop ; mais qu’importe ?</l>
             <l n="658" xml:id="l658">Il est beau,  Theodat, que le Trône l’emporte,</l>
             <l n="659" xml:id="l659" part="I">Que vous n’ayez rien veu…</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-29" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Non, Madame, jamais</l>
             <l n="660" xml:id="l660">Le moindre <ref target="#ennuy">ennuy*</ref> de vous n’a flaté mes souhaits<note n="114" place="bottom">Il n’a jamais souhaité qu’elle souffre.</note>.</l>
             <l n="661" xml:id="l661">Toûjours du mesme esprit à ma perte animée …</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-30" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="662" xml:id="l662">Et n’ay-je pas souffert qu’Honoric m’ait aimée ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-31" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="663" xml:id="l663">Quoy ? Vouloir préferer un Rival à ma <ref target="#foy">foy*</ref>,</l>
             <l n="664" xml:id="l664">M’outrager, m’accabler, c’est se plaindre de moy ?</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-32" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="665" xml:id="l665">Oüy, ce choix d’un Rival n’auroit pû vous déplaire,</l>
             <l n="666" xml:id="l666">Si vous aviez aimé comme vous deviez faire.</l>
@@ -1522,49 +1524,49 @@
             <l n="683" xml:id="l683">Et je m’épargnerois l’affront de me trahir,</l>
             <l n="684" xml:id="l684">Si vous estiez encor en pouvoir d’en joüir<note n="118" place="bottom"> Elle ne lui avoue son amour, que parce qu’elle le sait engagé auprès de la reine.</note>.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-33" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="685" xml:id="l685">Ah, je le puis encor ; plus d’Etast, plus de Reyne.</l>
             <l n="686" xml:id="l686">Je ne veux, ne connois que vous pour Souveraine,</l>
             <l n="687" xml:id="l687">La Couronne à mes yeux n’offre plus rien de doux,</l>
             <l n="688" xml:id="l688">Et je renonce à tout pour vivre tout à vous.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-34" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="689" xml:id="l689">Non , n’appréhendez point que jamais je consente</l>
             <l n="690" xml:id="l690">A vous couster les biens qui flatent vostre attente ;</l>
             <l n="691" xml:id="l691">Vous avez à la Reyne engagé vostre <ref target="#foy">foy*</ref>,</l>
             <l n="692" xml:id="l692" part="I">Juré que vostre cœur …</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-35" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Il n’estoit pas à moy ;</l>
             <l n="693" xml:id="l693">Asservy sous vos loix, pouvois-je le promettre ?</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-36" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="694" xml:id="l694">Ma <ref target="#gloire">gloire*</ref> là-dessus n’a rien à me permettre.</l>
             <l n="695" xml:id="l695">J’ay souffert qu’Honoric fist <ref target="#eclat">éclater*</ref> son feu,<pb n="29"/></l>
             <l n="696" xml:id="l696">Qu’il tâchast de la Reyne à meriter l’<ref target="#aveu">aveu*</ref> ;</l>
             <l n="697" xml:id="l697" part="I">S’il l’obtient, &amp; qu’il faille aujourd’huy…</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-37" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Quoy, Madame,</l>
             <l n="698" xml:id="l698">L’amour a donc si peu de pouvoir sur vostre ame…</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-38" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="699" xml:id="l699">Moy, de l’amour ! Gardez de l’oser présumer.</l>
             <l n="700" xml:id="l700">Non, ç’en est fait, jamais je ne vous veux aimer.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-39" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="701" xml:id="l701">Et moy, Madame, &amp; moy qui n’ay point d’autre envie</l>
             <l n="702" xml:id="l702">Que de vous adorer le reste de ma vie,</l>
             <l n="703" xml:id="l703">Je feray tant qu’enfin j’obtiendray quelque jour …</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-40" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="704" xml:id="l704">Ah, craignez d’écouter ce dangereux amour,</l>
             <l n="705" xml:id="l705">Il vous perdroit. Suivons nos <ref target="#fier">fieres*</ref> destinées.</l>
@@ -1573,7 +1575,7 @@
             <l n="708" xml:id="l708">Elle s’est déclarée, il la faut épouser,</l>
             <l n="709" xml:id="l709">Le Trône rend pour vous cet hymen necessaire.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-41" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="710" xml:id="l710">Le Trône ! En vous perdant, a-t-il de quoy me plaire ?</l>
             <l n="711" xml:id="l711">En vain à m’y placer la Reyne se résout,</l>
@@ -1586,7 +1588,7 @@
             <l n="718" xml:id="l718">Jamais de son espoir vous n’avoüerez<note n="119" place="bottom">« n’avoüerez » : avouer veut dire, autoriser une chose, déclarer qu’on l’approuve.(A. 94).</note> l’audace,</l>
             <l n="719" xml:id="l719">Que toûjours vos refus par d’obstinez combats …</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-42" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="720" xml:id="l720">Ma <ref target="#gloire">gloire*</ref> en soufriroit, ne le demandez pas.</l>
             <l n="721" xml:id="l721">Si la Reyne consent que je sois sa conqueste,<pb n="30"/></l>
@@ -1596,13 +1598,13 @@
             <l n="725" xml:id="l725">Jamais, quoy que le Ciel de vostre sort ordonne,</l>
             <l n="726" xml:id="l726">Vous n’aurez la douleur de me voir à personne.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-43" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="727" xml:id="l727">Et si je vous disois que me croyant hay,</l>
             <l n="728" xml:id="l728">Moy-mesme je me suis imprudemment trahy ?</l>
             <l n="729" xml:id="l729">Qu’en faveur d’Honoric j’ay déjà veu la Reyne ?</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-44" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="730" xml:id="l730">Soufrez<note n="120" place="bottom">« soufrez » : supportez.</note> donc un hymen qui vous blesse &amp; me <ref target="#gesner">gesne*</ref>,</l>
             <l n="731" xml:id="l731">Car ne prétendez point qu’après ce que j’ay fait,</l>
@@ -1611,7 +1613,7 @@
             <l n="734" xml:id="l734">Présumer que l’amour malgré moy me surmonte</l>
             <l n="735" xml:id="l735">Ma jalouse <ref target="#vertu">vertu*</ref> n’en croira pas mon cœur.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II04-45" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="736" xml:id="l736">De sa severité voyez mieux la rigueur.</l>
             <l n="737" xml:id="l737">Quoy, vous épouseriez Honoric ? Ah, Madame,</l>
@@ -1623,7 +1625,7 @@
             <l n="743" xml:id="l743">Si ce que vostre cœur a fait soufrir au mien,</l>
             <l n="744" xml:id="l744" part="I">Si mes larmes …</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="II04-46" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">Adieu, je n’écoute plus rien,</l>
             <l n="745" xml:id="l745">En l’état où je suis vous m’en pourriez trop dire,</l>
@@ -1632,48 +1634,49 @@
             <l n="748" xml:id="l748">A démentir l’orgueil qui cause mes malheurs.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE V.</head><pb n="31"/>
+        <div type="scene" xml:id="II05">
+          <head>SCENE V.</head>
+          <pb n="31"/>
           <stage>THEODAT, EUTHAR .</stage>
-          <sp who="euthar">
+          <sp xml:id="II05-1" who="euthar">
             <speaker>EUTHAR.</speaker>
             <l n="749" xml:id="l749">Qu’oseray-je penser ? La Princesse vous quitte,</l>
             <l n="750" xml:id="l750">Seigneur, &amp; je vous voy l’ame toute <ref target="#interdite">interdite*</ref> ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II05-2" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="751" xml:id="l751">Enfin, Euthar, enfin la victoire est à moy,</l>
             <l n="752" xml:id="l752">Je triomphe, Ildegonde a reconnu ma <ref target="#foy">foy*</ref>,</l>
             <l n="753" xml:id="l753" part="I">Elle m’aime.</l>
           </sp>
-          <sp who="euthar">
+          <sp xml:id="II05-3" who="euthar">
             <speaker>EUTHAR.</speaker>
             <l part="F">Ah, Seigneur, quelle triste victoire !</l>
             <l n="754" xml:id="l754">Ildegonde vous hait, &amp; vous la voulez croire !</l>
             <l n="755" xml:id="l755" part="I">Pour vous oster un Trône…</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II05-4" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Ah, non, jusqu’à ce jour,</l>
             <l n="756" xml:id="l756">J’ay trop pour m’y tromper, étudié l’amour.</l>
             <l n="757" xml:id="l757">Elle m’aime, te dis-je, &amp; ma <ref target="#gloire">gloire*</ref> est certaine.</l>
             <l n="758" xml:id="l758" part="I">Viens, suy-moy.</l>
           </sp>
-          <sp who="euthar">
+          <sp xml:id="II05-5" who="euthar">
             <speaker>EUTHAR.</speaker>
             <l part="F">Mais, Seigneur, que deviendra la Reyne ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II05-6" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="759" xml:id="l759">Ne préviens* point les maux que j’en doit redouter.</l>
           </sp>
-          <sp who="euthar">
+          <sp xml:id="II05-7" who="euthar">
             <speaker>EUTHAR.</speaker>
             <l n="760" xml:id="l760">Seigneur, pardonne-t-elle à qui l’ose irriter ?</l>
             <l n="761" xml:id="l761">Le sang qu’elle a versé vous doit faire connoistre</l>
             <l n="762" xml:id="l762" part="I">Quels périls…</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="II05-8" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Ils sont grands, j’y périray peut-estre ;<pb n=" 32"/></l>
             <l n="763" xml:id="l763">Mais, Euthar, quand on a le cœur bien enflamé,</l>
@@ -1682,13 +1685,13 @@
           <label>Fin du Second Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="III" type="act">
         <pb n="33"/>
         <head>ACTE III.</head>
-        <div type="scene">
+        <div type="scene" xml:id="III01">
           <head>SCENE PREMIERE.</head>
           <stage>AMALASONTE, HONORIC, GEPILDE.</stage>
-          <sp who="amalasonte">
+          <sp xml:id="III01-1" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="765" xml:id="l765">Il vous estoit permis d’en croire cette estime<note n="121" place="bottom">L’estime que l’on porte à quelqu’un est la reconnaissance de son mérite, elle peut fonder ou justifier l’amour.</note>,</l>
             <l n="766" xml:id="l766">Par elle je rendois vostre espoir legitime ;</l>
@@ -1703,7 +1706,7 @@
             <l n="775" xml:id="l775">Que personne avant vous par ses plus tendres vœux</l>
             <l n="776" xml:id="l776">N’avoit pû mériter ce qui vous rend heureux.</l>
           </sp>
-          <sp who="honoric">
+          <sp xml:id="III01-2" who="honoric">
             <speaker>HONORIC.</speaker>
             <l n="777" xml:id="l777">Je sçay qu’en ma faveur rien ne la sollicite<note n="122" place="bottom">Il sait que rien n’influence Ildegonde en sa faveur.</note> ;</l>
             <l n="778" xml:id="l778">Mais l’amour aux Amans tient lieu de vray merite,</l>
@@ -1718,7 +1721,7 @@
             <l n="787" xml:id="l787">J’engage la Princesse à ne point retarder</l>
             <l n="788" xml:id="l788" part="I">Le glorieux moment …</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III01-3" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Je viens de la mander,</l>
             <l n="789" xml:id="l789">Et n’auray pas de peine à résoudre avec elle</l>
@@ -1729,20 +1732,20 @@
             <l n="794" xml:id="l794">A briguer prés de moy l’hymen de la Princesse ?</l>
             <l n="795" xml:id="l795" part="I">Theodat.</l>
           </sp>
-          <sp who="honoric">
+          <sp xml:id="III01-4" who="honoric">
             <speaker>HONORIC.</speaker>
             <l part="M">Theodat ? Quoy …</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III01-5" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Vous estes surpris</l>
             <l n="796" xml:id="l796">Que par luy de vos vœux cet hymen soit le prix ?</l>
           </sp>
-          <sp who="honoric">
+          <sp xml:id="III01-6" who="honoric">
             <speaker>HONORIC.</speaker>
             <l n="797" xml:id="l797">J’avois quelque sujet de craindre le contraire.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III01-7" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="798" xml:id="l798">Je sçay qu’à la Princesse il a tâché de plaire.</l>
             <l n="799" xml:id="l799">Mais si son cœur en vain se soûmit à ses loix,</l>
@@ -1751,22 +1754,22 @@
             <l n="802" xml:id="l802">Qu’en ostant à vos feux tout lieu d’inquiétude.</l>
             <l n="803" xml:id="l803">C’est luy qui me convie à les favoriser.</l>
           </sp>
-          <sp who="honoric">
+          <sp xml:id="III01-8" who="honoric">
             <speaker>HONORIC.</speaker>
             <l n="804" xml:id="l804">Ce genéreux effort ne peut trop se priser,<pb n="35"/></l>
             <l n="805" xml:id="l805">Madame ; &amp; quand je voy que mon amour extrême</l>
             <l n="806" xml:id="l806" part="I">Trouve en luy …</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III01-9" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Vous pouvez l’apprendre de luy-mesme,</l>
             <l n="807" xml:id="l807" part="I">Le voicy.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III02">
           <head>SCENE II.</head>
           <stage>AMALASONTE, THEODAT, HONORIC, GEPILDE.</stage>
-          <sp who="amalasonte">
+          <sp xml:id="III02-1" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">J’assurois Honoric, que son feu</l>
             <l n="808" xml:id="l808">Avoit déjà par vous obtenu mon <ref target="#aveu">aveu*</ref>,</l>
@@ -1775,7 +1778,7 @@
             <l n="811" xml:id="l811">C’est à vous seul qu’il doit, en touchant<note n="123" place="bottom">En accédant au mariage.</note> ce grand jour,</l>
             <l n="812" xml:id="l812">Le prompt consentement qui <ref target="#charmer">charme*</ref> son amour.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III02-2" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="813" xml:id="l813">La Princesse, Madame, a deû chérir son <ref target="#zele">zele*</ref>,</l>
             <l n="814" xml:id="l814">Et luy donnant la main<note n="124" place="bottom">En le prenant pour époux.</note>, fait un choix digne d’elle ;</l>
@@ -1783,7 +1786,7 @@
             <l n="816" xml:id="l816">Le résoudre à demain, c’est le précipiter ;</l>
             <l n="817" xml:id="l817">De tels engagemens valent bien qu’on y pense.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III02-3" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="818" xml:id="l818">Oû l’amour doit choisir, je hay la violence ;</l>
             <l n="819" xml:id="l819">Et si d’un pareil ordre Ildegonde se plaint,</l>
@@ -1792,17 +1795,17 @@
             <l n="822" xml:id="l822">Aux <ref target="#soupirer">soûpirs*</ref> d’Honoric le sien soit infléxible ;</l>
             <l n="823" xml:id="l823">Que c’est sans son <ref target="#aveu">aveu*</ref> qu’il cherche mon appuy ?</l>
           </sp>
-          <sp who="honoric">
+          <sp xml:id="III02-4" who="honoric">
             <speaker>HONORIC.</speaker>
             <l n="824" xml:id="l824">Theodat me hait trop, pour n’en croire que luy<note n="125" place="bottom">« Theodat me hait trop » pour ne se fier qu’à son jugement.</note>,</l>
             <l n="825" xml:id="l825">Madame, &amp; vous voyez par l’avis qu’il vous donne,</l>
             <l n="826" xml:id="l826">Ce que de cette haine il faut que je soupçonne.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III02-5" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="827" xml:id="l827">Un sincere <ref target="#conseil1">conseil*</ref> est toujoûrs écouté.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III02-6" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="828" xml:id="l828">J’<ref target="#admirer">admire*</ref>, à dire vray cette sincérité,</l>
             <l n="829" xml:id="l829">Elle est prompte, &amp; ce m’est une surprise extréme</l>
@@ -1810,7 +1813,7 @@
             <l n="831" xml:id="l831">Quoy, vous qui d’Honoric favorisant l’espoir,</l>
             <l n="832" xml:id="l832" part="I">Me demandiez tantost…</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III02-7" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Je croyois le devoir ;</l>
             <l n="833" xml:id="l833">Mais j’ay songé depuis que la paix desirée</l>
@@ -1826,7 +1829,7 @@
             <l n="843" xml:id="l843">Justinian honteux de nous combatre en vain,</l>
             <l n="844" xml:id="l844">Pour un nouveau César peut demander sa main.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III02-8" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="845" xml:id="l845">Sans doute, j’aime à voir que Theodat se pique</l>
             <l n="846" xml:id="l846">D’une si salutaire &amp; noble Politique.</l>
@@ -1839,20 +1842,20 @@
             <l n="853" xml:id="l853">L’ardeur que pour l’Estat vostre soïn fait paroistre</l>
             <l n="854" xml:id="l854">Soufrira sans chagrin le choix d’un autre Maistre<note n="128" place="bottom">Theodat acceptera sans peine d’épouser quelqu’un d’autre que la reine. Elle comprend qu’il ne l’aime pas, et que son souci du royaume n’est qu’un prétexte pour retarder l’union d’Ildegonde et d’Honoric.</note>.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III02-9" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="855" xml:id="l855">Madame, à tant d’orgueil pourrois-je m’emporter,</l>
             <l n="856" xml:id="l856" part="I">Que…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III02-10" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Je vois Ildegonde, il la faut écouter .</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III03">
           <head>SCENE III.</head>
           <stage>AMALASONTE, ILDEGONDE, THEODAT, HONORIC, GEPILDE.</stage>
-          <sp who="amalasonte">
+          <sp xml:id="III03-1" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="857" xml:id="l857">Approchez-vous, Princesse, &amp; nous venez apprendre</l>
             <l n="858" xml:id="l858">Ce que de son amour Honoric doit attendre.</l>
@@ -1860,24 +1863,24 @@
             <l n="860" xml:id="l860">Mais pour n’en douter pas, son raport est trop peu</l>
             <l n="861" xml:id="l861">Parlez, expliquez-vous, c’est vous que j’en veux croire.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="III03-2" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="862" xml:id="l862">Honoric à m’aimer a trouvé quelque <ref target="#gloire">gloire*</ref>,</l>
             <l n="863" xml:id="l863">Madame, &amp; j’avoüeray que ses vœux écoutez</l>
             <l n="864" xml:id="l864">Doivent estre reçeus, si vous y consentez.</l>
             <l n="865" xml:id="l865">Je ne m’en dédis point, j’en ay donné parole.</l>
           </sp>
-          <sp who="honoric">
+          <sp xml:id="III03-3" who="honoric">
             <speaker>HONORIC <hi rend="i">à Amalasonte .</hi></speaker>
             <l n="866" xml:id="l866">N’auriez-vous eu pour moy qu’une bonté frivole<note n="129" place="bottom">Que le soutien que vous me portez n’ait pas été sincère.</note>,</l>
             <l n="867" xml:id="l867">Madame, &amp; voudrez-vous soufrir que Theodat</l>
             <l n="868" xml:id="l868"><ref target="#immoler">Immole*</ref> la Princesse à ses raisons d’Estat ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III03-4" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="869" xml:id="l869">Estant sans interest<note n="130" place="bottom">N’étant pas concerné directement par cette décision. </note>, je dis ce que je pense.<pb n="38"/></l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III03-5" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="870" xml:id="l870">Je le croy, j’ay toûjours connu vostre prudence ;</l>
             <l n="871" xml:id="l871">Et comme vos avis sont à considérer,</l>
@@ -1886,7 +1889,7 @@
             <l n="874" xml:id="l874">Je consens que sa <ref target="#foy">foy*</ref> dégage sa promesse,</l>
             <l n="875" xml:id="l875">Que prenant des demain Honoric pour Epoux…</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III03-6" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="876" xml:id="l876">Son destin, je le sçay, doit dépendre de vous ;</l>
             <l n="877" xml:id="l877">Mais ce retardement que je croy nécessaire,</l>
@@ -1895,57 +1898,57 @@
             <l n="880" xml:id="l880">Qu’elle prenne le temps de se mieux consulter.</l>
             <l n="881" xml:id="l881" part="I">Vouloir que dés demain sa <ref target="#foy">foy*</ref>…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III03-7" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">C’est la contraindre,</l>
             <l n="882" xml:id="l882">Il est vray, mais elle est en pouvoir de s’en plaindre ;</l>
             <l n="883" xml:id="l883">Et quand elle se taist, j’<ref target="#admirer">admire*</ref> par quel soin</l>
             <l n="884" xml:id="l884">Vos prévoyans soucis veulent aller si loin.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III03-8" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="885" xml:id="l885">Blâmez-vous un avis qui part d’un cœur fidelle ?</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III03-9" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="886" xml:id="l886">Il n’est pas toûjours bon de montrer tant de <ref target="#zele">zele*</ref>.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III03-10" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="887" xml:id="l887">Si je deviens suspect quand je croy que le temps</l>
             <l n="888" xml:id="l888" part="I">Doit seul…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III03-11" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Vous m’entendez, Prince, &amp; je vous entens.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III03-12" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="889" xml:id="l889" part="I">La Princesse…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III03-13" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">A parlé, cela me doit suffire.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III03-14" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="890" xml:id="l890">Jugez-vous de son cœur sur ce qu’elle a pû dire ?<pb n="39"/></l>
             <l n="891" xml:id="l891">Honoric pour sa flame en veut trop présumer,</l>
             <l n="892" xml:id="l892">C’est un cœur orgueilleux qui ne peut rien aimer,</l>
             <l n="893" xml:id="l893">Un cœur qui s’alarmant d’un scrupule de <ref target="#gloire">gloire*</ref>…</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="III03-15" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="894" xml:id="l894" part="I">D’où vient que Theodat …</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III03-16" who="amalasonte">
             <speaker>AMALASONTE <hi rend="i">à Ildegonde.</hi></speaker>
             <l part="F">Je ne sçay plus qu’en croire.</l>
             <l n="895" xml:id="l895">De l’air dont il répond du secret de ce cœur,</l>
             <l n="896" xml:id="l896">Vous n’auriez eu pour luy qu’une fausse rigueur.</l>
             <l n="897" xml:id="l897" part="I">Rien n’est à déguiser, l’aimez-vous ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III03-17" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Non, Madame,</l>
             <l n="898" xml:id="l898">C’est toûjours un dédain, une dureté d’ame</l>
@@ -1953,11 +1956,11 @@
             <l n="900" xml:id="l900">Qu’aux plus foibles devoirs l’amour m’ait pû forcer.</l>
             <l n="901" xml:id="l901">A sa haine pour moy de plus en plus fidelle …</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III03-18" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="902" xml:id="l902">Vous vous empressez fort à répondre pour elle ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III03-19" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="903" xml:id="l903">Hé bien, puis qu’en mon cœur vous lisez malgré moy,</l>
             <l n="904" xml:id="l904">Je tremble, je l’avouë, à voir donner sa <ref target="#foy">foy*</ref>.</l>
@@ -1971,7 +1974,7 @@
             <l n="912" xml:id="l912">C’est ce qu’à ma douleur vous pouvez accorder.</l>
             <l n="913" xml:id="l913">Toute injuste qu’elle est, daignez luy faire grace.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III03-20" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="914" xml:id="l914">J’ay laissé le cours libre à sa premiere audace ;</l>
             <l n="915" xml:id="l915">Mais à l’examiner, pour estre sans espoir,<pb n=" 40"/></l>
@@ -1984,7 +1987,7 @@
             <l n="922" xml:id="l922">Trouve à se repentir, ou se fasse une peine,</l>
             <l n="923" xml:id="l923">Répondez mieux de vous que n’a fait Theodat.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="III03-21" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="924" xml:id="l924">De ses emportemens je condamne l’<ref target="#eclat">éclat*</ref> ;</l>
             <l n="925" xml:id="l925">Et quoy qu’ils soient pour moy, ma <ref target="#gloire">gloire*</ref> m’a dû mettre</l>
@@ -1997,17 +2000,17 @@
             <l n="932" xml:id="l932" part="I">J’en vais attendre l’ordre.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III04">
           <head>SCENE IV.</head>
           <stage>AMALASONTE, THEODAT, HONORIC, GEPILDE.</stage>
-          <sp who="theodat">
+          <sp xml:id="III04-1" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Ah, ne l’en croyez pas,</l>
             <l n="933" xml:id="l933">Madame, &amp; si jamais mes devoirs, mes services<note n="132" place="bottom">Voir note page 27.</note>,</l>
             <l n="934" xml:id="l934">Ont rendu vos <ref target="#bontez">bontez*</ref> à mon destin propices,</l>
             <l n="935" xml:id="l935">Pour soulager l’<ref target="#ennuy">ennuy*</ref> dont je me sens presser …</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III04-2" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="936" xml:id="l936">Cette obstination commence à me lasser,<pb n=" 41"/></l>
             <l n="937" xml:id="l937">C’est trop, &amp; par pitié, vous avez veu, je pense,</l>
@@ -2024,22 +2027,22 @@
             <l n="948" xml:id="l948">Plus je le hasteray, moins vous en soufrirez.</l>
             <l n="949" xml:id="l949" part="I">Donnez l’ordre qu’il faut, Honoric.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III04-3" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Non, de grace,</l>
             <l n="950" xml:id="l950" part="I">Qu’il demeure, autrement …</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III04-4" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Quoy, jusqu’à la menace !<note n="134" place="bottom">Vous iriez « jusqu’à la menacer », ellipse du verbe.</note></l>
             <l n="951" xml:id="l951">Allez m’attendre au Temple, &amp; sans plus différer,</l>
             <l n="952" xml:id="l952">Pour ce mesme moment faites tout préparer.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III05">
           <head>SCENE V.</head>
           <stage>AMALASONTE, THEODAT, GEPILDE.</stage>
-          <sp who="theodat">
+          <sp xml:id="III05-1" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="953" xml:id="l953">Enfin, Madame, enfin, ma <ref target="#gloire">gloire*</ref> vous offense,</l>
             <l n="954" xml:id="l954">Vous ne me voulez plus permettre d’innocence<note n="135" place="bottom">« innocence » a ici le sens d’intégrité, de désintéressement. Theodat veut prouver qu’il n’éprouve aucun sentiment quant au mariage d’Ildegonde et Honoric. </note> ;</l>
@@ -2050,7 +2053,7 @@
             <l n="959" xml:id="l959">De ma triste raison vous m’ostez le soûtien<note n="137" place="bottom"> Je ne peux plus compter sur ma raison.</note>,</l>
             <l n="960" xml:id="l960">Et perdant son secours, je ne connois plus rien<note n="138" place="bottom">Sans le secours de ma raison, je ne sais plus ce que je dois faire, je ne connais plus mon devoir. </note>.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III05-2" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="961" xml:id="l961">Si vos égarements meritoient ma colere,</l>
             <l n="962" xml:id="l962">Je vous demanderois ce qui vous reste à faire,</l>
@@ -2061,7 +2064,7 @@
             <l n="967" xml:id="l967">Elle punit assez l’oubly honteux &amp; bas</l>
             <l n="968" xml:id="l968">Où s’emporte un Sujet qui ne se connoist pas<note n="139" place="bottom">« Où s’emporte un Sujet » qui a perdu le conscience de ce qu’il est.</note>.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III05-3" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="969" xml:id="l969">Blâmez de cet oubly le <ref target="#transports">transport*</ref> teméraire</l>
             <l n="970" xml:id="l970">Qui cherche, veut, poursuit tout ce qui m’est contraire ;</l>
@@ -2069,7 +2072,7 @@
             <l n="972" xml:id="l972">De mon cœur <ref target="#inquiet">inquiet*</ref> les peines les plus grandes,</l>
             <l n="973" xml:id="l973" part="I">Qu’ont-elles qui noircisse …</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III05-4" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Ingrat, tu<note n="140" place="bottom">Le passage au tutoiement, pour les héroïnes offensées, est généralement accompagné des apostrophes « ingrat » ou « perfide », Racine s’en était fait un spécialiste.</note> le demandes ?</l>
             <l n="974" xml:id="l974">Consultez-en ce cœur d’Ildegonde charmé,</l>
@@ -2077,7 +2080,7 @@
             <l n="976" xml:id="l976">Ce cœur qui m’a trompée, &amp; dont l’audace extréme</l>
             <l n="977" xml:id="l977" part="I">Sans scrupule à mes yeux …</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III05-5" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Il m’a trompé moy-mesme,</l>
             <l n="978" xml:id="l978">Et vous le consacrant, je ne craignois rien moins</l>
@@ -2095,7 +2098,7 @@
             <l n="990" xml:id="l990">Différez seulement un sort pour eux trop doux,</l>
             <l n="991" xml:id="l991">Et me donnez le temps d’estre digne de vous.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III05-6" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="992" xml:id="l992">D’estre digne de moy ? Tu ne peux jamais l’estre,</l>
             <l n="993" xml:id="l993">C’en est fait ; quand enfin tu me ferois paroistre</l>
@@ -2110,12 +2113,12 @@
             <l n="1002" xml:id="l1002">A rompre ces liens qui m’ont trop sçeu <ref target="#charmer">charmer*</ref>,</l>
             <l n="1003" xml:id="l1003">Plus tu seras puny de t’estre fait aimer.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III05-7" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1004" xml:id="l1004">Depuis que j’ay connu ce panchant favorable,</l>
             <l n="1005" xml:id="l1005">Qu’ay-je à me reprocher qui me rende coupable ?</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III05-8" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1006" xml:id="l1006">Tout ; &amp; puis que ton cœur à d’autres loix soûmis</l>
             <l n="1007" xml:id="l1007">Ne voyoit à ma flame aucun espoir permis,</l>
@@ -2144,7 +2147,7 @@
             <l n="1030" xml:id="l1030">Et si sur mon amour rien ne t’est imputé,</l>
             <l n="1031" xml:id="l1031">Tu te repentiras d’avoir trop écouté.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III05-9" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1032" xml:id="l1032">Il est vray, cet amour m’assuroit trop de <ref target="#gloire">gloire*</ref>,</l>
             <l n="1033" xml:id="l1033">Et gardant d’une Ingrate encor quelque memoire,</l>
@@ -2159,7 +2162,7 @@
             <l n="1042" xml:id="l1042">En rencontrant vos yeux les miens embarassez</l>
             <l n="1043" xml:id="l1043" part="I">Refusoient d’expliquer …</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III05-10" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Ce n’estoit pas assez,<pb n="45"/></l>
             <l n="1044" xml:id="l1044">Pour m’oster du péril que tu voyois à craindre,</l>
@@ -2178,7 +2181,7 @@
             <l n="1057" xml:id="l1057">Me prépare avec joye à l’aigreur du remede,</l>
             <l n="1058" xml:id="l1058">Et ton cœur déchiré par l’hymen que tu crains …</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III05-11" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1059" xml:id="l1059">Quoy, Madame, avec vous mes efforts seront vains,</l>
             <l n="1060" xml:id="l1060">Et je n’obtiendray point, soit pitié, soit justice,</l>
@@ -2188,7 +2191,7 @@
             <l n="1064" xml:id="l1064">A voir que tous mes soins demeurez sans merite</l>
             <l n="1065" xml:id="l1065" part="I">Ne m’ont…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III05-12" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Et plus que tout, c’est là ce qui m’irrite.</l>
             <l n="1066" xml:id="l1066">Si tes vœux acceptez justifioient ta <ref target="#foy">foy*</ref>,</l>
@@ -2201,7 +2204,7 @@
             <l n="1073" xml:id="l1073">Donner à ton Rival ce qui <ref target="#charmer">charme*</ref> ton ame ;</l>
             <l n="1074" xml:id="l1074">Viens sentir les <ref target="#ennuy">ennuis*</ref> qui t’y sont préparez.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III05-13" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1075" xml:id="l1075">Madame, songez-y, vous me desesperez,<pb n="46"/></l>
             <l n="1076" xml:id="l1076">D’un criminel <ref target="#eclat">éclat*</ref> épargnez-moy l’audace,</l>
@@ -2217,7 +2220,7 @@
             <l n="1086" xml:id="l1086">Et pour me retenir, à moy-mesme suspect,</l>
             <l n="1087" xml:id="l1087">Je vois que ce n’est point assez que mon <ref target="#respect">respect*</ref>.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III05-14" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1088" xml:id="l1088">Acheve, acheve, Ingrat, de te montrer <ref target="#sensible">sensible*</ref>,</l>
             <l n="1089" xml:id="l1089">Le coup que je t’apreste en sera plus terrible.</l>
@@ -2232,7 +2235,7 @@
             <l n="1098" xml:id="l1098">Elle ne peut par là manquer pour moy d’appas,</l>
             <l n="1099" xml:id="l1099">Je voy qu’elle te tüe, &amp; j’y cours de ce pas.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III05-15" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1100" xml:id="l1100">Et moy, puis que mes maux touchent si peu vostre ame,</l>
             <l n="1101" xml:id="l1101">Je jure par le Ciel … Vous m’y forcez, Madame,</l>
@@ -2245,13 +2248,13 @@
             <l n="1108" xml:id="l1108">Ma raison dont le <ref target="#trouble">trouble*</ref> <ref target="#etonner">étonne*</ref> mon courage,</l>
             <l n="1109" xml:id="l1109" part="I">Ne peut plus …</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III05-16" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Viens au Temple en recouvrer l’usage ;</l>
             <l n="1110" xml:id="l1110">Viens-y voir d’Ildegonde Honoric s’approcher,</l>
             <l n="1111" xml:id="l1111" part="I">Luy presenter la main …</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="III05-17" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Je pourray l’empescher ;</l>
             <l n="1112" xml:id="l1112">Et s’il me desespere, en m’ostant ce que j’aime,</l>
@@ -2259,32 +2262,32 @@
             <l n="1114" xml:id="l1114" part="I">Qu’il y pense, Madame.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III06">
           <head>SCENE VI</head>
           <stage>AMALASONTE, GEPILDE.</stage>
-          <sp who="amalasonte">
+          <sp xml:id="III06-1" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Il l’ose menacer !</l>
             <l n="1115" xml:id="l1115">Ah, Ciel ! quelle insolence, &amp; qui l’eust pû penser ?</l>
             <l n="1116" xml:id="l1116">Ay-je, en l’élevant trop, cessé d’estre sa Reyne ?</l>
           </sp>
-          <sp who="gepilde">
+          <sp xml:id="III06-2" who="gepilde">
             <speaker>GEPILDE.</speaker>
             <l n="1117" xml:id="l1117">Madame, redoutez la fureur qui l’entraîne.</l>
             <l n="1118" xml:id="l1118">L’Amour au desespoir est capable de tout.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III06-3" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1119" xml:id="l1119">Il est de seurs moyens pour en venir à bout ;</l>
             <l n="1120" xml:id="l1120">Et je luy feray voir, puis qu’il m’y veut contraindre,</l>
             <l n="1121" xml:id="l1121">Qu’en s’osant emporter, c’est à luy seul de craindre,</l>
             <l n="1122" xml:id="l1122" part="I">Hola, Gardes, à moy .</l>
           </sp>
-          <sp who="ataulphe">
+          <sp xml:id="III06-4" who="ataulphe">
             <speaker>ATAULPHE.</speaker>
             <l part="M">Madame,<pb n="48"/></l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="III06-5" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Allez, courez,</l>
             <l n="1123" xml:id="l1123">Surprenez Theodat, &amp; vous en assurez<note n="148" place="bottom">« surprenez Theodat » et arrêté le.</note>.</l>
@@ -2292,13 +2295,13 @@
           <label>Fin du Troisième Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="IV" type="act">
         <pb n="49"/>
         <head>ACTE IV.</head>
-        <div type="scene">
+        <div type="scene" xml:id="IV01">
           <head>SCENE PREMIERE.</head>
           <stage>AMALASONTE, GEPILDE.</stage>
-          <sp who="gepilde">
+          <sp xml:id="IV01-1" who="gepilde">
             <speaker>GEPILDE.</speaker>
             <l n="1124" xml:id="l1124">Quoy que vous vous mettiez au dessus des <ref target="#alarmes">alarmes*</ref>,</l>
             <l n="1125" xml:id="l1125">Si le Peuple murmure, il peut courir aux armes,</l>
@@ -2308,7 +2311,7 @@
             <l n="1129" xml:id="l1129">Qu’il aimoit sous vos loix à l’accepter pour Maistre ;</l>
             <l n="1130" xml:id="l1130">Sans doute à sa disgrace il voudra prendre part.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV01-2" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1131" xml:id="l1131">C’est de quoy j’ay voulu <ref target="#prevenir">prévenir*</ref> le hazard ;</l>
             <l n="1132" xml:id="l1132">Honoric est allé de cette populace<note n="149" place="bottom">149. Terme familier désignant le peuple, emploi surprenant dans une tragédie. Il trahit le mépris de la reine pour son peuple. </note></l>
@@ -2319,7 +2322,7 @@
             <l n="1137" xml:id="l1137">Mais la Princesse enfin peut aimer sans scrupule.</l>
             <l n="1138" xml:id="l1138">Cet obstacle impréveu ne l’<ref target="#etonner">étonne*</ref>-t-il point ?</l>
           </sp>
-          <sp who="gepilde">
+          <sp xml:id="IV01-3" who="gepilde">
             <speaker>GEPILDE.</speaker>
             <l n="1139" xml:id="l1139">Son cœur se veut en vain déguiser sur ce point,<pb n="50"/></l>
             <l n="1140" xml:id="l1140">Je la trouve <ref target="#inquiet">inquiete*</ref>; &amp; soit qu’elle appréhende</l>
@@ -2327,7 +2330,7 @@
             <l n="1142" xml:id="l1142">Soit que pour son hymen l’augure soit fâcheux,</l>
             <l n="1143" xml:id="l1143">On voit dans son chagrin l’embarras de ses vœux.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV01-4" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1144" xml:id="l1144">Ils n’auront pas longtemps l’importune contrainte</l>
             <l n="1145" xml:id="l1145">Qui <ref target="#trouble">trouble*</ref> son espoir, &amp; fait naistre sa crainte ;</l>
@@ -2337,11 +2340,11 @@
             <l n="1149" xml:id="l1149">D’un semblable tumulte il ne sera la cause ;</l>
             <l n="1150" xml:id="l1150">Son haut rang aux Mutins peut donner trop d’appuy.</l>
           </sp>
-          <sp who="gepilde">
+          <sp xml:id="IV01-5" who="gepilde">
             <speaker>GEPILDE.</speaker>
             <l n="1151" xml:id="l1151">Quoy, Madame, l’amour ne dira rien pour luy ?</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV01-6" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1152" xml:id="l1152">Je l’ay sans doute aimé , je l’aime encor peut-estre,</l>
             <l n="1153" xml:id="l1153">Mais en trompant ma flame il a deû<note n="151" place="bottom">Aurait dû.</note> me connoistre*,</l>
@@ -2357,14 +2360,15 @@
             <l n="1163" xml:id="l1163">J’abandonnerois tout à ce que je lui doy.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE II.</head><pb n="51"/>
+        <div type="scene" xml:id="IV02">
+          <head>SCENE II.</head>
+          <pb n="51"/>
           <stage>AMALASONTE, ATAULPHE, GEPILDE.</stage>
-          <sp who="amalasonte">
+          <sp xml:id="IV02-1" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1164" xml:id="l1164">He bien, des Factieux a-t-on calmé l’audace ?</l>
           </sp>
-          <sp who="ataulphe">
+          <sp xml:id="IV02-2" who="ataulphe">
             <speaker>ATAULPHE.</speaker>
             <l n="1165" xml:id="l1165">Madame, du murmure ils vont à la menace,</l>
             <l n="1166" xml:id="l1166">Et semblent s’apprester au plus funeste <ref target="#eclat">éclat*</ref>,</l>
@@ -2381,7 +2385,7 @@
             <l n="1177" xml:id="l1177">Luy ceder, quelquefois n’est pas une foiblesse,</l>
             <l n="1178" xml:id="l1178">Dans les maux violens trop de rigueur perd tout.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV02-3" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1179" xml:id="l1179">Theodat est coupable, &amp; le Peuple l’absout ?</l>
             <l n="1180" xml:id="l1180">Si je puis l’endurer, je ne suis donc plus Reyne ?</l>
@@ -2392,31 +2396,31 @@
             <l n="1185" xml:id="l1185">Allez, menacez les de leur porter sa teste,</l>
             <l n="1186" xml:id="l1186">Puis qu’il est leur Idole, ils craindront pour ses jours.</l>
           </sp>
-          <sp who="ataulphe">
+          <sp xml:id="IV02-4" who="ataulphe">
             <speaker>ATAULPHE.</speaker>
             <l n="1187" xml:id="l1187">Le mal que je prévoy veut un autre secours ;<pb n="52"/></l>
             <l n="1188" xml:id="l1188" part="I">Et quoy que vostre <ref target="#gloire">gloire*</ref>…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV02-5" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Il faut qu’elle en décide ;</l>
             <l n="1189" xml:id="l1189">Faisons trembler le Peuple, il est lâche &amp;  <ref target="#timide">timide*</ref>,</l>
             <l n="1190" xml:id="l1190" part="I">Ne perdez point de temps, Ataulphe.</l>
           </sp>
-          <sp who="ataulphe">
+          <sp xml:id="IV02-6" who="ataulphe">
             <speaker>ATAULPHE.</speaker>
             <l part="F">Je crains bien,</l>
             <l n="1191" xml:id="l1191" part="I">Madame …</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV02-7" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Allez, vous dis-je, &amp; ne repliquez rien.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV03">
           <head>SCENE III.</head>
           <stage>AMALASONTE, GEPILDE.</stage>
-          <sp who="amalasonte">
+          <sp xml:id="IV03-1" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1192" xml:id="l1192">Par ce fatal amour dont je suis abusée,</l>
             <l n="1193" xml:id="l1193">Tu vois, Gepilde, à quoy je me suis exposée.</l>
@@ -2432,7 +2436,7 @@
             <l n="1203" xml:id="l1203">Mettons-nous hors d’état de le plus redouter<note n="155" place="bottom">De le redouter encore plus, plus longtemps.</note>,</l>
             <l n="1204" xml:id="l1204">Ostons aux Factieux l’appuy qu’ils s’en promettent<note n="156" place="bottom">Faisons en sorte que le peuple révolté ne puisse plus compter sur Theodat.</note>.</l>
           </sp>
-          <sp who="gepilde">
+          <sp xml:id="IV03-2" who="gepilde">
             <speaker>GEPILDE.</speaker>
             <l n="1205" xml:id="l1205">Voyez mieux les périls où ces tranports* vous jettent,<pb n="53"/></l>
             <l n="1206" xml:id="l1206">Madame, &amp; quels malheurs suivirent autrefois</l>
@@ -2443,7 +2447,7 @@
             <l n="1211" xml:id="l1211">Ne soufrit plus d’obstacle à sa rapidité.</l>
             <l n="1212" xml:id="l1212">Ce vaste embrasement s’éteignit avec peine.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV03-3" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1213" xml:id="l1213">J’ay joüy de l’exemple, on vit que j’estois Reyne,</l>
             <l n="1214" xml:id="l1214">Et depuis ces rigueurs que je crûs me devoir,</l>
@@ -2467,20 +2471,21 @@
             <l n="1232" xml:id="l1232">Mais de ton cœur <ref target="#seduire">séduit*</ref> les mouvemens rebelles …</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE IV</head><pb n="54"/>
+        <div type="scene" xml:id="IV04">
+          <head>SCENE IV</head>
+          <pb n="54"/>
           <stage>AMALASONTE, HONORIC, GEPILDE.</stage>
-          <sp who="honoric">
+          <sp xml:id="IV04-1" who="honoric">
             <speaker>HONORIC.</speaker>
             <l n="1233" xml:id="l1233">Je viens vous apportez de fâcheuses nouvelles,</l>
             <l n="1234" xml:id="l1234">Madame, Theodat échapé malgré nous,</l>
             <l n="1235" xml:id="l1235">Est maistre de la Ville, &amp; s’il le veut, de vous.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV04-2" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1236" xml:id="l1236" part="I">Sa  prison est forcée ?</l>
           </sp>
-          <sp who="honoric">
+          <sp xml:id="IV04-3" who="honoric">
             <speaker>HONORIC.</speaker>
             <l part="F">Oüy, tout cede à l’orage.</l>
             <l n="1237" xml:id="l1237">Les Mutins par le fer s’y sont ouvert passage ;</l>
@@ -2494,14 +2499,14 @@
             <l n="1245" xml:id="l1245">Qu’en se faisant leur Roy, Theodat vous exile.</l>
             <l n="1246" xml:id="l1246">Voilà jusqu’où leur haine a poussé l’attentat.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV04-4" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1247" xml:id="l1247">Ah, pourquoy n’avoir pas <ref target="#immoler">immolé*</ref> Theodat ?</l>
             <l n="1248" xml:id="l1248">La revolte à ma <ref target="#gloire">gloire*</ref> eust esté moins funeste,</l>
             <l n="1249" xml:id="l1249">Vous eussiez par sa mort épouvanté le reste ;</l>
             <l n="1250" xml:id="l1250">Le nombre est peu de chose, où le Chef a manqué.</l>
           </sp>
-          <sp who="honoric">
+          <sp xml:id="IV04-5" who="honoric">
             <speaker>HONORIC.</speaker>
             <l n="1251" xml:id="l1251">Au milieu des Mutins qui l’auroit attaqué ?</l>
             <l n="1252" xml:id="l1252">Ils ne permettent point que ses jours se hazardent ;<pb n="55"/></l>
@@ -2513,7 +2518,7 @@
             <l n="1258" xml:id="l1258">Et marquer à ma Reyne, en renonçant au jour,</l>
             <l n="1259" xml:id="l1259">Combien je sens les maux qu’a causez mon amour.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV04-6" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1260" xml:id="l1260">Il n’en faut point douter, le Trône a ses <ref target="#amorce">amorces*</ref>,</l>
             <l n="1261" xml:id="l1261">J’ay trop à Theodat fait connoistre ses forces.</l>
@@ -2537,10 +2542,11 @@
             <l n="1279" xml:id="l1279">Si j’obtiens quelque temps, je croiray tout gagner.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE V.</head><pb n="56"/>
+        <div type="scene" xml:id="IV05">
+          <head>SCENE V.</head>
+          <pb n="56"/>
           <stage>AMALASONTE, GEPILDE .</stage>
-          <sp who="amalasonte">
+          <sp xml:id="IV05-1" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1280" xml:id="l1280">Est-il une infortune à ma disgrace égale,</l>
             <l n="1281" xml:id="l1281">Gepilde ? Il faudra voir triompher ma Rivale.</l>
@@ -2556,15 +2562,15 @@
             <l n="1291" xml:id="l1291">S’il faut percer mon cœur pour aller jusqu’au sien,</l>
             <l n="1292" xml:id="l1292">Sans pitié de moy-mesme, &amp; toute à ma vangeance…</l>
           </sp>
-          <sp who="gepilde">
+          <sp xml:id="IV05-2" who="gepilde">
             <speaker>GEPILDE.</speaker>
             <l n="1293" xml:id="l1293">Cachez ce mouvement, le voicy qui s’avance.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV06">
           <head>SCENE VI.</head>
           <stage>AMALASONTE, THEODAT, GEPILDE.</stage>
-          <sp who="theodat">
+          <sp xml:id="IV06-1" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1294" xml:id="l1294">Je ne viens point, Madame, en insolent vainqueur,</l>
             <l n="1295" xml:id="l1295">Braver vostre colere, ou blâmer sa rigueur.</l>
@@ -2577,7 +2583,7 @@
             <l n="1302" xml:id="l1302">Et ce n’est qu’à genoux que je veux obtenir</l>
             <l n="1303" xml:id="l1303">Qu’au moins vous suspendiez l’ordre de m’en punir.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV06-2" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1304" xml:id="l1304">Levez-vous, Theodat. Il faut que je l’avouë,</l>
             <l n="1305" xml:id="l1305">Le Ciel veut que de vous malgré moy je me louë.</l>
@@ -2588,7 +2594,7 @@
             <l n="1310" xml:id="l1310">Est un <ref target="#art">art*</ref> si puissant dessus mes volontez,</l>
             <l n="1311" xml:id="l1311">Qu’il force ma colere, &amp; vous rend mes <ref target="#bontez">bontez*</ref>.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="IV06-3" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1312" xml:id="l1312">Que de <ref target="#gloire">gloire*</ref> pour moy ! Je le connoy, Madame,</l>
             <l n="1313" xml:id="l1313">Mes <ref target="#indiscret">indiscrets*</ref> <ref target="#transports">transports*</ref> ont dû toucher vostre ame,</l>
@@ -2597,11 +2603,11 @@
             <l n="1316" xml:id="l1316">Ce reste mal éteint d’une aveugle tendresse</l>
             <l n="1317" xml:id="l1317" part="I">Est un crime …</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV06-4" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Gepilde, amenez la Princesse.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="IV06-5" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1318" xml:id="l1318">Quoy ? la mander si-tost ! Laissez-moy respirer,</l>
             <l n="1319" xml:id="l1319">Madame, c’est assez de ne rien desirer.</l>
@@ -2613,13 +2619,13 @@
             <l n="1325" xml:id="l1325">Ma <ref target="#vertu">vertu*</ref> se défie encor de ma foiblesse ;</l>
             <l n="1326" xml:id="l1326">Ménagez-la, de grace, &amp; ne l’exposez pas.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV06-6" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1327" xml:id="l1327">Pour moy, comme pour vous, la <ref target="#gloire">gloire*</ref> a des appas ;<pb n="58"/></l>
             <l n="1328" xml:id="l1328">Et quand vous refusez d’user des <ref target="#avantage">avantages*</ref></l>
             <l n="1329" xml:id="l1329">Qui vous ont contre moy donné tant de suffrages…</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="IV06-7" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1330" xml:id="l1330">Ah, Madame, daignez ne vous plus souvenir</l>
             <l n="1331" xml:id="l1331">D’un crime qu’il vous plaist negliger de punir ;</l>
@@ -2629,10 +2635,10 @@
             <l n="1335" xml:id="l1335">En repare l’injure &amp; pour eux, &amp; pour moy</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV07">
           <head>SCENE VII.</head>
           <stage>AMALASONTE, ILDEGONDE, THEODAT, GEPILDE, VALMIRE.</stage>
-          <sp who="amalasonte">
+          <sp xml:id="IV07-1" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1336" xml:id="l1336">Theodat n’a jamais remporté tant de <ref target="#gloire">gloire*</ref>,</l>
             <l n="1337" xml:id="l1337">Qu’en gagnant sur soy-mesme une illustre victoire.</l>
@@ -2651,17 +2657,17 @@
             <l n="1350" xml:id="l1350">Mais ce que je luy dois peut-estre a merité<pb n="59"/></l>
             <l n="1351" xml:id="l1351">Que vous n’en croyiez pas<note n="165" place="bottom">Que vous n’obéissiez pas à votre orgueil. </note> toute vostre <ref target="#fierte1">fierté*</ref>.    </l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="IV07-2" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1352" xml:id="l1352">Quoy, Madame, un coupable auroit droit de prétendre…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV07-3" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1353" xml:id="l1353">Il suffit, là-dessus je ne veux rien entendre ;</l>
             <l n="1354" xml:id="l1354">Obtenez seulement que par de prompts effets</l>
             <l n="1355" xml:id="l1355">La Princesse pour vous seconde mes projets.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="IV07-4" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1356" xml:id="l1356">Le Trône vaut beaucoup, je le sçais ; mais, Madame,</l>
             <l n="1357" xml:id="l1357">Son plus <ref target="#pompeux">pompeux*</ref> <ref target="#eclat">éclat*</ref> n’ébloüit point mon ame.</l>
@@ -2675,7 +2681,7 @@
             <l n="1365" xml:id="l1365">Pour écouter un feu qu’en vain il voudroit croire ;</l>
             <l n="1366" xml:id="l1366">Un choix plus relevé doit flater son espoir.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="IV07-5" who="amalasonte">
             <speaker>AMALASONTE <hi rend="i">à Theodat.</hi></speaker>
             <l n="1367" xml:id="l1367">Le temps sur ce mépris aura quelque pouvoir,</l>
             <l n="1368" xml:id="l1368">Tâchez de la fléchir, je vous laisse avec elle.</l>
@@ -2684,15 +2690,16 @@
             <l n="1371" xml:id="l1371">Avec un Sceptre en main, est en droit de <ref target="#charmer">charmer*</ref>.</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE VIII.</head><pb n="60"/>
+        <div type="scene" xml:id="IV08">
+          <head>SCENE VIII.</head>
+          <pb n="60"/>
           <stage>ILDEGONDE, THEODAT, VALMIRE.</stage>
-          <sp who="theodat">
+          <sp xml:id="IV08-1" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1372" xml:id="l1372">Donc à me rendre heureux lors que tout se dispose,</l>
             <l n="1373" xml:id="l1373">Ma Princesse elle seule à mon bonheur s’oppose ?</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="IV08-2" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1374" xml:id="l1374">Dites, dites plutost que je veux détourner</l>
             <l n="1375" xml:id="l1375">L’orage menaçant qui peut vous entraîner.</l>
@@ -2709,7 +2716,7 @@
             <l n="1386" xml:id="l1386">Nostre Sexe pour vaincre a l’<ref target="#art">art*</ref> de reculer,</l>
             <l n="1387" xml:id="l1387">Et sa plus grande force est à dissimuler…</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="IV08-3" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1388" xml:id="l1388">D’un changement si prompt quel que soit le mistere,</l>
             <l n="1389" xml:id="l1389">Qu’en apprehendez-vous, &amp; que peut-elle faire ?</l>
@@ -2725,7 +2732,7 @@
             <l n="1399" xml:id="l1399">Les dérobe aux fureurs de son emportement.</l>
             <l n="1400" xml:id="l1400">Tout le Peuple est pour moy ; les Soldats &amp; l’Armée …</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="IV08-4" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1401" xml:id="l1401">Ils aiment vostre <ref target="#gloire">gloire*</ref> &amp; vostre renommée,</l>
             <l n="1402" xml:id="l1402">A l’envy<note n="166" place="bottom">Qui n’est absolument pas dans cette rivalité.</note> tout le monde appuyera vostre sort,</l>
@@ -2741,7 +2748,7 @@
             <l n="1412" xml:id="l1412">Et maistre de son cœur ainsi que de l’Empire,</l>
             <l n="1413" xml:id="l1413">Etoufez la vangeance où sans doute elle aspire.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="IV08-5" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1414" xml:id="l1414">Quel <ref target="#conseil1">conseil*</ref>, ou plutost quelle injure à ma <ref target="#foy">foy*</ref> ?</l>
             <l n="1415" xml:id="l1415">Je vous voyois tantost plus de bonté pour moy.</l>
@@ -2750,7 +2757,7 @@
             <l n="1418" xml:id="l1418">Pourquoy changer si-tost des sentimens si doux ?</l>
             <l n="1419" xml:id="l1419">Aimez-vous Honoric, ou me haïssez-vous ?</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="IV08-6" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1420" xml:id="l1420">C’est trop, dispensez-moy de voir à quoy m’expose</l>
             <l n="1421" xml:id="l1421">Ce qu’un noble interest veut que je vous propose.</l>
@@ -2765,14 +2772,14 @@
             <l n="1430" xml:id="l1430">L’effort m’en couste assez, pour meriter de vous</l>
             <l n="1431" xml:id="l1431">Sur ce cruel triomphe un reproche plus doux.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="IV08-7" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1432" xml:id="l1432">L’effort est grand sans doute, &amp; marque un cœur sublime</l>
             <l n="1433" xml:id="l1433">Qu’en tout ce qu’il résout<note n="169" place="bottom">Dans tout ce qu’il décide…</note> la <ref target="#gloire">gloire*</ref> seule anime,</l>
             <l n="1434" xml:id="l1434">Un cœur qui sous les sens n’est jamais abatu ;</l>
             <l n="1435" xml:id="l1435">Mais, Madame, est-ce aimer qu’avoir tant de <ref target="#vertu">vertu*</ref> ?</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="IV08-8" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1436" xml:id="l1436">Oüy, puis que devant tout à vostre amour extréme,</l>
             <l n="1437" xml:id="l1437">Je ne puis moins pour vous que m’<ref target="#immoler">immoler*</ref> moy-mesme.</l>
@@ -2788,7 +2795,7 @@
             <l n="1447" xml:id="l1447">Songez que c’est de moy que vous la recevez,</l>
             <l n="1448" xml:id="l1448" part="I">Que c’est moy…</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="IV08-9" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Non, Madame, assemblez pour ma <ref target="#gloire">gloire*</ref></l>
             <l n="1449" xml:id="l1449">Les plus brillans honneurs qui suivent la victoire,</l>
@@ -2799,15 +2806,15 @@
             <l n="1454" xml:id="l1454">Et de tout ce qui fait le vray bonheur d’un Roy,<pb n="63"/></l>
             <l n="1455" xml:id="l1455">Rien ne me peut manquer, si vous estes à moy.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="IV08-10" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1456" xml:id="l1456">Ne vous en croyez pas, vostre raison <ref target="#seduire">séduite*</ref> …</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV09">
           <head>SCENE IX.</head>
           <stage>ILDEGONDE, THEODAT, EUTHAR, VALMIRE.</stage>
-          <sp who="euthar">
+          <sp xml:id="IV09-1" who="euthar">
             <speaker>EUTHAR.</speaker>
             <l n="1457" xml:id="l1457">Seigneur, d’un nouveau <ref target="#trouble">trouble*</ref> appréhendez la suite.</l>
             <l n="1458" xml:id="l1458">Theudis avec les Siens dans le Palais entré,</l>
@@ -2817,11 +2824,11 @@
             <l n="1462" xml:id="l1462">Il le pousse, il le presse, &amp; sans un prompt secours,</l>
             <l n="1463" xml:id="l1463">Quoy qu’il ait quelque appuy, je crains tout pour ses jours.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="IV09-2" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1464" xml:id="l1464">Allez-y, Theodat &amp; dérobant sa vie…</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="IV09-3" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1465" xml:id="l1465">Vous le voulez, Madame, &amp; l’honneur m’y convie ;</l>
             <l n="1466" xml:id="l1466">Tout mon Rival qu’il est, je cours à son costé</l>
@@ -2829,17 +2836,17 @@
             <l n="1468" xml:id="l1468">Et tant qu’un calme entier acheve de l’éteindre<note n="171" place="bottom">Et jusqu’à ce qu’un calme entier achève d’éteindre cette fureur.</note>,</l>
             <l n="1469" xml:id="l1469">A moins que je périsse, il n’aura rien à craindre.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="IV09-4" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1470" xml:id="l1470">Prenez soin de vous-mesme, &amp; quoy qu’aimé de tous,</l>
             <l n="1471" xml:id="l1471">Songez qu’un bras caché pourroit tout contre vous.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="IV09-5" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1472" xml:id="l1472">Si ma vie à sauver vous tient en défiance,</l>
             <l n="1473" xml:id="l1473">Dites que vous m’aimez, elle est en assurance.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="IV09-6" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1474" xml:id="l1474">Vous avez là-dessus tout lieu d’estre <ref target="#content">content*</ref> ;<pb n="64"/></l>
             <l n="1475" xml:id="l1475">Si j’estois sans amour, je ne craindrois par tant.</l>
@@ -2847,13 +2854,13 @@
           <label>Fin du Quatrième Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="V" type="act">
         <pb n="65"/>
         <head>ACTE V.</head>
-        <div type="scene">
+        <div type="scene" xml:id="V01">
           <head>SCENE PREMIERE.</head>
           <stage>ILDEGONDE, VALMIRE.</stage>
-          <sp who="valmire">
+          <sp xml:id="V01-1" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="1476" xml:id="l1476">L’amour, pour vostre cœur doit avoir bien des <ref target="#charmes">charmes*</ref>,</l>
             <l n="1477" xml:id="l1477">Si d’un songe confus<note n="172" place="bottom">Ildegonde a fait un rêve prémonitoire, c’est un procédé courant dans la tragédie, les femmes pressentent les dangers qui menacent leurs amants. Il n’est pas montré sur la scène. Ce rêve rappelle le songe de Pauline, dans <hi rend="i">Polyeucte</hi> de Pierre Corneille, à l’acte I, scène 3, elle fait le récit du songe dans lequel elle a vu son amant que chacun croyait mort et qui lui apparaît triomphant.</note> vous prenez tant d’<ref target="#alarmes">alarmes*</ref>.</l>
@@ -2862,7 +2869,7 @@
             <l n="1480" xml:id="l1480">A de vaines frayeurs vous soufrez trop d’<ref target="#empire">empire*</ref>,</l>
             <l n="1481" xml:id="l1481" part="I">Madame, &amp; quand le jour …</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V01-2" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">Le jour paroist, Valmire,</l>
             <l n="1482" xml:id="l1482">Et nous va faire voir si mon esprit <ref target="#seduire">séduit*</ref></l>
@@ -2873,14 +2880,14 @@
             <l n="1487" xml:id="l1487">On parle d’<ref target="#entreprise">entreprise*</ref> &amp; de sang répandu.</l>
             <l n="1488" xml:id="l1488">Puis-je sur ce murmure estre moins <ref target="#inquiet">inquiete*</ref> ?</l>
           </sp>
-          <sp who="valmire">
+          <sp xml:id="V01-3" who="valmire">
             <speaker>VALMIRE.</speaker>
             <l n="1489" xml:id="l1489">Mais dans ce <ref target="#trouble">trouble*</ref> enfin Theodat seul vous jette ;<pb n="66"/></l>
             <l n="1490" xml:id="l1490">Et je vous y croyois l’esprit moins disposé</l>
             <l n="1491" xml:id="l1491">En faveur d’un Amant si longtemps méprisé.</l>
             <l n="1492" xml:id="l1492">L’Amour de vos dédains punit bien l’injustice.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V01-4" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1493" xml:id="l1493">Ne me reproche point un bizarre caprice.</l>
             <l n="1494" xml:id="l1494">Avant qu’avecque toy j’eusse osé m’en ouvrir,</l>
@@ -2904,10 +2911,11 @@
             <l n="1512" xml:id="l1512" part="I">Veux-tu que sans rien voir de tout…</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE II.</head><pb n="67"/>
+        <div type="scene" xml:id="V02">
+          <head>SCENE II.</head>
+          <pb n="67"/>
           <stage>AMALASONTE, ILDEGONDE, VALMIRE, GEPILDE.</stage>
-          <sp who="amalasonte">
+          <sp xml:id="V02-1" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Enfin, Princesse,</l>
             <l n="1513" xml:id="l1513">Les destins sont pour nous<note n="174" place="bottom">La chance est de notre côté. </note>, que vostre crainte cesse.</l>
@@ -2916,21 +2924,21 @@
             <l n="1516" xml:id="l1516">Je viens pour reparer cette honteuse feinte,</l>
             <l n="1517" xml:id="l1517">Oster à vos desirs toute ombre de contrainte.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V02-2" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1518" xml:id="l1518" part="I">Ah Valmire !</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="V02-3" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Honoric estant aimé de vous,</l>
             <l n="1519" xml:id="l1519">Peut déjà s’applaudir du nom de vostre Epoux,</l>
             <l n="1520" xml:id="l1520">Il n’aura plus d’obstacle à ce grand hyménée.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V02-4" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1521" xml:id="l1521" part="I">Se pourroit-il…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="V02-5" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">J’en ay l’ame encor <ref target="#etonner">étonnée*</ref>.</l>
             <l n="1522" xml:id="l1522">J’aimois, &amp; ce n’est pas sans <ref target="#trouble">trouble*</ref>, sans horreur,</l>
@@ -2939,21 +2947,21 @@
             <l n="1525" xml:id="l1525">Ma <ref target="#gloire">gloire*</ref> en murmuroit, &amp; je me suis vangée ;</l>
             <l n="1526" xml:id="l1526"><ref target="#trouble">Trouble*</ref>, desordre, horreur, tout est doux à ce prix.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V02-6" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1527" xml:id="l1527" part="I">Sans doute Theodat…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="V02-7" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l part="F">Vous l’auroit-on appris ?<pb n="68"/></l>
             <l n="1528" xml:id="l1528">Oüy, Princesse, à la joye abandonnez vostre ame,</l>
             <l n="1529" xml:id="l1529" part="I">Theodat ne vit plus.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V02-8" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">Theodat…Quoy, Madame…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="V02-9" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1530" xml:id="l1530">Deux des Siens<note n="175" place="bottom">Theudis et Trasimond, deux des alliés de Theodat que la reine croit passés de son côté.</note> dés longtemps m’avoit vendu leur <ref target="#foy">foy*</ref>,</l>
             <l n="1531" xml:id="l1531">Comblez de mes bienfaits ils estoient tout à moy,</l>
@@ -2983,7 +2991,7 @@
             <l n="1555" xml:id="l1555">Joüissez d’un plaisir qu’elle n’offre qu’à vous.</l>
             <l n="1556" xml:id="l1556">Qu’un bien si précieux vous la doit rendre chere !</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V02-10" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1557" xml:id="l1557">Vous la connoissez mal, goustez-la toute entiere,<pb n=" 69"/></l>
             <l n="1558" xml:id="l1558">Et puis que vostre rage en chérit tant l’appas,</l>
@@ -2994,11 +3002,11 @@
             <l n="1563" xml:id="l1563">Par vous, par vos fureurs, c’est moy qui l’ay tué.</l>
             <l n="1564" xml:id="l1564">C’est moy qui vous <ref target="#immoler">immole*</ref> une teste si chere.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="V02-11" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1565" xml:id="l1565" part="I">Ciel ! que me dites-vous ?</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V02-12" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">Ce qu’il ne faut plus taire.</l>
             <l n="1566" xml:id="l1566">Malgré tout mon orgueil Theodat fut mon choix,</l>
@@ -3024,7 +3032,7 @@
             <l n="1586" xml:id="l1586">Que jusques au tombeau mes <ref target="#soupirer">soûpirs*</ref> &amp; mes pleurs<pb n="70"/></l>
             <l n="1587" xml:id="l1587">Ne se lasseront point de vanger tes malheurs.</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="V02-13" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1588" xml:id="l1588">Enfin, graces<note n="179" place="bottom">« Graces » est au pluriel pour une raison prosodique, avec le déterminant « au » qui le suit, ensemble ils comptent trois syllabes.</note> au Ciel, rien ne manque à ma joye ;</l>
             <l n="1589" xml:id="l1589">A pleines mains sur moy sa faveur se déploye.</l>
@@ -3063,7 +3071,7 @@
             <l n="1622" xml:id="l1622">Toûjours preste à mourir sous l’horreur du remords,</l>
             <l n="1623" xml:id="l1623">Chaque jour, s’il se peut, endure mille morts.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V02-14" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1624" xml:id="l1624">Insultez aux<note n="182" place="bottom">« Insultez aux », construction indirecte, voir la note page 22.</note> <ref target="#ennuy">ennuis*</ref> dont la rigueur funeste</l>
             <l n="1625" xml:id="l1625">Accable d’un Amant le déplorable reste<note n="183" place="bottom">En insultant mon chagrin, vous insultez la mémoire de mon amant. </note>.</l>
@@ -3087,21 +3095,22 @@
             <l n="1643" xml:id="l1643">Ce Theodat qui dût attendre tout de vous,</l>
             <l n="1644" xml:id="l1644">Ce Theodat…Mais, Dieux, faut-il que je m’en croye<note n="184" place="bottom">Faut-il que j’en crois mes yeux. </note> ?</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="V02-15" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1645" xml:id="l1645" part="I">On m’a trompée ! Ah Ciel !</l>
           </sp>
         </div>
-        <div type="scene">
-          <head>SCENE III.</head><pb n="72"/>
+        <div type="scene" xml:id="V03">
+          <head>SCENE III.</head>
+          <pb n="72"/>
           <stage>AMALASONTE, ILDEGONDE, THEODAT, GEPILDE, VALMIRE.</stage>
-          <sp who="ildegonde">
+          <sp xml:id="V03-1" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">Vous vivez ? quelle joie !</l>
             <l n="1646" xml:id="l1646">Mes reproches, Madame, ont esté trop avant,</l>
             <l n="1647" xml:id="l1647">N’en redoutez plus rien, Theodat est vivant.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="V03-2" who="theodat">
             <speaker>THEODAT <hi rend="i">à Amalasonte.</hi></speaker>
             <l n="1648" xml:id="l1648">Pour me justifier, j’ay besoin de ma <ref target="#gloire">gloire*</ref>,</l>
             <l n="1649" xml:id="l1649">Elle est mon seul recours, mais l’en voudrez vous croire,</l>
@@ -3141,7 +3150,7 @@
             <l n="1683" xml:id="l1683">Madame ; &amp; quelque sang qu’on ait voulu verser.</l>
             <l n="1684" xml:id="l1684">J’ignore quelle main oferte à les répandre…</l>
           </sp>
-          <sp who="amalasonte">
+          <sp xml:id="V03-3" who="amalasonte">
             <speaker>AMALASONTE.</speaker>
             <l n="1685" xml:id="l1685">Tu l’ignores ? Hé bien, il te le faut apprendre.</l>
             <l n="1686" xml:id="l1686">Ces coups qui d’Honoric ont terminé le sort,</l>
@@ -3168,15 +3177,15 @@
             <l n="1707" xml:id="l1707">J’ay commencé trop bien, pour ne pas achever.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V04">
           <head>SCENE IV.</head>
           <stage>THEODAT, ILDEGONDE, VALMIRE.</stage>
-          <sp who="theodat">
+          <sp xml:id="V04-1" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1708" xml:id="l1708">Quelle fureur, Madame, &amp; d’un projet semblable</l>
             <l n="1709" xml:id="l1709">Qui croiroit qu’une Reyne auroit esté capable ?</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V04-2" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1710" xml:id="l1710">Je vous l’avois bien dit, que son calme apparent</l>
             <l n="1711" xml:id="l1711">Dissipant trop l’orage, en marquoit un plus grand.</l>
@@ -3185,7 +3194,7 @@
             <l n="1714" xml:id="l1714">Il veut tout, ose tout pour s’en faire raison,</l>
             <l n="1715" xml:id="l1715">Et ce que le fer manque, il l’obtient du poison.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="V04-3" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1716" xml:id="l1716">Je ne connoy que trop ce qu’il faut que j’en craigne ;</l>
             <l n="1717" xml:id="l1717">Mais voulez-vous de moy que ma <ref target="#vertu">vertu*</ref> se plaigne,</l>
@@ -3196,14 +3205,14 @@
             <l n="1722" xml:id="l1722">Et dont l’égarement n’affoiblit pas ma <ref target="#foy">foy*</ref></l>
             <l n="1723" xml:id="l1723">Jusques à me cacher ce qu’elle a fait pour moy.</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V04-4" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1724" xml:id="l1724">Hé bien, de ses fureurs demeurez la victime.</l>
             <l n="1725" xml:id="l1725">J’ay par mon imprudence achevé vostre crime,</l>
             <l n="1726" xml:id="l1726">Et la part que j’y prens en faisant la noirceur,</l>
             <l n="1727" xml:id="l1727">Je deviens sa complice à vous percer le cœur.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="V04-5" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1728" xml:id="l1728">Helas ! que je tiendrois mon sort digne d’envie,</l>
             <l n="1729" xml:id="l1729">Si j’avois seulement à craindre pour ma vie !</l>
@@ -3212,13 +3221,13 @@
             <l n="1732" xml:id="l1732">Qu’à mon <ref target="#timide">timide*</ref> espoir cessant d’estre contraire,</l>
             <l n="1733" xml:id="l1733" part="I">Vous soufrez que ma <ref target="#foy">foy*</ref> …</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V04-6" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l part="F">Coment l’avoir pû taire ?</l>
             <l n="1734" xml:id="l1734">J’apprenois vostre mort, &amp; de pareils malheurs</l>
             <l n="1735" xml:id="l1735">Demandoient mon secret aussi-bien que mes pleurs.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="V04-7" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1736" xml:id="l1736">Heureux, &amp; doux abus<note n="189" place="bottom">Erreurs, illusions. </note> ! que j’y trouve de <ref target="#charmes">charmes*</ref> !</l>
             <l n="1737" xml:id="l1737">Ah, puis que mon amour a merité vos larmes,</l>
@@ -3232,11 +3241,11 @@
             <l n="1745" xml:id="l1745">Il est des Rois voisins chez qui trouver retraite,</l>
             <l n="1746" xml:id="l1746">Des Rois de quy l’appuy par un heureux secours…</l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V04-8" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1747" xml:id="l1747" part="I">Moy, fuir, Prince ?</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="V04-9" who="theodat">
             <speaker>THEODAT.</speaker>
             <l part="F">Il le faut ou c’est fait de vos jours.<pb n="76"/></l>
             <l n="1748" xml:id="l1748">Songez pour un Amant quel sort épouvantable</l>
@@ -3245,10 +3254,10 @@
             <l n="1751" xml:id="l1751" part="I">Madame, s’il est vray…</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V05">
           <head>SCENE V.</head>
           <stage>THEODAT, ILDEGONDE, EUTHAR, VALMIRE.</stage>
-          <sp who="euthar">
+          <sp xml:id="V05-1" who="euthar">
             <speaker>EUTHAR .</speaker>
             <l part="F">Seigneur, vous estes Roy,</l>
             <l n="1752" xml:id="l1752">Le bruit de vostre mort a redoublé la haine</l>
@@ -3276,14 +3285,14 @@
             <l n="1774" xml:id="l1774">Et cette mort par tout faisant un prompt <ref target="#eclat">éclat*</ref>,</l>
             <l n="1775" xml:id="l1775">On n’entend plus crier que <hi rend="i">vive Theodat.</hi></l>
           </sp>
-          <sp who="ildegonde">
+          <sp xml:id="V05-2" who="ildegonde">
             <speaker>ILDEGONDE.</speaker>
             <l n="1776" xml:id="l1776">Ainsi pour vous, Seigneur, l’ordre du Ciel s’exprime,</l>
             <l n="1777" xml:id="l1777">Vous appellant au Trône, il vous y veut sans crime,</l>
             <l n="1778" xml:id="l1778">Et qu’on puisse au hasard seulement imputer</l>
             <l n="1779" xml:id="l1779">L’Arrest que sa justice a fait executer.</l>
           </sp>
-          <sp who="theodat">
+          <sp xml:id="V05-3" who="theodat">
             <speaker>THEODAT.</speaker>
             <l n="1780" xml:id="l1780">L’infortune me touche, &amp; quelque violence</l>
             <l n="1781" xml:id="l1781">Que la Reyne ait voulu permettre à sa vangeance,</l>

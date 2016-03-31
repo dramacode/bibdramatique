@@ -367,7 +367,7 @@
           <head>Construction de la pièce à partir de ces sources</head>
           <p>Nous considérons donc que Gilbert s’est principalement inspiré de la fable 137 d’Hygin pour composer son intrigue. Qu’en a-t-il conservé ? Gilbert garde tout d’abord les événements en lien avec le coup d’Etat du tyran : l’assassinat de Cresphonte et de ses fils, l’usurpation du trône et le mariage contraint pour Mérope, ainsi que l’exil de Téléphonte en Étolie, à sa naissance. Le poète emprunte aussi au mythe le désir de vengeance du prince, l’édit du tyran contre ce dernier, la ruse du déguisement et l’assassinat final du tyran sur l’autel de sacrifice. De plus, une même violence anime la Mérope d’Hygin et celle de Gilbert :</p>
           <quote>
-            <p>Méropé, croyant que le dormeur était l’assassin de son fils, gagna sa chambre avec une hache<note n="70" place="bottom"> Traduction de l’édition des Belles Lettres : « <hi rend="i">in chalcidium eum securi uenit inscia ut filium suum interficeret ».</hi></note> <space>  </space>(Hygin)</p>
+            <p>Méropé, croyant que le dormeur était l’assassin de son fils, gagna sa chambre avec une hache<note n="70" place="bottom"> Traduction de l’édition des Belles Lettres : « <hi rend="i">in chalcidium eum securi uenit inscia ut filium suum interficeret ».</hi></note><space>  </space>(Hygin)</p>
             <l>Et ton corps foudroyé fumant dedans ces lieux,</l>
             <l>D’un spectacle si beau je repaistrois mes yeux » (Gilbert, vers 999-1000)</l>
             <l>Je boirois de son sang, je mangerois son cœur,</l>
@@ -806,12 +806,12 @@
         </castList>
         <stage>La Scene est à Micene<note n="153" place="bottom"> Moreri donne : <hi rend="i">« ancienne ville du Péloponnèse, n’est présentement qu’un petit bourg de la Morée, dans la province de Belvédere. Elle étoit capitale du pays de Messènie, extrêmement fertile, comme nous l’apprenons d’Ovide, L.6 Métamorphoses. Les Messeniens soutinrent souvent des guerres très considérables. Celle qu’ils eurent contre les Lacédémoniens est célèbre. »</hi> Moreri n’évoque pas l’assassinat de Cresphonte et la vengeance de Téléphonte dans cette notice.</note> dans le Peloponese.</stage>
       </div>
-      <div type="act">
+      <div xml:id="I" type="act">
         <head>ACTE I.</head>
-        <div type="scene">
+        <div type="scene" xml:id="I01">
           <head>SCENE PREMIERE.</head>
           <stage>MEROPE, CEPHALIE.<pb n="1, A"/></stage>
-          <sp who="merope">
+          <sp xml:id="I01-1" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1" xml:id="l1">Divin <ref target="#flambeau1">flambeau*</ref> du Ciel dont la course diverse</l>
             <l n="2" xml:id="l2">Visite l’Indien<note n="154" place="bottom"> Il y a diérèse sur ce mot. Il compte donc pour trois syllabes. On retrouve des diérèses en « -ien » aux vers 67 (<hi rend="i">Etoliens</hi>), 136 et 1492 (<hi rend="i">Messeniens</hi>), 522 (<hi rend="i">Calydoniens</hi>), 563 et 683 (<hi rend="i">lien</hi>), 781 (<hi rend="i">impatience</hi>) et 839 (<hi rend="i">anciens</hi>).</note>, et le Scythe, et le Perse<note n="155" place="bottom"> C’est-à-dire l’Asie orientale, le Nord et l’Asie occidentale.</note> ;</l>
@@ -846,7 +846,7 @@
             <l n="31" xml:id="l31">Ouy le devoir m’y force, et je l’entreprendray</l>
             <l n="32" xml:id="l32">Et si je ne le perds au moins je me perdray.</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="I01-2" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l n="33" xml:id="l33">Il vous revere trop pour vous faire un outrage,</l>
             <l n="34" xml:id="l34">Ce barbare pour vous laisse dormir sa rage,</l>
@@ -856,7 +856,7 @@
             <l n="38" xml:id="l38">Son esprit s’adoucit, diray-je plus encore,</l>
             <l n="39" xml:id="l39">Pour vous il cesse d’estre au nombre des Tyrans.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I01-3" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="40" xml:id="l40">Qu’est-ce que tu me dis, et qu’est-ce que j’aprens ?</l>
             <l n="41" xml:id="l41">Ne m’a t’il pas traictée avecque tyrranie ?</l>
@@ -866,12 +866,12 @@
             <l n="45" xml:id="l45">Depuis trois fois cinq ans il me tien en servage</l>
             <l n="46" xml:id="l46" part="I">Est-ce là cet amour ?</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="I01-4" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l part="F">Mais par son Mariage</l>
             <l n="47" xml:id="l47" part="I">Il croit tout effacer.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I01-5" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Ah ce fut malgré moy,<pb n="4"/></l>
             <l n="48" xml:id="l48">Je donnay bien la main, mais je retiens ma <ref target="#foy2">foy*</ref> ;</l>
@@ -894,14 +894,14 @@
             <l n="65" xml:id="l65">Tu possedes tousjours et mon cœur, et mon ame,</l>
             <l n="66" xml:id="l66">Et dans les bras d’autruy je suis encor<note n="169" place="bottom"> Doublet poétique qui compte pour deux syllabes (<hi rend="i">encore</hi> compte pour trois syllabes devant une consomne).</note> ta Femme.</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="I01-6" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l n="67" xml:id="l67">Un fils vous reste encor chez les Etoliens<note n="170" place="bottom"> Étolie : région de Grèce centrale, au nord du golfe de Corinthe, à l’est de l’Acarnanie.</note>,</l>
             <l n="68" xml:id="l68">Que l’on comble à Chalcis<note n="171" place="bottom"> Cité ionienne puissante, qui fonda de nombreuses colonies, située sur l’île d’Eubée.</note> et d’honneur et de biens</l>
             <l n="69" xml:id="l69">Que leur Roy <ref target="#genereux1">genereux*</ref> destine pour son gendre,<pb n="5"/></l>
             <l n="70" xml:id="l70">Il viendra vous vanger, il viendra vous desfendre.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I01-7" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="71" xml:id="l71">Vingt ans sont escoulez depuis qu’en cette Cour,</l>
             <l n="72" xml:id="l72">Loin des yeux du Tyran il respire le jour,</l>
@@ -914,7 +914,7 @@
             <l n="79" xml:id="l79">Mais ce Dragon<note n="172" place="bottom"> Se dit hyperboliquement de ceux qui sont méchants et les difficiles à contenir dans le devoir (Furetière).</note> veillant en fin l’a decouvert,</l>
             <l n="80" xml:id="l80">C’est là ce qui le sauve, et c’est ce qui me pert.</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="I01-8" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l n="81" xml:id="l81">Avecque sa valeur tout un peuple le garde,</l>
             <l n="82" xml:id="l82">Comme son Roy futur ce peuple le regarde,</l>
@@ -929,7 +929,7 @@
             <l n="91" xml:id="l91">Quoy qu’il puisse arriver cette illustre beauté<pb n="6"/></l>
             <l n="92" xml:id="l92">Ne donnera son cœur qu’à qui l’a mérité.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I01-9" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="93" xml:id="l93">O bons Dieux que je plains cette jeune Princesse</l>
             <l n="94" xml:id="l94">Qu’elle a dans cette Cour, d’<ref target="#ennui">ennuis*</ref> et de tristesse,</l>
@@ -946,12 +946,12 @@
             <l n="105" xml:id="l105">Où le crime peut tout rien n’est en asseurance<note n="178" place="bottom"> Comprendre : rien n’est sûr/ sans souci (Nicot).</note>.</l>
             <l n="106" xml:id="l106" part="I">Ah ! <ref target="#superbe">Superbe*</ref> Tyran.</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="I01-10" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l part="F">Vivez en esperance,</l>
             <l n="107" xml:id="l107">L’amour le peut flechir<note n="179" place="bottom"> Cette construction, appelée « montée du clitique », est habituelle au XVII<hi rend="sup">e</hi> siècle et coexiste avec la forme moderne (qui ne s’imposera définitivement qu’au XIX<hi rend="sup">e</hi> siècle).</note>, le Ciel l’humilier<note n="180" place="bottom"> Il y a une diérèse sur ce mot. On retrouve des diérèses en « ier/ié » aux vers 368, 1155, 1375, 1434 (<hi rend="i">pieté/impieté</hi>) ; au vers 492 (<hi rend="i">allier</hi>) ; aux vers 596, 609 et 621 (<hi rend="i">inquiet/inquietude</hi>) ; aux vers 737, 807, 934 et 1055 (<hi rend="i">meurtrier</hi>).</note>.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I01-11" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="108" xml:id="l108">Ne sçais-tu pas l’Edict qu’il a fait publier</l>
             <l n="109" xml:id="l109">Et le nouveau tourment que sa fureur m’apreste<note n="181" place="bottom"> Comprendre : que sa fureur me prépare ?</note> ?</l>
@@ -964,12 +964,12 @@
             <l n="116" xml:id="l116">Vienne pour demander à ce Tygre <ref target="#inhumain1">inhumain*</ref>,</l>
             <l n="117" xml:id="l117">L’effect de sa promesse, et le prix de son crime.</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="I01-12" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l n="118" xml:id="l118">La justice du Ciel veut une autre victime :</l>
             <l n="119" xml:id="l119" part="I">Mais Hermocrates vient.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I01-13" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Ah ! je le voy, c’est luy</l>
             <l n="120" xml:id="l120">Qui dans sa main <ref target="#injuste">injuste*</ref> a le Sceptre d’autruy.</l>
@@ -981,10 +981,10 @@
             <l n="126" xml:id="l126">Mais avec la pitié faisons qu’elle le touche.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I02">
           <head>SCENE II.</head>
           <stage>LE TYRAN <space/>MEROPE.</stage>
-          <sp who="le-tyran">
+          <sp xml:id="I02-1" who="le-tyran">
             <speaker>LE TYRAN.<pb n="8"/></speaker>
             <l n="127" xml:id="l127">Race du grand Archas<note n="185" place="bottom"> Fils de Zeus et de Callisto, roi d’Arcadie (région du Péloponnèse).</note>, et de ces premiers Roys,</l>
             <l n="128" xml:id="l128">Qui dans ce doux Climat ont fais fleurir les loix ;</l>
@@ -992,12 +992,12 @@
             <l n="130" xml:id="l130">Qu’on vous peut dire encor moins illustre<note n="186" place="bottom"> « Ce qui est eslevé par dessus les autres par son merite, par sa vertu, par sa noblesse, par son excellence » (Furetière).</note> que belle,</l>
             <l n="131" xml:id="l131">Bien qu’entre nos heros vous contiez<note n="187" place="bottom"> Les verbes <hi rend="i">conter</hi> et <hi rend="i">compter</hi> ne sont pas différenciés au XVIIe siècle.</note> vos ayeulx.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I02-2" who="merope">
             <speaker>MEROPE,</speaker>
             <l n="132" xml:id="l132">Ils brillent dans l’Olympe, et je souffre en ces lieux,</l>
             <l n="133" xml:id="l133">Ainsi que leur bonheur mon malheur est extreme.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I02-3" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="134" xml:id="l134">Et quoy n’avez vous pas un espoux qui vous aime,</l>
             <l n="135" xml:id="l135">Ne partagez vous pas mes honneurs et mes biens ?</l>
@@ -1006,7 +1006,7 @@
             <l n="138" xml:id="l138">Vous revere-t’on pas comme grande Princesse ?</l>
             <l n="139" xml:id="l139">Quel est donc le sujet qui cause ce <ref target="#soucy">soucy*</ref> ?</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I02-4" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="140" xml:id="l140">Je suis Reine, il est vray, mais je suis Mere aussi,</l>
             <l n="141" xml:id="l141">Et j’ay les sentimens que la Nature donne :</l>
@@ -1015,12 +1015,12 @@
             <l n="144" xml:id="l144">À quoy me sert ce bien, s’il n’empesche mon mal ?</l>
             <l n="145" xml:id="l145">Que me sert vostre amour esprouvant vostre haine<note n="188" place="bottom"> Esprouver : expérimenter, reconnaître.</note> ?</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I02-5" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="146" xml:id="l146">Pouvés-vous estimer que cette amour<note n="189" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, <hi rend="i">amour</hi>, au singulier, pouvait être aussi bien masculin que féminin.</note> soit vaine,</l>
             <l n="147" xml:id="l147">Qui vous a conservé vostre honneur, vostre rang ?</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I02-6" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="148" xml:id="l148">Quoy peut-on cherir ceux dont on respand le sang ?</l>
             <l n="149" xml:id="l149">Et massacrer le fils dont on aime la Mere ?</l>
@@ -1028,42 +1028,42 @@
             <l n="151" xml:id="l151">Ah ! revoquez plustost cet Edict violent,</l>
             <l n="152" xml:id="l152">Que l’on peut dire <ref target="#injuste">injuste*</ref> autant qu’il est sanglant.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I02-7" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="153" xml:id="l153">Mais ma vie autrement n’est pas en asseurance<note n="190" place="bottom"> Voir la note du vers 105. </note>.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I02-8" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="154" xml:id="l154" part="I">C’est un crime.<pb n="10"/></l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I02-9" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l part="F">Ou plustost un acte de prudence.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I02-10" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="155" xml:id="l155" part="I">Qui pert un innocent.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I02-11" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l part="F">Mais qui conserve un Roy.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I02-12" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="156" xml:id="l156">Il se doit conserver sans violer la loy.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I02-13" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="157" xml:id="l157">Mais la loy la plus forte est la loy naturelle.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I02-14" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="158" xml:id="l158">Cette loy fuit le crime, et n’est jamais cruelle,</l>
             <l n="159" xml:id="l159">Elle abhorre le meurtre, et les lasches desseins,</l>
             <l n="160" xml:id="l160">Et tous ses mouvements sont et <ref target="#juste1">justes*</ref> et saincts ;</l>
             <l n="161" xml:id="l161">Vous suivriez la vertu, si vous l’aviez suivie ;</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I02-15" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="162" xml:id="l162">Elle enseigne à chacun de conserver sa vie,</l>
             <l n="163" xml:id="l163">Et de la preferer mesme à celle d’autruy ;</l>
@@ -1083,19 +1083,19 @@
             <l n="177" xml:id="l177">Ainsi donc justement m’opposant à sa rage,</l>
             <l n="178" xml:id="l178">J’oppose au mal le mal, et l’outrage à l’outrage.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I02-16" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="179" xml:id="l179" part="I">O Ciel ! ô <ref target="#juste2">juste*</ref> Ciel !</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I02-17" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l part="F">De quoy vous plaignez-vous ?</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I02-18" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="180" xml:id="l180" part="I">Mesprisez-vous mes pleurs ?</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I02-19" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l part="F">Suis-je pas vostre espoux<note n="194" place="bottom"> La marque de négation « <hi rend="i">ne</hi> » n’est pas obligatoire, particulièrement dans l’interrogation directe. (Haase, § 101)</note> ?</l>
             <l n="181" xml:id="l181">Le Saint nœud qui nous joint, le Dieu qui nous assemble,<pb n="12"/></l>
@@ -1103,17 +1103,17 @@
             <l n="183" xml:id="l183">Ouy, ouy, quelqu’autre objet qui vous puisse toucher,</l>
             <l n="184" xml:id="l184">Le salut d’un mary vous doit estre plus cher.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I02-20" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="185" xml:id="l185">Helas sauvez mon fils, et perdez cette <ref target="#envie2">envie*</ref>.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I02-21" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="186" xml:id="l186">Si sa vie est ma mort, sa mort sera ma vie.</l>
             <l n="187" xml:id="l187">Tous ces souspirs sont vains, et ces pleurs superflus,</l>
             <l n="188" xml:id="l188">Le dessein en est pris, qu’on ne m’en parle plus.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="I02-22" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="189" xml:id="l189">Si l’on verse mon sang, si le fils suit le Pere,</l>
             <l n="190" xml:id="l190">La Parque<note n="195" place="bottom"> Les trois Parques sont les divinités du Destin dans la religion romaine, identifiées aux Moires grecques. Utilisé ici au singulier, le terme renvoit plus particulièrement à la plus âgée des sœurs, Atropos, qui coupe le fil représentant la durée de vie des mortels – tandis que Clotho tient le fil des destinées humaines et que Lachésis tire le fil avec son fuseau. </note> en mesme temps enlevera la Mere,</l>
@@ -1123,21 +1123,21 @@
             <l n="194" xml:id="l194">Et son dernier moment sera ma derniere heure.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I03">
           <head>SCENE III.</head>
           <stage>LE TYRAN, DEMOCHARE.</stage>
-          <sp who="le-tyran">
+          <sp xml:id="I03-1" who="le-tyran">
             <speaker>LE TYRAN<pb n="13"/></speaker>
             <l n="195" xml:id="l195">Madame. Elle s’en va pleine de desespoir,</l>
             <l n="196" xml:id="l196">Je ne puis l’oüir plaindre, et ne pas m’esmouvoir,</l>
             <l n="197" xml:id="l197" part="I">Ah que je suis troublé !</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-2" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Pour les pleurs d’une femme,</l>
             <l n="198" xml:id="l198">Faut-il que la douleur s’empare de vostre ame ?</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-3" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="199" xml:id="l199">Bien que son dueil me cause un déplaisir secret,</l>
             <l n="200" xml:id="l200">Et bien qu’en l’affligeant je m’afflige à regret,</l>
@@ -1146,11 +1146,11 @@
             <l n="203" xml:id="l203">Aprens si j’ay raison d’en avoir tant d’effroy,</l>
             <l n="204" xml:id="l204">Cresphonte cette nuit a paru devant moy.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-4" who="demochare">
             <speaker>DEMOCHARE.<pb n="14"/></speaker>
             <l n="205" xml:id="l205" part="I">Cresphonte !</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-5" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l part="F">Ouy, j’ay veu ce malheureux Monarque,</l>
             <l n="206" xml:id="l206">Tel que lors qu’il tomba victime de la Parque<note n="199" place="bottom"> Voir la note du vers 190.</note> ;</l>
@@ -1162,18 +1162,18 @@
             <l n="212" xml:id="l212">Mais croy qu’il est des Dieux, et des feux eternels,</l>
             <l n="213" xml:id="l213">Lors<note n="202" place="bottom"> Lors = Alors.</note> il est disparu, que dis tu de ce songe ?</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-6" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="214" xml:id="l214">Ce que l’on dit de tous, le songe est un mensonge,</l>
             <l n="215" xml:id="l215">Un simulachre<note n="203" place="bottom"> Orthographe présente dans le Nicot (1606) ; Furetière (1690) donne « simulacre ».</note> vain qu’engendre le sommeil,</l>
             <l n="216" xml:id="l216">Un fantosme leger<note n="204" place="bottom"> « ce qui n’est point solide, considérable, qui n’a aucun poids ni autorité » (Furetière).</note> qui s’enfuit au resveil,</l>
             <l n="217" xml:id="l217">Et qui n’a de pouvoir que sur la fantaisie.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-7" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="218" xml:id="l218">D’une secrette horreur j’ay l’ame encor saisie.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-8" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="219" xml:id="l219">Faut-il estre troublé d’un objet decevant<note n="205" place="bottom"> Propre à tromper.</note>,</l>
             <l n="220" xml:id="l220">Et peut-on craindre un mort qu’on attaqua vivant ?</l>
@@ -1182,11 +1182,11 @@
             <l n="223" xml:id="l223">Vous qui l’<ref target="#apprehender">apprehendez*</ref> triomphez de son <ref target="#sort2">sort*</ref>,</l>
             <l n="224" xml:id="l224">Il n’est rien, vous regnez, vous vivez, il est mort.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-9" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="225" xml:id="l225" part="I">Mais son fils est vivant.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-10" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Sa triste destinée,</l>
             <l n="226" xml:id="l226">Pour borner vos soucis* sera bien-tost bornée ;</l>
@@ -1195,24 +1195,24 @@
             <l n="229" xml:id="l229">L’espoir d’un si grand gain, la recompense offerte,</l>
             <l n="230" xml:id="l230">Emportera<note n="206" place="bottom"> Entraîner.</note> plusieurs à conspirer sa perte.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-11" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="231" xml:id="l231">N’<ref target="#apprehender">apprehendés*</ref> donc rien, on a conté<note n="207" place="bottom"> Voir la note du vers 131.</note> trois mois,</l>
             <l n="232" xml:id="l232">Depuis que dans Missene on publia ces loix.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-12" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="233" xml:id="l233">Quoi perdés-vous si tost l’espoir et le courage ?</l>
             <l n="234" xml:id="l234">Ne faut-il pas du temps pour faire le voyage,</l>
             <l n="235" xml:id="l235">Choisir l’occasion, et la prendre à propos ?</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-13" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="236" xml:id="l236">Ah ! long retardement fatal à mon repos :</l>
             <l n="237" xml:id="l237">Ce <ref target="#soin2">soin*</ref> trouble le cours de ma bonne <ref target="#fortune3">fortune*</ref>,<pb n="16"/></l>
             <l n="238" xml:id="l238" part="I">Qui m’en delivrera ?</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-14" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Si dedans<note n="208" place="bottom"> « signifie la même chose que <hi rend="i">dans</hi> » (Furetière).</note> une Lune</l>
             <l n="239" xml:id="l239">Personne n’execute un si hardy dessein,</l>
@@ -1222,15 +1222,15 @@
             <l n="243" xml:id="l243">Que le desir de l’or ait eu plus de pouvoir,</l>
             <l n="244" xml:id="l244">Que l’amour paternelle et la loy du devoir.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-15" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="245" xml:id="l245">Bien plus que mon repos ta personne m’est chere.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-16" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="246" xml:id="l246">On doit tout hazarder<note n="211" place="bottom"> Risquer.</note> pour le salut d’un pere.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-17" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="247" xml:id="l247">Ton courage me plaist, mais je n’en puis user,</l>
             <l n="248" xml:id="l248">Le peril est trop grand où tu veux t’exposer,</l>
@@ -1244,20 +1244,20 @@
             <l n="256" xml:id="l256">Mais ce seroit en vain quand<note n="213" place="bottom"> Comprendre : quand bien même il me l’offrirait.</note> il me l’offriroit,</l>
             <l n="257" xml:id="l257">Il faut pour la ravoir me rendre Telephonte.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-18" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="258" xml:id="l258">Si de cette demande il ne fait point de conte<note n="214" place="bottom"> Comprendre : s’il n’en tient pas compte. Sur cette graphie, voir la note du vers 35.</note>.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-19" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="259" xml:id="l259">Je luy feray sçavoir que je me puis vanger,</l>
             <l n="260" xml:id="l260">Et le menaceray de la faire égorger.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-20" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="261" xml:id="l261" part="I">L’égorger, ô bons Dieux !</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-21" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l part="F">Ne crains rien, mais espere,</l>
             <l n="262" xml:id="l262">Et je fais ce discours pour <ref target="#estonner">estonner*</ref> son pere,</l>
@@ -1277,13 +1277,13 @@
             <l n="276" xml:id="l276">Par cet illustre Hymen, mon fils, tu regneras,</l>
             <l n="277" xml:id="l277">Et la Grece verra deux Rois dans ma famille.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-22" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="278" xml:id="l278">Mais rendant Telephonte il reprendra sa fille,</l>
             <l n="279" xml:id="l279">Estant hors de vos mains, et n’en disposant plus,</l>
             <l n="280" xml:id="l280">Mon amour sera vaine, et vos <ref target="#soin1">soins*</ref> superflus<note n="218" place="bottom"> Inutiles.</note>.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-23" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="281" xml:id="l281">Avant que d’envoyer vers le Roy d’Etolie</l>
             <l n="282" xml:id="l282">Je veux qu’un Dieu vous joigne, et que la <ref target="#foy2">foy*</ref> vous lie,</l>
@@ -1295,22 +1295,22 @@
             <l n="288" xml:id="l288">Pour sauver à sa fille et la vie et l’honneur.</l>
             <l n="289" xml:id="l289">Mais on dit que l’ingratte<note n="219" place="bottom"> « Un amant appelle sa maîtresse <hi rend="i">ingratte</hi>, quand elle est cruelle, quand elle ne veut point respondre à son amour » (Furetière).</note> est contraire à ta flame.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-24" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="290" xml:id="l290">Il faut, si mon amour ne peut rien sur son ame,</l>
             <l n="291" xml:id="l291">La traiter en esclave, user d’authorité,</l>
             <l n="292" xml:id="l292">Et luy faire des loix de vostre volonté.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-25" who="le-tyran">
             <speaker>LE TYRAN.<pb n="19"/></speaker>
             <l n="293" xml:id="l293">Dis luy qu’à cet Hymen il faut qu’elle s’appreste,</l>
             <l n="294" xml:id="l294">Que je veux dés demain en celebrer la feste.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-26" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="295" xml:id="l295">Ah Seigneur qu’avez vous ! ô bons Dieux vous tremblez !</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-27" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="296" xml:id="l296">Malgré moi mes esprits sont encore troublez,</l>
             <l n="297" xml:id="l297">Cresphonte me revient sans cesse en la pensée,</l>
@@ -1319,17 +1319,17 @@
             <l n="300" xml:id="l300">Et tâcher de fléchir les Manes irritez :</l>
             <l n="301" xml:id="l301">Que Chrysante, Amynthor, donne ordre au sacrifice.</l>
           </sp>
-          <sp who="amynthor">
+          <sp xml:id="I03-28" who="amynthor">
             <speaker>AMYNTHOR<note n="223" place="bottom"> Dans les éditions de 1642 et de 1643, c’est Démochare qui prononce le premier hémistiche du vers 302. Mais les <hi rend="i">« Fautes survenuës en l’Impreβion</hi> », qui figurent dans l’édition de 1643, indiquent : « apres le 9. vers, au lieu de Demochare, lisez Amynthor ». Un confident du tyran semble donc avoir assisté à la scène, bien qu’il ne soit mentionné ni dans la liste des personnages, ni en début de scène.</note>.</speaker>
             <l n="302" xml:id="l302" part="I">Je vais l’en advertir.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="I03-29" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l part="F">Ma crainte est un supplice.</l>
             <l n="303" xml:id="l303">Je n’auray point l’esprit en paix ; ny satisfait</l>
             <l n="304" xml:id="l304">Que<note n="224" place="bottom"> Tant que cet édit n’aura pas produit son effet.</note> cet Edit sanglant n’ait produit son effet.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="I03-30" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="305" xml:id="l305">Esperez<note n="225" place="bottom"> Comprendre : Attendez seulement.</note> seulement, la mort de Telephonte</l>
             <l n="306" xml:id="l306">Dissipera bien-tost l’<ref target="#ennui">ennuy*</ref> qui vous surmonte.</l>
@@ -1337,19 +1337,19 @@
           <label>Fin du premier Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="II" type="act">
         <head>ACTE II.</head>
-        <div type="scene">
+        <div type="scene" xml:id="II01">
           <head>SCENE PREMIERE.</head>
           <stage>MEROPE. PHILOCLEE.</stage>
-          <sp who="merope">
+          <sp xml:id="II01-1" who="merope">
             <speaker>MEROPE.<pb n=" 20"/></speaker>
             <l n="307" xml:id="l307">Je n’ay rien obtenu ny pour vous ny pour moy,</l>
             <l n="308" xml:id="l308">Le Tyran foule aux pieds la justice et la loy ;</l>
             <l n="309" xml:id="l309">Son ame veut son sang, elle en est alterée<note n="226" place="bottom"> Comprendre : elle en est assoiffée. </note>,</l>
             <l n="310" xml:id="l310">Il est inexorable<note n="227" place="bottom"> « Qui est ferme, dur, qu’on ne sçauroit fleschir, celuy dont on ne peut obtenir aucune grace » (Furetière).</note> et moy desesperée.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II01-2" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="311" xml:id="l311">Comment, au desespoir vous vous abandonnés.</l>
             <l n="312" xml:id="l312">Servés-vous des conseils que vous m’avé donnés,</l>
@@ -1359,36 +1359,36 @@
             <l n="316" xml:id="l316">Et rien ne me retient que vos sages discours ;</l>
             <l n="317" xml:id="l317">Vous consolliés autruy, consolés-vous vous mesme.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="II01-3" who="merope">
             <speaker>MEROPE.<pb n="21"/></speaker>
             <l n="318" xml:id="l318" part="I">Mon mal est sans pareil.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II01-4" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Et le mien est extreme.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="II01-5" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="319" xml:id="l319" part="I">Nos maux sont differens.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II01-6" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Je <ref target="#souffrir1">souffre*</ref> plus que vous.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="II01-7" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="320" xml:id="l320" part="I">Ah ! je crains pour mon fils.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II01-8" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Et moy pour mon espoux.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="II01-9" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="321" xml:id="l321">J’ay dedans les douleurs qui me déchirent l’ame</l>
             <l n="322" xml:id="l322" part="I">Les sentimens de Mere.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II01-10" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Et moy ceux d’une femme.</l>
             <l n="323" xml:id="l323">Apres tant de malheurs que vous avez pleurez</l>
@@ -1421,14 +1421,14 @@
             <l n="350" xml:id="l350">Voyez donc de quels biens la <ref target="#fortune1">fortune*</ref> me prive,</l>
             <l n="351" xml:id="l351">Et jugez si vos maux surpassent mes douleurs.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="II01-11" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="352" xml:id="l352">Le <ref target="#sort1">sort*</ref> de mesme cause a tiré nos malheurs<note n="231" place="bottom"> Comprendre : un même hasard a décidé de nos malheurs.</note> ;<pb n="23"/></l>
             <l n="353" xml:id="l353">Nous souffrons des Tyrans l’Empire illegitime,</l>
             <l n="354" xml:id="l354">Nous sommes toutes deux les esclaves du crime.</l>
             <l n="355" xml:id="l355" part="I">Ah mon cher Telephonte !</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II01-12" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Un fils vous peut toucher,</l>
             <l n="356" xml:id="l356">Mais mon affection me le rend bien plus cher,</l>
@@ -1449,14 +1449,14 @@
             <l n="371" xml:id="l371">Ah si vous connoissiez son ardente amitié !</l>
             <l n="372" xml:id="l372">Je croy que vostre amour s’accroistroit de moitié.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="II01-13" who="merope">
             <speaker>MEROPE.<pb n=" 24"/></speaker>
             <l n="373" xml:id="l373">Que ce discours me plaist, continuez encore,</l>
             <l n="374" xml:id="l374">Il charme avec mes sens l’<ref target="#ennui">ennuy*</ref> qui me devore :</l>
             <l n="375" xml:id="l375">Si tes hautes vertus surpassent tes malheurs,</l>
             <l n="376" xml:id="l376">Mon fils, c’est t’offencer que te donner des pleurs.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II01-14" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="377" xml:id="l377">Il n’avoit pas seize ans, quand sa vertu guerriere</l>
             <l n="378" xml:id="l378">Trouva pour s’exercer une illustre matiere.</l>
@@ -1503,7 +1503,7 @@
             <l n="419" xml:id="l419">Pour y trouver la mort ; c’est là tout mon <ref target="#soucy">soucy*</ref>.</l>
             <l n="420" xml:id="l420" part="I">C’est là toute ma crainte.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="II01-15" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Et c’est la mienne aussi.</l>
             <l n="421" xml:id="l421">Mais il faut toutefois dissimuler ma haine,<pb n="26"/></l>
@@ -1522,7 +1522,7 @@
             <l n="434" xml:id="l434">Avant qu’on ait commis un si grand parricide,</l>
             <l n="435" xml:id="l435">Et fait un acte impie en causant son trespas.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II01-16" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="436" xml:id="l436">Je crains pour Telephonte, et crains pour Amynthas,</l>
             <l n="437" xml:id="l437">J’ay peur que mon malheur l’ait comblé de tristesse,</l>
@@ -1530,67 +1530,67 @@
             <l n="439" xml:id="l439">N’ait pû souffrir* ma perte, et mon ravissement,</l>
             <l n="440" xml:id="l440">Sans qu’une prompte mort l’ait mis au <ref target="#monument">monument*</ref>.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="II01-17" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="441" xml:id="l441">Plustost pour vous ravoir il arme en Etolie,</l>
             <l n="442" xml:id="l442">Il sçait que vous vivez ; Mais que veut Cephalie ?</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II02">
           <head>SCENE II.</head>
           <stage>CEPHALIE. MEROPE. PHILOCLEE.</stage>
-          <sp who="cephalie">
+          <sp xml:id="II02-1" who="cephalie">
             <speaker>CEPHALIE.<pb n="27"/></speaker>
             <l n="443" xml:id="l443">C’est Tyrene, Madame, est dedans<note n="238" place="bottom"> Préposition très usitée au début du XVII<hi rend="sup">e</hi> siècle; elle ne se rencontre que rarement plus tard. (Haase, § 126, 1°.)</note> ce Palais<note n="239" place="bottom"> Dans les « <hi rend="i">Fautes survenuës en l’Impreβion</hi> » de l’édition de 1643, le vers original « <hi rend="i">Cleobule, Madame, est dedans ce Palais</hi> » est rectifié par le vers que nous donnons. Néanmoins, cette version est bancale. La métrique paraît l’avoir emporté sur la grammaire.</note>.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="II02-2" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="444" xml:id="l444">Enfin le <ref target="#juste2">juste*</ref> Ciel exauce nos souhaits.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II02-3" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="445" xml:id="l445">Allons donc sans tarder sçavoir cette nouvelle ;</l>
             <l n="446" xml:id="l446">Mais voicy Demochare, ah rencontre cruelle !</l>
             <l n="447" xml:id="l447" part="I">Ah respects importuns !</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="II02-4" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F"><ref target="#souffrir2">Souffrez*</ref> son entretien,</l>
             <l n="448" xml:id="l448">Tandis que j’aprendray vostre <ref target="#sort2">sort*</ref> et le mien.</l>
             <l n="449" xml:id="l449">Plus il est <ref target="#inhumain1">inhumain*</ref>, plus monstrez<note n="240" place="bottom"> Ce graphème étymologique du verbe <hi rend="i">montrer</hi> ne se prononce pas. Très fréquent, il sert à rappeler l’origine latine du mot.</note> vous humaine,</l>
             <l n="450" xml:id="l450">Et devant son amour cachez bien votre haine.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II02-5" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="451" xml:id="l451">Je sçay ce que je suis, comme je doy parler,</l>
             <l n="452" xml:id="l452">Un magnanime cœur ne peut dissimuler.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II03">
           <head>SCENE III.</head>
           <stage>DEMOCHARE. PHILOCLEE.</stage>
-          <sp who="demochare">
+          <sp xml:id="II03-1" who="demochare">
             <speaker>DEMOCHARE.<pb n="28"/></speaker>
             <l n="453" xml:id="l453">D’où naist cette douleur ? Pourquoi, belle Princesse,</l>
             <l n="454" xml:id="l454">Livrez-vous vos <ref target="#appast">appas*</ref> au dueil, à la tristesse ?</l>
             <l n="455" xml:id="l455">Ces <ref target="#soucy">soucis*</ref> et ces pleurs n’auront-ils point de fin ?</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-2" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="456" xml:id="l456">Non, si le <ref target="#juste2">juste*</ref> Ciel ne change mon destin.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-3" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="457" xml:id="l457">Vous triomphez des cœurs et de la destinée,</l>
             <l n="458" xml:id="l458">Un bonheur sans pareil suivra vostre hymenée,</l>
             <l n="459" xml:id="l459">Deux sceptres vous sont deus en cette illustre Cour,</l>
             <l n="460" xml:id="l460">Celuy de la <ref target="#fortune2">Fortune*</ref>, et celui de l’Amour.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-4" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="461" xml:id="l461" part="I">O Ciel, ô <ref target="#juste2">juste*</ref> Ciel !</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-5" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Vous changez de visage.</l>
             <l n="462" xml:id="l462">Est-ce vous offenser, et vous faire un outrage,</l>
@@ -1598,17 +1598,17 @@
             <l n="464" xml:id="l464">Mesprisez-vous le Dieu qui vous fait adorer ?</l>
             <l n="465" xml:id="l465" part="I">Et fuyez-vous l’Amour ?</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-6" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Je le fuis comme un vice.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-7" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="466" xml:id="l466">Puis qu’il veut qu’on vous serve il est plein de justice.</l>
             <l n="467" xml:id="l467">Il inspire la gloire en troublant le repos,</l>
             <l n="468" xml:id="l468">Et des hommes souvent il en fait des Heros,</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-8" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="469" xml:id="l469">Et des monstres aussi, des tygres sanguinaires,</l>
             <l n="470" xml:id="l470">De perfides sujets, d’infames adulteres,</l>
@@ -1617,27 +1617,27 @@
             <l n="473" xml:id="l473">Qui chasseroient les Dieux s’ils pouvoient, de leurs Temples,</l>
             <l n="474" xml:id="l474">Je n’irois pas bien loin pour en voir des exemples.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-9" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="475" xml:id="l475">Ce discours me surprend, il est hors de saison<note n="241" place="bottom"> « <hi rend="i">Saison</hi> se dit aussi du temps convenable pour faire quelque chose » (Furetière).</note>,    </l>
             <l n="476" xml:id="l476">Pourquoy m’offensez-vous sans aucune raison.</l>
             <l n="477" xml:id="l477">Qui vous fait proferer ces mots insupportables,</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-10" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="478" xml:id="l478">C’est l’extreme pitié que j’ay de mes semblables,</l>
             <l n="479" xml:id="l479">La peur qu’un mesme <ref target="#sort1">sort*</ref> me comble un jour d’<ref target="#ennui">ennuy*</ref>,<pb n="30"/></l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-11" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="480" xml:id="l480">Mais laissant l’avenir, et l’<ref target="#interest2">interest*</ref> d’autruy,</l>
             <l n="481" xml:id="l481">Quel sujet maintenant avez-vous de vous plaindre ?</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-12" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="482" xml:id="l482">C’est que je nasquis libre, et l’on me veut contraindre.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-13" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="483" xml:id="l483">Cette contrainte est douce, et facile à <ref target="#souffrir2">souffrir*</ref>,</l>
             <l n="484" xml:id="l484">Alors<note n="242" place="bottom"> « <hi rend="i">Alors que</hi> équivalant à <hi rend="i">lorsque</hi>, admis en poésie par Vaugelas (I, 361), est rejeté par Ménage (I, p. 551), Th. Corneille et l’Académie. » (Haase, § 137, 1°, Rq II).</note> qu’à sa captive un Prince vient s’offrir.</l>
@@ -1646,7 +1646,7 @@
             <l n="487" xml:id="l487">Qu’il veut dessus le thrône élever ses beautez,</l>
             <l n="488" xml:id="l488">Qu’il la comble de gloire et de felicitez.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-14" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="489" xml:id="l489">Dans le rang que je tiens et que le sang me donne,</l>
             <l n="490" xml:id="l490">Je ne sçaurois manquer de sceptre et de couronne ;</l>
@@ -1657,7 +1657,7 @@
             <l n="495" xml:id="l495">Qui n’est point usurpé, qu’il tient de ses Ayeux,<pb n="31"/></l>
             <l n="496" xml:id="l496">Et que n’abattra point la Justice des Cieux.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-15" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="497" xml:id="l497">Ah ne vantez point tant vostre illustre origine,</l>
             <l n="498" xml:id="l498">Les hommes naissent tels que le Ciel les destine.</l>
@@ -1667,53 +1667,53 @@
             <l n="502" xml:id="l502">L’Amour la fit commettre, et la rend excusable.</l>
             <l n="503" xml:id="l503">Mais il regne, et son regne est de gloire suivy<note n="244" place="bottom"> Accompagné.</note>.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-16" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="504" xml:id="l504">S’il estoit despouillé de ce qu’il a ravy,</l>
             <l n="505" xml:id="l505">S’il rendoit ses Estats à ses Rois legitimes,</l>
             <l n="506" xml:id="l506">Il ne luy resteroit que la honte et les crimes.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-17" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="507" xml:id="l507">Vous que vous reste-t’il avec vostre fierté,</l>
             <l n="508" xml:id="l508">Le Ciel vous a ravy jusqu’à la liberté ?</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-18" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="509" xml:id="l509" part="I">Il m’a laissé l’honneur.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-19" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Il est en ma puissance,</l>
             <l n="510" xml:id="l510">Songez quel<note n="245" place="bottom"><hi rend="i">Quel</hi> qualificatif se rencontre souvent au XVII<hi rend="sup">e</hi> siècle. On le remplace aujourd’hui par <hi rend="i">qui</hi>, lorsque <hi rend="i">quel</hi> est construit avec être et devenir. (Haase, § 42, C., II.)</note> est celuy que ce mespris offence,</l>
             <l n="511" xml:id="l511">Voyez vostre <ref target="#fortune3">fortune*</ref> et les honneurs offers,<pb n="32"/></l>
             <l n="512" xml:id="l512">Abaissez vostre orgueil et reprenez vos fers.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-20" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="513" xml:id="l513" part="I">Est-ce ainsi qu’on me traite ?</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-21" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Est-ce ainsi qu’on me brave ?</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-22" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="514" xml:id="l514" part="I">Ah trop cruel Tyran !</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-23" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Trop orgueilleuse esclave.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-24" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="515" xml:id="l515">Ah vengeance ! Ah mon pere ! Ah mes divins Ayeux !</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-25" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="516" xml:id="l516">Vous reclamez en vain les hommes et les Dieux.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-26" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="517" xml:id="l517">Ah je mourray plustost que me voir outragée,</l>
             <l n="518" xml:id="l518">Si l’on voyait ma mort on la verroit vangée.</l>
@@ -1726,17 +1726,17 @@
             <l n="525" xml:id="l525">Et leur donnant la mort pour leurs dignes salaires,</l>
             <l n="526" xml:id="l526">Remettroient mon Espoux au thrône de ses Peres.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-27" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="527" xml:id="l527">Vous avez un Espoux, ô Ciel qu’ay-je entendu !</l>
             <l n="528" xml:id="l528" part="I">Mais qui seroit-ce en fin ?</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-28" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Helas ! tout est perdu,</l>
             <l n="529" xml:id="l529" part="I">Et j’ay tout descouvert.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-29" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Seroit-ce Telephonte ?</l>
             <l n="530" xml:id="l530">C’est luy-mesme, c’est luy, la fureur me surmonte,</l>
@@ -1749,25 +1749,25 @@
             <l n="537" xml:id="l537">Ce fugitif sans biens, ce Prince sans couronne,</l>
             <l n="538" xml:id="l538">Que la <ref target="#fortune1">fortune*</ref> laisse et le Ciel abandonne.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-30" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="539" xml:id="l539">Mais ses hautes vertus ne l’abandonnent pas,<pb n="34"/></l>
             <l n="540" xml:id="l540">Ne le mesprisez point et songez à Lycas.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-31" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="541" xml:id="l541">Quoy vous me menacez en parlant de la sorte,</l>
             <l n="542" xml:id="l542">L’aveugle passion vous trouble et vous transporte,</l>
             <l n="543" xml:id="l543">Et ce cœur si <ref target="#pudique">pudique*</ref> aujourd’huy se dément,</l>
             <l n="544" xml:id="l544">Et montre trop d’amour, loüant trop son amant.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-32" who="philoclee">
             <speaker>PHILOCLÉE.</speaker>
             <l n="545" xml:id="l545">L’Amour n’est point honteux qui naist de l’Hymenée,</l>
             <l n="546" xml:id="l546">Telephonte a ma <ref target="#foy2">foy*</ref>, je luy suis destinée</l>
             <l n="547" xml:id="l547">Et ma flame s’accorde avec l’honnesteté<note n="250" place="bottom"> « Pureté des mœurs » (Furetière).</note>.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="II03-33" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="548" xml:id="l548">Pour irriter un cœur desja trop irrité,</l>
             <l n="549" xml:id="l549">Pour remplir mon esprit d’une fureur jalouse,</l>
@@ -1783,7 +1783,7 @@
             <l n="559" xml:id="l559">Vous y pourrez songer tout le reste du jour,</l>
             <l n="560" xml:id="l560">Mais pour vostre <ref target="#interest2">interest*</ref> respectez mon amour.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="II03-34" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="561" xml:id="l561">Ce cœur ne bruslera que d’une chaste flame,</l>
             <l n="562" xml:id="l562">Je sçais ce que je dois, je sçais que je suis femme,</l>
@@ -1793,9 +1793,9 @@
             <l n="566" xml:id="l566">Tout ce que veut l’honneur, et que le Ciel ordonne.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II04">
           <head>SCENE IV.</head>
-          <sp who="demochare">
+          <sp xml:id="II04-1" who="demochare">
             <speaker>DEMOCHARE <hi rend="i">seul.</hi></speaker>
             <l n="567" xml:id="l567">L’<ref target="#inhumain2">Inhumaine*</ref> s’enfuit le cœur plein de fierté,</l>
             <l n="568" xml:id="l568">L’audacieux<note n="253" place="bottom"> Insolent.</note> esprit, la <ref target="#superbe">superbe*</ref> beauté,</l>
@@ -1817,12 +1817,12 @@
           <label>Fin du second Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="III" type="act">
         <head>ACTE III.</head>
-        <div type="scene">
+        <div type="scene" xml:id="III01">
           <head>SCENE PREMIERE.</head>
           <stage>PHILOCLEE. ORPHISE.</stage>
-          <sp who="philoclee">
+          <sp xml:id="III01-1" who="philoclee">
             <speaker>PHILOCLEE.<pb n="37"/></speaker>
             <l n="583" xml:id="l583">Tyrene pourroit seul me tirer de <ref target="#soucy">soucy*</ref> :</l>
             <l n="584" xml:id="l584">Mais je n’ay pû le voir depuis qu’il est icy.</l>
@@ -1842,23 +1842,23 @@
             <l n="598" xml:id="l598">J’ay trop leu les effets d’un malheureux message</l>
             <l n="599" xml:id="l599">Si mon soupçon est vray, que feray-je ô bons Dieux !</l>
           </sp>
-          <sp who="orphise">
+          <sp xml:id="III01-2" who="orphise">
             <speaker>ORPHISE.</speaker>
             <l n="600" xml:id="l600">Bannissez cette crainte, esperez tout des Cieux.<note n="256" place="bottom"> Ce vers peut nous faire penser à un vers du <hi rend="i">Cid</hi>, paru cinq ans auparavant : « <hi rend="i">Espérez tout du Ciel, il a trop de justice</hi> » (Acte I, scène 3).</note></l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III01-3" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="601" xml:id="l601">Ah Tyrene, vien donc, vien viste et m’en delivre,</l>
             <l n="602" xml:id="l602">Vien dire à mon Amour s’il faut mourir ou vivre.</l>
           </sp>
-          <sp who="orphise">
+          <sp xml:id="III01-4" who="orphise">
             <speaker>ORPHISE.</speaker>
             <l n="603" xml:id="l603">Il sçait le triste estat où vos jours sont reduits</l>
             <l n="604" xml:id="l604">Aussi bien que vous-mesme, et connoist vos <ref target="#ennui">ennuis*</ref>,</l>
             <l n="605" xml:id="l605">Vos craintes, vos desirs, vostre amour, vostre haine :</l>
             <l n="606" xml:id="l606">Mais il viendra bien-tost pour vous tirer de peine.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III01-5" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="607" xml:id="l607">Je ne puis supporter ce long retardement,</l>
             <l n="608" xml:id="l608">Je crois attendre un siecle attendant un moment.</l>
@@ -1866,14 +1866,14 @@
             <l n="610" xml:id="l610">Je brusle de sçavoir quelle est son avanture<note n="257" place="bottom"> Accident ou chose qui est arrivée. Furetière et Nicot donnent  <hi rend="i">adventure</hi>.</note>,</l>
             <l n="611" xml:id="l611">Tyrene le sçait bien, et ne me l’apprend pas.</l>
           </sp>
-          <sp who="orphise">
+          <sp xml:id="III01-6" who="orphise">
             <speaker>ORPHISE.</speaker>
             <l n="612" xml:id="l612">En cent lieux differens vous conduisez vos pas,</l>
             <l n="613" xml:id="l613">Comme vous le cherchez il vous cherche peut-estre,<pb n="39"/></l>
             <l n="614" xml:id="l614">Dans vostre appartement quelqu’un l’a veu paraître</l>
             <l n="615" xml:id="l615" part="I">Vous estiez chez la Reyne.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III01-7" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Ah sans doute il me fuit,</l>
             <l n="616" xml:id="l616">Il craint de m’annoncer le malheur qui me suit,</l>
@@ -1886,11 +1886,11 @@
             <l n="623" xml:id="l623">Mais Demochare vient pour me persecuter,</l>
             <l n="624" xml:id="l624" part="I">Fuions.</l>
           </sp>
-          <sp who="orphise">
+          <sp xml:id="III01-8" who="orphise">
             <speaker>ORPHISE.</speaker>
             <l part="F">Il faut l’attendre et ne pas l’irriter.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III01-9" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="625" xml:id="l625">Ah ce mauvais Genie<note n="258" place="bottom"> « Bon ou mauvais Demon que les Anciens croyaient accompagner les hommes illustres. » (Furetière)</note> est toujours à ma suitte,</l>
             <l n="626" xml:id="l626">Quelle est ma destinée, où me voy-je reduite ?</l>
@@ -1900,90 +1900,90 @@
             <l n="630" xml:id="l630">C’est l’unique moyen qui m’en pourra deffaire.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III02">
           <head>SCENE II.</head>
           <stage>DEMOCHARE, PHILOCLEE.</stage>
-          <sp who="demochare">
+          <sp xml:id="III02-1" who="demochare">
             <speaker>DEMOCHARE.<pb n="40"/></speaker>
             <l n="631" xml:id="l631">Un chagrin eternel accompagne vos jours.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-2" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="632" xml:id="l632">Aussi quelque importun m’assassine<note n="259" place="bottom"> « Se dit hyperboliquement, pour dire, importuner beaucoup » (Furetière).</note> toujours.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-3" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="633" xml:id="l633">Sans en avoir sujet on vous oit toujours plaindre.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-4" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="634" xml:id="l634">Je <ref target="#souffrir1">souffre*</ref> assez de maux sans qu’il m’en faille feindre.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-5" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="635" xml:id="l635">Si vous avez beaucoup d’<ref target="#ennui">ennuis*</ref> et de <ref target="#soucy">soucy*</ref>,</l>
             <l n="636" xml:id="l636" part="I">La <ref target="#fortune1">fortune*</ref> en est cause.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-6" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Et les Tyrans aussi.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-7" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="637" xml:id="l637">Vostre esprit querelleux<note n="260" place="bottom"> Qui se plaît à chercher querelle. À la forme <hi rend="i">querelleux</hi> encore usitée au XVII<hi rend="sup">e</hi> siècle, on a préféré par la suite la forme <hi rend="i">querelleur</hi>.</note> est sans cesse en colere.<pb n="F, 41"/></l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-8" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="638" xml:id="l638">C’est que l’on prend plaisir sans cesse à me desplaire,</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-9" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="639" xml:id="l639">Je n’eus jamais dessein de vous desobliger,</l>
             <l n="640" xml:id="l640">Croyez qu’avec regret je viens vous affliger.</l>
             <l n="641" xml:id="l641">Mais le destin le veut et ma <ref target="#fortune3">fortune*</ref> est telle,</l>
             <l n="642" xml:id="l642">Qu’il faut que je vous die<note n="261" place="bottom"> Forme archaïque encore utilisée en poésie au XVII<hi rend="sup">e</hi> siècle. Vaugelas écrit souvent <hi rend="i">quoiqu’on die</hi>, et paraît dans une de ses <hi rend="i">Remarques</hi> (Paris, Bilaine, 1647) le préférer à <hi rend="i">quoiqu’on dise</hi>. L’Académie, dans son <hi rend="i">Observation sur cette Remarque</hi>, décide qu’il ne faut plus se servir de <hi rend="i">quoiqu’on die</hi>, en ajoutant qu’il <hi rend="i">s’est dit autrefois, surtout en poésie.</hi></note> une triste nouvelle.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-10" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="643" xml:id="l643">Cecy n’est point nouveau, vostre abord m’est fatal,</l>
             <l n="644" xml:id="l644">Vous ne m’avez jamais annoncé que du mal.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-11" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="645" xml:id="l645">Je vous parle avec crainte, et plains vostre martyre.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-12" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="646" xml:id="l646">Qui<note n="262" place="bottom"> Comprendre : qu’est-ce qui. Voir <hi rend="sc">Fournier</hi>, <hi rend="i">Grammaire du français classique</hi>, § 297.</note> cause mes malheurs, craint-il de me les dire ?</l>
             <l n="647" xml:id="l647" part="I">Achevez, achevez.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-13" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Ceci vient de Chalcis.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-14" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="648" xml:id="l648" part="I">Dieux !</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-15" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Ce mot seulement augmente vos <ref target="#soucy">soucis*</ref>.<pb n="42"/></l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-16" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="649" xml:id="l649">Enfin declarez-moy quelle est cette aventure.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-17" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="650" xml:id="l650">Sçachez que Telephonte est dans la sepulture.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-18" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="651" xml:id="l651">Vous croyez sans raison que vous m’<ref target="#estonner">estonnerez*</ref>,</l>
             <l n="652" xml:id="l652">Vous dites seulement ce que vous desirez,</l>
             <l n="653" xml:id="l653" part="I">Et non la verité.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-19" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">N’en doutez point Madame,</l>
             <l n="654" xml:id="l654">Mon <ref target="#superbe">superbe*</ref> Rival enfin a rendu l’ame,</l>
@@ -1991,49 +1991,49 @@
             <l n="656" xml:id="l656">Vous sçaurés qu’il n’est plus à la Cour d’Amynthas</l>
             <l n="657" xml:id="l657">Qu’il est sorty du monde, et nous laisse l’Empire,</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-20" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="658" xml:id="l658">Comment l’auriez-vous sceu ? qui vous l’auroit peu dire ?</l>
             <l n="659" xml:id="l659">Aux vostres dans ces lieux nul accez n’est permis,</l>
             <l n="660" xml:id="l660" part="I">Respondez donc ?</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-21" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Les Rois ont par tout<note n="263" place="bottom"> Adverbe en deux mots au XVII<hi rend="sup">e</hi> siècle (Furetière).</note> des amis.</l>
             <l n="661" xml:id="l661">On ne peut rien cacher aux yeux des sages Princes,<pb n="43"/></l>
             <l n="662" xml:id="l662">J’ay de bons espions dans toutes vos Provinces.</l>
             <l n="663" xml:id="l663">Et c’est d’eux que j’ay sceu la mort de mon Rival.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-22" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="664" xml:id="l664" part="I">Helas s’il disoit vray !</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-23" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Ce coup vous est fatal.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-24" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="665" xml:id="l665" part="I">Telephonte est vivant.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-25" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Il est dedans<note n="264" place="bottom"> Voir la note du vers 443.</note> la Tombe.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-26" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="666" xml:id="l666">Le Ciel ne permet pas que la vertu succombe,</l>
             <l n="667" xml:id="l667">Il est trop equitable et veille sur les Rois,</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-27" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="668" xml:id="l668">Vous ne le croyez pas, et pleurez toutesfois.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-28" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="669" xml:id="l669">Parmy mes ennemis seroy-je sans alarmes*<note n="265" place="bottom"> Comprendre : sans motif d’inquiètude. </note>.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-29" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="670" xml:id="l670">Je viens, je viens icy pour essuier vos larmes.</l>
             <l n="671" xml:id="l671">Puis que vous estes veufve et n’avez plus d’espoux,<pb n="44"/></l>
@@ -2041,17 +2041,17 @@
             <l n="673" xml:id="l673">En perdant un mary vous en gagnez un autre,</l>
             <l n="674" xml:id="l674">Rien n’empesche à present que je ne sois le vostre.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-30" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="675" xml:id="l675">Que vous le soyez, comment, par quelle loy ?</l>
             <l n="676" xml:id="l676">Je suis à Telephonte, et j’ay donné ma <ref target="#foy2">foy*</ref>.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-31" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="677" xml:id="l677">Si durant qu’il vivoit mon Amour fut un crime,</l>
             <l n="678" xml:id="l678">À present qu’il est mort ma flame est legitime.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-32" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="679" xml:id="l679">J’ignore jusqu’icy quel est son triste <ref target="#sort2">sort*</ref>,</l>
             <l n="680" xml:id="l680">Je ne sçay pas encor s’il est vivant, ou mort.</l>
@@ -2061,27 +2061,27 @@
             <l n="684" xml:id="l684">S’il est encor vivant, je ne puis estre à vous.</l>
             <l n="685" xml:id="l685">S’il est mort, je n’en puis espouser l’homicide.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-33" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="686" xml:id="l686" part="I">De quoy m’accusez-vous ?</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-34" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">D’un dessein parricide.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-35" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="687" xml:id="l687">Ce bras ne l’a point mis dedans le <ref target="#monument">monument*</ref>.<pb n="45"/></l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-36" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="688" xml:id="l688">Vous en estes la cause, un autre l’instrument.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-37" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="689" xml:id="l689">Je ne vous ay point fait cette sanglante injure.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-38" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="690" xml:id="l690">Mon Espoux n’est donc point dedans la sepulture ?</l>
             <l n="691" xml:id="l691">Non, non, il vit encor et viendra me vanger,</l>
@@ -2099,7 +2099,7 @@
             <l n="703" xml:id="l703">Telephonte viendra pour troubler son repos,</l>
             <l n="704" xml:id="l704">Il n’evitera point le bras de ce Heros.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-39" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="705" xml:id="l705">Il n’est plus rien qu’un ombre<note n="266" place="bottom"> Substantif féminin pour Furetière ainsi que pour Nicot.</note> aussi bien que son pere :<pb n="46"/></l>
             <l n="706" xml:id="l706">Mais que n’est-il vivant ce jeune temeraire ?</l>
@@ -2112,7 +2112,7 @@
             <l n="713" xml:id="l713">Vous me seriez acquise aussi bien que l’Empire :</l>
             <l n="714" xml:id="l714">C’est ce que vous craignez, c’est ce que je desire.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-40" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="715" xml:id="l715">Ah si vous le voyiez les armes à la main,</l>
             <l n="716" xml:id="l716">Une subite peur vous glaceroit le sein<note n="268" place="bottom"> Comprendre : le cœur.</note>,</l>
@@ -2121,21 +2121,21 @@
             <l n="719" xml:id="l719">Le sceptre avec ce fer de vos mains tomberoit,</l>
             <l n="720" xml:id="l720">Et vostre orgueil vaincu, sa grace imploreroit.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-41" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="721" xml:id="l721">Le <ref target="#superbe">superbe*</ref> sousmis imploreroit la mienne.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-42" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="722" xml:id="l722">Vanter vostre valeur, l’egaler à la sienne,</l>
             <l n="723" xml:id="l723">C’est vouloir egaler et le foible et le fort,</l>
             <l n="724" xml:id="l724" part="I">Le lasche et le vaillant.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-43" who="demochare">
             <speaker>DEMOCHARE.<pb n="47"/></speaker>
             <l part="F">Et le vif<note n="269" place="bottom"> Vivant.</note> et le mort.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-44" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="725" xml:id="l725">Comme luy vostre bras imite un Pere illustre,</l>
             <l n="726" xml:id="l726">Vostre cœur <ref target="#genereux2">genereux*</ref> dés son troisiesme lustre<note n="270" place="bottom"> Terme de cinq ans ; « c’est une supputation qu’on fait plus communément en Poësie » (Furetière). Il s’agit donc de ses quinze ans.</note></l>
@@ -2153,29 +2153,29 @@
             <l n="738" xml:id="l738">Et faire le vaillant en mal traittant des femmes,</l>
             <l n="739" xml:id="l739">Ce sont là vos vertus, ce sont là vos hauts faits.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-45" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="740" xml:id="l740">Ah c’est trop m’outrager, cessez donc desormais,</l>
             <l n="741" xml:id="l741">Ou je me vengeray par un coup legitime.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-46" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="742" xml:id="l742">Si vous estes honteux qu’on vous reproche un crime,</l>
             <l n="743" xml:id="l743">Ce reproche à bon droit rend vostre esprit confus :<pb n="48"/></l>
             <l n="744" xml:id="l744">Mais de l’avoir commis vous devez l’estre plus.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-47" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="745" xml:id="l745">Vous sentirez qu’enfin la fureur me surmonte<note n="271" place="bottom"> Valeur de futur proche : vous allez sentir…</note>.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-48" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="746" xml:id="l746">Reservez-la plûtost pour vaincre Telephonte ;</l>
             <l n="747" xml:id="l747">Vous en aurez besoin ; je vous l’ay desja dit,</l>
             <l n="748" xml:id="l748">Son bras accomplira tout ce que j’ay predit.</l>
             <l n="749" xml:id="l749" part="I">Ce langage vous trouble.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-49" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Il n’a rien qui m’esmeuve,</l>
             <l n="750" xml:id="l750">Telephonte n’est plus, et Philoclée est veusve.</l>
@@ -2186,12 +2186,12 @@
             <l n="755" xml:id="l755">Comme je suis à vous, vous devez estre à moy,</l>
             <l n="756" xml:id="l756" part="I">Hermocrate l’ordonne.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-50" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Ah Tyrannique loy.</l>
             <l n="757" xml:id="l757" part="I">Je n’y puis consentir.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-51" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Vous estes à Missene,</l>
             <l n="758" xml:id="l758">Et non en Etolie, et sur les bords d’Evene,</l>
@@ -2202,14 +2202,14 @@
             <l n="763" xml:id="l763">Choisissez me voyant maistre de vostre <ref target="#sort2">sort*</ref>,</l>
             <l n="764" xml:id="l764">Ou l’Amour ou la haine, ou l’hymen ou la mort.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III02-52" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="765" xml:id="l765">Quoy pensez-vous Barbare <ref target="#estonner">estonner*</ref> mon courage ?</l>
             <l n="766" xml:id="l766">Qui cherche le trespas, peut-il craindre l’orage ?</l>
             <l n="767" xml:id="l767">Non, non, lancez le foudre<note n="273" place="bottom"> Masculin ou féminin au XVII<hi rend="sup">e</hi> siècle.</note> et terminez mon <ref target="#sort2">sort*</ref>,</l>
             <l n="768" xml:id="l768">Oüy, je choisis la haine, et j’attendray la mort.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="III02-53" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="769" xml:id="l769">La mort dans les discours n’est jamais effroyable,</l>
             <l n="770" xml:id="l770">Mais quand elle est presente, elle est espouventable.</l>
@@ -2217,10 +2217,10 @@
             <l n="772" xml:id="l772">Et le thrône Royal est plus doux qu’un cercueil.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III03">
           <head>SCENE III.</head>
           <stage>PHILOCLEE. ORPHISE.</stage>
-          <sp who="philoclee">
+          <sp xml:id="III03-1" who="philoclee">
             <speaker>PHILOCLEE.<pb n="50"/></speaker>
             <l n="773" xml:id="l773">Tyran tu crois en vain accomplir ton <ref target="#envie2">envie*</ref>,</l>
             <l n="774" xml:id="l774">Je sçauray preferer mon honneur à ma vie ;</l>
@@ -2231,25 +2231,25 @@
             <l n="779" xml:id="l779">Et Tyrene a grand tort de tarder si long-temps,</l>
             <l n="780" xml:id="l780">À me faire sçavoir de secrets importans.</l>
           </sp>
-          <sp who="orphise">
+          <sp xml:id="III03-2" who="orphise">
             <speaker>ORPHISE.</speaker>
             <l n="781" xml:id="l781">Il a beaucoup de <ref target="#zele">zele*</ref> et vous d’impatience,</l>
             <l n="782" xml:id="l782">Mais ne l’accusez plus, je le voy qui s’avance.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III04">
           <head>SCENE IV.</head>
           <stage>PHILOCLEE, TYRENE.</stage>
-          <sp who="philoclee">
+          <sp xml:id="III04-1" who="philoclee">
             <speaker>PHILOCLEE.<pb n="51"/></speaker>
             <l n="783" xml:id="l783">Ah Tyrene ! en deux mots dy moy quel est mon <ref target="#sort2">sort*</ref>,</l>
             <l n="784" xml:id="l784">Mon pere est-il vivant, Telephonte est-il mort ?</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="III04-2" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l n="785" xml:id="l785">Amynthas, grace aux Dieux, est encor plein de vie.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III04-3" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="786" xml:id="l786">Mais à mon cher Espoux, dy moy, l’a t on ravie ?</l>
             <l n="787" xml:id="l787">On me vient d’asseurer qu’il est dans le tombeau,</l>
@@ -2257,7 +2257,7 @@
             <l n="789" xml:id="l789">Ne flate point mon cœur d’une esperance vaine,</l>
             <l n="790" xml:id="l790">Ne me deguise rien, et me tire de peine<note n="275" place="bottom"> Comprendre : tire moi de peine.</note>.</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="III04-4" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l n="791" xml:id="l791">Dissimulons<note n="276" place="bottom"> En aparté.</note> : son <ref target="#sort2">sort*</ref> est encor inconnu,</l>
             <l n="792" xml:id="l792">On ne sçait à la Cour ce qu’il est devenu.</l>
@@ -2266,7 +2266,7 @@
             <l n="795" xml:id="l795">Quelques vœux qu’on ait faits, quelque <ref target="#soin1">soin*</ref> qu’on ait pris,<pb n="52"/></l>
             <l n="796" xml:id="l796">On n’a rien descouvert, on n’en a rien appris.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III04-5" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="797" xml:id="l797">Demochare a dit vray, nul espoir ne me reste,</l>
             <l n="798" xml:id="l798">Voilà l’effet de cet Edit funeste,</l>
@@ -2274,13 +2274,13 @@
             <l n="800" xml:id="l800">Pour rendre des Tyrans les desirs satisfaits.</l>
             <l n="801" xml:id="l801">Ah mon <ref target="#fidele2">fidelle*</ref> Espoux ! ah miserable veusve !</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="III04-6" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l n="802" xml:id="l802">De son trespas encor nous n’avons nulle preuve,</l>
             <l n="803" xml:id="l803">S’il estoit descendu dans le sejour des morts,</l>
             <l n="804" xml:id="l804">Au moins dans l’Etolie on eust quitté son corps<note n="278" place="bottom"> Nous n’avons pas trouvé de sens convenable au verbe <hi rend="i">quitter</hi>, dans les différents dictionnaires. Nous supposons qu’il faut comprendre : on eust abandonné son corps.</note>.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III04-7" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="805" xml:id="l805">On chercheroit en vain hors du sein de la terre</l>
             <l n="806" xml:id="l806">Celuy que desormais au dedans elle enserre,</l>
@@ -2290,7 +2290,7 @@
             <l n="810" xml:id="l810">Non pour aucun respect, mais pour couvrir leur crime,</l>
             <l n="811" xml:id="l811">Et pour l’ensevelir avec ce que j’aimois.</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="III04-8" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l n="812" xml:id="l812">S’il estoit succombé<note n="279" place="bottom"> Le XVII<hi rend="sup">e</hi> siècle utilise ici l’auxiliaire <hi rend="i">être</hi>, quand l’usage actuel préfère l’auxiliaire <hi rend="i">avoir</hi>.</note> sous ces fatales loix,</l>
             <l n="813" xml:id="l813">Les Barbares autheurs de cette violence<pb n="53"/></l>
@@ -2300,7 +2300,7 @@
             <l n="817" xml:id="l817">Mais ce jeune Monarque en dépit de l’<ref target="#envie2">envie*</ref></l>
             <l n="818" xml:id="l818">Voit encor le soleil, et respire la vie.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III04-9" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="819" xml:id="l819">L’avarice<note n="281" place="bottom"> « C’est l’un des sept péchés capitaux, qui se dit d’un trop grand attachement au bien. L’avarice contient en soy tous les vices, comme la justice toutes les vertus » (Furetière).</note> travaille à creuser son cercueil,</l>
             <l n="820" xml:id="l820">Et le jour n’est pas loin qui me doit mettre en dueil,</l>
@@ -2315,7 +2315,7 @@
             <l n="829" xml:id="l829">Et je me trouve encor entre les mains perfides</l>
             <l n="830" xml:id="l830">De ceux qui font vertu d’estre ses homicides.</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="III04-10" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l n="831" xml:id="l831">Amynthas ayant sceu vostre captivité,</l>
             <l n="832" xml:id="l832">Arme dans ses Estats pour vostre liberté.</l>
@@ -2330,7 +2330,7 @@
             <l n="841" xml:id="l841">Si ce Monarque vient pour vostre delivrance,</l>
             <l n="842" xml:id="l842">Faites qu’au desespoir succede l’esperance.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III04-11" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="843" xml:id="l843">La mort sera plus prompte et le devancera,</l>
             <l n="844" xml:id="l844">C’est elle avec ses traits qui me delivrera</l>
@@ -2346,35 +2346,35 @@
             <l n="854" xml:id="l854">Me faut-il esprouver<note n="284" place="bottom"> Expérimenter.</note> le destin de la Reyne.</l>
             <l n="855" xml:id="l855">Que di-je ? où suis-je ? ô Dieux, que doi-je devenir ?</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="III04-12" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l n="856" xml:id="l856" part="I">Le present vous fait peur.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III04-13" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Encor plus l’advenir<note n="285" place="bottom"> Ce graphème étymologique ne se prononce pas. Il rappelle seulement l’origine latine du mot.</note>.</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="III04-14" who="tyrene">
             <speaker>TYRENE.<pb n="55"/></speaker>
             <l n="857" xml:id="l857" part="I">Vous devez esperer.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III04-15" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Mais j’ay sujet de craindre.</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="III04-16" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l n="858" xml:id="l858" part="I">Appaisez ces regrets<note n="286" place="bottom"> Ici, chagrin d’avoir perdu quelqu’un.</note>.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III04-17" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">J’ay raison de me plaindre.</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="III04-18" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l n="859" xml:id="l859" part="I">Il faut se consoler.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III04-19" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Ah pour me consoler</l>
             <l n="860" xml:id="l860">Il faudroit d’un Espoux les esprits<note n="287" place="bottom"> Pluriel poétique nécessaire pour former un alexandrin ici.</note> rappeller,</l>
@@ -2382,26 +2382,26 @@
             <l n="862" xml:id="l862">Faut-il que la vertu soit esclave du vice ?</l>
             <l n="863" xml:id="l863" part="I">Quoy Telephonte est mort !</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="III04-20" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l part="F">Aveuglement d’Amour !</l>
             <l n="864" xml:id="l864">Le Prince en quelque lieu respire encor le jour :</l>
             <l n="865" xml:id="l865">Mais vostre desespoir un cerceuil luy prepare.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III04-21" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="866" xml:id="l866">Je ne puis eviter la tombe, ou Demochare,<pb n="56"/></l>
             <l n="867" xml:id="l867">J’abhorre ce perfide, et veux dés aujourd’huy</l>
             <l n="868" xml:id="l868">Me donner la mort, pour n’estre pas à luy.</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="III04-22" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l n="869" xml:id="l869">Bien qu’il vous persecute, et semble inexorable<note n="288" place="bottom"> Qui est ferme, dur, qu’on ne sçauroit fleschir, celuy dont on ne peut obtenir aucune grace (Furetière).</note>,</l>
             <l n="870" xml:id="l870">J’espere de le rendre à vos vœux favorable,</l>
             <l n="871" xml:id="l871">Et retarder l’hymen que vous <ref target="#apprehender">apprehendez*</ref>,</l>
             <l n="872" xml:id="l872">Madame est-ce pas là<note n="289" place="bottom"> La double négation n’est pas obligatoire, en particulier dans une interrogation.</note> ce que vous demandez ?</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III04-23" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="873" xml:id="l873">Tu voudrois luy parler, perds plûtost cette <ref target="#envie2">envie*</ref>,</l>
             <l n="874" xml:id="l874">Ce dessein perilleux te cousteroit la vie.</l>
@@ -2415,66 +2415,66 @@
             <l n="882" xml:id="l882">Personne en ma faveur n’oseroit luy rien dire,</l>
             <l n="883" xml:id="l883">On sçait qu’à sa fureur s’égale son pouvoir.</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="III04-24" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l n="884" xml:id="l884">Quoy qu’il puisse arriver, je feray mon devoir</l>
             <l n="885" xml:id="l885">Pour prolonger vos jours, si j’abrege ma vie<pb n="H, 57"/></l>
             <l n="886" xml:id="l886">Une si belle mort sera digne d’<ref target="#envie1">envie*</ref>,</l>
             <l n="887" xml:id="l887">Ne craignez rien pour moy je m’en vay l’aborder.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="III04-25" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="888" xml:id="l888">À ton <ref target="#zele">zele*</ref> pieux en fin il faut ceder.</l>
           </sp>
           <label>Fin du troisiesme Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="IV" type="act">
         <head>ACTE IV.</head>
-        <div type="scene">
+        <div type="scene" xml:id="IV01">
           <head>SCENE PREMIERE.</head>
           <stage>CEPHALIE, MEROPE.</stage>
-          <sp who="cephalie">
+          <sp xml:id="IV01-1" who="cephalie">
             <speaker>CEPHALIE.<pb n="58"/></speaker>
             <l n="889" xml:id="l889" part="I">Tout est perdu Madame.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV01-2" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Et qu’as-tu Cephalie ?</l>
             <l n="890" xml:id="l890">Quelque nouveau malheur nous vient-il d’Etolie ?</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="IV01-3" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l n="891" xml:id="l891" part="I">Ah je fremis d’horreur. Le puis-je dire ?</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV01-4" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">O Dieux !</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="IV01-5" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l n="892" xml:id="l892">Un espion qui vient d’arriver en ces lieux,</l>
             <l n="893" xml:id="l893">Dit que le Prince est mort, et que son homicide</l>
             <l n="894" xml:id="l894">Viendra chercher le prix d’un acte si perfide.</l>
             <l n="895" xml:id="l895" part="I">Et le Tyran le sçait.<pb n="59"/></l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV01-6" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Helas ! que me dis-tu ?</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="IV01-7" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l n="896" xml:id="l896" part="I">Madame.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV01-8" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="M">Je me meurs.</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="IV01-9" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l part="F">Montrez vostre vertu.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV01-10" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="897" xml:id="l897">Par ce cruel recit me l’as-tu pas ravie ?</l>
             <l n="898" xml:id="l898">Quoy mon fils pour jamais est privé de la vie ?</l>
@@ -2485,11 +2485,11 @@
             <l n="903" xml:id="l903">Un Heros qui devoit estre exempt du trespas.</l>
             <l n="904" xml:id="l904">As-tu veu l’espion, ne te trompes-tu pas ?</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="IV01-11" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l n="905" xml:id="l905" part="I">Je ne me trompe point.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV01-12" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Ah miserable mere !</l>
             <l n="906" xml:id="l906">Quoy te reservois-tu<note n="294" place="bottom"><hi rend="i">Réserver</hi> ici signifie conserver la vie et supporter l’union avec le tyran.</note> pour voir cette misere.</l>
@@ -2503,15 +2503,15 @@
             <l n="914" xml:id="l914" part="I">A causé tous mes maux.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV02">
           <head>SCENE II.</head>
           <stage>LE TYRAN, MEROPE.</stage>
-          <sp who="le-tyran">
+          <sp xml:id="IV02-1" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l part="F">Dieux ! j’appercoy la Reyne,</l>
             <l n="915" xml:id="l915" part="I">Evitons sa presence.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV02-2" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Ah cruel ! me fuis-tu ?</l>
             <l n="916" xml:id="l916">Viens voir les beaux effets de ta haute vertu,</l>
@@ -2526,7 +2526,7 @@
             <l n="925" xml:id="l925">Espuises-en ce corps, et rougis-en la place,</l>
             <l n="926" xml:id="l926">Que je suive au tombeau le dernier de ma race.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="IV02-3" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="927" xml:id="l927">Sçachant que je vous aime, et ce que je vous suis,</l>
             <l n="928" xml:id="l928">Croyez que ma tristesse égale vos <ref target="#ennui">ennuis*</ref>,</l>
@@ -2534,13 +2534,13 @@
             <l n="930" xml:id="l930">Je ne puis voir vos pleurs sans répandre des larmes,</l>
             <l n="931" xml:id="l931">Mon esprit participe aux douleurs que je voy.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV02-4" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="932" xml:id="l932">Ah ! vray monstre du Nil<note n="299" place="bottom"> Allusion au crocodile : <hi rend="i">« Parle, et tu diras : Ainsi parle le Seigneur, l’Éternel:/ Voici, j’en veux à toi, Pharaon, roi d’Égypte, / Grand crocodile, qui te couches au milieu de tes fleuves, / Et qui dis : Mon fleuve est à moi, c’est moi qui l’ai fait. »</hi> (<hi rend="i">Ézéchiel</hi> 29, 3)</note> pleure et devore moy,</l>
             <l n="933" xml:id="l933">Finis par mon trespas mon destin lamentable,</l>
             <l n="934" xml:id="l934">Par une impieté montre-toy pitoyable<note n="300" place="bottom"> « Se dit aussi de celuy qui a des sentimens de compassion pour les miseres d’autruy ». (Furetière)</note>.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="IV02-5" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="935" xml:id="l935">Quoy, moy vous outrager, mettre fin à vos jours,</l>
             <l n="936" xml:id="l936">Ah ! j’en voudrois plustost eterniser le cours.</l>
@@ -2548,7 +2548,7 @@
             <l n="938" xml:id="l938">Et rendre vos beautez à jamais fortunées<note n="301" place="bottom"> Heureuses.</note>,</l>
             <l n="939" xml:id="l939">Mon ame vous revere, et vous me faites tort.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV02-6" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="940" xml:id="l940">Barbare, fais-tu voir ton amour par la mort ?</l>
             <l n="941" xml:id="l941">Celle de Téléphonte en est-elle une marque ?<pb n="62"/></l>
@@ -2558,7 +2558,7 @@
             <l n="945" xml:id="l945">Du meurtre de mon fils sa main encor sanglante,</l>
             <l n="946" xml:id="l946">M’auroit mieux asseuré de sa fin violente.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="IV02-7" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="947" xml:id="l947">Mon cœur icy vous jure en presence des Dieux,</l>
             <l n="948" xml:id="l948">Qu’il le prive à regret de la clarté des Cieux.</l>
@@ -2579,7 +2579,7 @@
             <l n="963" xml:id="l963">Les disgraces, les maux, les regrets, les souspirs</l>
             <l n="964" xml:id="l964">Desormais feront place aux honneurs, aux plaisirs.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV02-8" who="merope">
             <speaker>MEROPE.<pb n="63"/></speaker>
             <l n="965" xml:id="l965">Il faut qu’à la douleur mon esprit s’abandonne,</l>
             <l n="966" xml:id="l966">Tu m’ostes mes enfans Cresphonte et la couronne.</l>
@@ -2595,7 +2595,7 @@
             <l n="976" xml:id="l976">Et je veux dans ton sang esteindre ma fureur.</l>
             <l n="977" xml:id="l977">Ah meurtrier de ton Prince, assassin de Cresphonte !</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="IV02-9" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="978" xml:id="l978">Je le dois advouër, et je le puis sans honte,</l>
             <l n="979" xml:id="l979">Par le vouloir d’un Dieu<note n="305" place="bottom"> Le Dieu Amour évoqué au vers suivant.</note> j’ay fait perir un Roy,</l>
@@ -2608,19 +2608,19 @@
             <l n="986" xml:id="l986">Et pour vous posseder eust desolé la terre.</l>
             <l n="987" xml:id="l987">Il eust fait voir par tout l’image du trespas.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV02-10" who="merope">
             <speaker>MEROPE.<pb n="64"/></speaker>
             <l n="988" xml:id="l988">Ce que je viens d’entendre, ô Ciel ! l’entens-tu pas ?</l>
             <l n="989" xml:id="l989">Fais luire les éclairs, et d’un traict de tempeste</l>
             <l n="990" xml:id="l990">De ce monstre cruel viens écraser la teste.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="IV02-11" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="991" xml:id="l991">Ces imprecations me donnent peu d’effroy,</l>
             <l n="992" xml:id="l992">Et le Ciel aujourd’huy s’est declaré pour moy,</l>
             <l n="993" xml:id="l993">Le foudre<note n="306" place="bottom"> Voir la note du vers 174. Gilbert privilégie dans toute la pièce l’utilisation du substantif au masculin.</note> que je crains n’est que vostre colere.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV02-12" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="994" xml:id="l994">Crois que tous tes forfaits recevroient leur salaire,</l>
             <l n="995" xml:id="l995">Si Merope impuissante avoit le foudre en main</l>
@@ -2630,7 +2630,7 @@
             <l n="999" xml:id="l999">Et ton corps foudroyé fumant dedans ces lieux,</l>
             <l n="1000" xml:id="l1000">D’un spectacle si beau je repaistrois mes yeux<note n="307" place="bottom"><space/>Dans cette Mérope avide de vengeance violente, on retrouve la Mérope de Hygin, qui se montre, elle-aussi, pareille à une furie, quand elle se dirige vers le lit de celui qu’elle pense être l’assassin de son fils, armée d’une hache : <hi rend="i">in chalcidium eum securi uenit inscia ut filium suum interficeret</hi>. Voir aussi aux vers 1056 et 1057.</note>.</l>
           </sp>
-          <sp who="le-tyran">
+          <sp xml:id="IV02-13" who="le-tyran">
             <speaker>LE TYRAN.</speaker>
             <l n="1001" xml:id="l1001">Je <ref target="#souffrir2">souffre*</ref> tout de vous, rien ne m’en peut desplaire,</l>
             <l n="1002" xml:id="l1002">Je sçay vostre douleur, et que vous estes mere,</l>
@@ -2642,24 +2642,24 @@
             <l n="1008" xml:id="l1008">Tandis<note n="308" place="bottom"> Comprendre : pendant ce temps.</note>, allons au Temple, et rendons grace aux Dieux.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV03">
           <head>SCENE III.</head>
           <stage>MEROPE, CEPHALIE.</stage>
-          <sp who="merope">
+          <sp xml:id="IV03-1" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1009" xml:id="l1009">Va <ref target="#superbe">superbe*</ref> Tyran leur offrir des victimes,</l>
             <l n="1010" xml:id="l1010">Ils sont tes protecteurs, ils couronnent tes crimes,</l>
             <l n="1011" xml:id="l1011">Regarde avec orgueil le celeste <ref target="#flambeau1">flambeau*</ref>,</l>
             <l n="1012" xml:id="l1012">Pour moy je vay descendre en la nuit du tombeau.</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="IV03-2" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l n="1013" xml:id="l1013">Quoy voulez-vous commettre un si grand parricide,</l>
             <l n="1014" xml:id="l1014">Et de vous mesme ainsi devenant l’homicide,</l>
             <l n="1015" xml:id="l1015">Rendrez-vous les Tyrans moins criminels que vous,</l>
             <l n="1016" xml:id="l1016"><ref target="#apprehender">Aprehendez*</ref> encor le celeste courroux.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV03-3" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1017" xml:id="l1017">Quoy, veux-tu que je vive au milieu des supplices ?</l>
             <l n="1018" xml:id="l1018">Parmy le sang, la mort, la cruauté, les vices.</l>
@@ -2681,63 +2681,63 @@
             <l n="1034" xml:id="l1034">Finissons d’un seul coup et ma vie et mes peines,</l>
             <l n="1035" xml:id="l1035">Et de nos propres mains deschirons-nous le sein.</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="IV03-4" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l n="1036" xml:id="l1036" part="I">O Dieux !</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV03-5" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="M">Cruelle, non.</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="IV03-6" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l part="F">Quel est vostre dessein ?</l>
             <l n="1037" xml:id="l1037">Arrestez, arrestez, et que pensez-vous faire ?</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV03-7" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1038" xml:id="l1038">Quoy veux-tu m’empescher de finir ma misere ?</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV04">
           <head>SCENE IV.</head>
           <stage>ORPHISE, CEPHALIE, MEROPE.<pb n="67"/></stage>
-          <sp who="orphise">
+          <sp xml:id="IV04-1" who="orphise">
             <speaker>ORPHISE.</speaker>
             <l n="1039" xml:id="l1039" part="I">Dieux ! qu’est-ce que je voy ?</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="IV04-2" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l part="F">Venez la secourir.</l>
           </sp>
-          <sp who="orphise">
+          <sp xml:id="IV04-3" who="orphise">
             <speaker>ORPHISE.</speaker>
             <l n="1040" xml:id="l1040" part="I">Que faites-vous Madame ?</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV04-4" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Ah laissez moy mourir !</l>
           </sp>
-          <sp who="orphise">
+          <sp xml:id="IV04-5" who="orphise">
             <speaker>ORPHISE.</speaker>
             <l n="1041" xml:id="l1041" part="I">Calmez cette fureur.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV04-6" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Vostre pitié m’offence.</l>
           </sp>
-          <sp who="orphise">
+          <sp xml:id="IV04-7" who="orphise">
             <speaker>ORPHISE.</speaker>
             <l n="1042" xml:id="l1042">Armez-vous d’un poignard, et pour vostre allegeance<note n="312" place="bottom"> Soulagement d’un mal (Furetière).</note>,</l>
             <l n="1043" xml:id="l1043">Qu’une <ref target="#juste2">juste*</ref> fureur vous le mette à la main.</l>
             <l n="1044" xml:id="l1044">Venez, venez punir le meurtrier <ref target="#inhumain1">inhumain*</ref>,</l>
             <l n="1045" xml:id="l1045">Il est dedans ces lieux cet esprit sanguinaire.<pb n="68"/></l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV04-8" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1046" xml:id="l1046" part="I">O bons Dieux !</l>
           </sp>
-          <sp who="orphise">
+          <sp xml:id="IV04-9" who="orphise">
             <speaker>ORPHISE.</speaker>
             <l part="F">La Princesse aussi se desespere :</l>
             <l n="1047" xml:id="l1047">Si vous pleurez un fils, elle pleure un Espoux ;</l>
@@ -2747,7 +2747,7 @@
             <l n="1051" xml:id="l1051">Sans donner à ses yeux un si triste plaisir :</l>
             <l n="1052" xml:id="l1052">Imitez Philoclée, et son pieux desir.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV04-10" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1053" xml:id="l1053">Avec autant d’amour ay-je moins de courage,</l>
             <l n="1054" xml:id="l1054">Non, ce dessein tragique est conforme à ma rage,</l>
@@ -2755,19 +2755,19 @@
             <l n="1056" xml:id="l1056">Je boirois de son sang, je mangerois son cœur,</l>
             <l n="1057" xml:id="l1057">Où le trouverons-nous pour assouvir ma haine.</l>
           </sp>
-          <sp who="orphise">
+          <sp xml:id="IV04-11" who="orphise">
             <speaker>ORPHISE.</speaker>
             <l n="1058" xml:id="l1058">Il n’est pas loin d’icy, n’en soyez point en peine.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="IV04-12" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1059" xml:id="l1059">Allons donc luy donner le prix justement deu,</l>
             <l n="1060" xml:id="l1060">Allons verser son sang pour mon sang respandu.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV05">
           <head>SCENE V.</head>
-          <sp who="telephonte">
+          <sp xml:id="IV05-1" who="telephonte">
             <speaker>TELEPHONTE <hi rend="i">seul.</hi><pb n="69"/></speaker>
             <l n="1061" xml:id="l1061">J’ay quitté l’Etolie et je suis à Missene,</l>
             <l n="1062" xml:id="l1062">Je viens pour satisfaire à<note n="313" place="bottom"><hi rend="i">À</hi> précédant un régime indirect ou le datif du pronom personnel atone se construisait au XVIIe siècle après quelques verbes qui, tout en ayant gardé leur signification, sont transitifs aujourd’hui et ne régissent que l’accusatif. Satisfaire en fait partie, comme l’Acte II, scène 5, de <hi rend="i">L’Avare : Voilà un homme cela, il y a là de quoi satisfaire à la vue</hi>. (Haase, §125, A)</note> l’Amour, à la haine,</l>
@@ -2849,10 +2849,10 @@
             <l n="1138" xml:id="l1138">Oublions un instant et l’amour et ma femme.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV06">
           <head>SCENE VI.</head>
           <stage>DEMOCHARE, TYNDARE.</stage>
-          <sp who="demochare">
+          <sp xml:id="IV06-1" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="1139" xml:id="l1139">Je te viens recevoir en l’absence du Roy,</l>
             <l n="1140" xml:id="l1140">Et j’ay voulu venir jusqu’au devant de toy,</l>
@@ -2860,11 +2860,11 @@
             <l n="1142" xml:id="l1142">Tu viens, brave estranger, pour nous tirer de peine,</l>
             <l n="1143" xml:id="l1143">Tu nous viens asseurer que Telephonte est mort.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-2" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l n="1144" xml:id="l1144">Oüy, ce bras et la Parque ont terminé son <ref target="#sort2">sort*</ref>.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-3" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="1145" xml:id="l1145">Amy tu me ravis avec cette nouvelle,</l>
             <l n="1146" xml:id="l1146">On ne peut trop louer une action si belle,</l>
@@ -2874,11 +2874,11 @@
             <l n="1150" xml:id="l1150">On te prepare un prix egal à ton courage,</l>
             <l n="1151" xml:id="l1151">Le salaire t’attend, n’en sois point en <ref target="#soucy">soucy*</ref>.<pb n="K, 73"/></l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-4" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l n="1152" xml:id="l1152">C’est là ce qui m’amene, et je l’espere ainsi.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-5" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="1153" xml:id="l1153">Que cette <ref target="#juste2">juste*</ref> mort rend illustre ta vie,</l>
             <l n="1154" xml:id="l1154">Que j’exalte ce bras, que je te porte <ref target="#envie1">envie*</ref>,</l>
@@ -2887,11 +2887,11 @@
             <l n="1157" xml:id="l1157">Une gloire immortelle eust esté mon salaire,</l>
             <l n="1158" xml:id="l1158">Que le fils est heureux qui peut vanger son Pere.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-6" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l n="1159" xml:id="l1159" part="I">Ce sentimens est <ref target="#juste1">juste*</ref>.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-7" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Il vit toujours en moy.</l>
             <l n="1160" xml:id="l1160">Mais tu fais plus encor en conservant un Roy,</l>
@@ -2904,7 +2904,7 @@
             <l n="1167" xml:id="l1167">Par toy nostre Ennemy voit ses desseins trahis,</l>
             <l n="1168" xml:id="l1168">Mais aprens moy ton nom, ton destin, ton pays.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-8" who="tyndare">
             <speaker>TYNDARE.<pb n="74"/></speaker>
             <l n="1169" xml:id="l1169">On me nomme Tyndare, et je suis de Missene,</l>
             <l n="1170" xml:id="l1170">La <ref target="#fortune2">Fortune*</ref> toujours m’a tesmoigné sa haine,</l>
@@ -2916,7 +2916,7 @@
             <l n="1176" xml:id="l1176">De vanger de ma main le cruel attentat</l>
             <l n="1177" xml:id="l1177" part="I">Tramé contre mon Roy.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-9" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Ah ! viens que je t’embrasse,</l>
             <l n="1178" xml:id="l1178">Que j’ayme ta valeur ta genereuse* audace.</l>
@@ -2927,12 +2927,12 @@
             <l n="1183" xml:id="l1183">Par toy je vais gouster un bon-heur sans pareil,</l>
             <l n="1184" xml:id="l1184">Je suis le plus heureux qui soit sous le soleil.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-10" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l n="1185" xml:id="l1185">Je n’ay rien fait encor digne d’un grand courage,</l>
             <l n="1186" xml:id="l1186" part="I">J’attends l’occasion.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-11" who="demochare">
             <speaker>DEMOCHARE.<pb n="75"/></speaker>
             <l part="F">Que veux-tu davantage ?</l>
             <l n="1187" xml:id="l1187">N’as-tu pas de mon Pere asseuré les Estats ?</l>
@@ -2948,64 +2948,64 @@
             <l n="1197" xml:id="l1197">Tu seras le tesmoin de mon bon-heur extréme,</l>
             <l n="1198" xml:id="l1198" part="I">Tu viens tout à propos.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-12" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l part="F">La Princesse vous ayme,</l>
             <l n="1199" xml:id="l1199">De vos hautes vertus son cœur sera le prix.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-13" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="1200" xml:id="l1200" part="I">L’ingratte.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-14" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l part="F">À ce discours il est un peu surpris,</l>
             <l n="1201" xml:id="l1201">Pardonnez moy Seigneur, si j’ose ouvrir la bouche</l>
             <l n="1202" xml:id="l1202">Mais je prends tant de part à tout ce qui vous touche,</l>
             <l n="1203" xml:id="l1203" part="I">Que je ne m’en puis taire.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-15" who="demochare">
             <speaker>DEMOCHARE.<pb n="76"/></speaker>
             <l part="F">Ah ! dy tout franchement,</l>
             <l n="1204" xml:id="l1204">Tu le peux desormais, parle donc hardiment.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-16" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l n="1205" xml:id="l1205">Sondons-le jusqu’au bout<note n="321" place="bottom"> À part.</note>, un bruit court à Missene,</l>
             <l n="1206" xml:id="l1206" part="I">Mais sans doute un faux bruit.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-17" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l part="F">Quel<note n="322" place="bottom"> Lequel.</note> ! oste moy de peine.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-18" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l n="1207" xml:id="l1207">On dit que la Princesse est triste en cette Cour,</l>
             <l n="1208" xml:id="l1208">Et pres de son hymen<note n="323" place="bottom"> Comprendre : son hymen approchant.</note> tesmoigne peu d’amour ;</l>
             <l n="1209" xml:id="l1209">Qu’elle a quelque froideur et quelque indiference,</l>
             <l n="1210" xml:id="l1210">Mais ce discours du peuple est bien hors d’aparence<note n="324" place="bottom"> Eloigné de la réalité.</note>.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-19" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="1211" xml:id="l1211">Une fille tousjours nous cache son dessein,</l>
             <l n="1212" xml:id="l1212">La glace est sur la langue et le feu dans son sein,</l>
             <l n="1213" xml:id="l1213">À ce nom d’hymenée elle fait la cruelle.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-20" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l n="1214" xml:id="l1214">Mais le terme s’aproche, y consentira-t’elle ?</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-21" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="1215" xml:id="l1215">Elle y doit consentir, elle doit estre à moy.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-22" who="tyndare">
             <speaker>TYNDARE.<pb n="77"/></speaker>
             <l n="1216" xml:id="l1216">L’on dit qu’à Telephonte elle a donné sa <ref target="#foy2">foy*</ref>,</l>
             <l n="1217" xml:id="l1217">Que par mille sermens elle s’est engagée :</l>
             <l n="1218" xml:id="l1218">Mais pour vous justement on la verra changée.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-23" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="1219" xml:id="l1219">Qui change avec le <ref target="#sort1">sort*</ref>, il agist prudemment<note n="325" place="bottom"> Comprendre : celui qui change face aux aléas de la vie, il agit prudemment.</note>,</l>
             <l n="1220" xml:id="l1220">Toute chose aujourd’huy l’oblige au changement :</l>
@@ -3013,7 +3013,7 @@
             <l n="1222" xml:id="l1222">Devenant mon Espouse, elle deviendra Reyne,</l>
             <l n="1223" xml:id="l1223">Je la comble d’honneurs, comme moy de plaisirs.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-24" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l n="1224" xml:id="l1224">Mais si la volonté s’accorde à vos desirs,</l>
             <l n="1225" xml:id="l1225">Et si sa froide humeur fait encor resistance,</l>
@@ -3021,7 +3021,7 @@
             <l n="1227" xml:id="l1227">Que de ne pas user d’un absolu pouvoir,</l>
             <l n="1228" xml:id="l1228">Possible<note n="326" place="bottom"> Omission de l’impersonnel : il est possible.</note> que ses pleurs vous pourront esmouvoir.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-25" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="1229" xml:id="l1229">Je veux sans differer jouir de tant de charmes,</l>
             <l n="1230" xml:id="l1230">Je ne suis point esmeu de souspirs ni de larmes,</l>
@@ -3029,11 +3029,11 @@
             <l n="1232" xml:id="l1232">De force ou d’amitié<note n="327" place="bottom"><hi rend="i">Amitié</hi> signifie bien souvent <hi rend="i">amour</hi> au XVIIe siècle.</note> je la veux posseder,</l>
             <l n="1233" xml:id="l1233">Il faut ou qu’elle meure, ou qu’elle soit ma femme.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-26" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l n="1234" xml:id="l1234">Barbare auparavant je t’arracheray l’ame.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-27" who="demochare">
             <speaker>DEMOCHARE.<pb n="78"/></speaker>
             <l n="1235" xml:id="l1235">Philoclée est captive et sujette à mes loix,</l>
             <l n="1236" xml:id="l1236">Tu sçais qu’elle est Esclave, une Esclave est sans chois,</l>
@@ -3050,11 +3050,11 @@
             <l n="1247" xml:id="l1247">Il ne peut plus troubler ni mon Pere ni moy,</l>
             <l n="1248" xml:id="l1248">L’un est Amant heureux, l’autre paisible Roy.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-28" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l n="1249" xml:id="l1249">Vostre bonne <ref target="#fortune3">fortune*</ref> enfin n’est plus douteuse.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-29" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="1250" xml:id="l1250">Si ce traistre a fini sa trame<note n="329" place="bottom"> « Se dit figurément et pöetiquement en Morale, du cours de la vie » (Furetière).</note> malheureuse,</l>
             <l n="1251" xml:id="l1251">Dessous ton bras vainqueur si tu l’as abattu,</l>
@@ -3062,11 +3062,11 @@
             <l n="1253" xml:id="l1253">Pour l’en mieux asseurer aportes-tu sa teste</l>
             <l n="1254" xml:id="l1254">Qui de l’Estat troublé doit calmer la tempeste ?</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-30" who="tyndare">
             <speaker>TYNDARE.<pb n=" 79"/></speaker>
             <l n="1255" xml:id="l1255">Ouy je l’aporte au Roy, j’ay tout ce qu’il pretend<note n="331" place="bottom"> Signifie quelquefois vouloir (Furetière).</note>.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-31" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="1256" xml:id="l1256">Tyndare sur un point rend mon esprit content,</l>
             <l n="1257" xml:id="l1257">Dy moy comme estoit fait ce jeune Temeraire,</l>
@@ -3074,7 +3074,7 @@
             <l n="1259" xml:id="l1259">Qui faisoit tant le brave et tant parler de soy,</l>
             <l n="1260" xml:id="l1260">Qui se vantoit qu’un jour il nous feroit la loy.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-32" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l n="1261" xml:id="l1261">Il estoit de mon poil<note n="333" place="bottom"> Le terme, s’appliquant aux humains plus fréquemment au XVII<hi rend="sup">e</hi> siècle qu’aujourd’hui, englobe à la fois cheveux et  barbe.  </note>, à peu pres de mon age,</l>
             <l n="1262" xml:id="l1262">Entreprenant, hardy, l’on vantoit son courage ;</l>
@@ -3085,7 +3085,7 @@
             <l n="1267" xml:id="l1267">On n’ose ouvertement attaquer un grand cœur,</l>
             <l n="1268" xml:id="l1268">Mais on peut par la ruse en estre le vainqueur.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-33" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="1269" xml:id="l1269">Si ta main le tuant n’eût prevenu la mienne,</l>
             <l n="1270" xml:id="l1270">Ma valeur eût dans peu triomphé de la sienne,</l>
@@ -3097,12 +3097,12 @@
             <l n="1276" xml:id="l1276">L’ouvrage que mon Pere a si bien commencé,<pb n="80"/></l>
             <l n="1277" xml:id="l1277">Mais qu’as-tu ? Tu paslis, tu changes de visage.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-34" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l n="1278" xml:id="l1278">Le travail du vaisseau, la longueur du voyage</l>
             <l n="1279" xml:id="l1279">Me privant de vigueur rend mon corps abattu.</l>
           </sp>
-          <sp who="demochare">
+          <sp xml:id="IV06-35" who="demochare">
             <speaker>DEMOCHARE.</speaker>
             <l n="1280" xml:id="l1280">Le repos luy rendra sa premiere vertu,</l>
             <l n="1281" xml:id="l1281">Le sommeil ceste nuict adoucira ta peine.</l>
@@ -3118,7 +3118,7 @@
             <l n="1291" xml:id="l1291">Asseuré desormais d’estre de ses amis,</l>
             <l n="1292" xml:id="l1292">Viens recevoir de luy le salaire promis.</l>
           </sp>
-          <sp who="tyndare">
+          <sp xml:id="IV06-36" who="tyndare">
             <speaker>TYNDARE.</speaker>
             <l n="1293" xml:id="l1293">Bientost à tes pareils tu serviras d’exemple,</l>
             <l n="1294" xml:id="l1294">Ouy, ouy, je te suivray jusques dedans le Temple,</l>
@@ -3128,16 +3128,16 @@
           <label>Fin du quatriesme Acte.</label>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="V" type="act">
         <head>ACTE V.</head>
-        <div type="scene">
+        <div type="scene" xml:id="V01">
           <head>SCENE PREMIERE.</head>
           <stage>TYDEE, THOAS, TYRENE.<pb n="L, 81"/></stage>
-          <sp who="tydee">
+          <sp xml:id="V01-1" who="tydee">
             <speaker>TYDEE.</speaker>
             <l n="1297" xml:id="l1297">Tyrene, est-il possible, as-tu veu Telephonte ?</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="V01-2" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l n="1298" xml:id="l1298">Oüy, j’ay veu nostre Roy l’heritier de Cresphonte ;</l>
             <l n="1299" xml:id="l1299">C’est luy mesme qui vient de paroistre à vos yeux,</l>
@@ -3146,11 +3146,11 @@
             <l n="1302" xml:id="l1302">Luy-mesme de sa mort vient chercher le salaire,</l>
             <l n="1303" xml:id="l1303">C’est luy qui passe icy pour son propre assassin.</l>
           </sp>
-          <sp who="thoas">
+          <sp xml:id="V01-3" who="thoas">
             <speaker>THOAS.</speaker>
             <l n="1304" xml:id="l1304" part="I">O Dieux !</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="V01-4" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l part="F">Il entreprend un <ref target="#genereux2">genereux*</ref> dessein,</l>
             <l n="1305" xml:id="l1305">Il vient des bords d’Evene aux rives de Pamise<note n="337" place="bottom"> Dans sa thèse, Eleanot Pellet note que l’un des exemples de l’écriture précieuse de Gabriel Gilbert est de très souvent substituer le nom d’un fleuve au pays auquel il appartient (<hi rend="i">A Forgotten French dramatist…</hi>, p 328).</note>,<pb n="82"/></l>
@@ -3162,29 +3162,29 @@
             <l n="1311" xml:id="l1311">Pour ce dessein pieux il a conduit vos pas,</l>
             <l n="1312" xml:id="l1312">Et pour l’executer demande vostre bras.</l>
           </sp>
-          <sp who="tydee">
+          <sp xml:id="V01-5" who="tydee">
             <speaker>TYDEE.</speaker>
             <l n="1313" xml:id="l1313">Il faut de la vertu soustenir la querelle,</l>
             <l n="1314" xml:id="l1314">Et suivre Telephonte où l’honneur nous appelle,</l>
             <l n="1315" xml:id="l1315">Magnanime assassin je te tiens pour mon Roy,</l>
             <l n="1316" xml:id="l1316">Et contre les Tyrans je t’engage ma <ref target="#foy1">foy*</ref>.</l>
           </sp>
-          <sp who="thoas">
+          <sp xml:id="V01-6" who="thoas">
             <speaker>THOAS.</speaker>
             <l n="1317" xml:id="l1317">Suivons les mouvements d’une <ref target="#juste2">juste*</ref> vengeance.</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="V01-7" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l n="1318" xml:id="l1318">Trente encor avec nous sont de l’intelligence,</l>
             <l n="1319" xml:id="l1319">Ils se rendront au Temple et feront leur devoir,</l>
             <l n="1320" xml:id="l1320">L’on peut en un besoin<note n="340" place="bottom"> Comprendre : pour un seul but.</note> tout le peuple esmouvoir.</l>
           </sp>
-          <sp who="thoas">
+          <sp xml:id="V01-8" who="thoas">
             <speaker>THOAS.</speaker>
             <l n="1321" xml:id="l1321">Allons donc pour les joindre<note n="341" place="bottom"> Nous dirions plutôt <hi rend="i">rejoindre</hi> en français moderne.</note>, allons brave Tyrene,</l>
             <l n="1322" xml:id="l1322">Secondons nostre Prince, et delivrons Missene.</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="V01-9" who="tyrene">
             <speaker>TYRENE.<pb n=" 83"/></speaker>
             <l n="1323" xml:id="l1323">La nuit nous favorise et tout nous est permis,</l>
             <l n="1324" xml:id="l1324">La Justice est pour nous, les Dieux sont nos amis,</l>
@@ -3192,45 +3192,45 @@
             <l n="1326" xml:id="l1326">La prudence qui veut qu’on use de surprise,</l>
             <l n="1327" xml:id="l1327">Ne permet pas aussi qu’on retarde un moment ;</l>
           </sp>
-          <sp who="thoas">
+          <sp xml:id="V01-10" who="thoas">
             <speaker>THOAS.</speaker>
             <l n="1328" xml:id="l1328" part="I">Mais quelqu’un vient icy.</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="V01-11" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l part="F">Sortons donc promptement.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V02">
           <head>SCENE II.</head>
           <stage>MEROPE, PHILOCLEE.</stage>
-          <sp who="philoclee">
+          <sp xml:id="V02-1" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="1329" xml:id="l1329">Il ne faut plus chercher cet assassin, cet traitre,</l>
             <l n="1330" xml:id="l1330">Un traitre comme luy l’aura faict disparaistre.</l>
             <l n="1331" xml:id="l1331">Et nous avons couru tout le Palais en vain.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V02-2" who="merope">
             <speaker>MEROPE.<pb n="84"/></speaker>
             <l n="1332" xml:id="l1332">Nous n’accomplirons point un si <ref target="#juste2">juste*</ref> dessein,</l>
             <l n="1333" xml:id="l1333">O Destin trop cruel ! ô Ciel plein d’injustice !</l>
             <l n="1334" xml:id="l1334">Qui sauve un parricide, et l’arrache au supplice.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V02-3" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="1335" xml:id="l1335" part="I">Helas !</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V02-4" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Tout nous perd, tout nous nuit,<note n="342" place="bottom"> Ce vers ne fait que huit syllabes.</note></l>
             <l n="1336" xml:id="l1336">Le Tyran est armé, l’homicide s’enfuit,</l>
             <l n="1337" xml:id="l1337">Il evite ce fer, la mort, et ma colere.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V02-5" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="1338" xml:id="l1338">Avec nos ennemis le Ciel nous est contraire.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V02-6" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1339" xml:id="l1339">Le Ciel veut ma ruine, et mon <ref target="#sort2">sort*</ref> s’accomplit,</l>
             <l n="1340" xml:id="l1340">Un monstre furieux est entré dans mon lit,</l>
@@ -3248,7 +3248,7 @@
             <l n="1352" xml:id="l1352">En vain je perce l’air de mes cris esclatans,</l>
             <l n="1353" xml:id="l1353">L’on a fermé l’Olympe à ma <ref target="#juste2">juste*</ref> prière.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V02-7" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="1354" xml:id="l1354">Nous tenons dans nos mains de quoy nous satisfaire,</l>
             <l n="1355" xml:id="l1355">Le chemin est ouvert qui conduit à la mort,</l>
@@ -3259,14 +3259,14 @@
             <l n="1360" xml:id="l1360">Que nos seules fureurs soient nos Divinitez,</l>
             <l n="1361" xml:id="l1361">Et que ce mesme fer et nous perde et nous vange.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V02-8" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1362" xml:id="l1362">Cette haute entreprise est digne de loüange,</l>
             <l n="1363" xml:id="l1363">Courage, executons ce dessein furieux :</l>
             <l n="1364" xml:id="l1364">Prenons, prenons la place et le foudre des Dieux,</l>
             <l n="1365" xml:id="l1365" part="I">Faisons perir Tyndare.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V02-9" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Il fuit vostre presence,</l>
             <l n="1366" xml:id="l1366">Et desrobe sa tete aux coups de la vengeance.</l>
@@ -3275,7 +3275,7 @@
             <l n="1369" xml:id="l1369">Je veux t’ouvrir le sein, deschirer tes entrailles,<pb n="86"/></l>
             <l n="1370" xml:id="l1370">Et vanger Telephonte avant mes funerailles.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V02-10" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1371" xml:id="l1371">Ah ce nom me remplit et d’amour et d’horreur !</l>
             <l n="1372" xml:id="l1372">Ce sanguinaire esprit en vain fuit ma fureur,</l>
@@ -3288,7 +3288,7 @@
             <l n="1379" xml:id="l1379">La rage dans le cœur, en la main les <ref target="#flambeau2">flambeaux</ref>,</l>
             <l n="1380" xml:id="l1380">Mes esprits irritez deviendront ses bourreaux.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V02-11" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="1381" xml:id="l1381">Vos fureurs justement vous rendent implacable,</l>
             <l n="1382" xml:id="l1382">Mais vostre aveuglement pardonne au plus coupable.</l>
@@ -3296,13 +3296,13 @@
             <l n="1384" xml:id="l1384">Et pensant au meurtrier oubliez les Tyrans,</l>
             <l n="1385" xml:id="l1385">Ce sont ceux justement que  ma haine regarde.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V02-12" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1386" xml:id="l1386">Allons donc les punir, allons, qui nous retarde,</l>
             <l n="1387" xml:id="l1387">Allons les poignarder jusques sur nos Autels,</l>
             <l n="1388" xml:id="l1388">Qu’ils ont rougis du sang du plus grand des mortels.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V02-13" who="philoclee">
             <speaker>PHILOCLEE.<pb n="87"/></speaker>
             <l n="1389" xml:id="l1389">Dans nostre desespoir usons de la Prudence,</l>
             <l n="1390" xml:id="l1390">Pour oster le soupçon d’une <ref target="#juste2">juste*</ref> vengeance.</l>
@@ -3314,27 +3314,27 @@
             <l n="1396" xml:id="l1396">Je suivray mon espoux, vous suivrez vostre fils,</l>
             <l n="1397" xml:id="l1397">Le sang nous a conjoints, et nostre hymen nous lie.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V02-14" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1398" xml:id="l1398" part="I">Mais quelqu’un vient icy.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V02-15" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="M">C’est</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V02-16" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="M">Qui</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V02-17" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">C’est Céphalie.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V03">
           <head>SCENE III.</head>
           <stage>MEROPE, CEPHALIE, PHILOCLEE.</stage>
-          <sp who="merope">
+          <sp xml:id="V03-1" who="merope">
             <speaker>MEROPE.<pb n="88"/></speaker>
             <l n="1399" xml:id="l1399">Approche, approche, et voy mes desseins imparfaits<note n="348" place="bottom"> Inachevés.</note>,</l>
             <l n="1400" xml:id="l1400">Le <ref target="#sort1">sort*</ref> cruel s’oppose à mes <ref target="#juste2">justes*</ref> souhaits,</l>
@@ -3343,7 +3343,7 @@
             <l n="1403" xml:id="l1403">En vain d’un fer<note n="349" place="bottom"> Métonymie de l’arme – qui nous informe sur les accesoires sûrement utilisés lors des représentations.</note> vainqueur nous armons nostre main,</l>
             <l n="1404" xml:id="l1404">Nous n’avons point trouvé dans ces lieux l’<ref target="#inhumain1">inhumain*</ref>.</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="V03-2" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l n="1405" xml:id="l1405">Je l’y croyois pourtant, mais il estoit au Temple,</l>
             <l n="1406" xml:id="l1406">Il recoit de son crime un salaire bien ample,</l>
@@ -3357,76 +3357,76 @@
             <l n="1414" xml:id="l1414">Le Tyran avec luy partage sa couronne.</l>
             <l n="1415" xml:id="l1415">Cét assassin impie a la suite d’un Roy.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V03-3" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1416" xml:id="l1416">Ce discours me transporte<note n="350" place="bottom"> Troubler, choquer.</note> et me remplit d’effroy.</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="V03-4" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l n="1417" xml:id="l1417" part="I">Mais j’entends quelque bruit.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V03-5" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Ma fureur est extreme,</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="V03-6" who="cephalie">
             <speaker>CEPHALIE.</speaker>
             <l n="1418" xml:id="l1418">Je croy l’apercevoir, ouy, c’est luy, c’est luy-mesme.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V04">
           <head>SCENE IV.</head>
           <stage>TELEPHONTE, MEROPE, PHILOCLEE, CEPHALIE.</stage>
-          <sp who="telephonte">
+          <sp xml:id="V04-1" who="telephonte">
             <speaker>TELEPHONTE <hi rend="i">parle à ceux de sa suite.</hi></speaker>
             <l n="1419" xml:id="l1419" part="I">Qu’on ne me suive pas.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-2" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Suivons la passion.</l>
           </sp>
-          <sp who="cephalie">
+          <sp xml:id="V04-3" who="cephalie">
             <speaker>CEPHALIE.<pb n="90"/></speaker>
             <l n="1420" xml:id="l1420" part="I">Il vient seul.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-4" who="philoclee">
             <speaker>PHILOCLEE.    </speaker>
             <l part="F">Servons nous de cette occasion.</l>
           </sp>
-          <sp who="telephonte">
+          <sp xml:id="V04-5" who="telephonte">
             <speaker>TELEPHONTE.</speaker>
             <l n="1421" xml:id="l1421">Je veux voir si la Reyne à qui je dois mon Estre,</l>
             <l n="1422" xml:id="l1422">Par quelque instinct secret me pourra reconnoistre.<note n="351" place="bottom"> Ajout important de Gilbert à l’intrigue : Téléphonte veut mettre à l’épreuve l’instinct maternel.</note></l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-6" who="merope">
             <speaker>MEROPE</speaker>
             <l n="1423" xml:id="l1423">Allons sans retarder massacrer l’<ref target="#inhumain1">inhumain*</ref> :</l>
             <l n="1424" xml:id="l1424">Mais d’où vient que ce fer me tremble dans la main ;</l>
             <l n="1425" xml:id="l1425">D’où vient que je paslis, que d’horreur je frissonne.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-7" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="1426" xml:id="l1426">Le courage au besoin<note n="352" place="bottom"> Comprendre : quand il le faut.</note> ainsi vous abandonne,</l>
             <l n="1427" xml:id="l1427">J’executeray seule un acte si pieux.</l>
             <l n="1428" xml:id="l1428" part="I">Ah traistre tu mourras !</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-8" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="M">Oh Dieux que voy-je !</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-9" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Oh Dieux !</l>
           </sp>
-          <sp who="telephonte">
+          <sp xml:id="V04-10" who="telephonte">
             <speaker>TELEPHONTE.</speaker>
             <l n="1429" xml:id="l1429" part="I">N’est-ce pas Philoclée ?</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-11" who="philoclee">
             <speaker>PHILOCLEE.<pb n=" 91"/></speaker>
             <l part="M">Ouy c’est elle.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-12" who="merope">
             <speaker>MEROPE. </speaker>
             <l part="F">
               <ref target="#inhumain1">Inhumaine*</ref>
@@ -3434,95 +3434,95 @@
             <l n="1430" xml:id="l1430">Devenez-vous perfide en retardant sa peine,</l>
             <l n="1431" xml:id="l1431" part="I">Qu’attendez-vous ?</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-13" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="M">Helas !</l>
           </sp>
-          <sp who="telephonte">
+          <sp xml:id="V04-14" who="telephonte">
             <speaker>TELEPHONTE.</speaker>
             <l part="F">Suis ton intention.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-15" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1432" xml:id="l1432">Vous laissez-vous flechir à la compassion,</l>
             <l n="1433" xml:id="l1433">Apres ce qu’a  commis ce Demon detestable ?</l>
             <l n="1434" xml:id="l1434">C’est une impieté que d’estre pitoyable ;</l>
             <l n="1435" xml:id="l1435" part="I">Laissez, laissez moy faire.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-16" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Ah retenez ce bras !</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-17" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1436" xml:id="l1436">Non je me veux vanger par un <ref target="#juste2">juste*</ref> trespas,</l>
             <l n="1437" xml:id="l1437">En vain vous m’empeschez, la fureur me surmonte.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-18" who="philoclee">
             <speaker>PHILOCLEE.<pb n="92"/></speaker>
             <l n="1438" xml:id="l1438">Tremperez-vous vos mains au sang de Telephonte ?</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-19" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1439" xml:id="l1439" part="I">Telephonte,</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-20" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="M">C’est luy</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-21" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Dieux que me dites vous !</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-22" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="1440" xml:id="l1440">Vous voyez vostre fils, et je voy mon Espoux.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-23" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1441" xml:id="l1441" part="I">Il n’est pas mort,</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-24" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="M">Non, non.</l>
           </sp>
-          <sp who="telephonte">
+          <sp xml:id="V04-25" who="telephonte">
             <speaker>TELEPHONTE.</speaker>
             <l part="F">Quelle horrible colere</l>
             <l n="1442" xml:id="l1442">Arme contre ma vie, et ma femme, et ma mere ?</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-26" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1443" xml:id="l1443">Nous n’avions pas dessein mon fils de t’outrager,</l>
             <l n="1444" xml:id="l1444">Au lieu de te punir, nous voulions te vanger.</l>
             <l n="1445" xml:id="l1445">De nos pieuses mains tu vois tomber les armes.<pb n="93"/></l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-27" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="1446" xml:id="l1446">Connois nostre innocence, et vois couler nos larmes.</l>
           </sp>
-          <sp who="telephonte">
+          <sp xml:id="V04-28" who="telephonte">
             <speaker>TELEPHONTE.</speaker>
             <l n="1447" xml:id="l1447">Ne suis-je pas frappé d’un <ref target="#juste2">juste*</ref> <ref target="#estonnement">estonnement*</ref> ?</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-29" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="1448" xml:id="l1448">Ah surprise agreable ! ah doux ravissement !</l>
             <l n="1449" xml:id="l1449">D’un Tygre furieux, tu n’es donc pas la proye ?</l>
             <l n="1450" xml:id="l1450">Il faut que la douleur face place à la joye.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-30" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1451" xml:id="l1451">Viens et ne crains plus rien mon fils, embrasse nous</l>
             <l n="1452" xml:id="l1452">Sans un secret instinct j’allois nous perdre tous,</l>
             <l n="1453" xml:id="l1453">Nature me retint de faire un parricide :</l>
             <l n="1454" xml:id="l1454">Mais pourquoy voulois-tu passer pour homicide ?</l>
           </sp>
-          <sp who="telephonte">
+          <sp xml:id="V04-31" who="telephonte">
             <speaker>TELEPHONTE.</speaker>
             <l n="1455" xml:id="l1455">Pour mieux executer le dessein que j’avois.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-32" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1456" xml:id="l1456">En fin malgré le <ref target="#sort1">sort*</ref> mon fils je te revois</l>
             <l n="1457" xml:id="l1457">Quel bon-heur impreveu succede à nostre peine ?</l>
@@ -3534,43 +3534,43 @@
             <l n="1463" xml:id="l1463">Et tu trouves la mort en trouvant tes parens :</l>
             <l n="1464" xml:id="l1464">Mais fuis pour eviter la fureur des Tyrans.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-33" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="1465" xml:id="l1465">Fuis mon <ref target="#fidele2">fidelle*</ref> Espoux de cette terre ingrate,</l>
             <l n="1466" xml:id="l1466">Nous craignons justement la fureur d’Hermocrate.</l>
           </sp>
-          <sp who="telephonte">
+          <sp xml:id="V04-34" who="telephonte">
             <speaker>TELEPHONTE.</speaker>
             <l n="1467" xml:id="l1467" part="I">N’<ref target="#apprehender">apprehendez*</ref> plus rien.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-35" who="merope">
             <speaker>MEROPE.</speaker>
             <l part="F">Tout est à redouter.</l>
           </sp>
-          <sp who="telephonte">
+          <sp xml:id="V04-36" who="telephonte">
             <speaker>TELEPHONTE.</speaker>
             <l n="1468" xml:id="l1468">Il n’est plus en estat de vous persecuter.</l>
             <l n="1469" xml:id="l1469">Que loin de vostre esprit la crainte soit bannie,</l>
             <l n="1470" xml:id="l1470">Les Tyrans sont esteints avec la Tyrannie.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-37" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1471" xml:id="l1471">Pouvons-nous esperer cette felicité ?</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-38" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l n="1472" xml:id="l1472" part="I">O Ciel !</l>
           </sp>
-          <sp who="telephonte">
+          <sp xml:id="V04-39" who="telephonte">
             <speaker>TELEPHONTE.</speaker>
             <l part="F">Ils ont perdu le Sceptre et la clarté.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-40" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1473" xml:id="l1473">Ah ! d’un acte heroïque exemple illustre et rare :<pb n="95"/></l>
             <l n="1474" xml:id="l1474" part="I">Mais fais-nous ce recit.</l>
           </sp>
-          <sp who="telephonte">
+          <sp xml:id="V04-41" who="telephonte">
             <speaker>TELEPHONTE.</speaker>
             <l part="F">Si tost que Demochare</l>
             <l n="1475" xml:id="l1475">Eut appris mon trespas, qu’il creut legerement<note n="355" place="bottom"> Comprendre : qu’il crut facilement.</note>,</l>
@@ -3632,12 +3632,12 @@
             <l n="1531" xml:id="l1531">En ces lieux de Cresphonte ils ont les jours finis,</l>
             <l n="1532" xml:id="l1532">Et dans ces mesmes lieux ils ont esté punis.</l>
           </sp>
-          <sp who="merope">
+          <sp xml:id="V04-42" who="merope">
             <speaker>MEROPE.</speaker>
             <l n="1533" xml:id="l1533">Un renom immortel suivra ceste victoire,</l>
             <l n="1534" xml:id="l1534" part="I">Que mon fils a d’honneur.</l>
           </sp>
-          <sp who="philoclee">
+          <sp xml:id="V04-43" who="philoclee">
             <speaker>PHILOCLEE.</speaker>
             <l part="F">Et mon Espoux de gloire</l>
             <l n="1535" xml:id="l1535">Nous ne jouissons plus d’un bon-heur decevant<note n="360" place="bottom"> Voir la note du vers 219.</note>.</l>
@@ -3645,10 +3645,10 @@
             <l n="1537" xml:id="l1537" part="I">Ou mort dans le combat ?</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V05">
           <head>SCENE DERNIERE.</head>
           <stage>TELEPHONTE, TYRENE, MEROPE, PHILOCLEE.</stage>
-          <sp who="telephonte">
+          <sp xml:id="V05-1" who="telephonte">
             <speaker>TELEPHONTE.<pb n="98"/></speaker>
             <l part="F">N’ensoyez plus en peine,</l>
             <l n="1538" xml:id="l1538">Je l’appercoy qui vient, approchez-vous Tyrene,</l>
@@ -3656,12 +3656,12 @@
             <l n="1540" xml:id="l1540">Je ne puis trop loüer vostre fidelité,</l>
             <l n="1541" xml:id="l1541">Je veux que vos vertus reçoivent leur salaire.</l>
           </sp>
-          <sp who="tyrene">
+          <sp xml:id="V05-2" who="tyrene">
             <speaker>TYRENE.</speaker>
             <l n="1542" xml:id="l1542">Je n’ay fait aujourd’huy que ce que j’ay deu faire.</l>
             <l n="1543" xml:id="l1543">Les sujets en naissant doivent tout à leurs Rois.</l>
           </sp>
-          <sp who="telephonte">
+          <sp xml:id="V05-3" who="telephonte">
             <speaker>TELEPHONTE.</speaker>
             <l n="1544" xml:id="l1544">Les Dieux ont exaucé tous nos vœux à la fois,</l>
             <l n="1545" xml:id="l1545">J’ay vangé par le sang mes freres et mon pere,</l>

@@ -1042,16 +1042,16 @@
         </castList>
         <stage>La Scene est en Alger.<note place="bottom">Louis Moreri, dans <hi rend="i">Le Grand Dictionnaire historique ou Le Mélange curieux de l’histoire sacrée et profane</hi> (seconde édition publiée par Paraye, 1681) indique qu’Alger est à la fois « ville et royaume d’Afrique dans la Barbarie. Celuy-cy a le royaume de Tunis au Levant, et le Biledulgerid au Midy, au Couchant le Royaume de Fez et la mer au Septentrion. La ville d’Alger, qui lui donne son nom, en est la capitale, belle et grande avec un très-bon Port ».</note></stage>
       </div>
-      <div type="act">
+      <div xml:id="I" type="act">
         <head>ACTE PREMIER.<pb n="A1"/></head>
-        <div type="scene">
+        <div type="scene" xml:id="I01">
           <head>SCENE PREMIERE.</head>
           <stage>ALPHONSE, FERNAND.</stage>
-          <sp who="alphonse">
+          <sp xml:id="I01-1" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1" xml:id="l1" part="I">Ha ! Laisse moy mourir.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="I01-2" who="fernand">
             <speaker>FERNAND.</speaker>
             <l part="F">Que moy-mesmes je meure,</l>
             <l n="2" xml:id="l2">Si je <ref target="#souffrir3">souffre*</ref> qu’ainsy vous advanciez vostre heure :</l>
@@ -1068,7 +1068,7 @@
             <l n="13" xml:id="l13">Ses rayons eternels dissiperont la nuë<note place="bottom">On dit <hi rend="i">nue</hi> ou <hi rend="i">nuée</hi> (<hi rend="i">cf</hi>. Furetière, éd. cit.).</note>,</l>
             <l n="14" xml:id="l14">Par qui<note place="bottom"><hi rend="i">Qui</hi> prépositionnel peut référer, malgré les grammairiens qui condamnent cet usage, à un antécédent non humain en français classique. Corneille, dans <hi rend="i">Cinna</hi> (1641), en use de même : « Un crime par qui Rome obtient sa liberté ! ».</note> la Verité se cache à vostre veuë.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I01-3" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="15" xml:id="l15">Ne viens-tu pas icy pour me la descouvrir ?</l>
             <l n="16" xml:id="l16">Ne ferme plus ton cœur à qui tu dois l’ouvrir ;</l>
@@ -1087,28 +1087,28 @@
             <l n="29" xml:id="l29">Elle est ensevelie en la perte commune<note place="bottom">Comprendre : « Clarice a succombé au milieu du massacre ».</note> ;</l>
             <l n="30" xml:id="l30">Mais malgré tes conseils je suivray sa <ref target="#fortune2">fortune*</ref>.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="I01-4" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="31" xml:id="l31">Sa <ref target="#fortune2">fortune*</ref>, Seigneur, est encore à sçavoir.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I01-5" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="32" xml:id="l32">Ha ! Je n’espère pas de jamais la revoir<note place="bottom">Le verbe <hi rend="i">espérer</hi> admet des constructions concurrentes en français classique : l’infinitif peut être ou ne pas être suivi du marqueur partitif <hi rend="i">de</hi>. L’usage jugé saillant en fin de siècle est toutefois celui qui supprime la préposition (<hi rend="i">cf</hi>. Fournier, éd. cit. p. 67 et p. 280-281). La double négation revient par ailleurs à une affirmation car deux négations s’annulent en se combinant. </note>.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="I01-6" who="fernand">
             <speaker>FERNAND. </speaker>
             <l n="33" xml:id="l33">Il est vray qu’à Megare en vain je l’ay cherchée.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I01-7" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="34" xml:id="l34">Courons donc au tombeau, c’est là qu’elle est cachée.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="I01-8" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="35" xml:id="l35">Ne précipitez point le cours de vostre <ref target="#sort3">sort*</ref>,</l>
             <l n="36" xml:id="l36" part="I">Attendez ;</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I01-9" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Je n’attens que le coup de la mort.</l>
             <l n="37" xml:id="l37">Tant qu’un reste d’espoir a consolé mon <ref target="#ame1">ame*</ref>,</l>
@@ -1120,7 +1120,7 @@
             <l n="43" xml:id="l43">Et que sans differer les cendres du tombeau</l>
             <l n="44" xml:id="l44">De tous les <ref target="#feu3">feux*</ref> d’Amour estouffent le plus beau.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="I01-10" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="45" xml:id="l45">Pourquoy devant le temps s’affliger de la sorte ?</l>
             <l n="46" xml:id="l46">Mourrés<note place="bottom"><hi rend="i">Mourrés : -és</hi> est une variante graphique de <hi rend="i">-ez</hi>. On trouve souvent cette graphie aux cinquièmes personnes des verbes (<hi rend="i">idem</hi> vers 274 <hi rend="i">deviendrés</hi>, 334 <hi rend="i">plaignés</hi>, 1221 <hi rend="i">recueillés</hi>).</note>-vous sans sçavoir si vrayment elle est morte ?</l>
@@ -1141,15 +1141,15 @@
             <l n="61" xml:id="l61">He ! quoy pourroit-on bien l’empescher de vous suivre ?</l>
             <l n="62" xml:id="l62">Elle vous ayme trop pour jamais vous survivre.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I01-11" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="63" xml:id="l63">Puis-je de quelque espoir mes craintes adoucir ?<note place="bottom">L’ordre <hi rend="i">verbe</hi> (<hi rend="i">puis</hi>) <hi rend="i">+ objet</hi> (<hi rend="i">mes craintes</hi>) <hi rend="i">+ infinitif</hi> (<hi rend="i">adoucir</hi>) est très rare en français classique, et fermement condamné par Thomas Corneille, même en poésie. L’ordre usuel est de postposer le régime à l’infinitif dont il dépend (<hi rend="i">cf</hi>. Fournier, éd. cit. p. 94-95).</note><pb n="5" xml:id="p5"/></l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="I01-12" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="64" xml:id="l64">Son <ref target="#destin">destin*</ref> est <ref target="#douteux">douteux*</ref>, il s’en<note place="bottom"><hi rend="i">En</hi> ne connaît aucune restriction anaphorique en français classique – comme en français moderne ; il peut référer à un nom à déterminant zéro ou à déterminant défini ou indéfini. Ici, <hi rend="i">en</hi> se rapporte au <hi rend="i">destin</hi> de Clarice : « il faut esclaircir son destin » (<hi rend="i">cf</hi>. Fournier, éd. cit. p. 192-193).</note> faut esclaircir.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I01-13" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="65" xml:id="l65">Depuis tantost deux mois que Megare est soûmise,</l>
             <l n="66" xml:id="l66">Que malgré mes <ref target="#effort">efforts*</ref> des <ref target="#barbare">Barbares*</ref> l’ont prise,</l>
@@ -1158,12 +1158,12 @@
             <l n="69" xml:id="l69">Je tente tous moyens pour en<note place="bottom">Le pronom adverbial <hi rend="i">en</hi> peut référer – et ce dès l’ancien français – à l’humain, et anaphoriser comme ici un pronom personnel de troisième personne (<hi rend="i">elle</hi>), lui-même anaphorique d’un nom propre à référent animé (<hi rend="i">Clarice</hi>). </note> avoir nouvelles ;</l>
             <l n="70" xml:id="l70">Mais puis-je en recevoir qui ne me soient mortelles ?</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="I01-14" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="71" xml:id="l71">Le <ref target="#ciel2">Ciel*</ref> l’aura peut estre assistée au besoin ;</l>
             <l n="72" xml:id="l72">Elle estoit son Chef-d’œuvre, il en aura pris soin.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I01-15" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="73" xml:id="l73">Le <ref target="#ciel2">Ciel*</ref>, qui m’est contraire, et se rit de mes larmes,</l>
             <l n="74" xml:id="l74">L’auroit-il bien soustraitte à la <ref target="#fureur">fureur*</ref> des armes ?</l>
@@ -1176,7 +1176,7 @@
             <l n="81" xml:id="l81">Et je ne doute plus qu’une affreuse <ref target="#aventure">advanture*</ref></l>
             <l n="82" xml:id="l82">Du lieu de son berceau n’ait fait sa sepulture.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="I01-16" who="fernand">
             <speaker> FERNAND.</speaker>
             <l n="83" xml:id="l83">Seigneur, si j’en sçay rien<note place="bottom">En atmosphère forclusive, <hi rend="i">rien</hi> est glosable par <hi rend="i">quelque chose</hi>. La subordonnée en <hi rend="i">si</hi> actualise cette atmosphère forclusive. </note>, que le <ref target="#ciel2">Ciel*</ref> en courrous</l>
             <l n="84" xml:id="l84">Me face un ennemy d’un Prince comme vous ;</l>
@@ -1197,7 +1197,7 @@
             <l n="99" xml:id="l99">Et qui n’a plus enfin face que d’un cercueil,</l>
             <l n="100" xml:id="l100">Où de tous ses Palais est enterré l’orgueil.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I01-17" who="alphonse">
             <speaker>ALPHONSE. </speaker>
             <l n="101" xml:id="l101">Qu’est-ce donc qu’en a fait le <ref target="#destin">destin*</ref> de la Guerre ?<pb n="7" xml:id="p7"/></l>
             <l n="102" xml:id="l102">Est-elle dans la mer ? est-elle sur la terre ?</l>
@@ -1210,7 +1210,7 @@
             <l n="109" xml:id="l109">Du Glaive ou de la Vague elle a senty l’<ref target="#injure2">injure*</ref>,</l>
             <l n="110" xml:id="l110">Et la terre ou la mer luy sert<note place="bottom">Au XVII<hi rend="sup">e</hi> siècle, l’accord en nombre est sujet à variation quand le sujet est constitué d’éléments coordonnés. Vaugelas, dans le cas d’une coordination par <hi rend="i">ou</hi>, demande le singulier, dans la mesure où un seul des deux sujets valide la relation prédictive. Mais l’accord au pluriel s’étend au cours du siècle et les deux nombres seront acceptés par l’Académie en 1705 (<hi rend="i">cf</hi>. Fournier, éd. cit. p. 29). </note> de sepulture.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="I01-18" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="111" xml:id="l111">Un danger est bien grand, si la <ref target="#vertu1">vertu*</ref> n’en sort<note place="bottom">Comprendre : « la vertu échappe toujours au danger, autrement c’est que celui-ci est considérable ».</note>,</l>
             <l n="112" xml:id="l112">Et par fois d’un escueil le <ref target="#ciel2">Ciel*</ref> luy fait un port.</l>
@@ -1220,16 +1220,16 @@
             <l n="116" xml:id="l116" part="I">Le Roy… mais il arrive.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I02">
           <head>SCENE DEUXIEME.</head>
           <stage>LE ROY, ALPHONSE, FERNAND.<pb n="8" xml:id="p8"/></stage>
-          <sp who="le-roy">
+          <sp xml:id="I02-1" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l part="F">Alphonse, approchez-vous<note place="bottom"><hi rend="i">Tous</hi> rime avec <hi rend="i">vous</hi>, car en français classique les consonnes finales sont toujours prononcées à la pause et en liaison (<hi rend="i">idem</hi> pour <hi rend="i">reprocher</hi> et <hi rend="i">cher</hi> vers 311-312 ; <hi rend="i">but</hi> et <hi rend="i">rebut</hi> vers 319-320 ; <hi rend="i">sens</hi> et <hi rend="i">sens</hi> vers 467-468). </note>,</l>
             <l n="117" xml:id="l117">Mais de quel nouveau <ref target="#mal1">mal*</ref> le trop <ref target="#sensible1">sensible*</ref> <ref target="#outrage">outrage*</ref></l>
             <l n="118" xml:id="l118">Vous a depuis tantost si changé de visage ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I02-2" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="119" xml:id="l119">Pardonnez, grand Monarque, à ma juste douleur,</l>
             <l n="120" xml:id="l120">Je viens d’estre adverty de mon dernier mal-heur ;</l>
@@ -1238,7 +1238,7 @@
             <l n="123" xml:id="l123">On ne l’y treuve plus, et c’est mon sentiment<note place="bottom">Comprendre : « c’est mon avis ».</note>,</l>
             <l n="124" xml:id="l124">Que le sein de la mer luy sert de <ref target="#monument">monument*</ref>.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="I02-3" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="125" xml:id="l125">Il est vray qu’un Vaisseau d’Esclaves <ref target="#nonpareil">nompareilles*</ref>,</l>
             <l n="126" xml:id="l126">Que mettoit la Sicile au rang de ses <ref target="#merveille2">merveilles*</ref>,</l>
@@ -1254,34 +1254,34 @@
             <l n="136" xml:id="l136">Je ne veux reserver que celle que voicy.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="I03">
           <head>SCENE TROISIEME.</head>
           <stage>LE ROY, ALPHONSE, CLARICE, HALY, FERNAND.</stage>
-          <sp who="alphonse">
+          <sp xml:id="I03-1" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="137" xml:id="l137">Hé ! celle que voicy c’est ma Sœur elle-mesme.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="I03-2" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="138" xml:id="l138">Que voy-je ? est-ce mon Frère ? ha ! ma joye est extréme ; </l>
             <l n="139" xml:id="l139">Mais n’est-il pas perdu ? l’aurois-je retreuvé ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I03-3" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="140" xml:id="l140" part="I">Hé ! qui vous a sauvée ?<pb n="10" xml:id="p10"/></l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="I03-4" who="clarice">
             <speaker>CLARICE.</speaker>
             <l part="F">Hé ! qui vous a sauvé ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I03-5" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="141" xml:id="l141">De mille <ref target="#bien">biens*</ref>, grand Roy, je vous suis redevable,</l>
             <l n="142" xml:id="l142">Mais deussay-je passer pour un homme insatiable,</l>
             <l n="143" xml:id="l143">Et qui semble vouloir lasser votre bonté,</l>
             <l n="144" xml:id="l144">Je demande ma Sœur à vostre Majesté.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="I03-6" who="le-roy">
             <speaker>LE ROY. </speaker>
             <l n="145" xml:id="l145">Il n’est rien que de moy vous ne deviez attendre<note place="bottom">Comprendre : « vous pouvez tout attendre de moi ; vous pouvez tout me demander ». La double négation équivaut à une affirmation.</note> ;</l>
             <l n="146" xml:id="l146">Mais quant à vostre Sœur, pourrois-je vous la rendre ?</l>
@@ -1292,16 +1292,16 @@
             <l n="151" xml:id="l151">La pitié de vos pleurs ne m’en<note place="bottom">En français classique, la montée du clitique (<hi rend="i">en</hi> dans notre texte) devant le verbe recteur d’un infinitif est courante. Peuvent se monter devant le verbe recteur toutes les catégories de clitiques : accusatif et datif, réflexifs <hi rend="i">se, en</hi> et <hi rend="i">y</hi> (<hi rend="i">cf</hi>. Fournier, éd. cit., p. 80-81).</note> peut dispenser,</l>
             <l n="152" xml:id="l152">Et frustrer son espoir ce seroit l’offenser.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="I03-7" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="153" xml:id="l153">Dieu ! que viens-je d’entendre ? ha ! <ref target="#funeste">funeste*</ref> nouvelle ;</l>
             <l n="154" xml:id="l154" part="I">Ha ! mon Frere.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I03-8" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="M">Ha ! ma sœur.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="I03-9" who="clarice">
             <speaker>CLARICE.</speaker>
             <l part="F">Ha ! surprise mortelle ;</l>
             <l n="155" xml:id="l155">Nouveau coup de <ref target="#fortune2">Fortune*</ref>, et par qui ma <ref target="#vertu1">vertu*</ref><pb n="11" xml:id="p11"/></l>
@@ -1309,7 +1309,7 @@
             <l n="157" xml:id="l157">A peine ma douleur, qui toute autre surpasse,</l>
             <l n="158" xml:id="l158">Me laisse assez de voix, pour vous demander <ref target="#grace">grace*</ref>.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="I03-10" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="159" xml:id="l159">J’ay donné ma parole, et ce que j’ay promis</l>
             <l n="160" xml:id="l160">On me le voit tenir, mesme à mes ennemis.</l>
@@ -1324,20 +1324,20 @@
             <l n="169" xml:id="l169">Qui monstre que l’Amour allume dans son <ref target="#ame2">ame*</ref></l>
             <l n="170" xml:id="l170">Les pressantes <ref target="#ardeur">ardeurs*</ref> d’une nouvelle <ref target="#flamme2">flame*</ref>.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="I03-11" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="171" xml:id="l171">Combien d’autres Beautez prises dans vos liens,<pb n="12" xml:id="p12"/></l>
             <l n="172" xml:id="l172">Brillent-elles d’<ref target="#attrait">attraits*</ref> plus charmans que les miens,</l>
             <l n="173" xml:id="l173">Pour donner à son cœur une <ref target="#atteinte2">atteinte*</ref> amoureuse ?</l>
             <l n="174" xml:id="l174">Ha ! je suis la moins belle, et la plus mal-heureuse.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="I03-12" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="175" xml:id="l175">Appellez-vous mal-heur l’<ref target="#honneur4">honneur*</ref> d’aller <ref target="#ravir1">ravir*</ref></l>
             <l n="176" xml:id="l176">Un Roy que tant de Roys font <ref target="#gloire">gloire*</ref> de servir,</l>
             <l n="177" xml:id="l177">En combattant pour luy du Couchant à l’Aurore ?</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="I03-13" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="178" xml:id="l178">Appellez-vous <ref target="#honneur4">honneur*</ref> ce qui nous deshonore ?</l>
             <l n="179" xml:id="l179">Et nous fait devenir par un crime odieux</l>
@@ -1355,14 +1355,14 @@
             <l n="191" xml:id="l191">Si la crainte ou l’espoir m’y faisoit consentir,<pb n="13" xml:id="p13"/></l>
             <l n="192" xml:id="l192">La terre s’ouvriroit afin de m’engloutir.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="I03-14" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="193" xml:id="l193">Certes je ne sçay pas quelle nuict assez noire</l>
             <l n="194" xml:id="l194">Vous cache le chemin qui vous meine à la <ref target="#gloire">gloire*</ref> ;</l>
             <l n="195" xml:id="l195">Vous serez <ref target="#adorer">adorée*</ref>, et ce Prince indompté</l>
             <l n="196" xml:id="l196">Ne recevra des loix que de vostre beauté.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="I03-15" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="197" xml:id="l197">Dieu, que cette beauté me sera cher venduë !</l>
             <l n="198" xml:id="l198">Et que j’aurois gagné, si je l’avois perduë !</l>
@@ -1377,7 +1377,7 @@
             <l n="207" xml:id="l207">Tost ou tard aussi bien cét éclat passera ;</l>
             <l n="208" xml:id="l208">Le Temps me l’a donné, le Temps me l’ostera.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I03-16" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="209" xml:id="l209">Monarque <ref target="#genereux">genereux*</ref>, la Pitié vous convie</l>
             <l n="210" xml:id="l210">A sauver de sa main ses beautez et sa vie.</l>
@@ -1392,7 +1392,7 @@
             <l n="219" xml:id="l219">Qu’un mal-heureux Esclave, à qui rien aujourdhuy</l>
             <l n="220" xml:id="l220">Ne reste qu’une Sœur qu’on separe de luy.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="I03-17" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="221" xml:id="l221">Je sçay qu’ayant cent fois triomphé des plus <ref target="#brave">Braves*</ref>,</l>
             <l n="222" xml:id="l222">Vous avez esté mis au nombre des Esclaves ;</l>
@@ -1411,7 +1411,7 @@
             <l n="235" xml:id="l235">Et vous voir tant chery d’un Roy tel que je suis,<pb n="15" xml:id="p15"/></l>
             <l n="236" xml:id="l236">Devroit bien adoucir l’aigreur de vos <ref target="#ennui">ennuis*</ref>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I03-18" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="237" xml:id="l237">Il est vrai que jamais Vainqueur n’aura la <ref target="#gloire">gloire*</ref></l>
             <l n="238" xml:id="l238">D’avoir sceu mieux que vous user de la Victoire :</l>
@@ -1419,12 +1419,12 @@
             <l n="240" xml:id="l240">Et ne <ref target="#refuser">refusez*</ref> pas quelque <ref target="#grace">grace*</ref> à ma Sœur ;</l>
             <l n="241" xml:id="l241">Le plus <ref target="#clement">Clement*</ref> des Roys est-il sourd à sa plainte ?</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="I03-19" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="242" xml:id="l242">Qui n’en ressentiroit quelque sorte d’<ref target="#atteinte2">atteinte*</ref> ?</l>
             <l n="243" xml:id="l243" part="I">J’ay pitié de ses pleurs.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="I03-20" who="clarice">
             <speaker>CLARICE.</speaker>
             <l part="F">Helas ! quelle raison</l>
             <l n="244" xml:id="l244">Vous fait donc à mon <ref target="#mal2">mal*</ref> <ref target="#refuser">refuser*</ref> guerison ?</l>
@@ -1455,7 +1455,7 @@
             <l n="269" xml:id="l269">Helas ! ne rendez point mon <ref target="#destin">destin*</ref> plus <ref target="#funeste">funeste*</ref></l>
             <l n="270" xml:id="l270">Conservez mon <ref target="#honneur3">honneur*</ref>, c’est tout ce qui me reste.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="I03-21" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="271" xml:id="l271">J’en augmente l’esclat, je dissipe vos nuits<note place="bottom">Comprendre : « Je vous ôte de votre obscure condition ».</note>,</l>
             <l n="272" xml:id="l272">Et l’espoir de regner doit calmer vos <ref target="#ennui">ennuis*</ref> :</l>
@@ -1468,7 +1468,7 @@
             <l n="279" xml:id="l279">Un Royaume est petit, pour enfermer l’espoir</l>
             <l n="280" xml:id="l280">De qui se fait aymer si tost qu’il se fait voir.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="I03-22" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="281" xml:id="l281">L’espace d’un cercueil enclost mon esperance ;</l>
             <l n="282" xml:id="l282">A la porter plus haut je voy peu d’<ref target="#apparence">apparance*</ref>,</l>
@@ -1479,17 +1479,17 @@
             <l n="287" xml:id="l287">Et dans Constantinople, au mépris de ses Loix,</l>
             <l n="288" xml:id="l288">Face ensemble briller le Croissant et la Croix ?</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="I03-23" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="289" xml:id="l289">Vous changerez de <ref target="#foi1">foy*</ref>, pour avoir son Empire.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="I03-24" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="290" xml:id="l290">On me verra plustost marcher droit au Martyre,</l>
             <l n="291" xml:id="l291">Et plustost me coucher, sans crainte des douleurs,</l>
             <l n="292" xml:id="l292">Sur des charbons ardens, ainsi que sur des fleurs.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="I03-25" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="293" xml:id="l293">Il est dans le Serrail mille Esprits de lumiere,</l>
             <l n="294" xml:id="l294">Qui sçauront dissiper vostre erreur si grossiere ;</l>
@@ -1498,7 +1498,7 @@
             <l n="297" xml:id="l297">Et puis vous partirez, si les vents sont propices,</l>
             <l n="298" xml:id="l298">Pour aller au sejour de toutes les delices.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="I03-26" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="299" xml:id="l299">Et puis je partiray pour aller à la mort :</l>
             <l n="300" xml:id="l300">Mais avant que j’en vienne à ce dernier <ref target="#effort">effort*</ref>,</l>
@@ -1510,7 +1510,7 @@
             <l n="306" xml:id="l306">J’ay vescu chastement, et je mourray de mesme.</l>
             <stage>Elle sort.<note place="bottom">Dans l’édition originale de la pièce, toutes les didascalies sont situées en marge des vers. Nous les rétablissons après les vers sous lesquels elles prennent effet. </note> </stage>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I03-27" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="307" xml:id="l307">Hé ! Sire, à ce discours ne connoissez-vous point</l>
             <l n="308" xml:id="l308">Quel excez de <ref target="#courage">courage*</ref> à sa <ref target="#vertu1">vertu*</ref> se joint ?</l>
@@ -1519,7 +1519,7 @@
             <l n="311" xml:id="l311">Et pourra justement un jour vous reprocher,</l>
             <l n="312" xml:id="l312">Que vos presens sont beaux, mais qu’ils coustent trop cher.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="I03-28" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="313" xml:id="l313">Ne m’en parlez jamais, vous pourriez me desplaire,</l>
             <l n="314" xml:id="l314">Devenir importun, et mesme <ref target="#temeraire">temeraire*</ref>,</l>
@@ -1527,11 +1527,11 @@
             <l n="316" xml:id="l316">J’en veux faire un présent au plus puissant des Roys.<pb n="19" xml:id="p19"/></l>
             <stage>Le Roy sort.</stage>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I03-29" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="317" xml:id="l317" part="I">Que feray-je Fernand ?</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="I03-30" who="fernand">
             <speaker>FERNAND.</speaker>
             <l part="F">La seconde priere</l>
             <l n="318" xml:id="l318"><ref target="#recouvrer">Recouvre*</ref> quelquefois l’<ref target="#honneur1">honneur*</ref> de la premiere ;</l>
@@ -1540,7 +1540,7 @@
             <l n="321" xml:id="l321">Les Roys comme il leur plaist reglant nostre <ref target="#fortune2">fortune*</ref>,</l>
             <l n="322" xml:id="l322">Sont semblables à Dieu, qui veut qu’on l’<ref target="#importuner">importune*</ref>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="I03-31" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="323" xml:id="l323">Accablé de douleur, desesperé, confus,</l>
             <l n="324" xml:id="l324">J’auray la <ref target="#honte1">honte*</ref> encor de <ref target="#souffrir2">souffrir*</ref> un refus :</l>
@@ -1550,12 +1550,12 @@
           </sp>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="II" type="act">
         <head>ACTE SECOND.</head>
-        <div type="scene">
+        <div type="scene" xml:id="II01">
           <head>SCENE PREMIERE.</head>
           <stage>CLARICE, HALY.<pb n="20" xml:id="p20"/></stage>
-          <sp who="haly">
+          <sp xml:id="II01-1" who="haly">
             <speaker>HALY.</speaker>
             <l n="327" xml:id="l327">Que faites-vous, Madame, helas ! à quel <ref target="#dessein">dessein*</ref></l>
             <l n="328" xml:id="l328">De tant de rudes coups plomber<note place="bottom">Aucun des dictionnaires du XVII<hi rend="sup">e</hi> siècle ne connaît un autre sens que technique.  </note> un si beau sein ?</l>
@@ -1566,7 +1566,7 @@
             <l n="333" xml:id="l333">Je dois respondre au Roy d’un si charmant visage ;</l>
             <l n="334" xml:id="l334">Madame, plaignés-vous, mais sans vous faire outrage.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II01-2" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="335" xml:id="l335">A qui faut-il me plaindre, ou demander secours ?</l>
             <l n="336" xml:id="l336">Les bontez de la Reine estoient mon seul recours ;</l>
@@ -1575,21 +1575,21 @@
             <l n="339" xml:id="l339">Ma <ref target="#fortune2">fortune*</ref> l’effroye ; et de peur de me voir,</l>
             <l n="340" xml:id="l340">Au devant de ses yeux elle a mis un mouchoir<note place="bottom">Probable référence à l’attitude d’Agamemnon devant le sacrifice de sa fille Iphigénie. Parmi les nombreuses représentations antiques de ce sacrifice, une des plus fameuses était une œuvre du peintre grec Timanthe (fin du V<hi rend="sup">e</hi>-début du IV<hi rend="sup">e</hi> siècle avant J.-C.) qui avait voilé le visage d’Agamemnon, suggérant ainsi sans pouvoir la montrer la douleur la plus insurmontable. Euripide, dans son <hi rend="i">Iphigénie à Aulis</hi>, exploita aussi cette image « Lorsque le roi Agamemnbon vit la jeune fille se diriger vers le bois sacré pour le sacrifice, il gémit et, détournant la tête, il versa des larmes en voilant ses yeux de son manteau », vers 1547-1550). Racine, dans son <hi rend="i">Iphigénie</hi> (1674), fit également référence à ce procédé relevant du sublime « Le triste Agamemnon […], / Pour détourner ses yeux des meurtres qu’il présage, / Ou pour cacher ses pleurs, s’est voilé le visage » (vers 1708-1710).</note>.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="II01-3" who="haly">
             <speaker>HALY.</speaker>
             <l n="341" xml:id="l341">Peut-estre a-t’elle mis ce mouchoir sur sa veuë,</l>
             <l n="342" xml:id="l342">Pour pleurer en secret la douleur qui vous tuë.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II01-4" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="343" xml:id="l343">Jugez donc de l’espoir qui reste à mes mal-heurs,</l>
             <l n="344" xml:id="l344">Si la Reine ne peut me donner que des pleurs.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="II01-5" who="haly">
             <speaker>HALY.</speaker>
             <l n="345" xml:id="l345">D’un excez de pitié ses pleurs prennent naissance.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II01-6" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="346" xml:id="l346">Non, non, j’ay vainement reclamé sa puissance ;</l>
             <l n="347" xml:id="l347">S’estendroit-elle bien jusqu’à me secourir<note place="bottom">Comprendre : « irait-elle jusqu’à me secourir ? ».</note> ?</l>
@@ -1603,49 +1603,49 @@
             <l n="355" xml:id="l355">Mais perdant contre moy le tiltre de vainqueur,<pb n="22" xml:id="p22"/></l>
             <l n="356" xml:id="l356">Quand il auroit le monde, il n’auroit pas mon cœur.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="II01-7" who="haly">
             <speaker>HALY.</speaker>
             <l n="357" xml:id="l357">Ce discours monstre un cœur plus grand que son Empire ;</l>
             <l n="358" xml:id="l358" part="I">Mais Alphonse parest.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II02">
           <head>SCENE DEUXIEME.</head>
           <stage>ALPHONSE, CLARICE, HALY, FERNAND.</stage>
-          <sp who="clarice">
+          <sp xml:id="II02-1" who="clarice">
             <speaker>CLARICE.</speaker>
             <l part="F">Mais Alphonse souspire ;</l>
             <l n="359" xml:id="l359">Qui vous a si long-temps loin de moy retenu ?</l>
             <l n="360" xml:id="l360">Que vous a dit le Roy ? Qu’avez vous obtenu ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II02-2" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="361" xml:id="l361" part="I">Ha ! cruelle demande.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II02-3" who="clarice">
             <speaker>CLARICE.</speaker>
             <l part="F">Ha ! response trop claire.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II02-4" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="362" xml:id="l362" part="I">Il faut mourir, ma Sœur.<pb n="23" xml:id="p23"/></l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II02-5" who="clarice">
             <speaker>CLARICE.</speaker>
             <l part="F">Hé bien, mourons, mon Frere.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II02-6" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="363" xml:id="l363">Un roc est plus esmeu par les vents et les flots,</l>
             <l n="364" xml:id="l364">Que le Roy par les cris, les pleurs, et les sanglots.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II02-7" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="365" xml:id="l365">Puis-je à tant de rigueur faire encor resistance ?</l>
             <l n="366" xml:id="l366">La <ref target="#fortune1">Fortune*</ref> veut voir jusqu’où va ma <ref target="#constance">constance*</ref> ;</l>
             <l n="367" xml:id="l367">Son desir <ref target="#curieux">curieux*</ref> sera bien-tost contant.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II02-8" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="368" xml:id="l368">Que la <ref target="#fortune1">Fortune*</ref> monstre un visage inconstant !</l>
             <l n="369" xml:id="l369">Il n’est rien si fragile<note place="bottom">Le déterminant zéro marqueur de détermination massive est en français classique en concurrence avec le partitif <hi rend="i">de</hi> / <hi rend="i">du</hi> (<hi rend="i">cf</hi>. Fournier, éd. cit. p. 142).</note>, et j’en fais bien l’espreuve,</l>
@@ -1653,11 +1653,11 @@
             <l n="371" xml:id="l371">Que l’espoir en mon cœur meurt si tost qu’il est né,</l>
             <l n="372" xml:id="l372">Et qu’on m’oste un tresor dés qu’on me l’a donné.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II02-9" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="373" xml:id="l373" part="I">Il faut donc que je parte ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II02-10" who="alphonse">
             <speaker>ALPHONSE. </speaker>
             <l part="F">Ouy, sans nulle <ref target="#remise">remise*</ref> ;<pb n="24" xml:id="p24"/></l>
             <l n="374" xml:id="l374">Le vouloir destourner d’une telle <ref target="#entreprise1">entreprise*</ref>,</l>
@@ -1665,22 +1665,22 @@
             <l n="376" xml:id="l376">Esteindre en sa <ref target="#fureur">fureur*</ref> un brasier devorant,</l>
             <l n="377" xml:id="l377">Et <ref target="#surmonter2">surmonter*</ref> enfin d’invincibles obstacles.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II02-11" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="378" xml:id="l378">Pour moy je ne sçay point faire tant de miracles,</l>
             <l n="379" xml:id="l379" part="I">Mais je sçay bien mourir.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II02-12" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Que seroit vostre <ref target="#sort3">sort*</ref>,</l>
             <l n="380" xml:id="l380">Si de vostre <ref target="#vertu1">vertu*</ref> le prix estoit la mort ?</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II02-13" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="381" xml:id="l381">La Reine m’a promis de m’estre favorable,</l>
             <l n="382" xml:id="l382">Mais je crains qu’elle prie un Prince inexorable.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="II02-14" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="383" xml:id="l383">Le <ref target="#destin">Destin*</ref> quelquefois se plaist à <ref target="#decevoir">decevoir*</ref></l>
             <l n="384" xml:id="l384">La crainte des mortels, aussi bien que l’espoir ;</l>
@@ -1688,19 +1688,19 @@
             <l n="386" xml:id="l386">De quelque bon succez un asseuré presage.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II03">
           <head>SCENE TROISIEME.</head>
           <stage>LA REYNE, ALPHONSE, CLARICE, HALY, FERNAND.<hi rend="b"/><pb n="D25"/></stage>
-          <sp who="alphonse">
+          <sp xml:id="II03-1" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="387" xml:id="l387">Hé bien ! Madame, enfin faut-il vivre ou mourir ?</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="II03-2" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="388" xml:id="l388">Avez-vous quelque <ref target="#mal2">mal*</ref> qu’on ne puisse guerir ?</l>
             <l n="389" xml:id="l389">Le plus cruel de tous a déjà son remede.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II03-3" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="390" xml:id="l390">Après tant de mal-heur que tant d’<ref target="#heur">heur*</ref> me succede,</l>
             <l n="391" xml:id="l391">Toute autre qu’une Reine auroit beau m’en jurer,</l>
@@ -1710,7 +1710,7 @@
             <l n="395" xml:id="l395">Et ne demande rien qu’avecque<note place="bottom">La graphie <hi rend="i">avecque</hi> est une variante poétique de la forme <hi rend="i">avec</hi> et compte pour trois syllabes devant un mot à initiale consonantique (<hi rend="i">idem</hi> vers 502, 551, 1067 et 1219). </note> tant d’<ref target="#appat">appas*</ref>,</l>
             <l n="396" xml:id="l396">Qu’on ne peut l’escouter, et ne l’exaucer pas.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="II03-4" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="397" xml:id="l397">Je ne vous flate point d’une fausse nouvelle,<pb n="26" xml:id="p26"/></l>
             <l n="398" xml:id="l398">Vostre <ref target="#fortune2">fortune*</ref> change, et devient moins cruelle,</l>
@@ -1723,35 +1723,35 @@
             <l n="405" xml:id="l405">Et devant que<note place="bottom"><hi rend="i">Devant que</hi> est synonyme d’<hi rend="i">avant que</hi>, et on relève de nombreuses occurrences de cet emploi au XVII<hi rend="sup">e</hi> siècle, par exemple chez La Fontaine dans <hi rend="i">Les Amours de Psyché et de Cupidon</hi>, 411 « la seule chose qui l’embarrassait était que son mari l’avait quittée devant qu’il fût jour ». Vaugelas précise cependant « M. Coeffeteau a tousjours escrit <hi rend="i">devant que</hi>, mais <hi rend="i">avant que</hi> est plus de la Cour, et plus en usage » (<hi rend="i">cf. Remarques sur la langue françoise</hi>, éd. cit., p. 319-320). </note> la nuit ait sa course bornée,</l>
             <l n="406" xml:id="l406" part="I">Je crains qu’elle ne parte.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II03-5" who="clarice">
             <speaker>CLARICE.</speaker>
             <l part="F">O dure <ref target="#destinee">destinée*</ref> !</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II03-6" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="407" xml:id="l407">Helas ! me sauveray-je alors que je la pers ?</l>
             <l n="408" xml:id="l408">Et pourray-je estre libre, et la voir dans les <ref target="#fers">fers*</ref> ?</l>
             <l n="409" xml:id="l409">Les siens plus que les miens me causent de martyre<note place="bottom">En français classique, les articles <hi rend="i">du, de la, des</hi> sont en concurrence avec le marqueur partitif <hi rend="i">de</hi>. </note> ;</l>
             <l n="410" xml:id="l410">J’ay deux <ref target="#mal2">maux*</ref> à guerir, on me laisse le pire.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II03-7" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="411" xml:id="l411">Le Roy n’est-il cruel que pour moy seulement ?</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="II03-8" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="412" xml:id="l412">J’ay contre sa rigueur combatu vainement.<pb n="27" xml:id="p27"/></l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II03-9" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="413" xml:id="l413">Vous aviez quelque chose à <ref target="#surmonter2">surmonter*</ref> encore</l>
             <l n="414" xml:id="l414" part="I">De plus que sa rigueur.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="II03-10" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l part="F">Qu’est-ce donc ? je l’ignore.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II03-11" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="415" xml:id="l415">C’est mon malheur, Madame, il est grand, il est tel ;</l>
             <l n="416" xml:id="l416">Que le vaincre n’est pas l’ouvrage d’un mortel.</l>
@@ -1764,7 +1764,7 @@
             <l n="423" xml:id="l423">Ha ! sauvez-moy, Madame, et me<note place="bottom">Le pronom personnel de forme atone (<hi rend="i">me</hi>) est en concurrence au XVII<hi rend="sup">e</hi> siècle avec le pronom personnel de forme tonique (<hi rend="i">moi</hi>). Palsgrave, au XVI<hi rend="sup">e</hi> siècle, réclame la forme atone avant le verbe, mais après le verbe, il exige la forme tonique (<hi rend="i">cf</hi>. Haase, éd. cit., p. 1 <hi rend="i">sq</hi>). </note> faites cacher</l>
             <l n="424" xml:id="l424">Dans le sein tenebreux de quelque affreux rocher.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="II03-12" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="425" xml:id="l425">Est-il contre les Roys des cavernes si sombres,</l>
             <l n="426" xml:id="l426">Qu’un seul de leurs regards n’en penetre les ombres ?</l>
@@ -1775,14 +1775,14 @@
             <l n="431" xml:id="l431">Je ne puis à leurs soins vous cacher un moment,</l>
             <l n="432" xml:id="l432">Ny retarder l’effet de vostre <ref target="#partement">partement*</ref>.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="II03-13" who="haly">
             <speaker>HALY.</speaker>
             <l n="433" xml:id="l433">Il n’est plus desormais d’obstacle qui l’empesche,</l>
             <l n="434" xml:id="l434">A l’heure que<note place="bottom">L’adverbe <hi rend="i">que</hi> était, en ancien et en moyen français, beaucoup plus répandu qu’il ne l’a été plus tard. Il remplaçait le pronom relatif construit avec une préposition. Le français moderne, se servant plutôt de <hi rend="i">où</hi>, emploie beaucoup moins ce pronom adverbial (<hi rend="i">cf</hi>. Haase, éd. cit., p. 71).  </note> je parle on écrit la <ref target="#depeche">despesche*</ref>,</l>
             <l n="435" xml:id="l435">Et des plus belles fleurs on s’en va couronner</l>
             <l n="436" xml:id="l436">La <ref target="#superbe2">superbe*</ref> Galere où l’on doit la mener.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II03-14" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="437" xml:id="l437">Ha ! qu’elle soit plustost de Cyprés couronnée,</l>
             <l n="438" xml:id="l438">Cette <ref target="#infame">infame*</ref> Galere à ma mort <ref target="#destinee">destinée*</ref> ;</l>
@@ -1793,11 +1793,11 @@
             <l n="443" xml:id="l443">Et tombant sur un roc qui la brise en morceaux,</l>
             <l n="444" xml:id="l444">Puisse-t’elle avec moy s’abysmer dans les eaux.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="II03-15" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="445" xml:id="l445">Le <ref target="#ciel2">Ciel*</ref> n’exauce point une injuste requeste.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II03-16" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="446" xml:id="l446">Le <ref target="#ciel2">Ciel*</ref> m’a conservée au fort de la tempeste ;<pb n="29" xml:id="p29"/></l>
             <l n="447" xml:id="l447">Mais ne devois-je pas m’élancer dans les flots,</l>
@@ -1807,68 +1807,68 @@
             <l n="451" xml:id="l451">Et monstré qu’un grand cœur ayant bien combatu,</l>
             <l n="452" xml:id="l452">Fait <ref target="#gloire">gloire*</ref> d’<ref target="#immoler">immoler*</ref> sa vie à sa <ref target="#vertu1">vertu*</ref>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II03-17" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="453" xml:id="l453">O <ref target="#ciel2">Ciel*</ref> ! si tu n’es sourd<note place="bottom">Vaugelas, dans ses <hi rend="i">Remarques sur la langue françoise</hi> (1647), condamne l’absence des adverbes de négation <hi rend="i">pas</hi> et <hi rend="i">point</hi> « Ces particules oubliées aux endroits où il les faut mettre, ou mises là où elles ne doivent pas estre, rendent une phrase fort vicieuse, par exemple si l’on dit <hi rend="i">pour ne vous ennuyer, je ne seray pas long</hi>, comme parlent et écrivent presque tous ceux de delà la Loire, c’est tres-mal parler, il faut dire <hi rend="i">pour ne vous point ennuyer.</hi> » (éd. cit., p. 405). </note> à de justes demandes,</l>
             <l n="454" xml:id="l454">Rends nos <ref target="#mal2">maux*</ref> plus petits, ou nos forces plus grandes.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="II03-18" who="haly">
             <speaker>HALY.</speaker>
             <l n="455" xml:id="l455">Tandis que vous pleurez, le temps passe, il est tard,</l>
             <l n="456" xml:id="l456">Et je dois <ref target="#travailler1">travailler*</ref> aux <ref target="#appret">apprests*</ref> du depart.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II03-19" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="457" xml:id="l457">Hé ! du moins permettez qu’en ce malheur extresme,</l>
             <l n="458" xml:id="l458">Je prenne congé d’elle, ou plustost de moy-mesme.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="II03-20" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="459" xml:id="l459">Nous vous en laisserons le <ref target="#funeste">funeste*</ref> loisir,</l>
             <l n="460" xml:id="l460">Et donnerons des pleurs à vostre déplaisir.</l>
             <l n="461" xml:id="l461">Haly, retirez-vous, sans les perdre de veüe.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II04">
           <head>SCENE QUATRIEME.</head>
           <stage>ALPHONSE, CLARICE, FERNAND.<hi rend="b"/><pb n="30" xml:id="p30"/></stage>
-          <sp who="alphonse">
+          <sp xml:id="II04-1" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="462" xml:id="l462" part="I">Ha ! malheureux depart.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II04-2" who="clarice">
             <speaker>CLARICE.</speaker>
             <l part="F">S’il vous blesse, il me tuë,</l>
             <l n="463" xml:id="l463">Au prix de mon <ref target="#destin">destin*</ref> le vostre est-il<note place="bottom">Le sens négatif des adverbes <hi rend="i">pas</hi> ou <hi rend="i">point</hi> s’accentue peu à peu, si bien qu’ils finirent par exprimer à eux seuls la négation. L’omission de l’adverbe <hi rend="i">ne</hi> est ainsi courante dans l’interrogation directe (<hi rend="i">cf</hi>. Haase, éd. cit., p. 252-253). </note> pas doux ?</l>
             <l n="464" xml:id="l464" part="I">Vous ne perdez que moy.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II04-3" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Qu’ay-je à perdre que vous ?</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II04-4" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="465" xml:id="l465">Je vous perds, et de plus, ô perte sans seconde !</l>
             <l n="466" xml:id="l466">Je perds ce qui vaut mieux que moy, que tout le monde,</l>
             <l n="467" xml:id="l467" part="I">Enfin je perds l’<ref target="#honneur3">honneur*</ref>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II04-5" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Moy l’esprit et les <ref target="#sens1">sens*</ref> ;</l>
             <l n="468" xml:id="l468">Mais qui resisteroit aux douleurs que je sens ?<pb n="31" xml:id="p31"/></l>
             <l n="469" xml:id="l469">Quoy, perdre de la sorte une sœur adorable ?</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II04-6" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="470" xml:id="l470">Ha ! nommez-la plustost <ref target="#infame">infame*</ref> et <ref target="#miserable">miserable*</ref>,</l>
             <l n="471" xml:id="l471">Et dans l’estat qu’elle est, au lieu de la loüer,</l>
             <l n="472" xml:id="l472">Commencez déjà mesme à la <ref target="#desavouer">desavoüer*</ref>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II04-7" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="473" xml:id="l473">Moy, je <ref target="#desavouer">desavoürois*</ref> un <ref target="#objet2">Objet*</ref> que j’<ref target="#adorer">adore*</ref> ?</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II04-8" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="474" xml:id="l474">Ha ! ne descouvrez point un secret qu’on ignore,</l>
             <l n="475" xml:id="l475">Dieu ! que diroit le Roy, s’il sçavoit qui je suis ?</l>
@@ -1877,14 +1877,14 @@
             <l n="478" xml:id="l478">Cachons-luy ma naissance, évitons sa colère,</l>
             <l n="479" xml:id="l479" part="I">Parlons bas.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II04-9" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">A quoy plus déguiser nostre cœur,</l>
             <l n="480" xml:id="l480">Sous ces noms empruntez et de frere et de sœur ?</l>
             <l n="481" xml:id="l481">Agissons franchement, il n’est plus temps de feindre,</l>
             <l n="482" xml:id="l482">Nous n’espérons plus rien, qu’avons-nous plus à craindre ?</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II04-10" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="483" xml:id="l483">Rien, si ce n’est de vivre, et de ne pouvoir pas<pb n="32" xml:id="p32"/></l>
             <l n="484" xml:id="l484">Rachepter mon <ref target="#honneur3">honneur*</ref> au prix de mon trespas.</l>
@@ -1893,7 +1893,7 @@
             <l n="487" xml:id="l487">C’est à vos déplaisirs quelque soulagement,</l>
             <l n="488" xml:id="l488">Que je ne vous sois sœur que de nom seulement<note place="bottom">Comprendre : « c’est un soulagement pour vous que l’on ne soit considéré que comme frère et sœur ». </note>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II04-11" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="489" xml:id="l489">La fussiez-vous d’effet, <ref target="#merveille2">Merveille*</ref> de nostre âge,</l>
             <l n="490" xml:id="l490">Vous ne m’estes pas tant, et m’estes davantage :</l>
@@ -1904,7 +1904,7 @@
             <l n="495" xml:id="l495">Celle d’une <ref target="#maitresse">Maistresse*</ref> accable de <ref target="#souci">soucy*</ref>,</l>
             <l n="496" xml:id="l496">Et comme on vit pour elle, on meurt pour elle aussi.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II04-12" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="497" xml:id="l497">Non, non, ne mourez point, rien ne vous y convie :</l>
             <l n="498" xml:id="l498">Mais en vous exhortant de<note place="bottom">Les constructions <hi rend="i">à + infinitif</hi> (<hi rend="i">exhorter à</hi>) et <hi rend="i">de + infinitif</hi> (<hi rend="i">exhorter de</hi>) coexistent toutes deux tout au long du siècle sans régression sensible de l’une ou de l’autre (<hi rend="i">cf</hi>. Fournier, éd. cit., p. 70-71).</note> garder vostre vie,</l>
@@ -1913,7 +1913,7 @@
             <l n="501" xml:id="l501">Est-il quelque malheur que le mien ne <ref target="#surmonter1">surmonte*</ref>,</l>
             <l n="502" xml:id="l502">Puis qu’il faut que je meure, ou vive avecque <ref target="#honte2">honte*</ref><note place="bottom">L’absence de répétition du sujet clitique <hi rend="i">je</hi> a pour effet de coordonner les prédicats et de créer un lien sémantique étroit entre eux. Réticents envers l’ellipse qui s’accuse au cours du siècle, les grammairiens réclament l’expression du sujet devant un verbe coordonné. Selon Vaugelas, <hi rend="i">et</hi> autorise l’ellipse du sujet, à la différence de <hi rend="i">mais</hi> et <hi rend="i">ou</hi> (<hi rend="i">cf</hi>. Fournier, éd. cit., p. 29).</note> ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II04-13" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <stage>Haly parest.</stage>
             <l n="503" xml:id="l503">Ha ! plustost… mais Haly vient-il pas m’emporter<pb n="E33"/></l>
@@ -1927,7 +1927,7 @@
             <l n="510" xml:id="l510">Jusqu’à voir nos malheurs, sans en estre adoucie ?</l>
             <l n="511" xml:id="l511">Hélas ! que dois-je faire en si grand desespoir ?</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II04-14" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="512" xml:id="l512">Il faut vivre, m’aimer, et cesser de me voir :</l>
             <l n="513" xml:id="l513">Mais j’espere<note place="bottom">Clarice a l’espoir que ses ennuis l’enlaidissent en se peignant sur son visage. </note> aux <ref target="#ennui">ennuis*</ref> dont je suis affligée,</l>
@@ -1939,38 +1939,38 @@
             <l n="519" xml:id="l519">Me verra sans désir, et mesme avec dédain,</l>
             <l n="520" xml:id="l520">Et touché de mes pleurs m’éloignera soudain.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II04-15" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="521" xml:id="l521">Dieu ! que malgré vos pleurs il vous treuvera belle,</l>
             <l n="522" xml:id="l522">Il bruslera d’abord d’une <ref target="#ardeur">ardeur*</ref> criminelle,</l>
             <l n="523" xml:id="l523">Et s’il veut vous contraindre à le favoriser,<pb n="34" xml:id="p34"/></l>
             <l n="524" xml:id="l524">A ce torrent de <ref target="#feu3">feu*</ref> quelle digue opposer ?</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II04-16" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="525" xml:id="l525" part="I">La Mort.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II04-17" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Ha, d’un grand cœur grande et chaste pensée !</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II04-18" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="526" xml:id="l526">Celle qui sçait mourir ne peut estre forcée.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II04-19" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="527" xml:id="l527">Ha ! vous ne mourrez point, non, je vous tireray</l>
             <l n="528" xml:id="l528">D’un si grand precipice, ou bien j’y periray :</l>
             <l n="529" xml:id="l529">Ouy, l’espée à la main j’iray sans nulle crainte,</l>
             <l n="530" xml:id="l530">Percer vos Conducteurs d’une mortelle <ref target="#atteinte1">atteinte*</ref>.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II04-20" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="531" xml:id="l531">Les pourrez-vous <ref target="#choquer">choquer*</ref> sans en estre abattu ?</l>
             <l n="532" xml:id="l532">Le nombre aura bien tost accablé la <ref target="#vertu2">vertu*</ref>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II04-21" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="533" xml:id="l533">Combatant devant vous, vostre seule presence</l>
             <l n="534" xml:id="l534">Me sera-t’elle pas un renfort de puissance ?</l>
@@ -1978,54 +1978,54 @@
             <l n="536" xml:id="l536">Dont vous m’animerez au milieu des <ref target="#hasard2">hazards*</ref> ?<pb n="35" xml:id="p35"/></l>
             <l n="537" xml:id="l537">Ha ! je vous sauveray d’un si honteux naufrage.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II04-22" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="538" xml:id="l538">Hé comment ? sans la force à quoy sert le <ref target="#courage">courage*</ref> ?</l>
             <l n="539" xml:id="l539" part="I">Mais Haly s’en revient.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II05">
           <head>SCENE CINQUIEME.</head>
           <stage>ALPHONSE, CLARICE, HALY, FERNAND.</stage>
-          <sp who="alphonse">
+          <sp xml:id="II05-1" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Quoy, déja nous quitter ?</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="II05-2" who="haly">
             <speaker>HALY.</speaker>
             <l n="540" xml:id="l540">Diferer son malheur, ce n’est pas l’éviter :</l>
             <l n="541" xml:id="l541">Il faut partir Madame, et votre plainte est vaine ;</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II05-3" who="clarice">
             <speaker>CLARICE. </speaker>
             <l n="542" xml:id="l542">Adieu mon frere, adieu, pour jamais on m’emmeine ;</l>
             <l n="543" xml:id="l543">On m’arrache de vous sans aucune pitié.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II05-4" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="544" xml:id="l544">On retranche de moy la plus belle moitié.<pb n="36" xml:id="p36"/></l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II05-5" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="545" xml:id="l545" part="I">Il faut que je vous laisse.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II05-6" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Il faut donc que je meure.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II05-7" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="546" xml:id="l546" part="I">Voicy mon dernier jour.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II05-8" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Voicy ma derniere heure.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II05-9" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="547" xml:id="l547" part="I">Au moins pensez à moy.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II05-10" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Peut-on vous oublier ?</l>
             <l n="548" xml:id="l548">Peut-on rompre les nœux qui nous ont sceu lier ?</l>
@@ -2033,17 +2033,17 @@
             <l n="550" xml:id="l550">L’ombre d’avec le corps, et l’esprit d’avec l’<ref target="#ame1">ame*</ref>,</l>
             <l n="551" xml:id="l551">Que vouloir separer ma sœur d’avecque moy.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="II05-11" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="552" xml:id="l552">Prodige d’<ref target="#amitie">amitié*</ref>, seul comparable à soy<note place="bottom">« Seul comparable à soy » ou « seul semblable à soy » : l’expression, empruntée à la littérature latine, se répand fortement à partir du XVI<hi rend="sup">e</hi> siècle. <hi rend="i">Cf</hi>. Malherbe, <hi rend="i">Pour Alcandre</hi> : « Je sers, je le confesse, une jeune merveille / En rares qualités à nulle autre pareille, / Seule semblable à soy […] ». Au XVII<hi rend="sup">e</hi> siècle, l’expression fut si souvent employée que Bussy-Rabutin la parodia : « Mme de Sévigné a […] le nez seul semblable à soi » (cité par René Fromilhague et Raymond Lebègue, <hi rend="i">Œuvres poétiques de Malherbe</hi>, Paris, Les Belles Lettres, t. II, p. 61). </note> !<pb n="37" xml:id="p37"/></l>
             <l n="553" xml:id="l553">Encore un coup adieu, je ne puis plus rien dire :</l>
             <l n="554" xml:id="l554">Mais pourrois-je parler, à l’heure que j’expire ?</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="II06">
           <head>SCENE SIXIEME.</head>
           <stage>ALPHONSE, FERNAND.</stage>
-          <sp who="alphonse">
+          <sp xml:id="II06-1" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="555" xml:id="l555">Qu’un <ref target="#barbare">Barbare*</ref>, un Tyran tienne esclave un <ref target="#objet2">objet*</ref></l>
             <l n="556" xml:id="l556">Dont tout le Monde entier devroit estre sujet !</l>
@@ -2066,7 +2066,7 @@
             <l n="573" xml:id="l573">Et pressons de si prés tous ceux qui la conduisent,</l>
             <l n="574" xml:id="l574">Qu’à nous l’abandonner nos armes les réduisent.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="II06-2" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="575" xml:id="l575">Mais quand bien aujourdhuy vos <ref target="#effort">efforts*</ref> plus qu’humains</l>
             <l n="576" xml:id="l576">Auront sceu la tirer de leurs <ref target="#barbare">barbares*</ref> mains,</l>
@@ -2075,12 +2075,12 @@
             <l n="579" xml:id="l579">Vous vous perdrez vous-mesmes, et perdrez vos amis,</l>
             <l n="580" xml:id="l580">Tel acte impunement ne s’est jamais commis.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II06-3" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="581" xml:id="l581">Tu me <ref target="#refuser">refuses*</ref> donc ? ha ! c’est un témoignage</l>
             <l n="582" xml:id="l582">De peu d’<ref target="#affection">affection*</ref>, ou de peu de <ref target="#courage">courage*</ref>.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="II06-4" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="583" xml:id="l583">Allez où vous voudrez, et deussay-je y perir,</l>
             <l n="584" xml:id="l584">Les armes à la main on m’y verra courir.</l>
@@ -2097,17 +2097,17 @@
             <l n="595" xml:id="l595">Et par l’espoir du gain foulant aux pieds leur <ref target="#foi2">foy*</ref>,</l>
             <l n="596" xml:id="l596">Ils iront découvrir vostre <ref target="#entreprise2">entreprise*</ref> au Roy.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II06-5" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="597" xml:id="l597">Que feray-je ? il faut donc… mais quelle barbarie !</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="II06-6" who="fernand">
             <speaker>FERNAND<note place="bottom">À part. </note>.</speaker>
             <l n="598" xml:id="l598">Comme en se promenant il entre en <ref target="#reverie">resverie*</ref> !</l>
             <l n="599" xml:id="l599">Et cherche en son esprit quelque <ref target="#effort">effort*</ref> <ref target="#genereux">genereux*</ref>,</l>
             <l n="600" xml:id="l600">Pour retirer sa sœur d’un pas si dangereux.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II06-7" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="601" xml:id="l601">Enfin, cher Confident, le <ref target="#ciel2">Ciel*</ref> mesme m’inspire</l>
             <l n="602" xml:id="l602">Un moyen d’arriver au bonheur où j’aspire,</l>
@@ -2120,11 +2120,11 @@
             <l n="609" xml:id="l609">Et si ton bras alors vaillamment me seconde,</l>
             <l n="610" xml:id="l610">J’espere de sauver tout ce que j’aime au monde.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="II06-8" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="611" xml:id="l611" part="I">Hé comment ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II06-9" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Les <ref target="#forcat">Forçats*</ref> de ce vaisseau fatal,</l>
             <l n="612" xml:id="l612">Où se doit embarquer tout mon bien et mon <ref target="#mal2">mal*</ref>,</l>
@@ -2143,32 +2143,32 @@
             <l n="625" xml:id="l625">Mais n’est-ce pas ainsi qu’il faut que j’y procede ?</l>
             <l n="626" xml:id="l626">Il ne reste à mes <ref target="#mal2">maux*</ref> que ce sanglant remede.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="II06-10" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="627" xml:id="l627" part="I">Mais…<pb n="F41"/></l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II06-11" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="M">Ha ! ne me dis rien.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="II06-12" who="fernand">
             <speaker>FERNAND.</speaker>
             <l part="F">Nous y demeurerons,</l>
             <l n="628" xml:id="l628" part="I">Il y faudra mourir.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="II06-13" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Hé bien, nous y mourrons.</l>
             <p rend="center">FIN DU SECOND ACTE.</p>
           </sp>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="III" type="act">
         <head>ACTE TROISIEME.</head>
-        <div type="scene">
+        <div type="scene" xml:id="III01">
           <head>SCENE PREMIERE.</head>
           <stage>LE ROY, LA REYNE.<pb n="42" xml:id="p42"/></stage>
-          <sp who="la-reyne">
+          <sp xml:id="III01-1" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="629" xml:id="l629">Ouy, se disant adieu tous deux versoient des larmes,</l>
             <l n="630" xml:id="l630">Qui de la rigueur mesme arracheroient les armes :</l>
@@ -2179,18 +2179,18 @@
             <l n="635" xml:id="l635">Ny dans vostre pitié sceu rencontrer de quoy</l>
             <l n="636" xml:id="l636">M’acquitter dignement de ce que je leur doy.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="III01-2" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="637" xml:id="l637" part="I">Hé ! que leur devez-vous ?</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="III01-3" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l part="F">Leur dois-je pas mon frère ?</l>
             <l n="638" xml:id="l638">Alphonse pouvait perdre une teste si chere ;<pb n="43" xml:id="p43"/></l>
             <l n="639" xml:id="l639">Et l’ayant en ses mains, il n’a tenu qu’à luy</l>
             <l n="640" xml:id="l640">De me donner sujet d’un eternel <ref target="#ennui">ennuy*</ref>.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="III01-4" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="641" xml:id="l641">Je scay qu’à la première et sanglante sortie,</l>
             <l n="642" xml:id="l642">Qu’il fit hors des rempars de sa ville investie,</l>
@@ -2214,10 +2214,10 @@
             <l n="660" xml:id="l660">Se verra-t’il jamais esprit plus affligé ?</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III02">
           <head>SCENE DEUXIEME.</head>
           <stage>LE ROY, LA REYNE, ALPHONSE, FERNAND.<pb n="44" xml:id="p44"/></stage>
-          <sp who="alphonse">
+          <sp xml:id="III02-1" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="661" xml:id="l661">Grand Roy, puisque mes vœux, mes soûpirs, et mes larmes</l>
             <l n="662" xml:id="l662">Pour obtenir ma Sœur sont de trop foibles armes,</l>
@@ -2228,7 +2228,7 @@
             <l n="667" xml:id="l667">Afin de la remettre, et de la consoler,</l>
             <l n="668" xml:id="l668">D’un malheur, dont ses pleurs ne cessent de parler.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="III02-2" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="669" xml:id="l669">A quoy vous serviroit de partir avec Elle,</l>
             <l n="670" xml:id="l670">Qu’à rendre sa douleur encore plus cruelle ?</l>
@@ -2239,18 +2239,18 @@
             <l n="675" xml:id="l675">Je vous ayme, et des fruicts de mon <ref target="#affection">affection*</ref></l>
             <l n="676" xml:id="l676">Vous ferez un remede à vostre <ref target="#affliction">affliction*</ref>.<pb n="45" xml:id="p45"/></l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III02-3" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="677" xml:id="l677">Rendez-vous le vainqueur de la terre et de l’onde,</l>
             <l n="678" xml:id="l678">Et me donnez, grand Roy, tous les tresors du monde ;</l>
             <l n="679" xml:id="l679">Avec tout ce qu’il a de <ref target="#gloire">gloire*</ref> et de douceur,</l>
             <l n="680" xml:id="l680">Vous ne me donnez rien, si vous m’ostez ma Sœur.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="III02-4" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="681" xml:id="l681">Contez-vous donc pour rien le don de la <ref target="#franchise2">franchise*</ref> ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III02-5" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="682" xml:id="l682">Pour elle quelques-fois les Sceptres on <ref target="#mepriser">mesprise*</ref>,</l>
             <l n="683" xml:id="l683">Et telle est sa valeur<note place="bottom">La postposition du sujet nominal (<hi rend="i">valeur</hi>) dans une phrase à attribut initial est encore usuelle au XVI<hi rend="sup">e</hi> siècle. Ce schéma syntaxique, condamné par Malherbe dans son <hi rend="i">Commentaire sur Desportes</hi>, devient assez rare dès le premier quart du XVII<hi rend="sup">e</hi> siècle : on le trouve surtout avec <hi rend="i">tel</hi> anaphorique. <hi rend="i">Telle</hi> est dans notre occurrence anaphorique de <hi rend="i">Sœur</hi> (<hi rend="i">cf</hi>. Fournier, éd. cit., p. 35).</note> que les plus grands esprits</l>
@@ -2272,7 +2272,7 @@
             <l n="699" xml:id="l699">Et cét heureux malheur fait qu’un pied sur le bord,</l>
             <l n="700" xml:id="l700">Et l’autre dans la mer, je finiray mon <ref target="#sort3">sort*</ref>.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="III02-6" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="701" xml:id="l701">A quelques sentimens que la Nature oblige,</l>
             <l n="702" xml:id="l702">Se peut-il qu’une sœur jusques là vous afflige ?</l>
@@ -2282,7 +2282,7 @@
             <l n="706" xml:id="l706">Pour les divins <ref target="#appat">appas*</ref> d’une jeune <ref target="#maitresse">Maistresse*</ref>,</l>
             <l n="707" xml:id="l707">Que l’ardente <ref target="#amitie">amitié*</ref> qu’Alphonse a pour sa sœur.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III02-7" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="708" xml:id="l708">Hé ! bien, Sire, il est vray, je vous ouvre mon cœur,</l>
             <l n="709" xml:id="l709">Ma <ref target="#maitresse">Maistresse*</ref> est Clarice, et Clarice est trop belle,</l>
@@ -2316,7 +2316,7 @@
             <l n="737" xml:id="l737">Vangez-vous, vangez-vous du Pere sur la fille,</l>
             <l n="738" xml:id="l738">Et par elle achevez de perdre la Famille.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="III02-8" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="739" xml:id="l739">Il est vray que ce Prince a porté sans raison,</l>
             <l n="740" xml:id="l740">Une mortelle hayne à toute ma maison ;</l>
@@ -2329,7 +2329,7 @@
             <l n="747" xml:id="l747">Mais me laissant tromper aux clartez d’un faux jour,</l>
             <l n="748" xml:id="l748">Comment pour l’<ref target="#amitie">amitié*</ref> prenois-je ainsi l’amour ?</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="III02-9" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="749" xml:id="l749">Ha ! Seigneur, à ce coup est-il quelque justice</l>
             <l n="750" xml:id="l750">Qui puisse separer Alphonse de Clarice ?</l>
@@ -2340,7 +2340,7 @@
             <l n="755" xml:id="l755">Mais le tonnerre encor<note place="bottom"><hi rend="i">Encor</hi> aurait pu être graphié ici <hi rend="i">encore</hi>, tout comme au vers 778, car [e] final s’élide devant voyelle (<hi rend="i">cf</hi>. note du vers 996). </note> est doux pour les rigueurs,</l>
             <l n="756" xml:id="l756">Qui separent deux corps dont l’amour joint les cœurs.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="III02-10" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="757" xml:id="l757">Je n’en mentiray point, je plains leur advanture<note place="bottom">Ici commence l’évolution de l’attitude du roi, différente de la sévérité et de l’intransigeance qu’il manifestait dans les premières scènes à l’égard de Clarice. </note>,</l>
             <l n="758" xml:id="l758">Et j’offense à regret une <ref target="#flamme2">flame*</ref> si pure ;</l>
@@ -2351,7 +2351,7 @@
             <l n="763" xml:id="l763">Cette Beauté parfaite et de corps et d’esprit,</l>
             <l n="764" xml:id="l764">Quand je m’y suis moy-mesme engagé par escrit ?</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="III02-11" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="765" xml:id="l765">Mais avez-vous enclos son portrait dans la lettre ?<pb n="G49"/></l>
             <l n="766" xml:id="l766">En liberté, Seigneur, vous pouvez la remettre.</l>
@@ -2370,20 +2370,20 @@
             <l n="779" xml:id="l779">Vous luy faites present de toutes à la fois,</l>
             <l n="780" xml:id="l780">Ayant eu quelque peur de vous tromper au choix.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="III02-12" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="781" xml:id="l781" part="I">Mais…</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="III02-13" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l part="F">Quoy, sur ce sujet vostre esprit delibere ?</l>
             <l n="782" xml:id="l782">Luy donnerez-vous pas beaucoup plus qu’il n’espere ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III02-14" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="783" xml:id="l783">Grand Roy, suivez l’advis d’une Divinité.<pb n="50" xml:id="p50"/></l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="III02-15" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="784" xml:id="l784">Ha ! je voy bien qu’Alphonse émeut vostre bonté ;</l>
             <l n="785" xml:id="l785">Vos yeux sont à parler plus prompts que vostre bouche,</l>
@@ -2405,19 +2405,19 @@
             <l n="801" xml:id="l801">Alphonse l’a comblé de faveurs sans mesure ;</l>
             <l n="802" xml:id="l802">Vous les pouvez pourtant payer avec usure<note place="bottom">« Payer avec usure » : rendre un service qui vaut bien plus que celui qu’on a reçu. Lorsque la reconnaissance excède le bienfait, on paye avec usure.</note>.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="III02-16" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="803" xml:id="l803">Vous me rendez confus, vos <ref target="#charme2">charmes*</ref>, vos raisons<pb n="51" xml:id="p51"/></l>
             <l n="804" xml:id="l804">Peuvent servir de clefs à toutes les prisons ;</l>
             <l n="805" xml:id="l805">Vous le voulez, Madame, hé bien, je la delivre.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III02-17" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="806" xml:id="l806">Elle est morte, autant vaut, vous la ferez revivre ;</l>
             <l n="807" xml:id="l807">Mais je cours, ou plustost je vole l’avertir</l>
             <l n="808" xml:id="l808">Que d’un si grand peril vous l’avez fait<note place="bottom">Si les règles d’accord du participe passé étaient définies depuis le XVI<hi rend="sup">e</hi> siècle, elles souffrirent de très nombreuses exceptions jusqu’à la fin du XVII<hi rend="sup">e</hi> siècle (exceptions multipliées par le fait que les différents grammairiens ne s’accordaient pas entre eux).  </note> sortir.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="III02-18" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="809" xml:id="l809">Je crains dans le bon-heur que le <ref target="#ciel2">Ciel*</ref> vous envoye,</l>
             <l n="810" xml:id="l810">Qu’en la voyant trop tost vous ne mouriez de joye ;</l>
@@ -2427,7 +2427,7 @@
             <l n="814" xml:id="l814">Et cependant au Roy vous pourrez rendre <ref target="#grace">grace*</ref>.</l>
             <stage>Le Reine sort.</stage>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III02-19" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="815" xml:id="l815">Déja de tant de <ref target="#bien">biens*</ref> vous m’avez sceu combler,</l>
             <l n="816" xml:id="l816">Que ce dernier tout seul suffit pour m’accabler ;</l>
@@ -2456,7 +2456,7 @@
             <l n="839" xml:id="l839">Certes, quoy que je face, il est visible à tous,</l>
             <l n="840" xml:id="l840">Que rien ne peut jamais m’acquitter envers vous.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="III02-20" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="841" xml:id="l841">Alphonse en me loüant m’apprend bien que la <ref target="#gloire">gloire*</ref></l>
             <l n="842" xml:id="l842">Est le fruit le plus doux qu’apporte la Victoire ;</l>
@@ -2486,7 +2486,7 @@
             <l n="866" xml:id="l866">Elle est l’unique <ref target="#bien">bien*</ref> qu’au monde je souhaitte ;</l>
             <l n="867" xml:id="l867">Mais qui vous jette, Alphonse, au <ref target="#trouble">trouble*</ref> où je vous voy ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III02-21" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="868" xml:id="l868">Je frissonne de crainte, et je ne sçay pourquoy ;</l>
             <l n="869" xml:id="l869">Mais que le juste <ref target="#ciel2">Ciel*</ref> rende vain le presage,<pb n="54" xml:id="p54"/></l>
@@ -2495,21 +2495,21 @@
             <l n="872" xml:id="l872">Qu’a-t’il fait de Clarice ? il ne l’ameine pas.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III03">
           <head>SCENE TROISIEME.</head>
           <stage>LE ROY, ALPHONSE, HALY, FERNAND.</stage>
-          <sp who="haly">
+          <sp xml:id="III03-1" who="haly">
             <speaker>HALY.</speaker>
             <l n="873" xml:id="l873">Sire, je suis coupable, et j’apporte ma teste ;</l>
             <l n="874" xml:id="l874">Au supplice mortel la voicy toute preste.</l>
             <l n="875" xml:id="l875">Clarice estoit un <ref target="#bien">bien*</ref> qu’il falloit conserver ;</l>
             <l n="876" xml:id="l876">Mais pouvais-je prevoir ce qui vient d’arriver ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III03-2" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="877" xml:id="l877" part="I">Dieu ! je tremble d’<ref target="#effroi">effroy*</ref>.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="III03-3" who="haly">
             <speaker>HALY.</speaker>
             <l part="F"><ref target="#furieux2">Furieuse*</ref>, insensée,</l>
             <l n="878" xml:id="l878">D’une haute fenestre elle s’est eslancée</l>
@@ -2518,11 +2518,11 @@
             <l n="881" xml:id="l881">Et ce mot de sa main vous rendra manifeste</l>
             <l n="882" xml:id="l882">La cause d’une mort si prompte et si <ref target="#funeste">funeste*</ref>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III03-4" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="883" xml:id="l883" part="I">Helas !</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="III03-5" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l part="F">Vostre malheur ne peut estre assez plaint ;</l>
             <l n="884" xml:id="l884">Mais lisons ce billet, où son <ref target="#sort3">sort*</ref> est dépeint,</l>
@@ -2535,13 +2535,13 @@
             <l n="891" xml:id="l891">Je tiens la perte de la vie</l>
             <l n="892" xml:id="l892">Moindre que celle de l’<ref target="#honneur3">honneur*</ref>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III03-6" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="893" xml:id="l893">Ha ! je m’en doutois bien qu’elle auroit le <ref target="#courage">courage*</ref></l>
             <l n="894" xml:id="l894">D’éviter par la mort un <ref target="#infame">infame*</ref> servage ;</l>
             <l n="895" xml:id="l895">Voila son escriture, il n’en faut plus douter.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="III03-7" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="896" xml:id="l896">Dans un <ref target="#trouble">trouble*</ref> si grand deviez-vous la quitter ?<pb n="56" xml:id="p56"/></l>
             <l n="897" xml:id="l897">Vous l’aviez en vos mains, treuvez-la morte ou vive,</l>
@@ -2550,10 +2550,10 @@
             <l n="900" xml:id="l900">Et dans ce triste estat je ne sçaurois le voir.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="III04">
           <head>SCENE QUATRIEME.</head>
           <stage>ALPHONSE, FERNAND.</stage>
-          <sp who="alphonse">
+          <sp xml:id="III04-1" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="901" xml:id="l901">Elle a donc de ses jours terminé la <ref target="#carriere">carriere*</ref>,</l>
             <l n="902" xml:id="l902">Et les flots ont esteint mon unique lumiere :</l>
@@ -2564,33 +2564,33 @@
             <l n="907" xml:id="l907">Et rendons luy ce corps qu’elle nous a donné,</l>
             <l n="908" xml:id="l908">Ce corps qui porte un cœur à tous <ref target="#mal2">maux*</ref> destiné.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="III04-2" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="909" xml:id="l909" part="I">Armez-vous de <ref target="#constance">constance*</ref>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III04-3" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Ha ! conseil qui me tuë,</l>
             <l n="910" xml:id="l910">A quoy sert de s’armer, quand la playe est receuë ?<pb n="H57"/></l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="III04-4" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="911" xml:id="l911">Quiconque est animé d’une haute <ref target="#vertu1">vertu*</ref>,</l>
             <l n="912" xml:id="l912">Se releve aussi-tost qu’il se treuve abbatu ;</l>
             <l n="913" xml:id="l913">Fait force à la Nature, et d’un <ref target="#courage">courage*</ref> extréme,</l>
             <l n="914" xml:id="l914">Sçait vaincre son vainqueur, s’estant vaincu soy-méme.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III04-5" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="915" xml:id="l915">Aussi me veux-je vaincre, en me faisant mourir.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="III04-6" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="916" xml:id="l916">Quoy, pour aller au port au naufrage courir ?</l>
             <l n="917" xml:id="l917">Pleurer, si ce remede à vos <ref target="#mal2">maux*</ref> est utile,</l>
             <l n="918" xml:id="l918">Mais espargnez des jours si chers à la Sicile.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III04-7" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="919" xml:id="l919">Crois-tu donc que je sois de ces lasches <ref target="#amant">Amans*</ref>,</l>
             <l n="920" xml:id="l920">Qui font ouyr par tout de vains gemissemens ;</l>
@@ -2601,7 +2601,7 @@
             <l n="925" xml:id="l925">J’iray la retreuver, moy qui suis de ce nombre,<pb n="58" xml:id="p58"/></l>
             <l n="926" xml:id="l926">Et joindray pour jamais mon ombre avec son ombre.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="III04-8" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="927" xml:id="l927">Faire contre vous-mesme un <ref target="#effort">effort*</ref> inhumain !</l>
             <l n="928" xml:id="l928">Mourez, s’il faut mourir, mais non de vostre main ;</l>
@@ -2610,7 +2610,7 @@
             <l n="931" xml:id="l931">Mourez sur une <ref target="#breche">bréche*</ref>, et qu’un coup de canon</l>
             <l n="932" xml:id="l932">Face voler au <ref target="#ciel1">Ciel*</ref> vostre <ref target="#ame2">ame*</ref>, et vostre nom.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III04-9" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="933" xml:id="l933">Pleust au <ref target="#ciel2">Ciel*</ref> que mon nom fust encore à connestre,</l>
             <l n="934" xml:id="l934">Que jamais aux combats on ne m’eust veu parestre,</l>
@@ -2625,12 +2625,12 @@
             <l n="943" xml:id="l943">Et donnant aux poissons un corps à devorer,</l>
             <l n="944" xml:id="l944">Que sans idolatrie on pouvoit <ref target="#adorer">adorer*</ref>.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="III04-10" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="945" xml:id="l945">Cette belle Insensée a mis fin à sa vie,</l>
             <l n="946" xml:id="l946">Ignorant le bon-heur dont elle estoit suivie.<pb n="59" xml:id="p59"/></l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="III04-11" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="947" xml:id="l947">O tragique ignorance ! et qui fait qu’au moment</l>
             <l n="948" xml:id="l948">Qu’on la tire des <ref target="#fers">fers*</ref>, elle entre au <ref target="#monument">monument*</ref> ;</l>
@@ -2638,19 +2638,19 @@
             <l n="950" xml:id="l950">Va donc la retreuver aux abysmes de l’onde,</l>
             <l n="951" xml:id="l951">Et fais par ton trespas ton amour éclater.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="III04-12" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="952" xml:id="l952">Suivons-le promptement, il pourroit s’y jetter.</l>
             <p rend="center">FIN DU TROISIEME ACTE.</p>
           </sp>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="IV" type="act">
         <head>ACTE QUATRIEME.</head>
-        <div type="scene">
+        <div type="scene" xml:id="IV01">
           <head>SCENE PREMIERE.</head>
           <stage>ALPHONSE, FERNAND.</stage>
-          <sp who="fernand">
+          <sp xml:id="IV01-1" who="fernand">
             <speaker>FERNAND. </speaker>
             <l n="953" xml:id="l953">Où dois-je encore aller ? prenons un peu d’haleine,<pb n="60" xml:id="p60"/></l>
             <l n="954" xml:id="l954">Mon cœur tout halletant ne respire qu’à peine ;</l>
@@ -2672,7 +2672,7 @@
             <l n="970" xml:id="l970">N’avez-vous point des morts accreu le triste nombre,</l>
             <l n="971" xml:id="l971">Et suivy dans les flots ce qui vous fut si cher ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="IV01-2" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="972" xml:id="l972">Ce n’est plus dans les flots que je la doy chercher,</l>
             <l n="973" xml:id="l973">Cette Beauté naissante est encor sur la terre,</l>
@@ -2686,12 +2686,12 @@
             <l n="981" xml:id="l981">Mais doit-on s’<ref target="#etonner">estonner*</ref> de sa noire pratique ?</l>
             <l n="982" xml:id="l982">Il se voit tous les jours des <ref target="#monstre2">Monstres*</ref> en Affrique.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="IV01-3" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="983" xml:id="l983">Haly retient Clarice, Haly trompe son Roy,</l>
             <l n="984" xml:id="l984">Vole un <ref target="#depot">dépost*</ref> illustre, et commis<note place="bottom">« Commis à sa foi » : c’est-à-dire que Clarice a été confiée à Haly, <hi rend="i">commis</hi> est le participe passé du verbe <hi rend="i">commettre</hi>, signifiant dans ce cas « confier à la prudence, à la fidélité de quelqu’un » (Pierre Richelet,<hi rend="i"> Dictionnaire françois contenant les mots et les choses, plusieurs nouvelles remarques sur la langue françoise… avec les termes les plus connus des arts et des sciences</hi>, Genève, J.-H. Widerhold, 1680). </note> à sa <ref target="#foi2">foy*</ref> !</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="IV01-4" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="985" xml:id="l985">Cét <ref target="#astre2">Astre*</ref> de mon cœur roule encor sa <ref target="#carriere">carriere*</ref>,</l>
             <l n="986" xml:id="l986">Et j’en viens d’entrevoir la brillante lumiere ;<pb n="62" xml:id="p62"/></l>
@@ -2701,17 +2701,17 @@
             <l n="990" xml:id="l990">Et je cours luy conter quelle est mon <ref target="#aventure">avanture*</ref> :</l>
             <l n="991" xml:id="l991" part="I">Mais vois-je pas le Traistre ? il faut…</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="IV01-5" who="fernand">
             <speaker>FERNAND.</speaker>
             <l part="F">Tout beau, Seigneur,</l>
             <l n="992" xml:id="l992">Mesnagez prudemment un si rare bonheur :</l>
             <l n="993" xml:id="l993" part="I">Suivez vostre <ref target="#dessein">dessein*</ref>.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV02">
           <head>SCENE DEUXIEME.</head>
           <stage>HALY, SELIM.</stage>
-          <sp who="haly">
+          <sp xml:id="IV02-1" who="haly">
             <speaker>HALY<note place="bottom">À part. </note>.</speaker>
             <l part="F">D’où vient donc sa <ref target="#furie">furie*</ref> ?</l>
             <l n="994" xml:id="l994">Est-ce à moy qu’il en veut ? sçait-il ma <ref target="#tromperie">tromperie*</ref> ?</l>
@@ -2723,36 +2723,36 @@
             <l n="1000" xml:id="l1000">Tu sembles interdit, et presque à demy mort.</l>
             <l n="1001" xml:id="l1001" part="I">Sommes-nous découverts ?</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-2" who="selim">
             <speaker>SELIM.</speaker>
             <l part="F">Ha ! j’en ay quelque <ref target="#doute">doute*</ref> :</l>
             <l n="1002" xml:id="l1002">Mais gardons<note place="bottom">Comprendre : « prenons-garde ». </note> qu’en ce lieu quelqu’un ne nous écoute.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV02-3" who="haly">
             <speaker>HALY.</speaker>
             <l n="1003" xml:id="l1003">Qui peut m’avoir trahy ? nul ne sçait mon amour.</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-4" who="selim">
             <speaker>SELIM.</speaker>
             <l n="1004" xml:id="l1004">Les <ref target="#astre1">Astres*</ref> de la nuict ont mis le crime au jour.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV02-5" who="haly">
             <speaker>HALY.</speaker>
             <l n="1005" xml:id="l1005">Ce discours est obscur, et j’en attens la suitte ;</l>
             <l n="1006" xml:id="l1006">Mais Clarice en lieu seur n’est-elle pas conduitte ?</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-6" who="selim">
             <speaker>SELIM.</speaker>
             <l n="1007" xml:id="l1007" part="I">Non.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV02-7" who="haly">
             <speaker>HALY.</speaker>
             <l part="F">Commandes-tu pas à ces petits vaisseaux,</l>
             <l n="1008" xml:id="l1008">Qui sont prests à toute heure à voguer sur les eaux ?</l>
             <l n="1009" xml:id="l1009">Tu pouvois bien commettre<note place="bottom"><hi rend="i">Commettre</hi> signifie dans cet emploi « confier », le <hi rend="i">Dictionnaire</hi> de l’Académie Française (éd. cit.) donne l’exemple suivant « J’ai commis cela à vostre soin ». </note> à la <ref target="#foi2">foy*</ref> de Neptune,</l>
             <l n="1010" xml:id="l1010">La Beauté dont dépend ma vie, et ma <ref target="#fortune2">fortune*</ref>.</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-8" who="selim">
             <speaker>SELIM.</speaker>
             <l n="1011" xml:id="l1011">De vostre appartement vous n’estiez pas sorty,<pb n="64" xml:id="p64"/></l>
             <l n="1012" xml:id="l1012">Que j’en suis en cachete avec elle party ;</l>
@@ -2766,7 +2766,7 @@
             <l n="1020" xml:id="l1020">De passer plus avant m’a soudain retenu ;</l>
             <l n="1021" xml:id="l1021" part="I">J’ay ramené Clarice.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV02-9" who="haly">
             <speaker>HALY.</speaker>
             <l part="F">Ainsi ce grand <ref target="#courage">courage*</ref>,</l>
             <l n="1022" xml:id="l1022">Qui n’aime que le sang, le meurtre, et le carnage,</l>
@@ -2776,28 +2776,28 @@
             <l n="1026" xml:id="l1026">Qui souvent pour l’effet nous fait prendre la feinte,</l>
             <l n="1027" xml:id="l1027">T’a <ref target="#decevoir">deceu*</ref>, cher Selim, en cette occasion.</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-10" who="selim">
             <speaker>SELIM.</speaker>
             <l n="1028" xml:id="l1028">Non, non, ce que j’ay veu n’est point <ref target="#illusion">illusion*</ref>,</l>
             <l n="1029" xml:id="l1029">Non, c’estoit tout un peuple accouru sur la rive,</l>
             <l n="1030" xml:id="l1030">Pour y chercher le corps de la belle Captive.<pb n="I65"/></l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV02-11" who="haly">
             <speaker>HALY.</speaker>
             <l n="1031" xml:id="l1031">O fascheuse recherche ! ô comble de malheur !</l>
             <l n="1032" xml:id="l1032">Je mourray de deux morts, de crainte, et de douleur.</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-12" who="selim">
             <speaker>SELIM.</speaker>
             <l n="1033" xml:id="l1033">Ce n’est pas encor tout ; mais je crains de vous dire</l>
             <l n="1034" xml:id="l1034">Un second accident, qui me semble bien pire.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV02-13" who="haly">
             <speaker>HALY.</speaker>
             <l n="1035" xml:id="l1035">A m’ouvrir le tombeau n’as-tu pas commencé ?</l>
             <l n="1036" xml:id="l1036">Acheve ton ouvrage, il est bien avancé.</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-14" who="selim">
             <speaker>SELIM.</speaker>
             <l n="1037" xml:id="l1037">D’un pied mal asseuré revenant avec elle,</l>
             <l n="1038" xml:id="l1038">Et tremblant à tous coups d’une crainte mortelle,</l>
@@ -2808,11 +2808,11 @@
             <l n="1043" xml:id="l1043">Qui faisant à longs traits les ombres retirer,</l>
             <l n="1044" xml:id="l1044">S’est levée à l’instant comme pour m’éclairer.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV02-15" who="haly">
             <speaker>HALY.</speaker>
             <l n="1045" xml:id="l1045" part="I">Ne te trompes-tu point ?</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-16" who="selim">
             <speaker>SELIM.</speaker>
             <l part="F">Non, c’estoit luy sans doute,<pb n="66" xml:id="p66"/></l>
             <l n="1046" xml:id="l1046">Il couroit où jamais ne fut chemin ny route,</l>
@@ -2821,16 +2821,16 @@
             <l n="1049" xml:id="l1049">Mais estant déja prés de la porte secrete,</l>
             <l n="1050" xml:id="l1050">J’ay fait avec prudence une prompte retraite.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV02-17" who="haly">
             <speaker>HALY.</speaker>
             <l n="1051" xml:id="l1051" part="I">L’a-t’il veüe avec toy ?</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-18" who="selim">
             <speaker>SELIM.</speaker>
             <l part="F">Je n’en puis rien sçavoir ;</l>
             <l n="1052" xml:id="l1052">Mais l’Amour, quoy qu’on die<note place="bottom"><hi rend="i">Die</hi> est la forme archaïque du présent du subjonctif <hi rend="i">dise</hi> et est couramment utilisée en poésie. </note>, a des yeux à tout voir.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV02-19" who="haly">
             <speaker>HALY.</speaker>
             <l n="1053" xml:id="l1053">Ha ! sans doute il l’a veüe, et transporté de rage,</l>
             <l n="1054" xml:id="l1054">Tantost sans un des siens il m’eut fait quelque <ref target="#outrage">outrage*</ref> ;</l>
@@ -2841,7 +2841,7 @@
             <l n="1059" xml:id="l1059">Nous n’y sçaurions aller d’un pied trop diligent,</l>
             <l n="1060" xml:id="l1060">Il est juste<note place="bottom">« <hi rend="i">Juste</hi> : qui agit selon les lois et l’équité naturelle » (<hi rend="i">cf</hi>. Furetière, éd. cit.). </note>, il est vray, mais il est indulgent.</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-20" who="selim">
             <speaker>SELIM.</speaker>
             <l n="1061" xml:id="l1061">O ! que pour un grand cœur ce mouvement est lasche.<pb n="67" xml:id="p67"/></l>
             <l n="1062" xml:id="l1062">Hé ! quoy donc, de vous perdre avez-vous pris à tasche<note place="bottom">Furetière indique dans son <hi rend="i">Dictionnaire</hi> (éd. cit.) que l’« on dit figurément <hi rend="i">prendre à tasche</hi> pour dire <hi rend="i">entreprendre quelque chose</hi> ».</note> ?</l>
@@ -2859,7 +2859,7 @@
             <l n="1074" xml:id="l1074">Mais se trahir soy-mesme est blesser la Nature ;</l>
             <l n="1075" xml:id="l1075">Non, non, il faut porter la ruse jusqu’au bout.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV02-21" who="haly">
             <speaker>HALY.</speaker>
             <l n="1076" xml:id="l1076">Pour suivre tes conseils j’executeray tout :</l>
             <l n="1077" xml:id="l1077">Mais, si chez moy Clarice est encore cachée,</l>
@@ -2869,7 +2869,7 @@
             <l n="1081" xml:id="l1081">Et s’il faut qu’une fois on découvre la ruse,</l>
             <l n="1082" xml:id="l1082">L’excès de mon amour n’en sera pas l’excuse.</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-22" who="selim">
             <speaker>SELIM. </speaker>
             <l n="1083" xml:id="l1083">Faisons-donc sous l’<ref target="#effort">effort*</ref> d’une mortelle main<pb n="68" xml:id="p68"/></l>
             <l n="1084" xml:id="l1084">Tomber<note place="bottom"><hi rend="i">Tomber</hi> a dans cet emploi le sens de « périr ». Richelet, dans son dictionnaire (éd. cit.), cite Corneille, <hi rend="i">Horace</hi>, acte I, scène 1 « Aujourd’hui il faut que l’un ou l’autre tombe ». </note> plustost Clarice aujourdhuy que demain ;</l>
@@ -2877,18 +2877,18 @@
             <l n="1086" xml:id="l1086">Changeons secretement en Histoire la <ref target="#fable">Fable*</ref> ;</l>
             <l n="1087" xml:id="l1087" part="I">Jettons-la dans la mer.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV02-23" who="haly">
             <speaker>HALY.</speaker>
             <l part="F">Quoy, la faire mourir ?</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-24" who="selim">
             <speaker>SELIM.</speaker>
             <l n="1088" xml:id="l1088">Vous pouvez-vous sauver, sans la faire perir ?</l>
             <l n="1089" xml:id="l1089">Toute l’eau que la mer enferme en son abysme,</l>
             <l n="1090" xml:id="l1090">Ne pourroit pas suffire à laver vostre crime.</l>
             <l n="1091" xml:id="l1091">A la vie, à l’<ref target="#honneur2">honneur*</ref> preferez-vous l’amour ?</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV02-25" who="haly">
             <speaker>HALY.</speaker>
             <l n="1092" xml:id="l1092">Non, mais je l’ayme trop pour la priver du jour :</l>
             <l n="1093" xml:id="l1093">Depuis que j’ay le soin d’une chose si belle,</l>
@@ -2896,7 +2896,7 @@
             <l n="1095" xml:id="l1095">Je l’ayme, je l’<ref target="#adorer">adore*</ref>, et tu veux cependant</l>
             <l n="1096" xml:id="l1096">La tuër, ou plustost me perdre en la perdant.</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-26" who="selim">
             <speaker>SELIM.</speaker>
             <l n="1097" xml:id="l1097">De qui ne sera point vostre amour condamnée<note place="bottom"><hi rend="i">Amour</hi> est indifféremment masculin ou féminin au XVII<hi rend="sup">e</hi> siècle. C’est la seule occurrence du texte où le terme est au féminin.</note> ?</l>
             <l n="1098" xml:id="l1098">Si tost que dans ces lieux vos soins l’ont amenée,<pb n="69" xml:id="p69"/></l>
@@ -2932,42 +2932,42 @@
             <l n="1128" xml:id="l1128">Ainsi sans vous <ref target="#convaincre">convaincre*</ref> il vous accusera,</l>
             <l n="1129" xml:id="l1129">Et passera par tout pour homme à <ref target="#reverie">resverie*</ref>.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV02-27" who="haly">
             <speaker>HALY.</speaker>
             <l n="1130" xml:id="l1130">Puis-je bien me resoudre à cette barbarie ?</l>
             <l n="1131" xml:id="l1131" part="I">Cher Selim…</l>
           </sp>
-          <sp who="selim">
+          <sp xml:id="IV02-28" who="selim">
             <speaker>SELIM.</speaker>
             <l part="F">Taisons-nous, le Roy s’en vient icy,</l>
             <l n="1132" xml:id="l1132" part="I">Je vous quitte.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV03">
           <head>SCENE TROISIEME.</head>
           <stage>LE ROY, ALPHONSE, HALY, FERNAND.</stage>
           <stage>Le Roy et Alphonse entrent sur le Theatre par deux costez differents.</stage>
-          <sp who="haly">
+          <sp xml:id="IV03-1" who="haly">
             <speaker>HALY.</speaker>
             <l part="F">O malheur ! Alphonse arrive aussi,</l>
             <l n="1133" xml:id="l1133">Et je voy dans ses yeux mon crime, et mon supplice ;</l>
             <l n="1134" xml:id="l1134" part="I">Feignons bien toutesfois.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="IV03-2" who="alphonse">
             <speaker>ALPHONSE. </speaker>
             <l part="F">Sire, Sire, justice ;<pb n="71" xml:id="p71"/></l>
             <l n="1135" xml:id="l1135">Clarice n’est point morte, et le traistre Haly</l>
             <l n="1136" xml:id="l1136">Tient ce jeune Soleil dans l’ombre ensevely.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV03-3" who="haly">
             <speaker>HALY.</speaker>
             <l n="1137" xml:id="l1137" part="I">Moy !</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="IV03-4" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="M">Vous.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="IV03-5" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l part="F">Seriez-vous homme à nous en faire <ref target="#accroire">accroire*</ref> ?</l>
             <l n="1138" xml:id="l1138">On debite souvent la <ref target="#fable">Fable*</ref> pour l’Histoire ;</l>
@@ -2975,11 +2975,11 @@
             <l n="1140" xml:id="l1140">Se porter aussi bien, et que vous, et que moy.</l>
             <l n="1141" xml:id="l1141">Est-elle morte enfin ailleurs qu’en vostre bouche ?</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV03-6" who="haly">
             <speaker>HALY.</speaker>
             <l n="1142" xml:id="l1142">O Dieu ! que ce discours sensiblement me touche.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="IV03-7" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1143" xml:id="l1143">Faire de<note place="bottom">Le partitif <hi rend="i">de</hi>/<hi rend="i">du</hi> s’emploie concurremment en en français classique avec le déterminant zéro marqueur de détermination massive (<hi rend="i">cf</hi>. Fournier, éd. cit., p. 152).</note> l’estonné par cent gestes divers,</l>
             <l n="1144" xml:id="l1144">Se reculer ainsi, regarder de travers,</l>
@@ -2988,7 +2988,7 @@
             <l n="1147" xml:id="l1147">Et que nous avons tort de nous en défier,<pb n="72" xml:id="p72"/></l>
             <l n="1148" xml:id="l1148">Sont de foibles moyens pour vous justifier.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV03-8" who="haly">
             <speaker>HALY.</speaker>
             <l n="1149" xml:id="l1149">Les propos médisans, dont ma <ref target="#foi2">foy*</ref> l’on outrage,</l>
             <l n="1150" xml:id="l1150">Au lieu de l’obscurcir, la font voir davantage ;</l>
@@ -2996,16 +2996,16 @@
             <l n="1152" xml:id="l1152">En relevent l’éclat, et le rendent plus beau :</l>
             <l n="1153" xml:id="l1153">Mais de sa propre main sa mort mesme est signée.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="IV03-9" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1154" xml:id="l1154">Elle n’a point pourtant finy sa <ref target="#destinee">destinée*</ref>.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="IV03-10" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1155" xml:id="l1155">Eclaircissez-nous donc quelles ombres, quels corps</l>
             <l n="1156" xml:id="l1156">Vous ont dit que le sien n’est point au rang des morts ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="IV03-11" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1157" xml:id="l1157">La Lune en se levant sur ce petit bois sombre,</l>
             <l n="1158" xml:id="l1158">M’a fait voir ce beau corps, qui passe pour une ombre,</l>
@@ -3020,11 +3020,11 @@
             <l n="1167" xml:id="l1167">J’ay rencontré la vie, allant chercher la mort,</l>
             <l n="1168" xml:id="l1168">Et le nauffrage enfin m’a jetté dans le port.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="IV03-12" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1169" xml:id="l1169" part="I">Vous avez veu Clarice ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="IV03-13" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Ouy, Sire, je l’ay veuë,</l>
             <l n="1170" xml:id="l1170">A la taille, à l’habit je l’ay bien recognuë,</l>
@@ -3043,11 +3043,11 @@
             <l n="1183" xml:id="l1183">Ou la faire évader par quelque lieu secret,</l>
             <l n="1184" xml:id="l1184">D’enragé que j’estoit m’a fait estre discret.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="IV03-14" who="le-roy">
             <speaker>LE ROY. </speaker>
             <l n="1185" xml:id="l1185">Quelle histoire, bon Dieu, la Reine la sçait-elle ?<pb n="74" xml:id="p74"/></l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="IV03-15" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1186" xml:id="l1186">Je viens de luy conter cette <ref target="#etrange">estrange*</ref> nouvelle ;</l>
             <l n="1187" xml:id="l1187">Et son commandement à vos pieds m’a porté,</l>
@@ -3059,17 +3059,17 @@
             <l n="1193" xml:id="l1193">Mais s’il faut pour s’y rendre employer un quart-d’heure</l>
             <l n="1194" xml:id="l1194">Quel espoir gardera qu’en chemin je ne meure ?</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="IV03-16" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1195" xml:id="l1195">Garde, suivez Alphonse, allez y de ma part,</l>
             <l n="1196" xml:id="l1196">Et cherchez-y par tout, avant qu’il soit plus tard ;</l>
             <l n="1197" xml:id="l1197" part="I">Vous, Haly, demeurez.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="IV04">
           <head>SCENE QUATRIEME.</head>
           <stage>LE ROY, HALY.<pb n="75" xml:id="p75"/></stage>
-          <sp who="haly">
+          <sp xml:id="IV04-1" who="haly">
             <speaker>HALY.</speaker>
             <l part="F">Que cét affront me <ref target="#piquer">pique*</ref> !</l>
             <l n="1198" xml:id="l1198">Mais sur les <ref target="#vision2">visions*</ref> de ce <ref target="#melancolie">Melancolique*</ref>,</l>
@@ -3090,7 +3090,7 @@
             <l n="1213" xml:id="l1213">Je sçay bien cependant, quoy qu’un Roy puisse faire,<pb n="76" xml:id="p76"/></l>
             <l n="1214" xml:id="l1214">Qu’un sujet comme moy doit <ref target="#souffrir1">souffrir*</ref>, et se taire.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="IV04-2" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1215" xml:id="l1215">Quoy, vous me reprochez de m’avoir secondé,</l>
             <l n="1216" xml:id="l1216">Aux perils où cent fois je me suis hazardé ?</l>
@@ -3109,7 +3109,7 @@
             <l n="1229" xml:id="l1229">Et vous faites à tort dans vostre <ref target="#fantaisie">fantaisie*</ref></l>
             <l n="1230" xml:id="l1230">Passer vostre devoir pour une <ref target="#courtoisie">courtoisie*</ref>.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV04-3" who="haly">
             <speaker>HALY.</speaker>
             <l n="1231" xml:id="l1231">Doit-on pas recompense à qui fait son devoir ?</l>
             <l n="1232" xml:id="l1232">J’ay toujours fait le mien, et vous l’avez pû voir.</l>
@@ -3118,12 +3118,12 @@
             <l n="1235" xml:id="l1235">Cependant on m’accuse, et vous me soupçonnez ;<pb n="77" xml:id="p77"/></l>
             <l n="1236" xml:id="l1236">Mais j’en appelleray, si vous me condamnez.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="IV04-4" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1237" xml:id="l1237">Vous en appellerez ? Hé ! dans quelle Province ?</l>
             <l n="1238" xml:id="l1238">A qui peut un Subjet appeller de son Prince ?</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV04-5" who="haly">
             <speaker>HALY.</speaker>
             <l n="1239" xml:id="l1239">A Celuy qui des Roys juge en dernier ressort ;</l>
             <l n="1240" xml:id="l1240">Dieu cognoist de ma cause ou le droit ou le tort ;</l>
@@ -3132,14 +3132,14 @@
             <l n="1243" xml:id="l1243">Il est Juge équitable, et j’espere aujourd’huy,</l>
             <l n="1244" xml:id="l1244">La<note place="bottom">Le pronom personnel objet de troisième personne <hi rend="i">la</hi> reprend <hi rend="i">la cause de Haly</hi>.</note> perdant devant vous, la gaigner devant luy.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="IV04-6" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1245" xml:id="l1245">Enfin si l’on vous croit, une douleur <ref target="#amer">amere*</ref></l>
             <l n="1246" xml:id="l1246">Fait qu’Alphonse n’est plus qu’un Esprit à <ref target="#chimere">chimere*</ref>,</l>
             <l n="1247" xml:id="l1247">Qui voit ce qui n’est pas, et prend le plus souvent</l>
             <l n="1248" xml:id="l1248">Pour un solide corps, un corps d’air et de vent.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV04-7" who="haly">
             <speaker>HALY.</speaker>
             <l n="1249" xml:id="l1249">Qui ne sçait le pouvoir de la <ref target="#melancolie">melancolie*</ref>,</l>
             <l n="1250" xml:id="l1250">Qui tient profondement son <ref target="#ame2">ame*</ref> ensevelie ?</l>
@@ -3148,15 +3148,15 @@
             <l n="1253" xml:id="l1253">Et selon les <ref target="#vapeur">vapeurs*</ref> qu’à la teste elle envoye,<pb n="78" xml:id="p78"/></l>
             <l n="1254" xml:id="l1254">Il croit voir des <ref target="#objet1">objets*</ref> de tristesse ou de joye.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="IV04-8" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1255" xml:id="l1255">Auroit-il veu Clarice en esprit seulement ?</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="IV04-9" who="haly">
             <speaker>HALY.</speaker>
             <l n="1256" xml:id="l1256">Se peut-il que jamais il la voye autrement ?</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="IV04-10" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1257" xml:id="l1257">Si sans elle il revient, à tort il vous accuse ;</l>
             <l n="1258" xml:id="l1258">Mais s’il l’ameine aussi, vous n’avez point d’excuse :</l>
@@ -3166,12 +3166,12 @@
           </sp>
         </div>
       </div>
-      <div type="act">
+      <div xml:id="V" type="act">
         <head>ACTE CINQUIEME.</head>
-        <div type="scene">
+        <div type="scene" xml:id="V01">
           <head>SCENE PREMIERE.</head>
           <stage>ALPHONSE, FERNAND.<pb n="79" xml:id="p79"/></stage>
-          <sp who="alphonse">
+          <sp xml:id="V01-1" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1261" xml:id="l1261">Ha ! je l’y cherche en vain, on l’en a retirée,</l>
             <l n="1262" xml:id="l1262">Et je la tiens déja morte ou des-honorée ;</l>
@@ -3198,23 +3198,23 @@
             <l n="1283" xml:id="l1283">Mais l’ayant retreuvée, aussi-tost je la pers,</l>
             <l n="1284" xml:id="l1284">Et tombe en un moment du <ref target="#ciel1">Ciel*</ref> dans les Enfers.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="V01-2" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="1285" xml:id="l1285">Tenez-vous de vos <ref target="#sens1">sens*</ref> le rapport bien fidele ?</l>
             <l n="1286" xml:id="l1286" part="I">Estoit-ce elle, Seigneur ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V01-3" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Comment, si c’estoit-elle ?</l>
             <l n="1287" xml:id="l1287">Ne connoistrois-je pas ce que j’aime le mieux,</l>
             <l n="1288" xml:id="l1288">Ce qui seul est la joye et le jour de mes yeux ?</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="V01-4" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="1289" xml:id="l1289">Si tout œil est trompeur, vous fiez-vous au vostre ?</l>
             <l n="1290" xml:id="l1290">Vous pourriez bien pour elle en avoir pris une autre.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V01-5" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1291" xml:id="l1291">Prendre une autre pour elle, à qui rien n’est pareil ?<pb n="L81"/></l>
             <l n="1292" xml:id="l1292">De tant d’<ref target="#astre1">Astres*</ref> aucun n’est semblable au Soleil ;</l>
@@ -3223,7 +3223,7 @@
             <l n="1295" xml:id="l1295">Ne me traitte donc plus comme un esprit blessé ;</l>
             <l n="1296" xml:id="l1296">Et tiens-moy malheureux, mais non pas insensé.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="V01-6" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="1297" xml:id="l1297">A quel sujet Haly feindroit-il qu’elle est morte ?</l>
             <l n="1298" xml:id="l1298">Ozeroit-il au Roy mentir de cette sorte ?</l>
@@ -3238,31 +3238,31 @@
             <l n="1307" xml:id="l1307">Sçachant que ce billet vous venant de sa part,</l>
             <l n="1308" xml:id="l1308">Vous eust percé le sein de cent coups de poignard.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V01-7" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1309" xml:id="l1309">Que pour moy ce billet est un profond mystere !</l>
             <l n="1310" xml:id="l1310">Dans ce noir labyrinte aucun jour ne m’éclaire,</l>
             <l n="1311" xml:id="l1311">Je ne voy point de fil pour nous en delivrer,<pb n="82" xml:id="p82"/></l>
             <l n="1312" xml:id="l1312">Et ce que j’ay perdu ne se peut <ref target="#recouvrer">recouvrer*</ref>.</l>
           </sp>
-          <sp who="fernand">
+          <sp xml:id="V01-8" who="fernand">
             <speaker>FERNAND.</speaker>
             <l n="1313" xml:id="l1313" part="I">Le Roy s’en vient icy.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V01-9" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Que luy pourray-je dire ?</l>
             <l n="1314" xml:id="l1314">Je crains que devant luy de <ref target="#honte1">honte*</ref> je n’expire.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V02">
           <head>SCENE DEUXIEME.</head>
           <stage>LE ROY, ALPHONSE, HALY, FERNAND.</stage>
-          <sp who="le-roy">
+          <sp xml:id="V02-1" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1315" xml:id="l1315">Qui de vous deux enfin treuveray-je <ref target="#imposteur">Imposteur*</ref> ?</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V02-2" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1316" xml:id="l1316">Celuy qui vous dit vray va passer pour menteur,</l>
             <l n="1317" xml:id="l1317">Et celuy qui vous ment sera creu veritable ;</l>
@@ -3272,7 +3272,7 @@
             <l n="1321" xml:id="l1321">Et si cet <ref target="#imposteur">Imposteur*</ref>, cet Esprit de finesse,</l>
             <l n="1322" xml:id="l1322">Afin de l’en oster n’a fait un coup d’<ref target="#adresse">adresse*</ref>.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V02-3" who="haly">
             <speaker>HALY.</speaker>
             <l n="1323" xml:id="l1323">Qui sur tous ces discours peut asseoir jugement ?</l>
             <l n="1324" xml:id="l1324">Il est tantost son frere, et tantost son <ref target="#amant">amant*</ref> ;</l>
@@ -3285,14 +3285,14 @@
             <l n="1331" xml:id="l1331">Il croyait me <ref target="#convaincre">convaincre*</ref>, il m’a justifié<note place="bottom">« <hi rend="i">Justifier</hi> : Monstrer, prouver, déclarer que quelqu’un qui estoit accusé est innocent » (<hi rend="i">cf. Dictionnaire</hi> de l’Académie Française, éd. cit.).  </note>,</l>
             <l n="1332" xml:id="l1332">Et doit à mon <ref target="#honneur2">honneur*</ref> estre sacrifié.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V02-4" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1333" xml:id="l1333">La verité, grand Roy, mal aysement se treuve,</l>
             <l n="1334" xml:id="l1334">Mais au <ref target="#sort2">sort*</ref> du combat remettez en la preuve ;</l>
             <l n="1335" xml:id="l1335">Et le <ref target="#ciel2">Ciel*</ref> n’estant pas moins juste que puissant,</l>
             <l n="1336" xml:id="l1336">Fera choir le Coupable aux pieds de l’Innocent.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V02-5" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1337" xml:id="l1337">Dans le Champ des combats la <ref target="#fortune1">Fortune*</ref> preside,</l>
             <l n="1338" xml:id="l1338">Et se plaist à defendre une action perfide ;</l>
@@ -3303,14 +3303,14 @@
             <l n="1343" xml:id="l1343">Et la decision d’un soupçon important,</l>
             <l n="1344" xml:id="l1344">Ne se doit pas remettre à ce <ref target="#sort2">sort*</ref> inconstant<note place="bottom">Les propos du Roi qui, par ces vers, s’oppose à la pratique du duel, ne sont pas sans rappeler ceux du souverain dans <hi rend="i">Le Cid</hi> de Corneille (vers 1416-1420) : « Cette vieille coutume en ces lieux établie, / Sous couleur de punir un juste attentat, / Des meilleurs combattants affaiblit un Etat. / Souvent de cet abus le succès déplorable / Opprime l’innocent et soutient le coupable. » Le combat judiciaire était une pratique médiévale. Richelieu, à partir de 1626, multiplia les édits contre les duels, édits qui traduisaient une politique de renforcement du pouvoir royal face à l’individualisme nobiliaire. </note>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V02-6" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1345" xml:id="l1345">A quoy donc recourir, pour vous faire connestre</l>
             <l n="1346" xml:id="l1346">La <ref target="#fourbe">fourbe*</ref> d’un esprit si menteur et si traiste ?</l>
             <l n="1347" xml:id="l1347">Qui la rendra visible à vostre œil comme au mien,</l>
             <l n="1348" xml:id="l1348">Et me fera raison du voleur de mon <ref target="#bien">bien*</ref> ?</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V02-7" who="haly">
             <speaker>HALY.</speaker>
             <l n="1349" xml:id="l1349">Ha ! Sire, c’est trop dit, et cette calomnie</l>
             <l n="1350" xml:id="l1350">Ne doit pas un moment demeurer impunie.</l>
@@ -3325,7 +3325,7 @@
             <l n="1359" xml:id="l1359">Je me ris de le voir parler sans jugement,</l>
             <l n="1360" xml:id="l1360">Et <ref target="#souffrir3">souffrir*</ref> sa folie est faire sagement.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V02-8" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1361" xml:id="l1361">De quel trait ce discours a mon <ref target="#ame2">ame*</ref> frapée !<pb n="85" xml:id="p85"/></l>
             <l n="1362" xml:id="l1362">Me traitter de la sorte ? ha ! Sire, mon espée,</l>
@@ -3333,7 +3333,7 @@
             <l n="1364" xml:id="l1364">Iroit jusqu’en son cœur chercher la verité,</l>
             <l n="1365" xml:id="l1365">Et pourroit la contraindre à sortir par sa bouche.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V02-9" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1366" xml:id="l1366">Alphonse, je pardonne à l’<ref target="#ennui">ennuy*</ref> qui vous touche,</l>
             <l n="1367" xml:id="l1367">Et qui par un Phantosme ayant trompé vos <ref target="#sens1">sens*</ref>,</l>
@@ -3345,7 +3345,7 @@
             <l n="1373" xml:id="l1373">Certes cét accident est purement celeste,</l>
             <l n="1374" xml:id="l1374">Et quiconque le croit a de la <ref target="#foi1">foy*</ref> de reste<note place="bottom">Comprendre : « et quiconque le croit a de la foi plus qu’il n’en faut, plus qu’il n’est nécessaire ». </note>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V02-10" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1375" xml:id="l1375">Celeste ou naturel, l’éclat de ces flambeaux</l>
             <l n="1376" xml:id="l1376">M’a fait voir qu’elle estoit ailleurs que dans les eaux.</l>
@@ -3354,50 +3354,50 @@
             <l n="1379" xml:id="l1379">Attache quelques fois des lumieres aux Cieux,</l>
             <l n="1380" xml:id="l1380">Qui de l’aveugle mesme illuminent les yeux ?</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V02-11" who="haly">
             <speaker>HALY. </speaker>
             <l n="1381" xml:id="l1381">Le <ref target="#ciel2">Ciel*</ref> vous a sauvé d’une <ref target="#etrange">estrange*</ref> manière,<pb n="86" xml:id="p86"/></l>
             <l n="1382" xml:id="l1382">Au poinct que vous couriez à vostre heure derniere ;</l>
             <l n="1383" xml:id="l1383">Mais pour vous secourir en cette extremité,</l>
             <l n="1384" xml:id="l1384">Dieu devoit un miracle à vostre pieté<note place="bottom">Vers ironique dans la mesure où Alphonse s’apprêtait à se tuer, ce qui est contraire au précepte catholique. </note>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V02-12" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1385" xml:id="l1385">Et plus d’un coup de foudre à vostre <ref target="#tromperie">tromperie*</ref>.</l>
             <l n="1386" xml:id="l1386" part="I">Mais la Reyne s’avance.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V03">
           <head>SCENE TROISIEME.</head>
           <stage>LE ROY, LA REYNE, ALPHONSE, HALY.</stage>
-          <sp who="le-roy">
+          <sp xml:id="V03-1" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l part="F"><ref target="#etrange">Estrange*</ref><ref target="#reverie">réverie*</ref> !</l>
             <l n="1387" xml:id="l1387">Le croiriez-vous, Madame, à moins que de le voir,</l>
             <l n="1388" xml:id="l1388">Qu’un <ref target="#amant">Amant*</ref> jusques-là se laissast <ref target="#decevoir">decevoir*</ref> ?</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-2" who="la-reyne">
             <speaker>LA REYNE. </speaker>
             <l n="1389" xml:id="l1389" part="I">Alphonse est-il muët ?<pb n="87" xml:id="p87"/></l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V03-3" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">Hé ! que puis-je respondre,</l>
             <l n="1390" xml:id="l1390">Quand tout ce que je dis ne sert qu’à me <ref target="#confondre">confondre*</ref>,</l>
             <l n="1391" xml:id="l1391">Et que mille sanglots sortant tous à la fois,</l>
             <l n="1392" xml:id="l1392">Ferment comme à l’envy le passage à ma voix.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V03-4" who="haly">
             <speaker>HALY.</speaker>
             <l n="1393" xml:id="l1393">Au deffaut de sa voix, ses pleurs vous rendent conte,</l>
             <l n="1394" xml:id="l1394">D’une recherche vaine, et qui tourne à sa <ref target="#honte1">honte*</ref>.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-5" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="1395" xml:id="l1395">Mais où donc la treuver ? Il n’est lieu dans les flots,</l>
             <l n="1396" xml:id="l1396">Que n’ait déja sondé le plomb des Matelots.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V03-6" who="haly">
             <speaker>HALY.</speaker>
             <l n="1397" xml:id="l1397">Elle n’est point ailleurs, mais la chambre escartée,</l>
             <l n="1398" xml:id="l1398">D’où cette Mal-heureuse en la mer s’est jettée,</l>
@@ -3409,7 +3409,7 @@
             <l n="1404" xml:id="l1404">Engloutissent les corps qui s’y sont abysmez,<pb n="88" xml:id="p88"/></l>
             <l n="1405" xml:id="l1405">Quelque <ref target="#monstre1">monstre*</ref> marin peut l’avoir devorée.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-7" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="1406" xml:id="l1406">Et vostre cœur aussi peut l’avoir desirée.</l>
             <l n="1407" xml:id="l1407">Mais pour la bien chercher en vostre appartement,</l>
@@ -3418,7 +3418,7 @@
             <l n="1410" xml:id="l1410">Est du <ref target="#trouble">trouble*</ref> de l’<ref target="#ame2">ame*</ref> un brillant témoignage<note place="bottom">L’Estoille est sensible aux changements d’expression du visage. On peut lire dans sa comédie, <hi rend="i">L’Intrigue des filous</hi>, acte II, scène 4, vers 462-464 : « Dieu ! je vous voy rougir et paslir à tous coups, / Et de tant de couleurs se peint vostre visage / Que jamais l’Arc-en-Ciel n’en monstra davantage. »</note>.</l>
             <l n="1411" xml:id="l1411">La treuveroit-il point, s’il y portoit ses pas ?</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V03-8" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1412" xml:id="l1412">O <ref target="#ciel2">Ciel*</ref> ! cet infidelle espris de ses <ref target="#appat">appas*</ref>,</l>
             <l n="1413" xml:id="l1413">L’auroit-il bien cachée en ces grottes secrettes,</l>
@@ -3426,7 +3426,7 @@
             <l n="1415" xml:id="l1415">Pour y tenir aux <ref target="#fers">fers*</ref> ceux dont quelque <ref target="#attentat">attentat*</ref></l>
             <l n="1416" xml:id="l1416">Avoit osé troubler le calme de l’Estat ?</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V03-9" who="haly">
             <speaker>HALY.</speaker>
             <l n="1417" xml:id="l1417">Moy, j’aurois, aveuglé d’amour illegitime,</l>
             <l n="1418" xml:id="l1418">Enfermé l’innocence en la prison du crime,</l>
@@ -3439,64 +3439,64 @@
             <l n="1425" xml:id="l1425">Et si dans l’onde enfin elle n’a rendu l’<ref target="#ame1">ame*</ref>,</l>
             <l n="1426" xml:id="l1426">Que je la puisse rendre au milieu de la <ref target="#flamme1">flame*</ref>.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V03-10" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1427" xml:id="l1427">Hé bien, vous l’y rendrez, si vous le meritez.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V03-11" who="haly">
             <speaker>HALY.</speaker>
             <l n="1428" xml:id="l1428">Mon innocence est claire, et si vous en doutez…</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-12" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="1429" xml:id="l1429" part="I">Connoissez vous Selim ?</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V03-13" who="haly">
             <speaker>HALY.</speaker>
             <l part="F">Je le dois bien connestre ;</l>
             <l n="1430" xml:id="l1430">Je l’ay fait ce qu’il est, et suis encor son Maistre.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-14" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="1431" xml:id="l1431">Et si ce Serviteur, si zelé, si discret,</l>
             <l n="1432" xml:id="l1432">Nous avoit revelé cét important secret ?</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V03-15" who="haly">
             <speaker>HALY.</speaker>
             <l n="1433" xml:id="l1433" part="I">Quel secret ?</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-16" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l part="F">Que par vous l’innocente Captive,</l>
             <l n="1434" xml:id="l1434">Dans cét Antre s’est veüe enterrer toute vive :<pb n="90" xml:id="p90"/></l>
             <l n="1435" xml:id="l1435">Mais s’il vous accusoit d’un crime encor plus grand ?</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V03-17" who="haly">
             <speaker>HALY.</speaker>
             <l n="1436" xml:id="l1436">De tout ce que j’ay fait je l’appelle à garand ;</l>
             <l n="1437" xml:id="l1437">Il sçait mon innocence, et dans tout vostre Empire,</l>
             <l n="1438" xml:id="l1438">Nul ne sçait mieux que luy s’empescher de mesdire.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-18" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="1439" xml:id="l1439">C’est parler dignement d’un homme qui vous perd.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V03-19" who="haly">
             <speaker>HALY.</speaker>
             <l n="1440" xml:id="l1440" part="I">Luy, perdre un Innocent !</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-20" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l part="F">Il a tout découvert,</l>
             <l n="1441" xml:id="l1441">Et monstré de quel fil est la sanglante toile,</l>
             <l n="1442" xml:id="l1442">Que vos mains ourdissoient, pour nous servir de voile.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V03-21" who="haly">
             <speaker>HALY.</speaker>
             <l n="1443" xml:id="l1443">A cét Enigme obscur quel <ref target="#sens2">sens*</ref> faut-il donner ?</l>
             <l n="1444" xml:id="l1444">Je suis fort peu sçavant en l’art de deviner.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-22" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="1445" xml:id="l1445">Mais vous l’estes beaucoup en celuy de mal-faire,</l>
             <l n="1446" xml:id="l1446">Et de dissimuler un acte sanguinaire.</l>
@@ -3507,7 +3507,7 @@
             <l n="1451" xml:id="l1451">Il a sçeu, le Perfide, en secret y passer,</l>
             <l n="1452" xml:id="l1452">Et fume encor du sang qu’il y vient de verser.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V03-23" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1453" xml:id="l1453">Le <ref target="#ciel2">Ciel*</ref> durant ce meurtre estoit-il sans tonnerre ?</l>
             <l n="1454" xml:id="l1454">Mais cherchons l’Assassin au centre de la terre ;</l>
@@ -3515,12 +3515,12 @@
             <l n="1456" xml:id="l1456">Le Temple, où la Beauté servoit à la <ref target="#vertu1">Vertu*</ref>.</l>
             <l n="1457" xml:id="l1457">Mais toy seul en es cause, et tu mourras <ref target="#barbare">Barbare*</ref>.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-24" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="1458" xml:id="l1458">O Dieu ! que faites-vous ? vostre raison s’égare ;</l>
             <l n="1459" xml:id="l1459">Oser tirer l’espée en presence du Roy !</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V03-25" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1460" xml:id="l1460">Ce Traistre oser encor parestre devant moy !</l>
             <l n="1461" xml:id="l1461">Ha ! si vos Majestez ne me rendent justice,</l>
@@ -3548,13 +3548,13 @@
             <l n="1483" xml:id="l1483">Mais la Parque<note place="bottom">Les Trois Parques, qui revêtaient l’aspect de fileuses, présidaient, dans l’ancienne religion romaine, la première à la naissance (Nona), la seconde au mariage (Decima), la troisième à la mort (Morta). C’est cette dernière qui est évoquée par Alphonse. </note> s’appreste à terminer mon <ref target="#sort3">sort*</ref>,</l>
             <l n="1484" xml:id="l1484">Je vivois en sa vie, et je meurs en sa mort.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V03-26" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1485" xml:id="l1485">Sa mort sera vangée ; Ouy tu mourras perfide,</l>
             <l n="1486" xml:id="l1486">Qui merites le nom de l’<ref target="#amant">Amant*</ref> homicide,</l>
             <l n="1487" xml:id="l1487">Pour avoir fait tuër l’<ref target="#objet2">objet*</ref> de ton amour.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-27" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="1488" xml:id="l1488">Je vous aurois plustost mis cette Histoire au jour,</l>
             <l n="1489" xml:id="l1489">N’estoit que mon esprit taschoit par <ref target="#artifice">artifice*</ref>,<pb n="93" xml:id="p93"/></l>
@@ -3590,13 +3590,13 @@
             <l n="1519" xml:id="l1519">Selim s’approchoit d’elle, et sans un prompt secours,</l>
             <l n="1520" xml:id="l1520">Ou la corde, ou le fer eût terminé ses jours.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V03-28" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1521" xml:id="l1521">Quoy, n’est-elle pas morte ? ô preuve <ref target="#nonpareil">nompareille*</ref></l>
             <l n="1522" xml:id="l1522">Que sur les Innocens l’Eternel toujours veille :</l>
             <l n="1523" xml:id="l1523">Mais croiray-je un miracle, à moins que de le voir ?</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-29" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="1524" xml:id="l1524">A peine celuy-cy se peut-il concevoir ;</l>
             <l n="1525" xml:id="l1525">Il a voulu fuyr, en les voyant parestre ;</l>
@@ -3608,7 +3608,7 @@
             <l n="1531" xml:id="l1531">A maudy son <ref target="#destin">destin*</ref>, injurié les Cieux,</l>
             <l n="1532" xml:id="l1532">Et ce grand Criminel est mort en <ref target="#furieux1">furieux*</ref>.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V03-30" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1533" xml:id="l1533">Donc Celuy qui voit tout, et rend à tous justice,</l>
             <l n="1534" xml:id="l1534">A sauvé la <ref target="#vertu1">Vertu*</ref> des embusches du <ref target="#vice">Vice*</ref> !</l>
@@ -3618,7 +3618,7 @@
             <l n="1538" xml:id="l1538">Ne fait rien de meilleur qu’à l’heure qu’il se tuë :</l>
             <l n="1539" xml:id="l1539">Mais avant que<note place="bottom">L’alternance morphologique entre la préposition <hi rend="i">avant de</hi> et la locution conjonctive <hi rend="i">avant que</hi> n’est pas encore fixée au XVII<hi rend="sup">e</hi> siècle où les formes <hi rend="i">avant que</hi> + <hi rend="i">infinitif</hi> et <hi rend="i">avant que de</hi> + <hi rend="i">infinitif</hi> sont usuelles<hi rend="i">. Avant de</hi> ne se généralisera qu’au XVIII<hi rend="sup">e</hi> siècle.</note> mourir n’a-t-il rien confessé ?</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-31" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="1540" xml:id="l1540">S’estant luy-mesme ainsi mortellement blessé ;</l>
             <l n="1541" xml:id="l1541">Je peris, a-t’il dit, mais Haly, mon cher Maistre,</l>
@@ -3634,44 +3634,44 @@
             <l n="1551" xml:id="l1551">Il a voulu tirer le poignard de son flanc,</l>
             <l n="1552" xml:id="l1552">Mais l’asme en est soudain sortie avec le sang.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V03-32" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1553" xml:id="l1553">Se verra-t’il jamais d’<ref target="#aventure">avanture*</ref> semblable ?</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V03-33" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="1554" xml:id="l1554">Pensez-vous que Haly la tienne veritable ?</l>
             <l n="1555" xml:id="l1555">On ne luy peut sans crime aucun crime imposer.<pb n="96" xml:id="p96"/></l>
             <l n="1556" xml:id="l1556">Mais paroissez, Clarice, et venez l’accuser.</l>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" xml:id="V04">
           <head>SCENE QUATRIEME.</head>
           <stage>LE ROY, LA REYNE, ALPHONSE, CLARICE, HALY, FERNAND.</stage>
-          <sp who="alphonse">
+          <sp xml:id="V04-1" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1557" xml:id="l1557" part="I">O <ref target="#ciel2">Ciel*</ref> ! c’est elle-mesme.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V04-2" who="haly">
             <speaker>HALY.</speaker>
             <l part="F">Est-ce un <ref target="#charme1">charme*</ref> ? est-ce un songe ?</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V04-3" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="1558" xml:id="l1558">Estes-vous à ce coup <ref target="#convaincre">convaincu*</ref> de mensonge ?</l>
             <l n="1559" xml:id="l1559">Voyez-la de plus prés, la connoissez-vous bien ?</l>
             <l n="1560" xml:id="l1560">Vous changez de visage, et ne respondez rien.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V04-4" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1561" xml:id="l1561">Le silence vaut mieux que tout ce que peut dire<pb n="N97"/></l>
             <l n="1562" xml:id="l1562">Ce Fourbe, à qui l’Enfer ses mensonges inspire.</l>
           </sp>
-          <sp who="haly">
+          <sp xml:id="V04-5" who="haly">
             <speaker>HALY.</speaker>
             <l n="1563" xml:id="l1563" part="I">Hé Sire !</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V04-6" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l part="F">Qu’on le traisne au fonds d’une prison,</l>
             <l n="1564" xml:id="l1564">Qui combatte d’<ref target="#horreur1">horreur*</ref> avec sa trahison,</l>
@@ -3681,7 +3681,7 @@
             <l n="1567" xml:id="l1567">Qui ne se vange point a le cœur abbatu,</l>
             <l n="1568" xml:id="l1568">Et qui pardonne au <ref target="#vice">Vice*</ref> offense la <ref target="#vertu1">Vertu*</ref>.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="V04-7" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="1569" xml:id="l1569">Roy, le meilleur des Roys, la meilleure des Reynes</l>
             <l n="1570" xml:id="l1570">Vous a fait à la fin briser toutes mes chaines ;</l>
@@ -3692,13 +3692,13 @@
             <l n="1575" xml:id="l1575">Sauvez qui m’a sauvée, espargnez-le, ô grand Roy<note place="bottom">Le vers comprend bien douze syllabes dans la mesure où la licence poétique admet l’élision de [e] devant [o].</note> !</l>
             <l n="1576" xml:id="l1576">S’il est vray que sans luy ce seroit fait de moy.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V04-8" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1577" xml:id="l1577">Quel Dédale est-cecy ! ses destours sont sans nombre,<pb n="98" xml:id="p98"/></l>
             <l n="1578" xml:id="l1578">Et la nuict où j’estois a redoublé son ombre :</l>
             <l n="1579" xml:id="l1579" part="I">Haly vous a sauvée !</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="V04-9" who="clarice">
             <speaker>CLARICE.</speaker>
             <l part="F">Ouy Sire, il est ainsi,</l>
             <l n="1580" xml:id="l1580">Et bien tost sur ce point vous serez esclaircy.</l>
@@ -3711,60 +3711,60 @@
             <l n="1587" xml:id="l1587">Il m’en a retenuë, arrivant par bon-heur,</l>
             <l n="1588" xml:id="l1588">Au poinct que j’<ref target="#immoler">immolois*</ref> ma vie à mon <ref target="#honneur3">honneur*</ref>.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V04-10" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1589" xml:id="l1589">Pour perdre vostre <ref target="#honneur3">honneur*</ref> il sauvoit vostre vie,</l>
             <l n="1590" xml:id="l1590">Mais d’où vient ce billet ? contentez mon envie ;</l>
             <l n="1591" xml:id="l1591">Vous l’a-t’il fait tracer cét infidelle Esprit ?</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="V04-11" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="1592" xml:id="l1592">Avant qu’il arrivast, ma main l’avoit écrit,</l>
             <l n="1593" xml:id="l1593">Pour le justifier d’un trepas si <ref target="#funeste">funeste*</ref> ;</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V04-12" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1594" xml:id="l1594">O ! de vostre bonté preuve trop manifeste !<pb n="99" xml:id="p99"/></l>
             <l n="1595" xml:id="l1595">Mais qu’il a bien par là caché sa trahison !</l>
             <l n="1596" xml:id="l1596">Qui n’eust dans cette coupe avalé le poison !</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V04-13" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1597" xml:id="l1597">Un mensonge amoureux est faute bien legere,</l>
             <l n="1598" xml:id="l1598">Quoy que je sois <ref target="#amant">Amant*</ref>, je me suis nommé frere ;</l>
             <l n="1599" xml:id="l1599">Et si tous les menteurs estoient punis de mort,</l>
             <l n="1600" xml:id="l1600">Il faudroit me resoudre à voir finir mon <ref target="#sort3">sort*</ref>.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V04-14" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1601" xml:id="l1601">Si je luy pardonnois, je serois peu <ref target="#sensible2">sensible*</ref>.</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V04-15" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l n="1602" xml:id="l1602">Est-il crime d’amour qui ne soit remissible ?</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V04-16" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1603" xml:id="l1603">Le sien meriteroit un supplice eternel.</l>
           </sp>
-          <sp who="la-reyne">
+          <sp xml:id="V04-17" who="la-reyne">
             <speaker>LA REYNE.</speaker>
             <l n="1604" xml:id="l1604">N’estes-vous pas <ref target="#clement">clement*</ref> plus qu’il n’est criminel ?</l>
             <l n="1605" xml:id="l1605">Vostre bonté, Seigneur, sa malice surpasse.</l>
           </sp>
-          <sp who="le-roy">
+          <sp xml:id="V04-18" who="le-roy">
             <speaker>LE ROY.</speaker>
             <l n="1606" xml:id="l1606">Puisque les Offensés me demandent sa <ref target="#grace">grace*</ref>,</l>
             <l n="1607" xml:id="l1607">Qu’il vive, et qu’à jamais ces deux jeunes <ref target="#amant">Amans*</ref><pb n="100" xml:id="p100"/></l>
             <l n="1608" xml:id="l1608">Soient libres, et comblez de tous <ref target="#contentement">contentemens*</ref>.</l>
           </sp>
-          <sp who="clarice">
+          <sp xml:id="V04-19" who="clarice">
             <speaker>CLARICE.</speaker>
             <l n="1609" xml:id="l1609">Quel bon-heur arrivant contre toute <ref target="#apparence">apparence*</ref>,</l>
             <l n="1610" xml:id="l1610">Pouvoit de tant de <ref target="#bien">biens*</ref> me donner esperance ?</l>
             <l n="1611" xml:id="l1611" part="I">O clemence<note place="bottom">La clémence, sujet central du <hi rend="i">De clementia</hi> de Sénèque (56 après J.-C.), est la vertu issue de la magnanimité. Son exercice distingue le prince du tyran, et permet au souverain de légitimer sa titulature en se plaçant au dessus des hommes. « Cette vertu [la clémence] n’appartient pas à toutes sortes de gens, mais aux Souverains seulement, qui pour quelque bien peuvent adoucir les Lois, et les rendre moins sévères. En un mot elle est proprement la vertu des Princes » (Juste Lipse, <hi rend="i">Politica</hi>, 1589, traduit en 1638 par Jean Baudoin dans le Discours LXII, « Que la Clémence fait estimer et chérir un Prince » de la Première Partie de ses <hi rend="i">Emblèmes divers</hi>, p. 599). La clémence est le thème principal de la pièce de Corneille, <hi rend="i">Cinna ou la Clémence d’Auguste</hi> (le privilège date du 1<hi rend="sup">er</hi> août 1642, et l’achevé d’imprimé du 18 janvier 1643). </note> adorable !</l>
           </sp>
-          <sp who="alphonse">
+          <sp xml:id="V04-20" who="alphonse">
             <speaker>ALPHONSE.</speaker>
             <l part="F">O Prince <ref target="#genereux">genereux*</ref> !</l>
             <l n="1612" xml:id="l1612">Qui de vostre <ref target="#vertu1">vertu*</ref> ne seroit amoureux ?</l>
