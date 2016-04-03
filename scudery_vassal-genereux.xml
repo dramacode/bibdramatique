@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -19,7 +18,7 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
         <date when="2014"/>
         <idno>?</idno>
         <availability status="restricted">
@@ -868,7 +867,7 @@
     <body>
       <head>LE VASSAL <lb/>GENEREUX,<lb/>POEME<lb/>TRAGI-COMIQUE.</head>
       <div>
-        <head>À MADEMOISELLE<lb/>DE<lb/>RAMBOUILLET <note place="bottom">Scudéry fréquentait le salon de la marquise de Rambouillet au début de sa carrière. Elle fut la première à créer un salon au début du règne de Lois XIII et à rompre avec la barbarie de la Cour de France. Ce salon italianisant fut ainsi le point de départ du raffinement « français ». Mademoiselle de Rambouillet est la fille de la Marquise, Julie d’Angennes, future duchesse de Montausier.</note>. </head>
+        <head>À MADEMOISELLE<lb/>DE<lb/>RAMBOUILLET <note place="bottom">Scudéry fréquentait le salon de la marquise de Rambouillet au début de sa carrière. Elle fut la première à créer un salon au début du règne de Lois XIII et à rompre avec la barbarie de la Cour de France. Ce salon italianisant fut ainsi le point de départ du raffinement « français ». Mademoiselle de Rambouillet est la fille de la Marquise, Julie d’Angennes, future duchesse de Montausier.</note>.</head>
         <p>MADEMOISELLE,</p>
         <p>Depuis qu’un homme qui meritoit beaucoup, puisqu’il meritoit vostre estime; je veux dire mon cher et parfait Amy, feu Monsieur de Chandeuille (de qui je regrette sensiblement la perte, et cheris la memoire uniquement) m’eust donné l’honneur d’estre connu de vostre Maison, je fis vœu de ne mettre jamais rien au jour<note place="bottom">« Se dit aussi en parlant de ce que l’on donne au public, qu’on met en lumière, qu’on découvre à tout le monde ».</note>, qui n’en fust premier<note place="bottom">« Se dit quelque fois adverbialement », signifie « en premier lieu », « d’abord ». </note> jugé digne dans l’Hostel de Rambouillet : de tenir pour maximes indubitables toutes vos opinions, et pour arrests<note place="bottom">Déverbal formé sur « arrester », métaphore qui compare le jugement de l’Hôtel de Rambouillet à « la décision prise par la Cour de justice ou l’instance administrative ». </note> souverains tous les sentimens de ces excellentes personnes, qui firent un miracle en vous donnant l’estre<note place="bottom">La naissance. </note>. Je pense m’estre acquité jusqu’icy fort religieusement de mon vœu. Et je m’asseure, MADEMOISELLE, que cette divine<note place="bottom">Nom donné aux Précieuses.</note> Angelique, qui vous aime et que vous aimez avec tant raison, ne me refusera pas la faveur de vous tesmoigner qu’elle m’a veu dans le dessein d’en user tousjours ainsi. Et certes à vray dire, il est bien doux d’avoir des juges aussi pleins de bonté que de connaissance, et de qui la censure et l’approbation se trouvent également utiles et glorieuses. Mon VASSAL GENEREUX, à qui vous avez fait l’honneur d’accorder la derniere<note place="bottom">« Favoriser »</note> apres avoir eu l’applaudissement du Theatre, va tascher d’obtenir sous vostre Nom celle des ruelles<note place="bottom">« Alcoves, et lieux parez où les Dames reçoivent leurs visites, soit dans le lit, soit sur des sièges. Les galans, se piquent d’être des gens de <hi rend="i">ruelles</hi>, d’aller faire de belles visites. Les Poètes vont lire leurs ouvrages dans les ruelles pour briguer l’approbation des Dames ».</note> et des cabinets<note place="bottom">« Le lieu le plus retiré dans le plus bel appartement des Palais, des grandes maisons », « un homme tient cabinet, pour dire, qu’il reçoit chez lui les honnêtes gens qui s’y veulent assembler pour faire une conversation savante et agréable » </note> : ce seroit là qu’il entreprendroit vos loüanges, et qu’il diroit qu’on voit en vous;</p>
         <l>O merveille des yeux, aimable autant qu’aimée,</l>
@@ -967,14 +966,16 @@
           </castItem>
           <castItem>
             <role xml:id="choeur-trompettes">Chœur de Trompettes.</role>
+            <role xml:id="citoyen" n="Un citoyen"/>
           </castItem>
         </castList>
       </div>
       <div type="act" xml:id="I">
-        <head>ACTE PREMIER. <pb n="1" xml:id="p1"/></head>
+        <pb n="1" xml:id="p1"/>
+        <head>ACTE PREMIER.</head>
         <div type="scene" xml:id="I01">
           <head>SCENE PREMIERE.</head>
-          <stage>THEANDRE, ROSILEE. </stage>
+          <stage>THEANDRE, ROSILEE.</stage>
           <sp who="theandre" xml:id="I01-1">
             <speaker>THEANDRE<hi rend="i"> seul.</hi></speaker>
             <stage>(Il est dans le Temple la nuict à la veille des armes dressées en trophée ; Ceremonie des chavaliers anciens.)</stage>
@@ -1048,11 +1049,11 @@
             <stage>Il entend de sa maistresse.</stage>
           </sp>
           <sp who="rosilee" xml:id="I01-2">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="49" xml:id="l49">De quoy s’entretenoit la moitié de mon ame?</l>
           </sp>
           <sp who="theandre" xml:id="I01-3">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="50" xml:id="l50">Une telle demande a fait tort à ma flamme,</l>
             <l n="51" xml:id="l51">Et l’Amour s’en plaignant, vous respond en <ref target="#courrous">courrous*</ref>,</l>
             <l n="52" xml:id="l52">Que Theandre en tous lieux ne peut songer qu’à vous.</l>
@@ -1062,14 +1063,15 @@
             <l n="56" xml:id="l56">L’oubly mesme en<note place="bottom">Représente « de la mémoire ».</note> aura pour vous y<note place="bottom">Représente « dans le cœur », il faut lire « l’oubli même aura de la mémoire pour vous conserver dans le cœur ».</note> conserver.</l>
           </sp>
           <sp who="rosilee" xml:id="I01-4">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="57" xml:id="l57">Ne jugerez- vous point ma faute sans exemple<note place="bottom">Signifie « sans précédent », « unique » dans un sens péjoratif, et donc « sans excuse ».</note>,</l>
             <l n="58" xml:id="l58">De venir si matin<note place="bottom">De si bonne heure.</note> vous trouver dans ce Temple?</l>
             <l n="59" xml:id="l59">Pardonnez ce peché qui ne vient que d’amour;</l>
             <l n="60" xml:id="l60">Je vous ay voulu voir aussi tost que le jour.</l>
           </sp>
+          <pb n="5" xml:id="p5"/>
           <sp who="theandre" xml:id="I01-5">
-            <speaker>THEANDRE.<space rend="tab"> </space><pb n="5" xml:id="p5"/></speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="61" xml:id="l61">Je prens comme je dois l’honneur de vos caresses<note place="bottom">« Démonstration d’amitié ou de bienveillance qu’on fait à quelqu’un par un accueil gracieux, par quelque cageolleries » </note>;</l>
             <l n="62" xml:id="l62">C’est dans ces lieux sacrez qu’on doit voir les Deesses,</l>
             <l n="63" xml:id="l63">C’est dans ces lieux icy<note place="bottom">Redondance fréquente au XVII<hi rend="sup">e</hi> siècle, qui insiste sur le lieu où l’on est.</note> qu’on les doit honorer;</l>
@@ -1080,14 +1082,14 @@
             <l n="68" xml:id="l68">Et le feu par vos yeux ne luy<note place="bottom">Représente « le cœur ».</note> manquera pas.</l>
           </sp>
           <sp who="rosilee" xml:id="I01-6">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="69" xml:id="l69">Que ces flammes d’amour ne vous soyent point fatales;</l>
             <l n="70" xml:id="l70">Je veux bien vous brusler, mais d’un feu des Vestales<note place="bottom">Prêtresses-vierges qui gardent le feu perpétuel de la déesse Vesta. C’est le feu bienveillant, « le foyer de la cité ».</note>,</l>
             <l n="71" xml:id="l71">Qu’un juste soin<note place="bottom">Dans le discours amoureux, c’est l’ensemble des attentions que l’on apporte à l’être aimé.</note> conserve, et qui n’esteint<note place="bottom">Ellipse du réfléchi « se », ou alors on peut considérer que « qui » a pour antécédent « feu », mais alors, il manque un complément. Il y a dans les deux cas une ambiguïté.</note> jamais;</l>
             <l n="72" xml:id="l72">Servez-luy d’aliment aussi bien que je fais.</l>
           </sp>
           <sp who="theandre" xml:id="I01-7">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="73" xml:id="l73">O Dieux! mon allegresse est bien tost accomplie,</l>
             <l n="74" xml:id="l74">Mais allez plus avant<note place="bottom">Signifie « dites-en d’avantage », « dévoilez-vous plus ».</note>, mon cœur, je vous supplie;</l>
             <l n="75" xml:id="l75">Et par les sentimens que donne la pitié,</l>
@@ -1095,11 +1097,11 @@
             <l n="77" xml:id="l77">Car parmy ces plaisirs certain soubçon m’afflige; <pb n="6" xml:id="p6"/></l>
           </sp>
           <sp who="rosilee" xml:id="I01-8">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="78" xml:id="l78">J’aime Theandre, autant que son amour m’oblige:</l>
           </sp>
           <sp who="theandre" xml:id="I01-9">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="79" xml:id="l79">Ha! ce n’est pas assez, il faut passer<note place="bottom">Dépasser.</note> ce point;</l>
             <l n="80" xml:id="l80">Peut-estre mon amour ne vous oblige point,</l>
             <l n="81" xml:id="l81">Et de cette façon vous ne m’aimerez guere;</l>
@@ -1107,21 +1109,22 @@
             <l n="83" xml:id="l83">Tout ou rien, tout ou rien, jusqu’aux derniers abois<note place="bottom">La mort.</note>:</l>
           </sp>
           <sp who="rosilee" xml:id="I01-10">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="84" xml:id="l84">J’aime encore Theandre autant que je le dois.</l>
           </sp>
           <sp who="theandre" xml:id="I01-11">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="85" xml:id="l85">Vous aimez par devoir! non pas Jupiter mesme<note place="bottom">Phrase probablement interrompue ici.</note>.</l>
           </sp>
           <sp who="rosilee" xml:id="I01-12">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="86" xml:id="l86">J’aime Theandre enfin aussi bien comme il aime;</l>
             <l n="87" xml:id="l87">Et pour le contenter plainement aujourd’huy,</l>
             <l n="88" xml:id="l88">Je veux qu’il sçache encor que j’aime plus que luy.</l>
           </sp>
+          <pb n="7" xml:id="p7"/>
           <sp who="theandre" xml:id="I01-13">
-            <speaker>THEANDRE.<space rend="tab"> </space><pb n="7" xml:id="p7"/></speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="89" xml:id="l89">Ha trop heureux Amant! plaisir incomparable!</l>
             <l n="90" xml:id="l90">O bon-heur<note place="bottom">« Félicité parfaite », « sort favorable ».</note> infiny, pourveu qu’il soit durable!</l>
             <l n="91" part="I" xml:id="l91">Mais........</l>
@@ -1131,7 +1134,7 @@
             <l part="M">Dieux que craignez- vous?</l>
           </sp>
           <sp who="theandre" xml:id="I01-15">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l part="F">qu’un desir de grandeur</l>
             <l n="92" xml:id="l92">N’esteigne avec mes jours une si belle ardeur;</l>
             <l n="93" part="I" xml:id="l93">Le Prince Lucidan.....</l>
@@ -1156,7 +1159,7 @@
             <l n="108" xml:id="l108">Si Dieux, ny Rois, ny Temps, m’obligent à changer,</l>
           </sp>
           <sp who="theandre" xml:id="I01-17">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="109" xml:id="l109">Avant que<note place="bottom">La locution est employée ici avec l’infinitif pur. La langue du XVII<hi rend="sup">e</hi> siècle omet très souvent, contrairement à l’usage actuel, la préposition <hi rend="i">de</hi> devant un infinitif construit avec le <hi rend="i">que</hi> comparatif (cf. Haase, § 88).</note> te placer<note place="bottom">Avant d’enfiler l’anneau à son doigt.</note> il faut que je t’adore;</l>
             <l n="110" xml:id="l110">Bel enfant du Soleil, asseure mon Aurore,</l>
             <l n="111" xml:id="l111">Qu’il faudroit plus de jours à me desenflamer,</l>
@@ -1191,11 +1194,11 @@
             <l n="138" xml:id="l138">Tesmoings vos yeux, signé, Theandre.</l>
           </sp>
           <sp who="rosilee" xml:id="I01-18">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="139" xml:id="l139">Cét aimable present je ne puis refuser.</l>
           </sp>
           <sp who="theandre" xml:id="I01-19">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="140" xml:id="l140">Sellez cette promesse avec un doux baiser;</l>
             <l n="141" xml:id="l141">Et ne me la rendez qu’en la seconde vie<note place="bottom">Périphrase lexicalisée, signifie « la mort ».</note>. <pb n="10" xml:id="p10"/></l>
             <l n="142" xml:id="l142">Dieux! le Temps qui m’a veu court plus viste d’<ref target="#envie1">envie*</ref><note place="bottom">Par jalousie.</note>;</l>
@@ -1207,17 +1210,18 @@
             <l n="145" xml:id="l145">Je reviendray bien tost accompagner la Reine:</l>
           </sp>
           <sp who="theandre" xml:id="I01-21">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="146" xml:id="l146">Moins vous demeurerez, et moins j’auray de peine<note place="bottom">Rosilée sort.</note>;</l>
             <l n="147" xml:id="l147">O cieux, au mesme instant que je perds ses appas,</l>
             <l n="148" xml:id="l148">Mon triste cœur me quitte, et la suit pas à pas.</l>
           </sp>
         </div>
         <div type="scene" xml:id="I02">
-          <head>SCENE SECONDE.<pb n="11" xml:id="p11"/></head>
+          <pb n="11" xml:id="p11"/>
+          <head>SCENE SECONDE.</head>
           <stage>LUCIDAN, ROSILEE, POLICRANE.</stage>
           <sp who="lucidan" xml:id="I02-1">
-            <speaker>LUCIDAN <hi rend="i">seul.</hi> </speaker>
+            <speaker>LUCIDAN <hi rend="i">seul.</hi></speaker>
             <l n="149" xml:id="l149">La fortune me rit, le sort m’est favorable;</l>
             <l n="150" xml:id="l150">Je suis autant heureux, que j’estois miserable;</l>
             <l n="151" xml:id="l151">Je triomphe sans peine, et comblé de bon-heur,</l>
@@ -1334,17 +1338,17 @@
             <l n="242" xml:id="l242">Et qu’un vous obeït dont vous serez subjette.</l>
           </sp>
           <sp who="rosilee" xml:id="I02-8">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="243" xml:id="l243">Trop de lumiere offusque, et l’œil ne la peut voir;</l>
             <l n="244" xml:id="l244">Je la crains par foiblesse, et la fuis par devoir.</l>
           </sp>
           <sp who="lucidan" xml:id="I02-9">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="245" xml:id="l245">Humilité superbe, et dont je hay l’usage;</l>
             <l n="246" xml:id="l246">La Couronne sied bien dessus un beau visage.</l>
           </sp>
           <sp who="rosilee" xml:id="I02-10">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="247" xml:id="l247">Mon cœur n’est point avare, il est plustost guerrier;</l>
             <l n="248" xml:id="l248">Je la mesprise d’or, et la veux de laurier.</l>
           </sp>
@@ -1354,7 +1358,7 @@
             <l n="249" xml:id="l249">Vous en aurez besoin, pour vous sauvez du foudre;</l>
           </sp>
           <sp who="rosilee" xml:id="I02-12">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="250" xml:id="l250">À souffrir les malheurs je sçauray me resoudre:</l>
           </sp>
           <sp who="lucidan" xml:id="I02-13">
@@ -1363,7 +1367,7 @@
             <l n="252" xml:id="l252">Que je suis Lucidan, et que je dois regner.</l>
           </sp>
           <sp who="rosilee" xml:id="I02-14">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="253" xml:id="l253">Vous me pardonnerez, la Reine me demande<note place="bottom">Elle sort.</note>:</l>
           </sp>
           <sp who="lucidan" xml:id="I02-15">
@@ -1398,10 +1402,10 @@
         <div type="scene" xml:id="I03">
           <pb n="19" xml:id="p19"/>
           <head>SCENE TROISIESME.</head>
-          <stage>THEANDRE, CHŒUR DE TROMPETTES, </stage>
-          <stage>ANDROPHILE, GLACITIDE, LUCIDAN, </stage>
-          <stage>ROSILEE, MENOCRITE, ORCHOMENE, </stage>
-          <stage>LUCIDAME, ROSIMAR, PALINONDE. </stage>
+          <stage>THEANDRE, CHŒUR DE TROMPETTES,</stage>
+          <stage>ANDROPHILE, GLACITIDE, LUCIDAN,</stage>
+          <stage>ROSILEE, MENOCRITE, ORCHOMENE,</stage>
+          <stage>LUCIDAME, ROSIMAR, PALINONDE.</stage>
           <sp who="theandre" xml:id="I03-1">
             <speaker>THEANDRE <hi rend="i">seul.</hi></speaker>
             <l n="271" xml:id="l271">Pensers, craintes, soubçons, mes plus fiers ennemis,</l>
@@ -1430,7 +1434,7 @@
             <l n="292" xml:id="l292">Ce quarreau<note place="bottom">Il s’agit peut-être ici d’un drapeau.</note> preparé m’enseigne mon devoir.</l>
           </sp>
           <sp who="androphile" xml:id="I03-2">
-            <speaker>ANDROPHILE. </speaker>
+            <speaker>ANDROPHILE.</speaker>
             <l n="293" xml:id="l293">L’esperance est le bien qui devance les autres;</l>
             <stage>Serment de l’Ordre de Chevalerie.</stage>
             <l n="294" xml:id="l294">N’estant point de vertus qui ne paroissent aux vostres;</l>
@@ -1444,24 +1448,24 @@
             <l n="302" xml:id="l302">Rien indigne de vous, non plus que de mon Ordre?</l>
           </sp>
           <sp who="theandre" xml:id="I03-3">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="303" xml:id="l303">Mes volontez d’accord, avecque mon devoir,</l>
             <l n="304" xml:id="l304">Ne manqueront jamais, si ce n’est de pouvoir.</l>
           </sp>
           <sp who="androphile" xml:id="I03-4">
-            <speaker>ANDROPHILE. </speaker>
+            <speaker>ANDROPHILE.</speaker>
             <l n="305" xml:id="l305">Il suffit, Lucidan, pour faveur signalée,</l>
             <l n="306" xml:id="l306">Chaussez-luy l’esperon, donnez-luy l’accollée:</l>
             <stage>
               <hi rend="i">Ceremonies antiques etmots essentiels.</hi>
-            </stage>
+           </stage>
           </sp>
           <sp who="theandre" xml:id="I03-5">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="307" xml:id="l307">L’Univers m’entendra ce bien fait <ref target="#publier">publier*</ref>:</l>
           </sp>
           <sp who="lucidan" xml:id="I03-6">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="308" xml:id="l308">Theandre, approchez-vous je vous fais Chevalier.</l>
           </sp>
           <sp who="rosilee" xml:id="I03-7">
@@ -1469,14 +1473,14 @@
             <l n="309" xml:id="l309">Je ne suis plus à moy, le Prince tient mon ame.</l>
           </sp>
           <sp who="androphile" xml:id="I03-8">
-            <speaker>ANDROPHILE. </speaker>
+            <speaker>ANDROPHILE.</speaker>
             <l n="310" xml:id="l310">Pour vous ceindre l’espée, eslisez une Dame:</l>
             <stage>
               <hi rend="i">Autreceremonie.</hi>
-            </stage>
+           </stage>
           </sp>
           <sp who="theandre" xml:id="I03-9">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <pb n="22" xml:id="p22"/>
             <l n="311" part="I" xml:id="l311">Amour en fait le choix,</l>
           </sp>
@@ -1485,7 +1489,7 @@
             <l part="F">Un aveugle<note place="bottom">Comme la fortune, l’amour est souvent comparé à un aveugle et représenté les yeux bandés.</note> choisir?</l>
           </sp>
           <sp who="theandre" xml:id="I03-11">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="312" xml:id="l312">Ouy Seigneur, un aveugle a trouvé mon desir:</l>
             <l n="313" xml:id="l313">Et c’est une beauté de tant d’attraits pourveuë,</l>
             <l n="314" xml:id="l314">Qu’il n’eust pû mieux eschoir<note place="bottom">« Choses conditionnelles qui arrivent par fortune, par hasard », on dirait « tomber » aujourd’hui.</note>, s’il eust eu bonne veuë.</l>
@@ -1500,7 +1504,7 @@
             <l n="319" xml:id="l319">De la Reine despend ce que vous demandez:</l>
           </sp>
           <sp who="lucidan" xml:id="I03-13">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="320" xml:id="l320">Mais de moy despendra ce que vous pretendez.</l>
             <stage>Il parle bas.</stage>
           </sp>
@@ -1517,7 +1521,7 @@
             <l n="324" xml:id="l324">Et vous rendre fameux entre tous les guerriers:</l>
           </sp>
           <sp who="lucidan" xml:id="I03-16">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="325" xml:id="l325">Que ses vœux ont d’amour, et moy d’inquietudes!</l>
             <stage>Il dit ce vers tout bas.</stage>
             <l n="326" xml:id="l326">Tirrannique respect, que tes Loix me sont rudes!</l>
@@ -1533,12 +1537,12 @@
             <l n="330" xml:id="l330">Vous offre ce renom sans partir de l’armée.</l>
           </sp>
           <sp who="lucidan" xml:id="I03-19">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="331" xml:id="l331">Seray-je retenu, le voyant retenir?</l>
             <stage>Il parle bas.</stage>
           </sp>
           <sp who="theandre" xml:id="I03-20">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="332" xml:id="l332">Là mon honneur doit naistre, ou ma course finir:</l>
             <l n="333" xml:id="l333">Il faut que la fortune à mes vœux favorable, <pb n="24" xml:id="p24"/></l>
             <l n="334" xml:id="l334">M’y donne la victoire, ou la mort honorable;</l>
@@ -1546,19 +1550,19 @@
             <l n="336" xml:id="l336">Sur un Char de triomphe, ou dedans un Cercueuïl;</l>
           </sp>
           <sp who="lucidan" xml:id="I03-21">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="337" xml:id="l337">Le dernier t’est certain, si ton feu continuë,</l>
             <stage>Il dit ce vers bas.</stage>
           </sp>
           <sp who="theandre" xml:id="I03-22">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="338" xml:id="l338">Puis que ma passion vous est assez connuë,</l>
             <stage>Il se tourne vers Rosilée.</stage>
             <l n="339" xml:id="l339">Trouvez bon que je porte (en volant jusqu’aux Cieux)</l>
             <l n="340" xml:id="l340">De vostre Chevalier le titre glorieux.</l>
           </sp>
           <sp who="rosilee" xml:id="I03-23">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="341" xml:id="l341">Ma gloire se rencontre avec vostre demande;</l>
             <l n="342" xml:id="l342">Mais pour vous obeïr, il faut qu’on me commande;</l>
             <l n="343" xml:id="l343">Pour sçavoir mes desirs, au lieu de m’en presser,</l>
@@ -1573,7 +1577,7 @@
             <l n="348" xml:id="l348">Ou du tout<note place="bottom">« Entièrement », synonyme de « tout à fait ».</note> miserable, ou tout à fait heureux.</l>
           </sp>
           <sp who="lucidan" xml:id="I03-25">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="349" xml:id="l349">La vanité sied bien, quand elle est moderée,</l>
             <l n="350" xml:id="l350">Et qu’un Zephir<note place="bottom">Dieu du vent d’Ouest, Zéphir représente le vent du printemps, c’est un vent doux.</note> la souffle, et non pas un Borée<note place="bottom">Il est le frère de Zéphir, mais contrairement à lui, il est le vent froid du Nord. Borée représente la force et la violence.</note>;</l>
             <l n="351" xml:id="l351">Mais icy vostre orgueil se veut trop eslever;</l>
@@ -1584,7 +1588,7 @@
             <l n="356" xml:id="l356">Et ne demandez rien sans l’avoir merité.</l>
           </sp>
           <sp who="theandre" xml:id="I03-26">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="357" xml:id="l357">Pour meriter l’honneur où mon desir aspire,</l>
             <l n="358" xml:id="l358">Il faudroit quelque chose au delà d’un Empire.</l>
           </sp>
@@ -1593,30 +1597,30 @@
             <l n="359" part="I" xml:id="l359">Pourquoy donc le vouloir?</l>
           </sp>
           <sp who="theandre" xml:id="I03-28">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l part="F">Je le veux seulement;</l>
             <l n="360" xml:id="l360">Afin de vous servir apres plus dignement;</l>
             <l n="361" xml:id="l361">Car dessous ce beau nom mon courage invincible, <pb n="26" xml:id="p26"/></l>
             <l n="362" xml:id="l362">Pourra tout entreprendre, et trouver tout possible.</l>
           </sp>
           <sp who="lucidan" xml:id="I03-29">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="363" xml:id="l363">Ce penser est injuste; et ce superbe rang,</l>
             <l n="364" xml:id="l364">Ne se peut acquerir qu’en la perte du sang.</l>
           </sp>
           <sp who="theandre" xml:id="I03-30">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="365" xml:id="l365">Mon sang pour ce subjet<note place="bottom">« Cause, occasion, fodement », « raison ».</note> est tout prest à respandre<note place="bottom">Omission, courante, du pronom réfléchi « se ».</note>;</l>
             <l n="366" xml:id="l366">Mais Seigneur, qu’a bien fait le mal-heureux Theandre?</l>
             <l n="367" xml:id="l367">O Dieux, que l’apparence est un miroir flateur;</l>
             <l n="368" xml:id="l368">Je trouve un ennemy, que j’ay creu protecteur.</l>
           </sp>
           <sp who="lucidan" xml:id="I03-31">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="369" part="I" xml:id="l369">Une folle......</l>
           </sp>
           <sp who="androphile" xml:id="I03-32">
-            <speaker>ANDROPHILE. </speaker>
+            <speaker>ANDROPHILE.</speaker>
             <l part="F">Tout beau: vostre ame bien <ref target="#regler">reglée*</ref><note place="bottom">Obéissante, modérée, soumise.</note>,</l>
             <l n="370" xml:id="l370">Faisant ce jugement ne s’est point aveuglée;</l>
             <l n="371" xml:id="l371">Lucidan vous estime, et consent à vos vœux;</l>
@@ -1629,14 +1633,14 @@
             <l n="378" xml:id="l378">Le festin et le bal finiront la journée:</l>
           </sp>
           <sp who="theandre" xml:id="I03-33">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <stage>Il baise la main du Prince.</stage>
             <l n="379" xml:id="l379">En cét excez d’honneur je ne me puis <ref target="#regler">regler*</ref><note place="bottom">« Je ne puis me modérer ».</note>,</l>
           </sp>
           <sp who="lucidan" xml:id="I03-34">
             <speaker>LUCIDAN.</speaker>
             <l n="380" xml:id="l380">Il faut que je l’embrasse, au lieu de l’estrangler.</l>
-            <stage>Il dit cecy tout bas. </stage>
+            <stage>Il dit cecy tout bas.</stage>
           </sp>
         </div>
       </div>
@@ -1645,7 +1649,7 @@
         <head>ACTE SECOND.</head>
         <div type="scene" xml:id="II01">
           <head>SCENE PREMIERE.</head>
-          <stage>GLACITIDE, THEANDRE, ROSILEE. </stage>
+          <stage>GLACITIDE, THEANDRE, ROSILEE.</stage>
           <sp who="glacitide" xml:id="II01-1">
             <speaker>GLACITIDE.</speaker>
             <l n="381" xml:id="l381">Vous n’avez pas semé sur l’infertile arene<note place="bottom">« Sable menu et mouvant ». Il faut lire : vous n’avez pas agi en vain.</note>;</l>
@@ -1681,26 +1685,26 @@
             <l n="408" xml:id="l408">Il m’auroit donné plus que je n’aurois conquis.</l>
           </sp>
           <sp who="rosilee" xml:id="II01-3">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="409" xml:id="l409">Ouy, si l’affection peut passer pour merite;</l>
             <l n="410" xml:id="l410">Comme l’un seroit grand, l’autre n’est pas petite;</l>
             <l n="411" xml:id="l411">Et pourveu que mes <ref target="#soin">soings*</ref> vous puissent obliger;</l>
             <l n="412" xml:id="l412">Aucun pour vous servir je n’en veux negliger.</l>
           </sp>
           <sp who="glacitide" xml:id="II01-4">
-            <speaker>GLACITIDE. </speaker>
+            <speaker>GLACITIDE.</speaker>
             <l n="413" xml:id="l413">Que vous estes heureux bruslant de mesme flames!</l>
             <l n="414" xml:id="l414">Le vray plaisir consiste en l’union des ames;</l>
             <l n="415" xml:id="l415">Plaisir si plein d’appas, si charmant, et si cher,</l>
             <l n="416" xml:id="l416">Qu’apres qu’on le possede, il n’en faut plus chercher.</l>
           </sp>
           <sp who="theandre" xml:id="II01-5">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="417" xml:id="l417">Madame il est certain, ces douceurs sont divines;</l>
             <l n="418" xml:id="l418">Mais en cueïllant ces fleurs j’y trouve des espines:</l>
           </sp>
           <sp who="glacitide" xml:id="II01-6">
-            <speaker>GLACITIDE. </speaker>
+            <speaker>GLACITIDE.</speaker>
             <l n="419" xml:id="l419">Quel subjet avez-vous de craindre le malheur?</l>
           </sp>
           <sp who="rosilee" xml:id="II01-7">
@@ -1713,12 +1717,12 @@
             <l n="421" xml:id="l421">De moy, comment cela? Dieux, que suis troublée!</l>
           </sp>
           <sp who="theandre" xml:id="II01-9">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="422" xml:id="l422">Le Prince Lucidan adore Rosilée,</l>
             <l n="423" xml:id="l423">Jugez si je dois craindre en voyant ce Rival:</l>
           </sp>
           <sp who="glacitide" xml:id="II01-10">
-            <speaker>GLACITIDE. </speaker>
+            <speaker>GLACITIDE.</speaker>
             <l n="424" xml:id="l424">N’ayez non plus de peur que vous aurez de mal.</l>
             <l n="425" xml:id="l425">M’apprenant le subjet de sa <ref target="#melancolie">melancholie*</ref><note place="bottom">L’une des quatre humeurs qui sont dans le corps, la mélancolie est la plus pesante et la plus incommode. Elle cause la tristesse et le chagrin. La mélancolie noire cause quelque fois la folie. C’est de cette dernière qu’il s’agit comme le montre le mot à la rime « sa folie ».</note>,</l>
             <l n="426" xml:id="l426">La prudence du Roy domptera sa folie;</l>
@@ -1726,7 +1730,7 @@
             <l n="428" xml:id="l428">Afin qu’il le remette aux termes du devoir.</l>
           </sp>
           <sp who="theandre" xml:id="II01-11">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="429" xml:id="l429">Puissent les immortels reconnoistre les peines,</l>
             <l n="430" xml:id="l430">Que prend pour ses subjets la meilleure des Reines.</l>
           </sp>
@@ -1734,14 +1738,14 @@
         <div type="scene" xml:id="II02">
           <pb n="32" xml:id="p32"/>
           <head>SCENE SECONDE.</head>
-          <stage>LINDORANTE, LUCIDAN, PHILIDASPE. </stage>
+          <stage>LINDORANTE, LUCIDAN, PHILIDASPE.</stage>
           <sp who="lindorante" xml:id="II02-1">
-            <speaker>LINDORANTE. </speaker>
+            <speaker>LINDORANTE.</speaker>
             <l n="431" xml:id="l431">Le respect vous oblige, et la raison aussi,</l>
             <l n="432" xml:id="l432">D’esteindre, ou de couvrir ce feu qui brusle ainsi.</l>
           </sp>
           <sp who="lucidan" xml:id="II02-2">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="433" xml:id="l433">Ha! bons Dieux Lindorante, il ne m’est pas possible;</l>
             <l n="434" xml:id="l434">Je suis fort patient, mais non pas insensible;</l>
             <l n="435" xml:id="l435">Ce mal me tient au cœur qu’on ne peut secourir<note place="bottom">Relative ambigüe quant à la nature de l’antécédent, est-ce « mal » ou « cœur »? Il semble plus logique que ce soit le « cœur » qui ne puisse être secouru.</note>;</l>
@@ -1764,7 +1768,7 @@
             <l n="452" xml:id="l452">Le superbe Tiran qui regne dans mon cœur.</l>
           </sp>
           <sp who="lindorante" xml:id="II02-3">
-            <speaker>LINDORANTE. </speaker>
+            <speaker>LINDORANTE.</speaker>
             <l n="453" xml:id="l453">Nous voulons estre attaints quand cét <ref target="#archer">Archer*</ref> nous blesse;</l>
             <l n="454" xml:id="l454">Sa force ne luy vient que de nostre foiblesse;</l>
             <l n="455" xml:id="l455">Et quand il nous surprend, c’est par la trahison,</l>
@@ -1787,14 +1791,14 @@
             <l n="472" xml:id="l472">J’en auray de la joye, et vous de la santé.</l>
           </sp>
           <sp who="philidaspe" xml:id="II02-4">
-            <speaker>PHILIDASPE. </speaker>
+            <speaker>PHILIDASPE.</speaker>
             <l n="473" xml:id="l473">Ignorans Medecins, stupides que nous sommes,</l>
             <l n="474" xml:id="l474">De mesurer les grands au vulgaire des hommes;</l>
             <l n="475" xml:id="l475">Et par ces beaux conseils qu’ils peuvent desdaigner,</l>
             <l n="476" xml:id="l476">Vouloir faire obeïr ceux qui doivent regner.</l>
           </sp>
           <sp who="lindorante" xml:id="II02-5">
-            <speaker>LINDORANTE. </speaker>
+            <speaker>LINDORANTE.</speaker>
             <l n="477" xml:id="l477">Pour regner seurement, qu’ils regnent sur eux-mesmes;</l>
             <l n="478" xml:id="l478">S’ils domptent les desirs, leurs forces sont extrêmes;</l>
             <l n="479" xml:id="l479">Adorez de leurs peuples, et comblez de bon-heur, <pb n="35" xml:id="p35"/></l>
@@ -1828,23 +1832,23 @@
             <l n="504" xml:id="l504">La laideur est esgale avecque la beauté.</l>
           </sp>
           <sp who="lucidan" xml:id="II02-7">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="505" xml:id="l505">Mais mon contentement n’est pas en ma puissance,</l>
             <l n="506" xml:id="l506">J’ay tasché vainement de l’avoir par constance.</l>
           </sp>
           <sp who="philidaspe" xml:id="II02-8">
-            <speaker>PHILIDASPE. </speaker>
+            <speaker>PHILIDASPE.</speaker>
             <l n="507" xml:id="l507">Quand on refuse un bien, desja trop acheté,</l>
             <l n="508" xml:id="l508">Sçachez que l’<ref target="#inconstant">inconstance*</ref> est une lascheté:</l>
             <l n="509" xml:id="l509">Cette difficulté vous doit servir d’amorce;</l>
             <l n="510" xml:id="l510">Où la constance est foible, il faut joindre la force,</l>
           </sp>
           <sp who="lindorante" xml:id="II02-9">
-            <speaker>LINDORANTE. </speaker>
+            <speaker>LINDORANTE.</speaker>
             <l n="511" xml:id="l511">Tes conseils luy rendront tous les Dieux ennemis.</l>
           </sp>
           <sp who="philidaspe" xml:id="II02-10">
-            <speaker>PHILIDASPE. </speaker>
+            <speaker>PHILIDASPE.</speaker>
             <l n="512" xml:id="l512">Aux Princes comme luy, ce qui plaist est permis.</l>
             <l n="513" xml:id="l513">Tous les grands sont des Dieux, qui sont exempts de crime;<pb n="37" xml:id="p37"/></l>
             <l n="514" xml:id="l514">Leur pouvoir les absout, et rend tout legitime:</l>
@@ -1858,16 +1862,16 @@
             <l n="522" xml:id="l522">Peut-on estre blasmé de suivre ses exemples?</l>
           </sp>
           <sp who="lindorante" xml:id="II02-11">
-            <speaker>LINDORANTE. </speaker>
+            <speaker>LINDORANTE.</speaker>
             <l n="523" xml:id="l523">L’humaine impieté fit ces inventions,</l>
             <l n="524" xml:id="l524">Afin d’authoriser ses sales passions:</l>
           </sp>
           <sp who="philidaspe" xml:id="II02-12">
-            <speaker>PHILIDASPE. </speaker>
+            <speaker>PHILIDASPE.</speaker>
             <l n="525" xml:id="l525">Dans l’histoire des Dieux ton ame est ignorante:</l>
           </sp>
           <sp who="lucidan" xml:id="II02-13">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="526" xml:id="l526">Allez, retirez-vous, trop sage Lindorante,</l>
             <l n="527" xml:id="l527">Amour est un enfant qui cherit ses pareils:</l>
             <l n="528" xml:id="l528">Philidaspe, va-t’en, je suivray tes conseils;</l>
@@ -1877,9 +1881,9 @@
         </div>
         <div type="scene" xml:id="II03">
           <head>SCENE TROISIESME.</head>
-          <stage>GLACITIDE, ANDROPHILE, LUCIDAN. </stage>
+          <stage>GLACITIDE, ANDROPHILE, LUCIDAN.</stage>
           <sp who="glacitide" xml:id="II03-1">
-            <speaker>GLACITIDE. </speaker>
+            <speaker>GLACITIDE.</speaker>
             <l n="531" xml:id="l531">Taschez de luy tirer cette espine du cœur,</l>
             <l n="532" xml:id="l532">Mais ne le traictez pas avec trop de rigueur,</l>
             <l n="533" xml:id="l533">Car au lieu d’y servir elle nous pourroit nuire:</l>
@@ -1926,7 +1930,7 @@
             <l n="568" xml:id="l568">Pour luy faire observer tout ce qu’il vous plaira.</l>
           </sp>
           <sp who="androphile" xml:id="II03-4">
-            <speaker>ANDROPHILE. </speaker>
+            <speaker>ANDROPHILE.</speaker>
             <l n="569" xml:id="l569">Je suis fasché de voir deux choses en vostre ame,</l>
             <l n="570" xml:id="l570">Fort indignes d’un Prince, et bien dignes de blâme,</l>
             <l n="571" xml:id="l571">Et qui vous porteront un jour dans le malheur,</l>
@@ -1997,17 +2001,17 @@
             <l n="636" xml:id="l636">Et semble que mon cœur ait des desseins de sortir.</l>
           </sp>
           <sp who="lucidan" xml:id="II03-5">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="637" xml:id="l637">Un lict seroit pour vous meilleur que cette place:</l>
           </sp>
           <sp who="androphile" xml:id="II03-6">
-            <speaker>ANDROPHILE. </speaker>
+            <speaker>ANDROPHILE.</speaker>
             <l n="638" xml:id="l638">N’approchant point tes feux d’un tronc qui n’est que glace,</l>
             <l n="639" xml:id="l639">Grave en ton souvenir, que par ton fol amour,</l>
             <l n="640" xml:id="l640">Tu ravis la lumière à qui te mis au jour<note place="bottom">Le roi agonise.</note>.</l>
           </sp>
           <sp who="lucidan" xml:id="II03-7">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="641" xml:id="l641">O Ciel, faut-il souffrir le mespris qui me brave?</l>
             <l n="642" xml:id="l642">Quoy que je sois son fils, il me traicte en esclave:</l>
             <l n="643" xml:id="l643">Et ne suis-je pas Prince aussi bien comme luy?</l>
@@ -2017,26 +2021,26 @@
         <div type="scene" xml:id="II04">
           <pb n="44" xml:id="p44"/>
           <head>SCENE QUATRIEME.</head>
-          <stage>LUCIDAN, THEANDRE, ROSILEE. </stage>
+          <stage>LUCIDAN, THEANDRE, ROSILEE.</stage>
           <sp who="lucidan" xml:id="II04-1">
             <speaker>LUCIDAN.</speaker>
             <l n="645" part="I" xml:id="l645">Ha traistre il faut mourir,</l>
           </sp>
           <sp who="theandre" xml:id="II04-2">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l part="M">Seigneur,</l>
           </sp>
           <sp who="lucidan" xml:id="II04-3">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l part="F">la resistance</l>
             <l n="646" xml:id="l646">Au lieu de te sauver irrite ma vangeance:</l>
           </sp>
           <sp who="theandre" xml:id="II04-4">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="647" xml:id="l647">Je ne fais que parer le coup de mon trespas;</l>
           </sp>
           <sp who="rosilee" xml:id="II04-5">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="648" xml:id="l648">Dieux! que voulez-vous faire? il ne se deffend pas.</l>
           </sp>
           <sp who="lucidan" xml:id="II04-6">
@@ -2058,7 +2062,7 @@
             <l n="662" xml:id="l662">Endure qu’un souspir eschape à vostre bouche.</l>
           </sp>
           <sp who="theandre" xml:id="II04-7">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="663" xml:id="l663">Ha Ciel! il la vaincra, sa <ref target="#constant">constance*</ref> va choir<note place="bottom">« Tomber », « diminuer ».</note>;</l>
             <l n="664" part="I" xml:id="l664">Il la faut soustenir, la Bague,</l>
           </sp>
@@ -2067,20 +2071,21 @@
             <stage>Ils se monstrent leurs gages.</stage>
             <l part="F">le Mouchoir.</l>
           </sp>
+          <pb xml:id="p46" n="46"/>
           <sp who="lucidan" xml:id="II04-9">
-            <speaker>LUCIDAN. <space rend="tab"> </space> [46]</speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="665" part="I" xml:id="l665">Indiscret,</l>
           </sp>
           <sp who="rosilee" xml:id="II04-10">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l part="M">le Mouchoir,</l>
           </sp>
           <sp who="theandre" xml:id="II04-11">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l part="M">la Bague,</l>
           </sp>
           <sp who="lucidan" xml:id="II04-12">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l part="F">O Dieux, perfides,</l>
             <l n="666" xml:id="l666">Vous cachez sous ces mots vos trames<note place="bottom">Complot secret, trahison.</note> homicides:</l>
             <l n="667" xml:id="l667">La Bague, et le Mouchoir, quels signes sont-ce icy?</l>
@@ -2101,7 +2106,7 @@
             <l n="678" xml:id="l678">Feront durer mes feux plus long-temps que ma vie:</l>
           </sp>
           <sp who="rosilee" xml:id="II04-14">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="679" xml:id="l679">La Bague, et le Mouchoir, seront tousjours tesmoins,</l>
             <l n="680" xml:id="l680">Que ce que j’ay promis ne durera pas moins.</l>
           </sp>
@@ -2112,7 +2117,7 @@
         <head>ACTE TROISIESME.</head>
         <div type="scene" xml:id="III01">
           <head>SCENE PREMIERE.</head>
-          <stage>LUCIDAN, PHILIDASPE, LINDORANTE. </stage>
+          <stage>LUCIDAN, PHILIDASPE, LINDORANTE.</stage>
           <sp who="lucidan" xml:id="III01-1">
             <speaker>LUCIDAN.</speaker>
             <l n="681" xml:id="l681">Je regne Lindorante, et tousjours dans la flame,</l>
@@ -2177,7 +2182,7 @@
             <l n="736" xml:id="l736">Elle sera contente, et vous fort satisfait.</l>
           </sp>
           <sp who="lindorante" xml:id="III01-3">
-            <speaker>LINDORANTE. </speaker>
+            <speaker>LINDORANTE.</speaker>
             <l n="737" xml:id="l737">Sire ce beau conseil, qui se dit si propice,</l>
             <l n="738" xml:id="l738">Est un ardent trompeur, qui meine au precipice;</l>
             <l n="739" xml:id="l739">Ce feu que Philidaspe orne de tant d’appas,</l>
@@ -2195,18 +2200,18 @@
             <l n="747" xml:id="l747">Je sçauray bien ranger<note place="bottom">« Subjuguer, imposer des loix, obliger à obeïr », « dompter ».</note> ces courages ingrats:</l>
           </sp>
           <sp who="philidaspe" xml:id="III01-5">
-            <speaker>PHILIDASPE. </speaker>
+            <speaker>PHILIDASPE.</speaker>
             <l n="748" xml:id="l748">L’occasion l’a belle, et l’Amour tend les bras;</l>
             <l n="749" xml:id="l749">Mais parce qu’il a peur, le lasche vous en donne:</l>
           </sp>
           <sp who="lindorante" xml:id="III01-6">
-            <speaker>LINDORANTE. </speaker>
+            <speaker>LINDORANTE.</speaker>
             <l n="750" xml:id="l750">Sire, en voyant l’injure<note place="bottom">Injustice.</note> où sa voix s’abandonne,</l>
             <l n="751" xml:id="l751">Tout ce que je puis dire à vostre Majesté,</l>
             <l n="752" xml:id="l752">Est qu’elle me verra mourir à son costé.</l>
           </sp>
           <sp who="lucidan" xml:id="III01-7">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="753" xml:id="l753">Je me puis garantir<note place="bottom">« Se mettre en sureté » (Littré).</note> sans que tu te hasardes:</l>
             <l n="754" xml:id="l754">Faites-moy suivre là par trente de mes Gardes;</l>
             <l n="755" xml:id="l755">Ce nombre suffira pour ce peuple insolent;</l>
@@ -2216,9 +2221,9 @@
         <div type="scene" xml:id="III02">
           <pb n="53" xml:id="p53"/>
           <head>SCENE SECONDE.</head>
-          <stage>GLACITIDE, THEANDRE. </stage>
+          <stage>GLACITIDE, THEANDRE.</stage>
           <sp who="glacitide" xml:id="III02-1">
-            <speaker>GLACITIDE. </speaker>
+            <speaker>GLACITIDE.</speaker>
             <l n="757" xml:id="l757">Je ne puis m’esloigner, quoy que je le desire;</l>
             <stage>La Reine est dans un Chasteau.</stage>
             <l n="758" xml:id="l758">Quelque chose en arriere incessament me tire;</l>
@@ -2257,7 +2262,7 @@
             <l n="788" xml:id="l788">Je respandray mon sang pour conserver le sien.</l>
           </sp>
           <sp who="glacitide" xml:id="III02-3">
-            <speaker>GLACITIDE. </speaker>
+            <speaker>GLACITIDE.</speaker>
             <l n="789" xml:id="l789">Rare fidelité qui n’eut jamais d’exemple;</l>
             <l n="790" xml:id="l790">Digne que les mortels vous erigent un Temple!</l>
             <l n="791" xml:id="l791">Sauvez donc à<note place="bottom">Préposition qui marque l’appartenance du « Sceptre » et de l’« honneur » au Prince. En français moderne, on emploie « de ».</note> ce Prince, et le Sceptre, et l’honneur; <pb n="55" xml:id="p55"/></l>
@@ -2266,16 +2271,16 @@
             <l n="794" xml:id="l794">Payera ce service avec vostre <ref target="#constant">constance*</ref><note place="bottom">Fidélité.</note>.</l>
           </sp>
           <sp who="theandre" xml:id="III02-4">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="795" xml:id="l795">Selon ses volontez, qu’il dispose de moy;</l>
             <l n="796" xml:id="l796">Je suis tousjours vassal, il est tousjours mon Roy.</l>
           </sp>
         </div>
         <div type="scene" xml:id="III03">
           <head>SCENE TROISIESME.</head>
-          <stage>PHILIDASPE, LUCIDAN, LINDORANTE. </stage>
+          <stage>PHILIDASPE, LUCIDAN, LINDORANTE.</stage>
           <sp who="philidaspe" xml:id="III03-1">
-            <speaker>PHILIDASPE. </speaker>
+            <speaker>PHILIDASPE.</speaker>
             <l n="797" xml:id="l797">L’ame dans le peril se doit monstrer discrette;</l>
             <stage>Il se fait un grand bruit derriere le Theatre.</stage>
             <l n="798" xml:id="l798">Je trouve qu’il est temps de sonner la retraicte;</l>
@@ -2288,7 +2293,7 @@
             <l n="802" xml:id="l802">Ha traistre, tu n’as rien que la langue hardie<note place="bottom">Il faut lire : seule ta langue est hardie.</note>.</l>
           </sp>
           <sp who="lindorante" xml:id="III03-3">
-            <speaker>LINDORANTE. </speaker>
+            <speaker>LINDORANTE.</speaker>
             <l n="803" xml:id="l803">Sire, soyez tesmoin que je meurs aujourd’huy,</l>
             <l n="804" xml:id="l804">Beaucoup moins temeraire, mais plus vaillant que luy:</l>
             <l n="805" xml:id="l805">D’un conseil mesprisé je vous fait le reproche;</l>
@@ -2297,7 +2302,7 @@
             <l n="808" xml:id="l808">Et je veux que mon corps vous serve de rempart.</l>
           </sp>
           <sp who="lucidan" xml:id="III03-4">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="809" xml:id="l809">Je parts, mais à dessein d’avoir cette allegeance<note place="bottom">Soulagement.</note>,</l>
             <l n="810" xml:id="l810">D’immoler de ma main, ce traistre à ma vangeance;</l>
             <l n="811" xml:id="l811">Il faut que son <ref target="#trepas">trespas*</ref> instruise les flatteurs;</l>
@@ -2306,10 +2311,10 @@
         </div>
         <div type="scene" xml:id="III04">
           <pb n="57" xml:id="p57"/>
-          <head>SCENE QUATRIESME. </head>
-          <stage>ROSIMAR, CHŒUR DE PEUPLE. </stage>
+          <head>SCENE QUATRIESME.</head>
+          <stage>ROSIMAR, CHŒUR DE PEUPLE.</stage>
           <sp who="rosimar" xml:id="III04-1">
-            <speaker>ROSIMAR. </speaker>
+            <speaker>ROSIMAR.</speaker>
             <l n="813" xml:id="l813">Comment? peuple Gaulois, la valeur indomptée,</l>
             <l n="814" xml:id="l814">De vos braves Ayeuls, est-elle surmontée?</l>
             <l n="815" xml:id="l815">Quoy! degenerez<note place="bottom">« Devenir moindre en valeur, en merite, que ceux qui ont precedé », c’est ne pas être digne de son sang, de sa famille, de sa lignée. Ici, Rosimar veut prouver aux autres chefs Gaulois qu’ils ne seront plus dignes du sang royal qu’ils ont s’ils laissent un tyran régner. C’est une attaque grave pour un homme vaillant et courageux, et c’est cet argument qui va motiver l’assemblée.</note>-vous de ce genereux sang?</l>
@@ -2335,23 +2340,23 @@
             <l n="835" xml:id="l835">Que dans tous les quartiers chacun aille disant,</l>
             <l n="836" xml:id="l836">Liberté, liberté, ce joug<note place="bottom">Soumission, assujettissement.</note> est trop pesant.</l>
           </sp>
-          <sp who="un-citoyen" xml:id="III04-2">
-            <speaker>UN CITOYEN. </speaker>
+          <sp who="citoyen" xml:id="III04-2">
+            <speaker>UN CITOYEN.</speaker>
             <l n="837" xml:id="l837">Sans vouloir rechercher le conseil d’aucun autre,</l>
             <l n="838" xml:id="l838">Que vostre volonté dispose de la nostre.</l>
           </sp>
           <sp who="rosimar" xml:id="III04-3">
-            <speaker>ROSIMAR. </speaker>
+            <speaker>ROSIMAR.</speaker>
             <l n="839" xml:id="l839">Allons, allons soldats, chassez cét Ennemy,</l>
             <l n="840" xml:id="l840">Achevant un labeur desja fait à demy.</l>
           </sp>
         </div>
         <div type="scene" xml:id="III05">
           <pb n="59" xml:id="p59"/>
-          <head>SCENE CINQUIESME. </head>
-          <stage>ROSILEE, ARTESIE. </stage>
+          <head>SCENE CINQUIESME.</head>
+          <stage>ROSILEE, ARTESIE.</stage>
           <sp who="rosilee" xml:id="III05-1">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="841" xml:id="l841">Me loger chez Theandre, et mesme en son absence!</l>
             <l n="842" xml:id="l842">Ce procedé nouveau chocque la bien-seance;</l>
             <l n="843" xml:id="l843">Quelque mauvais dessein est dans l’esprit du Roy;</l>
@@ -2362,7 +2367,7 @@
             <l n="848" xml:id="l848">J’auray quitté la sienne, et pris cette Maison.</l>
           </sp>
           <sp who="artesie" xml:id="III05-2">
-            <speaker>ARTESIE. </speaker>
+            <speaker>ARTESIE.</speaker>
             <l n="849" xml:id="l849">Mon logis escarté trompera sa poursuite;</l>
             <l n="850" xml:id="l850">Icy rien ne sçauroit empescher nostre fuite;</l>
             <l n="851" xml:id="l851">Theandre et mon Mary ne peuvent estre loing;</l>
@@ -2373,7 +2378,7 @@
             <l n="856" xml:id="l856">En Chevaliers errans<note place="bottom">Chevaliers qui couraient le reste du monde à la recherche d’aventures et d’exploits à faire, souvent au service d’une Dame. De plus, ils dissimulaient le plus souvent leur identité.</note> nous courrons les dangers.</l>
           </sp>
           <sp who="rosilee" xml:id="III05-3">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="857" xml:id="l857">Ouy, deussay-je souffrir mille morts au lieu d’une,</l>
             <l n="858" xml:id="l858">Je feray que l’Amour domptera la fortune,</l>
             <l n="859" xml:id="l859">Et s’il poursuit encor ses infames projects,</l>
@@ -2383,10 +2388,10 @@
         </div>
         <div type="scene" xml:id="III06">
           <pb n="61" xml:id="p61"/>
-          <head>SCENE SIXIESME. </head>
-          <stage>ALCASTE, ROSILEE, ARTESIE. </stage>
+          <head>SCENE SIXIESME.</head>
+          <stage>ALCASTE, ROSILEE, ARTESIE.</stage>
           <sp who="alcaste" xml:id="III06-1">
-            <speaker>ALCASTE. </speaker>
+            <speaker>ALCASTE.</speaker>
             <l n="862" xml:id="l862">Madame sauvez-vous, de crainte d’estre prise;</l>
             <l n="863" xml:id="l863">Le logis de mon Maistre attaqué par le Roy,</l>
             <l n="864" xml:id="l864">N’a pas un serviteur qui ne tremble d’effroy;</l>
@@ -2397,7 +2402,7 @@
             <l n="869" xml:id="l869">C’est à vous de choisir, quel <ref target="#conseil">conseil*</ref><note place="bottom">Résolution, décision.</note> on doit prendre:</l>
           </sp>
           <sp who="rosilee" xml:id="III06-2">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="870" xml:id="l870">Mon conseil et mes pas s’adressent vers<note place="bottom">Le verbe signifie ici « aller droit au but », il y a une notion de direction et de déplacement qui explique peut-être l’emploi de la préposition « vers ».</note> Theandre:</l>
             <l n="871" xml:id="l871">Allons chere Artesie, allons-y promptement<note place="bottom">Vite, rapidement.</note>;</l>
             <l n="872" xml:id="l872">Cachons un amour vray d’un feint habillement;</l>
@@ -2406,14 +2411,14 @@
             <l n="875" xml:id="l875">Ce secret important n’est pas à <ref target="#publier">publier*</ref>:</l>
           </sp>
           <sp who="artesie" xml:id="III06-3">
-            <speaker>ARTESIE. </speaker>
+            <speaker>ARTESIE.</speaker>
             <l n="876" xml:id="l876">Il faut que je vous fasse aujourd’huy Chevalier.</l>
           </sp>
         </div>
         <div type="scene" xml:id="III07">
           <head>SCENE SEPTIESME.</head>
           <sp who="lucidan" xml:id="III07-1">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="877" xml:id="l877">Cesse facheux Amour, cesse de me poursuivre,</l>
             <stage>Il est sur le pont de son Palais.</stage>
             <l n="878" xml:id="l878">Donne-moy le moyen de mourir ou de vivre;</l>
@@ -2441,17 +2446,17 @@
         </div>
         <div type="scene" xml:id="III08">
           <pb n="64" xml:id="p64"/>
-          <head>SCENE HUICTIEME. </head>
-          <stage>PALINONDE, ALBERIN, LUCIDAN. </stage>
+          <head>SCENE HUICTIEME.</head>
+          <stage>PALINONDE, ALBERIN, LUCIDAN.</stage>
           <sp who="palinonde" xml:id="III08-1">
-            <speaker>PALINONDE. </speaker>
+            <speaker>PALINONDE.</speaker>
             <l n="899" xml:id="l899">Les Princes, le Senat, et le peuple Gaulois,</l>
             <l n="900" xml:id="l900">Ne pouvant plus souffrir le desordre des Loix,</l>
             <l n="901" xml:id="l901">Declarent Lucidan indigne de l’Empire;</l>
             <l n="902" xml:id="l902">Ordonnant qu’il s’en aille, à peine d’avoir pire<note place="bottom">Sous peine qu’on lui inflige une punition plus grande.</note>.</l>
           </sp>
           <sp who="lucidan" xml:id="III08-2">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="903" xml:id="l903">Je despité<note place="bottom">Se facher contre. Forme du passé simple encore très employée.</note> le Ciel de me faire endurer;</l>
             <l n="904" xml:id="l904">Voicy le dernier traict qui luy reste à tirer:</l>
             <l n="905" xml:id="l905">Il arme contre moy la plus fiere des bestes;</l>
@@ -2505,14 +2510,14 @@
         <div type="scene" xml:id="III09">
           <pb n="67" xml:id="p67"/>
           <head>SCENE NEUFIESME.</head>
-          <stage>PHILIDASPE, LUCIDAN. </stage>
+          <stage>PHILIDASPE, LUCIDAN.</stage>
           <sp who="philidaspe" xml:id="III09-1">
-            <speaker>PHILIDASPE. </speaker>
+            <speaker>PHILIDASPE.</speaker>
             <l n="951" part="I" xml:id="l951">Sire consolez vous;</l>
             <stage>Il le tuë.</stage>
           </sp>
           <sp who="lucidan" xml:id="III09-2">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l part="F">Traistre, tu sentiras,</l>
             <l n="952" xml:id="l952">Qu’en m’arrachant le Sceptre, on m’a laissé le bras:</l>
             <l n="953" xml:id="l953">La nuict moins noire encor, que l’humeur qui me dompte,</l>
@@ -2527,9 +2532,9 @@
         <head>ACTE QUATRIESME.</head>
         <div type="scene" xml:id="IV01">
           <head>SCENE PREMIERE.</head>
-          <stage>THEANDRE, PERINTOR. </stage>
+          <stage>THEANDRE, PERINTOR.</stage>
           <sp who="theandre" xml:id="IV01-1">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="957" xml:id="l957">Fidele Perintor, que j’ay l’esprit en peine;</l>
             <l n="958" xml:id="l958">Je songe incessament au discours de la Reine;</l>
             <l n="959" xml:id="l959">Je l’ay redit cent fois; mais plus je l’ay sondé,</l>
@@ -2552,7 +2557,7 @@
             <l n="976" xml:id="l976">Et la crainte sçait mettre un frain à mon <ref target="#courrous">courrous*</ref>.</l>
           </sp>
           <sp who="perintor" xml:id="IV01-2">
-            <speaker>PERINTOR. </speaker>
+            <speaker>PERINTOR.</speaker>
             <l n="977" xml:id="l977">Monsieur, soyez certain, que jamais Artesie,</l>
             <l n="978" xml:id="l978">Puis que pour s’en servir<note place="bottom">Pour la servir.</note> Madame l’a choisie,</l>
             <l n="979" xml:id="l979">Ne manquera de rendre un devoir assidu,</l>
@@ -2575,11 +2580,11 @@
             <l n="996" xml:id="l996">Puis qu’elle est un Thresor, nous irons le garder.</l>
           </sp>
           <sp who="theandre" xml:id="IV01-3">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="997" xml:id="l997">Laisseray-je la Reine en ce lieu solitaire?</l>
           </sp>
           <sp who="perintor" xml:id="IV01-4">
-            <speaker>PERINTOR. </speaker>
+            <speaker>PERINTOR.</speaker>
             <l n="998" xml:id="l998">Lors que je dois parler, je ne sçaurois me taire:</l>
             <l n="999" xml:id="l999">Quoy! pour un vain respect qui vous tient enchaisné,</l>
             <l n="1000" xml:id="l1000">Laisserez vous ravir ce qu’on vous a donné?</l>
@@ -2597,7 +2602,7 @@
             <l n="1012" xml:id="l1012">Car l’un depend de nous, et l’autre du Destin.</l>
           </sp>
           <sp who="theandre" xml:id="IV01-5">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="1013" xml:id="l1013">Ton conseil me rendroit (suivy pour l’amour d’elle)</l>
             <l n="1014" xml:id="l1014">Et fidelle amoureux, et subject infidelle:</l>
             <l n="1015" xml:id="l1015">La loy de mon devoir est escrite en airain;</l>
@@ -2721,9 +2726,9 @@
         </div>
         <div type="scene" xml:id="IV03">
           <head>SCENE TROISIESME.</head>
-          <stage>ROSILEE, ARTESIE. </stage>
+          <stage>ROSILEE, ARTESIE.</stage>
           <sp who="rosilee" xml:id="IV03-1">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="1111" xml:id="l1111">Ta langue veut trahir le secret de mon ame:</l>
             <stage>Elles sont en habit d’homme.</stage>
           </sp>
@@ -2750,28 +2755,28 @@
             <l n="1130" xml:id="l1130">Helas que sans <ref target="#sujet">subject*</ref>, vous faites des jaloux.</l>
           </sp>
           <sp who="rosilee" xml:id="IV03-3">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="1131" xml:id="l1131">Malgré mon desplaisir je ris de ta folie:</l>
           </sp>
           <sp who="artesie" xml:id="IV03-4">
-            <speaker>ARTESIE. </speaker>
+            <speaker>ARTESIE.</speaker>
             <l n="1132" xml:id="l1132">Je tasche de bannir vostre <ref target="#melancolie">melancolie*</ref>:</l>
           </sp>
+          <pb n="98" xml:id="p98"/>
           <sp who="rosilee" xml:id="IV03-5">
-            <pb n="98" xml:id="p98"/>
             <speaker>ROSILEE.</speaker>
             <l n="1133" xml:id="l1133">D’un remede plus fort ma douleur a besoin:</l>
           </sp>
           <sp who="artesie" xml:id="IV03-6">
-            <speaker>ARTESIE. </speaker>
+            <speaker>ARTESIE.</speaker>
             <l n="1134" part="I" xml:id="l1134">Madame,</l>
           </sp>
           <sp who="rosilee" xml:id="IV03-7">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l part="M">dis Monsieur,</l>
           </sp>
           <sp who="artesie" xml:id="IV03-8">
-            <speaker>ARTESIE. </speaker>
+            <speaker>ARTESIE.</speaker>
             <l part="F">il ne peut estre loin.</l>
             <l n="1135" xml:id="l1135">Nous reverrons bientost, et la Reine, et Theandre;</l>
             <l n="1136" xml:id="l1136">Ils sont encor icy, vous avez pû l’entendre;</l>
@@ -2784,12 +2789,12 @@
             <l n="1143" xml:id="l1143">Sur le pretexte faux d’une injure receüe;</l>
           </sp>
           <sp who="rosilee" xml:id="IV03-9">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="1144" xml:id="l1144">Ha! folle, sans combattre, il m’a desja vaincüe;</l>
             <l n="1145" xml:id="l1145">En me gagnant le cœur par son doux entretien:<pb n="99" xml:id="p99"/></l>
           </sp>
           <sp who="artesie" xml:id="IV03-10">
-            <speaker>ARTESIE. </speaker>
+            <speaker>ARTESIE.</speaker>
             <l n="1146" xml:id="l1146">S’il a gagné le vostre, il a perdu le sien.</l>
             <l n="1147" xml:id="l1147">Voyez comme à propos le hazard nous l’ameine<note place="bottom">Théandre entre sur scène.</note>;</l>
             <l n="1148" xml:id="l1148">Dieux! que je m’en vay<note place="bottom">Elle s’éloigne de Rosilée, qui reste à l’écart, et va à la rencontre de Théandre.</note> rire, en le mettant en peine;</l>
@@ -2801,7 +2806,7 @@
         </div>
         <div type="scene" xml:id="IV04">
           <head>SCENE QUATRIESME.</head>
-          <stage>THEANDRE, ROSILEE, ARTESIE, PERINTOR. </stage>
+          <stage>THEANDRE, ROSILEE, ARTESIE, PERINTOR.</stage>
           <sp who="theandre" xml:id="IV04-1">
             <speaker>THEANDRE.</speaker>
             <l n="1153" xml:id="l1153">Va, dis luy de ma part qu’il soit le bien venu:</l>
@@ -2818,7 +2823,7 @@
             <l n="1160" xml:id="l1160">Faisons trois coups d’espée, au nom de la Maistresse<note place="bottom">Jeu de mot, la <hi rend="i">Maistresse</hi> est à la fois le prétexte invoquer pour engager le combat, et Rosilée qui est aussi la maîtresse d’Artésie.</note>.</l>
           </sp>
           <sp who="perintor" xml:id="IV04-3">
-            <speaker>PERINTOR. </speaker>
+            <speaker>PERINTOR.</speaker>
             <l n="1161" xml:id="l1161">Si ton bras est debile<note place="bottom">« Qui n’a pas les forces qu’il doit avoir naturellement et ordinairement ».</note>, autant comme<note place="bottom">Que.</note> ta vois,</l>
             <l n="1162" xml:id="l1162">En mourant du premier<note place="bottom">Du premier coup d’épée.</note>, tu n’en feras point trois.</l>
           </sp>
@@ -2831,7 +2836,7 @@
         <div type="scene" xml:id="IV05">
           <pb n="101" xml:id="p101"/>
           <head>SCENE CINQUIESME.</head>
-          <stage>LUCIDAN, THEANDRE, ROSILEE, PERINTOR, ARTESIE. </stage>
+          <stage>LUCIDAN, THEANDRE, ROSILEE, PERINTOR, ARTESIE.</stage>
           <sp who="lucidan" xml:id="IV05-1">
             <speaker>LUCIDAN.</speaker>
             <l n="1164" xml:id="l1164">O Ciel! quatre Guerriers travaillent à leur perte;</l>
@@ -2865,7 +2870,7 @@
             <l n="1190" xml:id="l1190">Si je suis vostre Roy, je vous puis commander.</l>
           </sp>
           <sp who="theandre" xml:id="IV05-2">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="1191" xml:id="l1191">Sire, vous commandez une chose illicite;</l>
             <l n="1192" xml:id="l1192">En vain contre mon Roy sa voix me sollicite;</l>
             <l n="1193" xml:id="l1193">Que vostre Majesté s’assure de me voir,</l>
@@ -2880,14 +2885,14 @@
             <l n="1202" xml:id="l1202">Je sçauray le submettre à vostre Majesté.</l>
           </sp>
           <sp who="rosilee" xml:id="IV05-3">
-            <speaker>ROSILEE. </speaker>
+            <speaker>ROSILEE.</speaker>
             <l n="1203" xml:id="l1203">Si le Ciel en vostre ame a fait mourir l’<ref target="#envie1">envie*</ref>,</l>
             <l n="1204" xml:id="l1204">Qui chocquant mon honneur s’attaquoit à ma vie,</l>
             <l n="1205" xml:id="l1205">Sire, soyez certain qu’un jour le mesme Ciel,</l>
             <l n="1206" xml:id="l1206">Se fera voir pour vous, et sans haine, et sans fiel<note place="bottom">Haine, aversion contre quelqu’un.</note>.</l>
           </sp>
           <sp who="lucidan" xml:id="IV05-4">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="1207" xml:id="l1207">J’ay perdu ma fureur, en perdant mon Empire;</l>
             <l n="1208" xml:id="l1208">Pour avoir souspiré, maintenant je souspire;</l>
             <l n="1209" xml:id="l1209">Et jamais Prince juste en ses heureux desseins,</l>
@@ -2902,7 +2907,7 @@
             <l n="1218" xml:id="l1218">Il luy reste six pieds pour se faire un Cercueïl.</l>
           </sp>
           <sp who="theandre" xml:id="IV05-5">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="1219" xml:id="l1219">Que vostre Majesté, s’il luy plaist se console;</l>
             <l n="1220" xml:id="l1220">Car de la restablir, j’engage ma parole;</l>
             <l n="1221" xml:id="l1221">Retournons à Paris, remettre vostre Cour,</l>
@@ -2911,7 +2916,7 @@
             <l n="1224" xml:id="l1224">Car sans la diligence<note place="bottom">Rapidité.</note>, une entreprise est vaine.</l>
           </sp>
           <sp who="lucidan" xml:id="IV05-6">
-            <speaker>LUCIDAN. </speaker>
+            <speaker>LUCIDAN.</speaker>
             <l n="1225" xml:id="l1225">Allons brave Theandre, et disposez de moy;</l>
             <l n="1226" xml:id="l1226">Vous me serez subject, en me refaisant Roy.</l>
           </sp>
@@ -2921,11 +2926,11 @@
             <l n="1228" xml:id="l1228">Redoute plus les coups, des yeux que de l’espée<note place="bottom">Théandre s’adresse ici à Rosilée de façon plaisante.</note>.</l>
           </sp>
           <sp who="perintor" xml:id="IV05-8">
-            <speaker>PERINTOR. </speaker>
+            <speaker>PERINTOR.</speaker>
             <l n="1229" xml:id="l1229">Je vous attaqueray dans une autre <ref target="#saison">saison*</ref>;</l>
           </sp>
           <sp who="artesie" xml:id="IV05-9">
-            <speaker>ARTESIE. </speaker>
+            <speaker>ARTESIE.</speaker>
             <l n="1230" xml:id="l1230">Je seray tousjours prest à vous faire raison<note place="bottom">Jeu de mot avec rendre raison.</note>.</l>
           </sp>
         </div>
@@ -2935,12 +2940,12 @@
         <head>ACTE CINQUIESME.</head>
         <div type="scene" xml:id="V01">
           <head>SCENE PREMIERE.</head>
-          <stage>THEANDRE, ROSIMAR, MENOCRITE, </stage>
-          <stage>ORCHOMENE, LUCIDAME, PERINTOR, </stage>
-          <stage>PALINONDE, CHŒUR DE PEUPLE, </stage>
-          <stage>CHŒUR DE TROMPETTES. </stage>
+          <stage>THEANDRE, ROSIMAR, MENOCRITE,</stage>
+          <stage>ORCHOMENE, LUCIDAME, PERINTOR,</stage>
+          <stage>PALINONDE, CHŒUR DE PEUPLE,</stage>
+          <stage>CHŒUR DE TROMPETTES.</stage>
           <sp who="theandre" xml:id="V01-1">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <stage>Le Temple Se tire où paroist un Throsne, et les ornements Royaux sont sur l’Autel.</stage>
             <l n="1231" xml:id="l1231">Toy dont la prudence eternelle</l>
             <l n="1232" xml:id="l1232">Ne peut jamais errer,</l>
@@ -2950,7 +2955,7 @@
             <l n="1236" xml:id="l1236">Je viens t’en prier à genous.</l>
           </sp>
           <sp who="rosimar" xml:id="V01-2">
-            <speaker>ROSIMAR. </speaker>
+            <speaker>ROSIMAR.</speaker>
             <l n="1237" xml:id="l1237">Que celuy que la voix commune,</l>
             <l n="1238" xml:id="l1238">Doit faire nostre Roy,</l>
             <l n="1239" xml:id="l1239">Puisse tousjours avoir en soy,</l>
@@ -2959,7 +2964,7 @@
             <l n="1242" xml:id="l1242">L’art de payer et de punir.</l>
           </sp>
           <sp who="menocrite" xml:id="V01-3">
-            <speaker>MENOCRITE. </speaker>
+            <speaker>MENOCRITE.</speaker>
             <l n="1243" xml:id="l1243">Illumine sa connoissance,</l>
             <l n="1244" xml:id="l1244">Ayant le Sceptre en main:</l>
             <l n="1245" xml:id="l1245">Et fais que d’un esprit humain,</l>
@@ -3034,7 +3039,7 @@
             <l n="1298" xml:id="l1298">Sur differents subjects qui les ont engagées.</l>
           </sp>
           <sp who="rosimar" xml:id="V01-9">
-            <speaker>ROSIMAR. </speaker>
+            <speaker>ROSIMAR.</speaker>
             <l n="1299" xml:id="l1299">Je lis dedans les yeux de tous les assistans,</l>
             <l n="1300" xml:id="l1300">Que leur cœur a pour but, le mesme où je pretens;</l>
             <l n="1301" xml:id="l1301">Toutes nos volontez paroissent fort unies,</l>
@@ -3060,7 +3065,7 @@
             <l n="1318" xml:id="l1318">La voix que je vous donne, est une voix publique.</l>
           </sp>
           <sp who="orchomene" xml:id="V01-11">
-            <speaker>ORCHOMENE. </speaker>
+            <speaker>ORCHOMENE.</speaker>
             <l n="1319" xml:id="l1319">Quand cét Estre infiny qui commande aux humains</l>
             <l n="1320" xml:id="l1320">Le Sceptre universel auroit mis en vos mains,</l>
             <l n="1321" xml:id="l1321">Il vous auroit donné moins que vostre merite:</l>
@@ -3102,7 +3107,7 @@
             <l n="1351" xml:id="l1351">Je parle librement; l’exemple me fait peur.<pb n="112" xml:id="p112"/></l>
           </sp>
           <sp who="rosimar" xml:id="V01-14">
-            <speaker>ROSIMAR. </speaker>
+            <speaker>ROSIMAR.</speaker>
             <l n="1352" xml:id="l1352">Dissipez ce soubçon qui n’est qu’une vapeur<note place="bottom">« Chose subtile, passagère et de peu de durée ».</note>;</l>
             <l n="1353" xml:id="l1353">Vostre <ref target="#rare">rare*</ref> vertu, vostre extréme courage,</l>
             <l n="1354" xml:id="l1354">Vous mettent pour toujours à l’abry de l’orage;</l>
@@ -3113,7 +3118,7 @@
             <l n="1359" xml:id="l1359">Vous irez au sepulcre avec vostre bon-heur:</l>
           </sp>
           <sp who="theandre" xml:id="V01-15">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="1360" xml:id="l1360">Puis que vous desirez me donner cét honneur,</l>
             <l n="1361" xml:id="l1361">Avant que l’accepter, avant que je commande,</l>
             <l n="1362" xml:id="l1362">Desirant obtenir tout ce que je demande,</l>
@@ -3121,11 +3126,11 @@
             <l n="1364" xml:id="l1364">D’obeïr au premier de mes commandements.</l>
           </sp>
           <sp who="rosimar" xml:id="V01-16">
-            <speaker>ROSIMAR. </speaker>
+            <speaker>ROSIMAR.</speaker>
             <l n="1365" xml:id="l1365">Ouy, nous vous le jurons adorable Theandre.</l>
           </sp>
           <sp who="theandre" xml:id="V01-17">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="1366" xml:id="l1366">Mon desir cede au vostre, et ne peut se deffendre,</l>
           </sp>
           <sp who="rosimar" xml:id="V01-18">
@@ -3240,13 +3245,13 @@
         <div type="scene" xml:id="V02">
           <pb n="117" xml:id="p117"/>
           <head>SCENE SECONDE.</head>
-          <stage>GLATICIDE, ROSILEE, THEANDRE, </stage>
-          <stage>LUCIDAN, ROSIMAR, MENOCRITE, </stage>
-          <stage>ORCHOMENE, LUCIDAME, PERINTOR, </stage>
-          <stage>ARTESIE, PALINONDE, </stage>
-          <stage>CHŒUR DE PEUPLE, CHŒUR DE TROMPETTES. </stage>
+          <stage>GLATICIDE, ROSILEE, THEANDRE,</stage>
+          <stage>LUCIDAN, ROSIMAR, MENOCRITE,</stage>
+          <stage>ORCHOMENE, LUCIDAME, PERINTOR,</stage>
+          <stage>ARTESIE, PALINONDE,</stage>
+          <stage>CHŒUR DE PEUPLE, CHŒUR DE TROMPETTES.</stage>
           <sp who="glacitide" xml:id="V02-1">
-            <speaker>GLACITIDE. </speaker>
+            <speaker>GLACITIDE.</speaker>
             <l n="1442" xml:id="l1442">Qu’icy vostre prudence exerce son usage;</l>
             <l n="1443" xml:id="l1443">Et que le souvenir d’un pere genereux,</l>
             <l n="1444" xml:id="l1444">Vous empesche de rendre un Prince malheureux.</l>
@@ -3259,8 +3264,8 @@
             <l n="1451" xml:id="l1451">Et soyez asseurez qu’on vous verra benir,</l>
             <l n="1452" xml:id="l1452">Le fidele Vassal qui l’a fait revenir.</l>
           </sp>
+          <pb n="118" xml:id="p118"/>
           <sp who="rosilee" xml:id="V02-2">
-            <pb n="118" xml:id="p118"/>
             <speaker>ROSILEE.</speaker>
             <l n="1453" xml:id="l1453">Seigneur, mon<note place="bottom">Il faut lire « votre intérêt pour moi ».</note> interest vous fit prendre les armes;</l>
             <l n="1454" xml:id="l1454">Pour le mesme aujourd’huy donnez-les à mes larmes;</l>
@@ -3268,14 +3273,14 @@
             <l n="1456" xml:id="l1456">Reconnoissez le Roy, puis qu’il s’est reconnu.</l>
           </sp>
           <sp who="rosimar" xml:id="V02-3">
-            <speaker>ROSIMAR. </speaker>
+            <speaker>ROSIMAR.</speaker>
             <l n="1457" xml:id="l1457">On ne peut s’opposer aux loix des destinées:</l>
             <l n="1458" xml:id="l1458">Nos ames sans raison paroistroient obstinées;</l>
             <l n="1459" xml:id="l1459">Theandre et vous, estant nostre unique <ref target="#soucy">souci*</ref>,</l>
             <l n="1460" xml:id="l1460">Si vous estes contents, nous le sommes aussi.</l>
           </sp>
           <sp who="theandre" xml:id="V02-4">
-            <speaker>THEANDRE. </speaker>
+            <speaker>THEANDRE.</speaker>
             <l n="1461" xml:id="l1461">Sire prenez le rang où seul vous devez estre;</l>
             <l n="1462" xml:id="l1462">Nous sommes nais subjects, et vous estes nay Maistre.</l>
             <stage>Apres l’a- voir reves- tu des habits Royaux il le remet au Thrône.</stage>
