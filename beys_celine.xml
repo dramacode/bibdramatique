@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
@@ -556,8 +553,7 @@
                 <cell>X</cell>
               </row>
               <row>
-                <cell>
-                  <p rend="cell">RRA8=407<note place="bottom">Privilège différent.</note></p>
+                <cell>RRA8=407<note place="bottom">Privilège différent.</note>
                 </cell>
                 <cell>X mais Lisanos=Lisanor</cell>
                 <cell>X</cell>
@@ -691,42 +687,45 @@
           <head>ACTEURS<note place="bottom">Dans l’acte V, à la scène 7, apparaît un prévôt qui ne figure pas sur la page des acteurs ; Jacques Scherer dans <hi rend="i">La Dramaturgie classique en France</hi> nous indique que la liste des personnages appelée liste des « Acteurs » au XVII<hi rend="sup">e</hi> siècle, nous fait connaître les rôles dans un ordre qui est déjà une hiérarchie, hiérarchie qui s’inspire de l’échelle sociale de l’époque et où les hommes du peuple, gardes, soldats, geôliers n’ont pas l’honneur d’être nommés. Si le prévôt ne figure pas sur la liste ce n’est donc pas un oubli.</note></head>
           <castList>
           <castItem>
-            <role xml:id="lisanor">LISANOR,</role>
+            <role xml:id="lisanor" rend="male junior">LISANOR,</role>
             <roleDesc>Fils du Roy de Dannemarck.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="celine">CELINE,</role>
+            <role xml:id="celine" rend="female junior">CELINE,</role>
             <roleDesc>Fille du Duc de Moscovie amoureuse de Lisanor.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="thersandre">THERSANDRE,</role>
+            <role xml:id="thersandre" rend="male junior">THERSANDRE,</role>
           </castItem>
           <castItem>
-            <role xml:id="lisidas">LISIDAS,</role>
+            <role xml:id="lisidas" rend="male junior">LISIDAS,</role>
             <roleDesc>Fils du Duc de Moscovie.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="agante">AGANTE,</role>
+            <role xml:id="agante" rend="female junior">AGANTE,</role>
           </castItem>
           <castItem>
-            <role xml:id="caliste">CALISTE,</role>
+            <role xml:id="caliste" rend="female junior">CALISTE,</role>
             <roleDesc>Filles du Roy de Dannemarck.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="leroy">LE ROY DE DANNEMARCK.</role>
+            <role xml:id="leroy" rend="male senior superior">LE ROY DE DANNEMARCK.</role>
           </castItem>
           <castItem>
-            <role xml:id="alcire">ALCIRE,</role>
+            <role xml:id="alcire" rend="male senior">ALCIRE,</role>
             <roleDesc>Gentilhomme chez le Roy de Dannemarck.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="chrisante">CHRISANTE,</role>
+            <role xml:id="chrisante" rend="male senior">CHRISANTE,</role>
             <roleDesc>Ambassadeur du Duc de Moscovie.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="clarin">CLARIN,</role>
+            <role xml:id="clarin" rend="male veteran inferior">CLARIN,</role>
             <roleDesc>Vieux Berger Nourricier de Lisanor.</roleDesc>
           </castItem>
+            <castItem>
+              <role xml:id="leprevost" rend="male senior exterior"></role>
+            </castItem>
           </castList>
         </div>
         <div type="act">
@@ -938,7 +937,7 @@
               <l n="125" xml:id="l125">Et des moyens de plaire à la Princesse Agante. <pb n="9-B" xml:id="p9"/></l>
             </sp>
             <sp who="lisidas">
-              <speaker xml:lang="de">LISIDAS.</speaker>
+              <speaker>LISIDAS.</speaker>
               <l n="126" xml:id="l126" part="I">Moy de plaire à sa sœur.</l>
             </sp>
             <sp who="thersandre">
