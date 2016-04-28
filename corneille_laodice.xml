@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="">
   <teiHeader>
     <fileDesc>
@@ -766,8 +763,7 @@
               </div>
             </div>
             <div>
-              <head>
-                <num>1692</num>
+              <head>1692
               </head>
               <p><hi rend="i">Le Theatre de Thomas Corneille, Reveu, corrigé, et augmenté de diverses pieces nouvelles</hi>. A Paris suivant la copie imprimée. Le nom de l’éditeur est absent. Les corrections ne sont pas les mêmes que dans l’édition de Guillaume de Luyne et dans celle de Pierre Trabouillet :</p>
               <div>
@@ -930,9 +926,9 @@
                 <p>v. 1591 : advenir -&gt; avenir</p>
                 <p>v. 1601 : hayne -&gt; haine</p>
                 <p>v. 1619 : dautant -&gt; d’autant</p>
-                <p rend="footer">v. 1641 : vôtre -&gt; vostre</p>
-                <p rend="footer">v. 1645 : entraine -&gt; entraîne</p>
-                <p rend="footer">v. 1656 : vôtre -&gt; vostre</p>
+                <p>v. 1641 : vôtre -&gt; vostre</p>
+                <p>v. 1645 : entraine -&gt; entraîne</p>
+                <p>v. 1656 : vôtre -&gt; vostre</p>
               </div>
               <div>
                 <head>Scène 4</head>
@@ -940,8 +936,7 @@
               </div>
             </div>
             <div>
-              <head>
-                <num>1706</num>
+              <head>1706
               </head>
               <p><hi rend="i">Poemes dramatiques de Thomas Corneille, nouvelle édition, revûe, corrigée, et augmentée</hi>, Charles Osmont, Paris, rüe S. Jacques, au coin de la rüe de la Parcheminerie à l’Ecu de France. <hi rend="i">Laodice</hi> se trouve toujours dans la quatrième partie. Il s’agit là d’une version modernisée de la version de 1692 éditée par Guillaume de Luyne et Pierre Trabouillet<note place="bottom">Cette version conserve toutes les modifications de celle de G. de Luyne, sauf [Diadême -&gt; Diadéme] ,  [suprême -&gt; supréme], [moy -&gt;moi], [Vôtre -&gt; vostre], [Dont -&gt; Donc], [Tyrans -&gt; Tirans], [mystere -&gt; mistere], [étois -&gt; etois], [gênée -&gt; genée]</note>. Les modifications de cette précédente édition sont conservées mais s’y ajoute une modernisation de l’orthographe :</p>
               <p>- La structure [voyelle + s + consonne] est systématiquement modifiée en [voyelle+ ^ + consonne], sauf quand il s’agit d’un [e] en début de mot ( [e] -&gt; [é])<note place="bottom">Sauf « être »</note> et sauf « viste -&gt; vite ». Tous les mots comprenant cette structure suivent donc les contractions données dans les exemples qui suivent :</p>
@@ -1020,7 +1015,7 @@
               <p>v. 737 : avoüer -&gt; avouer</p>
               <p>v. 765 : paru -&gt; parû </p>
               <p>v. 768 : soûpirs -&gt; soupirs</p>
-              <p rend="footer">v. 1455 : arréter -&gt; arrêter</p>
+              <p>v. 1455 : arréter -&gt; arrêter</p>
               <p>- Le [f] devant [r] se double :</p>
               <p>v. 636 : soufrir -&gt; souffrir </p>
               <p>v. 752 : ofre -&gt; offre</p>
@@ -1082,7 +1077,7 @@
           <p><hi rend="i">Registré sur le livre de la communauté le cinquième de mars 1668</hi>.</p>
           <p>Signé THIERRY Adjoint.</p>
           <p>Achevé d’imprimer pour la premiere fois le 8 Mars 1668. à Roüen, par L. MAURRY, aus dépens de l’Autheur, lequel a traité la presente impression et du Privilege à l’avenir avec CLAUDE BARBIN, et GABRIEL QUINET Marchands Libraires à Paris, pour en joüir suivant l’accord fait entr’eux.</p>
-          <p rend="center i">Les Exemplaires ont esté fournis. </p>
+          <p rend="center"><hi rend="i">Les Exemplaires ont esté fournis.</hi></p>
         </div>
         <div>
           <head>ACTEURS.</head>
@@ -1125,7 +1120,8 @@
           <stage>La Scene est dans la Capitale de Cappadoce</stage>
         </div>
         <div type="act">
-          <head>ACTE I.<pb n="1 A" xml:id="p1"/></head>
+          <pb n="1 A" xml:id="p1"/>
+          <head>ACTE I.</head>
           <div type="scene">
             <head>Scène première.</head>
             <stage>AXIANE, ALCINE.</stage>
@@ -1412,7 +1408,7 @@
             <sp who="axiane">
               <speaker>AXIANE.</speaker>
               <l part="F">Ce soupçon va trop loin pour ma <ref target="#gloire">gloire*</ref></l>
-              <l n="170" xml:id="l170">Mais enfin  quel sujet<note place="bottom"><index><term type="sujet"><hi rend="i">Sujet</hi> : raison.</term></index></note> auriez-vous de le croire ?</l>
+              <l n="170" xml:id="l170">Mais enfin  quel sujet<note place="bottom"><hi rend="i">Sujet</hi> : raison.</note> auriez-vous de le croire ?</l>
               <l n="171" xml:id="l171">D’aucuns <ref target="#voeux">vœux*</ref>, d’aucuns<note place="bottom"><hi rend="i">Aucuns</hi> : Quelques. Il pouvait s’employer au pluriel.</note> <ref target="#soins">soins*</ref> m’a-t’on veu faire cas ?</l>
             </sp>
             <sp who="ariarate">
