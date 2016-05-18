@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -810,13 +809,13 @@
       
     </front>
     <body>
-      <head>LE <pb n="a"/>TORRISMON<lb/>DU TASSE.<lb/>DU TASSE.<lb/>TRAGEDIE.</head>
+      <head>LE TORRISMON<lb/>DU TASSE.<lb/>DU TASSE.<lb/>TRAGEDIE.</head>
         <div>
-          <head>AU LECTEUR <pb n="f.1r." xml:id="f1"/></head>
+          <head>AU LECTEUR </head><pb n="f.1r." xml:id="f1r"/>
           <p>C'EST à toy seul, LECTEUR, que je dédie cét ouvrage, afin de t’obliger, qui que tu sois, à deffendre ce que je te donne : Pour te rendre curieux de le voir, il suffit de dire qu’il est tiré du Tasse, Poëte si excellent que mesme un des plus grands hommes de son pays a monstré l’advantage que sa Hierusalem avoit sur l’Aeneide, &amp; qu’un des nostres a chanté de luy qu’il estoit</p>
-          <p rend="center i">Le premier en honneur, &amp; le dernier en aage.</p>
+          <p rend="center"><hi rend="i">Le premier en honneur, &amp; le dernier en aage</hi>.</p>
           <p>Neantmoins pour deferer à l’Antiquité le respect qui luy est deu, nous le louërons encore assez ce me semble, si nous disons avec un grand esprit de ce temps, que Virgile est cause que le Tasse n’est pas le premier, &amp; le Tasse, que Virgile n’est pas le seul. Du moins on ne sçauroit nier qu’il n’ait cecy par dessus l’autre, que c’est un Autheur universel, et qui sans parler de tant de discours &amp; de dialogues qu’il nous a laissez en prose, a travaillé &amp; reüssy parfaictement  en  toutes  sortes  de  Poësie, mais  particulierement en la  Dramatique &amp;  aux</p>
-          <p><pb n="f.1v."/>pieces de Theatre. De cela font foy l’Aminte<note place="bottom">Pour l’<hi rend="i">Aminte</hi>, cf. II, en particulier à la note biographique sur D'Alibray, ainsi qu’aux sources modernes de la trame dans le C. du V.</note>&amp; le Torrismon : / l’un, Pastorale ; &amp; l’autre, Tragedie : mais tous deux dans un stile serieux. Car pour les Comedies, il les avoit en aversion comme estant contraires à la gravité de ses mœurs &amp; de sa modestie, &amp; mesme il estoit marry qu’Aristote eut enseigné qu’on y devoit tirer matiere de risée des choses qui choquoient l’honnesteté &amp; la bien seance : Aussi l’Intrigue d’amour qui passe sous son nom n’est pas un <ref target="#effet">effect*</ref> de luy, &amp; quoy que la difference du stile nous le monstre assez, son propre tesmoignage le confirme encore, d’autant qu’il se fascha plus qu’on la luy donnast, que d’aucun larcin qui luy fut jamais faict de ses ouvrages.</p>
+          <p><pb n="f.1v." xml:id="f1v"/>pieces de Theatre. De cela font foy l’Aminte<note place="bottom">Pour l’<hi rend="i">Aminte</hi>, cf. II, en particulier à la note biographique sur D'Alibray, ainsi qu’aux sources modernes de la trame dans le C. du V.</note>&amp; le Torrismon : / l’un, Pastorale ; &amp; l’autre, Tragedie : mais tous deux dans un stile serieux. Car pour les Comedies, il les avoit en aversion comme estant contraires à la gravité de ses mœurs &amp; de sa modestie, &amp; mesme il estoit marry qu’Aristote eut enseigné qu’on y devoit tirer matiere de risée des choses qui choquoient l’honnesteté &amp; la bien seance : Aussi l’Intrigue d’amour qui passe sous son nom n’est pas un <ref target="#effet">effect*</ref> de luy, &amp; quoy que la difference du stile nous le monstre assez, son propre tesmoignage le confirme encore, d’autant qu’il se fascha plus qu’on la luy donnast, que d’aucun larcin qui luy fut jamais faict de ses ouvrages.</p>
           <p>L'Aminte donc, &amp; le Torrismon sont les seules pieces de Theatre qu’il nous a données, chacune tres accomplie en son espece. L'une fut le coup d’essay &amp; le chef-d’œuvre tout ensemble des Pastorales : &amp; l’autre est encore aujourd’huy estimée la merveille des Tragedies Italiennes. Et qu’on ne s’arreste pas à ce que nostre Autheur en escrit dans une de ses lettres, car ou il en parle plustost par humilité que par jugement, ou au pis aller ce qu’il en dit n’est qu’un <ref target="#effet">effect*</ref> de ceste melancholie si naturelle aux grands hommes, &amp; qui leur donne des dégousts de leurs plus beaux ouvrages. C'est ainsi que l’un condamne en mourant son Aeneide, &amp; l’autre sa Hierusalem : de sorte qu’il ne faut pas s’estonner si par la mesme raison cette admirable Tragedie a  peu déplaire aussi au Tasse.  Il  est certain que les  esprits</p>
           <p><pb n="f.2r." xml:id="f2r"/> sublimes ont  des  pensées  qui  vont  bien  plus loin que les paroles, &amp;  qu’ils  / n’expriment</p>
           <p><pb n="b"/>jamais si bien leurs idées, qu’ils ne voyent tousjours quelque degré de perfection au delà : mais ce n’est pas à dire qu’ils ayent juste subject, ny nous apres eux, de mespriser d’excellentes copies, à cause qu’elles ont esté tirées sur de plus excellents originaux. En effect le Torrismon n’est pas une piece qui ait esté composée à l’advanture, ses vers nous l’enseignent assez, ny le dessein n’en a pas esté pris à la haste, mais fut un dessein premedité. Le Tasse demeura long-temps sans achever cette Tragedie, &amp; la raison qu’il en rapporte quelque part, c’est que se sentant desja fort triste par nature &amp; <ref target="#par-accident">par accident*</ref>, il craignoit de travailler sur une matiere qui ne pouvoit qu’entretenir sa melancholie : neantmoins à la sollicitation de ses amys il la mit enfin en l’estat où nous la voyons maintenant, sans s’arrester beaucoup toutesfois à ce qu’il en avoit desjà tracé. Il changea de nom à son principal personnage, luy donnant celuy qui sert de tiltre au livre, &amp; fit mesme que le Roy des Goths qui dans son premier dessein estoit l’amy trahy, est icy celuy qui trahit : Ce qui monstre bien que son subject est entierement fabuleux, quoy qu’on le reconnoisse assez en considerant comme il est dans une intrigue de Roman<note place="bottom">cf. la note du v.1619.</note>, &amp; dans cet ordre que Castelvetre<note place="bottom">Ludovico Castelvetro, 1505-1571. Célèbre critique et filologue italien du XVIe siècle, qui a beaucoup commenté les textes de Pétrarque et de l’Arioste; a affimé la supériorité de la langue vulgaire sur la langue latine, en particulier de la langue toscane. A publié à Vienne en 1570 un commentaire à la <hi rend="i">Poétique</hi> d’Aristote .</note> appelle renversé, si bien  que pour le developper &amp; luy donner une suitte naturelle, il faut commencer par la fin du quatriesme Acte.</p>
@@ -879,7 +878,7 @@
           <p><space> </space><pb n="f"/>donner encore quelque occasion de croire qu’il auroit peu profiter de mes fautes, j’ay bien voulu consentir à ne pas faire paroistre mon Soliman, que le sien ne fust prest, &amp; je m’estimeray seulement trop heureux de luy servir de relief &amp; de fueille. Outre que nostre subject estant Tragique &amp; assez vaste dans son autheur, on aura sans doute de la curiosité, pour voir comment chacun l’aura retranché &amp; disposé au Theatre en Tragi-Comedie. Que si, comme on m’a fait accroire depuis, il a mieux aymé le laisser en Tragedie, ce sera le moyen de rendre chacun content : car quoy que la plus-part des evenemens soient semblables, neantmoins la contrarieté des conclusions, dont l’une suivra la verité, &amp; l’autre la vray-semblance, mettra une entiere diversité entre les deux pieces. Au moins je t’asseure bien  que tu y reconnoistras tousjours à ma confusion la grande difference qu’il y a d’un mauvais versificateur à un bon Poëte. Adieu.</p>
         </div>
         <div>
-          <head>ARGUMENT.<pb n="f.18v." xml:id="f18v"/></head>
+          <head>ARGUMENT.</head><pb n="f.18v." xml:id="f18v"/>
           <p>GALEALTE  Roy des Goths<note place="bottom">D'Alibray nomme le roi des Goths, père de Torrismon et véritable père d’Alvide, Galealte tout comme le roi de Norvège, père adoptif d’Alvide; cela peut prêter à confusion. Le Tasse ne donne aucune indication quant au nom du feu roi des Goths. </note>, eut une fille nommée Rosmonde, qu’il envoya aussi-tost qu’elle fut née en un Chasteau de Plaisance, pout là estre nourrie sous un air pur &amp; serain. Celle à qui on envoyoit Rosmonde pour la nourrir, lassée de la Cour, s’estoit retirée en ce Chasteau, &amp; d’autant que tous ses enfans mouroient en naissant, comme elle se vid enceinte pour la troisiesme fois, elle s’advisa de voüer aux Dieux ce qui viendroit d’elle, &amp; les Dieux permirent qu’elle mit heureusement au jour une fille au mesme temps que la Reyne accoucha de Rosmonde. Mais la fille de cette nourrice qui estoit un fruit de la devotion de sa mere, servit bien-tost d’instrument à l’impieté d’un pere ; ce qui arriva de cette sorte :</p>
           <p>Assez prez de ce Chasteau habitoit dans un antre une Nymphe qui predit de Rosmonde, Qu'estant parvenuë à la fleur de son aage &amp; de sa beauté, elle seroit l’occasion d’une haute vengeance ; de faire perdre la vie à son frere Torrismon, &amp; de faire passer ses Estats sous la domination d’un estranger. Le Roy se trouvant fort effrayé de ces menaces, la relegua dans cette caverne, &amp; la donna à la Nymphe à eslever, sans en rien dire à la Reyne, qui n’adjoustoit pas foy aysément à toutes ses predictions. Et quelque temps apres au lieu de sa fille fit supposer<note place="bottom">Au sens de mettre à la place de.</note> &amp; presenter à la Reyne celle de la Nourrice, qui eut depuis le nom &amp; la place de la vraye Rosmonde ; Elle cependant estoit bien loin de la Cour de son pere ; car à peine eut-elle demeuré quatre mois dans cét antre de la Nymphe, que d’autres predictions qui menaçoient de mesmes maux, augmenterent les apprehensions du Roy de telle sorte, que pour son repos il fut contraint  de commander à  Fauston l’un de ses plus  affidez serviteurs  /</p>
           <p><pb n="f.19r." xml:id="f19r"/> de l’emmener en secret en un pays escarté, afin de <ref target="#frustrer">frustrer*</ref> par là son mauvais destin ; Or comme ce Fauston estoit avec elle sur mer, il fut pris par des pirates de Norvegue, &amp; mis dans un petit vaisseau, &amp; la fille dans un autre. Ces pirates furent bien-tost attaquez &amp;  chassez par d’autres qui estoient du pays des Goths : mais qui ne purent arrester que l’<ref target="#esquif">esquif*</ref> où estoit Fauston, qui par ce moyen se vid delivré d’entre les mains des pirates de Norvegue, &amp; ramené en son païs par les corsaires qui en estoient, &amp; quant à l’<ref target="#esquif">esquif*</ref> où estoit la fille il se sauva &amp; s’en retourna en Norvegue, où estant, la vraye Rosmonde fut presentée à Galealte Roy de ce pays, pour le consoler de la perte qu’il venoit de faire, d’une petite fille nommée Alvide. Ce Roy la receut avec joye, l’appella Alvide du nom de celle qui luy estoit morte, &amp; la tint d’autant plus chere que les predictions de Norvegue aussi-tost qu’elle fut arrivée, portaient ainsi que celles de son pays, qu’elle debvoit estre l’<ref target="#occasion">occasion*</ref> d’une haute vengeance. Galealte dont le Royaume avoit receu mille injures de la Suede, tant par surprises &amp; stratagemes de guerre, qu’à force ouverte, expliquoit cette prediction selon son desir, esperant que par le moyen de cette fille il pourroit un jour se vanger de tous ses affronts, &amp; de toutes ses pertes. Comme il estoit dans ses pensées, il survint une chose qui aigrit encore davantage son inimitié contre les Suedois. C'est qu’ayant envoyé aux Danois qui estoient lors en guerre, le secours d’une armée commandée par son  fils unique qui n’avoit encore que seize ans, il se rencontra que ce jeune Prince eut en teste Germon fils du Roy de Suede, homme desjà tout fait, &amp; grand Capitaine, qui assistoit le parti contraire ; Germon porta bien-tost par terre &amp; tua ce jeune Prince, mais avec  des actes d’hostilité beaucoup pires que le meurtre. Cela fut cause que Galealte respira plus que jamais un grand desir de vangeance, &amp; qu’il s’advisa pour cét <ref target="#effet">effect*</ref> de faire un fameux tournois où l’on proposa pour prix une tres-riche couronne qu’Alvide elle-mesme devoit mettre sur la teste du vainqueur ; Le but  de ce  tounois estoit  de faire choix du plus  vaillant, &amp; de  l’engager par</p>
@@ -890,7 +889,7 @@
           <p><pb n="f.21v." xml:id="f21v"/> tomber sur son espée &amp; expire aux pieds d’Alvide /. Germon reçoit la lettre, se desespere à cette triste nouvelle, console la mere de Torrismon, comme il luy avoit recommandé, fait enterrer son amy &amp; sa maistresse ensemble, &amp; demeure maistre du Royaume des Goths suivant les predictions qui portoient qu’il devoit estre soubmis à un estranger, lesquelles predictions parloient aussi d’une  haute vangeance, qui n’estoit autre chose en effet que cette mesme mort de Torrismon, pour avoir trahy le Roy de Norvegue en luy enlevant Alvide pour Germon, pour avoir esté infidelle à son amy, &amp; peut estre pour avoir commis un inceste, quoy qu’innocemment.</p>
         </div>
         <div>
-          <head>Le moyen de retrancher quelques endroits de cette Tragedie, comme on fit en sa seconde  Representation. <pb n="f.22r. g" xml:id="f22r"/></head>
+          <head>Le moyen de retrancher quelques endroits de cette Tragedie, comme on fit en sa seconde  Representation. </head><pb n="f.22r. g" xml:id="f22r"/>
           <p>DU premier Acte, on peut oster la seconde Scene que la Nourrice fait toute seule.</p>
           <p>Du second Acte, on peut oster la troisiesme Scene, que Rosmonde fait toute seule, &amp; retrancher de la quatriesme Scene, cette longue dispute pour &amp; contre le mariage, de sorte que la Scene finisse par ce vers  :</p>
           <quote>
@@ -910,7 +909,7 @@
           </quote>
         </div>
         <div>
-          <head>Fautes survenuës en l’impression. <pb n="f.22v." xml:id="f22v"/></head>
+          <head>Fautes survenuës en l’impression. </head><pb n="f.22v." xml:id="f22v"/>
           <p>Page 6 pour <hi rend="i">Gennon</hi>, lisez <hi rend="i">Germon</hi>. page 15. <hi rend="i">Que je luy cederois</hi>, il semble qu’il faille un <hi rend="i">la</hi>, c’est pourquoy mets au lieu, <hi rend="i">Que je la luy rendois</hi>, ou  bien si tu veux, <hi rend="i">Et de la luy ceder.</hi> Page 44. <hi rend="i">Au comble de beauté, de valeur, &amp; des biens</hi>, l. <hi rend="i">&amp; de biens</hi>. Page 84. <hi rend="i">Que le Roy la craignit pas quelque destinée</hi>. l. <hi rend="i">pour quelque destinée</hi>. Le reste des fautes, s’il y en a encore quelques-unes, tu les corrigeras aysément toy-mesme.</p>
         </div>
         <div>
@@ -918,7 +917,7 @@
           <p>Par grace &amp; Privilege du Roy, Donné à Paris le 12. Mars 1636. Signé par le Roy en son Conseil, VIGNERON : Il est permis au Sr Dalibray, de faire imprimer par tel Imprimeur qu’il voudra choisir un Livre intitulé, <hi rend="i">Le Torrismon du Tasse, Tragedie</hi>, en telle forme &amp; caractere qu’il advisera bon estre, &amp; ce durant le temps de six ans, à commencer du jour que ledit Livre sera achevé d’imprimer : Et deffences sont faites à tous Libraires &amp; Imprimeurs, de contrefaire ledit Livre, ny en vendre ou distribuer d’autres, que de ceux dudit Dalibray, ou de ceux qui auront droit de luy durant ledit temps, à peine de cinq cens livres d’amende, confiscation des exemplaires, &amp; de tous despens, dommages &amp; interests.</p>
         </div>
         <div>
-          <head>LES ACTEURS. <pb n="f.23v." xml:id="f23v"/></head>
+          <head>LES ACTEURS. </head><pb n="f.23v." xml:id="f23v"/>
           <castList>
           <castItem>
             <role xml:id="nourrice">LA NOURRICE.</role>
@@ -957,13 +956,14 @@
             <role xml:id="messager">MESSAGER.</role>
           </castItem>
           <castItem>
-            <role xml:id="gentilhomme2">GENTIL-HOMME de Chambre de Torrismon.</role>
+            <role xml:id="gentil-homme">GENTIL-HOMME de Chambre de Torrismon.</role>
           </castItem>
           </castList>
           <stage>La Scene est en Arane ville principale des Goths.</stage>
         </div>
         <div type="act">
-          <head>ACTE I.<pb n="A ; 1" xml:id="p1"/></head>
+          <pb n="A ; 1" xml:id="p1"/>
+          <head>ACTE I.</head>
           <div type="scene">
             <head>SCENE I.</head>
             <stage>NOURRICE. ALVIDE.</stage>
@@ -1100,7 +1100,7 @@
               <l n="116" xml:id="l116">Suive ce qu’un Espoux a d’amour ou de hayne.</l>
             </sp>
             <sp who="alvide">
-              <speaker>ALVIDE.<pb n="7" xml:id="p7"/></speaker>
+              <speaker>ALVIDE.</speaker><pb n="7" xml:id="p7"/>
               <l n="117" xml:id="l117">Soit comme tu voudras, je t’accorde ce point,</l>
               <l n="118" xml:id="l118">Je puis pour luy <ref target="#complaire">complaire*</ref>, aymer, ou n’aymer point ;</l>
               <l n="119" xml:id="l119">Que ne puis-je aussi bien <ref target="#allentir">allentir*</ref> cette flame</l>
@@ -1124,7 +1124,7 @@
               <l n="137" xml:id="l137">Et qui finit tousjours en quelque autre souspir.</l>
             </sp>
             <sp who="nourrice">
-              <speaker>NOURRICE.<pb n="8" xml:id="p8"/></speaker>
+              <speaker>NOURRICE.</speaker><pb n="8" xml:id="p8"/>
               <l n="138" xml:id="l138">Ma fille, tout cecy marque un ardent desir.</l>
               <l n="139" xml:id="l139">Trembler, paslir, jetter une timide <ref target="#oeillade">oeillade*</ref>,</l>
               <l n="140" xml:id="l140">Ce sont tous <ref target="#accident1">accidens*</ref> d’un coeur d’amour malade.</l>
@@ -1151,7 +1151,7 @@
               <l n="158" xml:id="l158">Où souvent ses <ref target="#coursiers">Coursiers*</ref> s’exercent à ses yeux.</l>
             </sp>
             <sp who="nourrice">
-              <speaker>NOURRICE.<pb n="B ; 9" xml:id="p9"/></speaker>
+              <speaker>NOURRICE.</speaker><pb n="B ; 9" xml:id="p9"/>
               <l n="159" xml:id="l159">Madame, la maison vous est bien plus seante,</l>
               <l n="160" xml:id="l160">Vous pouvez sans sortir vous rendre aussi contente,</l>
               <l n="161" xml:id="l161">Et de vostre Palais, assise en un balcon,</l>
@@ -1189,7 +1189,7 @@
           </div>
           <div type="scene">
             <head>SCENE III.</head>
-            <stage>TORRISMON. LE CONSEILLER.<pb n="11" xml:id="p11"/></stage>
+            <stage>TORRISMON. LE CONSEILLER.</stage><pb n="11" xml:id="p11"/>
             <sp who="torrismon">
               <speaker>TORRISMON.</speaker>
               <l n="183" xml:id="l183">Quel fleuve, ou quelle mer si vaste &amp; si profonde</l>
@@ -1562,7 +1562,8 @@
           </div>
         </div>
         <div type="act">
-          <head>ACTE II.<pb n="26" xml:id="p26"/></head>
+          <pb n="26" xml:id="p26"/>
+          <head>ACTE II.</head>
           <div type="scene">
             <head>SCENE I.</head>
             <stage>GENTIL-HOMME de la part de Germon.</stage>
@@ -1725,7 +1726,7 @@
             <head>SCENE IIII.</head>
             <stage>RUSILLE, mere de Torrismon. ROSMONDE.</stage>
             <sp who="rusille">
-              <speaker>RUSILLE.<pb n="E ; 33" xml:id="p33"/></speaker>
+              <speaker>RUSILLE.</speaker><pb n="E ; 33" xml:id="p33"/>
               <l n="587" xml:id="l587">Hé quoy! n’aurois-tu peu, ma fille, encore apprendre,</l>
               <l n="588" xml:id="l588">Qu’icy le Roy Germon <ref target="#dedans-peu">dedans peu*</ref> se doit rendre?</l>
             </sp>
@@ -1912,7 +1913,7 @@
               <l n="716" xml:id="l716">Est pour le Pere un fruit, mais un <ref target="#fais">fais*</ref> pour la Mere,</l>
               <l n="717" xml:id="l717">Qui comme s’il estoit à son mal destiné,</l>
               <l n="718" xml:id="l718">Luy pese avant que naistre, en naissant, estant né<note place="bottom">Signifie donc que l’enfant pèse à la mère avant sa naissance, au moment de la naissance et encore après.</note> :</l>
-              <stage>On ne doit point trouver à redire qu’une Princesse comme on croyoit Rosmonde, ait ces considerations, car la Fortune n’oste rien aux droits de la Nature, quelque grandeur qu’ait une mere elle est tousjours mere. Ny qu’une <space> </space>fille parle de sa grossesse, puis que c’est en termes tres-honnestes.</stage>
+              <stage>On ne doit point trouver à redire qu’une Princesse comme on croyoit Rosmonde, ait ces considerations, car la Fortune n’oste rien aux droits de la Nature, quelque grandeur qu’ait une mere elle est tousjours mere. Ny qu’une fille parle de sa grossesse, puis que c’est en termes tres-honnestes.</stage>
               <l n="719" xml:id="l719">Or vous m’accorderez qu’une fille est exente</l>
               <l n="720" xml:id="l720">De toutes ces douleurs que l’hymen nous presente :</l>
               <l n="721" xml:id="l721">Que s’il arrive aussi que la femme &amp; l’espoux</l>
@@ -2004,7 +2005,7 @@
           <div type="scene">
             <head>SCENE V.</head>
             <sp who="rusille">
-              <speaker>RUSILLE <hi rend="i">seule.</hi><pb n="44" xml:id="p44"/></speaker>
+              <speaker>RUSILLE <hi rend="i">seule.</hi></speaker><pb n="44" xml:id="p44"/>
               <l n="795" xml:id="l795"> Une veuve ne peut se dire infortunée</l>
               <l n="796" xml:id="l796">Qui <ref target="#flatter1">flatte*</ref> en ses enfans sa douleur obstinée,</l>
               <l n="797" xml:id="l797">Et qui trouvant en eux comme un puissant appuy,</l>
@@ -2025,7 +2026,7 @@
           </div>
           <div type="scene">
             <head>SCENE VI.</head>
-            <stage>RUSILLE, TORRISMON.<pb n="45" xml:id="p45"/></stage>
+            <stage>RUSILLE, TORRISMON.</stage><pb n="45" xml:id="p45"/>
             <sp who="rusille">
               <speaker>RUSILLE.</speaker>
               <l n="811" xml:id="l811">Apres s’estre long-temps contre moy deffenduë,</l>
@@ -2066,10 +2067,11 @@
           </div>
         </div>
         <div type="act">
-          <head>ACTE III.<pb n="47" xml:id="p47"/></head>
+          <pb n="47" xml:id="p47"/>
+          <head>ACTE III.</head>
           <div type="scene">
             <head>SCENE I.</head>
-            <sp who="leconseiler">
+            <sp who="conseiller">
               <speaker>LE CONSEILER <hi rend="i">Seul.</hi></speaker>
               <l n="835" xml:id="l835">On void peu d’amitiés qui ne fassent naufrage,</l>
               <l n="836" xml:id="l836">Tousjours la passion sousleve quelque orage  :</l>
@@ -2106,7 +2108,7 @@
           <div type="scene">
             <head>SCENE  II.</head>
             <sp who="rosmonde">
-              <speaker>ROSMONDE <hi rend="i">Seule.</hi><pb n="G ;49" xml:id="p49"/></speaker>
+              <speaker>ROSMONDE <hi rend="i">Seule.</hi></speaker><pb n="G ;49" xml:id="p49"/>
               <l n="865" xml:id="l865">Apres qu’en si haut lieu tu m’as daigné porter,</l>
               <l n="866" xml:id="l866">Fortune veux tu donc encore me flatter ?</l>
               <l n="867" xml:id="l867">M’eleves tu tousjours afin que j’apprehende</l>
@@ -2272,7 +2274,8 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE  VI.<pb n="56" xml:id="p56"/></head>
+            <pb n="56" xml:id="p56"/>
+            <head>SCENE  VI.</head>
             <stage>ALVIDE, NOURRICE.</stage>
             <sp who="alvide">
               <speaker>ALVIDE.</speaker>
@@ -2322,7 +2325,7 @@
               <l n="1000" xml:id="l1000">Qu'on predisoit au Prince une haute vengeance.</l>
             </sp>
             <sp who="alvide">
-              <speaker>ALVIDE. <pb n="58" xml:id="p58"/></speaker>
+              <speaker>ALVIDE. </speaker><pb n="58" xml:id="p58"/>
               <l n="1001" xml:id="l1001">Une injure nouvelle augmenta ses douleurs,</l>
               <l n="1002" xml:id="l1002">Et plus que tous ses maux luy fit verser des pleurs ;</l>
               <l n="1003" xml:id="l1003">La guerre en Dannemarch estant fort allumée,</l>
@@ -2396,7 +2399,7 @@
               <l n="1068" xml:id="l1068">Qui par luy mesme en fin au jour seront ecloses.</l>
             </sp>
             <sp who="alvide">
-              <speaker>ALVIDE.<pb n="61" xml:id="p61"/></speaker>
+              <speaker>ALVIDE.</speaker><pb n="61" xml:id="p61"/>
               <l n="1069" xml:id="l1069">Sont-ce des dons d’amour ou d’amy seulement?</l>
               <l n="1070" xml:id="l1070">Qui me tente? Germon, ou bien mon cher amant?</l>
               <l n="1071" xml:id="l1071">Sont-ce presens d’honneur, ou marques d’infamie?</l>
@@ -2454,7 +2457,7 @@
               <l n="1104" xml:id="l1104">Et vous n’avez pourtant à craindre que vous mesme.</l>
             </sp>
             <sp who="alvide">
-              <speaker>ALVIDE.<pb n="63" xml:id="p63"/></speaker>
+              <speaker>ALVIDE.</speaker><pb n="63" xml:id="p63"/>
               <l n="1105" xml:id="l1105">A quoy donc desormais me reserve le sort?</l>
               <stage>Cecy se rapporte à ce que la Nourrice a dit un peu devant que le Roy de Norvegue luy avoit dit en luy donnant Alvide à eslever ; car elle doute si cette vengeance de fraudes &amp; embusches secrettes ne regarde point Germon qu’elle croyoit la vouloir tenter par ces dons.</stage>
               <l n="1106" xml:id="l1106">Que me faut-il vanger ? quelle embusche? quel sort?</l>
@@ -2470,7 +2473,8 @@
           </div>
         </div>
         <div type="act">
-          <head>ACTE IIII.<pb n="64" xml:id="p64"/></head>
+          <pb n="64" xml:id="p64"/>
+          <head>ACTE IIII.</head>
           <div type="scene">
             <head>SCENE I.</head>
             <stage>CONSEILLER, GERMON.</stage>
@@ -2536,18 +2540,18 @@
               <l n="1164" xml:id="l1164">L’amour à l’amitié sert d’une forte attache .</l>
             </sp>
             <sp who="germon">
-              <speaker>GERMON.<pb n="67" xml:id="p67"/></speaker>
+              <speaker>GERMON.</speaker><pb n="67" xml:id="p67"/>
               <l n="1165" xml:id="l1165">L’amitié, de l’amour  produit en nous l’<ref target="#effet">effet*</ref>.</l>
             </sp>
             <sp who="conseiller">
               <speaker>CONSEILLER.</speaker>
               <l n="1166" xml:id="l1166">L’hymen est dangereux que l’amitié ne fait.</l>
             </sp>
-            <sp who="germon ">
+            <sp who="germon">
               <speaker>GERMON .</speaker>
               <l n="1167" xml:id="l1167">Quand le peril est grand, la gloire en est plus grande.</l>
             </sp>
-            <sp who="conseiller ">
+            <sp who="conseiller">
               <speaker>CONSEILLER .</speaker>
               <l n="1168" xml:id="l1168">Sans honte<note place="bottom">Le Conseiller veut dire qu’il n’y a pas de honte à avoir à éprouver de la peur devant une menace extérieure.</note>, le peril pour autruy s’apprehende.</l>
             </sp>
@@ -2640,7 +2644,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE  III.<pb n="71" xml:id="p71"/></head>
+            <head>SCENE  III.</head><pb n="71" xml:id="p71"/>
             <stage>TORRISMON, ROSMONDE.</stage>
             <sp who="torrismon">
               <speaker>TORRISMON.</speaker>
@@ -2663,7 +2667,7 @@
               <l n="1244" xml:id="l1244">Les tiltres mal acquis sont des tiltres <ref target="#frivole">frivoles*</ref>.</l>
             </sp>
             <sp who="torrismon">
-              <speaker>TORRISMON.<pb n="72" xml:id="p72"/></speaker>
+              <speaker>TORRISMON.</speaker><pb n="72" xml:id="p72"/>
               <l n="1245" xml:id="l1245">Declare moy comment ils te sont mal acquis,</l>
               <l n="1246" xml:id="l1246">Qui fit la tromperie, &amp; de qui tu nasquis.</l>
             </sp>
@@ -2803,7 +2807,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE  IIII.<pb n="77" xml:id="p77"/></head>
+            <head>SCENE  IIII.</head><pb n="77" xml:id="p77"/>
             <sp who="torrismon">
               <speaker>TORRISMON <hi rend="i">seul.</hi></speaker>
               <l n="1311" xml:id="l1311">Fut-il jamais douleur comparable à la nostre?</l>
@@ -2837,7 +2841,8 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE  V.<pb n="79" xml:id="p79"/></head>
+            <pb n="79" xml:id="p79"/>
+            <head>SCENE  V.</head>
             <stage>TORRISMON, LE DEVIN</stage>
             <sp who="torrismon">
               <speaker>TORRISMON.</speaker>
@@ -2895,7 +2900,7 @@
               <l n="1356" xml:id="l1356">Decouvre moy ma sœur, avec la tromperie .</l>
             </sp>
             <sp who="devin">
-              <speaker>DEVIN.<pb n="L ; 81" xml:id="p81"/></speaker>
+              <speaker>DEVIN.</speaker><pb n="L ; 81" xml:id="p81"/>
               <l n="1357" xml:id="l1357" part="I">Ta sœur est parmy nous.</l>
             </sp>
             <sp who="torrismon">
@@ -2951,7 +2956,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE  VI.<pb n="83" xml:id="p83"/></head>
+            <head>SCENE  VI.</head><pb n="83" xml:id="p83"/>
             <stage>FAUSTON, TORRISMON.</stage>
             <sp who="fauston">
               <speaker>FAUSTON.</speaker>
@@ -3077,7 +3082,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE VII.<pb n="88" xml:id="p88"/></head>
+            <head>SCENE VII.</head><pb n="88" xml:id="p88"/>
             <stage>MESSAGER, TORRISMON, FAUSTON.</stage>
             <sp who="messager">
               <speaker>MESSAGER.</speaker>
@@ -3103,7 +3108,7 @@
               <l n="1458" xml:id="l1458">Entre nous il suffit qu’on parle à l’un des deux.</l>
             </sp>
             <sp who="messager">
-              <speaker>MESSAGER.<pb n="M ; 89" xml:id="p89"/></speaker>
+              <speaker>MESSAGER.</speaker><pb n="M ; 89" xml:id="p89"/>
               <l n="1459" xml:id="l1459">Desormais la Norvegue est dessous sa puissance,</l>
               <l n="1460" xml:id="l1460">Et s’appreste à vous rendre une humble obeïssance.</l>
             </sp>
@@ -3197,7 +3202,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE  VIII.<pb n="92" xml:id="p92"/></head>
+            <head>SCENE  VIII.</head><pb n="92" xml:id="p92"/>
             <stage>GERMON, TORRISMON.</stage>
             <sp who="germon">
               <speaker>GERMON.</speaker>
@@ -3258,7 +3263,8 @@
           </div>
         </div>
         <div type="act">
-          <head>ACTE V.<pb n="95" xml:id="p95"/></head>
+          <pb n="95" xml:id="p95"/>
+          <head>ACTE V.</head>
           <div type="scene">
             <head>SCENE I.</head>
             <stage>ALVIDE, NOURRICE.</stage>
@@ -3269,7 +3275,7 @@
               <l n="1533" xml:id="l1533">O Dieux imploreray-je en vain vostre secours !</l>
             </sp>
             <sp who="nourrice">
-              <speaker>NOURRICE.<pb n="96" xml:id="p96"/></speaker>
+              <speaker>NOURRICE.</speaker><pb n="96" xml:id="p96"/>
               <l n="1534" xml:id="l1534">Tousjours vous vous plaignez, &amp; vous craignez tousjours.</l>
             </sp>
             <sp who="alvide">
@@ -3419,7 +3425,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE II.<pb n="102" xml:id="p102"/></head>
+            <head>SCENE II.</head><pb n="102" xml:id="p102"/>
             <sp who="rusille">
               <speaker>RUSILLE <hi rend="i">seule.</hi></speaker>
               <l n="1649" xml:id="l1649">A la fin la fortune apres un si long-temps,</l>
@@ -3476,7 +3482,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE  V.<pb n="O ; 105" xml:id="p105"/></head>
+            <head>SCENE  V.</head><pb n="O ; 105" xml:id="p105"/>
             <stage>TORRISMON survenant.</stage>
             <stage>ALVIDE. GENTIL-HOMME de chambre.</stage>
             <sp who="torrismon">
@@ -3525,7 +3531,7 @@
               <l n="1716" xml:id="l1716">Tu ne peux pour ce coup perdre encor la lumiere.</l>
             </sp>
             <sp who="alvide">
-              <speaker>ALVIDE.<pb n="107" xml:id="p107"/></speaker>
+              <speaker>ALVIDE.</speaker><pb n="107" xml:id="p107"/>
               <l n="1717" xml:id="l1717">O frere plus que frere, &amp; plus que bien-aymé,</l>
               <l n="1718" xml:id="l1718">Ce coup est plus mortel que tu n’as estimé.</l>
               <l n="1719" xml:id="l1719">Ta derniere demande est bien vaine &amp; <ref target="#frivole">frivole*</ref>  ;</l>
@@ -3554,7 +3560,7 @@
               <l n="1735" xml:id="l1735" part="I">Sire, que faites vous !</l>
             </sp>
             <sp who="torrismon">
-              <speaker>TORRISMON.<pb n="108" xml:id="p108"/></speaker>
+              <speaker>TORRISMON.</speaker><pb n="108" xml:id="p108"/>
               <l part="F"><hi rend="i"></hi>Accomplis ton message,</l>
               <l n="1736" xml:id="l1736">Et me laisses finir en homme de courage  :</l>
               <l n="1737" xml:id="l1737">Sçaches que c’est icy la plus douce des morts</l>
@@ -3578,7 +3584,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE VII.<pb n="109" xml:id="p109"/></head>
+            <head>SCENE VII.</head><pb n="109" xml:id="p109"/>
             <stage>GERMON, GENTIL-HOMME.</stage>
             <sp who="germon">
               <speaker>GERMON.</speaker>
@@ -3630,7 +3636,7 @@
               <l n="1777" xml:id="l1777" part="I">Non, il suivit Alvide.</l>
             </sp>
             <sp who="germon">
-              <speaker>GERMON.<pb n="111" xml:id="p111"/></speaker>
+              <speaker>GERMON.</speaker><pb n="111" xml:id="p111"/>
               <l part="F"><hi rend="i"></hi>Alvide morte aussi !</l>
             </sp>
             <sp who="gentil-homme">
@@ -3730,7 +3736,7 @@
               <l n="1835" xml:id="l1835">Si celle-cy ne l’est, quelle autre est donc ma fille<note place="bottom">Rusille désigne donc Rosmonde qui est arrivée avec elle.</note> ?</l>
             </sp>
             <sp who="gentil-homme">
-              <speaker>GENTIL-HOMME.<pb n="115" xml:id="p115"/></speaker>
+              <speaker>GENTIL-HOMME.</speaker><pb n="115" xml:id="p115"/>
               <l n="1836" xml:id="l1836">Celle que Galealte eut dedans sa famille.</l>
             </sp>
             <sp who="rusille">
