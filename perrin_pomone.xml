@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -396,22 +393,22 @@
               </div>
               <div>
                 <head>Chronologie : des formes mêlées à  l’opéra, du théâtre avec musique au théâtre en musique</head>
-                <p><hi rend="u"><hi rend="b">1556</hi> <hi rend="b"/>:</hi><hi rend="i"> La Sofonisba</hi> de Trissino, traduit en français, est représentée devant Catherine de Médicis. Les chœurs sont déclamés sur fond musical.</p>
-                <p><hi rend="u"><hi rend="b">1571</hi> :</hi> Antoine de  Baïf fonde l’<hi rend="i">Académie de Poésie et de Musique</hi> sous le patronage de Charles IX, avec la conviction de la possibilité d’égaler les effets du théâtre grec en combinant les différents arts.</p>
-                <p><hi rend="u"><hi rend="b">1581</hi> :</hi><hi rend="i">Le Ballet comique de la Royne</hi>, par Beaujoyeulx, premier exemple connu de ballet de cour.</p>
-                <p><hi rend="u"><hi rend="b">1640</hi> </hi>: <hi rend="i">La Comédie de chansons</hi>, Charles de Beys ? Charles Sorel ?, pièce musicale composée par compilation d’extraits de chansons et d’airs de cour.</p>
-                <p><hi rend="u"><hi rend="b">1650</hi> :</hi><hi rend="i">Les Amours d’Apolon et de Dafné</hi>, par Charles Coypeau, musique du sieur Dassoucy, intitulée « comédie en musique », en réalité une pastorale à insertions musicales ; la partition est perdue et la pièce ne fut peut-être jamais représentée.</p>
-                <p><hi rend="u"><hi rend="b">1650</hi> :</hi><hi rend="i">Andromède</hi>, Pierre Corneille, musique du sieur Dassoucy. Date de l’Argument ?</p>
-                <p><hi rend="u"><hi rend="b">Janvier 1658</hi> <hi rend="b"/>: </hi><hi rend="i">Le Triomphe de l’Amour sur des bergers et  bergères</hi>, Charles de Beys, musique de Michel de la Guerre, peut-être une première pastorale en musique, représentée devant le Roi au Louvre. Pas de partition conservée.</p>
-                <p><hi rend="u"><hi rend="b">1659</hi> :</hi> La <hi rend="i">Pastorale</hi> dite <hi rend="i">Pastorale d’Issy</hi>, Perrin et musique de Cambert.</p>
-                <p><hi rend="u"><hi rend="b">1661</hi> :</hi><hi rend="i">La Conquête de la Toison d’Or</hi>, Pierre Corneille, tragédie à machines avec chœurs de musique, immense succès. <hi rend="u">Août</hi> : <hi rend="i">Les Fâcheux</hi>, comédie-ballet, représentée à Vaux-le-Vicomte, marque le début de la collaboration entre Lully et Molière.</p>
-                <p><hi rend="u"><hi rend="b">1662</hi> :</hi> création de l’Académie royale de danse.</p>
-                <p><hi rend="u"><hi rend="b">2 décembre 1666</hi> <hi rend="b"/>:</hi><hi rend="i"> Le Ballet royal des Muses</hi>, ballet avec enchâssements de pièces, fruit de la collaboration de Molière, Benserade, Quinault et Lully, est un jalon important dans l’histoire de l’opéra, avec pour la première fois de véritables dialogues en musique (voir <hi rend="i">supra</hi>). Louis XIV y tient, entre autres,  le rôle d’un berger.</p>
-                <p><hi rend="u"><hi rend="b">1668</hi> :</hi><hi rend="i">Grand Divertissement royal de Versailles</hi>, qui comprend <hi rend="i">Georges Dandin</hi>, pièce construite à l’intérieur d’une pastorale en musique.</p>
-                <p><hi rend="u"><hi rend="b">14 février 1670</hi> :</hi><hi rend="i">Les Amants magnifiques</hi>, comédie-ballet de Molière et Lully, deuxième représentation. Louis XIV, dans le rôle d’Apollon, se fait remplacer : il ne reparaîtra plus sur scène. Implique une nécessaire modification du divertissement de cour.</p>
-                <p><hi rend="u"><hi rend="b">1671</hi> <hi rend="b"/>:</hi> Pour la première fois depuis 90 ans, il n’y a pas de ballet de cour prévu pour le Carnaval. Le Roi commande donc un spectacle pour la salle des machines du Louvre : ce sera <hi rend="i"> Psyché</hi>, Molière, Quinault et Corneille, musique de Lully. <hi rend="u">Avril</hi> : notre <hi rend="i">Pomone</hi>, immense succès.</p>
+                <p><hi rend="u">1556:</hi><hi rend="i"> La Sofonisba</hi> de Trissino, traduit en français, est représentée devant Catherine de Médicis. Les chœurs sont déclamés sur fond musical.</p>
+                <p><hi rend="u">1571 :</hi> Antoine de  Baïf fonde l’<hi rend="i">Académie de Poésie et de Musique</hi> sous le patronage de Charles IX, avec la conviction de la possibilité d’égaler les effets du théâtre grec en combinant les différents arts.</p>
+                <p><hi rend="u">1581 :</hi><hi rend="i">Le Ballet comique de la Royne</hi>, par Beaujoyeulx, premier exemple connu de ballet de cour.</p>
+                <p><hi rend="u">1640 </hi>: <hi rend="i">La Comédie de chansons</hi>, Charles de Beys ? Charles Sorel ?, pièce musicale composée par compilation d’extraits de chansons et d’airs de cour.</p>
+                <p><hi rend="u">1650 :</hi><hi rend="i">Les Amours d’Apolon et de Dafné</hi>, par Charles Coypeau, musique du sieur Dassoucy, intitulée « comédie en musique », en réalité une pastorale à insertions musicales ; la partition est perdue et la pièce ne fut peut-être jamais représentée.</p>
+                <p><hi rend="u">1650 :</hi><hi rend="i">Andromède</hi>, Pierre Corneille, musique du sieur Dassoucy. Date de l’Argument ?</p>
+                <p><hi rend="u">Janvier 1658</hi>: <hi rend="i">Le Triomphe de l’Amour sur des bergers et  bergères</hi>, Charles de Beys, musique de Michel de la Guerre, peut-être une première pastorale en musique, représentée devant le Roi au Louvre. Pas de partition conservée.</p>
+                <p><hi rend="u">1659 :</hi> La <hi rend="i">Pastorale</hi> dite <hi rend="i">Pastorale d’Issy</hi>, Perrin et musique de Cambert.</p>
+                <p><hi rend="u">1661 :</hi><hi rend="i">La Conquête de la Toison d’Or</hi>, Pierre Corneille, tragédie à machines avec chœurs de musique, immense succès. <hi rend="u">Août</hi> : <hi rend="i">Les Fâcheux</hi>, comédie-ballet, représentée à Vaux-le-Vicomte, marque le début de la collaboration entre Lully et Molière.</p>
+                <p><hi rend="u">1662 :</hi> création de l’Académie royale de danse.</p>
+                <p><hi rend="u">2 décembre 1666 :</hi><hi rend="i"> Le Ballet royal des Muses</hi>, ballet avec enchâssements de pièces, fruit de la collaboration de Molière, Benserade, Quinault et Lully, est un jalon important dans l’histoire de l’opéra, avec pour la première fois de véritables dialogues en musique (voir <hi rend="i">supra</hi>). Louis XIV y tient, entre autres,  le rôle d’un berger.</p>
+                <p><hi rend="u">1668 :</hi><hi rend="i">Grand Divertissement royal de Versailles</hi>, qui comprend <hi rend="i">Georges Dandin</hi>, pièce construite à l’intérieur d’une pastorale en musique.</p>
+                <p><hi rend="u">14 février 1670 :</hi><hi rend="i">Les Amants magnifiques</hi>, comédie-ballet de Molière et Lully, deuxième représentation. Louis XIV, dans le rôle d’Apollon, se fait remplacer : il ne reparaîtra plus sur scène. Implique une nécessaire modification du divertissement de cour.</p>
+                <p><hi rend="u">1671 :</hi> Pour la première fois depuis 90 ans, il n’y a pas de ballet de cour prévu pour le Carnaval. Le Roi commande donc un spectacle pour la salle des machines du Louvre : ce sera <hi rend="i"> Psyché</hi>, Molière, Quinault et Corneille, musique de Lully. <hi rend="u">Avril</hi> : notre <hi rend="i">Pomone</hi>, immense succès.</p>
                 <p><hi rend="i">Les Fêtes de l’Amour et de Bacchus</hi>, Lully. Le prologue annonce la venue prochaine d’un nouveau genre lyrique, la tragédie en musique.</p>
-                <p><hi rend="u"><hi rend="b">1690’s</hi> :</hi> Esther et Athalie. Aboutissement d’un double mouvement d’évolution : attirance de la tragédie vers la musique <hi rend="i">(via</hi> le modèle grec, cf. préface d’<hi rend="i">Esther</hi>) et attirance de la musique de scène vers le théâtre.</p>
+                <p><hi rend="u">1690’s :</hi> Esther et Athalie. Aboutissement d’un double mouvement d’évolution : attirance de la tragédie vers la musique <hi rend="i">(via</hi> le modèle grec, cf. préface d’<hi rend="i">Esther</hi>) et attirance de la musique de scène vers le théâtre.</p>
               </div>
             </div>
           </div>
@@ -452,23 +449,23 @@
                 <p>Si vous voulez savoir ce que c’est qu’un Opera, je vous dirai que c’est un travail bizarre de Poésie, de Musique, où le Poète et le Musicien également géhennés l’un par l’autre, se donnent bien de la peine à faire un méchant ouvrage, ce n’est pas que vous n’y puissiez trouver des paroles agréables, et de fort beaux airs ; mais vous trouverez plus sûrement à la fin le dégoût des vers, où le génie du Poète a été contraint, et l’ennui du chant où le Musicien s’est épuisé par une trop longue Musique.<note place="bottom">Saint-Evremond, <hi rend="i">Lettre sur les opéras</hi> (1669 ?), cité dans <hi rend="i">La Naissance du style français</hi>, p. 40.</note></p>
               </quote>
               <p>Il est amusant d’ailleurs de voir que peu ou prou, Perrin reprend les mêmes critiques dans sa lettre au cardinal, et se donne pour tâche de les erradiquer dans son œuvre future. Pour avoir une idée des représentations italiennes qui ont pu influencer le public français, voici une chronologie succinte des représentations d’opéras italiens devant un public français ou qui ont eu des répercussions directes en France :</p>
-              <p>– Jean Antoine de Baïf, fils de Lazare de Baïf ambassadeur à Venise, prit dans son enfance en Italie le goût des nouvelles représentations en musique ; il tenta de les introduire en France à son retour en fondant en <hi rend="u"><hi rend="b">1570</hi></hi> sa fameuse Académie réunissant poètes et musiciens. Selon Ménestrier, n’ayant pas joint à la poésie et à la musique les agréments du spectacle, son entreprise était vouée à s’éteindre.</p>
-              <p><hi rend="u"><hi rend="b">– 1589</hi> :</hi> mariage du duc Ferdinand de Médicis avec Mme Chrétienne de Lorraine, divertissement musical en 6 actes dans le palais de Florence pour les festivités.</p>
-              <p><hi rend="u"><hi rend="b">– 6 octobre 1600</hi> :</hi><hi rend="i">Euridice d</hi>e Peri, premier opéra en Europe, est représenté à Florence pour le mariage, par procuration,  d’Henri IV et de Marie de Médicis. Les représentants du roi et ambassadeurs français ont donc eu à cette occasion un contact direct avec les  toutes premières sources de l’opéra.</p>
-              <p><hi rend="u"><hi rend="b">– 10 février 1628</hi></hi>, Turin, célébration de la naissance de Madame de Savoie. Prodigieuse machinerie, la salle se remplit d’eau, un vaisseau apparaît, les spectateurs sont invités à y entrer pour être servis par des divinités aquatiques.</p>
-              <p><hi rend="u"><hi rend="b">– 6 mars 1637</hi> :</hi> L’église de la paroisse San Cassiano à Venise devient le Teatro San Cassiano, premier théâtre d’opéra ouvert au public.</p>
-              <p><hi rend="u"><hi rend="b">– 1645</hi> :</hi><hi rend="i">La Finta Pazza</hi>, théâtre du Petit Bourbon. C’est Torelli, appelé de Venise par l’influence de Mazarin, qui amena la pièce avec lui.</p>
+              <p>– Jean Antoine de Baïf, fils de Lazare de Baïf ambassadeur à Venise, prit dans son enfance en Italie le goût des nouvelles représentations en musique ; il tenta de les introduire en France à son retour en fondant en <hi rend="u">1570</hi> sa fameuse Académie réunissant poètes et musiciens. Selon Ménestrier, n’ayant pas joint à la poésie et à la musique les agréments du spectacle, son entreprise était vouée à s’éteindre.</p>
+              <p><hi rend="u">– 1589 :</hi> mariage du duc Ferdinand de Médicis avec Mme Chrétienne de Lorraine, divertissement musical en 6 actes dans le palais de Florence pour les festivités.</p>
+              <p><hi rend="u">– 6 octobre 1600 :</hi><hi rend="i">Euridice d</hi>e Peri, premier opéra en Europe, est représenté à Florence pour le mariage, par procuration,  d’Henri IV et de Marie de Médicis. Les représentants du roi et ambassadeurs français ont donc eu à cette occasion un contact direct avec les  toutes premières sources de l’opéra.</p>
+              <p><hi rend="u">– 10 février 1628</hi>, Turin, célébration de la naissance de Madame de Savoie. Prodigieuse machinerie, la salle se remplit d’eau, un vaisseau apparaît, les spectateurs sont invités à y entrer pour être servis par des divinités aquatiques.</p>
+              <p><hi rend="u">– 6 mars 1637 :</hi> L’église de la paroisse San Cassiano à Venise devient le Teatro San Cassiano, premier théâtre d’opéra ouvert au public.</p>
+              <p><hi rend="u">– 1645 :</hi><hi rend="i">La Finta Pazza</hi>, théâtre du Petit Bourbon. C’est Torelli, appelé de Venise par l’influence de Mazarin, qui amena la pièce avec lui.</p>
               <quote>
                 <p>Les voix qu’on avoit fait venir d’Italie rendirent cette action la plus agreable du monde, avec les divers changemens de Scene, d’allées de Cyprez, de Palais, de Places publiques, et de Jardins. Les Divinitez qui parurent en l’air, les vols, et les autres machines qu’on n’avoit pas encore vuës en France, surprirent agreablement les esprits. Ce fut cette action qui servit de preparation à l’Orphée…<note place="bottom">Ménestrier, <hi rend="i">op. cit</hi>., p. 232.</note></p>
               </quote>
-              <p><hi rend="u"><hi rend="b">– 2 mars 1647</hi> :</hi> Luigi  Rossi : <hi rend="i">Orfeo</hi>, décors et machines de Giacomo Torelli, théâtre du Palais-Royal :</p>
+              <p><hi rend="u">– 2 mars 1647 :</hi> Luigi  Rossi : <hi rend="i">Orfeo</hi>, décors et machines de Giacomo Torelli, théâtre du Palais-Royal :</p>
               <quote>
                 <p>L’an 1647, le Cardinal Mazarin qui vouloit introduire en France les divertissements d’Italie, fit venir des Comediens de de là les Monts, qui representerent au Palais Royal, Orphée et Euridice en Vers Italiens et en Musique, avec de merveilleux changemens de Theatre, et des machines qu’on n’avoit pas encore vûes.<note place="bottom">Ménestrier, <hi rend="i">Des représentations en musique anciennes et modernes</hi>, p. 195.</note>.</p>
               </quote>
               <p>La pièce fut représentée avec un Prologue mené par le personnage de la Victoire, à la louange du Roi. Il semble que ce soit ce genre de prologues détachés de l’action qui ait servi de modèle aux opéras français. De nombreux passages sont composés dans une atmosphère de pastorale, et un personnage de Satyre donne lieu à des scènes « enjouëes » et bouffonnes.</p>
-              <p>– <hi rend="u"><hi rend="b">1654</hi> :</hi> <hi rend="i">Le Nozze di Peleo e di Theti</hi>, musique de Carlo Caproli, livret de l’Abbé Buti, machines de Torelli, théâtre du Petit-Bourbon (Louvre).</p>
-              <p><hi rend="u"><hi rend="b">– 22 novembre 1660</hi> :</hi><hi rend="i">Serse</hi> de Cavalli, pour célébrer le mariage de Louis et de Marie Thérèse (1659), avec des ballets de Lully.</p>
-              <p><hi rend="u"><hi rend="b">– 7 février 1662</hi> :</hi><hi rend="i">Ercole Amante</hi> de Cavalli, commandé pour les noces de Louis et de Marie-Thérèse, est représenté dans la salle des Tuileries, construite pour l’occasion, par des interprètes italiens venus avec Cavalli.</p>
+              <p>– <hi rend="u">1654 :</hi> <hi rend="i">Le Nozze di Peleo e di Theti</hi>, musique de Carlo Caproli, livret de l’Abbé Buti, machines de Torelli, théâtre du Petit-Bourbon (Louvre).</p>
+              <p><hi rend="u">– 22 novembre 1660 :</hi><hi rend="i">Serse</hi> de Cavalli, pour célébrer le mariage de Louis et de Marie Thérèse (1659), avec des ballets de Lully.</p>
+              <p><hi rend="u">– 7 février 1662 :</hi><hi rend="i">Ercole Amante</hi> de Cavalli, commandé pour les noces de Louis et de Marie-Thérèse, est représenté dans la salle des Tuileries, construite pour l’occasion, par des interprètes italiens venus avec Cavalli.</p>
             </div>
           </div>
           <div>
@@ -1221,6 +1218,43 @@
 </front>
     <body>
       <head>Premier opera<lb/>Pomone.</head>
+      <div xml:id="personnages">
+        <head>[PERSONNAGES.]</head>
+        <castList>
+          <castItem>
+            <role xml:id="vertumne">[VERTUMNE]</role>
+          </castItem>
+          <castItem>
+            <role xml:id="lanymphedelaseine">[LA NYMPHE DE LA SEINE]</role>
+          </castItem>
+          <castItem>
+            <role xml:id="pomone">[POMONE]</role>
+          </castItem>
+          <castItem>
+            <role xml:id="venilie">[VENILIE]</role>
+          </castItem>
+          <castItem>
+            <role xml:id="flore">[FLORE]</role>
+          </castItem>
+          <castItem>
+            <role xml:id="beroe">[BEROE]</role>
+          </castItem>
+          <castItem>
+            <role xml:id="faune">[FAUNE]</role>
+          </castItem>
+          <castItem>
+            <role xml:id="juturne">[JUTURNE]</role>
+          </castItem>
+          <castItem>
+            <role xml:id="dieudesjardins">[LE DIEU DES JARDINS]</role>
+          </castItem>
+          <castItem>
+            <role xml:id="jardinier1">[TROIS JARDINIERS]</role>
+            <role xml:id="jardinier2"></role>
+            <role xml:id="jardinier3"></role>
+          </castItem>
+        </castList>
+      </div>
           <div>
             <head>Premiere ouverture.</head>
           </div>
@@ -1248,7 +1282,7 @@
               <l n="12" xml:id="l12">Jamais, Jamais un si grand homme,</l>
               <l n="13" xml:id="l13">Ne fut assis au Thrône des Cesars ; (<hi rend="i">bis</hi>)</l>
             </sp>
-            <sp who="lanymphe">
+            <sp who="lanymphedelaseine">
               <speaker>La Nymphe.</speaker>
               <l n="14" xml:id="l14">Aussi sur la Terre et sur l’Onde,</l>
               <l n="15" xml:id="l15"> Ce Monarque puissant ne fait point de projets</l>
@@ -1259,7 +1293,7 @@
               <speaker>Vertumne.</speaker>
               <l n="18" xml:id="l18"> Il est l’amour et la terreur,</l>
             </sp>
-            <sp who="ensemble">
+            <sp who="lanymphedelaseine vertumne">
               <speaker>Ensemble.</speaker>
               <l n="19" xml:id="l19">Il est l’amour et la terreur du monde,</l>
             </sp>
@@ -1267,15 +1301,15 @@
               <speaker>Vertumne</speaker>
               <l n="20" xml:id="l20">L’effroy de ses voisins,</l>
             </sp>
-            <sp who="lanymphe">
+            <sp who="lanymphedelaseine">
               <speaker>La Nymphe</speaker>
               <l n="21" xml:id="l21">Le cœur des ses sujets,</l>
             </sp>
-            <sp who="ensemble">
+            <sp who="lanymphedelaseine vertumne">
               <speaker>Ensemble</speaker>
               <l n="22" xml:id="l22">L’effroy de ses voisins, Le cœur de ses sujets ;</l>
             </sp>
-            <sp who="lanymphe">
+            <sp who="lanymphedelaseine">
               <speaker>La Nymphe.</speaker>
               <l n="23" xml:id="l23">Mais quel dessein t’amene,</l>
               <l n="24" xml:id="l24">Sur le bord de la Seine.</l>
@@ -1286,7 +1320,7 @@
               <l n="26" xml:id="l26"> Je viens tromper ses yeux de mes illusions,</l>
               <l n="27" xml:id="l27">Et luy montrer mes anciennes merveilles ?</l>
             </sp>
-            <sp who="lanymphe">
+            <sp who="lanymphedelaseine">
               <speaker>La Nymphe</speaker>
               <l n="28" xml:id="l28">Sus donc</l>
             </sp>
@@ -1294,7 +1328,7 @@
               <speaker>Vertumne</speaker>
               <l n="29" xml:id="l29">Sus donc</l>
             </sp>
-            <sp who="ensemble">
+            <sp who="lanymphedelaseine vertumne">
               <speaker>Ensemble</speaker>
               <l n="30" xml:id="l30">Par nos accords amoureux, par nos accords amoureux et touchans,</l>
               <l n="31" xml:id="l31"> Commençons de charmer son cœur et ses oreilles,</l>
@@ -1306,11 +1340,11 @@
               <speaker>Vertumne.</speaker>
               <l n="35" xml:id="l35">Du doux bruit</l>
             </sp>
-            <sp who="lanymphe">
+            <sp who="lanymphedelaseine">
               <speaker>La Nymphe</speaker>
               <l n="36" xml:id="l36">Du doux bruit du doux bruit</l>
             </sp>
-            <sp who="ensemble">
+            <sp who="vertumne lanymphedelaseine">
               <speaker>Ensemble</speaker>
               <l n="37" xml:id="l37">De nos Chants.</l>
             </sp>
@@ -1378,7 +1412,7 @@
               <l n="63" xml:id="l63">La fleur en est belle,</l>
               <l n="64" xml:id="l64">Mais le fruit amer.</l>
             </sp>
-            <sp who="ensemble">
+            <sp who="juturne venilie">
               <speaker>Ensemble</speaker>
               <l n="65" xml:id="l65">La fleur en est belle,</l>
               <l n="66" xml:id="l66">Mais le fruit amer.</l>
@@ -1412,7 +1446,7 @@
               <l n="82" xml:id="l82">Et des Bergers ?</l>
               <l n="83" xml:id="l83">Passons nos jours,</l>
             </sp>
-            <sp who="a4">
+            <sp who="pomone venilie juturne beroe">
               <speaker> à 4<note place="bottom">Seules Pomone, Juturne et Vénilie apparaissent jusque là dans la partition, mais il est très probable que Béroé soit déjà présente sur scène, puisqu’elle intervient dès la scène suivante. ; d’autant plus que le livret Ballard l’indique dans la liste des personnages en début de scène. Toutefois pour ces vers le livret n’indique de « Pomone, Juturne, à 2 ». </note>. </speaker>
               <l n="84" xml:id="l84">Passons nos jours,</l>
               <stage>Lentement </stage>
@@ -1479,7 +1513,7 @@
               <speaker>Béroé</speaker>
               <l  part="F">Qu’il est dur</l>
             </sp>
-            <sp who="ensemble">
+            <sp who="flore beroe">
               <speaker>Ensemble</speaker>
               <l n="102" xml:id="l102">de vivre dans ses chaisnes.</l>
             </sp>
@@ -1535,7 +1569,7 @@
               <speaker>Dieu des jardins</speaker>
               <l  part="F">C’est à moy,</l>
             </sp>
-            <sp who="ensemble">
+            <sp who="faune dieudesjardins">
               <speaker>Ensemble</speaker>
               <l n="121" xml:id="l121">C’est à moy, C’est à moy que le Ciel la destine :</l>
               <stage>Tres-viste. </stage>
@@ -1556,7 +1590,7 @@
               <speaker>Faune</speaker>
               <l  part="F">Tout se rend,</l>
             </sp>
-            <sp who="ensemble">
+            <sp who="faune dieudesjardins">
               <speaker>Ensemble.</speaker>
               <l n="123" xml:id="l123">Tout cede, tout se rend à mon pouvoir divin:/ ?</l>
             </sp>
@@ -1568,35 +1602,35 @@
               <l n="127" xml:id="l127">Faites danser les uns, faites chanter les autres:</l>
               <stage>[Le Dieu fait avancer sa troupe.] (Trois jardiniers.)</stage>
             </sp>
-            <sp who="secondjardinier">
+            <sp who="jardinier2">
               <speaker>Second Jardinier<note place="bottom">Le texte de la partition permet ici de faire ressortir une structure répartie entre un « choryphée » et un chœur, au contraire du livret, qui ne précise que « Les Jardiniers ».</note>.</speaker>
               <l n="128" xml:id="l128">Vive le Dieu des Jardiniers, il est toûjours prest à bien faire;</l>
             </sp>
-            <sp who="(a3)">
+            <sp who="jardinier1 jardinier2 jardinier3">
               <speaker>(à 3) </speaker>
               <l n="129" xml:id="l129">Vive le Dieu des Jardiniers, il est toûjours prest à bien faire;/?/;</l>
             </sp>
-            <sp who="secondjardinier">
+            <sp who="jardinier2">
               <speaker>Second Jardinier</speaker>
               <l n="130" xml:id="l130">Bergeres portez vos paniers, il a dequoy vous satisfaire,</l>
             </sp>
-            <sp who="(a3)">
+            <sp who="jardinier1 jardinier2 jardinier3">
               <speaker>(à 3)</speaker>
               <l n="131" xml:id="l131"> Bergeres, portez vos paniers, il a dequoy vous satisfaire:</l>
             </sp>
-            <sp who="premierjardinier">
+            <sp who="jardinier1">
               <speaker>Premier Jardinier</speaker>
               <l n="132" xml:id="l132"> Sans luy les Jeux, les Passe temps Ont une douceur imparfaite,</l>
               <stage> Viste.</stage>
               <l n="133" xml:id="l133">Et s’il n’est de la Feste,</l>
               <l n="134" xml:id="l134"> L’on ne rit pas longtemps<hi rend="i">, (bis)</hi></l>
             </sp>
-            <sp who="(a3)">
+            <sp who="jardinier1 jardinier2 jardinier3">
               <speaker>(à 3) </speaker>
               <l n="135" xml:id="l135">Et s’il n’est de la Feste,</l>
               <l n="136" xml:id="l136">L’on ne rit pas longtemps. <hi rend="i">(bis)</hi></l>
             </sp>
-            <sp who="premierjardinier">
+            <sp who="jardinier1">
               <speaker>Premier Jardinier. </speaker>
               <l n="137" xml:id="l137">Rien n’est si doux que sa fureur,</l>
               <l n="138" xml:id="l138">Ny si plaisant que sa folie,</l>
@@ -1607,11 +1641,11 @@
               <l n="143" xml:id="l143"> Et s’il n’est de la Feste,</l>
               <l n="144" xml:id="l144"> L’on ne rit pas longtemps. <hi rend="i">(bis)</hi></l>
             </sp>
-            <sp who="(a3)">
+            <sp who="jardinier1 jardinier2 jardinier3">
               <speaker>(à 3)</speaker>
               <l n="145" xml:id="l145"> Et s’il n’est de la Feste, l’on ne rit pas longtemps. <hi rend="i">(bis)</hi></l>
             </sp>
-            <sp who="dieudesjardiniers">
+            <sp who="dieudesjardins">
               <speaker>Dieu des jardiniers. </speaker>
               <l n="146" xml:id="l146">He bien: dans tes buissons,</l>
               <l n="147" xml:id="l147"> Tes Oyseaux, chantent-ils de pareilles Chansons :</l>
@@ -1621,7 +1655,7 @@
               <l n="148" xml:id="l148">Il est vray que jamais Rossignols d’Arcadie,</l>
               <l n="149" xml:id="l149">N’ont fait, N’ont fait plus douce melodie.</l>
             </sp>
-            <sp who="dieudesjardiniers">
+            <sp who="dieudesjardins">
               <speaker>Dieu des Jardiniers</speaker>
               <stage>[Aux Bouviers]</stage>
               <l n="150" xml:id="l150">A vous Bouviers, illustre bande,</l>
@@ -1632,7 +1666,7 @@
               <stage> Gravement.</stage>
               <stage>Reprise.</stage>
             </sp>
-            <sp who="dieudesjardiniers">
+            <sp who="dieudesjardins">
               <speaker>Dieu des Jardiniers</speaker>
               <l n="153" xml:id="l153">Couronnez il est temps, couronnez le vainqueur:</l>
             </sp>
@@ -1652,7 +1686,7 @@
               <speaker>Dieu des jardins</speaker>
               <l n="157" xml:id="l157"> Donnez-luy,</l>
             </sp>
-            <sp who="ensemble">
+            <sp who="faune dieudesjardins">
               <speaker>Ensemble</speaker>
               <l n="158" xml:id="l158">Donnez-luy vostre cœur.</l>
             </sp>
@@ -1690,7 +1724,7 @@
               <speaker>Dieu des jardins</speaker>
               <l n="165" xml:id="l165" part="I">Donnez-luy,</l>
             </sp>
-            <sp who="ensemble">
+            <sp who="faune dieudesjardins">
               <speaker>Ensemble</speaker>
               <l  part="F">Donnez-luy vostre cœur.</l>
               <stage>[Les Nymphes rapportent à Flore une corbeille, dans laquelle est une  couronne d’épines, et une autre de chardons.]</stage>
@@ -1703,11 +1737,11 @@
               <l n="168" xml:id="l168">Ah! pour un plus heureux on garde les fleurettes,</l>
               <l n="169" xml:id="l169" part="I">Pour vous l’Epine et les chardons?</l>
             </sp>
-            <sp who="flore">
+            <sp who="flore venilie">
               <speaker>Flore, Venilie<note place="bottom">Flore, Vénilie et Juturne ont un départ en imitation qu’il est impossible de rendre dans le texte. Sans musique, il faut imaginer que leurs voix s’entremêlent. </note></speaker>
               <l  part="F">Ah!</l>
             </sp>
-            <sp who="flore">
+            <sp who="flore venilie juturne">
               <speaker>Flore, Venilie, Juturne</speaker>
               <l n="170" xml:id="l170">Ah ! Pour un plus heureux on garde, on garde les fleurettes,</l>
               <l n="171" xml:id="l171">Pour vous, Pour vous l’Epine et les chardons.</l>
@@ -1733,7 +1767,7 @@
                 <hi rend="b">Et dequoy paistre ses bourriques. <hi rend="i">(bis)</hi> </hi>
               </l>
             </sp>
-            <sp who="troisjardiniers">
+            <sp who="jardinier1 jardinier2 jardinier3">
               <speaker>Trois Jardiniers: </speaker>
               <l n="177" xml:id="l177">Voicy le fruit du Dieu des Champs,</l>
               <l n="178" xml:id="l178"> Et dequoy paistre, paistre ses bourriques.</l>
@@ -1982,10 +2016,10 @@
           <div>
             <head>Scène première</head>
             <p>Pomone apparaît dès la première scène et est le premier personnage à chanter dans l’action principale. Elle établit la situation en indiquant le lieu (« Vergers de Pomone ») dans sa réplique même :</p>
-            <p rend="margin noindent"><space rend="tab">    </space>Passons nos jours</p>
-            <p rend="margin noindent"><space rend="tab">    </space>Dans <hi rend="b">ces vergers</hi>,</p>
-            <p rend="margin noindent"><space rend="tab">    </space>Loin des amours</p>
-            <p rend="margin noindent"><space rend="tab">    </space>Et des Bergers ?</p>
+            <p><space rend="tab">    </space>Passons nos jours</p>
+            <p><space rend="tab">    </space>Dans <hi rend="b">ces vergers</hi>,</p>
+            <p><space rend="tab">    </space>Loin des amours</p>
+            <p><space rend="tab">    </space>Et des Bergers ?</p>
           </div>
           <div>
             <head>Arrêt musical : « passons nos jours »</head>
@@ -2151,7 +2185,7 @@
             <p>Cette scène illustre le dépit des deux rivaux éconduits, qui se « font la nique » : prétexte à un nouvel affrontement des deux groupes avec chœurs et danses. Le caractère lui-même de la danse est marqué dans une didascalie du livret : « <hi rend="i">les bouviers dansent</hi> <hi rend="b"><hi rend="i">en se moquant</hi></hi> »</p>
             <p>Elle est aussi très importante sur le plan musical. En fait, elle est celle que je préfère, de toute la musique qui nous est restée, avec l’ouverture. Elle déploie en effet une orchestration très originale, et inédite jusque-là, qui semble bien avoir été de  l’invention de Cambert<note place="bottom">D’après l’article qui lui est consacré dans le <hi rend="i">Grove’s dictionnary of Music and Musicians.</hi> </note>. En effet, dès le début de l’air de Faune : « Voila le prix de vos Musiques… », la voix est accompagnée, en plus du continuo, par deux dessus de violons, placés au-dessus dans la partition, et qui sont les véritables « solistes » du moment, auxquelles ils donnent sa carrure de danse. La tonalité de Sol mineur est ainsi expliquée, selon Johann Mattheson :</p>
             <quote>
-              <p>C’est presque le plus beau de tous les tons : il mêle au sérieux du précédent une tendresse alerte mais procure aussi grâce et charme. Choses tendres ou <hi rend="b">ravigorantes</hi> ; plaintes modérées ou joie tempérée. Sol mineur est <hi rend="b">extrêmement flexible</hi>.<note place="bottom">Johann Mattheson (1681-1764), <hi xml:lang="de" rend="i">Das Neu-eröffnete Orchestre</hi>, Hamburg, 1713. Tableau-résumé de <ref target="http://www.musebaroque.fr/">www.musebaroque.fr</ref> </note></p>
+              <p>C’est presque le plus beau de tous les tons : il mêle au sérieux du précédent une tendresse alerte mais procure aussi grâce et charme. Choses tendres ou <hi rend="b">ravigorantes</hi> ; plaintes modérées ou joie tempérée. Sol mineur est <hi rend="b">extrêmement flexible</hi>.<note place="bottom">Johann Mattheson (1681-1764), <hi rend="i">Das Neu-eröffnete Orchestre</hi>, Hamburg, 1713. Tableau-résumé de <ref target="http://www.musebaroque.fr/">www.musebaroque.fr</ref> </note></p>
             </quote>
             <p>Une certaine <hi rend="b">énergie</hi> de ce ton serait donc exploitée dans cette scène.</p>
             <p>Quant à son relatif,  Sib Majeur, il est selon Charpentier joyeux et magnifique.</p>
@@ -2321,7 +2355,7 @@
 <lb/>MONSEIGNEUR
 <lb/>L’ARCHEVESQUE
 <lb/>DE TURIN.<space rend="tab">    </space>
-<lb/><hi rend="i">APRES LA REPRESENTATION<space rend="tab">    </space>
+<lb/><hi rend="i">APRES LA REPRESENTATION
 <lb/>De la Comedie suivante.</hi></p>
           <p>De Paris ce 30. Avril 1659</p>
           <p rend="i">MONSEIGNEUR,</p>
