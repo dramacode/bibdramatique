@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -636,7 +633,7 @@
     <body>
       <head>ZAÏDE.<lb/>TRAGEDIE.</head>
         <div xml:id="preface">
-          <head>Préface<pb n="I-a" xml:id="pI"/></head>
+          <head>Préface</head><pb n="I-a" xml:id="pI"/>
           <p>Cette Pièce est d’un caractere si singulier, qu’il y avoit lieu de craindre qu’elle ne fût pas au goust de tout le monde ; il est aisé de se perdre lors qu’on veut s’écarter des routes ordinaires : Cependant je dois estre assez content du succez de Zaïde.</p>
           <p>Ce n’est pas qu’on n’ait fait beaucoup de remarques tres judicieuses, &amp; qu’il n’y ait beaucoup de fautes que j’ay connuës<note place="bottom">Ici dans le sens de « reconnues ».</note> moy-mesme &amp; dont je suis tombé d’accord avec les gens de bonne foy ; mais je ne pense pas que quelques legeres imperfections doivent faire condamner un ouvrage.</p>
           <p>Quelques-uns m’ont reproché <pb n="II" xml:id="pII"/> que j’ay mal suivi mon histoire, &amp; ils n’ont pas pris garde que je n’ay point d’autre histoire que celle que j’ay voulu me faire. Zaïde est une pure invention, dont il n’y a aucun fondement dans l’Histoire de Grenade. Les noms des Zegris, &amp; des Abencerrages, &amp; cette haine celebre entre leurs deux familles sont les seules choses qui ont quelque apparence de verité ; tout le reste est imaginé. J’ay crû que je pouvais <ref target="#hazarder">hazarder*</ref><note place="bottom">Les astérisques (*) renvoient au lexique en fin de volume.</note> cette espece de Roman sur le Theatre, où il y a longtemps qu’on est ennuyé de ne voir que des Romains &amp; des Grecs : J’ay choisi la Nation la plus avanturiere du monde, afin que la vraysemblance ne fut point blessée par la nouveauté d’un rôle de femme en homme  qui soutient toute une piece.</p>
@@ -644,14 +641,14 @@
           <p>Voila les deux objections qui ont fait le plus de bruit dans le monde. Je pense y avoir assez bien répondu, &amp; je croy qu’on me dispensera volontiers de faire une grande dissertation pour répondre aux autres qui m’ont paru de moindre consequence : Les Prefaces ne sont guere de mon goust, &amp; il me semble que celle-cy est déja trop longue.</p>
         </div>
         <div xml:id="privilege">
-          <head>Extrait du Privilege du Roy<pb n="V" xml:id="pV"/></head>
+          <head>Extrait du Privilege du Roy</head><pb n="V" xml:id="pV"/>
           <p>Par grace &amp; privilege du Roy, donné à saint Germain en Laye le treiziéme de Mars 1681. signé par le Roy en son Conseil, GAMART : Il est permis au Sieur de la Chapelle de faire imprimer, vendre, &amp; debiter par tel Libraire ou Imprimeur qu’il voudra choisir une Tragedie de sa composition, intitulée, <hi rend="i">Zaïde</hi> : Pendant le temps de six années, à compter du jour qu’elle sera achevée d’imprimer pour la premiere fois ; &amp; défence sont faites à toutes personnes de l’imprimer ou faire imprimer, vendre ny debiter d’autre Edition que celle de l’Exposant, ou ceux qui auront droit de luy, à peine de trois mille livres d’amende, confiscation des exemplaires contre-faits, &amp; de tous <ref target="#depens">dépens*</ref>, dommages &amp; interests ; ainsi qu’il est porté plus au long par lesdites lettres de privilege.</p>
           <p>Et ledit Sieur de la Chapelle a cedé &amp; transporté son droit de Privilege à Jean Ribou pour en joüir par luy, suivant l’accord fait entr’eux.</p>
           <p rend="i">Registré sur le Livre de la Communauté le dix-huitiéme jour de  Mars 1681 ;</p>
           <p>Achevé d’imprimer pour la premiere fois le vingtiéme de Mars 1681.</p>
         </div>
       <div>
-        <head>ACTEURS<pb n="VI" xml:id="pVI"/></head>
+        <head>ACTEURS</head><pb n="VI" xml:id="pVI"/>
         <castList>
           <castItem>
             <role xml:id="abderamen">ABDERAMEN,</role>
@@ -662,7 +659,7 @@
             <roleDesc>Princesse de Grenade.</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="zaide">ZAIDE,</role>
+            <role xml:id="zulemar">ZAIDE,</role>
             <roleDesc>Princesse de Grenade, de la famille des Zegris, déguisée sous le nom de Zulemar.</roleDesc>
           </castItem>
           <castItem>
@@ -692,8 +689,9 @@
         <stage>La Scene est à Grenade.</stage>
       </div>
         <div type="act">
-          <head>ACTE I.<pb n="1, A" xml:id="p1"/></head>
+          <head>ACTE I.</head>
           <div type="scene">
+            <pb n="1, A" xml:id="p1"/>
             <head>SCENE I.</head>
             <stage>ZULEMAR, ABENDAX, OSMAR</stage>
             <sp who="zulemar">
@@ -712,7 +710,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE II<pb n="2" xml:id="p2"/></head>
+            <head>SCENE II</head><pb n="2" xml:id="p2"/>
             <stage>ZULEMAR, ABENDAX</stage>
             <sp who="zulemar">
               <speaker>ZULEMAR</speaker>
@@ -908,10 +906,10 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE III<pb n="7" xml:id="p7"/></head>
-            <stage xml:lang="de">ABDERAMEN, ZULEMAR, ABENDAX</stage>
+            <head>SCENE III</head><pb n="7" xml:id="p7"/>
+            <stage>ABDERAMEN, ZULEMAR, ABENDAX</stage>
             <sp who="abderamen">
-              <speaker xml:lang="de">ABDERAMEN</speaker>
+              <speaker>ABDERAMEN</speaker>
               <l n="144" xml:id="l144">Scavez-vous qu’Alamir a quitté mon Armée,</l>
               <l n="145" xml:id="l145" part="I">Qu’il revient en ces lieux sans mon ordre ?</l>
             </sp>
@@ -985,7 +983,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE IV<pb n="9" xml:id="p9"/></head>
+            <head>SCENE IV</head><pb n="9" xml:id="p9"/>
             <stage>LE ROY<note place="bottom">Variante édition de 1700 « LE ROY »remplacé par « ABDERAMEN ».</note>, ZULEMAR</stage>
             <sp who="abderamen">
               <speaker>ABDERAMEN</speaker>
@@ -1012,7 +1010,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE V<pb n="10" xml:id="p10"/></head>
+            <head>SCENE V</head><pb n="10" xml:id="p10"/>
             <sp who="zulemar">
               <speaker>ZULEMAR</speaker>
               <l n="207" xml:id="l207">Qu’entens-je ! A quel employ me vois-je destinée ?</l>
@@ -1115,7 +1113,7 @@
               <l n="281" xml:id="l281" part="I">Alamir….</l>
             </sp>
             <sp who="fatime">
-              <speaker>FATIME <pb n="13, B" xml:id="p13"/></speaker>
+              <speaker>FATIME </speaker><pb n="13, B" xml:id="p13"/>
               <l  part="F">Oüy, Seigneur, il a sceu me toucher,</l>
               <l n="282" xml:id="l282">Il m’a plû, je ne veux, je ne puis m’en cacher,</l>
               <l n="283" xml:id="l283">Sa grande ame a la <ref target="#gloire">gloire*</ref> uniquement sensible,</l>
@@ -1148,7 +1146,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE VII<pb n="14" xml:id="p14"/></head>
+            <head>SCENE VII</head><pb n="14" xml:id="p14"/>
             <stage> ZULEMAR, ABENDAX</stage>
             <sp who="zulemar">
               <speaker>ZULEMAR</speaker>
@@ -1376,9 +1374,9 @@
           </div>
           <div type="scene">
             <head>SCENE III</head>
-            <stage xml:lang="de">ALAMIR , GAZUL</stage>
+            <stage>ALAMIR , GAZUL</stage>
             <sp who="alamir">
-              <speaker xml:lang="de">ALAMIR</speaker>
+              <speaker>ALAMIR</speaker>
               <l n="452" xml:id="l452">Ah! Gazul, mon soupçon n’est que trop veritable,</l>
               <l n="453" xml:id="l453">Lors qu’un bruit incertain m’aprit qu’en cette Cour,</l>
               <l n="454" xml:id="l454">Un Rival dangereux traversoit mon amour :</l>
@@ -1444,7 +1442,7 @@
           </div>
           <div type="scene">
             <head>SCENE V</head>
-            <stage xml:lang="de">ALAMIR, ZULEMAR, OSMAR, GAZUL</stage>
+            <stage>ALAMIR, ZULEMAR, OSMAR, GAZUL</stage>
             <sp who="zulemar">
               <speaker>ZULEMAR, <hi rend="i">à Osmar</hi></speaker>
               <l  part="F">Laissez-nous,</l>
@@ -1580,7 +1578,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE VII<pb n="26" xml:id="p26"/></head>
+            <head>SCENE VII</head><pb n="26" xml:id="p26"/>
             <stage>ZULEMAR, FATIME, ABENDAX</stage>
             <sp who="fatime">
               <speaker>FATIME</speaker>
@@ -1668,8 +1666,9 @@
           </div>
         </div>
         <div type="act">
-          <head>ACTE III  <pb n="29" xml:id="p29"/></head>
+          <head>ACTE III </head>
           <div type="scene">
+            <pb n="29" xml:id="p29"/>
             <head>SCENE I</head>
             <stage>ZULEMAR, ABENDAX</stage>
             <sp who="zulemar">
@@ -1734,9 +1733,9 @@
           </div>
           <div type="scene">
             <head>SCENE III</head>
-            <stage xml:lang="de">ABDERAMEN, ALAMIR</stage>
+            <stage>ABDERAMEN, ALAMIR</stage>
             <sp who="alamir">
-              <speaker xml:lang="de">ALAMIR</speaker>
+              <speaker>ALAMIR</speaker>
               <l  part="M">Seigneur...</l>
             </sp>
             <sp who="abderamen">
@@ -1841,7 +1840,7 @@
               <l n="769" xml:id="l769" part="I">Quoy, Seigneur…</l>
             </sp>
             <sp who="abderamen">
-              <speaker>ABDERAMEN<pb n="34" xml:id="p34"/></speaker>
+              <speaker>ABDERAMEN</speaker><pb n="34" xml:id="p34"/>
               <l  part="F">Je l’épouse étouffant vostre espoir,</l>
               <l n="770" xml:id="l770">Ce n’est plus qu’en sujet que vous la devez voir.</l>
             </sp>
@@ -1883,7 +1882,7 @@
               <l n="798" xml:id="l798">Qu’aisement je pourrois meriter mon malheur. </l>
             </sp>
             <sp who="abderamen">
-              <speaker>Abderamen<pb n="35" xml:id="p35"/></speaker>
+              <speaker>Abderamen</speaker><pb n="35" xml:id="p35"/>
               <l n="799" xml:id="l799">Je vous entens, je voy ce que vous pouvez faire.</l>
               <l n="800" xml:id="l800">Je sçauray profiter de cet aveu sincere.</l>
               <l n="801" xml:id="l801" part="I">Pensez-y.</l>
@@ -1987,7 +1986,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE VII<pb n="38" xml:id="p38"/></head>
+            <head>SCENE VII</head><pb n="38" xml:id="p38"/>
             <stage>ALAMIR, OSMAR, GARDES</stage>
             <sp who="osmar">
               <speaker>OSMAR</speaker>
@@ -2019,8 +2018,8 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE VIII<pb n="39" xml:id="p39"/></head>
-            <stage xml:lang="de">ALAMIR, ZULEMAR, OSMAR, ABENDAX, GARDES</stage>
+            <head>SCENE VIII</head><pb n="39" xml:id="p39"/>
+            <stage>ALAMIR, ZULEMAR, OSMAR, ABENDAX, GARDES</stage>
             <sp who="zulemar">
               <speaker>ZULEMAR</speaker>
               <l  part="F">Arrestez.</l>
@@ -2092,7 +2091,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE IX<pb n="41" xml:id="p41"/></head>
+            <head>SCENE IX</head><pb n="41" xml:id="p41"/>
             <stage>ZULEMAR, ABENDAX</stage>
             <sp who="zulemar">
               <speaker>ZULEMAR</speaker>
@@ -2115,11 +2114,12 @@
           </div>
         </div>
         <div type="act">
-          <head>ACTE IV<pb n="42" xml:id="p42"/></head>
+          <head>ACTE IV</head>
           <div type="scene">
+            <pb n="42" xml:id="p42"/>
             <head>SCENE I</head>
             <stage>FATIME, ZINDARISE</stage>
-            <sp who="zindarise">
+            <sp who="zindarize">
               <speaker>ZINDARISE</speaker>
               <l n="931" xml:id="l931">Ouy, Madame, avec soin les portes sont gardées</l>
               <l n="932" xml:id="l932">D’armes &amp; de Soldats, les places sont bordées,</l>
@@ -2160,7 +2160,7 @@
               <l n="964" xml:id="l964">Et qui m’expliquera ces funestes <ref target="#mistere1">misteres*</ref> :</l>
               <l n="965" xml:id="l965">Qui livrent mon esprit à de cruels soupçons ?<note place="bottom">Vers absent de l’édition de  1683 voir notes sur la présente édition.</note></l>
             </sp>
-            <sp who="zindarise">
+            <sp who="zindarize">
               <speaker>ZINDARISE</speaker>
               <l n="966" xml:id="l966">Seul de tous ses projets le Roy sçait les raisons,</l>
               <l n="967" xml:id="l967">Le secret fut toûjours sa grande politique ;</l>
@@ -2168,7 +2168,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE II<pb n="44" xml:id="p44"/></head>
+            <head>SCENE II</head><pb n="44" xml:id="p44"/>
             <stage>ABDERAMEN, FATIME, ZINDARISE</stage>
             <sp who="abderamen">
               <speaker>ABDERAMEN</speaker>
@@ -2196,7 +2196,7 @@
               <l n="990" xml:id="l990">Par un heureux hymen, vous prouve mon amour.</l>
             </sp>
             <sp who="fatime">
-              <speaker>FATIME<pb n="45" xml:id="p45"/></speaker>
+              <speaker>FATIME</speaker><pb n="45" xml:id="p45"/>
               <l n="991" xml:id="l991">Seigneur de vos projets, <ref target="#etonner1">étonnée*</ref>, interdite,</l>
               <l n="992" xml:id="l992">Je ne puis vous cacher le trouble qui m’agite,</l>
               <l n="993" xml:id="l993">Tant de soins, tant d’honneurs que je n’attandois pas…</l>
@@ -2237,7 +2237,7 @@
               <l n="1018" xml:id="l1018">Quand tout doit vous presser, qui vous peut retenir ?</l>
             </sp>
             <sp who="fatime">
-              <speaker>FATIME<pb n="46" xml:id="p46"/></speaker>
+              <speaker>FATIME</speaker><pb n="46" xml:id="p46"/>
               <l n="1019" xml:id="l1019">Si vous perdez pour moi le soin de vostre <ref target="#gloire">gloire*</ref> ;</l>
               <l n="1020" xml:id="l1020">Seigneur, dois-je pour vous en perdre la memoire.</l>
               <l n="1021" xml:id="l1021">Quel est vostre dessein, lors que de toutes parts,</l>
@@ -2313,7 +2313,7 @@
               <l n="1069" xml:id="l1069">C’est de vous que dépent ou sa vie ou se mort.</l>
             </sp>
             <sp who="fatime">
-              <speaker>FATIME<pb n="48" xml:id="p48"/></speaker>
+              <speaker>FATIME</speaker><pb n="48" xml:id="p48"/>
               <l n="1070" xml:id="l1070">Le Ciel qui vous a fait le maistre de son <ref target="#sort3">sort*</ref>,</l>
               <l n="1071" xml:id="l1071">Daigne de ce Heros vous prouver l’innocence,</l>
               <l n="1072" xml:id="l1072">Mais n’attendez de moy qu’un mal-heureux silence :</l>
@@ -2425,7 +2425,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE V<pb n="51" xml:id="p51"/></head>
+            <head>SCENE V</head><pb n="51" xml:id="p51"/>
             <stage>ABDERAMEN, ZULEMAR, FATIME</stage>
             <sp who="abderamen">
               <speaker>ABDERAMEN</speaker>
@@ -2452,7 +2452,7 @@
               <l n="1152" xml:id="l1152">Vivez pour mon état, pour moy, je vous l’ordonne.</l>
             </sp>
             <sp who="alamir">
-              <speaker>ALAMIR<pb n="52" xml:id="p52"/></speaker>
+              <speaker>ALAMIR</speaker><pb n="52" xml:id="p52"/>
               <l n="1153" xml:id="l1153">Je reçoy le pardon que vous me presentez,</l>
               <l n="1154" xml:id="l1154">Et je veux bien devoir ma grace à vos bontez ;</l>
               <l n="1155" xml:id="l1155">Seigneur ; non qu’en l’état où ma vie est reduite,</l>
@@ -2525,8 +2525,9 @@
           </div>
         </div>
         <div type="act">
-          <head>ACTE V<pb n="54" xml:id="p54"/></head>
+          <head>ACTE V</head>
           <div type="scene">
+            <pb n="54" xml:id="p54"/>
             <head>SCENE I</head>
             <stage>ZULEMAR, ABENDAX</stage>
             <sp who="abendax">
@@ -2611,9 +2612,9 @@
           </div>
           <div type="scene">
             <head>SCENE II</head>
-            <stage xml:lang="de">ZULEMAR, FATIME, ABENDAX, OSMAR</stage>
+            <stage>ZULEMAR, FATIME, ABENDAX, OSMAR</stage>
             <sp who="osmar">
-              <speaker xml:lang="de">OSMAR</speaker>
+              <speaker>OSMAR</speaker>
               <l  part="F">Si vous voulez sa grace,</l>
               <l n="1264" xml:id="l1264">Le Roy vous la promet, il est rien qu’il ne fasse,</l>
               <l n="1265" xml:id="l1265">Pourveu que vostre cœur propice à ses souhaits,</l>
@@ -2626,7 +2627,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE III<pb n="57" xml:id="p57"/></head>
+            <head>SCENE III</head><pb n="57" xml:id="p57"/>
             <stage>ZULEMAR, FATIME</stage>
             <sp who="fatime">
               <speaker>FATIME</speaker>
@@ -2700,7 +2701,7 @@
             </sp>
           </div>
           <div type="scene">
-            <head>SCENE IV<pb n="59" xml:id="p59"/></head>
+            <head>SCENE IV</head><pb n="59" xml:id="p59"/>
             <stage>ALAMIR, ZULEMAR</stage>
             <sp who="zulemar">
               <speaker>ZULEMAR</speaker>
@@ -2847,9 +2848,9 @@
           </div>
           <div type="scene">
             <head>SCENE V</head>
-            <stage xml:lang="de">ALAMIR, ZULEMAR, OSMAR</stage>
+            <stage>ALAMIR, ZULEMAR, OSMAR</stage>
             <sp who="zulemar">
-              <speaker xml:lang="de">ZULEMAR</speaker>
+              <speaker>ZULEMAR</speaker>
               <l n="1421" xml:id="l1421" part="I">Qu’est-ce, Osmar.</l>
             </sp>
             <sp who="osmar">
@@ -2878,7 +2879,7 @@
           </div>
           <div type="scene">
             <head>SCENE VI</head>
-            <stage xml:lang="de">ABDERAMEN, ALAMIR, ZULEMAR, OSMAR</stage>
+            <stage>ABDERAMEN, ALAMIR, ZULEMAR, OSMAR</stage>
             <sp who="zulemar">
               <speaker>ZULEMAR</speaker>
               <l n="1441" xml:id="l1441">Seigneur, après l’abus commis aux yeux de tous ;</l>
@@ -3209,7 +3210,7 @@
             <xr>V. <ref target="#l942">942</ref></xr>
             <def xml:id="puissance2">« Forces, richesses &amp; autres choses qui donnent ou affermissent le pouvoir de commander »</def>
             <xr>V. <ref target="#l784">784</ref>, <ref target="#l787">787</ref></xr>
-            <def xml:id="puissance3">« Se dit aussi des forces corporelles &amp; des biens de fortune , […] les Puissances, <space/>ceux qui ont du credit et de l’autorité, les Ministres »</def>
+            <def xml:id="puissance3">« Se dit aussi des forces corporelles &amp; des biens de fortune , […] les Puissances, ceux qui ont du credit et de l’autorité, les Ministres »</def>
             <xr>V. <ref target="#l368">368</ref></xr>
           </entryFree>
           <entryFree xml:id="renommee">
@@ -3365,7 +3366,7 @@
             <p>« Venait de Mâcon, en 1658, lorsqu’il entra au Théâtre du Marais en 1659. […] Hubert, comédien modeste, mais consciencieux, fut un de ceux qui restèrent fidèles à la tradition de Molière. Au moment du démembrement de la troupe, après la mort de son chef, Hubert suivit Lagrange et devint son second. Conservé à la jonction de 1680, à part entière, à charge de payer pension, il se retira le 24 février 1685. […] »</p>
           </div>
           <div>
-            <head>Annexe V Extraits du registre de Lagrange Janvier 1681<note place="bottom"><hi rend="b"><space/>[Young</hi> B. E et <hi rend="b">Young</hi> G .P, éd.],<hi rend="i"> Le registre de La Grange 1659-1685</hi> reproduit en fac-similé avec un index et une notice sur La Grange et sa part dans le théâtre de Molière, Paris, Droz, 1947 p.255-257,p. 261.</note></head>
+            <head>Annexe V Extraits du registre de Lagrange Janvier 1681<note place="bottom"><hi rend="b">[Young</hi> B. E et <hi rend="b">Young</hi> G .P, éd.],<hi rend="i"> Le registre de La Grange 1659-1685</hi> reproduit en fac-similé avec un index et une notice sur La Grange et sa part dans le théâtre de Molière, Paris, Droz, 1947 p.255-257,p. 261.</note></head>
             <p>Dimanche 26 Zaïde pièce nouvelle de M. de La Chapelle</p>
             <p>A st germain L’école des femmes</p>
             <p>Lundi 27 la mère coquette</p>
@@ -3505,7 +3506,7 @@
               <quote>
                 <bibl><hi rend="sc">Cioranescu</hi>,<title>Bibliographie de la littérature française du dix-septième siècle</title>, Paris, 1965</bibl>
                 <bibl><hi rend="sc">Klapp</hi>,<title>Bibliographie d’histoire littéraire française</title>, Vittorio Klostermann, Francfort, 1960 et suivantes</bibl>
-                <bibl><hi rend="sc">Mélèse</hi>, Pierre, <title>Répertoire analytique des documents contemporains d’information et de critique concernant le théâtre à Paris sous Louis XIV : 1659-1715</title>, Paris, Droz, 1934 (BNF AS <hi xml:lang="en" rend="b">792 .094 4032 MEL rep</hi>)</bibl>
+                <bibl><hi rend="sc">Mélèse</hi>, Pierre, <title>Répertoire analytique des documents contemporains d’information et de critique concernant le théâtre à Paris sous Louis XIV : 1659-1715</title>, Paris, Droz, 1934 (BNF AS <hi rend="b">792 .094 4032 MEL rep</hi>)</bibl>
               </quote>
             </div>
             <div>
