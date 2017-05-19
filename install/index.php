@@ -2,12 +2,12 @@
 ini_set('display_errors', '1');
 error_reporting(-1);
 $conf = include( dirname(__FILE__)."/conf.php" );
-include( dirname(dirname(__FILE__))."/Teinte/Web.php" );
-include( dirname(dirname(__FILE__))."/Teinte/Base.php" );
+include( dirname(__FILE__)."/Teinte/Web.php" );
+include( dirname(__FILE__)."/Teinte/Base.php" );
 $base = new Teinte_Base( $conf['sqlite'] );
 $path = Teinte_Web::pathinfo(); // document demandé
 $basehref = Teinte_Web::basehref(); //
-$teinte = $basehref."../Teinte/";
+$teinte = $basehref."Teinte/";
 
 // chercher le doc dans la base
 $docid = current( explode( '/', $path ) );
